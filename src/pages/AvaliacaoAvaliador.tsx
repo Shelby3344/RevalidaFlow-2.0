@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { MessageSquare, ListChecks, AlignLeft } from 'lucide-react';
 import { AreaBadge } from '@/components/AreaBadge';
 import { AreaCode } from '@/data/checklists';
-import { checklistsData } from '@/data/checklists';
 import { getChecklistContentByIdAsync, defaultChecklistContent } from '@/data/checklistContents';
 import { ChecklistContent } from '@/types/checklists';
 import { SessionLinkPanel } from '@/components/avaliacao/SessionLinkPanel';
@@ -13,6 +12,7 @@ import { TimerDisplay } from '@/components/avaliacao/TimerDisplay';
 import { ChecklistEvaluator } from '@/components/avaliacao/ChecklistEvaluator';
 import { ImpressoItem } from '@/components/avaliacao/ImpressoItem';
 import { ResultSummary } from '@/components/avaliacao/ResultSummary';
+import { AnaliseResultadosLocal } from '@/components/avaliacao/AnaliseResultadosLocal';
 import { useAvaliacaoSession } from '@/hooks/useAvaliacaoSession';
 import { useAvaliacaoTimer } from '@/hooks/useAvaliacaoTimer';
 import { useAvaliacaoSync } from '@/hooks/useAvaliacaoSync';
@@ -31,7 +31,6 @@ export default function AvaliacaoAvaliador() {
   const {
     session,
     loadSession,
-    createSession,
     updateSession,
     setScore,
     unlockImpresso,
@@ -170,8 +169,6 @@ export default function AvaliacaoAvaliador() {
     toast.success('Resultado compartilhado com o avaliado');
   }, [session, updateSession, broadcastResultShared]);
 
-  const checklist = session ? checklistsData.find(c => c.id === session.checklistId) : null;
-
   if (isLoading) {
     return (
       <AppLayout>
@@ -290,6 +287,17 @@ export default function AvaliacaoAvaliador() {
                   resultShared={session.resultShared}
                   onShareResult={handleShareResult}
                 />
+                
+                {/* Botão de Análise de Resultados */}
+                <div className="mt-6">
+                  <AnaliseResultadosLocal
+                    items={content.evaluationItems}
+                    scores={session.scores}
+                    totalScore={session.totalScore}
+                    maxScore={session.maxScore}
+                    checklistTitle={session.checklistTitle}
+                  />
+                </div>
               </div>
             ) : (
               <div className="bg-card border border-border rounded-lg mb-6 overflow-hidden">

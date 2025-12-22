@@ -1,8 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
-import { MessageSquare, ListChecks, Lock } from "lucide-react";
+import { MessageSquare, ListChecks, Lock, Unlock } from "lucide-react";
 import { AreaBadge } from "@/components/AreaBadge";
 import { AreaCode } from "@/data/checklists";
 import {
@@ -11,6 +11,7 @@ import {
 } from "@/data/checklistContents";
 import { ChecklistContent } from "@/types/checklists";
 import { ResultSummary } from "@/components/avaliacao/ResultSummary";
+import { JoinSessionModal } from "@/components/avaliacao/JoinSessionModal";
 import { useAvaliacaoSession } from "@/hooks/useAvaliacaoSession";
 import { useAvaliacaoSync } from "@/hooks/useAvaliacaoSync";
 import { formatTime } from "@/lib/avaliacao-utils";
@@ -24,15 +25,15 @@ export default function AvaliacaoAvaliado() {
     defaultChecklistContent
   );
   const [isLoading, setIsLoading] = useState(true);
+  const [showJoinModal, setShowJoinModal] = useState(false);
+  const [hasJoined, setHasJoined] = useState(false);
   const [timeRemaining, setTimeRemaining] = useState(600);
   const [unlockedImpressos, setUnlockedImpressos] = useState<number[]>([]);
   const [sessionStatus, setSessionStatus] = useState<
     "aguardando" | "em_andamento" | "pausado" | "finalizado"
   >("aguardando");
   const [resultShared, setResultShared] = useState(false);
-  const [impressosState, setImpressosState] = useState<typeof content.impressos>(
-    []
-  );
+  const [expandedImpressos, setExpandedImpressos] = useState<Set<number>>(new Set());
 
   const { session, loadSession, updateSession } = useAvaliacaoSession();
 
@@ -47,6 +48,11 @@ export default function AvaliacaoAvaliado() {
     },
     onImpressoLocked: (impressoId) => {
       setUnlockedImpressos((prev) => prev.filter((id) => id !== impressoId));
+      setExpandedImpressos((prev) => {
+        const next = new Set(prev);
+        next.delete(impressoId);
+        return next;
+      });
     },
     onSessionStarted: () => {
       setSessionStatus("em_andamento");
@@ -66,6 +72,10 @@ export default function AvaliacaoAvaliado() {
     },
     onResultShared: () => {
       setResultShared(true);
+      // Recarregar sessão para obter pontuações atualizadas
+      if (sessionCode) {
+        loadSession(sessionCode);
+      }
       toast.success("Resultado disponível!");
     },
   });
@@ -100,28 +110,43 @@ export default function AvaliacaoAvaliado() {
           loaded.checklistId
         );
         setContent(checklistContent);
-        setImpressosState(checklistContent.impressos);
       } catch {
         setContent(defaultChecklistContent);
       }
 
-      // Notificar avaliador que conectou
-      const avaliadoName = prompt("Digite seu nome:") || "Avaliado";
-      updateSession({ avaliadoName });
-      broadcastAvaliadoConnected(sessionCode, avaliadoName);
-
       setIsLoading(false);
+      
+      // Mostrar modal de entrada se ainda não entrou
+      if (!loaded.avaliadoName) {
+        setShowJoinModal(true);
+      } else {
+        setHasJoined(true);
+      }
     };
 
     initSession();
-  }, [sessionCode, loadSession, navigate, broadcastAvaliadoConnected, updateSession]);
+  }, [sessionCode, loadSession, navigate]);
+
+  const handleJoinSession = useCallback((name: string) => {
+    if (!sessionCode) return;
+    
+    updateSession({ avaliadoName: name });
+    broadcastAvaliadoConnected(sessionCode, name);
+    setShowJoinModal(false);
+    setHasJoined(true);
+    toast.success("Conectado à sessão!");
+  }, [sessionCode, updateSession, broadcastAvaliadoConnected]);
 
   const toggleImpresso = (impressoId: number) => {
-    setImpressosState((prev) =>
-      prev.map((imp) =>
-        imp.id === impressoId ? { ...imp, isOpen: !imp.isOpen } : imp
-      )
-    );
+    setExpandedImpressos((prev) => {
+      const next = new Set(prev);
+      if (next.has(impressoId)) {
+        next.delete(impressoId);
+      } else {
+        next.add(impressoId);
+      }
+      return next;
+    });
   };
 
   if (isLoading) {
@@ -145,6 +170,21 @@ export default function AvaliacaoAvaliado() {
             <p className="text-muted-foreground mb-4">Sessão não encontrada</p>
             <Button onClick={() => navigate("/")}>Voltar ao início</Button>
           </div>
+        </div>
+      </AppLayout>
+    );
+  }
+
+  // Modal de entrada
+  if (showJoinModal) {
+    return (
+      <AppLayout>
+        <div className="flex-1 flex items-center justify-center">
+          <JoinSessionModal
+            open={showJoinModal}
+            checklistTitle={session.checklistTitle}
+            onJoin={handleJoinSession}
+          />
         </div>
       </AppLayout>
     );
@@ -209,7 +249,7 @@ export default function AvaliacaoAvaliado() {
   }
 
   // Impressos liberados
-  const impressosLiberados = impressosState.filter((imp) =>
+  const impressosLiberados = content.impressos.filter((imp) =>
     unlockedImpressos.includes(imp.id)
   );
 
@@ -333,29 +373,42 @@ export default function AvaliacaoAvaliado() {
                 <h3 className="text-sm font-medium text-foreground mb-3">
                   📄 Impressos Disponíveis
                 </h3>
-                {impressosLiberados.map((impresso) => (
-                  <div
-                    key={impresso.id}
-                    className="bg-card border border-green-500/30 rounded-lg overflow-hidden"
-                  >
-                    <button
-                      onClick={() => toggleImpresso(impresso.id)}
-                      className="w-full flex items-center justify-between p-4 hover:bg-secondary/30 transition-colors"
+                {impressosLiberados.map((impresso) => {
+                  const isExpanded = expandedImpressos.has(impresso.id);
+                  return (
+                    <div
+                      key={impresso.id}
+                      className="bg-card border border-green-500/30 rounded-lg overflow-hidden"
                     >
-                      <span className="text-sm text-foreground">
-                        {impresso.title}
-                      </span>
-                      <div className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center">
-                        <Lock className="w-4 h-4 text-white" />
-                      </div>
-                    </button>
-                    {impresso.isOpen && (
-                      <div className="p-4 border-t border-border/30 text-sm text-muted-foreground">
-                        {impresso.content || `Conteúdo do ${impresso.title}...`}
-                      </div>
-                    )}
-                  </div>
-                ))}
+                      <button
+                        onClick={() => toggleImpresso(impresso.id)}
+                        className="w-full flex items-center justify-between p-4 hover:bg-secondary/30 transition-colors"
+                      >
+                        <span className="text-sm text-foreground">
+                          {impresso.title}
+                        </span>
+                        <div className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center">
+                          <Unlock className="w-4 h-4 text-white" />
+                        </div>
+                      </button>
+                      {isExpanded && (
+                        <div className="p-4 border-t border-border/30 text-sm text-muted-foreground">
+                          {impresso.content ? (
+                            <div className="whitespace-pre-wrap">{impresso.content}</div>
+                          ) : impresso.image ? (
+                            <img
+                              src={impresso.image}
+                              alt={impresso.title}
+                              className="max-w-full rounded-lg"
+                            />
+                          ) : (
+                            <p className="italic">Conteúdo do {impresso.title}...</p>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             )}
           </div>

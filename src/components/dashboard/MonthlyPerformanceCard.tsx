@@ -41,7 +41,7 @@ export function MonthlyPerformanceCard() {
               fillOpacity={0.3}
             />
             <Radar
-              name="Pense Revalida (2)"
+              name="Revalida Flow (2)"
               dataKey="pense"
               stroke="hsl(252 87% 64%)"
               fill="hsl(252 87% 64%)"

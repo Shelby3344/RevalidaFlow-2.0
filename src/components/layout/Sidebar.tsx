@@ -47,7 +47,7 @@ const menuSections: MenuSection[] = [
         title: "Banco de checklists", 
         icon: ClipboardList, 
         children: [
-          { title: "Pense Revalida", path: "/checklists" },
+          { title: "Revalida Flow", path: "/checklists" },
           { title: "Parceiros / Clientes", path: "/checklists/parceiros" },
         ]
       },
@@ -116,17 +116,12 @@ export function Sidebar() {
     <aside className="fixed left-0 top-0 z-40 h-screen w-64 bg-sidebar border-r border-border/30">
       {/* Logo */}
       <div className="flex items-center gap-3 px-6 py-5 border-b border-border/30">
-        <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-primary/20">
-          <div className="grid grid-cols-2 gap-0.5">
-            <div className="w-2 h-2 bg-primary rounded-sm"></div>
-            <div className="w-2 h-2 bg-primary rounded-sm"></div>
-            <div className="w-2 h-2 bg-primary rounded-sm"></div>
-            <div className="w-2 h-2 bg-primary rounded-sm"></div>
-          </div>
+        <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-purple-600 shadow-lg">
+          <span className="text-white font-bold text-sm">RF</span>
         </div>
         <div>
-          <h1 className="text-lg font-bold text-foreground">PENSE</h1>
-          <p className="text-xs font-medium text-primary">REVALIDA</p>
+          <h1 className="text-lg font-bold text-foreground">REVALIDA</h1>
+          <p className="text-xs font-medium text-primary">FLOW</p>
         </div>
       </div>
 

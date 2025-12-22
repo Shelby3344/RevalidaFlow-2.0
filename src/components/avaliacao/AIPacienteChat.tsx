@@ -1,8 +1,9 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Send, Bot, User, Mic, MicOff, Phone, PhoneOff } from "lucide-react";
+import { Send, Bot, User, Mic, MicOff, Phone, PhoneOff, Volume2, VolumeX } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { toast } from "sonner";
 
 interface Message {
   id: string;
@@ -22,6 +23,50 @@ interface AIPacienteChatProps {
   onDisconnect?: () => void;
 }
 
+// Declaração para TypeScript reconhecer a Web Speech API
+interface SpeechRecognitionEvent extends Event {
+  results: SpeechRecognitionResultList;
+  resultIndex: number;
+}
+
+interface SpeechRecognitionResultList {
+  length: number;
+  item(index: number): SpeechRecognitionResult;
+  [index: number]: SpeechRecognitionResult;
+}
+
+interface SpeechRecognitionResult {
+  isFinal: boolean;
+  length: number;
+  item(index: number): SpeechRecognitionAlternative;
+  [index: number]: SpeechRecognitionAlternative;
+}
+
+interface SpeechRecognitionAlternative {
+  transcript: string;
+  confidence: number;
+}
+
+interface SpeechRecognition extends EventTarget {
+  continuous: boolean;
+  interimResults: boolean;
+  lang: string;
+  start(): void;
+  stop(): void;
+  abort(): void;
+  onresult: ((event: SpeechRecognitionEvent) => void) | null;
+  onerror: ((event: Event & { error: string }) => void) | null;
+  onend: (() => void) | null;
+  onstart: (() => void) | null;
+}
+
+declare global {
+  interface Window {
+    SpeechRecognition: new () => SpeechRecognition;
+    webkitSpeechRecognition: new () => SpeechRecognition;
+  }
+}
+
 export function AIPacienteChat({
   pacienteName,
   scenarioContext,
@@ -35,7 +80,18 @@ export function AIPacienteChat({
   const [inputValue, setInputValue] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isListening, setIsListening] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [voiceEnabled, setVoiceEnabled] = useState(true);
+  const [interimTranscript, setInterimTranscript] = useState("");
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const synthRef = useRef<SpeechSynthesis | null>(null);
+
+  // Usar scenarioContext e patientInstructions para contexto
+  useEffect(() => {
+    // Contexto disponível para uso futuro
+    console.debug('Contexto carregado:', { scenarioContext: scenarioContext.length, patientInstructions: patientInstructions.length });
+  }, [scenarioContext, patientInstructions]);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -44,6 +100,103 @@ export function AIPacienteChat({
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  // Inicializar Speech Recognition
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (SpeechRecognitionAPI) {
+        recognitionRef.current = new SpeechRecognitionAPI();
+        recognitionRef.current.continuous = true;
+        recognitionRef.current.interimResults = true;
+        recognitionRef.current.lang = 'pt-BR';
+
+        recognitionRef.current.onresult = (event: SpeechRecognitionEvent) => {
+          let finalTranscript = '';
+          let interimText = '';
+
+          for (let i = event.resultIndex; i < event.results.length; i++) {
+            const transcript = event.results[i][0].transcript;
+            if (event.results[i].isFinal) {
+              finalTranscript += transcript;
+            } else {
+              interimText += transcript;
+            }
+          }
+
+          if (finalTranscript) {
+            setInputValue(prev => prev + finalTranscript);
+            setInterimTranscript("");
+          } else {
+            setInterimTranscript(interimText);
+          }
+        };
+
+        recognitionRef.current.onerror = (event) => {
+          console.error('Speech recognition error:', event.error);
+          if (event.error === 'not-allowed') {
+            toast.error("Microfone não permitido", {
+              description: "Permita o acesso ao microfone nas configurações do navegador"
+            });
+          }
+          setIsListening(false);
+        };
+
+        recognitionRef.current.onend = () => {
+          if (isListening) {
+            // Reiniciar se ainda estiver no modo de escuta
+            try {
+              recognitionRef.current?.start();
+            } catch {
+              setIsListening(false);
+            }
+          }
+        };
+      }
+
+      // Inicializar Speech Synthesis
+      synthRef.current = window.speechSynthesis;
+    }
+
+    return () => {
+      if (recognitionRef.current) {
+        recognitionRef.current.abort();
+      }
+      if (synthRef.current) {
+        synthRef.current.cancel();
+      }
+    };
+  }, [isListening]);
+
+  // Função para falar o texto (Text-to-Speech)
+  const speakText = useCallback((text: string) => {
+    if (!synthRef.current || !voiceEnabled) return;
+
+    // Remover asteriscos e expressões entre asteriscos para fala mais natural
+    const cleanText = text.replace(/\*[^*]+\*/g, '').trim();
+    if (!cleanText) return;
+
+    // Cancelar fala anterior
+    synthRef.current.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+    utterance.lang = 'pt-BR';
+    utterance.rate = 0.9;
+    utterance.pitch = 1;
+
+    // Tentar encontrar uma voz em português
+    const voices = synthRef.current.getVoices();
+    const ptVoice = voices.find(v => v.lang.startsWith('pt'));
+    if (ptVoice) {
+      utterance.voice = ptVoice;
+    }
+
+    utterance.onstart = () => setIsSpeaking(true);
+    utterance.onend = () => setIsSpeaking(false);
+    utterance.onerror = () => setIsSpeaking(false);
+
+    synthRef.current.speak(utterance);
+  }, [voiceEnabled]);
 
   // Mensagem inicial do paciente quando conecta
   useEffect(() => {
@@ -55,25 +208,37 @@ export function AIPacienteChat({
         timestamp: new Date(),
       };
       setMessages([initialMessage]);
+      
+      // Falar a mensagem inicial após um pequeno delay
+      setTimeout(() => {
+        speakText(initialMessage.content);
+      }, 500);
     }
-  }, [isConnected, messages.length]);
+  }, [isConnected, messages.length, speakText]);
 
   const handleSendMessage = async () => {
-    if (!inputValue.trim() || isLoading) return;
+    const messageToSend = inputValue.trim();
+    if (!messageToSend || isLoading) return;
+
+    // Parar de ouvir enquanto processa
+    if (isListening) {
+      stopListening();
+    }
 
     const userMessage: Message = {
       id: Date.now().toString(),
       role: "user",
-      content: inputValue,
+      content: messageToSend,
       timestamp: new Date(),
     };
 
     setMessages((prev) => [...prev, userMessage]);
     setInputValue("");
+    setInterimTranscript("");
     setIsLoading(true);
 
     try {
-      const response = await onSendMessage(inputValue);
+      const response = await onSendMessage(messageToSend);
       const assistantMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: "assistant",
@@ -81,6 +246,9 @@ export function AIPacienteChat({
         timestamp: new Date(),
       };
       setMessages((prev) => [...prev, assistantMessage]);
+      
+      // Falar a resposta do paciente
+      speakText(response);
     } catch (error) {
       console.error("Erro ao enviar mensagem:", error);
       const errorMessage: Message = {
@@ -95,16 +263,56 @@ export function AIPacienteChat({
     }
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
+  const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       handleSendMessage();
     }
   };
 
+  const startListening = () => {
+    if (!recognitionRef.current) {
+      toast.error("Reconhecimento de voz não suportado", {
+        description: "Seu navegador não suporta reconhecimento de voz"
+      });
+      return;
+    }
+
+    try {
+      recognitionRef.current.start();
+      setIsListening(true);
+      toast.success("Microfone ativado", {
+        description: "Fale sua pergunta ao paciente"
+      });
+    } catch (error) {
+      console.error("Erro ao iniciar reconhecimento:", error);
+      toast.error("Erro ao ativar microfone");
+    }
+  };
+
+  const stopListening = () => {
+    if (recognitionRef.current) {
+      recognitionRef.current.stop();
+    }
+    setIsListening(false);
+    setInterimTranscript("");
+  };
+
   const toggleListening = () => {
-    setIsListening(!isListening);
-    // TODO: Implementar reconhecimento de voz
+    if (isListening) {
+      stopListening();
+    } else {
+      startListening();
+    }
+  };
+
+  const toggleVoice = () => {
+    if (isSpeaking && synthRef.current) {
+      synthRef.current.cancel();
+      setIsSpeaking(false);
+    }
+    setVoiceEnabled(!voiceEnabled);
+    toast.info(voiceEnabled ? "Voz do paciente desativada" : "Voz do paciente ativada");
   };
 
   if (!isConnected) {
@@ -265,10 +473,23 @@ export function AIPacienteChat({
               <Mic className="w-4 h-4" />
             )}
           </Button>
+          <Button
+            variant="outline"
+            size="icon"
+            onClick={toggleVoice}
+            className={cn(!voiceEnabled && "bg-muted")}
+            title={voiceEnabled ? "Desativar voz" : "Ativar voz"}
+          >
+            {voiceEnabled ? (
+              <Volume2 className="w-4 h-4" />
+            ) : (
+              <VolumeX className="w-4 h-4 text-muted-foreground" />
+            )}
+          </Button>
           <Input
-            value={inputValue}
+            value={inputValue + interimTranscript}
             onChange={(e) => setInputValue(e.target.value)}
-            onKeyPress={handleKeyPress}
+            onKeyDown={handleKeyDown}
             placeholder="Digite sua pergunta ao paciente..."
             disabled={isLoading}
             className="flex-1"

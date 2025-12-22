@@ -47,7 +47,7 @@ export default function Novidades() {
   return (
     <AppLayout>
       <div className="space-y-6">
-        <h1 className="text-xl font-semibold text-foreground">Pense Revalida Novidades.</h1>
+        <h1 className="text-xl font-semibold text-foreground">Revalida Flow Novidades</h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Checklists column */}
@@ -93,7 +93,7 @@ export default function Novidades() {
       </div>
 
       <footer className="mt-8 text-center text-sm text-muted-foreground">
-        © 2025 Mente PBL | Pense Revalida
+        © 2025 Revalida Flow
       </footer>
     </AppLayout>
   );

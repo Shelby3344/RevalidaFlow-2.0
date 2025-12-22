@@ -160,7 +160,7 @@ export default function Mentorados() {
       </div>
 
       <footer className="mt-8 text-center text-sm text-muted-foreground">
-        © 2025 Mente PBL | Pense Revalida
+        © 2025 Revalida Flow
       </footer>
     </AppLayout>
   );

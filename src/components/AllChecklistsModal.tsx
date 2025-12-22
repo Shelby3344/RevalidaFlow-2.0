@@ -1,12 +1,15 @@
 import { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import { List, User } from "lucide-react";
+import { List, User, Users, Brain } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { AreaBadge } from "./AreaBadge";
-import { checklistsData, AREA_OPTIONS, INEP_OPTIONS, AREA_ORDER } from "@/data/checklists";
+import { checklistsData, AREA_OPTIONS, INEP_OPTIONS, AREA_ORDER, AreaCode } from "@/data/checklists";
+import { CreateSessionModal } from "./avaliacao/CreateSessionModal";
+import { getChecklistContentByIdAsync } from "@/data/checklistContents";
+import { ChecklistEvaluationItem } from "@/types/checklists";
 
 interface AllChecklistsModalProps {
   open: boolean;
@@ -16,6 +19,13 @@ interface AllChecklistsModalProps {
 export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalProps) {
   const [selectedArea, setSelectedArea] = useState("all");
   const [selectedInep, setSelectedInep] = useState("all");
+  const [sessionModalOpen, setSessionModalOpen] = useState(false);
+  const [selectedChecklist, setSelectedChecklist] = useState<{
+    id: string;
+    title: string;
+    areaCode: AreaCode;
+    evaluationItems: ChecklistEvaluationItem[];
+  } | null>(null);
 
   // Lista explícita de títulos de GO-Ginecologia (40 itens exatos)
   const ginecologiaList = [
@@ -161,6 +171,34 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
     navigate(`/checklists/execucao/${id}`);
   };
 
+  const handleTreinoIA = (id: string) => {
+    onOpenChange(false);
+    navigate(`/treino-ia-completo/${id}`);
+  };
+
+  const handleCreateSession = async (id: string, title: string, areaCode: AreaCode) => {
+    try {
+      const content = await getChecklistContentByIdAsync(id);
+      setSelectedChecklist({
+        id,
+        title,
+        areaCode,
+        evaluationItems: content.evaluationItems,
+      });
+      setSessionModalOpen(true);
+    } catch (error) {
+      console.error('Erro ao carregar checklist:', error);
+    }
+  };
+
+  const handleSessionModalClose = (isOpen: boolean) => {
+    setSessionModalOpen(isOpen);
+    if (!isOpen) {
+      setSelectedChecklist(null);
+      onOpenChange(false);
+    }
+  };
+
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-[95vw] w-full max-h-[95vh] h-full bg-background border-border p-0 gap-0">
@@ -248,8 +286,8 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
                   <th className="text-center text-xs font-semibold text-muted-foreground uppercase tracking-wider py-3 px-4 w-24">
                     NOTA
                   </th>
-                  <th className="text-center text-xs font-semibold text-muted-foreground uppercase tracking-wider py-3 px-4 w-28">
-                    TREINAR
+                  <th className="text-center text-xs font-semibold text-muted-foreground uppercase tracking-wider py-3 px-4 w-48">
+                    AÇÕES
                   </th>
                 </tr>
               </thead>
@@ -280,13 +318,33 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
                       </span>
                     </td>
                     <td className="text-center py-3 px-4">
-                      <Button
-                        size="sm"
-                        onClick={() => handleStart(item.id)}
-                        className="btn-primary-gradient text-xs px-4 py-1 h-7"
-                      >
-                        Iniciar
-                      </Button>
+                      <div className="flex items-center justify-center gap-2">
+                        <Button
+                          size="sm"
+                          onClick={() => handleStart(item.id)}
+                          className="btn-primary-gradient text-xs px-3 py-1 h-7"
+                        >
+                          Treinar
+                        </Button>
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          onClick={() => handleTreinoIA(item.id)}
+                          className="text-xs px-3 py-1 h-7 border-purple-500/50 text-purple-400 hover:bg-purple-500/10"
+                        >
+                          <Brain className="w-3 h-3 mr-1" />
+                          IA
+                        </Button>
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          onClick={() => handleCreateSession(item.id, item.title, item.areaCode)}
+                          className="text-xs px-3 py-1 h-7 border-green-500/50 text-green-400 hover:bg-green-500/10"
+                        >
+                          <Users className="w-3 h-3 mr-1" />
+                          Avaliar
+                        </Button>
+                      </div>
                     </td>
                   </tr>
                 ))}
@@ -306,6 +364,18 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
           </Button>
         </div>
       </DialogContent>
+
+      {/* Modal de criação de sessão */}
+      {selectedChecklist && (
+        <CreateSessionModal
+          open={sessionModalOpen}
+          onOpenChange={handleSessionModalClose}
+          checklistId={selectedChecklist.id}
+          checklistTitle={selectedChecklist.title}
+          areaCode={selectedChecklist.areaCode}
+          evaluationItems={selectedChecklist.evaluationItems}
+        />
+      )}
     </Dialog>
   );
 }
