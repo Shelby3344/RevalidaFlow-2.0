@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { ChecklistEvaluationItem } from '@/types/checklists';
 import { ItemScore } from '@/types/avaliacao';
 import { Button } from '@/components/ui/button';
@@ -17,8 +18,23 @@ export function ChecklistEvaluator({
   onScoreChange,
   disabled = false,
 }: ChecklistEvaluatorProps) {
+  // Estado para controlar quais subitens foram marcados como realizados
+  const [checkedSubItems, setCheckedSubItems] = useState<Record<string, boolean>>({});
+
   const getSelectedType = (itemId: number): ItemScore['type'] | null => {
     return scores[itemId]?.type || null;
+  };
+
+  const toggleSubItem = (itemId: number, subItemIdx: number) => {
+    const key = `${itemId}-${subItemIdx}`;
+    setCheckedSubItems(prev => ({
+      ...prev,
+      [key]: !prev[key]
+    }));
+  };
+
+  const isSubItemChecked = (itemId: number, subItemIdx: number): boolean => {
+    return checkedSubItems[`${itemId}-${subItemIdx}`] || false;
   };
 
   return (
@@ -36,12 +52,42 @@ export function ChecklistEvaluator({
             <div>
               <p className="text-foreground font-medium">{item.title}</p>
               {item.subItems.length > 0 && (
-                <div className="mt-2 space-y-1">
-                  {item.subItems.map((subItem, idx) => (
-                    <p key={idx} className="text-muted-foreground text-xs">
-                      {subItem}
-                    </p>
-                  ))}
+                <div className="mt-2 space-y-2">
+                  {item.subItems.map((subItem, idx) => {
+                    const isChecked = isSubItemChecked(item.id, idx);
+                    return (
+                      <div
+                        key={idx}
+                        className="flex items-center gap-2 cursor-pointer group"
+                        onClick={() => toggleSubItem(item.id, idx)}
+                      >
+                        {/* Bolinha de checklist */}
+                        <div
+                          className={cn(
+                            "w-4 h-4 rounded-full border-2 flex items-center justify-center transition-all flex-shrink-0",
+                            isChecked
+                              ? "bg-red-500 border-red-500"
+                              : "border-muted-foreground/50 group-hover:border-red-400"
+                          )}
+                        >
+                          {isChecked && (
+                            <Check className="w-2.5 h-2.5 text-white" />
+                          )}
+                        </div>
+                        {/* Texto do subitem */}
+                        <p
+                          className={cn(
+                            "text-xs transition-colors",
+                            isChecked
+                              ? "text-red-500 font-medium"
+                              : "text-muted-foreground"
+                          )}
+                        >
+                          {subItem}
+                        </p>
+                      </div>
+                    );
+                  })}
                 </div>
               )}
             </div>

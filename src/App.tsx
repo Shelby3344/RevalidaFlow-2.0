@@ -8,6 +8,7 @@ import Checklists from "./pages/Checklists";
 import ChecklistExecution from "./pages/ChecklistExecution";
 import AvaliacaoAvaliador from "./pages/AvaliacaoAvaliador";
 import AvaliacaoAvaliado from "./pages/AvaliacaoAvaliado";
+import TreinoIA from "./pages/TreinoIA";
 import FlashcardsPage from "./pages/FlashcardsPage";
 import PenseResumos from "./pages/PenseResumos";
 import CronogramaCalendar from "./pages/CronogramaCalendar";
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/checklists/execucao/:id" element={<ChecklistExecution />} />
           <Route path="/avaliacao/:sessionCode" element={<AvaliacaoAvaliador />} />
           <Route path="/avaliacao/participar/:sessionCode" element={<AvaliacaoAvaliado />} />
+          <Route path="/treino-ia/:checklistId" element={<TreinoIA />} />
           <Route path="/checklists/parceiros" element={<Checklists />} />
           <Route path="/flashcards" element={<FlashcardsPage />} />
           <Route path="/flashcards/revisao" element={<FlashcardsPage />} />

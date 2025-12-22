@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Search, User, List, FileText } from "lucide-react";
+import { Search, User, List, FileText, Bot } from "lucide-react";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -29,6 +29,11 @@ export default function Checklists() {
   const handleStartChecklist = (index: number) => {
     // Map index to actual checklist ID (for demo purposes using index+1)
     navigate(`/checklists/execucao/${index + 1}`);
+  };
+
+  const handleStartTreinoIA = (index: number) => {
+    // Navegar para treino com IA
+    navigate(`/treino-ia/${index + 1}`);
   };
 
   return (
@@ -107,13 +112,24 @@ export default function Checklists() {
                       </div>
                     </td>
                     <td>
-                      <Button 
-                        size="sm" 
-                        className="btn-primary-gradient text-xs px-4"
-                        onClick={() => handleStartChecklist(index)}
-                      >
-                        Iniciar
-                      </Button>
+                      <div className="flex gap-2">
+                        <Button 
+                          size="sm" 
+                          className="btn-primary-gradient text-xs px-3"
+                          onClick={() => handleStartChecklist(index)}
+                        >
+                          Iniciar
+                        </Button>
+                        <Button 
+                          size="sm" 
+                          variant="outline"
+                          className="text-xs px-3 border-purple-500/50 text-purple-400 hover:bg-purple-500/10"
+                          onClick={() => handleStartTreinoIA(index)}
+                        >
+                          <Bot className="w-3 h-3 mr-1" />
+                          IA
+                        </Button>
+                      </div>
                     </td>
                   </tr>
                 ))}
@@ -196,6 +212,13 @@ export default function Checklists() {
               >
                 <List className="w-4 h-4 mr-2" />
                 Todos os Checklists
+              </Button>
+              <Button 
+                className="w-full bg-gradient-to-r from-purple-600 to-violet-600 text-white hover:opacity-90"
+                onClick={() => setIsModalOpen(true)}
+              >
+                <Bot className="w-4 h-4 mr-2" />
+                Treinar com Paciente IA
               </Button>
               <Button className="w-full bg-gradient-to-r from-success to-emerald-600 text-success-foreground hover:opacity-90">
                 <FileText className="w-4 h-4 mr-2" />
