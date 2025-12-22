@@ -1,0 +1,150 @@
+{
+  "uid": 1614,
+  "hash": "0a1208872c9511e26d8cb29df7e96844205b46f400891c7c4902cf531210c004-1753445479",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Espondilite anquilosante | INEP 2025.1",
+  "definicao": "A espondilite anquilosante é uma doença inflamatória crônica que afeta principalmente a coluna vertebral e as articulações sacroilíacas, localizadas na região da pelve. O principal sintoma é a dor e rigidez nas costas, que pode piorar pela manhã ou após períodos de inatividade e melhorar com o movimento. Com o tempo, a doença pode causar a fusão de vértebras, resultando em perda de flexibilidade na coluna e postura curvada.",
+  "origem": 1,
+  "ano_da_prova": "20251",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "55.00",
+    "star": 0,
+    "time": 537,
+    "count": 1598
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas;\n- Setor de radiologia com aparelho de radiografia.\n\nDescrição do caso:\nVocê é um médico atuando em uma unidade básica de saúde da família (UBSF) e atenderá um paciente de 36 anos com queixa de dor lombar.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar exame físico direcionado à queixa principal do paciente;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS:**\nPedro Rodrigues, 36 anos de idade, casado, trabalho como segurança de shopping center.\n\n**MOTIVO DE CONSULTA:**  \n- Sinto dor nas costas.\n\n**CARACTERÍSTICAS DA DOR: **\n**Tempo de evolução/ início:** Teve um início lento e gradual há 5 meses.\n**Localização:** Coluna lombar.\n**Intensidade:** Moderada.\n**Irradiação:** Não irradia.\n**Frequência:** Todos os dias.\n**Fatores desencadeantes:** Nega.\n**Fatores agravantes:** Sinto piora da dor ao repouso. \n**Fatores atenuantes:** Sinto que melhoro da dor ao longo do dia, com movimentação e atividade física.\n**Despertar noturno:** Piora especialmente à noite, o que me faz acordar de madrugada;\n**Rigidez matinal:** Sinto dificuldade de me movimentar pela manhã (sensação de coluna travada);\n\n**SINTOMAS ACOMPANHANTES: **\n**Febre:** Nega.\n**Parestesias:** Nega.\n**Acometimento de outras articulações/regiões:** Tenho sentido dor nos joelhos e nas solas dos pés.\n**Fadiga/astenia:** Sim, me sinto cansado.\n**Sinais flogísticos, vermelhidão (rubor), alteração da temperatura (calor), inchaço (edema):** Nega.\n**Quedas** Nega.\n\n**ANTECEDENTES PESSOAIS:**\n**Doenças:** Nega.\n**Medicamentos:** Faço uso de dipirona com frequência para alívio da dor.\n**Cirurgias: **Nega.\n**Alergias: **Nega.\n**Atividade física:** Não pratico atividade física regularmente.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "IMPRESSO — EXAME FÍSICO GERAL\t",
+      "conteudo": "Paciente em bom estado geral, afebril, acianótico, anictérico e hidratado; alerta, orientado no tempo e espaço. Em posição antálgica durante a maior parte do exame, apoiando a mão na região lombar.\n\n\n\n**SINAIS VITAIS**\n\n**Frequência cardíaca** 95 batimentos por minuto.\n\n**Pressão arterial:** 130 mmHg x 85 mmHg.\n\n**Frequência respiratória:** 16 incursões respiratórias por minuto.\n\n**Temperatura axilar:** 36,3 °C.\n\n**Saturação de O2:** 99% de oxigênio em ar ambiente.\n\n**IMC:** 22 kg/m2.\n\n\n\n**Aparelhos respiratório, cardiovascular e digestório:** sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1753447811.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "IMPRESSO – EXAME FÍSICO DO APARELHO LOCOMOTOR ",
+      "conteudo": "**Teste de Schober:** positivo (variação de 3 cm na flexão máxima).\n\n\n\n**Teste de Patrick (Faber):** dentro da normalidade. \n\n\n\nÀ compressão das espinhas ilíacas: refere dor.\n\nDor à digitopressão das regiões plantares.",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1753447811.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "IMPRESSO – EXAMES LABORATORIAIS",
+      "conteudo": "Nome: Pedro Rodrigues.\n\nData de nascimento: 12 de julho 1989\n\nHEMOGRAMA\n\nMaterial — Sangue\tValor de Referência\n\nHemácias: 4,85 milhões/mm³\t(4,32 – 5,66 milhões/mm³).\n\nHemoglobina: .12,8 g/dL\t(13,3 – 16,7 g/dL).\n\nHematócrito: 37,6%\t(39,0 – 50,0%).\n\nVCM: 87,8 fL\t(80,0 – 100 fL).\n\nHCM: 30,6 pg\t(27,3 – 32,6 pg).\n\nCHCM: 34,8 g/dL\t(31,0 – 37,0 g/dL).\n\nRDW: 3,0%\t(10,0 – 15,0%).\n\n**Observação:** hemácias normocíticas e normocrômicas.\n\n\n\nLeucócitos: 8.370/mm³\t(3.700 – 9.500/mm³).\n\nBastões: .2,0%\t167,4/mm³\t(581 – 968/mm³).\n\nSegmentados: 70%\t5.859/mm³\t(1.700 – 6.100/mm³).\n\nEosinófilos: 2,0%\t167,4/mm³\t(30 – 460/mm³).\n\nBasófilos:  0,6%\t50,22/mm³\t(0 – 130/mm³).\n\nLinfócitos: 19,4%\t1.623,78/mm³\t(1.000 – 3.200/mm³).\n\nMonócitos: .6,0%\t502,2/mm³\t(200 – 920/mm³).\n\nPlaquetas, contagem: 234.000/mm³\t(150.000 a 450.000/mm³).\n\nVHS: 30 mm/h\t(< 15 mm/h).\n\nPCR: 10 mg/L\t(< 3 mg/L).\n\nGlicemia de jejum: 96 mg/dL\t(70 – 99 g/dL).\n\nSódio: 140 mEq/L\t(135 – 145 mEq/L).\n\nPotássio: 4,2 mEq/L\t(3,5 – 5,0 mEq/L).\n\nCálcio iônico: 5,0 mg/dL\t(4,5 – 5,3 mg/dL).\n\nMagnésio: 1,8 mEq/L\t(1,5 – 2,0 mEq/L).",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1753447811.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "IMPRESSO – RADIOGRAFIA",
+      "conteudo": "",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese, perguntando sobre as características da dor:**\n(1) Início;\n(2) Frequência / intervalo entre episódios;\n(3) Fatores desencadeantes / gatilhos;\n(4) Agravantes/ fatores de piora;\n(5) Atenuantes /  fatores de melhora;\n(6) Intensidade;\n(7) Irradiação;\n(8) Despertar noturno;\n(9) Rigidez matinal.\n(10) Tipo da dor (queimação, choque, pontada, fisgada, contínua etc.\n\n**Adequado:** Pergunta sobre cinco ou mais características. \n**Parcialmente adequado:** Pergunta apenas sobre três ou quatro características.\n**Inadequado:** Não pergunta ou pergunta apenas sobre duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre manifestações clínicas associadas ao quadro:**\n(1) Febre;\n(2) Alterações sensitivas: parestesias ou alodinia;\n(3) Acometimento de outras articulações/regiões;\n(4) Fadiga/astenia;\n(5) Sinais flogísticos — vermelhidão (rubor), alteração da temperatura (calor), inchaço (edema);\n(6) Alterações esfincterianas (fecal ou urinária);\n(7) Perda de peso.\n\n**Adequado:** Pergunta sobre quatro ou mais manifestações. \n**Parcialmente adequado:** Pergunta três manifestações.\n**Inadequado:** Não pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita exame físico específico do aparelho locomotor.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exames laboratoriais:**\n(1) Hemograma;\n(2) PCR e/ou VHS.\n(3) HLA-B27;\n(4) TGO/TGP (AST/ALT);\n(5) Ureia/creatinina.\n\n**Adequado:** Solicita  quatro ou cinco itens.\n**Parcialmente adequado:** Solicita apenas dois ou três itens.\n**Inadequado:** Solicita um dos itens ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6.  **Solicita radiografia da coluna lombar, ou lombossacra, ou pelve, ou sacroilíaca.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Formula a hipótese diagnóstica: lombalgia inflamatória ou espondiloartropatia inflamatória ou espondiloartrite axial ou espondilite anquilosante ou espondiloartropatia soronegativa..**\n\n**Adequado:** Formula a hipótese.\n**Inadequado:** Não formula a hipótese.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Prescreve tratamento com anti-inflamatório não esteroidal.**\n\n**Adequado:** Prescreve.\n**Inadequado:** Não prescreve ou prescreve apenas outras classes de medicamentos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta:**\n(1) Prática de atividade física / fisioterapia / alongamento;\n(2) Encaminhamento para especialista.\n\n**Adequado:** Orienta as duas condutas.\n**Parcialmente adequado:** Orienta apenas uma delas.\n**Inadequado:** Não orienta qualquer uma das duas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

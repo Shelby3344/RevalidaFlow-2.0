@@ -1,0 +1,178 @@
+{
+  "uid": 1681,
+  "hash": "546232703ba04e518e746d6c010a10bf5ac1d64355ffaa7f5ed3a424b7d5ee29-1759611319",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Consulta de Rotina /Paciente DM 2 - Híbrido",
+  "definicao": "Os exames de rotina para o seguimento do diabético são realizados visando o controle metabólico, as complicações agudas e crônicas, os efeitos colaterais das medicações e outros fatores de risco.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "54.00",
+    "star": 0,
+    "time": 562.5,
+    "count": 300
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial.\n- Unidade de Saúde da Família (USAFA).\n\nA unidade conta com a seguinte infraestrutura:\n-Sala de atenção médica;\n-Sala de curativos;\n-Laboratório de análises;\n-Equipe multidisciplinar (educador físico, nutricionista, psicólogo).\n\nDESCRIÇÃO DO CASO:\nVocê realizará a atenção médica de um paciente de 50 anos, que vem para uma consulta agendada.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar a avaliação clínica do paciente;\n-Formular, verbalizar e escrever a(s) hipótese(s) diagnóstica(s);\n-Verbalizar e escrever as metas a serem atingidas pelo paciente, em relação a glicemia;\n-Verbalizar o plano terapêutico adequado ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Durval, 50 anos, casado, motorista.\n\n**MOTIVO DE CONSULTA**: \nOlá, Dr(a).vim para a nossa consulta de rotina.\n\n**SINTOMAS ASSOCIADOS**:\n**Aumento do volume urinário:** Nega.\n**Dor ao urinar:** Nega.\n**Cor da urina:** Eu percebi que a minha urina está saindo mais escura.\n**Aumento de idas ao banheiro:** Nega.\n**Alteração de sensibilidade nos membros:** Não percebi nenhuma diferença. \n**Perda de peso:** Nega.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS**:\n**Comorbidades**: Diabetes tipo 2.\n**Uso de medicamentos:**  Consegui pegar os remédios aqui na farmácia e estou tomando certinho a metformina e a dapagliflozina que você me passou; já faz uma semana.\n**Alergias**: Nega.\n**Cirurgia prévia**: Nega.\n**Internações:** Nega.\n\n**HÁBITOS DE VIDA:** \n**Drogas ilícitas**: Nega.\n**Tabagismo**: Estou seguindo suas recomendações. Deixei de fumar.\n**Etilismo**:  Nega.\n**Alimentação:**  Não consigo ser totalmente saudável na alimentação; eu amo comer pão no café da manhã e no café da tarde. Já tentei substituir, mas está muito difícil. E também não consigo para de usar o açúcar integral.\n**Prática de atividade física:**  Ainda não me sinto animado a iniciar as atividades físicas. Me inscrevi na academia, mas por estar gordo sinto vergonha de ir e as pessoas começarem a rir de mim.\n**Ingesta de água:** Eu não tomo muita água.\n**Situação vacinal:** Está em dias.\n\n**ANTECEDENTES FAMILIARES:**\n-Meu pai é diabético.\n\n-**IMPRESSO - HIPÓTESE(S) DIAGNÓSTICA(S)**, deverá ser entregue, caso verbalize diagnósticos.\n-**IMPRESSO - METAS DA GLICEMIA**, deverá ser entregue, caso verbalize as metas da glicemia.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Fisico",
+      "conteudo": "**SINAIS VITAIS:**\n\n**Pressão Arterial:** 140 x 90mmHg\n\n**Frequência Cardíaca:** 87 bpm\n\n**Frequência Respiratória: **17 irpm\n\n**Saturação de oxigênio:** 98% AA\n\n**Temperatura axilar:** 36.5°\n\n\n\n**IMC:** 35 \n\n**Circunferência abdominal:** 120cm\n\n\n\n**EXAMES FÍSICO:**\n\n**Aparato cardiovascular:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas.\n\n\n\n**Aparato Respiratório:** Ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdome:** Globoso, RHA normais, indolor a palpação superficial e profunda. \n\n\n\n**Extremidades:**  Sem edemas ou sinal de TVP.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1759611967.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia",
+      "conteudo": "Ectoscopia",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1759612597.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames Laboratoriais",
+      "conteudo": "**Hemograma**\n\n**Hemoglobina:** 15 (Valor de referência: 12-16)\n\n**Hematócrito:** 40 (Valor de referência: 36-48)\n\n**Leucócitos:** 4.000 (Valor de referência: 3.700-10.000)\n\n**Plaquetas:** 300.000 (Valor de referência: 150.000-450.000)\n\n\n\n**Hemoglobina glicada (HbA1c):** 7,5% (Valor de referência: 4.0-6.0)\n\n\n\n**Glicemia de jejum:** 190 mg/dL (Valor de referência: 60-99)\n\n\n\n**Colesterol total:** 215 (Valor de referência: ≤ 200)\n\n**TAG:** 180 (Valor de referência: ≤ 150)\n\n**LDL:** 150 (Valor de referência: ≤ 130)\n\n**HDL:** 33 (Valor de referência: ≥ 40)\n\n\n\n**Exame de urina simples:** Sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1759612597.png"
+    },
+    {
+      "idx": 4,
+      "titulo": " Hipótese(s) diagnóstica(s)",
+      "conteudo": "Verbalize, escreva, e mostre para a câmera as hipótese(s) diagnóstica(s).",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1759612606.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "Metas da glicemia",
+      "conteudo": "Verbalize, escreva e mostre para a câmera as metas a serem atingidas em relação a glicemia.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação**:\n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se; \n(3) Dirige-se ao paciente simulado pelo nome, pelo menos uma vez; \n(4) Faz perguntas; e,\n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) Estabelece contato visual; e,\n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado**: Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala do paciente simulado sem interrompê-lo.**\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga os antecedentes pessoais:**\n(1) Doenças prévias; \n(2) Internações; \n(3) Cirurgias anteriores; \n(4) Alergias; e,\n(5) Uso de medicações. \n\n**Adequado:** Investiga quatro ou mais itens.\n**Parcialmente adequado:** Investiga  dois ou três itens.\n**Inadequado:** Investiga somente um item ou não investiga nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta sobre os hábitos de vida: **\n(1) Tabagismo; \n(2) Uso de álcool; \n(3) Uso de outras drogas; \n(4) Aspectos da saúde mental; \n(5) Alimentação; e,\n(6) Atividade física. \n\n**Adequado:** Investiga os seis itens. \n**Parcialmente adequado:** Investiga de dois a cinco itens. \n**Inadequado:** Investiga somente um item OU não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga sinais e sintomas:**\n(1) Alteração de sensibilidade nos membros inferiores; \n(2) Poliúria; \n(3) Polidipsia;\n(4) Perda de peso inexplicada;\n(5) Noctúria;\n(6) Visão turva;\n(7) Cansaço;\n(8) Má cicatrização de feridas; e,\n(9) Cuidado com os pés.\n\n**Adequado:** Investiga os seis ou mais itens. \n**Parcialmente adequado:** Investiga de dois a cinco itens.\n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.55"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames laboratoriais:**\n(1) Hemoglobina glicada;\n(2) Glicemia de jejum;\n(3) Teste de tolerância à glicose por via oral;\n(4) Colesterol LDL;\n(5) Colesterol HDL; e,\n(6) Triglicerídeo.\n\n**Adequado:** Solicita  cinco ou mais itens.\n**Parcialmente adequado:** Solicita de dois a quatro itens.\n**Inadequado:** Solicita somente um item ou não solicita nenhum.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbalizar e escrever a(s) hipótese(s) diagnóstica(s):**\n(1) Síndrome metabólica;\n(2) Obesidade grau 2;\n(3) Hipertensão Arterial ou Pressão Alta; e,\n(4) Dislipidemia.\n\n**Adequado:** Verbaliza e escreve os quatro itens. \n**Parcialmente adequado:** Verbaliza e/ou escreve dois ou três itens.\n**Inadequado:** Verbaliza e/ou escreve um item Ou nenhum item.\n\n**Obs.: O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a câmera.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza e escreve as metas a serem atingidas pelo paciente, em relação à glicemia:**\n(1) HbA1c%: Menor 7,0;\n(2) Glicemia de jejum e/ou Pré Prandial: 80 a 130; e,\n(3) Glicemia 2h Pós-Prandial: Menor 180.\n\n**Adequado:** Verbaliza e escreve os três itens. \n**Parcialmente adequado:** Verbaliza e/ou  escreve dois itens.\n**Inadequado:** Verbaliza e/ou escreve um item Ou nenhum item .\n\n**Obs.:** O item só será pontuado se verbalizado, escrito em letra legível e mostrado para a câmera.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Indica medidas de educação em saúde:**\n(1) Manutenção da atividade física;\n(2) Evitar o tabagismo;\n(3) Controle do peso;\n(4) Intervenção nutricional;\n(5) Manejo do estresse; e,\n(6) Melhora do sono.\n\n**Adequado:** Indica quatro ou mais itens.\n**Parcialmente adequado:**  Indica dois ou três itens.\n**Inadequado:** Indica um item ou não indica item nenhum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Informa ao paciente:**\n(1) Sobre o cuidado com os pés; e,\n(2) Solicita retorno em 3 meses.\n\n**Adequado:** Informa os dois itens.\n**Inadequado:** Informa um item ou não informa item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

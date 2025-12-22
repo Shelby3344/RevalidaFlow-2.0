@@ -1,0 +1,293 @@
+{
+  "uid": 1083,
+  "hash": "vk4ACwq6YUswHNtdq293ZNuP",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Fratura Exposta 1 | INEP 2020.1",
+  "definicao": "Fratura exposta é toda aquela em que ocorre comunicação do seu foco com o meio externo. Não é necessariamente exposição para o exterior mas, também, para cavidades contaminadas, como a boca, o tubo digestivo, vias aéreas, vagina e ânus.",
+  "origem": 1,
+  "ano_da_prova": "20201",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "71.00",
+    "star": 0,
+    "time": 565,
+    "count": 8241
+  },
+  "cenario": "Nivel de atenção: Unidade de atenção secundária  a saúde.\nTipo de atendimento: Pronto socorro\n\nDescrição do caso:\nVocê é o(a) médico(a) que está de plantão em um pronto-socorro hospitalar e vai atender um paciente, do sexo masculino, vítima de colisão entre a moto que ele conduzia e um carro, ocorrida há 60 minutos. O paciente foi socorrido pela equipe de suporte básico do SAMU. Os sinais vitais estão normais e estáveis. O paciente queixa-se de dor moderada em perna direita e está muito preocupado com sua situação. O diagnóstico presuntivo é de fratura da tíbia direita. Foram dados os primeiros cuidados, com imobilização do membro, punção venosa periférica calibrosa e instalação de 500 mL de soro fisiológico.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as seguintes tarefas.\n- Realizar avaliação primária (ABCDE) do paciente traumatizado e verbalizar os achados\ne as necessidades em cada etapa do atendimento;\n- Realizar o exame físico dos membros inferiores, com atenção especial ao membro\nacometido;\n- Definir a conduta diagnóstica;\n- Adotar a conduta terapêutica necessária;\n- Demonstrar a realização de procedimentos médicos, se indicado.",
+  "script_ator": "**DADOS PESSOAIS: **\n- João Carlos, 30 anos, estudante, solteiro.\n\n**MOTIVO DE CONSULTA**\n- Dr eu tava dirigindo minha moto quando bati num carro, nem sei o que aconteceu, mas sinto muita dor na perna. Tá doendo muito!! Me ajuda!! \n\n**SOBRE O MOTIVO DE CONSULTA**\n**-Tempo de evolução:** Aconteceu há 1 hora mais ou menos.\n**-Uso de capacete:** Sim. Eu estava de capacete. \n**-Perda da consciência:** Nega. \n**-Consumo de bebidas alcoólicas e/ou drogas prévio ao acidente:** Nega.\n**-Localização da dor:** Dói a perna direita.\n**-Irradiação:** Nega. \n**-Intensidade:** 9/10. \n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS** \n**Comorbidades/doença atual:** Nega.\n**Alergias:** Nega.\n**Vacina anti-tetânica:** Não tomo vacinas há muitos anos. Não tenho caderneta de vacinação.\n**Medicamentos:** Nega.\n**Cirurgia prévia:** Nega. \n\n**HÁBITOS**\n**-Drogas:** Nega.\n**-Consumo de bebidas alcoólicas:** Bebo sim. Somente aos finais de semana. \n\n**ATENÇÃO!**\nSe o candidato solicitar EXAME FÍSICO dos MEMBROS INFERIORES entregar o impresso 2.\n\nSe o candidato pedir para RETIRAR o PANO do membro inferior direito do paciente: entregar o impresso 3.\n\nQualquer outra pergunta: não consta no script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Pressão arterial:** 150 × 90 mmHg.\n\n**Frequência cardíaca:**98 bpm.\n\n**Frequência respiratória:** 16 irpm.\n\n**Saturação de Oxigênio:** 98% (com uso de máscara de oxigênio a 6 litros por minuto)\n\n**Escore da escala de coma de Glasgow:** 15 pontos.\n\n**Inspeção, palpação e percussão torácica:** sem alterações.\n\n**Ausculta cardíaca e pulmonar:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame dos membros inferiores ",
+      "conteudo": "**Membro** **inferior esquerdo**: sem alterações. \n\n**Membro inferior direito**: coberto com um pano.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Membro inferior direito",
+      "conteudo": "Presença de fratura exposta em perna direita.\n\nPulsos tibiais posteriores e pediosos presentes e simétricos.\n\nExame neurológico normal.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Dúvidas do chefe de plantao",
+      "conteudo": "O médico chefe do plantão pergunta qual a conduta e se há necessidade de internação do paciente.\n\n- Verbalize as respostas ao chefe de estação.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Identificou-se adequadamente ao paciente e utiliza, pelo menos, luva de procedimento.**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **(A) Reconheceu que o paciente está com via aérea pérvia.**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Indicou a manutenção de máscara com oxigênio.**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Identificou a necessidade inicial de manter o colar cervical.**\n\n**Adequado:** Identifica.\n**Inadequado:** Não identifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **(B) Demonstrou ou verbalizou o exame físico torácico relatando a adequada ventilação do paciente.**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **(C) Verbaliza a monitorização multiparamétrica (ritmo cardíaco, FC, PA não invasiva, FR, SpO2 e temperatura)**\n\n**Adequado:** Verbaliza a ação.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Indica a necessidade de reposição  volêmica com solução cristaloide.**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita os exames a serem colhidos:**\n(1) Hemograma;\n(2) Coagulograma;\n(3) Tipagem sanguínea.\n\n**Adequado:**  Solicita os três exames,\n**Inadequado:** Solicita dois ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Indica a administração de ácido tranexâmico (1g EV em bolus até 3 h no trauma e 1g EV em 8 h).**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **(D) Realiza a quantificação do escore de coma de Glasgow, e verbalizou sua normalidade (15):** \n\n**Adequado:** Realiza.\n**Inadequado:** Não realiza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **(E) Verbaliza sobre a prevenção de hipotermia:**\n\n**Adequado:** Verbaliza a ação.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Identifica o atraso na vacina antitetânica:**\n\n**Adequado:** Identifica.\n**inadequado:** Não identifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Fez uso de paramentação (gorro, máscara, óculos de proteção e luvas estéreis):**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Descobriu o curativo e notou/verbalizou a presença de fratura exposta de tíbia:**\n\n**Adequado:** Realiza a ação:**\n**Inadequado:** Não realiza**",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Manteve cobertura estéril e imobilização com tala aramada (uma articulação acima e uma abaixo do local da fratura):**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Indica analgesia endovenosa:**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Indica a remoção da prancha rígida, após exame do dorso com palpação da coluna:**\n\n**Adequado:** Não indica.\n**Inadequado:** Indica a ação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Verbaliza realização de raio X para planejamento cirúrgico:**\n\n**Adequado:** Verbaliza a ação\n**Inadequado:** Não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": "Devem ser solicitados os exames radiográficos, que incluem radiografias da perna nas incidências em anteroposterior e perfil. Não podemos nos contentar com radiografias diafisárias, pois as fraturas podem estar em metáfises ou epífises."
+    },
+    {
+      "idx": 19,
+      "descricao": "19. **Indicou o procedimento cirúrgico:**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "20. **Informou que deve iniciar antibiótico venoso:**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "21. **Verbaliza que será necessário cirurgia (lavagem e fixação externa):**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 22,
+      "descricao": "22. **Verbaliza a necessidade de internação do paciente:**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

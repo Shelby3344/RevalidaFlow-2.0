@@ -1,0 +1,205 @@
+{
+  "uid": 977,
+  "hash": "z9pQVIZHXmGNIt12o0R604_u",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Incontinência urinária de urgência",
+  "definicao": "Incontinência urinária é a perda involuntária da urina pela uretra. O distúrbio é mais frequente no sexo feminino e pode manifestar-se tanto na quinta ou sexta década de vida quanto em mulheres mais jovens. Atribui-se essa prevalência ao fato de a mulher apresentar, além da uretra, duas falhas naturais no assoalho pélvico: o hiato vaginal e o hiato retal. Isso faz com que as estruturas musculares que dão sustentação aos órgãos pélvicos e produzem a contração da uretra para evitar a perda urinária e o músculo que forma um pequeno anel em volta da uretra, sejam mais frágeis nas mulheres.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "57.50",
+    "star": 0,
+    "time": 567,
+    "count": 3859
+  },
+  "cenario": "Nível de atenção: Unidade de atenção secundária  -  ambulatorial e hospitalar.\nTipo de atendimento: Ambulatorial.\n\nA unidade possui a seguinte infraestrutura:\n- Setor de radiologia convencional e ultrassonografia;\n- Laboratório de análises clínicas;\n- Leitos de internação e centro cirúrgico.\n\nDescrição do caso:\nVocê é o médico de plantão e realizará o atendimento de uma paciente com queixas de perda urinária.",
+  "tarefas": "- Realizar anamnese dirigida à queixa principal da paciente;\n- Solicitar, descrever e interpretar o exame físico;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Solicitar exames complementares, se necessário, descrevendo os achados;\n- Propor conduta terapêutica e seguimento da paciente;\n- Dar orientações à paciente e sanar dúvidas.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Maria, 57 anos, casada e dona de casa.\n\n**MOTIVO DE CONSULTA:**\n- Dr.(a), eu preciso de ajuda, pois vivo perdendo urina e isso têm me incomodado muito.\n\n**SOBRE A QUEIXA PRINCIPAL:**\n**-  Início:** Já faz uns 6 meses.\n**-  Duração, frequência de perdas:** É praticamente contínuo; praticamente todos os dias tenho perda urinária nas minhas roupas íntimas, umas 10 vezes ao dia.\n** -  Progressão:** Antes era somente quando eu fazia algum esforço ou espirrava, mas agora é constante. \n**-  Fatores precipitantes:** Não tem algo que precipite, vem do nada, até se eu estiver em repouso.\n**-  Impacto na qualidade de vida:** Já nem quero mais sair de casa, pois tenho medo de urinar na roupa. Sempre que preciso sair, coloco um absorvente noturno.\n\n**SINTOMAS ASSOCIADOS:**\n**-  Urgência miccional:** Sim, parece que a todo momento me dá vontade de fazer xixi e às vezes não dá tempo de chegar ao banheiro.\n**-  Noctúria:** Sim, há. E por vezes molhei meu lençol.\n**-  Hesitância:** Nega.\n**-  Esvaziamento incompleto:** Nega.\n**-  Disúria:** Nega.\n**-  Hematúria:** Nega.\n**-  Prolapso genital:** Sim, Dr.(a), eu sinto como um peso, ou algo dentro da minha vagina. Como se fosse sair para fora.\n\n**ANTECEDENTES PESSOAIS:**\n**-  Doenças/cirurgias prévias:** Nego.\n**-  Medicamentos:** Não utilizo nenhum medicamento de uso contínuo.\n**-  Bebidas:** Nego.\n**-  Tóxicos:** Não fumo e nem uso drogas.\n**-  Alergias:** Desconheço alergias medicamentosas e alimentares.\n**-  Cartão de vacinação:** Está tudo em dia. \n\n**ANTECEDENTES GINECOLÓGICOS:**\n**-  Data da última menstruação:** Há 4 anos.\n**-  Menarca:** Aos 12 anos.\n**-  Sexarca:** Aos 22 anos.\n**-  Vida sexual:** Eu até era ativa, mas depois dessa sensação de peso na vagina, não tenho mais relações.\n**-  Papanicolau:** Não me lembro quando foi a ultima vez que fiz.\n**-  Mamografia:** Nunca realizei.\n\n**ANTECEDENTES OBSTÉTRICOS:**\n**-  Gestações prévias:** Tive 6 gestações.\n**-  Partos vaginais:** Todos foram partos vaginais.\n**-  Abortos:** 0.\n \n**APÓS O PARTICIPANTE VERBALIZAR A HIPOTESE DIAGNOSTICA, QUESTIONAR:**\n- Dr, (a). E agora? Vou precisar tomar algum remédio?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 130x80 mmHg.\n\n- **Frequência cardíaca:** 86 batimentos por minuto.\n\n- **Frequência respiratória:** 14 incursões por minuto.\n\n- **Saturação de O2:** 98%.\n\n- **Temperatura axilar:** 36,5°C.\n\n\n\n**Estado Geral:**\n\nPaciente em bom estado geral, orientada em tempo, espaço e pessoa; corada, hidratada, acianótica e anictérica.\n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofônicas, ausência de sopros.\n\n\n\n**Respiratório:**\n\nAusculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:**\n\nAbdome plano, flácido, indolor à palpação, sem massa palpável; RHA preservados, timpânico à percussão, sem sinais de ascite.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1712935277.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Avaliação Funcional do assoalho pélvico",
+      "conteudo": "**Classificação de Ortiz: ** Grau 3: Contração moderada.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1712935277.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame Físico Ginecologico",
+      "conteudo": "**Mamas:** Sem alterações.\n\n\n\n**Exame especular:** Demonstra a seguinte alteração:",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Manobra de Esforço",
+      "conteudo": "Se constata perda involuntária de urina em jato durante avaliação de esforço.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Apresenta-se adequadamente;\n(2) Cumprimenta e identifica a paciente simulada, falando seu nome.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Não realiza ação alguma ou realiza apenas uma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga sobre a queixa principal:**\n(1) Início;\n(2) Duração/frequência de perdas;\n(3) Fatores precipitantes.\n\n**Adequado:** Investiga as três características. \n**Inadequado:** Não investiga corretamente as três características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sobre impacto na qualidade de vida:**\n\n**Adequado:** Investiga.\n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Questiona sobre sintomas associados:**\n(1) Urgência miccional;\n(2) Noctúria;\n(3) Hesitância;\n(4) Esvaziamento incompleto;\n(5) Disúria;\n(6) Hematúria;\n(7) Prolapso genital.\n\n**Adequado:** Questiona sobre cinco ou mais sintomas associados.\n**Parcialmente adequado:** Questiona de dois a quatro sintomas associados.\n**Inadequado:** Questiona apenas um ou nenhum sintoma associado.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga sobre antecedentes:**\n(1) Antecedentes obstétricos;\n(2) Antecedentes patológicos (neoplasias, hipertensão arterial);\n(3) Uso de medicamentos;\n(4) Cirurgias prévias.\n\n**Adequado:** Investiga sobre os quatro antecedentes.\n**Parcialmente adequado:** Investiga sobre dois ou três dos antecedentes.\n**Inadequado:** Investiga apenas um ou não investiga antecedente algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame físico neurológico.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Excluir comprometimento neurológico, que poderia ser causa de incontinência urinaria neurogênica."
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Realiza a avaliação funcional da musculatura do assoalho pélvico (AFA) pela palpação bidigital:**\n(1) Com a paciente em decúbito dorsal em posição ginecológica modificada (flexoabdução de coxofemoral com os pés apoiados sobre a maca);\n(2) Introduz os dedos indicador e médio no canal vaginal, com a mão devidamente enluvada e untada em gel;\n(3) Solicita à paciente que contraia a musculatura ao redor dos dedos do examinador e sustente essa contração pelo tempo máximo que conseguir.\n\n**Adequado:** Cumpre com as três ações.\n**Parcialmente adequado:** Cumpre com uma ou duas ações.\n**Inadequado:** Não cumpre com ação alguma.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Exame físico ginecológico:**\n(1) Solicita exame especular; e,\n(2) Verbaliza o achado de prolapso genital.\n\n**Adequado:** Solicita e verbaliza o achado.\n**Parcialmente adequado:** Solicita, mas não verbaliza o achado.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solitica que a paciente realize manobras de esforço (tossir, espirrar, levantar peso) para observação da perda urinária e sua intensidade.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita a realização do toque retal.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "O toque retal testa a força da parede vaginal posterior, a presença de retocele, enterocele e o tônus do esfíncter anal."
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Informa a hipótese diagnóstica de:**\n(1) Incontinência urinária de urgência;\n(2) Prolapso genital.\n\n**Adequado:** Informa corretamente os dois diagnósticos.\n**Parcialmente adequado:** Informa apenas um diagnóstico.\n**Inadequado:** Não informa o diagnóstico corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica conduta tratamento adequado:**\n(1) Fortalecimento do assoalho pélvico; \n(2) Reeducação da bexiga: estabelecer intervalo entre as micções OU micções programadas;\n(3) Não prescreve tratamento medicamentoso.\n\n**Adequado:** Indica os três itens.\n**Parcialmente adequado:** Indica dois itens.\n**Inadequado:** Indica um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "A avaliação de medicamentos da classe de antimuscarínicos, atualmente registrados no Brasil para o tratamento da bexiga hiperativa, como a oxibutinina, tolterodina, solifenacina e darifenacina e também o agonista beta-3 mirabegrona, foi procedida pela Comissão Nacional de Incorporação de Tecnologias no SUS (CONITEC), e esses medicamentos não tiveram o uso recomendado."
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Encaminha a paciente para o serviço de Ginecologia ou Uroginecologia devido ao seu quadro de prolapso genital.** \n\n**Adequado:** Indica o encaminhamento e justifica.\n**Parcialmente adequado:** Indica o encaminhamento, mas não justifica.\n**Inadequado:** Não indica o encaminhamento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Rastreios:**\n(1) Indica a realização de colpocitologia oncotica;\n(2) Indica a realização da mamografia. \n\n**Adequado: **Indica ambos exames de rastreio. \n**Parcialmente adequado:** Indica apenas um dos exames de rastreio. \n**Inadequado:** Não indica nenhum dos exames.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

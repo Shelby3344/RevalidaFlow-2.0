@@ -1,0 +1,180 @@
+{
+  "uid": 1156,
+  "hash": "snTAAQm6aoUOwJGrT57JDi1w",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Tuberculose na UBS | INEP 2020.1",
+  "definicao": "A tuberculose é uma doença infecciosa e transmissível, causada pela bactéria Mycobacterium tuberculosis, também conhecida como bacilo de Koch. A doença afeta prioritariamente os pulmões (forma pulmonar), embora possa acometer outros órgãos e/ou sistemas. A forma extrapulmonar, que afeta outros órgãos que não o pulmão, ocorre mais frequentemente em pessoas vivendo com HIV, especialmente aquelas com comprometimento imunológico.",
+  "origem": 1,
+  "ano_da_prova": "20201",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "51.50",
+    "star": 0,
+    "time": 598.5,
+    "count": 9332
+  },
+  "cenario": "A Equipe de Saúde da Família (ESF) da Unidade Básica de Saúde (UBS) em que você trabalha recebeu de outra UBS uma transferência de cuidado de um paciente morador de outro bairro. O paciente recebeu diagnóstico de tuberculose pulmonar na Atenção Primária à Saúde, foi notificado e iniciou tratamento há 1 semana. Ele foi encaminhado à sua ESF, para dar continuidade ao tratamento diretamente observado (TDO). \nO paciente é um homem de 53 anos, pesando 75 kg, em bom estado geral, que reside sozinho e recentemente se mudou para o território de sua UBS, por ter encerrado o contrato de aluguel da casa onde residia  anteriormente. Trabalha como vigia noturno, sem contactantes. Na referência, constam a medicação prescrita (esquema básico para adultos com mais de 50 kg), o histórico de HIV negativo, ausência de comorbidades, consumo leve de álcool, insuficiência familiar e social e o atestado médico de 15 dias de afastamento do trabalho. A consulta de hoje foi agendada pela agente comunitária de saúde, com  os objetivos de programar o tratamento, dar continuidade ao TDO e orientar o paciente.",
+  "tarefas": "-Acolher o paciente;\n-Citar as medicações e explicar o tratamento completo da tuberculose;\n-Orientar como será feito o TDO na UBS; e\n-Orientar sobre o afastamento do trabalho.\n\nObservações: \nNão será necessária a realização de exame físico. Considere que estão disponíveis neste consultório todos os materiais de registro de saúde,  incluídos o prontuário de saúde, atestado médico, receituários, impressos dos sistemas de  informação, ficha de encaminhamento, ficha de solicitação de exames, entre outros.",
+  "script_ator": "José, moro sozinho, não tenho filhos\n\n**Motivo de consulta:** \nA agente de saúde passou lá na minha rua e marcou a consulta pra mim para que eu desse continuidade no meu tratamento de tuberculose que eu já vinha fazendo na minha antiga UBS. \n\n**Tempo de diagnóstico da doença:** \n1 semana\n**Tratamento medicamentoso:** \nEu tenho tomado uns comprimidos aí \n**Quantidade de comprimidos:** \nSão vários que eu tomo em jejum \n**Caso o candidato pergunte se o paciente sabe como deve fazer o uso da medicação, responder:** \nO antigo médico até falou para mim, mas eu não memorizei, o senhor pode repetir ? \n**Toma de medicamentos: **\nEu estou tomando todos os dias em casa \n\n**Sinais e sintomas da tuberculose:** \nAté antes de começar a tomar o medicamento eu sentia alguma coisa, agora que comecei o tratamento eu já me sinto bem melhor, mas sigo com uma tosse, me sinto um pouco desanimado e tenho uma dorzinha de cabeça, é por causa da medicação né ?\n\n**Atividade laboral: **\nO meu médico anterior tinha me dado um atestado de 15 dias, mas como eu venho tomando os medicamentos certinhos a uma semana eu gostaria de saber se eu já posso voltar a trabalhar \n\n**Dúvidas: **\n**Dúvida:** Poderia explicar o que eu tenho?\n**Dúvida:** Eu gosto de tomar uma cervejinha e uma pinguinha, posso tomar junto com o medicamento?",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Cumprimenta e identifica-se ao paciente.**\n\n**Adequado:** Realiza a tarefa \n**Inadequado:** Não realiza a tarefa",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta ao paciente o motivo de consulta **\n\n**Adequado:** Pergunta \n**Inadequado:** Não pergunta",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3.** Esclarece ao paciente que ele está com tuberculose e onde se instala **\n\n**Adequado:** Esclarece \n**Inadequado:** Não esclarece",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta se o paciente está fazendo uso das medicações (adesão) **\n\n**Adequado:** Pergunta \n**Inadequado:** Não pergunta",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Pergunta quantos medicamentos o paciente está tomando por dia **\n\n**Adequado:** Pergunta \n**Inadequado:** Não pergunta",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta o estado do paciente OU como ele está se sentindo OU se houve algum efeito colateral da medicação **\n\n**Adequado:** Pergunta \n**Inadequado:** Não pergunta",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Cita os nomes dos quatro medicamentos, na forma de dois tipos de comprimidos: Rifampicina, Isoniazida, Pirazinamida e Etambutol (RHPE) e Rifampicina e Isoniazida (RH) **\n\n**Adequado:** Cita \n**Inadequado:** Não cita",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8.** Explica o tratamento completo para TB 2RHZE/4RH: 2 meses de tratamento diário com RHZE, 4 comprimidos/dia; 4 meses de tratamento diário com RH, 4 comprimidos/dia **\n\n**Adequado: **Explica \n**Inadequado:** Não explica",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Atenção: o tratamento foi modificado desde a realização desta estação pelo INEP. A bibliografia atualizada na área de referências está logo abaixo."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Explica efeitos colaterais menores das medicações:**\n(1) Gástricos (epigastralgia, dor abdominal, náusea e vômitos);\n(2) Cutâneos (edema, irritação, acne e prurido); e,\n(3)Outros (cefaleia, vertigem, insônia, ansiedade e artralgia).\n\n**Adequado:** Explica dois ou mais efeitos colaterais \n**Parcialmente adequado:** Explica apenas um dos efeitos colaterais menores \n**Inadequado:** Não explica efeitos",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Pergunta se há alguma dúvida e explica que os efeitos costumam passar sem precisar suspender a medicação **\n\n**Adequado: **Cumpre todas as tarefas \n**Parcialmente adequado:** Cumpre apenas uma das tarefas \n**Inadequado:** Não faz nenhuma pergunta",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Orienta a ingestão com água dos 4 comprimidos de RHPE na UBS **\n\n**Adequado:** Orienta \n**Inadequado:** Não orienta",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Explica que o paciente não deve ingerir a medicação com álcool, pelo risco de agressão ao fígado e piora dos sintomas adversos **\n\n**Adequado:** Explica \n**Inadequado:** Não explica",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13.** Orienta como será o TDO: **\n(1) (Quem) membro da Estratégia da Saúde da Família (ACS, enfermeiro, técnico de enfermagem ou médico) \n(2) (Como) horário de ida à UBS ou visita domiciliar \n(3) (Especificidade) como se dará a tomada da medicação nos finais de semana e feriados \n\n**Adequado:** Faz as três orientações \n**Parcialmente adequado:** Faz até duas orientações das três listadas acima \n**Inadequado:** Não orienta",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta o paciente a não retornar ao trabalho **\n\n**Adequado:** Orienta \n**Inadequado:** Não orienta",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

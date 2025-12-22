@@ -1,0 +1,209 @@
+{
+  "uid": 1380,
+  "hash": "7b907a17-8912-4d0e-87e9-af96dd7b9b4f",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Gestação na Adolescência e Ética Médica",
+  "definicao": "A gestação na adolescência é uma condição onde a gestante é uma adolescente, geralmente definida como alguém entre 10 e 19 anos. Este tipo de gestação requer atenção especial devido aos riscos aumentados tanto para a mãe quanto para o bebê, incluindo complicações obstétricas e desafios psicossociais.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "94.00",
+    "star": 0,
+    "time": 585.5,
+    "count": 1968
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial – unidade básica de saúde\n\nA unidade apresenta a seguinte infraestrutura:\n- ambulatórios para atendimento de consultas marcadas e de acolhimento do dia;\n- sala para observação, coleta de exames e administração de medicamentos orais ou\nparenterais. \n\nDescrição do caso: \nJoyce, 15 anos, chega à unidade de saúde desacompanhada, relatando estar preocupada com a possibilidade de gravidez.",
+  "tarefas": "Realizar a anamnese direcionada a queixa principal da paciente;\nSolicitar exames complementares, se necessário;\nExplicar o diagnóstico e responder às perguntasda paciente.\nOrientar sobre o acompanhamento e seguimento da paciente.",
+  "script_ator": "**Dados pessoais:** \nJoyce, 15 anos, estudante, solteira.\n\n**Motivo de consulta:**\nDoutor(a), estou acho que estou grávida, fiz um teste de farmácia e deu positivo. \n\n**Após o resultado do Beta HCG:** \n- Responder com expressão de choro e desespero -\nDr (a) minha mãe não pode saber! Você promete que não vai ligar pra ela? Ela não pode saber de jeito nenhum!\nO que vamos fazer agora?\nEu não posso abortar né Dr (a)?\n\n**Sintomas de gestação:**\nNáuseas: sim, bastante, pela manhã.\nVômitos: vomitei 1 vez quando senti cheiro de perfume.\nDor abdominal: nega.\nTonturas: nega.\nSensibilidade mamária: sim.\n\n**Antecedentes ginecológicos e obstétricos:**\nGPAC: nunca engravidei antes. \nMenarca: 13 anos.\nSexarca: 15 anos. \nDUM: há 2 meses. \nRelações sexuais: eu tava namorando, fiquei 4 meses com ele, mas ele me traiu.\nUso de anticonceptivos: não usava camisinha em todas as relações e nunca tomei pílula. \n\n**Antecedentes pessoais e familiares:**\nComorbidades: nega.\nUso de medicamentos: nega.\nUso de substâncias: nunca usei drogas ou álcool.\nDoenças na família: nega.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Beta HCG",
+      "conteudo": "Beta-hCG positivo.\n\nIdade gestacional estimada: 6 semanas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) cumprimenta a paciente simulada;\n(2) identifica-se; e,\n(3) dirige-se a ela pelo nome, pelo menos uma vez.\n\n**Adequado:** realiza as três ações.\n**Parcialmente adequado:** realiza apenas duas ações.\n**Inadequado:** realiza apenas uma ação ou não realiza ação\nalguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Demonstra empatia com a paciente:**\n(1) estabelece contato visual; e,\n(2) mantém postura atenta e interessada ao longo da consulta.\n\n**Adequado:** realiza as duas ações.\n**Parcialmente adequado:** realiza uma ação.\n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0",
+        "adequado": "1.0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta ativamente a fala da paciente, sem interrompê-la.**\n\n**Adequado:** realiza a ação.\n**Inadequado:** não realiza a ação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com a paciente simulada, evitando\ntermos técnicos de difícil compreensão.**\n\n**Adequado:** utiliza linguagem acessível.\n**Inadequado:** não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Questiona sobre a vida sexual e ciclo menstrual:**\n(1) início das relações sexuais;\n(2) uso de preservativo durante a atividade sexual;\n(3) uso de anticoncepcionais;\n(4) data da última menstruação.\n(5) gestações, partos e abortos anteriores.\n\n**Adequado:** questiona sobre pelo menos quatro desses itens.\n**Parcialmente adequado: **questiona sobre apenas três desses\nitens.\n**Inadequado: **questiona apenas dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre sintomas de gestação:**\n(1) náuseas;\n(2) mal-estar;\n(3) vômitos;\n(4) tonturas;\n(5) sensibilidade mamária.\n\n**Adequado:** pergunta pelo menos quatro sintomas.\n**Parcialmente adequado:** pergunta pelo menos três sintomas.\n**Inadequado:** pergunta sobre dois ou menos sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita Beta HCG quantitativo ou qualitativo.**\n\nAdequado: solicita.\nInadequado: não solicita",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza o diagnóstico de gestação/gravidez.**\n\n**Adequado:** verbaliza o diagnóstico de gravidez.\n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Informa que será necessário comunicar a confirmação da gestação a um responsável legal, o que pode ser feito pela própria paciente. No entanto, se a paciente não efetuar essa comunicação, ocorrerá a quebra do sigilo médico.**\n\n**Adequado:** Informa que a comunicação da gestação pode ser feita pela própria paciente e, caso não a efetue, será necessária a quebra do sigilo médico.\n**Parcialmente adequado:** Somente quebra o sigilo médico (sem especificar que a comunicação ao responsável legal pode ser realizado pela própria paciente).\n**Inadequado:** Garante o sigilo médico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Explica à paciente evitando julgamentos, condutas paternalistas ou alarmistas que o aborto não é legal no Brasil, sendo permitido somente em casos selecionados aos quais ela não se enquadra no momento. **\n\n**Adequado:** explica à paciente.\n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Explica a necessidade de dar inicio ao pré-natal e orienta ao inicio do preenchimento da caderneta da gestante. **\n\n**Adequado:** explica e refere o inicio do preenchimento da caderneta.\n**Parcialmente adequado:** somente explica a necessidade de dar inicio ao pré-natal.\n**Inadequado:** não dá inicio ao pré-natal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita exames laboratoriais:**\n(1) Hemograma;\n(2) Glicemia de jejum;\n(3) Grupo e fator RH;\n(4) Urina tipo 1 ou EAS;\n(5) Coombs indireto.\n\n**Adequada:** solicita ao menos quatro exames.\n**Parcialmente adequado:** solicita três exames.\n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Solicita exames:**\n(1) Anti-HIV;\n(2) VDRL;\n(3) Anti-HCV; \n(4) HBS Ag / Anti-HBs;\n(5) HTVL1 e HTLV2 (sorologia);\n(6) IgM e IgG Toxoplasmose.\n\n**Adequado:** solicita ao menos cinco exames.\n**Parcialmente adequado:** solicita quatro exames.\n**Inadequado:** solicita três ou menos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "HTLV 1 e 2 foram incorporados em 2024."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Solicita exame complementar de imagem:**\n(1) Ultrassonografia transvaginal ou obstétrico.\n\n**Adequado:** solicita.\n**Inadequado:** não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Oferece atendimento psicológico e/ou equipe multidisciplinar.**\n\nAdequado: oferece.\nInadequado: não oferece",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Orienta o seguimento médico.**\n\nAdequado: oferece.\nInadequado: não oferece",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

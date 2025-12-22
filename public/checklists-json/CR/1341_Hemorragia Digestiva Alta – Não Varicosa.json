@@ -1,0 +1,267 @@
+{
+  "uid": 1341,
+  "hash": "nP08dVvia04WRZGOKmSibj2F",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Hemorragia Digestiva Alta – Não Varicosa",
+  "definicao": "A hemorragia digestiva alta é qualquer sangramento originado no trato gastrointestinal superior ou próximo ao ângulo de Treitz. Abarca desde a boca, até a união entre o duodeno e o jejuno (esôfago, estômago e duodeno ) e são geralmente associados a hematêmese (vômito com sangue) ou melena (fezes escurecidas – com sangue digerido).",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "59.50",
+    "star": 0,
+    "time": 599.5,
+    "count": 7334
+  },
+  "cenario": "Nível de atenção: Atenção terciária a saúde\nTipo de atendimento: Emergência geral. \n\nA unidade possui a seguinte infraestrutura: \n- Setor de radiologia convencional e ultrassonografia; \n- Tomografia computadorizada; \n- Endoscopia digestiva alta e colonoscopia; \n- Laboratório de análises clínicas e banco de sangue; \n- Leitos de internação e centro cirúrgico. \n\nDescrição do Caso: \nVocê é o médico plantonista do pronto socorro e atenderá uma paciente de 47 anos com queixa de hematêmese há duas horas.",
+  "tarefas": "-Realizar anamnese do paciente; \n-Solicitar e interpretar exame físico direcionado; \n-Solicitar e interpretar os exames pertinentes; \n-Estabelecer e comunicar hipótese diagnóstica; \n-Verbalizar diagnóstico diferencial (MÍNIMO TRÊS);\n-Propor tratamento adequado e demais orientações.",
+  "script_ator": "**DADOS PESSOAIS**\n- Me chamo Carla, tenho 47 anos, sou casada e sou dona de casa. \n\n**MOTIVO DE CONSULTA** \n- Dr.(a), você precisa me ajudar! Eu estava em casa e vomitei vermelho. Eu acho que é sangue.\n\n**SOBRE O MOTIVO DE CONSULTA (HEMATÊMESE):**\n**Tempo de evolução:** Aproxidamente duas horas.\n-**Frequência/Episódios:** Uma vez, mas acho que vou vomitar de novo.\n**-Precedido de náuseas:** Sim. Ainda me sinto nauseada.\n**-Ingesta de alimentos/líquidos de coloração vermelha OU com corantes:** Nega.\n**-Presença de coágulos:** Acho que sim. Não fiquei reparando muito. \n**-Alteração na característica das fezes/eliminação de flatos:** Há três dias observei que minhas fezes estão bem negras e com um cheiro horrível. Nunca senti este cheiro antes.\n**-Episódios anteriores:** Nunca vomitei sangue na minha vida! É a primeira vez. \n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n**Epigastralgia:** Sim. Estou sentindo dores de estômago há mais de um mês. Neste momento não sinto dor.\n**-Disfagia:** Nega. \n**-Hiporexia:** Sim. Não estou com muita fome ultimamente.\n**-Tonturas/desmaios OU síncope:** Sinto tontura as vezes, mas nunca desmaiei. \n**-Febre:** Nega.\n**-Perda de peso não intencional:** Não sei te dizer, mas acho que só um pouco.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS:**\n**Comorbidades/doença atual:** Eu tenho diabetes mellitus tipo 2, hipertensão arterial e insuficiência arterial. \n**Uso de medicamentos:** Além dos medicamentos para tratar diabetes e a pressão arterial, eu estou usando Nimesulida há quatro meses, devido a dor que sinto depois que fizeram a cirurgia na minha perna.\n**-Cirurgias prévias:** Tive que amputar o antepé direito devido a uma complicação uma destas minhas doenças. Fizeram a cirurgia há um ano.\n**-Internação prévia:** Sim. Várias vezes. A última vez foi quando amputaram meu antepé, mas há 10 dias estive no pronto socorro para tomar medicamento na veia devida à dor que eu sentia no estômago que estava muito forte. \n\n**ANTECEDENTES FAMILIARES**\n- Minha mãe morreu com câncer de esôfago.\n\n**HÁBITOS**\n**Tabagismo:** Não fumo mais. Eu parei de fumar há 6 meses. Antes eu fumava 2 maços de cigarro/dia.\n**Bebidas alcoólicas:** Gosto de tomar vinho todos os dias antes de dormir.\n**Exercícios físicos:** Não realizo.\n**Alimentação:** Variada. \n\n**SOBRE A HIPÓTESE DIAGNÓSTICA**\n- Olha Dr (a) eu acho que não é isso, não é outra coisa? Meu marido falou que é o estresse da minha cirurgia.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais vitais:**\n\n**- Pressão arterial:** 110 x 80 mmHg. \n\n**- Frequência cardíaca:** 98 batimentos por minuto. \n\n**- Saturação de O2:** 98%. AA \n\n**- Temperatura axilar:** 36,2°C. \n\n**- Frequência respiratória:** 18 incursões por minuto.\n\n\n\n**IMC:** 21,3 kg/m2. \n\n\n\n**Circunferência abdominal:** 80 cm\n\n\n\n**Ectoscopia Geral:** \n\nPaciente em regular estado geral, hipocorado (2+/4+), desidratado (1+/4+), afebril, acianótico, anictérico, orientado em tempo e espaço. \n\n\n\n**Aparelho Cardíaco:** \n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. TEC 2 segundos, pulsos cheios e simétricos.\n\n\n\n**Aparelho Respiratório:**\n\n Ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados. \n\n\n\n**Aparelho Adominal:**\n\n**- Inspeção:** Abdome plano, sem lesões de pele, cicatrizes, circulação colateral, retrações ou abaulamentos. \n\n**- Auscultação:** Ruídos hidroaéreos presentes nos quatro quadrantes (2+/4+).\n\n**- Palpação:** Flácido, normotenso, doloroso à palpação em epigástrio sem defesa nem descompressão brusca dolorosa. Ausência de visceromegalias.\n\n**- Percussão:** Timpânico.",
+      "imagem": "https://app.penserevalida.com/impressos/old/WhatsApp-Image-2024-05-15-at-19.35.27.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Toque retal",
+      "conteudo": "Tônus preservado, ausência de massas e presença de fezes escurecidas em ampola retal.",
+      "imagem": "https://app.penserevalida.com/impressos/old/WhatsApp-Image-2024-05-15-at-19.35.27.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**:\n\nHemácias: 3,8 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\nHemoglobina: 7,1 g/dl (Valor de referência: 14 a 18 mg/dl)\n\nHematócrito: 40%(Valor de referência: 39 - 52%)\n\nVCM: 87 fL (Valor de referência: 80 a 100 fL)\n\nHCM: 29 pg (Valor de referência: 26 - 33 pg) \n\nCHCM: 31 g/dl (Valor de referência: 30 - 34 g/dl)\n\nRDW CV: 14% (Valor de referência: 11 - 14%)\n\n\n\n**Leucograma:**\n\nLeucócitos: 7.520/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\nNeutrófilos: 65% (Valor de referência: 40 - 70%)\n\nBastões: 2% (Valor de referência: 0 - 5%)\n\nLinfócitos: 25% (Valor de referência: 20 - 50%)\n\nBasófilos: 0% (Valor de referência: 0 - 2%) \n\nEosinófilos: 0% (Valor de referência: 0 - 6%)\n\nMonócitos: 3% (Valor de referência: 4 - 8%)\n\n\n\n**Plaquetas**: 189.000/mm3 (Valor de referência: 150.000-450.000/mm3)\n\n**Glicemia**: 134 mg/dl (70 - 110 mg/dl)\n\n\n\n**Creatinina**: 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia**: 35 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**Amilase:** 98 UI/L (Valor de referência: 60 - 180 mg/dl)\n\n**Lipase:** 73UI/L (Valor de referência: 0 - 160 mg/dl)\n\n**TGO:** 24 UI/L (Valor de referência: 0 – 35 U/l)\n\n**TGP:** 24 UI/L (Valor de referência: 0-35 U/l)\n\n\n\n**Sódio**: 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l) \n\n\n\n**Grupo e fator sanguíneo:** O+\n\n\n\n**INR/RIN:** 1,1 (valor de referência: 0,8-1,2).",
+      "imagem": "https://app.penserevalida.com/impressos/old/WhatsApp-Image-2024-05-15-at-19.35.27.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Medição da PA e da FC em decúbito e em pé OU investigação de ortostatismo.",
+      "conteudo": "Não apresentaram alterações significativas na pressão arterial e na Frequência cardíaca.",
+      "imagem": "https://app.penserevalida.com/impressos/old/WhatsApp-Image-2024-05-15-at-19.35.27.jpeg"
+    },
+    {
+      "idx": 5,
+      "titulo": "Endoscopia Digestiva Alta",
+      "conteudo": "Observa-se a presença de  extensa úlcera, localizada em pequena curvatura gástrica, de bordas pouco elevadas, formato discretamente irregular e fundo coberto por fibrina e sangue coagulado.",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "Biópsia",
+      "conteudo": "Biópsia gástrica revelando gastrite, caracterizada pela presença de infiltrado inflamatório  difuso, além de metaplasia intestinal, caracterizada pela presença de células caliciformes,  comumente encontrada na vigência de gastrite. Ausência de  alterações sugestivas de neoplasia. Não  revelou a presença dos característicos bastonetes espiralados  no muco gástrico, afastando o diagnóstico por infecção pelo Helicobacter pylori.",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "ECG",
+      "conteudo": "Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: ** \n (1) Identifica-se; \n(2) Cumprimenta o paciente simulado.  \n \n **Adequado:**  Realiza as duas ações.  \n**Inadequado: ** Realiza uma ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza monitorização dos sinais vitais e identifica que o paciente não apresenta sinais de instabilidade hemodinâmica.**\n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza apenas uma ação. \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre o motivo de consulta (hematêmese):** \n(1) Tempo de evolução; \n(2) Frequência/Episódios; \n(3) Precedido de náuseas; \n(4) Ingesta de alimentos/líquidos de coloração vermelha OU com corantes; \n(5) Presença de coágulos; \n(6) Alteração na característica das fezes/eliminação de flatos; \n(7) Episódios anteriores. \n\n**Adequado:** Pergunta sobre seis ou mais itens.\n**Parcialmente adequado:** Pergunta quatro ou cinco itens.\n**Inadequado:** Pergunta sobre três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre sinais e sintomas associados:** \n(1) Epigastralgia; \n(2) Hiporexia; \n(3) Febre; \n(4) Disfagia; \n(5) Tonturas/desmaios OU síncope; \n(6) Perda de peso.\n\n**Adequado:** Pergunta sobre cinco ou seis itens.\n**Parcialmente adequado:** Pergunta sobre três ou quatro itens.\n**Inadequado:** Pergunta sobre dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga sobre antecedentes pessoais:** \n(1) Comorbidades OU patologias crônicas;\n(2) Medicamentos de uso crônico e/ou atual; \n(3) Cirurgias prévias;\n(4) Internação prévia.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "- O etilismo pode orientar a uma HDA varicosa. - O uso crônico de AINES pode levar a lesões da mucosa e é uma causa importante de HDA."
+    },
+    {
+      "idx": 6,
+      "descricao": "6.  **Investiga sobre hábitos de vida:** \n(1) Tabagismo;\n(2) Consumo de bebidas alcóolicas; \n(3) Atividade física;\n(4) Dieta.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "O uso do cigarro é fator de risco para alguns cânceres de esôfago."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Exame físico: **\n(1) Solicita permissão ao paciente para realizar o exame físico; \n(2) Lava as mãos e se paramenta. \n\n**Adequado:** Realiza ambas ações. \n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita a medição da PA e da FC em decúbito e em pé OU investiga a presença de ortostatismo: **\n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza toque retal:**\n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza a necessidade de transfusão sanguínea:**\n\n**Adequado:** Verbaliza  a ação. \n**Inadequado:** Não verbaliza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "1. Critérios para transfusões:a. De concentrado de hemácia:- Paciente que persiste instável tras a infusão de cristalóides;- Hb - Hb - Hb b. De plasma fresco congelado: depois de 4 concentrado de hemácias;c. de Plaquetas: 2. Classes III e IV do choque devem receber hemoderivados na proporção 1:1:1."
+    },
+    {
+      "idx": 11,
+      "descricao": "11.  **Solicita exames Complementares laboratoriais: **\n(1) Hemograma;\n(2) Glicemia capilar; \n(3) INR/RIN/Coagulograma; \n(4) Tipagem sanguínea + fator RH. \n\n**Adequado:** Solicita os quatro exames laboratoriais.\n**Parcialmente Adequado:** Solicita dois ou três exames laboratoriais.\n**Inadequado:** Solicita um ou não solicita exames laboratoriais.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita exames Complementares de imagem: **\n (1) Solicita Endoscopia digestiva alta (EDA); e \n (2) Identifica sangramento recente OU Forrest IIB.\n\n**Adequado:** Solicita a EDA e verbaliza o sangramento recente OU Forrest IIB.**\nParcialmente adequado:** Solicita somente a EDA.\n**Inadequado:** Não menciona.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Classificação de Forrest: 1A) Sangramento ativo em jato. 1B) Sangramento ativo “babando”. 2A)Sangramento recente, coto vascular visível. 2B) Sangramento recente, coágulo. 2C) Sangramento recente, fundo hemático. 3) Sem sangramento, base clara."
+    },
+    {
+      "idx": 13,
+      "descricao": "13.  **Diagnóstico: **\n(1) Hemorragia digestiva alta não varicosa; \n(2) Úlcera péptica. \n\n**Adequado:** Menciona ambos diagnósticos.\n**Parcialmente adequado:** Menciona somente um diagnóstico.\n**Inadequado:** Não menciona.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Solicita Internação:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": "A maioria dos pacientes que se submeteram a hemostasia endoscópica devem ser hospitalizados por pelo menos 72 horas."
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Prescreve: **\n(1) Dieta zero; \n(2) Hidratação parenteral;\n(3) Analgesia; \n(4) Antieméticos. \n(5) IBP em bolus ou em dose dobrada. \n\n**Adequado:** Prescreve os cinco itens.\n**Parcialmente adequado:** Prescreve três a quatro itens.\n**Inadequado:** Prescreve dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "- Sugere-se que o omeprazol endovenoso seja utilizado na dose de 80 mg, endovenosa, em bolus, seguido da infusão de 8 mg/h, por 72 horas, quando deverá ser trocado para 20 mg por via oral (1x/ dia), por oito semanas.- As formulações venosas de IBP podem ser ministradas em bolus ou por infusão prolongada e, na eventual falta dessas formulações, a utilização de doses dobradas de IBP (12/12 horas) por via oral apresenta bons resultados"
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Orienta a suspensão de AINES:** \n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Verbaliza diagnóstico diferencial **\n(1) Epistaxe/hemoptise; \n(2) Pseudo-hematêmese ;\n(3) Hemorragia digestiva baixa; \n(4) Adenocarcinoma gástrico; \n(5) Síndrome de Mallory-Weiss.\n\n**Adequado:** Verbaliza quatro ou mais diagnósticos diferenciais. \n**Parcialmente adequado:** Verbaliza apenas três diagnósticos diferenciais.\n**Inadequado:** Não verbaliza OU verbaliza apenas um diagnóstico diferencial.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Entra em contato com serviço de cirurgia, transferindo a paciente para avaliação cirúrgica. **  \n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": "O tratamento definitivo do paciente estável é feito pela EDA em até 24 horas, resolve 90% dos casos e pode ser feita duas tentativas antes de pensar em procedimentos cirúrgicos. Indicação para procedimento cirúrgico:- Hemorragia maciça, choque refratário sem opção de tratamento endoscópico;- Fracasso na segunda tentativa de endoscopia terapêutica para cessar a hemorragia;"
+    }
+  ]
+}

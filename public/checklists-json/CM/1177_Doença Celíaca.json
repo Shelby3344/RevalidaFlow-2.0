@@ -1,0 +1,189 @@
+{
+  "uid": 1177,
+  "hash": "8fU2QLRj3DoMsAcLNbUyxh0Y",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Doença Celíaca",
+  "definicao": "A doença celíaca é uma doença imunomediada em indivíduos geneticamente suscetíveis causada por intolerância ao glúten, resultando em inflamação da mucosa e atrofia vilosa, o que causa má absorção.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "71.00",
+    "star": 0,
+    "time": 524.5,
+    "count": 8925
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas;\n- Serviço de endoscopia.\n\nDescrição do caso: \nVocê recebe para consulta agendada uma paciente do sexo feminino, 28 anos de idade, estudante.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as seguintes tarefas:\n- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar exame físico direcionado à queixa principal do paciente;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais e acompanhamento clínico;\n- Resolver as dúvidas da paciente se houver.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Aline, 28 anos de idade, estudante, solteira.\n\n**MOTIVO DE CONSULTA: **\n- Consulto porque estou tendo muita diarreia.\n\n**CARACTERÍSTICAS DO QUADRO: **\n**- Tempo de evolução: **Quatro meses.\n**- Consistência das fezes: **Pastosa e às vezes líquida. \n**- Elementos anormais nas fezes (sangue, gordura, pus): **percebi que às vezes sai meio amarelada.\n**- Frequência/ número de episódios: **Geralmente umas 4 vezes por dia. \n\n**SINTOMAS ACOMPANHANTES: **\n- Também estou tendo muitos gases, a barriga parece que está sempre inchada e estou emagrecendo.\n- Negar outros sintomas perguntados. \n\n**SE PERGUNTADO SOBRE A RELAÇÃO DA DIARREIA COM O CONSUMO DE ALIMENTOS OU ÁGUA: **\n- Sempre que como pães, bolos, macarrão, sorvete ou tomo cerveja tenho diarreia. Os dias que eu não como esses alimentos, me sinto bem melhor. \n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nega.\n**- Cirurgias: **Nega. \n**- Internações: **Nega.\n**- Medicamentos: **Anticoncepcional oral. \n**- Alergias: **Nega. \n**- Data da última menstruação: **Há 20 dias.\n**- Viagens recentes: **Nega. \n**- Cartão de vacina: **Atualizado.\n\n**HÁBITOS: **\n**- Álcool: **De vez em quando tomo cerveja e vinho. \n**- Cigarro: **Nega. \n**- Drogas: **Nega. \n**- Hábito intestinal: **Fezes pastosas/líquidas, às vezes amarelada, excesso de gases e distensão abdominal. \n**- Urina: **Nega alterações.\n**- Alimentação: **Variada.\n\n**ANTECEDENTES FAMILIARES: **\n- Irmão mais novo tem diabetes tipo 1.\n\n**AO RECEBER O DIAGNÓSTICO DE DOENÇA CELÍACA, PERGUNTAR: **\n- Por que apareceu essa doença doutor (a)? Sempre comi esse tipo de alimento e nunca tive nada.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico ",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 110x70 mmHg \n\n**- Frequência cardíaca:** 86 batimentos por minuto \n\n**- Saturação de O2:** 99% \n\n**- Temperatura axilar:** 35.8° C \n\n**- Frequência respiratória:** 12 incursões por minuto \n\n\n\n**Dados antropométricos:**\n\n**IMC:** 17,5 kg/m2 \n\n\n\n**Estado geral:**\n\nPaciente em regular estado geral, emagrecida, afebril, acianótico, anictérico, hipocorado e hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome distendido, flácido e normotenso, ruídos hidroaéreos aumentados, hipertimpanismo à percussão, indolor à palpação e sem viceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemácias:** 4,3 milhões/mm3 (Valor de referência: 4,1 a 5,5 milhões/mm3)\n\n**Hemoglobina:** 12,6 g/dl (Valor de referência: 12 a 16 mg/dl)\n\n**Hematócrito:** 38% (Valor de referência: 36 - 48%)\n\n**VCM:** 93 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 31 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 180.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucócitos:** 7.220/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 65% (Valor de referência: 40 - 70%)\n\n**Bastões:** 3% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 25% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 1% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 2% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 4% (Valor de referência: 4 - 8%)\n\n\n\n**Glicemia de jejum:** 80 mg/dl (Valor de referência: 60 - 99 mg/dl)\n\n\n\n**Creatinina:** 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 32 mg/dl (Valor de referência: 40 mg/dl) \n\n**Colesterol VLDL:** 15 mg/dl ( 5 ng/ml)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Parasitológico de fezes ",
+      "conteudo": "**Não se observam protozoários e helmintos.**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Anticorpos Antitransglutaminase ou Antiendomísio ou Antigliadina. ",
+      "conteudo": "**- Antitransglutaminase IgA:** reagente (Valor de referência: não reagente)\n\n**- Antiendomísio:** reagente (Valor de referência: não reagente)\n\n**- Antigliadina:** reagente (valor de referência: não reagente)\n\n**- IgA total:** 279 mg/dl (Valor de referência: 90 - 380 mg/dl)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Endoscopia digestiva alta com biopsia do duodeno",
+      "conteudo": "**Conclusão: **\n\nAtrofia vilositária subtotal, hiperplasia de criptas e aumento de linfócitos intraepiteliais.\n\nMorfologia compatível com enteropatia inflamatória.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga as características do quadro: **\n(1) Tempo de evolução;\n(2) Número de episódios;\n(3) Consistência das fezes;\n(4) Presença de sangue, pus ou gordura nas fezes;\n(5) Sintomas associados. \n\n**Adequado: **Investiga quatro ou cinco itens. \n**Parcialmente adequado: **Investiga dois ou três itens. \n**Inadequado: **Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga a relação entre alimentos ou água consumida com os episódios de diarreia. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Considerar fatores socioeconômicos, higiênicos, moradia, etc."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais: **\n(1) Doenças;\n(2) Cirurgias;\n(3) Uso de medicamentos;\n(4) Alergias;\n\n**Adequado: **Investiga quatro itens. \n**Parcialmente adequado: **Investiga três itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga antecedentes familiares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exame físico. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita análise de laboratório. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita: **\n(1) Anticorpos antitransglutaminase OU antiendomísio OU antigliadina;\n(2) IgA total.\n\n**Adequado: **Solicita dois itens. \n**Parcialmente adequado: **Solicita apenas o item 1. \n**Inadequado: **Não solicita o item 1 ou item algum.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.75"
+      },
+      "dica_teorica": "- Utilizar preferencialmente IgA antitransglutaminase.- Alguns pacientes podem apresentar deficiência nos níveis de IgA total, por tanto é importante realizar essa dosagem. - Em caso de deficiência de IgA total, utilizar IgG."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita parasitológico de fezes. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Em caso de diarreia crônica, descartar parasitoses."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita endoscopia digestiva alta (EDA) com biopsia do duodeno. **\n\n**Adequado: **Solicita (necessariamente deve incluir biopsia).\n**Inadequado: **Não solicita EDA ou não menciona biopsia.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **(1) Realiza o diagnóstico de doença celíaca e (2) explica a relação da doença com alguns alimentos. **\n\n**Adequado: **Realiza as duas ações. \n**Parcialmente adequado: **Realiza o diagnóstico mas não explica a relação. \n**Inadequado: **Não realiza corretamente o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Conduta terapêutica: **\n(1) Explica que o tratamento consiste na dieta isenta de glúten;\n(2) Orienta consulta com nutricionista;\n(3) Solicita retorno entre quatro e seis semanas para nova avaliação;\n(4) Pergunta se a paciente tem dúvidas. \n\n**Adequado: **Realiza quatro tarefas. \n**Parcialmente adequado: **Realiza duas ou três tarefas. \n**Inadequado: **Realiza uma ou nenhuma tarefa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "O único tratamento disponível atualmente para doença celíaca é a exclusão de alimentos que contenham trigo, aveia, centeio e cevada da dieta por toda a vida.Lembrar que a doença celíaca pode levar a um quadro de intolerância à lactose."
+    }
+  ]
+}

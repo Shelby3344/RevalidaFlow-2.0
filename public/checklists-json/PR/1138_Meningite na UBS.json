@@ -1,0 +1,221 @@
+{
+  "uid": 1138,
+  "hash": "z_2xfH42m-T0U6_dKkPb_jgR",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Meningite na UBS",
+  "definicao": "No Brasil, a meningite é considerada uma doença endêmica. Casos da doença são esperados ao longo de todo o ano, com a ocorrência de surtos e epidemias ocasionais. A ocorrência das meningites bacterianas é mais comum no outono-inverno e das virais na primavera-verão. O sexo masculino também é o mais acometido pela doença.A meningite é uma inflamação das meninges, membranas que envolvem o cérebro e a medula espinhal.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "75.50",
+    "star": 0,
+    "time": 580.5,
+    "count": 5183
+  },
+  "cenario": "Local de atuação: Unidade Básica de Saúde (UBS)&nbsp;\n\nA unidade conta com a seguinte infraestrutura :&nbsp;\nSala de atenção médica;&nbsp;\nSala de vacinas;&nbsp;\n\nDescrição do caso: Paciente masculino, 14 anos, é trazido pela mãe a consulta por quadro de febre, vômitos e prostração de 3 dias",
+  "tarefas": "1. Realizar anamnese do paciente;\r\n2. Solicitar e interpretar exame físico;\r\n3. Estabelecer e comunicar a hipótese diagnóstica;\r\n4. Propor conduta terapêutica;\r\n5. Dar orientações ao paciente e sanar dúvidas.\r\n\r\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**Paciente:** Gabriel, 14 anos, estudante\n**Mãe do paciente:** Ana\n\n**TODO INTERROGATÓRIO VAI SER REALIZADO COM Gabriel**\n\n**Motivo de consulta:**&nbsp;\nDr(a) pedi para a minha mãe me trazer aqui hoje porque não aguento mais, estou com muita febre e vômitos, só consigo ficar deitado já fazem três dias\n\nSOBRE A FEBRE e CALAFRIOS\n**Temperatura da febre**:&nbsp;\nMedi com termômetro, 40 graus,&nbsp;\n**Tempo de evolução da febre:**\ncomeçou a três dias.\n**Padrão da febre:**\ntenho febre o dia todo&nbsp;\n**Uso de medicações:**\ntomei dipirona, mas não melhora&nbsp;\n**Calafrios:**&nbsp;\nSim, também tenho muito calafrio&nbsp;\n\n**Náuseas e vômitos:**&nbsp;\nEstou vomitando muito também, parece um filme de terror\n\nSobre a CEFALEIA\n**Dor de cabeça**:&nbsp;\nDói muito a minha cabeça\n**Intensidade da dor de cabeça:**&nbsp;\n9/10\n**Qual parte da cabeça a dor esta:**&nbsp;\nDói toda a cabeça e a nuca&nbsp;\n**Característica da dor:**&nbsp;\nÉ uma dor em pontada&nbsp;\n**Atenuantes e agravantes:**&nbsp;\nNada melhora, mas olhar para a luz piora\n\nANTECEDENTES PESSOAIS E FAMILIARES\n**Doenças crônicas**:&nbsp;\nNão tenho nenhuma\n**Uso crônico de medicação**:&nbsp;\nNão tomo nenhuma medicação&nbsp;\n**Hábitos tóxicos**:&nbsp;\nNão bebo, não fumo e não uso drogas&nbsp;\n**Calendário de vacinas:**&nbsp;\nNos recém nos mudamos para essa cidade e na mudança eu perdi minha carteirinha de vacinas mas acho que tinha alguma atrasada.\n\n**Pessoas com a mesma sintomatologia/dados epidemiológicos:**&nbsp;\nUm amigo meu da escola está bem doente também.\n\n**Perguntas:**\n**Pergunta 1: **Dr(a) tem algum exame que eu tenho que fazer?\n**Pergunta 2: **Posso ter um acompanhante ? Queria muito que a minha mãe, namorada e vó pudessem estar comigo, mesmo que tenham que ficar revezando\n**Pergunta 3: **Tem alguma complicação para isso?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n- **Pressão arterial: **100x70 mmHg\n- **Frequência cardíaca:** 115 batimentos por minuto\n- **Frequência respiratória:** 19 incursões por minuto\n- **Saturação de O2:** 99%\n- **Temperatura axilar:** 40° C\n\n**Estado Geral:** paciente em regular estado geral.\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n**Respiratório:** ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n**Abdominal:** abdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame neurológico",
+      "conteudo": "**ATENÇÃO OLHE PARA A CAMERA E VERBALIZE COMO DEVEM SER REALIZADOS OS EXAMES FÍSICOS PARA AVALIAÇÃO NEUROLÓGICA/MENINGEA DO PACIENTE SIMULADO TENDO EM CONTA A PRINCIPAL SUSPEITA DIAGNÓSTICA**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Resultado exame neurológico",
+      "conteudo": "Rigidez de nuca positiva \n\nKernig positivo.\n\nBrudzinski positivo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. (1) Cumprimenta o paciente simulado;&nbsp;\n(2) identifica-se;&nbsp;\n(3)&nbsp;dirige-se ao paciente simulado pelo nome, pelo menos uma&nbsp;vez;&nbsp;\n(4) pergunta e&nbsp;\n(5) ouve com atenção o motivo da consulta.\n\n**Adequado:** realiza as cinco ações.\n**Parcialmente adequado:** realiza de duas a quatro ações.\n**Inadequado:** realiza apenas uma ação ou não realiza&nbsp;nenhuma ação.&nbsp;",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Estabelece contato visual e mantém postura empática ao longo da consulta.**\n\n**Adequado:** realiza as duas ações.\n**Parcialmente adequado:** realiza apenas uma das ações.\n**Inadequado:** não realiza nenhuma das ações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3.** Escuta a fala do paciente simulado, sem interrompê-lo.**\n\n**Adequado: **realiza integralmente a ação.&nbsp;\n**Inadequado:** não realiza a ação ou não a realiza integralmente",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível para com o paciente simulado, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** usa linguagem acessível.\n**Inadequado:** não utiliza linguagem acessível",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Responde às perguntas do paciente simulado.**\n\n**Adequado:** responde as perguntas.\n**Inadequado:** não responde as perguntas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Realiza anamnese, perguntando sobre as características da febre e sintomas associados:**\n(1) tempo de início de febre;\n(2) temperatura;\n(3) persistência ou intermitência;\n(4) período específico do dia;\n(5) fatores de melhora.\n\n**Adequado: **pergunta três características.\n**Parcialmente adequado:** pergunta duas características.\n**Inadequado: **pergunta uma característica OU não pergunta&nbsp;característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Na anamnese pergunta pela presença de**\n(1) calafrios\n(2) Náuseas e vômitos&nbsp;\n(3) dor de cabeça/cefaleia\n(4) manchas no corpo&nbsp;\n(5) alteração do estado de consciência&nbsp;\n\n**Adequado:** Pergunta de quatro a cinco itens\n**Parcialmente adequado:** Pergunta de dois a três itens\n**Inadequado:** Pergunta somente um item OU não pergunta nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga&nbsp;**\n(1) doenças crônicas&nbsp;\n(2) uso crônico de medicamentos&nbsp;\n(3) alergias&nbsp;\n(4) cirurgias prévias\n\n**Adequado:** Investiga os quatro itens\n**Parcialmente adequado:** Investiga de dois a três itens\n**Inadequado:** Investiga somente um item OU não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita o exame físico**\n\n**Adequado:** Solicita\n**Inadequado:** Não solicita",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10.** Após leitura do impresso Exame Neurológico é capaz de verbalizar:**\n(1)Rigidez de nuca: Estando o paciente em decúbito dorsal, o examinador coloca uma das mãos na região occipital e, suavemente, tenta fletir a cabeça do paciente;\n(2) Kernig: Estando o paciente em decúbito dorsal, o examinador fará a extensão da perna, estando a coxa fletida em ângulo reto sobre a bacia e a perna sobre a coxa;\n(3) Brudzinski: Com o paciente em decúbito dorsal e membros estendidos, o examinador repousa uma das mãos sobre o tórax do paciente e, com a outra colocada na região occipital, executa uma flexão forçada da cabeça.\n\n**Adequado:** Verbaliza a realização adequada das três manobras\n**Parcialmente adequado:** Verbaliza a realização adequada de uma OU duas manobras\n**Inadequado:** Não verbaliza a realização adequada de nenhum manobra.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza que a principal hipótese diagnóstica é Meningite&nbsp;**\n\n**Adequado:** Verbaliza\n**Inadequado:** Não verbaliza",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita derivação do paciente para unidade de saúde de maior complexidade**\n\n**Adequado:** Solicita\n**Inadequado:** Não solicita",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Devido à gravidade do quadro clínico, os casos suspeitos de meningite sempre são internados nos hospitais"
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Responde ao paciente que será necessário a realização de exames na unidade de internação**\n**Obs:** Serão aceitos os seguintes: Exame quimiocitológico do líquor; Bacterioscopia direta; Cultura; Aglutinação pelo látex e Reação em Cadeia da Polimerase em Tempo Real (qPCR).\n\n**Adequado:** Responde ao paciente que será necessária a realização de ao menos um dos exames listados\n**Inadequado:** Responde ao paciente que será necessária a realização de exame sem citar nenhum dos exames listados OU não responde que não será necessária a realização de exame",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "O aspecto do líquor, embora não considerado um exame, funciona como um indicativo. O líquor normal é límpido e incolor, como “água de rocha”. Nos processos infecciosos, ocorre o aumento de elementos figurados (células), causando turvação, cuja intensidade varia de acordo com a quantidade e o tipo desses elementos.&nbsp;Importante: Todos os exames laboratoriais estão disponíveis no SUS, e são solicitados pela equipe médica ou de vigilância epidemiológica durante o acompanhamento do caso."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Informa ao paciente sobre a necessidade de isolamento**\n\n**Adequado:** Informa\n**Inadequado:** Não informa",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Em geral, a transmissão é de pessoa para pessoa, através das vias respiratórias, por gotículas e secreções do nariz e da garganta. Também ocorre a transmissão fecal-oral, através da ingestão de água e alimentos contaminados e contato com fezes."
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Informa ao paciente possíveis complicações do quadro&nbsp;**\n\n**Obs:** Serão aceitas as seguintes complicações:\n(1) Perda da audição,&nbsp;\n(2) Distúrbio de linguagem,&nbsp;\n(3) Retardo mental,&nbsp;\n(4) Anormalidade motora,\n(5) Distúrbios visuais.\n\n**Adequado:** Informa as cinco possíveis complicações\n**Parcialmente adequado:** Informa de duas a quatro possíveis complicações\n**Inadequado:** Informa somente uma possível complicação OU não informa nenhuma possível complicação",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Realiza a notificação do caso&nbsp;**\n\n**Adequado:** Notifica\n**Inadequado **: Não notifica",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "uid": 1569,
+  "hash": "6f3ad7f90592848d0e7a6e75cec67c887ad1d190ac49b45d9768ed7fdad73e76-1750188313",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Hérnia Inguinal Indireta",
+  "definicao": "A hérnia inguinal indireta em lactentes é uma condição em que parte do intestino ou tecido abdominal protrai através de uma abertura na parede abdominal na região da virilha. É mais comum em meninos e tem uma relação significativa com a prematuridade.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "71.00",
+    "star": 0,
+    "time": 599.5,
+    "count": 557
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação;\n- Apoio para referênciamento de pacientes com setor de urologia e cirurgia.\n\nDescrição do caso:\nVocê é um médico na Unidade de Atenção Primária de Saúde e recebe Marlene, uma mãe de 28 anos, que traz seu filho Felipe, de 5 meses, para uma consulta de rotina de puericultura.\n\nATENÇÃO! CONSIDERE QUE O PACIENTE ESTÁ NO COLO DA MÃE DURANTE TODA A CONSULTA.\nA ANAMNESE DEVERÁ SER DIRIGIDA À MÃE DO PACIENTE.",
+  "tarefas": "- Realizar a anamnese dirigida à mãe;\n- Solicitar e interpretar exame físico geral;\n-Solicitar exame físico específico, citando manobras e o que deve ser avaliado;\n- Estabelecer e explicar à mãe a hipótese diagnóstica;\n- Explicar à mãe a fisiopatologia da condição do seu filho;\n- Verbalizar quatro diagnósticos diferenciais;\n- Propor a conduta terapêutica, justificando;\n- Informar quatro sinais de alarme.",
+  "script_ator": "**DADOS DA MÃE:**\n- Marlene, 37 anos, dona de casa.\n\n**DADOS DA CRIANÇA:**\n- Felipe, 5 meses.\n\n**MOTIVO DE CONSULTA:**\n- Dr.(a), estou aqui para a consulta de rotina do Felipe.\n\n**SE QUESTIONA SE TEM ALGUMA ALTERAÇÃO/PREOCUPAÇÃO.**\n-Notei um “carocinho” na virilha direita dele.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n- **Início:** Há cerca de duas semanas.\n- **Situação:** O volume aparece quando ele chora ou faz força, e some quando relaxa.\n- **Dor/Irritabilidade:** Parece causar apenas um leve incômodo.\n-**Calor**: Nega.\n-**Rubor/Vermelhidão:** Nega.\n-**Edema:** Nega.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Náuseas  ou Vômitos:** Nega.\n**-Sintomas geniturinários:** Nega.\n**-Evacuatórios:** Normais.\n\n**ANTECEDENTES PERINATAIS:**\n- **Parto**: Nascido de parto vaginal, prematuro de 35 semanas.\n- **Pré-natal:** Fiz o pré-natal com 5 consultas, minhas sorologias deram negativas, foi tudo normal.\n\n**CADERNETA DE VACINAÇÃO/CRIANÇA:**\n- Liberar o Impresso e perguntar: Está tudo certo com a vacinação?\n\n**DESENVOLVIMENTO:**\n- Dentro dos padrões esperados.\n\n**ALIMENTAÇÃO:**\n- Amamentação exclusiva desde que nasceu com boa aceitação.\n\n**DÚVIDAS:**\n**Pergunta 1:** Preciso me preocupar com complicações?\n\n**Se questionado OUTRAS PERGUNTAS, responda:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Estado geral:**\n\nLactente eutrófico, ativo, alerta, em bom estado geral. Interage com o examinador, sem sinais de desconforto ou irritabilidade.\n\n\n\n**Sinais vitais:**\n\nTemperatura axilar: 36,5 °C\n\nFrequência cardíaca: 132 bpm\n\nFrequência respiratória: 38 irpm\n\nSaturação de oxigênio: 98% em ar ambiente\n\nPeso, estatura e perímetro cefálico dentro dos percentis esperados para a idade.\n\n\n\n**Cabeça e pescoço:**\n\nFontanela anterior normotensa. Sem linfadenomegalias cervicais. Mucosas úmidas e coradas.\n\n\n\n**Tórax:**\n\nExpansibilidade simétrica. MV+ bilateral, sem ruídos adventícios.\n\nACV: bulhas normofonéticas, ritmo regular, sem sopros.\n\n\n\n**Abdome:**\n\nPlano, flácido, indolor à palpação. Sem visceromegalias. RHA presentes e normais.\n\n\n\n**Membros e tônus:**\n\nMembros superiores e inferiores com movimentação ativa e simétrica. Tônus e reflexos compatíveis com a idade.\n\n\n\n**Neurológico:**\n\nBoa interação, reflexos primitivos presentes, desenvolvimento psicomotor dentro do esperado.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "CADERNETA DE VACINAÇÃO",
+      "conteudo": "**Ao Nascer:**\n\nBCG;\n\nHepatite B.\n\n\n\n**2 Meses:**\n\nPentavalente;\n\nPneumocócica;\n\nVacina inativada contra poliomielite (VIP);\n\nRotavirus.\n\n\n\n**3 meses:**\n\nMeningocócica.\n\n\n\n**4 Meses:**\n\nPentavalente;\n\nPneumocócica;\n\nVacina inativada contra poliomielite (VIP);\n\nRotavirus.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame Físico de Região inguinal",
+      "conteudo": "**Genitália externa:**\n\nGenitália masculina normal. Testículos palpáveis bilateralmente, em bolsa escrotal de coloração e temperatura normais. Sem sinais de hidrocele.\n\n\n\n-Abaulamento de aproximadamente 1,5 cm na região inguinal direita, visualizado ao choro ou esforço (manobra de Valsalva espontânea).\n\n\n\n-Massa de consistência mole, elástica, indolor, sem calor, rubor ou edema local.\n\n\n\n-Redutível com leve pressão manual, sem resistência ou dor associada.\n\n\n\n-Expansível à tosse/choro, sem sinais de encarceramento ou estrangulamento.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se ao paciente e acompanhante.**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe e do filho.\n\n**Adequado:** Realiza as quatro ações.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza questionamentos sobre a queixa principal.**\n(1) Início e duração do aparecimento do volume;\n(2) Situações em que o volume aparece ou desaparece;\n(3) Presença de dor ou irritabilidade;\n(4) Alterações na cor ou temperatura local;\n(5) Edema Local.\n\n**Adequado:** Questiona quatro ou cinco itens.\n**Parcialmente adequado:** Questiona dois ou três itens.\n**Inadequado:** Questiona um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre a sintomas associados:**\n(1) Náuseas;\n(2) Vômitos;\n(3) Alteração de hábitos intestinais;\n(4) Alterações urinárias.\n\n**Adequado:** Questiona os quatro itens.\n**Parcialmente adequado:** Questiona dois ou três itens.\n**Inadequado:** Questiona um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona sobre:**\n(1) Parto (Via de parto, Idade gestacional ou complicações);\n(2) Realização do Pré-natal;\n(3) Caderneta de vacinação;\n(4) Amamentação.\n\n**Adequado:** Questiona os quatro itens.\n**Parcialmente adequado:** Questiona dois ou três itens.\n**Inadequado:** Questiona um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico geral e específico citando:**\n(1) Inspeção estática e dinâmica da região inguinal;\n(2) Manobra de Valsalva espontânea;\n(3) Palpação bidigital do canal inguinal (Palpação do anel inguinal externo);\n(4) Teste de transiluminação;\n(5) Palpação testicular (exame dos testículos);\n(6) Testar redutibilidade.\n\n**Adequado:** Solicita exame, citando cinco ou seis itens.\n**Parcialmente adequado:** Solicita exame físico, citando três ou quatro itens.\n**Inadequado:** Não solicita exame físico ou cita dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Durante o exame físico específico, devem ser realizadas manobras semiológicas direcionadas, de acordo com a suspeita clínica. Por exemplo:  Para avaliação de hérnias em recém-nascidos e lactentes, realizar inspeção e palpação da região inguinal, especialmente durante o choro ou esforço. As manobras incluem:  Manobra de Valsalva (espontânea no choro): pode evidenciar abaulamentos herniários.  Palpação da região inguinal e escrotal: avaliar presença de massa redutível, consistência, dor à palpação e impulso herniário.  Testar redutibilidade: verificar se o conteúdo herniado retorna à cavidade abdominal com leve pressão.  Transiluminação escrotal: para diferenciar hidrocele de hérnia inguinal.  Deve-se avaliar:  Presença de abaulamento ou massa.  Redutibilidade.  Sinais de encarceramento (dor, alteração de coloração, ausência de redução).  Temperatura local.  Assimetria entre os lados.  Essas etapas são fundamentais para orientar a conduta e a necessidade de intervenção cirúrgica."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Faz o diagnóstico de Hérnia Inguinal Indireta Direita, Redutível ou não complicada.**\n\n**Adequado:** Faz o diagnóstico completo corretamente.\n**Parcialmente Adequado:** Faz o diagnóstico de Hérnia Inguinal Indireta sem citar lateralidade ou redutibilidade.\n**Inadequado:** Não faz o diagnóstico ou faz diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Explica para a mãe que:**\nEssa hérnia surgiu devido à persistência do conduto peritônio-vaginal, causada por uma falha no processo de obliteração que deveria ocorrer por volta da 36ª semana de gestação.\n\n**Adequado:** Explica corretamente citando persistência do conduto peritônio-vaginal e a falha de sua obliteração.\n**Parcialmente adequado:** Explica corretamente a persistência do conduto peritônio-vaginal.\n**Inadequado:** Não explica ou explica incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Durante a vida embrionária por volta do terceiro mês gestacional ocorre uma invaginação do peritônio que segue até o gubernáculo na base do escroto (no sexo feminino acompanha o ligamento redondo até os grandes lábios). Esta invaginação forma o que chamamos de Conduto Peritônio Vaginal (CPV) e geralmente se oblitera antes do nascimento por volta da 36ª semana de gestação"
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza diagnósticos diferenciais:**\n(1) Hidrocele comunicante;\n(2) Hidrocele não comunicante;\n(3) Linfadenopatia inguinal;\n(4) Testículo retrátil ou ectópico;\n(5) Cisto do cordão espermático;\n(6) Hematoma inguinal/ Trauma;\n(7) Lipoma do cordão espermático;\n(8) Criptorquidia;\n\n**Adequado:** Verbaliza quatro ou mais diagnósticos diferenciais.\n**Parcialmente adequado:** Verbaliza três diagnósticos diferenciais.\n**Inadequado:** Verbaliza dois ou menos diagnósticos diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Orienta que uma vez realizado o diagnóstico, o tratamento não\ndeve ser postergado e a criança deve ser encaminhada o mais breve possível para correção cirúrgica eletiva, porém sem demora devido ao risco de encarceramento nessa faixa etária.**\n\n**Adequado:** Orienta de maneira completa e adequada.\n**Parcialmente adequado:** Orienta somente tratamento cirúrgico eletivo sem citar o motivo.\n**Inadequado:** Não orienta adequadamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Na população pediátrica há uma chance significativa (6 a 18%) de encarceramento e consequentemente estrangulamento da hérnia inguinal. Nas crianças menores de 2 meses, o risco aumenta para até 30%. Por isso, uma vez realizado o diagnóstico, o tratamento não deve ser postergado e a criança deve ser encaminhada o mais breve possível para o urologista ou cirurgião pediátrico para correção cirúrgica eletiva, porém sem muita demora. Algumas vezes o pediatra se depara com crianças que apresentam uma hérnia não redutível. Neste caso pode-se estar diante de uma hérnia encarcerada, onde a criança pode se apresentar com sintomas de obstrução intestinal (parada de eliminação de gases e fezes, distensão abdominal, vômitos, etc.). Em cerca de 70% dos casos de encarceramento, a redução manual da hérnia é possível."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Encaminha paciente para:**\n(1) Urologista Pediátrico;\n(2) OU Cirurgião Pediátrico;\n\n**Adequado:** Encaminha de maneira correta.\n**Parcialmente adequado:** Encaminha para Urologista ou Cirurgião sem citar 'pediátrico'.\n**Inadequado:** Não encaminha corretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza sinais de alarme.**\n(1) Abaulamento doloroso e endurecido na região inguinal ou escrotal;\n(2) Impossibilidade de redução do abaulamento;\n(3) Vômitos e sinais de desconforto abdominal;\n(4) Irritabilidade intensa e choro persistente;\n(5) Febre;\n(6) Alteração da coloração da pele sobre a hérnia (vermelhidão, palidez ou cianose);\n(7) Distensão abdominal;\n(8) Recusa alimentar.\n\n**Adequado:** Verbaliza de quatro a oito itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "É importante que a mãe saiba identificar sinais de complicações."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica vacinação de 5 meses com a Meningocócica.**\n\n**Adequado:** Indica vacinação.\n**Inadequado:** Não indica vacinação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza possíveis complicações do quadro:**\n(1) Encarceramento;\n(2) Estrangulamento;\n(3) Perfuração intestinal;\n(4) Atrofia testicular;\n(5) Obstrução intestinal.\n\n**Adequado:** Verbaliza quatro a cinco itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Encarceramento  O conteúdo herniado (geralmente alça intestinal) fica preso e não retorna ao abdome.  Pode causar dor intensa e abaulamento irreversível.  Estrangulamento  O suprimento sanguíneo ao conteúdo herniado é comprometido.  Leva à isquemia e necrose intestinal.  Quadro grave, com risco de sepse e necessidade de cirurgia de urgência.  Perfuração intestinal  Quando a alça estrangulada sofre necrose e se rompe.  Complicação potencialmente fatal.  Atrofia testicular  Pode ocorrer se o fluxo sanguíneo ao testículo for comprometido pela hérnia.  Mais comum em casos de encarceramento prolongado.  Obstrução intestinal  Resultado da compressão das alças herniadas.  Sinais: vômitos, distensão abdominal, ausência de eliminação de fezes."
+    }
+  ]
+}

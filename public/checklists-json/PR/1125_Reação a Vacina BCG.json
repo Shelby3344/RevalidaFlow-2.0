@@ -1,0 +1,177 @@
+{
+  "uid": 1125,
+  "hash": "EtAOn7pAac3tKfbSGBpgy5LE",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Reação a Vacina BCG",
+  "definicao": "O Bacilo de Calmette e Guérin (BCG), utilizado há várias décadas, constitui uma das principais estratégias da Organização Mundial da Saúde (OMS) para o controle da mortalidade por formas graves da infecção causada pelo Mycobacterium tuberculosis em países onde a doença ainda tem importância epidemiológica. Sua administração é também recomendada para contatos domiciliares de hanseníase, como forma de prevenir a doença em indivíduos expostos ao Mycobacterium leprae.A vacina BCG é aplicada por via intradérmica e provoca primoinfecção artificial. Essa infecção por bacilos com virulência atenuada tem como objetivo desenvolver uma resposta imune específica que permita controlar uma infecção ulterior, causada por bacilos selvagens.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "81.00",
+    "star": 0,
+    "time": 566,
+    "count": 2941
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Primária. \n\nA unidade conta com a seguinte infraestrutura: \nSala de atenção médica; \nSala de vacinas; \nFarmácia. \n\nDescrição do caso: \nVocê realizará atenção médica de um recém nascido de 15 dias trazido por sua mãe",
+  "tarefas": "1. Realizar o atendimento;\n2. Estabelecer e comunicar a hipótese diagnóstica;\n3. Dar as orientações necessárias\n4. Sanar dúvidas.\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**Mãe:** Janilde, 19 anos, casada\n**Nome do paciente:** Mateus, 15 dias\n\n**Motivo de consulta:**\nDr(a). Estou preocupada com meu bebê, saiu uma ferida no braço dele e parece que está inflamada.\n**Tempo de evolução:**\nJá tem uns 10 dias. Primeiro, ficou vermelho e duro nessa parte do braço, achei que fosse uma picada. Agora está com uma bolinha amarela, acho que é pus. Será que meu filho é alérgico a mosquitos?\n\nDADOS PERINATAIS\n**Dados perinatais:**\nMateus nasceu de 40 semanas, parto normal e com 3.500 kg.\n**Intercorrências perinatais:**\nNão, deu tudo certo. Fomos embora do hospital com dois dias que ele nasceu.\n**Gestas prévias:**\nÉ meu primeiro filho, nunca engravidei antes.\n\n**Lactância:**\nEstou amamentando no peito sempre que ele chora.\n\n**Mosquitos no convívio da família:**\nÀs vezes, aparece uns lá em casa.\n\n**Febre:**\nNão percebi ele quentinho, não.\n**Sintomas respiratórios:**\nNão, eu vejo ele super bem.\n**Caso o candidato pergunte por mais algum integrante da casa com lesão no corpo:**\nNão que eu tenha percebido.\n\n**Caso o candidato solicite a CADERNETA DE VACINAS, entregar o impresso correspondente**\n\n**Dúvidas**\n**Pergunta 1:** Meu filho vai ficar bem?\n**Pergunta 2:** É normal acontecer isso?\n**Pergunta 3:** Existe algum outro efeito adverso que possa acontecer?\n**CASO O CANDIDATO RESPONDA AO MENOS UM OUTRO POSSÍVEL EFEITO ADVERSO, REALIZAR A PERGUNTA 4**\n**Pergunta 4:** E em caso de acontecer algum outro efeito adverso, será necessário alguma intervenção?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Caderneta de vacina",
+      "conteudo": "Vacinas do Recém Nascido",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1750431229.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia da lesão",
+      "conteudo": "Ectoscopia da lesão",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame físico ",
+      "conteudo": "**Peso:** 3.700 g.\n\n\n\nBom estado geral, corado, hidratado, acianótico, anictérico, afebril.\n\n\n\n**Aparelho respiratório:** murmúrio vesicular presente bilateralmente, sem ruídos adventícios e sem tiragens.\n\n**Frequência Respiratória:** 40 incursões respiratórias por minuto.\n\n**Aparelho cardíaco:** ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.\n\n**Frequência Cardíaca:** 118 batimentos por minuto; pulsos cheios e simétricos.\n\n**Abdome:** globoso, ruídos hidroaéreos presentes, timpânico, normotenso, indolor à palpação, sem massas ou visceromegalias.\n\n**Sistema nervoso:** boa sustentação cefálica, fontanela anterior normotensa de tamanho adequado; reflexos primitivos positivos e adequados.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. (1) Cumprimenta a mãe do paciente simulado; \n(2) identifica-se; \n(3) dirige-se a mãe do paciente simulado pelo nome, pelo menos uma vez; \n(4) pergunta e \n(5) ouve com atenção o motivo da consulta.\n\n**Adequado:** realiza as cinco ações.\n**Parcialmente adequado:** realiza de duas a quatro ações.\n**Inadequado:** realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Estabelece contato visual e mantém postura empática ao longo da consulta.**\n\n**Adequado:** realiza as duas ações.\n**Parcialmente adequado:** realiza apenas uma das ações.\n**Inadequado:** não realiza nenhuma das ações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.10",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala da mãe do paciente simulado, sem interrompê-la.**\n\n**Adequado: **realiza integralmente a ação. \n**Inadequado:** não realiza a ação ou não a realiza integralmente",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível para com a mãe do paciente simulado, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** usa linguagem acessível.\n**Inadequado:** não utiliza linguagem acessível",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Responde às perguntas da mãe do paciente simulado.**\n\n**Adequado:** responde as perguntas.\n**Inadequado:** não responde as perguntas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Realiza a anamnese investigando sobre o motivo de consulta:**\n(1) Tempo de aparição \n(2) Alterações locais na pele\n(3) Febre \n(4) Sintomas respiratórios\n(5) Alteração no hábito intestinal \n(6) Alteração no hábito urinário\n\n**Adequado:** Investiga de cinco a seis itens\n**Parcialmente adequado:** Investiga de dois a quatro itens\n**Inadequado:** Investiga somente um item OU não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga **\n(1) Antecedentes gestacionais\n(2) Antecedentes perinatais\n\n**Adequado:** Investiga os dois antecedentes\n**Parcialmente adequado:** Investiga somente um dos antecedentes\n**Inadequado:** Não investiga nenhum antecedente",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita calendário de vacinação **\n\n**Adequado:** Solicita\n**Inadequado:** Não solicita",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza a necessidade de **\n(1) inspeção do local da lesão/ ectoscopia e \n(2) Exame físico geral\n\n**Adequado:** Verbaliza/Solicita os dois itens\n**Parcialmente adequado:** Verbaliza/ Solicita somente inspeção do local da lesão/ectoscopia\n**Inadequado:** Não verbaliza/solicita inspeção do local da lesão/ectoscopia",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Acalma a mãe do paciente simulado informando que se trata da evolução habitual da lesão vacinal da BCG**\n\n**Adequado:** Acalma e informa\n**Inadequado:** Não acalma e informa",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Informa a mãe do paciente simulado que podem ocorrer tanto eventos adversos locais como regionais, utilizando os seguintes exemplos:**\n(1) Úlcera com diâmetro maior que 1 cm que não evolui para cicatrização após 12 semanas.\n(2) Abscessos subcutâneos frios\n(3) Abscessos subcutâneos quentes\n(4) Granulomas\n(5) Linfadenopatia regional não supurada\n(6) Linfadenopatia regional supurada\n(7) Reação queloide\n(8) Reação lupoide\n\n**Adequado:** Informa ao menos quatro possíveis efeitos adversos\n**Parcialmente adequado:** Informa ao menos três possíveis eventos adversos\n**Inadequado:** Informa dois ou menos possíveis efeitos adversos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Responde a mãe do paciente simulado que em casos de surgimento dos efeitos adversos será necessário **\n(1) Notificar \n(2) Investigar e acompanhar o caso \n(3) Iniciar tratamento medicamentoso dependendo do tipo de reação\n\n**Adequado:** Informa duas a três medidas\n**Parcialmente adequado:** Informa somente uma medida\n**Inadequado:** Não informa nenhuma medida",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.55"
+      },
+      "dica_teorica": "Casos em que é necessário iniciar o tratamento medicamentoso:  Úlcera com  diâmetro maior  que 1 cm -"
+    }
+  ]
+}

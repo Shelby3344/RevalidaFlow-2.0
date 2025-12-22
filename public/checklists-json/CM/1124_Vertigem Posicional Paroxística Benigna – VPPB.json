@@ -1,0 +1,144 @@
+{
+  "uid": 1124,
+  "hash": "vwRo4jEJEzz4WVYIFP6obgli",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Vertigem Posicional Paroxística Benigna – VPPB",
+  "definicao": "A fisiopatologia da VPPB envolve uma diferença de densidade entre a cúpula e a endolinfa do canal semicircular acometido (posterior, em 90% dos casos). Otólitos permanecem em suspensão na endolinfa e, ao ocorrer movimentos específicos da cabeça, o deslocamento dessas partículas promove uma ativação anormal da crista ampular, gerando os sintomas.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "56.00",
+    "star": 0,
+    "time": 562.5,
+    "count": 3608
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\n\nA unidade possui a seguinte infraestrutura:\n- Consultório;\n- Laboratório de análises clínicas.\n\nDescrição do caso: \nVocê é o médico da unidade e irá atender uma mulher de 55 anos de idade, com queixa de tontura recorrente.",
+  "tarefas": "- Realizar anamnese direcionada à queixa da paciente;\n- Realizar exame físico direcionado à queixa da paciente;\n- Solicitar demais exames pertinentes ao caso;\n- Formular o diagnóstico específico mais provável;\n- Estabelecer a conduta terapêutica adequada;\n- Explicar o prognóstico à paciente;\n- Esclarece eventuais dúvidas.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Sara, 55 anos de idade, diarista.\n\n**MOTIVO DE CONSULTA: **\n- Estou tendo muita tontura.\n\n**SOBRE O MOTIVO DE CONSULTA**\n**Tempo de evolução: **Dois meses.\n**Como é a tontura ou se tem a sensação de giro dos objetos ou do seu próprio corpo: **Tudo começa a girar.\n**Fatores desencadeantes:** Já percebi que quando abaixo para limpar o chão, pegar algum objeto no armário ou quando deito e levanto da cama aparece essa tontura.\n**Frequência:** Ás vezes.\n**Duração das crises: **Alguns segundos, depois passa. \n**Fatores de melhora: **Nega. \n**Fatores de piora: **Nega.\n\n**SINTOMAS ACOMPANHANTES:**\n**Náusea:** Sim.\n**Vômito:** Não.\n**Qualquer outro sintoma:** Negar.\n\n**ANTECEDENTES PESSOAIS: **\n**Doenças: **Nega. \n**Cirurgias: **Nega. \n**Medicamentos: **Anticoncepcional. \n**Alergias: **Nega. \n**DUM: **Há 5 dias.\n**Trauma de crânio prévio:** Nega. \n\n**HÁBITOS: **\n**Álcool: **Cerveja de vez em quando. \n**Cigarro: **Meio maço por dia. \n**Drogas: **Nega. \n**Fezes e urina: **Nega alterações.\n\n**ANTECEDENTES FAMILIARES: **\n- Pai e mãe sem problemas de saúde.\n\n**DÚVIDAS:**\n- Doutor(a), isso é grave?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "Paciente em bom estado geral, afebril, acianótica, anictérica, normocorada e hidratada, alerta, orientada no tempo e espaço. \n\n\n\n**Pressão arterial:** 120x70 mmHg.\n\n \n\n**Frequência cardíaca:** 78 batimentos por minuto.\n\n\n\n**Saturação de O2:** 99%.\n\n\n\n**Temperatura axilar:** 36.4° C.\n\n\n\n**Frequência respiratória:** 12 incursões por minuto. \n\n\n\n**IMC:** 23 kg/m2. \n\n\n\n**Aparelho cardiovascular, respiratório e abdominal:** Sem alterações.\n\n\n\n**Fonoacumetria (teste do sussurro):** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame neurológico",
+      "conteudo": "**Marcha e equilíbrio dinâmico:** Sem alterações. \n\n\n\n**Equilíbrio estático:** Preservado. \n\n\n\n**Motricidade:** preservada nos 4 membros. \n\n\n\n**Coordenação motora:** Preservada.\n\n\n\n**Força muscular:** Grau 5 nos 4 membros. \n\n\n\n**Sensibilidade:** preservada. \n\n\n\n**Reflexos:** normorreflexia.\n\n\n\n**Nervos cranianos**: testados todos os 12 pares sem alterações.\n\n\n\n**Manobra de Dix-Hallpike:** positiva.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Otoscopia",
+      "conteudo": "**Dentro dos parâmetros de normalidade.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta o paciente;\n(2) Identifica-se e pergunta o nome do paciente;\n(3) Pergunta o motivo da consulta ou a queixa principal do\npaciente.\n\n**Adequado:** Realiza três itens.\n**Parcialmente adequado:** Realiza dois itens.\n**Inadequado:** Realiza um item ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga sobre o motivo de consulta: **\n(1) Tempo de evolução;\n(2) Sensação de giro dos objetos ou do próprio corpo;\n(3) Frequência dos episódios;\n(4) Duração dos episódios;\n(5) Fatores desencadeante;\n(6) Fatores de melhora e piora.\n\n**Adequado: **Investiga seis itens. \n**Parcialmente adequado: **Investiga de quatro a cinco itens.\n**Inadequado: **Investiga três itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "A  VPPB  ocorre em episódios que duram  poucos segundos,  podendo estar  associado a náuseas.   Hipoacusia e zumbido  concomitante  não são comuns.  Quando presentes, deve-se suspeitar de outros diagnósticos (que podem coexistir com VPPB)."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga a existência de outros sinais ou sintomas relacionados à queixa principal:**\n(1) Náuseas ou vômitos;\n(2) Desequilíbrio ou instabilidade ao andar;\n(3) Alterações auditivas;\n(4) Cefaleia;\n(5) Alterações visuais/oculares;\n(6) Fraqueza.\n\n**Adequado:** Investiga quatro itens ou mais.\n**Parcialmente adequado:** Investiga de dois a três itens.\n**Inadequado:** Investiga um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais:**\n(1) Doenças;\n(2) Cirurgias;\n(3) Medicamentos;\n(4) História de trauma de crânio;\n(5) Álcool;\n(6) Drogas ilícitas;\n(7) Data da última menstruação;\n(8) Antecedentes familiares.\n\n**Adequado: **Investiga cinco itens ou mais.\n**Parcialmente adequado: **Investiga quatro itens.\n**Inadequado: **investiga três itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita: **\n(1) Exame físico geral;\n(2) Exame neurológico;\n(3) Otoscopia. \n\n**Adequado: **Solicita três itens.\n**Parcialmente adequado: **Solicita dois itens.\n**Inadequado: **Solicita um item ou menos.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita a realização do teste de Dix–Hallpike.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "O teste de Dix–Hallpike é o principal exame utilizado para confirmar o diagnóstico de vertigem posicional paroxística benigna (VPPB), especialmente quando o canal semicircular posterior é o mais afetado.  Para realizar o teste, o paciente deve estar sentado na maca, com as pernas estendidas. O examinador posiciona-se ao lado ou atrás e gira a cabeça do paciente cerca de 45 graus para um dos lados, geralmente iniciando pelo lado direito. Em seguida, o examinador deita o paciente rapidamente para trás, de modo que os ombros fiquem apoiados na maca e a cabeça fique pendente cerca de 20 graus abaixo do nível da mesa, ainda voltada para o mesmo lado. Essa movimentação faz com que, se houver cristais deslocados (otólitos) dentro do canal semicircular, eles se movimentem e estimulem incorretamente o labirinto, desencadeando a vertigem.  Após o movimento, o examinador observa atentamente os olhos do paciente por até 30 segundos. Se o teste for positivo, surgirá nistagmo rotatório (movimento rápido dos olhos) acompanhado de intensa vertigem, que dura menos de um minuto e tende a diminuir com a repetição do teste (fenômeno de fadiga). Após esse período, o paciente é lentamente retornado à posição sentada, podendo sentir nova vertigem breve em sentido oposto. O procedimento é então repetido para o outro lado, a fim de comparar as respostas.  O teste positivo confirma a presença de VPPB no canal semicircular posterior do lado testado, enquanto um teste negativo pode indicar outro canal envolvido ou outra causa de vertigem. O exame deve ser feito com cuidado em pacientes idosos ou com doenças na coluna cervical. Trata-se de um teste simples, rápido e de alto valor diagnóstico, pois reproduz a vertigem típica e permite identificar o lado afetado."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Formula a hipótese diagnóstica:** Vertigem posicional paroxística benigna.\n\n**Adequado: **Formula corretamente. \n**Inadequado: **Não formula ou verbaliza apenas vertigem.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": "Geralmente um quadro clínico típico e manobra de Dix-Hallpike positiva são suficientes para o diagnóstico de VPPB. No contexto da atenção primária de saúde, essa manobra apresenta um valor preditivo positivo de 83% e negativo de 52%."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Indica tratamento com a manobra de Epley ou reposicionamento dos otólitos. **\n\n**Adequado: **Indica.\n**Inadequado: **Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": "A manobra de Epley é o tratamento mais utilizado para a vertigem posicional paroxística benigna (VPPB), especialmente quando o canal semicircular posterior está envolvido. O objetivo da manobra é reposicionar os otólitos (cristais de cálcio) que se deslocaram do utrículo e ficaram presos no canal semicircular, provocando as crises de vertigem. Ao serem guiados de volta ao utrículo, esses cristais deixam de estimular incorretamente o labirinto, fazendo com que os sintomas desapareçam.  O procedimento é simples e pode ser realizado no consultório. O paciente começa sentado na maca, com a cabeça virada 45 graus para o lado afetado (o mesmo lado em que o teste de Dix-Hallpike foi positivo). Em seguida, o examinador deita rapidamente o paciente para trás, mantendo a cabeça pendente cerca de 20 graus abaixo da horizontal e ainda voltada para o mesmo lado. Essa posição é mantida por cerca de 30 segundos, ou até que a vertigem e o nistagmo desapareçam.  Depois, sem levantar a cabeça, o examinador gira-a lentamente para o lado oposto, cerca de 90 graus, de modo que o paciente fique olhando para o outro ombro. Essa nova posição é mantida por mais 30 segundos. Em seguida, o corpo do paciente é virado para o mesmo lado da cabeça, de modo que ele fique deitado de lado na maca, com o rosto voltado para o chão. Essa posição também é mantida por 30 segundos. Finalmente, o paciente é retornado lentamente à posição sentada, completando a manobra.  Durante todas as etapas, podem ocorrer breves episódios de vertigem, o que é esperado. A manobra pode ser repetida duas ou três vezes na mesma sessão, se necessário. Após o procedimento, recomenda-se que o paciente evite deitar-se rapidamente ou inclinar muito a cabeça por algumas horas.  Em geral, a manobra de Epley apresenta altas taxas de sucesso, aliviando os sintomas em 80 a 90% dos casos após uma ou poucas sessões. É um método simples, seguro e eficaz, considerado o tratamento de escolha para a VPPB do canal posterior."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Orienta a paciente sobre o prognóstico:** Informa que trata-se de uma condição benigna e autolimitada.\n\n**Adequado:** Orienta adequadamente.\n**Inadequado:** Não orienta ou orienta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

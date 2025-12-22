@@ -1,0 +1,155 @@
+{
+  "uid": 1389,
+  "hash": "c244274b-26d7-4bda-a9e7-7bd3254475e3",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Artrite Psoríaca",
+  "definicao": "A Artrite Psoriática é uma doença inflamatória crônica que acomete articulações e está associada à psoríase cutânea. Pode afetar qualquer articulação e leva a dor, inchaço e rigidez articular.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "75.50",
+    "star": "4.6",
+    "time": 596.5,
+    "count": 2474
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Ambulatorial. \n\nDescrição do caso:\nVocê é o médico de uma Unidade Básica de Saúde e irá atender a Mariana, uma paciente de 44 anos de idade, que consulta queixando-se de dores em articulações.",
+  "tarefas": "-  Realizar anamnese da paciente;\n-  Solicitar exame físico;\n-  Interpretar exames complementares, verbalizando as alterações relevantes para o caso;\n-  Estabelecer e comunicar hipótese diagnóstica e ao menos três diagnósticos diferenciais;\n-  Elaborar a conduta terapêutica.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Mariana, 44 anos, solteira, professora.\n\n**MOTIVO DE CONSULTA:**\n- Doutor(a), ultimamente tenho tido muita dor nas articulações das mãos, punhos e dedos.\n\n**CARACTERÍSTICAS DO QUADRO:**\n**- Duração:** Já faz uns 6 meses.\n**- Localização:** Dói nas mãos, na pontinha dos dedos e nos punhos.\n**- Intensidade:** É uma dor moderada (5/10). \n**- Tipo de dor:** Latejante.\n**- Irradiação**: Não irradia.\n**- Fatores de melhora:** Melhora quando tomo um anti-inflamatório.\n\n**SINTOMAS ASSOCIADOS**:\n**- Febre:** Não.\n**- Rigidez articular:** Às vezes de manhã sinto as mãos duras. \n**- Lesões de pele:** Quando estou estressada noto que aparece umas manchas avermelhadas nos cotovelos, joelhos e nas costas que descamam e coçam. \n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças:** Tenho psoríase diagnosticada há 4 anos.\n**- Medicamentos:** De vez em quando uso anti-inflamatórios pra dor. \n**- Alergias:** Nego. \n**- Cirurgias:** Nego.\n\n**HÁBITOS:**\n**- Álcool:** Cerveja de vez em quando.\n**- Cigarro:** Não fumo.\n**- Drogas:** Não uso drogas.\n\n**ANTECEDENTES FAMILIARES:**\n- Minha mãe tem psoríase.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 120x70 mmHg\n\n**- Frequência cardíaca:** 95 batimentos por minuto\n\n**- Saturação de O2:** 98%\n\n**- Temperatura:** 36.3° C\n\n**- Frequência respiratória:** 12 incursões por minuto\n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, alerta, orientado no tempo e espaço.\n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos normoativos, indolor à palpação e sem viceromegalias.\n\n\n\n**Exame articular:**\n\nInchaço e dor à palpação das articulações interfalangeanas proximais, médias e distais e punhos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "LABORATÓRIO",
+      "conteudo": "**Hemácias:** 4,7 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 13 g/dl (Valor de referência: 12 a 16 mg/dl)\n\n**Hematócrito:** 39% (Valor de referência: 36 - 47%)\n\n**VCM:** 99 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 32 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 31 g/dl (Valor de referência: 30 - 34 g/dl) \n\n**RDW:** 14% (Valor de referência: 11 - 14%)\n\n\n\n**Leucócitos:** 6.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 63% (Valor de referência: 40 - 70%)\n\n**Bastões:** 3% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 25% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 2% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 3% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 4% (Valor de referência: 4 - 8%)\n\n\n\n**Plaquetas:** 165.000 mm/3 (Valor de referência: 150.000 - 400.000 mm/3) \n\n\n\n**Proteína C reativa:** 4,1 mg/dl (Valor de referência: < 0,3 mg/dl)\n\n\n\n**Creatinina:** 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 25 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**Sódio:** 139 mEq/l (135 - 145 mEq/l)\n\n**K:** 4,5 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\n\n\n**TGO:** 15 U/l (Valor de referência: 10 - 37 U/l)\n\n**TGP:** 20 U/l (Valor de referência: 10 - 37 U/l)\n\n\n\n**Fator reumatoide:** 1 UI/ml (Valor de referência: < 8 UI/ml)\n\n\n\n**Anticorpo antipeptídeo citrulinado cíclico (anti-CCP):** 13 UI/ml (Valor de referência: < 20 UI/ml)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DAS MÃOS",
+      "conteudo": "**Laudo:** Alterações erosivas nas articulações interfalangeanas proximais, mediais e distais e metacarpofalangianas com redução do espaço articular.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a paciente.\n\n**Adequado:** Realiza ambas as ações.\n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga o quadro apresentado:**\n(1) Tempo de evolução;\n(2) Intensidade da dor;\n(3) Tipo de dor;\n(4) Irradiação;\n(5) Fatores de melhora e/ou piora;\n(6) Presença de edema;\n(7) Rigidez;\n(8) Lesões cutâneas associadas;\n(9) Febre. \n\n**Adequado:** Pergunta oito ou nove itens.\n**Parcialmente adequado:** Pergunta de cinco a sete itens.\n**Inadequado:** Pergunta quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga antecedentes:**\n(1) Doenças prévias;\n(2) Medicamentos em uso;\n(3) Alergias;\n(4) Doenças na família.  \n\n**Adequado:** Investiga todos os itens.\n**Inadequado:** Não investiga todos os itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita exame físico:**\n\n**Adequado:** Solicita exame físico geral e articular.\n**Parcialmente adequado:** Solicita apenas exame físico geral. \n**Inadequado:** Não solicita exame físico geral.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exames laboratoriais:**\n(1) Hemograma;\n(2) VHS e/ou PCR;\n(3) TGO;\n(4) TGP;\n(5) Creatinina;\n(6) Ureia;\n(7) Fator reumatóide;\n(8) Anti-CCP;\n\n**Adequado:** Solicita ao menos sete itens.\n**Parcialmente adequado:** Solicita cinco ou seis itens. \n**Inadequado:** Solicita quatro ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Ocasionalmente o fator reumatoide poderá ser positivo. No entanto, o anti-CCP raramente será positivo."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita radiografia das mãos:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "A radiografia é útil para avaliar alterações estruturais nas articulações e fazer futuras comparações."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Realiza o diagnóstico de artrite psoríaca:**\n\n**Adequado:** Realiza o diagnóstico corretamente.\n**Inadequado:** Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "A artrite psoriática periférica pode envolver pequenas, médias e grandes articulações, com alta tendência a afetar as articulações interfalângicas distais. Pode se manifestar em diferentes padrões como uma oligoartrite assimétrica, poliartrite simétrica (que pode ser confundida com artrite reumatoide) e artrite mutilante, que é caracterizada por uma artrite destrutiva rápida."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Cita diagnósticos diferenciais:**\n(1) Artrite Reumatoide;\n(2) Lúpus Eritematoso Sistêmico.\n(3) Osteoartrite;\n(4) Artrite reativa;\n(5) Gota;\n\n**Adequado:** Cita ao menos três diagnósticos diferenciais.\n**Parcialmente adequado:** Cita apenas dois diagnósticos diferenciais. \n**Inadequado:** Cita um ou nenhum diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Indica conduta terapêutica adequada:**\n(1) Indica agentes como os inibidores do TNF-alfa: adalimumabe, etanercepte, infliximabe;\n(2) Indica drogas antirreumáticas: metotrexato, leflunomida ou sulfassalazina;\n(3) Corticosteroides e/ou anti-inflamatórios não esteroides.\n\n**Adequado:** Realiza três açôes.\n**Parcialmente adequado:** Realiza duas ou uma ação.\n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Drogas antirreumáticas modificadoras da doença que podem ser utilizadas: Metotrexato, Sulfassalazina, Leflunomida."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Encaminha a paciente para reumatologia.**\n\n**Adequado:** Encaminha.\n**Inadequado:** Não encaminha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

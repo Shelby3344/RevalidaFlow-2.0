@@ -1,0 +1,171 @@
+{
+  "uid": 1158,
+  "hash": "Lvbbeez8irQoy62das88Ea4h",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Diabetes Gestacional | INEP 2023.1",
+  "definicao": "Diabetes gestacional é definida como diabetes diagnosticada no segundo ou terceiro trimestre da gravidez.  As  estimativas populacionais de frequência de hiperglicemia na gestação no Brasil são  conflitantes, porém estima-se que a prevalência de DMG no Sistema Único de  Saúde (SUS) seja de aproximadamente 18%, utilizando-se os critérios diagnósticos  atualmente propostos na literatura.",
+  "origem": 1,
+  "ano_da_prova": "20231",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "50.50",
+    "star": 0,
+    "time": 593,
+    "count": 10305
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nLocal de atuação: Primária.\nTipo de Atendimento: Ambulatorial.\n\nA unidade possui a seguinte infraestrutura:\n- Laboratório de análises clínicas.\n\nDESCRIÇÃO DO CASO\nMulher de 35 anos, casada, gestante, criadora de conteúdo digital, comparece à Unidade Básica de Saúde (UBS) em sua avaliação pré-natal.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\n\nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar o atendimento da paciente com anamnese e exame físico; \n- Solicitar, se necessário, exames complementares pertinentes ao caso; \n- Realizar o diagnóstico; \n- Responder e orientar a paciente de forma completa, justificando as orientações; \n- Comunicar possíveis complicações decorrentes do quadro; \n- Orientar, prescrever e manejar o caso da paciente em relação ao seguimento da \nsua gestação.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Olívia, 35 anos, casada e trabalha com um canal de comidas na internet.\n\n**MOTIVO DE CONSULTA:**\n- Vim para mostrar o resultado de um exame que ficou faltando mostrar na consulta anterior, todos os outros exames que eu fiz estavam normais;\n\n**QUEIXA:**\n- Não tenho nenhuma queixa;\n\n**- Idade gestacional:** Estou com 14 semanas e 2 dias de gestação.\n**- Controle gestacional:** Esta é a minha terceira consulta de pré-natal.\n**- Cartão/caderneta da gestante:** Esqueci em casa.\n\n**ANTECEDENTES PESSOAIS E GINECO-OBSTÉTRICOS**\n**- Parceiros sexuais:**Estou casada há cinco anos e meu marido é meu único parceiro sexual.\n**- Doenças crônicas:** Não tenho problemas de saúde.\n**- História reprodutiva:** É minha primeira gestação.\n**- Diagnóstico de diabetes na paciente ou em algum familiar:** Não tenho diagnóstico de diabetes e não existem casos dessa doença em minha família.\n\n**NEGAR:**\nAlergias.\nIntercorrências no pré-natal.\n\n**- Caso o candidato pergunte se você seguiu a recomendação do jejum para a coleta do exame:** Segui corretamente todas as orientações para a coleta do exame;\n\n**DÚVIDAS:**\n- Como está o meu exame, existe algo com que eu deva me preocupar?\n- O que te levou a chegar nesse diagnóstico?\n- Será necessário tomar algum remédio?\n- Tenho que fazer o teste de tolerância oral a glicose?\n- Quais complicações o diabetes gestacional pode acarretar a mim ou ao meu filho?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME LABORATORIAL",
+      "conteudo": "Cliente: Olívia \n\n\n\nProtocolo: 001.9951013-6 \n\nLocal: MATRIZ \n\n\n\nIdade: 35 anos\n\nCPF: 999.999.999-99 \n\n\n\nSolicitante: REVALIDA \n\n\n\n**GLICEMIA DE JEJUM: **\n\nMaterial ...................................... SANGUE \n\nGLICEMIA DE JEJUM ............... 114 mg/mL (Valor de Referencia: 60 a 100 mg/mL )\n\nObs.: realizado com oito horas de jejum. \n\nObs.: exame realizado hoje. \n\n\n\nTODO TESTE LABORATORIAL DEVE SER CORRELACIONADO COM O QUADRO CLÍNICO DO PACIENTE, SEM O QUAL A \n\nINTERPRETAÇÃO DOS RESULTADOS É APENAS RELATIVA.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO / GINECOLÓGICO",
+      "conteudo": "**FÍSICO**\n\n**Altura:** 1,56 m.\n\n**Peso:** 65 kg.\n\n**IMC:** 26,71 kg/m².\n\n\n\n**Pressão Arterial:** 100 × 80 mmHg.\n\n**Frequência Cardíaca:** 94 batimentos por minuto.\n\n**Frequência Respiratória:** 20 incursões respiratórias por minuto.\n\n**Temperatura axilar:** 36,5º C.\n\n**Índice de Saturação de Oxigênio:** 98% em ar ambiente.\n\n\n\nMucosas coradas\n\n\n\n**GINECOLÓGICO**\n\n**Altura do fundo uterino:** 13 cm.\n\n**Batimentos cardíacos fetais:** 125 batimentos por minuto.\n\n\n\nRestante do exame físico e ginecológico sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Apresenta-se, cumprimentando a paciente e/ou falando seu nome e/ou questionando o nome dela;\n(2) Pergunta o motivo da consulta/queixa principal da paciente.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta:**\n(1) Qual foi a data da última menstruação da paciente; \nOU \n(2) Pergunta a sua idade gestacional.\n\n**Adequado:** Pergunta.\n**Inadequado: **Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Informa que o cartão da gestante deve acompanhá-la em todas as consultas de pré-natal ou **\n**Informa que a paciente deverá andar sempre com o seu cartão da gestante.**\n\n**Adequado:** Informa sobre a importância de se levar sempre o cartão da gestante.\n**Inadequado:** Não informa.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita o exame físico ou o exame ginecológico.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Menciona que a glicemia de jejum está alterada.**\n\n**Adequado:** Menciona a alteração.\n**Inadequado:** Não menciona a alteração no exame.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. Questiona se o exame foi adequadamente colhido – com o jejum. **(ITEM ANULADO)**\n\n**Adequado:** Questiona adequação do exame.\n**Inadequado:** Não questiona.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "CONSIDERAR O PONTO PARA TODOS OS CANDIDATOS"
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Diagnóstico:** Formula o diagnóstico de diabetes mellitus gestacional ou diabetes na gravidez.\n\n**Adequado: **Formula o diagnóstico.\n**Inadequado: **Não formula o diagnóstico de diabetes gestacional ou fórmula diagnóstico errado ou diz que o diagnóstico é inconclusivo, que será necessária a realização de outro exame.\n\n**OBSERVAÇÃO:** Caso o(a) participante diga que o diagnóstico de diabetes gestacional ainda não está estabelecido com o exame apresentado e que, para o diagnóstico, precisaria de outro exame, AVALIAR COMO INADEQUADO",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Teste de tolerância oral a glicose:**\n(1) Menciona que o teste de tolerância oral a glicose não precisará ser feito no caso dessa paciente.\n(2) Justifica afirmando que o diagnóstico já está estabelecido pelo resultado do exame apresentado, devido a dosagem da glicemia de jejum alteradaacima de 92. Para pontuar, o(a) participante não precisa mencionar o valor de corte de 92.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Apenas menciona a dispensabilidade do teste, sem justificar.\n**Inadequado: **Não menciona a dispensabilidade do teste ou orienta que a paciente faça o teste de tolerância oral a glicose.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9.** Informa que o tratamento envolve dieta e atividade física.**\n\n**Adequado:** Orienta adequadamente o tratamento.\n**Inadequado:** Não orienta o tratamento correto ou orienta o tratamento errado ou indica o uso de hipoglicemiantes orais.\n\n**OBSERVAÇÃO:** Caso o(a) participante oriente uso de hipoglicemiantes orais ou insulina já nesse primeiro momento, AVALIAR COMO INADEQUADO).",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Orienta a paciente a realizar:**\n(1) Avaliações de glicemia capilar por glicosimetro (ou teste de glicemia capilar); \n(2) Pelo menos três vezes na semana para avaliação de controle de glicemia.\n\n**Adequado:** Orienta a paciente quanto a avaliação e a periodicidade.\n**Parcialmente adequado:** Só orienta que seja realizado o controle com glicosimetro sem falar a \nperiodicidade (pelo menos três vezes na semana) ou propondo periodicidade diferente.\n**Inadequado:** Não orienta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Complicações do diabetes gestacional:**\n(1) Aumento de peso fetal para a idade gestacional;\n(2) Trabalho de parto prematuro;\n(3) Polidramnio;\n(4) Ruptura prematura de membranas;\n(5) Hipoglicemia neonatal;\n(6) Sepse neonatal;\n(7) Obesidade infantil;\n(8) Abortamento;\n(9) Óbito fetal intra-útero;\n(10) Diabetes mellitus tipo 2 materno;\n(11) Desproporção cefalopelvica / tocotraumatismo;\n(12) Parto cesariana / parto instrumental;\n(13) Sinais de sofrimento fetal;\n(14) Infecções urinarias.\n\n**Adequado:** Cita pelo menos quatro itens listados.\n**Parcialmente adequado:** Cita pelo menos dois ou três itens listados.\n**Inadequado:** Não cita ou cita apenas um item listado",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Pergunta se a paciente tem mais alguma dúvida.**\n\n**Adequado:** Pergunta.\n**Inadequado:** Não pergunta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

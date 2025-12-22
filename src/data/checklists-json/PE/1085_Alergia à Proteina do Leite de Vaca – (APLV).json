@@ -1,0 +1,189 @@
+{
+  "uid": 1085,
+  "hash": "syDnw_FGic_H3JLBJ000FcEO",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Alergia à Proteina do Leite de Vaca – (APLV)",
+  "definicao": "A alergia à proteína do leite de vaca (APLV) é o tipo de alergia alimentar mais comum nas crianças até 24 meses. É caracterizada pela reação anormal do sistema de defesa contra proteínas do leite, principalmente aquelas presentes no coalho (caseína) e no soro.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "25.50",
+    "star": 0,
+    "time": 559,
+    "count": 9638
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde.\nTipo de atendimento: Ambulatorial.\n- Consultórios;\n- Laboratório de análises clínicas;\n- Leitos de observação;\n- Farmácia clínica.\n\nDescrição do caso: \nVocê é médico da UBS e recebe criança de 30 dias. A mãe refere que o recém-nascido sente muita fome, tem choro intenso, irritabilidade e sono muito irregular com piora nos últimos cinco dias.",
+  "tarefas": "- Realizar anamnese do paciente;\n- Solicitar e interpretar exame físico;\n- Solicitar exames complementares, se necessário, descrevendo os achados;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Explicar a fisiopatologia da condição do paciente;\n- Propor conduta terapêutica;\n- Dar orientações ao paciente e sanar dúvidas.",
+  "script_ator": "**DADOS DA MÃE**:\n- Sandra, 31 anos.\n\n**DADOS DA CRIANÇA**:\n- Josias, 30 dias. \n\n**MOTIVO DE CONSULTA:**\n- Meu bebê tem chorado bastante e parece que nem quer mais leite materno.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n- Doutor(a), ele tem tido episódios de choro intenso, principalmente após as mamadas.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**- Diarreia**: Sim, notei que mudou as fezes dele, estão bem mais moles.\n**- Irritabilidade:** Noto que tem chorada mais nos últimos tempos.\n**- Vômitos:** Nega.\n**- Sangramento nas fezes:** Há dois dias que ele começou a apresentar deposições com sangue. Fiquei muito assustada.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- Eu tenho rinite alérgica, mas o pai dele não tem alergias.\n\n**ANTECEDENTES PERINATAIS (PRÉ-NATAL | PARTO | PÓS-NATAIS):**\n**- Pré-natal:** Fez todas as consultas.\n**- Parto:** Ele nasceu de 40 semanas e não tivemos complicações.\n\n**ALIMENTAÇÃO:**\n- Ele está sendo amamentado no peito, porém há uma semana a pediatra passou uma fórmula, porque ele tinha perdido peso.\n\n**ALIMENTAÇÃO MATERNA:**\n- Dieta variada, Doutor(a). Consumo tudo: carne, leite de vaca e frutas e verduras.\n\n**DIURESE E CATARSE:**\n- As fezes estavam mais pastosas. Ele tem feito cocô cerca de quatro a cinco vezes por dia e tem tido um pouco de muco. Além disso, o odor está um pouco mais forte do que antes. Ontem ele começou a apresentar sangue ao evacuar.\n\n**ALERGIAS:**\n- Desconheço até o momento.\n\n**MEDICAÇÕES DE USO CONTÍNUO OU RECENTE:**\n- Nega.\n\n**CADERNETA DE VACINA/CRIANÇA:**\n- Liberar impressos 1, 2 e 3.\n\n**DÚVIDAS:**\n- **Pergunta 1:** Você pode me explicar um pouco desse diagnóstico?\n- **Pergunta 2:** Quais são os próximos passos para o tratamento?\n- **Pergunta 3:** Posso introduzir essas fórmulas sem componentes da proteína do leite para ele?\n- **Pergunta 4:** Ele nunca vai melhorar?\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA CRIANÇA",
+      "conteudo": "**Identificação:**\n\n \n\n**Sexo**: Masculino \n\n**Data de Nascimento:** 01/07/2025\n\n**Nome da Mãe:** Sandra Maria da Silva \n\n**Nome do Pai:** José Silva \n\n**Endereço:** Rua das Flores, 123 \n\n\n\n**Dados Pré-Natais/Consultas Pré-Natais: **\n\n**Número de consultas:** 8 \n\n**Gestações anteriores:** 1 \n\n**Abortos:** 0 \n\n**Complicações: **Nenhuma \n\n\n\n**Exames:**\n\n**Tipo Sanguíneo:** O+ \n\n**Sorologias:** Todas negativas \n\n**Ultrassonografias:** Sem alterações \n\n\n\n**Dados Antropométricos:** \n\n**Peso ao Nascer:** 3200g \n\n**Estatura ao Nascer:** 50cm \n\n**Perímetro Cefálico ao Nascer:** 34cm \n\n\n\n**Acompanhamento Mensal:**\n\n1º mês: \n\n**Peso: **3300g \n\n**Estatura:** 52cm \n\n**Perímetro Cefálico:** 36cm \n\n\n\n**Triagens Neonatal:**\n\n**Teste do Pezinho:** Realizado e Normal \n\n**Teste da Orelhinha: **Realizado e Normal \n\n**Teste do Olhinho:** Realizado e Normal \n\n\n\n**Vacinas:**\n\n**Hepatite B:** realizada 02/07/2025\n\n**BCG:** realizada 02/07/2025",
+      "imagem": "https://app.penserevalida.com/impressos/old/1697312310.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "GRAFICO DO PESO",
+      "conteudo": "**PESO: **3.420 KG",
+      "imagem": "https://app.penserevalida.com/impressos/old/1697312293.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "GRAFICO DA ESTATURA",
+      "conteudo": "**ESTATURA ATUAL: **52 CM",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**\n\n**-FC:** 140 bpm;\n\n**-FR:** 38 RPM;\n\n**-Temperatura:** 36,2°C;\n\n\n\n**Exame Físico Geral:  **Irritabilidade e recusa alimentar observadas, choro fácil, alerta, anictérico, acianótico, afebril, hipocorado +/4+.\n\n\n\n**Respiratório e Cardiovascular:** Sem alterações.\n\n\n\n**Abdome:** Distendido, sem massas ou visceromegalias.\n\n\n\n**Pele:** Dermatite atópica eczematosa: Lesões eritematosas descamativas muito pruriginosas, escarificadas, localizadas principalmente em locais de dobras.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Testes Cutâneos (Prick-Test) ",
+      "conteudo": "Testes Cutâneos (Prick-Test) \n\n\n\n**Procedimento:** \n\nA pele do antebraço é limpa e marcada em áreas específicas para aplicação dos alérgenos. \n\nAplica-se uma gota do extrato de proteína do leite de vaca na área marcada. \n\nRealiza-se uma picada superficial através da gota com uma lanceta. \n\n\n\n**Resultados:** Após 15-20 minutos, a área é examinada. \n\n**Diâmetro da pápula**: 6 mm \n\n**Diâmetro do eritema:** 10 mm \n\n\n\n**Interpretação:** \n\nResultado **Positivo** para proteína do leite de vaca.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona a mãe sobre a queixa principal. **\n(1) Diarreia;\n(2) Irritabilidade;\n(3) Vômitos;\n(4) Sangramento nas fezes.\n\n**Adequado:** Questiona os quatro itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre:** \n(1) Amamentação;\n(2) Alimentação materna;\n(3) Antecedentes familiares;\n(4) Comorbidades;\n(5) Alergias.\n\n**Adequado:** Questiona quatro ou cinco itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. ** Solicita:**\n(1) Caderneta de vacinação;\n(2) Caderneta da criança.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita o exame físico:**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita os gráficos de peso e estatura e verbaliza resultado adequado para idade (entre score z -2 e 0).** \n\n**Adequado:** Solicita e verbaliza falando o score adequado. \n**Parcialmente adequado:** Solicita mas não verbaliza score z . \n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita e interpreta teste de alergia ou Prick-Test.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza diagnóstico de Alergia a proteína do leite de vaca (APLV).**\n\n**Adequado:** Verbaliza o diagnóstico completo.\n**Parcialmente adequado:** Verbaliza APLV.\n**Inadequado:** Não verbaliza o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Explica sobre a condição do lactente:**\n(1) Se trata-se de uma reação alérgica a componentes proteicos (betalactoglobulinas, caseína, alfalactoalbumina e albumina sérica bovina) presentes no leite de vaca (LV);\n(2) Os sintomas podem ser desencadeados mesmo nas crianças em regime de aleitamento materno exclusivo, em razão da passagem de alérgenos pelo leite materno.\n\n**Adequado:** Explica os dois itens. \n**Parcialmente adequado:** Explica um item.\n**Inadequado:** Não explica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Conduta/Orientação:**\n(1) O tratamento baseia-se na exclusão total de leite de vaca e seus derivados;\n(2) Orienta que o alimento do paciente não tenha nenhum contato com derivados do leite de vaca, inclusive em seu preparo e armazenamento;\n(3) Orientação com relação ao aleitamento materno: A mãe deve realizar dieta de exclusão total ao leite vaca;\n(4) Avalia a necessidade de reposição de cálcio materno (1000mg/dia).\n\n**Adequado:** Realiza os quatro itens.\n**Parcialmente adequado:** Realiza dois ou três itens. \n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": "Se a criança, em aleitamento materno exclusivo, apresenta sintomas que sugerem APLV, é recomendável que a mãe inicie dieta de eliminação do LV e derivados, por período estabelecido (2 a 4 semanas), e faça suplementação de cálcio (1000mg/dia) associado à vitamina D (600-1.000UI/dia). Com a adequada dieta de restrição materna, observa-se, em média, melhora dos sintomas no lactente nas formas IgE entre 3 e 6 dias e nas não IgE mediadas em até 14 dias. Após melhora clínica, deve-se proceder à reintrodução do leite de vaca na dieta materna para confirmação ou exclusão do diagnóstico."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Orienta a mãe a continuar o aleitamento materno exclusivo até os 6 meses de idade, contra indica fórmulas nesse momento.**\n\n**Adequado:** Orienta aleitamento exclusivo até 6 meses. \n**Inadequado:** Não orienta aleitamento exclusivo, ou menciona uso de qualquer outro alimento a não ser leito materno.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Explica à mãe sobre a evolução da doença, informando que 80% das crianças desenvolvem tolerância à proteína do leite com o passar dos anos.**\n\n**Adequado:** Explica de maneira adequada;\n**Inadequado:** Não explica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

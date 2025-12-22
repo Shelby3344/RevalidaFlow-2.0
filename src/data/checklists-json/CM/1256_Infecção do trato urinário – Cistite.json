@@ -1,0 +1,160 @@
+{
+  "uid": 1256,
+  "hash": "8Mu6JHDHyHBv536NiOlH7Ywz",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Infecção do trato urinário – Cistite",
+  "definicao": "Os fatores de risco de desenvolvimento de uma infecção do trato urinário em mulheres incluem: relações sexuais, diafragma e uso de espermicida, uso de antibióticos, novo parceiro sexual no último ano, história de ITU recorrente. Nos homens, é importante sempre pensar em malformações do trato urinário.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "84.00",
+    "star": 0,
+    "time": 543,
+    "count": 4532
+  },
+  "cenario": "Local de atuação: Atenção primária à saúde.\nTipo de atendimento: Demanda espontânea - Unidade Básica de Saúde (UBS).\n\nDescrição do caso: \nVocê é médico da Unidade Primária de Saúde do bairro e recebe por demanda espontânea uma mulher  com queixas urinárias.",
+  "tarefas": "-  Realizar a anamnese ;\n- Solicitar exame físico.\n- Solicitar exames complementares se necessário. (MÁXIMO 1 EXAME COMPLEMENTAR. SÓ SERÁ CONSIDERADO O PRIMEIRO EXAME VERBALIZADO!).  \n- Definir a conduta terapêutica.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Michele, 22 anos, solteira, estudante.\n\n**MOTIVO DE CONSULTA: **\n- Faz 3 dias que estou com dificuldade pra urinar, quando tento fazer arde muito.\n\n**SINTOMAS ACOMPANHANTES: **\n**- Tenesmo: **Sim, sinto que não consigo esvaziar bem a bexiga.\n**- Urina escura/ vermelha/ turva: **Nega. \n**- Febre: **Nega. \n**- Dor abdominal: **Sim, também estou com dor.\n**- Outros sintomas: **Nega. \n\n**CARACTERÍSTICAS DA DOR ABDOMINAL: **\n**- Tempos evolução: **3 dias. \n**- Localização: **Pra baixo do umbigo. \n**- Intensidade: **Leve (4/10). \n**- Tipo de dor: **Dor em pontada.\n**- Irradiação: **Não irradia. \n**- Fatores de melhora: **Tomei ibuprofeno e melhorou um pouco. \n**- Fatores de piora: **Nega.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nega.\n**- Cirurgias: **Tiraram o meu apêndice aos 12 anos de idade. \n**- Medicamentos: **Nega. \n**- Alergias: **Nega.\n**- Infecções urinárias prévias: **Nega.\n**- Data da última menstruação: **Há 2 meses.\n\n**HÁBITOS: **\n**- Cigarro: **Nega.\n**- Drogas: **Nega.\n**- Álcool: **De vez em quando tomo vinho.\n**- Ingesta hídrica: **Tomo pouca água.\n**- Retenção urinaria: **Nega. \n**- Atividade física: **3 vezes por semana. \n**- Alimentação:** Variada.\n\n**VIDA SEXUAL: **\n**-Ativa: **Sim, com meu namorado.\n**- Uso de preservativo: **De vez em quando.\n**- Dor nas relações sexuais: **Nega. \n**- Corrimento vaginal: **Nega.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico ",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 125x70 mmHg\n\n**- Frequência cardíaca:** 75 batimentos por minuto\n\n**- Saturação:** 99% \n\n**- Temperatura:** 36.2° C\n\n**- Frequência respiratória:** 12 incursões por minuto\n\n\n\n**-Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótica, anictérica, alerta, orientada no tempo e espaço. \n\n\n\n**- Aparelho Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**- Aparelho Respiratório:**\n\nMurmúrio vesicular presente em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos conservados, doloroso à palpação em região infra umbilical, sem defesa nem descompressão brusca dolorosa, sem viceromegalias.\n\n\n\nSe observa cicatriz cirúrgica em região da fossa ilíaca direita. \n\n\n\nSinal de Giordano negativo bilateralmente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Beta HCG/ teste de gravidez",
+      "conteudo": "**Beta HCG:** 1 mlU/ml (Valor de referência: < 5 mlU/ml = negativo).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga outros sinais e sintomas de infecção urinária: **\n(1) Polaciúria;\n(2) Sangue na urina OU urina vermelha OU urina turva;\n(3) Tenesmo vesical;\n(4) Urgência miccional;\n(5) Dor infra umbilical;\n(6) Febre. \n\n**Adequado: **Investiga ao menos quatro itens. \n**Parcialmente adequado: **Investiga três itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga as características da dor abdominal. **\n\n**Adequado: **Investiga.\n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta por episódios anteriores de infecção urinária. **\n\n**Adequado: **Pergunta. \n**Inadequado: **Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga: **\n(1) Data da última menstruação;\n(2) Dispareunia;\n(3) Corrimento vaginal. \n\n**Adequado: **Investiga os três itens. \n**Parcialmente adequado: **Investiga dois itens. \n**Inadequado: **Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga antecedentes pessoais. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga hábitos: **\n(1) Ingestão hídrica;\n(2) Retenção urinária.\n\n**Adequado: **Investiga os dois itens. \n**Parcialmente adequado: **Investiga apenas um item.\n**Inadequado: **Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Outros fatores de risco para ITU: - Novos parceiros sexuais.- Gravidez. - Diabetes."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exame físico. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita teste de gravidez ou Beta HCG. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza o diagnóstico de infecção urinária baixa OU cistite.**\n\n**Adequado: **Realiza. \n**Inadequado: **Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Conduta terapêutica: **\n(1) Indica tratamento empírico com Nitrofurantoína via oral por 5 dias OU Fosfomicina VO dose única (validar esse item se citar a droga e tempo de tratamento);\n(2) Fornece orientações para evitar infecções urinárias;\n(3) Pautas de alarme e/ou retorno em 48/ 72 horas. \n\n**Adequado: **Realiza as três ações. \n**Parcialmente adequado: **Realiza uma ou duas ações (sendo obrigatório o item um). \n**Inadequado: **Não realiza nenhuma ação ou não cita o item um.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": "Posologia recomendada: - Nitrofurantoína: 100 mg VO, cada 6 horas por 5 dias.- Fosfomicina: 3 g dose única. Medidas que pode ajudar na prevenção: ingestão hídrica adequada, não reter urina, limpeza da região genital da frente para trás, urinar após relação sexual."
+    }
+  ]
+}

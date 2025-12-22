@@ -1,0 +1,234 @@
+{
+  "uid": 1014,
+  "hash": "7RndbhO2P9u2gSq-ycjRaIMB",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Consulta de Puericultura – Imunização",
+  "definicao": "A imunização é o processo pelo qual uma pessoa se torna resistente a uma doença, quer através do contacto com certas doenças, quer através da administração de uma vacina. As vacinas estimulam o sistema imunitário do organismo a proteger a pessoa contra infecções ou doenças. A imunização previne a doença, a incapacidade e a morte por doenças evitáveis através da vacinação.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "47.00",
+    "star": 0,
+    "time": 584.5,
+    "count": 4391
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nDescrição do caso:\nVocê é médico em uma Unidade Básica de Saúde e recebe, em demanda espontânea, uma mãe com sua filha para uma consulta de rotina.",
+  "tarefas": "- Realizar anamnese completa dirigida à mãe;\n- Solicitar o exame físico geral indicando os parâmetros de relevância para avaliação;\n- Verificar o crescimento, desenvolvimento, plotar nos gráficos e verbalizar em qual escore Z o lactente se encontra, destacando o que é considerado normal para a idade;\n- Solicitar exames laboratoriais se julgar necessário;\n- Informar o correto diagnóstico;\n- Verbalizar seis orientações sobre prevenção de acidentes;\n-Verbalizar cinco medidas gerais para acompanhamento do lactente.\n\nATENÇÃO! O CANDIDATO PODERÁ UTILIZAR CALCULADORA NESSA ESTAÇÃO.",
+  "script_ator": "**DADOS MÃE:** \n- Mônica, 22 anos, casada, professora. \n\n**DADOS DA CRIANÇA:** \n- Luisa de 6 meses. \n\n**MOTIVO DE CONSULTA:** \n- Dr(a), trouxe minha filha para nossa consulta de rotina, como já estava agendado. \n\n**DETALHES DA QUEIXA PRINCIPAL:**\n- Dr(a), não tenho queixas. Ela é bem tranquila e quase não chora.\n\n**CADERNETA DE VACINAÇÃO DA CRIANÇA:**\n- Liberar Impresso 1. \n\n**ALEITAMENTO MATERNO: **\n- Dr(a), eu já comecei a transição alimentar, porque agora ela já completou seis meses. E, como retornei ao trabalho esta semana, já estou oferecendo papinha e ela está aceitando bem. \n\n**DIURESE E CATARSE: **\n- Sem alterações\n\n**SINAIS E SINTOMAS ACOMPANHANTES: **\n- Eu acredito que ela está saudável. Não tenho notado nada de anormal.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES: **\n- Não consta.\n\n**ANTECEDENTES (PRÉ-NATAL | PARTO | PÓS-NATAL): **\n- Não tive nenhum problema, Dr(a). \n\n**MEDICAÇÕES: **\n- Nega.\n\n**ALERGIAS: **\n- Nega.\n\n**MEDICAÇÕES DE USO CONTÍNUO: **\n- Nega.\n\n**EXAMES DE TRIAGEM NEONATAL:**\n- Ele fez todos os testes e me lembro que o/a Dr(a) disse que estava tudo normal e pediu que eu retornasse quando ele completasse seis meses, porque teria vacinas a receber. Então, o trouxe aqui no posto de saúde hoje. \n\n**SE VERBALIZADO QUE IRÁ REALIZAR EXAME FÍSICO E AVALIAÇÃO DE PESO, ALTURA, E PLOTAR NOS GRÁFICO, LIBERAR:** Impresso 3, 4, 5 \n\n**DÚVIDAS: **\n**- Pergunta 1:** Quais são as vacinas que ele deve receber de hoje até os nove meses, Dr(a)? \n\n**OUTRAS PERGUNTAS: **\n- Não consta no SCRIPT!",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE SAÚDE",
+      "conteudo": "**AO NASCER:** \n\n- BCG\n\n- HEPATITE B\n\n\n\n**2 MESES:**\n\n- PENTAVALENTE\n\n-PNEUMOCÓCICA\n\n- VIP\n\n- ROTAVIRUS\n\n\n\n**3 MESES:**\n\n- MENINGOCÓCICA\n\n\n\n**4 MESES:**\n\n- PENTAVALENTE\n\n-PNEUMOCÓCICA\n\n- VIP\n\n- ROTAVIRUS\n\n\n\n**5 MESES:**\n\n- MENINGOCÓCICA",
+      "imagem": "https://app.penserevalida.com/impressos/old/peso-menina.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO  ",
+      "conteudo": "**SINAIS VITAIS:**\n\n**-Frequência Cardíaca:** 120 batimentos por minuto.\n\n**-Frequência Respiratória:** 50 incursões respiratórias por minuto.\n\n**-Saturação de O2:** 98% em ar ambiente.\n\n**-Temperatura:** 37°C\n\n\n\n**EXAME FÍSICO GERAL:**\n\nPaciente em bom estado geral, corado, hidratado, acianótico, anictérico, eupneico, sem linfonodomegalia.\n\n\n\n**Otoscopia e Oroscopia:** sem alterações.\n\n\n\n**Aparelho respiratório:** Sem alterações.\n\n\n\n**Aparelho cardiovascular:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.\n\n\n\n**Abdome:** Plano, flácido, ruídos hidroaéreos presentes, sem massas ou visceromegalias palpáveis, indolor à palpação.\n\n\n\n**Exame genital:** Sem alterações\n\n\n\n**Exame da pele:** Sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/old/peso-menina.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "DADOS ANTROPOMETRICOS",
+      "conteudo": "**DADOS ANTROPOMÉTRICOS:**\n\n**Peso:** 9 kg\n\n**Altura:** 70 cm\n\n**Perímetro cefálico:** 44 cm.",
+      "imagem": "https://app.penserevalida.com/impressos/old/peso-menina.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "PESO x IDADE",
+      "conteudo": "**Verbalize dados encontrados e escore atual.**",
+      "imagem": "https://app.penserevalida.com/impressos/old/pc-feminino.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "PERIMETRO CEFÁLICO",
+      "conteudo": "**Verbalize dados encontrados e escore atual.**",
+      "imagem": "https://app.penserevalida.com/impressos/old/compmenina.png"
+    },
+    {
+      "idx": 6,
+      "titulo": "COMPRIMENTO X IDADE",
+      "conteudo": "**Verbalize os dados encontrados e o escore atual.**",
+      "imagem": "https://app.penserevalida.com/impressos/old/imcmenina.png"
+    },
+    {
+      "idx": 7,
+      "titulo": "IMC",
+      "conteudo": "**Verbalize dados encontrados e escore atual.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre sinais e sintomas:**\n(1) Febre;\n(2) Irritabilidade ou letargia ou choro;\n(3) Tosse ou rinorreia ou conjuntivite ou coriza;\n(4) Diarreia ou constipação. \n\n**Adequado:** Pergunta sobre três ou quatro itens.\n**Parcialmente adequado:** Pergunta sobre dois itens.\n**Inadequado:** Pergunta um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona quanto à gestação / antecedentes gestacionais:**\n(1) Intercorrências no pré-natal;\n(2) Idade gestacional;\n(3) Condições perinatais;\n(4) Via do parto;\n(5) Testes de triagem neonatal.\n\n**Adequado:** Questiona quatro ou cinco itens.\n**Parcialmente adequado:** Questiona dois ou três itens.\n**Inadequado:** Questiona um ou  item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre a saúde geral do bebê:**\n(1) Alimentação;\n(2) Ambiente familiar;\n(3) Ambiente social;\n(4) Hábitos fisiológicos ou catarse E diurese;\n(5) Uso de telas;\n(6) Rede de apoio;\n(7) Sono.\n\n**Adequado:** Pergunta seis ou sete itens.\n**Parcialmente adequado:** Pergunta quatro ou cinco itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita:**\n(1) Caderneta de saúde.\n\n**Adequado:** Solicita o item.\n**Inadequado:** Não solicita o item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exame físico e dados antropométricos citando:**\n(1) Peso;\n(2) Altura;\n(3) Perímetro cefálico.\n\n**Adequado:** Solicita exame físico citando os três itens.\n**Parcialmente adequado:** Solicita exame físico citando dois itens ou verbaliza somente dados antropométricos.\n**Inadequado:** Não solicita exame físico ou cita somente um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Realiza a plotagem do peso no gráfico e verbaliza:**\n(1) Peso se encontra entre (0 e +2);\n(2) É considerado adequado para idade entre (-2 e +2).\n\n**Adequado:** Realiza e verbaliza os dois itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza a plotagem no gráfico e verbaliza:**\n(1) Perímetro cefálico se encontra entre (+1 e +2);\n(2) É considerado adequado para idade entre (-2 e +2).\n\n**Adequado:** Realiza e verbaliza os dois itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza a plotagem da altura no gráfico e verbaliza:**\n(1) Comprimento se encontra entre (0 e +2);\n(2) É considerado adequado para idade entre (-2 e +2).\n\n**Adequado:** Realiza e verbaliza os dois itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza o calculo do IMC, a plotagem no gráfico e verbaliza:**\n(1) IMC 18,36\n(1) IMC se encontra entre (0 e +1);\n(2) É considerado adequado para idade entre (-2 e 1).\n\n**Adequado:** Realiza e verbaliza os dois itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza que o crescimento e desenvolvimento está normal/adequado para idade.**\n\n**Adequado:** Verbaliza de maneira correta.\n**Inadequado:** Não verbaliza ou verbaliza incorretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza sobre as vacinas que criança irá receber aos 6 meses seis meses sendo elas:**\n(1) COVID -19 (1ª dose) \n(2) Penta (3 ª dose) \n(3) VIP(Poliomielite) (3 ª dose)\n(4) Influenza ( 1 ª dose).\n\n**Adequado:** Verbaliza os quatro itens.\n**Inadequado:** Não verbaliza os quatro itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Influenza ( 1 ª dose: 0,5ml;   2 ª dose: 0,5ml, com 30 días da 1 ª .  Logo, anual."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Informa a mãe que as próximas doses de vacina são:** \n(1) Covid-19 (2ª dose) aos sete meses; \n(2) Influenza( 2 ª dose);\n(3) Febre Amarela aos nove meses.\n\n**Adequado:** Informa os três  itens.\n**Parcialmente adequado:** Informa dois item.\n**Inadequado:** Não informa item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "A vacina Covid-19 está recomendada com esquema de duas doses (aos 6 e 7 meses de idade), respeitando os intervalos mínimos recomendados (4 semanas entre a 1ª e 2ª dose). Caso não tenha iniciado e/ou completado o esquema primário até os 7 meses de idade, a vacina poderá ser administrada até 4 anos, 11 meses e 29 dias, conforme histórico vacinal. Para indivíduos imunocomprometidos, o esquema vacinal são de três doses (aos 6, 7 e 9 meses)."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta a mãe sobre prevenção de acidentes:**\n(1) Nunca deixe bebês sozinhos em qualquer local da casa, particularmente em camas, sofás, trocadores e beliches, mesmo que a criança ainda não tenha adquirido a capacidade de rolar.\n(2) Cuidado na escolha de cadeiras para oferecer a alimentação. Devem ter base alargada, trava e cinto. Sempre supervisione a criança, mesmo que ela esteja contida na cadeira com dispositivos de segurança.\n(3) Nunca coloque brinquedos ou travesseiros dentro do berço. Estes objetos podem cair para fora e a criança tentando alcançá-lo, pode cair.\n(4) Nunca use andador. É muito comum a queda do andador em escadas, e as lesões decorrentes desta queda sempre são graves, com trauma de crânio e hospitalização.\n(5) Mantenha produtos de limpeza (água sanitária, detergente) e medicamentos fora do alcance da criança e, se possível, trancados.\n(6) Não utilize embalagens de bebidas para colocar produtos de limpeza e inflamáveis, como querosene.\n(7) Teste a temperatura da água com a mão, movendo-a por toda a banheira para ter a certeza de que não há nenhum ponto muito quente.\n(8) Mamadeira: jamais utilize o forno de micro-ondas para aquecer a mamadeira.\n(9) As panelas devem ficar nas bocas de trás do fogão, sempre com o cabo voltado para o fundo e longe do alcance das crianças. Evite o uso da boca dianteira para fervura de líquidos e frituras.\n\n**Adequado:** Orienta de seis a nove itens.\n**Parcialmente adequado:** Orienta quatro ou cinco itens.\n**Inadequado:** Orienta três ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Orienta sobre:**\n(1) Manter aleitamento materno até os 2 anos;\n(2) Manter acompanhamentos nas consultas de puericultura;\n(3) Não ofertar sucos ou água com açúcar para o RN;\n(4) Manter vacinação em dia de acordo com o calendário vacinal;\n(5) Não utilizar telas;\n(6) Colocar o RN para dormir sempre em posição supina;\n(7) Manter higiene corporal adequada.\n\n**Adequado:** Orienta de cinco a sete itens.\n**Parcialmente adequado:** Orienta quatro itens.\n**Inadequado:** Orienta três ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

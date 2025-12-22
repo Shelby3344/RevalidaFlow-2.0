@@ -1,0 +1,166 @@
+{
+  "uid": 965,
+  "hash": "zu2Y1g947_-jt09Jxh7IM9k4",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Pancreatite Crônica",
+  "definicao": "A pancreatite crônica define-se como uma doença inflamatória contínua do pâncreas, que conduz a alterações morfológicas irreversíveis, tanto no parênquima como no sistema ductal pancreático, que persistem mesmo após a supressão dos fatores causais, culminando em perda funcional. É causada em 80% dos casos pelo consumo de álcool/etilismo, 10% dos casos de etiologia idiopática, 5% autoimune, 2% hereditária e 4% por demais causas.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "48.50",
+    "star": 0,
+    "time": 587.5,
+    "count": 4246
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Urgência e emergência.\n\nA unidade possui:\n-  Setor de radiologia com aparelho de radiografia;\n-  Laboratório de análises clínicas;\n-  Centro cirúrgico. \n\nDescrição do caso:\nVocê é um médico de plantão na emergência de uma unidade de pronto atendimento (UPA) e atenderá um paciente de 47 anos com queixa de dor abdominal.",
+  "tarefas": "- Realizar anamnese;\n- Solicitar exame físico do paciente;\n- Solicitar e interpretar exames laboratoriais;\n- Solicitar e interpretar exames complementares pertinentes ao caso;\n- Formular e verbalizar a hipótese diagnóstica;\n- Orientar o plano terapêutico mais indicado ao quadro clínico.\n- Responder dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Me chamo Roberto, tenho 47 anos de idade, sou casado e mecânico.\n\n**MOTIVO DE CONSULTA:**\n- Estou com dor de barriga Dr (a).\n\n**CARACTERÍSTICAS DA DOR:**\n**Tempo de evolução e progressão** Eu tenho essa dor já faz uns 4 meses, tem dias que melhora, outros dias piora.\n**-Intensidade:** antes era moderada, agora está piorando bastante.\n**-Localização:** Está localizada na boca do estômago.\n**Irradiação:** Irradia para as costas dos dois lados. \n**-Fatores de melhora e piora:** Piora quando eu me como, até não estou conseguindo comer direito, e não existem fatores de melhora.\n**-Progressão:** A dor só está piorando ao passar do tempo.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Náuseas e Vômitos:** Tenho bastante náusea, mas não cheguei a vomitar.\n**-Distensão abdominal:** Eu percebi que a minha barriga está mais inchada do que o normal.\n**-Anorexia:** Estou com pouco apetite.\n**-Alteração gastrointestinal/diarreia:** Estou com diarreia também.\n**-Características da diarreia:** 2-3 x ao dia, amarelada, o cocô fica boiando, nunca tinha visto isso.\n**-Presença de sangue nas fezes:** Nega.\n-**Febre:** Não tive febre.\n**-Icterícia:** Não percebi coloração amarelada na minha pele, nem nos meus olhos.\n**-Diurese/Colúria:** Meu xixi está amarelado, mas não tenho outros sintomas urinários. \n**-Perda de peso:** Eu emagreci bastante esses últimos meses, acho que uns 9-10 kg.\n**-Sintomas urinários:** Nega.\n\n**ANTECEDENTES PESSOAIS:**\n**-Comorbidades e Alergias:** Que eu saiba não tenho alergias ou doenças pré-existentes.\n**-Cirurgias:** Nunca fiz cirurgia.\n**-Bebe/Tabagismo/Drogas:** Eu fumo 1 maço de cigarro ao dia desde os 16 anos, e bebo todos os dias, já faz uns 15 anos, geralmente só cerveja, umas 5-6 latinhas, mas tem dia que bebo uma ou duas doses de pinga.\n**-Alimentação:** Não estou conseguindo comer bem, não tenho fome.\n**-Atividade física:** Não pratico atividade física.\n\n**ANTECEDENTES FAMILIARES:**\n- Desconheço antecedentes familiares.\n\n**Após os questionamentos esperados do(a) participante, ele(a) poderia receber os seguintes impressos, caso tenha feito os pedidos adequadamente:**\n1. Ao solicitar o **exame físico,** ele(a) receberia o **IMPRESSO — EXAME FÍSICO;**\n2. Ao indicar a realização de **exames laboratoriais**, após fazer a solicitação completa, independentemente de quais ou de quantos exames fossem pedidos, ele(a) receberia o **IMPRESSO — EXAMES LABORATORIAIS;**\n3. Ao solicitar uma **tomografia de abdome com contraste**, ou uma **TC/TAC abdominal com contraste**, ou uma **tomografia de abdome**, receberia o **IMPRESSO — TOMOGRAFIA DE ABDOME COM CONTRASTE**;\n\n**No decorrer do atendimento, caso o(a) participante tenha feito a anamnese adequada, o paciente simulado perguntaria:**\n- Dr (a) o que pode ter causado isso?\n- É isso, mesmo? Tem certeza? Pode ser outra coisa?\n- E isso pode complicar? o que pode acontecer?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico Geral",
+      "conteudo": "Regular estado geral, afebril, acianótico, anictérico, desidratado (+2/+4), alerta e orientado no tempo e no espaço.\n\n\n\n**Frequência cardíaca:** 98 batimentos por minuto.\n\n**PA:** 120x80 mmHg.\n\n**FR:** 19 incursões respiratórias por minuto.\n\n**Temperatura axilar:** 36,8°C.\n\n**Saturação de oxigênio:** 98% AA.\n\n**IMC:** 20 kg/m2.\n\n\n\n**Abdome: ** Pouco distentido, dor à palpação superficial e profunda em todo abdome superior, com piora à palpação profunda em epigástrio e mesogástrio, sem dor à descompressão brusca. RHA diminuidos.\n\n\n\n**Aparelhos respiratório e cardiovascular:** Sem anormalidades.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1714556474.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exames Laboratoriais",
+      "conteudo": "**Hemoglobina:** 10,5 g/dL (VR 13,0 a 17,0 g/dL)\n\n**Hematócrito:** 35 % (VR 40 a 50,0%)\n\n**Leucócitos:** 8.000 mm3 (VR 4.000 a 10.000 mm3)\n\n**Plaquetas:** (contagem) 175.000 mm3 (VR 150.000 a 450.000 mm3)\n\n\n\n**Glicemia:** (em jejum): 155 mg/dL (VR 70 a 100 mg/dL)\n\n\n\n**Bilirrubina Total:** 1,0 mg/dL (VR 0,2 a 1,2 mg/dL)\n\n**Bilirrubina Direta:** 0,3 mg/dL (VR 0,1 a 0,3 mg/dL)\n\n**Bilirrubina Indireta:** 0,7 mg/dL (VR 0,2 a 0,7 mg/dL)\n\n\n\n**TGO (AST):** 39 U/L (VR 0 a 38 U/L)\n\n**TGP(ALT):** 33 U/L (VR 0 a 41 U/L)\n\n**Amilase:** 135 U/L (VR 35 a 125 U/L)\n\n**Lipase:** 80 U/L (VR 0 a 60 U/L)\n\n**Ureia:** 42 mg/dL (VR 15 a 45 mg/dL)\n\n**Creatinina:** 1,3 mg/dL (VR 0,6 a 1,2 mg/dL)\n\n**Cálcio sérico:** 10,4 mg/dl (VR 8,6 a 10 mg/dl)",
+      "imagem": "https://app.penserevalida.com/impressos/old/1714556474.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Tomografia Abdominal com contraste",
+      "conteudo": "Calcificações do parênquima e ducto pancreático, com dilatação e tortuosidade do ducto e redução volumétrica do pâncreas. \n\nDemais estruturas sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Pergunta o nome e cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre as características da dor:**\n(1) Localização;\n(2) Tempo de Início;\n(3) Intensidade;\n(4) Tipo da dor\n(5) Progressão;\n(6) Irradiação; e\n(7) Fatores desencadeante, de melhora ou de piora da dor.\n\n**Adequado:** Pergunta de seis a sete características.\n**Parcialmente adequado:** Pergunta quatro ou cinco características.\n**Inadequado:** Pergunta três ou menos características OU não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre sintomas relevantes para o estabelecimento do diagnóstico:**\n(1) Eliminação de flatos e fezes/mudança do hábito intestinal/diarreia E constipação;\n(2) Características da diarreia;\n(3) Icterícia/pele amarelada;\n(4) Colúria/urina escura/alteração na cor;\n(5) Acolia/fezes brancas/claras/alteração na cor; \n(6) Náuseas ou vômitos;\n(7) Perda de peso; \n(8) Sangue nas fezes/hematoquezia/melena; e\n(9) Sintomas urinários.\n\n**Adequado:** Pergunta oito características ou mais.\n**Parcialmente adequado:** Pergunta seis ou sete características.\n**Inadequado:** Pergunta cinco itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre fatores relevantes para o estabelecimento do diagnóstico:**\n(1) Etilismo/Abuso de álcool;\n(2) Tabagismo;\n(3) Comorbidades/doenças prévias;\n(4) Uso de medicamentos;\n(5) Dieta/Alimentação;\n\n**Adequado:** Pergunta os cinco itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita os exames laboratoriais:**\n(1) Hemograma;\n(2) Bilirrubina total e frações OU bilirrubina total e bilirrubinas direta e indireta (Obs.: se solicitar apenas bilirrubinas de forma genérica, não pontuar);\n(3) TGO e TGP (ou só TGO ou só TGP);\n(4) Amilase;\n(5) Lipasse;\n(6) Ureia;\n(7) Creatinina; e\n(8) Glicemia.\n\n**Adequado:** Solicita sete itens ou mais.\n**Parcialmente adequado:** Solicita seis itens.\n**Inadequado:** Solicita cinco ou menos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita tomografia de abdome com contraste (OU TC ou TAC de abdome com constraste).**\n\n**Adequado:** Solicita o exame.\n**Parcialmente adequado:** Solicita tomografia de abdome, mas não especifica o contraste.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Define hipótese diagnóstica:** pancreatite crônica.\n\n**Adequado:** Define o diagnóstico completo.\n**Inadequado:** Não define ou verbaliza de forma incompleta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza possíveis etiologias associadas ao quadro:**\n(1) Etilismo/Abuso de álcool;\n(2) Idiopática;\n(3) Auto-imune;\n(4) Hereditária;\n(5) Obstrutiva;\n(6) Medicamentosa;\n(7) Tropical;\n(8) Traumas;\n(9) Radioterapia.\n\n**Adequado:**  Verbaliza quatro itens ou mais.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois itens ou menos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Indica o plano terapêutico adequado**:\n(1) Tratamento do etilismo;\n(2) Cessar tabagismo;\n(3) Orientação dietética específica;\n(4) Controle da dor/Analgesia; \n(5) Suplementação enzimática;\n(6) Suplementação vitamínica.\n(7) Avaliação/investigação/tratamento da diabetes mellitus.\n(8) Encaminha ao especialista.\n\n**Adequado:** Indica o item (1) e mais três medidas.\n**Parcialmente adequado:** indica o item (1) e mais duas medidas.\n**Inadequado:** Não indica o item (1) ou menos de duas medidas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10.  **Verbaliza diagnósticos diferenciais:**\n(1) Câncer de pâncreas;\n(2) Doença diverticular;\n(3) Câncer colorretal;\n(4) Isquemia intestinal;\n(5) Cólica biliar/Colelitiase;\n(6) Doença ulcerosa péptica;\n\n**Adequado:** Verbaliza três itens ou mais.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um ou nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.55",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. ** Verbaliza possíveis complicações:**\n(1) Agudização/pancreatite aguda;\n(2) Pseudocisto pancreático;\n(3) Ascite pancreática;\n(4) Derrame pleural pancreático;\n(5) Trombose esplênica;\n(6) Pseudoaneurisma;\n(7) Obstrução do colédoco;\n(8) Infecção/abscesso pancreático;\n(9) Hemorragia digestiva alta.\n\n**Adequado:** Verbaliza quatro itens ou mais.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

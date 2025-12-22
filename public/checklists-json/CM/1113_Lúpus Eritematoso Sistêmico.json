@@ -1,0 +1,172 @@
+{
+  "uid": 1113,
+  "hash": "bKlzPNbAprmyblpg2DkZXtnS",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Lúpus Eritematoso Sistêmico",
+  "definicao": "O Lúpus Eritematoso Sistêmico (LES) é uma doença autoimune multissistêmica caracterizada pela produção de autoanticorpos, formação e deposição de imunocomplexos, com consequente inflamação em diversos órgãos, que pode resultar em dano tecidual e disfunção de órgãos. Afeta mais as mulheres, sendo 9 a 10 vezes mais frequente em mulheres durante a idade reprodutiva. No Brasil, estima-se uma incidência de LES em torno de 8,7 casos para cada 100.000 pessoas por ano, de acordo com um estudo epidemiológico realizado na região Nordeste.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "78.00",
+    "star": 0,
+    "time": 576,
+    "count": 7765
+  },
+  "cenario": "Nível de atenção: Secundaria.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas.\n\nDescrição do caso: \nVocê recebe para consulta agendada uma mulher de 30 anos de idade, casada, vendedora, que se queixa de cansaço de vários meses de evolução e dor nas articulações. A paciente associa esses sintomas ao seu trabalho já que caminha várias horas por dia oferecendo seus produtos. Decide consultar devido ao aparecimento de uma mancha no rosto que a deixou preocupada.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as seguintes tarefas:\n- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar exame físico direcionado à queixa principal do paciente;\n- Solicitarexames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Raíssa, 30 anos de idade, casada, vendedora de roupas.\n\n**MOTIVO DE CONSULTA: **\n- Já faz uns 4 meses que estou me sentindo muito cansada e com dor nas articulações, acho que estou trabalhando muito. E esses dias apareceu uma mancha no meu rosto que me deixou preocupada. \n\n**SE PERGUNTADO PELA DOR NAS ARTICULAÇÕES: **\n**- Tempo de evolução: **Quatro meses. \n**- Localização: **Ás vezes dói as mãos e os pés, às vezes só os joelhos. \n**- Intensidade: **É uma dor moderada (6/10). \n**- Irradiação: **Nega. \n**- Momento de aparição: **Não tem um momento específico.\n**- Fatores de melhora: **Tomo remédio para dor e alivia.\n**- Fatores de piora: **Nega.\n**- Progressão/ piora da dor: **Sinto que dói da mesma forma.\n**- Rigidez associada: **Quando acordo às vezes a articulação fica meio dura e depois de uns 40 minutos começa a melhorar.\n\n**SE INVESTIGADO SOBRE A MANCHA NO ROSTO: **\n**- Tempo de evolução: **Dez dias. \n**- Cor: **Avermelhada. \n**- Coceira: **Nega. \n**- Secreção: **Nega. \n**- Descamação: **Nega.\n**- Fatores de piora: **Quando tomo sol a mancha fica mais forte. \n**- Fatores de melhora: **Nega.\n**- Uso de protetor solar: **Não.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nega. \n**- Cirurgias: **Nega. \n**- Medicamentos: **Anticoncepcional. \n**- Alergias: **Que eu saiba não.\n**- Data da última menstruação: **Há 20 dias.\n\n**HÁBITOS: **\n**- Álcool: **Ás vezes tomo cerveja. \n**- Cigarro: **Nega. \n**- Drogas: **Nega. \n**- Atividade física: **Não realizo porque já caminho várias horas por dia trabalhando. \n**- Alimentação: **Variada. \n**- Urina e fezes: **Nega alterações.\n\n**ANTECEDENTES FAMILIARES: **\n- Pai: Tem doença inflamatória intestinal.\n- Mãe: Sem problemas de saúde.\n\n**AO RECEBER ALGUM DIAGNÓSTICO, PERGUNTAR: **\n- Como se trata essa doença?\n\n**Quando o candidato solicitar exames de laboratório, perguntar: **\n- Já concluiu a sua solicitação? Só liberar o impresso quando disser que sim.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 110x75 mmHg \n\n**- Frequência cardíaca:** 68 batimentos por minuto \n\n**- Saturação de O2:** 99% \n\n**- Temperatura axilar:** 36.5° C \n\n**- Frequência respiratória:** 12 incursões por minuto \n\n\n\n**Dados antropométricos:**\n\n**- IMC:** 26 kg/m2 \n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, normocorado, hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias. \n\n\n\n**Exame articular:**\n\nSe observa leve edema e dor à palpação das articulações dos joelhos e punhos.\n\n\n\nAusência de adenomegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemácias:** 4,1 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 12,3 g/dl (Valor de referência: 12 a 16 mg/dl)\n\n**Hematócrito:** 47% (Valor de referência: 39 - 52%)\n\n**VCM:** 93 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 28 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas: **130.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucócitos:** 4.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 65% (Valor de referência: 40 - 70%)\n\n**Bastões:** 3% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 25% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 1% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 2% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 4% (Valor de referência: 4 - 8%)\n\n\n\n**Glicemia de jejum:** 80 mg/dl (60 - 99 mg/dl)\n\n\n\n**Creatinina:** 0,7 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 28 mg/dl (Valor de referência: 40 mg/dl) \n\n**Colesterol VLDL:** 25 mg/dl (<30 mg/dl)\n\n**Triglicéridos:** 120 mg/dl (< 150 mg/dl)\n\n\n\n**TGO:** 22 U/l (Valor de referência: 15 – 40 U/l)\n\n**TGP:** 15 U/l (Valor de referência: 10 – 40 U/l)\n\n**FA:** 45 U/l (Valor de referência: 30 – 100 U/l)\n\n**GGT:** 22 U/l (Valor de referência: 8 – 78 U/l)\n\n\n\n**TSH:** 2,3 mU/l (Valor de referência: 0,4 - 4,5 mU/l) \n\n\n\n**Proteína C reativa:** 1,1 mg/dl (Valores de referência: < 0,3 mg/dl)\n\n\n\n**Sorologias para ITS:** negativo",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Análise de urina",
+      "conteudo": "**Características gerais:**\n\n**Volume da amostra:** 40 ml\n\n**Aspecto:** límpido (Valor de referência: límpido)\n\n**Cor:** amarela (Valor de referência: não se aplica)\n\n**Depósito:** escasso (Valor de referência: nulo)\n\n**Densidade:** 1025 (Valor de referência: 1015 - 1025)\n\n**Reação pH:** 5,5 (Valor de referência: 4,5 - 7,8)\n\n\n\n**Exame químico:**\n\n**Proteínas:** negativo (Valor de referência: negativo)\n\n**Corpos cetônicos:** negativo (Valor de referência: negativo)\n\n**Glicose:** negativo (Valor de referência: negativo)\n\n**Bilirrubina:** negativo (Valor de referência: negativo)\n\n**Urobilinogênio:** 0,2 mg/dl (Valor de referência: < 1 mg/dL)\n\n**Hemoglobina:** negativo (Valor de referência: negativo)\n\n**Nitrito:** não reagente (Valor de referência: não reagente)\n\n\n\n**Sedimentoscopia:**\n\n**Piócitos:** 1 por campo (Valor de referência: < 4 por campo)\n\n**Hemácias:** 0 por campo (Valor de referência: < 2 por campo)\n\n**Epitélio de vias altas:** ausente (Valor de referência: raras células por campo)\n\n**Epitélio de vias baixas:** raras (Valor de referência: < 3 por campo)\n\n**Cilindros hialinos:** ausentes (Valor de referência: < 2 por campo)\n\n**Cilindros patológicos:** ausentes (Valor de referência: ausentes)\n\n**Cristais:** ausentes (Valor de referência: ausentes)\n\n**Flora bacteriana:** ausente (Valor de referência: ausente)\n\n**Muco:** ausente (Valor de referência: não se aplica)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "FAN/ Anti Smith/ Anti DNAds/ Complemento C3 e C4",
+      "conteudo": "**Fator antinuclear:** positivo (1/160)\n\n**Anti DNAds:** positivo (140 UI/ml)\n\n**Anti-Smith:** positivo (1/80)\n\n**Complemento C3:** 48 mg/dl (Valor de referência: 80 - 150 mg/dl) \n\n**Complemento C4:** 14 mg/dl (Valor de referência: 16 - 38 mg/dl)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga a dor articular perguntando: **\n(1) Tempo de evolução;\n(2) Articulações afetadas;\n(3) Intensidade;\n(4) Momento de aparição;\n(5) Fatores de melhora;\n(6) Fatores de piora;\n(7) Progressão.\n\n**Adequado: **Investiga seis ou mais itens.\n**Parcialmente adequado: **Investiga quatro ou cinco itens. \n**Inadequado: **Investiga três ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Realiza perguntas relacionadas à mancha: **\n(1) Tempo de evolução;\n(2) Cor;\n(3) Descamação;\n(4) Prurido;\n(5) Saída de secreção;\n(6) Fatores de piora;\n(7) Fatores de melhora;\n(8) Uso de protetor solar. \n\n**Adequado: **Investiga cinco ou mais itens. \n**Parcialmente adequado: **Investiga três ou quatro itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais: **\n(1) Doenças crônicas;\n(2) Infecções (válido se perguntado por infecções ou febre ou outros sintomas de infecção);\n(3) Medicamentos;\n(4) Alergias;\n(5) Hábitos tóxicos (álcool ou drogas ou tabagismo);\n(6) Alteração no hábito urinário e/ou intestinal;\n(7) Alimentação;\n(8) Exercício físico. \n\n**Adequado: **Investiga seis ou mais itens. \n**Parcialmente adequado: **Investiga quatro ou cinco itens. \n**Inadequado: **Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga antecedentes familiares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **(1) Solicita exame físico e (2) verbaliza a presença de exantema eritematoso na região malar (ou eritema malar) que respeita o sulco nasolabial (ou padrão de asa de borboleta). **\n\n**Adequado: **Solicita exame físico e descreve adequadamente a lesão. \n**Parcialmente adequado: **Solicita exame físico sem descrever adequadamente a lesão. \n**Inadequado: **Não solicita exame físico.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames de laboratório: **\n(1) Hemograma;\n(2) PCR e/ou VHS;\n(3) Glicemia;\n(4) Ureia;\n(5) Creatinina;\n(6) Sódio;\n(7) Potássio;\n(8) TSH;\n\n**Adequado: **Solicita seis ou mais exames da lista. \n**Parcialmente adequado: **Solicita quatro ou cinco exames. \n**Inadequado: **Solicita três ou menos exames da lista.\n\n**ATENÇÃO! Só serão considerados os exames que foram solicitados antes da entrega do impresso! **",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita análise de urina. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita laboratório imunológico: **\n(1) Fator antinuclear (FAN);\n(2) Anti Smith e/ou Anti DNAds;\n(3) Complemento C3 e/ou complemento C4. \n\n**Adequado: **Solicita três itens. \n**Parcialmente adequado: **Solicita dois itens. \n**Inadequado: **Solicita um ou nenhum item.\n\n**ATENÇÃO! Só serão considerados os exames que foram solicitados antes da entrega do impresso! **",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza o diagnóstico de Lúpus eritematoso sistêmico. **\n\n**Adequado: **Realiza. \n**Inadequado: **Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.25"
+      },
+      "dica_teorica": "Ver critérios da European Legue Against Rheumatism/ American College of Rheumatology (Eular/ACR, 2019). Tipos de Lúpus:  - Lúpus  eritematoso sistêmico (forma mais comum);- Lúpus cutâneo;- Lúpus neonatal;- Lúpus medicamentoso."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Conduta terapêutica: **\n(1) Explica à paciente que o tratamento pode ser realizado com hidroxicloroquina e/ou corticoide e/ou imunossupressores. \n(2) Orienta evitar exposição solar em horários inapropriados e/ou usar protetor solar;\n(3) Praticar exercício físico regular;\n(4) Evitar hábitos tóxicos (cigarro e/ou álcool e/ou drogas ilícitas);\n(5) Alimentação saudável;\n(6) Encaminhamento ao reumatologista. \n\n**Adequado: **Realiza cinco ou mais ações. \n**Parcialmente adequado: **Realiza três ou quatro ações. \n**Inadequado: **Realiza duas ou menos ações.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1",
+        "adequado": " 2"
+      },
+      "dica_teorica": "Objetivos do tratamento:  - Controle das manifestações clínicas e laboratoriais, reduzindo a atividade da doença;- Prevenir as recidivas de atividade de doença;- Prevenir o dano ao longo da evolução da doença;- Diminuir a dose cumulativa de corticoide;- Melhorar a qualidade de vida dos pacientes."
+    }
+  ]
+}

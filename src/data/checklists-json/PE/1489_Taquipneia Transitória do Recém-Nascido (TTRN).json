@@ -1,0 +1,161 @@
+{
+  "uid": 1489,
+  "hash": "8131e0429d9fc932032aed1eea660c246f6dbcc336b55721130fde3d15d3cad4-1743324754",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Taquipneia Transitória do Recém-Nascido (TTRN)",
+  "definicao": "Taquipneia Transitória do Recém-Nascido (TTRN) é uma condição respiratória comum em recém-nascidos que geralmente ocorre nas primeiras horas de vida. Ela é caracterizada por respiração rápida devido ao excesso de líquido nos pulmões que não foi completamente absorvido após o nascimento.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "48.00",
+    "star": 0,
+    "time": 570.5,
+    "count": 1281
+  },
+  "cenario": "Local de atuação: Unidade de atenção terciária: Maternidade.\nConsidere que todos os recursos necessários para o atendimento estão disponíveis.\n\nDescrição do caso:\nVocê esta de plantão em uma maternidade e é chamado para avaliar um recém-nascido de 15 horas de vida, apresentando taquipneia. A mãe está preocupada com a respiração rápida e a equipe de enfermagem solicita sua avaliação.",
+  "tarefas": "- Realizar anamnese do paciente;\n- Solicitar e interpretar exame físico;\n- Estabelecer e comunicar a hipótese diagnóstica e diagnósticos diferenciais (mínimo 3);\n- Solicitar exames complementares, se necessário, descrevendo os achados;\n- Propor conduta terapêutica;\n- Citar fatores de risco para a principal hipótese diagnóstica (mínimo 2).",
+  "script_ator": "**DADOS PESSOAIS DA MÃE:**\n- Ana, 32 anos, professora.\n\n**DADOS DA CRIANÇA:**\n- Lucas, 15 horas de vida.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a), estou preocupada com a respiração do meu filho. Ele nasceu bem e agora me falaram que ele está respirando mais rápido do que o normal.\n\n**INVESTIGAÇÃO DO MOTIVO DE CONSULTA:**\n- **Respiração rápida:** Sim, Dr(a).\n- **Amamentação:** Está mamando bem, mas às vezes para de mamar para respirar.\n- **Qualquer pergunta adicional sobre o motivo de consulta:** Não sei responder bem, mas está tudo na ficha dele, você quer ver?\n\n**ANTECEDENTES PERINATAL (PRÉ-NATAL | PARTO | PÓS-NATAL):**\n**Pré-natal:** Tudo normal, fiz todas as consultas, sou diabética há anos já, mas bem controlada com insulina;\n**Idade gestacional ao nascer: **37 semanas​;\n**Tipo de parto:** Cesariana eletiva sem trabalho de parto;\n**Condição neonatal imediata/nascimento:** ele nasceu super bem, mas me falaram que tinha um líquido meio verde;\n\n**DÚVIDAS:**\n- **Pergunta 1:** - Dr(a), isso é grave?\n-**Pergunta 2 após o candidato verbalizar o diagnóstico:** -  Não é pneumonia? Eu acho que é!\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Ficha do Recém-Nascido",
+      "conteudo": "**Nome:** Lucas Marques Filho;​\n\n**Idade:** 15 horas de vida​;\n\n**Sexo:** Masculino;\n\n**Peso ao nascer:** 3.700 kg​\n\n**Idade gestacional ao nascer: **37 semanas​;\n\n**Tipo de parto:** Cesariana eletiva sem trabalho de parto;\n\n**Apgar:** 8/9, não foi necessária reanimação neonatal, presença de líquido meconial 1+/4+;\n\n**Pré-natal:** Realizado sem intercorrências, mãe diabética controlada com insulinoterapia;",
+      "imagem": "https://app.penserevalida.com/impressos/8/1743325591.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n**Frequência respiratória:** 75 irpm;\n\n**Frequência cardíaca:** 140 bpm;\n\n**Temperatura:** 36,5 °C;\n\n**Oximetria de pulso:** 94% AA;\n\n\n\n**Estado geral:** Ativo, responsivo;\n\n**Pulmonar:** Murmúrio vesicular presente, sem ruídos adventícios. Ausência de gemência, ausência de retrações intercostais e batimento de asas nasais;\n\n**Cardíaco:** Bulhas normofonéticas em dois tempos, sem sopros.\n\n**Abdome:** Macio, indolor à palpação, sem visceromegalias.\n\n**Pele:** Sem cianose, sem icterícia.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1743325591.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Radiografia de Tórax",
+      "conteudo": "Descreva os achados.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Laboratório",
+      "conteudo": "Hemograma: sem alterações;\n\nGasometria arterial: leve acidose respiratória e hipoxemia.\n\nGlicemia: sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome da mãe e o nome da criança.\n\n**Adequado:** realiza as quatro ações.\n**Parcialmente adequado:** realiza duas ou três ações.\n**Inadequado:** realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre antecedentes pré e perinatais:**\n(1) Controle pré-natal;\n(2) Intercorrências no pré-natal; \n(3) Tipo de parto;\n(4) Presença de trabalho de parto;\n(5) Idade gestacional;\n(6) Necessidade de reanimação neonatal;\n(7) Amamentação;\n\n**Adequado:** Pergunta ao menos seis itens.\n**Parcialmente adequado:** Pergunta cinco itens.\n**Inadequado:** Pergunta quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "O parto cesáreo, principalmente sem trabalho de parto prévio é um fator de risco para TTRN devido à menor compressão torácica durante o nascimento, que ajuda a expulsar o líquido pulmonar."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Solicita exame físico completo;**\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Gemência e retrações são sinais importantes para avaliar a gravidade da condição respiratória. Sinais de alerta incluem aumento da dificuldade respiratória ou cianose."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita radiografia de tórax e descreve corretamente os achados:**\n(1) Hiperinsuflação pulmonar;\n(2) Espessamento das linhas septais ou estrias peribrônquicas;\n(3) Espessamento de cissuras ou cissura menor visível;\n(4) Possível derrame pleural discreto;\n\n**Adequado:** Solicita e descreve ao menos três itens;\n**Parcialmente adequado:** Solicita e descreve ao menos dois itens.\n**Inadequado:** Não solicita ou descreve um ou nenhum item.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": "Exames podem incluir raio-X de tórax para descartar outras condições como pneumonia."
+    },
+    {
+      "idx": 5,
+      "descricao": "5.  **Realiza a hipótese diagnóstica de Taquipneia Transitória do Recém-Nascido;**\n\n**Adequado:** Realiza corretamente.\n**Inadequado:** Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Cita diagnósticos diferenciais:**\n(1) Doença da membrana hialina OU Síndrome do desconforto respiratório;\n(2) Pneumonia;\n(3) Sepse neonatal;\n(4) Síndrome de aspiração de mecônio;\n(5) Cardiopatias congênitas;\n(6) Hipertensão pulmonar;\n\n**Adequado:** cita ao menos três diagnósticos diferenciais.\n**Inadequado:** Não cita.\n\n**Obs: o item (2) não será computado caso o candidato verbalize após a pergunta número 2 da atriz.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Explica à mãe que a condição é transitória e geralmente melhora em 48 a 72 horas.**\n**Adequado:** Explica corretamente.\n**Inadequado:** Não explica ou explica incorretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "A TTRN é autolimitada e resolve-se geralmente em poucos dias."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Explica à mãe que apesar da pneumonia ser um diagnóstico diferencial não aparenta ser devido à:**\n(1) Ausência de febre;\n(2) Ausência de sinais e sintomas sistêmicos;\n(3) Radiografia sem consolidação/infiltrado;\n(4) Radiografia sem broncograma aéreo;\n(5) Radiografia sem opacidade em vidro fosco;\n\n**Adequado:** Explica ao menos três itens;\n**Parcialmente adequado:** Explica ao menos dois itens.\n**Inadequado:** Não explica ou explica um ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Indica a conduta:**\n(1) UTI neonatal para monitorização contínua;\n(2) Oxigênio suplementar;\n(3) Manutenção da temperatura;\n(4) Suporte nutricional com SNG;\n\n**Adequado:** Indica ao menos três condutas adequadamente.\n**Parcialmente adequado:** Indica duas condutas.\n**Inadequado:** Indica uma ou nenhuma conduta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Cita fatores de risco relacionados ao quadro:**\n(1) Parto cesáreo eletivo;\n(2) Ausência de trabalho de parto;\n(3) Diabetes materna;\n(4) Hiperhidratação materna;\n(5) Prematuridade ou prematuridade tardia;\n(6) Asma materna;\n(7) Asfixia perinatal;\n(8) Parto precipitado;\n(9) Sexo masculino;\n\n**Adequado:** Cita ao menos dois fatores de risco.\n**Inadequado:** Não cita corretamente ou cita menos de dois fatores de risco.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

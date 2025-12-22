@@ -1,0 +1,176 @@
+{
+  "uid": 1067,
+  "hash": "vWZvZxkIlHJjDc-aWSD-_NLa",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Inserção de DIU",
+  "definicao": "O DIU é um método contraceptivo do grupo dos LARCs, sigla em inglês para Método Contraceptivo de Longa Duração. O DIU com cobre, quando inserido dentro do útero, exerce ações locais que culminam por evitar a gestação2 , apresentando-se como um método seguro para evitar a longo prazo uma gestação. Pode ser usado em qualquer idade do período reprodutivo, sem a necessidade da intervenção diária da mulher e sem prejudicar a fertilidade futura. A ampliação do acesso ao DIU com cobre nas maternidades (pós-parto e pós-abortamento imediatos – inserção em até 10 minutos) é uma estratégia compartilhada e complementar às ações de saúde reprodutiva da Atenção Básica e demais pontos de atenção do sistema de saúde local.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "49.50",
+    "star": 0,
+    "time": 564,
+    "count": 6634
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Atenção Primária à Saúde.\nTipo de Atendimento: Ambulatorial\n\nA unidade possui a seguinte infraestrutura:\n-Aparelhos para exames radiológicos convencionais (Raio-X);\n-Laboratório de análises clínicas.\n\nDescrição do caso:\nPaciente, sem queixas específicas, veio à consulta porque quer colocar um DIU.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "tarefas": "-  Realizar propedêutica ginecológica completa;\n-  Responder às indagações da paciente;\n-  Orientar sobre o método contraceptivo escolhido pela paciente;\n-  Proceder à técnica de inserção do DIU de forma completa.\n\nA inserção do DIU será realizada de maneira VERBAL.\nVocê deve VERBALIZAR cada parte da técnica que realizar.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Lara, 30 anos, solteira.\n\n**MOTIVO DE CONSULTA:**\n- Quero colocar um DIU porque já estou cansada de ter que ficar tomando comprimido todo dia ou usando camisinha.\n\n**SINTOMAS ASSOCIADOS**:\n**- Corrimento vaginal:** Nega.\n**- Dor nas relações sexuais/dispareunia: **Nega.\n**- Sangramento nas relações sexuais/sinusorragia:** Nega.\n**- Dismenorreia:** Raramente, normalmente não tenho dor.\n\n**ANTECEDENTES GINECOLÓGICOS:**\n**- Parceiros sexuais:** Não tenho parceiro fixo.\n**- Uso de preservativo:** Não uso com frequência.\n**- Uso de contraceptivo oral:** Irregular.\n**- Antecedente de ITS:** Nega.\n**- Ciclos menstruais: **Regulares.\n**- Fluxo: **Moderado.\n**- Data da última menstruação:** 20 dias atrás.\n**- Menarca:** Aos 12 anos.\n**- Sexarca: **Aos 14 anos.\n-** Papanicolau:** Fiz no ano passado e estava normal.\n\n**SE QUESTIONADO SOBRE DÚVIDAS:**\n- É realmente eficaz o DIU?\n- O uso do DIU tem algum efeito adverso?\n\n• Caso o(a) participante referir a necessidade de realizar **TOQUE VAGINAL**, diga:\n- CONSIDERE REALIZADO.\n\n• Caso o(a) participante solicite um **ULTRASSOM** ou ECOGRAFIA **TRANSVAGINAL**, diga:\n- CONSIDERE SOLICITADO.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "B-hCG sérico",
+      "conteudo": "**B-hCG sérico:** Negativo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Apresenta-se adequadamente;\n(2) Cumprimenta e identifica a paciente simulada, falando seu nome.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.250"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese ginecológica, perguntando:**\n(1) Data da última menstruação;\n(2) Dismenorreia;\n(3) Antecedentes de ITS;\n(4) Uso de preservativo;\n(5) Vida sexual;\n(6) Presença de corrimento vaginal ou secreção vaginal alterada.\n\n**Adequado:** Pergunta quatro ou mais itens.\n**Parcialmente adequado:** Pergunta dois ou três itens.\n**Inadequado:** Pergunta apenas um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.625",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita Beta-hCG para descartar gravidez antes da inserção do DIU.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "O DIU com cobre pode ser inserido em qualquer dia do ciclomenstrual (desde que excluída gravidez), no pós-parto ou pós-abortamento imediatos."
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza a necessidade da realização do consentimento informado pela paciente.**\n\n**Adequado: **Verbaliza/realiza consentimento.\n**Inadequado:** Não verbaliza/não realiza consentimento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita materiais necessários: **\n(1) Histerômetro;\n(2) Pinça de Pozzi;\n(3) Pinça Cheron (para antissepsia);\n(4) Espéculo (pode ser descartável);\n(5) Tesoura;\n(6) Pacote de gaze;\n(7) Luva de procedimento;\n(8) Luva estéril;\n(9) Foco de luz. \n\n**Adequado:** Verbaliza seis ou mais dos materiais necessários. \n**Parcialmente adequado:** Verbaliza de três a cinco dos materiais necessários.\n**Inadequado:** Solicita dois ou menos materiais ou nenhum material.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Os Instrumentos devem estar sob esterilização cirúrgica."
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Preparação para o procedimento:** \n(1) Explica o procedimento à paciente; \n(2) Coloca a paciente em posição ginecológica; \n(3) Realiza exame pélvico bimanual; \n(4) Higienização das mãos e paramentação; \n(5) Introdução do espéculo. \n\n**Adequado:** Realiza as cinco ações. \n**Parcialmente adequado:** Realiza três ou mais ações. \n**Inadequado:** Realiza apenas duas ou não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "A manipulação do colo e a passagem do dispositivo pelo orifício interno podem ser desconfortáveis para algumas mulheres. Algumas estratégias podem ser utilizadas, apesar de não terem eficácia científica comprovada, como a administração de anti-inflamatório não esteroide (AINE) por via oral para controle da dor antes da inserção do DIU."
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Realiza procedimentos de prevenção de infecções: **\n(1) Colocação de luvas estéreis; \n(2) Realiza a limpeza do colo do útero com um antisséptico à base de água (iodofórmio ou cloridrato de clorexidina).\n\n**Adequando: **Verbaliza ambas as ações. \n**Inadequado:** Realiza apenas uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Essa ação minimiza as chances de infecção uterina posterior à inserção do DIU."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Procedimento: **\n(1) Realiza o pinçamento do lábio anterior do colo com a pinça de Pozzi;\n(2) Faz a histerometria;\n(3) Introduz as hastes do DIU no condutor-guia de inserção;\n(4) Ajusta o condutor-guia no comprimento correspondente ao que foi medido pelo histerômetro;\n(5) Introduz o DIU com o condutor-guia, utilizando a mão dominante, até atingir o fundo uterino.\n\n**Adequado: **Verbaliza três ou mais ações. \n**Parcialmente adequado:** Verbaliza apenas duas ações. \n**Inadequado: **Verbaliza apenas uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Ajustes:** \n(1) Retire o êmbolo do condutor guia; \n(2) Retire o condutor guia;\n(3) Corte o fio do DIU, deixando 2 a 3 cm de fio para fora do útero; \n(4) Retire a pinça Pozzi;\n(5) Retire o espéculo.\n\n**Adequado: **Realiza ao menos quatro ações.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado: **Realiza apenas uma ou nenhuma das ações.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Manter a mulher deitada por cerca de quinze minutos após o procedimento pode reduzir o desconforto. O profissional de saúde deve se certificar de que ela está bem antes de sentá-la."
+    },
+    {
+      "idx": 10,
+      "descricao": "**10.Solicita USTV para verificação de técnica. **\n\n**Adequado: **Solicita.\n**inadequado: **Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Não é obrigatória a solicitação de ultrassom anteriormente e após a inserção do DIU com cobre; previamente à inserção, deverá ser realizada em casos selecionados (suspeição de má formação uterina ou para a investigação de sangramento uterino anormal sem diagnóstico). Se disponível, a ultrassonografia poderá ser solicitada para confirmação do bom posicionamento do DIU após a sua inserção. Também pode ser utilizada para identificar a presença do DIUquando não se observa o fio no cérvix ou nos casos de fio com comprimento mais longo que aquele registrado no momento da inserção."
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Informa que o DIU é um método contraceptivo altamente eficaz, com ótimo custo-benefício e disponibilizado gratuitamente pelo SUS.**\n\n**Adequado:** Informa.\n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "O DIU com cobre apresenta taxas de gravidez inferiores  a 0,4 % (ou 4 mulheres a cada 1000) no primeiro ano. Nos anos seguintes, a taxa anual de gravidez é ainda menor."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Informa sobre as principais reações adversas do DIU:**\n(1) Aumento do fluxo menstrual;\n(2) Aumento ou aparecimento transitório de cólicas menstruais. \n\n**Adequado:** Informa as duas reações.\n**Parcialmente adequado:** Informa apenas uma das reações. \n**Inadequado:** Não informa nenhuma das reações.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Tanto o aumento do sangramento quanto as cólicas uterinas podem ser manejados clinicamente. Entretanto, o desejo da mulher ou a persistência ou intensidade de sintomas que se tornem deletérios à saúde poderão indicar a retirada do DIU."
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Agenda consulta de seguimento após o**\n**próximo ciclo menstrual ou de 30 a 40 dias após a inserção.**\n\n**Adequado:** Agenda retorno com prazo adequado.\n**Parcialmente adequado:** Agenda retorno, mas não informa o prazo correto.\n**Inadequado:** Não agenda retorno.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Na consulta de retorno, deve-se visualizar o fio do DIU que foi deixado de maneira externa, para avaliar a correta localização do DIU nacavidade uterina. Caso o fio não seja localizado ou se apresente maior do que o deixado no momento da inserção, considerar a possibilidade de mal posicionamento ou expulsão parcial do DIU."
+    }
+  ]
+}

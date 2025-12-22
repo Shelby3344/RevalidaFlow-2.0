@@ -1,0 +1,211 @@
+{
+  "uid": 1656,
+  "hash": "51bac0838dd0b6d6dd5f79b41c2d0f75989e7dfdd43c520c21c021f11750d031-1758896365",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": null,
+  "color": "#ff4a64",
+  "checklist": "Hemorragia Puerperal - Híbrido",
+  "definicao": "A hemorragia pós-parto (HPP) é definida como perda sanguínea acima de 500 mL, após parto vaginal, ou acima de 1.000 mL, após a cesárea, em 24 horas, ou qualquer perda de sangue pelo trato genital capaz de causar instabilidade hemodinâmica.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "43.00",
+    "star": 0,
+    "time": 538,
+    "count": 358
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Atenção Secundária.\nTipo de Atendimento: Maternidade.\n\nA unidade possui a seguinte infraestrutura:\n- Consultórios para atendimento; e\n- Laboratório de análises clínicas.\n\nDESCRIÇÃO DO CASO\nVocê irá atender uma puérpera que teve parto normal há cerca de 15 horas, evoluindo com sangramento vaginal e rebaixamento do nível de consciência. No atendimento, contará com o apoio do enfermeiro Matheus.",
+  "tarefas": "- Realizar o exame físico da paciente; \n- Verbalizar a realização de procedimentos médicos, caso necessário;\n- Verbalizar e escrever o diagnóstico;\n- Solicitar exames complementares, caso necessário;\n-Orientar a puérpera sobre como proceder.",
+  "script_ator": "Matheus, técnico de enfermagem.\nVocê irá auxiliar o candidato na realização de tarefas:\n\n**DADOS PESSOAIS DA PACIENTE**\n- Dr(a), o nome dela é Nayara, 30 anos, casada.\n**- Paridade:** G4P2A2\n**- Comorbidades:** Ela desenvolveu hipertensão e diabetes gestacional.\n**- Controle pré-natal:** Dr(a), acho melhor fazermos alguma coisa; ela está muito pálida e não está respondendo Dr(a).\n\n-**SOBRE O PARTO**: \n- **Se pergunta sobre a realização de ocitocina 10 UI IM após o nascimento:** Sim, foi realizada.\n- **Se pergunta sobre a checagem da face materna e fetal da placenta e membranas:** Sim, foi realizada.\n\n-**Em algum momento da estação pergunte ao candidato:** Dr(a), por que isso está acontecendo? Qual a causa?\n-**Após o candidato responder, indague:** Quais os possíveis motivos para desenvolver esse quadro?\n\n**REAVALIAÇÃO: Após a indicação de MISOPROSTOL 800 µg, via retal, diga que o sangramento CESSOU. \n**Se não verbalizada a indicação dizer que não consta no script.**\n\n**INSTRUÇÕES AO EXAMINADOR/ENTREGA DE IMPRESSOS**:\n- Se o candidato verbalizar/solicitar avaliação do **TÔNUS UTERINO** liberar o **IMPRESSO 3.**\n-Se o candidato verbalizar/realizar **MANOBRA UTERINA**, liberar o **IMPRESSO 4.**\n-Se o candidato verbalizar o **DIAGNÓSTICO/HIPÓTESE DIAGNÓSTICA**, liberar o **IMPRESSO 5.*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais Vitais",
+      "conteudo": "**Pressão Arterial**: 90 x 70 mmHg.\n\n**Frequência Cardíaca**: 120 bpm.\n\n**Frequência Respiratória**: 25 irpm.\n\n**SatO2**: 98% AA.\n\n**Temperatura axilar** 36,7°.\n\n\n\n**É possível visualizar sangue extravasando pelo forro vaginal em grande quantidade, atingindo até a maca onde a paciente está deitada.**",
+      "imagem": "https://app.penserevalida.com/impressos/1234/1759007536.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Físico",
+      "conteudo": "** Estado Geral:**\n\nMal estado geral, hipocorada (+++/++++), hidratada, acianótica.\n\n\n\n**Ectoscopia:** \n\nPaciente com mucosas hipocoradas +++/++++.\n\n\n\n**Respiratório:** Sem alterações.\n\n**Cardiovascular:** Sem alterações.\n\n**Extremidades:** Ausência de edemas.",
+      "imagem": "https://app.penserevalida.com/impressos/1234/1759007536.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Tônus uterino",
+      "conteudo": "Útero encontra-se amolecido e acima da cicatriz umbilical.",
+      "imagem": "https://app.penserevalida.com/impressos/1234/1759007536.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Manobra Uterina",
+      "conteudo": "Olhe para câmera: Verbalize e escreva o **nome da manobra** que deverá ser realizada.",
+      "imagem": "https://app.penserevalida.com/impressos/1234/1758902654.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "Diagnóstico",
+      "conteudo": "Verbalize e escreva o **diagnóstico** de maneira completa.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1.**Apresentação: **\n(1) Apresenta-se; e \n(2) Paramenta-se com equipamento de proteção individual (EPI: luvas estéreis, gorro, máscara, roupa cirúrgica) ou, no mínimo, luvas. \n\n**Adequado:** Apresenta-se a paciente simulada e verbaliza a realização de paramentação. \n**Parcialmente adequado:** Realiza apenas uma das atividades. \n**Inadequado:** Não realiza nenhuma das atividades.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona:**\n(1) Realização da ocitocina 10 UI, IM, após o nascimento; e \n(2) Realização da checagem da face materna, face fetal da placenta e das membranas. \n\n**Adequado:** Realiza os dois questionamentos. \n**Parcialmente adequado:** Realiza apenas uma das atividades. \n**Inadequado: **Não realiza nenhuma das atividades.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Assim já podemos nos orientar em quanto a causa da hemorragia puerperal: atonia uterina e/ou retenção de tecido placentário."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Checa os 4 “Ts” (tônus, trauma, tecido, trombina). **\n\n**Adequado:** Verbaliza a checagem dos 4 \"Ts\" \n**Inadequado:** Não verbaliza a checagem dos 4 “Ts”",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "TÔNUS: Atonia uterina. 70%TRAUMA: Laceração, hematoma, inversão e rotura uterina. 19%TECIDO: Retenção de tecido placentário, coágulos e acretismo placentário. 10%TROMBINA: Coagulopatias e uso de coagulantes. 1%"
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita os sinais de instabilidade hemodinâmica: **\n (1) Pressão arterial; \n(2) Pulso; e\n(3) Perfusão periférica. \n\n**Adequado:** Realiza a checagem de dois ou três sinais de instabilidade hemodinâmica. \n**Inadequado:** Realiza a checagem de somente um sinal de instabilidade hemodinâmica ou não realiza nenhuma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Realiza o cálculo do índice de choque (IC): Frequência Cardíaca / pressão arterial sistólica e identifica choque. **\n\n**Adequado:** Realiza o calculo. \n**Inadequado:** Não realiza o cálculo.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": "Índice de choque > 1 = Necessidade de transfusão sanguíneaÍndice de choque > 1,4 = Necessidade de transfusão sanguínea maciça."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita a colocação do forro vaginal com o intuito de quantificar o sangramento pós-parto. **\n\n**Adequado:** Solicita a colocação do forro. \n**Inadequado:** Não solicita a colocação do forro.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Conduta**.\n(1) Verbaliza a necessidade de elevação de membros inferiores;\n(2) Solicita 2 acessos venosos periféricos calibrosos, com infusão de 2 litros de SF 0,9% ou RL;\n(3) Avalia resposta a cada 250/500 ml infundidos, solicita oxigênio com máscara facial (8 a 10 L/min); e \n(4) Solicita sondagem vesical de demora . \n\n**Adequado:** Realiza três ou quatro tarefas.\n**Parcialmente adequado: **Realiza ao menos duas tarefas. \n**Inadequado: **Realiza somente uma ou nenhuma tarefa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.50",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita coleta de exames:** \n(1) Hemograma; \n(2) Prova cruzada; \n(3) Coagulograma; \n(4) Fibrinogênio \n\n**Adequado:** Solicita a coleta dos quatro exames. \n**Parcialmente adequado:** Solicita a coleta de dois ou três exames. \n**Inadequado:** Solicita a coleta de um ou nenhum exame.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": "Pedir lactato e gasometria nos casos graves. O fibrinogênio é um preditor importante da gravidade da hemorragia, por isso, pode ser usado como critério para tomar medidas mais agressivas frente ao quadro."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza e descreve a manobra de compressão uterina:**                          **(Manobra de Hamilton) Posicionar uma mão no fundo uterino, por via abdominal, e a outra mão no fórnice vaginal anterior, comprimindo o útero entre as duas mãos com o objetivo de estimular a contração e controlar a hemorragia por atonia uterina.**\n\n**Adequado:** Verbaliza e escreve a manobra.\n**Parcialmente Adequado:** Verbaliza  ou escreve a manobra.\n**Inadequado:** Não verbaliza nem escreve a manobra; Ou verbaliza e/ou escreve manobra incorreta.\n\n**Obs.: O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.**",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.250",
+        "adequado": "0.750"
+      },
+      "dica_teorica": "Coloca-se uma mão no fundo uterino (externamente, sobre o abdome da paciente).  Com a outra mão, faz-se compressão bimanual interna: dois dedos introduzidos na vagina elevam o colo e comprimem o útero contra a mão abdominal.  O objetivo é comprimir o útero entre as mãos para reduzir o sangramento e estimular a contração uterina."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Indica tratamento medicamentoso inicial com:**\n(1) Ocitocina 5 UI, EV, lento;  e 500 ml de SF 0,9% com 20 UI de ocitocina, 250 ml/h;\n(2) Ácido tranexâmico 1 g, EV, lento em 10 minutos nas primeiras 3 horas.\n\n**Adequado:** Indica o início do tratamento com ocitocina e ácido tranexâmico.\n**Parcialmente adequado:** Indica o início do tratamento com ocitocina sem mencionar a necessidade do ácido tranexâmico.\n**Inadequado:** Não indica o início do tratamento com ocitocina.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **CONTRAINDICA**\nmetilergometrina em razão de distúrbio hipertensivo. \n\n**Adequado:** Contraindica o uso de metilergometrina. \n**Inadequado:** Não contraindica o uso de metilergometrina.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.80"
+      },
+      "dica_teorica": "A metilergometrina, quando indicada e na ausência de hipertensão, deve ser administrada na dose de 1 ampola (0,2 mg) por via intramuscular."
+    },
+    {
+      "idx": 12,
+      "descricao": "12.** Indica misoprostol 800 µg, via retal.**\n\n**Adequado:** Indica misoprostol na dose e via correta.\n**Parcialmente adequado:** Indica misoprostol sem indicar a dose ou via de administração; ou indica misoprostol com dose e/ou via incorreta.\n**Inadequado:** Não indica o uso de misoprostol.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Se não houver resposta ao misoprostol, o próximo passo é o tamponamento uterino (balão de Bakri ou sonda de Foley). Caso não haja sucesso, indica-se laparotomia com suturas hemostáticas (B-Lynch) ou ligadura da artéria uterina. Persistindo a falha, o último recurso é a histerectomia"
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Após estabilização, o participante indica cuidados intensivos na UTI**.\n\n**Adequado:** Verbaliza a necessidade de cuidados intensivos em UTI.\n**Inadequado:** Não verbaliza a necessidade de cuidados intensivos na UTI.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza e escreve o diagnóstico:**\n(1) Hemorragia pós-parto;\n(2) Atonia uterina. \n\n**Adequado:** Verbaliza e escreve ambos diagnósticos de maneira completa. \n**Parcialmente adequado:** Verbaliza Ou escreve o diagnóstico de Hemorragia pós-parto ou atonia uterina. \n**Inadequado:** Não verbaliza nem escreve diagnósticos Ou verbaliza e escreve diagnósticos incorretos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.750",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

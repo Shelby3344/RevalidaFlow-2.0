@@ -1,0 +1,187 @@
+{
+  "uid": 1578,
+  "hash": "9fe758e015abcfe5295e261f9629e57b81855baf244aa6de483b85cb2b14c3d2-1750548007",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Visita domiciliar + Hepatite A",
+  "definicao": "A visita domiciliar é uma estratégia utilizada na Atenção Primária à Saúde para facilitar o acesso aos serviços de saúde por pacientes que, por diversas razões, não conseguem ou não querem comparecer às unidades de saúde. Neste contexto, a visita domiciliar a um paciente com Hepatite A visa avaliar o estado de saúde do paciente, orientar sobre o manejo da doença e medidas preventivas para evitar a transmissão.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "37.50",
+    "star": 0,
+    "time": 559,
+    "count": 500
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento domiciliar.\n\n-A equipe de saúde é composta por um médico, um enfermeiro e um agente comunitário de saúde (ACS).\n\nDESCRIÇÃO DO CASO:\nVocê é médico em uma Unidade Básica de Saúde e está realizando uma visita domiciliar porque o ACS referiu que existe um paciente em sua área com febre, que não quer ir ao posto de saúde se consultar.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "- Acolher adequadamente a demanda do paciente;\n-Realizar a abordagem integral da pessoa em seu contexto;\n- Indicar exames complementários, se necessário;\n- Definir o diagnóstico clínico-epidemiológico;\n- Pactuar plano de cuidado com a paciente usando método clínico centrado na pessoa;\n- Avaliar a necessidade de adoção de outras medidas sanitárias.",
+  "script_ator": "**DADOS PESSOAIS:**\n-João Silva, 35 anos, casado, autônomo (trabalha com entregas).\n\n**MOTIVO DA CONSULTA:**\n-Dr(a), minha esposa insistiu para que eu recebesse vocês, pois estou com febre, cansaço e muita dor no corpo.\n\n**MOTIVO DE NÃO COMPARECER NA UBS:** Sem tempo de ir na consulta por conta do trabalho. \n\n**SOBRE A FEBRE**\n**Tempo de evolução:** Há cerca de sete dias.\n**Temperatura da febre:** 38,5 graus.\n**Horário do dia mais prevalente:** Não consegui perceber um padrão.\n**Calafrios ou sudorese:** Nega.\n\n**CARACTERÍSTICAS DA MIALGIA/DOR MUSCULAR: **\n**Tempo de evolução:** Cinco dias. \n**Localização:** Dói todo o meu corpo.\n**Intensidade:** É uma dorzinha moderada (5/10) mas que incomoda.\n**Tipo de dor:** Continua.\n**Irradiação:** Nega.\n**Fatores de melhora:** Nega. \n**Fatores de piora:** Nega.\n\n**CARACTERÍSTICAS DO CANSAÇO:**\n**Tempo de evolução:** Duas semanas. \n**Frequência:** O tempo inteiro.\n\n**FATORES DE MELHORA OU PIORA:** Nega.\n\n**EPISÓDIOS PRÉVIOS:** Nega.\n\n**SINTOMAS ASSOCIADOS:**\n**Mal-estar geral:** Sim.\n**Astenia ou Cansaço:** Sim.\n**Dor abdominal:** Discreta no lado direito superior.\n**Náuseas ou vômitos:** Sinto bastante náusea.\n**Icterícia ou pele amarelada:** Notei meus olhos mais amarelados.\n**Coluria ou urina escura: ** Sim, ficou mais escura tipo coca-cola.\n**Diarreia:** Sim. Desde que acordei já fui no banheiro 3 vezes.\n\n**EPIDEMIOLOGIA:**\n**Situação epidemiológica:** Dr(a), meu colega de trabalho, que almoça comigo todos os dias no mesmo bar, teve os mesmos sintomas e foi diagnosticado com hepatite A. Será que eu também estou com essa doença?\n**Viagens recentes:** Nega.\n**Tipo da casa:** Alvenaria.\n**Saneamento básico:** Presente.\n**Contato com água de enchente (OU água parada):** Nega.\n\n**ANTECEDENTES PESSOAIS: **\n**Comorbidades:** Nega. \n**Medicamentos: **Nega. \n**Cirurgias: **Nega. \n**Alergias: **Nega.\n**Cartão de vacina:** Completa.\n\n**HÁBITOS: **\n**Álcool:** Nega.\n**Cigarro:** Nega.\n**Drogas ilícitas: ** Nega.\n**Tatuagens ou compartilhamento de agulhas:** Nega.\n**Alimentação:** Realizo minha alimentação fora de casa devido ao trabalho, geralmente em bares populares e lanchonetes. \n\n**SE PERGUNTADO SOBRE VIDA SEXUAL: **\n**Ativa: **Sim, casado.\n**Uso de preservativo: ** Sempre uso.\n**Doenças de transmissão sexual ou tratamentos prévios: **Que eu saiba nunca tive.\n\n**ANTECEDENTES FAMILIARES: **\nNega.\n\n**Dúvidas:**\n**Pergunta 1:** Existe vacina para a prevenção dessa doença? Se sim, quem tem direito a tomá-la?\n**Pergunta 2:** O que posso fazer para não passar essa doença para minha família?\n\n**Após o candidato verbalizar que vai marcar uma data e hora certa para consulta na UBS, verbalizar:**\nCerto Dr(a), vou na consulta. Chegando lá, vou precisar fazer algum exame pra confirmar o que eu tenho?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais Vitais:**\n\n- **Pressão Arterial:** 120/80 mmHg\n\n- **Frequência Cardíaca:** 99 bpm\n\n- **Frequência Respiratória:** 16 ipm\n\n- **Temperatura:** 38,4 °C\n\n- **Saturação de Oxigênio:** 98% em ar ambiente\n\n\n\n**Estado geral:** \n\nPaciente em regular estado geral, febril, acianótico, ictérico 2+/4+, hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:** S\n\nem anormalidades.\n\n\n\n**Respiratório:**\n\n Sem anormalidades.\n\n\n\n**Abdominal:** \n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, doloroso à palpação em hipocôndrio direito, sem descompressão brusca dolorosa. Fígado palpável a 2 cm do rebordo costal. Baço não palpável. \n\n\n\n**Ausência de adenomegalias.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se;\n(3) Dirige-se ao paciente pelo nome durante a visita domiciliar;\n(4) Pergunta ao paciente se pode entrar na casa;\n(5) Solicita permissão para se sentar.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza três ou quatro itens.\n**Inadequado:** Realiza um, dois itens ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Empatia e postura:**\n(1) Estabelece contato visual;\n(2) Mantém uma postura empática ao longo da consulta.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta ativamente o paciente sem interrupções:**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Explica:**\n(1) O motivo da visita domiciliar; e,\n(2) Sobre a preocupação com a saúde do paciente.\n\n**Adequado:** Explica os dois itens.\n**Inadequado:** Explica um item ou não explica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Comportamento.**\n(1) Oferece confiança ao paciente simulado;\n(2) Não banaliza a condição clínica do paciente simulado;\n(3) Não julga o paciente simulado; e \n(4) Não manifesta atitude paternalista, punitiva ou condescendente em relação ao paciente simulado.\n\n**Adequado:** Realiza os quatro itens.\n**Parcialmente adequado:** Realiza dois ou três itens.\n**Inadequado:** Realiza apenas um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga as características do quadro apresentado: **\n(1) Tempo desde o início do quadro;\n(2) Progressão;\n(3) Fatores de melhora ou piora;\n(4) Uso de medicamentos recentemente;\n(5) Episódios anteriores.\n\n**Adequado:** Investiga os cinco itens.\n**Parcialmente adequado:** Investiga três ou quatro itens.\n**Inadequado:** Investiga um ou dois itens ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais:**\n(1) Sintomas gripais (tosse, expectoração, coriza, obstrução nasal);\n(2) Mialgia (OU dor muscular OU dor nos músculos);\n(3) Artralgia (OU dor articular);\n(4) Diarreia (OU alteração no aspecto das fezes);\n(5) Coluria (OU urina escura);\n(6) Icterícia (OU olho amarelo OU pele amarela);\n(6) Náuseas OU vômitos OU dor abdominal; e,\n(7) Queixas oftalmológicas (hiperemia OU conjuntivite).\n\n**Adequado:** Investiga cinco ou mais itens.\n**Parcialmente adequado:** Investiga três ou quatro itens.\n**Inadequado:** Investiga um ou dois itens ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga sobre antecedentes e queixas prévias**:\n(1) Doenças prévias (comorbidades) e uso de medicamentos;\n(2) Hábitos de vida (uso de drogas lícitas e ilícitas, atividade física);\n(3) Investiga a alimentação;\n(4) Viagens recentes;\n(5) Investiga outras pessoas com mesmo sintomas;\n(6) Cartão de vacina;\n(7) Vida sexual;\n(8) Tatuagens ou compartilhamento de agulhas.\n\n**Adequado:** Investiga sete ou mais itens.\n**Parcialmente adequado:** Investiga cinco ou seis itens.\n**Inadequado:**  Investiga quatro ou menos itens OU não investiga item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Indica sorologias:**\n(1) Hepatite A ou Anti-HAV IgM;\n(2) Hepatite B ou HBsAg;\n(3) Hepatite C ou Anti-HCV;\n(4) Teste rápido HIV;\n(5) Sífilis ou VDRL ou FTA-ABS;\n\n**Adequado:** Solicita quatro ou mais itens.\n**Parcialmente adequado:** Solicita dois ou três itens.\n**Inadequado:** Solicita um ou não solicita nenhum exame.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza a principal hipótese diagnóstica clínico-epidemiológica de Hepatite A aguda OU recente.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza a conduta terapêutica:**\n(1) Tratamento ambulatorial;\n(2) Inicia analgésicos OU antitérmico OU antiemético com cautela;\n(3) Acompanhamento clínico periódico.\n\n**Adequado:** Verbaliza os três itens.\n**Parcialmente adequado:** Verbaliza um ou dois itens.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "A hospitalização está indicada apenas nos casos de insuficiência hepática aguda"
+    },
+    {
+      "idx": 12,
+      "descricao": "14. **Verbaliza possíveis medidas de prevenção para a Hepatite A:**\n(1) Lavar as mãos (incluindo após o uso do sanitário, trocar fraldas e antes do preparo de alimentos);\n(2) Lavar com água tratada e clorada os alimentos que são consumidos crus, deixando-os de molho por 15 minutos;\n(3) Cozinhar bem os alimentos antes de consumi-los, principalmente mariscos, frutos do mar e peixes;\n(4) Lavar adequadamente pratos, copos, talheres e mamadeiras;\n(5) Usar instalações sanitárias;\n(6) No caso de creches, pré-escolas, lanchonetes, restaurantes e instituições fechadas, adotar medidas rigorosas de higiene, tais como a desinfecção de objetos, bancadas e chão utilizando hipoclorito de sódio a 2,5% ou água sanitária;\n(7) Não tomar banho ou brincar perto de valões, riachos, chafarizes, enchentes ou próximo de onde haja esgoto;\n(8) Evitar a construção de fossas próximas a poços e nascentes de rios;\n(9) Usar preservativos e higienização das mãos, genitália, períneo e região anal antes e após as relações sexuais.\n\n**Adequado:** Verbaliza cinco ou mais itens. \n**Parcialmente adequado:** Verbaliza de um a quatro itens.\n**Inadequado:** Não verbaliza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza a recomendação da vacina de Hepatite A:**\n(1) Crianças aos 15 meses de idade;\n(2) Pessoas com doenças hepáticas crônicas;\n(3) Pessoas com coagulopatias;\n(4) Pessoas com hemoglobinopatias;\n(5) Pessoas com asplenia anatômica ou funcional e doenças relacionadas que levam à diminuição da função do baço;\n(6) Pacientes com HIV/AIDS;\n(7) Pessoas em uso da Profilaxia Pré-Exposição ao HIV (PrEP);\n(8) Pessoas com fibrose cística;\n(9) Pessoas que vivem com imunodepressão terapêutica ou por doença imunodepressora;\n(10) Trissomias;\n(11) Doenças de depósito;\n(12) Candidatos a transplante de órgão sólido ou de células-tronco hematopoiéticas (TCTH), cadastrados em programas de transplantes; e,\n(13) Transplantados de órgão sólido ou de células-tronco hematopoiéticas.\n\n**Adequado:** Verbaliza cinco ou mais itens. \n**Parcialmente adequado:** Verbaliza de  um a quatro itens.\n**Inadequado:** Não verbaliza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Crianças: esquema de 1 dose aos 15 meses de idade. Populações e condições de saúde específicas: esquema de duas doses, com intervalo de 6 meses entre elas."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza:**\n(1) Questiona dúvidas ao paciente simulado;\n(2) Agradece ter sido recebido;\n(3) Convida o paciente a comparecer à unidade para poder melhor atender; e,\n(4) Marca um dia e horário para a consulta.\n\n**Adequado:** Verbaliza três ou mais itens.\n**Parcialmente adequado:** Verbaliza um ou dois itens.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "uid": 1375,
+  "hash": "aa564653-2eae-4b4b-ad17-74fc8d33571d",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Oclusão Arterial Aguda | INEP 2024.2",
+  "definicao": "A oclusão arterial aguda é a interrupção súbita do fluxo sanguíneo em uma artéria, geralmente causada por um êmbolo, trombo in situ ou trauma, levando à isquemia tecidual imediata e potencialmente grave. É uma emergência vascular que, se não tratada rapidamente, pode resultar em necrose do tecido, perda funcional do membro ou órgão afetado, e até óbito.",
+  "origem": 1,
+  "ano_da_prova": "20242",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "50.50",
+    "star": 0,
+    "time": 561.5,
+    "count": 4305
+  },
+  "cenario": "Nível de atenção: Atenção terciária à saúde – hospitalar.\nTipo de atendimento: rgência e emergência.\nA unidade apresenta a seguinte infraestrutura:\n- ultrassonografia, eletrocardiograma;\n- laboratório de análises clínicas;\n- centro cirúrgico. \n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.\n\nDESCRIÇÃO DO CASO:\nVocê vai atender um homem com 50 anos de idade que procura o serviço de emergência por apresentar dor na perna esquerda.",
+  "tarefas": "Nos 10 minutos de duração da estação você deverá realizar as seguintes tarefas:\n- Realizar a anamnese;\n- Solicitar e interpretar os exames físicos geral e específico;\n- Solicitar e interpretar os exames laboratoriais específicos;\n- Solicitar e interpretar os exames complementares específicos;\n- Identificar a causa do problema;\n- Orientar a conduta inicial mais indicada ao quadro clínico.",
+  "script_ator": "**DADOS PESSOAIS:**\nAntônio, tenho 50 anos, sou viúvo e trabalho como porteiro;\n\n**MOTIVO DE CONSULTA:**\nEstou com uma dor muito forte na perna.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**Tempo de evolução:** 2 horas;\n**Localização: ** Perna esquerda.\n**Irradiação:** Dói a perna inteira.\n**Progressão:** Dor repentina e só está piorando, nunca tive esses sintomas antes.\n**Intensidade:** Muito intensa, 10/10, é a pior dor que já senti na minha vida;\n**Característica:** Constante, tenho a sensação que algo aperta e queima a pele ao mesmo tempo, estou com medo de tocá-la.\n**Fatores de melhora e piora:** Piora quando eu levanto a perna e nada melhora.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**Alteração na temperatura da pele:** Sim, sinto a pele mais fria.\n**Palidez ou alteração na coloração da pele: **Sim, está mais pálida.\n**Parestesia ou formigamento: **Sim, formiga um pouco. \n**Palpitações: **ontem tive palpitações.\n**Movimentação do membro:** Normal, sem alterações.\n**Claudicação intermitente: **Não, nunca tive dor para caminhar.\nNega demais sintomas.\n\n**ANTECEDENTES PESSOAIS:**\n-  **Traumas ou lesões na perna:** Nega\n-  **Feridas anteriores, úlceras ou varizes nas pernas:** Nega\n- **Comorbidades:** Pressão alta e fibrilação atrial há alguns anos.\n- **Uso de medicamentos contínuos:** Não tomo nada Dr (a).\n- **Tabagismo:** Não fumo.\n-** Consumo de álcool**: Não bebo.\n- **Atividade física:** Regular.\n- **Alimentação:** Dieta: saudável.\n\n-Duvidas do paciente : “O que causou esse problema? \nO que precisa ser feito agora?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exams Físico Geral",
+      "conteudo": "- **Pressão Arterial: **160 × 90 mmHg.\n\n- **Frequência Cardíaca:** 110 batimentos por minuto.\n\n- **Frequência Respiratória:** 20 incursões respiratórias por minuto.\n\n- **Saturação de O2:** 96% em ar ambiente.\n\n- **Temperatura axilar:** 37°C.\n\n- **IMC: **24 kg/m².\n\n\n\n- Exame Geral: regular estado geral, corado, hidratado, afebril, anictérico, acianótico.\n\n\n\n- Exame de Tórax: murmúrio vesicular presente bilateralmente,sem ruídos adventícios.\n\n\n\n- Ritmo cardíaco irregular, sem sopros.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1735934842.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame de Membros Inferiores",
+      "conteudo": "- Membro inferior esquerdo: Pálido, frio ao toque, com diminuição do turgor cutâneo. Ausência de pulsos palpáveis nas artérias femoral, poplítea e pediosa. Sensibilidade tátil e dolorosa preservada. Força muscular diminuída no pé (4/5).\n\n- Membro inferior direito: sem alterações. Pulsos arteriais palpáveis.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1735934842.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames Laboratoriais",
+      "conteudo": "Exames Laboratoriais",
+      "imagem": "https://app.penserevalida.com/impressos/8/1735934865.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "ECG",
+      "conteudo": "**LAUDO:**\n\n- Ausência de ondas P. Complexos QRS normais, com intervalos R-R irregulares, sem padrão rítmico previsível.\n\n- Frequência ventricular de 120 batimentos por minuto.\n\n- Não há evidência de bloqueio de ramo ou outras anormalidades significativas nos complexos QRS.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Ultrassom Doppler de Membros Inferiores",
+      "conteudo": "- Artéria Femoral Comum (Esquerda): artéria com paredes lisas e presença de obstrução no seu terço distal.\n\n- Artéria femoral Profunda (Esquerda): com fluxo lentificado.\n\n- Artéria Femoral Superficial, poplítea, tibial anterior e posterior \n\n (Esquerda): ausência de fluxo ao Doppler.\n\n- Artérias do Membro Inferior Direito: fluxo normal em todas as artérias examinadas.\n\n\n\n**IMPRESSÃO DIAGNÓSTICA:**\n\n- Ausência de fluxo distal na perna esquerda. Membro inferior direito sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) identifica-se; e,\n(2) pergunta o nome e cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:**Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta características da dor:**\n(1) início e/ou duração;\n(2) tipo/ característica\n(3) localização e irradiação;\n(4) intensidade;\n(5) fatores agravantes/ de piora\n(6) fatores atenuantes. de melhora\n(7) episódios prévios de dor no membro acometido\n\n**Adequado:** Pergunta as cinco a sete características.\n**Parcialmente adequado:** Pergunta três ou quatro características.\n**Inadequado:** Pergunta uma ou duas características OU não pergunta característica alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. ** Questiona a presença dos seguintes sintomas associados no\nMIE:**\n(1) palidez ou alteração da cor do membro \n(2) frialdade (poiquilotermia) ou alteração de temperatura;\n(3) parestesia/formigamento / alteração da sensibilidade\n(4) alteração de mobilidade ou dificuldade para caminhar\n(5) edema.\n\n**Adequado:** Questiona quatro ou mais sintomas.\n**Parcialmente adequado: ** Questiona  dois ou três sintomas.\n**Inadequado:** Questiona  apenas um sintoma OU não investiga sintoma algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre antecedentes e queixas prévias:**\n(1) palpitações ou doenças cardíacas \n(2) histórico de trauma e/ou lesão em pele;\n(3) histórico de claudicação;\n(4) doenças prévias (comorbidades) e uso de medicamentos;\n(5) hábitos de vida (uso de drogas lícitas e ilícitas, atividade física).\n\n**Adequado:** Pergunta quatro ou mais antecedentes.\n**Parcialmente adequado:** Pergunta três antecedentes.\n**Inadequado:** Pergunta dois ou menos OU não investiga antecedente algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Verbaliza hipótese diagnóstica de oclusão/obstrução ou\ninterrupção arterial aguda do membro inferior esquerdo:**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. ** Solicita os exames laboratoriais:**\n(1) hemograma completo;\n(2) coagulograma completo ou fatores de coagulação;\n(3) função renal (creatinina e ureia);\n(4) marcadores de lesão celular (CPK e  mioglobina\n\n\n**Adequado: ** Solicita os quatro enxames \n**Parcialmente adequado:** Solicita ao menos três exames.\n**Inadequado: ** Solicita dois ou menos  OU não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita ECG ou ecocardiograma:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita algum dos seguintes exames de imagem de MI:**\n(1) arteriografia;\n(2) angiotomografia;\n(3) USG Doppler;\n(4) angioressonância magnetica.\n\n**Adequado:** Solicita qualquer um dos exames listados.\n**Inadequado:** Não solicita nenhum dos exames citados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Identifica corretamente a causa (etiologia) como sendo\nsecundária a embolia de origem cardíaca (fibrilação atrial):**\n\n**Adequado:** Identifica como sendo secundária a embolia de origem cardíaca (Fibrilação atrial).\n**Parcialmente adequado:** Identifica como sendo por uma embolia arterial (sem especificar o coração/Fibrilação atrial) OU devido Fibrilação atrial (sem especificar a embolia).\n**Inadequado:** Não identifica a causa (etiologia) ou identifica de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10.  **Indica o uso imediato de terapia Anticoagulante ou anticoagulaçao:**\n\n(1) com heparina\n(2) por via endovenosa \n(3) com início imediato após o diagnóstico \n\n\n**Adequado:** Indica os três itens \n**Parcialmente adequado:**  Indica dois itens ,obrigatoriamente o item 1 \n**Inadequado:** Indica somente 1 item ou não indica nenhum",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11.  **Orienta o manejo adequado do membro afetado:**\n\n(1) evitar a elevação do membro (manter em declive) ou manter repouso ;\n(2) proteção térmica do membro (“aquecer” o membro com\nfaixa e algodão ortopédico); e\n(3) controle da dor;\n\n**Adequado: ** Orienta os três manejos.\n**Parcialmente adequado:**  Orienta dois manejos.\n**Inadequado:** Orienta apenas um OU não orienta manejo algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Orienta encaminhamento imediato ou urgente para cirurgia\nvascular/angiologista ou  para intervenção endovascular:**\n\n**Adequado:** Orienta o encaminhamento.\n**Inadequado:** Não orienta o encaminhamento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

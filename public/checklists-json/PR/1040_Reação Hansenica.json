@@ -1,0 +1,215 @@
+{
+  "uid": 1040,
+  "hash": "T3_tSagd9mSHt-EqZ2vsVXXP",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Reação Hansenica",
+  "definicao": "As reações hansênicas são fenômenos de aumento da atividade da doença, com piora clínica que podem ocorrer de forma aguda antes, durante ou após o final do tratamento com a poliquimioterapia. Pacientes com carga bacilar mais alta (virchowianos) geralmente apresentam reações de início mais tardio, ou seja, no final ou logo após o término da PQT.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "46.50",
+    "star": 0,
+    "time": 517,
+    "count": 3586
+  },
+  "cenario": "Nível de atenção: Unidade de atenção primária à saúde.\nTipo de atendimento: Ambulatorial.\n\nA unidade apresenta a seguinte infraestrutura:\n- Sala de atenção médica;\n- Sala de medicação;\n- E-multi.\n\nDescrição do caso:\nVicê irá atender à uma paciente que busca atenção médica por quadro lesões dolorosas no tronco.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal da paciente;\n- Solicitar e interpretar exame físico;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Solicitar exames complementares, se necessário;\n- Propor conduta terapêutica e dar orientações à paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Angelica, 34 anos, solteira, comerciante.\n\n**MOTIVO DE CONSULTA:** \n- Dr(a), estou muito preocupada pois estão saindo feridas na minha pele, muito dolorosas e vermelhas. \n\n**DETALHES DO MOTIVO DE CONSULTA:**\n**-Tempo de evolução das lesões:**  Faz 1 semana.\n**-Local das lesões:**  Região de tronco e barriga. \n**-Dor no local das lesões:**  Sim, sinto bastante dor, não só na zona da lesão, mas parece que essa dor corre pelo meu corpo. \n**-Lesões prévias:**  Sim, eu tinha lesões antes, mas eu fiz o tratamento certinho. Inclusive, terminei tem 3 anos e estava tudo bem. \n**-Tratamento prévio realizado:**  Eu me tratei para hanseníase, mas essas lesões são diferentes das que eu tinha antes. \n**-Tipo de hanseníase:**  Eu lembro que era multibacilar. \n**-Focos infecciosos:** A única coisa que me vem na cabeça foi uma dor de dente muito forte que tive, e fiz um tratamento odontológico há alguns dias. \n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n**- Doenças crônicas:**  Tenho diabetes tipo 1.\n**- Métodos anticonceptivos:** Tomo pílula todos os dias. \n**- Contato com pacientes com hanseníase:**  Não mais, a minha mãe foi diagnosticada junto comigo, mas ela também fez o tratamento certo e foi curada. \n\n**CASO O CANDIDATO ABRA PARA DÚVIDAS, QUESTIONAR:**\n- Dr(a), o que está acontecendo comigo? Eu não estou curada?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 120x80 mmHg\n\n- **Frequência cardíaca:** 80 batimentos por minuto\n\n- **Frequência respiratória:** 16 incursões por minuto\n\n- **Saturação de O2:** 99%\n\n- **Temperatura axilar:** 36,4° C\n\n\n\n**Estado Geral:** paciente em bom estado geral, orientada em tempo, espaço e pessoa, corada, hidratada, acianótica e anictérica.\n\n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas; ausência de sopros.\n\n\n\n**Respiratório:** ausculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699327437.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia ",
+      "conteudo": "",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta a paciente simulada;\n(2) Identifica-se;\n(3) Dirige-se à paciente simulada pelo nome, pelo menos uma vez;\n(4) Pergunta sobre o motivo da consulta;\n(5) Ouve com atenção o relato inicial da paciente.\n\n**Adequado:** Realiza as cinco ações.\n**Parcialmente adequado:** Realiza quatro, três ou duas ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Contato visual e linguagem não verbal:**\n(1) Estabelece contato visual;\n(2) Mantém linguagem não verbal adequada.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma das ações.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta, ao longo da consulta, a fala da paciente simulada sem interrompê-la.**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza a ação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Age com postura empática.**\n(1) Compartilha confiança com a paciente simulada;\n(2) Não banaliza / naturaliza / desacredita / miniminiza o adoecimento / sofrimento da paciente simulada;\n(3) Não julga a paciente simulada.\n\n**Adequado:** Realiza os três itens.\n**Parcialmente adequado:** Realiza dois itens.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga sobre o motivo de consulta.**\n(1) Tempo de evolução do sintoma;\n(2) Local das lesões;\n(3) Lesões prévias.\n\n**Adequado:** Investiga os três itens.\n**Parcialmente adequado:** Investiga ao menos dois itens.\n**Inadequado:** Investiga somente um item ou não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7.** Investiga possíveis focos infecciosos.**\n\n**Adequado:** Investiga.\n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga contato com pacientes com hanseníase. **\n\n**Adequado:** Investiga.\n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga os antecedentes pessoais da paciente. **\n(1) Doenças crônicas;\n(2) Uso crônico de medicações;\n(3) Alergias;\n(4) Uso de métodos anticonceptivos ou desejo de engravidar.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga de dois a três itens.\n**Inadequado:** Investiga somente um item ou não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10.** Solicita exame físico geral e ectoscopia. **\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita avaliação sensitivo-motora. **\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Informa o diagnóstico de Reação Hansênica tipo 1. **\n\n**Adequado:** Informa.\n**Inadequado:** Não informa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "Suspeitar de reação hansênica tipo 1 se ocorrerem, sem mal estado geral do paciente, os seguintes sinais e sintomas:• as lesões de pele da hanseníase se tornarem mais avermelhadas e inchadas; e/ou• os nervos periféricos ficarem mais dolorosos; e/ou• houver piora dos sinais neurológicos de perda de sensibilidade ou perda de função muscular; e/ou• as mãos e pés ficarem inchados; e/ou• houver surgimento abrupto de novas lesões de pele até 5 anos após a alta medicamentosa"
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Realiza conduta terapêutica adequada:**\n(1) Prednisona 1 mg/kg/dia via oral;\n(2) Amitriptilina 25 mg por dia;\n(3) Clorpromazina 5 gotas (5 mg) duas vezes ao dia.\n\n**Adequado:** Prescreve as três medicações nas doses e intervalos corretos.\n**Parcialmente adequado:** Prescreve as três medicações sem indicar as doses e intervalos ou indica doses e intervalos incorretos.\n**Inadequado:** Não prescreve as três medicações.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Prescreve profilaxia para Strongiloydes stercoralis com albendazol 400 mg/dia durante 3 a 5 dias consecutivos, ou ivermectina.**\n\n**Adequado:** Prescreve.\n**Inadequado:** Não prescreve.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Solicita retorno mensal. **\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Responde a paciente simulada que quadros de Reações Hansênicas podem surgir frente a focos de infecção.**\n\n**Adequado:** Responde a paciente simulada sobre o possível desencadeante de sua reação hansênica. \n**Inadequado:** Não responde a paciente simulada sobre o possível desencadeante de sua reação hansênica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "É recomendável realizar o exame odontológico nos pacientes, pois focos infecciosos podem ser possíveis desencadeantes das reações hansênicas. É ainda importante atentar para infecções assintomáticas como, por exemplo, do trato urinário em idosos."
+    }
+  ]
+}

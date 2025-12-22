@@ -1,0 +1,210 @@
+{
+  "uid": 1678,
+  "hash": "30cc1fa6858db67cf3a96885f922a78836f74fe1f5230eff64c4e0c26892431e-1759526165",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Pediculose - Híbrido",
+  "definicao": "A pediculose do couro cabeludo é causada pelo Pediculus humanus, variedade capitis, mais frequente em crianças de 3 a 11 anos, principalmente no período escolar, mais comum nas meninas pelo hábito destas terem cabelos longos e contato mais próximo umas com as outras6. A transmissão ocorre pelo contato direto com pessoas, e são diagnosticados milhões de casos anualmente.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "42.00",
+    "star": 0,
+    "time": 540.5,
+    "count": 153
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nDescrição do caso: \nVocê irá atender uma criança do sexo feminino de 6 anos de idade, acompanhada pela mãe em demanda espontânea, com a queixa de que a filha coça muito a cabeça.",
+  "tarefas": "-Realizar a anamnese dirigida ao motivo de consulta ;\n-Solicitar exame físico detalhado;\n-Solicitar exames complementares, se julgar necessário;\n-Interpretar os exames apresentados e verbalizar seus achados;\n-Estabelecer o diagnóstico inicial e responder aos questionamentos da mãe;\n- Verbalizar o agente etiológico e seu meio de transmissão;\n-Verbalizar e escrever a conduta terapêutica indicada;\n- Citar 4 diagnósticos diferenciais.",
+  "script_ator": "**DADOS DA MÃE**:\n- Roseli, 25 anos, engenheira, casada.\n\n**DADOS DA CRIANÇA**:\n- Maria Luisa de 6 anos. \n\n**MOTIVO DE CONSULTA**:\n- Doutora, trouxe minha filha aqui hoje porque notei que ela está coçando muito a cabeça e está extremamente irritada.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n**-Início:** Notei que foi depois que ela iniciou na escola.\n**-Duração:** Faz 2 semanas.\n**-Localização:** Couro cabeludo.\n**-Episódios anteriores:** Nunca teve isso antes.\n**-Outras pessoas com os mesmos sinais:** Sim, todos em casa estão com essa coceira insuportável.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Náusea:** Nega.\n**-Febre:** Nega.\n**-Vômitos:** Nega.\n**-Lesões cutâneas:** Nega.\n\n**ANTECEDENTES PESSOAIS:**\n**-Doenças:** Nega.\n**-Alergias:** Nega.\n**-Cirurgias:** Nega.\n**-Internações:** Nega.\n\n**DIURESE E CATARSE**:\n- Normal.\n\n**CADERNETA DE SAÚDE DA CRIANÇA**: \n- Não trouxe, mas todas as vacinas estão em dia.\n\n**DÚVIDAS**:\n**-Pergunta 1:** Como minha filha pegou isso?\n**-Pergunta 2:** Ela vai ter que ficar afastada da escola?\n\nSe questionado **OUTRAS PERGUNTAS**, responda:\n- Não consta no SCRIPT.\n\n**IMPRESSOS:**\n**PRESCRIÇÃO MÉDICA:** Quando o candidato mencionar a necessidade de uso de medicação, liberar o impresso.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**\n\n**- Pressão arterial:** 106x68 mmHg.\n\n**- Frequência cardíaca:** 98 batimentos por minuto.\n\n**- Frequência respiratória:** 16 incursões por minuto.\n\n**- Saturação de O2:** 99%.\n\n**- Temperatura axilar: **36.4° C.\n\n\n\n**Estado Geral:** \n\nPaciente em bom estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico. Criança apresentando coceira na cabeça e região retro auricular durante a realização do exame. Não se observa lesões de pele. \n\n\n\n**Oroscopia:**\n\nSem alterações.\n\n\n\n**Otoscopia:**\n\nSem alterações.\n\n\n\n**Rinoscopia:**\n\nSem alterações.\n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** \n\nAusculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:**\n\nAbdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1759525734.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DO COURO CABELUDO",
+      "conteudo": "**OLHE PARA A CAMERA E VERBALIZE O NOME DO ACHADO.**",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1759527748.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "PRESCRIÇÃO MÉDICA / RECEITUÁRIO",
+      "conteudo": "**REALIZE O PREENCHIMENTO COMPLETO DO RECEITUARIO. **\n\n\n\n**VERBALIZE E PRESCREVA DE FORMA LEGÍVEL OS INSUMOS INDICADOS PARA O QUADRO DO PACIENTE.**\n\n\n\n**LOGO APÓS, MOSTRE PARA CÂMERA.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome do mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre motivo de consulta:**\n(1) Início;\n(2) Localização;\n(3) Duração;\n(4) Primeiro episódio.\n\n**Adequado:** Pergunta três ou quatro itens.\n**Parcialmente adequado:** Pergunta dois itens.\n**Inadequado:** Pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre sintomas acompanhantes:**\n(1) Náuseas;\n(2) Febre;\n(3) Vômitos.\n\n**Adequado:** Pergunta três itens.\n**Parcialmente adequado:** Pergunta dois itens.\n**Inadequado:** Pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona sobre:**\n(1) Antecedentes pessoais;\n(2) Alergias;\n(3) Uso de medicações.\n\n**Adequado:** Questiona os três itens.\n**Parcialmente adequado:** Questiona dois itens.\n**Inadequado:** Questiona um item ou não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Questiona sobre:**\n(1) Frequência em escolas;\n(2) Contatos com outros casos.\n\n**Adequado:** Questiona os dois itens.\n**Inadequado:** Questiona um item ou não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita caderneta de saúde da criança.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita:**\n(1) Exame físico;\n(2) Ectoscopia do couro cabeludo OU inspeção de couro cabeludo.\n\n**Adequado:** Solicita os dois itens.\n**Inadequado:** Solicita um item ou não solicita item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza presença de lêndeas aderidas ao cabelo.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza o diagnóstico de Pediculose.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza:**\n(1) Agente causador: Pediculus humanus.\n(2) Forma de transmissão: Contato direto.\n\n**Adequado:** Verbaliza os dois itens\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza diagnósticos diferenciais: **\n(1) Molde pilar;\n(2) Pitiríase capitis;\n(3) Piodermite do couro cabeludo;\n(4) Fungos (piedra);\n(5) Dermatite seborreica;\n(6) Psoríase.\n\n**Adequado:** Verbaliza de quatro a seis itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza e preenche adequadamente o receituário médico:**\n(1) Permetrina 1%;\n(2) Deve-se aplicar o produto nos cabelos após lavagem com shampoo quando o mesmo estiver quase seco deixar o produto agir por 10 minutos e enxaguar com água morna;\n(3) Não lavar o cabelo pelas próximas 24 -48h após a aplicação do produto.;\n(4) Repetir a ação no nono dia; \n(5) Deve-se fazer a retirada manual das lêndeas, com pente fino, a cada 2 a 3 dias, até a sua completa remoção;\n(6) Evitar o uso de condicionador pois esse pode diminuir o efeito.\n\n**Adequado:** Verbaliza e preenche cinco ou seis itens adequadamente, sendo obrigatório o item (1).\n**Parcialmente adequado:**  Verbaliza e/ou preenche três ou quatro itens adequadamente, sendo obrigatório o item (1).\n**Inadequado:** Verbaliza e/ou preenche dois ou menos itens OU não verbaliza  e nem preenche o item (1).\n\n **Obs.:** O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza e preenche adequadamente o receituário médico.\n(1) Identificação do paciente;\n(6) Data, assinatura e carimbo.\n\n**Adequado:** Verbaliza e preenche os dois itens.\n**Inadequado:** Verbaliza e/ou preenche somente um item OU  item algum.\n\n **Obs.:** O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera*",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza orientações à mãe:**\n(1) Avaliar diariamente a cabeça da criança na procura de piolhos e lêndeas;\n(2) Orientar os pais para que comuniquem à escola;\n(3) Não há medicação preventiva, assim como repelentes;\n(4) Ter cuidado com fórmulas caseiras, pois podem causar intoxicação e lesões.\n\n**Adequado:** Verbaliza os quatro itens.\n**Parcialmente adequado:** Verbaliza dois ou três itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Orienta que a criança não deve ser afastada da escola.**\n\n**Adequado:** Orienta.\n**Inadequado:** Não orienta ou orienta o afastamento da escola.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

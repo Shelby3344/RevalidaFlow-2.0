@@ -1,0 +1,256 @@
+{
+  "uid": 1229,
+  "hash": "NljX-jxDRW88nIfbBJDocgOV",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Anemia Ferropriva",
+  "definicao": "A anemia por deficiência de ferro, chamada de ferropriva, é a anemia mais comum entre as manifestações da doença, sendo responsável por 90% dos casos. No Brasil, esse é um problema nutricional recorrente e que atinge, principalmente, crianças, mulheres em idade fértil e gestantes.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "55.00",
+    "star": 0,
+    "time": 487.5,
+    "count": 8245
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n- Consultórios para atendimento;\n- Sala para observação clínica.\n\nDescrição do caso:\nVocê realizará o atendimento a uma criança de 5 anos, que vive na zona rural acompanhado por sua mãe.",
+  "tarefas": "- Realizar a anamnese dirigida à mãe;\n-Solicitar exame físico detalhado, citando o que necessita avaliar;\n-Solicitar exames complementares, se julgar necessário;\n-Interpretar os exames apresentados e verbalizar seus achados;\n- Verbalizar o diagnóstico da criança e sua causa; \n- Verbalizar a conduta terapêutica completa;\n- Responder aos possíveis questionamentos da mãe.",
+  "script_ator": "**DADOS DA MÃE:** \n- Mariana, 33 anos, casada, trabalha no campo, 4 filhos. \n\n**DADOS DA CRIANÇA:** \n- Leandro, 5 anos.\n\n**MOTIVO DE CONSULTA: **\n- Dr(a), eu trouxe meu filho, porque ele está muito fraquinho. Ele não tá comendo direito, as unhas dele estão quebrando e o cabelo caindo.\n\n**SOBRE O MOTIVO DA CONSULTA:**\n**-Início:** Faz aproximadamente 2 meses.\n**-Geofagia/hábitos de comer algo diferente:** Sim Dr(a), as vezes ele come terra, telha, lambe as paredes.\n**-Falta de apetite:** Ele está comendo bem menos, já tem uns dois ou três meses.\n**-Desânimo e fraqueza:** Ele não tem vontade de fazer nada.\n**-Palidez:** Sim, ele está mais pálido.\n\nSINAIS E SINTOMAS ASSOCIADOS:\n**-Dor abdominal, diarreia, manchas no corpo e sangramentos:** Não, dr(a), não observei nada disso.\n**- Cefaleia:** Ele queixa de dor de cabeça às vezes.\n\n**ALIMENTAÇÃO:** \n- Então, quando ele era bem pequeninho, ele comia bem, tomava leite e comia carne, mas, nos últimos dois meses, ele tá comendo pouco.\n\n**SUPLEMENTAÇÕES ALIMENTARES:** \n- Somos da roça, não levamos ele em consultas, então ele nunca tomou nenhuma vitamina.\n\n**ANTECEDENTES PERINATAIS E PATOLÓGICOS:** \n- Nunca teve nenhum problema. Ele sempre foi muito saudável.\n\n**CRESCIMENTO E DESENVOLVIMENTO:** \n- Nunca teve nenhum problema, dr(a). Tem sido normal.\n\n**CONDIÇÕES DA CASA: **\n- Nossa casa tem três quartos, temos água potável e banheiro.\n\n**CONDIÇÕES SOCIOECONÔMICAS: **\n- Nós trabalhamos no campo, vendemos legumes na feira da cidade e não temos renda fixa.\n\n**DÚVIDAS: **\n**- Pergunta 1: **Por que acontece isso?\n\n**OUTRAS PERGUNTAS:** \n- Não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": " EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**\n\n**PA:** (adequada para idade).\n\n**FC:** 128 bpm.\n\n**FR:** 29 rpm.\n\n**SatO2:** 99% (ar ambiente).\n\n**Temperatura:** 35.9°C.\n\n\n\n**Exame físico geral:** BEG, hidratado, hipocorado +++/4+, acianótico, anictérico, consciente, pupilas isocóricas e fotorreativas, sem hiperemia ocular.\n\n\n\n**Ausculta pulmonar:** MV presente, simétrico, sem ruídos adventícios.\n\n\n\n**Ausculta cardíaca:** BCRNF com sopro sistólico funcional, bem perfundida, pulsos fortes, extremidades quentes.\n\n\n\n**Abdome:** flácido, sem sinais de irritação peritoneal, sem massas ou visceromegalias, e ruídos hidroaéreos presentes.\n\n\n\n**Membros:** sem lesões ou edemas, Ausência de adenomegalias.\n\n\n\n**OLHE PARA A CAMERA E VERBALIZE O NOME DO ACHADO.**",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1755118553.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "OROSCOPIA",
+      "conteudo": "**OLHE PARA A CAMERA E VERBALIZE O NOME DO ACHADO.**",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1755118598.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "OROSCOPIA",
+      "conteudo": "**OLHE PARA A CAMERA E VERBALIZE O NOME DO ACHADO.**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ANTROPOMETRIA",
+      "conteudo": "**- Peso: **(Score Z: entre -2 e -3);\n\n**- Estatura: **(Score Z: -1);\n\n**- IMC: **(Score Z: entre -2 e -3);\n\n**- Perímetro Cefálico: **(Score Z: +1).",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAMES COMPLEMENTARES",
+      "conteudo": "**HEMOGRAMA:**\n\n\n\n**Hemoglobina:** 8.7 (Ref. 12-16);\n\n**Hematócrito:** 18 (Ref. 36-48);\n\n**VCM:** 68 (Ref. 80-100);\n\n**HCM:** 19 (Ref. 28-34);\n\n**RDW:** 19 (Ref. 11-14);\n\n**Reticulócitos:** 0.3% (Ref. 0.5-1.8%);\n\n**Plaquetas:** 153.000 (Ref. 150.000-450.000);\n\n\n\n**Leucócitos:** 9.500 (Ref. 3.700-10.000);",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "CINÉTICA DO FERRO / PERFIL DO FERRO",
+      "conteudo": "**PERFIL DO FERRO:**\n\n**Ferro sérico:** 48 (Ref. 75-150);\n\n**Ferritina sérica:** 14 (Ref. 23-336);\n\n**Saturação de transferrina:** 13% (Ref. 20-50%);\n\n**Transferrina:** 500 (Ref. 215-365);\n\n**TIBC:** 402 (Ref. 250-360);",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "PARASITOLÓGICO DE FEZES",
+      "conteudo": "Negativo para helmintos e protozoários;",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Apresenta-se à mãe simulada.\n(2) Pergunta o nome da mãe e da criança.\n(3) Mantenha contato visual na apresentação.\n\n**Adequado:** Realiza os três itens corretamente.\n**Parcialmente adequado:** Realiza dois itens corretamente.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona sobre o motivo da consulta:**\n(1) Início;\n(2) Geofagia/hábitos de comer algo diferente;\n(3) Falta de apetite;\n(4) Desânimo e fraqueza;\n(5) Palidez.\n\n**Adequado:** Questiona quatro ou cinco itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre sintomas associados:**\n(1) Sangramentos;\n(2) Dor abdominal;\n(3) Náuseas ou vômitos;\n(4) Diarreia;\n(5) Anorexia;\n(6) Lesões na pele;\n(7) Cefaleia.\n\n**Adequado:** Questiona de quatro a sete itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona sobre:**\n(1) Alimentação;\n(2) Aleitamento materno;\n(3) Antecedentes de suplementações na infância.\n\n**Adequado:** Questiona os três itens.\n**Parcialmente adequado:** Questiona dois itens.\n**Inadequado:** Questiona um item ou não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga**\n(1) Condições socioeconômicas;\n(2) Condições de domicílio.\n\n**Adequado:** Investiga os dois itens\n**Parcialmente adequado:** Investiga um item.\n**Inadequado:** Não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga**\n(1) Antecedentes patológicos;\n(2) Alergias;\n(3) Uso de medicações crônicas.\n\n**Adequado:** Investiga os três itens\n**Parcialmente adequado:** Investiga dois item.\n**Inadequado:** Investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita:**\n(1) Caderneta de vacina;\n(2) Caderneta da criança.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita:**\n(1) Exame físico;\n(2) Oroscopia;\n(3) Ectoscopia de pele e mucosas;\n(4) Dados antropométricos.\n\n**Adequado:** Solicita três ou quatro itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita um item ou não solicita item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza as alterações do exame físico:**\n(1) Hipocorado;\n(2) Taquicárdico;\n(3) Sopro sistólico;\n(4) Baixo peso.\n\n**Adequado:** Verbaliza três ou quatro itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza as alterações do exame físico:**\n(1) Coiloníquia ou unhas côncavas;\n(2) Queilite angular;\n(3) Glossite atrófica.\n\n**Adequado:** Verbaliza os três itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita:**\n(1) Hemograma;\n(2) Cinética do ferro OU Perfil do ferro;\n(3) Parasitológico de fezes em 3 amostras.\n\n**Adequado:** Solicita os três itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita um item ou não solicita item algum.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza alterações nos exames laboratoriais:**\n(1) Anemia microcítica;\n(2) Hipocrômica;\n(3) Hipoproliferativa OU diminuição dos reticulócitos;\n(4) RDW aumentado OU anisocitose.\n\n**Adequado:** Verbaliza os três ou quatro itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Não solicita exame de imagem.**\n\n**Adequado:** Não solicita. \n**Inadequado:** Solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza o diagnóstico de anemia ferropriva por deficiência de ferro.**\n\n**Adequado:** Verbaliza o diagnóstico e sua causa.\n**Parcialmente adequado:** Verbaliza somente o diagnóstico.\n**Inadequado:** Não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Verbaliza a conduta:**\n(1) Indica tratamento com ferro elementar;\n(2) Dose de 3 a 6 mg de ferro elementar/kg/dia;\n(3) de três a seis meses OU até reposição dos estoques corporais confirmados pela normalização da ferritina.\n\n**Adequado:** Verbaliza os três itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "A terapia com ferro pode aumentar a virulência da malária e de certas bactérias gram negativas, particularmente em países em desenvolvimento. A super dosagem de ferro está associada à infecção por Yersinia. Exatamente por isso não se deve fazer uso de forma continua indiscriminada e sem acompanhamento médico.*"
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Orienta mudanças no comportamento alimentar.**\n\n**Adequado:** Orienta. \n**Inadequado:** Não orienta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Além da terapia com ferro, em geral o aconselhamento dietético é necessário. A ingestão excessiva de leite, especialmente o leite de vaca, deve ser limitada."
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Verbaliza necessidade de acompanhamento:**\n(1) Retorno para acompanhamento com hemograma; \n(2) após 30 a 45 dias do início do tratamento.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um itens.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A medicação com ferro deve ser continuada por 2 a 3 meses após os valores sanguíneos normalizarem para restabelecer as reservas de ferro."
+    }
+  ]
+}

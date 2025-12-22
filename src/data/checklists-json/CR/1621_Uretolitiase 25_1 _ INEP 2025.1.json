@@ -1,0 +1,161 @@
+{
+  "uid": 1621,
+  "hash": "64bacec380124b664ad6aa9b0d5be7a9c64d18f445b313f9e2bccea90e52f3a1-1753980039",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Uretolitiase 25/1 | INEP 2025.1",
+  "definicao": "Urolitiase",
+  "origem": 1,
+  "ano_da_prova": "20251",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "69.50",
+    "star": 0,
+    "time": 569,
+    "count": 1508
+  },
+  "cenario": "Nível de atenção: terciária.\n Tipo de atendimento: urgência e emergência.\n - A unidade apresenta a seguinte infraestrutura:  \n- Setor de radiologia;\n - Laboratório de análises clínicas; \n- Centro cirúrgico.\n\nDiscrição do caso:\n Você atenderá uma mulher de 24 anos que apresenta dor em abdome.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as seguintes tarefas:\n realizar anamnese;\n  Solicitar e interpretar exame físico;\n  Solicitar e interpretar exames complementares pertinentes ao caso;\n  Formular e verbalizar a hipótese diagnóstica definitiva;\n  Orientar o plano terapêutico mais indicado ao quadro clínico.",
+  "script_ator": "**DADOS PESSOAIS**\nMariana, 24 anos, estudante e solteira.\n\n**SOBRE O MOTIVO DA CONSULTA:**\nDr.(a) estou com muita dor abdominal.\n\n**SOBRE A DOR ABDOMINAL:**\n- **Tempo de inicio:** 24 horas.\n-**Localização:** O lado direito da barriga.\n-**Irradiação:** Irradiando para a virilha e para a parte.\ninterna da coxa.\n- **Tipo:**A dor é como uma cólica.\n-**Intensidade:** Nota 9 de 10.\n-**Fatores agravantes:** Não consegue se mexer, nem ficar parada, devido à intensidade da dor.\n-**Fatores atenuantes:** Tomei dipirona mas não melhorou.\n- Episodio anteriores: Já sentir antes , só que mais leve.\n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n-**Náuseas:** Sim.\n-**Vômitos:** Nega.\n-**Febre:** Nega.\n-**Corrimento vaginal:** Nega.\n-**Presença de sangramento na urina:** Notou  sangue na urina quando a dor começou;\n-**Alteração  no cheiro da urina:** Nega.\n- **Dor ao urinar:** Sim, dói  bastante.\n\n**ANTECEDENTES GINECOLOGICOS:**\n-**Data da ultima menstruação:** Foi há 7 dias.\n-**Antecedentes de infecções sexualmente transmissíveis:**  Nega.\n- **Uso de preservativos:** Sim, Dr.(a) Uso com parceiro fixo.\n\n**ANTECEDENTES PESSOAIS**\n-**Tabagismo:** Nega.\n-**Etilismo:** Nega.\n-**Uso de drogas:** Nega.\n-**Doenças crônicas:** Nega.\n-  **Uso de medicamentos:** Nega.\n\n**Ingesta de agua:** Bebo pouca agua, devido a correria da faculdade.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "",
+      "imagem": "https://app.penserevalida.com/impressos/155/1753987279.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "",
+      "imagem": "https://app.penserevalida.com/impressos/155/1753987358.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "TOMOGRAFIA DE ABDOME SEM CONTRASTE",
+      "conteudo": "",
+      "imagem": "https://app.penserevalida.com/impressos/155/1753987434.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "ULTRASSOM DE ABDOME",
+      "conteudo": "",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1.  **Apresentação:**\n(1) Identifica-se; \n(2) Pergunta o nome e cumprimenta a paciente simulada.\n\n **Adequado:** Realiza as duas ações.\n **Parcialmente adequado:** Realiza apenas uma ação.\n **Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2.   **Pergunta sobre características da dor:**\n (1) Tempo de início ou duração;\n (2) Localização;\n (3) Irradiação ou migração;\n (4) Tipo;\n (5) intensidade; \n (6) Fatores agravantes ou de piora;\n (7) Fatores atenuantes ou de melhora.\n\n **Adequado:** Pergunta sobre cinco ou mais itens.\n **Parcialmente adequado:** Pergunta  sobre três ou quatro itens.\n **Inadequado:** Pergunta sobre dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3.  **Pergunta sobre manifestações associadas relevantes para o \nestabelecimento do diagnóstico:**\n (1) Náuseas e(ou) vômitos;\n (2) Febre;\n (3) Disúria;\n (4) Polaciuria;\n (5) Urgência urinária;\n (6) Hematúria;\n\n **Adequado:** Pergunta os quatro itens.\n **Parcialmente adequado:** Pergunta  dois ou três itens.\n **Inadequado:** Não pergunta ou pergunta apenas um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4.  **Pergunta sobre queixas e antecedentes ginecológicos:**\n (1) Corrimento vaginal;\n (2) Histórico de IST;\n (3) Atividade sexual desprotegida ou número de parceiros sexuais;\n (4) Data da última menstruação.\n\n **Adequado:** Pergunta os quatro itens.\n ** Parcialmente adequado:** investiga três itens.\n **Inadequado:** investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita os exames laboratoriais:**\n (1) Hemograma;\n (2) PCR e(ou) VHS;\n (3) Creatinina e(ou) ureia;\n (4) Sódio e(ou) potássio;\n (5) Rotina de urina / sumário de urina / urina tipo 1 ou urocultura;\n (6) Beta-HCG.\n\n **Adequado:** Solicita cinco ou seis itens.\n **Parcialmente adequado:** Solicita quatro itens.\n **Inadequado:** Solicita três ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exames de imagem:**\n (1) Tomografia computadorizada / tomografia de abdome com/\n sem contraste ou tomografia computadorizada / tomografia / TC \nde rins e vias urinárias;\n (2) Ultrassom/USG/ecografia de abdome ou ultrassom/USG/\n ecografia de rins e vias urinárias;\n\n **Adequado:** Solicita ambos os itens ou solicita apenas o item 1.\n **Parcialmente adequado:** Solicita apenas o item 2 ou solicita \napenas “tomografia com contraste”.\n **Inadequado:** Não solicita nenhum dos itens",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Define hipótese diagnóstica:**\n ureterolitíase/ litíase urinária/ urolitiase/ uropatia obstrutiva por cálculo.\n\n **Adequado:** Define.\n **Inadequado:** Não define.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8.  **Indica analgesia com anti-inflamatórios não esteroidais ou \nopioides ou dipirona (observação: serão considerados os nomes genéricos \ndas medicações):**\n\n **Adequado:** Indica analgesia e específica a droga ou a classe medicamentosa.\n**Parcialmente adequado:** Indica analgesia , sem especificar a droga ou a classe medicamentosa.\n **Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza:**\n(1) Encaminha, em caráter de urgência, para avaliação de \nespecialista em urologia;\n(2) Ou prescreve terapia expulsiva medicamentosa.\n\n **Adequado:** Realiza os itens  1 e/ ou 2.\n**Inadequado:** Não realiza nenhum dos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "01"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Fornece orientações para prevenção de novos episódios:**\n (1) Aumento da ingesta hídrica;\n (2) Baixa ingesta de sódio;( ultraprocessados embutidos;\n (3) Baixa ingesta de oxalato de cálcio (café; chá preto; chocolate; \nCoca-Cola etc.);\n (4) Manutenção do índice de massa corporal em valores normais.\n dieta balanceada , atividade física.\n\n**Adequado:** Orienta três ou quatro itens.\n **Parcialmente adequado:** Orienta apenas dois itens.\n **Inadequado:** Não orienta ou orienta apenas um item",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

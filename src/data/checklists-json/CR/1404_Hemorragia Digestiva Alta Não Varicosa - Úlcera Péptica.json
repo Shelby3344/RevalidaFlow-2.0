@@ -1,0 +1,172 @@
+{
+  "uid": 1404,
+  "hash": "a8cf33cf-431e-475d-b9ca-7f9c6951f23d",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Hemorragia Digestiva Alta Não Varicosa - Úlcera Péptica",
+  "definicao": "A Hemorragia Digestiva Alta Não Varicosa é uma condição médica caracterizada por sangramento no trato gastrointestinal superior, frequentemente devido a úlceras pépticas. As úlceras ocorrem quando o revestimento do estômago ou duodeno é danificado, muitas vezes por medicamentos anti-inflamatórios não esteroides (AINEs), como o diclofenac e ibuprofeno.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "59.50",
+    "star": "4.8",
+    "time": 573.5,
+    "count": 2697
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Secundária - Pronto Atendimento Cirúrgico.\nA unidade possui:\n- Laboratório de análises clínicas;\n- Radiografia convencional;\n- Setor de endoscopia digestiva;\n- Leitos de observação.\n\nDescrição do caso:\nHomem de 52 anos é admitido no pronto atendimento queixando-se de hematêmese.",
+  "tarefas": "1. Realizar anamnese completa do paciente;\n2. Solicitar e interpretar exame físico;\n3. Estabelecer e comunicar a hipótese diagnóstica e fatores associados predisponentes (mínimo 2) antes da solicitação de exames complementares;\n4. Solicitar exames complementares pertinentes;\n5. Verbalizar diagnósticos diferenciais (mínimo 3);\n6. Propor conduta terapêutica e orientações gerais;",
+  "script_ator": "**DADOS PESSOAIS:**\n- Nome: João Pedro da Silva, 52 anos, advogado, casado.\n\n**MOTIVO DE CONSULTA:**\n- Dr.(a), comecei a vomitar sangue.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**Tempo de evolução:** começou há 4 horas.\n**Quantidade e frequência:** 2 vezes até agora.\n**Características do vômito:** sangue vermelho vivo.\n**Fatores desencadeantes:** não identifiquei nenhum.\n**Fatores atenuantes:** não encontrei nada que aliviasse.\n**Episódios anteriores:** nega.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**Alteração na coloração das fezes:** sim, começaram a escurecer há uns 10 dias já, foi piorando e hoje estão escuras e muito fedidas.\n**Náuseas:** sim.\n**Sudorese:** sim.\n**Tontura:** sim.\n**Dor abdominal:** sim, leve sensação de queimação na boca do estômago.\n**Perda de peso**: nega;\n\n**ANTECEDENTES PESSOAIS E HÁBITOS:**\n**Comorbidades:** hipertensão arterial, gastrite, já tive infeção por H. pylori há 2 anos, mas tratei e melhorei.\n**Uso de medicamentos contínuos:** hidroclorotiazida, anlodipino.\n**Uso de medicação atual:** estou tomando diclofenaco e cetoprofeno há uns 20 dias para dor nas costas, tomo 2 comprimidos de 8 em 8 horas.\n**Alergias:** nega.\n**Cirurgias:** nega.\n**Tabagismo:** fumo 1 maço por dia.\n**Etilismo:**eu bebo 3 vezes por semana, umas 2-3 latinhas de cerveja só.\n**Alimentação:** balanceada.\n**Atividade física:** não pratico.\n**Trabalho:** eu tenho um escritório de advocacia, ando bastante estressado.\n\n**ANTECEDENTES FAMILIARES:**\nNega doenças familiares.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 110/70 mmHg\n\n- **Frequência cardíaca:** 115 batimentos por minuto\n\n- **Saturação de O2:** 95%\n\n- **Temperatura axilar:** 36.5°C\n\n- **Frequência respiratória:** 20 incursões por minuto\n\n\n\n**Estado Geral:** paciente pálido, em moderado estado geral, orientado em tempo, espaço e pessoa, hidratado, acianótico e anictérico.\n\n\n\n**Cardiovascular:** sem alterações.\n\n**Respiratório:** sem alterações.\n\n\n\n**Abdominal:** abdome plano, doloroso à palpação epigástrica, sem massa palpável, RHA presentes, timpânico à percussão.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Endoscopia Digestiva Alta",
+      "conteudo": "Úlcera gástrica com bordos elevados, presença de sangramento em porejamento (babando).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames laboratoriais",
+      "conteudo": "**Hemograma**:\n\nHemácias: 4,2 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\nHemoglobina: 12,1 g/dl (Valor de referência: 13 a 16 mg/dl)\n\nHematócrito: 37%(Valor de referência: 39 - 52%)\n\n\n\n**Leucograma:**\n\nLeucócitos: 6.200/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\nNeutrófilos: 65% (Valor de referência: 40 - 70%)\n\nBastões: 2% (Valor de referência: 0 - 5%)\n\nLinfócitos: 25% (Valor de referência: 20 - 50%)\n\nBasófilos: 0% (Valor de referência: 0 - 2%) \n\nEosinófilos: 0% (Valor de referência: 0 - 6%)\n\nMonócitos: 3% (Valor de referência: 4 - 8%)\n\n\n\n**Plaquetas**: 220.000/mm3 (Valor de referência: 150.000-450.000/mm3)\n\n**Glicemia**: 100 mg/dl (70 - 110 mg/dl)\n\n\n\n**Creatinina**: 0,9 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia**: 37 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**Amilase:** 88 UI/L (Valor de referência: 60 - 180 mg/dl)\n\n**Lipase:** 72UI/L (Valor de referência: 0 - 160 mg/dl)\n\n**TGO:** 22 UI/L (Valor de referência: 0 – 35 U/l)\n\n**TGP:** 25 UI/L (Valor de referência: 0-35 U/l)\n\n\n\n**Sódio**: 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l) \n\n\n\n**Grupo e fator sanguíneo:** A +\n\n\n\n**INR/RIN:** 1,1 (valor de referência: 0,8-1,2).",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Toque Retal",
+      "conteudo": "Presença de fezes escuras fétidas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. (1) Identifica-se e (2) cumprimenta o paciente.\n\n**Adequado:** realiza ambos.\n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. Questiona sobre o motivo de consulta (hematêmese): (1) Tempo de início; (2) Características dos vômitos;  (3) Frequência; (4) Fatores desencadeantes e atenuantes; (5) Episódios anteriores.\n\n**Adequado:** pergunta 4 ou 5 itens.\n**Parcialmente adequado:** pergunta 3 itens.\n**Inadequado:** pergunta 2 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. Questiona sobre sinais e sintomas acompanhantes: (1) Náuseas; (2) Sudorese; (3) Tontura; (4) Dor abdominal; (5) Alterações nas características das fezes; (6) Febre; (7) Perda de peso.\n\n**Adequado:** pergunta 6 ou mais itens.\n**Parcialmente adequado:** pergunta 5 itens.\n**Inadequado:** pergunta 4,3, 2, 1 ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. Pergunta sobre antecedentes pessoais: (1) comorbidades; (2) uso de medicamentos contínuos; (3) uso de medicamentos recentes/atuais ou ingesta de aines recente; (4) consumo de álcool; (5) tabagismo; \n\n**Adequado:** pergunta 4 ou mais itens..\n**Parcialmente adequado:** pergunta 3 ou 2 itens.\n**Inadequado:** pergunta 1 ou 0 itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. Solicita toque retal.\n\n**Adequado:** solicita.\n**Inadequado:** não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. Verbaliza hipótese diagnóstica antes da solicitação da EDA e fatores associados predisponentes:\n(1) Hemorragia digestiva alta não varicosa OU HDA por úlcera péptica;\n(2) Uso de aines ou anti inflamatórios.\n(3) Tabagismo;\n(4) Estresse;\n(5) Consumo de álcool;\n(6) Infecção por H. pylori;\n(7) Gastrite;\n\n**Adequado:** verbaliza a hipótese antes da solicitação da EDA e 3 ou mais fatores associados predisponentes.\n**Parcialmente adequado:** verbaliza a hipótese antes da solicitação da EDA e 2 ou mais fatores associados predisponentes.\n**Inadequado:** não verbaliza a hipótese antes da EDA e/ou verbaliza 1 ou 0 itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames Complementares de imagem: **\n (1) Solicita Endoscopia digestiva alta (EDA);\n\n**Adequado:** solicita a EDA.\n**Inadequado:** não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. Interpreta corretamente o resultado endoscópico como úlcera péptica com Forrest IB.\n\n**Adequado:** interpreta corretamente.\n**Inadequado:** não interpreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. Propõe tratamento inicial: \n(1) Internação; (2) Dieta zero; (3) Hidratação parenteral; (4) Analgesia; (5) Antieméticos; (6) IBP em alta dose por via intravenosa; \n\n**Adequado:** propõe 5 itens, sendo o (6) obrigatório.\n**Parcialmente adequado:** propõe 3 itens, sendo o (6) obrigatório.\n**Inadequado:** não propõe o (6) ou propões 2 ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.55",
+        "adequado": "1.65"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. Orienta sobre mudanças no estilo de vida: (1) Suspensão imediata de Aines; (2) Cessar tabagismo; (3) Reduzir consumo de álcool; (4) Adotar dieta equilibrada.\n\n**Adequado:** orienta todos.\n**Parcialmente adequado:** orienta dois.\n**Inadequado:** orienta um ou nenhum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. Verbaliza diagnósticos diferenciais: (1) Hemorragia digestiva varicosa ou varizes esofágicas ou hipertensão portal; (2) Mallory Weiss; (3) Gastrite; (4) Duodenite; (5) Hemorragia digestiva baixa; (6) Neoplasia gástrica; (7) Pseudo-hematêmese; (8) Neoplasia colorretal; (9) Diverticulite; \n\n**Adequado:** verbaliza ao menos 3.\n**Inadequado:** não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

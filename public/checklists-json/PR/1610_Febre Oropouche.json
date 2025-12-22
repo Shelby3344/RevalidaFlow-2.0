@@ -1,0 +1,216 @@
+{
+  "uid": 1610,
+  "hash": "50e0b79471063de5bc91dd53ef03adbd2c4a1d9a1a7753a32199ede79e3340fc-1752504658",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Febre Oropouche",
+  "definicao": "O Oropouche é uma doença causada por um arbovírus (vírus transmitido por artrópodes) do gênero Orthobunyavirus, da família Peribunyaviridae. O Orthobunyavirus oropoucheense (OROV) foi isolado pela primeira vez no Brasil em 1960, a partir de amostra de sangue de uma bicho-preguiça (Bradypus tridactylus) capturada durante a construção da rodovia Belém-Brasília. Desde então, casos isolados e surtos foram relatados no Brasil, principalmente nos estados da região Amazônica. Também já foram relatados casos e surtos em outros países das Américas Central e do Sul.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "64.50",
+    "star": 0,
+    "time": 581,
+    "count": 927
+  },
+  "cenario": "Nível de atenção:  Atenção primária à saúde - Comunidade ribeirinha.\nTipo de atendimento: Atendimento ambulatorial.\n- Unidade básica de saúde (UBS).\n\nA unidade apresenta a seguinte infraestrutura:\n- Consultórios médicos;\n- Laboratório de análises clínicas;\n-Salas de procedimentos;\n- Leito de observação;\n- Ambulância para transporte do paciente.\n\nDESCRIÇÃO DO CASO:\nVocê está em uma unidade básica de saúde e irá atender um paciente de 30 anos com queixa de febre e cefaleia há 6 dias.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar a anamnese direcionada à queixa principal do paciente;\n- Solicitar exames físicos necessários à avaliação do caso;\n- Solicitar exames complementares, se necessário;\n- Verbalizar o diagnóstico e ao menos quatro (4) diagnósticos diferenciais;\n-Pactuar plano de cuidado com o paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Pedro, 30 anos, solteiro.\n\n**PROCEDÊNCIA:** \n- Eu moro em uma comunidade ribeirinha em Santarém, no Pará. \n\n**MOTIVO DE CONSULTA**:\n- Estou tendo febre e dor de cabeça há 6 dias.\n\n**CARACTERÍSTICAS DA CEFALEIA:**\n**- Localização:** Dói na cabeça toda.\n**-Intensidade:** Muito forte, dói demais!\n**- Outras características:** não consta no script.\n\n**CARACTERÍSTICAS DA FEBRE:**\n**- Aferida:** Sim, deu temperaturas de até 39.5 °C.\n**-Progressão:** Foi muito engraçado Dr (a), pois eu comecei com febre, dor de cabeça há 6 dias, depois de uns 3-4 dias eu comecei a melhorar, a febre parou, achei que ia me curar, mas hoje os sintomas voltaram com tudo, inclusive a febre. \n\n**SINTOMAS ACOMPANHANTES:**\n**- Dor do corpo:** Sim, dói muito o meu corpo inteiro.\n**- Fraqueza:** Sim.\n**- Cansaço:** Sim.\n**- Falta de apetite:** Não tenho vontade de comer nada esses dias.\n**-Exantema:** Nega.\n**-Conjuntivite:** Nega.\n**-Sangramentos:** Nega.\n**- Outros sintomas perguntados:** Não consta no script.\n\n**SE PERGUNTADO POR USO DE MEDICAÇÕES DE ALÍVIO:**\n- Tomei ibuprofeno, mas em pouco tempo a febre e a dor voltam.\n\n**FATORES DE MELHORA/PIORA:**\n- Nega.\n\n**CONTATOS COM SINTOMAS SIMILARES:**\n- Bastante Dr (a), eu sou ribeirinha né, perto do rio, estamos tendo bastante casos assim na nossa comunidade.\n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças:** Nega.\n**- Medicamentos/ vitaminas:** Nega.\n**- Alergias:** Nega. \n**- Cirurgias:** Nega.\n\n**HÁBITOS TÓXICOS:**\n**- Álcool:** Nega.\n**- Drogas:** Nega. \n**- Cigarro:** Nega. \n\n**VIAGENS RECENTES:**\n- Nega.\n\n** CONTATO COM ÁGUA DE ENCHENTE, RATO, CAPIVARA OU CARRAPATO:**\n- Nega.\n\n**ANTECEDENTES FAMILIARES:**\n- Meu pai tem a pressão alta.\n\n**DÚVIDAS:**\n**1) Após o exame físico:** O que eu tenho Dr (a)?\n**2) Após o diagnóstico:** Nossa, nunca ouvi falar nisso Dr (a), como que isso é transmitido?\n**3) Quais complicações eu posso ter?\n**3) Após o tratamento:** E agora o que eu tenho que fazer para não ter isso de novo**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**SINAIS VITAIS:**\n\n- Frequência Cardíaca: 104 batimentos por minuto.\n\n- Frequência Respiratória: 20 incursões respiratórias por minuto.\n\n- Pressão Arterial: 120 × 80 mmHg.\n\n- Saturação de Oxigênio em ar ambiente: 99%.\n\n- Temperatura Axilar: 39ºC.\n\n\n\n\n\n**EXAME CLÍNICO:**\n\n\n\nBom estado geral, corado, hidratado, febril, sem alterações cutâneas.\n\n\n\nExames físicos cardiovascular, respiratório, abdominal, neurológico e exame físico de extremidades: Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Teste rápido/Sorologias",
+      "conteudo": "**DENGUE:** Negativo.\n\n**ZIKA:** Negativo.\n\n**CHIKUNGUNYA:** Negativo.\n\n**OROPOUCHE:** Positivo.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames Laboratoriais",
+      "conteudo": "**Hemoglobina (Hb)**: 14,5 g/dL (Valor de referência: 13,0 – 17,0 g/dL)\n\n**Hematócrito (Hct):** 41,5 % (Valor de referência: 38 – 50%)\n\n**Leucócitos:** 4.800 mm³ (Valor de referência: 5.000 – 10.000/mm³)\n\n**Plaquetas:** 180.000 mm³ (Valor de referência: 150.000 – 400.000/mm³)\n\n**Creatinina** 1,0 mg/dL (Valor de referência: 0,7 – 1,3 mg/dL)\n\n**Ureia:** 45 mg/dL (Valor de referência: 10 – 50 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Prova do Laço",
+      "conteudo": "Negativa.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se; e,\n(3) Dirige-se a ele pelo nome, pelo menos uma vez.\n\n**Adequado:** Realiza as três itens.\n**Parcialmente adequado:** Realiza dois itens.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Demonstra empatia com o paciente:**\n(1) Estabelece contato visual; e,\n(2) Mantém postura atenta e interessada ao longo da consulta.\n\n**Adequado:** Realiza dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta ativamente a fala do paciente, sem interrompê-lo.**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com o paciente simulado, evitando termos técnicos de difícil compreensão.**\n\n**Adequado: **Utiliza linguagem acessível.\n**Inadequado:** Não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga sobre a história epidemiológica do paciente:**\n(1) Contato com animais ou insetos;\n(2) Familiares ou vizinhos com os mesmos sintomas;\n(3) Procedência; e,\n(4) Viagens recentes;\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga três itens.\n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais:**\n(1) Sintomas gripais (tosse, expectoração, coriza, obstrução nasal);\n(2) Mialgia; (OU dor muscular OU dor nos músculos).\n(3) Artralgia; (OU dor articular);\n(4) Diarreia;(OU alteração no aspecto das fezes);\n(5) Náuseas;\n(6) Queixas oftalmológicas(hiperemia ou conjuntivite); e, \n(7) Icterícia (OU olho amarelo OU pele amarela).\n\n**Adequado:** Investiga cinco ou mais itens.\n**Parcialmente adequado:**Investiga  quatro ou três itens. \n**Inadequado:** Investiga dois, um ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.55",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta sobre:**\n(1) Fatores de melhora; e,\n(2) Fatores de piora.\n\n**Adequado:** Pergunta os dois itens.\n**Parcialmente adequado:** Pergunta apenas um item. \n**Inadequado:** Não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Pergunta sobre a história patológica pregressa:**\n(1) Comorbidades;\n(2) Medicações; e,\n(3) Alergias.\n\n**Adequado:** Pergunta os três itens.\n**Parcialmente adequado:** Pergunta um ou dois itens. \n**Inadequado:** Não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza o diagnóstico de Febre Oropouche**.\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10.**Indica o tratamento adequado:**\n(1) Repouso relativo;\n(2) Tratamento sintomático e/ou analgésicos e/ou antitérmicos.\n(3) Seguimento ambulatorial e/ou retorno.\n\n**Adequado:** Indica dois ou mais  itens.\n**Parcialmente adequado:** Indica um item.\n**Inadequado:** Não indica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Cita diagnósticos diferenciais:**\n(1) Dengue;\n(2) Zika;\n(3) Chikungunya;\n(4) Febre Amarela;\n(5) Leptospirose;\n(6) Malária.\n\n**Adequado:** Cita quatro ou mais itens.\n**Inadequado:** Não cita ou cita menos de quatro itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Cita complicações do quadro:**\n(1) Meningite viral;\n(2) Meningoencefalite; e,\n(3) Artalgias persistentes ou prolongadas.\n\n**Adequado:** Cita dois ou mais itens.\n**Inadequado:** Cita um item ou não cita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza práticas preventivas:**\n(1) Usar roupas que protejam a pele e/ou manga comprida;\n(2) Usar repelente diariamente;\n(3) Uso de telas de malha fina em portas e janelas;\n(4) Evitar água parada;\n(5) Cuidar do externo da casa e/ou evitar lixo e/ou mato no quintal;\n(6) Limpeza de terrenos e de locais de criação de animais; e,\n(7) Evitar, se possível, o contato com áreas de ocorrência e/ou minimizar a exposição às picadas dos vetores.\n\n**Adequado:** Verbaliza quatro ou mais itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Notifica o caso ao SINAN**.\n\n**Adequado:** Notifica ao SINAN.\n**Inadequado:** Não notifica ao SINAN.\n\nObs: não será considerado somente a palavra \"NOTIFICA\" ou \"NOTIFICO O CASO\".",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Verbaliza que a doença é transmitida por meio:**\n(1) Um inseto/mosquito denominado Culicoides paraensis e/ou maruim; e,\n(2) Através do vírus Orthobunyavirus oropoucheense.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "uid": 1288,
+  "hash": "_EezTjb0AyrNHKIZKnubCXAR2FPEV",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Pseudo Crise Hipertensiva",
+  "definicao": "A crise hipertensiva é definida por um aumento súbito na pressão arterial sistêmica, definido por valores ≥ 180x120. Classicamente se divide em emergência e urgência hipertensiva. Outra situação se denomina pseudo crise hipertensiva.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "63.00",
+    "star": 0,
+    "time": 558.5,
+    "count": 4604
+  },
+  "cenario": "Nível de atenção: Unidade de atenção secundária à saúde.\nTipo de atendimento: Urgência e Emergência.\n\nA unidade apresenta a seguinte infraestrutura:\n- Consultórios de atenção médica;\n- Enfermaria;\n- Laboratório de análises clinicas;\n- Serviço de radiologia convencional.\n\nDescrição do caso: \nVocê é o médico de uma UPA (Unidade de Pronto Atendimento) e recebe um paciente trazido pelos filhos com queixa de dor de cabeça e náuseas. Os familiares referem que ao começar a sentir a dor, aferiram sua pressão e estava em 160x100 mmHg. Os familiares e o paciente estão angustiados com medo de acontecer algo grave.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar e interpretar o exame físico; \n- Solicitar exames complementares, se necessário; \n- Verbalizar a hipótese diagnóstica; \n- Propor conduta terapêutica e esclarecer as dúvidas do paciente, se houver.",
+  "script_ator": "**DADOS PESSOAIS: **\n- João, 57 anos, vendedor.\n\n**MOTIVO DE CONSULTA: **\n- Me trouxeram porque estou com a pressão muito alta e com dor de cabeça.\n\n**CARACTERÍSTICAS DA CEFALEIA: **\n**- Tempo de evolução: **Ela iniciou há umas 5 horas. \n**- Localização: **Dói toda a cabeça. \n**- Intensidade: **Moderada (6/10). \n**- Tipo de dor: **Sensação de aperto.\n**- Irradiação: **Não muda de lugar.\n**- Fatores de melhora/ piora: **Sem fatores de melhora ou piora.\n**- Episódios anteriores: **Às vezes tenho dor de cabeça como essa. \n\n**SINTOMAS ACOMPANHANTES: **\n- Somente náuseas.\n\n**SE PERGUNTADO POR FATORES DESENCADEANTES: **\n- Hoje de manhã briguei com minha esposa, ela saiu de casa e disse que não vai voltar. Depois disso fiquei muito angustiado e começou a dor de cabeça. \n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Não tenho nenhum problema de saúde.\n**- Medicamentos: **Nega.\n**- Alergias: **Nega.\n**- Cirurgia: **Fiz uma cirurgia de hernia inguinal há 5 anos.\n\n**HÁBITOS: **\n**- Cigarro: **1 maço por dia. \n**- Álcool: **Uma lata de cerveja por dia.\n**- Drogas ilícitas: **Não uso nenhuma droga.\n**- Fezes e urina: **Não percebi nenhuma alteração. \n**- Alimentação: **Dieta variada.\n**- Atividade física: **Faço caminhada duas vezes por semana.\n\n**ANTECEDENTES FAMILIARES: **\n- Acho que minha mãe tem artrite reumatóide.\n\n**Ao ser informado do tratamento e caso o candidato não mencionar anti-hipertensivo, perguntar: **\n- Não vai me passar algum remédio pra baixar a pressão?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame fisico ",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 165x100 mmHg \n\n**- Frequência cardíaca:** 85 batimentos por minuto \n\n**- Saturação:** 98% \n\n**- Temperatura:** 36.4° C \n\n**- Frequência respiratória:** 16 incursões por minuto \n\n\n\n**Estado geral:**\n\nPaciente angustiado e com fácies de dor, afebril, acianótico, anictérico, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos adventícios. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos normoativos, indolor à palpação e sem viceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame neurológico ",
+      "conteudo": "Paciente alerta, orientado no tempo e espaço. \n\n\n\n**Exame de marcha:** Sem alterações. \n\n\n\n**Equilíbrio estático:** Preservado. \n\n\n\n**Motricidade:** Preservada. \n\n\n\n**Coordenação motora:** Preservada. \n\n\n\n**Força muscular:** Grau 5 nos quatro membros. \n\n\n\n**Reflexos:** Normorreflexia. \n\n\n\n**Nervos cranianos:** Testados todos os 12 pares sem alterações.\n\n\n\n**Sensibilidade:** Preservada nos 4 membros.\n\n\n\n**Pupila:** Isocóricas e Fotorreagentes",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.30"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga as características da dor: **\n(1) Tempo de início;\n(2) Localização; \n(3) Irradiação;\n(4) Tipo de dor;\n(5) Intensidade;\n(6) Fatores de melhora;\n(7) Fatores de piora;\n(8) Sintomas acompanhantes.\n\n**Adequado: **Investiga todos os itens. \n**Parcialmente adequado: **Investiga de cinco a sete itens. \n**Inadequado: **Investiga quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga sintomas de lesão aguda em órgão alvo: **\n(1) Dispneia;\n(2) Dor torácica;\n(3) Alteração visual aguda;\n(4) Desmaio ou perda de consciência ou queda;\n(5) Perda de força;\n(6) Convulsão. \n\n**Adequado: **Investiga de cinco a seis itens. \n**Parcialmente adequado: **Investiga quatro ou três itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Esses sintomas se presentes podem ser usados como guia para a realização de exames complementares."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga algum dos seguintes fatores desencadeantes:**\n(1) Estresse; \n(2) Morte de parente/amigo ou má notícia;\n(3) Uso de drogas estimulantes.\n\n**Adequado: **Investiga ao menos um item.\n**Inadequado: **Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Questiona a respeito dos antecedentes: **\n(1) Antecedentes pessoais;\n(2) Antecedentes familiares. \n\n**Adequado: **Realiza as duas ações. \n**Parcialmente adequado: **Realiza apenas uma ação. \n**Inadequado: **Não realiza nenhuma ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.60",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita: **\n(1) Exame físico geral;\n(2) Exame neurológico. \n\n**Adequado: **Realiza as duas ações. \n**Parcialmente adequado: **Realiza uma ação.\n**Inadequado: **Não realiza nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Verbaliza o diagnóstico de pseudocrise hipertensiva. **\n\n**Adequado: **Verbaliza o diagnostico. \n**Inadequado: **Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Pode se concluir que a elevação súbita da PA nesse paciente foi devida à situação de estresse que está vivendo e também pelo quadro de cefaleia."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Propõe conduta terapêutica: **\n(1) Indica tratamento sintomático com analgésico e/ou ansiolítico;\n(2) Acomoda o paciente em um ambiente tranquilo para observação.\n(3) Informa que não há necessidade de utilizar anti-hipertensivos nesse momento.\n\n**Adequado: **Realiza as três ações. \n**Parcialmente adequado: **Realiza uma ou duas ações. \n**Inadequado: **Não realiza nenhuma ação ou indica anti-hipertensivo.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1",
+        "adequado": " 2"
+      },
+      "dica_teorica": "O objetivo do tratamento é controlar os sintomas e realizar novas avaliações da PA e da situação clínica do paciente.Caso não haja redução dos níveis pressóricos ou apareçam outros sintomas, uma investigação adicional deverá ser realizada."
+    }
+  ]
+}

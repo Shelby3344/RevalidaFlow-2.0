@@ -1,0 +1,168 @@
+{
+  "uid": 1573,
+  "hash": "4259a08ad7182b72d554fa018348531980edc339eb59457503299fedd2d4e5da-1750354015",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Traumatismo cranioencefalico com fratura de base de crânio.",
+  "definicao": "O traumatismo cranioencefálico (TCE) com fratura de base de crânio é uma lesão grave que pode resultar em danos cerebrais significativos, hemorragias e outros comprometimentos neurológicos. A fratura de base de crânio é uma quebra nos ossos na base do crânio, frequentemente associada a sinais clínicos como rinorreia liquórica, otorragia e hematoma periorbitário.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "76.00",
+    "star": 0,
+    "time": 482.5,
+    "count": 297
+  },
+  "cenario": "Local de atuação: Atenção Terciária: Pronto-Socorro Neurocirúrgico.\nA unidade possui a seguinte infraestrutura:\n- Setor de radiologia convencional e tomografia computadorizada;\n- Unidade de Terapia Intensiva (UTI);\n- Laboratório de análises clínicas;\n- Centro cirúrgico.\n\nDescrição do Caso:\nPaciente masculino de 34 anos, vítima de acidente automobilístico, chega ao pronto-socorro,trazido pela equipe de SAMU.",
+  "tarefas": "1. Realizar atendimento inicial do paciente;\n2. Realizar a avaliação inicial de acordo com ATLS\n3. Solicitar e interpretar exames complementares, caso necessário\n4. Estabelecer e comunicar hipótese diagnóstica , associando com os achados.\n5. Verbalizar a conduta adequada",
+  "script_ator": "**DADOS PESSOAIS:**\n João, 34 anos, solteiro e  motorista de caminhão.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n-Dr(a).Sofri um acidente de carro, minha cabeça dói bastante.\n\n**SOBRE O ACIDENTE:**\n-**Há quanto tempo aconteceu:** Foi há 1 hora.\n-**Uso de cinto de segurança:** Sim, estava de cinto.\n-**Vitimas no local:** Não.\n-**Uso de drogas ou álcool antes do acidente:** Nega.\n-**Ejeção do veículo:** Nega.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n-**Náuseas e vômitos:** Nega.\n-**Perda da consciência:** Nega.\n-**Convulsões:** Nega.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais vitais de entrada",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 110 x 70 mmHg;\n\n- **Frequência cardíaca:** 82 batimentos por minuto;\n\n- **Saturação de O2:** 97% AA;\n\n- **Temperatura axilar:** 36,5°C;\n\n- **Frequência respiratória:** 16 incursões por minuto.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1750602789.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "A",
+      "conteudo": "Via aérea pérvia, com uso de colar cervical e prancha rígida.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1750602789.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "B",
+      "conteudo": "Murmúrio vesicular presentes em ambos campos pulmonares",
+      "imagem": "https://app.penserevalida.com/impressos/155/1750602789.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "C",
+      "conteudo": "Aparelho cardiovascular regular em dois tempos com bulhas normofonéticas, ausência de sopro, FAST negativo e pelve estável",
+      "imagem": "https://app.penserevalida.com/impressos/155/1750602789.jpeg"
+    },
+    {
+      "idx": 5,
+      "titulo": "D",
+      "conteudo": "Abertura ocular: Ao chamado;\n\nResposta verbal: Confusa;\n\nResposta motora: Localiza dor.\n\n\n\n**ATENÇÃO CANDIDATO!\n\nDefina o score do paciente com base nos dados expostos acima.**",
+      "imagem": "https://app.penserevalida.com/impressos/155/1750602789.jpeg"
+    },
+    {
+      "idx": 6,
+      "titulo": "E",
+      "conteudo": "Controle da hipotermia realizado de maneira adequada, verbalize os achados da imagem",
+      "imagem": "https://app.penserevalida.com/impressos/155/1750602948.jpeg"
+    },
+    {
+      "idx": 7,
+      "titulo": "Tomografia de crânio sem contraste",
+      "conteudo": "Presença de ar no interior da cavidade intracraniana, na base frontal, compatível com pneumoencéfalo dissecção do osso temporal esquerdo, com possível fratura da base do crânio.\n\n\n\nSem lesões em parênquima cerebral.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente.\n\n**Adequado:** realiza as duas ações.\n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A apresentação inicial é crucial para estabelecer uma boa comunicação com o paciente."
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Encaminha o paciente para sala vermelha e solicita:**\n(1) Monitorização multiparametrica.\n(2) Máscara de oxigênio 10a 15L por minuto.\n(3) Acesso venoso periférico.\n\n**Adequado:** Encaminha e verbaliza os três itens.\n**Parcialmente adequado:** Apenas encaminha para sala vermelha.\n**Inadequado:** Não encaminha.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre:**\n(1) Uso de cinto de segurança;\n(2) Presença de vítimas no local;\n(3) Tempo do acidente;\n(4) Uso de drogas ou álcool;\n(5) Ejeção do veículo.\n\n**Adequado:**Pergunta quatro itens ou mais.\n**Parcialmente adequado:** Pergunta  três itens ou mais.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Perguntar o mecanismo do trauma em TCE é essencial para avaliar a cinética e a energia do impacto, prever lesões internas ocultas e orientar a priorização do atendimento. Mecanismos como queda de altura, colisão em alta velocidade ou trauma penetrante têm maior risco de gravidade. Essa informação também auxilia na indicação de exames de imagem e na estratificação de risco neurológico."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Realiza a avaliação inicial conforme preconizado  ATLS, solicitando e interpretando.**\n(A) Via aérea pérvia  com uso de colar cervical e prancha rígida.\n(B) Aparelho respiratório: Murmúrio vesicular presentes e ambos campos pulmonares.\n(C) Aparelho cardiovascular: bulhas normofonéticas FAST negativo, pelve estável,\n(D) Avaliação neurológica: Pupilas isoforreagentes, Glasgow 12/15\n(E) Edema/equimose periorbitaria bilateral, olhos de guachinin ou olhos de Mapache.\n\n**Adequado:** Realiza o atendimento na ordem correta e identifica os achados.\n**Parcialmente adequado:** Realiza o atendimento na sequência sem verbalizar os achados.\n**Inadequado:**Não realiza o atendimento na sequência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Verbaliza a classificação correta da escala de coma de Glasgow e classificação do trauma:**\n(1)  Verbaliza que o paciente encontra-se com um glasgow de 12 \n(2) Traumatismo cranioencefálico moderado.\n\n\n**Adequado:** Verbaliza ambas as ações corretamente.\n**Parcialmente adequado:** Verbaliza somente o valor correto da escala.\n**Inadequado:** Verbaliza a escala incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Glasgow 13 a 15: TCE leve Glasgow 9 a 12: TCE moderado Glasgow 3 a 8: TCE grave (indica coma e possível necessidade de via aérea definitiva)"
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita tomografia de crânio sem contraste:**\n\n**Adequado:** Solicita tomografia de crânio sem contraste e verbalize os achados.\n**Parcialmente adequado:** Solicita somente tomografia de crânio.\n**Inadequado:** Não solicita tomografia de crânio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Glasgow 12 indica TCE moderado, com risco de lesão intracraniana oculta. A tomografia é essencial para avaliar hematomas, contusões, edema ou fraturas. Permite definir a necessidade de internação, neurocirurgia ou cuidados intensivos."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Diagnostica o quadro como:**\n(1)Fratura de base de crânio com TCE moderado associando os achados dos exames+ exames de imagens.\n\n**Adequado:** Diagnostica  corretamente. \n**Inadequado:**Não diagnostica corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza a conduta adequado do momento**\n(1) Internação hospitalar;\n(2) Controle da dor;\n(3) Acompanhamento de tomografia de crânio sem contraste;\n(4) Avaliação com neurocirurgião.\n(5) Manutenção do colar cervical até exclusão de trauma raquimedular. \n\n**Adequado:** Verbaliza quatro ou mais itens.\n**Parcialmente adequado:** Verbaliza três ou mais itens.\n**Inadequado:** Verbaliza dois ou menos itens",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Contraindicar passagem de sondas nasogástrica/enterais devido fratura de base de crânio:**\n\n**Adequado:** Contraindica.\n**Inadequado:** Não contraindica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "A sonda nasogástrica é contraindicada na fratura de base de crânio por risco de penetração intracraniana. A lâmina cribriforme pode estar fraturada, permitindo que a sonda entre no crânio. O ideal nesses casos é utilizar sonda orogástrica se houver necessidade."
+    }
+  ]
+}

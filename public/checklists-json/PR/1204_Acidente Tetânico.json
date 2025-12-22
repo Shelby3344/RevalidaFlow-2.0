@@ -1,0 +1,232 @@
+{
+  "uid": 1204,
+  "hash": "kYkH7AwoV8tccalxF4uwCzPM",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Acidente Tetânico",
+  "definicao": "O Tétano acidental é uma infecção causada por bactéria (clostridium tetani) encontrada na natureza e não é contagiosa. A principal forma de prevenção é por meio da vacina antitetânica. A bactéria causadora do tétano acidental pode ser encontrada na pele, fezes, terra, galhos, plantas baixas, água suja, poeira.  Se o tétano acidental infeccionar e não for tratado corretamente, pode matar. As chances de morrer dependem da idade, tipo de ferimento, além da presença de outros problemas de saúde, como complicações respiratórias, renais e infecciosas.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "49.00",
+    "star": 0,
+    "time": 564,
+    "count": 6350
+  },
+  "cenario": "Nível de atenção: Terciária.\nTipo de atendimento: Urgência e emergência.\n\nA unidade conta com a seguinte infraestrutura:\n-Sala Vermelha;\n-Internação em enfermaria e Unidade de terapia intensiva;\n-Sala de vacinas, com banco de soro.\n\nDESCRIÇÃO DO CASO:\nVocê é médico plantonista e recebe um paciente de 33 anos, desacordado, vítima de acidente automobilístico trazido pelo SAMU, após ser resgatado das ferragens. \nDurante o recebimento do mesmo, se identifica pneumotoráx aberto. \nO paciente recebe a atenção inicial adequada com aplicação do ATLS e estabilização hemodinâmica, passando à sala de UTI onde permaneceu por 5 dias. Atualmente se encontra extubado e consciente.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Ler a ficha do paciente;\n- Realizar a anamnese dirigida à queixa principal da paciente;\n-Realizar exame físico compatível com a situação do paciente;\n-Verbalizar hipótese diagnóstica e 2 diagnósticos diferenciais;\n-Indicar as condutas terapêuticas pertinentes ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Nicolas, 33 anos, solteiro, professor.\n\n**MOTIVO DE CONSULTA**: \n**Fala inicial, após o candidato terminar de ler a ficha 1:** \n-Oi Dr(a), tudo bem? Nossa, que loucura foi essa que aconteceu ? Um enfermeiro recém me contou mais ou menos não da para acreditar.\n\n**Caso o candidato pergunte sobre como o paciente se sente, responder:**\nEu não sei nem dizer, acho que eu nasci de novo né? Parece que foi feio mesmo o acidente, sinto muita dor no meu corpo, parece que eu estou duro.\n\n**SOBRE A DOR:**\n**Tempo de evolução**: Desde que eu acordei, não sei falar quanto tempo tem.\n**Localização:**  Meus braços, peito, meus músculos, até meu rosto está duro.\n**Intensidade:** 8/10.\n**Característica:** É uma dor bem aguda.\n**Irradiação:** Pelo corpo todo.\n**Progressão dos sintomas**:  Está piorando com o tempo.\n**Fatores de melhora ou Fatores de piora**: Nega.\n\n**SINTOMAS ASSOCIADOS**:\n**Salivação:** Eu estou babando muito, não consigo entender o porque e é como se me desse um espasmo no músculo.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS**:\n**Comorbidades**: Não tenho problemas de saúde.\n**Alergias**: Nega.\n**Cirurgia prévia**: Não consta no roteiro.\n**Vacinação:** Nossa Dr(a) faz muito tempo que não me vacino, eu tenho medo de agulha, só tomei as doses de Covid-19 porque minha mulher me obrigou, mas as outras eu não tenho ideia. Falando nisso, cadê minha esposa? \n\n**HÁBITOS TÓXICOS**:\n-**Tabagismo**: Nega.\n-**Etilismo**: Nega.\n-**Drogas ilícitas**: Nega.\n\n**Após receber o diagnóstico mantenha o riso sardônico até o final da estação e não responda mais a anamnese.**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Ficha do Paciente",
+      "conteudo": "**Pressão Arterial:** 110 x 80 mmHg \n\n**Frequência Cardíaca:** 90\n\n**Frequência Respiratória:** 15\n\n**Temperatura Axilar:** 36.5\n\n**Tempo de enchimento capilar:** <2 seg.\n\n\n\nPaciente apresenta múltiplas escoriações e hematomas no corpo.\n\n\n\n**Folha de medicações:** Paciente se encontra com acesso central, controle de diurese, opioides (leve), antibioticoterapia.",
+      "imagem": "https://app.penserevalida.com/impressos/04/tetano.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Físico",
+      "conteudo": "**Exame Neurológico:** \n\nAusência de rigidez de nuca, presença de trismo.\n\n\n\n**Aparato Cardiovascular:** \n\nRegular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Aparato Respiratório:** \n\nMurmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados. \n\n\n\n**Abdome:** Rigidez abdominal\n\n\n\n**Extremidades:** Rigidez de braços e pernas\n\n\n\n**Inspeção de facie:** Alterada",
+      "imagem": "https://app.penserevalida.com/impressos/04/tetano.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Inspeção de facie",
+      "conteudo": "Verbalize o nome do achado",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:** \n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se;\n(3) Dirige-se ao paciente simulado pelo\nnome, pelo menos uma vez; \n(4) Pergunta o motivo da consulta; e,\n(5) Ouve o paciente com atenção. \n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura:** \n(1) Estabelece contato visual; e,\n(2) Mantém postura empática ao longo da consulta. \n\n**Adequado:** Realiza dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala do paciente simulado sem interrompê-lo. **\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação ou não realiza a ação integralmente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível ao paciente simulado, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Utiliza linguagem acessível.\n**Inadequado:** Não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Responde às perguntas do paciente simulado.**\n\n**Adequado:** Responde às perguntas.\n**Inadequado**: Não responde às perguntas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6.** Investiga: **\n(1) Como o paciente se sente; e,\n(2) Tem alguma memória sobre o acidente.\n\n**Adequado:** Investiga os dois itens. \n**Parcialmente adequado:** Investiga um  itens. \n**Inadequado:** Não investiga nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga características da queixa do paciente: **\n(1) Quando começou; \n(2) Localização; \n(3) Intensidade;\n(4) Característica;\n(5) Irradiação;\n(6) Progressão; e,\n(7) Fatores de melhora e piora. \n\n**Adequado:** Investiga de seis ou mais itens.\n**Parcialmente adequado:** Investiga de três a cinco itens.\n**Inadequado:** Investiga um ou dois itens ou não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga possíveis sintomas acompanhantes **\n(1) Dificuldade de abrir a boca; \n(2) Dores nas costas;\n(3) Disfagia;\n(4) Trismo;\n(5) Opistótono. \n\n**Adequado:** Investiga de três ou mais itens.\n**Parcialmente adequado: **Investiga dois itens. \n**Inadequado:** Investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga situação vacinal.**\n\n**Adequado: **Investiga.\n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Após a leitura do impresso 3 é capaz de identificar/verbalizar:**\n(1) Riso Sardônico OU facie tetânica. \n\n**Adequado:** Identifica/verbaliza.\n**Inadequado:** Não identifica/verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita Radiografia de Tórax.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "As radiografias de tórax e da coluna vertebral devem ser realizadas para o diagnóstico de infecções pulmonares e fraturas de vértebras"
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza o diagnóstico de Acidente Tetânico.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza possíveis diagnósticos diferenciais:**\n(1)  Meningites;\n(2) Raiva;\n(3) Histeria;\n(4) Intoxicação pela metoclopramida;\n(5) Intoxicação por neurolépticos; e, \n(6) Doença do Soro.\n\n**Adequado:** Verbaliza quatro ou mais itens. \n**Parcialmente adequado:** Verbaliza dois ou três itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Meningites – há febre alta desde o início, ausência de Trismo, presença dos sinais de Kerning e Brudzinsky, cefaleia e vômito.Raiva – história de mordedura, arranhadura ou lambedura por animais, convulsão, ausência de trismos, hipersensibilidade cutânea e alterações de comportamento.Histeria – ausência de ferimentos e de espasmos intensos. Quando o paciente se distrai, desaparecem os sintomas.Intoxicação pela metoclopramida e intoxicação por neurolépticos – podem levar ao trismo e hipertonia muscular.Doença do soro – pode cursar com trismo, que é decorrente da artrite têmporo-mandibular, que se instala após uso de soro heterólogo. Ficam evidenciadas lesões maculopapulares cutâneas, hipertrofia ganglionar, comprometimento renal e outras artrites."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Informa que:**\n(1) O paciente deve seguir na UTI;\n(2) Monitorizado OU monitorização sinais vitais; \n(3) Neutralizar a toxina tetânica;\n(4) Com Soro Antitetânico OU SAT;\n(5) Dose terapêutica.\n\n**Adequado:** Informa quatro ou mais itens.\n**Parcialmente adequado:** Informa dois a três itens.\n**Inadequado:** Informa um item ou não informa item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "0.85"
+      },
+      "dica_teorica": "SAT - Dose terapêutica (20.000UI) - Instramuscular ou endovenosa (Se intramuscular, administrar em duas massas musculares diferentes. Se endovenosa, diluir em soro fisiológico ou glicosado a 5%)"
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Indica:** \n(1) Vacinação antitetânica; e, \n(2) Atualização da situação vacinal.\n\n**Adequado:** Indica os dois itens.\n**Parcialmente adequado:** Indica um itens.\n**Inadequado:** Não indica nenhum dos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Vacinar e aprazar as próximas doses para complementar o esquema básico. Essa vacinação visa proteger contra o risco de tétano por outros ferimentos futuros.Quando indicado o uso de vacina e SAT ou IGHAT, concomitantemente, devem ser aplicados em locais diferentes."
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Realiza notificação imediata (em até 24 horas) para o SINAN **\n\n**Adequado:** Notifica. \n**Inadequado:** Não notifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Não solicita exame laboratorial **\n\n**Adequado:** Não solicita.\n**Inadequado:** Solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": "O diagnóstico do tétano é clínico, ou seja, não depende de confirmação laboratorial."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "uid": 1248,
+  "hash": "8ZFlMNrmUU_YunwX6tq1umc5",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Cistite na Gestante – Complicada",
+  "definicao": "Os fatores de risco de desenvolvimento de uma infecção do trato urinário em mulheres incluem: relações sexuais, diafragma e uso de espermicida, uso de antibióticos, novo parceiro sexual no último ano, história de ITU recorrente. Nos homens, é importante sempre pensar em malformações do trato urinário.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "40.50",
+    "star": 0,
+    "time": 534,
+    "count": 5294
+  },
+  "cenario": "Cenário de atuação:\nPronto Atendimento da Maternidade.\n\nA unidade conta com a seguinte infraestrutura:\nSala para atenção médica,\nSala de medicação,\nLaboratório de análises,\nEcografia.\n\nDescrição do caso:\nPaciente feminina, gestante, comparece à unidade de saúde com queixa de dor abdominal.",
+  "tarefas": "Anamnese; \nExame físico direcionado para a queixa da gestante; \nSolicitar e interpretar exames complementares, caso necessário; \nVerbalizar o diagnóstico; \nVerbalizar possíveis complicações do quadro atual (três a quatro possíveis complicações); \nConduta terapêutica. \n\nATENÇÃO, AS TAREFAS DEVEM SER REALIZADAS NA ORDEM DESCRITA ACIMA!",
+  "script_ator": "Alícia, 26 anos, casada, gestante de 25 semanas, G1P0A0.\n\n**Motivo de consulta: **\nOi, Dr.(a), eu vim hoje porque estou com uma dor aqui na minha barriga. \n\nSobre o MOTIVO DE CONSULTA\n**Início da dor:**\nComeçou há 3 dias. \n**Localização:**\nÉ bem aqui no pé da barriga. \n**Intensidade:**\nUm 6/10.\n**Característica:**\nÉ uma dor contínua. \n**Uso de medicação:**\nNão tomei nada para a dor por conta da gravidez.\n\n**Caderneta da gestante:** \nEsqueci em casa, mas estou com todos os meus controles em dia e meu obstetra disse que meus exames estão perfeitos.\n\n**Sintomas urinários:** \nAí Dr.(a), sinto que estou com a bexiga cheia a todo momento, mas quando me sento no vaso, sai uma gotinha ardida e acaba, mas fico com a sensação de que tem mais.\n**Incidência dos sintomas urinários:** \nÉ a primeira vez que tenho esses sintomas em toda a minha vida.\n\n**Negar**\nfebre;\ncalafrios;\nnáuseas;\nvômitos;\ncorrimento vaginal.\n\nAntecedentes Pessoais/Gineco-obstétricos\n**Doenças crônicas:**\nTenho diabetes tipo 1. \n**Medicações crônicas:**\nEstou em tratamento com insulina e tomando suplementação de ferro e ácido fólico. \n**Menarca:**\nAos 12 anos. \n**Sexarca:**\nAos 17 anos. \n**Relações sexuais:**\nTenho parceiro sexual fixo. \n**Uso de preservativos:**\nEstamos juntos há muito tempo, não usamos camisinha.\n\n**Após diagnóstico questionar:**\nEstá tudo bem com o meu bebê? \n\n**Perguntas:**\nUma vizinha minha teve isso, foi parar na UTI e morreu. Eu vou morrer?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais Vitais",
+      "conteudo": "Bom estado geral\n\n\n\n**Pressão arterial:** 110 x 70 mmHg\n\n**Frequência cardíaca:** 79 bpm\n\n**Frequência respiratória:** 18 irpm\n\n**Saturação de O2:** 99% Ar ambiente\n\n**Temperatura axilar:** 36.5°C",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Físico",
+      "conteudo": "Paciente em bom estado geral, afebril, acianótica, anictérica, normocorada e hidratada; alerta, orientada no tempo e espaço.\n\n\n\n**Ritmo cardíaco:** Regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n**Ausculta respiratória:** Murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados.\n\n**Abdome:** Gravídico, sem alterações.\n\n**Mamas:** Sem alterações à inspeção ou palpação.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame físico ginecológico/ obstétrico",
+      "conteudo": "**EXAME ESPECULAR:** Colo normoepitelizado sem lesões anormais, ausência de secreções patológicas.\n\n**TOQUE VAGINAL:** útero AVF (anteroverso flexão), móvel de tamanho compatível com atraso menstrual, colo longo, posterior e fechado.\n\n**BCF:** 140",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EAS",
+      "conteudo": "**Exame qualitativo de urina:** \n\n**Densidade:** 1025 (Valor de Referência: 1005 - 1035)\n\n**PH:** 6,1 (Ref: 5-8)\n\n**Leucócitos:** Presente\n\n**Proteína:** ++/++++ \n\n**Glicose:** +/++++ \n\n**Corpos cetônicos:** Ausentes\n\n**Hemácias:** 20/campo (Valor de Referência: 3/campo)\n\n**Urobilinogênio:** Ausente\n\n**Nitrito:** Ausente\n\n**Células epiteliais:** Presentes",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Urocultivo   antibiograma",
+      "conteudo": "Aguardando resultado",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:** \n(1) apresenta-se, cumprimentando a paciente e/ou falando seu nome e/ou questionando o nome dela;\n(2) pergunta o motivo da consulta/queixa principal da paciente. \n\n**Adequado:** realiza as duas ações. \n**Parcialmente adequado:** realiza apenas uma ação. \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2.** Investiga o motivo de consulta, realizando perguntas sobre: **\nAparição da dor(1), \nLocalização (2), \nIntensidade(3),\nCaracterística(4), \nIrradiação(5), \nAtenuantes e agravantes (6) \n\n**Adequado:** Investiga de cinco a seis itens. \n**Parcialmente adequado:** Investiga de dois a quatro itens. \n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga sintomas acompanhantes, realizando perguntas sobre:**\nInvestiga disúria (1);\nPolaciúria (2);\nTenesmo (3);\nUrgência miccional (4);\nNictúria (5).\n\n**Adequado:** Investiga cinco itens.\n**Parcialmente adequado:** Investiga de dois a quatro itens.\n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga a ocorrência de:**\nfebre (1);\ncalafrios (2);\ndor lombar (3);\nhematúria (4).\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga de dois a três itens.\n**Inadequado:** Investiga somente um item ou não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Investiga história ginecológica e obstétrica, realizando perguntas sobre: **\nIdade gestacional(1), \nPartos(2), \nAbortos(3), \nLeucorreia(4), \nPapanicolau/ Preventivo (5)\n\n**Adequado:** Investiga cinco itens. \n**Parcialmente adequado:** Investiga de dois a quatro itens. \n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita:**\n(1) cartão/caderneta da gestante e (2) cartão de vacinas \n\n**Adequado:** Solicita os dois itens. \n**Parcialmente adequado:** Solicita somente o cartão/caderneta da gestante. \n**Inadequado:** Não solicita o cartão/caderneta da gestante ou solicita somente o cartão de vacinas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. Solicita permissão para realizar exame físico (1), verbaliza a necessidade de calçar luvas(2) e solicita presença de um(a) auxiliar na sala(3).\n\n**Adequado:** Realiza as três tarefas \n**Parcialmente adequado:** Realiza ao menos duas tarefas \n**Inadequado:** Realiza somente uma tarefa OU não realiza nenhuma das tarefas",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8.  8.** Solicita:**\nexame físico obstétrico (1) e ginecológico (2)\n\n**Adequado:** Solicita os dois exames.\n**Inadequado:** Solicita somente um dos exames ou não solicita nenhum dos exames.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.60"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita:**\nEAS(1) e \nurocultura com antibiograma(2) \n\n**Adequado:** Solicita os dois exames. \n**Parcialmente adequado:** Solicita somente um dos exames. \n**Inadequado:** Não solicita nenhum dos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Interpreta/verbaliza corretamente os achados do sedimento urinário**\n**Obs:** Os itens avaliados serão:\nDensidade dentro do valor normal (1);\npH dentro do valor normal (2);\nProteinúria de 2+ (3);\nGlicosúria de 1+ (4);\nHematúria (5);\nCélulas epiteliais presentes (6);\nLeucocitose\n\n**Adequado:** Interpreta/verbaliza os seis itens.\n**Parcialmente adequado:** Interpreta/verbaliza de dois a cinco itens.\n**Inadequado:** Interpreta/verbaliza somente um item OU não interpreta/verbaliza nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Explica à paciente, sobre seu diagnóstico: Infecção do Trato Urinário Baixo complicada - Cistite complicada**\n\n**Adequado: **Explica o diagnóstico correto. \n**Inadequado:** Não explica o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza possíveis complicações do quadro atual:**\n**Obs:** Serão aceitas: \nRisco de pielonefrite (1), \nparto prematuro (2), \naumento de morbimortalidade perinatal (3), \nSepse (4) \n\n**Adequado:** Verbaliza de três a quatro possíveis complicações. \n**Parcialmente adequado:** Verbaliza de uma a duas possíveis complicações. \n**Inadequado:** Não verbaliza nenhuma possível complicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Prescreve Cefalexina 500 mg a cada 6 horas VO por 5 dias OU Nitrofurantoína 100 mg a cada 6 horas VO por 7 dias**\n\n**Adequado:** Prescreve Cefalexina OU Nitrofurantoína, informando via de administração, dose e quantidade de dias de tratamento.\n**Parcialmente adequado:** Somente prescreve Cefalexina OU Nitrofurantoína.\n**Inadequado:** Não prescreve Cefalexina OU Nitrofurantoína.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Primeira opção: Cefalexina Segunda opção: Nitrofurantoína (Evitar após a 36ª semana de gestação); Terceira opção: Fosfomicina; Quarta opção: Amoxicilina-clavulanato (500 mg), um comprimido, de 8/8 horas, por 7 a 10 dias."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta/Informa à paciente que será necessário repetir o exame de urocultura sete a dez dias após o término do tratamento. **\n\n**Adequado:** Orienta/informa. \n**Inadequado: **Não orienta/informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "O rastreio na gestante posterior ao tratamento de ITU só é necessário em casos de: ITU prévia, parto prematuro prévio, DM e hemoglobinopatias"
+    }
+  ]
+}

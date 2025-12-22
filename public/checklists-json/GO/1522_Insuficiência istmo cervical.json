@@ -1,0 +1,210 @@
+{
+  "uid": 1522,
+  "hash": "2bc1cdb31a13d2b70808c1206379c807d7af4dd7e2cc9043b98e83c65072ec13-1745715969",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": null,
+  "color": "#ff4a64",
+  "checklist": "Insuficiência istmo cervical",
+  "definicao": "A insuficiência istmocervical (IIC) pode ser definida como\na dilatação indolor e recorrente do colo uterino, levando a perdas\nno segundo trimestre. Pode ser idiopática, decorrente da fraqueza\nestrutural do colo, ou secundária a procedimentos cirúrgicos como\ndilatação, curetagem ou conização.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "42.00",
+    "star": 0,
+    "time": 589.5,
+    "count": 1190
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Secundária - Ambulatorial e Hospitalar.\nA unidade possui a seguinte infraestrutura:\nSetor de radiologia convencional e ultrassonografia;\nLaboratório de análises clínicas;\nLeitos de internação e centro cirúrgico.\n\nDescrição do caso:\nVocê atenderá Ana, de 32 anos de idade para seguimento do seu pré-natal.",
+  "tarefas": "-Realizar a anamnese dirigida à queixa principal da paciente; \n-Verbalizar as causas e os fatores de risco para a condição apresentada pela paciente; \n-Solicitar avaliação física na paciente que julgar necessária; \n-Esclarecer o diagnóstico para a paciente simulada; \n-Verbalizar a conduta e as orientações necessárias para a paciente.",
+  "script_ator": "**Se perguntar o nome, idade, profissão e estado civil:**\nAna, 32 anos, dona de casa e casada.\n\n**MOTIVO DE CONSULTA:**\n- Vim para minha consulta de pré-natal que estava agendada. Dessa vez não quero ter nenhuma intercorrência na minha gestação. \n\n**SOBRE A GESTAÇÃO ATUAL:**\n**- Idade gestacional:** 10 semanas de gestação. \n**- Controle pré-natal:** Estou fazendo meus controles da maneira correta. \n**- Cartão da gestante:** Eu esqueci de trazer, quando lembrei já estava aqui. \n**- Intercorrências:** Nega. \n**- Secreção Vaginal:** Tem saÍdo um muco um pouco rosado há uns dois dias. \n\n**Antecedentes obstétricos:**\n**- Gesta:** Essa é minha quarta gestação. \n**- Abortos:** 3 abortos. \n**- Curetagem:** Realizada apenas no primeiro aborto.\n\n**SOBRE OS ABORTAMENTOS PRÉVIOS**\n**- Idade gestacional:** Um foi com 19 semanas, os demais com 21 e 22 semanas. \n**- Presença de dor ou contração:** Nunca sentia nada, só percebia quando saia o líquido e logo o bebê. \n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças:** Nunca recebi nenhum diagnóstico. \n**- Medicamentos:** Não estou usando nenhum medicamento. \n\n\n**Ao ser indicado a cerclagem uterina questionar: **\n\n- Quando eu vou fazer esse procedimento? agora? \n- Quais são os riscos que esse procedimento oferecer pra mim e pro meu bebê? \n- Eu vou precisar ter algum cuidado especial após a realização desse procedimento?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Ginecológico",
+      "conteudo": "Exame especular: Observa-se pequena quantidade de muco rosado. \n\nToque vaginal: Colo fechado.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- Pressão arterial: 120x80 mmHg\n\n- Frequência cardíaca: 80 batimentos por minuto\n\n- Frequência respiratória: 16 incursões por minuto\n\n- Saturação de O2: 99%\n\n- Temperatura axilar: 36.4° C\n\n\n\n**Estado Geral:** \n\nPaciente em bom estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**Cardiovascular:** \n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** \n\nAusculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** \n\nAbdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "USG ",
+      "conteudo": "LAUDO DE ULTRASSONOGRAFIA \n\n\n\nPaciente: Ana \n\nIdade: 32 anos\n\nGesta: G4P0A3\n\nIdade Gestacional (pela DUM): 10 semanas\n\n\n\n**Achados Ultrassonográficos:**\n\n**Útero:** em anteversoflexão, com volume compatível com a idade gestacional.\n\n**Saco gestacional: **único, tópico, bem delimitado, medindo 38 mm (compatível com 10 semanas).\n\n**Embrião:** único, visível, com batimentos cardíacos positivos (Frequência Cardíaca Fetal: 162 bpm).\n\n**Movimentos fetais:** Espontâneos presentes.\n\n**Comprimento cabeça-nádega (CCN): **34 mm – compatível com idade gestacional.\n\n**Líquido amniótico:** Volume normal.\n\n**Placenta:** em formação, inserção fúndica posterior.\n\n**Colo uterino:** com comprimento de 24 mm.\n\nOrifício interno do colo discretamente afunilado, com início de dilatação.\n\nAusência de hematoma subcoriônico ou descolamento ovular.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) Cumprimenta a paciente e/ou fala o seu nome; e,\n(2) Pergunta mais algum elemento de identificação da anamnese como idade, ou profissão.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona por:**\n(1) Idade gestacional ou DUM; \n(2) Controles pré-natais prévios; \n\n**Adequado:** Questiona ambas informações. \n**Parcialmente adequado:** Questiona apenas uma informação. \n**Inadequado:** Não questiona informação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Solicita a caderneta da gestante.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Informa que o cartão da gestante deve acompanhá-la em todas as consultas de pré-natal OU informa que a paciente deverá andar sempre com o seu cartão da gestante.**\n\n**Adequado:** Informa. \n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Realiza a anamnese direcionada à queixa da paciente:**\n(1) Antecedentes obstétricos;\n(2) Antecedentes pessoais;\n(3) Antecedentes familiares;\n(4) Antecedentes de cirurgias prévias.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens. \n**Inadequado:** Investiga apenas um item OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga características importantes sobre os abortamentos passados para o diagnóstico de IIC.**\n(1) Idade gestacional; \n(2) Sangramento/ perda de líquido prévios ao aborto; \n(3) Dor abdominal; \n(4) Condição das membranas; \n(5) Presença de contrações.\n\n**Adequado:** Investiga as cinco características. \n**Parcialmente adequado:** Investiga três ou quatro características. \n**Inadequado:** investiga duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga fatores de risco para abortamento espontâneos de repetição:**\n(1) Idade materna;\n(2) Tabagismo;\n(3) Consumo de álcool e drogas;\n(4) Cafeína;\n(5) Baixo índice de folato;\n(6) Extremos de peso: IMC 35;\n(7) Infecção de urinaria.\n\n**Adequado:** investiga os seis fatores de risco. \n**Parcialmente adequado:** investiga cinco ou quatro fatores de risco. \n**Inadequado:** investiga três ou menos fatores de risco.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza os fatores de risco para a condição da paciente:**\n(1)  Trauma cervical;\n(2) Malformações uterinas congênitas; \n(3) Defeitos do colágeno (síndrome de Marfan e síndrome de Ehlers-Danlos);\n(4) Antecedente de encurtamento cervical anterior.\n\n**Adequado:** Verbaliza ao menos três fatores de risco. \n**Parcialmente adequado:** Verbaliza dois fatores de risco. \n**Inadequado:** Verbaliza um OU não verbaliza fator de risco algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exame físico ginecológico.** \n\n**Adequado:** solicita. \n**Inadequado:** não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza o diagnóstico de  insuficiência istmocervical.**\n\n**Adequado:** Verbaliza corretamente o diagnóstico. \n**Inadequado:** Não verbaliza corretamente o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Para pacientes com duas ou mais perdas gestacionais sugestivas, fecha-se o diagnóstico de IIC pelos antecedentes obstétricos."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza possíveis causas de IIC.**\n(1) Idiopática; \n(2) Fraqueza estrutural do colo; \n(3) Procedimentos cirúrgicos (dilatação, curetagem ou conização).\n\n**Adequado:** Verbaliza as três causas. \n**Parcialmente adequado:** Verbaliza apenas duas causas. \n**Inadequado:** Verbaliza uma causa ou não verbaliza causa alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica a conduta para a paciente:**\n(1) Cerclagem uterina; \n(2) Entre 12 e 16 semanas de gestação. \n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma das ações.\n**Inadequado:** Não realiza com ação alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Esclarece os riscos do procedimento da cerclagem:**\n(1) Rotura de membranas;\n(2) Infecção intra-amniótica.\n\n**Adequado:** Esclarece ambos os riscos. \n**Parcialmente adequado:** Esclarece apenas um risco. \n**Inadequado:** Não esclarece risco algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Indica a realização de ultrassonografia\npara avaliação do bem-estar e da morfologia fetal.**\n\n**Adequado:** Indica. \n**Inadequado:** Não indica.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Orienta que não há indicação de repouso absoluto.**\n\n**Adequado:** Orienta corretamente. \n**Inadequado:** Não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "uid": 969,
+  "hash": "ugBNEfTh22UnrT2b45duWCKt",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Paracentese",
+  "definicao": "A paracentese abdominal é um procedimento invasivo utilizado para a obtenção de líquido ascítico. A retirada desse líquido pode ser utilizada tanto para análise (paracentese diagnóstica) quanto para tratamento (paracentese terapêutica/Alivio).",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "62.50",
+    "star": 0,
+    "time": 551.5,
+    "count": 2635
+  },
+  "cenario": "Nível de atenção: Unidade de atenção terciária à saúde.\nTipo de atendimento: Urgência e Emergência.\n\nA unidade apresenta a seguinte infraestrutura:\n- Consultórios de atenção médica;\n- Enfermaria;\n- Laboratório de análises clinicas;\n- Serviço de radiologia convencional.\n- Unidade de terapia intensiva (UTI) e leitos de internação.\n\nDescrição do caso: \nVocê está de plantão e realizará o atendimento do paciente, etilista e com antecedente de cirrose que consulta por aumento do volume abdominal de 2 dias de evolução.",
+  "tarefas": "- Explicar ao paciente com linguagem acessível o procedimento de paracentese diagnóstica;\n- Citar quatro indicações e quatro contraindicações para a realização do procedimento; \n- Elencar possíveis complicações relacionadas à realização da paracentese;\n- Demonstrar a técnica de paracentese diagnóstica solicitando todos os materiais necessários.\n\nAtenção! Considere que a anamnese e o exame físico já foram realizados.",
+  "script_ator": "**Você será o (a) enfermeiro (a) que auxiliará o médico e responderá suas perguntas de acordo ao roteiro. **\n\n**DADOS DA PACIENTE: **\n- Antônio, 53 anos de idade, desempregado.\n \n**MOTIVO DE CONSULTA: **\n- Dr (a), eu vim porque eu notei que minha barriga está muito inchada. \n\n**QUALQUER OUTRA PERGUNTA REALIZADA SOBRE ANAMNESE/ EXAME FÍSICO: **\n- Não consta no script.\n\n**SE O CANDIDATO SOLICITAR OS MATERIAIS, RESPONDER:**\n- Considere disponível.",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se; e,\n(2) Cumprimenta o paciente simulado e pergunta seu nome.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. ** Indica e/ou explica com linguagem acessível sobre a necessidade de realizar a paracentese diagnostica.**\n\n**Adequado: **Indica/explica. \n**Inadequado: **Não indica/explica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Solicita a autorização do paciente para a realização da paracentese dignóstica.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Cita indicações do procedimento: **\n(1) Avaliação de novas ascites;\n(2) Ascite de grande volume;\n(3) Ascite de repetição;\n(4) Ascite resistente ao uso de diuréticos;\n(5) Ascite com sinais de deterioração clínica;\n(6) Alívio de sintomas. \n\n**Adequado: **Cita ao menos quatro indicações. \n**Parcialmente adequado: **Cita duas ou três indicações. \n**Inadequado: **Cita uma ou nenhuma indicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Graus de ascite: 1: detectável apenas na ultrassonografia;2: distensão abdominal moderada e simétrica;3: distensão abdominal acentuada."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Cita contraindicações relativas e/ou absolutas para a realização do procedimento: **\n(1) Infecção da parede abdominal;\n(2) Coagulação intravascular disseminada;\n(3) Obstrução intestinal;\n(4) Paciente não cooperativo;\n(5) Hiperfibrinólise;\n(6) Visceromegalia;\n(7) Grandes massas intra-abdominais. \n\n**Adequado: **Cita quatro ou mais contraindicações. \n**Parcialmente adequado: **Cita duas ou três contraindicações. \n**Inadequado: **Cita duas ou menos contraindicações.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Cita complicações da paracentese: **\n(1) Lesão de vísceras;\n(2) Sangramento intra-abdominal;\n(3) Lesão de artérias;\n(4) Infecção;\n(5) Hematoma da parede abdominal;\n(6) Persistência da saída de líquido ascítico. \n\n**Adequado: **Cita três ou mais complicações. \n**Parcialmente adequado: **Cita uma ou duas complicações. \n**Inadequado: **Não cita nenhuma complicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita materiais necessários para a realização do procedimento: **\n(1) Aparelho de ultrassom;\n(2) Lidocaína 1%;\n(3) Frasco de coleta;\n(4) Campo estéril;\n(5) Gazes;\n(6) Clorexidina;\n(7) Máscara;\n(8) Óculos;\n(9) Gorro; \n(10) Capote;\n(11) Luva esterilizada;\n(12) Jelco 14 ou 16;\n(13) Seringas de 20ml; \n(14) Agulha: 22G ou 25G.\n\n**Adequado: **Solicita ao menos oito materiais. \n**Parcialmente adequado: **Solicita de quatro a sete materiais.\n**Inadequado: **Solicita três ou menos materiais.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Identifica adequadamente o local de punção.**\n(1) Traça uma linha imaginária da espinha ilíaca ântero superior até a cicatriz umbilical. \n(2) Verbaliza que a punção deve ocorrer na junção do terço médio com o terço inferior desta linha. \n(3) Realiza a degermação do local e a paramentação adequada.\n\n**Adequado:** Realiza duas ou três ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza nenhuma ação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza corretamente a realização do procedimento: **\n(1) Posição do paciente: decúbito dorsal;\n(2) Higienização das mãos;\n(3) Paramentação;\n(4) Antissepsia do local de punção;\n(5) Colocação do campo estéril;\n(6) Introdução da agulha do anestésico a 45° para anestesia local;\n(7) Realização da punção com Jelco 14 ou 16 no quadrante inferior do abdome;\n(8) Utilizar a técnica da punção em Z, para evitar extravasamento de líquido;\n(9) Coleta do material para análise;\n(10) Realização de curativo.\n\n**Adequado: **Verbaliza ao menos sete itens. \n**Parcialmente adequado: **Verbaliza de quatro a seis itens. \n**Inadequado: **Verbaliza três ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1",
+        "adequado": " 2"
+      },
+      "dica_teorica": "Locais de punção: - Quadrante inferior direito;- Quadrante inferior esquerdo;- Região infraumbilical."
+    },
+    {
+      "idx": 10,
+      "descricao": "10.**Solicita adequadamente a análise do líquido ascítico.**\n(1) Celularidade;\n(2) Albumina;\n(3) LDH;\n(4) Glicose;\n(5) Culturas.\n\n**Adequado:** Solicita os cinco itens. \n**Parcialmente adequado:** Solicita a somente três ou quatro itens.\n**Inadequado:** Solicita dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

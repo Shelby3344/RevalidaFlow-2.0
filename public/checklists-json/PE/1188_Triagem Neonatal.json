@@ -1,0 +1,267 @@
+{
+  "uid": 1188,
+  "hash": "G06ROWYCdy4wAUDepejsaXye",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Triagem Neonatal",
+  "definicao": "Triagem Neonatal Biológica (TNB) é um conjunto de ações preventivas, responsável por identificar precocemente indivíduos com doenças metabólicas, genéticas, enzimáticas e endocrinológicas, para que estes possam ser tratados em tempo oportuno, evitando as sequelas e até mesmo a morte. Além disso, propõe o gerenciamento dos casos positivos através de monitoramento e acompanhamento da criança durante o processo de tratamento.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "60.00",
+    "star": 0,
+    "time": 506,
+    "count": 4824
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Unidade Básica de Saúde (UBS).\n\nA unidade possui a seguinte infraestrutura:\n- Consultórios para atendimento;\n- Sala de pequenas cirurgias;\n- Laboratório de análises clínicas;\n- Sala para observação clínica.\n\nDESCRIÇÃO DO CASO:\nVocê é o médico de uma UBS e recebe um recém-nascido do sexo masculino de 5 dias de vida, acompanhado de sua mãe, para realizar a primeira consulta após a alta da maternidade.",
+  "tarefas": "-Realizar a anamnese dirigida à mãe;\n-Solicitar exame físico e explicar os achados do exame físico;\n-Explicar à mãe o diagnóstico clínico da criança; e\n-Explicar à mãe se há a necessidade de terapêutica;\n-Esclarecer eventuais dúvidas da mãe durante a consulta.",
+  "script_ator": "**Dados da mãe:** Jussara, 28 anos, casada, advogada, 2 filhos.\n**Dados da criança:** Noah, 5 dias de vida\n\nMOTIVO DE CONSULTA:\n- Dr(a), eu trouxe meu filho para sua primeira consulta, pois, na maternidade quando tivemos alta hospitalar, me orientaram que deveria acompanhar no posto.\n\nPROPEDÊUTICA / HISTÓRIA CLÍNICA:\n**- Detalhes da queixa principal:** Dr(a), ele nasceu há cinco dias. Ele é bem tranquilo e quase não chora.\n**- Aleitamento materno:** Dr(a), ele só mama no peito durante uns 40 minutos, a cada duas ou três horas, mas parece que ele não está conseguindo mamar bem.\n**- Diurese e catarse:** Sem alterações, tenho que trocar as fraldas entre sete a oito vezes por dia.\n**- Sinais e sintomas acompanhantes:** Eu acredito que ele está saudável. Não tenho notado nada de anormal.\n**- Antecedentes pessoais e familiares:** Não consta.\n**- Antecedentes perinatais (pré-natal | parto | pós-natal):** Todos os dados constam na caderneta da saúde dele.\n**- Medicações:** Nega.\n**- Alergias:** Nega.\n**- Medicações de uso contínuo:** Nega.\n**- Triagens neonatal:** Ele fez alguns testes. Estou aqui com os exames. A Dr(a) quer ver?\n\nDÚVIDAS:\n- Pergunta 1: O que isso significa? Isso é grave?\n- Pergunta 2: Tem que fazer alguma cirurgia?\n\nOUTRAS PERGUNTAS:\n- Não consta no SCRIPT.\n\n-------------------- IMPRESSOS -----------------------------------------------\n\n- Se solicitado o CADERNETA DE SAÚDE DA CRIANÇA, libere: Impresso 1.\n- Se perguntado sobre TESTE DO CORAÇÃOZINHO, libere: Impresso 2.\n- Se perguntado sobre TESTE DA ORELHINHA, libere: Impresso 3.\n- Se perguntado sobre TESTE DA LINGUINHA, libere: Impresso 4.\n- Se perguntado sobre TESTE DO OLHINHO, libere: Impresso 5.\n- Se perguntado sobre TESTE DO PEZINHO, libere: Impresso 6.\n- Se solicitado o EXAME FÍSICO, libere: Impresso 7.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA SAÚDE DA CRIANÇA ",
+      "conteudo": "**Dados da gestação:** 7 consultas pré-natais, ultrassom morfológico sem alterações.  \n\n**Dados maternos:** 28 anos, G2P2A0, sem intercorrências e medicamentos durante a gestação, exceto vitaminas, ácido fólico e sulfato ferroso. Testes sorológicos inocentes.  \n\n**Dados do parto:** Vaginal.  \n\nIdade gestacional: 39 semanas e 5 dias.  \n\n\n\n**DADOS DO RECÉM-NASCIDO:**  \n\n**-Peso do nascimento:** 3.250 g;  \n\n**-Comprimento:** 50 cm;  \n\n**-Perímetro cefálico:** 35 cm;  \n\n**-APGAR:** 9/10/10.  \n\n**-Amamentado na 1ª hora.  **\n\n\n\n**Ortolani:** Negativo.  \n\n\n\n**Vacinas recebidas:** BCG, Hepatite B Vírus 1ª dose.  \n\n**Peso de alta hospitalar (2º dia):** 3.380 g.",
+      "imagem": "https://app.penserevalida.com/impressos/05/teste-linguinha_f_improf_259x172.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "TESTE DA ORELHINHA",
+      "conteudo": "** Teste auditivo (EOA): ** Normal.",
+      "imagem": "https://app.penserevalida.com/impressos/05/teste-linguinha_f_improf_259x172.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "TESTE DO CORAÇÃOZINHO",
+      "conteudo": "**Teste de coraçãozinho:**\n\n**Pré-ductal - Mão direita: **Saturação de O2 95%.\n\n**Pós-ductal - Pé esquerdo: **Saturação de O2 96%.",
+      "imagem": "https://app.penserevalida.com/impressos/05/teste-linguinha_f_improf_259x172.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "TESTE DA LINGUINHA",
+      "conteudo": "** DIRIJA-SE PARA A CÂMERA E DESCREVA OS ACHADOS NA IMAGEM.**",
+      "imagem": "https://app.penserevalida.com/impressos/05/red-reflex.webp"
+    },
+    {
+      "idx": 5,
+      "titulo": "TESTE DO OLHINHO",
+      "conteudo": "** DIRIJA-SE PARA A CÂMERA E DESCREVA OS ACHADOS NA IMAGEM.**",
+      "imagem": "https://app.penserevalida.com/impressos/05/gdpcVcRBPc5LblxPhdqCNtqPpbp1Osyc_med.jpg"
+    },
+    {
+      "idx": 6,
+      "titulo": "TESTE DO PEZINHO",
+      "conteudo": "** DIRIJA-SE PARA A CÂMERA E DESCREVA OS ACHADOS NA IMAGEM.**",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**-Peso:** 3,5 kg (Z escore 0).\n\n**-Comprimento:** 50 cm (Z escore 0).\n\n**-PC:** 35 cm (Z escore 0).\n\n\n\n**EXAME FÍSICO GERAL:** Bom estado geral, corado, hidratado, acianótico, anictérico, afebril, eupneico, sem desconforto respiratório, sem linfonodomegalia, ativo, reativo. Mamada observada durante a consulta está adequada.\n\n\n\n**Respiratório:** Murmúrios vesiculares presentes bilateralmente, sem ruídos adventícios.\n\n\n\n**Cardiovascular:** Bulhas rítmicas, normofonéticas, em dois tempos, sem sopros.\n\n\n\n**Abdome:** Globoso, flácido, levemente distendido, sem visceromegalias, ruídos hidroaéreos presentes.\n\n\n\n**Membros inferiores:** Sem edemas, boa perfusão periférica, tempo de enchimento capilar menor que 3 segundos.\n\n\n\n**Fontanelas:** Anterior e posterior normotensas.\n\n\n\n**Períneo:** Testículos presentes no saco escrotal, fimose fisiológica.\n\n\n\n**Coluna:** Sem alterações.\n\n\n\n**Pele:** Mancha mongólica na região das nádegas, sem outros achados.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se à mãe simulada, pergunta o nome da mãe e da criança.**\n\n**Adequado:** Pergunta os dois itens. \n**Inadequado:** Pergunta somente um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Solicita:**\n(1) Caderneta de saúde da criança; e\n(2) Cartão de vacinas.\n\n**Adequado:** Pergunta os dois itens.\n**Inadequado:** Pergunta somente um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Inicia a anamnese com pergunta aberta sobre o motivo de consulta.**\n\n**Adequado:** Investiga motivo da consulta. \n**Inadequado:** Não investiga motivo de consulta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga sinais e sintomas associados à queixa principal;**\n\n**Adequado:** Investiga. \n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta:**\n(1) Antecedentes pré-natais;\n(2) GPAC;\n(3) Idade gestacional.\n\n**Adequado:** Pergunta os três itens.\n**Parcialmente adequado:** Pergunta de um a dois itens.\n**Inadequado:** Não pergunta nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre antecedentes natais:**\n(1) Via de parto;\n(2) Intercorrências durante o parto;\n(3) APGAR;\n(4) Tônus, choro e respiração espontânea;\n(5) Necessidade de internação.\n\n**Adequado:** Pergunta de quatro a cinco itens.\n**Parcialmente adequado:** Pergunta de dois a três itens.\n**Inadequado:** Pergunta um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre:**\n(1) Alergias;\n(2) Medicações;\n(3) Vacinas.\n\n**Adequado:** Pergunta os três itens.\n**Inadequado:** Pergunta dois ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Pergunta sobre:**\n(1) Aleitamento materno;\n(2) Sono;\n(3) Diurese e catarse.\n\n**Adequado: **Pergunta três ou mais itens. \n**Parcialmente adequado:** Pergunta um ou dois itens. \n**Inadequado:** Pergunta nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita teste da orelhinha e interpreta como normal.**\n\n**Adequado:** Solicita e interpreta adequadamente. \n**Inadequado:** Não solicita ou não interpreta corretamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita teste do coraçãozinho e interpreta como normal.**\n\n**Adequado:** Solicita e interpreta adequadamente. \n**Inadequado:** Não solicita ou não interpreta corretamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita teste da linguinha e interpreta como alterado: Presença de frênulo lingual encurtado ou aderente.**\n\n**Adequado:** Solicita e interpreta adequadamente.\n**Inadequado:** Não solicita ou não interpreta corretamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Solicita teste do olhinho e interpreta como alterado: Presença de leucocoria em olho direito.**\n\n**Adequado:** Solicita e interpreta adequadamente. \n**Inadequado:** Não solicita ou não interpreta corretamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita teste da pezinho e interpreta como normal.**\n\n**Adequado:** Solicita e interpreta adequadamente. \n**Inadequado:** Não solicita ou não interpreta corretamente.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Solicita exame físico e interpreta como normal.**\n\n**Adequado:** Pergunta os dois itens. \n**Inadequado:** Pergunta somente um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Encaminha o paciente para oftalmologista pediátrico.**\n\n**Adequado:** Encaminha.\n**Inadequado:** Não encaminha ao especialista.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Encaminha paciente para cirurgião pediátrico para realização de frenotomia.**\n\n**Adequado:** Encaminha.\n**Inadequado:** Não encaminha ao especialista.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Questiona dúvidas e despede-se cordialmente.**\n\n**Adequado:** Questiona as dúvidas.\n**Inadequado:** Não questiona sobre dúvidas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Não solicita exame de imagem.**\n\n**Adequado:** Não solicita exames de imagem. \n**Inadequado:** Solicita exame de imagem.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

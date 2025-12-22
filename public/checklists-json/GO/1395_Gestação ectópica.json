@@ -1,0 +1,199 @@
+{
+  "uid": 1395,
+  "hash": "f01999f0-a88f-4937-9ce0-aa572c6a78bf",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": null,
+  "color": "#ff4a64",
+  "checklist": "Gestação ectópica",
+  "definicao": "Define-se gravidez ectópica (GE) quando a implantação e o \ndesenvolvimento do blastocisto ocorrem fora da sede normal, ou seja, \nda grande cavidade corporal do útero. A localização mais frequente é a \ngravidez tubária (90% a 95% dos casos). No entanto, a gestação ectópica \npode ocorrer também na porção intersticial da tuba, no ovário, na cérvix, \nna cicatriz da cesárea e na cavidade abdominal quando denominamos \ngravidez não tubária. A incidência de GE é de 1% a 2%. A GE é considerada a \nprincipal causa de mortalidade materna no primeiro trimestre da gravidez. \nApós a ocorrência do primeiro quadro de gravidez ectópica, a recorrência \né de aproximadamente 15%; já nas mulheres com dois ou mais episódios \nprévios de gestação ectópica, essa taxa é de pelo menos 25%.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "71.00",
+    "star": "4.9",
+    "time": 579,
+    "count": 2889
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Terciária - Ambulatorial e Hospitalar.\n\nA unidade possui infraestrutura compatível com a complexidade hospitalar OU Considere que todos os recursos necessários para atendimento estão disponíveis.\n\nDescrição do caso:\nVocê recebe na atenção médica espontânea uma gestante com queixa de dor abdominal súbita.",
+  "tarefas": "1  - Realizar o atendimento inicial;\n2- Solicitar e interpretar o exame físico;\n3 - Solicitar e interpretas exames complementares;\n4 - Informar o diagnóstico;\n5- Esclarecer as condutas a serem seguidas",
+  "script_ator": "Therezinha, 42 anos, casada, advogada, G1P0A0, 6 semanas de gestação\n\n**Motivo de consulta:** Dr(a) eu estava em casa com meu esposo quando comecei a sentir uma dor muito forte a ponto de quase me fazer desmaiar\n\n**SOBRE  O MOTIVO DE CONSULTA:**\n**APARIÇÃO:** Tem uns 10 minutos;\n**Localização:** É aqui na minha barriga \n**Intensidade:** 10/10\n**Característica:** Parece que tem algo me furando, é uma dor que mistura uma pontada com uma cólica\n**Irradiação:** Vem aqui para a minha escápula \n**Atenuantes e ou Agravantes:** Não tem nada que melhore ou piore\n\n**SINTOMAS ACOMPANHANTES**\n**Perda sanguínea:** Não Dr(a), até agora não \n**Náuseas e vômitos**: Sim, vomitei de tanta dor e agora sigo com náuseas\n\n**ANTECEDENTES PESSOAIS**\n**COMORBIDADES:** Não tenho nenhuma\n**Uso crônico de medicação:** Estou tomando suplementação de vitaminas\n**Alergias:** Não tenho nenhuma  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS**\n**DUM:** Não consigo me lembrar com tanta dor, mas estou de 6 semanas de gestação \n**Semana gestacional:** 6 semanas \n**Caderneta da gestante:** Não lembrei de trazer, só vim o mais rápido possível para a consulta \n**Intercorrência na gestação:** Até o momento vinha tudo bem \n**Gestação planejada?** Sim Dr(a), eu e meu esposo buscamos muito essa gestação, estávamos tentando a 7 anos e conseguimos na terceira Fertilização In Vitro, é a realização de um sonho, por favor, nos ajude para que o bebe fique bem\n\n**Realização de USG prévia:** Ainda não realizei nenhuma",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- Pressão arterial: 80x50 mmHg\n\n- Frequência cardíaca: 132 batimentos por minuto\n\n- Frequência respiratória: 16 incursões por minuto\n\n- Saturação de O2: 99%\n\n- Temperatura axilar: 36.4° C\n\n\n\n**Estado Geral:** paciente em regular estado geral, orientado em tempo, espaço e pessoa, apresentando palidez cutaneomucosa\n\n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** abdome com reação peritoneal, descompressão brusca dolorosa e diminuição de ruídos hidroaéreos intestinais, sem sinais de ascite.\n\n\n\n**Exame especular**: Colo uterino normo epiteliazdo, fechado, sem saída de secreção aparente. \n\n\n\n**Toque vaginal:** Abaulamento do fundo de saco posterior com intensa dor",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Beta HCG qualitativo ",
+      "conteudo": "Positivo.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "USG Transvaginal ",
+      "conteudo": "Se observa líquido livre na cavidade peritoneal.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se (1) e pergunta o nome da paciente (2).**\n\n**Adequado:** realiza as duas ações.\n**Inadequado:** não realiza nenhuma das ações ou realiza apenas uma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre a história reprodutiva (gestações e partos).**\n\n**Adequado:** pergunta.\n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta a data da última menstruação (1). **\n**Pergunta sobre ciclos menstruais antes da gravidez (2).**\n\n**Adequado:** pergunta os dois itens.\n**Parcialmente adequado:** pergunta apenas um dos itens.\n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta se a gravidez foi planejada/desejada**\n\n**Adequado:** Pergunta\n**Inadequado:** Não pergunta",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta sobre alguma intercorrência recente (p. ex. acidente, violência doméstica, uso de medicamento não prescrito, tentativa de induzir abortamento).**\n\n**Adequado:** pergunta 2 ou mais dos itens descritos.\n**Parcialmente adequado:** pergunta 1 dos itens descritos.\n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6.** Investiga **\nDoenças crônicas (1) \nUso de medicamentos (2) \nHábitos tóxicos (3).\n\n**Adequado:** Investiga os três itens.\n**Parcialmente adequado:** Investiga ao menos dois itens.\n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga o motivo de consulta**\n(1) Aparição;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Irradiação; \n(6) Atenuantes e agravantes;\n(7) Presença de  sintomas acompanhantes como: febre, náuseas, vômitos, perda sanguínea vaginal\n\n**Adequado:** Investiga os sete itens.\n**Parcialmente adequado:** Investiga três a seis itens.\n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. Solicita a caderneta da gestante.\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. Solicita exame físico.\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Identifica no exame físico**\n(1) Hipotensão arterial;\n(2) Taquicardia;\n(3) Palidez cutâneomucosa;\n(4) Descompressão brusca dolorosa a nível abdominal;\n(5) Abaulamento do fundo de saco posterior\n\n**Adequado:**Identifica os cinco itens.\n**Inadequado:** Não identifica os cinco itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita**\nBeta HCG\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita**\nUSG transvaginal\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. Diagnóstica o quadro como:\nGestação ectópica ou Gravidez tubária rota\n\n**Adequado:** Diagnóstica.\n**Inadequado:** Não diagnostica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. Informa que a única conduta para o caso é a realização de laparotomia com urgência.\n\n**Adequado:** Informa/indica realização de laparotomia, com ugência.\n**Inadequado:** Não informa/indica realização de laparotomia, ou não caracteriza com urgência.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

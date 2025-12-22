@@ -1,0 +1,180 @@
+{
+  "uid": 1046,
+  "hash": "DgaMQMzhkPExHDKkiu39D7h3",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Afogamento",
+  "definicao": "Afogamento é a entrada de líquido nas vias aéreas (traqueia, brônquios ou pulmões), causada por afundamento ou mergulho, que provoca falta de oxigênio no sangue afetando todos os órgãos e tecidos, sendo a terceira causa de morte acidental.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "67.50",
+    "star": 0,
+    "time": 518.5,
+    "count": 5789
+  },
+  "cenario": "Local de atuação: Unidade de atenção secundária.\nA unidade possui infraestrutura completa para atendimento de emergências, incluindo equipamentos de ressuscitação e suporte avançado de vida.\n\nDescrição do Caso:\nVocê é o médico de plantão e vai atender uma criança de 2 anos, que, segundo relato materno, se afogou na piscina recentemente.",
+  "tarefas": "- Realizar anamnese do paciente;\n- Solicitar e interpretar exame físico;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Solicitar exames complementares, se necessário, descrevendo os achados;\n- Propor conduta terapêutica;\n- Dar orientações ao paciente e sanar dúvidas.\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS DA MÃE**\n- Maria, 32 anos, professora;\n\n**DADOS DA CRIANÇA**\n- Helena, 2 anos\n\n**MOTIVO DE CONSULTA:**\n- Dra, eu estava em casa com minha filha brincando e fui até a porta rapidamente para atender a campainha; quando voltei, minha filha estava se afogando na piscina.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n**- Quando ocorreu o acidente:** Agora, há cerca de uns 10 minutos.\n**- Tempo do evento e da submersão:** Acredito que foi rápido, Dra. Ela estava na água se debatendo e quando a tirei da água, ela começou a tossir e uma espuma saiu da sua boca;\n**- Tipo de líquido em que a criança ficou submersa:** água da piscina;\n**- Necessidade de manobras de ressuscitação no local:** não;\n**- História de trauma associado:** não;\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**- Tosse, cianose, sinais de dificuldade respiratória:** Nega\n**- Náuseas, vômitos:** Nega\n**- Perda da consciência, movimentos involuntários:** Nega\n\n**ANTECEDENTES PESSOAIS:**\n- Nega\n\n**ANTECEDENTES PERINATAIS (PRÉ-NATAL | PARTO | PÓS-NATAL):**\n- Ela não apresentou nenhuma complicação ou intercorrência. Sempre foi muito saudável.\n\n**ALIMENTAÇÃO:**\n- A alimentação é variada e apropriada para a idade.\n\n**DIURESE E CATARSE:**\n- Normais para a idade.\n\n**ALERGIAS:**\n- Ela não tem alergia a nenhuma medicação.\n\n**MEDICAÇÕES DE USO CONTÍNUO OU RECENTE:**\n- Nega\n\n**CADERNETA DE VACINA/CRIANÇA:**\n- Está em dia.\n\n**ANTECEDENTES FAMILIARES:**\n- Nega\n\n**DÚVIDAS:**\n**-Pergunta 1:** Ela vai poder ir para casa?\n**-Pergunta 2:** O que posso fazer para evitar que isso ocorra novamente?\n\n**OUTRAS PERGUNTAS**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FICHA DA TRIAGEM",
+      "conteudo": "**- Sexo:** Feminino \n\n**-Classificação:** Vermelho",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699069206.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "**-Temperatura:** 36.8°C\n\n**-Frequência Cardíaca:** 115 bpm\n\n**- Frequência Respiratória: **25 rpm\n\n**- Pressão Arterial:** 95/60 mmHg (considerar adequada para a idade)\n\n**- Saturação de Oxigênio (O2):** 96%",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699069206.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "A - VIA AEREA",
+      "conteudo": "**A - Vias aéreas:** Vias aéreas pérvias, sem sinais de obstrução.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699069206.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "B - RESPIRAÇÃO",
+      "conteudo": "**B - Respiração:** sinais de aspiração de leve a moderada quantidade de líquido. Apresenta tosse com pouca espuma, ausculta com presença de estertores, porém sem repercussões hemodinâmicas;",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699069206.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "C - CIRCULAÇÃO",
+      "conteudo": "**C - Circulação:** Pulso e pressão arterial dentro dos parâmetros normais para a idade, perfusão capilar adequada.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699069206.jpg"
+    },
+    {
+      "idx": 6,
+      "titulo": "D -  DÉFICIT NEUROLÓGICO",
+      "conteudo": "**D - Déficit neurológico:** Estado de consciência preservado (Escala de Glasgow 15/15), sem déficits focais.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699069206.jpg"
+    },
+    {
+      "idx": 7,
+      "titulo": "E - EXPOSIÇÃO",
+      "conteudo": "**E - Exposição:** Sem sinais de hipotermia, pele rosada e quente ao toque.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699069206.jpg"
+    },
+    {
+      "idx": 8,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "**pH: **7.38\n\n**PaCO2:** 40 mmHg\n\n**PaO2**: 75 mmHg\n\n**HCO3: **24 mEq/L\n\n**SaO2: **95%",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699069206.jpg"
+    },
+    {
+      "idx": 9,
+      "titulo": "RADIOGRAFIA DE TORAX",
+      "conteudo": "**LAUDO:**\n\nCampos pulmonares sem alterações.\n\nTamanho e contornos cardíacos normais.\n\nCostelas e diafragma sem sinais de fraturas ou elevações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) identifica-se;\n(2) cumprimenta a mãe de maneira adequada/cordial;\n(3) encaminha paciente para sala vermelha;\n(4) verbaliza que se paramentou ou cita uso de EPI's;\n(5) indica paramentação de equipe.\n\n**Adequado:** realiza os cinco itens.\n**Parcialmente adequado:** realiza de dois a quatro itens.\n**Inadequado:** realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Verbaliza avaliação do paciente seguindo (ABCDE)**\n\n**Adequado:** Verbalizar corretamente;\n**Parcialmente adequado:** Solicitar exame físico, mas não mencionar ABCDE;\n**Inadequado:** Não verbaliza nenhum dos itens;",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona sobre a queixa principal**\n(1) como ocorreu o acidente;\n(2) tempo do evento e da submersão;\n(3) tipo de líquido em que a criança ficou submersa;\n(4) necessidade de manobras de ressuscitação no local;\n(5) trauma associado;\n\n**Adequado:** pergunta os 5 itens\n**Parcialmente adequado:** pergunta de 3 ou 4 itens.\n**Inadequado:** pergunta 2 dos itens descrito.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre outras queixas**\n(1) Tosse, cianose, sinais de dificuldade respiratória.\n(2) Náuseas, vômitos.\n(3) Perda da consciência, movimentos involuntários.\n\n**Adequado:** pergunta os 3 itens \n**Parcialmente adequado:** investiga 2 itens.\n**Inadequado:** não pergunta, ou pergunta apenas 1 item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre a existência de comorbidades.**\n\n**Adequado:** pergunta.\n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames complementares:**\n(1) Radiografia de tórax;\n(2) Gasometria arterial;\n\n**Adequado:** Solicita os dois itens descritos.\n**Inadequado:** Não solicita nenhum ou um dos itens descritos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbalização de diagnóstico e classificação**\n(1) Afogamento por submersão não fatal, sem complicações respiratórias;\n(2) Classificação grau 2.\n\n**Adequado:** verbaliza diagnóstico e classificação correta.\n**Parcialmente adequado:** verbaliza diagnóstico, porém não descreve classificação.\n**Inadequado:** não verbaliza diagnóstico nem classifica paciente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Conduta:**\nObservação por 48 horas em serviço hospitalar para monitorização de padrão respiratório e aquecimento.\n\n**Adequado:** Indica corretamente o tempo e local de permanência.\n**Inadequado:** Não indica observação e libera criança para casa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Questiona se mãe possui dúvidas e responde de forma clara e despede-se.**\n\n**Adequado:** Responde ás dúvidas e despede-se \n**Inadequado:** não responde as dúvidas nem despede-se",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

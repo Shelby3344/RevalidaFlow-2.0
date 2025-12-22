@@ -1,0 +1,222 @@
+{
+  "uid": 1333,
+  "hash": "LEz2VzN4NRJbxCWNDi5UavQY",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Sífilis Gestacional",
+  "definicao": "A sífilis é uma infecção sexualmente transmissível causada pela bactéria (espiroqueta) Treponema pallidum. Continua sendo uma infecção de transmissão sexual (IST) muito frequente, com potencial acometimento grave do feto e do recém-nascido, se ocorrer a transmissão congênita em decorrência de ausência ou da inadequação de tratamento.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "40.50",
+    "star": 0,
+    "time": 499,
+    "count": 7903
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Primária.\nTipo de atendimento: Ambulatorial  - Unidade de Saúde da Família. \n\nA unidade possui a seguinte infraestrutura:\n-Sala de atenção médica; \n-Laboratório de análises clinicas; \n-Aparelho de USG.\n\nDESCRIÇÃO DO CASO\nPaciente do sexo feminino, 25 anos, com 10 semanas de gestação, comparece para sua segunda consulta pré-natal, trazendo exames solicitados por você na primeira consulta.\n\nOBS: não foram solicitados teste sorológicos por problemas no laboratório da Unidade de Saúde",
+  "tarefas": "- Realizar anamnese direcionada;\n- Solicitar exame físico direcionado;\n- Verbalizar a Hipótese diagnóstica;\n- Verbalizar a conduta terapêutica necessária para o quadro apresentado.",
+  "script_ator": "**DADOS PESSOAIS**\n- Aline, 25 anos, estudante. \n\n**MOTIVO DE CONSULTA** \n- Dr(a) eu vim para o retorno que você pediu quando os meus exames estivessem prontos.\n\n**Caso o candidato pergunte sobre os exames trazidos, liberar o impresso 1.**\n\n**SINTOMAS ASSOCIADOS**\n**- Corrimentos:** Nega.\n**- Prurido genital:** Nega.\n**- Sangramentos vaginais:** Nega.\n**- Lesões vulvares:** Nega.\n\n**ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS**\n**-Gestas:** É a minha primeira gestação.\n**- Partos:** 0. \n**- Abortos:** 0.\n**- Its previas:** Nega.\n**-DUM:** Não me lembro.\n**- Regularidade dos ciclos menstruais:** Meus ciclos menstruais eram regulares.\n**- Duração dos ciclos menstruais:** Geralmente eu sangro por 6 dias. \n**-Uso de preservativos nas relações sexuais:** Não Dr(a), eu não gosto de usar, acho que diminui a sensação na hora. \n\n**ANTECEDENTES PESSOAIS**\n**- Alergias:** Sou alérgica a pólen.\n**- Status vacinal:** Não lembro onde esta o meu caderninho de vacinas, só lembro que eu tomei as de COVID-19, mas quando vim da última vez você me disse que eu tinha que tomar umas vacinas por estar gravida, você pode me relembrar quais são ? \n**- Animais domésticos ou hábitos alimentários:** Eu tenho 2 gatos em casa // Como super bem, e o que não pode faltar é uma carne bem vermelhinha.\n\n**Caso o candidato pergunte sobre a relação com o progenitor do feto:** Ai Dr(a), ele serviu só pra fazer o filho mesmo, quando engravidei ele não quis nem saber de mim e ai eu estou vivendo minha vida sabe, conhecendo pessoas novas, estou gravida mas não estou morta.\n**- Comorbidades:** Nega. \n**- Uso de medicações continuas:** Nega.\n\n**HÁBITOS**\n**-  Etilismo:** Nega.\n**- Tabagismo:**  Nega.\n**- Uso de drogas ilícitas:** Nega.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exames trazidos pela paciente",
+      "conteudo": "**Hemograma Completo:**\n\n**Hemoglobina: **12 (Valor de Referencia: 12-16).\n\n**Hematócrito:** 36 (Valor de Referencia: 36-48).\n\n**Leucócitos:** 6.000 (Valor de Referencia: 3.700-10.000). \n\n**Plaquetas:** 200.000 (Valor de Referencia: 150.000-450.000).\n\n\n\n**Tipagem sanguínea:** O+. \n\n\n\n**EAS e Urocultura:** Sem alterações. \n\n\n\n**Glicemia de jejum:** 76 mg/dl (Valor de referência: 70 - 110 mg/dl).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Sinais Vitais",
+      "conteudo": "Bom estado geral. \n\n\n\n**Pressão Arterial** 120 x 70mmHg.\n\n**Frequência Cardíaca** 85 bpm.\n\n**Frequência Respiratória** 15 irpm.\n\n**SatO2 **99% AA.\n\n**Temperatura axilar** 36.7.\n\n\n\n**IMC:** 20.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame Físico",
+      "conteudo": "**Ectoscopia geral: **Sem alterações. \n\n**Abdome:** Presença de útero gravídico, Tônus conservado, BCF 148bpm.\n\n**Exame especular e Toque vaginal**: Sem alterações. \n\n**Inspeção da vulva** Sem lesões.\n\n**Extremidades: **Sem edemas.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Sorologia",
+      "conteudo": "**HBsAg IgM **Negativo // **IgG** Positivo. \n\n**Hepatite C** Negativo.\n\n**VDRL **1:16. \n\n**HIV** Negativo. \n\n**Toxoplasmose IgM** Negativo e **IgG** Negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "USG transvaginal /obstétrica",
+      "conteudo": "Gestação tópica de 10 semanas, com feto único vivo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Apresenta-se, cumprimentando a paciente e/ou falando seu nome e/ou questionando o nome dela;\n(2) Pergunta o motivo da consulta/queixa principal da paciente. \n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza apenas uma ação. \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0.1",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta: **\n(1) Data da última menstruação;\nOU \n(2) Pergunta idade gestacional. \n\n**Adequado:** Pergunta. \n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga sintomas acompanhantes como : **\n(1) Náuseas;\n(2) Vômitos; \n(3) Pirose; \n(4) Perca de líquido; \n(5) Polaciúria;\n(6) Sangramento; \n(7) Edema. \n\n**Adequado:** Investiga quatro sintomas.\n**Parcialmente adequado:** Investiga dois ou três sintomas.\n**Inadequado:** Investiga somente um dos sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita:**\n(1) Cartão de pré-natal;\n(2) Calendário vacinal.\n\n**Adequado:** Solicita os dois itens. \n**Parcialmente adequado:** Solicita somente um dos itens. \n**Inadequado:** Solicita nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Responde à paciente sobre as vacinas necessárias na gravidez: **\n(1) Dtpa a partir de 20º semanas;\n(2) Influenza;\n(3) Covid-19;\n(4) Hepatite B, caso haja necessidade de completar ou iniciar esquema;\n(5) VSR ( entre 24 e 36 semanas de gestação).\n\n**Adequado:** informa os cinco itens.\n**Parcialmente adequado:** informa quatro ou três itens.\n**Inadequado:** informa menos de dois itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.40",
+        "adequado": "0.80"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita** \n(1) Exame físico;\n(2) Sinais vitais.\n\n**Adequado:** Solicita os dois itens. \n**Parcialmente adequado:** Solicita somente um dos itens. \n**Inadequado:** Não solicita nenhum dos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.20",
+        "adequado": "0.40"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita sorologia para: **\n(1) HIV; \n(2) Sífilis; \n(3) Hepatite C; \n(4) Hepatite B; \n(5) Toxoplasmose.\n\n**Adequado:** Solicita as cinco sorologias. \n**Parcialmente adequado: **Solicita três ou quatro sorologias. \n**Inadequado:** Solicita duas sorologias OU não solicita nenhuma sorologia.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.40",
+        "adequado": "0.80"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Após a leitura do impresso 4 foi capaz de identificar/verbalizar:**\n(1) VDRL positivo; \n(2) Susceptibilidade à Toxoplasmose.\n\n**Adequado:** Identifica/verbaliza os dois itens. \n**Parcialmente adequado: **Identifica/verbaliza somente VDRL positivo. \n**Inadequado:** Não identifica/verbaliza nenhum dos itens OU somente identifica/verbaliza susceptibilidade à Toxoplasmose.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza:**\n(1) O diagnostico de Sífilis latente tardia OU Sífilis de duração desconhecida;\n(2) Questiona alergia à penicilina.\n\n**Adequado:** Verbaliza os dois itens. \n**Parcialmente adequado:** Verbaliza somente o item (1). \n**Inadequado:** Não verbaliza nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Investiga tratamentos prévios para Sífilis OU histórico de lesões genitais. **\n\n**Adequado:** Investiga. \n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Prescreve:** \n(1) Penicilina Benzatina;\n(2) 2.400.000 UI (IM);\n(3) Sendo 1.200.00 em cada glúteo;\n(4) Em 1 dose semanal por 3 semanas; \n(5) Com intervalos não superiores a 9 dias.\n\n**Adequado:** Realiza a prescrição de Penicilina Benzatina de forma completa verbalizando de três a quatro itens sobre a administração da medicação \n**Parcialmente adequado:** Realiza a prescrição de Penicilina Benzatina verbalizando de um a dois itens sobre a administração da medicação \n**Inadequado:** Realiza a prescrição de Penicilina Benzatina sem informar nenhum dado sobre administração da medicação",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "Em gestantes qualquer interpretação  positiva seja em teste Treponemico ou não treponemico nos obriga a iniciar o tratamento de forma inmediata em caso de não alergia a Penicilina.   ATUALIZAÇÃO  em 2023 o MS lançou nota de que os intervalos podem ser de até 9 dias e não mais 7."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Informa: **\n(1) Necessidade de monitoramento mensal da sorologia VDRL até o parto; \n(2) Convoca parceiro(s) sexuais.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza somente o item (1).\n**Inadequado:** Não realiza o item (1) OU realiza somente o item (2).",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.85"
+      },
+      "dica_teorica": "É considerada resposta adequada ao tratamento a ocorrência de queda de duas diluições dos testes não treponêmicos em três meses, ou de quatro diluições em seis meses após a conclusão do tratamento (exemplo: prétratamento 1:64 e, em três meses, 1:16 ou, em seis meses, 1:4)."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Informa: **\n(1) Necessidade de atualizar a caderneta da gestante com o achado do exame; e \n(2) A cada dose do tratamento. \n\n**Adequado:** Informa os dois itens. \n**Parcialmente adequado:** Informa somente um item.\n**Inadequado:** Não informa nenhum dos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.65"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Solicita USG obstétrica ou USG transvaginal. **\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15.**Realiza:**\n(1) Notificação do caso;\n(2) Encaminha para pré-natal de alto risco.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item. \n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.50",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

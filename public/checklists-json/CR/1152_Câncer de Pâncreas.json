@@ -1,0 +1,211 @@
+{
+  "uid": 1152,
+  "hash": "Dnv4hzpMTgKPzByoDYTZjXMD",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Câncer de Pâncreas",
+  "definicao": "Neoplasia maligna originada do tecido glandular pancreático, que afeta principalmente a região da cabeça do pâncreas (periampular).",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "78.00",
+    "star": 0,
+    "time": 569,
+    "count": 6814
+  },
+  "cenario": "Local de atuação: Atenção Secundária: Ambulatório de Cirurgia Geral. \n\nDescrição do caso: \nHomem branco de 66 anos de idade, aposentado, procura atendimento após ser encaminhado pela UBS. Ele apresenta queixa de dor abdominal há 2 meses, perda de 20 kg em 3 meses e icterícia. \n\nATENÇÃO! CASE JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE. O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO!",
+  "tarefas": "Realizar anamnese do paciente; \nSolicitar e interpretar exame físico direcionado; \nSolicitar e interpretar os exames complementares, se necessário; \nEstabelecer e comunicar hipótese diagnóstica utilizando habilidades de comunicação; \nVerbalizar diagnósticos diferencias (mínimo 2);\nPropor conduta para o paciente e fornecer orientações. \n\nAtenção: as tarefas devem ser realizadas na ordem descrita acima!",
+  "script_ator": "**DADOS PESSOAIS:**\nRafael, 66 anos, casado, aposentado.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a) me encaminharam lá da UBS do meu bairro, eu consultei por que estava com dor de barriga e também fiquei meio amarelo. \n\n**SOBRE A DOR ABDOMINAL**\n- **Inicio:** há uns 6 meses.\n- **Localização:** mais do lado direito puxando aqui pro estômago (epigástrio e hipocôndrio direito.\n- **Características:** contínua e progressiva.\n- **Intensidade:** 4/10.\n- **Irradiação:** vai até as costas.\n- **Fatores agravantes e/ou atenuantes:** nega.\n- **Relação com alimentação:** sem relação.\n- **Primeiro episódio:** sim.\n\n**SE PERGUNTA SOBRE A ICTERÍCIA:**\n- **Inicio**: há 1 mês.\n- **Progressão:** achei que foi piorando com o tempo.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n- **Anorexia:** sim, há 2 meses.\n- **Náuseas:** sim.\n- **Vômitos:** não.\n- **Icterícia:** sim, há 1 mês.\n- **Acolia Fecal**: sim, minhas fezes estão mais branquinhas, tem 1 mês já.\n- **Prurido cutâneo**: sim, há 1 mês.\n-**Colúria OU alteração na característica da urina:** sim. Está escura. \n- **Astenia: **sim, estou bastante cansado.\n\n**SOBRE PERDA DE PESO:**\n- Perdi uns 15 kg nos últimos 3 meses.\n\n**ANTECEDENTES PESSOAIS:**\n- **Comorbidades:** hipertensão, gastrite crônica, diabetes mellitus tipo 2.\n- **Uso de medicamentos:** losartana 50 mg/dia, hidroclorotiazida 25 mg/dia, omeprazol 20 mg/dia e metformina 850 mg/2 vezes ao dia.\n- **Alergias:** nega.\n- **Cirurgias prévias:** nega.\n\n**HÁBITOS:**\n- **Fuma:** sim, há uns 25 anos, 2 maços por dia.\n- **Bebe:** sim, bebo umas 3 ou 4 vezes por semana, uns 2 copinhos de pinga e algumas cervejas.\n- **Drogas:** nega. \n- **Dieta:** como mais arroz, feijão com carne, linguiça, não gosto muito de frutas e verduras não.\n\n**ANTECEDENTES FAMILIARES **\n- Minha mãe tinha hipertensão e meu pai morreu com câncer no intestino.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico / Antropometria",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão** **arterial**: 140x88 mmHg \n\n- **Frequência** **cardíaca**: 88 batimentos por minuto \n\n- **Saturação** **de** **O2**: 98% \n\n- **Temperatura** **axilar**: 36.3° C \n\n- **Frequência** **respiratória**: 16 incursões por minuto \n\n\n\n- **IMC**: 18 kg/m2\n\n\n\n**Estado geral: **paciente em bom estado geral, orientado em tempo, espaço e pessoa, emagrecido, hipocorado 1+/4+, hidratado, acianótico e ictérico 3+/4+. \n\n\n\n**Aparelho** **cardiovascular**: Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Aparelho** **respiratório**: Ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados. \n\n\n\n**Aparelho** **abdominal**: Abdome plano, flácido, presença de massa palpável, arredondada abaixo do bordo costal direito, de consistência fibroelástica, indolor, dor à palpação profunda em quadrante superior direito abdominal, ruídos hidroaéreos presentes, descompressão brusca negativa.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**:\n\n**Hemoglobina**: 12,5 g/dl (Valor de referência: 13 a 15 mg/dl)\n\n**Hematócrito**: 38% (Valor de referência: 41 - 54%)\n\n\n\n**Leucograma:**\n\n**Leucócitos**: 3500/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos**: 65% (Valor de referência: 40 - 70%)\n\n**Bastões**: 2% (Valor de referência: 0 - 5%)\n\n**Linfócitos**: 25% (Valor de referência: 20 - 50%)\n\n**Basófilos**: 1% (Valor de referência: 0 - 2%) \n\n**Eosinófilos**: 2% (Valor de referência: 0 - 6%)\n\n**Monócitos**: 4% (Valor de referência: 4 - 8%)\n\n\n\n**Plaquetas**: 165.000/mm3 (Valor de referência: 150.000-450.000/mm3)\n\n\n\n**Glicemia de Jejum**: 199 mg/dl (70 - 110 mg/dl)\n\n**Hemoglobina Glicada:** 9% (Valor de Referência <5,6%)\n\n\n\n**Creatinina**: 1,4 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia**: 54 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**Amilase:** 21 U/L (Valor de referência: 20 - 160 mg/dl)\n\n**Lipase:** 22 U/L (Valor de referência: 8 - 60 mg/dl)\n\n\n\n\n\n**TGO:** 180 U/l (Valor de referência: 0 – 35 U/l)\n\n**TGP:** 194 U/l (Valor de referência: 0-35 U/l)\n\n**FA:** 348 U/l (Valor de referência: 30 – 120 U/l)\n\n**GGT:** 138 U/l (Valor de referência: 1 – 94 U/l)\n\n**Bilirrubina total: **18,8 \n\nmg/dl (Valor de referência (0,3 - 1,0 mg/dl) \n\n**Bilirrubina indireta: **2,4 mg/dl (Valor de referência: 0,2 - 0,7 mg/dl)\n\n**Bilirrubina direta:** 16,4 mg/dl (Valor de referência: 0,1 - 0,3 mg/dl)\n\n\n\n**INR:**1,8 (Valor de referência 0,8-1,2).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Tomografia Computadorizada de Abdome",
+      "conteudo": "Massa sólida em cabeça do pâncreas com 5 cm de diâmetro, com sinais de invasão duodenal e de vasos mesentéricos. Dilatação acentuada das vias biliares intra e extra-hepáticas. Vesícula biliar aumentada de volume, com paredes finas e conteúdo homogêneo em seu interior.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Marcadores Sorológicos",
+      "conteudo": "** Antígeno Carcinoembrionário:** 12 ng/mL (Valor de Referência: 0,2 a 5 ng/ml). \n\n** CA 19.9: **950 U/mL (Valor de Referência: 0,6 a 37 U/mL).",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Biopsia de pâncreas ",
+      "conteudo": "Adenocarcinoma ductal de pâncreas, infiltrativo, grau moderado.\n\nAchados compatíveis com neoplasia pancreática exócrina, primária.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se; \n(2) Cumprimenta o paciente simulado. \n\n**Adequado:** realiza as duas ações. \n**Parcialmente adequado:** realiza uma ação.\n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre início dos sintomas:** \n(1) Tempo de evolução; \n(2) Localização; \n(3) Irradiação; \n(4) Características; \n(5) Intensidade; \n(6) Frequência/Primeiro episódio. \n\n**Adequado:** pergunta sobre cinco ou mais itens. \n**Parcialmente adequado:** pergunta sobre três ou quatro itens.\n**Inadequado:** pergunta sobre dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Em todos os casos relacionados à dor como motivo de consulta lembrar do mnemônico Alicia Fredusa: Aparição, Localização, Irradiação, Característica, Intensidade, Agravantes e Atenuantes, Frequência/Primeiro episódio, Duração e Sinais e Sintomas Acompanhantes."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre sinais e sintomas associados e fatores de melhora/piora:** \n(1) Náuseas; \n(2) Vômitos; \n(3) Febre; \n(4) Icterícia; \n(5) Colúria; \n(6) Acolia Fecal; \n(7) Perda de peso; \n(8) Prurido; \n(9) Astenia; \n(10) Anorexia.\n\n**Adequado:** pergunta sobre oito ou mais itens. \n**Parcialmente adequado:** pergunta entre cinco a sete itens.\n**Inadequado:** pergunta sobre quatro ou menos itens",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "A maioria dos pacientes são assintomáticos. A tríade clássica do ca de pâncreas inclui a dor abdominal (80% dos pacientes), perda ponderal (85%) e a icterícia colestásica (60%)."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga sobre antecedentes pessoais:** \n(1) Comorbidades; \n(2) Alergias; \n(3) Cirurgias; \n(4) Uso de medicamentos.\n\n**Adequado:** cita quatro itens. \n**Parcialmente Adequado:** cita dois ou três itens. \n**Inadequado:** cita um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A obesidade, diabetes mellitus, pancreatite crônica, câncer colorretal são fatores de risco relacionados ao câncer de pâncreas."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga sobre hábitos de vida:** \n(1) Tabagismo. \n(2) Etilismo; \n(3) Uso de drogas; \n\n**Adequado:** pergunta dois ou três itens. \n**Parcialmente adequado:** pergunta um item\n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Lembrar que o tabagismo é um fator de risco importante para o câncer de pâncreas. O etilismo é controverso, a prova objetiva do INEP 2023.2 não o aceitou como fator de risco, porém, algumas guias o mantêm, principalmente relacionado a inflamação crônica do pâncreas gerada pelo álcool."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Exame físico: **\n(1) Solicita permissão ao paciente para realizar o exame físico; \n(2) Paramenta-se; Lava as mãos e calça as luvas: \n\n**Adequado:** realiza ambas ações. \n**Parcialmente adequado:** realiza uma ação.\n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Identifica sinal de Courvoisier-Terrier (vesícula palpável por possível neoplasia de pâncreas periampular) no exame físico. \n \n ****Adequado:** verbaliza o achado. \n **Inadequado:** não verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.8"
+      },
+      "dica_teorica": "A vesícula palpável e indolor é decorrente da obstrução do ducto biliar comum, é característico de neoplasia de cabeça de pâncreas."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Exames Complementares I:** \n(1) Solicita Hemograma;\n(2) Leucograma;\n(3) TGO/TGP;\n(4) GGT;\n(5) FAL;\n(6) Glicemia em Jejum;\n(7) Bilirrubina total e frações;\n(8) Creatinina;\n(9) Ureia;\n(10) Amilase; (11) Lipase; \n(12) INR; \n(13) Hemoglobina Glicada.\n\n**Adequado:** solicita de onze a treze exames. \n**Parcialmente adequado:** realiza de oito a dez exames. \n**Inadequado:** cita sete ou menos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Exames Complementares II:** \n(1) Solicita TAC de Abdome. \n\n**Adequado:** solicita. \n**Inadequado:** não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Exames Complementares III: **\n(1) Biopsia de pâncreas \n (2) CA 19.9. \n \n **Adequado:** solicita ambos itens. \n**Parcialmente adequado:** solicita um item.\n**Inadequado:** não solicita nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "o CA 19.9 serve para o verificar o controle da doença e a resposta ao tratamento, não tem valor diagnóstico isolado, embora possa auxiliar/orientar o diagnóstico."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. ** Utiliza o protocolo SPIKES corretamente.** \n\n**Adequado:** realiza a ação. \n**Inadequado:** não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Diagnóstico: **\n(1) Câncer de Pâncreas; \n\n**Adequado:** menciona o diagnóstico. \n**Inadequado:** não menciona o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Menciona diagnósticos diferenciais **\n(1) Pancreatite Aguda.; \n(2) Coledocolitíase; \n(3) Colangiocarcinoma;\n(4) Outros tumores das vias biliares; \n(5) Úlcera Péptica.\n\n**Adequado:** menciona ao menos 2 diagnósticos diferenciais. \n**Parcialmente adequado:** menciona somente um diagnóstico diferencial.\n**Inadequado:** não menciona.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Entra em contato com serviço de oncologia, transferindo o paciente para avaliação e estadiamento. **  \n\n**Adequado:** realiza a ação. \n**Inadequado:** não realiza ação alguma. ****",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

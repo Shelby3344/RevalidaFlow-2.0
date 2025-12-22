@@ -1,0 +1,173 @@
+{
+  "uid": 1684,
+  "hash": "36ebdb4dd550d69a84eb07c46b29fd64f76acae2137583d3857802e15cfac6ed-1759740204",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "AVCi - Híbrido",
+  "definicao": "A obstrução dos vasos sanguíneos cerebrais pode ocorrer devido à trombose (formação de placa/trombo em alguma artéria do cérebro) ou embolia (quando um trombo ou uma placa de gordura originária de outra parte do corpo se solta e pela rede sanguínea chega aos vasos cerebrais). O resultado desse evento é um déficit neurológico súbito que varia de acordo ao território cerebral afetado.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "57.50",
+    "star": 0,
+    "time": 554.5,
+    "count": 336
+  },
+  "cenario": "Nível de atenção: Terciária.\nTipo de atendimento: Hospital de referência.\nA unidade possui a seguinte infraestrutura:\n- Pronto-socorro;\n- Laboratório de análises clínicas;\n- Exames de imagem;\n- Terapia intensiva e leitos de enfermaria.\n\nDESCRIÇÃO DO CASO:\nVocê é um médico atuando em um hospital de atenção terciária e atenderá uma paciente de 60 anos, hipertensa e diabética. Encontra-se acompanhada pela filha que refere que ela está com de \"perda de movimentos no braço esquerdo\" e \"dificuldade para falar\".",
+  "tarefas": "- Realizar anamnese direcionada da paciente;\n- Solicitar e interpretar exame físico;\n- Solicitar de maneira verbal e escrita o(s) exame(s) complementares pertinente(s);\n- Verbalizar e escrever a principal hipótese diagnóstica e ao menos dois diagnósticos diferenciais;\n- Propor conduta inicial e definitiva para a paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\nMinha mãe chama Clara e tem 60 anos.\n\n**MOTIVO DE CONSULTA: **\n- Ela não consegue mexer o braço esquerdo e está com dificuldade para falar. \n\n**CARACTERÍSTICAS DO QUADRO:**\n**- Tempo de evolução: ** Há 2 horas.\n**- Outras partes afetadas: **Ela não consegue mexer o braço esquedo e está com a fala enrolada. \n**- Marcha:** Ela está andando normalmente.\n**- Episódios anteriores: **Nega.\n\n**SINTOMAS ASSOCIADOS: **\n**Afasia:** Nega.\n**Disartria:** Sim, parece que ela não consegue articular as palavras.\n**Perda de força MSE:** Sim.\n**Tremores/dormência/sensibilidade a dor no local:** Nega.\n**Queda, convulsão, febre, vômitos, cefaleia, alterações visuais, alterações do equilíbrio:** Nega. \n\n**ANTECEDENTES PESSOAIS:** \n**- Doenças:** Ela é diabética, hipertensa e tem o colesterol alto. \n**- Medicamentos:** Metformina 500 mg 2 vezes ao dia e losartana 50 mg 2x ao dia.\n**- Alergias:** Nega. \n**- Cirurgias:** Nega. \n**- Trauma, queda, acidente ou violência nos últimos meses:** Nega.\n\n**HÁBITOS: **\n**- Álcool:** Nega. \n**- Cigarro:** Sim, ela fuma 1 maço por dia desde os 30 anos. \n**- Drogas:** Nega. \n**- Alimentação:** Ela até que come bem. \n**- Atividade física:** Não faz atividade física.\n\n**ANTECEDENTES FAMILIARES: **\n- A mãe dela teve um AVC, o pai faleceu por complicações da diabetes.\n\n**DÚVIDAS:**\n- Após o diagnóstico: o que pode ter levado a minha mãe ter essa doença Dr (a)?\n\n**ORIENTAÇÃO AO CHEFE DE ESTAÇÃO:**\n1) Se o candidato solicitar EXAME FÍSICO, liberar o IMPRESSO 1/EXAME FÍSICO.\n\n2) Após o TÉRMINO da leitura e interpretação do EXAME FÍSICO: O chefe da estação deverá liberar o IMPRESSO 2/EXAMES COMPLEMENTARES PEDIDO.\n\n3) Após a solicitação dos EXAMES COMPLEMENTARES: O chefe de estação deverá perguntar SE O CANDIDATO TERMINOU A SUA SOLICITAÇÃO, se resposta positiva, liberar IMPRESSO 3, 4 e 5.\n\n4) Após a leitura dos impressos 3 e 4, o chefe de estação deverá entregar o IMPRESSO 6/DIAGNÓSTICO E DIAGNÓSTICOS DIFERENCIAIS.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Frequência cardíaca:** 98 batimentos por minuto.\n\n**- Pressão arterial:** 210 × 120 mmHg.\n\n**- Frequência respiratória:** 23 incursões respiratórias por minuto.\n\n**- Temperatura axilar:** 36,5°C.\n\n**- Saturação de oxigênio:** 95% em ar ambiente.\n\n\n\n**Dados antropométricos:**\n\n**IMC:** 32 Kg/m2\n\n\n\n**Estado geral:**\n\nPaciente em regular estado geral, afebril, acianótica, anictérica e hidratada; alerta, orientada no tempo e espaço, pupilas isocóricas e fotorreagentes.\n\n\n\n**Respiratório:**\n\nMurmúrio vesicular audível em ambos hemitórax, sem ruídos adventícios.\n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas\n\nnormofonéticas; ausência de sopros.\n\n\n\n**Abdominal:**\n\nFlácido, normotenso, ruídos hidroaéreos normoativos; indolor à palpação e sem visceromegalias.\n\n\n\nExtremidades bem perfundidas e sem edemas.\n\n\n\n**EXAME NEUROLÓGICO: **\n\nNível de consciência preservado;\n\n\n\nParalisia completa do andar inferior da face à esquerda;\n\n\n\nMotricidade ocular extrínseca sem alterações;\n\n\n\nForça grau (+2/+5) em Membro superior esquerdo e grau (+4/+5) em membro inferior esquerdo;\n\n\n\nForça normal nos demais segmentos;\n\n\n\nHipostesia tátil e dolorosa em dimídio esquerdo.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1759743591.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exames Complementares Pedido",
+      "conteudo": "Verbalize e escreva a solicitação dos exames laboratoriais (máximo 8) e exame de imagem (máximo 1).",
+      "imagem": "https://app.penserevalida.com/impressos/8/1759743413.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames Laboratoriais Resultado I",
+      "conteudo": "Olhe para a câmera e interprete os achados.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1759743999.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Exames Laboratoriais Resultado II",
+      "conteudo": "Olhe para a câmera e interprete os achados.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1759744046.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "Exame de Imagem Resultado",
+      "conteudo": "**TC de crânio sem contraste:** sinais de hipodensidade menor do que 1/3 do território de artéria cerebral média direita.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1759744046.png"
+    },
+    {
+      "idx": 6,
+      "titulo": "Diagnóstico e Diagnóstico Diferenciais",
+      "conteudo": "Verbalize e escreva a principal hipótese diagnóstica e ao menos dois diagnósticos diferenciais.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta a acompanhante.\n\n**Adequado: **Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação apenas.\n**Inadequado: **Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga sobre afasia e perda de força em membro superior esquerdo (MSE): **\n\n(1) Afasia (tempo OU disartria OU nível de consciência);\n(2) Perda de força MSE (tempo OU se notou perda de força em membro inferior esquerdo (MIE) concomitante OU tremores OU dormência OU sensibilidade a dor no local OU alterações na coordenação motora);\n(3) Manifestações associadas (queda, convulsão, febre, vômitos, cefaleia, alterações visuais, alterações do equilíbrio).\n\n**Adequado: **Investiga dois ou mais itens.\n**Parcialmente adequado: **Investiga apenas um item.\n**Inadequado: **Não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre antecedentes pessoais e familiares: **\n(1) Hipertensão;\n(2) Diabetes;\n(3) Tabagismo;\n(4) Uso de drogas (cocaína, anfetamina);\n(5) História familiar de AVC;\n(6) Doenças cardíacas;\n(7) Distúrbios lipídicos (colesterol alto, dislipidemias);\n(8) Sedentarismo;\n(9) Consumo de álcool. \n\n**Adequado: **Questiona seis ou mais itens.\n**Parcialmente adequado: **Questiona cinco ou quatro itens.\n**Inadequado: **Questiona quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4.  **Solicita exame físico. **\n\n**Adequado: **Solicita exame físico.\n**Inadequado: **Não solicita exame físico.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita de maneira verbal e escrita os exames laboratoriais corretamente: **\n(1) Hemograma;\n(2) Glicemia;\n(3) Creatinina e Ureia OU função renal;\n(4) Eletrólitos (Na, K);\n(5) Tempo de protrombina/RNI (ou INR);\n(6) Tempo parcial de tromboplastina ativada;\n(7) Troponina;\n(8) Gasometria arterial. \n\n**Adequado: **Verbaliza e escreve os oito exames corretamente.\n**Parcialmente adequado: **Verbaliza e/ou escreve de cinco a sete exames corretamente.\n**Inadequado: **Verbaliza e/ou escreve quatro ou menos exames corretamente Ou exame algum.\n\n**Obs.: O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.**",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita de maneira verbal e escrita tomografia computadorizada de crânio ou ressonância magnética de crânio. **\n\n**Adequado: **Solicita.\n**Inadequado: **Não solicita.\n\n**Obs.: O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.**",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Verbaliza e escreve a principal hipótese diagnóstica e ao menos dois diagnósticos diferenciais:**\n(1) Acidente vascular** **cerebral (OU encefálico) isquêmico (AVCi, AVC isquêmico,** **AVE, AVEi). \n(2) AVC hemorrágico;\n(3) Enxaqueca com aura;\n(4) Tumor do SNC;\n(5) Infecções do SNC;\n(6) Hipoglicemia;\n(7) Paralisia de Bell.\n\n**Adequado: ** Verbaliza e escreve a principal hipótese diagnóstica e ao menos dois diagnósticos diferenciais corretamente, sendo o item (1) obrigatório.\n**Parcialmente adequado:** Verbaliza e/ou escreve a principal hipótese diagnóstica e ao menos um diagnóstico diferencial corretamente, sendo o item (1) obrigatório.\n**Inadequado: ** Não verbaliza o item (1) ou não verbaliza nenhum diagnóstico diferencial corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza potenciais fatores de risco relacionados ao caso: **\n(1) Hipertensão;\n(2) Diabetes;\n(3) Tabagismo;\n(4) Obesidade;\n(5) História familiar de AVC;\n(6) Distúrbios lipídicos (colesterol alto, dislipidemias);\n(7) Sedentarismo;\n\n**Adequado: **Verbaliza cinco ou mais itens.\n**Parcialmente adequado: **Verbaliza quatro ou três itens.\n**Inadequado: **Verbaliza apenas dois, um item OU não questiona item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Conduta médica inicial: **\n(1) Monitorização;\n(2) Hidratação venosa;\n(3) Internação em box de emergência OU terapia intensiva OU sala vermelha;\n(4) Oxigenoterapia;\n(5) Suspensão da dieta oral;\n(6) Cabeceira a 0º (ou 30º, se vômitos). \n\n**Adequado: **Orienta três ou mais condutas.\n**Parcialmente adequado: **Orienta duas condutas.\n**Inadequado: **Orienta apenas uma conduta OU orienta conduta incorreta, diferente das listadas, OU não orienta conduta alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Conduta médica definitiva:**\n(1) Trombolíticos e/ou alteplase e/ou tenecteplase.\n(2) Manter a pressão arterial < 185x110 mmHg.\n(3) Encaminha para o neurologista. \n\n**Adequado:** realiza os três itens.\n**Parcialmente adequado:** realiza dois itens.\n**Inadequado:** realiza um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

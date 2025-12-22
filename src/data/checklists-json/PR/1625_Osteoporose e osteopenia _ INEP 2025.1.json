@@ -1,0 +1,204 @@
+{
+  "uid": 1625,
+  "hash": "bbe3aa9e734c8b53e244f71740cac84cfb714bb015e8e21e2de38578e9ed3a99-1754064406",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Osteoporose e osteopenia | INEP 2025.1",
+  "definicao": "A osteoporose é uma doença metabólica caracterizada pela diminuição da massa óssea e pela deterioração da sua microarquitetura. Estima-se que aproximadamente 50% das mulheres e 20% dos homens com idade igual ou superior a 50 anos sofrerão uma fratura osteoporótica ao longo da vida. A fratura de quadril é considerada a mais grave, com aumento da taxa de mortalidade em 12% a 20% nos dois anos seguintes à fratura. Além das fraturas, as complicações clínicas da osteoporose incluem dor crônica, deformidade, redução da mobilidade, piora da qualidade de vida e aumento da mortalidade.",
+  "origem": 1,
+  "ano_da_prova": "20251",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "49.00",
+    "star": 0,
+    "time": 523.5,
+    "count": 1316
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial - Consultório médico em unidade básica de saúde (UBS).\n\nA unidade apresenta a seguinte infraestrutura:\n-Consultório médico.\n\nDESCRIÇÃO DO CASO:\nVocê é um médico atuando em uma unidade básica de saúde (UBS) e realizará atendimento, em consulta agendada, de uma mulher de 66 anos, branca, que apresentará a você o resultado de exame de densitometria óssea realizado em mutirão de saúde da mulher.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar a avaliação clínica da paciente;\n-Interpretar e verbalizar o resultado da densitometria óssea, explicando à paciente o significado do(s) achado(s) densitométrico(s);\n-Orientar o plano terapêutico e as condutas adequadas ao caso, com base no(s) achado(s) densitométrico(s).",
+  "script_ator": "**DADOS PESSOAIS: **\n- Joana, 66 anos de idade, casada, dona de casa.\n\n**MOTIVO DE CONSULTA: **\n- Oi doutor (a), eu fiz um exame de densitometria óssea num mutirão de saúde da mulher há um mês. Gostaria que você explicasse o resultado.\n\n**SE INVESTIGADO O MOTIVO DA SOLICITAÇÃO DOS EXAMES:**\n- Não consta no roteiro.\n\n**SE PERGUNTADO POR SINTOMAS ATUAIS: **\n**-Dor óssea:** Nega.\n**-Febre**: Nega.\n**-Edema ou inchaço articular:** Nega.\n**-Palpitações ou taquicardia:** Nega.\n**-Insônia:** Nega.\n**-Perda de peso**: Nega.\n**-Se perguntar por outros sintomas**: Negar todos.\n\n**SE PERGUNTADO SOBRE QUEDAS:**\n-Não sofro quedas frequentes.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças prévias/ Artrite reumatoide/ Hipertireoidismo/ Doença inflamatória intestinal/ Cushing/ Urolitíase/ Hiperparatireoidismo:** Nega.\n**- Medicamentos/ Uso de corticoide:** Nega.\n**- Alergias:** Não consta no roteiro.\n**- Cirurgia:** Não consta no roteiro.\n**- Fraturas:** Já fraturei meu punho direito há 1 ano, depois de um escorregão.\n\n**ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS:**\n**-Menarca:** Aos 12 anos.\n**-DUM:** Aos 55 anos.\n**-Gestação:** Tive 4 gestações sem problemas.\n**-Terapia de reposição hormonal:** Nega.\n\n**HÁBITOS:**\n**- Tabagismo:** Nega.\n**- Etilismo:** Nega. \n**- Drogas ilícitas:** Nega. \n**- Alimentação:** Eu gosto de comer muito, mas considero minha alimentação saudável. \n**-Ingesta de fontes de cálcio (leite ou derivados ou outros alimentos correlacionados):** Não consumo desde os meus 50 anos de idade.\n**-Ingesta de xantinas (café, chá preto ou bebidas à base de cola):** Eu consumo várias xícaras de café durante o dia, mas chá não.\n**- Atividade física:** Faço caminhadas de 40 minutos todos os dias.\n**-Exposição solar:** Me exponho ao sol durante o exercício.\n\n**ANTECEDENTES FAMILIARES DE OSTEOPENIA OU OSTEOPOROSE OU FRATURAS OU PROBLEMAS ÓSSEOS: **\n- Nega.\n\n**-IMPRESSO — DENSITOMETRIA ÓSSEA**, deverá ser entregue, caso pergunte o **motivo da consulta**;\n**-IMPRESSO — EXAME FÍSICO**, dever ser entregue, caso peça para realizar exame físico.\n\n**DÚVIDAS:**\n**Dúvida 1:** Dr. (a) porque isso acontece?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "DENSITOMETRIA ÓSSEA",
+      "conteudo": "DENSITOMETRIA ÓSSEA",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Estatura:** 150 cm.\n\n**Peso:** 67,5 kg.\n\n**Índice de massa corporal:** 30 kg/m².\n\n**Pressão arterial:** 125 mmHg x 72 mmHg.\n\n**Frequência cardíaca:** 72 batimentos por minuto.\n\n**Temperatura axilar:** 36° C.\n\n\n\n**Exame físico sem outras alterações.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Cumprimenta a paciente simulada;\n(2) Identifica-se;\n(3) Dirige-se à paciente simulada pelo nome, pelo menos uma vez;\n(4) Ouve a paciente com atenção.\n\n**Adequado:** Realiza as quatro ações.\n**Parcialmente adequado:** Realiza apenas duas ou três ações.\n**Inadequado:** Realiza apenas uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Postura:**\n(1) Estabelece contato visual; e\n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Escuta a fala da paciente simulada sem interrompê-la.**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível à paciente simulada, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Utiliza linguagem acessível.\n**Inadequado:** Não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Responde às perguntas da paciente simulada.**\n\n**Adequado:** Responde às perguntas.\n**Inadequado:** Não responde às perguntas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre:**\n(1) Menarca;\n(2) Menopausa;\n(3) Uso de terapia hormonal.\n\n**Adequado:** Pergunta sobre os três itens.\n**Parcialmente adequado:** Pergunta sobre um ou dois itens.\n**Inadequado:** Não pergunta sobre nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga causas de osteoporose secundária:**\n(1) Uso crônico de fármacos como:  Glicocorticoide, inibidor da bomba de prótons, lítio, anticonvulsivantes, levotiroxina e outros;\n(2) Doenças endócrinas: Hiperparatireoidismo, hipertireoidismo e outros;\n(3) Doenças intestinais: Má absorção, doenças inflamatórias intestinais e outras;\n(4) Doenças reumáticas: Artrite reumatoide e outras;\n(5) Outras doenças: Doença pulmonar obstrutiva crônica, doença renal crônica, doenças hepáticas crônicas, urolitíase e outros;\n(6) Neoplasias: Mieloma, leucemias, linfomas, neoplasias produtoras de PTH e outras; e,\n(7) Pós-transplante.\n\n**Adequada:** Investiga quatro ou mais causas secundárias.\n**Parcialmente adequado:** Investiga apenas duas ou três causas secundárias.\n**Inadequado:** Investiga apenas uma causa secundária ou não investiga nenhuma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Investiga história de fratura:**\n(1) Fratura pessoal por fragilidade;\n(2) História familiar de fratura de quadril ou história familiar de osteoporose.\n\n**Adequado:** Investiga as duas situações.\n**Parcialmente adequado:** Investiga apenas uma.\n**Inadequado:** Não investiga nenhuma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Pergunta sobre hábitos alimentares:**\n(1) Ingestão de fontes de cálcio (leite ou derivados ou outros alimentos correlacionados);\n(2) Ingestão de xantinas (café, chá preto ou bebidas à base de cola).\n\n**Adequado:** Faz as duas perguntas.\n**Parcialmente adequado:** Faz uma pergunta.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Pergunta sobre outros hábitos de vida:**\n(1) Atividade física;\n(2) Etilismo;\n(3) Tabagismo; e\n(4) Exposição solar.\n\n**Adequado:** Pergunta sobre os quatro itens.\n**Parcialmente adequado:** Pergunta apenas sobre dois ou três itens.\n**Inadequado:** Pergunta apenas sobre um item ou não pergunta sobre nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza os achados da densitometria:**\n(1) Osteoporose na coluna lombar;\n(2) Osteopenia no fêmur.\n\n**Adequado:** Verbaliza os dois achados.\n**Parcialmente adequado:** Verbaliza apenas um achado.\n**Inadequado:** Não verbaliza nenhum achado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Cita os principais fatores de risco para osteoporose/ osteopenia na paciente simulada:**\n(1) Mulher;\n(2) Branca;\n(3) Idosa;\n(4) Baixa estatura;\n(5) Pós-menopausa sem terapia hormonal;\n(6) Ingestão baixa de cálcio.\n\n**Adequado:** Cita cinco ou seis fatores de risco.\n**Parcialmente adequado:** Cita apenas três ou quatro fatores de risco.\n**Inadequado:** Cita apenas um ou dois fatores de risco ou não cita nenhum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica tratamento medicamentoso:**\n(1) Bifosfonatos ou alendronato ou rizendronato ou ibandronato;\n(2) Cálcio com ou sem vitamina D.\n\n**Adequado:** Indica os itens um e dois.\n**Parcialmente adequado:** Indica apenas o item um.\n**Inadequado:** Indica apenas o item dois ou indica outro tratamento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. Solicita exames laboratoriais:\n(1) Hemograma;\n(2) Velocidade de hemossedimentação (VHS);\n(3) Proteína C-reativa;\n(4) Cálcio sérico;\n(5) Albumina;\n(6) Creatinina;\n(7) Fósforo;\n(8) Fosfatase alcalina e transaminases hepáticas;\n(9) Cálcio urinário de 24 horas;\n(10) Vitamina D;\n(11) PTH;\n(12) TSH.\n\nAdequado: Solicita quatro ou mais exames.\nParcialmente adequado: Solicita apenas dois ou três exames.\nInadequado: Solicita apenas um exame ou não solicita nenhum.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indica medidas de educação em saúde:**\n(1) Manutenção da atividade física;\n(2) Orientação da prevenção de quedas;\n(3) Evitar o etilismo e(ou) tabagismo;\n(4) Aumento da ingesta de fontes de cálcio;\n(5) Redução do consumo de xantinas (café ou chá ou bebidas à base de cola);\n(6) Manutenção da exposição solar.\n\n**Adequado:** Indica quatro ou mais medidas.\n**Parcialmente adequado:** Indica apenas duas ou três medidas.\n**Inadequado:** Indica apenas uma medida ou não indica nenhuma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

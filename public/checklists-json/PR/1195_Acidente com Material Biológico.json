@@ -1,0 +1,221 @@
+{
+  "uid": 1195,
+  "hash": "wYgl5Pm7ig3zgUIy9AlEAcV0",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Acidente com Material Biológico",
+  "definicao": "O acidente com material biológico consiste na exposição de uma pessoa a sangue ou secreções através da pele, das mucosas (olhos, boca e nariz) ou de lesão perfuro-cortante com agulhas, instrumental cirúrgico e vidros contendo secreções.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "79.00",
+    "star": 0,
+    "time": 551.5,
+    "count": 6735
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial \n- Unidade básica de saúde (UBS).\n\nA unidade conta com a seguinte infraestrutura:\n-Consultório médico;\n-Sala de medicamentos;\n-Laboratório de análises.\n\nDESCRIÇÃO DO CASO\nDurante seu horário de atendimento médico, você é chamado pelo auxiliar de enfermagem que se mostra muito aflito.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realize a atenção médica necessária com o seu companheiro de trabalho; \n- Solicitar exame físico, se necessário;\n- Pactuar plano de cuidado com o paciente;\n- Avaliar a necessidade de adoção de outras medidas sanitárias.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Henrique, 20 anos, auxiliar de enfermagem. \n\n**MOTIVO DE CONSULTA**: \n-Dr(a) eu estou sem saber o que fazer, estava colhendo sangue do paciente lá na UPA e quando fui retirar a agulha saiu um jato de sangue e acho que entrou no meu olho.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**Tempo que ocorreu o acidente:** Tem 35 minutos, foi o tempo de chegar aqui.\n**Lavagem/higienização dos olhos posterior a exposição:**  Lavei com água e sabão.\n**Episódios prévios:** Primeira vez.\n**Uso de EPIs:** Nega.\n\n**SINTOMAS ASSOCIADOS:**\n**Mal-estar geral:** Nega.\n**Cefaleia:** Nega.\n**Astenia ou Cansaço:** Nega.\n**Náuseas ou vômitos ou dor abdominal:** Nega.\n**Dores no corpo:** Nega.\n**Febre ou sudoração ou calafrios:** Nega.\n\n**SOBRE O PACIENTE (FONTE DE CONTAMINAÇÃO):**\n**-Informações sobre o paciente:**  Ele já foi embora Dr(a), recém tinha recebido alta e me pediram para retirar uma mostra de sangue somente para levar o resultado do exame no seguimento com o médico da família.\n**-Motivo da internação do paciente:** Parece que ele tinha líquido na barriga, ele tinha um aspecto estranho, e lembro que tínhamos que dar muitas medicações diariamente.\n**-Medicações do paciente:** Eram muitos, mas os que eu lembro o nome são: Tenofovir, Lamivudina, Dolutegravir e omeprazol.\n\n**ANTECEDENTES PESSOAIS (ATOR):**\n**Histórico de doenças do auxiliar de enfermagem:**  Eu tenho hipotireoidismo, tomo levotiroxina todos os dias. \n**Alergia:** Nega.\n**Hábitos tóxicos do auxiliar de enfermagem:** Não bebo, não fumo, não uso nenhuma droga.\n**Status vacinal do auxiliar de enfermagem:**  Aqui eles cobram muito que todos nós tenhamos tudo atualizado.\nDr(a), todas as minhas vacinas estão em dia, incluindo as do COVID-19.\n\n**ANTECEDENTES UROLÓGICOS:**\n**Sexarca:** 16 anos\n**Atividade sexual:** Sou ativo, tenho namorada.\n**Uso de preservativo:** Uso regular de preservativos.\n**Antecedentes ou Tratamento prévio para ITS:** Nega.\n\n**DÚVIDAS:**\n**PERGUNTA 1:** Dr(a) eu tenho AIDS a partir de agora?\n**PERGUNTA 2:** Além de HIV e hepatites tem outras doenças que podem ser transmitidas nesse tipo de acidente?\n**PERGUNTA 3:** Essa medicação pode trazer algum sintoma ruim?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico ",
+      "conteudo": "Olho hiperemiado",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Sinais Vitais",
+      "conteudo": "**Sinais Vitais:**\n\nRegular estado geral;\n\n**Pressão Arterial:** 125 x 80mmHg;\n\n**Frequência Cardíaca: **99 bpm;\n\n**Frequência Respiratória:** 19irpm;\n\n**Saturação de O2:** 98% AA; \n\n**Temperatura axilar:** 36.7°",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Sorologia",
+      "conteudo": "**Sorologias:** \n\n**HIV -** Não reagente \n\n**Sífilis -** Não reagente \n\n**Hepatite B -** Imunização completa\n\n**Hepatite C -** Não reagente",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1)Se apresenta;\n(2)Pergunta nome do auxiliar de enfermagem;\n(3) Dirige-se ao auxiliar de enfermagem pelo nome, pelo menos uma vez; \n(4) Pergunta o motivo da consulta; e,\n(5) Ouve com atenção. \n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) Estabelece contato visual; e, \n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado**: Realiza os dois itens.\n**Parcialmente adequado:** Realiza apenas um item.\n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala do paciente simulado sem interrompê-lo. **\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com o paciente simulado, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Evita atitude paternalista (condescendente) e “alarmista.”**\n\n**Adequado:** Evita as duas atitudes.\n**Inadequado:** Assume qualquer uma das duas atitudes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga:**\n(1) A quanto tempo ocorreu o acidente;\n(2) Pergunta por uso de EPIs pelo auxiliar de enfermagem; \n(3) Pergunta se houve higienização do local de exposição.\n\n**Adequado:** Investiga três itens. \n**Parcialmente adequado:** Investiga um ou dois itens.\n**Inadequado:** Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta sobre sintomas gerais:**\n(1) Febre; \n(2) Mal-estar; \n(3) Dores no corpo; \n(4) Astenia; e,\n(5) Náuseas ou vômitos ou dor abdominal.  \n\n**Adequado**: Pergunta dois ou mais itens.\n**Parcialmente  adequado**:  Pergunta  um item.\n**Inadequado**: Não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Pergunta por dados da fonte de contaminação:** \n(1) Nome;\n(2) Doenças crônicas;\n(3) Uso de medicações contínuas; e,\n(4) Motivo de internação. \n\n**Adequado:** Pergunta três ou mais itens.\n**Parcialmente adequado:** Pergunta dois itens. \n**Inadequado: **Pergunta um item dado OU não pergunta nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga os antecedentes pessoais do auxiliar de enfermagem: **\n(1) Doenças crônicas; \n(2) Uso contínuo de medicações;\n(3) Alergias;\n(4) Hábitos tóxicos;\n(5) Uso de preservativo durante a atividade sexual;\n(6) Comportamento sexual (parcerias múltiplas e/ou novas parcerias);\n(7) Histórico de infecções sexualmente transmissíveis (ISTs); e,\n(8) Vacinação.\n\n**Adequado:** Investiga de seis ou mais itens.\n**Parcialmente adequado:** Investiga de dois a cinco itens.\n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Questiona acidentes prévios com material biológico.**\n\n**Adequado:** Questiona.\n**Inadequado:** Não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita:**\n(1) Sinais vitais; e,\n(2) Exame físico do local de exposição.\n\n**Obs:** O termo ectoscopia não será considerado para a pontuação desse item, o candidato deverá especificar qual parte do paciente deseja examinar.\n\n**Adequado:** Solicita os dois itens. \n**Inadequado:** Não solicita os dois itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita exames para infecções sexualmente transmissíveis:**\n(1) HIV;\n(2) Sífilis;\n(3) Hepatite B; e,\n(4) Hepatite C. \n\n**Adequado:** Solicita quatro itens.\n**Inadequado:** Solicita um, dois ou três itens OU não solicita item algum.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Informa:** \n(1) Que mesmo que o resultado para HIV seja negativo neste teste rápido, será necessário iniciar profilaxia pós exposição; e,\n(2) Devido a janela imunológica .\n\n**Adequado:** Informa dois itens.\n**Parcialmente adequado:** Informa um item. \n**Inadequado:** Não informa item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Indica a Profilaxia Pós-Exposição (PEP):**\n(1) Tenofovir (TDF)/ Lamivudina (3TC) + Dolutegravir (DLG);\n(2) Por 28 dias; e,\n(3) Logo novo teste rápido após término da TARV/PEP.\n\n**Adequado:** Indica três itens.\n**Parcialmente adequado:** Indica o item um.\n**Inadequado:** Não indica o item um.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Verbaliza o diagnóstico do caso como:** \n(1) Acidente biológico; e, \n(2) Realiza a notificação ao SINAN.\n\n**Adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item OU  não verbaliza item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Informa sobre possíveis efeitos adversos da medicação: **\n(1) Erupção cutânea;\n(2) Dor de cabeça;\n(3) Diarreia;\n(4) Depressão;\n(5) Fraqueza;\n(6) Náuseas;\n(7) Insônia;\n(8) Prurido generalizado;\n(9) Vômitos;\n(10) Tontura;\n(11) Febre. \n\n**Adequado:** Informa seis ou mais itens. \n**Parcialmente adequado:** Informa de dois a cinco itens.\n**Inadequado:** Informa somente um item OU não informa nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.375",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

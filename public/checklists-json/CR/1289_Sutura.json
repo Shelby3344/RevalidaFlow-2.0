@@ -1,0 +1,287 @@
+{
+  "uid": 1289,
+  "hash": "heoVG4xbWrDTNJEA5EG9S43C",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Sutura",
+  "definicao": "A sutura é um procedimento feito quando há necessidade de fechar uma incisão na pele, em uma mucosa, músculos, vasos sanguíneos ou até em órgãos.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "76.50",
+    "star": 0,
+    "time": 592.5,
+    "count": 2837
+  },
+  "cenario": "Local da atuação: Atenção secundária: UPA.&nbsp;\nA unidade possui a seguinte infraestrutura:&nbsp;\n- Setor de radiologia convencional e ultrassonografia&nbsp;\n- Laboratório de análises clínicas e banco de sangue.&nbsp;\n- Leitos de internação.\n\nDescrição do Caso:&nbsp;\nHomem de 27 anos, com ferimento de 6 cm no antebraço direito.&nbsp;",
+  "tarefas": "Realize o atendimento incial. \r\nExplique os procedimentos realizados.\r\nVerbalize as orientações e sinais de alarme.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Nicolas, 27 anos, solteiro, pedreiro.\n\n**MOTIVO DE CONSULTA**\n- Dr (a), eu estava em casa arrumando umas coisas pro meu pai e me cortei com uma faca.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n- **Tempo de evolução:** faz uns 40 minutos, me cortei, enrolei um pano apertado e vim direto pra cá.\n- **Sangramento:** sangrou muito na hora Dr (a), agora melhorou.\n- **Sinais e sintomas acompanhantes:** nega.\n\n**ANTECEDENTES PESSOAIS:**\n- **Cirurgias:** nega.\n- **Comorbidades:** nega.\n- **Uso de medicamentos:** nega.\n- **Alergias:** nega.\n\n**VACINAÇÃO PRÉVIA:**\n- Não lembro quando tomei a última vacina, também não tenho o cartão de vacina, acho que o perdi.\n\n**Se o candidato mencionar a necessidade de sutura:**\n- Libere o IMPRESSO 3/Último impresso **.**\n**- Questionar: não há necessidade de fazer nenhum exame Dr (a)? De sangue, um raio x? Eu queria fazer.**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais Vitais",
+      "conteudo": "**Sinais vitais:**\n- **Pressão arterial: **110x70 mmHg&nbsp;\n- **Frequência cardíaca:** 70 batimentos por minuto&nbsp;\n-** Saturação de O2**: 99% AA\n- **Temperatura axilar: **36.8° C&nbsp;\n- **Frequência respiratória:** 12 incursões por minuto\n\n- Paciente em bom estado geral, lúcido, orientado no tempo e espaço.&nbsp;",
+      "imagem": "https://app.penserevalida.com/impressos/02/Captura-de-Tela-2023-02-25-as-11.10.37.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia da lesão",
+      "conteudo": "- Descreva o tipo de lesão.\n\n\n\n(Aproximadamente 6 cm).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Solicitação de Sutura",
+      "conteudo": "1 - Descreva as características (natural ou sintético, absorvível ou não absorvível, monofilamentar ou multifilamentar) dos seguintes fios:\n- Fio de Nylon.&nbsp;\n- Fio Categute.&nbsp;\n- Fio Algodão.\n\n2 - Cite e explique a escolha do fio utilizado nesse caso.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) identifica-se;&nbsp;\n(2) cumprimenta o paciente simulado.&nbsp;\n\n**Adequado:** realiza as duas ações.&nbsp;\n**Parcialmente adequado:** realiza uma ação.\n**Inadequado:** não realiza ação alguma.&nbsp;",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona:&nbsp;**\n(1) Mecanismo do acidente;&nbsp;\n(2) Tempo de evolução do acidente.\n\n**Adequado:** questiona ambos.&nbsp;\n**Parcialmente adequado:** questiona um.\n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona antecedentes pessoais:&nbsp;**\n(1) Cirurgias;&nbsp;\n(2) Comorbidades;&nbsp;\n(3) Uso de medicamentos;&nbsp;\n(4) Alergias.&nbsp;\n\n**Adequado:** menciona 4 ou 3 itens.&nbsp;\n**Parcialmente adequado:** menciona 2 itens.\n**Inadequado:** menciona 1 ou 0 itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Exame físico:&nbsp;**\n(1) Solicita permissão ao paciente para realizar o exame físico;&nbsp;\n(2) Paramenta-se; Lava as mãos e calça as luvas:&nbsp;\n\n**Adequado:** realiza a ação.&nbsp;\n**Parcialmente adequado:** realiza uma ação.\n**Inadequado:** não realiza ação alguma.&nbsp;",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Realiza exploração da ferida em busca de corpos**\n**estranhos.&nbsp;**\n\n**Adequado:** realiza.&nbsp;\n**Inadequado:** não realiza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Descreve a lesão:** lesão corto contusa, única, bordes regulares de aproximadamente 6 cm.\n\n**Adequado:** descreve.&nbsp;\n**Inadequado:** não descreve",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Cita fio de Nylon como sintético, não absorvível e monofilamentar.**\n\n**Adequado:** cita.&nbsp;\n**Inadequado:** não cita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Cita fio Categute como natural, absorvível e multifilamentar.**\n\n**Adequado:** cita.&nbsp;\n**Inadequado:** não cita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Cita fio Algodão como natural, não absorvível e multifilamentar.**\n\n**Adequado:** cita.&nbsp;\n**Inadequado:** não cita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Cita fio Nylon como a escolha para o caso.&nbsp;**\n\n**Adequado:** cita.&nbsp;\n**Inadequado:** não cita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Informa que não é necessário realizar exames de laboratório.&nbsp;**\n\n**Adequado:** informa.&nbsp;\n**Inadequado:** não informa.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Informa que não é necessário realizar exames de imagem.&nbsp;**\n\n**Adequado:** informa.&nbsp;\n**Inadequado:** não informa.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Esclarece o procedimento a ser realizado, tranquilizando o paciente.**\n\n**Adequado:** realiza a ação.&nbsp;\n**Inadequado:** não realiza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Realiza antissepsia das bordas da ferida.&nbsp;**\n\n**Adequado:** realiza.&nbsp;\n**Inadequado:** não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Realiza anestesia local com lidocaína.&nbsp;**\n\n**Adequado:** realiza.&nbsp;\n**Inadequado:** não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Realiza o procedimento de sutura corretamente.&nbsp;**\n\n**Adequado:** realiza.&nbsp;\n**Inadequado:** não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Realiza curativo com gaze e micropore.&nbsp;**\n\n\n**Adequado:** realiza.&nbsp;\n**Inadequado:** não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Indica analgesia com AINEs.**\n\n**Adequado:** indica.&nbsp;\n**Inadequado:** não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "19. **Questiona sobre a situação vacinal e se trouxe o cartão.**\n\n**Adequado:** questiona.&nbsp;\n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "20. **Orienta lavar a ferida com água e sabão diariamente e mantê-la seca e limpa.&nbsp;**\n\n**Adequado:** orienta.&nbsp;\n**Inadequado:** não orienta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "21. **Informa que precisa retornar com 7-10 dias para retirada dos pontos.&nbsp;**\n\n**Adequado:** informa.&nbsp;\n**Inadequado:** não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 22,
+      "descricao": "22. **Orienta sinais de alarme para retorno imediato:** dor intensa, saída de secreção amarela/esverdeada, hematoma, febre.&nbsp;\n\n**Adequado:** orienta ao menos 2 sinais de alarme.&nbsp;\n**Inadequado:** orienta 1 ou menos sinais de alarme.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

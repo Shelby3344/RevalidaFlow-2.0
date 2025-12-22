@@ -1,0 +1,199 @@
+{
+  "uid": 1173,
+  "hash": "LYA3JhiMPse-R9qFaGoRRmJL",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Fissura Anal",
+  "definicao": "Laceração ou úlcera localizada no canal e/ou margem anal, podendo se estender para dentro do ânus. Pode ser aguda ou crônica.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "68.00",
+    "star": 0,
+    "time": 556.5,
+    "count": 7226
+  },
+  "cenario": "Nível de atenção: Atenção secundária a saúde\nTipo de atendimento: Unidade de pronto socorro.\n\nA unidade conta com os seguintes recursos:\n- Laboratório para análises;\n- Serviço de radiografia convencional e ultrassonografia;\n- Sala de internação;\n\nDescrição do caso:\n- Mulher de 38 de idade, queixando-se de dor anal durante as defecações há 7 semanas.\n\nAtenção! Caso julgue necessário realizar exame físico, verbalize! O paciente simulado não deverá ser tocado durante o atendimento.",
+  "tarefas": "Nos 10 minutos de duração da estação realize as seguintes tarefas:\nSolicitar e interpretar exame físico direcionado;\nSolicitar e interpretar os exames pertinentes;\nEstabelecer e comunicar hipótese diagnóstica;\nVerbalizar diagnósticos diferenciais (mínimo 3);\nPropor conduta para o paciente.",
+  "script_ator": "**DADOS PESSOAIS**\n- Fatima, 38 anos, solteira, advogada.\n\n**MOTIVO DE CONSULTA**\n- Dr.(a), estou sentindo bastante dor ao defecar.\n\n**SOBRE O MOTIVO DE CONSULTA**\n**Tempo de evolução:** Comecei a sentir esta dor há sete semanas.\n**Localização:** No ânus, Dr.(a).\n**Irradiação:** Não irradia.\n**Intensidade:** 6/10.\n**Frequência/Episódios anteriores:** Já tive outras vezes, mas nunca busquei atenção médica.\n**Fatores agravantes e atenuantes:** Piora ao evacuar, principalmente quando as fezes estão mais endurecidas.\n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n**Sangramento anal:** Sim. Sempre sangra durante a defecação. É de pouca quantidade, de cor vermelho vivo e sem odor atípico.\n**Perda de peso não intencional:** Não perdi peso nos últimos meses.\n**Tenesmo:** Nega.\n**Distensão abdominal:** Nega.\n**Coceira/prurido:** Sim. Eu sinto que coça um pouco, mas não é intenso. \n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS**\n**Comorbidades/Doenças atuais:** Nega.\n**Medicamentos:** Nega.\n**Cirurgia prévia:** Nega.\n\n**ANTECEDENTES FAMILIARES**\n- Meus pais são obesos e hipertensos, e meus irmãos, até o momento, são saudáveis.\n\n**HÁBITOS**\n**Ritmo evacuatório/Catarse:** Sou bem constipada, evacuo a cada três a cinco dias. Minhas fezes estão sempre endurecidas e, devido a isso, faço muita força.\n**Tabagismo:** Nega.\n**Drogas:** Nega.\n**Consumo de bebidas alcoólicas:** Bebo socialmente.\n**Dieta:** Como mais carne vermelha, frituras e muita massa também. Não gosto de verduras, frutas, legumes e cereais. \n**Ingesta hídrica:** Bebo pouca água, uns dois ou três copos de água por dia.\n\n**APÓS O DIAGNÓSTICO, INDAGAR:**\n- Dr.(a), minha vizinha disse que vou ter que fazer um exame, uma colonoscopia. Eu posso fazer também?\n\n**APÓS O TRATAMENTO, INDAGAR:**\n- E se esse tratamento não funcionar, qual seria a outra alternativa?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico / Antropometria",
+      "conteudo": "**Ectoscopia Geral:** Paciente em bom estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**Aparelho Cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Aparelho Respiratório:** Ausculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados.\n\n\n\n**Aparelho Abdominal:** Abdome plano, flácido, indolor à palpação, sem massa palpável; RHA preservados; timpânico à percussão; sem sinais de ascite, cicatrizes ou outras alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-24-060450.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Inspeção Retal",
+      "conteudo": "- Lesão com aspecto de fenda localizada no canal anal posterior.\n\n\n\n- Presença de fibrose e plicoma sentinela.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Toque Retal",
+      "conteudo": "- Dor ao toque, sem presença de sangue e sem lesões tocáveis.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se; e\n(2) Cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza uma ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre características da dor: **\n(1) Tempo de início;\n(2) Localização;\n(3) Irradiação;\n(4) Intensidade;\n(5) Fatores desencadeantes, de melhora ou piora.\n\n**Adequado:** Pergunta sobre quatro ou cinco itens.\n**Parcialmente adequado:** Pergunta sobre três ou quatro itens.\n**Inadequado: **Pergunta sobre dois, um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre sangramento anal: **\n(1) Tempo de início;\n(2) Frequência;\n(3) intensidade;\n(4) Cor;\n(5) Odor. \n\n**Adequado:** Pergunta quatro ou cinco itens.\n**Parcialmente adequado:** Pergunta três itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre sinais e sintomas associados: **\n(1) Astenia;\n(2) Tenesmo;\n(3) Perda de peso;\n(4) Distensão abdominal;\n(5) Coceira/prurido.\n\n**Adequado:** Pergunta os cinco itens.\n**Parcialmente adequado:** Pergunta três ou quatro itens.\n**Inadequado:** Pergunta sobre dois ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta sobre hábitos: **\n(1) Ritmo evacuatório;\n(2) Dieta; \n(3) Ingesta hídrica;\n(4) Bebidas alcoólicas;\n(5) Drogas; \n\n**Adequado:** Pergunta os cinco itens.\n**Parcialmente adequado:** Pergunta três ou quatro itens.\n**Inadequado:** Pergunta sobre dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre: **\n(1) Antecedentes pessoal/patológicos; e\n(2) Antecedentes familiares.\n\n**Adequado:** Pergunta sobre os dois itens.\n**Parcialmente adequado:** Pergunta sobre um dos itens.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita: **\n(1) Exame físico geral e direcionado; \n(2) Toque retal.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Não solicita colonoscopia.**\n\n**Adequado:** Não solicita.\n**Inadequado:** Solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9.  **Formula a hipótese diagnóstica de fissura anal crônica.**\n\n**Adequado:** Formula o diagnóstico de fissura anal crônica.\n**Parcialmente adequado:** Formula o diagnóstico de fissura anal. \n**Inadequado:** Não formula.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza diagnóstico diferencial:**\n(1) Abcesso anal;\n(2) Fístula anal; \n(3) Hemorroidas interna; \n(4) Prolapso retal;\n(5) Proctite.\n\n**Adequado:** Verbaliza quatro ou mais itens.\n**Parcialmente adequado:** Verbaliza três ou mais itens.\n**Inadequado:**  Verbaliza dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11.  **Indica tratamento clínico geral:**\n(1) Banhos de assento com água morna; \n(2) Emolientes;\n(3) Pomadas anestésicas\n(4) Relaxantes do esfíncter anal.\n\n**Adequado:** Indica de três a quatro itens\n**Parcialmente adequado:** Indica ao menos dois itens.\n**Inadequado:** Indica um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Anestésicos tópicos aplicados no ânus (como benzocaína ou lidocaína) ou um banho de assento morno (não quente) de 10 a 15 minutos após cada evacuação aliviam o desconforto e ajudam a aumentar o fluxo sanguíneo, o que promove a cicatrização. Os relaxantes do esfínter anal (toxina butolínica), em alguns casos, pode ser injetada para reduzir o espasmo."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica tratamento clínico específico: **\nPomadas com nitrato ou bloqueadores de canal de cálcio.\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "Para reduzir os espasmos do esfíncter e promover a cicatrização das fissuras."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza o que é tratamento cirúrgico, caso haja falha do tratamento clínico:**\nCirurgia/fissurectomia com esfincterotomia lateral interna.\n\n**Adequado:** Verbaliza a necessidade de cirurgia caso haja falha do tratamento clínico.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta o paciente:**\n(1) Mudanças na alimentação (dieta equilibrada, rica em fibras, vegetais, frutas; evitar carnes vermelhas gordurosas, carboidratos não absorvíveis e alimentos ultraprocessados).\n(2) Ingesta adequada de água.\n\n**Adequado:** Orienta ambos os itens.\n**Inadequado:** Não orienta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.3"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

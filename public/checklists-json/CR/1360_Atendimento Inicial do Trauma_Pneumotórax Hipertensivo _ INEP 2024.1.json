@@ -1,0 +1,221 @@
+{
+  "uid": 1360,
+  "hash": "8af4c186-63b4-4002-8104-142eb84468f7",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Atendimento Inicial do Trauma/Pneumotórax Hipertensivo | INEP 2024.1",
+  "definicao": "Checklis INEP 2024.1 - procedimento.",
+  "origem": 1,
+  "ano_da_prova": "20241",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "75.50",
+    "star": 0,
+    "time": 586.5,
+    "count": 6780
+  },
+  "cenario": "Nível de atenção: Atenção secundária a saúde.\nTipo de atendimento: Unidade de pronto socorro.\n\nA unidade hospitalar possui a seguinte infraestrutura:\n- Setor de radiologia convencional;\n- Laboratório de análises clínicas;\n- Leitos de internação;\n- Centro cirúrgico e banco de sangue.\n- Não há plantão de ortopedia nem outras especialidades cirúrgicas no hospital.\n\nDescrição do caso:\n- Você está de plantão na emergência de um hospital de médio porte e vai atender uma paciente de 25 anos de idade, vítima de trauma automobilístico de tipo colisão frontal contra um poste de concreto, sem cinto de segurança.\n- A paciente se apresenta sonolenta, gemente, desorientada em tempo e espaço. Escala de coma de Glagow 13.\n- Ao exame físico, mostrou-se hipocorada (+/4+), taquipnéica (27 irpm), taquicárdica (FC 110 bpm), apresentando dor em tórax anterior.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as seguintes tarefas:\n- Realizar o atendimento da paciente vítima de politrauma, de acordo com o Protocolo de Suporte Avançado de Vida no Trauma;\n- Identificar as alterações no exame físico;\n- Adotar a (s) conduta (s) terapêuticas (s) necessária (s) ao caso, conforme protocolo;\n- Verbalizar a realização de procedimentos médicos, preconizados pelo protocolo, necessários ao caso;\n- Utilizar habilidades profissionais para comunicação do diagnóstico à paciente.\n\nAtenção!\nCaso julgue necessário realizar exame físico, verbalize;\nA paciente simulada não deverá ser tocada durante o atendimento;\nConsidere que a paciente simulada está deitada em uma prancha rígida;\nOs insumos ilustrados representam alguns dos materiais disponíveis para o atendimento;\nHá na estação todos os materiais necessários ao atendimento da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Bianca, 25 anos, solteira, advogada.\n\n**OCORRIDO/ACIDENTE:**\n- Não me lembro bem o que aconteceu, só lembro de ver os bombeiros chegarem e de chegar aqui no hospital.\n\n**SINAIS E SINTOMAS:**\n- Estou me sentindo um pouco tonta, com uma dor no lado direito do peito.\n\n**Caso o(a) participante verbalizasse adequadamente os procedimentos necessários ao caso, ele(a) poderia receber, do(a) chefe de estação, os seguintes impressos ou as seguintes orientações:**\n\n• Ao verbalizar a necessidade de colocar a **máscara** de **O2** ou de realizar a oxigenoterapia com máscara ou cateter de O2, seria informado que **o** **procedimento** **foi** **realizado**;\n• Ao questionar se a paciente está com algum **sangramento** **ativo** **arterial**, seria informado que a paciente **não** **está** com nenhum **sangramento** **ativo** e não possui lesões externas aparentes.\n• Ao solicitar o **exame** **físico**, seria solicitado que realizasse “a **avaliação** **clínica** da paciente **conforme** o **xABCDE”,** logo após a finalização da avaliação, receberia o **IMPRESSO** — **EXAME** **FÍSICO**;\n• Ao solicitar que fosse feita a **monitorização** da **paciente** de forma inespecífica, seria solicitado que **verbalizasse** os **parâmetros** que devem ser monitorados;\n• Ao indicar a **necessidade** de **realizar** o **acesso** **venoso** sem especificar o calibre do cateter, o tipo da veia, o volume mínimo infundido e o tipo de soro, seria solicitado que **especificasse** os **quatro** **parâmetros** para a realização do acesso venoso. Após sua resposta, seria informado que o **procedimento** foi **realizado**;\n• Ao verbalizar que iria realizar a **descompressão** **torácica** por **punção**, seria solicitado que verbalizasse o **procedimento**, indicando o **cateter** **correto** e o **local** da punção. Após sua resposta, seria informado que o procedimento foi realizado;\n• Ao verbalizar que iria realizar a **drenagem** de **tórax**, seria solicitado que verbalizasse o\nprocedimento, indicando o **dreno** **correto**, a **forma** como o procedimento cirúrgico deve ser feito e o **local** da drenagem. Após sua resposta, seria informado que o procedimento foi realizado;\n\n**No decorrer do atendimento, caso o(a) participante tenha adotado a conduta adequada,**\n**o(a) chefe de estação perguntaria:**\n• Qual é o diagnóstico?\n• Há necessidade de transferência da paciente a um centro terciário?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Pressão Arterial:** 120 x 90 mmHg.\n\n**FC**: 125 bpm.\n\n**FR**: 32 irpm.\n\n**Aparelho cardiovascular: **Turgência jugular, bulhas normofonéticas sem sopros.\n\n**Aparelho respiratório: **Murmúrio vesicular abolido à direita com hipertimpanismo.\n\n**Exame neurológico: **Glasgow 13, pupilas isocóricas e fotorreagentes.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1723137797.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Abocath/Jelcos",
+      "conteudo": "Verbalize os **quatro** **parâmetros** para a realização do acesso venoso.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1723137807.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Sistema de Drenagem Torácica Fechada",
+      "conteudo": "Explique o procedimento.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. Avalia as vias aéreas e verbaliza que as vias áreas estão pérvias.\n\n**Adequado**: Verbaliza corretamente.\n**Inadequado**: Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. Verbaliza a necessidade de colocar a máscara de oxigênio. \n\n **Adequado:** Verbaliza.\n **Parcialmente adequado: ** Verbaliza a necessidade de iniciar fornecimento de oxigênio, mas não cita a máscara.\n **Inadequado: ** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3.  Verbaliza que o colar cervical não deve ser removido OU verbaliza manutenção do colar cervical OU verbaliza retirada do colar com estabilização manual da coluna, avaliação breve e posterior fechamento do colar. \n\n **Adequado: ** Verbaliza.\n **Inadequado: ** Não verbaliza",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4.  **Realiza a avaliação clínica primária segundo o ABCDE, verbalizando:** \nA: Vias aéreas e coluna cervical;\nB: Ventilação/respiração – Avaliação do aparelho respiratório;\nC: Circulação – PA, FC e aparelho cardiovascular;\nD: Avaliação neurológica \nE: Exposição: A paciente está coberta e sem lesões externas.\n\n **Adequado**: Verbaliza corretamente os dados do caso clínico na sequência correta.\n **Parcialmente adequado: **Verbaliza só os dados ou só a sequência.\n **Inadequado: ** Não verbaliza corretamente ou não verbaliza na sequência.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.45",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. ¨**Verbaliza o diagnóstico de pneumotórax hipertensivo.**\n\n**Adequado:** Realiza corretamente.\n**Inadequado:** Não realiza.*",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6.  **Realiza a escolha do cateter (jelco ou abocath) n.º 14 OU n.º 16 OU n.º 18 para realização da punção do tórax OU toracocentese de alívio.**\n\n **Adequado:** Realiza adequadamente.\n **Inadequado:** Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Verbaliza que a punção deve ser realizada no quinto, OU no quarto, espaço intercostal, linha axilar média OU anterior à linha axilar média.**\n\n **Adequado: ** Verbaliza.\n **Inadequado: ** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. ** Indica que deverá ser realizada drenagem torácica fechada (OU drenagem pleural fechada OU toracostomia fechada OU drenagem torácica em selo d’água OU drenagem pleural em selo d’água OU toracostomia em selo d’água) após a realização da punção de descompressão OU da toracocentese descompressiva.**\n\n **Adequado:**Indica.\n **Inadequado: ** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza a drenagem no quinto/quarto espaço intercostal, entre a linha anterior e a linha axilar média**\n\n **Adequado:** Verbaliza.\n **Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita radiografia de tórax após a punção ou a drenagem.**\n\n**Adequado:  **Solicita.\n**Inadequado**: Não solicita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita monitorização da paciente indicando os seguintes parâmetros.**\n1. frequência cardíaca;\n2. pressão arterial;\n3. oximetria OU saturação de oxigênio;\n4. diurese OU sondagem vesical; e,\n5. Eletrocardiograma\n\n **Adequado: ** Solicita a monitorização indicando 3 ou mais itens.\n **Parcialmente adequado: ** Solicita a monitorização indicando apenas 2 itens.\n **Inadequado: ** Não solicita a monitorização ou solicita a monitorização indicando apenas 1 item.\n\nObs. A monitorização da paciente pode ser indicada a qualquer momento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12.  **Após os procedimentos de punção e/ou drenagem, verbaliza a reavaliação do aparelho respiratório OU verbaliza que será repetido o exame de “B” OU verbaliza que será repetido o “ABCDE.**\n\n **Adequado: ** Verbaliza.\n **Inadequado: ** não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Após os procedimentos de punção e/ou drenagem, verbaliza a reavaliação do exame do aparelho cardiovascularOU verbaliza que será repetido o exame de “C” OU verbaliza que será repetido o “ABCDE**\n\n **Adequado: ** verbaliza.\n **Inadequado: ** não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Solicita acesso venoso indicando os seguintes parâmetros:\n1. cateter calibre n.º 14 ou n.º 16 OU nº 18;\n2. veia periférica OU acesso venoso em membro superior;\n3. 1 ou 2 litros;\n4. ringuer lactato ou soro fisiológico ou cristalóide OU solução fisiológica.**\n\n **Adequado: ** Solicita a realização de acesso venoso indicando corretamente os quatro parâmetros.\n **Parcialmente adequado: ** Solicita a realização de acesso venoso e indica corretamente 2 ou 3 parâmetros.\n **Inadequado: ** Não solicita a realização de acesso venoso ou solicita a realização de acesso venoso indicando três itens ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Verbaliza a exposição e o controle do ambiente:\n1. a necessidade de expor toda a paciente, OU retirando o lençol OU retirar roupa;\n2. a necessidade de prevenção de hipotermia**\n\n **Adequado: ** Verbaliza os dois itens.\n **Parcialmente adequado: ** Verbaliza um item.\n **Inadequado: ** Não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. Verbaliza que, no momento, NÃO será necessária remoção da paciente.\n\nAdequado: Verbaliza.\nInadequado: Não verbaliza.\n\n **Conforme item 14.6 do Edital, a pontuação correspondente ao item será atribuída a todos os participantes, inclusive aos que não tenham interposto recurso. **",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

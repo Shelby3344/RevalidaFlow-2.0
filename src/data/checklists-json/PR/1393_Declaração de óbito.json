@@ -1,0 +1,149 @@
+{
+  "uid": 1393,
+  "hash": "e4945642-f326-4416-9c75-d6375f198bf8",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Declaração de óbito",
+  "definicao": "A Declaração de Óbito (DO) é o documento-padrão do SIM e de uso obrigatório em \ntodo o território nacional. É um instrumento padronizado, impresso com sequência \nnumérica única, formando conjuntos de três vias autocopiativas, com diferentes cores \n(branca, amarela e rosa), conforme layout padronizado pela SVS/MS (Apêndice A). \nO primeiro objetivo da DO é o de ser o formulário para a coleta de dados sobre \nmortalidade que servem de base para o cálculo das estatísticas vitais e epidemiológicas \ndo Brasil, conforme determina o art. 10 da Portaria nº 116, de 11 de fevereiro de 2009. \nO segundo, de caráter jurídico, é o de ser o documento hábil, conforme preceitua  \na Lei dos Registros Públicos – Lei nº 6.015, de 31 de dezembro de 1973, para lavratura, \npelos Cartórios de Registro Civil, da Certidão de Óbito, que é indispensável para \nas formalidades legais do sepultamento e para o início dos processos sucessórios  \n(de bens, direitos e obrigações)",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "83.00",
+    "star": "4.1",
+    "time": 587.5,
+    "count": 2016
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Primária.\n\nA unidade conta com a seguinte infraestrutura:\nSala de atenção médica\n\nDescrição do caso:\nVocê estava realizando atendimento na UBS quando foi avisado referente a morte de um paciente e te chamam para constatar um óbito domiciliar, por ser um dos pacientes de sua responsabilidade na unidade. \nAo chegar no domicilio você encontra um número considerável de latas de cerveja e garrafas de bebidas espalhadas pelo chão. \n\nATENÇÃO\nA LOCALIDADE POSSUI S.V.O. E I.M.L.",
+  "tarefas": "Ler card inicial;\nDemonstrar práticas e técnicas de boa comunicação;\nResponder as dúvidas dos familiares\nInformar as condutas a serem seguidas e justificar",
+  "script_ator": "Cléia, 23 anos, esposa do paciente\n\n**Relato sobre o caso:** Ai Dr(a), que bom que você chegou! Eu acho que meu marido morreu, acordei agora de manha e ele não estava se mexendo, acho que ele também não está respirando. \n\n**Tempo de evolução:** Já tem umas 3 horas que percebi \n\n**Acontecimentos prévios:** Não Dr(a), estava tudo bem com ele, ontem fizemos um churrasco aqui em casa, vieram uns amigos e tomamos umas e estava tudo bem \n**Dependência química:** Meu marido e eu amamos uma pinguinha Dr(a), mas isso nunca fez mal para nós não \n**Brigas e/ou desentendimentos:**  Aí Dr(a), todo casal tem seus problemas né, somos bem explosivos um com o outro ainda mais quando tomamos umas , mas quem não briga não se ama né!\n**Agressões:**  As vezes a gente se enrola no chão, mas depois sempre fica tudo bem \n\n**DÚVIDAS**\n**1- Dr(a) eu ainda não chamei a polícia, pedi para te chamarem antes para ter a certeza de que ele morreu ou que está bem, precisamos chamar a polícia?**\n**2- Dr(a) quem vai preencher os papeis para o meu esposo?**\n**3-Poderia explicar um pouco mais desses papeis?**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "ECTOSCOPIA",
+      "conteudo": "Se  observa sulco em região cervical",
+      "imagem": "https://app.penserevalida.com/impressos/9/1731674971.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "CARD INICIAL ",
+      "conteudo": "Cena local: \n\n\n\nAo chegar no domicilio se observa corpo em decúbito dorsal no sofá da sala.\n\n\n\nPelo chão da residência se observam múltiplos recipientes de bebidas alcoólicas.\n\n\n\nA esposa é a única pessoa no local que se demonstra chorosa, abalada e com corte sangrante em lábio inferior .",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. Solicita permissão para entrar no domicílio (1), se apresenta (2) e\npergunta dados de identificação (3)\n\n**Adequado:** realiza as três ações.\n**Parcialmente adequado: **realiza apenas duas das ações.\n**Inadequado: **não realiza nenhuma das ações ou realiza apenas uma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. Usa linguagem acessível, evitando termos técnicos de difícil compreensão (1) e Estabelece contato visual e mantém postura de empatia ao longo da consulta. (2) \n\n**Adequado: **Realiza as duas ações\n**Inadequado:** Realiza somente uma ação ou não realiza nenhuma das ações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. Pergunta por qual motivo foi solicitada a visita domiciliaria (1) e\nouve o relato atentamente, sem interrupções desnecessárias (2) \n\n**Adequado:** Realiza as duas ações\n**Inadequado:** Realiza somente uma ação ou não realiza nenhuma das ações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **INVESTIGA**\nTempo de evolução do quadro\n\n**Adequado:** Investiga\n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **INVESTIGA** \nAcontecimentos prévios a percepção de morte \n\n**Adequado:** Investiga\n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **INVESTIGA**\n(1) Dependência química;\n(2) Relação matrimonial (brigas/desentendimentos);\n(3) Agressões físicas ou verbais ou financeira ou sexual\n\n**Adequado:** Investiga os três itens\n**Parcialmente adequado:** Investiga somente dois itens\n**Inadequado:** Não investiga nenhum item OU investiga somente um item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. Informa que será necessário acionar o serviço policial \n\n**Adequado:** Informa\n**Inadequado:** Não informa",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. Informa que o preenchimento da declaração de óbito será realizado pelo IML devido a suspeita de morte violenta \n\n**Adequado:** Informa o seguimento adequado e justifica\n**Parcialmente adequado:** Somente informa a D.O. será realizada pelo IML sem justificar\n**Inadequado:** Não informa que a D.O. será realizada pelo IML",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. Informa o seguimento de cada via:\n(1) Via branca: Secretaria de saúde \n(2) Via amarela: Cartório de Registro Civil \n(3) Via rosa: IML \n\n**Adequado:** Informa o seguimento adequado das 3 vias\n**Parcialmente adequado:** Informa o seguimento adequado de ao menos 2 vias\n**Inadequado:** não informa o seguimento adequado de nenhuma via ou informa somente de uma via",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. Investiga possíveis dúvidas \n\n**Adequado:** Investiga\n**Inadequado:** Não investiga",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

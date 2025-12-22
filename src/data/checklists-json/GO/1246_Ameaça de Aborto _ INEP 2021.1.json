@@ -1,0 +1,216 @@
+{
+  "uid": 1246,
+  "hash": "covzOqsdMtTcqPzGoCDYuutr",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Ameaça de Aborto | INEP 2021.1",
+  "definicao": "A ameaça de aborto, ou aborto evitável, diz respeito à situação na qual a paciente apresenta sangramento vaginal, mas o orifício interno do colo uterino permanece impérvio e a vitalidade embrionária está preservada.",
+  "origem": 1,
+  "ano_da_prova": "20211",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "92.00",
+    "star": 0,
+    "time": 543.5,
+    "count": 12409
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Secundária.\nTipo de Atendimento: Unidade de Emergência de Ginecologia e Obstetrícia.\n\nA unidade apresenta a seguinte infraestrutura:\n- Farmácia para fornecimento de medicações;\n- Equipe de enfermagem e equipe médica;\n- Ultrassonografia.\n\n\nDESCRIÇÃO DO CASO:\n-Você está de plantão em uma Unidade de Pronto Atendimento e vai atender a sra. Amanda, moradora da região. Na sala de atendimento, considere estar disponível tudo o que é necessário para realizar o atendimento, bem como a presença de uma técnica de enfermagem. A paciente está grávida e já iniciou o pré-natal na Unidade Básica de Saúde mais próxima.",
+  "tarefas": "- Atender a paciente; \n- Verbalizar a realização do exame físico/ginecológico (todos os seus passos) e os achados \nprincipais, explicando-os para a paciente; \n- Orientar a paciente quanto ao caso, solicitar exames complementares e fazer prescrição, se \njulgar necessário; \n- Dar todas as orientações quanto ao seguimento do caso e orientar a paciente sobre suas \nperguntas. \n\nObs.: Você não precisará fazer o exame físico/ginecológico na paciente simulada, mas deverá verbalizar tudo o que faria no exame físico.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Amanda, 23 anos, ensino médio completo, em união estável.\n\n**Caderneta da gestante/ controle de pré-natal/ dados obstétricos:** Entregar card 1 e card 2.\n\n**MOTIVO DE CONSULTA:**\n- Doutor(a), está saindo sangue da minha vagina há 1 hora mais ou menos, o que está acontecendo?\n\n**SINTOMAS ASSOCIADOS:**\n**- Dor:** Está doendo aqui no pé da minha barriga, uma dor fraquinha.\n\n**NEGAR:**\n- Febre;\n- Sangramento prévio;\n- Tontura;\n- Desmaio;\n- Corrimento;\n- Sintomas urinários.\n\n**ANTECEDENTES PESSOAIS**:\n**- Doenças Crônicas:** Não tenho nada, Dr(a). A minha mãe diz que sou ansiosa, mas não tenho nenhum diagnóstico.\n**- Medicamentos:** Não utiliza nenhum medicamneto de uso continuo.\n**- Alergias:** Desconhece alergias medicamentosas e alimentares.\n**- Cartão de vacinação:** Atualizado.\n\n**ANTECEDENTES GINECOOBSTETRICOS**\n**- Gestas, partos e abortos:** É a minha primeira gestação, nunca tive partos ou abortos.\n**- Data da última menstruação:** Há uns 2 meses já, Dr(a), não me lembro.\n**- Idade gestacional:** 8 semanas.\n\n**DÚVIDAS:**\n- Dr(a), eu vou precisar ficar internada?\n- Dr(a), o que eu posso tomar para dor?\n- Posso ter relação sexual?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Caderneta da Gestante (1)",
+      "conteudo": "",
+      "imagem": "https://app.penserevalida.com/impressos/03/cg2.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Caderneta da Gestante 2 ",
+      "conteudo": "",
+      "imagem": "https://app.penserevalida.com/impressos/03/usg.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Ultrassonografia Obstétrica Endovaginal",
+      "conteudo": "**Data do exame: **19/12/2021 \n\n**Paciente:** Amanda Silva de Souza \n\n**DUM:** 21/10/2021 \n\n**IG:** 8s 3d \n\n\n\nEmbrião móvel e com batimentos cardíacos visíveis (**160 bpm**). \n\n**Comprimento cabeça-nádega:** 18,6 mm \n\n**Volume uterino:** 210 cm3\n\n\n\n**Impressão:** \n\nGestação em curso, compatível com gestação de 8 semanas e 3 dias.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Exame Físico",
+      "conteudo": "Bom estado geral, normocorada, hidratada \n\n\n\n**Mamas:** Sem alterações à inspeção ou palpação. \n\n**Aparelho respiratório: **Sem alterações. \n\n**Aparelho cardiovascular: **Sem alterações.\n\n**ABDOME:** Sem alterações. \n\n\n\n**EXAME ESPECULAR: **Colo normoepitelizado sem lesões anormais, ausência de secreções patológicas, presença de discreto sangramento vermelho vivo proveniente do orifício cervical. \n\n**TOQUE VAGINAL:** Útero AVF (anteverso flexão), móvel de tamanho compatível com atraso menstrual, colo longo, posterior e fechado, sangramento discreto vermelho vivo em dedo de luva.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta - se**:\n(1) Apresenta-se e;\n(2) Pergunta o nome da paciente.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Não realiza nenhuma das ações ou realiza apenas uma das \nações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre a história reprodutiva (gestações e partos).**\n\n**Adequado:** Pergunta.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. (1) Pergunta a data da última menstruação; \n(2) Pergunta sobre ciclos menstruais antes da gravidez.**\n\n**Adequado:** Pergunta os dois itens.\n**Parcialmente adequado:** Pergunta apenas um dos itens.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. (1) Pergunta se está fazendo pré-natal e/ou;\n (2) Solicita o cartão da gestante.**\n\n**Adequado:** Solicita o cartão da gestante.\n**Parcialmente adequado:** Apenas pergunta se está fazendo pré-natal.\n**Inadequado:** Não pergunta sobre pré-natal nem solicita o cartão.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre alguma intercorrência recente (p. ex. acidente, violência doméstica, uso de medicamento não prescrito, tentativa de induzir abortamento).**\n\n**Adequado:** Pergunta dois ou mais dos itens descritos.\n**Parcialmente adequado:** Pergunta um dos itens descritos.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a necessidade de calçar luvas de procedimento.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a necessidade do exame especular.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a necessidade de realizar toque vaginal bimanual.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Após leitura do impresso 3, tranquiliza a paciente, explicando que no momento não se trata de abortamento.**\n\n**Adequado:** Tranquiliza (aceitar como adequado caso o(a) participante mencione “Ameaça de Abortamento”).\n**Inadequado:** Não tranquiliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita ultrassonografia obstétrica.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Responde à paciente que ela não vai precisar ficar internada.**\n\n**Adequado:** Responde que não precisa de internação.\n**Inadequado:** Responde que precisa de internação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Responde à paciente que ela pode tomar um analgésico ou antiespasmódico (hioscina/escopolamina) para cólica – para este item pontuar se o(a) participante falar o nome de medicações analgésicas ou antiespasmódicas ou se apenas falar a classe da medicação. **\n**(não considerar se o(a) participante mencionar o uso de progesterona ou outras medicações)**.\n\n**Adequado:** Responde e cita medicação adequada.\n**Inadequado:** Não responde ou cita medicação inadequada.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta:**\n(1) Tranquiliza a paciente de que o bebê dela está bem e que agora não está com nenhum sinal de problema na gestação; \n(2). Explica que o quadro de ameaça de abortamento tem que ser acompanhado; \n(3) Explica que ela tem que estar atenta aos sinais de alarme, como aumento das cólicas ou sangramentos. \n\n**Adequado:** Realizou pelo menos duas das ações acima.\n**Parcialmente adequado:** Realizou apenas uma das ações acima.\n**Inadequado: **Não realizou nenhuma das ações acima.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Responde à paciente que não pode manter relações sexuais enquanto persistir o sangramento.**\n\n**Adequado:** Responde que não pode manter relações sexuais.\n**Inadequado:** Não responde ou cita que pode manter relações sexuais.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Pergunta se a paciente tem mais alguma dúvida.**\n\n**Adequado:** Pergunta.\n**Inadequado:** Não pergunta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

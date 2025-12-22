@@ -1,0 +1,293 @@
+{
+  "uid": 1291,
+  "hash": "dZXa6c3oIhgzalRX7Z1V7ImM",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Violência Contra o Idoso",
+  "definicao": "No Brasil, o Estatuto do Idoso, promulgado pela lei no 10.741 de 2003, descreve a violência contra o idoso como “qualquer ação ou omissão, praticada em local público ou privado, que lhe cause morte, dano ou sofrimento físico ou psicológico”",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "55.50",
+    "star": 0,
+    "time": 544.5,
+    "count": 7061
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial \nUnidade Básica de Saúde – sala da equipe de Saúde da Família.\n\n A unidade apresenta a seguinte infraestrutura:\n - Consultório médico e salas de procedimentos e observação.  \n\nDESCRIÇÃO DO CASO:\nVocê compõe uma equipe da Estratégia de Saúde da Família e atenderá um paciente de 77 anos que comparece à unidade por demanda espontânea.\n\nO enfermeiro da unidade comenta com você que o paciente tem hiperfrequência da UBS e na última consulta, queixou-se de tremores e palpitações após brigar com o filho, sendo diagnosticado com crise de ansiedade.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Acolher adequadamente a demanda do paciente;\n-Formular e verbalizar a hipótese diagnóstica;\n-Orientar o plano terapêutico e as condutas adequadas ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Bernardo, 77 anos, aposentado, viúvo.\n\n**MOTIVO DE CONSULTA**: \nDr(a), eu vim hoje porque acordei com um incômodo na garganta, parece que algo me aperta, está meio dolorido.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**Tempo de evolução**: Ontem.\n**Localização:** Garganta.\n**Intensidade**: É uma dor intensa.\n**Episódios prévios:** Nega.\n\n**SINTOMAS ASSOCIADOS:**\n**Tosse:** Nega.\n**Catarro:** Nega.\n**Coriza:** Nega.\n**Sensação de queimação:** Nega.\n**Dispepsia:** Nega.\n**Refluxo:** Nega.\n**Ingesta de comida copiosa na noite anterior:** Nega.\n**Febre:** Nega.\n**Sudoração:** Nega.\n**Náuseas:** Nega.\n**Vômitos:** Nega.\n**Diarreia:** Nega.\n**Palpitações:** Nega.\n**Desmaio:** Nega.\n**Queda:** Nega.\n**Convulsões:** Nega.\n**Dispneia:** Nega.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n**Doenças crônicas:** Sou hipertenso e diabético.\n**Medicações em uso:** Ah, Dr(a), eu não sei os nomes, mas deixo tudo anotado, você quer ver? **(mostrar impresso 1)**\n**Situação vacinal:** Minhas imunizações estão completas.\n**Prática de atividade física:** Faço aulas de hidroginástica três vezes na semana.\n\n**HÁBITOS**:\n-**Tabagismo**: Nega.\n-**Etilismo**: Nega.\n-**Drogas ilícitas**: Nega.\n\n**ANTECEDENTE PSICOSOCIAL E AMBIENTAL:**\n**Relacionamentos afetivos:** Nega.\n**Participação em grupos de idosos:** Nega.\n**Caso o candidato pergunte sobre com quem reside, responder:** A maior parte do tempo sozinho, mas meu filho usou uma parte do meu quintal para fazer um bar, então eu o vejo todos os dias. Não que isso seja boa coisa, né? Porque aquele ali só quer se livrar de mim.\n**Relacionamento com o filho:** Ele grita muito comigo, me chama de imprestável, não me ajuda em nada. Outro dia fiquei sem meu remédio porque estava com dor no joelho e ele não veio buscar, disse para eu me virar. Tive que ficar três dias sem tomar o remédio da pressão.\n**Violência financeira:** Ele não me paga um centavo pelo aluguel do espaço do bar. Muito pelo contrário, esse ingrato outro dia fez um empréstimo no meu nome e eu nem vi a cor do dinheiro. Agora estou pagando a dívida.\n**Violência sexual:** Ele tem tanto nojo de mim que não chega nem perto, só quando é para fazer ameaças.\n**Violência física:** (se mostre emotivo, chore e desvie o olhar ao responder) Ele já me empurrou no chão, pegou faca para me ameaçar e ontem até apertou meu pescoço porque eu cobrei ao menos uma ajudinha pelo aluguel do bar. Porque não é fácil, Dr(a), o dinheiro da aposentadoria é tão pouquinho, sabe.\n**Denúncia policial:** Não, eu tenho medo de ele descobrir e me matar de vez.\n\n**PERGUNTA 1**: Como o psicólogo pode me ajudar?\n**PERGUNTA 2**: Como o assistente social pode me ajudar?\n**SÓ REALIZAR AS PERGUNTAS SE O PARTICIPANTE VERBALIZAR QUE VAI ENCAMINHAR PARA PSICÓLOGO E/OU ASSISTENTE SOCIAL**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Medicações Crônicas",
+      "conteudo": "**Losartana 50 mg** \n\n**Hidroclorotiazida 25 mg**\n\n**Metformina XR 500 mg**",
+      "imagem": "https://app.penserevalida.com/impressos/02/estrangulamento-1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia",
+      "conteudo": "Ectoscopia de pescoço com sinais de estrangulamento recente.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame Físico ",
+      "conteudo": "**Peso:** 75 kg \n\n**Índice de Massa Corporal:** 23,87 kg/m² \n\n\n\n**Pressão Arterial:** 127 mmHg × 88 mmHg \n\n**Frequência Cardíaca:** 74 batimentos/minuto \n\n**Temperatura:** 35,8 ºC\n\n\n\nPaciente em bom estado geral, acianótico, anictérico, corado, hidratado e retraído. \n\n\n\n**Ausculta cardiorrespiratória:** \n\nSem alterações. \n\n\n\n**Avaliação abdominal:** \n\nSem alterações. \n\n\n\n**Membros superiores:** \n\nPresença de 2 hematomas no braço direito. \n\n\n\n**Membros inferiores:** \n\nSem alterações. \n\n\n\n**Força muscular mantida em MMSS e MMII.**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Avaliação Multidimensional do Idoso",
+      "conteudo": "**Audição: **\n\n Teste de Whisper – Diminuição de resposta bilateral, otoscopia  sem alterações.\n\n\n\n**Quedas nos últimos 12 meses:** \n\nSofreu 05 episódios de quedas. Refere ter tapetes soltos em casa.\n\n\n\n**Informa:** \n\nQue caso haja a necessidade de pedir ajuda para algum  familiar, não tem com quem contar. \n\n\n\n**Refere:** \n\nDificuldade para dirigir, ver TV, ler, ou fazer qualquer outra atividade de vida diária, desconhece problemas de visão.\n\n\n\n**Frequentemente:** \n\nSente-se triste ou desanimado.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**\n(1) Cumprimenta o paciente;\n(2) Se identifica de maneira cordial;\n(3) Identifica o paciente; \n(4) Pergunta; e, \n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza apenas um item ou não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) Estabelece contato visual; e, \n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado:** Realiza os dois itens.\n**Inadequado:** Não realiza os dois itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala da paciente simulada sem interrompê-la. **\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão **\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Chama o paciente pelo nome, pelo menos uma vez. **\n\n**Adequado:** Chama o paciente pelo nome.\n**Inadequado:** Não chama a paciente pelo nome.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga a dor: **\n(1) Tempo desde o início do quadro;\n(2) Tipo de dor;\n(3) Localização e irradiação;\n(4) Intensidade ou graduação;\n(5) Fatores de melhoria;\n(6) Fatores de agravamento; \n(7) Fatores desencadeantes; e,\n(8) Uso de medicamentos.\n\n**Adequado**: Pergunta seis ou mais itens.\n**Parcialmente adequado**: Pergunta de três a cinco itens.\n**Inadequado**: Pergunta um ou dois itens ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga:**\n(1) Doenças crônicas;\n(2) Uso de medicação crônica;\n(3) Hábitos tóxicos (etilismo, tabagismo e drogas ilícitas); e, \n(4) Prática de atividade física. \n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga  dois ou três itens.\n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Os hábitos sexuais também são importantes."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita caderneta de vacinas**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": "Lembrar da vacina da gripe, covid e pneumonia."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Pergunta ao paciente:**\n(1) Com quem reside; e, \n(2) Se possui algum responsável ou cuidador.\n\n**Adequado:** Realiza os dois itens. \n**Parcialmente adequado:** Realiza somente um dos itens.\n**Inadequado:** Não realiza nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10.** Identifica/verbaliza:**\n(1) Relacionamento conflituoso com o filho; e,\n(2) Falta de rede de apoio.\n\n**Adequado:** Identifica/verbaliza os dois itens.\n**Parcialmente adequado:** Identifica/verbaliza somente um item. \n**Inadequado:** Não identifica/verbaliza nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita:** \n(1) Exame físico;\n(2) Após leitura do impresso 3 questiona sobre origem dos hematomas.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza ao menos um item.\n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.2",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12.** Solicita a avaliação multidimensional do idoso.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": "Outra escala que poderiam abordar é a Escala de Barthel."
+    },
+    {
+      "idx": 13,
+      "descricao": "13.** Identifica que o paciente tem fatores de risco para quedas e faz as devidas orientações como:**\n(1) Retirada dos tapetes soltos;\n(2) Instalação de barras de apoio;\n(3) Uso de sapatos adequados;\n(4) Não acumulo de objetos em casa;\n(5) Identifica o problema auditivo e encaminha para o otorrinolaringologista;\n(6) Identifica o problema visual e encaminha para oftalmologista; e,\n(7) Identifica sintomas depressivos e encaminha para serviço de psicologia.\n\n**Adequado:** Identifica cinco ou mais itens.\n**Parcialmente adequado:** Identifica quatro itens.\n**Inadequado:** Identifica três ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.2",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Realiza perguntas para identificar um ou mais tipos de violência:**\n(1) Sobre violência física;\n(2) Sobre violência financeira; \n(3) Sobre violência psicológica; \n(4) Sobre violência sexual;\n(5) Sobre negligência;\n(6) Sobre abandono; e,\n(7) Sobre violência patrimonial.\n\n**Adequado:** Realiza seis ou mais itens.\n**Parcialmente adequado:** Realiza de dois a cinco itens.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Identifica/verbaliza:**\n(1) Violência financeira; e, \n(2) Notifica ao SINAN.\n\n**Adequado:** Verbaliza os dois itens. \n**Inadequado:** Não verbaliza os dois itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Identifica/verbaliza:**\n(1) Violência física; e, \n(2) Notifica ao SINAN.\n\n**Adequado:** Verbaliza os dois itens. \n**Inadequado:** Não verbaliza os dois itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17.** Identifica/verbaliza:**\n(1) Violência psicológica; e, \n(2) Notifica ao SINAN.\n\n**Adequado:** Verbaliza os dois itens. \n**Inadequado:** Não verbaliza os dois itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Identifica/verbaliza:**\n(1) Negligência; e, \n(2) Notifica ao SINAN.\n\n**Adequado:** Verbaliza os dois itens. \n**Inadequado:** Não verbaliza os dois itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "19. **Realiza ativação da E-multi**\n\n**Adequado:** Realiza.\n**Inadequado:** Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.45"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "20. **Explica as atribuições da assistente social:**\n(1) Suporte para pacientes e seus familiares;\n(2) Garantindo direitos e apoio quando solicitado; e,\n(3) Realiza diversas atividades, envolvendo integração, serviços e facilitações às pessoas. \n\n**Adequado:** Explica um item.\n**Inadequado:** Não explica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.45"
+      },
+      "dica_teorica": "Garante direitos e deveres. Implementa, planeja e e avalia políticas sociais."
+    },
+    {
+      "idx": 21,
+      "descricao": "21. **Explica as atribuições da psicóloga: **\n(1) Promoção e proteção à saúde;\n(2) Diagnóstico, tratamento, reabilitação, redução de danos e manutenção da saúde; e,\n(3) Atenção integral.\n\n**Adequado:** Explica um item.\n**Inadequado:** Não explica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.45"
+      },
+      "dica_teorica": "Semelhante ao médico: promoção, prevenção, diagnóstico, tratamento e reabilitação."
+    },
+    {
+      "idx": 22,
+      "descricao": "22. **Informa sobre sigilo do caso para a paciente. **\n\n**Adequado:** Informa.\n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": "O paciente tem autonomia para decidir se deseja comunicar as autoridades policiais."
+    }
+  ]
+}

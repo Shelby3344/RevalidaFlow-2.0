@@ -1,0 +1,138 @@
+{
+  "uid": 1391,
+  "hash": "473cee98-18b1-4d78-bfac-e83262478729",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Tinea Corporis",
+  "definicao": "Tinea Corporis é uma infecção fúngica superficial da pele, causada por dermatófitos. O diagnóstico é clínico, mas pode ser confirmado por exame microscópico direto ou cultura. O tratamento inclui antifúngicos tópicos ou sistêmicos.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "72.00",
+    "star": "4.4",
+    "time": 533.5,
+    "count": 1691
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas.\n\nDescrição do caso: \nVocê é o médico de plantão em uma Unidade Básica de Saúde e atende um homem de 27 anos de idade, policial militar, com queixa de uma mancha na pele.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar exame físico direcionado à queixa principal do paciente;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, e ao menos 3 diagnósticos diferenciais;\n- Orientar medidas terapêuticas iniciais (farmacológicas  não farmacológicas) e acompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS:** \n- João, 27 anos, solteiro, policial militar.\n\n**MOTIVO DE CONSULTA:** \n- Apareceu uma mancha na minha pele que não desaparece.\n\n**CARACTERÍSTICAS DA MANCHA:** \n**- Tempo de evolução:** Sete dias. \n**- Localização:** Na parte lateral da barriga e costelas. \n**- Cor:** Avermelhada. \n**- Coceira:** Sim.\n**- Presença de secreção:** Não. \n**- Fatores de melhora:** quando passo creme hidratante diminui um pouco a coceira. \n**- Fatores de piora:** Coçar aumenta a irritação.\n**- Episódio anteriores:** Não. \n**- Progressão:** Está igual desde que apareceu. \n\n**SINTOMAS ASSOCIADOS:**\n**- Coceira:** Sim. \n**- Febre:** Não. \n\n**SE INVESTIGADO CONTATOS COM SINTOMAS SIMILARES:**\n- No alojamento do quartel tem mais 2 companheiros com a mesma mancha. \n\n**SE INVESTIGADO CONTATO COM SUBSTÂNCIAS IRRITANTES:**\n- Nega. \n\n**ANTECEDENTES PESSOAIS:** \n**- Doenças:** Nega. \n**- Medicamentos:** Nega. \n**- Alergias:** Nega. \n\n**HÁBITOS:** \n**- Cigarro:** Nega. \n**- Álcool:** Socialmente. \n**- Drogas ilícitas:** Nega. \n**- Atividade física:** Corrida duas vezes por semana. \n**- Alimentação:** Dieta balanceada.\n\n\n**AO RECEBER ALGUM DIAGNÓSTICO, PERGUNTAR:** \n- Como posso tratar isso? É contagioso?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 110x70 mmHg \n\n**- Frequência cardíaca:** 62 batimentos por minuto\n\n**- Saturação de O2:** 98% \n\n**- Temperatura axilar:** 36° C \n\n**- Frequência respiratória:** 12 incursões por minuto \n\n\n\n**Estado geral:** \n\nPaciente em bom estado geral, afebril, acianótico, anictérico, alerta, orientado no tempo e espaço.\n\n\n\n**Cardiovascular:** \n\nRitmo cardíaco regular, bulhas normofonéticas, sem sopros.\n\n\n\n**Respiratório:** \n\nMurmúrio vesicular presente, sem ruídos adventícios.\n\n\n\n**Abdominal:** \n\nAbdome plano, flácido, ruídos hidroaéreos normoativos, indolor à palpação.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Microscopia direta",
+      "conteudo": "**Análise com KOH 10%:** se observa hifas hialinas septadas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:** \n(1) Identifica-se; \n(2) Cumprimenta o paciente .\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga o quadro perguntando:** \n(1) Tempo de aparecimento; \n(2) Localização; \n(3) Coceira;\n(4) Cor; \n(5) Presença de secreção;\n(6) Fatores de melhora; \n(7) Fatores de piora;\n(8) Progressão;\n(9) Febre. \n\n**Adequado:** Investiga 6 ou mais itens.\n**Parcialmente adequado:** Investiga de três a cinco itens.\n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investigou:**\n(1) Contato com pessoas com sintomas similares;\n(2) Contato com substâncias irritantes. \n\n**Adequado:** Investiga  dois itens.\n**Parcialmente adequado:** Investiga apenas um item.\n**Inadequado:** Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4.  **Investiga antecedentes pessoais.**\n\n**Adequado:** Investiga.\n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.  **Descreve adequadamente o exame físico:** lesão/ mancha eritematosa, arredondada com limites bem delimitados e com centro claro.\n\n**Adequado:** Descreve.\n**Inadequado:** Não descreve.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Realiza o diagnóstico de Tinea Corporis.**\n\n**Adequado:** Realiza.\n**Inadequado:** Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Cita diagnósticos diferenciais:**\n(1) Dermatite de contato;\n(2) Dermatite atópica;\n(3) Dermatite seborreica;\n(4) Psoríase;\n(5) Hanseníase;\n(6) Sífilis secundária;\n(7) Erupção por fármacos. \n\n**Adequado:** Cita três ou mais diagnósticos diferenciais. \n**Parcialmente adequado:** Cita dois diagnósticos diferenciais. \n**Inadequado:** Cita um ou nenhum diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Informa sobre a natureza contagiosa da infecção.**\n\n**Adequado:** Informa.\n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Tinea Corporis é uma infecção contagiosa e pode ser transmitida por contato direto ou indireto."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Conduta terapêutica:** \n(1) Prescreve antifúngico tópico; \n(2) Deu orientações sobre higiene e não compartilhar objetos pessoais;  \n(3) Indica retorno para acompanhamento.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realizou duas ações.\n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Opções de antifúngico tópico imidazólico: clotrimazol, miconazol, cetoconazol, econazol, oxiconazol, sulconazol, sertacolazol."
+    }
+  ]
+}

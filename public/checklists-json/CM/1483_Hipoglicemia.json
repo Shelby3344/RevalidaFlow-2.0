@@ -1,0 +1,199 @@
+{
+  "uid": 1483,
+  "hash": "2abca6e499feccfea7d3bf0b27a96477f305687d6ab3209983a5ce9b44be4472-1742676946",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Hipoglicemia",
+  "definicao": "Hipoglicemia é a condição em que a concentração de glicose (açúcar) no sangue está abaixo do normal, geralmente abaixo de 70 mg/dL (3,9 mmol/L). É um distúrbio metabólico que pode causar sintomas como tremores, suor, tonturas e, em casos graves, confusão mental e até inconsciência. \nElaboração:\nA hipoglicemia é frequentemente observada em pessoas com diabetes, especialmente aquelas que usam insulina ou outros medicamentos para controlar a doença. No entanto, pode ocorrer em pessoas sem diabetes, devido a diversas causas, como jejum prolongado, consumo excessivo de álcool, ingestão de certos medicamentos ou certos problemas de saúde. \nSintomas:\nOs sintomas de hipoglicemia podem variar de pessoa para pessoa, mas geralmente incluem:\nTremores e suor frio: A adrenalina liberada pelo corpo em resposta à hipoglicemia pode causar tremores e suor excessivo. \nTonturas e cansaço: A falta de glicose no cérebro pode causar tonturas e cansaço. \nFome e náuseas: A hipoglicemia pode estimular a fome e causar náuseas. \nConfusão mental: A falta de glicose no cérebro pode levar a confusão mental, dificuldade de concentração e, em casos graves, perda de consciência. \nOutros sintomas: Palpitações, visão embaçada, dor de cabeça e sensação de formigamento. \nTratamento:\nO tratamento da hipoglicemia consiste em elevar a glicose no sangue, geralmente através da ingestão de alimentos ou bebidas açucaradas, como suco de frutas, doces ou comprimidos de glicose. Em casos mais graves, pode ser necessário o uso de glucagon, um hormônio que estimula a liberação de glicose pelo fígado.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "53.50",
+    "star": 0,
+    "time": 593,
+    "count": 2942
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Unidade de Pronto Atendimento (UPA).\n\nA unidade possui a seguinte infraestrutura:\n- Laboratório de análises clínicas;\n- Glicosímetro;\n- Leitos de internação.\n\nDESCRIÇÃO DO CASO:\nPaciente do sexo masculino, 19 anos, diabético tipo 1, ingressa na UPA relatando episódios frequentes de tontura.",
+  "tarefas": "- Realizar anamnese direcionada ao motivo de consulta; \n- Solicitar e interpretar o exame físico;\n- Solicitar e interpretar exames complementares pertinentes;\n- Informar o diagnóstico, citando os possíveis motivos do ocorrido;\n- Indicar conduta terapêutica adequada;\n- Orientar sobre pelo menos 4 cuidados com o paciente após a alta.",
+  "script_ator": "**DADOS PESSOAIS:**\n-  Victor, 19 anos, solteiro.\n\n**MOTIVO DE CONSULTA: **\n -Dr (a), estou tendo momentos de tonturas;\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**-Tempo de evolução dos sintomas:** Faz umas 3 semanas que venho sentindo isso, mas o último episódio começou há pouco, já vim logo assim que me senti mal.\n**-Episódios anteriores:** Já tive várias vezes no ultimo mês.\n**-Sensação de giro:** Nega.\n**-Relação com o movimento da cabeça:** Não tem relação e não piora com o movimento.\n**-Alterações acústicas e/ou zumbidos e/ou perda auditiva:** Nega.\n**-Sensação de desmaio:** Sim.\n**-Início:** É repentino.\n**-Fatores agravantes:** Quando eu faço exercício físico eu tenho mais vezes.\n**-Fatores atenuantes:** Quando eu como alguma coisa melhora.\n**-Sensação de desmaio iminente:** Sim Dr (a), fico muito preocupado.\n**-Frequência:** Acontece umas 4 vezes ao dia, principalmente quando eu faço bastante coisa no dia.\n**-Progressão:** Está igual desde que começou.\n\n**SINAIS E SINTOMAS ASSOCIADOS:**\n**-Sudorese:** Sim, fico suando durante as crises.\n**-Palpitações:** Sim.\n**-Tremores:** Sim.\n**-Desmaio:** Nega.\n**-Convulsões:** Nega\n**-Queda**: Cheguei a cair uma vez.\n**-Alterações urinarias:** Nega.\n**-Alterações intestinais:** Nega.\n**-Cefaleia:** Nega.\n**-Sintomas motores e/ou fraqueza muscular, dificuldade para falar e/ou andar:** Nega.\n\n**ANTECEDENTES PESSOAIS:**\n**-Doença:** Eu tenho Diabetes tipo I desde pequeno.\n**-Medicamentos:** Uso terapia com insulina só.\n**-Alterações na insulinoterapia:** Sim, eu fui no médico da UBS e ele disse que eu tinha que aumentar a dose, eu usava 15 UI de glargina à noite e 5 UI de lispro antes do café, almoço e jantar, há 3 semanas ele passou para 21 UI de glargina à noite e 7 UI de lispro nas refeições.\n**-Tabagismo, álcool e drogas:** Consumo álcool nos finais de semana.\n**-Atividade física:** Eu era sedentário, agora comecei a fazer academia no mês passado, vou entre 3 e 4 vezes por semana, fico 1 hora e meia mais ou menos, quero ganhar massa muscular.\n**-Dieta, jejum ou atraso na alimentação:** Eu to comendo normal Dr (a), sempre cuidei da minha alimentação, antes de ir pra academia tomo um shake proteico. \n**-Último controle com endocrinologista:** Nem me lembro, era bem pequeno.\n\n**ANTECEDENTES FAMILIARES:**\n**-Pai**: Diabético.\n**-Mae**: Hipertensa.\n\n**DÚVIDAS:** \n-Doutor como eu posso prevenir isso?\n-Pode complicar se não for tratado na hora?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Antropometria:**\n\n- **Peso:** 70 kg\n\n- **Altura:** 1,75\n\n\n\n**Sinais vitais:**\n\n- Pressão arterial: 120x80 mmHg\n\n- Frequência cardíaca: 102 batimentos por minuto\n\n- Frequência respiratória: 16 incursões por minuto\n\n- Saturação de O2: 99% AA\n\n- Temperatura axilar: 36.4° C\n\n\n\n**Estado Geral:** \n\nPaciente em regular estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**Cardiovascular:** \n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** \n\nAusculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** \n\nAbdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão.\n\n\n\n**Extremidades:** \n\nTremor em membros superiores.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame neurológico ",
+      "conteudo": "Paciente alerta, orientado no tempo e espaço.\n\n\n\nPupilas isocóricas, ausência de Nistagmo.\n\n\n\n**Exame de marcha e equilíbrio dinâmico:** Sem alterações. \n\n\n\n**Equilíbrio estático:** Preservado. \n\n\n\n**Motricidade:** Preserva nos 4 membros. \n\n\n\n**Coordenação motora:** Preservada.\n\n\n\n**Força muscular:** Grau 5 nos 4 membros. \n\n\n\n**Sensibilidade:** Preservada. \n\n\n\n**Reflexos:** Normorreflexia.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Glicemia capilar",
+      "conteudo": "54 mg/dL",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **O candidato:**\n(1) Se apresenta e se identifica;\n(2) Pergunta o nome e cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga a tontura:**\n(1) Tempo de evolução;\n(2) Episódios anteriores;\n(3) Sensação de giro;\n(4) Sensação de desmaio e/ou desequilíbrio e/ou flutuação;\n(5) Frequência;\n(6) Progressão;\n(7) Fatores desencadeantes;\n(8) Fatores atenuantes.\n\n**Adequado:** Investiga de seis a oito itens.\n**Parcialmente adequado:** Investiga de quatro a cinco itens.\n**Inadequado:** Investiga de um a três itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga sinais e sintomas acompanhantes:**\n(1) Sudorese;\n(2) Palpitações;\n(3) Tremores;\n(4) Convulsões;\n(5) Náuseas;\n(6) Vómitos;\n(7) Cefaleia;\n(8) Sintomas motores e/ou fraqueza muscular, dificuldade para falar e/ou andar;\n(9) Alterações acústicas e/ou zumbidos e/ou perda auditiva.\n\n**Adequado:** Investiga de sete a nove itens.\n**Parcialmente adequado:** Investiga de cinco a seis itens itens.\n**Inadequado:** Investiga de um a quatro itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais perguntando:**\n(1) Comorbidades;\n(2) Uso de medicamentos;\n(3) Hábitos tóxicos (drogas ilícitas e/ou álcool e/ou cigarro);\n(4) Alimentação;\n(5) Atividade física.\n\n**Adequado:** Investiga de quatro a cinco itens.\n**Parcialmente adequado:** Investiga três itens.\n**Inadequado:** Investiga de um a dois itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga antecedentes familiares.**\n\n**Adequado:** Investiga.\n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita:**\n(1) Exame físico geral;\n(2) Exame neurológico.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita apenas um item.\n**Inadequado:** Não solicita nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita glicemia capilar no momento da consulta.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Informa o diagnóstico de hipoglicemia.**\n\n**Adequado:** Verbaliza corretamente o diagnóstico.\n**Inadequado:** Não verbaliza o diagnóstico ou o faz incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "A hipoglicemia é classificada em três níveis: leve, moderada e grave. A classificação é baseada nos níveis de glicose no sangue.  Hipoglicemia leve/ Nível 1: glicemia entre 54 mg/dL e 70 mg/dL Alerta de hipoglicemia; Pode ser tratada com carboidratos de ação rápida; Hipoglicemia moderada Nível 2: glicemia inferior a 54 mg/dL, Hipoglicemia clinicamente significativa.  Hipoglicemia grave / Nível 3: hipoglicemia que exige assistência de outra pessoa Hipoglicemia associada a comprometimento cognitivo grave Pode ser tratada com injeção de glucagon de emergência ou spray nasal."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Questiona sobre fatores desencadeantes de hipoglicemia no paciente DM1:**\n(1) Alterações na insulinoterapia;\n(2) Dieta e/ou jejum e/ou atraso na alimentação;\n(3) Atividade física intensa ou prolongada;\n(4) Ingestão insuficiente de carboidratos;\n(5) Uso de álcool.\n\n**Adequado:** Questiona de quatro a cinco itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona de um a dois itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza hipótese diagnóstica relacionando condição atual do paciente à mudança da insulinoterapia e ao início recente da prática de exercícios físicos.**\n\n**Adequado:** Realiza hipótese correlacionando etiologia do quadro com a mudança na insulinoterapia e com a prática de atividade física.\n**Parcialmente adequado:** Realiza hipótese correlacionando etiologia do quadro apenas com a mudança na insulinoterapia, sem mencionar a prática de atividade física.\n**Inadequado:** Não realiza corretamente a hipótese ou não correlaciona com a mudança na insulinoterapia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "A hipoglicemia é uma condição que ocorre quando os níveis de glicose no sangue estão baixos. Pode ser causada por vários fatores, como:  Alimentação: Pular refeições, comer menos do que o necessário, jejum prolongado;  Álcool: O consumo excessivo de álcool pode causar a hipoglicemia, especialmente se a pessoa não tiver se alimentado antes;  Medicamentos: O uso inadequado de medicamentos contra o diabetes, como insulina ou hipoglicemiantes orais, pode causar hipoglicemia;  Atividades físicas: Aumentar a quantidade de exercícios físicos sem mudar a dieta pode causar hipoglicemia;  Doenças: Doenças no fígado, rins ou coração, insuficiência renal, tumores benignos com produção de insulina (insulinoma), hiperplasia das células pancreáticas (nesidioblastose);  Cirurgias: Cirurgias bariátricas ou cirurgias gástricas;"
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Conduta:**\n(1) Oferece carboidratos de absorção rápida, tais como duas colheres de chá de açúcar ou cem mililitros de suco de fruta ou refrigerante ou um copo de água com uma colher de sopa de açúcar ou duas balas ou uma colher de sopa de mel;\n(2) Reavalia após quinze minutos com nova glicemia capilar.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza apenas um item.\n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Orientações:**\n(1) Ajustar a dose de insulina e a ingestão de carboidratos antes de fazer atividade física;\n(2) Manter os níveis de glicose dentro do alvo estabelecido pelo profissional de saúde;\n(3) Fazer refeições menores e mais frequentes ao longo do dia;\n(4) Comer uma refeição leve mas com carboidratos antes de dormir;\n(5) Alimentar-se antes e depois de atividades físicas;\n(6) Evitar alimentos que contêm sacarose (açúcar comum);\n(7) Consumir álcool de forma moderada e de preferência com as refeições;\n(8) Monitorar a glicemia periodicamente.\n\n**Adequado:** Orienta de quatro a oito itens.\n**Parcialmente adequado:** Orienta de duas a três ações.\n**Inadequado:** Orienta um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Encaminha o paciente ao endocrinologista.**\n\n**Adequado:** Encaminha.\n**Inadequado:** Não encaminha.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Complicações:**\n(1) Perda da consciência;\n(2) Convulsões;\n(3) Coma;\n(4) Torpor.\n\n**Adequado:** Menciona ao menos dois itens.\n**Parcialmente adequado:** Menciona um item.\n**Inadequado:** Não menciona nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

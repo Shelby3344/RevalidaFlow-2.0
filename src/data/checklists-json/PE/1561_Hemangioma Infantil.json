@@ -1,0 +1,205 @@
+{
+  "uid": 1561,
+  "hash": "715722c1b5a04bf78d6e830a4115a691d9e8602614d9853134a696945b44c2e0-1749834197",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Hemangioma Infantil",
+  "definicao": "Hemangioma Infantil é um tumor vascular benigno comum em crianças, caracterizado por um crescimento rápido seguido por uma fase de involução gradual. Frequentemente se manifesta nos primeiros meses de vida e tem uma evolução típica de crescimento nos primeiros meses, seguido por uma regressão espontânea.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "25.50",
+    "star": 0,
+    "time": 567,
+    "count": 481
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\n- Consultórios;\n- Laboratório de análises clínicas;\n- Leitos de observação;\n- Farmácia clínica.\n\nDescrição do caso:\nVocê é um(a) médico(a) que está de plantão na UBS e irá atender a um lactente de 3 meses, do sexo masculino, que foi trazido pela mãe devido a uma mancha crescente no rosto.",
+  "tarefas": "- Realizar anamnese;\n- Solicitar o exame geral e específico verbalizando o que deverá ser investigado;\n- Solicitar exames complementares se julgar necessário;\n- Definir a hipótese diagnóstica, orientando a conduta mais indicada ao quadro clínico;\n- Verbalizar a classificação da lesão e a fase em que a mesma se encontra;\n- Explicar a condição da criança à mãe;\n- Verbalizar 3 fatores de risco gerais para a patologia;\n- Verbalizar a evolução esperada do quadro e como deverá ser o acompanhamento da criança.",
+  "script_ator": "**DADOS DA MÃE:**\n- Rose, 29 anos.\n\n**NOME DO FILHO:**\n- Henrique, 3 meses de vida.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a). trouxe meu filho aqui pois estou preocupada com uma mancha que está crescendo no rosto dele.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n- **Característica da mancha:**\n- **Tempo:** Percebi uma manchinha logo quando nasceu.\n-  **Cor:** Mancha vermelha viva.\n- **Localização:** localizada no rosto.\n- **Outras manchas pelo corpo:** Não Dr.(a), só tem essa.\n- **Progressão/Crescimento:** Aumentou de tamanho nas últimas semanas.\n- **Prurido**: Não consta.\n- **Descama:** Nega.\n-**Secreção:** Nega.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:** Nega outros sintomas.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- Todos são saudáveis.\n\n**ANTECEDENTES PERINATAIS (PRÉ-NATAL | PARTO | PÓS-NATAL):**\n- Nasceu de prematuro e bem magrinho.\n- **Gestações anteriores:** Tenho mais 3 gestações, mas todos nasceram sem problemas.\n\nAo solicitar **CADERNETA DE VACINA** liberar impresso.\nAo solicitar **CADERNETA DA CRIANÇA** liberar o impresso.\n\n**ALIMENTAÇÃO:**\n- Amamentado à livre demanda.\n\n**DIURESE E CATARSE:**\n- Normais.\n\n**MEDICAÇÕES:**\n- Nega.\n\n**ALERGIAS:**\n- Nega.\n\n**MEDICAÇÕES DE USO CONTÍNUO:**\n- Nega.\n\n**DÚVIDAS:**\n- **Pergunta 1:** O que é essa mancha, Dr(a)?\n- **Pergunta 2:** Quais complicações ele pode ter?\n-** Pergunta 3:** E se piorar Dr.(a), o que podemos fazer?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE SAÚDE",
+      "conteudo": "**Nome:** Henrique da Silva\n\n\n\n**Antecedentes gestacionais:** gestação com acompanhamento adequado (7 consultas) e sem intercorrências, exames laboratoriais de rotina normais;\n\n\n\n**Parto:** pré-termo, com 36 semanas; o peso da criança ao nascimento foi de 2.400g e Apgar de 8 e 9.\n\n\n\n**Antecedentes perinatais:** resultado normal de testes (teste do pezinho, da orelhinha, da linguinha, do olhinho e do coraçãozinho);\n\n\n\n**Alimentação:** leite materno exclusivo.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1749835614.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "- **Peso:** 4.200 g.\n\n- **Frequência cardíaca:** 135 bpm.\n\n- **Frequência respiratória:** 42 irpm,\n\n- **Temperatura axilar:** 37,0 °C.\n\n- **Saturação de O2:** 99%\n\n\n\n**Ectoscopia:** Paciente em bom estado geral, hidratado, acianótico, anictérico, afebril; sem desconforto respiratório; sem linfonodomegalia.\n\n\n\n**Aparelho respiratório:** sem alterações.\n\n\n\n**Aparelho cardiovascular:** sem alterações.\n\n\n\n**Abdome:** flácido, sem visceromegalias, ruídos hidroaéreos presentes.\n\n\n\n**Membros inferiores:** sem alterações.\n\n\n\n**Otoscopia:** sem alterações.\n\n\n\n**Oroscopia:** sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1749835614.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "CADERNETA DE VACINA",
+      "conteudo": "Ao Nascer: \n\nBCG;\n\nHepatite B.\n\n\n\n2 meses: \n\nPentavalente;\n\nPneumocóccica;\n\nVIP;\n\nRotavirus.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1749835614.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Ectoscopia da Lesão",
+      "conteudo": "Olhe para câmera e descreva a lesão encontrada.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome da mãe e o nome da criança.\n\n**Adequado:** Realiza as quatro ações.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga a queixa principal:**\n(1) Início;\n(2) Progressão/Crescimento;\n(3) Cor;\n(4) Localização;\n(5) Outras manchas pelo corpo;\n(6) Prurido;\n(7) Descama;\n(8) Secreção.\n\n**Adequado:** Investiga sete ou oito itens.\n**Parcialmente adequado:** Investiga cinco ou seis itens.\n**Inadequado:** Investiga quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Solicita:**\n(1) Caderneta da criança;\n(2) Caderneta de vacina.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita exame físico e ectoscopia verbalizando que necessita investigar:**\n(1) Assimetria;\n(2) Bordas;\n(3) Cor;\n(4) Diâmetro;\n(5) Evolução.\n\n**Adequado:** Solicita ambos os exames e verbaliza quatro ou cinco itens.\n**Parcialmente adequado:** Solicita um exame e verbaliza três itens.\n**Inadequado:** Não solicita exames ou verbaliza menos de dois itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Descrição da lesão:**\n(1) Lesão única;\n(2) Assimétrica;\n(3) Bordas irregulares;\n(4) Vermelha viva.\n\n**Adequado:** Descreveu os quatro itens.\n**Parcialmente adequado:** Descreveu três itens.\n**Inadequado:** Descreveu dois ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Formula a hipótese diagnóstica de Hemangioma Infantil.**\n\n**Adequado:** Formula corretamente a hipótese diagnóstica.\n**Inadequado:** Não formula corretamente ou verbaliza somente Hemangioma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Verbaliza:**\n(1) Que devido as características da lesão, é uma lesão superficial;\n(2) e se encontra na fase proliferativa. \n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Explica a condição e conduta do caso para a mãe:**\n(1) Informa que é uma condição benigna;\n(2) Explica que tende a desaparecer em até 1 ano de idade;\n(3) Orienta conduta expectante.\n\n**Adequado:** Explica os três itens.\n**Parcialmente adequado:** Explica dois itens.\n**Inadequado:** Explica um item ou não explica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "1.15"
+      },
+      "dica_teorica": "A conduta terapêutica deverá ser individualizada de acordo com tamanho da lesão, localização, presença ou possibilidade de complicações, potencial para fibrose e deformações permanentes, idade do paciente e taxa de crescimento ou regressão no momento da avaliação. O risco potencial do tratamento deverá sempre ser considerado em relação a seus benefícios (1,2,15). Dado seu potencial de regressão, a grande maioria dos casos de HI é conduzida de forma expectante, com adequada orientação aos pais sobre a história natural e potenciais complicações (1,2,15). As crianças precisam ser reavaliadas periodicamente a fim de se monitorar o crescimento e regressão das lesões, bem como avaliar as implicações psicossociais. Os HI não complicados podem, eventualmente, ser alvo de tratamentos tópicos."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza fatores de risco:**\n(1) Prematuridade;\n(2) Baixo peso ao nascer;\n(3) Multíparas;\n(4) Tabagismo;\n(5) Idade materna avançada.\n\n**Adequado:** Verbaliza três fatores de risco.\n**Parcialmente adequado:** Verbaliza dois fatores de risco.\n**Inadequado:** Verbaliza um ou não verbaliza fator de risco algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Orienta sobre o acompanhamento necessário:**\n(1) Acompanhamento regular com dermatologista;\n(2) Monitoramento do crescimento da mancha.\n\n**Adequado:** Orienta os dois itens.\n**Parcialmente adequado:** Orienta um item.\n**Inadequado:** Não orienta item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbalizar como é realizado o acompanhamento:**\n(1) Consultas semanais no primeiro mês; quinzenais no segundo mês e mensais a partir do terceiro mês.\n(2) Com necessidade de se ter uma foto da lesão a cada consulta.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza somente um item.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Os pacientes deverão ser avaliados semanalmente no primeiro mês de tratamento, quinzenalmente no segundo mês e mensalmente a partir do terceiro mês no que diz respeito aos resultados do tratamento e à presença de efeitos adversos. Exames de imagem para avaliação da resposta terapêutica deverão ser realizados somente por pacientes que deles necessitarem pelo menos a cada 90 dias até que o benefício esperado seja atingido."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verifica a caderneta de vacinação e verbaliza necessidade de vacinação com a meningocócica C**\n\n**Adequado:** Verifica e verbaliza corretamente.\n**Inadequado:** Não verifica ou não verbaliza corretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza possíveis complicações:**\n(1) Problemas de visão;\n(2) Complicações estéticas;\n(3) Síndrome de Phaces;\n(4) Ulceração;\n(5) Ruptura.\n\n**Adequado:** Verbaliza quatro ou cinco itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "A Síndrome PHACE é uma condição rara que associa um hemangioma facial extenso a outras malformações, como anomalias cerebrais, cardíacas, vasculares e oculares. O nome é um acrônimo que descreve as principais características: Posterior fossa malformations (malformações da fossa posterior do cérebro), Hemangioma, Arterial anomalies (anomalias arteriais), Cardiac anomalies (anomalias cardíacas) e Eye abnormalities (anomalias oculares)."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza possíveis opções de tratamento:**\n(1) Betabloqueador: Propanolol;\n(2) Laser;\n(3) Corticoesteroides;\n(4) Cirurgia.\n\n**Adequado:** Verbaliza três ou quatro itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Betabloqueadores (ex: propranolol): Os betabloqueadores orais, como o propranolol, são a primeira linha de tratamento para hemangiomas infantis maiores e que causam problemas. O tratamento geralmente começa com uma dose menor e é aumentado gradualmente, sendo administrado duas vezes ao dia.  Corticosteroides: Os corticosteroides podem ser utilizados em forma tópica, intralesional (injeção no hemangioma) ou oral. São usados quando os betabloqueadores não são eficazes ou em casos onde a terapia com betabloqueadores é contraindicada.  Laser: O laser é utilizado principalmente para tratar telangectasias residuais após a regressão do hemangioma, ou para tratar pequenas hemangiomas que não se beneficiam com outros tratamentos.  Cirurgia: A cirurgia pode ser necessária em casos raros de hemangiomas com complicações estéticas e funcionais ou em hemangiomas que não respondem a outros tratamentos."
+    }
+  ]
+}

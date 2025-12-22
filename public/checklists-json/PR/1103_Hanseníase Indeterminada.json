@@ -1,0 +1,260 @@
+{
+  "uid": 1103,
+  "hash": "jsHfQSGxrwU1QLpbB21L_Nxs",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Hanseníase Indeterminada",
+  "definicao": "A hanseníase é uma doença crônica, infectocontagiosa, cujo agente etiológico é o Mycobacterium leprae, um bacilo álcool-ácido resistente, fracamente gram-positivo, que infecta os nervos periféricos e, mais especificamente, as células de Schwann.A doença acomete principalmente os nervos superficiais da pele e troncos nervo\u0002sos periféricos (localizados na face, pescoço, terço médio do braço e abaixo do cotovelo e dos joelhos), mas também pode afetar os olhos e órgãos internos (mucosas, testícu\u0002los, ossos, baço, fígado, etc.).",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "42.50",
+    "star": 0,
+    "time": 529,
+    "count": 4998
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Primária. \n\nA unidade conta com a seguinte infraestrutura: \nSala de atenção médica, \nLaboratório de análises clínicas; \n\nDescrição do caso: \nMaria de 10 anos é trazida por sua mãe a consulta de rotina",
+  "tarefas": "1. Realizar o atendimento da paciente;\n2. Solicitar exames complementares, se necessário, descrevendo os achados;\n3. Estabelecer e comunicar a hipótese diagnóstica;\n4. Propor conduta terapêutica;\n5. Dar orientações ao paciente e sanar dúvidas.",
+  "script_ator": "**PACIENTE**: Maria, 10 anos \n**MÃE DA PACIENTE:** Carmelita, 35 anos, casada, dona de casa, procedente do interior de Goiás\n\n**Motivo de consulta:** \nOlá Dr(a) trouxe a Maria hoje para o controle anual \n\n**Caso o candidato pergunte por alguma queixa, responder:** \nQuase já ia me esquecendo, eu percebi uma mancha branca no rosto dela que esta aumentando\n\nSobre o MOTIVO DE CONSULTA\n**Coceira no local da lesão:** \nNão vejo ela coçar \n**Dor no local da lesão:** \nEla não diz doer \n**Suor no local da lesão ou por poeira:** \nNão pega poeira \n**Manchas em outras partes do corpo:** \nEsse foi o único lugar que eu percebi\n\nANTECEDENTES PESSOAIS E FAMILIARES\n**Doenças crônicas:** \nEla é super saudável \n**Uso de medicamentos:** \nToma vitaminas \n**Caderneta de vacinas:** \nEsta tudo em dia\n**Número de pessoas que vivem na casa:**\nsomos em 7 pessoas. Eu, meu esposo e os 4 filhos e temos 2 cachorros e um gato\n**Número de cômodos na casa:** \nÉ um quarto, cozinha e banheiro\n\n**Pessoas na casa com lesão similar ou contato com paciente com hanseníase:** \nEu tenho hanseníase, descobri tem pouco tempo e ainda não iniciei o tratamento\n**Tipo de hanseníase:** \nMe falaram que é multibacilar \n\n**CASO O CANDIDATO ABRA PARA DÚVIDAS**\n**Pergunta 1**: Essa doença tem cura?\n**Pergunta 2:** Tem alguma vacina que previne essa doença ?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 100x70 mmHg\n\n-** Frequência cardíaca:** 80 batimentos por minuto\n\n- **Frequência respiratória: **16 incursões por minuto\n\n- **Saturação de O2: **99%\n\n- **Temperatura axilar**: 36.5° C\n\n\n\n**Peso:** 50,3 kg\n\n\n\n**Estado Geral:** paciente em bom estado geral, orientada em tempo, espaço e pessoa, corada, hidratada, acianótica e anictérica.\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n**Respiratório:** ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n**Abdominal:** abdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.\n\n**Avaliação Neurológica:** Ausência de espessamento de nervos",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1744224858.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Dermatoneurológico",
+      "conteudo": "**Teste da sensibilidade térmica : **\n\nausência de sensibilidade térmica na lesão.\n\n\n\n**Teste da sensibilidade dolorosa:** ausência de \n\nsensibilidade dolorosa na lesão.\n\n\n\n**Teste da sensibilidade tátil:** presença de sensibilidade tátil na lesão",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1744224858.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Baciloscopia",
+      "conteudo": "**Resultado:** Negativo",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1744224858.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Ectoscopia",
+      "conteudo": "Descreva os achados.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. (1) Cumprimenta a mãe da paciente simulada; \n(2) identifica-se; \n(3) dirige-se a mãe da paciente simulada pelo nome, pelo menos uma vez;\n(4) pergunta e \n(5) ouve com atenção o motivo da consulta.\n\n**Adequado:** realiza as cinco ações.\n**Parcialmente adequado:** realiza de duas a quatro ações.\n**Inadequado:** realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Estabelece contato visual e mantém postura empática ao longo da consulta.**\n\n**Adequado:** realiza as duas ações.\n**Parcialmente adequado:** realiza apenas uma das ações.\n**Inadequado:** não realiza nenhuma das ações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3.** Escuta a fala da mãe da paciente simulada, sem interrompê-la.**\n\n**Adequado: **realiza integralmente a ação. \n**Inadequado:** não realiza a ação ou não a realiza integralmente",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível para com a mãe da paciente simulada, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** usa linguagem acessível.\n**Inadequado:** não utiliza linguagem acessível",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Responde às perguntas da mãe da paciente simulada.**\n\n**Adequado:** responde as perguntas.\n**Inadequado:** não responde as perguntas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre:**\noutras lesões dermatológicas no corpo (1); \npergunta há quanto tempo a paciente tem as lesões (2). \n\n**Adequado:** Pergunta sobre outras lesões dermatológicas no corpo e o tempo de evolução das lesões \n**Parcialmente adequado:** Pergunta somente por outras lesões OU tempo de evolução das lesões \n**Inadequado:** Não realiza nenhum dos questionamentos",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta:**\nPercepção de alteração de sensibilidade na lesão (1); \nformigamentos, dormências e câimbras no território anatômico da lesão ou em outras \nregiões do corpo (2); \nperda de pelos na lesão, no território anatômico da lesão ou em outras regiões do corpo \n(alopecia) (3); \náreas de “pele seca”(4)\n\n**Adequado:** Investiga os 4 itens \n**Parcialmente adequado:**Investiga de 2 a 3 itens ; \n**Inadequado:** Investiga somente um ou nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verifica a história epidemiológica da paciente, questionando:**\nprocedência da paciente (1), \nse houve algum contato íntimo e prolongado com algum paciente com hanseníase (2);\nse é contato domiciliar de algum paciente com a doença (3) ;\n\n**Adequado:** Investiga os 3 itens \n**Parcialmente adequado:** Investiga ao menos dois itens \n**Inadequado:** Investiga somente um ou nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Lembrar que Hanseníase está entre as doenças marcadoras de pobreza"
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga sobre**\ncomorbidades (1), \nuso de medicações crônicas (2), \nalergias (3) \nstatus vacinal (4)\n\n**Adequado:** Investiga 3 a 4 itens ; \n**Parcialmente adequado:** Investiga 1 ou 2 itens; \n**Inadequado:** Não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. Pede consentimento a mãe da paciente simulada para realizar exame físico (1), \nverbaliza a higiene de mãos (2),\ncolocação de luvas (3)\n\n**Adequado:** Realiza os três itens; \n**Inadequado:** Não realiza os três itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Descreve a lesão **\n(1) Não elevada/ sem relevo \n(2) Hipocrômica \n(3) Bordas mal delimitadas\n\n**Adequado:** Descreve os três achados\n**Parcialmente adequado:** Descreve ao menos dois achados\n**Inadequado:** Descreve somente um achado",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita exame dermatoneurológico**\n\n**Adequado:** Solicita permissão para realização do exame dermatoneurológico \n**Inadequado:** Não solicita permissão",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Teste de sensibilidade térmica: deve ser realizado com um algodão embebido com éter para simular frio, e algodão seco para simular quente; ou tubos de ensaio com água quente e fria. Teste de sensibilidade dolorosa: deve ser realizado com a ponta fina da agulha estéril; Teste de sensibilidade tactil: deve ser realizado com um chumaço de algodão ou monofilamento verde ou ponta romba da agulha."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Solicita pelo menos um dos seguintes exames subsidiários: baciloscopia e/ou **\n**biópsia de pele **\n\n**Adequado:** Solicita ao menos um dos exames \n**Inadequado:** Não solicita baciloscopia e/ou biópsia de pele",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Os exames laboratoriais negativos não afastam o diagnóstico clínico."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Diagnostica a paciente com Hanseníase indeterminada paucibacilar**\n\n**Adequado:** Diagnóstica \n**Inadequado:** Não diagnostica",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Todos os pacientes passam por essa fase no início da doença. Entretanto, ela  pode ser ou não perceptível. Geralmente afeta crianças abaixo de 10 anos"
+    },
+    {
+      "idx": 15,
+      "descricao": "15.** Estabelece o tratamento com:**\nRifampicina 600 mg 1x/mês (TDO),\nDapsona 100 mg 1x/mês (TDO) e100 mg/dia e\nClofazimina 300 mg 1x/mês (TDO) e50 mg/dia.\n\n**Adequado:** Prescreve tratamento medicamentoso correto e completo verbalizando a dose e o tempo de administração\n**Parcialmente adequado:** Prescreve o tratamento medicamentoso sem verbalizar a dose e o tempo de administração \n**Inadequado:** Não prescreve o tratamento medicamentoso adequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "O tratamento de crianças com hanseníase deve-se considerar o peso corporal como fator mais importante do que a idade, seguindo as seguintes orientações: crianças com peso superior a 50kg – utilizar o mesmo tratamento prescrito para adultos; crianças com peso entre 30kg e 50kg – utilizar a cartela infantil; crianças com peso inferior a 30kg – fazer ajustes de dose."
+    },
+    {
+      "idx": 16,
+      "descricao": "16. Estabelece o tempo correto de seguimento para o paciente paucibacilar \n(entre 6 e 9 meses) (1), \nreforça a importância do tratamento diretamente \nobservado (TOD) (2), \norienta sobre efeitos adversos e/ou reações hansênicas \napós o início do tratamento (3) \n\n**Adequado:** Realiza as 3 tarefas \n**Parcialmente adequado**: Realiza 1 ou 2 tarefas \n**Inadequado:** Não realiza nenhuma",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A Reação Tipo 1 ou Reação Reversa caracteriza-se pelo aparecimento de novas lesões dermatológicas (manchas ou placas), infiltrações, alterações de cor e edema nas lesões antigas, com ou sem espessamento e dor de nervos periféricos (neurite). A Reação Tipo 2, cuja manifestação clínica mais frequente é o Eritema Nodoso Hansênico (ENH), caracteriza-se pelo aparecimento de nódulos subcutâneos dolorosos, acompanhados ou não de manifestações sistêmicas como: febre, dor articular, mal-estar generalizado, orquite, iridociclites, com ou sem espessamento e dor de nervos periféricos (neurite). Para as reações de tipo 2 utiliza-se a talidomida."
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Responde a paciente simulada que ainda não existe uma vacina específica para a Hanseníase, porém a vacina BCG gera proteção cruzada para a Hanseníase **\n\n**Adequado:** Explica sobre a proteção cruzada da vacina BCG \n**Inadequado:** Não explica sobe a proteção cruzada da vacina BCG",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Solicita que **\n(1) A mãe da paciente simulada inicie o tratamento imediatamente \n(2) Os demais conviventes da casa compareçam na unidade de saúde para avaliação clinica e controle vacinal\n\n**Adequado:** Solicita os dois itens\n**Parcialmente adequado:** Solicita somente um item\n**Inadequado:** Não solicita nenhum item",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "19. Realiza a notificação ao SINAN com periodicidade semanal (1); \nVerbaliza a necessidade de conversar com a equipe sobre orientações à comunidade e/ou buscas ativas no bairro (2); \nEntrega a “caderneta de saúde da pessoa acometida pela hanseníase” (3)\n\n**Adequado:** Realiza as 3 tarefas ; \n**Parcialmente adequado:** Realiza ao menos duas tarefas \n**Inadequado:** Realiza somente uma ou nenhuma tarefa",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

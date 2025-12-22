@@ -1,0 +1,210 @@
+{
+  "uid": 1570,
+  "hash": "233d9475d1e647f9d929283eb4828c540d6cc833ec7276d460a9735e820aa03d-1750265000",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Doenças exantemáticas: Mão-Pé-Boca",
+  "definicao": "A doença mão-pé-boca, também conhecida como síndrome mão-pé-boca, é uma infecção viral contagiosa, geralmente causada pelo Coxsackievírus, que se manifesta com mais frequência em crianças, embora possa afetar adultos. A doença recebe esse nome porque as lesões características, geralmente pequenas bolhas, costumam aparecer nas mãos, nos pés e na boca.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "69.50",
+    "star": 0,
+    "time": 597.5,
+    "count": 1696
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nDescrição do caso:\nVocê está trabalhando em uma unidade básica de saúde quando recebe uma criança de 2 anos e meio, trazida pela mãe devido febre e exantema.",
+  "tarefas": "-Realizar o acolhimento da paciente;\n-Fazer a anamnese dirigida à paciente;\n-Solicitar exame físico detalhado, citando o que necessita avaliar;\n-Solicitar exames complementares, se julgar necessário;\n-Estabelecer o diagnóstico e responder aos questionamentos da paciente;\n-Citar o agente etiológico mais provável;\n-Determinar a conduta terapêutica indicada.",
+  "script_ator": "**NOME DA MÃE:**\n- Fernanda, 28 anos.\n\n**NOME DA CRIANÇA:**\n- Laura, 2 anos e meio.\n\n**MOTIVO DE CONSULTA:**\n- Dr (a), Laura está com febre e umas manchas no corpo.\n\n**SOBRE A FEBRE.**\n**- Início:** Ela está com febre a dois dias.\n**- Aferiu a temperatura:** Sim, verifiquei e estava 38,7ºC.\n**-Predomínio de horário:** Não consta.\n**- Medicação:** Cheguei a dar dipirona, mas não passou.\n**- Sudorese, calafrios, convulsões:** Não.\n\n**SOBRE MANCHAS NA PELE:** \n**- Início:** Apareceram hoje pela manhã.\n**- Localização:** Principalmente nas mãozinhas e nos pés.\n**- Característica:** Não parecem coçar e nem descamam.\n\n**SINTOMAS ACOMPANHANTES:** \n**-Dor de garganta/ Odinofagia/ dificuldade para engolir:** Nega.\n**-Tosse:** Nega.\n**- Coriza:** Nega.\n**-Conjuntivite:** Nega.\n**-Irritabilidade/choro:** Ela está bem chatinho.\n\n**DADOS EPIDEMIOLÓGICOS:**\n**-Contato com pessoas com os mesmos sinais e sintomas:** Não houve exposição conhecida a doenças infecciosas recentemente na família, e nenhum membro da minha família ou pessoas próximas apresentaram sintomas semelhantes recentemente.\n\n**CARTÃO DE VACINAS:** \n- Estão todas atualizadas.\n\n**CRESCIMENTO E DESENVOLVIMENTO:** \n- Tudo normal. Ela é bem saudável.\n\n**ANTECEDENTES PERINATAIS (PRÉ-NATAL | PARTO | PÓS-NATAL):**\n- A gravidez transcorreu sem intercorrências. Não tive infecções e tomei as vacinas e vitaminas adequadas.\n\n**ALIMENTAÇÃO:**\n- Não está comendo muito Dr.(a), chora bastante quando quer comer, acho que está doendo a boquinha, tenho dado sorvete que ela aceita melhor.\n\n**ALERGIAS:**\n- Nega.\n\n**INFORMAÇÕES GERAIS: **\n- Não frequenta creche.\n\n**DÚVIDAS:**\n**- Pergunta 1**: Isso é grave?\n**-Pergunta 2:** Pode ter complicações?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico ",
+      "conteudo": "**Sinais Vitais:**\n\nFC = 120 bpm,\n\nPA = 100x65 mmHg. \n\nFR = 35 irpm, \n\nSatO² = 97% em ar ambiente.\n\nT = 38,7°C\n\n\n\n**EXAME FÍSICO:** \n\nBEG, corada, hidratada, acianótica, anictérica. Consciente, pupilas isocóricas e fotorreagentes, sem hiperemia ocular.\n\n\n\n**Pulmonar:** \n\nMV presente, simétrico, sem ruídos adventícios e sem sinais de desconforto respiratório.\n\n\n\n**Cardíaco:** \n\nBCRNF sem sopros, bem perfundida, pulsos fortes, extremidades quentes.\n\n\n\n**Abdome:** \n\nFlácido, sem sinais de irritação peritoneal, sem massas ou visceromegalias, e ruídos hidroaéreos presentes.\n\n\n\nSem adenomegalias.\n\n\n\n**DADOS ANTROPOMÉTRICOS:** Adequado para a idade.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1750264925.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA",
+      "conteudo": "OLHE PARA A CAMERA E DESCREVA OS ACHADOS.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1750264984.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "OROSCOPIA",
+      "conteudo": "OLHE PARA A CAMERA E DESCREVA OS ACHADOS.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome do mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona sobre a febre:**\n(1) Início;\n(2) Característica;\n(3) Quantificação com termômetro; \n(4) Progressão; \n(5) Relação temporal com o exantema; \n(6) Uso de medicações.\n\n**Adequado:** Questiona cinco ou seis itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre o exantema:**\n(1) Início; \n(2) Localização; \n(3) Progressão; \n(4) Descamação; \n(5) Aspecto;\n(6) Prurido; \n(7) Acometimento de plantas dos pés e palmas das mãos.\n\n**Adequado:** Pergunta seis ou sete itens.\n**Parcialmente adequado:** Pergunta quatro ou cinco itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona sobre sintomas acompanhantes:**\n(1) Adenomegalia;\n(2) Prurido;\n(3) Odinofagia OU lesões na boca;\n(4) Sintomas catarrais;\n(5) Cefaleia;\n(6) Vômitos;\n(7) Conjuntivite.\n\n**Adequado:** Questiona de cinco a sete itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Questiona sobre:**\n(1) Antecedentes pessoais;\n(2) Alergias;\n(3) Antecedentes perinatais;\n(4) Crescimento e desenvolvimento.\n\n**Adequado:** Questiona os quatro itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita Caderneta de Saúde da criança.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita:**\n(1) Exame físico;\n(2) Oroscopia;\n(3) Ectoscopia de pele e mucosas.\n\n**Adequado:** Solicita os três itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita um item ou não solicita item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza as alterações:**\n(1) Maculopapulares eritematosas;\n(2) Microvesiculares em mão, pé, boca.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Não solicita exame de laboratório.**\n\n**Adequado:** Não solicita.\n**Inadequado:** Solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza o diagnóstico de doença mão-pé-boca OU síndrome mão-pé-boca.**\n\n**Adequado:** Verbaliza corretamente o diagnóstico. \n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza que a síndrome mão-pé-boca tem como agente etiológico responsável o Enterovírus Coxsackie.**\n\n**Adequado:** Verbaliza corretamente.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza formas de transmissão:**\n(1) Fecal;\n(2) Oral;\n(3) Respiratória.\n\n**Adequado:** Verbaliza dois ou três itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza a conduta terapêutica completa:**\n(1) Tratamento ambulatorial;\n(2) Tratamento sintomático: (hidratação e antitérmicos);\n(3) Evitar alimentos quentes, salgados, ácidos e picantes;\n(4) Oferecer alimentos gelados ou a temperatura ambiente. \n\n**Adequado:** Verbaliza três ou quatro itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza que a enfermidade cursa de forma benigna na maioria das vezes.**\n\n**Adequado:** Verbaliza corretamente.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Verbaliza possiveis complicações:**\n(1) Meningoencefalite;\n(2) Infecções bacterianas secundárias;\n(3) Meningite viral asséptica;\n(4) Mielite;\n(5) Miocardite;\n(6) Onicólise;\n(7) Onicosquese;\n(8) Desidratação;\n(9) Paralisia flácida.\n\n**Adequado:** Verbaliza de quatro a nove itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

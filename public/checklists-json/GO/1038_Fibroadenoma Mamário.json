@@ -1,0 +1,161 @@
+{
+  "uid": 1038,
+  "hash": "gF8COZGUtzki0h2kEnkIBbKx",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Fibroadenoma Mamário",
+  "definicao": "O fibroadenoma é um tumor benigno fibroepitelial da mama. É mais frequentes em mulheres com menos de 35 anos, com o pico de comprometimento entre 20-35 anos, sendo incomum durante a menopausa.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "55.00",
+    "star": 0,
+    "time": 579.5,
+    "count": 5128
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Ambulatorial e Hospitalar.\n\nA unidade possui a seguinte infraestrutura:\n-Setor de radiologia convencional e ultrassonografia;\n-Laboratório de análises clínicas;\n-Leitos de internação e centro cirúrgico.\n\nDESCRIÇÃO DO CASO:\nVocê atenderá uma paciente, que busca por consulta ginecológica.",
+  "tarefas": "- Realizar anamnese da paciente;\n- Solicitar e verbalizar todos os passos do exame físico mamário;\n- Solicitar exames complementares, se necessário, descrevendo os achados;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Propor conduta terapêutica;\n- Dar orientações à paciente e sanar dúvidas.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Marta, 35 anos, advogada, casada.\n\n**MOTIVO DE CONSULTA:**\n- Eu vim porque senti um caroço no meu seio. Será que pode ser câncer, doutor(a)? Estou muito preocupada, porque minha mãe faleceu de câncer de mama.\n\n**Idade do falecimento da mãe:** Ela descobriu o câncer aos 56 anos e faleceu aos 58. \n\n**SOBRE O NÓDULO:**\n**- Tempo de evolução:** Não sei dizer, senti pela primeira vez há umas duas semanas.\n**- Localização:** No seio direito.\n**- Tamanho:** É pequeno, quase não dá para sentir.\n**- Progressão:** Está igual desde então, eu palpo todos os dias.\n**- Dor:** Nega.\n**- Quantidade:** Um só, único.\n**- Consistência:** Parece molinho.\n**- Móvel:** Sim, consigo mexê-lo dentro do seio.\n\n**HÁBITOS:**\n**- Tabagismo:** Nega.\n**- Etilismo:** Nega.\n**- Drogas:** Nega.\n**- Alimentação:** Equilibrada.\n**- Prática de exercícios físicos:** Nega.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n**- Comorbidades:** Nega\n**- Uso de medicamentos contínuos:** Nega\n**- Uso de anticonceptivos e TRH:** Eu tenho o DIU de cobre; nunca fiz terapia de reposição hormonal e nunca usei anticoncepcional oral.\n**- Antecedente de câncer na família:** Minha mãe e a minha tia paterna tiveram câncer de mama.\n \n**Dúvidas:**\n- Se após a USG o candidato não solicita a biópsia: \"Dr (a) eu gostaria muito de fazer a biópsia, você pode pedir, por favor?\"",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais vitais:**\n\n**- Pressão arterial:** 120x80 mmHg;\n\n**- Frequência cardíaca:** 80 batimentos por minuto;\n\n**- Frequência respiratória:** 16 incursões por minuto;\n\n**- Saturação de O2:** 99%;\n\n**- Temperatura axilar:** 36,4°C.\n\n\n\n**Estado Geral:**\n\nPaciente em bom estado geral, orientada em tempo, espaço e pessoa, corada, hidratada, acianótica e anictérica.\n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:**\n\nAusculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:**\n\nAbdome plano, flácido, indolor à palpação, sem massas palpáveis, RHA preservados, timpânico à percussão, sem sinais de ascite.",
+      "imagem": "https://app.penserevalida.com/impressos/old/Imagem-do-WhatsApp-de-2023-11-03-as-09.26.55_c8e93172.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Físico Mamário",
+      "conteudo": "**Inspeção:** \n\nMamas simétricas, levemente pendulares, com ausência de tumoração, rubor ou retração da pele.\n\n\n\n**Palpação:**\n\n Em mama direita, palpa-se tumor único, móvel, bem delimitado, não fixo ao tecido adjacente, lobulado, em quadrante súpero-lateral, indolor.\n\n\n\n**Axila:** \n\nAusência de linfonodomegalia.\n\n\n\n**Expressão papilar:** \n\nAusência de secreção.",
+      "imagem": "https://app.penserevalida.com/impressos/old/Imagem-do-WhatsApp-de-2023-11-03-as-09.26.55_c8e93172.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Ecografia Mamária",
+      "conteudo": "Nódulo medindo 1,10 x 0,50 cm.\n\nBI-RADS® 3.\n\n\n\n**DESCREVA OS ACHADOS**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Core Biopsy",
+      "conteudo": "Proliferação de ductos mamários revestidos por epitélio duplo (células epiteliais e mioepiteliais) imersos em estroma fibroso denso.\n\nEstroma com leve celularidade, sem atipias ou pleomorfismo.\n\nDisposição em padrão lobulado, com ductos uniformes e ausência de necrose, mitoses atípicas ou padrão infiltrativo. \n\nSem evidência de carcinoma in situ ou invasivo.}\n\nMioepiteliais positivos para p63 e CK5/6, preservando a arquitetura lobular.\n\nKi-67 baixo (<5%), compatível com padrão proliferativo benigno.\n\nSem expressão de marcadores de malignidade (HER2, p53, etc).\n\nFragmentos de tecido mamário compatíveis com fibroadenoma.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Apresenta-se adequadamente;\n(2) Cumprimenta e identifica a paciente simulada, falando seu nome.\n\n**Adequado: **Realiza as duas ações.\n**Parcialmente adequado: **Realiza apenas uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.250"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga características do nódulo:**\n(1) Tempo de evolução;\n(2) Localização;\n(3) Quantidade;\n(4) Dor;\n(5) Tamanho;\n(6) Mobilidade;\n(7) Consistência.\n\n**Adequado:** Investiga de seis a sete itens.\n**Parcialmente adequado:** Investiga quatro ou cinco itens.\n**Inadequado:** Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Exame físico mamário: inspeção.** \n(1) Posiciona a paciente (de pé, sentada ou decúbito dorsal);\n(2) Posiciona os membros superiores (braços relaxados, contraídos, ao longo do corpo ou elevados acima da cabeça);\n(3) Verbaliza buscar assimetria, abaulamentos ou tumorações. \n\n**Adequado:** Realiza as três ações. \n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Realiza apenas uma ou nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Exame físico mamário: Palpação.** \n(1) Paciente sentada: Avalia as cadeias ganglionares (axilar, supra e infraclaviculares e cervical) sustentando o antebraço da paciente e explorando o oco axilar de cima para baixo e a região periclavicular;\n(2) Paciente em decúbito dorsal: Palpa a área retangular limitada superiormente pela clavícula, medialmente pela região médio-esternal, lateralmente pela linha axilar média e inferiormente pela costela inferior;\n(3) Verbaliza que a palpação deverá ser realizada com as polpas digitais dos dedos indicador, médio, anular e mínimo, estendendo-se seja em círculos concêntricos, por progressão radial ou faixas verticais, com o propósito de abranger toda a mama – das bordas ao quadrante central. \n\n**Adequado:** Realiza as três ações. \n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Realiza apenas uma ou nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "O objetivo primordial do exame físico de mamas, em particular, por meio da palpação, é identificar um nódulo dominante (tridimensional), um espessamento (bidimensional) ou uma assimetria. Portanto, tais alterações deverão ser criteriosamente documentadas, seja em relação à posição (utilizando-se o sistema de relógio e/ou a distância do nódulo à borda da aréola, além do respectivo quadrante da mama acometida) ou em relação às características próprias do nódulo."
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Exame físico mamário:**\n(1) Realiza expressão mamilar;\n(2) Compressão das regiões areolar e periareolar.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza apenas uma ou nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Objetivo de detectar derrame ou descarga papilar, em todas as pacientes, e confirmar, naquelas com derrame espontâneo.Leitosa – Abundante, espontânea, multiductal, bilateralEtiologia: Extramamária, hipersecreção de prolactina por alterações endócrinas ou tumorais; estimulação do mamilo, herpes-zóster, insuficiência renal crônica, hipotireoidismo, drogas psicotrópicas (antidepressivos), antieméticos.Purulenta – Abundante, espontânea, uniductal, unilateral.Etiologia: Inflamatória – galactoforite; mastites agudas e crônicas.Colorida – Uni ou bilateral, uni ou multiductal, múltiplas tonalidadesEtiologia: Involução após processos inflamatórios e ectasia ductalSerosa – Abundante, espontânea, unilateral, uni ou multiductalEtiologia: Ectasia ductal, doença proliferativa epitelial benignaLímpida “água de rocha” – Unilateral, uniductal, viscosa, pouco frequente.Etiologia: Ectasia ductal, doença proliferativa epitelial benigna, ocasionalmente, neoplasia.Hemorrágica ou sero-hemorrágica – Unilateral, uni ou multiductal.Etiologia: Papilomas, hiperplasia ductal, carcinoma ductal in situ, carcinoma invasivo; maior relevância em pacientes acima de 60 anos."
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Descreve a imagem ultrassonográfica como:**\n(1) Nódulo hipoecogênico;\n(2) Contornos regulares;\n(3) Bem definidos;\n(4) Ovalado;\n(5) Com orientação paralela à pele (horizontalizado).\n\n**Adequado:** Descreve  de quatro a cinco características.\n**Parcialmente adequado:** Descreve de duas a três características.\n**Inadequado:** Descreve apenas uma característica, ou não descreve característica alguma.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Na mamografia, os fibroadenomas podem se mostrar como um nódulo circunscrito ou discretamente irregular, podendo parecer benignos ou suspeitos. Também podem aparecer como grandes calcificações, que chamamos de calcificações em “pipoca”."
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita: **\n(1) Ultrassonografia mamária;\n(2) Biopsia ou Core Biopsy.\n\n**Adequado:** Solicita ambos os exames.\n**Inadequado:** Solicita apenas um ou nenhum exame.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "FEBRASGO recomenda core biopsy como método diagnóstico preferencial para nódulos sólidos em mulheres > 30 anos com fatores de risco, mesmo em BI-RADS 3.  O Ministério da Saúde indica que em pacientes com fatores de risco e nódulo sólido, deve-se priorizar core biopsy em vez de PAAF, justamente pela maior sensibilidade e especificidade."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita hipótese diagnóstica:**\nFibroadenoma mamário.\n\n**Adequado:** Cita hipótese diagnóstica corretamente.\n**Inadequado:** Não cita hipótese diagnóstica corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita como diagnóstico diferencial:**\n(1) Cisto mamário;\n(2) Carcinoma circunscrito.\n\n**Adequado:** Cita ambos os diagnósticos diferenciais corretamente.\n**Parcialmente adequado:** Cita um diagnóstico diferencial.\n**Inadequado:** Não cita diagnósticos diferenciais.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Informa:** \nQue se trata de um acometimento benigno das mamas, acalmando a paciente, e que no momento não há indicação de cirurgia. \n\n**Adequado: **Informa corretamente.\n**Inadequado:** Mantém postura alarmista e/ou indica procedimento cirúrgico.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Indicações de exérese do fibroadenoma:• Crescimento tumoral;• Nódulos grandes (> 2 cm);• Suspeita de tumor Phyllodes;• Desejo da paciente."
+    }
+  ]
+}

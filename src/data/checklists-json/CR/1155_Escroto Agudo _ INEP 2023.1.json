@@ -1,0 +1,127 @@
+{
+  "uid": 1155,
+  "hash": "lKLM5I1nHz1xiUF1xcqsIR1d",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Escroto Agudo | INEP 2023.1",
+  "definicao": "É uma síndrome caracterizada por dor escrotal aguda, geralmente acompanhada por edema e outros sinais e sintomas locais e sistêmicos.",
+  "origem": 1,
+  "ano_da_prova": "20231",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "62.00",
+    "star": 0,
+    "time": 565.5,
+    "count": 8864
+  },
+  "cenario": "Nível de atenção: Atenção secundária a saúde.\nTipo de atendimento: UPA.\n\nA unidade possui a seguinte infraestrututra: \n- Aparelho de raio-X; \n- Ultrassonografia; \n- Laboratório de análises clínicas. \n\nDescrição do caso: \n- Homem, 21 anos, estudante, procura atendimento na unidade queixando-se de dor testicular à direita. \n\nAtenção! Caso julgue necessário realizar exame físico, verbalize! O paciente simulado não deverá ser tocado durante o atendimento.",
+  "tarefas": "-Realizar anamnese do paciente; \n-Solicitar e interpretar exame físico;\n-Estabelecer e comunicar as principais hipóteses diagnósticas (no mínimo três); \n-Solicitar exame(s) complementar(es), se necessário, descrevendo os achados; \n-Estabelecer e comunicar o diagnóstico definitivo; \n-Propor a terapêutica definitiva para o caso. \n\nAtenção! Você deverá, realizar as tarefas na sequência descrita acima!",
+  "script_ator": "**O paciente simulado, caso o(a) participante fizesse os questionamentos adequados, poderia informar ao(à) participante que:**\n\n**DADOS PESSOAIS**\n- João, 21 anos, solteiro e estudante. \n\n**MOTIVO DE CONSULTA:**\n- Dr.(a), acordei com dor forte no saco escrotal.\n\n**SOBRE O MOTIVO DE CONSULTA **\n**Tempo de evolução:** Começou há 2 horas. Eu estava dormindo e acordei por causa da dor. \n**Localização:** No saco escrotal do lado direito. \n**Irradiação:** Vai um pouco para cima.\n**Intensidade:** Eu sinto uma dor muito forte. 8/10.\n**Frequência/Episódios anteriores:**  A primeira vez.\n**Fatores agravantes e atenuantes: **A dor piora quando eu ando. Não tomei nenhum medicamento para dor hoje. \n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n**Náuseas/Vômitos:** Estou com muita vontade de vomitar, mas não vomitei nada.\n**Edema escrotal:** Sim. O lado direito está mais inchado.\n**Febre:** Nega.\n**Secreção uretral/pus/sangue :** Não observei.\n**Sintomas urinários (dor ou ardor à micção / a urinar, urina avermelhada, vontade constante de urinar ou urina com mau cheiro):** Nunca tive.\n**Dor lombar:** Nega.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS** \n**Comorbidades/doenças atuais:** Nega.\n**Alergias:** Nega.\n**Medicamentos:** Nega.\n**Caxumba:** Nega. \n\n**ANTECEDENTES UROLÓGICOS**\n**Atividade sexual:** Não tenho relações sexuais há um mês.\n**Tratamento prévio para ITS:** Nega. \n\n**ANTECEDENTES FAMILIARES**\n**Pai:** Hipertenso e usa a medicação adequadamente.\n\n**HÁBITOS**\n**Tabagismo:** Sim. Fumo 10 cigarros por dia há 3 anos.\n**Consumo de bebidas alcoólicas:** Nega. \n**Atividade física:** Não faço nenhuma atividade física.\n\n**O paciente simulado, caso o(a) participante fizesse a anamnese adequada, perguntaria ao(à) participante:**\n- Quais doenças podem gerar esses sintomas; \n- Se será necessário fazer algum exame para confirmar o diagnóstico; \n- Qual o diagnóstico e quais são os próximos passos; \n- Qual é o tratamento; \n- Qual é o prazo que ele tem para operar, pois ele queria fazer a operação na cidade da mãe dele que fica a 8 horas daqui.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**- Frequência cardíaca: **76 batimentos por minuto. \n\n**- Pressão arterial: **130 × 80 mmHg.\n\n **-  Frequência respiratória:** 14 incursões respiratórias por minuto.  \n\n**- Temperatura axilar: **36,2 °C. \n\n**- Saturação de oxigênio: **99% em ar ambiente. \n\n**- Índice de massa corpórea (IMC):** 25 kg/m2. \n\n\n\n- Paciente em estado geral bom, afebril, acianótico, anictérico e hidratado; alerta e orientado no tempo e espaço. \n\n\n\n- Exame físico dos aparelhos cardiovascular, respiratório e abdominal sem alterações. \n\n\n\nSegue, visualização da bolsa escrotal.",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-26-111203-4.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ultrassongrafia com Doppler Colorido de Bolsa Escrotal",
+      "conteudo": "Laudo: Testículo esquerdo sem alterações. \n\n\n\n- Testículo direito aumentado de tamanho com ausência de fluxo sanguíneo ao Doppler. \n\n - Espessamento de cordão espermático à direita.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n (1) Apresenta-se;\n (2) Cumprimenta e identifica o paciente simulado.  \n\n**Adequado:** Realiza as duas ações.\n** Parcialmente adequado:** Realiza apenas uma ação. \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese perguntando sobre as características da dor:**\n (1) Tempo de início; \n (2) Localização \n (3) Intensidade;\n (4) Fatores de alívio ou de piora;\n (5) Irradiação;\n (6) Características.\n\n\n**Adequado: **Pergunta seis  características. \n**Parcialmente adequado:** Pergunta quatro ou cinco características. \n**Inadequado:** Pergunta apenas três ou menos  característica OU não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre as manifestações associadas à dor e/ou relevantes para o diagnóstico diferencial:**\n (1) Náuseas e/ou vômitos;\n (2) Sintomas urinários (disúria, polaciúria, urina fétida); \n (3) Dor lombar OU dor abdominal OU dor inguinal; \n (4) Febre;\n (5) Secreção uretral.  \n\n**Adequado:** Pergunta quatro ou mais itens. \n**Parcialmente adequado:** Pergunta ao menos três itens.\n**Inadequado:** Pergunta  dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita o exame físico e interpreta os achados do exame da bolsa escrotal:**\n(1) Testículo direito em posição elevada (Sinal de Brunzel) OU pouco horizontalizado (Sinal de Angell); \n (2) Testículo direito aumentado de volume; \n (3) Hiperemia de hemibolsa-escrotal direita.  \n\n**Adequado:** Solicita e interpreta os achados descrevendo os três itens. \n**Parcialmente adequado:** Solicita e interpreta, descrevendo dois itens. \n**Inadequado:** Solicita e não verbaliza achado algum OU solicita e descreve um item OU não solicita o exame físico interpretando ou não os achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1.0",
+        "adequado": "2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Verbaliza as principais hipóteses diagnósticas de escroto agudo, aplicáveis ao caso:**\n(1) Torção testicular torção do cordão espermático;\n (2) Orquite aguda / orquiepididimite aguda / epididimite aguda; \n(3) Torção do Apêndice testicular / epididimário.  \n\n**Adequado:** Verbaliza os três itens. \n**Parcialmente adequado:** Verbaliza dois itens. \n**Inadequado:** Verbaliza apenas um item OU não verbaliza item algum",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.0",
+        "adequado": "1.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6.  **Solicita:**\n (1) Ultrassonografia (OU ultrassom, OU ecografia, OU US OU USG); \n(2) Com doppler (OU doppler colorido);\n (3) De bolsa escrotal (OU região testicular OU escroto OU testicular).  \n\n**Adequado:** Solicita o exame verbalizando os três itens. \n**Parcialmente adequado:** Solicita o exame verbalizando apenas os itens 1 e 3. \n**Inadequado:** Solicita o exame verbalizando apenas o item 1 e 2 OU solicita o exame verbalizando apenas o item 1 OU solicita qualquer outro exame OU não solicita exame algum.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Verbaliza o diagnóstico de torção testicular / torção do cordão espermático:**  \n\n**Adequado:** Verbaliza. \n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Tratamento do paciente  com torção testicular: indica a necessidade da cirurgia de emergência, que deverá acontecer antes de seis horas do início da dor ou cirurgia imediata:**\n\n**Adequado:** Indica cirurgia de emergência e explica que deverá ser feito no referido prazo ou indica cirurgia imediata.\n**Parcialmente Adequado:** Indica a cirurgia de emergência sem especificar o prazo de 6 horas. \n**Inadequado:** Não indica cirurgia OU indica a cirurgia sem destacar a emergência (antes das 6 h do início dos sintomas) OU indica qualquer outro tipo de tratamento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.7"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

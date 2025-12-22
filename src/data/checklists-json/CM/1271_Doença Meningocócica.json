@@ -1,0 +1,184 @@
+{
+  "uid": 1271,
+  "hash": "pnBjmG5nt93RByKbqdSA7joC8941",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Doença Meningocócica",
+  "definicao": "A doença meningocócica é uma infecção bacteriana aguda endêmica no Brasil, com ocorrência de surtos esporádicos. Quando se apresenta na forma de doença invasiva, caracteriza-se por uma ou mais síndromes clínicas, sendo a meningite meningocócica a mais frequente delas e a meningococcemia a forma mais grave.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "63.00",
+    "star": 0,
+    "time": 583.5,
+    "count": 6487
+  },
+  "cenario": "Local de atuação: Hospital terciário -  Unidade de Pronto Socorro.\nTipo de atendimento: Urgência e Emergência. \n\nDescrição do caso: \nVocê é chamado para atender um paciente chamado Marcos de 28 anos de idade, pessoa privada de liberdade, trazido do sistema prisional da cidade, com queixas de dor de cabeça intensa, náuseas, vômitos e mal estar há 1 dia.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente;\n- Realizar o  exame físico direcionado à queixa principal do paciente com as principais manobras a serem realizadas;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Marcos, 28 anos de idade, solteiro.\n\n**MOTIVO DE CONSULTA: **\n- Desde ontem que estou com uma dor forte na cabeça, vomitando e estou me sentindo muito mal. Talvez tenha comido algo estragado porque ontem a comida do presídio estava horrível. \n\n**CARACTERÍSTICAS DA CEFALEIA: **\n**- Tempo de início: **Começou ontem. \n**- Localização: **Dói toda a cabeça. \n**- Intensidade: **Muito forte (8/10). \n**- Tipo de dor: **Parece que é uma facada na cabeça. \n**- Irradiação: **Chega doer até a nuca.\n**- Fatores de melhora: **A enfermeira do presídio me deu um remédio pra dor mas não adiantou nada.\n**- Fatores de piora: **Movimentar a cabeça aumenta a dor.\n\n**CARACTERÍSTICAS DO VÔMITO: **\n- Vomitei 4 vezes. É um vômito muito forte, sai um jato enorme, nunca vomitei assim.\n\n**SINTOMAS ASSOCIADOS: **\n- Acho que estou com febre e apareceu umas manchas na perna que não doem e nem coçam.\n**- Negar outros sintomas perguntados.**\n\n**SE PERGUNTADO POR CONTATO COM PESSOAS COM MESMOS SINTOMAS: **\n- Na cadeia tem muita doença né doutor (a), todo mundo apertado na mesma cela. Muitos presos que ficam gripados, tossindo e a gente não tem o que fazer.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Que eu saiba não.\n**- Medicamentos: **Não.\n**- Alergia: **Acho que não.\n\n**HÁBITOS: **\n**- Cigarro: **Fumo meio maço de cigarro por dia.\n**- Álcool: **Nega.\n**- Drogas ilícitas: **Nega.\n\n**SE PERGUNTADO POR ESTADO VACINAL: **\n- Só tomei vacina quando era criança.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame fisico ",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 130x80 mmHg \n\n**- Frequência cardíaca:** 110 batimentos por minuto \n\n**- Saturação:** 97% \n\n**- Temperatura:** 39,5° C \n\n**- Frequência respiratória:** 16 incursões por minuto \n\n\n\n**-Estado geral:**\n\nPaciente em mau estado geral, febril, acianótico, anictérico, alerta, orientado no tempo e espaço. \n\n\n\n**-Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**-Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos adventícios. \n\n\n\n**-Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos normoativos, indolor à palpação e sem viceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame neurológico ",
+      "conteudo": "**ATENÇÃO OLHE PARA A CAMERA E VERBALIZE COMO DEVEM SER REALIZADOS OS EXAMES FÍSICOS PARA AVALIAÇÃO NEUROLÓGICA/MENINGEA DO PACIENTE SIMULADO TENDO EM CONTA A PRINCIPAL SUSPEITA DIAGNÓSTICA**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Manobras de Kernig e brudzinski/ Exame neurologico",
+      "conteudo": "Paciente alerta, orientado no tempo e espaço. \n\n\n\n**Exame de marcha:** Sem alterações. \n\n\n\n**Equilíbrio estático:** Preservado. \n\n\n\n**Motricidade:** Preservada. \n\n\n\n**Coordenação motora:** Preservada. \n\n\n\n**Força muscular:** Grau 5 nos quatro membros. \n\n\n\n**Reflexos:** Normorreflexia. \n\n\n\n**Nervos cranianos:** Testados todos os 12 pares sem alterações. \n\n\n\n**Sensibilidade:** Preservada nos 4 membros.\n\n\n\n**Pupila:** Isocóricas e fotorreagentes. \n\n\n\n**Rigidez de nuca:** Positiva \n\n**Kernig:** Positivo.\n\n**Brudzinski:** Positivo.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemácias:** 4,4 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 16 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n**Hematócrito:** 48% (Valor de referência: 39 - 52%)\n\n**VCM:** 99 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 28 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 31 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 160.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucócitos:** 22.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 75% (Valor de referência: 40 - 70%)\n\n**Bastões:** 10% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 13% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 2% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 0% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 0% (Valor de referência: 4 - 8%)\n\n\n\n**Glicemia sérica:** 90 mg/dl (Valor de referência: 60 - 99 mg/dl)\n\n\n\n**Creatinina:** 0,7 mg/dL (Valor de referência: 0,7 - 1,1 mg/dl)\n\n**Ureia:** 20 mg/dl (Valor de referência: < 40 mg/dl)\n\n\n\n**Proteína C reativa:** 8 mg/dl (Valor de referência: < 0,3 mg/dl)\n\n\n\n**Sódio:** 140 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Hemocultura",
+      "conteudo": "**Em processamento.**",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "Análise do líquido cefalorraquidiano ",
+      "conteudo": "**Pressão de saída:** Aumentada.\n\n**Aspecto:** Leitoso.\n\n**Cor:** Turva. \n\n**Glicose:** Diminuída. \n\n**Proteína:** Aumentada. \n\n**Celularidade:** Aumentada a predomínio de neutrófilos. \n\n**Tinção pelo método Gram Nicolle:** Se observam diplococos Gram negativos.\n\n**Cultura:** Em processamento.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga as características da dor: **\n(1) Tempo de início;\n(2) Localização; \n(3) Irradiação;\n(4) Tipo de dor;\n(5) Intensidade;\n(6) Fatores de melhora;\n(7) Fatores de piora;\n(8) Progressão;\n(9) Sintomas acompanhantes;\n(10) Episódios anteriores. \n\n**Adequado: **Investiga ao menos oito itens. \n**Parcialmente adequado: **Investiga de seis a sete itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga: **\n(1) Fotofobia;\n(2) Febre;\n(3) Convulsão;\n(4) Desmaio ou perda de consciência;\n(5) Rigidez de nuca. \n\n**Adequado: **Investiga ao menos três itens. \n**Parcialmente adequado: **Investiga dois itens. \n**Inadequado: **Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga contato com pessoas com sintomas similares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga antecedentes pessoais: **\n(1) Estado vacinal;\n(2) Doenças prévias;\n(3) Drogas ilícitas;\n(4) Medicamentos;\n(5) Alergias.\n\n**Adequado: **Investiga os cinco itens. \n**Parcialmente adequado: **Investiga três ou quatro itens.\n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita: **\n(1) Exame físico geral;\n(2) Exame neurológico;\n(3) Manobras de Kernig e/ou brudzinski.\n\n**Adequado: **Solicita os três itens. \n**Parcialmente adequado: **Solicita um ou dois itens. \n**Inadequado: **Não solicita nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7.** Após leitura do impresso Exame Neurológico é capaz de verbalizar:**\n(1)**Rigidez de nuca:** Estando o paciente em decúbito dorsal, o examinador coloca uma das mãos na região occipital e, suavemente, tenta fletir a cabeça do paciente;\n(2) **Kernig: **Estando o paciente em decúbito dorsal, o examinador fará a extensão da perna, estando a coxa fletida em ângulo reto sobre a bacia e a perna sobre a coxa;\n(3) **Brudzinski:** Com o paciente em decúbito dorsal e membros estendidos, o examinador repousa uma das mãos sobre o tórax do paciente e, com a outra colocada na região occipital, executa uma flexão forçada da cabeça.\n\n**Adequado:** Verbaliza a realização adequada das três manobras\n**Parcialmente adequado:** Verbaliza a realização adequada de uma OU duas manobras\n**Inadequado:** Não verbaliza a realização adequada de nenhum manobra.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita: **\n(1) Laboratório geral;\n(2) Hemocultura;\n(3) Análise do líquido cefalorraquidiano ou punção lombar. \n\n**Adequado: **Solicita os três itens.\n**Parcialmente adequado: **Solicita dois itens.\n**Inadequado: **Solicita um ou nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.8",
+        "adequado": "1.75"
+      },
+      "dica_teorica": "Indicações de TAC de crânio antes da punção lombar:- Imunossupressão;- História de lesão no SNC;- Crises convulsivas de início recente;- Edema de papila;- Rebaixamento do sensório;- Déficit neurológico focal."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza a hipótese diagnóstica de doença meningocócica OU meningite bacteriana associada a meningococcemia. **\n\n**Adequado: **Realiza. \n**Inadequado: **Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Esse paciente provavelmente possui as duas formas da doença meningocócica: meningite e meningococcemia."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Conduta terapêutica: **\n(1) Indica ceftriaxona IV;\n(2) Analgésico e/ou antitérmico;\n(3) Internação;\n(4) Isolamento respiratório.\n\n**Adequado: **Realiza as quatro ações. \n**Parcialmente adequado: **Realiza duas ou três ações. \n**Inadequado: **Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Se confirmado meningococo:  completar esquema ATB por um total de 7 dias (2g IV cada 12 horas)."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Realiza: **\n(1) Notificação compulsória de caso suspeito de doença meningocócica;\n(2) Informa a necessidade de realizar quimioprofilaxia para os contatos próximos do paciente. \n\n**Adequado: **Realiza as duas ações. \n**Parcialmente adequado: **Realiza uma ação. \n**Inadequado: **Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Contatos próximos:- Moradores do mesmo domicílio;- Indivíduos que compartilham o mesmo dormitório (alojamentos, quartéis, presídios);- Comunicantes de creches e escolas;- Pessoas diretamente expostas às secreções do paciente.A notificação deve ser registrada no Sistema de Informação de Agravos de Notificação (Sinan), por meio do preenchimento da Ficha de Investigação de Meningite."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "uid": 1092,
+  "hash": "HqKjn7UG-ViibQkLz_lr5LaF",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Transtorno do Déficit de Atenção com Hiperatividade – (TDAH)",
+  "definicao": "O transtorno de déficit de atenção/hiperatividade (TDAH) é o distúrbio neurocomportamental mais comum na infância. O TDAH é caracterizado pela desatenção, e isso inclui: aumento da distratibilidade (demasiada facilidade de se ter a atenção desviada por estímulos externos insignificantes) e dificuldade de manter a atenção; fraco controle do impulso e capacidade autoinibitória reduzida; além de agitação e hiperatividade motoras.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "58.50",
+    "star": 0,
+    "time": 589.5,
+    "count": 4206
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nDESCRIÇÃO DO CASO:\nVocê é médico e vai atender os pais de um menino de oito anos que vêm até você preocupados com o desempenho escolar e comportamento do filho.",
+  "tarefas": "-Realizar o acolhimento da paciente;\n-Fazer a anamnese dirigida à paciente;\n-Solicitar exame físico detalhado;\n-Solicitar exames complementares, se julgar necessário;\n-Estabelecer e comunicar a hipótese diagnóstica;\n-Propor conduta terapêutica;\n-Dar orientações ao paciente e sanar dúvidas.",
+  "script_ator": "**DADOS DOS PAIS:** \n**-Mãe:** Débora de 40 anos.\n**-Pai:** Tony de 42 anos. \n\n**DADOS DA CRIANÇA:** \n- Alcides, 8 anos. \n\n**MOTIVO DE CONSULTA:** \n- Dr.(a), trouxemos nosso filho porque estamos preocupados com o comportamento e o desempenho escolar dele. \n\n**DETALHES DA QUEIXA PRINCIPAL:** \n**-Início:** Dr.(a) noto essas alterações no comportamento dele desde pequenininho. \n**-Agitação/irritabilidade:** Noto que ele se apresenta muito agitado às vezes.\n**-Prejuízo no rendimento escolar ou atividades diárias:** Sim, em casa e na escola a relação com ele tem se tornado mais difícil.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Desatenção:** Sim, noto que ele é desatento. \n**-Impulsividade:** Sim, alguns momentos observo que ele tem sinais de impulsividade.\n**-Hiperatividade:** Às vezes.\n**-Concentração:** Ele tem certa dificuldade de realizar tarefas e para se concentrar. \n**-Ansiedade:** Sim, em alguns momentos noto que ele se apresenta ansioso.\n**-Depressão:** Nega.\n**-Comunicação:** Sem alterações. \n\n**JÁ BUSCOU ALGUMA AVALIAÇÃO MÉDICA:**\n- Nunca procuramos uma avaliação psicológica. \n\n**ANTECEDENTES PESSOAIS:**\n**-Doenças:** Nega.\n**-Uso de medicações:** Nega.\n**-Alergias:** Nega.\n**-Cirurgias:** Nega.\n**-Internações:** Nega.\n\n**ANTECEDENTES PERINATAIS (PRÉ-NATAL | PARTO | PÓS-NATAL):**\n**- Parto:** Ele nasceu com 39 semanas, parto normal, sem intercorrências.\n**-Pré-natal:** Fizemos todas as consultas e tomei todas as vitaminas.\n**-Amamentação:** Foi amamentado de forma exclusiva até os 6 meses.\n\n**HÁBITOS:** \n**-Alimentação:** Sem alterações.\n\n**DIURESE E CATARSE:**\n- Sem alterações.\n\n**CADERNETA DE VACINA/CRIANÇA:**\n- Vacinas estão em dia.\n\n**DÚVIDAS:**\n**- Pergunta 1:** Existe algum tratamento para melhorar os sintomas? \n**- Pergunta 2:** Quais mudanças devem ser feitas em casa e na escola para ajudar Pedro?\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**\n\n**-Pressão Arterial (PA):** 100/65 mmHg\n\n**-Frequência Cardíaca (FC):** 90 bpm\n\n**-Frequência Respiratória (FR):** 22 rpm\n\n**-Temperatura (T):** 98.6°F (37°C)\n\n\n\n**Dados Antropométricos**\n\n**Peso:** 25 kg\n\n**Altura:** 1.30 m\n\n**Índice de Massa Corporal (IMC):** 14.8 kg/m²\n\n\n\n**Exame Físico** \n\n-Durante a realização do exame físico, observa-se criança agitada; responde as perguntas de forma precipitada antes delas terem sido terminadas; fala em excesso; mexe com as mãos durante toda a consulta; parece não estar ouvindo quando se fala com ela.\n\n\n\n**Pele e anexos:** Sem alterações.\n\n\n\n**Cabeça:** Sem deformidades ou massas.\n\n\n\n**Olhos:** Acuidade visual normal.\n\n\n\n**Ouvidos:** Tímpanos íntegros, sem sinais de infecção.\n\n\n\n**Nariz e garganta:** Sem anormalidades.\n\n\n\n**Tórax:** Expansibilidade normal, sem ruídos adventícios.\n\n\n\n**Coração:** Ritmo cardíaco regular, sem sopros.\n\n\n\n**Abdome:** Sem distensão ou sensibilidade à palpação.\n\n\n\n**Extremidades:** Sem edemas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona sobre motivo de consulta:**\n(1) Início;\n(2) Duração;\n(3) Agitação OU Irritabilidade;\n(4) Prejuízo escolar. \n\n**Adequado:** Questiona três ou quatro itens.\n**Parcialmente Adequado:** Questiona dois itens.\n**Inadequado:** Questiona um item ou não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre sinais e sintomas acompanhantes principais:**\n(1) Desatenção;\n(2) Impulsividade;\n(3) Hiperatividade.\n\n**Adequado:** Questiona três itens.\n**Parcialmente Adequado:** Questiona dois itens.\n**Inadequado:** Questiona um item ou não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona sobre outros sintomas psicológicos.**\n(1) Ansiedade;\n(2) Depressão;\n(3) Comunicação social.\n\n**Adequado:** Questiona três itens.\n**Parcialmente Adequado:** Questiona dois itens.\n**Inadequado:** Questiona um item ou não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta sobre a alguma avaliação OU diagnóstico anterior OU acompanhamento anterior.**\n\n**Adequado:** Pergunta.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre a saúde geral:**\n(1) Alimentação;\n(2) Ambiente familiar;\n(3) Ambiente social;\n(4) Hábitos fisiológicos ou catarse E diurese;\n(5) Uso de telas;\n(6) Rede de apoio;\n(7) Sono.\n\n**Adequado:** Pergunta seis ou sete itens.\n**Parcialmente adequado:** Pergunta quatro ou cinco itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Questiona sobre:**\n(1) Antecedentes pessoais;\n(2) Alergias;\n(3) Antecedentes perinatais;\n(4) Crescimento e desenvolvimento;\n(5) Uso de medicações.\n\n**Adequado:** Questiona quatro ou cinco itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita:**\n(1) Caderneta de vacina;\n(2) Caderneta da criança.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita exame físico:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza a suspeita diagnóstica de TDAH (Transtorno do Déficit de Atenção e Hiperatividade).**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza sobre:**\n(1) Importância da comunicação aberta com a escola;\n(2) e o suporte educacional.\n\n**Adequado:** Verbaliza os dois itens.\n**Inadequado:** Não verbaliza os dois itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Orienta:**\n(1) Dieta equilibrada;\n(2) Atividade física regular;\n(3) Rotina de sono;\n(4) Rotina e planejamento diário;\n(5) Reforços simbólicos.\n\n**Adequado:** Orienta quatro ou cinco itens.\n**Parcialmente adequado:** Orienta três itens.\n**Inadequado:** Orienta dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Encaminha para:**\n(1) Avaliação multidisciplinar OU para acompanhamento no CAPSi;\n(2) Médico psiquiatra;\n(3) Psicólogo;\n(4) Fonoaudiólogo;\n(5) Psicopedagogo;\n(6) Assistente social.\n\n**Adequado:** Encaminha citando cinco ou seis itens.\n**Parcialmente adequado:** Encaminha citando quatro itens.\n**Inadequado:** Encaminha citando três ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Indica Terapia cognitivo comportamental (TCC).**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Verbaliza necessidade de retorno para acompanhamento com 30 dias.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "uid": 1002,
+  "hash": "q_derrImTDyLNXKg6OXaP1eu",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Acidente de Trabalho (PAIR)",
+  "definicao": "Consiste em todos os casos de Perda Auditiva Induzida por Ruído (Pair) caracterizados pela diminuição gradual da acuidade auditiva, decorrente da exposição continuada ao ruído, associado ou não a substâncias químicas, no ambiente de trabalho. É sempre neurossensorial, geralmente bilateral, irreversível e passível de não progressão, uma vez cessada a exposição ao ruído.Todo caso de acidente de trabalho por causas não naturais compreendidas por acidentes e violências(Capítulo XX da CID-10 V01 a Y98), que ocorrem no ambiente de trabalho ou durante o exercício do trabalho quando otrabalhador estiver realizando atividades relacionadas à sua função, ou a serviço do empregador ou representando os interessesdo mesmo (Típico) ou no percurso entre a residência e o trabalho (Trajeto) que provoca lesão corporal ou perturbaçãofuncional, podendo causar a perda ou redução temporária ou permanente da capacidade para o trabalho e morte.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "67.00",
+    "star": 0,
+    "time": 523,
+    "count": 5676
+  },
+  "cenario": "Nível de atenção: Unidade de Atenção Primária.\nTipo de atendimento: Ambulatorial — Consultório médico em unidade básica de saúde da família (UBSF).\n\nA unidade conta com a seguinte infraestrutura:\n-Sala de atenção médica;\n-Enfermaria;\n-Apoio de serviço de otorrinolaringologia e fonoaudiologia.\n\nDESCRIÇÃO DO CASO:\nVocê realizará o atendimento, em consulta agendada, de um homem de 36 anos, sem seguimento regular de saúde.\n\nATENÇÃO!\nCASO JULGUE NECESSÁRIO REALIZAR O EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO",
+  "tarefas": "-Realizar anamnese relacionada à queixa do paciente;\n-Utilizar os atributos nucleares da atenção primária a saúde;\n-Solicitar o exame físico, caso necessário;\n-Estabelecer e comunicar a hipótese diagnóstica;\n - Pactuar plano de cuidado com a paciente usando método clínico centrado na pessoa;\n- Avaliar a necessidade de adoção de outras medidas sanitárias.",
+  "script_ator": "**DURANTE O ATENDIMENTO PEÇA VÁRIAS VEZES QUE O CANDIDATO REPITA AS PERGUNTAS ALEGANDO QUE NÃO CONSEGUE OUVIR DIREITO.**\n\n**DADOS PESSOAIS:**\n-Bryan, 36 anos, em um relacionamento estável, procedente de Minas Gerais.\n\n**MOTIVO DE CONSULTA:**\n-Olá Dr(a), eu vim hoje porque acho que estou ficando surdo.\n\n**SOBRE A QUEIXA PRINCIPAL:**\n**-Tempo de evolução:** Tem dois meses aproximadamente. \n**-Padrão de evolução:** Parece que cada vez fico mais surdo. \n**-Bilateral ou unilateral:** Dr(a) os dois ouvidos estão ruins. \n\n**FATORES DESENCADEANTES:**\n-Eu não saberia dizer.\n\n**SINTOMAS ACOMPANHANTES:**\n**-Zumbido:** Eu às vezes escuto um zumbido dentro da orelha também.\n\n**SE INVESTIGADO SOBRE A OCUPAÇÃO:**\n**-Ocupação:** Sou mecânico em corridas de Fórmula 1.\n**-Tempo de ocupação:** Que estou trabalhando fixo em corridas tem 2 anos, sempre fui mecânico mas consegui mais recentemente essa oportunidade na fórmula 1 e tem sido muito bom financeiramente para mim. \n**-Regularidade trabalhista:** Tenho carteira assinada. \n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças prévias:** Sou diabético. \n**- Medicamentos:** Faço meu tratamento certinho e estou bem controlado da diabetes.\n**- Alergias:** Sou alérgico a dipirona. \n**-Situação vacinal:** Todas as vacinas estão em dia, inclusive as do COVID-19.\n**-Viagens recentes:** Viajo bastante a trabalho.\n\n**PERGUNTAS:**\n**-PERGUNTA 1:** Dr(a), eu estou ficando surdo?\n**-PERGUNTA 2:** Dr(a) tem algum exame que preciso fazer?\n**-PERGUNTA 3:** Quem irá realizar o meu tratamento?\n**-PERGUNTA 4:** Existe alguma lei que possa me ajudar quanto ao afastamento ou permanência no trabalho?\n**-PERGUNTA 5:** Eu gostei muito do seu atendimento, e gostaria de saber qual atributo da Atenção Primária a Saúde é garantido com o meu retorno.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial: **120x80 mmHg\n\n- **Frequência cardíaca:** 80 batimentos por minuto\n\n- **Frequência respiratória: **15 incursões por minuto\n\n-** Saturação de O2: **99%\n\n- **Temperatura axilar: **36.4° C\n\n-**Glicemia capilar:** 87\n\n\n\n**Estado Geral:** \n\nPaciente em bom estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**Cardiovascular:** \n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** \n\nAusculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** \n\nbdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Otoscopia",
+      "conteudo": "Não se observa cerúmen, mucosa sem sinais de inflamação.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se.**\n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se;\n(3) Dirige-se ao paciente simulado pelo nome, ao menos uma vez;\n(4) Pergunta o motivo da consulta; e \n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza os cincos itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza apenas um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Conecta-se ao paciente.**\n(1) Estabelece contato visual; e \n(2) Mantém postura empática e interessada ao longo da consulta.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Escuta a fala do paciente simulado sem interrompê-lo.**\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação OU não realiza a ação integralmente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível com o paciente simulado, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Utiliza linguagem acessível.\n**Inadequado:** Não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Comportamento.**\n(1) Oferece confiança ao paciente simulado;\n(2) Não banaliza a condição clínica do paciente simulado;\n(3) Não julga o paciente simulado; e,\n(4) Não manifesta atitude paternalista, punitiva ou condescendente em relação ao paciente simulado.\n\n**Adequado:** Realiza os quatro itens.\n**Parcialmente adequado:** Realiza dois ou três itens.\n**Inadequado:** Realiza apenas um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga **\n(1) Tempo de evolução da queixa atual;\n(2) Padrão de evolução da queixa atual;\n(3) Desencadeantes; e,\n(4) Bilateralidade.\n\n**Adequado:** Investiga os quatro itens. \n**Parcialmente adequado:** Investiga três OU dois itens.\n**Inadequado:** Investiga um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7.** Investiga sintomas acompanhantes. como:**\n(1) Vertigem; \n(2) Náuseas;\n(3) Perda de equilíbrio; e,\n(4) Zumbido OU surgimento de um som constante.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga três OU dois itens.\n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8.** Investiga **\n(1) Ocupação; e, \n(2) Relação do aparecimento do sintoma com o trabalho. \n\n**Adequado:** Investiga os dois itens.\n**Inadequado:** Investiga um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga **\n(1) Doenças crônicas; \n(2) Uso crônico de medicamentos; \n(3) Alergias; \n(4) Situação vacinal; e, \n(5) Viagens recentes.\n\n**Adequado:** Investiga de quatro a cinco itens.\n**Parcialmente adequado:** Investiga de dois a três itens.\n**Inadequado:** Investiga um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Referência o paciente ao serviço de otorrinolaringologia **\n\n**Adequado:** Referencia \n**Inadequado:** Não referencia",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11.** Responde ao paciente sobre a necessidade de realização de exame de audiometria OU impedanciometria.**\n\n**Adequado:** Informa a necessidade de realização do exame.\n**Inadequado:** Não informa a necessidade de realização do exame.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza que a principal suspeita diagnóstica é de Perda Auditiva Induzida por Ruído (PAIR)**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza que caso seja comprovada a alteração da capacidade auditiva será necessário:**\n(1) Emissão da Comunicação de Acidente de Trabalho (CAT); e, \n(2) Notificação ao SINAN.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.3"
+      },
+      "dica_teorica": "A partir da confirmação do diagnóstico da doença e de sua relação com o trabalho."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Responde ao paciente simulado que se trata do atributo de longitudinalidade.**\n\n**Adequado:** Responde longitudinalidade.\n**Inadequado:** Não responde longitudinalidade.\n\n**OBS**: Caso o candidato responda algum outro atributo que não o de longitudinalidade, considerar o item como INADEQUADO.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Atributos da APS: 1) Acesso; 2) Longitudinalidade; 3) Integralidade; 4) Coordenação do cuidado"
+    }
+  ]
+}

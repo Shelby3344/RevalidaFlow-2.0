@@ -1,0 +1,183 @@
+{
+  "uid": 1281,
+  "hash": "Paksndd823njndsdw3121dajnda",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Puericultura: Aleitamento Materno",
+  "definicao": "O aleitamento materno é a estratégia que isoladamente mais previne mortes em crianças menores de cinco anos, visto que o leite materno é superior a qualquer outro leite nessa fase da vida, pois é um alimento completo que possui todos os nutrientes que o bebê precisa, sendo de mais fácil digestão.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "60.50",
+    "star": 0,
+    "time": 535.5,
+    "count": 5695
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nDescrição do caso:\nMãe leva seu filho de 45 dias de vida para consulta eletiva de puericultura.",
+  "tarefas": "- Realizar a anamnese completa dirigida à mãe;\n- Solicitar exame físico e verbalizar os achados;\n- Analisar o desenvolvimento da criança;\n- Explicar à mãe o diagnóstico da criança;\n- Orientar todos os passos do tratamento;\n- Explicar quando será o próximo controle e quais serão as vacinas indicadas;\n-Orientar medidas gerais para acompanhamento do RN.",
+  "script_ator": "**DADOS DA MÃE: **\n- Maura, 22 anos, desempregada, solteira, 1 filho. \n\n**NOME DA CRIANÇA: **\n-Joaquim, 45 dias de vida.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a). Eu trouxe meu filho para a consulta porque acho que meu leite é muito fraco. Ele chora de fome toda hora.\n\n**ALEITAMENTO MATERNO OU ALIMENTAÇÃO: **\n- Tentei manter o aleitamento exclusivo mas ele chora muito, então já dei um pouco de suco e água com açúcar para ele.\n\n**ANTECEDENTES PERINATAIS E PATOLÓGICOS: **\n- Fiz 8 consultas de pré-natal, tomei todas as vacinas e fiz as suplementações necessárias.\n\n**CADERNETA DE SAÚDE DA CRIANÇA: **\n- Liberar impresso 2.\n\n**DÚVIDAS: **\n**-Pergunta 1:** Eu posso dar pelo menos água para ele?\n**-Pergunta 2:** Ele terá que tomar algum remédio?\n**-Pergunta 3:** Tem alguma vacina atrasada, Doutor?\n\n**OUTRAS PERGUNTAS: **\n- Não consta no SCRIPT.\n\n**IMPRESSOS:**\n- **Ficha do paciente:** Liberar ao iniciar a estação.\n-**Caderneta da criança e exame físico:** Liberar ao ser solicitado.\n-**Técnica de aleitamento:** Liberar se o candidato solicitar demonstração da técnica de aleitamento OU se perguntado como a mesma é realizada.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": " FICHA DO PACIENTE",
+      "conteudo": "**Peso:** 3.800 gramas. \n\n**Comprimento:** 58 cm. \n\n**Perímetro cefálico: **36 cm. \n\n**Temperatura:** 35,8 °C.",
+      "imagem": "https://app.penserevalida.com/impressos/02/pega-2.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "CADERNETA DE SAÚDE DA CRIANÇA",
+      "conteudo": "**Peso:** Score entre 0 e -1.\n\n**Comprimento:** Score entre 0 e -2.\n\n**Perímetro Cefálico:** Score entre 0 e -1.\n\n\n\n**ANTECEDENTES PERINATAIS**\n\n**Pré-natal:** sem intercorrências. \n\n**Idade gestacional:** 38 semanas\n\n**Parto:** via vaginal.\n\n**Vacinas do nascimento:** BCG e Hepatite B.",
+      "imagem": "https://app.penserevalida.com/impressos/02/pega-2.png"
+    },
+    {
+      "idx": 3,
+      "titulo": " EXAME FISICO",
+      "conteudo": "**Exame físico:**\n\n Paciente em bom estado geral, sorrindo durante o exame, corado, hidratado, acianótico, anictérico, afebril, eupneico, sem linfonodomegalia.\n\n\n\n**Ausculta respiratória:** \n\nMurmúrios vesiculares presentes bilateralmente, sem ruídos adventícios. Frequência respiratória: 24 irpm.\n\n\n\n**Ausculta cardíaca:** \n\nBulhas rítmicas, normofonéticas, em dois tempos, sem sopros. Frequência cardíaca: 98 bpm.\n\n\n\n**Abdome:**\n\n Plano, flácido, inocente, sem visceromegalias; ruídos hidroaéreos presentes.\n\n\n\n**Genitália:** \n\nSem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/02/pega-2.png"
+    },
+    {
+      "idx": 4,
+      "titulo": " TÉCNICA DE ALEITAMENTO",
+      "conteudo": "Analise a técnica alimentar.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre sinais e sintomas:**\n(1) Febre;\n(2) Irritabilidade ou letargia ou choro;\n(3) Icterícia;\n(4) Diarreia ou constipação. \n\n**Adequado:** Pergunta sobre três ou quatro itens.\n**Parcialmente adequado:** Pergunta sobre dois itens.\n**Inadequado:** Pergunta um ou nenhum item.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre a saúde geral do bebê:**\n(1) Alimentação;\n(2) Ambiente familiar;\n(3) Ambiente social;\n(4) Hábitos fisiológicos ou catarse E diurese;\n(5) Uso de telas;\n(6) Rede de apoio;\n(7) Sono.\n\n**Adequado:** Pergunta seis ou sete itens.\n**Parcialmente adequado:** Pergunta quatro ou cinco itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona quanto à gestação / antecedentes gestacionais:**\n(1) Intercorrências no pré-natal;\n(2) Idade gestacional;\n(3) Condições perinatais;\n(4) Via do parto;\n(5) Testes de triagem neonatal.\n\n**Adequado:** Questiona quatro ou cinco itens.\n**Parcialmente adequado:** Questiona dois ou três itens.\n**Inadequado:** Questiona um ou  item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita caderneta de saúde da criança.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita a demonstração da técnica de aleitamento OU questiona como a mesma é realizada.**\n\n**Adequado:** Solicita ou questiona.\n**Inadequado:** Não solicita e não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exame físico e dados antropométricos citando:**\n(1) Peso;\n(2) Altura;\n(3) Perímetro cefálico.\n\n**Adequado:** Solicita exame físico citando os três itens.\n**Parcialmente adequado:** Solicita exame físico citando dois itens ou verbaliza somente dados antropométricos.\n**Inadequado:** Não solicita exame físico ou cita somente um item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8.  **Verbaliza:**\n(1) Peso x Idade: Adequado;\n(2) Perímetro cefálico x Idade: Adequado;\n(3) Altura x Idade: Adequado.\n\n**Adequado:** Verbaliza os três itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Identifica erros na técnica de aleitamento do lactente**\n\n**Adequado:** Identifica.\n**Inadequado:** Não identifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Orienta sobre a abordagem/intervenção para a correção da técnica de aleitamento apresentadas:**\n(1) Rosto do bebê de frente para a mama, com o nariz na altura do mamilo; \n(2) Corpo do bebê próximo ao da mãe;\n(3) Cabeça e tronco do bebê alinhados (pescoço não torcido);\n(4) Bebê bem apoiado;\n(5) Mais aréola visível acima da boca do bebê;\n(6) Boca bem aberta;\n(7) Lábio inferior virado para fora;\n(8) Queixo tocando a mama.\n\n**Adequado:** Orienta sete ou oito itens.\n**Parcialmente adequado:** Orienta cinco ou seis itens.\n**Inadequado:** Orienta quatro ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza corretamente as vacinas que criança receberá aos 2 meses: **\n(1) Pentavalente;\n(2) Pneumocócica 10; \n(3) Poliomielite ou Salk ou VIP; \n(4) Rotavírus.\n\n**Adequado:** Verbaliza os quatro itens.\n**Inadequado:** Não verbaliza os quatro itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Orienta sobre:**\n(1) Manter aleitamento materno exclusivo;\n(2) Manter acompanhamentos nas consultas de puericultura;\n(3) Não ofertar sucos ou água com açúcar para o RN;\n(4) Manter vacinação em dia de acordo com o calendário vacinal;\n(5) Não utilizar telas;\n(6) Colocar o RN para dormir sempre em posição supina;\n(7) Manter higiene corporal adequada.\n\n**Adequado:** Orienta de cinco a sete itens.\n**Parcialmente adequado:** Orienta quatro itens.\n**Inadequado:** Orienta três ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

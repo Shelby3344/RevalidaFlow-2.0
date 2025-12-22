@@ -1,0 +1,166 @@
+{
+  "uid": 983,
+  "hash": "mIBlayJkjHGBxsRXYpHSyusk",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Cistite Recorrente",
+  "definicao": "Define-se como a ocorrência de dois episódios de ITU em seis meses ou três nosúltimos 12 meses. Afeta 25% das mulheres com história de ITU. Omicro-organismo mais frequente nessa situação também é a E. coli.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "66.00",
+    "star": 0,
+    "time": 563.5,
+    "count": 5701
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Unidade de Atenção Primária.\nTipo de Atendimento: Ambulatorial.\n\nA unidade conta com a seguinte infraestrutura:\n-Laboratório de análises clínicas;\n-Ultrassonografia;\n-Apoio para realização de radiografias.\n\nDescrição do caso:\nVocê atenderá uma paciente com queixa de disúria.",
+  "tarefas": "- Realizar anamnese da paciente;\n- Solicitar e interpretar exame físico pertinente ao caso;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Solicitar exames complementares, se necessário, descrevendo os achados;\n- Propor conduta terapêutica;\n- Dar orientações ao paciente e sanar dúvidas.\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Letícia, 35 anos, estudante e solteira.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a). eu estou com dor pra fazer xixi.\n\n**SOBRE A QUEIXA PRINCIPAL:**\n**- Início:** Uns 8 dias.\n**- Fator de melhora:** Nega.\n**- Fator de piora:** Percebo que um ou dois dias após a relação sexual começa.\n**- Quadro prévio:** Nos últimos 6 meses já tive umas 5 vezes.\n**- Uso de medicação:** Eu usei um antibiótico que o senhor da farmácia me passou, mas não melhorava.\n\n**SINTOMAS ASSOCIADOS:**\n**- Polaciúria:** Vou no banheiro toda hora, mas tem bem pouquinho xixi.\n**- Hematúria:** Nega.\n**- Corrimento vaginal:** Nega.\n**- Dor nas relações sexuais/dispareunia:** Nega.\n**- Febre:** Nega.\n**- Sangramento nas relações sexuais/sinusorragia:** Nega.\n\n**ANTECEDENTE GINECOOBSTÉTRICOS:**\n**- Data da última menstruação:** 10 dias atrás.\n**- Menarca:** Aos 11 anos.\n**- Sexarca:** Aos 14 anos.\n**- Papanicolau:** Nunca fiz.\n**- Desejo de gestar:** Não.\n**- Parceiros sexuais:** Não tenho parceiro fixo, mas tenho vida sexual ativa.\n**- Uso de preservativo:** Irregular.\n**- Método contraceptivo:** Uso diafragma.\n**- Antecedente de ITS:** Nega.\n**- Ciclos menstruais:** Regulares.\n\n**- Quando o candidato verbalizar o diagnóstico de cistite de repetição, questionar:**\nComo você chegou a esse diagnóstico?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinal de Giordano",
+      "conteudo": "Negativa bilateralmente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Cultura de urina",
+      "conteudo": "Em andamento.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- Pressão arterial: 120x80 mmHg\n\n- Frequência cardíaca: 80 batimentos por minuto\n\n- Frequência respiratória: 16 incursões por minuto\n\n- Saturação de O2: 99%\n\n- Temperatura axilar: 36.4° C\n\n\n\n**Estado Geral:** Paciente em bom estado geral, orientada em tempo, espaço e pessoa, corada, hidratada, acianótica e anictérica.\n\n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** Ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** Abdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Apresenta-se adequadamente;\n(2) Cumprimenta e identifica a paciente simulada, perguntando seu nome.\n\n**Adequado:** Cumpre com ambas tarefas.\n**Parcialmente adequado:** Cumpre com uma das tarefas.\n**Inadequado:** Não cumpre com nenhuma das tarefas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.250"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga fatores de risco para ITU recorrente:**\n(1) Frequência das relações sexuais;\n(2) Número de parceiros; \n(3) Novos parceiros; \n(4) Uso de espermicida ou de diafragma;\n(5) História materna de ITU recorrente;\n(6) Caso anterior de ITU antes dos 15 anos de idade.\n\n**Adequado:** Investiga ao menos quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens. \n**Inadequado:** Investiga apenas um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Para as mulheres na pós-menopausa, os fatores de risco são diferentes e incluem, comumente, deficiência de estrogênio, diminuição de lactobacilos vaginais, procidência da parede vaginal anterior (cistocele), cirurgia urogenital, volume residual pós-miccional elevado e ITU prévia."
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita manobra de Giordano/punho percussão.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza o diagnóstico de Infecção do trato urinário recorrente ou cistite recorrente:**\n\n**Adequado:** Verbaliza o diagnóstico corretamente. \n**Inadequado:** Não verbaliza corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Justifica o diagnóstico:**\nInforma que a paciente cumpre critério para ITU recorrente já que apresentou mais de três episódios em menos de um ano. \n\n**Adequado:** Justifica corretamente. \n**Inadequado:** Não justifica seu diagnóstico ou justifica de maneira errónea.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Define-se como a ocorrência de dois episódios de ITU em seis meses ou três nos últimos 12 meses."
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita urocultura e antibiograma.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita ou solicita após haver indicado o antibiótico.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Culturas são recomendadas em pacientes cujas características e sintomas sugerem uma ITU complicada ou uma indicação para o tratamento de bacteriúria. Exemplos comuns incluem:  Gestantes Mulheres em pós-menopausa Homens Crianças pré-púberes Pacientes com anomalias do trato urinário ou instrumentação recente Pacientes com imunossupressão ou comorbidades significativas Pacientes cujos sintomas sugerem pielonefrite ou sepse Pacientes com infecções do trato urinário recorrentes (≥ 3/anos)"
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica inicio do tratamento com antibiótico terapia:** Fosfomicina trometamol 3 g VO, dose única ou nitrofurantoína 100 mg VO 6/6 h por 5 dias.\n\n**Adequado:** Informa a classe de medicamento a ser iniciada. \n**Inadequado:** Não informa a classe do medicamento a ser iniciado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Informa:**\n(1) Retornar quando a urucultura e antibiograma estiverem prontos para avaliar a sensibilidade do tratamento previamente iniciado;\n(2) Necessidade de realizar nova cultura de urina uma semana após o tratamento. \n\n**Adequado:** Cumpre com ambas tarefas.\n**Parcialmente adequado:** Cumpre com apenas uma tarefa. \n**Inadequado:** Não cumpre com nenhuma tarefa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica Profilaxia:**\n(1) Profilaxia continua: diariamente ao deitar ou com fosfomicina a cada 10 dias (A maioria dos estudos recomenda por 6 a 12 meses);\n(2) Profilaxia pós-coito: Dose profilática após a relação sexual. \n\n**Adequado:** Indica ao menos uma profilaxia. \n**Inadequado:** Não indica terapia profilática.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Antibióticos a serem considerados: fluoroquinolonas, cefalosporinas, trimetoprima, sulfametoxazol e nitrofurantoína."
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica medidas comportamentais:**\n(1) Maior ingestão de líquidos; \n(2) Evitar espermicidas e uso de diafragma; \n(3) Não atrasar a micção; \n(4) Limpar de frente para trás após a defecação; \n(5) Evitar duchas vaginais e; \n(6) Urinar imediatamente após relação sexual. \n\n**Adequado:** Indica ao menos quatro medidas comportamentais. \n**Parcialmente adequado:** Indica duas ou três medidas comportamentais. \n**Inadequado:** Indica apenas uma ou não indica medidas comportamentais.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica:**\n(1) Realização de preventivo; \n(2) Uso de preservativo nas relações sexuais. \n\n**Adequado:** Realiza ambas ações. \n**Parcialmente adequado:** Indica apenas uma das ações. \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

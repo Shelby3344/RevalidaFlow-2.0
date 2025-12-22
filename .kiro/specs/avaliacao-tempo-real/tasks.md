@@ -1,0 +1,197 @@
+# Implementation Plan
+
+- [x] 1. Configurar estrutura base e tipos
+
+
+
+
+  - [ ] 1.1 Criar tipos TypeScript para avaliação
+    - Criar arquivo `src/types/avaliacao.ts` com interfaces `AvaliacaoSession`, `ItemScore`, `SessionState`, `SyncMessage`
+
+
+    - Definir type `SessionStatus` com valores 'aguardando', 'em_andamento', 'pausado', 'finalizado'
+    - _Requirements: 1.1, 3.1, 3.2, 3.3_
+  - [ ] 1.2 Criar utilitários de sessão
+    - Criar arquivo `src/lib/avaliacao-utils.ts`
+    - Implementar função `generateSessionCode()` para gerar códigos únicos
+    - Implementar função `generateSessionLink(code)` para gerar URL completa
+    - Implementar funções de cálculo de pontuação `calculateTotalScore()`, `calculatePercentage()`
+    - _Requirements: 1.1, 1.2, 4.1, 4.4_
+  - [ ]* 1.3 Escrever testes de propriedade para utilitários
+    - Instalar fast-check como dependência de desenvolvimento
+    - **Property 1: Códigos de sessão são únicos**
+
+
+
+
+    - **Property 2: Link contém código da sessão**
+    - **Property 8: Pontuação parcial é soma das pontuações**
+    - **Property 9: Porcentagem final é correta**
+    - **Validates: Requirements 1.1, 1.2, 4.1, 4.4**
+
+- [ ] 2. Implementar hooks de gerenciamento de sessão
+  - [ ] 2.1 Criar hook useAvaliacaoSession
+    - Criar arquivo `src/hooks/useAvaliacaoSession.ts`
+
+
+    - Implementar `createSession(checklistId, avaliadorName)` que salva no localStorage
+    - Implementar `loadSession(sessionCode)` que carrega do localStorage
+    - Implementar `updateSession(updates)` para atualizar estado
+    - Implementar `getSessionLink(sessionCode)` para obter URL
+    - _Requirements: 1.1, 1.2, 1.4, 1.6_
+  - [ ]* 2.2 Escrever testes de propriedade para useAvaliacaoSession
+    - **Property 3: Restauração de sessão preserva estado**
+    - **Validates: Requirements 1.4**
+
+
+  - [ ] 2.3 Criar hook useAvaliacaoTimer
+    - Criar arquivo `src/hooks/useAvaliacaoTimer.ts`
+    - Implementar estado `timeRemaining`, `isRunning`, `isPaused`
+    - Implementar funções `start()`, `pause()`, `resume()`, `stop()`
+    - Usar `setInterval` para decrementar tempo quando rodando
+
+    - _Requirements: 3.1, 3.2, 3.3, 3.4_
+  - [x]* 2.4 Escrever testes de propriedade para useAvaliacaoTimer
+
+
+
+
+    - **Property 5: Iniciar sessão define tempo correto**
+    - **Property 6: Pausar preserva tempo restante**
+    - **Validates: Requirements 3.1, 3.2**
+  - [ ] 2.5 Criar hook useAvaliacaoSync
+    - Criar arquivo `src/hooks/useAvaliacaoSync.ts`
+
+
+    - Usar BroadcastChannel API para comunicação entre abas
+    - Implementar `subscribe(sessionCode, callback)` para ouvir mudanças
+    - Implementar `broadcast(sessionCode, state)` para enviar mudanças
+    - Implementar `unsubscribe()` para limpar listeners
+    - _Requirements: 6.1, 6.3_
+
+
+
+- [ ] 3. Checkpoint - Garantir que todos os testes passam
+  - Ensure all tests pass, ask the user if questions arise.
+
+- [x] 4. Implementar componentes de UI
+
+
+  - [ ] 4.1 Criar componente SessionLinkPanel
+    - Criar arquivo `src/components/avaliacao/SessionLinkPanel.tsx`
+    - Exibir código da sessão em destaque
+    - Botão "Copiar Link" que copia URL para clipboard
+
+    - Botão "Copiar Código" que copia apenas o código
+
+    - Exibir toast de confirmação ao copiar
+    - _Requirements: 1.2, 1.5, 1.6_
+  - [x] 4.2 Criar componente TimerDisplay
+
+    - Criar arquivo `src/components/avaliacao/TimerDisplay.tsx`
+
+    - Exibir tempo no formato MM:SS
+    - Props para modo avaliador (com controles) ou avaliado (apenas visualização)
+    - Botões Iniciar/Pausar/Terminar para modo avaliador
+    - Estilo visual diferente quando tempo < 1 minuto (alerta)
+    - _Requirements: 3.1, 3.2, 3.3, 3.4_
+  - [ ] 4.3 Criar componente ChecklistEvaluator
+    - Criar arquivo `src/components/avaliacao/ChecklistEvaluator.tsx`
+    - Exibir lista de itens do checklist
+
+
+
+
+    - Para cada item: botões para selecionar Adequado/Parcial/Inadequado
+    - Exibir pontuação selecionada para cada item
+    - Calcular e exibir total parcial em tempo real
+    - _Requirements: 4.1, 4.2, 4.3_
+  - [x] 4.4 Criar componente ImpressoItem
+
+
+    - Criar arquivo `src/components/avaliacao/ImpressoItem.tsx`
+    - Modo avaliador: exibir com cadeado clicável (aberto/fechado)
+    - Modo avaliado: exibir apenas se desbloqueado, com conteúdo completo
+    - Animação ao desbloquear
+    - _Requirements: 8.1, 8.3, 8.4, 8.5_
+  - [ ] 4.5 Criar componente WaitingScreen
+    - Criar arquivo `src/components/avaliacao/WaitingScreen.tsx`
+    - Exibir mensagem "Aguardando avaliador iniciar..."
+
+    - Exibir nome do checklist/estação
+
+    - Animação de loading sutil
+
+    - _Requirements: 7.1, 7.4_
+  - [x] 4.6 Criar componente ResultSummary
+
+
+
+
+    - Criar arquivo `src/components/avaliacao/ResultSummary.tsx`
+    - Exibir pontuação total e porcentagem
+    - Listar pontuação por item
+    - Botão para compartilhar resultado com avaliado
+
+
+    - _Requirements: 5.1, 5.2, 5.3_
+  - [ ]* 4.7 Escrever testes de propriedade para lógica de impressos
+    - **Property 11: Impressos bloqueados não aparecem para avaliado**
+    - **Property 12: Impressos liberados aparecem para avaliado**
+    - **Property 13: Bloquear impresso remove da visão do avaliado**
+    - **Validates: Requirements 8.1, 8.3, 8.4, 8.5**
+
+- [x] 5. Implementar páginas principais
+
+
+  - [ ] 5.1 Criar página AvaliacaoAvaliador
+    - Criar arquivo `src/pages/AvaliacaoAvaliador.tsx`
+
+
+    - Layout com sidebar direita (timer, link panel, participantes)
+    - Área principal com cenário, instruções, impressos e checklist
+    - Integrar todos os hooks e componentes criados
+    - Controle completo do fluxo da avaliação
+    - _Requirements: 1.1, 1.5, 3.1, 4.1, 8.1_
+  - [ ] 5.2 Criar página AvaliacaoAvaliado
+    - Criar arquivo `src/pages/AvaliacaoAvaliado.tsx`
+    - Exibir WaitingScreen enquanto status é 'aguardando'
+    - Quando iniciado: exibir cenário, instruções dos 10 min, impressos liberados
+    - Timer sincronizado (apenas visualização)
+    - Ocultar checklist e pontuações
+    - _Requirements: 2.1, 2.2, 2.3, 7.1, 7.2, 7.3_
+  - [ ]* 5.3 Escrever testes de propriedade para visão do avaliado
+    - **Property 4: Visão do avaliado não contém checklist**
+    - **Validates: Requirements 2.3**
+  - [ ] 5.4 Adicionar rotas no App.tsx
+    - Rota `/avaliacao/:sessionCode` para AvaliacaoAvaliador
+    - Rota `/avaliacao/participar/:sessionCode` para AvaliacaoAvaliado
+    - _Requirements: 1.1, 2.1_
+
+- [ ] 6. Checkpoint - Garantir que todos os testes passam
+  - Ensure all tests pass, ask the user if questions arise.
+
+- [ ] 7. Implementar sincronização e finalização
+  - [ ] 7.1 Integrar sincronização entre páginas
+    - Conectar useAvaliacaoSync nas páginas
+    - Sincronizar estado do timer entre avaliador e avaliado
+    - Sincronizar liberação de impressos em tempo real
+    - Sincronizar mudanças de status (aguardando → em_andamento → finalizado)
+    - _Requirements: 6.1, 6.3_
+  - [ ] 7.2 Implementar fluxo de finalização
+    - Ao clicar "Terminar": calcular resultado final
+    - Exibir ResultSummary para avaliador
+    - Opção de compartilhar resultado com avaliado
+    - Exibir mensagem de fim para avaliado
+    - _Requirements: 3.3, 5.1, 5.2, 7.3_
+  - [ ]* 7.3 Escrever testes de propriedade para resultado
+    - **Property 7: Finalizar calcula resultado**
+    - **Property 10: Resultado contém todos os campos**
+    - **Validates: Requirements 3.3, 5.1, 5.3**
+  - [ ] 7.4 Implementar indicador de conexão do avaliado
+    - Exibir na tela do avaliador quando avaliado conecta
+    - Atualizar lista de participantes
+    - _Requirements: 1.7_
+
+- [ ] 8. Checkpoint Final - Garantir que todos os testes passam
+  - Ensure all tests pass, ask the user if questions arise.

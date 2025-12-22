@@ -1,0 +1,166 @@
+{
+  "uid": 1707,
+  "hash": "d4611a01221b6d9ea44a51f81c5df88f8e338bb5ccb042569c63d302bd033b99-1761777502",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Transtorno Opositor Desafiador (TOD) - Híbrido",
+  "definicao": "O Transtorno Opositor Desafiador (TOD) é um transtorno de comportamento caracterizado por padrão persistente de humor irritável, comportamento desafiador e atitudes vingativas em relação a figuras de autoridade, por pelo menos 6 meses, causando prejuízo significativo social, familiar ou escolar.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "52.50",
+    "star": 0,
+    "time": 552.5,
+    "count": 352
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nDescrição do caso:\nVocê irá atender uma criança de 6 anos, trazida à consulta por sua mãe, que está preocupada com o comportamento do filho.",
+  "tarefas": "- Ler a carta da escola sobre o comportamento da criança;\n- Realizar anamnese direcionada à queixa da mãe;\n- Solicitar exame físico relacionado à queixa principal da mãe;\n- Formular e verbalizar a principal hipótese diagnóstica, com base na história clínica e no exame físico;\n- Indicar a conduta adequada, conforme a hipótese diagnóstica.",
+  "script_ator": "**DADOS DA MÃE:**\n- Suelen, tem 40 anos, é casada e é dona de casa.\n\n**DADOS DA CRIANÇA:**\n- Gabriel tem 6 anos.\n\n**MOTIVO DE CONSULTA:**\n- Recebi uma carta da escola sobre o comportamento do Gabriel e vim te mostrar para pedir ajuda.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n- **Mudança do comportamento:** Sim, há uns oito meses ele apresentou uma mudança significativa no comportamento; parece estar sempre irritado.\n- **Agressividade ou agitação:** Gabriel, quando tentamos criar regras ou adverti-lo, grita muito e agride outras pessoas. Essa agressividade também tem ocorrido na escola, inclusive com os professores.\n- **Comunicação:** Ele se comunica normalmente.\n-**Desobediência:** Sim, ele não segue ordens nem regras; está sempre fazendo birra e gritando.\n- **Atos de vingança/ Rancor:** Quando não permitimos que ele faça o que quer, ele fica irritado por vários dias.\n-**Culpa terceiros OU culpa outras pessoas:** Ele sempre arruma uma desculpa, inventa histórias e, na visão dele, nunca tem culpa de nada.\n- **Comportamentos repetitivos:** Nega.\n-**Estereotipias (abana as mãos, anda na ponta dos pés):** Nega.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n- **Alimentação /seletividade alimentar:** Ele come de tudo.\n\n**ANTECEDENTES PESSOAIS:**\n- **Doença:** Gabriel sempre foi saudável, tendo tido apenas alguns resfriados.\n-**Antecedentes neurológicos:** Gabriel nunca teve problemas neurológicos e não faz uso de medicamentos.\n- **Cirurgia:** Nega.\n- **Alergia:** Nega.\n**- Padrão de Sono:** Gabriel dorme pouco e mal; acorda várias vezes durante a noite, adormece muito tarde e, quando pedimos para ele ir dormir, já fica irritado.\n- **Caderneta de saúde da criança:** Vacinação em dia conforme o calendário nacional.\n\n**ANTECEDENTES FAMILIARES:**\n- **Irmãos:** Tem dois irmãos (um de 14 anos e um de 16 anos), que são de outro pai, não incomodam e são saudáveis.\n-**Moradia:** Moramos em 5 pessoas e todos se dão bem em casa.\n\n**DÚVIDAS:**\n**- Pergunta 1:** Existe algum tratamento medicamentoso para isso? \n\n**IMPRESSOS:**\nA partir dos pedidos adequados pelo participante, ele pode receber os seguintes impressos:\n- **IMPRESSO — CARTA DA ESCOLA**: Caso pergunte à mãe simulada o motivo da consulta;\n-**ENCAMINHAMENTO:** Ao ser verbalizado a necessidade de encaminhamento OU Interconsulta, liberar o impresso. \n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**\n\n**-Pressão Arterial (PA):** 100/65 mmHg.\n\n**-Frequência Cardíaca (FC):** 90 bpm.\n\n**-Frequência Respiratória (FR):** 22 rpm.\n\n**-Temperatura (T):** 37°C.\n\n\n\n**Dados Antropométricos**\n\n**Peso:** 25 kg.\n\n**Altura:** 1.30 m.\n\n**Índice de Massa Corporal (IMC):** 14.8 kg/m²\n\n\n\n**Exame Físico** \n\n-Durante a realização do exame físico, observa-se criança agitada; responde as perguntas de forma precipitada antes delas terem sido terminadas; irritada; parece não estar ouvindo quando se fala com ela.\n\n\n\n**Pele e anexos:** \n\nSem alterações.\n\n\n\n**Tórax:** \n\nExpansibilidade normal, sem ruídos adventícios.\n\n\n\n**Coração:** \n\nRitmo cardíaco regular, sem sopros.\n\n\n\n**Abdome:** \n\nSem distensão ou sensibilidade à palpação.\n\n\n\n**Extremidades:** \n\nSem edemas.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1761780070.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "CARTA DA ESCOLA",
+      "conteudo": "Prezados responsáveis e profissionais de saúde,\n\n\n\nA equipe escolar informa que o aluno Gabriel tem apresentado dificuldades em seguir regras e aceitar orientações, ficando irritado em algumas situações no ambiente escolar. Esses comportamentos têm interferido em sua rotina e nas atividades diárias.\n\n\n\nSugerimos que a família procure avaliação especializada (psicológica e/ou psiquiátrica infantil) para melhor compreensão e acompanhamento do caso.\n\n\n\nA escola permanece à disposição para colaborar no que for necessário.\n\n\n\nAtenciosamente.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1761780070.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "ENCAMINHAMENTO",
+      "conteudo": "**VERBALIZE E PREENCHA O ENCAMINHAMENTO COM  OS **DADOS E AS JUSTIFICATIVAS** PERTINENTES AO CASO .**\n\n**LOGO APÓS, MOSTRE PARA CÂMERA.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome da mãe e o nome da criança.\n\n**Adequado:** Realiza as quatro ações.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado:** Realiza uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre a queixa principal:**\n(1) Pergunta o motivo da consulta;\n(2) Deixa a mãe explicar sem interrompê-la.\n\n**Adequado:** Realiza duas ações.\n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre outras doenças, problemas de saúde e uso de medicamentos:**\n(1) Outras doenças / doenças preexistentes;\n(2) Medicação de uso contínuo.\n\n**Adequado:** Pergunta sobre os dois itens.\n**Parcialmente adequado**: Pergunta apenas sobre um item.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre hábitos e comportamentos sociais:**\n(1) Interação ou relacionamento com os pais OU irmãos OU colegas OU professores;\n(2) Desobediência;\n(3) Mudança de comportamento;\n(4) Agressividade ou agitação;\n(5) Culpa terceiros OU culpa outras pessoas;\n(6) Padrão de sono;\n(7) Comunicação;\n(8) Estereotipias (abana as mãos OU anda na ponta dos pés);\n(9) Atos de vingança/ Rancor.\n\n**Adequado:** Pergunta sobre de seis a nove itens.\n**Parcialmente adequado:** Pergunta sobre quatro ou cinco itens.\n**Inadequado:** Pergunta sobre três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita caderneta de saúde da criança.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exame físico da criança.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Formula a hipótese diagnóstica:**\n(1) Transtorno Opositor Desafiador (TOD).\n\n**Adequado:** Formula a hipótese de Transtorno Opositor Desafiador.\n**Parcialmente adequado:** Formula a hipótese de TOD.\n**Inadequado:** Não formula nenhuma hipótese ou formula outras.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Orienta:**\n(1) Terapia cognitivo-comportamental (TCC);\n(2) Treinamento de pais (estratégias de manejo de comportamento OU reforço positivo OU limites claros);\n(3) Rotina de sono;\n(4) Rotina e planejamento diário;\n(5) Intervenções escolares: cooperação entre escola e família, supervisão adequada;\n(6) Evitar punições físicas e discussões prolongadas;\n(7) Valorizar comportamentos positivos.\n\n**Adequado:** Orienta quatro ou cinco itens.\n**Parcialmente adequado:** Orienta três itens.\n**Inadequado:** Orienta dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Orienta que não há fármaco/medicamento específico para TOD.**\n\n**Adequado:** Orienta.\n**Inadequado:** Não orienta Ou orienta uso de qualquer medicamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza e preenche o encaminhamento com os seguintes dados:**\n(1) Especialista: Pediatra OU Neuropediatra OU Psiquiatra infantil Ou Psicólogo infantil OU Equipe Multiprofissional Ou EMulti;\n(2) Hipótese diagnóstica: Transtorno Opositor Desafiador.\n\n**Adequado:** Verbaliza e preenche os dois itens.\n**Inadequado:** Não verbaliza e/ou não escreve os dois itens.\n\n **Obs.:** O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza e preenche o encaminhamento com as seguintes justificativas:** \n(1) Criança de 6 anos com Transtorno Opositor Desafiador;\n(2) Apresentando mudança de comportamento;\n(3) a 8 meses, como;\n(4) irritabilidade OU agressividade Ou desobediência;\n(5) discussões com figuras de autoridade;\n(6) atitudes desafiadoras;\n(7) com repercussão em ambiente familiar e escolar;\n(8) Necessita de avaliação especializada e acompanhamento multiprofissional.\n\n**Adequado:** Verbaliza e preenche de seis a oito itens.\n**Parcialmente adequado:** Verbaliza e/ou preenche quatro ou cinco itens.\n**Inadequado:** Verbaliza e/ou preenche três ou menos itens OU  item algum.\n\n **Obs.:** O item só será pontuado se for verbalizado, preenchido de forma legível e mostrado para a  câmera.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

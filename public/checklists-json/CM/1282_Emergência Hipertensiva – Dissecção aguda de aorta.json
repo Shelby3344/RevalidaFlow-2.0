@@ -1,0 +1,184 @@
+{
+  "uid": 1282,
+  "hash": "vzHmEoMB0xu0AU-vax4PBfOrdsdD",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Emergência Hipertensiva – Dissecção aguda de aorta",
+  "definicao": "A crise hipertensiva é definida por um aumento súbito na pressão arterial sistêmica, definido por valores ≥ 180x120. Classicamente se divide em emergência e urgência hipertensiva. Outra situação se denomina pseudo crise hipertensiva.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "46.00",
+    "star": 0,
+    "time": 488.5,
+    "count": 5916
+  },
+  "cenario": "Nível de atenção: Atenção terciária à saúde.\nTipo de atendimento: Urgência e emergência.\n\nA unidade apresenta a seguinte infraestrutura:\n- Setor de radiologia (Raio X e tomografia computadorizada);\n- Laboratório de análises clínicas;\n- Centro cirurgico;\n- Unidade de terapia intensiva.\n\nDescrição do caso: \nVocê é o médico de plantão e irá atender um homem de 65 anos de idade, diabético e hipertenso mal controlado há 15 anos, trazido pelo SAMU por forte dor no peito de início súbito.",
+  "tarefas": "-  Realizar anamnese e solicitar o exame físico do paciente, verbalizando as alterações;\n-  Solicitar e interpretar exames laboratoriais;\n-  Solicitar e interpretar exames de imagem;\n-  Estabelecer e comunicar diagnóstico e conduta terapêutica.",
+  "script_ator": "**DADOS PESSOAIS: **\n- João, 65 anos de idade, aposentado.\n\n**MOTIVO DE CONSULTA: **\n- Estava arrumando o quintal da minha casa e começou uma dor muita forte no peito e nas costas, me ajuda por favor!\n\n**CARACTERÍSTICAS DA DOR: **\n**- Início: **Começou há uma hora mais ou menos. \n**- Localização: **Dói no meio do peito. \n**- Intensidade: **Muito forte (10/10).\n**- Tipo de dor: **Parece que está rasgando meu peito.\n**- Irradiação: **A dor vai para as costas.\n**- Fatores de melhora/ piora: **Não sei dizer, está doendo muito.\n\n**SINTOMAS ASSOCIADOS: **\n- Estou com vontade de vomitar.\n- Negar qualquer outro sintoma perguntado.\n\n**FATORES DESENCADEANTES: **\n- Não tomo o remédio da pressão todos os dias, só quando vejo que ela tá alta.\n- Negar qualquer outro fator desencadeante perguntado.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Tenho pressão alta e diabetes há 15 anos.\n**- Medicamentos: **Enalapril, metformina e insulina.\n**- Alergias: **Alérgico a dipirona.\n**- Cirurgia:** Me operaram da vesícula há 3 anos.\n\n**HÁBITOS: **\n**- Cigarro: **2 maços de cigarro por dia há 18 anos.\n**- Álcool: **Uma garrafa de cerveja quase todos os dias.\n**- Drogas ilícitas: **Não uso drogas.\n\n**ANTECEDENTES FAMILIARES: **\n- Meu pai faleceu de infarto há 14 anos mais ou menos.\n- Minha mãe é viva e tem pressão alta também.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 190x120 mmHg \n\n**- Frequência cardíaca:** 92 batimentos por minuto \n\n**- Saturação:** 94% \n\n**- Temperatura:** 36° C \n\n**- Frequência respiratória:** 16 incursões por minuto \n\n\n\n**Estado geral:**\n\nPaciente em mau estado geral, com fácies de dor intensa, afebril, acianotico, anictérico, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em 2 tempos, com bulhas normofonéticas, ausência de sopro. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos normoativos, indolor à palpação e sem viceromegalias.\n\n\n\n**Pulsos periféricos:**\n\nPresentes e simétricos.",
+      "imagem": "https://app.penserevalida.com/impressos/02/2F8A71A9-1A3C-4310-9128-4864CF23D583.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame neurológico ",
+      "conteudo": "**Sem alterações.**",
+      "imagem": "https://app.penserevalida.com/impressos/02/2F8A71A9-1A3C-4310-9128-4864CF23D583.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "ECG de 12 derivações ",
+      "conteudo": "**Se observa sinais de hipertrofia ventricular esquerda.**",
+      "imagem": "https://app.penserevalida.com/impressos/02/2F8A71A9-1A3C-4310-9128-4864CF23D583.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemácias:** 5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 15 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n**Hematócrito:** 45% (Valor de referência: 39 - 52%)\n\n**VCM:** 100 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 30 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 10% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 170.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucócitos:** 5.200/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 62% (Valor de referência: 40 - 70%)\n\n**Bastões:** 2% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 29% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 2% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 3% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 0% (Valor de referência: 4 - 8%)\n\n\n\n**Creatinina:** 1 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 38 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**Sódio:** 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4,9 mEq/l (Valor de referência: 3,5 - 5 mEq/l) \n\n\n\n**Troponina T:** 0,01 ng/ml (Valor de referência: < 0,04 ng/ml)\n\n\n\n**Proteína C reativa:** 0,1 mg/dl (Valor de referência: < 0,3 mg/dl)",
+      "imagem": "https://app.penserevalida.com/impressos/02/2F8A71A9-1A3C-4310-9128-4864CF23D583.jpeg"
+    },
+    {
+      "idx": 5,
+      "titulo": "Angiotomografia computadorizada de tórax ",
+      "conteudo": "**Laudo: **Dissecção de aorta tipo B da classificação de Stanford.",
+      "imagem": "https://app.penserevalida.com/impressos/10/1723493946.jpeg"
+    },
+    {
+      "idx": 6,
+      "titulo": "Radiografia de tórax",
+      "conteudo": "**Laudo:** Se visualiza alargamento do mediastino.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Mesmo sendo uma situação de extrema gravidade, nunca esquecer de se apresentar como médico, cumprimentar o paciente e perguntar o motivo de consulta."
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da dor: **\n(1) Tempo de início;\n(2) Localização; \n(3) Irradiação;\n(4) Tipo de dor;\n(5) Intensidade;\n(6) Fatores de melhora;\n(7) Fatores de piora;\n(8) Progressão;\n(9) Sintomas acompanhantes;\n(10) Episódios anteriores. \n\n**Adequado: **Investiga ao menos oito características. \n**Parcialmente adequado: **Investiga de cinco a sete características. \n**Inadequado: **Investiga quatro ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga antecedentes pessoais e hábitos: **\n(1) Doenças;\n(2) Cirurgias;\n(3) Medicamentos;\n(4) Alergias;\n(5) Tabagismo;\n(6) Álcool;\n(7) Drogas ilícitas. \n\n**Adequado: **Investiga todos os itens. \n**Parcialmente adequado: **Investiga cinco ou seis itens. \n**Inadequado: **Investiga quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga antecedentes familiares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita: \n(1) Exame físico; e,\n(2) Exame neurológico. \n\n**Adequado: **Solicita os dois itens.\n**Parcialmente adequado: **Solicita somente um item.\n**Inadequado: **Não solicita nenhum item**",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 0.75"
+      },
+      "dica_teorica": "A alteração de pulsos na DAA está presente em menos de 30% dos casos. Não é patognomônico nem uma condição necessária para o diagnóstico."
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita eletrocardiograma. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames de imagem: **\n(1) Radiografia de tórax;\n(2) Tomografia computadorizada / Angiotomografia de tórax.\n\n**Adequado: **Solicita ambos itens.\n**Parcialmente adequado: **Solicita apenas um item.\n**Inadequado: **Não solicita nenhum item.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames laboratoriais: **\n(1) Hemograma completo;\n(2) Creatinina e(ou) Ureia;\n(3) Glicemia;\n(4) Troponinas;\n(5) Lactato; \n(6) Gasometria arterial; \n(7) Tipagem sanguínea,\n(8) TP/INR, TTPa.\n\n**Adequado: **Solicita sete ou oito itens. \n**Parcialmente adequado:** Solicita cinco ou seis itens.\n**Inadequado: **Solicita quatro ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza o diagnóstico de emergência hipertensiva com dissecção aguda de aorta. **\n\n**Adequado: **Verbaliza corretamente. \n**Inadequado: **Não verbaliza Ou verbaliza outro diagnostico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Classificação segundo o tempo de apresentação dos sintomas: - Aguda: - Crônica: quando o primeiro sintoma ocorreu há mais de 14 dias.Classificação anatômica (Stanford): - Dissecção tipo A: acomete a aorta ascendente, independente do local do orifício de entrada e da extensão distal da aorta comprometida.- Dissecção tipo B:  a dissecção se inicia após a artéria subclávia esquerda*"
+    },
+    {
+      "idx": 10,
+      "descricao": "10.  **10. Realiza tratamento medicamentoso inicial: **\n(1) Analgesia endovenosa com opióides;\n(2) Controle da frequência cardíaca com betabloqueador;\n(3) Controle da pressão arterial com nitroprussiato de sódio.\n\n**Adequado: **Realiza as três ações. \n**Parcialmente adequado: **Realiza duas ações.\n**Inadequado: **Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1",
+        "adequado": " 2"
+      },
+      "dica_teorica": "Na DAA tipo B o tratamento inicialmente é clínico. Consiste em controle rigoroso da dor, diminuição da PA sistólica com meta inferior a 120 mmHg e FC  O nitroprussiato de sódio deve ser associado ao betabloqueador, inicialmente IV, já que seu uso isolado promove o aumento reflexo da FC e da velocidade de ejeção aórtica, podendo piorar a dissecção."
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica monitorização contínua em UTI.**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "uid": 1667,
+  "hash": "2dcdba2b71e5d45385c756b29dd2a5821cfb02caefce6f028c82c9c7f3a49913-1759312602",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Osteoporose - Híbrido",
+  "definicao": "A osteoporose é uma doença metabólica caracterizada pela diminuição da massa óssea e pela deterioração da sua microarquitetura. Estima-se que aproximadamente 50% das mulheres e 20% dos homens com idade igual ou superior a 50 anos sofrerão uma fratura osteoporótica ao longo da vida. A fratura de quadril é considerada a mais grave, com aumento da taxa de mortalidade em 12% a 20% nos dois anos seguintes à fratura. Além das fraturas, as complicações clínicas da osteoporose incluem dor crônica, deformidade, redução da mobilidade, piora da qualidade de vida e aumento da mortalidade.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "63.00",
+    "star": 0,
+    "time": 580.5,
+    "count": 197
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n\nDescrição do caso: \nVocê recebe para atendimento uma mulher de 70 anos de idade com consulta agendada que recentemente se mudou ao bairro e realizará a sua primeira consulta na unidade que você trabalha.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as seguintes tarefas:\n-  Realizar anamnese direcionada;\n- Solicitar e interpretar os exames trazidos pela paciente;\n- Propor um projeto terapêutico singular adequado ao caso.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Josefa, 70 anos de idade, viúva, empregada doméstica aposentada informalmente.\n\n**MOTIVO DE CONSULTA: **\n- Oi doutor (a), acabei de me mudar para esse bairro e não levei os resultados de uns exames que fiz no mês passado para o médico do outro centro de saúde. Queria continuar meus atendimentos aqui com vocês.\n\n**SE INVESTIGADO O MOTIVO DA SOLICITAÇÃO DOS EXAMES:**\n- São exames de rotina doutor (a).\n\n**SE PERGUNTADO POR SINTOMAS ATUAIS: **\n- Sinto dificuldade para caminha por conta de uma queda.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Pressão alta, está bem controlada com a medicação.\n**- Medicamentos: **Tomo enalapril 20 mg uma vez ao dia.\n**- Alergias: **Nega. \n**- Cirurgia: **Fiz uma cirurgia na perna a três anos atrás.\n**- Quedas e/ou fraturas: ** Ja caí várias vezes nos últimos anos, em uma dessas quedas quebrei a perna e fiz uma cirurgia a três anos. \n\n**HÁBITOS:**\n**- Cigarro: **Um maço por dia. \n**- Álcool: **Nega. \n**- Drogas: **Nega. \n**- Alimentação: **Gosto muito de comer pães e bolos com café. Às vezes não almoço e quase não como verduras e frutas.\n**- Atividade física: **Nega.\n**- Urina e fezes: **Nega alterações.\n**- Sono: **Não durmo muito bem, pois vivo preocupada com minha situação financeira.\n\n**REDE DE APOIO:**\nVivo sozinha doutor(a), meu marido faleceu e meu unico filho foi embora e não liga para mim.\n\n**SITUAÇÃO FINANCEIRA/ VÍNCULO TRABALHISTA:**\nSempre fiz minha faxinas para sobreviver, mas depois que machuquei a perna não consegui mais trabalhar, também nunca prestei contribuição ao INSS. O senhor pode me ajudar doutor(a)?\n\n**ANTECEDENTES FAMILIARES: **\n- Minha mãe tinha problemas nos ossos e pressão alta.\n- Meu pai tinha problemas no coração e morreu em um infarto.\n\n**DÚVIDAS:**\n-  O senhor(a) pode me conseguir um laudo para o benefício assistêncial do INSS?\n\n\n**INSTRUÇÕES AO EXAMINADOR/ ENTREGA DE IMPRESSOS:**\n- Quando o candidato verbalizar **exame físico,** **LIBERAR IMPRESSO 1.**\n- Quando o candidato solicitar os **exames trazidos** pela paciente, **LIBERAR OS IMPRESSOS 2 e 3**\n-  Quando responder a **dúvida** do paciente, **LIBERAR IMPRESSO 4**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 110x70 mmHg \n\n**- Frequência cardíaca:** 70 batimentos por minuto \n\n**- Saturação de O2:** 97% \n\n**- Temperatura axilar:** 35.8° C \n\n**- Frequência respiratória:** 12 incursões por minuto \n\n\n\n**Dados antropométricos:**\n\n**- IMC:** 27 kg/m2 \n\n**- Circunferência abdominal:** 95 cm.\n\n\n\n**Estado geral: **\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, normocorado e hidratado, alerta, orientado no tempo e espaço. \n\nApresenta uma marcha lenta ao deambular.\n\n\n\n**Cardiovascular: **\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório: **\n\nMurmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal: **\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias. \n\n\n\nAusência de adenomegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1759315740.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório geral",
+      "conteudo": "**Hemácias:** 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 12,3 g/dl (Valor de referência: 12 a 16 mg/dl)\n\n**Hematócrito:** 37% (Valor de referência: 36 - 47%)\n\n**VCM:** 93 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 31 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 180.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucócitos:** 5.260/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n\n\n**Glicemia de jejum:** 66 mg/dl (60 - 99 mg/dl)\n\n\n\n**Creatinina:** 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 21 mg/dl (Valor de referência: 40 mg/dl) \n\n**Colesterol VLDL:** 18 mg/dl (<30 mg/dl)\n\n**Triglicéridos:** 90 mg/dl (< 150 mg/dl)\n\n\n\n**TSH:** 2,2 mU/l (Valor de referência: 0,4 - 4,5 mU/l) \n\n\n\n**Vitamina D, 25 hidroxi:** 15 ng/ml (Valor de referência: 30 - 60 ng/ml)\n\n\n\n**Vitamina B12:** 314 pg/ml (Valor de referência: 200 - 800 pg/ml) \n\n\n\n**Paratormônio:** 115 pg/ml (Valor de referência: 10 - 65 pg/ml)",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1759315740.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Densitometria óssea",
+      "conteudo": "** Verbalize os achados para a camera.**",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1759320415.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Laudo médico ",
+      "conteudo": "**Escreva corretamente o modelo de laudo médico.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **(1) Investiga sinais e sintomas e (2) pergunta o motivo da solicitação dos exames por outro médico. **\n\n**Adequado:** Realiza as duas tarefas. \n**Parcialmente adequado:** Realiza apenas uma tarefa.\n**Inadequado: **Não realiza nenhuma tarefa.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga antecedentes pessoais: **\n(1) Doenças;\n(2) Medicamentos;\n(3) Alergias;\n(4) Cirurgias;\n(5) Quedas e/ou fraturas. \n\n**Adequado: **Investiga cinco itens.\n**Parcialmente adequado: **Investiga três ou quatro itens.\n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes familiares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga hábitos de vida: **\n(1) Tabagismo;\n(2) Alcoolismo;\n(3) Atividade física;\n(4) Alimentação;\n(5) Qualidade do sono. \n\n**Adequado: **Investiga cinco itens. \n**Parcialmente adequado: **investiga três ou quatro itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **(1) Solicita exame físico geral e (2) identifica IMC alto (índice de massa corporal) OU idoso com sobrepeso. **\n\n**Adequado: **Solicita exame físico e identifica idoso com sobrepeso ou IMC alto. \n**Parcialmente adequado: **Solicita exame físico mas não identifica a alteração.\n**Inadequado: **Não solicita exame físico.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Identifica no laboratório trazido pela paciente: **\n(1) Hipocalcemia;\n(2) Colesterol HDL baixo;\n(3) Vitamina D baixa;\n(4) Paratormônio elevado. \n\n**Adequado: **Identifica quatro itens. \n**Parcialmente adequado: **Identifica três itens. \n**Inadequado: **Identifica dois ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Identifica e verbaliza quadro de osteoporose na densitometria óssea. **\n\n**Adequado: **Identifica e verbaliza. \n**Inadequado: **Não identifica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Cita tratamento medicamentoso: **\n(1) Bifosfonatos (ou cita algum medicamento da classe dos bifosfonatos);\n(2) Suplemento de vitamina D;\n(3) Suplemento de cálcio. \n\n**Adequado: **Cita os três itens. \n**Parcialmente adequado: **Cita apenas bifosfonatos OU bifosfonatos e mais um item.\n**Inadequado: **Não cita bifosfonatos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Cita medidas não farmacológicas: **\n(1) Atividade física regular;\n(2) Prevenção de quedas;\n(3) Oferece apoio para cesse do tabagismo;\n(4) Dieta adequada ou consulta com nutricionista;\n(5) Exposição solar adequada;\n(6) Indica necessidade de acompanhamento e/ou tratamento interdisciplinar. \n\n**Adequado: **Cita cinco ou mais medidas não farmacológicas. \n**Parcialmente adequado: **Cita quatro medidas. \n**Inadequado: **Cita três ou menos medidas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza e escreve corretamente o laudo para o INSS com suas principais características:**\n(1) Identificação do paciente;\n(2) Identificação do médico;\n(3)  Diagnóstico (CID não obrigatório)\n(4) Histórico da doença;\n(5) Exames complementares;\n(6) Tratamento em uso;\n(7) Limitações funcionais;\n(8) Prognóstico;\n(9) Data, assinatura  e carimbo do médico.\n\n**Adequado:** Verbaliza e escreve seis ou mais itens.\n**Parcialmente adequado:** Verbaliza e/ou escreve quatro ou cinco itens\n**Inadequado:** Verbaliza e/ou escreve três ou menos itens Ou nenhum item.\n\nObs.: O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.3"
+      },
+      "dica_teorica": "Paciente: Maria das Dores Silva, 70 anos, sexo feminino, viúva, ex-empregada doméstica. Diagnóstico (CID-10): M81.0 – Osteoporose pós-menopausa; S72.9 – Fratura de fêmur. Histórico: Paciente idosa, viúva, sem rede de apoio e sem renda. Descobriu osteoporose em consulta recente, já apresentou fratura de fêmur após queda da própria altura. Evolui com dor crônica e limitação para deambulação, necessitando apoio. Exames: Densitometria óssea com T-score -3,4; RX evidenciando fratura consolidada em fêmur proximal. Limitações funcionais: Dificuldade para locomoção prolongada, subir escadas e realizar atividades domésticas, encontrando-se incapaz para exercer atividade laboral. Prognóstico: Incapacidade permanente para trabalho habitual. Conclusão: Recomenda-se avaliação pela perícia do INSS para fins de benefício assistencial (BPC/LOAS – Idoso)."
+    }
+  ]
+}

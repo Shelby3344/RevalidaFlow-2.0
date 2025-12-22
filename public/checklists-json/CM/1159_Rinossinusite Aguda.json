@@ -1,0 +1,138 @@
+{
+  "uid": 1159,
+  "hash": "RCJYsLBjJthfR-43yRe5yIsM",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Rinossinusite Aguda",
+  "definicao": "A rinossinusite bacteriana deve ser suspeitada quando os sintomas persistem após 10-14 dias, momento em que já se esperaria regressão de um quadro viral, ou quando os sintomas pioram após o quinto dia de evolução. Tanto em adultos quanto em crianças, os agentes etiológicos mais comuns são o S. pneumoniae e H. influenzae. Moraxella catarrhalis, S. aureus e Streptococcus beta hemolítico do grupo A ocorrem em menor incidência (DIRETRIZES BRASILEIRAS DE RINOSSINUSITES, 2008).",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "49.00",
+    "star": 0,
+    "time": 538.5,
+    "count": 3721
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado).\n\nDescrição do caso: \nVocê atende um jovem de 18 anos de idade com queixas respiratórias.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar exame físico direcionado à queixa principal do paciente;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico;\n- Verbalize ao menos duas complicações que poderiam ocorrer no quadro do paciente.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Igor, 18 anos de idade, estudante, solteiro. \n\n**MOTIVO DE CONSULTA: **\n- Estou muito gripado, queria algum remédio pra melhorar mais rápido porque estou em semana de prova e não consigo estudar assim.\n\n**CARACTERÍSTICAS DO QUADRO: **\n**- Sintomas: **Estava espirrando muito, nariz tapado e saindo uma secreção clara. \n**- Tempo de evolução: **Já faz doze dias que começou.\n**- Evolução/ progressão: **Estava melhorando aos poucos mas desde antes de ontem piorou de novo.\n\n**SE PERGUNTADO POR: **\n**- Dor na face: **Sim, dói no lado direito do nariz e quando inclino a cabeça pra frente parece que aumenta a dor. \n**- Mudança na secreção nasal: **Agora está uma secreção muito espessa, verde e com um cheiro horrível, saindo só do lado direito. \n**- Febre: **Sim, medi hoje e estava com 39.4 graus.\n**- Dificuldade respiratória/ falta de ar: **Não. \n**- Episódios anteriores: **Nega.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nega.\n**- Cirurgias: **Nega. \n**- Medicamentos de uso contínuo: **Nega. \n**- Uso recente de antibióticos: **Nega.\n**- Alergias: **Nega. \n\n**HÁBITOS: **\n**- Cigarro: **Nega. \n**- Álcool: **Nega. \n**- Drogas ilícitas: **Nega. \n**- Atividade física: **Musculação 3 vezes por semana. \n**- Alimentação: **Variada.\n\n**ANTECEDENTES FAMILIARES: **\n- Pai e mãe sem doenças.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 115x70 mmHg \n\n**- Frequência cardíaca:** 105 batimentos por minuto \n\n**- Saturação de O2:** 99% \n\n**Temperatura axilar:** 38.8° C \n\n**- Frequência respiratória:** 14 incursões por minuto \n\n\n\n**Estado geral:**\n\nPaciente em regular estado geral, febril, acianótico, anictérico, normocorado e hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Rinoscopia",
+      "conteudo": "**Se observa saída de secreção purulenta através do meato médio direito.**\n\n**Edema e hiperemia de mucosa nasal bilateral.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese perguntando por: **\n(1) Tempo de início dos sintomas;\n(2) Progressão do quadro;\n(4) Episódios anteriores;\n(5) Dor na face;\n(6) Mudança no aspecto da secreção nasal;\n(7) Febre;\n(8) Dispneia. \n\n**Adequado: **Investiga seis ou mais itens da lista. \n**Parcialmente adequado: **Investiga quatro ou cinco itens. \n**Inadequado: **Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "A suspeita de uma rinossinusite bacteriana após um quadro viral deve ser levantada se houver permanência dos sintomas após 10 dias, ou piora destes sintomas após cinco dias."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga antecedentes pessoais: **\n(1) Doenças;\n(2) Cirurgias;\n(3) Medicamentos de uso contínuo;\n(4) Uso recente de antibióticos;\n(5) Tabagismo;\n(6) Álcool;\n(7) Drogas ilícitas. \n\n**Adequado: **Investiga sete itens. \n**Parcialmente adequado: **Investiga de quatro a seis itens. \n**Inadequado: **Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes familiares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita: (1) exame físico geral e (2) rinoscopia. **\n\n**Adequado: **Solicita dois itens. \n**Parcialmente adequado: **Solicita exame físico geral mas não menciona rinoscopia. \n**Inadequado: **Não solicita exame físico.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Sinais sugestivos de rinossinusite bacteriana: - Edema periorbitário, sem hiperemia ou sinais infecciosos, que neste caso levantariam suspeita de alguma complicação;- Halitose, causada pela presença de secreções purulentas;- Dor à palpação facial correspondente à região dos seios (maxilar, frontal e etmoidal);- Secreção purulenta em região de meato médio ou nas fossas nasais;- Drenagem posterior de secreção mucopurulenta."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Não solicita exames de imagem. **\n\n**Adequado: **Não solicita. \n**Inadequado: **Solicita algum exame de imagem.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "A radiografia nos casos agudos não é necessária visto que a história clínica e o exame físico otorrinolaringológico são suficientes. A TAC está especialmente indicada nos casos de difícil resposta ao tratamento clínico, casos recorrentes ou crônicos, na vigência de complicações e para o planejamento cirúrgico."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Formula a hipótese diagnóstica de rinossinusite bacteriana. **\n\n**Adequado:** Formula a hipótese.\n**Inadequado:** Não formula a hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Classificação quanto ao tempo: - Aguda: - Subaguda: 4 a 12 semanas.- Crônica: > 12 semanas.- Recorrente: 4 ou mais episódios de rinossinusite aguda no intervalo de um ano, com resolução completa dos sintomas entre eles.- Crônica com períodos de agudização: > 12 semanas com sintomas leves e períodos de intensificação."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza complicações da rinossinusite bacteriana:**\n(1) Celulite orbitária;\n(2) Abscesso sub e/ou\nextradural;\n(3) Abscesso subperiosteo;\n(4) Abscesso cerebral;\n(5) Abscesso orbitário;\n(6) Tromboflebite do\nseio cavernoso;\n(7) Osteomielite;\n(8) Meningite;\n(9) Encefalite.  \n\n**Adequado: **Verbaliza quatro ou mais complicações. \n**Parcialmente adequado: **Verbaliza duas ou três complicações. \n**Inadequado: **Verbaliza uma ou nenhuma complicação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Conduta terapêutica: **\n(1) Amoxicilina ou Amoxicilina com ácido clavulânico por 7 a 14 dias;\n(2) Antitérmico e/ou analgésico;\n(3) Retorno em 48 a 72 horas para nova avaliação;\n(4) Pautas de alarme. \n\n**Adequado: **Realiza quatro ações. \n**Parcialmente adequado: **Realiza de duas a três ações. \n**Inadequado: **Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

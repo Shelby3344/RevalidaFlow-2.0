@@ -1,0 +1,167 @@
+{
+  "uid": 1089,
+  "hash": "8LTg5LFGu7rFeW7yCreNPB2f",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Eritema Infeccioso",
+  "definicao": "O eritema infeccioso é uma infecção aguda causada pelo parvovírus B19, que provoca sintomas constitucionais leves e exantema maculopapular que se inicia nas bochechas e se espalha primeiramente nas extremidades expostas.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "47.00",
+    "star": 0,
+    "time": 596.5,
+    "count": 5556
+  },
+  "cenario": "CENÁRIO DE ATUAÇÃO \nLocal de atuação: Atenção secundária: urgência e emergência. \nA unidade possui a seguinte infraestrutura: \n- Setor de radiologia convencional e ultrassom; \n- Laboratório de análises clínicas; \n- Leitos de internação. \n\nDESCRIÇÃO DO CASO \nVocê é o médico de plantão e vai atender uma criança de 6 anos cuja mãe refere que está com manchas eritematosas simétricas.",
+  "tarefas": "-Realize Anamnese e exame físico; \n-Verbaliza a sua hipótese diagnóstica;  \n-Verbalize o provável agente etiológico; \n-Verbalize a sua conduta Terapêutica; \n-Verbaliza 3 diagnósticos diferenciais; \n-Cite uma complicação do quadro; \n\nATENÇÃO: AS TAREFAS DEVEM SER REALIZADAS NA SEQUÊNCIA SOLICITADA.",
+  "script_ator": "**DADOS DA MÃE:** \n- Clara, 31 anos, casada. \n\n**DADOS DA CRIANÇA:** \n- Leonardo, 6 anos. \n\n**MOTIVO DE CONSULTA:**\n- Doutor(a), meu filho está com umas manchas vermelhas no corpo. Fiquei preocupada e trouxe-o aqui hoje.\n\n**SOBRE AS MANCHAS**\n**-Início:** 3 dias\n**-Localização/Progressão:** Sim, noto que está progredindo; agora está em todo o corpo.\n**-Prurido:** Não\n**-Fator de melhora ou piora/Desencadeante:** Não consta\n\n**SINAIS E SINTOMAS ACOMPANHANTES:** \n**-Sintomas gripais:** - Nega\n**-Artralgia:** - Nega\n**-Cefaleia:** - Nega\n**-Náusea e vômitos:** - Nega \n**-Coriza:** Sim, teve, mas faz vários dias.\n**-Febre:** Sim, doutora, ele está apresentando febre baixa. \n\n**ANTECEDENTES PESSOAIS:**\n- Ele sempre foi muito saudável, doutor(a).\n\n**ANTECEDENTES FAMILIARES:** - Nenhum problema na família. \n\n**ANTECEDENTES PERINATAIS (PRÉ-NATAL | PARTO | PÓS-NATAIS):**\n- Tudo normal e sem alterações.\n\n**ALIMENTAÇÃO/HÁBITOS:** \n- Ele faz natação duas vezes por semana e a alimentação é bem equilibrada.\n\n**DIURESE E CATARSE:** \n- Sem alterações.\n\n**MEDICAÇÕES:**\n- Ele não usa nenhuma medicação no momento.\n\n**ALERGIAS:**\n- Nega.\n\n**MEDICAÇÕES DE USO CONTÍNUO:**\n- Toma multivitamínico apenas.\n\n**CADERNETA DE VACINA/CRIANÇA:**\n- Todas as vacinas estão em dia.\n\n**DÚVIDAS:** \n**-Pergunta 1:** O que pode ter causado esse quadro? \n**-Pergunta 2:** Ele pode frequentar a escola? \n**-Pergunta 3:** Existem complicações que devemos nos preocupar? \n**-Pergunta 4:** Como prevenir que isso aconteça novamente? \n\n**OUTRAS PERGUNTAS:** \n- Não consta no script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Dados do Paciente:**\n\n**-Sexo:** Masculino.\n\n\n\n**-Altura:** 1,20 m\n\n**-Peso:** 25 kg\n\n**-IMC: **17,36 kg/m²\n\n\n\n**Sinais Vitais**\n\n**-Pressão arterial: **100/60 mmHg\n\n**-Frequência cardíaca: **80 bpm\n\n**-Frequência respiratória:** 18 rpm\n\n**-Temperatura: **36.7°C\n\n**-Saturação de O2: **98%\n\n\n\n**Exame Fisico Geral: **Paciente em bom estado geral, corado, hidratado, acianótico, anictérico, afebril, eupneico, sem linfonodomegalia.\n\n\n\n**Otoscopia:** sem alterações.\n\n\n\n**Ausculta respiratória:** Murmúrios vesiculares presentes bilateralmente, com roncos de transmissão. Sem sinais de esforço respiratório.\n\n\n\n**Ausculta cardíaca:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.\n\n\n\n**Abdome:** plano, flácido, ruídos hidroaéreos presentes, sem massas ou visceromegalias palpáveis, indolor à palpação.\n\n\n\n**Exame neurológico:** Sem alterações.\n\n\n\n**Pele:** Manchas eritematosas simétricas, principalmente nas bochechas e membros.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1697043047.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA 1",
+      "conteudo": "**ATENÇÃO: DESCREVA OS ACHADOS PARA A CÂMERA.**",
+      "imagem": "https://app.penserevalida.com/impressos/old/1697043057.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "ECTOSCOPIA 2",
+      "conteudo": "**ATENÇÃO: DESCREVA OS ACHADOS PARA A CÂMERA.**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma Completo:**\n\n**Hemácias:** 4,8 milhões/µL (Normal: 4,0-5,5 milhões/µL)\n\n**Hemoglobina: **13,2 g/dL (Normal: 11-16 g/dL)\n\n**Hematócrito: **39% (Normal: 35-45%)\n\n**VCM (Volume Corpuscular Médio):** 81 fL (Normal: 80-100 fL)\n\n**HCM (Hemoglobina Corpuscular Média): **27 pg (Normal: 27-33 pg)\n\n**CHCM (Concentração de Hemoglobina Corpuscular Média):** 33 g/dL (Normal: 32-36 g/dL)\n\n\n\n**Plaquetas:** 280.000/µL (Normal: 150,000-450,000/µL)\n\n\n\n**Leucócitos:** 6,5 mil/µL (Normal: 4,5-13,0 mil/µL)\n\n**Neutrófilos:** 45% (Normal: 40-70%)\n\n**Linfócitos:** 40% (Normal: 20-50%)\n\n**Monócitos: **8% (Normal: 2-10%)\n\n**Eosinófilos:** 5% (Normal: 1-6%)\n\n**Basófilos:** 2% (Normal: 0-2%)\n\n**Contagem de Reticulócitos**\n\n**Reticulócitos:** 1,5% (Normal: 0,5-1,5%)\n\n\n\n**Outros Exames**\n\n**PCR:** Normal",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Sorologia para Parvovírus B19",
+      "conteudo": "**Sorologia para Parvovírus B19:** Positiva",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe \n(5) Pergunta o nome da criança.\n\n**Adequado:** realiza os cinco itens.\n**Parcialmente adequado:** realiza de dois a quatro itens.\n**Inadequado:** realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Questiona sobre as manchas na pele**\n(1) Início;\n(2) Localização/Progressão;\n(3) Relação com a febre (se antes ou depois);\n(4) Se tem prurido;\n(5) Fator de melhora ou piora/Desencadeantes;\n\n**Adequado:** realiza as cinco ações.\n**Parcialmente adequado:** realiza de duas a quatro ações.\n**Inadequado:** realiza uma ou não realiza ação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre outras queixas.**\n(1) Pródromo ou sintomas gripais;\n(2) Alergias;\n(3) Artralgia;\n(4) Cefaleia;\n(5) Epidemiologia.\n\n**Adequado:** realiza as cinco ações.\n**Parcialmente adequado:** realiza de duas a quatro ações.\n**Inadequado:** realiza uma ou não realiza ação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre a existência de comorbidades, medicações e caderneta de vacinas.**\n\n**Adequado:** pergunta os três itens.\n**Inadequado:** não pergunta ou pergunta dois ou menos dos itens descritos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico.**\n\n**Adequado:** solicita.\n**Inadequado:** não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Analisa a ectoscopia, e verbaliza os seguintes achados:** \n(1) Manchas vermelhas ligeiramente elevadas.\n(2) “Bochechas/face esbofeteadas”\n(3) Exantema rendilhado.\n\n**Adequado:** verbaliza os tres achados\n**Parcialmente adequado:** verbaliza dois ou um achado.\n**Inadequado:** não verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Diagnóstico:**\n(1) Verbaliza o diagnostico de eritema infeccioso;\n(2) Verbaliza que é causado pelo Parvovirus B19\n(3) Verbaliza que a principal complicação é crise aplásica.\n\n**Adequado:** verbaliza os três achados.\n**Parcialmente adequado:** verbaliza dois ou um achado.\n**Inadequado:** não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. Cita pelo menos 3 diagnósticos diferenciais.\n(1) Rubéola;\n(2) Dengue;\n(3) Exantema súbito;\n(4) Sarampo;\n(5) Infecção por enterovírus;\n(6) Infecção estreptocócica do grupo A;\n(7) Artrite reumatoide;\n(8) Infecção aguda pelo HIV;\n(9) Mononucleose;\n(10) Hipersensibilidade a drogas.\n\n**Adequado:** verbaliza pelo menos três dos citados\n**Parcialmente Adequado:** verbaliza dois ou um.\n**Inadequado:** não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Conduta.**\n(1) Analgesia/Sintomático.\n(2) Repouso;\n(3) Alimentação adequada;\n(4) Marca reavaliação com 7 dias para verificar evolução do quadro\n(5) Orienta pautas de alarme \n\n**Adequado:** realiza as cinco ações.\n**Parcialmente adequado:** realiza de duas a quatro ações.\n**Inadequado:** realiza uma OU não realiza ação alguma",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Responde às dúvidas da mãe da paciente.**\n\n**Adequado:** responde.\n**Inadequado:** não responde ou responde inadequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Mulheres grávidas e pessoas imunocomprometidas devem evitar o contato com as pessoas doentes, já que não há vacina disponível."
+    }
+  ]
+}

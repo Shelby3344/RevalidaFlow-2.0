@@ -1,0 +1,167 @@
+{
+  "uid": 978,
+  "hash": "9ILN_ELMSlOoL9cFkw-0HXtZ",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "RCP + DEA",
+  "definicao": "RCP com DEA.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "69.00",
+    "star": 0,
+    "time": 497.5,
+    "count": 1698
+  },
+  "cenario": "Cenário de atuação:  Terminal 1 - Aeroporto de Guarulhos \n \nO local possui a seguinte infraestrutura:\n-  DEA;\n-  Pocket mask ou máscara pocket para RCP.\n\nDescrição do caso:\nVocê é médico e está em um aeroporto esperando seu voo quando ouve pessoas gritando pedindo ajuda e solicitando a presença de um médico. De longe você vê uma mulher de aproximadamente 45 anos de idade que está caída e sem se mover. Os familiares estão desesperados pedindo ajuda.",
+  "tarefas": "- Realizar o atendimento inicial da paciente, garantindo abordagem segura e sistematizada;\n- Verbalizar e conduzir as ações iniciais do Suporte Básico de Vida, conforme a Cadeia de Sobrevivência;\n- Reconhecer e indicar intervenções adequadas conforme protocolos do ACLS;\n- Citar possíveis causas reversíveis do quadro apresentado.",
+  "script_ator": "**Você será o familiar que auxiliará o candidato e responderá suas perguntas de acordo ao roteiro.**\n\n**DADOS DO PACIENTE: **\n- Fernanda, 45 anos, hipertensa, cardiopata.\n\n**SE PERGUNTADO O QUE ACONTECEU:**\n- Estávamos sentados esperando nosso voo e de repente ela começou a transpirar muito e caiu.\n\n**SE O CANDIDATO REALIZAR QUALQUER OUTRA PERGUNTA DE ANAMNESE: **\n- Não consta no script. \n\n**SE O CANDIDATO PERGUNTAR SE A PACIENTE RESPONDE A ESTÍMULO VERBAL:**\n- Liberar o IMPRESSO 1.\n\n**SE O CANDIDATO PERGUNTAR SE A PACIENTE RESPONDE A ESTÍMULO TÁTIL:**\n- Liberar o IMPRESSO 2. \n\n**SE O CANDIDATO PERGUNTAR SE A PACIENTE TEM PULSO E/OU RESPIRA:**\n- Liberar o IMPRESSO 3.\n\n**SE O CANDIDATO SOLICITAR SERVIÇO DE EMERGÊNCIAS/ AJUDA: **\n- Considere solicitado.\n\n**SE O CANDIDATO SOLICITAR UM DESFIBRILADOR EXTERNO AUTOMÁTICO/ DEA: **\n- Libere o IMPRESSO 4 e 5.\n\n**QUANDO O CANDIDATO VERBALIZAR A COLOCAÇÃO DO DEA (LIGAR O DEA, COLOCAR AS PÁS, PLUGAR O CABO NO DEA), DIGA: **\n- Analisando ritmo…choque recomendado. \n\n**SE O CANDIDATO VERBALIZAR A CONTINUAÇÃO DA MASSAGEM CARDÍACA, DIGA O SEGUINTE: **\n- A paciente se recuperou e será transportada pela ambulância!",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Resposta verbal",
+      "conteudo": "**Paciente não responde a estímulo verbal.**",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0973.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Estímulo tátil",
+      "conteudo": "**Paciente não responde a estímulo tátil. **",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0973.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Pulso e respiração",
+      "conteudo": "**Não tem pulso e não respira. **\n\n\n\n**ATENÇÃO! Nesse momento, dê início à Cadeia de Sobrevivência do Suporte Básico de Vida e demonstre (verbalizando) a técnica correta de massagem cardíaca e ventilação.**\n\n\n\n**Considere disponível uma pocket mask ou máscara pocket para RCP**",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0973.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Desfibrilador externo automático (DEA)",
+      "conteudo": "**ATENÇÃO! Nesse momento demonstre (verbalizando) o uso correto do DEA.**",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Desfibrilador externo automático (DEA)",
+      "conteudo": "DEA: choque recomendado.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Verbalizou ou perguntou se a cena do atendimento é segura ANTES de aproximar, apresentar ou dirigir-se à vitima. **\n\n**Adequado: **Realiza corretamente a ação. \n**Inadequado: **Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Independente do lugar que estiver, nunca se esquecer de verificar a segurança da cena antes de se aproximar à vítima."
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **(1) Se apresentou às pessoas como médico e (2) perguntou o que aconteceu. **\n\n**Adequado: **Realiza as duas tarefas. \n**Parcialmente adequado: **Realizou uma tarefa.\n**Inadequado: **Não realiza nenhuma tarefa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta algum dado de identificação da paciente e/ou histórico médico. **\n\n**Adequado: **Pergunta. \n**Inadequado: **Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Perguntar rapidamente o  histórico médico  da paciente pode ajudar a pensar nas  causas da perda de consciência.  Por exemplo,  diabéticos  (hipoglicemia),  epiléticos  (convulsão),  cardiopatias  (arritmia, IAM), etc."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Comprova se a paciente responde por no máximo 10 segundos: **\n(1) Chama a paciente em voz alta;\n(2) Realiza estímulo tátil. \n\n**Adequado: **Verbaliza as duas ações. \n**Parcialmente adequado: **Verbaliza apenas uma ação. \n**Inadequado: **Não verbaliza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Realizar as duas ações ao mesmo tempo por no máximo 10 segundos."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita que seja acionado o serviço de emergência. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita um Desfibrilador Externo Automático (DEA). **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Explica corretamente a técnica de massagem cardíaca:**\n(1) Ajoelhado ao lado da vítima;\n(2) Mãos sobrepostas e dedos entrelaçados;\n(3) Membros superiores esticados;\n(4) Base da mão sobre o esterno;\n(5) Compressão de ao menos 5 cm;\n(6) Frequência de 100 a 120 compressões por minuto;\n(7) Permite o retorno completo do tórax em cada compressão;\n(8) Interrupções mínimas das compressões. \n\n**Adequado: **Verbaliza de seis a oito itens. \n**Parcialmente adequado: **Verbaliza de quatro a cinco itens. \n**Inadequado: **Verbaliza três ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Explica corretamente a técnica de ventilação com a pocket mask.**\n(1) Posição da cabeça em leve extensão ou posição olfativa ou manter a via aérea pérvia;\n(2) Máscara bem posicionada no rosto da vítima;\n(3) Realizar 2 ventilações a cada 30 compressões;\n(4) Evitar ventilações excessivas. \n\n**Adequado: **Verbaliza quatro ou cinco itens. \n**Parcialmente adequado: **Verbaliza três itens. \n**Inadequado: **Verbaliza dois ou menos itens.\n\n**Obs.: **o candidato também pontuará se iniciar a RCP apenas com compressões torácicas e passar a utilizar a pocket mask com os itens acima assim que ela estiver disponível*",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "A ventilação excessiva resultará em distensão gástrica, regurgitação e broncoaspiração."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Explica corretamente o uso do DEA: **\n(1) Liga o aparelho;\n(2) Posiciona um eletrodo no lado direito do tórax e o outro na parte lateral esquerda; \n(3) Conecta os cabos;\n(4) Não toca no paciente durante a checagem de ritmo;\n(5) Antes do choque, verifica se todos estão afastados.\n(5) Aperta o botão de choque assim que disponível.\n\n**Adequado: **Verbaliza quatro ou cinco itens. \n**Parcialmente adequado: **Verbaliza três itens. \n**Inadequado: **Verbaliza dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Cita as possíveis causas reversíveis de PCR:**\n(1) Hipovolemia; \n(2) Hipóxia;\n(3) Hidrogênio (Acidemia);\n(4) Hipocalemia/ Hipercalemia; \n(5) Hipotermia; \n(6) Tamponamento cardíaco; \n(7) Trombose cardíaca; \n(8) Trombose pulmonar; \n(9) Pneumotórax; \n(10) Toxinas.\n\n**Adequado:** Verbaliza nove ou dez itens.\n**Parcialmente adequado:** Verbaliza de sete a oito itens.\n**Inadequado:** Verbaliza seis ou menos itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

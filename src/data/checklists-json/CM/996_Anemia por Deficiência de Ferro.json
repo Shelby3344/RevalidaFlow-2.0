@@ -1,0 +1,217 @@
+{
+  "uid": 996,
+  "hash": "d7XbgofobqVFU5mRrXwaqmS0",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Anemia por Deficiência de Ferro",
+  "definicao": "A anemia é um dos principais problemas de saúde pública mundial, chegando a afetar mais de um quarto da população do planeta, ou seja, mais de 2 bilhões de pessoas. A metade dos casos é determinada por deficiência de ferro (DF), a deficiência nutricional mais prevalente e negligenciada no mundo, particularmente entre as mulheres e as crianças dos países em desenvolvimento. É também significativamente prevalente nos países industrializados e afeta pessoas de todas as idades em todos os países.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "59.00",
+    "star": 0,
+    "time": 583,
+    "count": 5637
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Ambulatorial.\n\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas.\n\nDescrição do caso:\nVocê é um médico atuando em uma unidade básica de saúde da família (UBSF) e atenderá uma paciente de 42 anos, com queixa de cansaço.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal da paciente;\n- Solicitar exame físico direcionado à queixa principal da paciente;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS: **\nMaria, 42 anos de idade, casada, empregada doméstica. \n\n**MOTIVO DE CONSULTA: **\n- Queria tomar algum remédio pra aumentar as energias doutor (a), me sinto muito cansada desde que voltei a trabalhar como empregada doméstica. Além disso estou tendo dor de cabeça umas duas vezes por semana. \n\n**- CARACTERÍSTICAS DA CEFALEIA:**\n**- Tempo de evolução: **Quatro meses. \n**- Localização: **Dói a cabeça inteira. \n**- Intensidade:** É uma dor leve.\n**- Frequência: **Duas vezes por semana.\n\n**- Outras características: **Não constam no script.\n\n**CARACTERÍSTICAS DO QUADRO GERAL/ CANSAÇO: **\n**- Tempo de evolução: **Quatro meses. \n**- Intensidade dos sintomas: **Caminhar 20 minutos até a casa que eu trabalho já me dá falta de ar. E cuidar da casa é muito pesado, fico mais cansada ainda.\n**- Frequência ou momentos de aparição dos sintomas: **Todos os dias estou assim, mesmo quando não trabalho.\n\n**- SINTOMAS ACOMPANHANTES: **\n**- Fragilidade/ queda/ quebra dos cabelos e/ou unhas:** Nega.\n**- Irritabilidade/ alteração do humor: **Sim doutor (a), estou meio impaciente.\n**- Pernas inquietas ou desejo imperioso de movê-las: **Nega.\n**- Fraqueza: **Tenho essa sensação de cansaço, que estou fraca e sem energia.\n**- Vômitos com sangue:** Nega.\n**- Fezes com sangue:** Que eu tenha percebido, não.\n**- Sangramento vaginal:** Nega. \n**- Outros sintomas acompanhantes: **Nega.\n\n**ANTECEDENTES GINECOLÓGICOS:**\n**- DUM:** Minha última menstruação foi há 12 dias.\n**- Sintoma / queixa ginecológica: **Não tive. \n**- Gestação:** Nunca engravidei. \n**- Ciclo menstrual: **É regular, vem a cada 28 dias.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nega. \n**- Medicamentos: **Nega. \n**- Alergias: **Nega. \n**- Cirurgias: **Nega.\n\n**HÁBITOS: **\n**- Cigarro: **Dois maços por dia há 20 anos. \n**- Álcool: **Nega. \n**- Drogas ilícitas: **Nega. \n**- Urina: **Nega alterações. \n**- Atividade física: **Saio pra fazer caminhada duas vezes por semana. \n**- Alimentação: **Como de tudo.\n\n**ANTECEDENTES FAMILIARES: **\n- Meu pai morreu de câncer de cólon quando tinha 78 anos.\n\n**APÓS O DIAGNOSTICO QUESTIONAR:**\n- Por que isso acontece, doutor? É grave?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 140x85 mmHg \n\n**- Frequência cardíaca:** 105 batimentos por minuto. \n\n**- Saturação de O2:** 97%. \n\n**- Temperatura axilar:** 36° C. \n\n**- Frequência respiratória:** 15 incursões por minuto. \n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, hidratado, afebril, acianótico, anictérico, mucosas e pele hipocoradas ++/4+, alerta e orientado no tempo e espaço. \n\n\n\n**Cardiovascular: **\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório: **\n\nAusculta respiratória com murmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal: **\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação, sem visceromegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0961.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemácias:** 3,1 milhões/mm3 (Valor de referência: 3,9 - 5 milhões/mm3)\n\n**Hemoglobina:** 9,3 g/dl (Valor de referência: 12 - 16 g/dl)\n\n**Hematócrito:** 30% (Valor de referência: 36 - 48%)\n\n**VCM:** 70 fL (Valor de referência: 80 - 100 fL)\n\n**HCM:** 22 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 26 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 18% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 237.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucócitos:** 5.140/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n\n\n**Reticulócitos:** 0,2% (Valor de referência: 0,5 - 1,5%)\n\n\n\n**Glicemia de jejum:** 67 mg/dl (60 - 99 mg/dl)\n\n\n\n**Creatinina:** 0,7 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 27 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**Sódio:** 136 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4,2 mEq/l (Valor de referência: 3,5 - 5 mEq/l) \n\n\n\n**Proteína C reativa:** 0,2 mg/dl (Valores de referência: < 0,3 mg/dl)\n\n\n\n**Vitamina B12:** 643 pg/ml (Valor de referência: 200 - 900 pg/ml)\n\n\n\n**TSH:** 1,9 μUI/mL (Valor de referência: 0,35 a 4,5 μUI/mL)\n\n\n\n**Ferro:** 22 µg/dL (Valor de referência: 50 a 160 µg/dL)\n\n**Ferritina sérica:** 8 ng/mL (Valor de referência: 40 - 200 ng/mL)\n\n**Índice de saturação da transferrina:** 11% (Valor de referência: 20 a 50%)\n\n**Capacidade total de ligação do ferro:** 550 µg/dL (Valor de referência: 250 a 450 µg/dL)\n\n**Transferrina:** 595 mg/dL (Valor de referência: 200-380 mg/dL)",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0961.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Esfregaço de sangue periférico ",
+      "conteudo": "Se observa anisopoiquilocitose com micrócitos hipocrômicos.",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0961.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Colonoscopia",
+      "conteudo": "Se observa a presença de pólipo único pedunculado com estigmas de sangramento.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Endoscopia digestiva alta",
+      "conteudo": "Dentro dos parâmetros de normalidade.",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "Sangue oculto em matéria fecal",
+      "conteudo": "Positivo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se; e,\n(2) Cumprimenta o paciente simulado e pergunta seu nome. \n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga o quadro clínico: **\n(1) Tempo de evolução;\n(2) Intensidade dos sintomas;\n(3) Fatores de melhora e/ou piora;\n(4) Frequência ou momentos de aparição dos sintomas. \n\n**Adequado: **Pergunta quatro itens. \n**Parcialmente adequado: **Pergunta dois ou três itens. \n**Inadequado: **Pergunta um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": "A cefaleia, apesar de importante, não era o foco dessa estação. Por tanto, não foi pontuada no PEP e nem completamente explorada nas suas características."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga presença de sintomas associados: **\n(1) Fragilidade/ queda/ quebra dos cabelos e/ou unhas;\n(2) Irritabilidade/ Palpitações;\n(3) Pernas inquietas ou desejo imperioso de movê-las; \n(4) Astenia/ Fraqueza/ Cansaço; \n(5) hematêmese/ Vômito com sangue;\n(6) Melena/ Fezes escuras;\n(7) Hematoquezia/ Fezes com sangue.\n\n**Adequado: **Investiga seis ou mais itens. \n**Parcialmente adequado: **Investiga  quatro ou cinco itens. \n**Inadequado: **Investiga três itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.625",
+        "adequado": " 1.25"
+      },
+      "dica_teorica": "No  trato gastrointestinal,  o sangramento pode aparecer junto com o  vômito  (vermelho vivo ou aspecto em borra de café) ou com as  fezes  (sangue vermelho vivo ou preto/ digerido).Ainda, pode aparecer em forma de  sangue oculto na matéria fecal, detectado através de exame."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais: **\n\n(1) Doenças;\n(2) Uso de medicamentos;\n(3) Cirurgias;\n(4) Álcool e/ou cigarro e/ou drogas ilícitas;\n(5) Alimentação/ Dieta;\n(6) Atividade física. \n\n**Adequado: **Pergunta cinco ou mais itens. \n**Parcialmente adequado: **Pergunta três ou quatro itens. \n**Inadequado: **pergunta sobre dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga antecedentes ginecológicos e obstétricos: **\n\n(1) Data de última menstruação; \n(2) Regularidade e/ou duração/ volume do fluxo;\n(3) Gestações prévias. \n\n**Adequado:** Investiga os três itens. \n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga antecedentes familiares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exame físico. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita exames de laboratório: **\n\n(1) Hemograma;\n(2) Cinética do ferro (ou cita dois componente da cinética do ferro);\n(3) Vitamina B12;\n(4) TSH;\n(5) Ureia;\n(6) Creatinina;\n(7) Reticulócitos;\n(8) PCR e/ou VHS. \n\n**Adequado: **Solicita seis ou mais itens. (obrigatoriamente deve incluir os itens um e dois). \n**Parcialmente adequado: **Solicita de dois a cinco itens.\n**Inadequado: ** Solicita um ou nenhum item.\n\n**Obs.: Só serão considerados os exames que forem solicitados ANTES da entrega do impresso de LABORATÓRIO. **",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Componentes da cinética do ferro: - Ferro sérico: componente essencial da hemoglobina;- Ferritina: proteína marcadora das reservas de ferro do corpo (lembrar que também é um reator de fase aguda);- Transferrina: proteína transportadora de ferro;- Índice de saturação de transferrina: reflete a porcentagem de ocupação da transferrina pelo ferro sérico;- Capacidade total de ligação do ferro (TIBC): quantidade máxima de ferro capaz de se ligar à transferrina (quanto mais transferrina, maior a capacidade de ligação)."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita esfregaço de sangue periférico.**\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita endoscopia digestiva alta e colonoscopia. **\n\n**Adequado: **Solicita endoscopia digestiva alta e colonoscopia.\n**Parcialmente adequado:** Solicita apenas um dos exames de imagem.\n**Inadequado: **Não solicita nenhum dos exames de imagem.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza o diagnóstico de anemia ferropriva. **\n\n**Adequado: **Verbaliza anemia ferropriva/ ferropênica ou anemia por deficiência de ferro. \n**Parcialmente adequado: **Verbaliza apenas anemia. \n**Inadequado: **Não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Explica que a provável causa da anemia é o sangramento do pólipo intestinal. **\n\n**Adequado: **Explica relacionando a anemia ao sangramento do trato gastrointestinal ou do pólipo intestinal. \n**Inadequado: **Não explica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Fatores de risco para anemia: - Carências nutricionais (ingestão ou absorção inadequada de ferro);- Hábito vegetariano;- Dietas com muito chá ou café (inibem a absorção de ferro) ou sem vitamina C (favorece a absorção);- Baixo nível sócio-econômico e educacional;- Infestação por malária, ascaridíase, helmintoses, protozooses intestinais;- Gestantes;- Hemorragias (melena, hematêmese, hemoptise, sangramento vaginal)."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Indica a necessidade de realização de: (1) polipectomia (2) com biopsia. **\n\n**Adequado: **Indica ambos itens;\n**Parcialmente adequado**: Indica somente a polipectomia;\n**Inadequado: **Não indica nenhum dos dois itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Prescreve reposição de ferro com sulfato ferroso via oral.**\n\n**Adequado: ** Prescreve; \n**Inadequado: **Não prescreve.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Doses terapêuticas: - Crianças: 3 a 6 mg/kg/dia de ferro elementar, sem ultrapassar 60 mg/dia;- Gestantes: 60 a 200 mg/dia de ferro elementar associado a 400 mcg/dia de ácido fólico;- Adultos: 120 mg/dia de ferro elementar;- Idosos: 15 mg/dia de ferro elementar."
+    }
+  ]
+}

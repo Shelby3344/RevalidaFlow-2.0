@@ -1,0 +1,232 @@
+{
+  "uid": 1185,
+  "hash": "pCONp2X7N7OfgkI31O3cu6xL",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Consulta de Rotina – Paciente DM 2",
+  "definicao": "Os exames de rotina para o seguimento do diabético são realizados visando o controle metabólico, as complicações agudas e crônicas, os efeitos colaterais das medicações e outros fatores de risco.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "68.50",
+    "star": 0,
+    "time": 584,
+    "count": 5292
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial.\n- Unidade de Saúde da Família (USAFA).\n\nA unidade conta com a seguinte infraestrutura:\n-Sala de atenção médica,\n-Sala de curativos,\n-Laboratório de análises.\n\nDESCRIÇÃO DO CASO:\nVocê realizará a atenção médica de um paciente de 60 anos, diabético.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar a anamnese dirigida à queixa principal da paciente;\n-Solicitar o exame físico;\n-Solicitar exames complementários, se necessário;\n- Pactuar plano de cuidado com o paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Benjamin, 60 anos, casado, veterinário\n\n**MOTIVO DE CONSULTA**: \nOlá, Dr(a).vim para a nossa consulta de rotina.\n\n**SINTOMAS ASSOCIADOS**:\n**Aumento do volume urinário:** Nega.\n**Dor ao urinar:** Nega.\n**Cor da urina:** Eu percebi que a minha urina está saindo mais escura.\n**Aumento de idas ao banheiro:** Nega.\n**Alteração de sensibilidade nos membros:** Não percebi nenhuma diferença. \n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS**:\n**Comorbidades**: Diabetes.\n**Uso de medicamentos:**  Consegui pegar os remédios aqui na farmácia e estou tomando certinho a metformina e a dapagliflozina que você me passou; já faz uma semana.\n**Alergias**: Nega.\n**Cirurgia prévia**: Nega.\n**Internações:** Nega.\n\n**HÁBITOS DE VIDA:** \n**Drogas ilícitas**: Nega.\n**Tabagismo**: Nega.\n**Etilismo**:  Estou seguindo suas recomendações. Deixei de beber.\n**Alimentação:**  Não consigo ser totalmente saudável na alimentação; eu amo comer pão no café da manhã e no café da tarde. Já tentei substituir, mas está muito difícil. \n**Prática de atividade física:**  Ainda não me sinto animado a iniciar as atividades físicas. Me inscrevi na academia, mas por estar gordo sinto vergonha de ir e as pessoas começarem a rir de mim.\n**Ingesta de água:** Eu não tomo muita água.\n**Situação vacinal:** Já tomei a vacina da gripe e da pneumonia que você pediu na última consulta.\n\n**ANTECEDENTES FAMILIARES:**\n-Meu pai é hipertenso.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Fisico",
+      "conteudo": "**SINAIS VITAIS:**\n\n**Pressão Arterial:** 140 x 90mmHg\n\n**Frequência Cardíaca:** 87bpm\n\n**Frequência Respiratória: **17irpm\n\n**Saturação de oxigênio:** 98% AA\n\n**Temperatura axilar:** 36.5°\n\n\n\n**IMC:** 35 \n\n**Circunferência abdominal:** 120cm\n\n\n\n**EXAMES FÍSICO:**\n\n**Aparato cardiovascular:** \n\nRitmo cardíaco regular em 2 tempos, bulhas normofonéticas\n\n\n\n**Aparato Respiratório:** \n\nAusculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdome:** \n\nGloboso, RHA normais, indolor a palpação superficial e profunda. \n\n\n\n**Extremidades:** \n\nSem edemas ou sinal de TVP.",
+      "imagem": "https://app.penserevalida.com/impressos/04/Acantose-Nigricans-1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia",
+      "conteudo": "Ectoscopia",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames Laboratoriais",
+      "conteudo": "**Hemograma**\n\n**Hemoglobina:** 15 (Valor de referência: 12-16)\n\n**Hematócrito:** 40 (Valor de referência: 36-48)\n\n**Leucócitos:** 4.000 (Valor de referência: 3.700-10.000)\n\n**Plaquetas:** 300.000 (Valor de referência: 150.000-450.000)\n\n\n\n**Hemoglobina glicada (HbA1c):** 8,0% (Valor de referência: 4.0-6.0)\n\n\n\n**Glicemia de jejum:** 180 mg/dL (Valor de referência: 60-99)\n\n\n\n**Colesterol total:** 215 (Valor de referência: ≤ 200)\n\n**TAG:** 170 (Valor de referência: ≤ 150)\n\n**LDL:** 140 (Valor de referência: ≤ 130)\n\n**HDL:** 38 (Valor de referência: ≥ 40)\n\n\n\n**Exame de urina simples:** Sem alterações",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação**:\n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se; \n(3) Dirige-se ao paciente simulado pelo nome, pelo menos uma vez; \n(4) Faz perguntas; e,\n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) Estabelece contato visual; e,\n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado**: Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala do paciente simulado sem interrompê-lo.**\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com o paciente simulado, evitando termos técnicos de difícil compreensão **\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Evita atitude paternalista (condescendente) e “alarmista.”**\n\n**Adequado:** Evita as duas atitudes.\n**Inadequado:** Assume qualquer uma das duas atitudes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga os antecedentes pessoais:**\n(1) Doenças prévias; \n(2) Internações; \n(3) Cirurgias anteriores; \n(4) Alergias; \n(5) Uso de medicações. \n\n**Adequado:** Investiga quatro ou mais itens.\n**Parcialmente adequado:** Investiga  dois ou três itens.\n**Inadequado:** Investiga somente um item ou não investiga nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga: **\n(1) Tabagismo; \n(2) Uso de álcool; \n(3) Uso de outras drogas; \n(4) Aspectos da saúde mental; \n(5) Alimentação;\n(6) Atividade física. \n\n**Adequado:** Investiga os seis itens. \n**Parcialmente adequado:** Investiga de dois a cinco itens. \n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga o histórico de vacinação.**\n\n**Adequado:** Investiga.\n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga alteração de sensibilidade:**\n(1) Nos membros; \n(2) Alterações urinárias; e,\n(3) Cuidado com os pés.\n\n**Adequado:** Investiga os três itens. \n**Parcialmente adequado:** Investiga dois itens.\n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita Exame físico.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Interpreta o exame físico do paciente simulado:**\n(1) IMC em Obesidade grau 2;\n(2) Hipertensão Arterial ou Pressão Alta; \n(3) Aumento da circunferência abdominal.\n\n**Adequado:** Interpreta os três itens.\n**Parcialmente adequado:** Interpreta um ou dois itens.\n**Inadequado:** Não interpreta item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12.** Solicita:**\n(1) Hemoglobina glicada;\n(2) Glicemia de jejum;\n(3) Colesterol LDL;\n(4) Colesterol HDL; e,\n(5) Triglicerídeo.\n\n**Adequado:** Solicita os cinco itens.\n**Parcialmente adequado:** Solicita de dois a quatro itens.\n**Inadequado:** Solicita somente um item ou não solicita nenhum.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Após a leitura do impresso 3, é capaz de interpretar e verbalizar as alterações corretamente: **\n(1) Aumento da hemoglobina glicada;\n(2) Aumento da glicemia de jejum;\n(3) Aumento do colesterol total; \n(4) aumento de TAG;\n(5) Aumento de LDL;\n(6) Diminuição de HDL; e,\n(7) Síndrome Metabólica.\n\n**Adequado:** Verbaliza cinco ou mais itens.\n**Parcialmente adequado:** Verbaliza de dois a quatro itens. \n**Inadequado:** Verbaliza somente um item OU não verbaliza nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Informa ao paciente que será necessário seguir com:**\n(1) Dieta; e,\n(2) Prática de atividades físicas.\n\n**Adequado:** Informa os dois itens.\n**Inadequado:** Não informa item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Informa ao paciente que:**\n(1) Níveis de glicemia não baixem nos próximos 3 meses; e,\n(2) Será necessário implementar a insulina no tratamento.\n\n**Adequado:** Informa os dois itens.\n**Inadequado:** Informa um item ou não informa item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Orienta o paciente sobre o cuidado com os pés.**\n\n**Adequado:** Orienta. \n**Inadequado:** Não orienta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Solicita retorno em 3 meses.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

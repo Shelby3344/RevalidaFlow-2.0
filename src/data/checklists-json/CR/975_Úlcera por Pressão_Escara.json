@@ -1,0 +1,144 @@
+{
+  "uid": 975,
+  "hash": "b8W4lXb3rmiZe77LpYPJ6gB6",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Úlcera por Pressão/Escara",
+  "definicao": "A Úlcera por Pressão/Escara trata-se de uma lesão decorrente do contato prolongado entre as partes moles (pele, subcutâneo e musculatura) e ossos com a superfície (colchão e outros).",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "46.00",
+    "star": 0,
+    "time": 547,
+    "count": 3710
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Visita domiciliar.\n\nA unidade apresenta a seguinte infraestrutura:\n-Profissional de enfermagem e nutrição;\n-Esfignomanômetro;\n-Glicosímetro;\n-Oxímetro;\n-Termômetro. \n\nDESCRIÇÃO DO CASO: \nVocê irá realizar uma visita domiciliar e irá atender Regina, de 79 anos, acamada há 3 anos com quadro de Alzheimer. A paciente está acompanhada da filha Emily de 50 anos.",
+  "tarefas": "-Realizar anamnese da paciente;\n-Solicitar e interpretar exame físico;\n-Estabelecer e comunicar a hipótese diagnóstica;\n-Verbalizar fatores de risco da paciente relacionados ao diagnóstico (mínimo 3);\n-Explicar os possíveis tratamentos;\n-Citar complicações do quadro (mínimo 2).",
+  "script_ator": "**DADOS PESSOAIS**\n- Minha mãe se chama Regina, ela tem 79 anos.\n- Eu me chamo Emily, tenho 50 anos, sou filha única da dona Regina.\n\n**MOTIVO DE CONSULTA**\n- Dr (a) eu solicitei essa visita, porque notei que o machucado que ela tem no bumbum está piorando muito de uns tempos para cá. Você quer ver?\n\n**SOBRE O MOTIVO DE CONSULTA**\n**-Tempo de evolução e progressão:** Ela sempre tem um machucado no bumbum ou nas costas, já que é acamada há 3 anos, mas esse daí tem umas 4 semanas que só piora.\n**-Localização:** Está localizado no bumbum, um pouco mais acima sabe.\n**-Dor:** Ela quase não fala, Dr.(a), então fica difícil saber se está doendo, mas parece estar incomodada.\n**-Febre:** Começou a ter febre há uns 3 dias, entre 38°- 38,5°C, aí eu dou dipirona, melhora e depois volta.\n**-Uso de medicamentos:** Além da dipirona eu estava passando uma pomadinha de colagenase no local, só isso.\n**-Presença de secreções:** Sim, antes era uma secreção mais transparente, agora parece que sai pus, faz uma semana já.\n**-Odor:** O cheiro piorou bastante nesses últimos dias.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n-Nega demais sinais ou sintomas.\n\n**ANTECEDENTES PESSOAIS:**\n**-Comorbidades e Alergias:** Ela tem diabetes tipo 2, pressão alta e Alzheimer.\n**-Uso de medicamentos:** Ela toma metformina, dapaglifozina, losartana, donepezila e memantina. \n**-Cirurgias:** Fez só uma cesária. \n**-Bebe/Tabagismo/Drogas:** Nunca fumou ou bebeu.\n**-Alimentação:** Ela não come muito bem Dr (a), de vez em quando dou suplemento em pó que o geriatra passou, mas é muito caro, não tenho condições de comprar.\n\n**ANTECEDENTES FAMILIARES:**\n- Desconheço antecedentes familiares.\n\n**No decorrer do atendimento, caso o(a) participante tenha feito a anamnese adequada, a paciente simulada perguntaria:**\n- Ela vai ter que ir pro hospital? Não posso tratar aqui em casa?\n- Quais são os possíveis tratamentos?\n- O que eu posso fazer para evitar que isso aconteça novamente?\n- Quais são as complicações disso Dr (a)?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Ectoscopia da lesão",
+      "conteudo": "Verbalize a classificação da lesão",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Sinais Vitais/Exame Físico Geral",
+      "conteudo": "**-Frequência cardíaca:** 105 bpm.\n\n**-PA:** 100x65 mmHg.\n\n**-FR:** 19 irpm.\n\n**-Temperatura axilar:** 38,7°C.\n\n**-Saturação de oxigênio:** 97% AA.\n\n**-IMC:** 19 kg/m2.\n\n\n\n**-Exame físico geral**\n\nRegular estado geral, febril, acianótica, anictérica, desidratada (+2/+4), desorientada no tempo e no espaço.\n\n\n\n**-Abdome:** \n\nEscavado, ausência de dor à palpação superficial e profunda em todo abdome, sem dor à descompressão brusca. RHA dentro da normalidade.\n\n\n\n**-Aparelhos respiratório e cardiovascular:** \n\nSem anormalidades.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Glicemia Capilar",
+      "conteudo": "**Glicemia Capilar/Dextro em Jejum:** 250 mg/dl.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.** **Apresentação**:\n(1) Identifica-se;\n(2) Cumprimenta adequadamente a paciente; e\n(3) Cumprimenta a filha/acompanhante e pergunta o seu nome.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realiza apenas duas ações ação.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2.** Realiza **anamnese,** perguntando sobre o **motivo de consulta:**\n(1) Tempo de evolução;\n(2) Progressão;\n(3) Uso de medicamentos;\n(4) Presença de dor;\n(5) Presença de secreções;\n(6) Odor.\n\n**Adequado: **Pergunta de cinco a seis itens.\n**Parcialmente adequado:** Pergunta de três a quatro itens.\n**Inadequado:** Pergunta um ou dois itens ou não pergunta item\nalgum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3.** Solicita **exame físico da paciente**: \n(1) Sinais Vitais; \n(2) Ectoscopia/Exame físico geral; \n(3) Glicose em Jejum/Dextro/Glicemia Capilar. \n\n**Adequado:** Solicita os três itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita um ou zero itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4.** **Explica** **hipótese** **diagnóstica**:\n(1) Úlcera por pressão/Úlcera de decúbito/Escara; \n(2) Estágio/Grau III OU IV.\n\n**Adequado:** Verbaliza os dois itêns.\n**Parcialmente adequado:** Verbaliza somente o item (1).\n**Inadequado:** Não verbaliza nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Classificação: Estágio I (pele íntegra com presença de eritema mesmo após alivio de pressão), Estágio II (perda parcial da espessura da pele, com úlcera superficial ou bolha com conteúdo aquoso), Estágio III (perda de tecido em espessura total, com aparecimento de necrose), Estágio IV (perda total de tecido com exposição de estruturas profundas como osso, músculo ou tendão."
+    },
+    {
+      "idx": 5,
+      "descricao": "**5.** **Verbaliza** os **fatores de risco da paciente** associados ao seu diagnóstico.\n(1) Idade avançada;\n(2) Imobilidade;\n(3) Diabetes Mellitus tipo 2;\n(4) Hipertensão Arterial;\n(5) Desnutrição;\n(6) Perda sensorial/Demência.\n\n**Adequado:** Verbaliza de quatro a seis itens.\n**Inadequado:** Verbaliza de um a três itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6.** **Verbaliza que será necessário transferir a paciente para o hospital devido a necessidade de debridamento e acometimento sistêmico.**\n\n**Adequado:** Verbaliza que a transferência será necessária.\n**Inadequado:** Verbaliza que o tratamento será realizado em casa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7.** Explica os possíveis **tratamentos** para essa paciente:\n(1) Debridamento;\n(2) Antibioticoterapia.\n\n**Adequado:** Cita ambos itens.\n**Parcialmente adequado:** Cita somente um item.\n**Inadequado:** Não cita nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": "No caso de infecção é importante solicitar culturas de tecidos para direcionar o tratamento antibiótico. Na suspeita de osteomielite, materiais ósseos também devem ser avaliados. Em úlceras sacrais devemos pensar em ATB que cubram anaeróbios e enterococos (ciprofloxacino, ceftriaxona, ampicilina-sulbactam etc), em úlceras não sacrais podemos pensar em agentes de pele com Staphylococcus e Streptoccocus (clindamicina, oxacilina ampicilina - sulbactam etc)."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8.** Explica os **cuidados** necessários para **prevenção** de piora ou novos quadros/profilaxia:\n(1) Controle da Diabetes Mellitus; \n(2) Nutrição adequada;\n(3) Posição adequada da paciente;\n(4) Trocas de decúbito/Reposição com escala de horas de 2/2 horas;\n(5) Utilizar colchões que diminuem a pressão/Pneumático/Casca de ovo/Gel de silicone/Anti escaras;\n(6) Estimulo a movimentação/Fisioterapia;\n(7) Inspeção diaria da pele;\n(8) Evitar deixar a pele úmida;\n(9) Não massagear prominencias ósseas;\n(10) Evitar corticoterpia prolongada.\n\n**Adequado:** Cita de seis a dez itens.\n**Parcialmente adequado:** Cita de quatro a cinco itens.\n**Inadequado:** Cita de um a três itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "A DM tipo 2 é uma patologia que causa redução da síntese de colágeno, é fundamental estar compensada para o tratamento e prevenção de escaras."
+    },
+    {
+      "idx": 9,
+      "descricao": "**9.Cita** **complicações** **do** **quadro**:\n(1) Osteomielite;\n(2) Endocardite;\n(3) Meningite;\n(4) Bacteriemia/Sepse;\n(5) Artrite Séptica.\n\n**Adequado:** Cita de três a cinco complicações.\n**Inadequado:** Cita uma a duas ou nenhuma complicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

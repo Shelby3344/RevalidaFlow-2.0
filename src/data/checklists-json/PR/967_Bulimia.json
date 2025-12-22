@@ -1,0 +1,182 @@
+{
+  "uid": 967,
+  "hash": "kU1Vdbt7EX_kuWC09tvnKgU1",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Bulimia",
+  "definicao": "Os transtornos alimentares são condições psiquiátricas caracterizadas por alterações persistentes nas refeições ou em comportamentos relacionados aos hábitos alimentares. Quando há alteração no consumo ou na absorção de alimentos, isso afeta a saúde física e mental do indivíduo. De acordo com a Associação Brasileira de Psiquiatria, estima-se que mais de 70 milhões de pessoas no mundo sejam afetadas por algum transtorno alimentar, incluindo anorexia, bulimia, compulsão alimentar e outros. Na bulimia, em situações recorrentes, o indivíduo ingere uma grande quantidade de alimentos num espaço curto de tempo e, em seguida, passa a utilizar 'métodos compensatórios' para evitar o ganho de peso, que incluem a indução de vômito e o uso de laxantes e diuréticos.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "68.50",
+    "star": 0,
+    "time": 575.5,
+    "count": 3820
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Ambulatorial.\n\nA unidade possui a seguinte infraestrutura:\n- Sala de atenção médica;\n- Sala de enfermagem;\n- Serviço de psiquiatria;\n- Apoio com nutricionista.\n\nDescrição do caso:\nVocê irá realizar o atendimento de uma paciente que comparece à consulta por aparecimento de lesões na mão.",
+  "tarefas": "- Realizar anamnese e solicitar o exame físico;\n- Formular e verbalizar a principal hipótese diagnóstica; \n- Verbalizar dois diagnósticos diferenciais; \n- Verbalizar o plano terapêutico adequado ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Larissa, 22 anos, digital influencer \n\n**MOTIVO DE CONSULTA: **\n- Olá, Dra. Tudo bem? Desculpe o incômodo, vim hoje porque apareceram umas lesões estranhas na minha mão.\n\n**DETALHES SOBRE O MOTIVO DE CONSULTA:**\n**- Tempo de evolução:** Já faz três semanas aproximadamente.\n**- Localização:** Eu só percebi na mão direita.\n**- Características da lesão: É como um calo, não sei explicar direito.\n- Surgimento prévio de lesões similares:** Não sei dizer, acho que nunca tive isso antes.\n\n**ANTECEDENTES PESSOAIS**\n**-Doenças crônicas:** Não tenho nada, não, Dr(a). A minha mãe diz que eu sou ansiosa, mas não tenho nenhum diagnóstico.\n**- Uso de medicamentos:** Tomo umas gotinhas de Rivotril todos os dias que eu comprei por conta própria.\n\n**ANTECEDENTES GINECOLÓGICOS:**\n**- DUM: **Minha última menstruação foi há 3 semanas. \n**- Regularidade dos ciclos:** Não tenho ciclos regulares.\n**- Menarca: **Aos 12 anos. \n**- Sexarca: **Tive minha primeira relação sexual aos 16 anos.\n**- Vida sexual:** Não tenho namorado, já faz uns meses que não tenho relações sexuais.\n**- Preservativo/contraceptivo:** Não uso contraceptivos, somente preservativos. \n\n**HÁBITOS**\n**- Alimentação:** Eu como de forma saudável. \n**- Atividade física:** Eu me inscrevi na academia, mas, sinceramente, me sinto desmotivada. Quando vou, vejo as meninas todas magras e malhadas e percebo que me falta muito para chegar onde eu quero. Então, eu falto mais do que vou porque me faz mal ver o corpo de outras mulheres.\n**- Tabagismo, alcoolismo, drogas:** Não bebo e nem fumo. Nunca usei nenhum tipo de droga.\n**- Comportamentos compulsivos:** Sim, me sinto muito pressionada em ter engajamento nas minhas redes para não ser um fracasso. Isso me deixa muito tensa e acabo descontando na comida às vezes. Tem momentos que eu simplesmente não consigo controlar e como desesperadamente em pouco tempo. \n**- Indução a vômitos:** Não sei do que você está falando. \n**- Autoimagem corporal:** Eu preciso ser perfeita, mas ser perfeita é um padrão muito alto.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**\n\n**Pressão arterial:** 120 × 80 mmHg\n\n**Temperatura:** 36,5 °C\n\n**Frequência cardíaca:** 85 bpm\n\n**Frequência respiratória:** 14 irpm\n\n**Saturação periférica de oxigênio (SatO2):** 98%\n\n\n\n**IMC:** 26\n\n\n\n**Estado Geral:** Paciente em bom estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas; ausência de sopros.\n\n\n\n**Respiratório:** ausculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares; sem ruídos agregados.\n\n\n\n**Abdominal:** Abdome plano, flácido, indolor à palpação, sem massa palpável; RHA preservados, timpânico à percussão, sem sinais de ascite.\n\n\n\n**Extremidades:** Não se observam edemas.\n\n\n\n**Cavidade bucal:** Observa-se erosão dentária.",
+      "imagem": "https://app.penserevalida.com/impressos/old/Russells_Sign.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DA MÃO",
+      "conteudo": "Verbalize qual o sinal apresentado na imagem.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação: **\n(1) Cumprimenta a paciente simulada;\n(2) Identifica-se; \n(3) Dirige-se à paciente simulada pelo nome, pelo menos uma vez; \n(4) Faz perguntas; e, \n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza as cinco ações.\n**Parcialmente adequado:** Realiza duas a quatro ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Postura: **\n(1) Estabelece contato visual; e, \n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado**: Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma das ações.\n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Escuta a fala da paciente simulada sem interrompê-la.**\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.30"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga os antecedentes pessoais: **\n(1) Doenças prévias; \n(2) Uso de medicações;\n(3) Alergias.\n\n**Adequado:** Investiga os três itens.\n**Parcialmente adequado:** Investiga somente dois itens.\n**Inadequado:** Investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Irregularidade menstrual ou amenorreia ocorrem com frequência em mulheres com bulimia nervosa; não está claro se tais perturbações estão relacionadas a oscilações no peso, a deficiências nutricionais ou a sofrimento emocional. Os distúrbios hidreletrolíticos decorrentes do comportamento purgativo são por vezes graves o suficiente para constituirem problemas clinicamente sérios."
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga sobre o motivo de consulta: **\n(1) Tempo de aparição;\n(2) Localização;\n(3) Característica; \n(4) Recidivas. \n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens. \n**Inadequado:** Investiga somente um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga sobre os hábitos da paciente: **\n(1) Alimentação;\n(2) Prática de atividade física;\n(3) Hábitos tóxicos;\n(4) Comportamentos compulsivos.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga somente um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Um “episódio de compulsão alimentar” é definido como a ingestão, em um período de tem\u0002po determinado, de uma quantidade de alimento definitivamente maior do que a maioria dos indivíduos comeria em um mesmo período de tempo em circunstâncias semelhantes."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita a realização do exame físico: **\n(1) Exame físico geral;\n(2) Ectoscopia de mãos.\n\n**Adequado:** Solicita os dois itens. \n**Parcialmente adequado:** Solicita somente ectoscopia de mãos.\n**Inadequado:** Não solicita ectoscopia de mãos.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.70"
+      },
+      "dica_teorica": "O exame físico geralmente não revela achados físicos. Entretanto, a inspeção da boca pode revelar perda significativa e permanente do esmalte dentário, em especial das superfícies lin\u0002guais dos dentes da frente devido aos vômitos recorrentes. Esses dentes podem lascar ou parecer desgastados, corroídos e esburacados. A frequência de cáries dentárias também pode ser maior."
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Após a leitura do impresso Ectoscopia é capaz de reconhecer e verbalizar o Signo de Russell.**\n\n**Adequado:** Verbaliza Signo de Russell.\n**Inadequado:** Não verbaliza Signo de Russell.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Diagnostica o quadro como bulimia nervosa. **\n\n**Adequado:** Realiza o diagnostico de bulimia nervosa.\n**Parcialmente adequado:** Realiza o diagnostico somente de bulimia.\n**Inadequado:** Não realiza o diagnostico de bulimia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.875",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza os possíveis diagnósticos diferenciais **\n(1) Transtorno de compulsão alimentar;\n(2) Síndrome de Kleine-Levin;\n(3) Transtorno depressivo maior, com aspectos atípicos;\n(4) Transtorno da personalidade borderline.\n\n**Adequado:** Verbaliza dois ou mais diagnósticos diferenciais.\n**Parcialmente adequado:** Verbaliza somente um diagnóstico diferencial.\n**Inadequado:** Não verbaliza nenhum diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica conduta adequada ao caso: **\n(1) Dieta equilibrada;\n(2) Prática de atividade física ;\n(3) Diminuição de fatores de estresse;\n(4) Avaliação psiquiátrica.\n\n**Adequado:** Indica os quatro itens. \n**Parcialmente adequado:** Indica dois ou três itens.\n**Inadequado:** Indica somente um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1."
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Ativa E-Multi.**\n\n**Adequado:** Ativa.\n**Inadequado:** Não não ativa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

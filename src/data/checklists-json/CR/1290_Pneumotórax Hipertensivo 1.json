@@ -1,0 +1,250 @@
+{
+  "uid": 1290,
+  "hash": "Peg5JUGs4oKErKfyckJzc5_P",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Pneumotórax Hipertensivo 1",
+  "definicao": "O Pneumotórax é uma condição caracterizada pelo acúmulo anormal de ar na cavidade pleural (delimitada pelas capas visceral e parietal do tórax). Pode ser espontâneo ou ocorrer secundariamente a um evento traumático, cirúrgico, terapêutico ou relacionado a uma doença.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "75.00",
+    "star": 0,
+    "time": 584.5,
+    "count": 4232
+  },
+  "cenario": "Nivel de atenção: Atenção terciária a saúde:\nTipo de atendimento: Unidade de pronto socorro.\n\nA unidade possui a seguinte infraestrutura: \n- Setor de radiologia convencional e ultrassonografia; \n- Tomografia computadorizada; \n- Laboratório de análises clínicas e banco de sangue. \n- Leitos de internação e centro cirúrgico. \n\nDescrição do Caso: \nPaciente do sexo masculino, 30 anos, trazido pelo SAMU, vítima de acidente em via pública, moto com carro. \n\nSAMU: refere que o paciente foi atravessar o sinal amarelo e bateu de frente com um carro a uma velocidade de aproximadamente 60km/h, estava usando capacete. Foi realizado o atendimento pré-hospitalar.\n\nDados da triagem hospitalar:\n- Pressão arterial: 90x60 mmHg. \n- Frequência cardíaca: 135 bpm.\n- Frequência respiratória: 28 irpm.\n- Oximetria de pulso: 85% em ar ambiente.\n- Temperatura axilar: 36 °C",
+  "tarefas": "Nos próximos 10 minutos de duração da estação você deverá realizar as seguintes tarefas:\n-Realizar anamnese direcionada do paciente; \n-Citar e caracterizar o atendimento inicial do trauma segundo ATLS;\n-Solicitar e interpretar exame físico direcionado; \n-Solicitar e interpretar os exames pertinentes; \n-Estabelecer e comunicar hipótese diagnóstica; \n-Propor conduta terapêutica imediata e definitiva.",
+  "script_ator": "- Em tentativa de comunicação, paciente emite ** resposta verbal confusa. **",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "(A) ABCDE do trauma",
+      "conteudo": "- Paciente com via área pérvia com presença de sangue na cavidade oral.\n\n- Uso de colar cervical e prancha rígida.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "(B) ABCDE do trauma",
+      "conteudo": "**Inspeção torácica:** \n\nLesões superficiais com tórax atípico, desvio de traqueia para direita.\n\n\n\n**Ausculta Torácica:** \n\nAbolida à esquerda e MV presente em todo hemitórax direito.\n\n**Palpação Torácica:** \n\n\n\nExpansibilidade reduzida em hemitórax esquerdo e preservada em hemitórax direito.\n\n\n\n**Percussão Torácica:** \n\nHipertimpânica em hemitórax esquerdo e som claro pulmonar em hemitórax direito.\n\n\n\n**Saturação de 86% **(Em máscara de O2 alto fluxo).\n\n**Frequência Respiratória:** 28irpm.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "(C) ABCDE do trauma",
+      "conteudo": "**Pressão Arterial: **85/50mmHg. \n\n**Frequência Cardíaca: **141 batimentos por minuto.\n\n**Inspeção abdominal: **Sem alterações. \n\n**Ausculta abdominal: **RHA normais.\n\n**Palpação abdominal: **Sem alterações.\n\n**Percussão abdominal: **Sem alterações.\n\n**Pelve: **estável.\n\n**FAST: **Negativo.\n\n**Temperatura axilar: **36.4 °C",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "(D) ABCDE do trauma",
+      "conteudo": "**ECG:**\n\n**Abertura ocular:** Ao som.\n\n**Resposta verbal:** Confusa.\n\n**Melhor resposta motora:** Flexão normal.\n\n**Pupilas:  **Isocóricas e fotorreagentes.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "(E) ABCDE do trauma",
+      "conteudo": "- Paciente com escoriações leves em todo corpo",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n**Hemácias**: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina**: 15,9 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n**Hematócrito**: 48% (Valor de referência: 39 - 52%)\n\n**Plaquetas**: 215.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Glicemia:** 118 mg/dl (Valor de referência: 70 - 110 mg/dl)\n\n\n\n**Sódio:** 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\n\n\n**RNI:** 1 (Valor de referência: 0,8 - 1,2)\n\n\n\n**Tipo sanguíneo: **A",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1.  **Apresentou-se cordialmente a equipe do SAMU e iniciou consulta com perguntas abertas:**\n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Identifica gravidade encaminhando paciente para sala vermelha:**\n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Lava as mãos e se paramenta:** \n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita a temperatura da sala em 26 graus e/ou pede para desligar o ar condicionado:** \n \n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Questiona o paciente seu nome e se ele lembra do que aconteceu:**\n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Verificação rápida do ABCD"
+    },
+    {
+      "idx": 6,
+      "descricao": "6.  **Avalia:**\n(1) Via aérea; \n(2) Coluna cervical; \n(3) Prancha rígida, colocando O2 a 10L/min com máscara. \n\n**Adequado:** Avalia três itens.\n**Parcialmente adequado:** Avalia dois itens.\n**Inadequado:** Avalia um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "Airway = Via aérea permeável, colar cervical (jaw thrust e chin lift)."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Identifica sangue em via aérea e realiza aspiração:** \n \n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Avalia/realiza: **\n(1) Exame do tórax (inspeção, palpação, percussão e ausculta); \n(2) Coloca oxímetro de pulso. \n\n**Adequado:** Realiza as 2 ações.\n**Inadequado:** Realiza uma ação ou nenhuma.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "Breathing = Ventilação estática e dinâmica."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza o diagnóstico de pneumotórax hipertensivo:**\n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "O sinal chave aqui é identificar o pneumotórax hipertensivo é o desvio de traqueia para o lado oposto do pulmão acometido. Outro sinal importante e característico é a turgência jugular.O diagnóstico de pneumotórax hipertensivo é clínico e resultado do acúmulo  de ar sob pressão no espaço pleural. O tratamento não deve  ser adiado à espera de confirmação radiológica."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Indica toracocentese de alívio:** \n \n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Deve ser realizada no 5º espaço intercostal na linha axilar média e em crianças no 2º espaço intercostal na linha hemiclavicular."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Questiona melhora do paciente antes de passar para o (C) do ABCDE do trauma:** \n \n **Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Avalia/realiza/solicita: **\n(1) 2 acessos venosos periféricos calibrosos. \n(2) Pressão Arterial. \n(3) Frequência Cardíaca.\n(4) Focos de sangramento. \n\n**Adequado:** Solicita os quatro itens.\n**Parcialmente adequado:**  Solicita três itens.\n**Inadequado:** Solicita dois ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "Circulation = sistema circulatório: PA, FC, pulsos periféricos, verificar focos de sangramento, obtenção de AVP calibrosos."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Solicita exames Complementares I: **\n(1) Hemograma; \n(2) Tipagem sanguínea; \n(3) Glicemia. \n\n**Adequado:** Solicita os três itens. \n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita um ou nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Solicita ecografia FAST:** \n \n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Avalia escala de Glasgow e resposta pupilar corretamente e verbaliza ECG de 11:** \n\n**Adequado:** Verbaliza corretamente.\n**Inadequado:** Verbaliza outro valor da ECG.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Disability = estado de consciência/neurológico.Glasgow <8 = IOT."
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Indica drenagem de tórax em selo d água como conduta definitiva.  ** \n \n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "A descompressão com agulha bem sucedida, converte o pneumotórax hipertensivo em um pneumotórax simples. No entanto, existe a possibilidade de subsequente pneumotórax como resultado da manobra, então a reavaliação contínua do doente é necessária. Após a descompressão por agulha ou digital, é obrigatório a drenagem torácica em selo d`água no 5º EIC na linha axilar média."
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Solicita radiografia de tórax de controle. ** \n \n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

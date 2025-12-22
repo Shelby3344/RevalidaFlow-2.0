@@ -1,0 +1,205 @@
+{
+  "uid": 1025,
+  "hash": "j5JbJ5dOawOfNL_kPo7DKzd9",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Esquistossomose",
+  "definicao": "É uma doença parasitária, diretamente relacionada ao saneamento precário, causada pelo Schistosoma mansoni. A pessoa adquire a infecção quando entra em contato com água doce onde existam caramujos infectados pelos vermes causadores da esquistossomose. No Brasil, a esquistossomose é conhecida popularmente como “xistose”, “barriga d’água” ou “doença dos caramujos”. O período de incubação, ou seja, tempo que os primeiros sintomas começam a aparecer a partir da infecção, é de duas a seis semanas. A magnitude de sua prevalência, associada à severidade das formas clínicas e a sua evolução, conferem a esquistossomose uma grande relevância como problema de saúde pública.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "51.50",
+    "star": 0,
+    "time": 581,
+    "count": 8173
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial - Unidade Básica de Saúde (UBS).\n\nA unidade conta com a seguinte infraestrutura: \n- Consultório;\n- Laboratório de análises clínicas;\n- Ultrassonografia, radiografia.\n\nDescrição do caso: \nVocê é um médico atuando em uma Unidade Básica de Saúde (UBS) e atenderá uma mulher de 35 anos de idade com queixa de mal-estar e febre.",
+  "tarefas": "- Realizar a anamnese direcionada à queixa da paciente;\n- Solicitar o exame físico;\n- Solicitar e interpretar exames complementares pertinentes ao caso;\n- Formular e verbalizar a hipótese diagnóstica;\n- Propor a conduta terapêutica adequada;\n- Orientar a paciente e sanar dúvidas.",
+  "script_ator": "**DADOS PESSOAIS:**\nIsadora, 35 anos, solteira, cantora, procedente dos Estados Unidos.\n\n**Motivo de consulta:** \nBoa tarde Dr(a)! Preciso de atenção médica. Primeiramente, estou espantada que no Brasil vocês tenham atendimento gratuito! Mas vamos ao motivo de consulta: estou aqui no Brasil há 3 semanas. Duas semanas atrás, mais ou menos, tive uma coceira irritante no calcanhar direito que passou sozinha, só deixando umas marquinhas na minha pele. Tenho até uma foto aqui, caso queira ver! Além disso, desde ontem comecei a sentir febre e mal-estar. \n\n**SOBRE O MOTIVO DE CONSULTA (FEBRE)**\n**Início dos sintomas:** 24h.\n**Aferição da temperatura:** 38,5 graus celsius.\n**Sudoração:**  Sim.\n**Medicação:** Tomei dipirona e melhorou.\n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n**Mialgia:** Sim, sinto dor em meus músculos.\n**Dor abdominal:** Sim.\n**Mal-estar:** Sim.\n\n**OUTROS SINTOMAS:** Negar.\n\n**DADOS EPIDEMIOLÓGICOS**\n**Exposição a agua de rio:** Sim, faz muito calor aqui, minha equipe me levou em um rio e praia para me refrescar.\n**Presença de caramujos no local:** Não sei dizer. \n**Sintomas em pessoas próximas:** Olha, o Brasil está sendo uma surpresa não muito boa para nossa equipe! Algumas outras pessoas também não se sentem bem, mas são tantas doenças epidêmicas no país que não sabemos em que pensar.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES**\n**Doenças crônicas:**: Sou saudável. \n**Uso crônico de medicações:** Não tomo nenhuma medicação controlada.\n\n**CASO O CANDIDATO PERGUNTE SE HÁ DÚVIDAS**\n- Entre tantas doenças que tem aqui no Brasil, você tem certeza que eu estou com essa?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Foto do calcanhar apresentada pela paciente",
+      "conteudo": "Foto do calcanhar apresentada pela paciente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame físico",
+      "conteudo": "Paciente em regular estado geral, orientada em tempo, espaço e pessoa, corada, hidratada, acianótica e anictérica.\n\n\n\n**Pressão arterial:** 120x80 mmHg.\n\n\n\n**Frequência cardíaca:** 105 batimentos por minuto.\n\n\n\n**Frequência respiratória:** 16 incursões por minuto.\n\n\n\n**Saturação de O2:** 99%.\n\n\n\n**Temperatura axilar:** 38,5°C.\n\n\n\n**Abdome:** \n\nAbdome plano, flácido, levemente doloroso à palpação em hipocôncrio direito, com massa palpável. RHA preservados. Timpânico à percussão. Sem sinais de ascite.\n\n\n\n**Aparelho cardiovascular e respiratório:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n- **Hemácias:** 4,5 milhões/mm³ (Valor de referência: 4,3 a 5,8 milhões/mm³)\n\n- **Hemoglobina:** 14,2 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n- **Hematócrito:** 50% (Valor de referência: 39 - 52%)\n\n-** VCM:** 93 fL (Valor de referência: 80 a 100 fL)\n\n- **HCM:** 31 pg (Valor de referência: 26 - 33 pg)\n\n- **CHCM:** 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n- **RDW CV:** 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 179.000 mm³ (150.000 - 400.000 mm³)\n\n\n\n**Leucograma:**\n\n- **Leucócitos:** 9.800/mm³ (Valor de referência: 4.000 - 10.000/mm³)\n\n- **Neutrófilos:** Dentro da normalidade\n\n- **Bastões:** Dentro da normalidade\n\n- **Linfócitos:** Dentro da normalidade\n\n- **Basófilos:** Dentro da normalidade\n\n- **Eosinófilos:** 1200 cels/mm³\n\n- **Monócitos:** Dentro da normalidade\n\n\n\n**Hepatograma:**\n\nTGO: 70 U/l (Valor de referência: 15 - 40 U/l)\n\nTGP: 70 U/l (Valor de referência: 10 - 40 U/l)\n\nFA: 180 U/l (Valor de referência: 30 - 100 U/l)\n\nGGT: 100 U/l (Valor de referência: 8 - 78 U/l)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Ultrassonografia abdominal",
+      "conteudo": "**Achados observados:** Hepatoesplenomegalia, presença de linfonodos periportais. Demais estruturas dentro da normalidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta a paciente simulada;\n(2) Identifica-se;\n(3) Dirige-se à paciente simulada pelo nome, pelo menos uma vez;\n(4) Pergunta sobre o motivo da consulta;\n(5) Ouve com atenção o relato inicial da paciente.\n\n**Adequado:** Realiza cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura:**\n(1) Estabelece contato visual;\n(2) Mantém linguagem não verbal adequada.\n\n**Adequado:** Realiza dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta, ao longo da consulta, a fala da paciente simulada sem interrompê-la.**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Age com postura empática**\n(1) Compartilha confiança com a paciente simulada;\n(2) Não banaliza/naturaliza/desacredita/miniminiza o adoecimento/sofrimento da paciente simulada;\n(3) Não julga a paciente simulada.\n\n**Adequado:** Realiza três itens.\n**Parcialmente adequado:** Realiza dois itens.\n**Inadequado:** Realiza um item ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga sobre a febre:**\n(1) Tempo de aparição;\n(2) Aferição da temperatura;\n(3) Uso de medicação de alívio;\n(4) Presença de calafrios.\n\n**Adequado:** Investiga quatro itens.\n**Parcialmente adequado:** Investiga de dois a três itens.\n**Inadequado:** Investiga um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga sintomas acompanhantes:**\n(1) Tosse; \n(2) Sudorese;\n(3) Dor muscular/mialgia; \n(4) Dor abdominal; \n(5) Diarreia;\n(6) Cefaleia;\n(7) Prostração.\n\n**Adequado:** Investiga sete itens.\n**Parcialmente adequado:** Investiga de três a seis itens.\n**Inadequado:** Investiga dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga a epidemiologia:**\n(1) Sintomas similares em pessoas próximas;\n(2) Exposição à água de rio;\n(3) Presença de caramujos.\n\n**Adequado:** Investiga três itens.\n**Parcialmente adequado:** Investiga dois itens.\n**Inadequado:** Investiga um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga antecedentes pessoais:**\n(1) Doenças crônicas;\n(2) Uso crônico de medicações;\n(3) Alergias.\n\n**Adequado:** Investiga três itens.\n**Parcialmente adequado:** Investiga dois itens.\n**Inadequado:** Investiga um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita exames laboratoriais:**\n(1) Hemograma;\n(2) Fosfatase alcalina;\n(3) Gama glutamil transferase;\n(4) Transaminases.\n\n**Adequado:** Solicita quatro itens.\n**Parcialmente adequado:** Solicita de dois a três itens.\n**Inadequado:** Solicita um item ou menos.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita ultrassonografia abdominal.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Formula hipótese diagnóstica:** esquistossomose em fase aguda/inicial.\n\n**Adequado:** Formula corretamente a hipótese e verbaliza a fase.\n**Parcialmente adequado:** Somente formula a hipótese corretamente, mas não verbaliza a fase.\n**Inadequado:** Não formula corretamente a hipótese diagnóstica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Propõe conduta terapêutica adequada:**\n(1) Antitérmico;\n(2) Predinisona (1mg/kg de peso/dia);\n(3) Esquistossomicida (Praziquantel) via oral, dose única.\n\n**Adequado:** Prescreve três itens.\n**Parcialmente adequado:** Prescreve apenas item (2) e (3).\n**Inadequado:** Não prescreve itens (2) e (3).",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.2"
+      },
+      "dica_teorica": "O paciente recebe o esquistossomicida (praziquantel) 24 a 48 horas depois. Na semana seguinte, a dose de corticosteroides é reduzida para 0,5 mg/kg de peso/dia e para 0,25 mg/kg de peso na terceira semana."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Responde a paciente simulada sobre os possíveis diagnósticos diferenciais:**\n(1) Dermatite por larvas ou por químicos;\n(2) Febre tifóide; \n(3) Malária;\n(4) Hepatites virais;\n(5) Estrongiloidíase;\n(6) Amebíase;\n(7) Mononucleose;\n(8) Tuberculose miliar;\n(9) Brucelose; \n(10) Doença de Chagas aguda.\n\n**Adequado:** Cita três itens ou mais.\n**Parcialmente adequado:** Cita dois itens.\n**Inadequado:** Cita um item ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

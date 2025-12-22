@@ -1,0 +1,171 @@
+{
+  "uid": 1551,
+  "hash": "ef5fbc4ba8102548d355b01f022bacbd9e6d0c540efc2962d5c3a1d1e650d4ef-1748732224",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Herpes zoster oftálmico",
+  "definicao": "Herpes zoster oftálmico é uma manifestação do herpes zoster que afeta o dermatônio oftálmico do nervo trigêmeo. Pode levar a complicações oculares graves se não tratado adequadamente.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "51.00",
+    "star": 0,
+    "time": 530,
+    "count": 776
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: atenção primária à saúde.\nTipo de atendimento: atendimento ambulatorial \n- Unidade básica de saúde (UBS).\n\n A unidade apresenta a seguinte infraestrutura:\n - Consultório médico e salas de procedimentos e observação.  \n\nDESCRIÇÃO DO CASO\nVocê é médico(a) de uma UBS em uma cidade do interior de São Paulo. Você atenderá um mulher com 68 anos de idade com queixa de dor intensa no rosto.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar anamnese da paciente;\n-Solicitar exames laboratoriais e de imagem se necessário;\n-Verbalizar e explicar o diagnóstico;\n-Orientar o plano terapêutico e as medidas de controle.",
+  "script_ator": "**DADOS PESSOAIS:**\nMaria, 68 anos, aposentada.\n\n**MOTIVO DE CONSULTA:**\nDr(a) estou sentindo um dor intensa no rosto que está me incomodando muito.\n\n**Sobre a DOR:**\n**Tempo de evolução da dor:** Tem 2 dias.\n**Localização:** No lado direito do rosto.\n**Irradiação da dor:** Nega.\n**Característica da dor:** Do tipo queimação e choque.\n**Intensidade da dor:**  É uma dor intensa, 8 na escala de dor.\n**Progressão dos sintomas**:  Está piorando com o tempo.\n**Fatores de melhora ou Fatores de piora**:  Nega.\n**Frequência da dor:** Primeiro episódio.\n**Uso de medicamentos**: Não ingeri remédios.\n**Trauma ou contato com substâncias irritantes ou animais ou insetos:** Nega.\n\n**SINTOMAS ASSOCIADOS:**\n**Mal- estar geral:** Sim.\n**Dor de cabeça:** Nega.\n**Enjoos ou vômitos:** Nega.\n**Prurido:** Nega.\n**Perda de visão**: Nega.\n**Lacrimejamento:** Nega.\n**Fotofobia:** Nega.\n**Não apresento outros sintomas**.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n**Comorbidades**: Diabetes.\n**Medicações**: Metformina.\n**Alergias**: Nega.\n**Cirurgia prévia**: Nega.\n**Internações prévias:** Nega.\n**Conviventes na mesma moradia:** Moro com meu esposo e filho.\n**Sintomas nos conviventes da casa:** Eles estão sem sintomas.\n**Varicela na infância (catapora):** Sim. \n\n**HÁBITOS**:\n**Tabagismo**: Nega.\n**Etilismo**: Nega.\n**Drogas ilícitas**: Nega.\n**Atividade Física:**  Pratico Pilates.\n**Dieta:** Alimentação balanceada.\n\n**DÚVIDAS:**\n**Dúvida 1:** Não poderia ser outra coisa?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais Vitais:**\n\n**Pressão Arterial:** 130 x 85 mmHg\n\n**Frequência Cardíaca:** 82 bpm\n\n**Temperatura:** 37,5°C\n\n\n\nBom estado geral, acianótica e anictérica. \n\n\n\n**Aparelho cardiovascular:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros ou turgência jugular. \n\n**Aparelho respiratório:** Murmúrio vesicular bem distribuído. Sem ruídos adventícios. \n\n**Abdome:** Normotenso, normotimpânico, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes. Sem visceromegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1748737404.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia",
+      "conteudo": "Ectoscopia",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Cumprimenta a paciente simulada;\n(2) Identifica-se; \n(3) Dirige-se a paciente simulada pelo nome, pelo menos uma vez; \n(4) Pergunta o motivo da consulta; \n(5) Ouve a paciente com atenção.\n\n**Adequado:** Realiza as cinco ações.\n**Parcialmente adequado:** Realiza de duas a quatro ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) Estabelece contato visual e \n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma das ações.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala do paciente simulado sem interrompê-lo.**\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação ou não realiza a ação integralmente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível ao paciente simulado, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Utiliza linguagem acessível.\n**Inadequado:** Não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Responde às perguntas do paciente simulado.**\n\n**Adequado:** Responde às perguntas.\n**Inadequado:** Não responde às perguntas",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre as características da dor: **\n(1) Tempo desde o início do quadro;\n(2) Tipo de dor;\n(3) Localização e irradiação;\n(4) Intensidade ou graduação;\n(5) Fatores de melhoria;\n(6) Fatores de agravamento; e,\n(7) Uso de medicamentos.\n\n**Adequado:** Pergunta seis ou mais características.\n**Parcialmente adequado:** Pergunta quatro a cinco características.\n**Inadequado:** Pergunta uma a três características ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta sobre sintomas associados:**\n(1) Cefaleia;\n(2) Mal-estar;\n(3) Febre;\n(4) Náuseas ou vômito ou dor abdominal; e,\n(5) Alterações visuais.\n\n**Adequado**: Pergunta quatro a cinco manifestações.\n**Parcialmente adequado**: Pergunta três manifestações.\n**Inadequado**: Pergunta uma ou duas manifestações ou não pergunta sobre manifestação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Pergunta sobre a existência de lesões em mucosas (boca, genitália ou ânus).**\n\n**Adequado:** Pergunta se há lesões em mucosas.\n**Inadequado:** Não pergunta sobre lesões em mucosas",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Descreve as características da lesão: **\n(1) Placa/base eritematosa; \n(2) Associação com lesões vesiculares;\n(3) Obedece ao trajeto de um dermátomo no ramo oftálmico do nervo trigêmeo.\n\n**Adequado:** Descreve as três características da lesão.\n**Parcialmente adequado:** Descreve duas características da lesão.\n**Inadequado:** Descreve uma característica da lesão ou não descreve característica alguma.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza diagnóstico de Herpes Zoster oftálmico.**\n\n**Adequado:** Realiza o diagnóstico.\n**Inadequado:** Não realiza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Cita os principais diagnósticos diferenciais para o caso:**\n(1) Celulite Pré-septal ou Orbitária;\n(2) Nova varíola ou monkeypox;\n(3) Erisipela/Celulite Facial. \n(4) Dermatite de Contato;\n(5) Neuralgia do Trigêmeo;\n(6) Varicela.\n\n**Adequado:** Cita de cinco a seis principais diagnósticos diferenciais.\n**Parcialmente adequado:** Cita dois a quatro principais diagnósticos diferenciais.\n**Inadequado:** Cita um dos principais diagnósticos diferenciais ou não cita diagnóstico diferencial algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica tratamento: **\n(1) Medicações sintomáticas (analgésico/antitérmico e/ou anti-inflamatório); \n(2) Antiviral oral (Aciclovir, Fanciclovir, Valaciclovir).\n\n**Adequado:** Indica ambos os tratamentos.\n**Parcialmente adequado:** Indica um dos tratamentos.\n**Inadequado:** Não indica tratamento algum.\n\n**Atenção: A indicação de anti-histamínicos e/ou posologia do antiviral não afeta a pontuação nesta questão.**",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

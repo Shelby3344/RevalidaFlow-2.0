@@ -1,0 +1,182 @@
+{
+  "uid": 1402,
+  "hash": "7915352a-0d8f-458e-b70a-9d7a9ab63664",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Crise de ansiedade",
+  "definicao": "Uma crise de ansiedade é um episódio repentino de medo, ansiedade ou desconforto extremo que pode desencadear uma resposta física e emocional intensa. \nOs sintomas de uma crise de ansiedade podem incluir:\nPalpitações cardíacas\nSudorese\nTremores\nFalta de ar\nSensação de sufocamento\nTontura\nNáusea\nCalafrios ou ondas de calor\nPensamentos acelerados ou descontrole mental\nInstabilidade comportamental",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "79.50",
+    "star": "4.5",
+    "time": 577.5,
+    "count": 3706
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial \n- Unidade básica de saúde (UBS).\n\nA unidade conta com a seguinte infraestrutura:\n-Sala de atenção médica;\n-Leito de repouso em enfermaria;\n-Eletrocardiograma;\n-E-multi;\n-Apoio de psiquiatria.\n\nDescrição do caso:\nPaciente busca atenção médica em demanda espontânea por falta de ar, palpitações e sudorese.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar a anamnese dirigida à queixa principal da paciente;\n-Solicitar exames complementários, caso necessário, \n-Verbalizar a hipótese diagnóstica;\n-Informar condutas terapêuticas e seguimento.",
+  "script_ator": "**DADOS PESSOAIS:**\n-João, 19 anos, namorando, estudante. \n**SE APRESENTAR OFEGANTE DURANTE A ESTAÇÃO E COM FACE DE MEDO**.\n\n**MOTIVO DE CONSULTA:** \n-Dr(a), eu não consigo respirar, o ar não entra, não sei o que fazer.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**-Tempo de evolução:** Tem 4 horas que estou assim.\n**-Progressão clínica:** Começou leve e está cada vez mais forte.\n**-Sensação de morte iminente:** Sim, eu acho que eu vou morrer, eu tenho certeza na verdade.\n**-Episódios anteriores:** Não, é a primeira vez que isso acontece.\n\n**SINTOMAS ASSOCIADOS**:\n**-Boca seca:** Sim.\n**-Palpitação:** Sinto que meu coração está acelerado, parece que vai sair pela minha boca. \n\n**FATORES DESENCADEANTES**:\n**-Episódio de estresse prévio:** Ontem de noite eu briguei com a minha namorada, ela foi embora para a casa dela e não atende mais minhas ligações e não responde mensagem, isso está me tirando do sério, se eu morrer a culpa é dela.\n\n**ANTECEDENTES PESSOAIS:**\n**-Comorbidades:** Eu acho que não tenho nenhuma doença. \n**-Uso crônico de medicamentos:** Tomo rivotril para dormir. \n**-Alergias:** Sou alérgico a amendoim.\n\n**HÁBITOS**:\n**-Tóxicos:** Tenho o costume de tomar uma taça de vinho ao dia, mas não fumo e nem uso drogas.\n**-Dieta:** Tenho hábitos saudáveis, como muitos legumes e verduras.\n**-Atividade física:** Não gosto muito de práticas esportes, sou mais de leituras e filmes. \n**-Qualidade de sono:** Tenho muita insônia e dificuldade para dormir, porque quando eu deito minha cabeça não desliga.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- Pressão arterial: 120x80 mmHg\n\n- Frequência cardíaca: 80 batimentos por minuto\n\n- Frequência respiratória: 16 incursões por minuto\n\n- Saturação de O2: 99%\n\n- Temperatura axilar: 36.4° C\n\n\n\n**Estado Geral:** Paciente em regular estado geral, ofegante, choroso, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** Ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** Abdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Eletrocardiograma ",
+      "conteudo": "Ritmo sinusal\n\nFrequência cardíaca 60 BPM\n\nOnda P presente, com duração inferior a 0,12 segundos\n\nIntervalo PR com duração de 0,15 segundos\n\nComplexo QRS com duração de 0,08 segundos\n\nEixo elétrico entre -30º e +90º\n\nAusência de arritmias e sobrecargas",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**\n(1) Cumprimenta o paciente simulado; \n(2) Identifica-se; e, \n(3) Dirige-se a ele pelo nome, pelo menos uma vez. \n\n**Adequado:** Realiza os três itens. \n**Parcialmente adequado:** Realiza um item. \n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Demonstra empatia com o paciente:** \n(1) Estabelece contato visual; e, \n(2) Mantém postura atenta e interessada ao longo da consulta. \n\n**Adequado:** Realiza os dois itens. \n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Usa linguagem acessível, evitando termos de difícil compreensão. **\n\n**Adequado:** Evita termos de difícil compreensão. \n**Inadequado:** Não evita termos de difícil compreensão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Escuta ativamente a fala da paciente, sem interrompê-la.**\n\n**Adequado**: Realiza a ação. \n**Inadequado**: Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Age com postura empática:**\n(1) Compartilha confiança com o paciente simulado; \n(2) Não banaliza/ naturaliza/ desacredita/ minimiza o adoecimento/ sofrimento do paciente simulado; \n(3) Não julga o paciente simulado. \n\n**Adequado:** Realiza os três itens. \n**Parcialmente adequado:** Realiza dois itens. \n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga sobre o motivo de consulta:**\n(1) Tempo desde o início do quadro;\n(2) Progressão da severidade dos sintomas;\n(3) Fatores de melhoria OU fatores de agravamento;\n(4) Uso de medicamentos;\n(5) Fatores desencadeantes;\n(6) Episódios prévios. \n\n**Adequado:** Investiga os quatro ou mais itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre antecedentes e queixas prévias:**\n(1) Doenças psiquiátricas (próprio e familiar);\n(2) Doenças prévias (comorbidades) e uso de medicamentos;\n(3) Alergias; e,\n(4) Status vacinal.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga hábitos:**\n(1) Uso de drogas lícitas e ilícitas;\n(2) Hábitos alimentares;\n(3) Prática de atividade física; e,\n(4) Qualidade de sono.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita exame físico.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita eletrocardiograma.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Formula a hipótese diagnóstica de Crise de Ansiedade OU Crise de Pânico.**\n\n**Adequado:** Oferece diagnóstico de Crise de Ansiedade Ou Crise de Pânico.\n**Inadequado:** Não oferece diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita:**\n(1) Apoio da E-multi; e,\n(2) Apoio de psiquiatria.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Indica:**\n(1) Oferece um ambiente seguro; e,\n(2) Encoraja o paciente a que aceite um acompanhamento por profissionais na área de saúde mental.\n\n**Adequado:** Indica os dois itens.\n**Parcialmente adequado:** Indica um item.\n**Inadequado:** Não indica nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

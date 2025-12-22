@@ -1,0 +1,205 @@
+{
+  "uid": 1528,
+  "hash": "21b7562cf1054f6ab2e8d2f2ceeeefa4605d202781c265a73ffb30f4504a9e44-1746031820",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Doença da arranhadura do gato",
+  "definicao": "A Doença da arranhadura do gato é uma infecção causada pela bactéria Bartonella henselae. Geralmente, ocorre após uma arranhadura ou mordida de gato infectado. A condição é caracterizada por linfadenopatia regional dolorosa, podendo ser acompanhada por febre e outros sintomas sistêmicos. É mais comum em crianças e adolescentes, especialmente aqueles que têm contato frequente com gatos.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "27.00",
+    "star": 0,
+    "time": 583,
+    "count": 1674
+  },
+  "cenario": "Local de atuação: Unidade de pronto atendimento\nA unidade possui a seguinte infraestrutura:\n- Setor de radiologia convencional;\n- Laboratório de análises clínicas.\n\nDescrição do caso:\nVocê é um médico na UBS e recebe Clara, uma criança de 9 anos, trazida por sua mãe, Jussara. A mãe relata que Clara apresenta febre, alterações oculares e caroços doloridos na axila e pescoço.",
+  "tarefas": "- Realizar anamnese completa;\n- Solicitar e interpretar exame físico;\n- Estabelecer e comunicar hipótese diagnóstica;\n- Solicitar exames complementares;\n- Propor conduta terapêutica;\n- Cite possíveis complicações do caso;\n- Dar orientações ao paciente e sanar dúvidas.",
+  "script_ator": "**DADOS DA MÃE:**\n- Jussara, 38 anos, comerciante.\n\n**DADOS DA CRIANÇA:**\n- Clara, 9 anos.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a), minha filha está com febre, alteração nos olhos e com caroços doloridos no pescoço e na axila.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n\n**FEBRE**\n-**Inicio: **Fazem 2 dias.\n-**Graduou:** Cheguei a medir em casa e estava 38,7ºC.\n-**Tem predomínio de horário:** Não consta.\n-**Recorrente ou continua:** Não consta.\n-**Sudorese:** Sim, percebi a camiseta dela um pouco molhada.\n**-Calafrios:** Não.\n**-Tomou alguma medicação:** Não.\n\n**ALTERAÇÃO OCULAR**\n**-Característica:** Doutor(a), não sei te dizer, nunca vi isso antes, parece que está meio para fora.\n**-Inicio:** Começou faz um dia.\n**-Secreção:** Nega.\n**-Ardência:** Nega.\n**-Coceira/irritação:** Sim, está bastante irritado e vermelho.\n\n**LINFONODOMEGALIA**\n**-Inicio:** Apareceram esses caroços nela fazem dois dias.\n**-Quantidade:** Pelo que eu percebi são três, na axila e pescoço.\n**-Dor:** Sim, ela se queixa de muita dor neles.\n**-Crescimento:** Nega\n**-Tem secreção:** Nega\n**-Consistência:** É bem firme.\n**- Móvel ou fixo:** Parece que é móvel.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Náuseas ou Vômitos:** Nega.\n**-Manchas no Corpo:** Nega.\n**-Sintomas geniturinários:** Nega.\n**-Evacuatórios:** Normais.\n**-Dor abdominal:** Não consta.\n**-Irritabilidade:** Sim, está mais chatinha nos últimos dias.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- **Moradia:** Moramos em quatro pessoas, eu, a Clara, meu marido e meu outro filho, todos saudáveis.\n-**Condições sanitárias:** Possuímos rede de esgoto, água encanada, e mantemos uma higiene adequada do local.\n-**Animais de estimação/contato com animais:** Sim doutor(a), em casa possuímos, um cachorro, passarinhos e 3 gatos.\n-**Arranhadura/acidente com os animais:** Não sei te dizer, eu saio para trabalhar e eles ficam com a babá e os bichinhos.\n- **Alergias:** Nega\n-**Uso de medicamentos:** Nega\n\n**ALIMENTAÇÃO:**\n- Se alimenta bem, com frutas, verduras e vegetais.\n\n**CADERNETA DA CRIANÇA E VACINAL:**\n- Carteira de vacinação em dia.\n\n**OUTRAS INFORMAÇÕES:**\n- Crescimento e desenvolvimento normais.\n\n**DÚVIDAS:**\n**Pergunta 1:** - Como ele pegou essa doença?\n**Pergunta 2:** -O que causou? Ele precisa coletar exames então doutor(a).\n**Pergunta 3:** - Existe algum tratamento específico?\n**Pergunta 3:** - Tem certeza que é isso?\n**Pergunta 4:** - O que eu faço com meus animais? (Verbalizar somente se o candidato acertar o diagnóstico e a transmissão).\n\n**Se questionado OUTRAS PERGUNTAS, responda:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais Vitais:**\n\n- Frequência cardíaca: 102 bpm\n\n- Frequência respiratória: 16 irpm\n\n- Temperatura: 38,2°C\n\n- Pressão arterial: 110/70 mmHg\n\n\n\n**Estado Geral:**\n\nPaciente em bom estado geral, febril, normocorada, hidratada, acianótica e anictérica.\n\n\n\n**Exame Físico Detalhado:**\n\n- Pele: Sem exantemas\n\n- Mucosas: Úmidas\n\n- Linfadenomegalia: \n\n  - Pré-auricular esquerda, 1,7 cm, móvel, dolorosa, firme\n\n  - Cervical posterior esquerda, 2,9 cm, móvel, dolorosa, firme\n\n  - Axilar esquerda, 3,5 cm, móvel, dolorosa, firme\n\n  - Ausência de linfonodos aumentados em outras cadeias\n\n\n\n- **Cardiovascular:** Bulhas normofonéticas, sem sopros.\n\n- **Respiratório:** MV presente e simétrico, sem ruídos adventícios.\n\n- **Abdome:** Plano, flácido, indolor, sem visceromegalias.\n\n- **Neurológico:** Sem déficits focais, reflexos fisiológicos.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1746033695.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DAS LESÕES",
+      "conteudo": "VERBALIZE O ACHADO.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Sorologia para Bartonella henselae",
+      "conteudo": "**Sorologia para Bartonella henselae: Positivo**.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n- Hemácias: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n- Hemoglobina: 14,2 g/dl (Valor de referência: 14 a 18 g/dl)\n\n- Hematócrito: 34% (Valor de referência: 39 - 52%)\n\n- VCM: 93 fL (Valor de referência: 80 a 100 fL)\n\n- HCM: 31 pg (Valor de referência: 26 - 33 pg)\n\n- CHCM: 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n- RDW CV: 12% (Valor de referência: 11 - 14%)\n\n\n\nPlaquetas: 179.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\nLeucograma:\n\n- Leucócitos: 12.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n- Neutrófilos: 75% (Valor de referência: 40 - 70%)\n\n- Bastões: 7% (Valor de referência: 0 - 5%)\n\n- Linfócitos: 20% (Valor de referência: 20 - 50%)\n\n- Basófilos: 1% (Valor de referência: 0 - 2%)\n\n- Eosinófilos: 2% (Valor de referência: 0 - 6%)\n\n- Monócitos: 4% (Valor de referência: 4 - 8%)\n\n\n\n**Proteína C reativa:** 2 mg/dl (Valores de referência: < 0,3 mg/dl)\n\n\n\n**Glicemia de jejum:** 80 mg/dl (60 - 99 mg/dl)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza as cinco ações.\n**Parcialmente adequado:** Realiza de duas a quatro ações.\n**Inadequado:** Realiza uma ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona sobre a febre:**\n(1) Início;\n(2) Graduou;\n(3) Tem predomínio de horário;\n(4) Recorrente ou continua;\n(5) Sudorese ou calafrios;\n(6) Tomou alguma medicação.\n\n**Adequado:** Questiona cinco ou seis itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre a alteração ocular:**\n(1) Início;\n(2) Característica;\n(3) Secreção;\n(4) Ardência;\n(5) Coceira/irritação;\n(6) Aplicou alguma medicação.\n\n**Adequado:** Questiona cinco ou seis itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona sobre a linfonodomegalia:**\n(1) Início;\n(2) Quantidade;\n(3) Dor;\n(4) Tem secreção;\n(5) Consistência;\n(6) Mobilidade.\n\n**Adequado:** Questiona cinco ou seis itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Questiona sobre sintomas associados:**\n(1) Náuseas ou Vômitos;\n(2) Manchas no Corpo;\n(3) Sintomas geniturinários;\n(4) Dor abdominal;\n(5) Irritabilidade;\n(6) Artralgia/ Mialgia.\n\n**Adequado:** Questiona cinco ou seis itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Questiona sobre:**\n(1) Contato com animais/gatos;\n(2) Acidentes com animais/gatos;\n(3) Condições de moradia;\n(4) Condições sanitárias;\n(5) Caderneta da criança e vacinal.\n\n**Adequado:** Questiona quatro ou cinco itens.\n**Parcialmente adequado:** Questiona dois ou três itens.\n**Inadequado:** Questiona um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "É importante detalhar o contato com animais, especialmente gatos, devido à possível associação com a doença da arranhadura do gato."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exame físico completo e ectoscopia das lesões:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza os seguintes achados no exame físico:**\n(1) Linfadenomegalia: Pré-auricular esquerda, cervical posterior, axilar esquerda;\n(2) Síndrome oculoglandular de Parinaud ou conjuntivite granulomatosa.\n\n**Adequado:** Verbaliza os dois itens.\n**Inadequado:** Verbaliza um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita hemograma completo e verbaliza:**\n(1) Leucocitose com desvio à esquerda.\n\n**Adequado:** Solicita exame e verbaliza de maneira adequada sua alteração. \n**Parcialmente adequada:** Solicita exame mas não verbaliza sua alteração.\n**Inadequado:** Não solicita exame.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.35"
+      },
+      "dica_teorica": "O hemograma ajuda a avaliar o estado inflamatório, e a sorologia específica confirma a infecção por Bartonella henselae."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita Sorologia para Bartonella henselae:**\n\n**Adequado:** Solicita exame de maneira adequada.\n**Inadequado:** Não solicita exame.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza o diagnóstico de Doença da Arranhadura do Gato, explicando à mãe que sua filha já apresenta uma complicação, conhecida como Síndrome Oculoglandular de Parinaud ou conjuntivite granulomatosa.**\n\n**Adequado:** Verbaliza o diagnóstico e explica adequadamente.\n**Parcialmente adequado:** Verbaliza o diagnóstico mas não menciona sua complicação.\n**Inadequado:** Não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Conduta terapêutica:**\n(1) Orienta que a condição é autolimitada;\n(2) Orienta o uso de analgésicos e antipiréticos para alívio dos sintomas;\n(3) Prescreve Sulfametoxazol + Trimetoprima 800 mg + 160 mg, ou Ciprofloxacino, ou Doxiciclina, ou Claritromicina, ou Azitromicina, todos por via oral, até a melhora clínica.\n\n**Adequado:** Orienta os três itens.\n**Parcialmente adequado:** Orienta dois itens.\n**Inadequado:** Orienta um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.55"
+      },
+      "dica_teorica": "A maioria dos casos de Doença da arranhadura do gato são leves e autolimitados, mas o tratamento pode ser necessário em casos sintomáticos."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza outras possíveis complicações:**\n(1) Sepse;\n(2) Envolvimento hepatoesplênico;\n(3) Envolvimento neurológico em casos raros.\n\n**Adequado:** Verbaliza dois ou três itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Embora raras, complicações podem ocorrer e devem ser discutidas para monitoramento adequado."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta sobre medidas de prevenção:**\n(1) Limitar a interação com gatos;\n(2) Controle de pulgas;\n(3) Higiene das mãos;\n(4) Lave imediatamente qualquer arranhão ou mordida com água e sabão;\n(5) Levar gatos para consulta com veterinário.\n\n**Adequado:** Orienta quatro ou cinco itens.\n**Parcialmente adequado:** Orienta dois ou três itens.\n**Inadequado:** Orienta um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Um gato adquire a bactéria Bartonella principalmente através da picada de pulgas infectadas, que são os vetores mais comuns da doença. As pulgas, ao se alimentarem do sangue de um gato infectado, ingurgitam a bactéria, que se multiplica no seu intestino e é eliminada nas fezes. Quando um gato se coça, as fezes das pulgas podem entrar em contato com a pele do animal, infectando-o."
+    }
+  ]
+}

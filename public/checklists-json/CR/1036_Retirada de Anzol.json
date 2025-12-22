@@ -1,0 +1,193 @@
+{
+  "uid": 1036,
+  "hash": "Jwgom49tyYjfrt7b-adKmdIa",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Retirada de Anzol",
+  "definicao": "Acidentes com anzóis são muito comuns. É importante considerar vários fatores no momento de retirá-lo como por exemplo a localização, profundidade, tipo de anzol, etc.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "58.00",
+    "star": 0,
+    "time": 575,
+    "count": 3878
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Unidade Básica de Saúde (UBS).\n\nA unidade possui a seguinte infraestrutura:\n-Laboratório de análises clínicas; \n-Sala de procedimentos. \n\nDESCRIÇÃO DO CASO: \nRobson, 38 anos, consulta por acidente com anzol há 40 minutos.",
+  "tarefas": "- Realizar anamnese;\n-Solicitar e interpretar exame físico;\n-Solicitar exames complementares, se necessário;\n-Citar uma contraindicação para o procedimento;\n-Verbalizar os passos para a retirada do anzol;\n-Citar duas possíveis complicações;\n-Dar orientações ao paciente e sanar dúvidas, se houver.",
+  "script_ator": "**DADOS PESSOAIS**\n- Me chamo Robson, tenho 38 anos, sou solteiro e sou engenheiro. \n\n**MOTIVO DE CONSULTA**\n- Dr.(a), eu estava pescando com um colega no rio e quando ele foi lançar o anzol, ele acabou pegando no meu braço.\n\n**SOBRE O MOTIVO DE CONSULTA**\n**-Início/tempo de evolução:** Aconteceu há uns 40 minutos.\n**-Localização:** Braço esquerdo. \n**-Tipo de anzol:**  Um anzol de haste reta e várias farpas.\n**-Assepsia da ferida:** Não tentei limpar. \n**-Frequência/Episódios anteriores:**  É a segunda vez que isso acontece comigo. \n**-Sobre o episódio anterior:** Foi tranquilo, era um anzol de uma ponta só, a gente que tirou, só não tirei este porque não consegui.\n**-Presença de sangramentos:** Sangrou um pouco, mas logo em seguida parou.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS** \n**-Comorbidades/doenças intestinais/doenças atuais:** Nega.\n**-Medicamentos:** Nega. \n**-Alergias:** Nega.\n**-Cirurgias:** Retirei o apêndice quando era criança. \n**-Estado vacinal/vacina antitetânica: **Não lembro a última vez que fui me vacinar, e eu perdi meu cartão de vacinas.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Ectoscopia da Lesão",
+      "conteudo": "Braço esquerdo perfurado por um anzol de duas pontas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n**- Pressão arterial:** 120 x 85 mmHg. \n\n**- Frequência cardíaca:** 73 batimentos por minuto.\n\n**- Saturação de O2:** 99%. AA \n\n**- Temperatura axilar:** 36,5 °C. \n\n**- Frequência respiratória:** 18 incursões por minuto.\n\n \n\n**Ectoscopia Geral:** \n\nPaciente em bom estado geral, afebril, normocorado, normohidratado, acianótico, anictérico, alerta e orientado em tempo, espaço e pessoa. \n\n\n\n**Aparelho Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Aparelho Respiratório:**\n\nAusculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados. .",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**\n(1) Identifica-se; e\n(2) Cumprimenta o paciente simulado;\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza somente uma ação.\n**Inadequado: ** Não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre o motivo de consulta:** \n(1) Localização; \n(2) Tempo de evolução;\n(3) Antissepsia OU uso de substância no local;\n(4) Presença de sangramento.\n\n**Adequado:** Pergunta sobre os quatro itens.\n**Parcialmente adequado:** Pergunta apenas dois itens.\n**Inadequado:** Pergunta apenas um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Procedimento com o paciente simulado I:** \n(1) Explica o procedimento ao paciente; \n(2) Obtém autorização; e \n(3) Determina o local da perfuração do anzol.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Raramente, anzóis entranhados podem penetrar em uma estrutura importante, e esse método de avanço pode causar dano significativo; deve-se fazer exploração aberta."
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Procedimento com o paciente simulado II:**\n(1) Lava as mãos;\n(2) Solicita e coloca a luva estéril;\n(3) Solicita e coloca o gorro; \n(4) solicita e coloca máscara de procedimento;\n(5) Solicita e coloca óculos de proteção.\n\n**Adequado:** Realiza de quatro a cinco itens.\n**Parcialmente adequado:** Realiza três itens.\n**Inadequado:** Realiza duas ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Procedimento com o paciente simulado III:**\n(1) Verbaliza que é necessário visualizar o orifício por onde o anzol entrou; e \n(2) Projetar a altura da saída dele; e \n(3) Pressionar o corpo do objeto na tentativa de fazer a própria curvatura.\n\n**Adequado:** Realiza as três ações. \n**Parcialmente adequado:** Realiza duas ações. \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Procedimento com o paciente simulado IV:** \n(1) Utiliza a agulha 40 x 12 para aspirar o anestésico/lidocaína do frasco, dose de 7-10 mg/kg (validar esse item se verbalizado pelo menos a dose do anestésico); \n(2) Troca a agulha pela hipodérmica; \n(3) Introduz o anestésico com a técnica de bloqueio de campo regional sobre a área na qual a projeção da saída do anzol foi determinada.\n\n**Adequado:** Realiza as três ações. \n**Parcialmente adequado:** Realiza duas ações \n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Procedimento com o paciente simulado V:**\n(1) Realiza uma incisão pequena no local utilizando uma lâmina de bisturi nº 11.\n\n**Adequado:** Realiza.\n**Inadequado:** Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Procedimento com o paciente simulado VI:**\n(1) Com o auxílio de uma pinça hemostática curva, introduz o anzol no sentido de sua curvatura, até que a exposição da extremidade e da farpa aconteçam; e\n(2) Com o auxílio de um alicate, corta-se a extremidade e a farpa.\n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza uma ação. \n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Procedimento com o paciente simulado VII:**\n(1) Segura a extremidade distal do anzol com uma pinça hemostática; e \n(2) Retira pelo orifício de entrada.\n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza uma ação. \n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Procedimento com o paciente simulado VIII:**  \n(1) Lava o ferimento com soro fisiológico; e\n(2) Realiza curativo com gaze.\n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza uma ação. \n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza possíveis complicações:**\n(1) Comprometimento de estruturas adjacentes (tendões ou vasos ou nervos); \n(2) Sangramentos; \n(3) Hematomas; \n(4) Infecções; \n(5) Retenção de corpo estranho.\n\n**Adequado:** Verbaliza de três a cinco complicações. \n**Inadequado:** Verbaliza duas ou menos complicações.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza contraindicações do procedimento:** \n(1) Envolvimento ocular;\n(2) Penetração profunda em tendões/vasos/nervos.\n\n**Adequado:** Verbaliza uma contraindicação do procedimento. \n**Inadequado:** Não verbaliza nenhuma contraindicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita cartão de vacinas OU investiga histórico vacinal:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Indica a vacina antitetânica:**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

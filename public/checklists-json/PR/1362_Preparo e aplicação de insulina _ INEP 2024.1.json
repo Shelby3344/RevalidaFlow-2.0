@@ -1,0 +1,176 @@
+{
+  "uid": 1362,
+  "hash": "fbf598db-21c4-4f2d-b9c8-4fe3210bffa1",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Preparo e aplicação de insulina | INEP 2024.1",
+  "definicao": "A administração de insulina é o processo de injeção subcutânea do hormônio insulina para regular os níveis de glicose no sangue, utilizado principalmente no tratamento do diabetes.",
+  "origem": 1,
+  "ano_da_prova": "20241",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "61.00",
+    "star": 0,
+    "time": 496,
+    "count": 3829
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial \n- Unidade básica de saúde (UBS).\n\nA unidade básica de saúde (UBS) possui a seguinte infraestrutura:\n - Consultório médico e salas de procedimentos e observação.  \n\nDESCRIÇÃO DO CASO:\nVocê irá atender a um paciente chamado Manoel, de 65 anos, que vai a consulta de retorno agendada em uma UBS, a fim de receber orientação sobre o inicio do uso de insulina. Ele tem diabetes há 15 anos e, na última consulta, estava utilizando, em dose máxima, metformina e glicazida, apresentando resultado de hemoglobina glicada de 10%, o que motivou o início do uso de insulina. O paciente é eutrófico, ativo fisicamente e segue seu plano alimentar regularmente.",
+  "tarefas": "-Orientar o paciente como realizar o preparo e aplicação de insulina; \n-Demonstrar e verbalizar o preparo e a aplicação de 10 unidades de insulina NPH com seringa e agulha (usar os materiais e o molde posicionados sobre a mesa);\n-Anotar, na figura sobre a mesa, quatro possíveis locais de aplicação da insulina;\n-Orientar sobre os cuidados e sobre o descarte da seringa e da agulha;\n-Orientar o paciente sobre o armazenamento da insulina;\n-Informar seis sinais e sintomas da hipoglicemia e o respectivo tratamento.\n\nNÃO SERÁ NECESSÁRIO REALIZAR A ANAMNESE E NEM EXAME FÍSICO NESTA ESTAÇÃO.",
+  "script_ator": "**No decorrer do atendimento, caso a anamnese seja feita de maneira adequada pelo(a) participante, o paciente simulado poderá perguntar de forma espontânea:**\n\n• Qual o modo de preparo, armazenagem e aplicação da insulina?;\n• Quais as partes do corpo em que posso aplicar a injeção?;\n• Quais os cuidados que devo ter com a seringa e com a agulha após o uso e gostaria de saber se elas podem ser reaproveitadas?;\n• Como a seringa e a agulha deverão ser descartadas?;\n• Quais são os sintomas da hipoglicemia?;\n• Qual a conduta que ele devo tomar quando sentir os sintomas de hipoglicemia?.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FIGURA DO CORPO HUMANO",
+      "conteudo": "FIGURA DO CORPO",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**\n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se; e,\n(3) Dirige-se a ele pelo nome, pelo menos uma vez.\n\nAdequado: Realiza os três itens.\nParcialmente adequado: Realiza dois itens.\nInadequado: Realiza apenas um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2.** Estabelece **contato empático** com o paciente:\n(1) Mantém contato visual ao longo da consulta;\n(2) Mantém postura ativa e interessada ao longo da consulta; e,\n(3) Acolhe e tranquiliza o paciente quanto aos medos dele.\n\nAdequado: Realiza os três itens.\nParcialmente adequado: Realiza dois itens.\nInadequado: Realiza apenas um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Mantém o **diálogo respeitoso** com o paciente.**\n(1) Escuta a fala do paciente sem interrompê-lo; e,\n(2) Responde às perguntas do paciente.\n\nAdequado: Realiza os dois itens.\nParcialmente adequado: Realiza um item.\nInadequado: Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4.** Utiliza **linguagem acessível** com o paciente simulado,\nevitando termos técnicos de difícil compreensão:\n\nAdequado: Utiliza linguagem acessível.\nInadequado: Não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Demonstra e verbaliza** o passo a passo do **preparo da insulina:**\n(1) Higienizar as mãos com água e sabão, ou com álcool;\n(2) Limpar a tampa do frasco usando algodão com álcool;\n(3) Rolar, gentilmente, o frasco de insulina entre as mãos para misturá-la (não agitar o frasco);\n(4) Puxar o êmbolo da seringa;\n(5) Inserir a agulha no frasco e injetar o ar da seringa dentro do frasco;\n(6) Sem retirar a agulha, posicionar o frasco com a tampa para baixo;\n(7) Puxar o êmbolo lentamente aspirando a insulina;\n(8) Verificar se existem bolhas de ar; e,\n(9) Retirar seringa/agulha do frasco.\n\nAdequado: Demonstra e verbaliza os nove itens..\nParcialmente adequado: Demonstra e verbaliza seis a oito itens.\nInadequado: Demonstra e verbaliza cinco itens ou menos OU apenas verbaliza, e não demonstra os itens. OU não demonstra nem realiza os itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Demonstra a técnica de aplicação da insulina:**\n(1) Pinça levemente o local a ser injetado entre dois dedos;\n(2) Introduz a agulha completamente no molde;\n(3) Introduz a agulha em ângulo de 90°;\n(4) Injeta toda a insulina no molde;\n(5) Espera alguns segundos após a aplicação antes de retirar a agulha do molde.\n\nAdequado: Demonstra os cinco itens.\nParcialmente adequado: Demonstra três ou quatro itens.\nInadequado: Demonstra um ou dois itens OU não demonstra item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7.** Informa sobre o **armazenamento** da insulina:\n(1) Deve-se manter refrigerada a insulina sobressalente que não está em uso (o frasco fechado, lacrado ou ainda sem uso);\n(2) Após aberto, o frasco pode ser mantido em temperatura ambiente ou em refrigeração;\n(3) A insulina não deve ser congelada;\n(4) A insulina armazenada na geladeira deve ser colocada nas prateleiras do meio, ou nas prateleiras da parte inferior, ou na gaveta de verduras — longe das paredes; e,\n(5) Deve-se armazenar a insulina em sua embalagem original, acondicionada em recipiente plástico ou de metal com tampa.\n\nAdequado: Informa três ou mais itens.\nParcialmente adequado: Informa um ou dois itens.\nInadequado: Não informa item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8.** Informa os **cuidados com a seringa e com a agulha:**\n(1) A seringa e a agulha podem ser reaproveitadas pela mesma pessoa, desde que não tenham sido contaminadas;\n(2) Após o uso, a seringa deve ser “recapada” pela própria pessoa;\n(3) Não se deve higienizar a agulha com álcool.\n\nAdequado: Informa dois ou três itens.\nParcialmente adequado: Informa um item.\nInadequado: Não informa item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9.** Informa sobre o **descarte** de seringa e de agulhas:\n(1) O descarte deve ser realizado em um recipiente próprio para material perfurocortante (fornecido pela unidade básica de saúde — UBS), ou em um recipiente rígido resistente (ex.: frasco de amaciante);\n(2) O recipiente cheio deve ser entregue em locais destinados para recolher esse tipo de material (ex: UBS ou farmácia).\n\nAdequado: Informa os dois itens.\nParcialmente adequado: Informa um item.\nInadequado: Não informa item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10.** Assinala, na figura, os **locais de aplicação** da insulina:\n(1) Braços (parte externa e superior);\n(2) Coxas (parte anterior e lateral);\n(3) Região abdominal;\n(4) Região glútea.\n\nAdequado: Assinala três ou quatro itens.\nParcialmente adequado: Assinala dois itens.\nInadequado: Assinala um item OU não assinala item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Obs. CAB 36, Min. Saúde."
+    },
+    {
+      "idx": 11,
+      "descricao": "**11.** Informa sobre a importância da **alternância de local de aplicação** da insulina (para prevenção de lipodistrofia).\n\nAdequado: Informa.\nInadequado: Não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12.** Informa sobre os sinais ou sintomas de **hipoglicemia:**\n(1) Fome;\n(2) Tontura;\n(3) Fraqueza;\n(4) Cefaleia;\n(5) Confusão;\n(6) Coma;\n(7) Convulsão;\n(8) Cansaço;\n(9) Visão turva;\n(10) Sudorese;\n(11) Taquicardia ou palpitação;\n(12) Sensação desagradável de apreensão;\n(13) Mudança de humor e de comportamento;\n(14) Tremor;\n(15) Dormência ou formigamento nos lábios e na língua.\n\nAdequado: Informa seis ou mais itens.\nParcialmente adequado: Informa quatro ou cinco itens.\nInadequado: Informa três ou menos itens OU não informa item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13**. Informa sobre o **tratamento de hipoglicemia:**\n(1) Ingerir carboidratos de absorção rápida, tais como duas colheres de chá de açúcar, ou 100 mL de suco de fruta ou refrigerante, ou um copo de água com uma colher de sopa de açúcar, ou duas balas, ou uma colher de sopa de mel; e,\n(2) Caso o paciente não consiga engolir, orientar acompanhante a colocar açúcar ou mel embaixo da língua do paciente ou entre a gengiva e a bochecha, ou aplicar glucagon (injetável).\n\nAdequado: Informa os dois itens. \nParcialmente adequado: Informa um item.\nInadequado: Não informa item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

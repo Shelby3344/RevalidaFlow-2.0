@@ -1,0 +1,209 @@
+{
+  "uid": 1556,
+  "hash": "7dd3f5ec88854bf30f5f3247bbc6788918b98f38025d1f5bff82d3a4c3722d76-1749168086",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Cuidados paliativos no idoso",
+  "definicao": "Cuidados Paliativos no Idoso: uma abordagem que promove a qualidade de vida de pacientes (adultos ou crianças) e seus familiares, quando enfrentam problemas associados a doenças ameaçadoras da continuidade da vida, por meio da prevenção e do alívio do sofrimento. Requer identificação precoce, avaliação e tratamento impecável da dor e outros problemas de natureza física, psicológica, social e espiritual. Devem ser iniciados a partir do diagnóstico de qualquer doença que ameace a continuidade da vida, associados ou não à terapia curativa.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "73.50",
+    "star": 0,
+    "time": 577.5,
+    "count": 1679
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial \n-Unidade básica de saúde (UBS).\n\nA unidade apresenta a seguinte infraestrutura:\n-Consultório médico;\n-Salas de procedimentos;\n-Salas de observação.\n\nDescrição do caso:\nVocê trabalha em uma Unidade Básica de Saúde (UBS)  e realizará o atendimento, em demanda espontânea, de uma mulher com 79 anos de idade, acompanhado pela filha, queixando-se de dor intensa.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Demonstrar habilidades de comunicação e profissionalismo;\n-Acolher adequadamente a demanda da paciente;\n-Realizar a abordagem integral da pessoa em seu contexto;\n-Pactuar com a paciente o plano de cuidados.",
+  "script_ator": "**Paciente:** Maria da Silva, 79 anos, solteira, aposentada (MOSTRE-SE ANGUSTIADA E PREOCUPADA DURANTE A CONSULTA).\n**Nome da filha**: Cristina.\n\n**Motivo de consulta:**\nDoutor(a), estou com muita dor, cansaço e não consigo respirar direito.\n\n**SOBRE A DOR:**\n**Tempo de evolução:** A dor começou há, aproximadamente, 9 meses.\n**Localização:** Sinto no corpo todo, principalmente nas costas.\n**Intensidade:** É uma dor intensa, 9 a 10 na escala de dor.\n**Características:** Continua.\n**Irradiação:** Está se espalhando para todo o corpo.\n**Progressão dos sintomas:** A cada dia está piorando.\n**Fatores de melhoras ou Fatores de Piora:** Piora à noite e com o movimento.\n**Medicação:** Uso dipirona, mesmo assim a dor piorou.\n\n**SOBRE O CANSAÇO:**\n**Tempo de evolução:** Há, aproximadamente, 9 meses.\n**Duração:** O tempo todo estou cansada.\n**Intensidade:** Presente ao mínimo esforço.\n**Progressão:** Sinto que ao longo do tempo está piorando.\n**Fatores de piora:** Com o esforço.\n**Fatores de melhoras:** Ficar em repouso.\n\n**SOBRE A DISPNEIA/FALTA DE AR:**\n**Tempo de evolução:** Há, aproximadamente, 9 meses\n**Intensidade:** Aos mínimos esforços.\n**Episódios noturnos:** Sim.\n**Progressão:** Começou leve e sinto que ao longo do tempo está piorando.\n**Fatores de piora:** Ao caminhar, fazer atividades simples.\n**Fatores de melhoras:** Ficar sentada em repouso.\n\n**FATORES DESENCADEANTES:**\nHá 9 meses tenho um câncer de mama sem possibilidade de cura. Apresentando progressão da doença com metástases pulmonares e ósseas.\n\n**SINTOMAS ASSOCIADOS:**\n**Mal-estar geral:** Sim.\n**Náuseas:** Frequente, piorando após as refeições.\n**Ansiedade:** Aumento desde a progressão da doença.\n**Perda de peso:** Significativa nos últimos meses.\n**Vômitos**: Nega.\n**Febre:** Nega.\n**Nega outros sintomas.**\n\n**SE PERGUNTADO POR REDE DE APOIO:**\n-Tenho minhas duas filhas e a igreja.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS:**\n**Comorbidades:** Câncer de mama.\n**Medicamentos:** Dipirona e óleo mineral.\n**Alergias**: Nega.\n**Cirurgia prévia e Internações prévias:** Foi submetida a mastectomia radical, radioterapia e quimioterapia.\n**Cartão de vacina:** Está completa.\n\n**ANTECEDENTES FAMILIARES:**\n**Mãe:** Desconhecido.\n**Pai:** Desconhecido.\n\n**HÁBITOS:**\n**Tabagismo:** Nega.\n**Etilismo:** Nega.\n**Drogas lícitas ou ilícitas:** Nega.\n**Atividade física:** Nega.\n**Alimentação**: Não tenho vontade de comer quase nada. Sinto náuseas o tempo todo, e tudo me enjoa. \n**Urina:** Nega alterações.\n**Fezes:** Evacuação a cada 3 dias.\n**Sono**: Não consigo dormir. A dor não deixa, e fico pensando em tudo. No que vai ser de mim, das minhas filhas. Sinto uma tristeza profunda, uma angústia.\n\n**Se perguntado qual desejo da paciente:** \n-Dr(a) quero diminuir essa dor e ficar perto da minha família.\n\n**Dúvidas:**\n**Dúvidas 1:** Dr(a) eu como filha e cuidadora da minha mãe, vou ter alguma assistência ou atenção?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 130x85 mmHg\n\n- **Frequência cardíaca:** 88 batimentos por minuto\n\n- **Frequência respiratória:** 20 incursões por minuto\n\n- **Saturação de O2:** 92%\n\n- **Temperatura axilar:** 36,5°C\n\n\n\n**Estado Geral:** Paciente em estado geral regular, orientada em tempo, espaço e pessoa; corada, hidratada.\n\n**Cardiovascular:** Inalterado.\n\n**Respiratório:** Murmúrio vesicular diminuído em campos pulmonares inferiores, sem ruídos adventícios.\n\n**Abdominal:** Abdome plano, flácido, indolor à palpação superficial e profunda, sem massas palpáveis.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta a paciente e a filha;\n(2) Identifica-se; e,\n(3) Dirige-se a elas pelo nome, pelo menos uma vez.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Acolher a paciente desde o início fortalece a relação terapêutica."
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Contato visual e linguagem não verbal: **\n(1) Estabelece contato visual; \n(2) Mantém linguagem não verbal adequada. \n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza apenas uma das ações. \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Manter o contato visual e uma postura empática são fundamentais para o conforto do paciente."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta, ao longo da consulta, a fala do paciente simulado sem interrompê-lo.**\n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Conduz a consulta utilizando o princípio do SUS:**\n(1)Atenção Humanizada.\n\n**Adequado:** Utiliza o princípio do SUS. \n**Inadequado:** Não utiliza principio do SUS.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "A atenção humanizada compreende um conjunto de práticas e valores voltados à construção de um ambiente de cuidado mais acolhedor, ético e respeitoso, tanto para os usuários quanto para os profissionais do SUS."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga sobre a queixa principal:**\n(1) Tempo desde o início do quadro;\n(2) Progressão da severidade dos sintomas;\n(3) Fatores de melhoria;\n(4) Fatores de agravamento;\n(5) Uso de medicamentos;\n(6) Fatores desencadeantes;\n(7) Episódios prévios. \n\n**Adequado:** Investiga seis ou sete itens.\n**Parcialmente adequado:** Investiga cinco ou quatro itens.\n**Inadequado:** Investiga um ou dois itens OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga a existência de outros sinais, ou sintomas associados:**\n(1) Náusea OU vômito;\n(2) Mal-estar geral;\n(3) Febre;\n(4) Alteração do sono e/ou apetite;\n(5) Perda de peso.\n\n**Adequado:** Investiga quatro ou cinco sintomas.\n**Parcialmente adequado:** Investiga três sintomas.\n**Inadequado:** Investiga um, dois sintomas OU não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais:**\n(1) Anedonia;\n(2) Humor deprimido;\n(3) Culpa;\n(4) Fadiga;\n(5) Alteração da atenção ou concentração;\n(6) Desesperança.\n\n**Adequado:** Investiga cinco ou seis sintomas.\n**Parcialmente adequado:** Investiga três ou quatro sintomas.\n**Inadequado:** Investiga apenas um, dois sintomas OU não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Pergunta sobre antecedentes e queixas prévias:**\n(1) Doenças neoplásicas (próprio e familiar);\n(2) Doenças prévias (comorbidades) e uso de medicamentos;\n(3) Hábitos de vida (uso de drogas lícitas e ilícitas, atividade física, higiene pessoal, alimentação).\n\n**Adequado:** Pergunta os três itens.\n**Inadequado:** Pergunta um ou dois itens OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Pergunta sobre a existência de rede de apoio social (familiar ou espiritual ou religiosa ou vizinhança ou amizades).**\n\n**Adequado:** Pergunta. \n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Explica o conceito de cuidados paliativos para a paciente e sua filha.**\n\n**Adequado:** Explica o conceito claramente.\n**Inadequado:** Não explica ou explica de forma inadequada.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "“Cuidados Paliativos consistem na assistência promovida por uma equipe multidisciplinar, que objetiva a melhoria da qualidade de vida do paciente e seus familiares, diante de uma doença que ameace a vida, por meio da prevenção e alívio do sofrimento, por meio de identificação precoce, avaliação impecável e tratamento de dor e demais sintomas físicos, sociais, psicológicos e espirituais” (WHO, 2002)."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Aconselha hábitos saudáveis de vida: **\n(1) Atividades de lazer com família e amigos; \n(2) Cultivar hobbies; \n(3) Manter bom padrão de sono OU higiene do sono; \n(4) Alimentação saudável. \n\n**Adequado:** Aconselha três ou quatro hábitos. \n**Parcialmente adequado:** Aconselha um ou dois hábitos. \n**Inadequado:** Não aconselha hábito algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica acompanhamento nos dispositivos da rede de atenção à saúde:**\nNúcleo de Atenção em Saúde da Família (NASF) OU Equipe multidisciplinar (E-MULTI).\n\n**Adequado:** Indica. \n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Aconselha acompanhamento psicológico OU encaminhamento para psicólogo da UBS.**\n\n**Adequado: **Aconselha. \n**Inadequado:** Não aconselha.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Indica conduta terapêutica:**\n(1) Discute o plano de cuidados domiciliares com a paciente e sua filha (diretivas antecipadas de vontade);\n(2) Psicoterapia cognitivo-comportamental OU intervenções psicossociais em atenção primária à saúde (atuação de NASF e/ou E-Multi);\n(3) Terapia comunitária OU Grupos de autocuidado OU Terapias complementares (PICS) OU Terapia familiar.\n\n**Adequado:** Indica três itens.\n**Parcialmente adequado:** Indica dois itens.\n**Inadequado:** Indica um item ou não indica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "As diretivas antecipadas de vontade (DAVs) garantem que os desejos do paciente sobre futuros tratamentos sejam respeitados, mesmo que ele não possa mais se comunicar."
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Indica controle dos sintomas:**\n(1) Orienta sobre o manejo da dor e uso da morfina;\n(2) Antieméticos;\n(3) Oxigenoterapia suplementar.\n\n**Adequado:** Indica dois itens.\n**Inadequado:** Indica um item ou não indica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Orientar sobre analgesia eficaz é essencial para o alívio dos sintomas."
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Verbaliza:**\n(1) Agendar uma consulta para a filha; e,\n(2) Para aplicar a Escala de ZARIT.\n\n**Adequado:** Verbaliza os dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A Escala ZARIT busca identificar e mensurar o nível de sobrecarga, auxiliando na identificação de cuidadores que precisam de suporte e intervenção."
+    }
+  ]
+}

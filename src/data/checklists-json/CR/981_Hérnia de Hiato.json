@@ -1,0 +1,189 @@
+{
+  "uid": 981,
+  "hash": "hOUOBU-_T-T5IBmidjZzdKnv",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Hérnia de Hiato",
+  "definicao": "A hérnia de hiato ou hérnia gástrica hiatal, como também é conhecida, é uma condição em que se caracteriza pela protrusão anormal da parte superior do estômago. Por conta de uma fraqueza tecidual no diafragma, no hiato esofágico, parte do estômago se desloca em direção ao tórax.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "59.50",
+    "star": 0,
+    "time": 575,
+    "count": 4014
+  },
+  "cenario": "Nível de atenção: Atenção terciária à saúde  -  hospitalar.\nTipo de atendimento: Urgência e emergência.\n\nA unidade apresenta a seguinte infraestrutura:\n-  Ultrassonografia, radiografia;\n-  Laboratório de análises clínicas;\n-  Leito de internação;\n-  Centro cirúrgico.\n\nDescrição do caso: \nVocê é um médico atuando em um hospital de atenção terciária e atenderá uma mulher de 52 anos de idade com queixa de dispneia, dor retroesternal e vômitos.",
+  "tarefas": "- Realizar a anamnese direcionada à queixa principal do paciente;\n- Solicitar o exame físico;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares; \n- Estabelecer a conduta terapêutica adequada.",
+  "script_ator": "**DADOS PESSOAIS**\n- Meu nome é Maria, tenho 52 anos, sou viúva e aposentada. \n\n**MOTIVO DE CONSULTA** \n- Estou com dor no peito, falta de ar e também vomitei.\n\n**SOBRE O MOTIVO DE CONSULTA (DOR RETROESTERNAL):**\n**Tempo de evolução:** Há mais ou menos 4 horas.\n**Localização: **Bem no centro do peito.\n**Intensidade: **6/10. \n**Irradiação: **Nega.\n**Característica: **É como uma queimação. \n**Fatores desencadeantes/ de piora da dor:** Sinto que piora quando eu como muito, principalmente quando me deito após comer.\n**Fatores de melhora:** Melhora um pouco quando eu uso antiácidos. \n**Episódios anteriores: ** Eu sempre sinto essa dor no peito depois de comer. O médico que me acompanha disse que é por causa do refluxo que tenho há dois anos, mas hoje sinto esta dor mais intensa e tenho medo de que seja outro motivo.\n\n**SOBRE O MOTIVO DE CONSULTA (DISPNEIA):**\n**Tempo de evolução:** Há 3 horas.\n**Progressão: **Comecei a sentir hoje a falta de ar e está aumentando cada hora mais.\n**Relação com esforço físico: **Nega. \n\n**SOBRE O MOTIVO DE CONSULTA (VÔMITOS):**\n**Tempo de evolução:** Há 3 horas.\n**Episódios: **2 episódios.\n**Característica: **Vômito alimentício. \n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n**Palpitação:** Nega.\n**Tonturas/desmaio:** Nega.\n**Febre: **Nega.\n**Sudoração:** Nega.\n**Tosse:** Um pouco, Dr. (a).\n**Expectoração:** Nega.\n**Disfonia:** Nega.\n**Disfagia: **Sim. Antes eu sentia com alimentos sólidos, mas agora evoluiu para líquidos também. \n**Regurgitação:** Sim. As vezes sinto uma bola na minha garganta.\n**Perda de peso não intencional:** Acredito que sim porque não estou me alimentando devido a queimação e disfagia.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS:**\n**Comorbidades/doença atual:** Sou hipertensa e tenho hipotiroidismo. Ambas doenças controladas. Também tenho a doença do refluxo há dois anos. \n**Alergias:** Nega.\n**Uso de medicamentos:** Levotiroxina e enalapril.\n**Cirurgias/internações prévias:** Sim. Retirei uma parte do pâncreas e do duodeno há muitos anos devido a um câncer, mas já estou curada. \n\n**ANTECEDENTES FAMILIARES**\n- Minha mãe faleceu de infarto no coração e meu pai com um AVC. \n\n**HÁBITOS**\n**Tabagismo:** Parei há 2 anos.\n**Bebidas alcoólicas:** Não.\n**Exercícios físicos:** Não realizo.\n**Alimentação:** Gosto bastante de massas e não consumo muito vegetal ou frutas. \n**Hábito intestinal:** Sou constipada. \n\n**O(A) CANDIDATO(A) VERBALIZAR A HIPÓTESE DIAGNÓSTICA, INDAGAR:**\n1. Você poderia me explicar o que é esta patologia? \n2. Pode ser outra coisa, Dr.(a)?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "Paciente em regular estado geral, afebril, acianótica, anictérica, normocorada, hidratada, alerta, orientada em tempo, espaço e pessoa. \n\n\n\n**Frequência cardíaca:** 100 batimentos por minuto. \n\n\n\n**Pressão arterial:** 120 x 80 mmHg. \n\n\n\n**Frequência respiratória:** 16 incursões por minuto.\n\n\n\n**Temperatura:** 36,5° C. \n\n\n\n**Saturação de O2:** 95%. \n\n\n\n**IMC:** 35 kg/m2. \n\n\n\n**Abdome:** RHA presentes, abdome globoso, timpânico e indolor a palpação superficial e profunda. \n\n\n\n**Aparelho respiratório e cardiovascular**: sem alterações.\n\n\n\n**MMII: **sem edemas e bem perfundidas. Os pulsos pediosos e radiais estão palpáveis bilateralmente, cheios e simétricos.",
+      "imagem": "https://app.penserevalida.com/impressos/old/WhatsApp-Image-2024-04-09-at-19.29.50.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**:\n\n**Hemácias**: 4,4 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina**: 13,5 g/dl (Valor de referência: 12 a 16 mg/dl)\n\n**Hematócrito**: 39% (Valor de referência: 39 - 52%)\n\n\n\n**Leucograma:**\n\n**Leucócitos**: 8.300/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos**: 67% (Valor de referência: 40 - 70%)\n\n**Bastões**: 2% (Valor de referência: 0 - 5%)\n\n**Linfócitos**: 24% (Valor de referência: 20 - 50%)\n\n**Basófilos**: 1% (Valor de referência: 0 - 2%) \n\n**Eosinófilos**: 2% (Valor de referência: 0 - 6%)\n\n**Monócitos**: 7% (Valor de referência: 4 - 8%)\n\n\n\n**Plaquetas**: 280.000/mm3 (Valor de referência: 150.000-450.000/mm3)\n\n\n\n**Glicemia**: 90 mg/dl (70 - 110 mg/dl)\n\n\n\n**Creatinina**: 0,9 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia**: 34 mg/dl (Valor de referência: < 40 mg/dl) \n\n**Sódio**: 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l) \n\n\n\n**Amilase:** 80UI/L (Valor de referência: 60 - 180 mg/dl)\n\n**Lipase:** 63UI/L (Valor de referência: 0 - 160 mg/dl)\n\n\n\n**TGO:** 18 UI/L (Valor de referência: 0 – 35 U/l)\n\n**TGP:** 13 UI/L (Valor de referência: 0-35 U/l)\n\n\n\n**FA:** 87 UI/L (Valor de referência: 30 – 120 U/L)\n\n**GGT:** 25 UI/L (Valor de referência: 1 – 94 U/l)\n\n**DHL:** 400 UI/L(Valor de referência: 200-480 UI/L).\n\n\n\n**Bilirrubina total: **0.4 mg/dl (Valor de referência (0,3 - 1,0 mg/dl) \n\n**Bilirrubina indireta: **0,2 mg/dl (Valor de referência: 0,2 - 0,7 mg/dl)\n\n**Bilirrubina direta:** 0,2 mg/dl (Valor de referência: 0,1 - 0,3 mg/dl)\n\n\n\n**Triglicerídeos: **140 mg/dl (Valor de referência < 150 mg/dl)\n\n\n\n**INR:**1,1 (Valor de referência 0,8-1,2). \n\n\n\n**Troponina T: **0,02 ng/ml (Valor de referência: < 0,04 ng/ml).",
+      "imagem": "https://app.penserevalida.com/impressos/old/WhatsApp-Image-2024-04-09-at-19.29.50.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Eletrocardiograma",
+      "conteudo": "Ritmo regular, sinusal, FC de 100 bpm, sem alterações no padrão de condução e sem sinais de isquemia aguda.",
+      "imagem": "https://app.penserevalida.com/impressos/old/WhatsApp-Image-2024-04-09-at-19.29.50.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "EDA",
+      "conteudo": "Presença de hérnia sofrendo protusão através do hiato esofágico.",
+      "imagem": "https://app.penserevalida.com/impressos/old/WhatsApp-Image-2024-04-09-at-19.29.50.jpeg"
+    },
+    {
+      "idx": 5,
+      "titulo": "SEED/Esofagograma Baritado",
+      "conteudo": "Estômago de localização torácica no \n\nexame contrastado.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza apenas uma ação. \n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.1",
+        "adequado": " 0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese, perguntando sobre as características da dor:**\n(1) Início;\n(2) Frequência / intervalo entre episódios;\n(3) Fatores desencadeantes / gatilhos;\n(4) Agravantes / fatores de piora;\n(5) Atenuantes / fatores de melhora;\n(6) Intensidade;\n(7) Irradiação;\n(8) Tipo da dor  (queimação, choque, pontada, fisgada, contínua etc.)\n\n**Adequado:** Pergunta sobre cinco ou mais características.\n**Parcialmente adequado:** Pergunta apenas sobre três ou quatro características. \n**Inadequado:** Não pergunta ou pergunta apenas sobre duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": "Em caso de volvo gástrico o paciente apresentará a tríade Borchardt definida por vômitos, dor epigástrica e incapacidade de passar uma sonda nasogástrica."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre manifestações clínicas associadas ao quadro:**\n(1) Tosse; \n(2) Febre; \n(3) Sudoração; \n(4) Disfagia; \n(5) Regurgitação; \n(6) Perda de peso. \n\n**Adequado:** Pergunta sobre cinco ou mais itens. \n**Parcialmente adequado:** Pergunta sobre três ou quatro itens. \n**Inadequado:** Não pergunta ou pergunta apenas sobre dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": "Clinicamente, o doente pode apresentar-se assintomático ou com sintomas inespecíficos como dor retrosternal, disfagia, pirose, enfartamento pós-prandial ou tosse."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita eletrocardiograma.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "É fundamental descartar SCA nessa paciente! O ECG é mandatório mesmo se a paciente não apresenta dor anginosa típica!"
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exames laboratoriais:** \n(1) Hemograma; \n(2) PCR e/ou VHS; \n(3) TGO/TGP;\n(4) Fosfatase alcalina; \n(5) GAMA-GT; \n(6) Ureia; \n(7) Creatinina; \n(8) Glicemia; \n(9) Troponina. \n\n**Adequado:** Solicita sete ou mais itens. \n**Parcialmente adequado:** Solicita apenas seis itens. \n**Inadequado:** Solicita cinco itens ou menos.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita radiografia de tórax.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita endoscopia digestiva alta.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita SEED, ou esofagograma baritado, ou radiografia com ingestão de bário. **\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "Este é o único método acurado para medir o tamanho de uma hérnia de hiato. Este teste pode mostrar o estômago parcialmente ou inteiramente na cavidade torácica. Outos métodos de imagem podem auxiliar no diagnóstico, como por exemplo a EDA que fornecerá a visibilidade da hérnia sofrendo protrusão através do diafragma, assim como poderá mostrar sinais de estrangulamento, obstrução ou inflamação do esôfago. A manometria esofágica tem sido utilizada para ajuda adicional no diagnóstico de hérnia de hiato, testando um nível anormal de pH ou mostrando uma configuração em dupla corcova, apesar de ser mais utilizado para o diagnóstico de desordens de motilidade esofagianas."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Formula a hipótese diagnóstica:** hérnia de hiato gigante ou hérnia de hiato tipo III. \n\n**Adequado:** Formula a hipótese.\n**Parcialmente adequado:** Verbaliza o diagnóstico somente de hérnia, sem mencionar hérnia de hiato. \n**Inadequado:** Não formula a hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": "Existem quatro tipos de hérnia:-Tipo I ou por deslizamento; -Tipo II ou paraesofágica;-Tipo III ou mista; e-Tipo IV , quando há mais de um terço ou metade do estômago ou qualquer outro órgão abdominal ou estrutura herniada através do diafragma. Pode ocorrer protrusão do intestino delgado, cólon transverso, omento, fígado ou até do baço. Este tipo decorre de um grande defeito na membrana frenoesofágica, fazendo com que ela se estique muito mais, levando os órgãos a se herniarem para cima. O refluxo gastroesofágico é comum neste tipo e a anemia ferropriva/ferropênica é outro sintoma importante."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Cita os principais diagnósticos diferenciais:**\n(1) IAM/Cardiopatia Isquêmica;\n(2) Hérnia diafragmática;\n(3) Esofagite;\n(4) Cancêr de esôfago.\n \n**Adequado:**  Cita três ou quatro itens. \n**Parcialmente adequado:** Cita  apenas dois itens. \n**Inadequado: ** Cita apenas um item ou não cita nenhum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Orienta o paciente a respeito da conduta terapêutica:**\n(1) Explica o que é a hérnia de hiato; \n(2) Encaminha a paciente para o cirurgião para que seja feita a cirurgia de redução do estômago para a cavidade abdominal e reconstrução do diafragma; e\n(3) Confecção de uma válvula antirrefluxo ou fundoplicatura. \n\n**Adequado**: Orienta três itens.\n**Parcialmente Adequado**: Orienta dois itens.\n**Inadequado**: Orienta apenas um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "- A presença de múltiplas comorbidades, como a obesidade, associdada a volumosas hérnias de hiato necessitam de tratamento cirúrgico. - Para pacientes com hérnias hiatais gigantes com sintomas típicos de refluxo gastroesofágico, como pirose e regurgitação, sem outros sintomas associados, o raciocínio é semelhante ao do refluxo gastroesofágico sem hérnia de hiato."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Questiona se a paciente tem dúvidas.**\n\n**Adequado:** Questiona e sana as dúvidas da paciente. \n**Inadequado:** Não questiona.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

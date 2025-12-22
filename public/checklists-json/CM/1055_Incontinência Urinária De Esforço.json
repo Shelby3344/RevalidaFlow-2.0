@@ -1,0 +1,172 @@
+{
+  "uid": 1055,
+  "hash": "4tZZyELUdAdY4wjW1W9TpmJ-",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Incontinência Urinária De Esforço",
+  "definicao": "A incontinência urinária (IU) pode ser classificada em IU de esforço, IU de urgência e IU mista. A IU de esforço ocorre devido a uma deficiência no suporte vesical e uretral que é feito pelos músculos do assoalho pélvico e/ou por uma fraqueza ou lesão do esfíncter uretral. Essa condição leva a perda de urina em situações de aumento da pressão intra-abdominal, tais como, tossir, espirrar, correr, rir, pegar peso, levantar da posição sentada ou até mesmo andar.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "72.50",
+    "star": 0,
+    "time": 484,
+    "count": 3253
+  },
+  "cenario": "Nível de atenção: Unidade de atenção primária à saúde.\nTipo de atendimento: Ambulatorial.\n\nA unidade apresenta a seguinte infraestrutura:\n- Sala de atenção médica;\n- Sala de medicação;\n- Laboratório de análises clínicas. \n\nDescrição do caso:\nVocê atenderá uma paciente de 57 anos de idade, com consulta agendada devido a queixas urinárias.",
+  "tarefas": "- Realizar anamnese dirigida à queixa principal da paciente;\n- Solicitar, descrever e interpretar o exame físico;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Solicitar exames complementares, se necessário, descrevendo os achados;\n- Propor conduta terapêutica e seguimento da paciente;\n- Dar orientações à paciente.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Joana, 57 anos de idade, casada, comerciante. \n\n**MOTIVO DE CONSULTA:**\n- Doutor (a), já faz uns 4 meses que estou perdendo urina. Não consigo controlar e acabo fazendo xixi na roupa.\n\n**CARACTERÍSTICAS DO QUADRO: **\n**- Frequência dos episódios:** Várias vezes ao dia.\n**- Quantidade:** Não é muito mas mesmo assim me incomoda. Quase sempre tenho que usar absorvente.\n**- Fatores desencadeantes:** Já percebi que quando me levanto da cama, abaixo para pegar alguma coisa ou estou limpando a casa perco um pouco de urina. Também estou com uma tosse seca já faz vários meses e toda vez que tusso perco urina.\n**- Urgência/ necessidade imperiosa para urinar:** Não.\n**- Episódios durante o sono:** Não.\n**- Outros sintomas perguntados:** Não consta no script.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças:** Descobri que tenho pressão alta há 6 meses.\n**- Medicamentos:** Enalapril.\n**- Alergias:** Que eu saiba não.\n**- Gestações, partos e abortos:** Tenho 4 filhos. 2 por cesárea e 2 partos normais.\n**- Cirurgias:** Somente as cesáreas.\n**- Data da última menstruação:** Há 7 anos.\n\n**HÁBITOS:** \n**- Álcool:** Nega.\n**- Cigarro:** Nega.\n**- Drogas:** Nega.\n**- Alimentação:** Variada.\n**- Hábito intestinal:** Meu intestino funciona bem.\n\n**ANTECEDENTES FAMILIARES:** \n- Nega doenças.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 130x80 mmHg \n\n**- Frequência cardíaca:** 66 batimentos por minuto \n\n**- Saturação de O2:** 96% \n\n**- Temperatura axilar:** 36° C \n\n**- Frequência respiratória:** 12 incursões por minuto \n\n\n\n**Dados antropométricos:**\n\n**IMC:** 29 kg/m2 \n\n**Circunferência abdominal:** 102 cm\n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, normocorado e hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, globoso, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias. \n\n\n\n**Ausência de adenomegalias.**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "LABORATÓRIO DE URINA",
+      "conteudo": "**Características gerais: **\n\n**Volume da amostra:** 35 ml\n\n**Aspecto:** límpido (Valor de referência: límpido)\n\n**Densidade:** 1025 (Valor de referência: 1005 - 1035)\n\n**Reação pH:** 5,5 (Valor de referência: 4,5 - 7,8)\n\n\n\n**Exame químico: **\n\n**Proteínas:** negativo (Valor de referência: negativo)\n\n**Corpos cetônicos:** negativo (Valor de referência: negativo)\n\n**Glicose:** negativo (Valor de referência: negativo)\n\n**Bilirrubina:** negativo (Valor de referência: negativo)\n\n**Urobilinogênio:** 0,3 mg/dl (Valor de referência: < 1 mg/dl)\n\n**Hemoglobina:** negativo (Valor de referência: negativo)\n\n**Nitrito:** não reagente (Valor de referência: não reagente)\n\n\n\n**Sedimentoscopia: **\n\n**Piócitos:** 0 por campo (Valor de referência: < 4 por campo)\n\n**Hemácias:** 0 por campo (Valor de referência: < 2 por campo)\n\n**Epitélio de vias altas:** ausente (Valor de referência: raras células por campo)\n\n**Epitélio de vias baixas:** raras (Valor de referência: < 3 por campo)\n\n**Cilindros hialinos:** ausentes (Valor de referência: < 2 por campo)\n\n**Cilindros patológicos:** ausentes (Valor de referência: ausentes)\n\n**Cristais:** ausentes (Valor de referência: ausentes)\n\n**Flora bacteriana:** ausente (Valor de referência: ausente)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "USG PÉLVICO E DE VIAS URINÁRIAS",
+      "conteudo": "**Dentro dos parâmetros de normalidade.**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME FÍSICO GINECOLÓGICO",
+      "conteudo": "**Exame físico mamário:** Mamas pêndulas, simétricas, sem presença de alterações na pele ou descarga papilar. \n\nNão se palpam nódulos.\n\n\n\n**Inspeção vulvar:** Apresenta sinais de atrofia.\n\n**Exame especular:** Dentro dos parâmetros da normalidade.\n\n**Toque vaginal:** Sem alterações.\n\n**Sensibilidade perineal:** Conservada. \n\n**Contração voluntária do esfíncter anal:** Preservada.\n\n\n\n**Manobra de Esforço: **Se constata perda de urina em pequena quantidade quando realizada a manobra de valsalva e solicitado a paciente para tossir.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Apresenta-se adequadamente;\n(2) Cumprimenta e identifica a paciente simulada, falando seu nome.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga o quadro perguntando: **\n(1) Frequência dos episódios;\n(2) Volume das perdas;\n(3) Fatores desencadeantes;\n(4) Necessidade imperiosa de urinar ou urgência miccional;\n(5) Episódios noturnos. \n\n**Adequado: **Investiga quatro ou cinco itens. \n**Parcialmente adequado: **Investiga três itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": "A utilização de um  diário miccional,  que avalia a rotina urinária e de perdas, é um método  simples e muito útil  na avaliação inicial.Permite avaliar o número de micções, número de episódios de IU e monitorar a resposta e eficácia dotratamento."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre sintomas associados. **\n(1) Febre;\n(2) Disúria;\n(3) Poliúria;\n(4) Polaciúria;\n(5) Dor abdominal;\n(6) Constipação intestinal. \n\n**Adequado: **Investiga de quatro a seis itens. \n**Parcialmente adequado: **Investiga ao menos três itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Considerar  infecção urinária  como  causa de incontinência urinária."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais. **\n(1) Doenças;\n(2) Medicamentos;\n(3) Cirurgias;\n(4) Gestações ou partos ou cesáreas;\n(5) Data da última menstruação;\n\n**Adequado: **Investiga quatro ou cinco itens. \n**Parcialmente adequado: **Investiga três itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investigou antecedentes familiares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exame físico:**\n(1) Exame físico geral; \n(2) Exame físico ginecológico;\n(3) Manobras de esforço (tossir, espirrar, levantar peso) para observação da perda.\n\n**Adequado: **Solicita os três itens. \n**Parcialmente adequado:** Solicita somente dois itens.\n**Inadequado: **Solicita um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita análise de urina. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita ecografia pélvica e/ou do trato urinário. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Permite avaliar a presença de massas na cavidade pélvica, além de fornecer informações sobre resíduo pós-miccional (RPM) e lesões do trato urinário."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Formula o diagnóstico de incontinência urinária de esforço. **\n\n**Adequado: **Formula corretamente o diagnóstico. \n**Parcialmente adequado: **Formula somente o diagnóstico de incontinência urinária. \n**Inadequado: **Não formula nenhum diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "A IU pode ser classificada em:- IU de esforços: deficiência no suporte vesical e uretral (músculos do assoalho pélvico)e/ou por fraqueza/ lesão do esfíncter uretral.Essa condição gera perda de urina com o aumento da pressão intra-abdominal (tossir, espirrar, correr, rir, pegar peso, levantar da posição sentada, etc). Em geral, nãoocorrem perdas em repouso e durante o sono. - IU de urgência; - IU mista."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Indica, em um primeiro momento, tratamento conservador: **\n(1) Diminuir o peso corporal;\n(2) Substituição do enalapril por outro anti-hipertensivo;\n(3) Exercícios de fortalecimento do assoalho pélvico;\n(4) Dieta balanceada;\n(5) Atividade física regular. \n\n**Adequado: **Indica quatro ou cinco itens. \n**Parcialmente adequado: **Indica três itens. \n**Inadequado: **Indica dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Os exercícios de fortalecimento do assoalho pélvico podem ser associados ao biofeedback (por meio de estímulos visuais, táteis ou auditivos), estimulação elétrica de superfície ou cones vaginais. No caso de falha do tratamento conservador ou dúvida diagnóstica podem ser utilizados tratamentos e estudos mais complexos como cirurgia, estudo urodinâmico, etc."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Encaminha a paciente para acompanhamento com o serviço de Ginecologia ou Uroginecologia.** \n\n**Adequado:** Indica o encaminhamento.\n**Inadequado:** Não indica o encaminhamento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "uid": 1051,
+  "hash": "-47lMabp9V1YnWJXjEixY3-Z",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Criptorquidia",
+  "definicao": "Criptorquidia, ou testículos não descidos, ou a ausência de um ou dos dois testículos na bolsa testicular (saco escrotal) é uma alteração genital muito comum. Ela pode ocorrer em até 4% das crianças nascidas a termo e em até 45% nos meninos nascidos prematuramente.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "78.50",
+    "star": 0,
+    "time": 577,
+    "count": 5682
+  },
+  "cenario": "Local de atuação: Unidade de atenção primária. \n\nDescrição do caso: \nVocê se encontra em uma unidade básica de saúde e irá atender um lactente de cinco meses, trazido para a consulta pelo pai.",
+  "tarefas": "-Realizar anamnese do paciente;\n-Solicitar e interpretar exame físico;\n-Estabelecer e comunicar a hipótese diagnóstica, explicando o seu significado;\n-Solicitar exames complementares, se necessário, descrevendo os achados;\n-Propor conduta terapêutica, verbalizar prognóstico e sanar dúvidas do pai;\n-Oferecer orientações sobre as próximas vacinas que a criança irá receber;\n-Verbalizar diagnósticos diferenciais.\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS DO PAI**: \n- Flávio, 32 anos, policial.\n\n**DADOS DA CRIANÇA**: \n- Théo, cinco meses \n\n**MOTIVO DE CONSULTA:**\n- Dr(a), trouxe meu filho para rotina de consulta de puericultura dele.\n\nSe perguntado sobre **MÃE DA CRIANÇA**, responder:\n- Ela está no trabalho, então eu vim.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:** \n- Nega\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- Não temos nenhuma comorbidade.\n\n**ANTECEDENTES PERINATAIS (PRÉ-NATAL | PARTO | PÓS-NATAIS):**\n- Sem intercorrências; foi parto vaginal e nasceu a termo.\n\n**ALIMENTAÇÃO:**\n- Dr(a), ele está sendo amamentado em seio materno, mas estamos pensando em já começar a oferta de alimentos. Ele já está grande.\n\n**DIURESE E CATARSE:** \n- Sem alterações.\n\n**ALERGIAS:**\n- Nega. \n\n**MEDICAÇÕES DE USO CONTÍNUO OU RECENTE:**\n- Faz suplementação com as vitaminas prescritas.\n\n**CADERNETA DE VACINA/CRIANÇA:** responder: \n- Eu trouxe, Dr(a). **Entregar IMPRESSO 1**\n\n**AO RECEBER O DIAGNÓSTICO** de criptorquidia ou ausência de testículo, fale:\n- Ah, sim, Dr(a), o médico anterior já tinha comentado, mas não é nada grave, não é? Ele falou que era só esperar descer.\n\n**DÚVIDAS:**\n**- Pergunta 1:** Meu filho está bem? Tem alguma alteração no exame físico dele?\n**- Pergunta 2:** Já posso dar leite de vaca?\n**- Pergunta 3:** Até quando tenho que esperar para pensar em cirurgia?\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTÃO DE VACINAS",
+      "conteudo": "**VACINAS ADMINISTRADAS:**\n\n\n\n**- BCG e Hepatite B:** ao nascer;\n\n**- Pentavalente:** 2m e 4m\n\n**- Rotavírus :** 2m e 4m\n\n**- VOP/VIP: **2m e 4 m\n\n**- Pneumocócica:** 2m e 4 m\n\n**- Meningocócica C:** 3 meses e 5 meses",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699108068.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "CADERNETA DE SAUDE",
+      "conteudo": "**Idade:** 5 meses \n\n**Peso: **6,500g\n\n**Comprimento:** 68 cm",
+      "imagem": "https://app.penserevalida.com/impressos/old/1698713194.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "CADERNETA DE SAUDE",
+      "conteudo": "**Idade:** 5 meses \n\n**Peso: **6,500g\n\n**Comprimento:** 68 cm",
+      "imagem": "https://app.penserevalida.com/impressos/old/CRIPTOQUIDIA.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Exame Físico Geral:**\n\nBom estado geral, corado, hidratado, acianótico, anictérico e afebril.\n\n\n\n**Otoscopia:** sem alterações;\n\n**Oroscopia:** sem alterações; \n\n**Rinoscopia:** sem alterações.\n\n\n\n**Cardiovascular:** bulhas cardíacas normofonéticas em dois tempos, sem sopro, bem perfundida, pulsos fortes e extremidades quentes. \n\n\n\n**Respiratório:** murmúrio vesicular presente em ambos os campos pulmonares, sem ruídos adventícios e sem sinais de desconforto respiratório.\n\n\n\n**Abdominal:** normotenso, normotimpânico, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes. Sem visceromegalias.\n\n\n\n**Genitália:** exame da genitália incluindo glande, posição do meato uretral sem alterações.\n\n\n\n**Testículos: **através do exame bimanual realizado com uma mão colocada na altura do anel inguinal externo e a outra no escroto, percebe-se ausência de testículo direito.\n\n\n\n**Sinais vitais:**\n\n**-FC:** 115\n\n**-FR:** 40 RPM\n\n**-T:** 36,5 °C\n\n**-Peso:** 6,500 kg\n\n**-Comprimento:** 68 cm",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o pai de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome do pai;\n(5) Pergunta o nome da criança.\n\n**Adequado:** realiza os cinco itens.\n**Parcialmente adequado:** realiza de dois a quatro itens.\n**Inadequado:** realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2.Questiona quanto à gestação / antecedentes gestacionais: **\n(1) Intercorrências no pré-natal;\n(2) Idade gestacional;\n(3) Condições perinatais; \n(4) Via do parto; \n\n**Adequado:** pergunta três OU quatro itens. \n**Parcialmente adequado:** pergunta pelo um ou dois itens. \n**Inadequado:** não questiona item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Amamentação:**\n(1) Pergunta sobre amamentação; \n(2) Orienta sobre importância de aleitamento materno exclusivo\n\n**Adequado:** realiza os dois itens.\n**Parcialmente adequado:** realiza um item. \n**Inadequado:** não realiza item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Indica a importância da continuidade da amamentação até os 2 anos. **\n\n**Adequado:** faz a indicação de forma adequada. \n**Inadequado:** não indica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Plota nos gráficos de crescimento e verbaliza / responde perguntas do pai simulado:**\n(1) Crescimento adequado para idade no escore Z 0 + 2. \n(2) Verbaliza que está peso adequado para idade entre o score Z -2 e 0.\n\n**Adequado:** comunica corretamente os itens, citando o escore Z para os itens. \n**Parcialmente adequado:** comunica itens sem citar escore Z. \n**Inadequado:** comunica apenas um item independentemente do escore",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga antecedentes patológicos pessoais e familiares.**\n\n**Adequado:** investiga \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**8. Orienta sobre próximas vacinas **\n(1) Pentavalente \n(2) Poliomielite / VIP. \n(3) Influenza anual \n(4) Covid 19\n\n**Adequado:** orienta as quatro vacinas. \n**Parcialmente adequado:** orienta três vacinas. \n**Inadequado:**orienta duas ou não nenhuma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**9. Realiza o exame físico testicular e verbaliza a palpação, constatando a ausência do testículo direito.**\n\n**Adequado:** Verbaliza o achado.\n**Inadequado:** Não verbaliza o achado.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**10. Dá o diagnóstico de Criptorquidia, acalmando e explicando para o pai o que significa (testículo não desceu) e verbaliza que será necessário aguardar até o filho completar 6 meses para reavaliar a conduta.**\n\n**Adequado:** verbaliza o diagnóstico explicando ao pai corretamente.\n**Inadequado:** não verbaliza o diagnóstico, não explica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**11. Verbaliza diagnóstico diferencial**\n(1) Agenesia ou Atrofia testicular;\n(2) Hipospádia;\n(3) Hénia inguinal.\n\n**Adequado:** Verbaliza os 3 diagnósticos diferenciais.\n**Parcialmente adequado:** Verbaliza 2 diagnósticos diferenciais.\n**Inadequado:** Verbaliza 1 ou nenhum diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "Vale salientar que a hipospadia e Hernia Inguinal também são fatores de risco para criptorquidia ademais de serem diagnósticos diferenciais."
+    },
+    {
+      "idx": 11,
+      "descricao": "**12. Pergunta sobre dúvidas ao pai e esclarece.**\n\n**Adequado:** pergunta sobre dúvidas e esclarece.\n**Inadequado:** Não pergunta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

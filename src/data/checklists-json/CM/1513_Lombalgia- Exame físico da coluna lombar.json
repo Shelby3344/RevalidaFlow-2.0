@@ -1,0 +1,188 @@
+{
+  "uid": 1513,
+  "hash": "4dea0fe34e238b9b0acbfde18c1a4802cf2f2bac128f15d1205c1902768de768-1745266069",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Lombalgia- Exame físico da coluna lombar",
+  "definicao": "O exame físico lombar é uma avaliação clínica que visa identificar a causa da dor lombar ou outros problemas na região lombar. Envolve a inspeção, palpação, avaliação da mobilidade e testes específicos. O objetivo é determinar se a dor é de origem muscular, articular, nervosa ou de outras estruturas da coluna. \nEtapas do exame físico lombar:\n1. Inspeção:\nObserva-se a postura, a marcha, a presença de deformidades, abaulamentos e sinais de trauma. \n2. Palpação:\nAvalia-se a presença de dor, espasmos musculares, rigidez e possíveis anormalidades nas articulações. \n3. Avaliação da mobilidade:\nVerifica-se a amplitude de movimento da coluna, incluindo flexão, extensão, inclinação lateral e rotação. \n4. Testes específicos:\nPodem ser realizados testes como o de Lasègue (elevação da perna com joelho estendido) e o de Schöber (medida da flexão da coluna). \n5. Avaliação neurológica:\nTestam-se a força muscular, os reflexos e a sensibilidade para identificar possíveis lesões nervosas. \nImportância do exame físico:\nO exame físico é fundamental para identificar a causa da dor lombar e planejar o tratamento adequado. Ajuda a distinguir entre causas mecânicas (musculares, articulares) e causas neurológicas (lesões nervosas) ou de outras estruturas (como discos intervertebrais). Além disso, o exame físico pode ajudar a identificar sinais de alerta que indicam a necessidade de exames complementares, como radiografias, ressonâncias magnéticas ou tomografias computadorizadas.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "40.50",
+    "star": 0,
+    "time": 584.5,
+    "count": 1077
+  },
+  "cenario": "Nível de atenção: Unidade de atenção primária à saúde.\nTipo de atendimento: Ambulatorial.\n\nA unidade apresenta a seguinte infraestrutura:\n- Sala de atenção médica;\n- Sala de medicação;\n- Laboratório de análises clínicas. \n\nDescrição do caso:\nVocê irá atender a um paciente de 35 anos que apresenta dor lombar há duas semanas, sem irradiação aparente.",
+  "tarefas": "- Realizar anamnese dirigida à queixa principal do paciente;\n- Realizar e verbalizar todas as etapas do exame físico semiológico direcionado à queixa do paciente;\n- Solicitar exames complementares, se necessário;\n- Definir a conduta explicando ao paciente;\n-Indica medidas de recuperação funcional e prevenção da cronificação.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Pedro, 35 anos de idade, programador.\n\n**MOTIVO DE CONSULTA: **\n- Estou com dor na coluna doutor(a).\n\n**CARACTERÍSTICAS DA DOR: **\n**- Tempo de evolução: **Está doendo já tem duas semanas e hoje quando acordei não consegui ir trabalhar.\n**- Localização: **Dói no meio e dos lados da coluna lombar.\n**- Intensidade: **Dor moderada (6/10). \n**- Tipo de dor: **Parece uma dor em aperto. \n**- Irradiação: **Nega. \n**- Fatores de melhora: **Se eu deitar de lado e ficar quieto melhora um pouco. \n**- Fatores de piora: **Piora quando estou no trabalho.\n**- Frequência: ** Quase todos os dias.\n**- Mudança no padrão da dor: **Não.\n**-Episódios anteriores:** Sinto desde que peguei muitos projetos para realizar, isso acabou fazendo com que trabalhasse muito mais nos últimos meses.\n\n**SINTOMAS ACOMPANHANTES: **\n- Negar qualquer sintoma perguntado.\n\n**SOBRE O TRABALHO:**\n**- Jornada de trabalho:** Não tenho hora pra começar e nem para parar, só acordo e já começo a trabalhar.\n**- Ergonomia:** Não tenho nenhuma cadeira ou preparo especial para trabalhar.\n**- CLT/Vínculo trabalhista/carteira assinada:** Sou freelancer, mas se tudo der certo agora com esses projetos, consigo algo fixo.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nega. \n**- Medicamentos: **De vez em quando tomo dipirona para dor.\n**- Alergias: **Acho que não. \n**- Cirurgias: **Nega.\n\n**HÁBITOS **\n**- Álcool: **Tomo cerveja de vez em quando. \n**- Cigarro: **Nega. \n**- Drogas: **Nega.\n**- Atividade física: **Não faço mais porque chego em casa muito cansado e às vezes com dor.\n**- Alimentação: **Variada. \n**- Sono: **Durmo umas 7 horas e não acordo de madrugada. \n\n**ANTECEDENTES FAMILIARES: **\n- Mãe tem hipotireoidismo e o pai é hipertenso.\n\n**APÓS O CANDIDATO (A) REALIZAR O EXAME FÍSICO E VERBALIZAR ADEQUADAMENTE AS MANOBRAS DO EXAME FÍSICO DA COLUNA LOMBAR, LIBERAR O IMPRESSO - ACHADOS DO EXAME DA COLUNA LOMBAR.**\n\n**SE QUESTIONADO POR DÚVIDAS, PERGUNTAR:**\n-Doutor(a), quais os sinais de alarme que devo ter maior atenção?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 130x80 mmHg. \n\n**- Frequência cardíaca:** 73. batimentos por minuto. \n\n**- Saturação de O2:** 98% \n\n**- Temperatura axilar:** 36.3° C \n\n**- Frequência respiratória:** 14 incursões por minuto.\n\n\n\n**Dados antropométricos:**\n\n**- IMC:** 27 kg/m2. \n\n**- Circunferência abdominal:** 98 cm.\n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, normocorado e hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME DA COLUNA LOMBAR",
+      "conteudo": "**VERBALIZE O EXAME  UTILIZANDO TÉCNICAS DE INSPEÇÃO E DE PALPAÇÃO, NOMEANDO E DESCREVENDO AS MANOBRAS OU TESTES FUNCIONAIS.**\n\n\n\nOBS. Você receberá os impressos específicos do exame da coluna lombar ao nomear e descrever as manobras utilizadas.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ACHADOS DO EXAME DA COLUNA LOMBAR",
+      "conteudo": "**EXAME FÍSICO DA COLUNA LOMBAR:  **\n\n\n\n**Inspeção:**\n\n-Postura antálgica;\n\n-Assimetria muscular ou espasmo paravertebral.\n\n-Ausência de deformidades estruturais marcantes.\n\n\n\n**Palpação:**\n\n-Dor localizada na região lombar inferior.\n\n-Espasmo muscular paravertebral.\n\n-Sensibilidade aumentada na musculatura, especialmente ao toque ou pressão.\n\n-Amplitude de movimento sem alterações.\n\n\n\n- **Manobra de Valsalva**: Sem exacerbação da dor.\n\n- **Manobra de Lasègue:** Negativa bilateralmente.\n\n-**Teste de Fabere (Patrick):** Negativo.\n\n-**Teste de Schober:** Sem alterações.\n\n\n\n**Exame neurológico:**\n\nForça muscular, reﬂexos  e sensibilidade preservados. Demais parâmetros dentro da normalidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**\n(1) Identifica-se; e,\n(2) Pergunta o nome e cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga as características da dor lombar: **\n(1) Tempo de evolução;\n(2) Localização;\n(3) Intensidade;\n(4) Tipo de dor;\n(5) Irradiação;\n(6) Fatores de melhora;\n(7) Fatores de piora;\n(8) Frequência dos episódios;\n(9) Mudança no padrão da dor. \n\n**Adequado: **Investiga sete a nove itens. \n**Parcialmente adequado: **Investiga cinco ou seis itens. \n**Inadequado: **Investiga quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga antecedentes pessoais:**\n(1) Doenças crônicas;\n(2) Medicação de uso contínuo;\n(3) Alergia medicamentosa;\n(4) Internações prévias;\n(5) Antecedentes familiares;\n(6) Hábitos tóxicos;\n(7) Hábitos alimentares;\n(8) Prática de atividade física;\n(9) Sono;\n(10) Vínculo trabalhista.\n\n**Adequado:** Investiga as dez ações.\n**Parcialmente:** Investiga seis a nove ações.\n**Inadequado:** Investiga cinco ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita exame físico:** \n(1) Solicita permissão para realizar o exame físico, lava as mãos e se paramenta;\n(2) Interpreta exame físico.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza uma ação ou nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Realiza a inspeção estática:**\n(1) Observa a postura do paciente em pé, verificando a presença de lordose, cifose ou escoliose;\n(2) Verifica a simetria dos músculos paravertebrais e a presença de atrofia ou hipertrofia muscular. \n\n**Adequado:** Realiza as duas ações.\n**Parcialmente:** Realiza uma ação.\n**Inadequado:** Realiza não nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Realize a inspeção dinâmica:**\n(1) Solicita ao paciente que realize movimentos de flexão, extensão, inclinação lateral e rotação da coluna lombar;\n(2) Observa a amplitude de movimento e a presença de dor durante esses movimentos;\n(3) Peça para caminhar na ponta dos pés e nos calcanhares para avaliar a função das raízes nervosas L5 e S1.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente:** Realiza duas ações.\n**Inadequado:** Realiza uma ação ou nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Pedir para o paciente caminhar na ponta dos pés durante o exame físico lombar tem como principal objetivo avaliar a função das raízes nervosas lombossacrais, especialmente a raiz S1, que está relacionada à força do músculo gastrocnêmio (panturrilha). Essa manobra ajuda a identificar: (1) Fraqueza muscular distal (principalmente dos flexores plantares do pé); (2) Compressão de raiz nervosa (como em casos de hérnia de disco que afeta S1); (3)Alterações neurológicas que possam causar déficit motor. Se o paciente não consegue sustentar o peso ou perde o equilíbrio, isso pode indicar comprometimento neurológico."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Realiza a palpação.**\n(1) Palpa os processos espinhosos das vértebras lombares, começando de L1 até S1;\n(2) Palpa as articulações sacroilíacas para detectar sensibilidade ou crepitação;\n(3) Palpa a região abdominal. \n\n**Adequado:** Realiza as três ações.\n**Parcialmente:** Realiza duas ações.\n**Inadequado:** Realiza uma ação ou nenhuma ação.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Objetivos:  (1)\tIdentificar pontos de dor, espasmos musculares e outras anormalidades. (2)\tBuscar presença de pontos-gatilho nos músculos paravertebrais, que  podem indicar síndrome miofascial. (3)\tIdentificar sinais de peritonite ou outras condições abdominais associadas."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza o exame físico neurológico.**\n(1) Força: Avalia a força dos principais grupos musculares dos membros inferiores (flexão e extensão do quadril, joelho e tornozelo). Fraqueza pode indicar compressão nervosa;\n(2) Reflexos:Avalia os reﬂexos patelar (L4) e aquileu (S1). Diminuição ou ausência de reﬂexos podem indicar compressão nervosa;\n(3) Sensibilidade: Avalia a sensibilidade nos dermátomos L4, L5 e S1. Alterações na sensibilidade (formigamento, dormência) podem indicar compressão nervosa.\n\n**Adequado:**Realiza três ações.\n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Não realiza nenhuma manobra.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza testes funcionais E/OU manobras especiais.**\n(1) Teste de Schober:\nMarque um ponto 10 cm acima da espinha ilíaca postero superior (EIPS) e outro 5 cm abaixo.\nSolicite ao paciente que realize uma ﬂexão máxima da coluna lombar;\n(2) Manobra de Lasègue (Sinal de Lasègue):\nCom o paciente em decúbito dorsal, eleve a perna estendida;\n(3) Teste de Fabere (Patrick):\nCom o paciente em decúbito dorsal, coloque o pé do lado afetado sobre o joelho da perna oposta.\nPressione o joelho para baixo. \n\n**Adequado:** Realiza as duas manobras.\n**Parcialmente:** Realiza uma manobra.\n**Inadequado:** Não  realiza nenhuma manobra.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Resultados:  (1) A distância entre os pontos deve aumentar em pelo menos 6 cm. Se não aumentar, pode indicar rigidez da coluna lombar. (2) A dor irradiada para a perna a 60° sugere compressão radicular, especialmente nas raízes L5 ou S1.  (3) A dor na região lombar ou na articulação sacroilíaca pode indicar patologia nessa região."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. ** Realiza diagnóstico de lombalgia mecânica.**\n\n**Adequado:** Realiza.\n**Inadequado:** Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Realiza conduta adequada.**\n(1) Indica repouso relativo;\n(2) Prescreve analgésicos/anti-inflamatórios: paracetamol, ibuprofeno ou diclofenaco;\n(3) Prescreve relaxantes musculares: ciclobenzaprina devido a contratura;\n(4) Compressas quentes ou frias: alternar conforme tolerância;\n(5) Passou uma orientação postural: evitar carregar peso, torções e má postura.\n\n**Adequado:** Realiza duas ações;\n**Parcialmente adequado:** Realiza uma ação;\n**Inadequado:** Não realiza nenhuma manobra.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. ** Indica medidas de recuperação funcional e prevenção da cronificação.**\n(1) Fisioterapia;\n(2) Alongamento (isquiotibiais, quadrado lombar, paravertebrais);\n(3) Fortalecimento (core, glúteos, eretores da espinha);\n(4) Treinamento de estabilidade lombopélvica;\n(5) Terapias manuais e liberação miofascial;\n(6) Exercícios de baixo impacto: como caminhada ou hidroginástica.\n\n**Adequado:** Indica quatro ou mais medidas.\n**Parcialmente adequado:** Indica duas ou três medidas.\n**Inadequado:** Realiza uma ou nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "12. **Menciona sinais de alarme.**\n(1) Febre associada à dor lombar;\n(2) Perda de peso inexplicada;\n(3) Histórico de câncer;\n(4) Trauma significativo;\n(5) Déficit neurológico progressivo – como perda de força, dormência acentuada, ou dificuldade para andar;\n(6) Incontinência urinária ou fecal – pode ser sinal da síndrome da cauda equina, uma emergência médica;\n(7) Idade avançada (>50 anos) com início recente da dor – risco maior de causas graves como fraturas ou câncer.\n\n**Adequado: **Verbaliza cinco sinais de alarme. \n**Parcialmente adequado: ** Verbaliza três ou quatro sinais de alarme. \n**Inadequado: ** Verbaliza dois sinais de alarme.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

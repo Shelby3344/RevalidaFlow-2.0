@@ -1,0 +1,155 @@
+{
+  "uid": 1021,
+  "hash": "TlA0ODPiYCCAH44_azS7OZ_-",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Exame Clínico das Mamas - Adaptado | INEP 2023.2",
+  "definicao": "A Estação 4 de Ginecologia e Obstetrícia abordou o caso de uma mulher de 41 anos de idade, G2 P2 (DUP há 10 anos), que vai ao ambulatório de uma unidade básica de saúde (UBS) para realização de exame das mamas, motivada pela campanha do Outubro Rosa.",
+  "origem": 1,
+  "ano_da_prova": "20232",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "75.00",
+    "star": 0,
+    "time": 589.5,
+    "count": 6075
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO:\nNível de Atenção: Primária.\nTipo de Atendimento: Ambulatorial - Atenção Primária à Saúde.\n\nA unidade possui a seguinte infraestrutura:\n- Aparelhos para exames radiológicos convencionais (Raio-X);\n- Laboratório de análises clínicas.\n\nDESCRIÇÃO DO CASO:\n- Você está em atendimento na unidade básica de saúde (UBS) e deverá atender uma mulher de 41 anos de idade que, motivada pela campanha do Outubro Rosa, deseja realizar o exame de mamas.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar a anamnese dirigida ao motivo principal da consulta;\n- Proceder ao exame clínico completo das mamas, respeitando a sequência semiológica; Todas as etapas devem ser executadas;\n- Descrever os achados do exame das mamas; e\n- Responder eventuais perguntas da paciente e orientá-la.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Maria, 41 anos de idade, é casada e trabalha como caixa de supermercado.\n\n**MOTIVO DE CONSULTA:**\n- Eu vi várias campanhas sobre Outubro Rosa e gostaria de fazer uma avaliação.\n\n**SOBRE AS MAMAS:**\n**- Dor:** Nega.\n**- Nódulos:** Nega.\n**- Exames complementares mamários prévios:** Nunca fez mamografias ou ecografia mamária.\n**- Autoexame mamário:** Não realiza autoexame da mama.\n**- Traumatismo mamário:** Não teve problemas com suas mamas, assim como não sofreu batidas ou traumatismos na região.\n**- Cirurgia mamária:** Não fez cirurgias plásticas mamárias, de colocação de prótese ou qualquer cirurgia das mamas.\n\n**ANTECEDENTES GINECOOBSTÉTRICOS:**\n**- Amamentação:** Amamentou seus dois filhos por 6 meses cada.\n**- Contraceptivo:** Não utiliza métodos anticoncepcionais.\n**- Paridade:** Teve duas gestações com partos normais, e seu filho mais novo está com 10 anos.\n**- DUM:** Sua última menstruação terminou há 1 semana.\n\n**ANTECEDENTES PATOLÓGICOS:**\n**- Diagnóstico prévio:** Não possui problemas de saúde.\n\n**ANTECEDENTES FAMILIARES:**\n- Não possui história de câncer de mama na família.\n\n**QUANDO VERBALIZAR QUE QUER REALIZAR O EXAME FÍSICO, QUESTIONAR:**\n- Em qual posição deverá colocar-se para o exame.\n\n**QUANDO O PARTICIPANTE FINALIZAR A VERBALIZAÇÃO DO EXAME MAMÁRIO, QUESTIONAR:**\n- Qual foi o resultado do exame.\n\n**DÚVIDAS:**\n- Se a realização de uma investigação complementar será necessária.\n\n**NÃO REALIZADO PELO INEP: ADPATAÇÕES DO PENSE REVALIDA.**\n- Se o candidato verbalizar que irá **realizar** o exame físico mamário, libere o card: \"exame de mamas\".\n- Quando o candidato terminar a explicação do exame de mama liberar o impresso \"achados 1\".\n- Quando o candidato terminar a explicação do impresso 1, liberar o impresso \"achados 2\".",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame de mamas",
+      "conteudo": "Considere que há um manequim onde você deverá realizar o exame físico mamário. Verbalize o passo à passo e assim que terminar sinalize ao chefe da estação.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Achados 1 ",
+      "conteudo": "Nódulo em mama direita: \n\nVerbalize o que é necessário ser avaliado no exame físico do nódulo mamário.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Achados 2 ",
+      "conteudo": "Nódulo de aproximadamente 2 cm, de consistência fibroelástica, móvel e superfície regular.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Realiza anamnese dirigida ao histórico da paciente.**\n(1) Histórico de câncer de mama em parentes de primeiro grau;\n(2) Traumas ou cirurgias mamárias;\n(3) Histórico de amamentação; e\n(4) Hábitos de vida (tabagismo, atividade física, drogas, alimentação).\n\n**Adequado:** Pergunta os quatro itens.\n**Parcialmente adequado:** Pergunta dois ou três itens.\n**Inadequado:** Pergunta apenas um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese relacionada a sintomas mamários.**\n**mamários.**\n(1) Dor;\n(2) Alterações de cor ou rubor;\n(3) Descarga papilar (ou secreção papilar);\n(4) Percepção de nódulos (linfonodos aumentados, retrações ou abaulamentos); e\n(5) Lesões na pele.\n\n**Adequado:** Pergunta os cinco itens.\n**Parcialmente adequado:** Pergunta três ou quatro itens.\n**Inadequado:** Pergunta dois ou menos itens ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Observe as mamas.**\n(1) Solicite que a paciente sente na maca; e\n(2) Solicite a exposição bilateral das mamas.\n\n**Adequado:** Inspecione as mamas bilateralmente (ao mesmo tempo) com a paciente sentada na maca.\n**Inadequado:** Não inspeciona as mamas bilateralmente ou inspeciona as mamas bilateralmente com a paciente em pé ou deitada ou não inspeciona ou cita a necessidade de realização da inspeção após a palpação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza a avaliação das mamas a partir de, pelo menos, dois movimentos com os braços da paciente (inspeção dinâmica):**\n(1) Movimento vertical;\n(2) Movimento horizontal.\n\n**Adequado:** Orienta os dois movimentos.\n**Parcialmente adequado:** Orienta apenas um dos dois movimentos.\n**Inadequado:** Não orienta qualquer dos dois movimentos.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Prepara a paciente para o exame de palpação, orienta que a paciente fique:**\n(1) Deitada de barriga para cima; e\n(2) Com as mãos atrás da cabeça.\n\n**Adequado:** Orienta as duas ações.\n**Parcialmente adequado:** Orienta apenas uma ação.\n**Inadequado:** Não orienta nenhuma das duas ações.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Realiza a palpação das mamas:**\n(1) Palpa as mamas utilizando as duas mãos; e\n(2) Palpa todas as regiões da mama (quadrantes e região retroareolar) de forma ordenada, seguindo o sentido horário ou anti-horário.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Refere à intenção de realizar a palpação das cadeias de linfonodos, incluindo as axilas.**\n\n**Adequado:** Refere à intenção de palpar os linfonodos.\n**Inadequado:** Não refere à intenção de palpar os linfonodos.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Ao palpar as mamas, menciona a existência de nódulo.**\n\n**Adequado:** Menciona a existência do nódulo.\n**Inadequado:** Não menciona a existência do nódulo.\n\n**Observação:** Como sinônimo de nódulo, aceitam-se os termos “caroço”, “massa” ou “tumor”.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Na aplicação dessa estação, o INEP disponibilizou um manequim para que os candidatos palpassem o nódulo. Infelizmente não podemos oferecer o mesmo.. mas não preocupe-se em pontuar, e sim em conhecer o que já foi abordado pelo INEP."
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Descreva as características do nódulo.**\n(1) Mobilidade;\n(2) Consistência fibroelástica;\n(3) Volume ou tamanho aproximado de 2 cm; e\n(4) Superfície (formato) regular.\n\n**Adequado:** Refere três ou quatro características.\n**Parcialmente adequado:** Refere uma ou duas características.\n**Inadequado:** Não refere qualquer das características apresentadas.\n\n**Observação:** Devem ser consideradas corretas as descrições aproximadas ou sinônimos. Por exemplo, para a característica (1) mobilidade, aceita-se \"não aderido\". Para a característica (2) consistência fibroelástica, aceita-se \"depressível, comprimível, firme mas não dura\". Para a característica (3) volume de 2 cm, aceitam-se comparações com objetos de tamanho e forma similares. Para a característica (4) superfície (formato) regular, aceita-se superfície lisa.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Essas são características fundamentais a serem descritas nos nódulos."
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a realização de mamografia diagnóstica.**\n\n**Adequado:** Solicita mamografia ou ecografia mamária em função do nódulo palpado.\n**Parcialmente adequado:** Solicita mamografiaou ecografia mamária, mas não relaciona o pedido de mamografia com o achado do nódulo.\n**Inadequado:** Não solicita mamografia ou ecografia mamária.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

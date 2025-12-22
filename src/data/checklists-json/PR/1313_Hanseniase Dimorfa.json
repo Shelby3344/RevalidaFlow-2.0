@@ -1,0 +1,271 @@
+{
+  "uid": 1313,
+  "hash": "3LXW5p5N7XhGSuKEP1Cdr2XJFtv2",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Hanseniase Dimorfa",
+  "definicao": "É uma doença infecciosa, contagiosa, de evolução crônica, causada pela bactéria Mycobacterium leprae. Atinge principalmente a pele, as mucosas e os nervos periféricos (braços e pernas), com capacidade de ocasionar lesões neurais, podendo acarretar danos irreversíveis, inclusive exclusão social, caso o diagnóstico seja tardio ou o tratamento inadequado.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "47.00",
+    "star": 0,
+    "time": 537.5,
+    "count": 5806
+  },
+  "cenario": "Local de atuação:\nDomicílio de uma família cadastrada em uma equipe de Saúde da Família (eSF). \n\nDESCRIÇÃO DO CASO \nConsidere que você é o médico de uma equipe de Saúde da Família no município de Goiás. Você conduzirá uma visita domiciliar na casa de uma paciente de 30 anos que apresenta o transtorno cognitivo. A visita foi solicitada pelos familiares da paciente. Eles informaram ao agente comunitário de saúde que precisava conversar urgentemente com o médico da equipe, mas que, em razão da deficiência, estavam sem condições de ir por meios próprios até a Unidade Básica de Saúde.",
+  "tarefas": "-Realizar anamnese do paciente;\n-Solicitar investigação laboratorial, se necessário;\n-Definir o diagnóstico clínico-laboratorial;\n-Orientar o plano terapêutico e as medidas de controle. \n\nAtenção! Todo o interrogatório deve ser realizado com a irmã da paciente.\n\nATENÇÃO: O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**Irmã:** Ana Julia \n**Paciente: **Marilia, 30 anos, solteira, aposentada por incapacidade, Procedente do interior de Goiás \n\n**Motivo da consulta:** \nDr(a) estamos muito preocupados com essas manchas que apareceram no braço esquerdo dela e só vem crescendo, achamos que pode ser câncer pois nossa mãe morreu de câncer de pele **(mostrar impresso 1 ) **\n\nSobre as Lesões de pele\n**Outras lesões:** \nEla tem uma semelhante na barriga e no braço direito. \n**Tempo de evolução das lesões:**\nTem uns 5 anos ou mais, mas a principio pensamos que fosse micose e estávamos passando uma pomada que temos em casa\n**Evolução:**  Começou como umas manchinhas brancas, mas estão crescendo e ficando vermelhas. Passamos muita pomada para a micose, mas percebemos que não melhora então estamos achando que é câncer.\n**Alteração de sensibilidade na lesão, como formigamentos, dormência ou câimbras:**:  É muito difícil a comunicação com ela mas que parece que não tem nenhuma dor, na verdade parece até que ela não sente nem quando toca.\n**Queda de pelos nos locais de lesão:** Eu percebi que onde tem mancha não tem pelo.\n\nSobre contato com Hanseníase \n**Contato prévio com alguém com hanseníase:**\nSim, descobrimos que nossa mãe tinha, mas ela logo morreu do câncer e não deu tempo de tratar.\n**Tratamento para hanseníase devido ao contato prévio com a doença:** \nNão sabia que era preciso tratar\n**Tipo de hanseníase da mãe:** \nNão sei dizer\n\nANTECEDENTES PESSOAIS E FAMILIARES\n**Número de conviventes na casa:** \nSomos em 7 pessoas, todos família \n**Quantidade de cômodos na casa:**\nTem dois quartos e um banheiro.\n**Comorbidades:** \nMinha irmã é muito saudável a única coisa é que ela nasceu com esse problema então a cabeça ficou de criança para sempre **(mostre não ter nenhum conhecimento sobre a enfermidade da paciente).**\n\n**Ao ser dado o diagnóstico indagar ao participante se ele tem certeza desse diagnóstico ou se não poderia ser outra coisa.**\n\n**Dúvidas:**\n**Pergunta 1: **Isso é grave? Ela também vai morrer igual nossa mãe ? \n**Pergunta 2:** Como pega isso ?\n**Pergunta 3:** agora todos devemos ficar isolados? se eu faltar no meu emprego vão me demitir e eu sou a única que trabalho na casa.\n\n**Caso o participante solicite tratamento ambulatorial :**\nQuando o(a) Dr(a) vai voltar aqui para reavaliar ?\n\n**Caso o participante solicite internação :**\nQuestionar se realmente existe necessidade",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Ectoscopia",
+      "conteudo": "Verbalize o achado.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Fisico",
+      "conteudo": "**Sinais Vitais**\n\n**Pressão Arterial:** 125 x 85 mmHg,\n\n**Frequência Cardíaca:** 86 bpm,\n\n**Frequência Respiratória:** 16 irpm,\n\n**Temperatura axilar:** 36,5°C.\n\n\n\nPaciente em bom estado geral, hidratada, corada, demonstrando ansiedade.\n\n**Inspeção da face:** ausência de madarose e de espessamentos do nariz ou região das sobrancelhas. Orelhas\n\nsem alterações.\n\n**Ausculta cardiorrespiratória:** normal.\n\n**Abdômen:** flácido, peristáltico, indolor à palpação superficial e profunda, ausência de massas e/ou\n\nvisceromegalias.\n\n**Avaliação Neurológica Simplificada:** espessamento do nervo auricular direito e do nervo mediano direito.\n\n**Força muscular:** preservada em MMSS e MMII.\n\n**Ausência de deformidades físicas.**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame Dermatoneurológico",
+      "conteudo": "**Teste da sensibilidade térmica : **\n\nausência de sensibilidade térmica na lesão.\n\n\n\n**Teste da sensibilidade dolorosa:** \n\nausência de sensibilidade dolorosa na lesão.\n\n\n\n**Teste da sensibilidade tátil:** \n\nausência de sensibilidade tátil na lesão",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Baciloscopia, Biópsia, Teste de pilocarpina, Teste da histamina",
+      "conteudo": "**Baciloscopia: **no momento, indisponível no município. \n\n**Biópsia de pele:** no momento, indisponível no município. \n\n**Teste de pilocarpina:** no momento, indisponível no município.\n\n**Teste da histamina:** no momento, indisponível no município.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta a paciente e familiares;\n(2) Se identifica de maneira cordial; e, \n(3) Identifica a paciente.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realiza ao menos duas ações.\n**Inadequado: ** Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "  0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza:**\n(1) Permissão para entrar no domicílio; e, \n(2) Aguarda o convite do paciente para sentar-se.\n\n**Adequado:** realiza as duas ações.\n**Parcialmente adequado: **realiza apenas uma das ações.\n**Inadequado: **não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. Pergunta por qual motivo foi solicitada a visita domiciliaria (1) e\nouve o relato atentamente, sem interrupções desnecessárias (2) \n\n**Adequado:** Realiza as duas ações\n**Inadequado:** Realiza somente uma ação ou não realiza nenhuma das ações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. Usa linguagem acessível, evitando termos técnicos de difícil compreensão (1) e Estabelece contato visual e mantém postura de empatia ao longo da consulta. (2) \n\n**Adequado: **Realiza as duas ações\n**Inadequado:** Realiza somente uma ação ou não realiza nenhuma das ações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Descreve a lesão dermatológica: **\n(1) Lesão em relevo, avermelhada;\n(2) Bordos elevados;\n(3) Mal definidos; e, \n(4) Com regiões claras ao centro (faveolamento).\n\n**Adequado: **Descreve os quatro achados da lesão.\n**Parcialmente adequado: **Descreve dois ou três achados da lesão.\n**Inadequado: **Não descreve corretamente nenhum achado da lesão ou descreve somente um achado.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": " 0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre:**\n(1) Outras lesões dermatológicas no corpo; e \n(2) Pergunta há quanto tempo a paciente tem as lesões. \n\n**Adequado: **Pergunta sobre outras lesões dermatológicas no corpo e o tempo de evolução das lesões.\n**Parcialmente adequado: **Pergunta somente por outras lesões OU tempo de evolução das lesões.\n**Inadequado: **Não realiza nenhum dos questionamentos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.2",
+        "adequado": " 0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga sobre:**\n(1) Alteração de sensibilidade na lesão; \n(2) Formigamentos, dormências e câimbras no território anatômico da lesão ou em outras regiões do corpo; \n(3) Perda de pelos na lesão, no território anatômico da lesão ou em outras regiões do corpo (alopecia); e,\n(4) Áreas de “pele seca”.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga de dois a três itens.\n**Inadequado:** Investiga somente um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.50",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga a história epidemiológica do paciente, questionando: **\n(1) Procedência do paciente;\n(2) Se houve algum contato íntimo e prolongado com algum paciente com hanseníase; e,\n(3) Se é contato domiciliar de algum paciente com a doença.\n\n**Adequado:** Investiga os três itens.\n**Parcialmente adequado:** Investiga ao menos dois itens. \n**Inadequado:** Investiga somente um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga sobre:**\n(1) Comorbidades;\n(2) Uso de medicações crônicas;\n(3) Alergias; e,\n(4) Status vacinal.\n\n**Adequado:** Investiga três ou mais itens; \n**Parcialmente adequado:** Investiga um ou dois itens; \n**Inadequado:** Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza o interrogatório direcionado de sistemas, pensando no diagnóstico de hanseníase:**\n(1) Olhos (vermelhidão crônica); \n(2) Nariz (ressecamento da mucosa, formação de cascas e feridas, edema da região do osso nasal ou desabamento nasal); \n(3) Boca (ulcerações, nódulos ou caroços no palato); \n(4) Sistema osteomioarticular: nódulos em cima das articulações; \n(5) Sistema linfático: presença “ínguas” e esplenomegalia; \n(6) Sistema circulatório: presença de cianose de mãos e pés (acrocianose), edema de mãos e pés, úlceras indolores de bordas elevadas em membros inferiores. \n\n**Adequado:** Cumpre quatros ou mais itens.\n**Parcialmente adequado:** Cumpre dois ou três itens.\n**Inadequado: ** Cumpre somente um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": " 0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. Pede consentimento ao familiar para:\n(1) Realizar exame físico;\n(2) Verbaliza a higiene de mãos; e, \n(3) Colocação de luvas.\n\n**Adequado:** Realiza os três itens.\n**Inadequado:** Não realiza os três itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.30"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. Solicita exame dermatoneurológico. \n\n**Adequado:** Solicita permissão para realização do exame dermatoneurológico.\n**Inadequado: ** Não solicita permissão.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.70"
+      },
+      "dica_teorica": "Teste de sensibilidade térmica: deve ser realizado com um algodão embebido com éter para simular frio, e algodão seco para simular quente; ou tubos de ensaio com água quente e fria.Teste de sensibilidade dolorosa: deve ser realizado com a ponta fina da agulha estéril;Teste de sensibilidade tactil: deve ser realizado com um chumaço de algodão ou monofilamento verde ou ponta romba da agulha."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Realiza o diagnóstico clínico de hanseníase dimorfa. **\n\n**Adequado:** Realiza o diagnóstico corretamente. \n**Inadequado: **Não realiza o diagnóstico corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.50"
+      },
+      "dica_teorica": "É possível estabelecer o diagnóstico clínico sem a baciloscopia ou a biópsia de pele, permitindo assim o início do tratamento o quanto antes"
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Solicita pelo menos um dos seguintes exames subsidiários:**\n(1) Baciloscopia; e,\n(2) Biópsia de pele.\n\n**Adequado:** Solicita ao menos um dos exames. \n**Inadequado:** Não solicita baciloscopia e/ou biópsia de pele.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Classifica a paciente adequadamente como multibacilar.**\n\n**Adequado:** Classifica corretamente o paciente.\n**Inadequado:** Não classifica corretamente o paciente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Estabelece o tratamento com:**\n(1) Rifampicina 600 mg 1x/mês (TDO);\n(2) Dapsona 100 mg 1x/mês (TDO) e 100 mg/dia; e,\n(3) Clofazimina 300 mg 1x/mês (TDO) e 50 mg/dia. \n\n**Adequado:** Estabelece o tratamento medicamentoso correto e completo verbalizando a dose e o tempo de administração \n**Parcialmente adequado:** Estabelece o tratamento medicamentoso sem verbalizar a dose e o tempo de administração \n**Inadequado:** Não estabelece o tratamento medicamentoso adequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "O TDO pode ser feito em casa na presença de um profissional de saúde da equipe, já que a paciente tem dificuldade de locomoção"
+    },
+    {
+      "idx": 17,
+      "descricao": "17.** Estabelece:**\n(1) Tempo correto de seguimento para a paciente multibacilar (entre 12 e 18 meses);\n(2) Reforça a importância do tratamento diretamente observado (TOD); \n(3) Orienta a ingestão das medicações com água; e,\n(4) Orienta sobre efeitos adversos e/ou reações hansênicas após o início do tratamento.\n\n**Adequado:** Estabelece os quatro itens. \n**Parcialmente adequado:** Estabelece dois ou três itens. \n**Inadequado:** Estabelece somente um item ou não estabelece nenhum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Esclarece as dúvidas do familiar.**\n\n**Adequado:** Esclarece as dúvidas. \n**Inadequado:** Não esclarece as dúvidas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Se a doença for diagnosticada de forma precoce e tratada adequadamente, não existem complicações da doença ; A principal forma de transmissão é pelas vias respiratórias; Não é necessário isolamento ou uso de máscaras, pois a transmissão cessa em poucos dias após o tratamento"
+    },
+    {
+      "idx": 19,
+      "descricao": "19. **Solicita:** \n(1) Que os contatos domiciliares compareçam na UBS para avaliação clínica e do status vacinal (se apresentam comprovação ou cicatriz vacinal para BCG), \n(2) Uma vez que será necessário o acompanhamento 1 vez por ano por 5 anos.\n\n**Adequado:** Solicita os dois itens.\n**Inadequado:** Solicita um item ou não solicita item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "20. **Realiza:** \n(1) Notificação ao SINAN com periodicidade semanal;\n(2) Verbaliza a necessidade de conversar com a equipe sobre orientações à comunidade e/ou buscas ativas no bairro; \n(3) Entrega a “caderneta de saúde da pessoa acometida pela hanseníase”. \n\n**Adequado:** Realiza as três tarefas.\n**Parcialmente adequado:** Realiza ao menos duas tarefas. \n**Inadequado:** Realiza somente uma ou nenhuma tarefa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

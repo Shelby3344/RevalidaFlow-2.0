@@ -1,0 +1,166 @@
+{
+  "uid": 1331,
+  "hash": "KvTdSDmaXPZMI_x5M-Ear2Fx",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Desprendimento Prematuro de Placenta | INEP 2022.1",
+  "definicao": "O descolamento prematuro da placenta (DPP), também conhecido como placenta abrupta ou desprendimento placentário, é uma complicação incomum, porém grave da gravidez, na qual a placenta descola-se parcial ou completamente do útero antes da hora do parto.",
+  "origem": 1,
+  "ano_da_prova": "20221",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "94.00",
+    "star": 0,
+    "time": 570.5,
+    "count": 11356
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Atenção Secundária Hospitalar.\nTipo de Atendimento: Urgência e Emergência.\n\nA unidade possui a seguinte infraestrutura:\n- Consultórios para atendimento; e\n- Laboratório de análises clínicas.\n\nDESCRIÇÃO DO CASO\nUma gestante de 35 anos, visivelmente pálida, comparece para atendimento no pronto socorro de uma maternidade, apresentando queixa de dor e desejando avaliação.",
+  "tarefas": "- Realizar anamnese;\n- Solicitar os exames que julgar necessários;\n- Responder aos questionamentos da paciente simulada;\n- Citar hipótese diagnóstica;\n- Realizar as condutas necessárias;\n- Estabelecer a orientação final à paciente simulada.\n\nATENÇÃO! VOCÊ DEVERÁ, OBRIGATORIAMENTE, REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS PESSOAIS**:\n- Simone, 35 anos, casada, trabalha em um ginásio. \n\n**MOTIVO DE CONSULTA:** \n- Dr(a) eu estou com muita dor na barriga e sangramento vaginal.\nTudo começou há duas horas, estava fazendo o almoço quando começou.\n\n**CARACTERÍSTICA DO SANGUE:** \n- É um sangue vermelho escuro. \n\n**ANTECEDENTES PESSOAIS, FAMILIARES E GESTACIONAIS**\n**- Comorbidades:** Às vezes, minha pressão fica alta, mas estou tomando remédio para isso direitinho e tomo vitaminas, mas não lembro o nome das medicações. \n**- Idade gestacional:** Estou com 8 meses de gestação, fiz uma ultrassonografia na semana passada que indica 32 semanas de idade gestacional, com o bebê na posição de nascer. \n**- Gestas, partos e abortos prévios:** G2P1A0.\n**- Intercorrências na primeira gestação:** Ocorreu tudo bem.\n\n**- Caso o candidato pergunte se a paciente está acompanhada:** Estou sozinha, meu marido me deixou aqui e foi ficar com a nossa outra filha em casa. \n\n**DÚVIDAS:** \n- O que eu tenho, doutor(a), meu filho corre perigo?\n- Quais outras possíveis causas desse sangramento?\n- Eu posso ir em casa rapidinho? Acho melhor eu ir pessoalmente avisar meu marido.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais Vitais",
+      "conteudo": "**Pressão arterial:** 90 × 60 mmHg\n\n**Temperatura:** 36 °C\n\n**Frequência cardíaca:** 100 bpm\n\n**Frequência respiratória:** 20 irpm\n\n**Saturação periférica de oxigênio (SatO2):** 98%",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Obstétrico Abdominal ",
+      "conteudo": "**Altura uterina:** 32 cm, feto com apresentação cefálica, posição longitudinal, dorso à direita, útero hipertônico.\n\n\n\n**Batimentos cardíacos fetais: **85 batimentos por minuto.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame Ginecológico",
+      "conteudo": "**Exame especular:** Presença de grande quantidade de sangue no interior do canal vaginal.\n\n\n\n**Toque vaginal:** Sangramento vermelho-escuro no dedo de luva, com coágulos em grande quantidade; colo uterino posterior, pérvio para 2 cm.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta; e \n(2) Se apresenta à paciente simulada.\n\n**Adequado:** Cumprimenta a paciente simulada e se apresenta.\n**Parcialmente adequado:** Realiza apenas uma das atividades. \n**Inadequado:** Não realiza nenhuma das duas atividades.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "  0.25 ",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre os sintomas de dor e sangramento, como:**\n(1) Início e duração; \n(2) Características da dor; e \n(3) Aspecto do sangramento.\n\n**Adequado:** Pergunta sobre dois ou mais sintomas. \n**Parcialmente adequado:** Pergunta sobre apenas um dos sintomas. \n**Inadequado:** Não pergunta sobre as características dos sintomas de dor e sangramento.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "  0.5 ",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Os sinais e sintomas mais comumente relacionados ao desprendimento prematuro de placentaincluem:dor abdominal de início súbito, sangramento vaginal caracteristicamente escurecido, hipersensibilidade à palpação uterina, hipertonia uterina e alterações na vitalidade fetal. Importante salientar que não há correlação entre o volume de sangue externado e o acometimento fetal, uma vez que um em cada cinco casos pode simplesmente nãomanifestar sangramento vaginal."
+    },
+    {
+      "idx": 3,
+      "descricao": "3.** Pergunta sobre os movimentos fetais.**\n\n**Adequado:** Pergunta sobre os movimentos fetais. \n**Inadequado:** Não pergunta sobre os movimentos fetais.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "  0.5 "
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre o tempo de gestação (ou data da última menstruação ou idade gestacional).**\n\n**Adequado:** Pergunta.\n**Inadequado:** Não pergunta",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "  0.5 "
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita o cartão de pré-natal ou cartão da gestante.**\n\n**Adequado:** Solicita o cartão de pré-natal ou cartão da gestante. \n**Inadequado:** Não solicita o cartão de pré-natal ou cartão da gestante.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "  0.5 "
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Indica a necessidade de realizar o exame obstétrico abdominal. **\n\n**Adequado:** Indica a necessidade de exame obstétrico abdominal.\n**Inadequado:** Não indica o exame obstétrico abdominal.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "  0.5 "
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Indica a necessidade de realizar exame ginecológico (ou toque vaginal ou exame especular). **\n\n**Adequado:** Indica a necessidade de realizar o exame.\n**Inadequado:** Não indica a realização do exame.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "  0.5 "
+      },
+      "dica_teorica": "Uma vez estabelecido o diagnóstico ou a forte suspeita de DPP-NI, duas questões devem balizar a tomada de decisão pelo médico-assistente:a estabilidade hemodinâmica materna e a presença de feto vivo.Gestantes com IG maior ou igual a 24/26 semanas e evidências de sofrimento fetaldemandam abordagem de parto imediata, caso as condições locais permitam suporte perinatal ou transferência para serviço de maior complexidade.Nesses casos, se a expectativa de tempo para parto superar 20 minutos, o parto cesáreo deve ser preferido.Nos casos de óbito fetal ou feto de viabilidade incerta (IG < 24 semanas) com estabilidade clínico-laboratorial materna, a via de parto vaginal é preferível, contanto que esta não ponha em risco o bem-estar materno e tenha previsão de nascimento entre quatro a seis horas."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Cita descolamento prematuro de placenta (ou desprendimento prematuro da placenta) e sofrimento fetal agudo (ou sofrimento fetal) como diagnósticos. **\n\n**Adequado:** Cita os dois diagnósticos. \n**Parcialmente adequado:** Cita apenas um dos diagnósticos. \n**Inadequado:** Não cita nenhum dos diagnósticos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "  1.0",
+        "adequado": " 2.0 "
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Cita diagnósticos diferenciais, como: **\n(1) Placenta prévia; \n(2) Ruptura de seio marginal; \n(3) Rotura de vasa prévia; \n(4) Rotura uterina. \n\n**Adequado:** Cita dois ou mais diagnósticos diferenciais. \n**Parcialmente adequado:** Cita até um diagnóstico diferencial.\n**Inadequado:** Não cita nenhum dos diagnósticos diferenciais uterina.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "  0.5 ",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Indica a necessidade imediata de interrupção da gravidez (cesariana de urgência).**\n\n**Adequado:** Indica a interrupção da gravidez (cesariana de urgência).\n**Inadequado:** Não indica interrupção da gravidez (cesariana de urgência).",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": " 2.0 "
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Orienta a mãe sobre o:**\n(1) Risco fetal; e \n(2) A necessidade de internação na UTI neonatal.\n\n**Adequado:** Realiza as duas orientações.\n**Parcialmente adequado:** Realiza apenas uma orientação.\n**Inadequado:** Não orienta a paciente ou a orienta incorretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "  0.5 ",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "uid": 1234,
+  "hash": "QJYmJL_CNoiP-KaKdLDDAWa3",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Febre Reumática",
+  "definicao": "Doença inflamatória que ocorre após um episódio de amigdalite bacteriana provocada por Streptococcus, tratada inadequadamente. Pode atingir as articulações, o coração e o cérebro, deixando sequelas cardíacas graves, com consequências por toda a vida e podendo levar à morte.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "42.50",
+    "star": 0,
+    "time": 598.5,
+    "count": 7811
+  },
+  "cenario": "Local de atuação: \nAtenção secundária: ambulatorial e hospitalar.\nA unidade possui infraestrutura compatível com o nível de atenção.\n\nDescrição do caso:\nVocê está em um pronto socorro e realizará o atendimento de um pré-adolescente, com 11 anos de idade, acompanhado pela mãe com queixa de dores articulares.",
+  "tarefas": "-Anamnese dirigida à queixa do paciente;\n-Solicitar e interpretar o exame físico (não será necessário examinar diretamente o paciente);\n-Solicitar exames complementares de laboratório e de imagem, se necessário;\n-Interpretar os exames apresentados e verbalizar seus achados;\n-Definir diagnóstico do paciente; e\n-Encaminhar o paciente de acordo com a conduta terapêutica indicada.\n-Responder aos questionamentos do paciente;\n\nATENÇÃO: VOCÊ DEVERÁ, OBRIGATORIAMENTE, REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS DA MÃE:** \n- Carolina, casada, contadora, 3 filhos. \n\n**DADOS DA CRIANÇA:** \n- Gabriel 11 anos. \n\n**MOTIVO DE CONSULTA: **\n- Dr(a), meu filho está com uma dor muito forte no joelho esquerdo.\n\n**SOBRE A DOR NO JOELHO: **\n**- Aparecimento:** - Apareceu subitamente.\n**- Localização:** - No joelho esquerdo.\n**- Intensidade:** - 10/10\n**- Característica:** - Pulsante\n**- Migração ou irradiação:** - A dor começou há uma semana. Começou no ombro direito, depois passou para o tornozelo e hoje está no joelho.\n**- Atenuantes e agravantes:** - Melhora com o repouso, piora com o movimento.\n\n**SINTOMAS ASSOCIADOS: **\n**- Febre:** - Sim\n**- Início:** - Há 10 dias\n**- Duração:** - 10 dias\n**- Constatação:** - Não verifiquei Dr(a), não tenho termômetro em casa.\n**- Ingesta de medicamentos:** - Administrei dipirona e melhora.\n\n- A febre começou há uns 10 dias. Eu não cheguei a medir, porque não tenho termômetro, mas sempre administro dipirona e melhora.\n**- Náuseas e vômitos:** - Nega.\n**- Dor torácica:** - Nega.\n**- Manchas no corpo:** - Apareceram umas manchas no corpo hoje. Você quer ver?\n**- Movimentos irregulares e espontâneos:** - Não notei \n**- Dor de garganta:** - Ele estava com dor de garganta umas 3 semanas atrás.\n**- Uso de antibiótico:** - Eu administrei antibiótico (amoxicilina). Era para tomar uma semana (sete dias), mas viajamos e esqueci de levar, então ele só tomou por uns dois dias.\n\n**CARTÃO DE VACINAS:** \n- Não trouxe o cartão, mas está tudo completo.\n\n**CRESCIMENTO E DESENVOLVIMENTO:** \n- Normal, nunca teve nenhum problema de saúde.\n\n**ALIMENTAÇÃO:**\n- Ele está comendo pouco.\n\n**INTERNAÇÃO, CIRURGIAS E ALERGIAS:** \n- Nega.\n\nAPÓS LEITURA DO IMPRESSO DO **EXAME FÍSICO:**, \n- O que meu filho tem?\n\n**DÚVIDAS:** \n**- Pergunta 1:** - Ele ficará internado?\n**- Pergunta 2:** - Ele terá que tomar alguma medicação profilática?\n\n**OUTRAS PERGUNTAS: **\n- Não consta no SCRIPT",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": " EXAME FÍSICO ",
+      "conteudo": "**Exame físico geral: Crianç**a em regular estado geral, com facies de dor, hipocorada (2/4), hidratada, com enchimento capilar normal.\n\n\n\n**Aparelho cardiovascular: **Bulhas rítmicas e normofonéticas, com sopro pansistólico.\n\n\n\n**Aparelho respiratório: **Eupneica. Murmúrio vesicular fisiológico, sem ruídos adventícios.\n\n\n\n**Abdome: **Plano, normotenso, sem visceromegalias, não doloroso à palpação, sem sinais de irritação peritoneal, ruídos hidroaéreos presentes e normais.\n\n\n\n**Joelho esquerdo: **Levemente eritematoso e edematizado, com aumento da temperatura e doloroso à palpação local.\n\n\n\n**Sinais vitais:**\n\n**- FC: 120 bpm**\n\n**- FR: 24 irpm**\n\n**- PA: 100 × 60 mmHg**\n\n**- SatO2: 96% (ar ambiente)**\n\n**- Temperatura: 38,7º C**\n\n**- Peso: 21kg**",
+      "imagem": "https://app.penserevalida.com/impressos/03/Captura-de-Tela-2501.png"
+    },
+    {
+      "idx": 2,
+      "titulo": " ECTOSCOPIA ",
+      "conteudo": "",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ECG",
+      "conteudo": "**• ECG: taquicardia sinusal, sinais de sobrecarga ventricular esquerda.**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ECOCARDIOGRAMA",
+      "conteudo": "Valva atrioventricular esquerda com estenose anular e alongamento das cordas com prolapso da ponta da cúspide anterior de aspecto em “rosário\" das pontas das cúspides, presença de refluxo moderado.\n\n\n\nConclusão: Cardite e lesão valvar residual moderada a severa",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "• Radiografia de tórax: cardiomegalia e congestão pulmonar.",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "LABORATÓRIO",
+      "conteudo": "Leucocitose com neutrofilia \n\nVHS: **70 mm/ hora. **\n\nPCR: 12 mg/ dl. \n\nASO: 760 U",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "INVESTIGAÇÃO PARA PYOGENES",
+      "conteudo": "Teste rápido para S. pyogenes: negativo.\n\nCultura orofaringe: negativa para S. pyogenes.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Apresenta-se à mãe simulada;\n(2) Pergunta o nome da mãe;\n(3) Pergunta o nome da criança.\n\n**Adequado:** se realiza 3 itens corretamente.\n**Parcialmente adequado:** se realiza 1 ou mais itens corretamente.\n**Inadequado:** se não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.125",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Inicia a anamnese com pergunta aberta sobre o motivo de consulta.**\n\n**Adequado:** se pergunta item corretamente. \n**Inadequado:** se não pergunta corretamente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Caracteriza a dor articular:**\n(1) Aparição;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Irradiação;\n(6) Atenuantes e agravantes;\n(7) Frequência e duração;\n(8) Caráter migratório da dor;\n\n**Adequado:** se perguntado 6 ou mais itens, sendo obrigatório item 8.\n**Parcialmente adequado:** se perguntado 3 ou mais itens, sendo obrigatório item 8.\n**Inadequado:** se perguntado 2 ou menos itens ou não questionado item 8.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre sintomas associados:**\n(1) Febre;\n(2) Náuseas e vômitos;\n(3) Manchas no corpo;\n(4) Dor torácica;\n(5) Nódulos subcutâneos;\n(6) Movimentos irregulares e rápidos;\n(7) Mal-estar geral e sonolência;\n\n**Adequado:** se perguntados 5 ou mais itens.\n**Parcialmente adequado:** se perguntados 3 ou mais itens.\n**Inadequado:** se perguntados 2 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Caracteriza a febre: **\n(1) Início; \n(2) Duração; \n(3) Constatação; \n(4) Ingestão de medicamentos; \n(5) Frequência e evolução; \n(6) Presença de calafrios; \n(7) Convulsões. \n\n**Adequado:** se perguntado 5 ou mais itens. \n**Parcialmente adequado:** se perguntado 3 ou mais itens. \n**Inadequado:** se perguntado 2 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga antecedente de odinofagia (1), escarlatina (2) e tratamento antibiotico (3).**\n\n**Adequado:** se realiza 3 itens corretamente. \n**Parcialmente adequado:** se realiza 1 ou mais itens corretamente. \n**Inadequado:** se não realiza nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Questiona antecedentes de alergias, uso de medicações crônicas, internações ou cirurgias.**\n\n**Adequado:** se realiza dois itens corretamente. \n**Parcialmente adequado:** se realiza um ou mais itens corretamente. \n**Inadequado:** se não realiza nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Investiga antecedentes pessoais ou familiares de doenças reumatológicas.**\n\n**Adequado:** se investiga corretamente.\n**Inadequado:** se não investiga corretamente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita e interpreta o exame físico: taquicárdico, febril, sopro pansistólico.**\n\n**Adequado:** se solicita e interpreta corretamente.\n**Inadequado:** se não solicita e/ou interpreta corretamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza a presença de um eritema marginado na avaliação da ectoscopia do paciente.**\n\n**Adequado:** se verbaliza corretamente. \n**Inadequado:** se não verbaliza corretamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Investiga e confirma infecção por S. Pyogene: teste rápido, cultura, ASO.**\n\n**Adequado:** se solicita um item corretamente.\n**Inadequado:** se não solicita nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Identifica VHS e PCR aumentados.**\n\n**Adequado:** se solicita um item corretamente. \n**Inadequado:** se não solicita nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita ECG, Radiografia de Tórax e/ou Ecocardiograma e define: cardite moderada ou severa.**\n\n**Adequado:** se solicita um item corretamente e confirma o achado.\n**Inadequado:** se não solicita nenhum item ou não confirma o achado.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Verbaliza o diagnostico de Febre Reumática.**\n\n**Adequado:** se verbaliza o diagnostico corretamente. \n**Inadequado:** se não verbaliza o diagnostico corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indica internação hospitalar.**\n\n**Adequado:** se indica internação. \n**Inadequado:** se não indica internação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Indica como tratamento Repouso, antitérmico, AAS e Prednisona.**\n\n**Adequado:** se indica tratamento adequado. \n**Inadequado:** se não indica tratamento ou indica incorretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "TRATAMENTO DA ARTRITE - O uso dos AINES apresenta bons resultados no controleda artrite, com desaparecimento entre 24 e 48 horas. OAAS se mantém como a 1ª opção. O naproxeno é uma boaalternativa ao AAS, com a mesma eficácia, maior facilidadeposológica e melhor tolerância (I-A). As artrites reativaspós-estreptocócicas podem não apresentar boa respostaclínica ao tratamento com AAS e naproxeno.TRATAMENTO CARDITE - • Indica-se o uso de CE nos casos de cardite moderada egrave (I-B).• O esquema preconizado é com prednisona, 1 a 2 mg/Kg/dia, via oral, sendo a dose máxima de 80mg/dia (pode-seusar via EV na impossibilidade de uso oral, em dosesequivalentes).• Nos casos de cardite leve, não há consenso, podendose: a) não usar AINES; b) usar AINES ou c) usar CE emdoses e duração menores. TRATAMENTO COREIA - Na coréia leve e moderada, estão indicadosrepouso e permanência em ambiente calmo, evitando-se estímulos externos. Osbenzodiazepínicos e fenobarbital também podem ser utilizados. O tratamento específico está indicado apenas nas formas graves da coréia, sendo que a hospitalização poderá ser necessária: a) haloperidol 1mg/dia, aumentando 0,5 mg a cada 3 dias, até atingir 5mg ao dia (I-B); b) ácido valproico 10mg/kg/dia, aumentando 10mg/kg a cada semana até 30mg/Kg/dia (I-B) e c) carbamazepina 7 a 20mg/ kg/dia (I-B). Alguns estudos mais recentes têm mostrado a eficácia do uso de CE no tratamentosintomático da coréia (IIb-B)."
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Encaminha paciente para cardiologia.**\n\n**Adequado:** se encaminha corretamente. \n**Inadequado:** se não encaminha.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Indica tratamento a profilaxia secundária com Penicilina G Benzatina a cada 21 dias até 40 anos ou por vida.**\n\n**Adequado:** se indica corretamente. \n**Inadequado:** se não indica corretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Profilaxia secundária:Após o diagnostico FR a profilaxia secundária deve ser prontamente instituída, permanecendo a penicilina benzatina como a droga de escolha.Duração:1) FR sem cardite prévia: até 21 anos ou 5 anos após o último surto, valendo o que cobrir maior período.2) FR com cardite prévia; insuficiência mitral leve residual ou resolução da lesão valvar: até 25 anos ou 10 anos após o último surto, valendo o que cobrir maior período.3) Lesão valvar residual moderada a severa: até os 40 anos ou por toda a vida.4) Após cirurgia valvar: por toda a vida."
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Realiza adequadamente a sequência das tarefas, conforme solicitado nas orientações ao participante.**\n\n**Adequado:** Se realiza conforme as ordens. \n**Inadequado:** Se não realiza na ordem.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.125"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Questiona duvidas e despede-se cordialmente.**\n\n**Adequado:** Se questiona sobre duvidas.\n**Inadequado:** Se não questiona sobre duvidas da mãe.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.125"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

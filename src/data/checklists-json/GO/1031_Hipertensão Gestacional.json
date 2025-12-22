@@ -1,0 +1,194 @@
+{
+  "uid": 1031,
+  "hash": "qI6enEq6YwmcZGC-zRf3wZmE",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Hipertensão Gestacional",
+  "definicao": "É a identificação de hipertensão arterial na segunda metade da gestação, em gestante previamente normotensa, porém sem proteinúria ou manifestação de outros sinais/sintomas relacionados à pré\u0002eclâmpsia (PE). É um diagnóstico temporário de gestantes que não preenchem os critérios de pré-eclâmpsia. Pode evoluir para pré-eclâmpsia em 10% a 50% dos casos. Deve desaparecer até 12 semanas após o parto. Assim, diante da persistência dos valores pressóricos elevados, deve ser reclassificada como hipertensão arterial crônica, que deixou de ser diagnosticada pelas alterações fisiológicas da primeira metade da gestação. Os princípios básicos do controle da hipertensão gestacional incluem manter os valores da pressão arterial entre 110 a 140 x 85 mmHg (usando hipotensores, se necessários), monitorar o desenvolvimento de pré-eclâmpsia e postergar a resolução da gestação até 39 + 6 semanas (desde que a pressão arterial esteja controlada, não haja comprometimento do bem-estar fetal ou evolução para pré-eclâmpsia)",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "83.50",
+    "star": 0,
+    "time": 577.5,
+    "count": 5614
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Primária.\nTipo de atendimento: Consulta.\nA unidade conta com a seguinte infraestrutura:\n- Sala de atenção médica;\n- Laboratório de análises clínicas;\n- Ultrassonografia;\n\nDescrição do caso:\nJuliana, 32 anos, G1A0, vem à consulta para seu quarto controle de pré-natal.\n\nDados da Triagem:\nPressão Arterial: 150x95 mmHg;\nTemperatura: 36,5°C;\nSaturação de O2: 99%;\nPeso: 60 kg.",
+  "tarefas": "- Realizar anamnese do paciente;\n- Solicitar e interpretar exame físico;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Solicitar exames complementares, se necessário, descrevendo os achados;\n- Propor conduta terapêutica;\n- Dar orientações a paciente e sanar dúvidas.\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "Juliana, 32 anos, G1A0, casada, digital influencer.\n\n**MOTIVO DE CONSULTA:** \n- Oie Dr(a), aqui estamos novamente para mais um controle.\n\n**INFORMAÇOES GESTACIONAIS**\n\n**PARTOS, GESTAS E ABORTOS:**\n- G1A0.\n\n**INTERCORRÊNCIAS DESDE A ÚLTIMA CONSULTA:**\n- NEGAR.\n\n**CARTÃO DE PRÉ NATAL:** \n- Dr(a), hoje eu vim direto do mercado e só percebi aqui na recepção que, na correria de sair de casa, deixei em cima da mesa.\n\n**SEMANAS GESTACIONAIS:** \n- Estou de 30 semanas.\n\n**EXAMES PRÉVIOS DA GESTAÇÃO:** \n- Esqueci tudo hoje, Dr(a). Me desculpe, a cabeça está ficando complicada de tantos detalhes nessa reta final. \n\n**ANTECEDENTES PESSOAIS E GINECOOBSTÉTRICOS**\n\n**DOENÇAS CRÔNICAS:** \n- Tenho anemia.\n\n**USO DE MEDICAÇÕES CRÔNICAS:** \n- Estou tomando as vitaminas da gestação que você me indicou.\n\n\n**DÚVIDAS**\n**PERGUNTA 1:** Isso pode trazer alguma complicação para mim ou para o bebê?\n**PERGUNTA 2:** Eu terei essa doença para sempre agora?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 150x95 mmHg\n\n- **Frequência cardíaca:** 85 batimentos por minuto\n\n- **Frequência respiratória:** 16 incursões por minuto\n\n- **Saturação de O2:** 99%\n\n- **Temperatura axilar:** 36,5°C\n\n\n\n**- Estado Geral:** \n\nPaciente em bom estado geral, orientada em tempo, espaço e pessoa; corada, hidratada, acianótica e anictérica.\n\n\n\n**- Aparelho cardiovascular:**\n\n Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**- Aparelho respiratório:** \n\nAusculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Físico Obstétrico",
+      "conteudo": "**Altura uterina: **30 cm.\n\n**BCF:** 140 bpm.\n\n**Movimentação fetal:** Feto ativo.\n\n**DU:** ausente.\n\n**Exame especular:** ausência de secreções vaginais, ausência de sinais de líquidos ou sangramentos. Colo uterino sem lesões ou alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame laboratorial ",
+      "conteudo": "**Proteinúria de 24 horas:** 100 mg/24h\n\n\n\n**Hemoglobina:** 10,5 (Valor de Referencia: 12-16)\n\n**Hematocrito: **35,6% (Valor de Referencia: 36-48) \n\n**Leucócitos:** 9.250 (Valor de Referencia: 3.700-10.000)\n\n**Plaquetas:** 162.000 (Valor de Referencia: 150.000-450.000)\n\n\n\n**Ureia:** 15,00 mg/dL (Valor de Referencia: < 20 mg/dL)\n\n**Creatinina:** 1,0 mg/dL (Valor de Referencia: < 1,2 mg/dL)\n\n\n\n**TGO:** 22,00 U/L (Valor de Referencia: < 70 U/L)\n\n**TGP:** 28,00 U/L (Valor de Referencia: < 70 U/L)\n\n**Bilirrubinas totais:** 0,9 mg/dL (Valor de Referencia: < 1,2 mg/dL)\n\n**DHL: **140 U/L (Valor de Referencia: < 600 U/L)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Ultrassonografia com doppler",
+      "conteudo": "Dentro dos parâmetros de normalidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Apresenta-se, cumprimentando a paciente e/ou falando seu nome e/ou questionando o nome dela;\n(2) Pergunta o motivo da consulta/queixa principal da paciente. \n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza apenas uma ação. \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Interroga sobre:**\n(1) Seguimento do pré-natal; e \n(2) Solicita cartão de pré natal. \n\n**Adequado:** Realiza as duas tarefas. \n**Parcialmente adequado:** Realiza somente uma das tarefas. \n**Inadequado:** Não realiza nenhuma das tarefas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3.** Informa que o cartão de pré natal deve acompanhá-la em todas as consultas de pré-natal OU informa que a paciente deverá andar sempre com o seu cartão de pré natal.**\n\n**Adequado:** Informa sobre.\n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga: **\n(1) Doenças crônicas;\n(2) Uso crônico de medicações;\n(3) Status vacinal.\n\n**Adequado:** Investiga os três itens.\n**Parcialmente adequado:** Investiga ao menos dois itens.\n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita o exame físico OU o exame obstetrico/ginecológico.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Informa que os níveis pressóricos estão elevados.**\n\n**Adequado:** Informa.\n**Inadequado:** Não informa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames laboratoriais:**\n(1) Proteinúria de 24 horas;\n(2) Hemograma/plaquetas;\n(3) TGO;\n(4) TGP;\n(5) Bilirrubinas;\n(6) Ureia;\n(7) Creatinina.\n\n**Adequado:** Solicita os sete exames laboratoriais.\n**Parcialmente adequado:** Solicita ao menos quatro exames laboratoriais.\n**Inadequado:** Solicita três ou menos exames laboratoriais.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.2"
+      },
+      "dica_teorica": "Na ausência de proteinúria, também se considera pré-eclâmpsia quando a hipertensão arterial for acompanhada de comprometimento  sistêmico ou disfunção de órgãos-alvo (trombocitopenia, disfunção hepática,  insuficiência renal, edema pulmonar, iminência de eclâmpsia ou eclâmpsia) ou  de sinais de comprometimento placentário (restrição de crescimento fetal e/ou  alterações dopplervelocimétricas)."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita ultrassonografia com doppler.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza o diagnóstico de Hipertensão gestacional.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.7"
+      },
+      "dica_teorica": "Os princípios básicos do controle da hipertensão gestacional incluem manter os valores da pressão arterial entre 110 a 140 x 85 mmHg (usando hipotensores, se necessários), monitorar o desenvolvimento de pré-eclâmpsia e postergar a resolução da gestação até 39 + 6 semanas (desde que a pressão arterial esteja controlada, não haja comprometimento do bem\u0002estar fetal ou evolução para pré-eclâmpsia)."
+    },
+    {
+      "idx": 10,
+      "descricao": "10.** Informa a paciente simulada que: a hipertensão gestacional é um diagnóstico temporário de gestantes que não preenchem os critérios de pré-eclâmpsia porém podem evoluir para pré-eclâmpsia em até 50% dos casos.**\n\n**Adequado:** Informa de forma correta e completa.\n**Inadequado:** Informa de forma incorreta e/ou incompleta ou não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Informa que os altos valores pressóricos devem desaparecer até 12 semanas após o parto.**\n\n**Adequado:** Informa corretamente.\n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica tratamento não medicamentoso com:**\n(1) Dieta;\n(2) Prática de exercícios físicos;\n(3) Diminuição de níveis de estresse.\n\n**Adequado:** Indica os três itens.\n**Parcialmente adequado:** Indica ao menos dois itens.\n**Inadequado:** Indica somente um item OU não indica nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Indica tratamento medicamentoso com **\nMetildopa OU Clonidina OU Nifedipino OU Anlodipino OU Hidralazina OU Metoprolol OU Pindolol OU Carvedilol.\n\n**Adequado:** Indica tratamento medicamentoso citando ao menos uma das opções medicamentosas acima.\n**Inadequado:** Indica tratamento medicamentoso indicando uma droga que não faz parte das opções medicamentosas acima ou não indica tratamento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

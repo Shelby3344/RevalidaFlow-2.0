@@ -1,0 +1,171 @@
+{
+  "uid": 1521,
+  "hash": "1fdd541549d4d9bbac39dbd61d4476df46723c59053249393629ac5796be8356-1745708620",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": null,
+  "color": "#ff4a64",
+  "checklist": "Candidíase vulvovaginal",
+  "definicao": "É a infecção da vulva e vagina, causada por um fungo comensal que habita a mucosa vaginal e digestiva, o qual cresce quando o meio se torna favorável ao seu desenvolvimento. A relação sexual não é a principal forma de transmissão, visto que esses microrganismos podem fazer parte da flora endógena em até 50% das mulheres assintomáticas. Cerca de 80% a 90% dos casos são devidos à C. albicans e de 10% a 20% a outras espécies (C. tropicalis, C. glabrata, C. krusei, C. parapsilosis).",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "76.50",
+    "star": 0,
+    "time": 555.5,
+    "count": 2076
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Primária.\nTipo de Atendimento: Ambulatorial - Unidade de Atenção Primária (UBS).\n\nA unidade conta com a seguinte infraestrutura:\n-Laboratório de análises clínicas; \n\nDescrição do Caso:\nMulher com 26 anos, queixando-se de corrimento vaginal.",
+  "tarefas": "- Realizar anamnese da paciente;\n-Solicitar o exame físico e ginecológico da paciente verbalizando, de forma completa, os parâmetros, pertinentes à queixa da paciente, que deverão ser verificados;\n- Informar hipótese diagnostica completa e correlacionar/justificar com a clínica da\n paciente;\n-  Citar 2 diagnósticos diferenciais (serão aceitos somente os dois primeiros);\n- Indicar, se necessário, medicações a serem prescritas;\n- Responder às perguntas da paciente de forma completa, justificando os motivos das orientações;\n- Orientar e indicar condutas relativas ao caso clínico.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Sabrina, 26 anos, estudante.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a) faz 3 dias que estou com um corrimento vaginal que esta me incomodando muito.\n\n**SOBRE O CORRIMENTO:**\n**- Prurido:** Sim Dr(a), coça muito.\n**- Aspecto:** Ele é meio grosso, como leite estragado.\n**- Cor:** Meio esbranquiçado.\n**- Alteração urinária/disúria:** Quando eu vou urinar dói.\n**- Febre:** Não, não tive febre.\n**- Presença de lesões externas:** Nega.\n**- Odor: **Sem odor característico.\n**- Dispareunia:** Sim, quando estou assim, dói na penetração.\n**-Edema vulvar;** Sim  Dr(a) notei que esta um pouco aumentado de tamanho e vermelho. \n**- Quadros semelhantes prévios:** Nunca tive esse tipo de corrimento.\n\n**ANTECEDENTES PESSOAL:**\n**- Doenças/ cirurgias:** Nega doenças e cirurgias prévias.\n**- Medicamentos:** Não utiliza nenhum medicamento de uso contínuo.\n**- Alergias:** Desconhece alergias medicamentosas e alimentares.\n**- Cartão de vacinação:** Atualizado.\n\n**HÁBITOS:**\n**- Bebidas:** Nega.\n**- Cigarro: **Nega. \n**-Drogas:** Nega.\n**- Atividade física:** Sou sedentária.\n**-Alimentação:** Gosto de doces, salgados e refrigerante. \n  \n**ANTECEDENTES GINECOLÓGICOS:**\n**- DUM:** Há 4 dias.\n**- Menarca:** 12 anos.\n**- Sexarca: **14 anos.\n**- Vida sexual:** Tenho namorado.\n**- Uso de métodos contraceptivos:** Faço uso de anticoncepcional oral combinado e preservativo as vezes.\n\n\n**DÚVIDAS:**\n-Dr(a) tem algo que eu posso fazer para não ter isso novamente?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n**- Pressão arterial:** 120x80 mmHg\n\n**- Frequência cardíaca:** 72 batimentos por minuto\n\n**- Frequência respiratória:** 16 incursões por minuto\n\n**- Saturação de O2:** 99%\n\n**- Temperatura axilar:** 36.4° C\n\n\n\n**Estado Geral:** \n\nPaciente em bom estado geral, orientada em tempo, espaço e pessoa, corada, hidratada, acianótica e anictérica.\n\n\n\n**Cardiovascular:** \n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:**\n\nAusculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** \n\nAbdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": "https://app.penserevalida.com/impressos/11/1745707909.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame especular",
+      "conteudo": "OLHE PARA A CÂMERA E DESCREVA A IMAGEM.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta a paciente;\n(2) Fala seu nome;\n(3) Pergunta o nome da paciente.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realiza as duas ou uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga sobre características do corrimento:**\n(1) Prurido;\n(2) Aspecto; \n(3) Cheiro;\n(4) Cor;\n(5) Fatores de piora/melhora. \n\n**Adequado:** Investiga quatro ou mais características.\n**Parcialmente adequado:** Investiga duas ou três características.\n**Inadequado:** Investiga uma ou nenhuma das características corretamente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga sobre sintomas associados:**\n(1) Febre;\n(2) Dispareunia;\n(3) Disúria;\n(4) Edema vulvar;\n(5) Presença de lesões externas.\n\n**Adequado:** Investiga quatro ou mais itens\n**Parcialmente adequado:** Investiga dois ou três  itens.\n**Inadequado:** Investiga um ou nenhum dos item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona sobre a repetição do quadro:**\n(1) Quadros semelhantes prévios;\n(2) Números de quadros nos últimos 12 meses. \n\n**Adequado:** Questiona sobre ambas informações (é necessário questionar sobre os últimos 12 meses). \n**Parcialmente adequado:** Questiona sobre uma das informações. \n**Inadequado:** Não questiona sobre repetição do quadro.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita o exame físico ginecológico adequado:**\n(1) Realiza inclinação para a introdução do espéculo;\n(2) Introduz completamente o espéculo e gira para posição horizontal;\n(3) Abre o espéculo somente após total introdução.\n\n**Adequado:** Realiza as três ações e verbaliza.\n**Parcialmente adequado:** Realiza duas ações e verbaliza.\n**Inadequado:** Realiza uma ação e verbaliza ou não realiza ação alguma ou não verbaliza as ações.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "OBSERVAÇÃO: ESTES MOVIMENTOS DEVEM SER VERBALIZADOS."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Interpreta o achado do exame físico ginecológico: (corrimento esbranquiçado, grumoso , sem cheiro, pruriginoso, parede hiperemiada).**\n\n**Adequado:** Interpreta três ou mais dos citados acima.\n**Parcialmente adequado:** Interpreta dois dos citados acima.\n**Inadequado:** Interpreta um ou nenhum dos citados acima.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Informa o diagnóstico de candidíase vulvovaginal e justifica corrimento: esbranquiçado, grumoso , sem cheiro, pruriginoso.**\n\n**Adequado:** Informa o diagnóstico corretamente com a justificativa. \n**Inadequado:** Não informa o diagnóstico correto (não aceitar apenas candidíase).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza possíveis diagnósticos diferenciais:**\n(1) Tricomoníase;\n(2) Vaginose bacteriana.\n\n**Adequado:** Verbaliza dois diagnósticos diferenciais. \n**Inadequado:** Verbaliza um ou nenhum diagnóstico diferencial corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.750"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Refere o tratamento adequado:**\nMiconazol creme a 2%, via vaginal, um aplicador cheio, à noite ao deitar-se, por 7 dias;\nOu Nistatina 100.000 UI, uma aplicação, via vaginal, à noite ao deitar-se, por 14 dias.\n\n**Adequado:** Indica corretamente medicação, via e dose corretamente do tratamento.\n**Parcialmente adequado:** Indica apenas uma das medicação, sem especificar (dose, via e horário).\n**Inadequado:** Não cita nenhuma das opções para tratamento,  ou cita outra medicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Informa que não se trata de  uma doença sexualmente transmissível.**\n\n**Adequado:** Informa.\n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Orienta sobre cuidados: **\n(1) Manter a região genital seca/ Evitar umidade prolongada;  \n(2) Utilizar roupas de algodão que permitam circulação de ar ajuda a reduzir a umidade local e o crescimento de fungos;\n(3) Manter hábitos higiênico-dietéticos.\n\n**Adequado:** Orienta de forma correta os três itens. \n**Parcialmente adequado:** Orienta dois itens.\n**Inadequado:** Não orienta ou orienta apenas um item .",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.250",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. Questiona se a paciente simulada tem dúvidas.\n\n**Adequado:** Questiona.\n**Inadequado:** Não questiona.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

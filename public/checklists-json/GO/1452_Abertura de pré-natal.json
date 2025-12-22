@@ -1,0 +1,189 @@
+{
+  "uid": 1452,
+  "hash": "ABERL013d1-855c-4a8f-ba28-c0507deacc7a",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": null,
+  "color": "#ff4a64",
+  "checklist": "Abertura de pré-natal",
+  "definicao": "O objetivo do acompanhamento pré-natal é assegurar o desenvolvimento da gestação,\npermitindo o parto de um recém-nascido saudável, sem impacto para a saúde materna, inclusive\nabordando aspectos psicossociais e as atividades educativas e preventivas.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "26.00",
+    "star": 0,
+    "time": 566,
+    "count": 4787
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Atenção Primária à Saúde.\nTipo de Atendimento: Ambulatorial.\n\nA unidade conta com a seguinte infraestrutura:\n-Laboratório de análises clínicas;\n-Ultrassonografia;\n-Apoio para realização de radiografias.\n\nDESCRIÇÃO DO CASO:\nVocê atenderá uma paciente de 26 anos de idade, branca, que busca atenção primária para a abertura de seu pré-natal.",
+  "tarefas": "-Realizar anamnese da paciente.\n-Realizar o exame físico da paciente. \n-Solicitar, se necessário, exames complementares pertinentes à queixa da\npaciente.\n-Responder às perguntas da paciente de forma completa, justificando os motivos das orientações. \n-Orientar a paciente sobre os 10 Passos para o Pré-Natal de qualidade na Atenção Básica.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Brenda, 26 anos, estudante universitária e união estável. \n\n**MOTIVO DE CONSULTA:**\n- Eu estava com a menstruação atrasada e fiz um teste de gravidez. Como deu positivo marquei essa consulta para abrir meu pré-natal. \n\n**SINTOMAS ASSOCIADOS:**\n**- Náuseas/vômitos:**Estou um pouco nauseada, principlamente quando acordo. \n**- Fraqueza/tontura:** Não tive. \n**- Sangramento vaginal:** Nenhum tipo de sangramento. \n**- Dor baixo ventre:** Não tive incomodo algum. \n**- Alterações urinárias:** Não apresentei alterações no meu xixi. \n\n**ANTECEDENTES GINECO OBSTÉTRICOS:**\n**- DUM:** Deve ter umas 7 a 8 semanas. \n**- Ciclos menstruais:** Sempre foram regulares. \n**- Preventivo:** Nunca realizei. \n**- G.P.A.:** É minha primeira gravidez. \n**- Planejamento de gravidez:** Não, mas será muito bem vindo. Queria que fosse uma menininha, será que já posso ver o sexo? \n\n**ANTECEDENTES PATOLÓGICOS:**\n**- Uso de medicação/tratamento prévio:** Nunca fiz nenhum tipo de tratamento, nem tomo medicações. \n**- Diagnóstico prévio:** Sou bem saudável, nunca fiquei doente. \n**- Alergias:** Sou um pouco alérgica a poeira. \n**- Vacinação:**Eu perdi o cartão de criança e não sei dizer o que tomei. Há alguns meses atualizei umas vacinas, mas não sei quais. Trouxe meu novo cartão, vou te mostar. \n**- Cirurgias:** Nunca realizei cirurgias. \n\n**HÁBITOS:**\n**- Tabagismo:** Nega. \n**- Etilismo:** Nega.\n** - Drogas:** Nega. \n**- Alimentação:** Normal, sem exageros mas não faço dietas radicais. \n**- Atividade física:** Faço caminhada três vezes na semana. \n\n**DÚVIDAS:**\n- Quero fazer meu pré-natal no serviço particular, preciso continuar vindo aqui? Quantas vezes tereI que vir aqui? \n- A cada quanto tempo eu vou ter que ficar vindo aqui? \n- Quais são as vacinas que terei que tomar?\n- Vou ter que tomar algum remédio?\n- Há alguma orientação a mais sobre minha gestação?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame de gravidez",
+      "conteudo": "**Beta HCG:** 10.000mUI/ml (Valor de referência: < 5 mUI/ml = sem indícios de gravidez)",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame físico ",
+      "conteudo": "**Sinais vitais:**\n\n\n\n**- Pressão arterial:** 120x80 mmHg\n\n**- Frequência cardíaca:** 80 batimentos por minuto\n\n**- Frequência respiratória:** 16 incursões por minuto\n\n**- Saturação de O2:** 99%\n\n**- Temperatura axilar:** 36.4° C\n\n\n\n**Estado Geral:** Paciente em bom estado geral, orientada em tempo, espaço e pessoa, corada, hidratada, acianótica e anictérica.\n\n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** Ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** Abdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Caderneta de vacinação ",
+      "conteudo": "DT: 3 DOSES, A ÚLTIMA HÁ 1 ANO.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Testes rápidos",
+      "conteudo": "**Teste rápido para HIV:** Resultado: não reagente (valor de referência: não reagente)\n\n**Teste rápido para sífilis:** Resultado: não reagente (valor de referência: não reagente)\n\n**Teste rápido para hepatite B:** Resultado: não reagente (valor de referência: não reagente)\n\n**Teste rápido para hepatite C:** Resultado: não reagente (valor de referência: não reagente)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Laboratórios ",
+      "conteudo": "**Hemograma**\n\n- Hemácias: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n- Hemoglobina: 14,2 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n- Hematócrito: 34% (Valor de referência: 39 - 52%)\n\n- VCM: 93 fL (Valor de referência: 80 a 100 fL)\n\n- HCM: 31 pg (Valor de referência: 26 - 33 pg)\n\n- CHCM: 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n- RDW CV: 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 179.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucograma:**\n\n- Leucócitos: 9.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n- Neutrófilos: 65% (Valor de referência: 40 - 70%)\n\n- Bastões: 3% (Valor de referência: 0 - 5%)\n\n- Linfócitos: 25% (Valor de referência: 20 - 50%)\n\n- Basófilos: 1% (Valor de referência: 0 - 2%)\n\n- Eosinófilos: 2% (Valor de referência: 0 - 6%)\n\n- Monócitos: 4% (Valor de referência: 4 - 8%)\n\n\n\n**Glicemia de jejum:** 80 mg/dl (60 - 99 mg/dl)\n\n\n\n\n\n**Urina tipo 1**:\n\nCaracterísticas gerais:\n\nVolume da amostra: 35 ml\n\nAspecto: límpido (Valor de referência: límpido)\n\nCor: amarela (Valor de referência: não se aplica)\n\nDepósito: escasso (Valor de referência: nulo)\n\nDensidade: 1025 (Valor de referência: 1015 - 1025)\n\nReação pH: 5,5 (Valor de referência: 4,5 - 7,8)\n\n\n\nExame químico:\n\nProteínas: negativo (Valor de referência: negativo)\n\nCorpos cetônicos: negativo (Valor de referência: negativo)\n\nGlicose: negativo (Valor de referência: negativo)\n\nBilirrubina: negativo (Valor de referência: negativo)\n\nUrobilinogênio: normal (Valor de referência: normal [< 1 mg/dL])\n\nHemoglobina: negativo (Valor de referência: negativo)\n\nNitrito: negativo (Valor de referência: não reagente)\n\n\n\n\n\n**Anti-Hbs:** negativo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**\n(1) Cumprimenta a paciente e/ou fala o seu nome; e\n(2) Pergunta mais algum elemento de identificação da anamnese como idade, ou profissão.\n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza uma ação. \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese para a abertura do pré-natal:**\n(1) Data da última menstruação; \n(2) Regularidade dos ciclos; \n(3) Uso de anticoncepcionais; \n(4) Paridade; \n(5) Intercorrências clínicas, obstétricas e cirúrgicas; \n(7) Hospitalizações anteriores; \n(8) Uso de medicações; \n(9) História prévia de doença sexualmente transmissível; \n(10) Exposição ambiental ou ocupacional de risco; \n(11) Reações alérgicas; \n(12) História pessoal ou familiar de doenças hereditárias/malformações; \n(13) Fatores socioeconômicos; \n(14) Atividade sexual; \n(15) Uso de tabaco, álcool ou outras drogas lícitas ou ilícitas; \n(16) História infecciosa prévia; \n(17) Vacinações prévias; \n(18) História de violências.\n\n**Adequado:** Questiona ao menos dez itens. \n**Parcialmente adequado:** Questiona de seis a nove itens. \n**Inadequado:** Questiona cinco itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza exame físico geral e ginecológico:**\n(1) Inspeção da pele e das mucosas;\n(2) Sinais vitais: aferição do pulso, frequência cardíaca, frequência respiratória, temperatura axilar;\n(3) Exame clínico das mamas;\n(4) Exame ginecológico (inspeção dos genitais externos, exame especular, coleta de material para exame colpocitopatológico, toque vaginal).\n\n**Adequado:** Verbaliza a realização dos quatro itens. \n**Parcialmente adequado:** Solicita dois ou três itens. \n**Inadequado:** Solicita a realização de apenas um ou não solicita item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita os exames complementares indicados:**\n(1) Hemograma;\n(2) Tipagem sanguínea e fator Rh; \n(3) Glicemia de jejum;\n(4) Teste rápido de triagem para sífilis e/ou VDRL/RPR; \n(5) Teste rápido diagnóstico anti-HIV; \n(6) Anti-HIV; \n(7) Toxoplasmose IgM e IgG; \n(8) Sorologia para hepatite B (HbsAg); \n(9) Exame de urina e urocultura; \n(10) Ultrassonografia obstétrica;\n(11) Citopatológico de colo de útero; \n(12) Parasitológico de fezes;\n(13) Anti- HTLV. \n\n**Adequado:** Solicita ao menos dez exames. \n**Parcialmente adequado:** Solicita de sete a nove exames. \n**Inadequado:** Solicita seis ou menos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Documentação e cadastro:**\n(1) Realização do cadastro da gestante na ESF; \n(2) fornecendo e preenchendo o Cartão da Gestante.\n\n**Adequado:** Verbaliza e cumpre com ambas as tarefas. \n**Parcialmente adequado:** Cumpre pelo menos uma tarefa. \n**Inadequado:** Não cumpre tarefa alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Classificação do risco gestacional:**\nRealiza o diagnóstico de gestação de risco habitual ou baixo risco.\n\n**Adequado:** Classifica e verbaliza de maneira adequada. \n**Inadequado:** Não verbaliza ou classifica de maneira equivocada.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Vacinação na gestação:**\n(1) DTpa a partir da 20ª semana de gestação; \n(2) Hepatite B 3 doses (0, 1 e 6 meses);\n(3) Influenza; \n(4) Covid-19;\n(5) VSR (24 a 36 semanas de gravidez).\n\n**Adequado:** Menciona as cinco vacinas. \n**Parcialmente adequado:** Menciona três ou quatro vacinas. \n**Inadequado:** Menciona duas ou menos vacinas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta que o número adequado de consulta pré-natal seria igual ou superior a 6 (seis).**\n\n**Adequado:** Orienta corretamente.\n**Inadequado:** Não orienta corretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Informa a periodicidade de seguimento:**\nAs consultas deverão ser \n(1) Mensais até a 28ª semana; \n(2) Quinzenais entre 28 e 36 semanas;\n(3) Semanais no termo.\n\n**Adequado:** Informa as três periodicidades de maneira correta. \n**Parcialmente adequado:** Informa duas periodicidade de maneira correta. \n**Inadequado:** Informa apenas uma ou não informa periodicidade alguma sobre sobre o seguimento da paciente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explica os 10 Passos para o Pré-Natal (PN) de Qualidade na Atenção Básica:**\n(1) Iniciar o PN na APS até a 12ª semana de gestação (captação precoce);\n(2) Garantir os recursos humanos, físicos, materiais e técnicos necessários à atenção PN; \n(3) Toda gestante deve ter assegurado a solicitação, realização e avaliação em termo oportuno do resultado dos exames preconizados no atendimento PN; \n(4) Promover a escuta ativa da gestante e de seus(suas) acompanhantes, considerando aspectos intelectuais, emocionais, sociais e culturais e não somente um cuidado biológico: \"rodas de gestantes\"; \n(5) Garantir o transporte público gratuito da gestante para o atendimento PN, quando necessário; \n(6) É direito do(a) parceiro(a) ser cuidado (realização de consultas, exames e ter acesso a informações) antes, durante e depois da gestação: \"PN do(a) parceiro(a)\";\n(7) Garantir o acesso à unidade de referência especializada, caso seja necessário; \n(8) Estimular e informar sobre os benefícios do parto fisiológico, incluindo a elaboração do \"Plano de Parto\";\n(9) Toda gestante tem direito de conhecer e visitar previamente o serviço de saúde no qual irá dar à luz (vinculação); \n(10) As mulheres devem conhecer e exercer os direitos garantidos por lei no período gravídico-puerperal.\n\n**Adequado:** Informa sobre os dez passos. \n**Parcialmente adequado:** Informa ao menos sete passos.\n**Inadequado:** Informa seis ou menos passos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta quanto à suplementação:**\n(1) Ferro elementar 40-60mg/dia ou  200 mg de sulfato ferroso;\n(2) Ácido fólico 0,4 mg/dia; \n(3) Carbonato de cálcio 1.250 mg 2cp/dia ( 1000mg de Cálcio elementar) a partir da 12ª semana.\n\n**Adequado:** Menciona os três medicamentos com doses corretas de maneira completa. \n**Parcialmente adequado:** Menciona os três medicamentos com a dose errada ou não menciona a dose. \n**Inadequado:** Não menciona nenhum dos medicamentos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orientações gerais:**\n(1) Orienta a gestante sobre a alimentação e o acompanhamento do ganho de peso gestacional; \n(2) Incentiva o aleitamento materno exclusivo até os seis meses;\n(3) Orienta a gestante sobre os sinais de risco; \n(4) Referencia a gestante para atendimento odontológico; \n(5) Agendar consultas subsequentes. \n\n**Adequado:** Realiza as cinco orientações. \n**Parcialmente adequado:** Realiza ao menos quatro orientações. \n**Inadequado:** Realiza três ou menos orientações.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

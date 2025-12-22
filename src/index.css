@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 23% 15%;
+    --foreground: 0 0% 95%;
+
+    --card: 240 20% 17%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 240 20% 17%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 252 87% 64%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 18% 22%;
+    --secondary-foreground: 0 0% 90%;
+
+    --muted: 240 15% 25%;
+    --muted-foreground: 240 5% 60%;
+
+    --accent: 252 87% 64%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 76% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 10%;
+
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+
+    --border: 240 15% 25%;
+    --input: 240 15% 25%;
+    --ring: 252 87% 64%;
+
+    --radius: 0.75rem;
+
+    --sidebar: 240 22% 16%;
+    --sidebar-foreground: 240 5% 75%;
+    --sidebar-hover: 240 18% 22%;
+    --sidebar-active: 252 87% 64%;
+
+    /* Specialty colors */
+    --cirurgia: 0 84% 60%;
+    --clinica: 199 89% 48%;
+    --go: 280 65% 60%;
+    --pediatria: 38 92% 50%;
+    --preventiva: 142 76% 45%;
+    --inep: 252 87% 64%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(252 87% 64%) 0%, hsl(280 65% 60%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(240 20% 19%) 0%, hsl(240 20% 17%) 100%);
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 45%) 0%, hsl(160 84% 39%) 100%);
+    --gradient-warning: linear-gradient(135deg, hsl(38 92% 50%) 0%, hsl(25 95% 53%) 100%);
+    --gradient-info: linear-gradient(135deg, hsl(199 89% 48%) 0%, hsl(210 100% 50%) 100%);
+    --gradient-danger: linear-gradient(135deg, hsl(0 84% 60%) 0%, hsl(350 80% 55%) 100%);
+    
+    /* Chart colors */
+    --chart-1: 252 87% 64%;
+    --chart-2: 199 89% 48%;
+    --chart-3: 142 76% 45%;
+    --chart-4: 38 92% 50%;
+    --chart-5: 0 84% 60%;
+
+    /* Badge colors */
+    --badge-gold: 45 93% 47%;
+    --badge-silver: 0 0% 75%;
+    --badge-bronze: 30 59% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/50;
+  }
+}
+
+@layer components {
+  .card-gradient {
+    background: var(--gradient-card);
+    @apply border border-border/50;
+  }
+
+  .btn-primary-gradient {
+    background: var(--gradient-primary);
+    @apply text-primary-foreground shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all duration-300;
+  }
+
+  .sidebar-item {
+    @apply flex items-center gap-3 px-4 py-2.5 rounded-lg text-sidebar-foreground hover:bg-sidebar-hover transition-all duration-200;
+  }
+
+  .sidebar-item-active {
+    @apply bg-primary text-primary-foreground shadow-lg shadow-primary/30;
+  }
+
+  .stat-card {
+    @apply relative overflow-hidden rounded-xl p-5 card-gradient;
+  }
+
+  .progress-bar {
+    @apply h-2 rounded-full bg-muted overflow-hidden;
+  }
+
+  .progress-bar-fill {
+    @apply h-full rounded-full transition-all duration-500;
+  }
+
+  .tag {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold uppercase;
+  }
+
+  .tag-new {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  .tag-count {
+    @apply bg-primary/20 text-primary;
+  }
+
+  .badge-medal {
+    @apply px-3 py-1 rounded text-xs font-bold uppercase;
+  }
+
+  .badge-gold {
+    background: linear-gradient(135deg, hsl(45 93% 47%) 0%, hsl(38 92% 50%) 100%);
+    @apply text-black;
+  }
+
+  .badge-silver {
+    background: linear-gradient(135deg, hsl(0 0% 80%) 0%, hsl(0 0% 65%) 100%);
+    @apply text-black;
+  }
+
+  .badge-bronze {
+    background: linear-gradient(135deg, hsl(30 59% 53%) 0%, hsl(25 50% 45%) 100%);
+    @apply text-white;
+  }
+
+  .input-search {
+    @apply bg-secondary border-0 text-foreground placeholder:text-muted-foreground focus:ring-2 focus:ring-primary/50;
+  }
+
+  .table-dark {
+    @apply w-full;
+  }
+
+  .table-dark th {
+    @apply text-left text-xs font-semibold text-muted-foreground uppercase tracking-wider py-3 px-4;
+  }
+
+  .table-dark td {
+    @apply py-4 px-4 border-t border-border/30;
+  }
+
+  .specialty-tag {
+    @apply inline-flex items-center justify-center w-8 h-5 rounded text-[10px] font-bold uppercase;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { 
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from { 
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to { 
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-xl bg-card/80;
+  }
+}

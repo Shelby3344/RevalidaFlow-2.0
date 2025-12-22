@@ -1,0 +1,206 @@
+{
+  "uid": 1603,
+  "hash": "59bcd157d85f2e74a52a126cfa77c6e4495a9e5079990ce2630587b5f1c8a557-1751638560",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Taquicardia supraventricular paroxística (TSVP)",
+  "definicao": "A taquicardia supraventricular paroxística (TSVP) é um tipo de taquiarritmia regular caracterizada por uma frequência cardíaca geralmente entre 150 e 250 batimentos por minuto, que se origina acima da bifurcação do feixe de HISS, ou seja, em estruturas supraventriculares como o nódulo sinoatrial, o átrio, o nódulo atrioventricular (AV) ou vias acessórias.\nO termo \"paroxística\" refere-se ao início e término súbitos da arritmia, o que é uma característica marcante do quadro.\nA TSVP ocorre geralmente por mecanismos de reentrada, sendo os dois mais comuns:\nTaquicardia por reentrada nodal atrioventricular (TRN ou AVNRT) – forma mais frequente, ocorre dentro do próprio nódulo AV.\nTaquicardia por reentrada atrioventricular (AVRT) – ocorre em pacientes com vias acessórias, como na síndrome de Wolff-Parkinson-White.\nOutros mecanismos menos comuns incluem automatismo aumentado ou ativação deflagrada em focos ectópicos atriais.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "58.00",
+    "star": 0,
+    "time": 582.5,
+    "count": 345
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Ambulatorial e Hospitalar.\n\nA unidade possui a seguinte infraestrutura:\n- Eletrocardiografia (ECG);\n- Laboratório de análises clínicas;\n- Desfibrilador e monitor.\n\nDESCRIÇÃO DO CASO:\nPaciente dá entrada no pronto atendimento com queixa de palpitações súbitas iniciadas há cerca de 30 minutos, enquanto caminhava até a universidade. Relata início abrupto, com sensação de batimentos rápidos e regulares. Refere leve tontura, sudorese fria e desconforto torácico leve, sem dor. Nega dispneia intensa, dor torácica típica ou perda de consciência.",
+  "tarefas": "- Realizar anamnese completa;\n- Solicitar exame físico detalhado;\n- Solicitar exames complementares adequados;\n- Idenficar diagnóstico do paciente;\n- Realizar condutas necessárias para a resolução do quadro do paciente;\n- Indicar medidas necessárias no seguimento do paciente.",
+  "script_ator": "**DADOS PESSOAIS: **\nMarcos, 25 anos, solteiro, estudante universitário.\n\n**MOTIVO DE CONSULTA: **\n- Estou sentindo o coração disparado doutor(a).\n\n**CARACTERÍSTICAS DO QUADRO: **\n**- Tempo de evolução: **Trinta minutos.\n**-  Intensidade dos sintomas:** Está bem acelerado meu coração doutor(a)..\n**- Fatores de melhora: **Nenhum.\n**- Fatores de piora: **Piora com o movimento ou esforço.\n**- Episódios anteriores:** Nega.\n\n**SINTOMAS ACOMPANHANTES: **\n- ** Mal-estar geral:** Estou um pouco incomodado com essa sensação.\n-** Náuseas:**Não.\n-** Vômitos:** Não.\n -**Sudorese:** Comecei suar após começar a crise.\n-** Dor no peito:** Nega.\n-** Dispneia ou falta de ar:** Nega.\n-** Tonturas:** Sim doutor(a), mas bem leve.\n**-  Lipotimia ou rebaixamento do sensório:**Nega.\n-** Desmaio ou síncope:** Não desmaiei.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças ou Comorbidades: **Sou saudável.\n**- Medicamentos: **Nega.\n**- Alergias: **Nega.\n**- Cirurgias: **Nega.\n\n**HÁBITOS: **\n**- Cigarro: **Nega.\n**- Álcool: **Consumo socialmente.\n**- Drogas ilícitas: **Nega.\n**- Alimentação: **Não me alimento muito bem, como muita comida gordurosa e doces.\n**- Atividade física:** Sou sedentário.\n\n**ANTECEDENTES FAMILIARES: **\n- Pai falecido por infarto agudo do miocárdio aos 70 anos.\n\n\n**QUANDO PARTICIPANTE VERBALIZAR “MANOBRA DE VALSALVA\" OU \"MANOBRAS VAGAIS\" OU \"MASSAGEM DO SEIO CAROTÍDEO\" :**\n- Liberar impresso 4.\n\n**QUANDO PARTICIPANTE VERBALIZAR \"REAVALIAÇÃO APOS MANOBRAS\".**\n- Liberar impresso 5.\n\n**QUANDO O PARTICIPANTE VERBALIZAR “ADENOSINA”:**\n- Considere realizado.\n\n**QUANDO PARTICIPANTE VERBALIZAR \"REAVALIAÇÃO APOS ADENOSINA\".**\n- Liberar impresso 6.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 110 x 70 mmHg.\n\n**- Frequência cardíaca:** 180 batimentos por minuto.\n\n**- Frequência respiratória:** 19 incursões por minuto.\n\n-** Saturaçãao de O2**: 97% em ar ambiente.\n\n-** Temperatura:** 36,5°C.\n\n\n\n**Estado geral: **\n\nPaciente em estado geral regular, sudorético, ansioso, orientado no tempo e espaço.\n\n\n\n**Cardiovascular: **\n\nRitmo cardíaco regular, sem sopros audíveis. \n\nAuscultadas carótidas sem sopros.\n\n\n\n**Respiratório: **\n\nMurmúrio vesicular presente, sem ruídos adventícios.\n\n\n\n**Abdominal: **\n\nAbdome flácido, indolor, sem visceromegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1751661395.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemácias:** 4 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 14 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n**Hematócrito:** 42% (Valor de referência: 39 - 52%)\n\n**VCM:** 99 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 31 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 13% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 280.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucócitos:** 4.700/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 65% (Valor de referência: 40 - 70%)\n\n**Bastões:** 3% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 25% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 2% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 3% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 0% (Valor de referência: 4 - 8%)\n\n\n\n**Glicemia sérica:** 152 mg/dl (60 - 99 mg/dl)\n\n\n\n**Creatinina:** 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 32 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**INR:** 1\n\n\n\n**Sódio:** 136 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4,4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\n\n\n**TSH:** 1,9 mU/l (Valor de referência: 0,4 - 4,5 mU/l).\n\n\n\n**Troponina:** 0,01 ng/mL (VR: <0,04 ng/mL)",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1751661395.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Eletrocardiograma (ECG)",
+      "conteudo": "-Ritmo: regular.\n\n- Frequência: 192 bpm.\n\n- QRS estreito (< 120 ms).\n\n- Onda P ausente (ou retrógrada sobreposta ao QRS).",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Manobras vagais",
+      "conteudo": "Olhe para câmera e verbalize a técnica adequada de realização das manobras vagais.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Reavaliação após manobras",
+      "conteudo": "Sem resposta.",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "Reavaliação após adenosia",
+      "conteudo": "Ritmo revertido para sinusal após alguns segundos.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga sobre o quadro inicial apresentado pelo paciente:**\n(1) Tempo de evolução;\n(2) Intensidade dos sintomas;\n(3) Frequência;\n(4) Fatores de melhora e piora.\n\n**Adequado:** Pergunta de três a quatro itens.\n**Parcialmente adequado:** Pergunta dois itens.\n**Inadequado:** Pergunta um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga sintomas associados:**\n(1) Náuseas e vômitos;\n(2) Sudorese;\n(3) Dor torácica;\n(4) Dispneia ou falta de ar;\n(5) Tonturas;\n(6) Desmaio ou síncope;\n(7) Lipotimia ou rebaixamento do sensório.\n\n**Adequado:** Investiga de cinco a sete itens.\n**Parcialmente adequado:** Investiga de três a quatro itens.\n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais:**\n(1) Doenças crônicas;\n(2) Medicação de uso contínuo;\n(3) Alergia medicamentosa;\n(4) Internações prévias;\n(5) Antecedentes familiares;\n(6) Hábitos tóxicos;\n(7) Hábitos alimentares;\n(8) Prática de atividade física.\n\n**Adequado:** Investiga as oito ações.\n**Parcialmente adequado:** Investiga de cinco a sete ações.\n**Inadequado:** Investiga quatro ou não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico:**\n(1) Solicita permissão para realizar o exame físico, lava as mãos e se paramenta;\n(2) Interpreta exame físico.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza uma ação ou nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exames laboratoriais:**\n(1) Hemograma completo;\n(2) Função renal ou ureia/creatinina;\n(3) Eletrólitos ou sódio/potássio;\n(4) Marcadores cardíacos ou troponina;\n(5) Glicemia sérica ou em jejum ou Hemoglobina Glicada;\n(6) TSH.\n\n**Adequado:** Solicita de quatro a seis itens.\n**Parcialmente adequado:** Solicita de dois a três itens.\n**Inadequado:** Solicita um ou nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita e interpreta o eletrocardiograma (ECG):**\n\n**Adequado: **Solicita.\n**Inadequado:**Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza a hipótese diagnóstica de taquicardia supraventricular paroxística (TSVP).**\n\n**Adequado: **Verbaliza corretamente.\n**Parcialmente adequado:** Verbaliza somente taquicardia supraventricular.\n**Inadequado: **Não verbaliza o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Inicia abordagem de preparação para o procedimento a ser realizado:**\n(1) Monitorização eletrocardiográfica e dos sinais vitais;\n(2) Acesso venoso periférico.\n\n**Adequado:** Realiza duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza manobra vagal (primeira linha) Manobra de Valsalva modificada:**\n(1) Com o paciente sentado ou em posição semi-reclinada solicita que o paciente faça força como se estivesse \"evacuando\" ou assoprando contra resistência por 15 segundos em um tubo de seringa de 10 mL;\n(2) Após a expiração forçada, colocar em decúbito dorsal com elevação das pernas por 15 segundos.\n\n**Adequado:** Verbaliza a manobra corretamente.\n**Parcialmente adequado:** Verbaliza somente manobra de Valsalva.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Considera massagem do seio carotídeo:**\n(1) Posiciona o paciente em decúbito dorsal e com a cabeça ligeiramente estendida e virada para o lado oposto ao que será massageado;\n(2) Palpa a artéria carótida comum, logo abaixo do ângulo da mandíbula (nível da cartilagem tireoide);\n(3) Faz pressão local firme e circular (moderada), por 5 a 10 segundos.\n\n**Adequado:** Verbaliza corretamente a manobra.\n**Parcialmente adequado:** Somente menciona massagem do seio carotídeo.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Contraindicações absolutas: Sopro carotídeo; AVC ou AIT nos últimos 3 meses"
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Realiza administração de adenosina 6 mg em bolus EV rápido, seguida de flush com SF 20 mL.**\n\n**Adequado:** Realiza administração adenosina.\n**Inadequado:** Não realiza administração de adenosina.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Indica medidas pós procedimento:**\n(1) Monitoriza o paciente por pelo menos uma a duas horas;\n(2) Encaminha para cardiologia e/ou realização de um Holter.\n\n**Adequado:** Realiza duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

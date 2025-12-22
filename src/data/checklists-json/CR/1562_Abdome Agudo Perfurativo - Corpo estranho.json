@@ -1,0 +1,183 @@
+{
+  "uid": 1562,
+  "hash": "0747a3962b6bba8d0897cf80671306793dc57426c7c3e64c52ec1cd60f418d5b-1749838172",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Abdome Agudo Perfurativo - Corpo estranho",
+  "definicao": "Abdome agudo perfurativo é uma emergência médica que ocorre quando há uma perfuração em um órgão oco do abdome, resultando em peritonite. Isso pode ser causado por úlceras, diverticulite ou, mais raramente, por corpos estranhos ingeridos.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "72.00",
+    "star": 0,
+    "time": 598,
+    "count": 2167
+  },
+  "cenario": "Cenário de atendimento: Atenção Terciária  a saúde.\nTipo de atendimento: Urgência e emergência.\nA unidade possui a seguinte infraestrutura: \n- Sala de cirurgia de emergência;\n- Setor de Radiologia;\n- Unidade de terapia intensiva (UTI);\n- Laboratório de analises clinicas.\n\nDescrição do caso:\nHomem, 45 anos, admitido com dor abdominal intensa há 1 dia .",
+  "tarefas": "-Realizar anamnese completa do paciente;\n-Realizar e interpretar exame físico;\n-Solicitar e interpretar exames complementares apropriados;\n-Estabelecer e comunicar hipótese diagnóstica;\n-Verbalizar possíveis complicações;\n-Propor condutas imediatas e mencionar tratamento definitivo.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Nome: José, 45 anos, casado, engenheiro.\n\n-**MOTIVO DE CONSULTA**\n- Doutor(a), estou com uma dor muito forte na barriga, me ajuda. \n\n-**CARACTERÍSTICAS DA DOR**\n-**Início:** Há 1 dia \n-**Localização:** Região epigástrica.\n-**Irradiação:** Para toda a barriga\n-**Tipo:** Em cólica.\n-**Intensidade:** 9/10.\n-**Fatores agravantes e atenuantes:** Piora ao se movimentar.\n\n-**SINAIS E SINTOMAS ACOMPANHANTES**\n-**Náuseas:** Sim.\n-**Vômitos:** Sim, umas 6 vezes.\n-**Febre:** Sim, 38,5\n-**Sudorese:** Sim, bastante suor.\n-** Palidez:** Nega.\n-**Alterações urinarias:** Nega.\n-**Alteração do hábito intestinal:** Nega.\n\n-**ANTECEDENTES PESSOAIS/PATOLÓGICOS:**\n-**Comorbidades:** Nega.\n-**Alergias:** Nega.\n-**Medicamentos:** Nega.\n-**Cirurgias prévias:** Nega.\n\n-**Uso contínuo de anti-inflamatórios:** Nega.\n\n-**ANTECEDENTES FAMILIARES**\n- Mãe: Nega doenças.\n- Pai: Sem comorbidades.\n\n-**HÁBITOS**\n-**Tabagismo:** Não.\n-**Consumo de bebidas alcoólicas:** Socialmente.\n-**Dieta:** Sem restrições.\n-**Atividade física:** Caminhadas diárias.\n\n**Caso candidato verbalizar se comeu algo de diferente, verbalizar:\n-**Dr(a) Dr ontem no almoço acabei ingerindo um osso de galinha acidentalmente.*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 90 x 70 mmHg.\n\n- **Frequência cardíaca:** 110 batimentos por minuto.\n\n- **Saturação de O2:** 95% em ar ambiente.\n\n- **Temperatura axilar:** 38,5°C.\n\n- **Frequência respiratória:** 22 incursões por minuto.\n\n\n\n**Exame clínico:**\n\n\n\n**Ectoscopia geral:** Paciente em  regular estado geral, agitado, com face de dor, sudoreico.\n\n\n\n**Sistema abdominal:** Distensão abdominal, dor à palpação difusa, descompressão brusca positiva (sinal de Blumberg positivo). Abdome em tábua.\n\n\n\n**Sistema cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\nAparelho Respiratório: Ausculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1750014737.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Radiografia de tórax ",
+      "conteudo": "Presença de ar livre sob o diafragma, sugerindo perfuração de órgão oco.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1750021064.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Radiografia de abdome",
+      "conteudo": "Olhe para câmera e verbalize os achados.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n- **Hemácias**: 4,3 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n- **Hemoglobina**: 14,1 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n- **Hematócrito**: 40% (Valor de referência: 39 - 52%)\n\n- **VCM**: 93 fL (Valor de referência: 80 a 100 fL)\n\n- **HCM**: 31 pg (Valor de referência: 26 - 33 pg) \n\n\n\n**Plaquetas: **143.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucograma: **\n\n- **Leucócitos**: 19.560/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n- **Neutrófilos**: 60% (Valor de referência: 40 - 70%)\n\n- **Bastões**: 8% (Valor de referência: 0 - 5%)\n\n- **Linfócitos**: 25% (Valor de referência: 20 - 50%)\n\n- **Basófilos**: 1% (Valor de referência: 0 - 2%) \n\n- **Eosinófilos**: 2% (Valor de referência: 0 - 6%)\n\n\n\n**Glicemia sérica: **70 mg/dl (70 - 110 mg/dl)\n\n\n\n**PCR**: 10 mg/dl (Valor de referência < 5 mg/dl)\n\n\n\n**Creatinina:** 0,9 mg/dL (Valor de referência: 0,7 - 1,1 mg/dl)\n\n**Ureia:** 30 mg/dl (Valor de referência: < 40 mg/dl)\n\n**Sódio:** 137 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4,2 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\n\n\n**Gasometria arterial: **\n\n**pH: **7,49 (Valor de referência: 7,35 - 7,45) \n\n**pCO2: **45 mmHg Valor de referência: 35 - 45 mmHg) \n\n**pO2: **85 mmHg (Valor de referência: 80 - 100 mmHg) \n\n**HCO3: **28 mEq/l (Valor de referência: 22 - 26 mEq/l) \n\n**BE: **2 (Valor de referência: 2 a -2)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. Apresentação:\n(1) Identifica-se;\n(2) Cumprimenta a paciente.\n\n**Adequado:** Realiza ambas ações.\n**Inadequado:** Realiza uma ação ou nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga sobre a dor:**\n(1) Tempo de evolução;\n(2) Localização;\n(3) Irradiação;\n(4) Tipo;\n(5) Intensidade;\n(6) Fatores agravantes e atenuantes.\n\n**Adequado:** Investiga cinco ou mais itens.\n**Parcialmente adequado:** Investiga três ou quatro itens.\n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "A dor abdominal intensa e súbita é um sinal clássico de perfuração de órgão oco."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre sintomas associados ao quadro clínico:**\n(1) Náuseas e vômitos;\n(2) Febre;\n(3) Sudorese;\n(4) Alterações urinárias;\n(5) Palidez.\n(6) Hematêmese ou melena.\n\n**Adequado:** Pergunta seis sintomas.\n**Parcialmente adequado:** Pergunta quatro ou cinco itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Sintomas como febre e sudorese podem indicar infecção e peritonite."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga sobre:**\n(1) Doenças prévias;\n(2) Medicamentos de uso contínuo;\n(3) Antecedente familiar;\n(4) Tabagismo;\n(5) Alcoolismo;\n(6) Cirurgia prévia.\n\n**Adequado:** Investiga cinco ou mais itens.\n**Parcialmente adequado:** Investiga três ou quatro itens.\n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.  **Solicita exames Complementares de imagem:** \n(1) Solicita Radiografia de Tórax;\n(2) Radiografia de Abdome.\n\n**Adequado:** Solicita ambos exames.\n**Parcialmente adequado:** Solicita um dos exames.\n**Inadequado:** Não solicita nenhum exame.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.7"
+      },
+      "dica_teorica": "A radiografia pode mostrar ar livre subdiafragmático, e a tomografia confirma a perfuração."
+    },
+    {
+      "idx": 6,
+      "descricao": "6.  **Identifica e verbaliza os seguintes sinais radiológicos**:\n(1) Sinal de Popper/Pneumoperitônio na radiografia de tórax; \n(2) Sinal de Rigler na radiografia de abdome.\n\n**Adequado:** Verbaliza ambos sinais. \n**Parcialmente adequado:** Verbaliza somente um sinal.\n**Inadequado:** Não verbaliza nenhum dos sinais.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames Complementares de laboratório:** \n(1) Hemograma; \n(2) Glicemia; \n(3) Creatinina; \n(4) Uréia; \n(5) Sódio;\n(6) Potássio;\n(7) Gasometria arterial.\n\n**Adequado:** Solicita seis ou mais itens.\n**Parcialmente adequado:** Solicita quatro ou cinco itens.\n**Inadequado:** Solicita três ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza o diagnóstico de abdome agudo perfurativo por possível ingestão de corpo estranho:**\n\n**Adequado:** Realiza o diagnóstico corretamente e completo.\n**Inadequado:** Não realiza o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Complicações graves podem ocorrer rapidamente sem intervenção cirúrgica."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita internação do paciente:**\n\n**Adequado:** Solicita internação.\n**Inadequado:** Não solicita internação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita:**\n(1) Dieta zero;\n(2) Hidratação endovenosa;\n(3) Controle de diurese;\n(4) Monitorização contínua;\n(5) Controle hidroeletrolítico; \n(6) Antiemético.\n\n**Adequado:** Solicita cinco ou mais itens.\n**Parcialmente adequado:** Solicita três ou quatro itens.\n**Inadequado:** Solicita dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Cita possíveis complicações do quadro do paciente:**\n(1) Sepse;\n(2) Perfurações múltiplas ou lesão associada;\n(3 Abscesso abdominal;\n(4) Necrose intestinal localizada;\n\n**Adequado:** Cita ao menos duas complicações\n**Parcialmente adequado:** Cita ao menos uma complicação\n**Inadequado:**Não cita as complicações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Encaminha o paciente para o serviço de cirurgia e verbaliza que a conduta definitiva é cirúrgica, encaminhamento urgente para o cirurgião.**\n\n**Adequado:** Encaminha o paciente para cirurgia de emergência \n**Inadequado:** Não encaminha ou indica o tratamento cirúrgico sem especificar sua urgência.\n\nObs: só será considerado correto se for enfatizada a emergência do caso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": "Paciente com abdome agudo perfurativo por corpo estranho, confirmado por imagem ou clínica, com sinais de peritonite ou instabilidade hemodinâmica, deve ser submetido à cirurgia de emergência — laparotomia exploradora."
+    }
+  ]
+}
