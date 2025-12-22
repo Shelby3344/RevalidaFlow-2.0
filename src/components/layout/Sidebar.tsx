@@ -41,14 +41,14 @@ const menuSections: MenuSection[] = [
     ]
   },
   {
-    title: "CHECKLIST & FLASHCARD",
+    title: "ESTUDOS",
     items: [
       { 
-        title: "Banco de checklists", 
+        title: "Checklists", 
         icon: ClipboardList, 
         children: [
           { title: "Revalida Flow", path: "/checklists" },
-          { title: "Parceiros / Clientes", path: "/checklists/parceiros" },
+          { title: "Parceiros", path: "/checklists/parceiros" },
         ]
       },
       { 
@@ -59,23 +59,22 @@ const menuSections: MenuSection[] = [
           { title: "Revisão", path: "/flashcards/revisao" },
         ]
       },
-      { title: "Pense Resumos", icon: BookOpen, path: "/resumos", badge: "New", badgeType: "new" },
-      { title: "Cronograma", icon: Calendar, path: "/cronograma", badge: "New", badgeType: "new" },
-      { title: "Entrar", icon: LogIn, path: "/entrar" },
-      { title: "Live-Parceiros", icon: Tv, path: "/live" },
+      { title: "Resumos", icon: BookOpen, path: "/resumos", badge: "Novo", badgeType: "new" },
+      { title: "Cronograma", icon: Calendar, path: "/cronograma", badge: "Novo", badgeType: "new" },
+    ]
+  },
+  {
+    title: "CONTEÚDO",
+    items: [
+      { title: "Aulas", icon: GraduationCap, path: "/aulas", badge: 177, badgeType: "count" },
+      { title: "Lives", icon: Tv, path: "/live" },
       { title: "Novidades", icon: Sparkles, path: "/novidades" },
     ]
   },
   {
-    title: "PENSE CURSO",
+    title: "PROGRESSO",
     items: [
-      { title: "Aulas", icon: GraduationCap, path: "/aulas", badge: 177, badgeType: "count" },
-    ]
-  },
-  {
-    title: "DESEMPENHO",
-    items: [
-      { title: "Meus Desempenhos", icon: BarChart3, path: "/desempenhos" },
+      { title: "Desempenho", icon: BarChart3, path: "/desempenhos" },
       { 
         title: "Histórico", 
         icon: History,
@@ -87,14 +86,9 @@ const menuSections: MenuSection[] = [
     ]
   },
   {
-    title: "ÁREA DA MENTORIA",
+    title: "COMUNIDADE",
     items: [
       { title: "Mentorados", icon: Users, path: "/mentorados" },
-    ]
-  },
-  {
-    title: "CONTATO",
-    items: [
       { title: "Feedback", icon: MessageSquare, path: "/feedback" },
       { title: "Suporte", icon: HelpCircle, path: "/suporte" },
     ]
@@ -102,7 +96,7 @@ const menuSections: MenuSection[] = [
 ];
 
 export function Sidebar() {
-  const [expandedItems, setExpandedItems] = useState<string[]>(["Banco de checklists"]);
+  const [expandedItems, setExpandedItems] = useState<string[]>(["Checklists"]);
 
   const toggleExpand = (title: string) => {
     setExpandedItems(prev => 
@@ -113,28 +107,31 @@ export function Sidebar() {
   };
 
   return (
-    <aside className="fixed left-0 top-0 z-40 h-screen w-64 bg-sidebar border-r border-border/30">
-      {/* Logo */}
-      <div className="flex items-center gap-3 px-6 py-5 border-b border-border/30">
-        <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-purple-600 shadow-lg">
-          <span className="text-white font-bold text-sm">RF</span>
+    <aside className="fixed left-0 top-0 z-40 h-screen w-64 bg-sidebar/95 backdrop-blur-2xl border-r border-white/5">
+      {/* Logo - Premium Style */}
+      <div className="flex items-center gap-3 px-6 py-6 border-b border-white/5">
+        <div className="relative">
+          <div className="flex items-center justify-center w-11 h-11 rounded-2xl bg-gradient-to-br from-primary to-teal-400 shadow-lg shadow-primary/30">
+            <span className="text-primary-foreground font-bold text-base tracking-tight">RF</span>
+          </div>
+          <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-green-500 rounded-full border-2 border-sidebar" />
         </div>
         <div>
-          <h1 className="text-lg font-bold text-foreground">REVALIDA</h1>
-          <p className="text-xs font-medium text-primary">FLOW</p>
+          <h1 className="text-base font-semibold text-foreground tracking-tight">Revalida Flow</h1>
+          <p className="text-[11px] text-muted-foreground">Plataforma de Estudos</p>
         </div>
       </div>
 
       {/* Navigation */}
-      <nav className="h-[calc(100vh-80px)] overflow-y-auto py-4 px-3">
+      <nav className="h-[calc(100vh-88px)] overflow-y-auto py-4 px-3">
         {menuSections.map((section, sectionIdx) => (
-          <div key={sectionIdx} className="mb-4">
+          <div key={sectionIdx} className="mb-5">
             {section.title && (
-              <h3 className="px-4 mb-2 text-[10px] font-semibold text-muted-foreground tracking-wider">
+              <h3 className="px-4 mb-2 text-[10px] font-semibold text-muted-foreground/70 tracking-widest uppercase">
                 {section.title}
               </h3>
             )}
-            <ul className="space-y-1">
+            <ul className="space-y-0.5">
               {section.items.map((item) => (
                 <li key={item.title}>
                   {item.children ? (
@@ -142,34 +139,33 @@ export function Sidebar() {
                       <button
                         onClick={() => toggleExpand(item.title)}
                         className={cn(
-                          "sidebar-item w-full justify-between",
-                          expandedItems.includes(item.title) && "text-foreground"
+                          "sidebar-item w-full justify-between group",
+                          expandedItems.includes(item.title) && "text-foreground bg-white/5"
                         )}
                       >
                         <span className="flex items-center gap-3">
-                          <item.icon className="w-5 h-5" />
-                          <span className="text-sm">{item.title}</span>
+                          <item.icon className="w-[18px] h-[18px] opacity-70 group-hover:opacity-100 transition-opacity" />
+                          <span className="text-[13px] font-medium">{item.title}</span>
                         </span>
                         {expandedItems.includes(item.title) ? (
-                          <ChevronDown className="w-4 h-4" />
+                          <ChevronDown className="w-4 h-4 opacity-50" />
                         ) : (
-                          <ChevronRight className="w-4 h-4" />
+                          <ChevronRight className="w-4 h-4 opacity-50" />
                         )}
                       </button>
                       {expandedItems.includes(item.title) && (
-                        <ul className="ml-8 mt-1 space-y-1">
+                        <ul className="ml-7 mt-1 space-y-0.5 border-l border-white/10 pl-3">
                           {item.children.map((child) => (
                             <li key={child.path}>
                               <NavLink
                                 to={child.path}
                                 className={({ isActive }) => cn(
-                                  "flex items-center gap-2 px-3 py-2 text-sm rounded-lg transition-colors",
+                                  "flex items-center gap-2 px-3 py-2 text-[13px] rounded-lg transition-all duration-200",
                                   isActive 
-                                    ? "text-foreground" 
-                                    : "text-sidebar-foreground hover:text-foreground"
+                                    ? "text-primary font-medium" 
+                                    : "text-muted-foreground hover:text-foreground hover:bg-white/5"
                                 )}
                               >
-                                <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
                                 {child.title}
                               </NavLink>
                             </li>
@@ -181,12 +177,12 @@ export function Sidebar() {
                     <NavLink
                       to={item.path || "/"}
                       className={({ isActive }) => cn(
-                        "sidebar-item",
+                        "sidebar-item group",
                         isActive && "sidebar-item-active"
                       )}
                     >
-                      <item.icon className="w-5 h-5" />
-                      <span className="text-sm flex-1">{item.title}</span>
+                      <item.icon className="w-[18px] h-[18px] opacity-70 group-hover:opacity-100 transition-opacity" />
+                      <span className="text-[13px] font-medium flex-1">{item.title}</span>
                       {item.badge && item.badgeType === "new" && (
                         <span className="tag tag-new">{item.badge}</span>
                       )}
