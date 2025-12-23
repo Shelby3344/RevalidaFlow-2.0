@@ -1,0 +1,267 @@
+{
+  "uid": 1533,
+  "hash": "9312da62f615e413a4d61ab1743734278dfe591fbe83d918a297f0ad1bb74d73-1746580017",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Intoxicação exógena por carbamato (chumbinho)",
+  "definicao": "A intoxicação por carbamato (\"chumbinho\") induz uma síndrome colinérgica pela inibição da acetilcolinesterase, resultando em um espectro de sintomas que abrangem desde hipersecreção e alterações cardiovasculares até manifestações neuromusculares como fasciculações e paralisia respiratória; o manejo exige suporte vital rigoroso, descontaminação eficaz e antagonização dos efeitos muscarínicos com atropina, demandando monitorização contínua devido à possibilidade de evolução clínica complexa e potenciais sequelas.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "51.00",
+    "star": 0,
+    "time": 569.5,
+    "count": 1717
+  },
+  "cenario": "Cenário de Atendimento:\nNível de atenção: Atenção terciária à saúde.\nTipo de atendimento: Urgência e Emergência.\n\nA unidade apresenta a seguinte infraestrutura:\n- Sala de emergência e consultórios;\n- Laboratórios de análise clínica;\n-Setor de diagnóstico de imagem;\n-Unidade de terapia intensiva.\n\nDescrição do caso:\nVocê é médico de plantão na emergência de um hospital terciário e irá atender um paciente com  20 anos de idade trazido desacordado pela mãe. \n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar anamnese do paciente;\n- Solicitar exame físico do paciente verbalizando, de forma completa, os parâmetros, pertinentes à queixa do paciente, que deverão ser verificados;\n- Solicitar exames complementários pertinentes ao caso;\n- Verbaliza e explicar a hipótese diagnóstica principal;\n- Orientar a conduta mais indicada ao quadro clínico.",
+  "script_ator": "**Mãe do paciente:** Bárbara, 50 anos, advogada, casada.\n**Paciente:** Carlos, 20 anos, estudante universitário.\n\n**MOTIVO DE CONSULTA:** \n**A mãe relata:** Dr(a), eu trouxe eu filho aqui porque ele estava vomitando muito, mas no caminho para chegar aqui ele desmaiou.  Por favor ajuda meu filho!!!!\n\n**CARACTERÍSTICAS DO DESMAIO:**\n**Tempo de evolução:** Ele desmaiou no caminho para chegar aqui, dentro do carro, tem uns 10 minutos.\n**Fatores de melhoria e fatores de agravamento:** Nega.\n**Uso de medicamentos:** Nega.\n**Episódios anteriores:** Nega.\n**Tonturas**: Sim.\n\n**CARACTERÍSTICAS DO VÔMITO:**\n**Tempo de evolução**: Há mais de 1 hora aproximadamente.\n**Frequência**: Mais de 5 vezes.\n**Conteúdo**: Alimentício.\n**Presença de sangue**: Nega.\n**Fatores de melhora ou piora**: Nega.\n**Uso de medicamentos:** Nega.\n\n**FATORES DESENCADEANTES:**\n**Trauma/Quedas:** Nega.\n**Consumo de alimentos duvidosos**: Nega.\n**Uso de medicamentos**: Não sei Dr(a), acho que não.\n**Contato ou uso de produto químico/substância:** Eu trouxe um frasco que encontrei ao lado da cama dele.\n**(NESSE MOMENTO LIBERAR IMAGEM DO FRASCO)**\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**Sialorreia:** Sim, ele está salivando muito.\n**Mal-estar geral:** Sim.\n**Enjoos**: Sim.\n**Dor abdominal:** Sim, antes de desmaiar ele estava com muita dor na barriga.\n**Febre**: Nega.\n**Sudorese**: Sim.\n**Dificuldade respiratória**: Sim, ele reclamou que não conseguia respirar.\n**Escurecimento da visão**: Nega.\n**Visão turva**: Nega.\n**Fraqueza**: Sim.\n**Palpitação**: Nega.\n**Convulsão:** Nega.\n\n**ALTERAÇÃO DO HUMOR:**\n**Perda de prazer/ interesse nas atividades:** Nega.\n**Humor deprimido:** Ultimamente ele estava mais calado. Ficava mais no quarto. \n**Cansaço ou falta de energia:** Nega.\n**Perda de concentração ou memória:** Nega.\n**Insônia ou excesso de sono:** Nega.\n**Sentimento culpa/inutilidade:** Nega.\n**Prejuízo funcional:** Nega.\n**Visões pessimistas do futuro**: Nega.\n**Perda ou aumento excessivo de apetite ou peso:** Nega.\n**Episódios de mania (gastos excessivos, euforia, pensamento acelerado, nervosismo):** Nega.\n\n**SE PERGUNTADO POR IDEAÇÃO SUICIDA:**\n-Uma vez ele comentou, meio que brincando, 'às vezes dá vontade de sumir', mas eu não dei muita importância na hora. \n\n**SE PERGUNTADO POR PROBLEMAS PESSOAIS/SOCIAIS**:\n-Ele tem se desentendido muito com o pai, desde que começou a fazer faculdade de Artes Visuais.\n-Hoje uma discussão acalorada entre Carlos e o pai ocorreu momentos antes de encontrá-lo no quarto vomitando.  \n\n**SE PERGUNTADO POR REDE DE APOIO:**\n-Ele tem a mim Dr(a), o pai, o irmão mais velho e a igreja.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS:**\n**Comorbidades:** Nega.\n**Medicamentos:** Nega.\n**Alergias**: Nega.\n**Cirurgia prévia:** Nega.\n**Internações prévias:** Nega.\n\n**ANTECEDENTES FAMILIARES:**\n**Mãe:** Hipertensa.\n**Pai:** Nega.\n\n**HÁBITOS:**\n**Tabagismo:** Nega.\n**Etilismo:** Nega.\n**Drogas lícitas ou ilícitas:** Nega.\n**Atividade física:** Yoga.\n**Alimentação**: Balanceada.\n**Urinário e defecatório:** Sem alterações.\n\n**DÚVIDAS:**\n**Pergunta 1:** Ele vai precisar ficar internado?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais Vitais:**\n\nPressão Arterial: 80/55 mmHg,\n\nFrequência Cardíaca: 45 bpm,\n\nFrequência Respiratória: 28 irpm,\n\nTemperatura: 36,5 °C,\n\nSaturação de O2: 88% em ar ambiente.\n\n\n\n**Estado Geral:** \n\nPaciente em mau estado geral, sudorese profusa, pele fria e úmida, afebril,  salivação intensa.\n\n\n\n**Neurológico:** \n\nPaciente inconsciente, pupilas mióticas não reativas à luz, reflexos osteotendinosos diminuídos.\n\nGlasgow 6 (AO1-RV1-RM4).\n\n\n\n**Ausculta respiratória:** \n\nMurmúrio vesicular diminuído bilateralmente com estertores finos em bases.\n\n\n\n**Ausculta cardíaca:** \n\nBulhas cardíacas bradicárdicas, sem sopros.\n\n\n\n**Abdome:** \n\nFlácido, ruídos hidroaéreos presente.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1747184866.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exames Laboratoriais",
+      "conteudo": "**Hemoglobina:** 16 g/dL (13,5 - 18 g/dL)\n\n**Hematócrito:** 46% (40 - 50%)\n\n**Leucócitos:** 12.700/L (4.500 - 11.000/L)\n\n**Segmentados/Bastões:** 76%/12% (60 - 65%/2 - 5%)\n\n**Plaquetas:** 130.000/L (150.000 - 450.000/L)\n\n\n\n**Glicemia de jejum:** 80 mg/dl (60 - 99 mg/dl)\n\n\n\n**RNI/TTPa:** 1,23/38,9 segundos (0,8 - 1,2/24 - 45 segundos)\n\n\n\n**Ureia:** 47 mg/dL (10,0 - 50,0 mg/dL)\n\n**Creatinina:** 0,9 mg/dL (0,7 - 1,2 mg/dL)\n\n\n\n**TGO:** 22 U/l (Valor de referência: 15 – 40 U/l)\n\n**TGP:** 15 U/l (Valor de referência: 10 – 40 U/l)\n\n\n\n**Sódio:** 144 mEq/L (135 - 145 mEq/L)\n\n**Potássio:** 4,7 mEq/L (3,5 - 5,5 mEq/L)\n\n\n\n**Gasometria arterial:**\n\n**pH:** 7.25 (Valor de referência 7.35 - 7.45)\n\n**PaO2:** 58 mmHg (Valor de referência 80 - 100 mmHg)\n\n**PaCO2:** 35 mmHg (Valor de referência 35 - 45 mmHg)\n\n**HCO3-:** 16 mEq/L (Valor de referência 22 - 26 mEq/L)\n\n**SaO2:** 88%  (Valor de referência 94 - 100%)",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1747184866.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "ECG",
+      "conteudo": "ECG",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1747184215.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Radiografia de Tórax",
+      "conteudo": "Infiltrado bilateral sugestivo de aspiração.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1747184215.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "Colinesterase",
+      "conteudo": "Colinesterase: 86 U/L (Valor de referência 5.500 - 13.400 U/L).",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1747184215.jpg"
+    },
+    {
+      "idx": 6,
+      "titulo": "Frasco trazido pela  mãe",
+      "conteudo": "Frasco trazido pela mãe.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1747189144.JPG"
+    },
+    {
+      "idx": 7,
+      "titulo": "Glicemia Capilar",
+      "conteudo": "Glicemia capilar",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta o paciente e a mãe;\n(2) Identifica-se; e,\n(3) Dirige-se a eles pelo nome, pelo menos uma vez.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Contato visual e linguagem não verbal: **\n(1) Estabelece contato visual; \n(2) Mantém linguagem não verbal adequada. \n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza apenas uma das ações. \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Usa linguagem clara e acessível para explicar o quadro clínico:**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Escuta sem interrupções o relato da mãe sobre o histórico do paciente:**\n\n**Adequado:** Escuta sem interromper.\n**Inadequado:** Interrompe ou não escuta atentamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga fatores desencadeantes:**\n(1) Traumas ou quedas;\n(2) Medicamentos;\n(3) Produtos ou substâncias químicas;\n(4) Alimentos de origem suspeita.\n\n**Adequado:** Investiga três ou quatro sintomas.\n**Parcialmente adequado:** Investiga dois sintomas.\n**Inadequado:** Investiga apenas um sintoma OU não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga sobre a queixa principal:**\n(1) Tempo desde o início do quadro;\n(2) Progressão da severidade dos sintomas;\n(3) Frequência;\n(4) Fatores amenizadores;\n(5) Fatores de agravamento;\n(6) Uso de medicamentos; e,\n(7) Episódios prévios.\n\n**Adequado:** Investiga seis ou sete itens.\n**Parcialmente adequado:** Investiga quatro ou cinco itens.\n**Inadequado:** Investiga um ou dois itens OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga sinais e sintomas acompanhantes:**\n(1) Sialorreia;\n(2) Sudorese;\n(3) Náuseas ou dor abdominal;\n(4) Mal-estar geral;\n(5) Falta de ar ou dispneia;\n(6) Broncorreia;\n(7) Alterações visuais;\n(8) Incontinência urinária.\n\n**Adequado:** Investiga sete ou oito itens.\n**Parcialmente adequado:** Investiga cinco ou seis itens.\n**Inadequado:** Investiga quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga a existência de sinais ou sintomas depressivos:**\n(1) Anedonia;\n(2) Humor deprimido;\n(3) Culpa;\n(4) Fadiga;\n(5) Alteração de sono e/ou apetite;\n(6) Dificuldade de concentração;\n(7) Desesperança.\n\n**Adequado:** Investiga de cinco a  sete itens.\n**Parcialmente adequado:** Investiga de dois a quatro itens.\n**Inadequado:** Investiga apenas um item OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Pergunta sobre antecedentes e queixas prévias:**\n(1) Doenças psiquiátricas (próprio e familiar);\n(2) Doenças prévias (comorbidades) e uso de medicamentos;\n(3) Hábitos de vida (uso de drogas lícitas e ilícitas, atividade física, alimentação).\n\n**Adequado:** Pergunta os três itens.\n**Inadequado:** Pergunta um ou dois itens OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Aborda ideação suicida OU de autoextermínio.**\n\n**Adequado:** Aborda. \n**Inadequado:** Não aborda",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita e interpreta o exame físico:** \n\n**Adequado:** Solicita e interpreta corretamente.\n**Inadequado:** Não solicita ou não interpreta corretamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita os exames laboratoriais:**\n(1) Glicemia capilar;\n(2) Hemograma completo OU hemograma;\n(3) Ureia e creatinina;\n(4) Potássio e sódio;\n(5) AST e ALT (TGO e TGP);\n(6) Coagulograma (TAP / INR e TTPA);\n(7) Gasometria arterial;\n(8) Dosagem de colinesterase.\n\n**Adequado:** Solicita ao menos seis exames, obrigatoriamente o item 8.\n**Inadequado:** Solicita menos que seis exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": "O chumbinho, um inseticida da classe dos carbamatos, funciona inibindo a enzima colinesterase."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Solicita Eletrocardiograma de 12 derivações:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza hipótese diagnóstica:**\n(1) Intoxicação exógena por carbamato ou chumbinho (raticida);\n(2) Síndrome colinérgica compatível. \n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Conduta médica inicial:**\n(1) Monitorização multiparamétrica dos sinais vitais; \n(2) Hidratação venosa;\n(3) Intubação orotraqueal;\n(4) Internação em box de emergência OU terapia intensiva OU sala vermelha.\n\n**Adequado:** Orienta quatro condutas.\n**Inadequado:** Orienta uma, duas ou três condutas OU não orienta conduta alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Conduta terapêutica específica:**\n(1) Com atropina;\n(2) Por via endovenosa;\n(3) Com início imediato após o diagnóstico.\n\n**Adequado:** Orienta os três itens.\n**Parcialmente adequado:** Orienta dois itens, obrigatoriamente o item 1.\n**Inadequado:** Orienta somente um item ou não orienta nenhum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Verbaliza a notificação compulsória do caso ao SINAN:**\n(1) Tentativa de suicídio;\n(2) Intoxicação exógena por carbamato (chumbinho).\n\n**Adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Indica acompanhamento nos dispositivos da rede de atenção à saúde:**\nNúcleo de Atenção em Saúde da Família (NASF)/ E-Multi OU Centro de Atenção Psicossocial (CAPS).\n\n**Adequado:** Indica. \n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

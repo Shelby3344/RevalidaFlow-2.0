@@ -4,7 +4,6 @@ import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
-  Bot,
   Play,
   Pause,
   RotateCcw,
@@ -13,6 +12,9 @@ import {
   Settings,
   Trophy,
   Brain,
+  MessageSquare,
+  ListChecks,
+  User,
 } from "lucide-react";
 import { AreaBadge } from "@/components/AreaBadge";
 import { AreaCode, checklistsData } from "@/data/checklists";
@@ -22,13 +24,14 @@ import {
 } from "@/data/checklistContents";
 import { ChecklistContent } from "@/types/checklists";
 import { ChatPacienteIA } from "@/components/treino-ia/ChatPacienteIA";
-import { ProgressoAvaliacao } from "@/components/treino-ia/ProgressoAvaliacao";
-import { ExamesLiberados } from "@/components/treino-ia/ExamesLiberados";
+import { ChecklistCompletoIA } from "@/components/treino-ia/ChecklistCompletoIA";
+import { ImpressosComCadeado } from "@/components/treino-ia/ImpressosComCadeado";
 import { FeedbackItem } from "@/components/treino-ia/FeedbackItem";
 import { AnaliseResultados } from "@/components/treino-ia/AnaliseResultados";
 import { ResultSummary } from "@/components/avaliacao/ResultSummary";
 import { useAIPacienteAvaliador } from "@/hooks/useAIPacienteAvaliador";
 import { useAvaliacaoTimer } from "@/hooks/useAvaliacaoTimer";
+import { useChecklistMetrics } from "@/hooks/useChecklistMetrics";
 import { ItemScoreIA } from "@/types/treino-ia";
 import { ItemScore } from "@/types/avaliacao";
 import { formatTime } from "@/lib/avaliacao-utils";
@@ -51,9 +54,15 @@ export default function TreinoIACompleto() {
   const [isLoading, setIsLoading] = useState(true);
   const [phase, setPhase] = useState<SessionPhase>("setup");
   const [isConnected, setIsConnected] = useState(false);
-  const [apiKey, setApiKey] = useState("");
+  const [apiKey, setApiKey] = useState(() => {
+    // Carregar API Key do localStorage
+    return localStorage.getItem("openai_api_key") || "";
+  });
   const [showSettings, setShowSettings] = useState(false);
   const [feedbackNotifications, setFeedbackNotifications] = useState<FeedbackNotification[]>([]);
+
+  // Hook para métricas do usuário
+  const { recordAttempt } = useChecklistMetrics();
 
   // Timer
   const { timeRemaining, isRunning, start, pause, reset } = useAvaliacaoTimer({
@@ -88,6 +97,7 @@ export default function TreinoIACompleto() {
   // IA do Paciente e Avaliador
   const {
     sendMessage,
+    sendInitialGreeting,
     isLoading: isAILoading,
     conversationHistory,
     completedItems,
@@ -95,7 +105,6 @@ export default function TreinoIACompleto() {
     totalScore,
     maxScore,
     clearHistory,
-    getExameContent,
   } = useAIPacienteAvaliador({
     checklistContent: content,
     apiKey: apiKey || undefined,
@@ -146,11 +155,14 @@ export default function TreinoIACompleto() {
     return nomes[Math.floor(Math.random() * nomes.length)];
   };
 
-  const handleStart = () => {
+  const handleStart = async () => {
     setPhase("running");
     setIsConnected(true);
     start();
     toast.success("Consulta iniciada!", { description: "A IA irá avaliar seu desempenho" });
+    
+    // Enviar saudação inicial do paciente
+    await sendInitialGreeting();
   };
 
   const handlePause = () => {
@@ -169,6 +181,13 @@ export default function TreinoIACompleto() {
     pause();
     setPhase("finished");
     setIsConnected(false);
+    
+    // Salvar métrica do usuário
+    if (checklistId && maxScore > 0) {
+      const scorePercentage = (totalScore / maxScore) * 10; // Converte para escala de 0-10
+      recordAttempt(checklistId, Math.round(scorePercentage * 100) / 100);
+    }
+    
     toast.success("Consulta finalizada!");
   };
 
@@ -343,55 +362,40 @@ export default function TreinoIACompleto() {
                 <div className="flex gap-2">
                   <Input
                     type="password"
-                    placeholder="API Key OpenAI (opcional)"
+                    placeholder="API Key OpenAI (obrigatória para voz)"
                     value={apiKey}
                     onChange={(e) => setApiKey(e.target.value)}
                     className="flex-1"
                   />
-                  <Button variant="outline" onClick={() => setShowSettings(false)}>
+                  <Button variant="outline" onClick={() => {
+                    localStorage.setItem("openai_api_key", apiKey);
+                    setShowSettings(false);
+                    if (apiKey) {
+                      toast.success("API Key salva! Voz da OpenAI ativada.");
+                    }
+                  }}>
                     Salvar
                   </Button>
                 </div>
                 <p className="text-xs text-muted-foreground mt-2">
-                  💡 Com API Key: IA avançada com GPT-4. Sem API Key: detecção local básica.
+                  💡 Com API Key: Voz natural da OpenAI + GPT-4o. Sem API Key: voz do navegador.
                 </p>
+                {!apiKey && (
+                  <p className="text-xs text-amber-400 mt-1">
+                    ⚠️ Configure a API Key para usar a voz da OpenAI
+                  </p>
+                )}
               </div>
             )}
           </div>
 
           {/* Content */}
           <div className="flex-1 overflow-hidden">
-            <div className="h-full grid grid-cols-1 lg:grid-cols-3 gap-4 p-4">
-              {/* Coluna esquerda - Chat */}
+            <div className="h-full grid grid-cols-1 lg:grid-cols-5 gap-4 p-4">
+              {/* Coluna esquerda - Chat (2/5 = 40%) */}
               <div className="lg:col-span-2 flex flex-col min-h-0">
-                {/* Cenário (apenas no setup) */}
-                {phase === "setup" && (
-                  <div className="bg-card border border-border rounded-lg p-4 mb-4">
-                    <div className="flex items-center gap-2 text-primary mb-3">
-                      <Bot className="w-4 h-4" />
-                      <span className="text-sm font-medium">Cenário de Atuação</span>
-                    </div>
-                    <div className="text-sm text-muted-foreground space-y-2">
-                      <p>
-                        <span className="text-foreground font-medium">Nível:</span>{" "}
-                        {content.scenario.nivel}
-                      </p>
-                      <p>
-                        <span className="text-foreground font-medium">Tipo:</span>{" "}
-                        {content.scenario.tipo}
-                      </p>
-                      <div className="mt-3">
-                        <p className="text-foreground font-medium mb-1">Descrição:</p>
-                        {content.scenario.descricao.map((desc, idx) => (
-                          <p key={idx} className="mt-1">{desc}</p>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                )}
-
-                {/* Chat */}
-                <div className="flex-1 min-h-0">
+                {/* Chat - altura limitada */}
+                <div className="max-h-[350px]">
                   <ChatPacienteIA
                     pacienteName={getPacienteName()}
                     messages={conversationHistory}
@@ -406,37 +410,81 @@ export default function TreinoIACompleto() {
                 </div>
               </div>
 
-              {/* Coluna direita - Progresso e Exames */}
-              <div className="flex flex-col gap-4 overflow-y-auto">
-                {/* Progresso da Avaliação */}
-                <ProgressoAvaliacao
-                  items={content.evaluationItems}
-                  completedItems={completedItems}
-                  totalScore={totalScore}
-                  maxScore={maxScore}
-                  showDetails={phase !== "setup"}
-                />
+              {/* Coluna direita - Cenário + Orientações + Ator + Impressos + Checklist (3/5 = 60%) */}
+              <div className="lg:col-span-3 flex flex-col min-h-0 gap-3 overflow-y-auto">
+                {/* Cenário de atuação */}
+                <div className="bg-card border border-border rounded-lg overflow-hidden flex-shrink-0">
+                  <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-2">
+                    <div className="flex items-center gap-2 text-primary">
+                      <MessageSquare className="w-3 h-3" />
+                      <span className="text-xs font-medium">Cenário de atuação</span>
+                    </div>
+                  </div>
+                  <div className="p-3 space-y-2 text-xs text-muted-foreground">
+                    <div>
+                      <p><span className="text-foreground italic">Nível:</span> {content.scenario.nivel}</p>
+                      <p><span className="text-foreground italic">Tipo:</span> {content.scenario.tipo}</p>
+                    </div>
+                    <div className="pt-1">
+                      <p className="text-foreground font-medium mb-1">DESCRIÇÃO DO CASO:</p>
+                      {content.scenario.descricao.map((item, idx) => (
+                        <p key={idx} className={idx > 0 ? 'mt-1' : ''}>{item}</p>
+                      ))}
+                    </div>
+                  </div>
+                </div>
 
-                {/* Exames Liberados */}
-                <ExamesLiberados
-                  impressos={content.impressos || []}
-                  liberatedExames={liberatedExames}
-                  getExameContent={getExameContent}
-                />
+                {/* Orientações dos 10 min */}
+                <div className="bg-card border border-border rounded-lg overflow-hidden flex-shrink-0">
+                  <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-2">
+                    <div className="flex items-center gap-2 text-primary">
+                      <ListChecks className="w-3 h-3" />
+                      <span className="text-xs font-medium">
+                        Nos 10 Min. de duração da estação, você deverá executar as seguintes tarefas:
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-3 space-y-1 text-xs text-muted-foreground">
+                    {content.orientacoes.map((item, idx) => (
+                      <p key={idx}>- {item}</p>
+                    ))}
+                  </div>
+                </div>
 
-                {/* Orientações */}
-                {phase !== "setup" && content.orientacoes.length > 0 && (
-                  <div className="bg-amber-500/10 border border-amber-500/30 rounded-lg p-4">
-                    <h3 className="text-sm font-medium text-amber-400 mb-2">
-                      📋 Tarefas
-                    </h3>
-                    <div className="text-xs text-muted-foreground space-y-1">
-                      {content.orientacoes.slice(0, 5).map((item, idx) => (
-                        <p key={idx}>• {item}</p>
+                {/* Orientações do Ator/Atriz */}
+                {content.instrucoes.itens.length > 0 && (
+                  <div className="bg-card border border-border rounded-lg overflow-hidden flex-shrink-0">
+                    <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-2">
+                      <div className="flex items-center gap-2 text-primary">
+                        <User className="w-3 h-3" />
+                        <span className="text-xs font-medium">{content.instrucoes.titulo || "Orientações do Ator/Atriz"}</span>
+                      </div>
+                    </div>
+                    <div className="p-3 space-y-1 text-xs text-muted-foreground">
+                      {content.instrucoes.itens.map((item, idx) => (
+                        <p key={idx}>- {item}</p>
                       ))}
                     </div>
                   </div>
                 )}
+
+                {/* Impressos com cadeado */}
+                <div className="flex-shrink-0">
+                  <ImpressosComCadeado
+                    impressos={content.impressos || []}
+                    liberatedExames={liberatedExames}
+                  />
+                </div>
+
+                {/* Checklist Completo - ocupa o resto do espaço */}
+                <div className="flex-1 min-h-0">
+                  <ChecklistCompletoIA
+                    items={content.evaluationItems}
+                    completedItems={completedItems}
+                    totalScore={totalScore}
+                    maxScore={maxScore}
+                  />
+                </div>
               </div>
             </div>
           </div>

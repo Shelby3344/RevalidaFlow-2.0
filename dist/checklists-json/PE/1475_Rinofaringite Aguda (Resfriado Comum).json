@@ -1,0 +1,176 @@
+{
+  "uid": 1475,
+  "hash": "50ef3021202c9fdf90a5c259cc0cbaffc2117aa61a43c930a2b10960f5c1360b-1742149602",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Rinofaringite Aguda (Resfriado Comum)",
+  "definicao": "A Rinofaringite Aguda, ou resfriado comum, é uma infecção viral autolimitada do trato respiratório superior, caracterizada por sintomas como coriza, espirros, obstrução nasal e febre baixa. É mais comum em crianças devido à imaturidade do sistema imunológico.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "60.00",
+    "star": 0,
+    "time": 555,
+    "count": 1312
+  },
+  "cenario": "Local de atuação:\nAtenção Primária: Estratégia de saúde da família.\nA unidade possui a seguinte infraestrutura:\nConsultório clínico equipado com maca, estetoscópio, termômetro e material para anotação.\n\nDescrição do caso:\nVocê se encontra em uma unidade básica de saúde e irá atender Conrado, um menino de 3 anos de idade, que veio à consulta de demanda espontânea, pois sua mãe notou que ele está com coriza, espirros, tosse, obstrução nasal e febre baixa há 4 dias.",
+  "tarefas": "-Realizar a anamnese dirigida.\n-Verbalizar e interpretar o exame físico da criança.\n-Solicitar exames laboratoriais se julgar necessário.\n-Explicar a condição de saúde geral do bebê, quanto ao diagnóstico.\n- Explicar no mínimo 3 agentes etiológicos.\n-Propor as condutas clínicas que julgar adequadas.\n- Explicar no mínimo 2 complicações.",
+  "script_ator": "**NOME, IDADE E PROFISSÃO DA MÃE:**\n- Barbara, 28 anos, esteticista.\n\n**NOME E IDADE DA CRIANÇA:**\n- Conrado, 3 anos.\n\n**MOTIVO DE CONSULTA:**\n- Estou preocupada porque meu filho está com coriza, espirrando, tosse, o nariz dele está bem congestionado e e notei que ele ficou um pouco mais quente.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n- Os sintomas começaram há 2 dias;\n\n**TOSSE**\n- **Inicio:** Fazem 2 dias;\n- **Tem secreção ou é seca:** Tem um pouco de secreção sim;\n-**Quantidade:** Bem pouca;\n-** Predomínio de horário:** Não consta;\n-**Relação com decúbito:** Não consta;\n-**Cor:** Meio Verde;\n\n**FEBRE**\n-**Inicio:** Fazem 2 dias;\n-**Graduou:** Cheguei a medir em casa e estava 37,7°C;\n-**Tem predomínio de horário:** Não consta;\n-**Recorrente ou continua:** Não consta;\n-**Sudorese:** Não;\n**-Calafrios:** Não;\n**-Tomou alguma medicação:** Não;\n\n**CORIZA**\n-**Inicio:** Começou tudo junto;\n-**Quantidade:** No nariz dele está bem congestionado;\n-**Cor:** Esverdeada;\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n-**Náuseas  ou Vômitos:** Nega;\n-**Manchas no Corpo:**  Nega;\n-**Sintomas geniturinários:** Nega;\n-**Evacuatórios:** Normais;\n-**Dor abdominal:** Não consta;\n-**Irritabilidade:**Sim, está mais chatinho nos últimos dias;\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- Nega problemas no pré-natal ou parto; \n- **Alergias:** Nega;\n-**Uso de medicamentos:** Nega.\n\n-**Caderneta de vacinação:** Está atualizada.\n\n**ALIMENTAÇÃO:**\n- Se alimenta bem, com frutas, verduras e vegetais.\n\n**DÚVIDAS:**\n**Pergunta 1:** - Como ele pegou essa doença? \n**Pergunta 2:** -Quem causou isso? Ele precisa coletar exames então doutor(a)?\n**Pergunta 3:** - Existe algum tratamento específico?\n**Pergunta 3:** - Quando devo retornar à consulta?\n**Pergunta 4:** - Preciso me preocupar com complicações?\n\n**Se questionado OUTRAS PERGUNTAS, responda:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Ectoscopia:** Bom estado geral, corado, hidratado, acianótico, anictérico e febril (37,6°C).\n\n**Cardiovascular:** Bulhas cardíacas normofonéticas em 2 tempos sem sopro, bem perfundido, pulsos fortes, extremidades quentes.\n\n**Respiratório:** Murmúrio vesicular presente em ambos campos pulmonares, roncos na ausculta.\n\n**Abdominal:** Normotenso, normotimpânico, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes. Sem visceromegalias.\n\n\n\n**Sinais vitais:** \n\n**FC:** 100 bpm \n\n**FR:** 25 irpm \n\n**SatO2:** 98% (Ar Ambiente)\n\n**Tax:** 37,6°C",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** realiza as cinco ações.\n**Parcialmente adequado:** realiza de duas a quatro ações.\n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre motivo de consulta:**\nPergunta sobre os sintomas:\n(1) Início;\n(2) Duração;\n(3) Intensidade;\n(4) Fatores de melhora ou piora.\n\n**Adequado:** realiza todos os itens.\n**Parcialmente adequado:** realiza dois ou três itens.\n**Inadequado:** realiza um item ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas acompanhantes:**\n(1) Náuseas/vômitos;\n(2) Dor de garganta;\n(3) Exantema;\n(4) Irritabilidade.\n\n**Adequado:** pergunta sobre todos os itens.\n**Parcialmente adequado:** pergunta sobre três itens.\n**Inadequado:** pergunta sobre dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita caderneta vacinal:**\n\n**Adequado:** realiza o item.\n**Inadequado:** não realiza o item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico e interpreta:**\n(1) Bom estado geral;\n(2) Estado febril de 37,6°C;\n(3) Presença de roncos na ausculta pulmonar.\n\n**Adequado:** Solicita e interpreta as três alterações.\n**Parcialmente adequado:** Solicita e interpreta duas alterações.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "De acordo com o Ministério da Saúde, a febre é definida quando a temperatura axilar é superior a 37,3°C.  Valores de referência: Temperatura normal: 36°C a 37,2°C; Estado febril: 37,3°C a 37,7°C; Febre: 37,8°C ou mais; Febre alta: Geralmente a partir de 39°C."
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Não solicita exames complementares e explica que o diagnóstico é clinico:**\n\n**Adequado:** não solicita.\n**Inadequado:** solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza o diagnóstico de Rinofaringite Aguda ou Resfriado Comum de forma clara, tranquilizando a mãe quanto ao quadro.**\n\n**Adequado:** verbaliza e explica o diagnóstico correto.\n**Inadequado:** não verbaliza ou dá outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza possíveis agentes etiológicos**\n(1) Vírus Sincicial Respiratório;\n(2) Parainfluenza;\n(3) Adenovírus;\n(4) Rinovírus;\n(5) Coronavírus;\n(6) Enterovírus.\n\n**Adequado:** verbaliza quatro agentes.\n**Parcialmente Adequado** Verbaliza dois ou três agentes.\n**Inadequado:** Verbaliza um agente ou nenhum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica forma de contagio**\n(1) Contato direto (mãos e objetos contaminados);\n(2) Gotículas;\n(3) Aerossóis.\n\n**Adequado:** verbaliza três formas de contagio.\n**Parcialmente Adequado** Verbaliza duas formas de contágio.\n**Inadequado:** Verbaliza uma forma ou nenhuma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Conduta:**\n(1) Recomenda repouso;\n(2) Indica sintomáticos para alívio dos sintomas;\n(3) Aconselha ingestão adequada de líquidos;\n(4) Lavagem nasal com solução salina.\n\n**Adequado:** indica todos os itens.\n**Parcialmente adequado:** indica dois ou três itens.\n**Inadequado:** indica um item ou nenhum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Não prescreve nenhuma outra medicação como:**\n(1) Mucolíticos;\n(2) Anti histamínicos;\n(3) Antitussígenos.\n\n**Adequado:** Não prescreve.\n**Inadequado:** Prescreve qualquer medicação que não seja antitérmico e analgésico.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Acompanhamento:**\n(1) Marcar retorno em 48 a 72 horas ou se piora dos sintomas.\n\n**Adequado:** indica o item.\n**Inadequado:** Marca retorno sem indicar o tempo.\n**Inadequado:** Não marca retorno.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Explica possíveis complicações:**\n(1) Pneumonia;\n(2) Otite média Aguda;\n(3) Sinusite.\n\n**Adequado:** Explica duas complicações.\n**Parcialmente adequado:** Explica uma complicação.\n**Inadequado:** Não explica complicações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

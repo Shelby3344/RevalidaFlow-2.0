@@ -1,0 +1,150 @@
+{
+  "uid": 1377,
+  "hash": "1becb157-85ae-4c1e-8630-116fd43ac71e",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Púrpura de Henoch-Schönlein (PHS)",
+  "definicao": "A Púrpura de Henoch-Schönlein (PHS), também conhecida como Vasculite IgA, é uma vasculite de pequenos vasos mediada por depósitos de imunoglobulina A (IgA) nas paredes vasculares. Caracterizada por púrpura palpável, acometimento renal, artralgia ou artrite, manifestações gastrointestinais e, em alguns casos, sangramento intestinal. A PHS é mais comum em crianças de 3 a 15 anos, com pico de infecção entre 4 e 6 anos, e frequentemente segue infecções respiratórias superiores. O prognóstico é geralmente bom, embora o acometimento renal possa determinar consequências a longo prazo.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "48.50",
+    "star": 0,
+    "time": 578.5,
+    "count": 1768
+  },
+  "cenario": "Local de atuação: Atenção secundária: Ambulatório de Pediatria.\nA unidade possui a seguinte infraestrutura:\n- Salas de atendimento;\n- Análises clínicas;\n- Diagnóstico por imagem;\n- Leitos de internação.\n\nDescrição do caso:\nVocê irá atender Maria, de 6 anos, acompanhada dos pais, com queixa de dor abdominal e manchas vermelhas em membros inferiores.",
+  "tarefas": "- Realizar a anamnese dirigida aos pais;\n- Solicitar exame físico;\n- Solicitar exames complementares, se necessário.\n- Propor hipótese diagnóstica e diagnósticos diferenciais;\n- Propor medidas terapêuticas.",
+  "script_ator": "**DADOS DOS PAIS:**\n- João, 40 anos, enfermeiro, e Clara, 35 anos, professora.\n\n**DADOS DA CRIANÇA:**\n- Maria, 6 anos.\n\n**CADERNETA DA CRIANÇA:**\n- Completa, vacinas completas.\n\n**MOTIVO DE CONSULTA:**\n- Doutor(a), minha filha está com dor de barriga e manchas nas pernas.\n\n**SOBRE O MOTIVO DE CONSULTA: manchas nas pernas:**\n- Tempo de evolução: 3 dias.\n- Localização: duas pernas e glúteos.\n- Evolução: foram aumentando nas últimas 24 horas.\n- Dor: sim, ela se queixa quando eu toco.\n\n**SOBRE O MOTIVO DE CONSULTA:** Dor abdominal.\n- Tempo de evolução: 3 dias.\n- Localização: difusa.\n- Intensidade: é uma dor moderada.\n- Fatores atenuantes e agravantes: piora após as refeições.\n\n**Fatores desencadeantes: **\nTrauma: nega.\nInfecções recentes: sim, ela teve uma dor de garganta há 2 semanas, mas tratou e ficou bem depois disso.\nVacinação recente: nega.\nPicadas de inseto: nega.\nUso de medicamentos: nega.\nAlergias: nega.\nConsumo de alimentos novos: nega.\n\n**SINAIS E SINTOMAS ASSOCIADOS:**\n- Prurido: nega.\n- Dor abdominal: sim, principalmente após as refeições.\n- Artalgia: disse que dói um pouco os joelhos e tornezelos, principalmente ao acordar.\n- Diarreia: nega.\n- Náuseas: sim.\n- Vômitos: nega.\n- Sintomas genitourinários: nega.\n- Febre: sim, teve febre desde o primeiro dia.\n- Cefaleia: nega.\n-Irritabilidade: nega.\n\n**CRESCIMENTO E DESENVOLVIMENTO:**\n- Desenvolvimento normal até o momento.\n\n**INFORMAÇÕES ESCOLARES:**\n- Frequenta a escola regularmente.\n\n**ANTECEDENTES PESSOAIS:**\n- Nega comorbidades, uso de medicamentos contínuos, internações ou cirugias. \n- Nega alergias.\n\n**ANTECEDENTES FAMILIARES:**\n- Nega doenças crônicas ou genéticas.\n- Convive com irmãos saudáveis ​​em casa.\n\n**DÚVIDAS:** \nApós o diagnóstico indagar:\n- Isso é grave Dr (a)? Ela vai ter que ficar internada? Como pode complicar?\n\n**Outras perguntas:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais vitais:**\n\nFC: 90 bpm\n\nFR: 25 irpm\n\nTemperatura: 37,8°C\n\nSaturação: 98% AA\n\n\n\n**Estado geral: **Criança em bom estado geral, corada, hidratada, alerta e cooperativa.\n\n**Abdominal:** Sensibilidade difusa à palpação, sem peritonismo..\n\n**Músculo-esquelético: **Dor à mobilização dos joelhos e tornozelos, sem edema, calor ou eritema.\n\n**Neurológico:** Sem alterações.\n\n**Cardiovascular:** Sem alterações.\n\n**Respiratório:** Sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1737817040.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia (lesões de pele)",
+      "conteudo": "Paciente refere dor à palpação das lesões.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames Laboratoriais",
+      "conteudo": "Hemoglobina: 11,2 g/dL (VR: 11,0-14,0 g/dL)\n\nLeucócitos: 11.200/mm³ (VR: 5.000-10.000/mm³)\n\nPlaquetas: 220.000/mm³ (VR: 150.000-450.000/mm³)\n\n\n\nPCR: 1,0 mg/dL (VR: < 0,5 mg/dL)\n\nFAN: negativo (VR: Negativo)\n\n\n\nUreia: 20 mg/dL (VR: 15-40 mg/dL)\n\nCreatinina: 0,4 mg/dL (VR: 0,3-0,7 mg/dL)\n\n\n\nSangue oculto em fezes: negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Urina tipo 1/EAS",
+      "conteudo": "Cor: Amarelo claro (VR: Amarelo claro a âmbar).\n\nAspecto: Transparente (VR: Transparente).\n\nDensidade: 1.015 (VR: 1.010 - 1.025).\n\npH: 6,0 (VR: 5,0 - 7,0).\n\n\n\nGlicose: Ausente (VR: Ausente).\n\nProteínas: Ausente (VR: Ausente).\n\nCetonas: Ausente (VR: Ausente).\n\nHemoglobina/Sangue: Ausente (VR: Ausente).\n\nUrobilinogênio: Normal (VR: Normal ou traços).\n\nBilirrubina: Ausente (VR: Ausente).\n\nLeucócitos (esterase): Ausente (VR: Ausente).\n\nNitrito: Negativo (VR: Negativo).\n\n\n\nLeucócitos: 0-3 por campo (VR: Até 5 por campo).\n\nHemácias: 3 por campo (VR: Até 2 por campo).\n\nCélulas epiteliais: Poucas (VR: Até 5 por campo).\n\nCilindros: Ausentes (VR: Ausente).\n\nCristais: Ausentes (VR: Ausente).\n\nBactérias: Ausentes (VR: Ausente).\n\nMuco: Pouco (VR: Pouco ou ausente).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome da mãe e o nome da criança.\n\n**Adequado: **realiza as quatro ações.\n**Parcialmente adequado:** realiza duas ou três ações.\n**Inadequado: **realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre o motivo da consulta e as queixas principais\ncomo:**\n(1) Cefaleia;\n(2) Febre;\n(3) Diarreia ou alterações gastrointestinais;\n(4) Náuseas e/ou vômitos;\n(5) Prurido;\n(6) Artralgia.\n\n**Adequado: **pergunta cinco ou seis queixas.\n**Parcialmente adequado:** pergunta quatro queixas.\n**Inadequado: **pergunta três ou menos queixas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga fatores desencadeantes:**\n(1) Trauma;\n(2) Infecções;\n(3) Vacinação recente;\n(4) Medicamentos;\n(5) Alimentos;\n(6) Alergias.\n\n**Adequado:** investiga entre quatro a seis itens.\n**Parcialmente adequado:** investiga três itens\n**Inadequado:** investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "PHS possui etiologia desconhecida, mas sabemos que pode estar associada a fatores desencadeantes como: infecções do trato respiratório superior, vacinas, alimentos ou picada de insetos."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita exames complementares laboratoriais:**\n(1) Hemograma;\n(2) PCR;\n(3) Ureia;\n(4) Creatinina;\n(5) Coagulograma;\n(6) FAN;\n(7) Urina tipo 1/EAS;\n(8) Sangue oculto em fezes.\n\n**Adequado:** se solicita entre seis a oito exames.\n**Parcialmente adequado:** se solicita cinco exames.\n**Inadequado:** se solicita quatro ou menos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": "O diagnóstico é clínico, os exames são importantes para descartar diagnósticos diferenciais e avaliar complicações."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Formula a hipótese diagnóstica de:**\n(1) Púrpura de Henoch-Schönlein OU Vasculite por IgA;\n\n**Adequado:** se formula corretamente a hipótese diagnóstica completa.\n**Inadequado:** se não formula ou formula de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza diagnósticos diferenciais:**\n(1) Febre reumática;\n(2) Artrite reumatóide;\n(3) Lúpus;\n(4) Vasculites sistêmicas;\n(5) Meningococcemia;\n(6) Artrite Idiopática Juvenil;\n(7) Púrpura Trombocitopênica Trombótica; \n(8) Dengue.\n\n**Adequado:** se verbaliza ao menos dois diagnósticos diferenciais.\n**Parcialmente adequado:** se verbaliza um diagnóstico diferencial.\n**Inadequado:** se não verbaliza nenhum diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Responde à mãe que a geralmente a doença apresenta curso autolimitado com bom prognóstico.**\n\n**Adequado:** responde o curso autolimitado e/ou bom prognóstico.\n**Inadequado:** não responde corretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza a conduta preconizada:**\n(1) Tratamento ambulatorial;\n(2) Hidratação vigorosa;\n(3) Analgesia OU Aines;\n(4) Pautas de alarme.\n\n**Adequado:** verbaliza três ou quatro itens.\n**Parcialmente adequado:** verbaliza dois itens.\n**Inadequado:** verbaliza um item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza possíveis complicações:**\n(1) Nefropatia e/ou insuficiência renal;\n(2) Infarto intestinal;\n(3) Sangramento gastrointestinal;\n(4) Obstrução intestinal.\n\n**Adequado:** verbaliza ao menos um diagnóstico diferencial.\n**Inadequado:** não verbaliza ou verbaliza incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

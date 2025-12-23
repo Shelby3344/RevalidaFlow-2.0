@@ -1,0 +1,155 @@
+{
+  "uid": 1545,
+  "hash": "310a41116d83467087e3341b33b721bec149e06d4a79f2787c05b757dc10b9c1-1748057164",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Trombocitopenia Imune Grave",
+  "definicao": "A Trombocitopenia Imune é uma condição em que o sistema imunológico destrói as plaquetas, que são essenciais para a coagulação sanguínea. É mais comum em crianças e muitas vezes segue uma infecção viral.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "66.00",
+    "star": 0,
+    "time": 551.5,
+    "count": 558
+  },
+  "cenario": "Local de atuação:  Unidade de Pronto Atendimento de um hospital secundário — urgência e emergência.\nA unidade possui a seguinte infraestrutura:\n- Setor de radiologia;\n- Laboratório de análises clínicas;\n- Setor de internação;\n- Farmácia clínica com qualquer medicamento e/ou terapia necessários.\n\nDescrição do caso:\nVocê está de plantão no pronto-socorro de um hospital secundário de uma grande cidade e atenderá um menino de quatros anos de idade trazido pela mãe, devido a manchas pelo corpo e sangramentos.\n\nATENÇÃO! CONSIDERE QUE O PACIENTE ESTÁ DEITADO NA MACA DURANTE TODA A CONSULTA.\nA ANAMNESE SERÁ DIRIGIDA À ACOMPANHANTE DO PACIENTE. CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE.",
+  "tarefas": "- Realizar a anamnese dirigida à mãe;\n- Verbalizar o exame físico;\n- Solicitar todos os exames complementares que julgar necessário;\n- Explicar à mãe a condição da criança;\n- Definir o manejo inicial;\n- Reponder eventuais dúvidas;",
+  "script_ator": "**DADOS DA MÃE:** \n- Joyce, 35 anos, vendedora.\n\n**DADOS DA CRIANÇA:**\n- Miguel, 4 anos.\n\n**MOTIVO DE CONSULTA:**\n- Doutor(a), eu trouxe meu filho aqui hoje, pois ele está apresentando manchas pelo corpo e alguns sangramentos.\n\n**SOBRE O MOTIVO DE CONSULTA: Manchas na pele:**\n**- Início:** Começou há 3 dias, Doutor(a).\n-**Localização:** No corpo inteiro!\n-**Quantidade:** Tem muitas, não faço ideia quantas.\n-**Prurido:** Nega.\n-**Progressão:** Apareceu do nada, e parece que ao longo do dia aparecem novas manchas, sem ele bater nem nada.\nnício / duração dos sintomas;\n-**Dor:** nega.\n\n**SOBRE O MOTIVO DE CONSULTA: Sangramentos:**\n-**Localização:** sangrou pelo nariz e pelas gengivas.\n-**Tempo de evolução:** Percebi isso hoje, por isso o trouxe, não é normal.\n-**Frequência:** Sangrou uma vez pelo nariz e todas as vezes que escova os dentes sangra a gengiva.\n-**Quantidade:** Pelo nariz eu sujei uma toalhinha toda,  até achei que ele tinha batido o nariz, pela gengiva não foi muito.\n-**Outros sangramentos:** Não teve.\n-**Febre:** Nega.\n-**Fadiga**: Nega.\n-**Sintomas neurológicos:** Nega.\n\n**Nega demais sinais e sintomas.**\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- **Comorbidades/ doenças atuais:** Ele é super saudável.\n-**Uso de medicamentos contínuos:** Nega.\n-**Infecções prévias:** Ele teve um resfriado há umas duas semana atrás, mas ficou bem, nem levei ao médico.\n\n**CADERNETA DE VACINA/CRIANÇA:**\n- Eu não trouxe, mas as vacinas estão em dia, ele acabou de fazer 4 aninhos, dei as vacinas há umas 3 semanas.\n\n**CONTEXTO EPIDEMIOLÓGICO:**\n**Sintomas em vizinhos / outras pessoas da casa:** Nega.\n\n**DÚVIDAS:**\n**-  Após o diagnóstico:**\n1) Isso é contagioso? Como que se pega isso? Meus outros filhos podem pegar?\n\n**- Se o candidato solicitar internação:**\n- 2) Ele vai ter que ficar internado mesmo? Porque? Ele pode ter complicações?\n\n**-Tratamento:**\n- 3) Que tipo de tratamento ele tem que fazer?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Exame físico:**\n\nBom estado geral, hidratado, acianótico, anictérico, afebril, sem desconforto respiratório, sem linfonodomegalias;\n\n\n\n**Oroscopia:**\n\nSem alterações;\n\n\n\n**Aparelho cardiovascular:**\n\nSem alterações de ausculta;\n\n\n\n**Aparelho respiratório:**\n\nSem alterações de ausculta;\n\n\n\n**Membros inferiores:**\n\nSem edemas, boa perfusão periférica, TEC < 3 seg. \n\n\n\n**- Peso:** 17 kg;\n\n**- Temperatura axilar:** 36,3 °C;\n\n**- Saturação de oxigênio:** 99% em ar ambiente;\n\n**- Frequência cardíaca:** 105 bpm;\n\n**- Frequência respiratória:** 23 rpm;",
+      "imagem": "https://app.penserevalida.com/impressos/8/1748089982.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia de Pele",
+      "conteudo": "Descreva os achados",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n**Hemácias**: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina**: 13,9 g/dl (Valor de referência: 12 a 14 mg/dl)\n\n**Hematócrito**: 40% (Valor de referência: 39 - 52%)\n\n**VCM**: 93 fL (Valor de referência: 80 a 100 fL)\n\n**HCM**: 31 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM**: 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW** CV: 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas: **14.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucograma**\n\n**Leucócitos**: 6.800/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos**: 65% (Valor de referência: 40 - 70%)\n\n**Bastões**: 3% (Valor de referência: 0 - 5%)\n\n**Linfócitos**: 25% (Valor de referência: 20 - 50%)\n\n**Basófilos**: 1% (Valor de referência: 0 - 2%) \n\n**Eosinófilos**: 2% (Valor de referência: 0 - 6%)\n\n**Monócitos**: 4% (Valor de referência: 4 - 8%)\n\n\n\n**Esfregaço de sangue periférico:**\n\nSem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se.**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual; e\n(4) Pergunta o nome da mãe e o nome da criança.\n\n**Adequado:** Realiza as quatro ações.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza questionamentos acerca do quadro agudo.** Investiga os seguintes pontos:\n(1) Início / duração dos sintomas;\n(2) Localização das lesões na pele;\n(3) Dor;\n(4) Prurido;\n(5) Progressão;\n(6) Febre;\n(7) Fadiga;\n(8) Sintomas neurológicos; \n(9) Outros tipos de sangramentos.\n\n**Adequado:** Investiga seis ou mais itens.\n**Parcialmente adequado: ** Investiga quatro ou cinco itens.\n** Inadequado: ** Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona quanto a antecedentes / contexto epidemiológico:**\n(1) Comorbidades/doenças atuais;\n(2) Histórico vacinal;\n(3) Uso de medicamentos;\n(4) Sintomas em vizinhos / outras pessoas da casa;\n(5) Trauma;\n(6) Infecções recentes.\n\n**Adequado:** Questiona cinco ou mais itens.\n**Parcialmente adequado: **Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Verbaliza o exame físico detalhado:**\n(1) Solicita exame físico;\n(2) Solicita ectoscopia das lesões.\n\n**Adequado: **Realiza os dois itens.\n**Inadequado:** Realiza um item ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita e interpreta exames laboratoriais:**\n(1) Hemograma;\n(2) Esfregaço de sangue periférico.\n\n**Adequado:** Solicita ambos e reconhece a plaquetopenia com ausência de outras alterações significativas.\n**Inadequado: **Não solicita  ambos ou interpreta incorretamente.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza o diagnóstico de Trombocitopenia Imune Grave.**\n\n**Adequado:** Cita diagnóstico completo.\n**Parcialmente adequado:** Cita o diagnóstico de trombocitopenia imune, sem verbalizar a gravidade.\n**Inadequado:** Não cita o diagnóstico completo ou cita de maneira incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Esclarece que não é uma doença infecto-contagiosa e sim autoimune, e pode ter relação com a infecção respiratória prévia ou com a vacinação prévia:**\n\n**Adequado:** Menciona que não é uma doença contagiosa ou infecto-contagiosa e sim autoimune e relaciona com a infecção e/ou vacinação prévia.\n**Inadequado:** Não menciona corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Explica complicações do quadro à mãe:**\n(1) Piora dos sangramentos cutâneos e de mucosas;\n(2) Hemorragias internas;\n(3) Hemorragia cerebral ou intracraniana.\n\n**Adequado:** Menciona ao menos dois itens.\n**Inadequado:** Menciona um ou menos itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Conduta:**\n(1) Solicita internação;\n(2) Observação;\n(3) Restrição de atividades físicas;\n(4) Restrição de medicamentos: AAS, Aines e Anticoagulantes;\n(5) Encaminha para o Hematologista pediátrico.\n\n**Adequado:** Realiza ao menos quatro itens, sendo o item (5) obrigatório.\n**Parcialmente adequado:** Realiza o item (5) e mais dois itens. \n**Inadequado:** Não realiza o item (5) ou realiza e menciona apenas mais um item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Responde que o tratamento poderá ser feito com:**\n(1) Corticoides;\n(2) Imunoglobulina;\n(3) Transfusão de plaquetas;\n(4) Esplenectomia.\n\n**Adequado:** Verbaliza três ou mais itens.\n**Parcialmente adequado: **Verbaliza dois itens.\n**Inadequado:** Verbaliza um ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

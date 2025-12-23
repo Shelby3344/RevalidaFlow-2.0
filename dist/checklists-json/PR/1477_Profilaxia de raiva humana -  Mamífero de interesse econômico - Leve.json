@@ -1,0 +1,182 @@
+{
+  "uid": 1477,
+  "hash": "e168f2af649bc5faa0d9b7adeaf14764ab23dced15ca4847576dcf46a40fea76-1742259353",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Profilaxia de raiva humana -  Mamífero de interesse econômico - Leve",
+  "definicao": "A profilaxia da raiva humana é uma medida preventiva crítica após exposições de risco, como mordidas de animais potencialmente infectados. A decisão de iniciar a profilaxia depende de múltiplos fatores, incluindo o estado de saúde do animal envolvido e o histórico vacinal do paciente.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "56.00",
+    "star": 0,
+    "time": 530.5,
+    "count": 1199
+  },
+  "cenario": "Local de atuação\nUnidade Básica de Saúde.\n\nA unidade conta com a seguinte infraestrutura:\nSala de atenção médica,\nFarmácia com medicamentos fornecidos pelo SUS,\nSala de vacinas.\n\nDescrição do caso\nPaciente masculino de 30 anos, comparece a unidade buscando atenção médica devido uma mordida de seu animal de estimação.",
+  "tarefas": "-Realizar a anamnese dirigida à queixa principal do paciente;\n-Solicitar exame físico do membro afetado;\n-Verbalizar e explicar o diagnóstico;\n-Pactuar plano de cuidado com o paciente usando método clínico centrado na pessoa;\n-Avaliar a necessidade de adoção de outras medidas sanitárias.",
+  "script_ator": "**Nome:** João, 30 anos, empresário, solteiro.\n\n**Motivo de consulta:** Dr(a), hoje pela manhã meu porco de estimação \"Bacon\" que vive na minha casa, me mordeu durante uma brincadeira quando estava tentando dar um petisco para ele. \n\n**SOBRE A QUEIXA:**\n-**Tempo de evolução:** Tem uns 40 minutos que aconteceu.\n-**Local da mordida:** Aqui no meu braço direito.\n-**Profundidade:** É bem superficial, acho que nem deveria ter vindo.\n-**Quantidade:** Só uma.\n-**Evento semelhante:**  \"Bacon\" nunca mordeu ninguém. E nunca outro animal me mordeu.\n-**Procedência do animal:** Dr(a)  \"Bacon\" é como se fosse meu filho, ele vive comigo dentro de casa.\n-**Estado vacinal do animal:** Foi vacinado contra a raiva recentemente.\n-**Estado de saúde do animal:**  \"Bacon\" é super saudável, nega alterações.\n-**Contatos com outros animais:** Nega.\n-**Procedente de área de risco para Raiva:** Nega.\n-**Higienização do local:** Nega.\n\n**SINTOMAS ASSOCIADOS:**\n-**Dor no braço:** Pouco doloroso.\n-**Eritema, edema, rubor, calor:** Nega.\n-**Sangramento ou saída de secreção:** Nega.\n-**Febre:** Nega.\n-**Alteração visual:** Nega.\n-**Tonturas:** Nega.\n-**Náuseas ou vômitos:** Nega.\n-**Mal-estar:** Nega.\n-Não apresento outros sintomas.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS:**\n-**Comorbidades:**  Não tenho histórico de doenças crônicas.\n-**Medicações:** Nega.\n-**Alergias:** Nega.\n-**Cirurgia prévia:** Nega.\n-**Uso recente ou nos últimos 90 dias de antibiótico:** Nega.\n\n**HÁBITOS:**\n-**Tabagismo:** Nega.\n-**Etilismo:** Nega.\n-**Drogas ilícitas:** Nega.\n\n**CADERNETA DE VACINAÇÃO:** Eu não trouxe mais está em dia.\n**VACINA ANTITETÂNICA:** Está em dia também, por que tomei a 6 anos quando sofri um acidente com prego.\n**VACINA/SORO ANTIRRÁBICA:** Nunca tomei.\n\n**DÚVIDAS:**\n-**PERGUNTA 1:** Posso ter complicações?\n-**PERGUNTA 2:** Tem alguma orientação para casa?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Peso:** 78 Kg\n\n**Índice de Massa Corporal:** 24 kg/m²\n\n\n\n**Sinais Vitais**:\n\n**Pressão arterial:** 120/80 mmHg\n\n**Frequência cardíaca:** 72 batimentos por minuto\n\n**Frequência respiratória**: 16 irpm\n\n**Saturação de O2**: 99% AA\n\n**Temperatura axilar**: 36.8°C\n\n\n\n**Linfonodos**: Não palpáveis.\n\n**Aparelho Cardiovascular**: Ritmo cardíaco regular.\n\n**Aparelho Respiratório**: Murmúrio vesicular normal.\n\n**Abdome**: Normotenso e indolor à palpação.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1742264140.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia da Lesão",
+      "conteudo": "Olhe para a câmera e descreva a lesão.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta o paciente;\n(2) Identifica-se adequadamente;\n(3) Dirige-se ao paciente pelo nome durante a consulta.\n\n** Adequado:** Realiza as três ações.\n** Parcialmente adequado:** Realiza apenas duas ações.\n** Inadequado:** Realiza apenas uma ação ou nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Demostra empatia com o paciente:**\n(1) Estabelece contato visual; e\n(2) Mantém uma postura atenta e interessada ao longo da consulta.\n\n** Adequado:** Realiza as duas ações.\n** Parcialmente adequado:** Realiza apenas uma ação.\n** Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta ativamente a fala do paciente, sem interrompê-lo:**\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com o paciente simulada, evitando termos técnicos de difícil compreensão:**\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza a ação",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga:**\n(1)Tempo de evolução da mordida;\n(2) Locais de mordida;\n(3) Histórico de mordidas anteriores por esse animal;\n(4) Histórico de mordidas anteriores por outro animal;\n(5) Status vacinal do animal;\n(6) Características do animal (comportamento agressivo não habitual, se estava em estado de babação);\n(7) Contatos com outros animais;\n(8) Procedente de área de risco para Raiva.\n\n**Adequado:** Investiga os cinco ou mais itens de forma adequada.\n**Parcialmente adequado:** Investiga três ou quatro itens.\n**Inadequado:** Investiga um, dois ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6.**Investiga sobre antecedentes:**\n(1) Doenças;\n(2) Alergias;\n(3) Uso de medicações;\n(4) Uso recente de antibiótico;\n(5) Estado vacinal para tétano.\n\n**Adequado:** Investiga os cinco itens.\n**Parcialmente adequado:** Investiga quatro ou três itens.\n**Inadequado:** Investiga um, dois ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta sobre manifestações sistêmica:**\n(1) Febre;\n(2) Náuseas ou vômitos;\n(3) Dor no local;\n(4) Sinais flogísticos no local (rubor, calor, edema);\n(5) Tontura;\n(6) Mal-estar.\n\n**Adequado:** Pergunta os quatros ou mais itens.\n**Parcialmente adequado:** Pergunta dois ou três itens.\n**Inadequado:** Pergunta um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Descreve as características da ferida:**\n(1) Aguda OU recente OU há 40 minutos;\n(2) Membro superior direito;\n(3) Pouco extensa ou escoriação ou abrasão;\n(4) Única;\n(5) Superficial;\n(6) Sem sangramento.\n\n**Adequado:** Descreve os quatros ou mais itens.\n**Parcialmente adequado:** Descreve dois ou três itens.\n**Inadequado:** Descreve um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Avaliar a ferida ajuda a identificar possíveis sinais de infecção ou necessidade de intervenção médica."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza o Diagnóstico:**\n(1) Verbaliza mordedura por mamífero doméstico de interesse econômico;\n(2) Exposição Leve;\n(3) Explica o diagnóstico ao paciente.\n\n**Adequado:** Verbaliza os três  itens.\n**Inadequado:** Verbaliza um, dois ou nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Animais de produção e de interesse econômico sempre serão considerados como animais de risco, sem possibilidade de observação, pois, nesses animais, o período de incubação e transmissibilidade do vírus da Raiva ainda não é bem estabelecido como em cães e gatos."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza a necessidade de:**\n(1) Lavagem das mãos e uso dos equipamentos de proteção individual;\n(2) Higienização local com água e sabão.\n\n**Adequado:** Verbaliza os dois itens.\n**Inadequado:** Verbaliza um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Indica ou propõe a prescrição de:**\n(1) Vacina antirrábica;\n(2) 4 doses (Dose 0/ 3/ 7 /14);\n(3) Reforço da vacina antitetânica.\n\n**Adequado:** Indica os três itens.\n**Inadequado:** Indica um, dois ou nenhum item.\n\n**Obs.:** Se indicar Soro ou Imunoglobulina considerar inadequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza complicações:**\n(1) Raiva humana;\n(2) Tétano;\n(3) Osteomielite;\n(4) Infecções de pele.\n\n**Adequado:** Verbaliza dois ou mais itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Verbaliza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.45"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Notifica o caso:**\n**Adequado:** Notifica.\n**Inadequado:** Não notifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

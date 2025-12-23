@@ -1,0 +1,234 @@
+{
+  "uid": 1198,
+  "hash": "TwM0vPSbwCJPMV2-faZKobPH",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Doença Inflamatória Intestinal – Retocolite Ulcerativa",
+  "definicao": "As DII são distúrbios idiopáticos crônicos caracterizados pela inflamação do trato gastrointestinal, abarca a doença de Crohn e a Retocolite Ulcerativa.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "49.50",
+    "star": 0,
+    "time": 584.5,
+    "count": 6400
+  },
+  "cenario": "Nível de atenção: Atenção Terciária a saúde:\nTipo de atendimento: Emergência geral.\n\nA unidade consta com os seguintes recursos: \n- Laboratório para análises; \n- Serviço de radiografia convencional e ultrassonografia; \n- Tomografia computadorizada; \n- Serviço de endoscopia e colonoscopia; \n- Sala de internação; \n- Leitos de unidade intensiva. \n\n\nDescrição do caso: \n- Mulher de 38 anos de idade, queixando-se de dor abdominal e diarreia há 6 meses. \n\nAtenção! Caso julgue necessário realizar exame físico, verbalize! O paciente simulado não deverá ser tocado durante o atendimento*",
+  "tarefas": "Nos próximos 10 minutos de duração da estação você deverá realizar as seguintes tarefas:\n- Realizar anamnese direcionada ao motivo de consulta da paciente; \n- Solicitar e interpretar exame físico; \n- Solicitar e interpretar os exames complementares pertinentes; \n- Estabelecer e comunicar hipótese diagnóstica; \n- Verbalizar ao menos dois diagnósticos diferenciais; \n- Propor potencial conduta para a paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Me chamo ANA, tenho 38 anos, sou casada e administradora.\n\n**MOTIVO DE CONSULTA:**\n- Dr.(a), estou sentindo dor abdominal e estou com diarreia também.\n\n**SOBRE O MOTIVO DE CONSULTA (DOR)**\n**-Tempo de evolução:** Há 6 meses, mas senti que está pior há 2 meses.\n-**Localização:** Difusa.\n**-Irradiação:** Não irradia.\n**-Intensidade:** 7/10.\n**-Característica:** Uma dor tipo cólica.\n**-Fatores agravantes e atenuantes:** Nega.\n\n**SOBRE O MOTIVO DE CONSULTA (DIARREIA)**\n**-Tempo de evolução:** Há 6 meses, com piora há um mês.\n**-Número de evacuações:** Mais de 6 vezes por dia.\n**-Consistência:**  Bem líquida.\n**-Presença de sangue, muco ou pus:** Sim. Eu já vi sangue e muco, mas pus nunca observei.\n**-Presença de alimento não digerido:** Nega.\n**-Associação com a alimentação:** Não está associada com a alimentação.\n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n**-Tenesmo/sensação de defecação incompleta:** Sim.\n**-Astenia:** Sim.\n**-Perda de peso não intencional:** Sim. Perdi peso nestes últimos 6 meses. Não sei ao certo quanto perdi, mas acho que uns 5 kg aproximadamente.\n**Náuseas/Vômitos:** Nega.\n**Febre:** Nega.\n**Distensão Abdominal:** Nega.\n**Lesões em cavidade oral:** Nega.\n**Lesão em região anal:** Nega.\n**Manifestações articulares:** Nega.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS**\n**Comorbidades/doenças atuais:** Hipertensa há 7 anos.\n**Alergias:** Nega.\n**Medicamentos:** Tomo Losartana 50 mg a cada 12 horas.\n**Cirurgia prévia:** Nega.\n\n**ANTECEDENTES FAMILIARES:**\n**Pai:** Sem nenhum antecedente.\n**Mãe:** Minha mãe é hipertensa e diabética.\n\n**HÁBITOS**\n**Tabagismo:** Nega.\n**Drogas:** Nega.\n**Consumo de bebidas alcoólicas:** Nega.\n**Dieta:** Como bastante churrasco com gordura. Não gosto de verduras e frutas.\n**Atividade Física:** Nega.\n\n**APÓS O DIAGNÓSTICO, INDAGAR:**\n- Dr.(a), você acha que eu tenho isso mesmo? Mas ninguém na minha família tem isso, não é outra coisa?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico / Antropometria",
+      "conteudo": "**Sinais vitais:**\n\n**- Pressão arterial:** 130 x 85mmHg. \n\n**- Frequência cardíaca:** 74 batimentos por minuto. \n\n**- Saturação de O2:** 99%. AA \n\n**- Temperatura axilar:** 36,4°C. \n\n**- Frequência respiratória:** 16 incursões por minuto.\n\n\n\n**- IMC:** 23 kg/m2. \n\n\n\n**Ectoscopia Geral**\n\npaciente em regular estado geral, orientada em tempo, espaço e pessoa, emagrecida, hipocorada 2+/4+, desidratada 1+/4+, acianótica e anictérica. \n\n\n\n**Aparelho Cardiovascular**: ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Aparelho Respiratório**: ausculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados. \n\n\n\n**Aparelho Abdominal**: \n\n**- Inspeção: **abdome plano, sem abaulamentos, cicatrizes ou hérnias. Ausência de sinais de ascite. \n\n**- Auscultação:** ruídos hidroaéreos preservados. \n\n**- Percussão:** Timpânico. \n\n**- Palpação:** abdome flácido, normotenso e doloroso à palpação profunda difusamente. sem massa palpável.",
+      "imagem": "https://app.penserevalida.com/impressos/05/Colonoscopia.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Toque Retal",
+      "conteudo": "Tônus preservado, com presença de fezes na ampola retal.",
+      "imagem": "https://app.penserevalida.com/impressos/05/Colonoscopia.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n- **Hemoglobina**: 11,5 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n- **Hematócrito**: 38% (Valor de referência: 39 - 52%)\n\n- **VCM**: 75 fL (Valor de referência: 80 a 100 fL)\n\n- **HCM**: 24 pg (Valor de referência: 26 - 33 pg) \n\n- **CHCM**: 31 g/dl (Valor de referência: 30 - 34 g/dl)\n\n- **RDW**: 16% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 160.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucograma: **\n\n- Leucócitos: **13.237** mm3 (Valor de referencia: 4.000-10.000 mm3)\n\n- **Neutrófilos**: 65% (Valor de referência: 40 - 70%)\n\n- **Bastões**: 4% (Valor de referência: 0 - 3%)\n\n- **Linfócitos**: 25% (Valor de referência: 20 - 50%)\n\n- **Basófilos**: 1% (Valor de referência: 0 - 2%)\n\n- **Eosinófilos**: 2% (Valor de referência: 0 - 6%\n\n- **Monócitos**: 4% (Valor de referência: 4 - 8%)\n\n\n\n**PCR:** 2,5 mg/dl (Valor de referência: < 0,3 mg/dl). \n\n**VHS:** 35 mg/dl (Valor de referência: < 25 mm/1h). \n\n\n\n**Albumina sérica: **3,0 g/dL (Valor de referência 3,5 - 5,2 g/dL).",
+      "imagem": "https://app.penserevalida.com/impressos/05/Colonoscopia.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Marcadores Sorológicos",
+      "conteudo": "**P - ANCA: **Reagente. \n\n**ASCA:** Não Reagente.",
+      "imagem": "https://app.penserevalida.com/impressos/05/Colonoscopia.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "Parasitológico de Fezes em 3 amostras",
+      "conteudo": "- Ausência de parasitas.",
+      "imagem": "https://app.penserevalida.com/impressos/05/Colonoscopia.jpg"
+    },
+    {
+      "idx": 6,
+      "titulo": "Dosagem de Calprotectina nas fezes",
+      "conteudo": "- 270 mcg/g (Valor de referência: Normal: inferior a 50 mcg/g)",
+      "imagem": "https://app.penserevalida.com/impressos/05/Colonoscopia.jpg"
+    },
+    {
+      "idx": 7,
+      "titulo": "Colonoscopia com biópsia",
+      "conteudo": "- Presença de exsudato fibrinomucoide, ulcerações superficiais, erosões, mucosa atrófica em cólon , tranverso, descendente, sigmóide e reto de forma contínua, simétrica e ascendente.\n\n\n\n- Biópsia: Presença de distorções da arquitetura das criptas da mucosa, infiltrado neutrofílico e depleção de células caliciformes.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se; e\n(2) Cumprimenta a paciente simulada.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza uma ou não realiza ação\nalguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Parcialmente adequado:** Pergunta sobre três ou quatro iten**Pergunta sobre o motivo de consulta (dor)**\n(1) Tempo de evolução; \n(2) Localização;\n(3) Irradiação;\n(4) Características;\n(5) Intensidade; \n(6) Agravantes e/ou Atenuantes.\n\n**Adequado:** Pergunta sobre cinco ou seis itens.\n**Parcialmente adequado:** Pergunta três a quatro itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": "O quadro clínico típico se caracteriza por início insidioso/progressivo com a presença de dor abdominal, diarreia com sangue e/ou muco e tenesmo."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre o motivo de consulta (diarreia):**\n(1) Tempo de início;\n(2) Número de evacuações diárias;\n(3) Presença de sangue, muco e/ou pus;\n(4) Consistência;\n(5) Fatores de melhora ou piora/alimentação;\n(6) Presença de alimento não digerido.\n\n**Adequado:** Pergunta sobre os seis itens.\n**Parcialmente adequado:** Pergunta sobre quatro ou cinco itens.\n**Inadequado:** Pergunta sobre três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre sinais e sintomas associados: **\n(1) Náuseas/vômitos;\n(2) Astenia;\n(3) tenesmo;\n(4) Perda de peso;\n(5) Febre/Calafrios;\n(6) Distensão abdominal;\n(7) Lesões em cavidade oral/anal;\n(8) Manifestações articulares.\n\n**Adequado:** Pergunta sete ou oito itens.\n**Parcialmente adequado:** Pergunta cinco ou seis itens.\n**Inadequado:** Pergunta quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta sobre: **\n(1) Antecedentes pessoais/patológicos;\n(2) Antecedentes familiares.\n\n**Adequado:** Pergunta sobre os dois itens.\n**Parcialmente adequado:** Pergunta sobre um dos\nitens.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita: **\n(1) Exame físico geral e direcionado; \n(2) Toque retal.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames complementares laboratoriais:**\n(1) Hemograma; \n(2) PCR; \n(3) VHS;\n(4) ASCA e P -ANCA; e\n(5) Albumina Sérica.\n\n**Adequado:**  Solicita os cinco itens.\n**Parcialmente adequado:** Solicita pelo menos o\nhemograma, marcadores sorológicos e inflamatórios.\n**Inadequado:** Não solicita marcadores sorológicos.\nAtenção: O(A) participante só irá pontuar caso\ncite os cinco exames corretamente antes de\nreceber o impresso.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8.  **Interpreta os exames laboratoriais:** \n(1) Hemograma com leucocitose e anemia;\n(2) PCR aumentado;\n(3) VHS aumentado;\n(4) P-ANCA Reagente. \n\n**Adequado:** Interpreta os quatro itens. \n**Inadequado:** Não interpreta.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita parasitológico de fezes em 3 amostras.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Útil para descartar a presença de parasitas e avaliar os níveis de Calprotectina (reflete o grau de inflamação)."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita dosagem de calprotectina nas fezes**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.65"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11.  **Solicita colonoscopia com Biópsia.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.75"
+      },
+      "dica_teorica": "O achado colonoscópico mais típico é o acometimento da mucosa desde a margem anal, estendendo-se proximalmente de uma forma contínua e simétrica, com clara demarcação entre mucosas inflamada e normal."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Formula a hipótese diagnóstica de doença inflamatória intestinal (retocolite ulcerativa).**\n\n**Adequado:** Formula a hipótese de doença inflamatória intestinal devido a retocolite ulcerativa.\n**Parcialmente adequado:** Formula somente a hipótese de doença inflamatória intestinal. \n**Inadequado:** Não formula.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.625",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Menciona diagnósticos diferenciais **\n(1) Doença de Crohn; \n(2)  Câncer de colorretal;\n(3) Intolerância à Lactose; \n(4) Síndrome do Intestino Irritável;\n(5) Parasitose. \n\n**Adequado:** Menciona ao menos dois diagnósticos diferenciais. \n**Parcialmente adequado:** Menciona somente um diagnóstico diferencial.\n**Inadequado:** Não menciona.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Doença de Crohn x RCU1. Doença de Crohn- Localização:  boca-ânus.- Acomentimento: assimétrico e descontínuo. Inflamação transmural.- Sorologia:  ASCA positivo.- Lesões anais:  comuns.- Nefrolítiase e Cálculo biliar:  comuns.- Na colonoscopia: :  aspecto em pedra de calçamento (granulomas não caseoso) . Úlceras longitudinais e serpiginosas.   2. Retocolite Ulcerativa - Localização:  reto e cólon. - Acomentimento:  simétrico e contínuo desde o reto até o cólon ascendente. Inflamação confinada à mucosa.- Sorologia:  P-ANCA positivo.- Lesões anais:  raras.- Nefrolítiase e Cálculo biliar:  sem relação.- Na colonoscopia: : enantema difuso. Aspecto granular da mucosa. Pseudopólipos e ulceraçoes profundas. Abscesso de cripta (achado mais específico)."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Indica tratamento:** \n(1) Aminosalicilato OU 5-ASA OU Mesalazina.\n(2) Corticoide (prednisona)\n\n**Adequado:** Indica ambos os medicamentos.\n**Inadequado:** Não indica ou indica apenas um dos medicamentos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Pacientes com doença ativa classificada como moderada a grave devem ser tratados inicialmente com aminossalicilato e corticoide. Aqueles que não respondem completamente ao corticoide ou que não conseguem reduzir a dose da prednisona sem recorrência da doença podem beneficiar-se do uso de azatioprina. Os pacientes que apresentam falha terapêutica ao uso de azatioprina, sem critério para colite aguda grave e com indicação de internação devem ser tratados com infliximabe"
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Orienta o paciente:**\n(1) Mudanças na alimentação (dieta equilibrada, rica em fibras, vegetais, frutas, evitar carnes vermelhas gordurosas, carboidratos não absorvíveis e alimentos ultraprocessados);\n(2) Ingesta adequada de água. \n\n**Adequado:**  Orienta.\n**Inadequado:** Não orienta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

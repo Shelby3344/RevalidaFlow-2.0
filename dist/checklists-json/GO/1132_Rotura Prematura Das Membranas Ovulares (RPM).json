@@ -1,0 +1,226 @@
+{
+  "uid": 1132,
+  "hash": "bdHGEIgKjRPytCCYk9FckZth",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Rotura Prematura Das Membranas Ovulares (RPM)",
+  "definicao": "A rotura prematura de membranas (RPM) é definida como a saída  espontânea de líquido amniótico pela vagina, após a perda da integridade das  membranas ovulares, na ausência de sinais de trabalho de parto, em gestações  acima de 20 a 22 semanas. Ocorre em aproximadamente 10% de todas as  gestações, e 80% desses casos ocorrem no termo. Apesar disso, responde por  aproximadamente um terço de todos os partos pré-termos. Importante salientar  o conceito do chamado período de latência: é o tempo decorrido entre a rotura e  o início espontâneo do trabalho de parto",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "41.50",
+    "star": 0,
+    "time": 560.5,
+    "count": 6951
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Terciária.\nTipo de Atendimento: Urgência e Emergência.\n\nA unidade conta com a seguinte infraestrutura: \n- Sala de atenção médica; \n- Sala de Parto; \n- Sala de Pós- parto. \n\nDESCRIÇÃO DO CASO: \n-Jane, 30 anos, casada, gestante de 28 semanas, G3P2A0, busca atendimento médico por queixa obstétrica.",
+  "tarefas": "- Realizar o atendimento da paciente;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Solicitar exames complementares, se necessário;\n- Propor conduta terapêutica;\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Jane, 30 anos, casada, corretora de imóveis, 28 semanas, G3P2A0.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a) estou preocupada, estava na academia e comecei a fazer xixi na roupa, devido a gestação sinto muita vontade de ir no banheiro, mas dessa vez não senti vontade, só senti o lÍquido quente pela minha roupa, então achei melhor vir para saber se esta tudo bem comigo e o bebê.\n\n**MOTIVO DE CONSULTA:**\n**- Características do líquido:** Um líquido quente. \n**- Cheiro: **Não tinha cheiro de xixi. \n**- Cor do líquido:** É um pouco difícil saber porque estava de calcinha e calça preta. \n**- Saída do liquido:** Ainda esta saindo esse líquido na verdade, sinto minha calcinha molhada. \n\n**- Sintomas urinários:** Minha urina está normal e meu coco também.\n**- Corrimento vaginal:** Eu tenho candidíase de repetição e tem ficado mais frequente nessa gestação. \n\n**- Intercorrências na gestação:** Não, é a primeira coisa estranha que aconteceu na gestação. \n**- Rotura de prematura de membranas nas gestações prévias:** Não, não tive nenhum problemas nas minhas gestações anteriores. \n**- Há quanto tempo você percebe a saída de líquido?:** Não sei dizer exatamente. \n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças crônicas:** Sou super saudável, não tenho nenhuma doença. \n**- Uso crônico de medicações:** Estou tomando sulfato ferroso e vitamina D. \n**- Alergias:** Sou alérgica a pólen. \n**- Antecedentes familiares:** Minha mãe é diabética.\n\n**ANTECEDENTES GINECOOBSTÉTRICOS**:\n**- Idade gestacional:** Estou de 28 semanas.\n**- Gestas, partos e abortos:** G3P2A0.\n**- Caderneta da gestante e controle pré-natal:** Deixei a caderneta aqui na recepção, estou com todos os controles certinhos. \n\n**- Caso participante solicite exames laboratoriais:** Considerar solicitado.\n\n**DÚVIDAS:**\n-Eu preciso fazer algum exame para confirmar esse diagnóstico?\n- Queria saber pelo menos o nome de um exame para isso, você pode me informar ?\n- Quais medidas eu posso realizar para ajudar o meu bebê?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Pressão Arterial:** 120 X 80 mmHg\n\n**Frequência Cardíaca:** 90 bpm\n\n**Frequência Respiratória:**16 irpm\n\n**Saturação de O2:** 99% AA\n\n**Temperatura axilar:** 36.5°C\n\n\n\n**Altura uterina:** 28 cm.\n\n**BCF:** 120 bpm \n\n**Dinâmica uterina: **Ausente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame especular",
+      "conteudo": "Se observa saída de líquido proveniente do colo uterino em pouca quantidade ao realizar a Manobra de Valsalva.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Apresenta-se; e \n(2) Pergunta o nome da paciente.\n\n**Adequado**: Realiza as duas ações.\n**Inadequado:** Não realiza nenhuma das ações ou realiza apenas uma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga/Pergunta sobre a história reprodutiva:**\n(1) Gestações; \n(2) Partos; e \n(3) Abortos.\n\n**Adequado:** Investiga os três itens. \n**Inadequado:** Não investiga os três itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Interroga sobre:**\n(1) Seguimento do pré-natal; e \n(2) Solicita cartão/caderneta da gestante. \n\n**Adequado:** Realiza as duas tarefas. \n**Parcialmente adequado:** Realiza somente uma das tarefas.\n**Inadequado:** Não realiza nenhuma das tarefas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga motivo de consulta, perguntando ativamente por: **\n(1) Tempo de inÍcio do sintoma;\n(2) Característica;\n(3) Cor;\n(4) Cheiro;\n(5) Quantidade de lÍquido.\n\n**Adequado:** Pergunta os cinco itens.\n**Parcialmente adequado:** Pergunta de dois a quatro itens.\n**Inadequado:** Pergunta somente um item ou não pergunta nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga sintomas acompanhantes.**\n**Obs:** Serão considerados os seguintes itens: \n(1) Febre; \n(2) Sintomas urinários;\n(3) Corrimento vaginal;\n(4) Feridas genitais.\n\n**Adequado:** Pergunta os quatro itens.\n**Parcialmente adequado:** Pergunta dois ou três itens.\n**Inadequado:** Pergunta somente um item ou não pergunta nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga por:**\n(1) Doenças crônicas; \n(2) Uso crônico de medicação; \n(3) Alergias; \n(4) Antecedentes familiares.\n\n**Adequado:** Investiga os quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga somente um item ou não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. ** Verbaliza**:\n(1) Solicita permissão para realização do exame físico;\n(2) Verbaliza a necessidade de calçar luvas estéreis;\n(3) Solicita a presença de um auxiliar.\n\n**Adequado:** Realiza os três itens. \n**Parcialmente adequado:** Verbaliza somente o item 2. \n**Inadequado:** Não verbaliza o item 2.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza a necessidade de realizar o exame especular com Manobra de Valsalva. **\n\n**Adequado:** Verbaliza. \n**Inadequado:** Não verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": "Na grande maioria das vezes (85%), o diagnóstico é fundamentalmente clínico. Baseia-se na anamnese, no relato de perda de líquido em quantidade variada, mas frequentemente contínua, pelos genitais. O exame físico costuma confirmar o diagnóstico; a palpação obstétrica pode revelar sensação de pouco líquido, e deve-se buscar a visualização direta do líquido amniótico saindo pelo orifício externo do colo uterino no exame especular. Podem ser necessárias algumas manobras facilitadoras, como a mobilização cefálica e Valsalva"
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Diagnóstica corretamente a paciente simulada com Rotura prematura das membranas ovulares. **\n\n**Adequado:** Diagnóstica Rotura prematura das membranas ovulares ou Rotura de bolsa gestacional.\n**Inadequado:** Não diagnóstica Rotura prematura das membranas ovulares ou Rotura de bolsa gestacional.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Responde a paciente simulada que devido a visualização da saída de liquido não é necessário realizar outro exame. **\n\n**Adequado:** Responde a paciente simulada sobre a não necessidade de realizar outro exame. \n**Inadequado:** Não responde a paciente simulada sobre a não necessidade de realizar outro exame.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": "Nos casos de dúvida diagnóstica, podemos nos socorrer de alguns exames do conteúdo cervicovaginal, com destaque para a cristalização do muco cervical em lâmina e a medida do pH por meio de fitas. A utilização da ultrassonografia obstétrica pode ser muito útil; a observação de líquido amniótico em quantidades reduzidas, embora podendo estar presente em outras circunstâncias, indica amniorrexe.Atualmente, podemos melhorar a acurácia diagnóstica por meio de testes imunocromáticos que visam detectar proteínas específicas do líquido amniótico na secreção coletada no meio vaginal. A literatura estabelece valores muito bons de sensibilidade e especificidade relacionados a esses testes, porém são considerados de custo elevado e quase nunca disponíveis na prática diária"
+    },
+    {
+      "idx": 11,
+      "descricao": "11.** Informa a paciente simulada sobre o Teste da cristalização do muco cervical em lâmina ou Teste da Lanetta ou Determinação do PH vaginal pelo papel de Nitrazina ou Teste do fenol vermelho. **\n\n**Adequado:** Informa. \n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12.** Solicita internação da paciente. **\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Solicita exame laboratorial para avaliar fatores de risco e complicações associadas:**\n(1) Urina tipo I;\n(2) Urocultura; \n(3) Hemograma; \n(4) Proteína C reativa; \n(5) Pesquisa de estreptococo do grupo B. \n\n**Adequado:** Solicita  quatro ou cinco exames. \n**Parcialmente adequado:** Solicita  dois ou três exames. \n**Inadequado:** Solicita somente um exame ou não solicita nenhum exame.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Responde a paciente recomendando:**\n(1) Repouso relativo; \n(2) Hidratação via oral generosa (mínimo de 2,5 L ao dia). \n\n**Adequado:** Recomenda ao menos um item. \n**Inadequado:** Não recomenda nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Prescreve:**\nCorticoterapia antenatal: ciclo único de betametasona (12 mg intramusculares a cada 24 horas, por 2 dias) ou dexametasona (6 mg intramusculares a cada 12 horas, por 2 dias). \n\n**Adequado:** Prescreve corticoterapia informando o nome da medicação, dose e tempo de administração do medicamento. \n**Parcialmente adequado:** Somente prescreve corticoterapia. \n**Inadequado:** Não prescreve corticoterapia.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Prescreve: **\nAntibióticos: AMPICILINA por via endovenosa, 2 g a cada 6h durante 48 horas e logo AMOXICILINA por via oral, 500 mg a cada 8h, por mais cinco dias, associada à dose única de AZITROMICINA. \n\n**Adequado:** Prescreve antibiótico informando nome da medicação, via de administração, dose e tempo de uso. \n**Parcialmente adequado:** Somente prescreve antibiótico. \n**Inadequado:** Não prescreve antibiótico.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.4"
+      },
+      "dica_teorica": "Antibióticos: embora seu emprego não seja unânime entre os serviços, recomenda-se sua ministração com o objetivo de prevenir a doença neonatal pelo estreptococo do grupo B;"
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Realiza as tarefas na ordem solicitada. **\n\n**Adequado: **Realiza. \n**Inadequado: **Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

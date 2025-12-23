@@ -3,7 +3,7 @@ import { useState, useCallback, useRef, useEffect } from 'react';
 export interface UseVoiceChatOptions {
   apiKey?: string;
   voice?: 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer';
-  silenceTimeout?: number; // ms de silêncio para enviar automaticamente
+  silenceTimeout?: number;
   onTranscript?: (text: string, isFinal: boolean) => void;
   onSilenceDetected?: () => void;
   onAudioStart?: () => void;
@@ -17,7 +17,7 @@ export interface UseVoiceChatReturn {
   stopConversation: () => void;
   isConversationActive: boolean;
   
-  // Manual recording
+  // Manual recording (push-to-talk)
   startRecording: () => Promise<void>;
   stopRecording: () => Promise<string | null>;
   isRecording: boolean;
@@ -41,7 +41,7 @@ export interface UseVoiceChatReturn {
 export function useVoiceChat({
   apiKey,
   voice = 'nova',
-  silenceTimeout = 1500, // 1.5 segundos de silêncio para enviar
+  silenceTimeout = 2000,
   onTranscript,
   onSilenceDetected,
   onAudioStart,
@@ -64,206 +64,37 @@ export function useVoiceChat({
   const audioChunksRef = useRef<Blob[]>([]);
   const streamRef = useRef<MediaStream | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const recognitionRef = useRef<SpeechRecognition | null>(null);
   const synthRef = useRef<SpeechSynthesis | null>(null);
+  const isConversationActiveRef = useRef<boolean>(false);
+  const isSpeakingRef = useRef<boolean>(false);
   const silenceTimerRef = useRef<NodeJS.Timeout | null>(null);
-  const lastSpeechTimeRef = useRef<number>(0);
-  const accumulatedTranscriptRef = useRef<string>('');
-
-  // Clear silence timer
-  const clearSilenceTimer = useCallback(() => {
-    if (silenceTimerRef.current) {
-      clearTimeout(silenceTimerRef.current);
-      silenceTimerRef.current = null;
-    }
-  }, []);
-
-  // Reset silence timer (called when speech is detected)
-  const resetSilenceTimer = useCallback(() => {
-    clearSilenceTimer();
-    lastSpeechTimeRef.current = Date.now();
-    
-    silenceTimerRef.current = setTimeout(() => {
-      // Silêncio detectado - enviar transcrição acumulada
-      const transcript = accumulatedTranscriptRef.current.trim();
-      if (transcript) {
-        setFinalTranscript(transcript);
-        onTranscript?.(transcript, true);
-        onSilenceDetected?.();
-        accumulatedTranscriptRef.current = '';
-        setInterimTranscript('');
-      }
-    }, silenceTimeout);
-  }, [silenceTimeout, clearSilenceTimer, onTranscript, onSilenceDetected]);
+  const audioContextRef = useRef<AudioContext | null>(null);
+  const analyserRef = useRef<AnalyserNode | null>(null);
+  const silenceStartRef = useRef<number>(0);
 
   // Check permission on mount
   useEffect(() => {
     navigator.mediaDevices.getUserMedia({ audio: true })
       .then(() => setHasPermission(true))
       .catch(() => setHasPermission(false));
-  }, []);
-
-  // Initialize Web Speech API for real-time recognition
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
-      if (SpeechRecognitionAPI) {
-        const recognition = new SpeechRecognitionAPI();
-        recognition.continuous = true;
-        recognition.interimResults = true;
-        recognition.lang = 'pt-BR';
-        // @ts-expect-error - maxAlternatives exists but not in types
-        recognition.maxAlternatives = 1;
-
-        recognition.onresult = (event) => {
-          let interim = '';
-          let final = '';
-
-          for (let i = event.resultIndex; i < event.results.length; i++) {
-            const transcript = event.results[i][0].transcript;
-            if (event.results[i].isFinal) {
-              final += transcript;
-            } else {
-              interim += transcript;
-            }
-          }
-
-          // Atualizar transcrição
-          if (final) {
-            accumulatedTranscriptRef.current += ' ' + final;
-            setInterimTranscript('');
-            onTranscript?.(final, false);
-          }
-          
-          if (interim) {
-            setInterimTranscript(interim);
-          }
-
-          // Reset timer de silêncio quando detecta fala
-          if (final || interim) {
-            resetSilenceTimer();
-          }
-        };
-
-        // @ts-expect-error - onspeechstart exists but not in types
-        recognition.onspeechstart = () => {
-          setIsListening(true);
-          resetSilenceTimer();
-        };
-
-        // @ts-expect-error - onspeechend exists but not in types
-        recognition.onspeechend = () => {
-          // Não parar imediatamente, deixar o timer de silêncio decidir
-        };
-
-        recognition.onerror = (event) => {
-          console.error('Speech recognition error:', event.error);
-          if (event.error === 'not-allowed') {
-            setError('Microfone não permitido');
-            onError?.('Microfone não permitido');
-            setIsConversationActive(false);
-          } else if (event.error === 'no-speech') {
-            // Ignorar erro de "no speech" - é normal
-          } else if (event.error !== 'aborted') {
-            // Tentar reiniciar se não foi abortado manualmente
-            if (isConversationActive) {
-              try {
-                recognition.start();
-              } catch {
-                // Ignorar erro se já estiver rodando
-              }
-            }
-          }
-        };
-
-        recognition.onend = () => {
-          setIsListening(false);
-          // Reiniciar automaticamente se conversa ainda está ativa
-          if (isConversationActive && !isSpeaking) {
-            try {
-              recognition.start();
-              setIsListening(true);
-            } catch {
-              // Ignorar erro se já estiver rodando
-            }
-          }
-        };
-
-        recognitionRef.current = recognition;
-      }
-
-      synthRef.current = window.speechSynthesis;
-    }
-
+    
+    synthRef.current = window.speechSynthesis;
+    
     return () => {
-      clearSilenceTimer();
-      recognitionRef.current?.abort();
-      synthRef.current?.cancel();
-    };
-  }, [isConversationActive, isSpeaking, resetSilenceTimer, clearSilenceTimer, onTranscript, onError]);
-
-  // Cleanup on unmount
-  useEffect(() => {
-    return () => {
-      clearSilenceTimer();
       if (streamRef.current) {
         streamRef.current.getTracks().forEach(track => track.stop());
       }
       if (audioRef.current) {
         audioRef.current.pause();
-        audioRef.current = null;
+      }
+      if (audioContextRef.current) {
+        audioContextRef.current.close();
       }
     };
-  }, [clearSilenceTimer]);
+  }, []);
 
-  // Start conversation mode (continuous listening with auto-send)
-  const startConversation = useCallback(async () => {
-    setError(null);
-    accumulatedTranscriptRef.current = '';
-    setInterimTranscript('');
-    setFinalTranscript('');
-
-    if (!recognitionRef.current) {
-      setError('Reconhecimento de voz não suportado');
-      onError?.('Reconhecimento de voz não suportado');
-      return;
-    }
-
-    try {
-      // Verificar permissão do microfone
-      await navigator.mediaDevices.getUserMedia({ audio: true });
-      setHasPermission(true);
-
-      recognitionRef.current.start();
-      setIsConversationActive(true);
-      setIsListening(true);
-    } catch (err) {
-      const errorMsg = err instanceof Error ? err.message : 'Erro ao acessar microfone';
-      setError(errorMsg);
-      onError?.(errorMsg);
-      setHasPermission(false);
-    }
-  }, [onError]);
-
-  // Stop conversation mode
-  const stopConversation = useCallback(() => {
-    clearSilenceTimer();
-    recognitionRef.current?.stop();
-    setIsConversationActive(false);
-    setIsListening(false);
-    
-    // Enviar qualquer transcrição pendente
-    const transcript = accumulatedTranscriptRef.current.trim();
-    if (transcript) {
-      setFinalTranscript(transcript);
-      onTranscript?.(transcript, true);
-    }
-    accumulatedTranscriptRef.current = '';
-    setInterimTranscript('');
-  }, [clearSilenceTimer, onTranscript]);
-
-  // Transcribe audio using OpenAI Whisper (for manual recording)
-  const transcribeAudio = useCallback(async (audioBlob: Blob): Promise<string> => {
+  // Transcribe audio using OpenAI Whisper
+  const transcribeWithWhisper = useCallback(async (audioBlob: Blob): Promise<string> => {
     if (!apiKey) {
       throw new Error('API Key não configurada');
     }
@@ -290,15 +121,207 @@ export function useVoiceChat({
     return data.text;
   }, [apiKey]);
 
-  // Start manual recording (for Whisper)
+  // Detect silence using audio levels
+  const checkAudioLevel = useCallback(() => {
+    if (!analyserRef.current || !isConversationActiveRef.current) return;
+    
+    const dataArray = new Uint8Array(analyserRef.current.frequencyBinCount);
+    analyserRef.current.getByteFrequencyData(dataArray);
+    
+    // Calculate average volume
+    const average = dataArray.reduce((a, b) => a + b, 0) / dataArray.length;
+    
+    // Threshold for silence (adjust as needed)
+    const silenceThreshold = 10;
+    
+    if (average < silenceThreshold) {
+      // Silence detected
+      if (silenceStartRef.current === 0) {
+        silenceStartRef.current = Date.now();
+      } else if (Date.now() - silenceStartRef.current > silenceTimeout) {
+        // Silence for too long - stop and transcribe
+        if (audioChunksRef.current.length > 0) {
+          stopConversationAndTranscribe();
+        }
+      }
+    } else {
+      // Sound detected - reset silence timer
+      silenceStartRef.current = 0;
+      setInterimTranscript('Ouvindo...');
+    }
+  }, [silenceTimeout]);
+
+  // Stop conversation and transcribe
+  const stopConversationAndTranscribe = useCallback(async () => {
+    if (!mediaRecorderRef.current || mediaRecorderRef.current.state === 'inactive') {
+      return;
+    }
+
+    return new Promise<void>((resolve) => {
+      const mediaRecorder = mediaRecorderRef.current!;
+
+      mediaRecorder.onstop = async () => {
+        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+        audioChunksRef.current = [];
+
+        if (audioBlob.size < 1000) {
+          // Too short, restart listening
+          if (isConversationActiveRef.current && !isSpeakingRef.current) {
+            startRecordingInternal();
+          }
+          resolve();
+          return;
+        }
+
+        setIsListening(false);
+        setInterimTranscript('Transcrevendo...');
+        setIsProcessing(true);
+
+        try {
+          if (apiKey) {
+            const transcript = await transcribeWithWhisper(audioBlob);
+            if (transcript.trim()) {
+              setFinalTranscript(transcript);
+              setInterimTranscript('');
+              onTranscript?.(transcript, true);
+              onSilenceDetected?.();
+            }
+          }
+        } catch (err) {
+          const errorMsg = err instanceof Error ? err.message : 'Erro na transcrição';
+          setError(errorMsg);
+          onError?.(errorMsg);
+        } finally {
+          setIsProcessing(false);
+          setInterimTranscript('');
+          
+          // Restart listening after transcription (if not speaking)
+          if (isConversationActiveRef.current && !isSpeakingRef.current) {
+            setTimeout(() => {
+              if (isConversationActiveRef.current && !isSpeakingRef.current) {
+                startRecordingInternal();
+              }
+            }, 500);
+          }
+        }
+        resolve();
+      };
+
+      mediaRecorder.stop();
+    });
+  }, [apiKey, transcribeWithWhisper, onTranscript, onSilenceDetected, onError]);
+
+  // Internal start recording
+  const startRecordingInternal = useCallback(async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ 
+        audio: {
+          echoCancellation: true,
+          noiseSuppression: true,
+          autoGainControl: true,
+        }
+      });
+      
+      streamRef.current = stream;
+      setHasPermission(true);
+
+      // Setup audio analysis for silence detection
+      audioContextRef.current = new AudioContext();
+      const source = audioContextRef.current.createMediaStreamSource(stream);
+      analyserRef.current = audioContextRef.current.createAnalyser();
+      analyserRef.current.fftSize = 256;
+      source.connect(analyserRef.current);
+
+      const mediaRecorder = new MediaRecorder(stream, {
+        mimeType: MediaRecorder.isTypeSupported('audio/webm;codecs=opus') 
+          ? 'audio/webm;codecs=opus' 
+          : 'audio/webm'
+      });
+
+      audioChunksRef.current = [];
+      silenceStartRef.current = 0;
+
+      mediaRecorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          audioChunksRef.current.push(event.data);
+        }
+      };
+
+      mediaRecorderRef.current = mediaRecorder;
+      mediaRecorder.start(100);
+      setIsListening(true);
+      setInterimTranscript('Ouvindo...');
+
+      // Start silence detection loop
+      const checkLoop = () => {
+        if (isConversationActiveRef.current && mediaRecorderRef.current?.state === 'recording') {
+          checkAudioLevel();
+          silenceTimerRef.current = setTimeout(checkLoop, 100);
+        }
+      };
+      checkLoop();
+
+    } catch (err) {
+      const errorMsg = err instanceof Error ? err.message : 'Erro ao acessar microfone';
+      setError(errorMsg);
+      onError?.(errorMsg);
+      setHasPermission(false);
+    }
+  }, [checkAudioLevel, onError]);
+
+  // Start conversation mode
+  const startConversation = useCallback(async () => {
+    setError(null);
+    setInterimTranscript('');
+    setFinalTranscript('');
+
+    if (!apiKey) {
+      setError('API Key necessária para transcrição');
+      onError?.('Configure a API Key da OpenAI nas configurações para usar o reconhecimento de voz.');
+      return;
+    }
+
+    isConversationActiveRef.current = true;
+    setIsConversationActive(true);
+    
+    await startRecordingInternal();
+  }, [apiKey, startRecordingInternal, onError]);
+
+  // Stop conversation mode
+  const stopConversation = useCallback(() => {
+    isConversationActiveRef.current = false;
+    setIsConversationActive(false);
+    
+    if (silenceTimerRef.current) {
+      clearTimeout(silenceTimerRef.current);
+      silenceTimerRef.current = null;
+    }
+    
+    if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+      mediaRecorderRef.current.stop();
+    }
+    
+    if (streamRef.current) {
+      streamRef.current.getTracks().forEach(track => track.stop());
+      streamRef.current = null;
+    }
+    
+    if (audioContextRef.current) {
+      audioContextRef.current.close();
+      audioContextRef.current = null;
+    }
+    
+    setIsListening(false);
+    setInterimTranscript('');
+  }, []);
+
+  // Manual recording (push-to-talk)
   const startRecording = useCallback(async () => {
     setError(null);
 
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ 
         audio: {
-          sampleRate: 16000,
-          channelCount: 1,
           echoCancellation: true,
           noiseSuppression: true,
         }
@@ -324,6 +347,7 @@ export function useVoiceChat({
       mediaRecorderRef.current = mediaRecorder;
       mediaRecorder.start(100);
       setIsRecording(true);
+      setInterimTranscript('Gravando...');
     } catch (err) {
       const errorMsg = err instanceof Error ? err.message : 'Erro ao acessar microfone';
       setError(errorMsg);
@@ -332,7 +356,7 @@ export function useVoiceChat({
     }
   }, [onError]);
 
-  // Stop manual recording and get transcript
+  // Stop manual recording
   const stopRecording = useCallback(async (): Promise<string | null> => {
     if (!mediaRecorderRef.current || mediaRecorderRef.current.state === 'inactive') {
       setIsRecording(false);
@@ -353,14 +377,17 @@ export function useVoiceChat({
 
         if (audioBlob.size < 1000) {
           setIsRecording(false);
+          setInterimTranscript('');
           resolve(null);
           return;
         }
 
         if (apiKey) {
           setIsProcessing(true);
+          setInterimTranscript('Transcrevendo...');
           try {
-            const transcript = await transcribeAudio(audioBlob);
+            const transcript = await transcribeWithWhisper(audioBlob);
+            setInterimTranscript('');
             onTranscript?.(transcript, true);
             resolve(transcript);
           } catch (err) {
@@ -371,16 +398,18 @@ export function useVoiceChat({
           } finally {
             setIsProcessing(false);
             setIsRecording(false);
+            setInterimTranscript('');
           }
         } else {
           setIsRecording(false);
+          setInterimTranscript('');
           resolve(null);
         }
       };
 
       mediaRecorder.stop();
     });
-  }, [apiKey, transcribeAudio, onTranscript, onError]);
+  }, [apiKey, transcribeWithWhisper, onTranscript, onError]);
 
   // Speak text using TTS
   const speak = useCallback(async (text: string) => {
@@ -389,9 +418,18 @@ export function useVoiceChat({
     const cleanText = text.replace(/\*[^*]+\*/g, '').trim();
     if (!cleanText) return;
 
-    // Pausar reconhecimento enquanto fala (evitar feedback)
-    if (isConversationActive && recognitionRef.current) {
-      recognitionRef.current.stop();
+    // Pause recording while speaking
+    if (isConversationActiveRef.current) {
+      if (silenceTimerRef.current) {
+        clearTimeout(silenceTimerRef.current);
+      }
+      if (mediaRecorderRef.current && mediaRecorderRef.current.state === 'recording') {
+        mediaRecorderRef.current.stop();
+      }
+      if (streamRef.current) {
+        streamRef.current.getTracks().forEach(track => track.stop());
+        streamRef.current = null;
+      }
       setIsListening(false);
     }
 
@@ -402,21 +440,20 @@ export function useVoiceChat({
     }
     synthRef.current?.cancel();
 
+    isSpeakingRef.current = true;
+
     const resumeListening = () => {
-      // Retomar reconhecimento após falar
-      if (isConversationActive && recognitionRef.current) {
+      isSpeakingRef.current = false;
+      if (isConversationActiveRef.current) {
         setTimeout(() => {
-          try {
-            recognitionRef.current?.start();
-            setIsListening(true);
-          } catch {
-            // Ignorar erro se já estiver rodando
+          if (isConversationActiveRef.current && !isSpeakingRef.current) {
+            startRecordingInternal();
           }
-        }, 300);
+        }, 500);
       }
     };
 
-    // If using OpenAI TTS (with API key)
+    // Use OpenAI TTS if API key available
     if (apiKey) {
       setIsProcessing(true);
       onAudioStart?.();
@@ -465,6 +502,7 @@ export function useVoiceChat({
         await audioRef.current.play();
       } catch (err) {
         setIsProcessing(false);
+        isSpeakingRef.current = false;
         const errorMsg = err instanceof Error ? err.message : 'Erro ao sintetizar áudio';
         setError(errorMsg);
         onError?.(errorMsg);
@@ -506,7 +544,7 @@ export function useVoiceChat({
 
       synthRef.current.speak(utterance);
     }
-  }, [apiKey, voice, isConversationActive, onAudioStart, onAudioEnd, onError]);
+  }, [apiKey, voice, startRecordingInternal, onAudioStart, onAudioEnd, onError]);
 
   // Stop speaking
   const stopSpeaking = useCallback(() => {
@@ -517,6 +555,7 @@ export function useVoiceChat({
     }
     synthRef.current?.cancel();
     setIsSpeaking(false);
+    isSpeakingRef.current = false;
     onAudioEnd?.();
   }, [onAudioEnd]);
 

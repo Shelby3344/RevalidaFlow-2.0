@@ -1,0 +1,222 @@
+{
+  "uid": 1508,
+  "hash": "4b6e2da6091263852f5d18af92e8103500f9c06793432d0d64bfe7fa4f5dc02c-1744847232",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Esporotricose Linfocutânea Humana",
+  "definicao": "A esporotricose é uma micose subcutânea causada pelo fungo Sporothrix schenckii, encontrado no solo, vegetais e animais. A doença afeta a pele, tecido subcutâneo e, em casos raros, pode se disseminar para outros órgãos.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "56.00",
+    "star": 0,
+    "time": 583,
+    "count": 3259
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial.\n- Unidade básica de saúde (UBS).\n\n A unidade apresenta a seguinte infraestrutura:\n- Consultório médico, salas de procedimentos e observação;\n- Laboratório de análises clínicas. \n\nDESCRIÇÃO DO CASO\nVocê é médico(a) em uma UBS e atenderá uma mulher com 40 anos de idade, com consulta agendada, com queixa de uma lesão no dedo.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar a anamnese dirigida à queixa principal da paciente;\n - Verbalizar e explicar o diagnóstico clínico-epidemiológico;\n - Pactuar plano de cuidado com a paciente usando método clínico centrado na pessoa;\n- Avaliar a necessidade de adoção de outras medidas sanitárias",
+  "script_ator": "**DADOS PESSOAIS:**\n-Rebeca,  40 anos, casada,  do lar, procedente do interior de Minas Gerais.\n\n**MOTIVO DE CONSULTA:** \n-Vim porque apareceu uma ferida no meu dedo.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n-**Tempo de evolução:** Apareceu há 1 mês aproximadamente, será que é câncer Dr(a)?\n-**Localização:** No meu dedo indicador da mão direita.\n-**Quantidade:** É uma única ferida.\n-**Cor:** Rosada.\n-**Prurido:** Sim.\n-**Presença de dor:** Sim.\n-**Saída de secreção/descamação:** Nega.\n-**Presença de sangramento:** Nega.\n-**Calor/mudança da temperatura:** Nega.\n-**Progressão:** Agora, além da ferida no dedo que não melhora, também apresento uns caroços no antebraço direito.\n-**Uso de medicação/fatores de melhora ou piora:** Eu mesma fui na farmácia e comprei uma pomada e estou passando na ferida e também estou passando um chá que a minha mãe indicou, até já fizeram benzedeira aqui, mas nada resolveu.\n-**Episódios prévios:**  Nega.\n\n**FATORES DESENCADEANTES:**\n-**Trauma:** Eu acho que essa lesão apareceu depois que furei meu dedo com um pedaço de madeira do quintal da minha casa.\n-**Contato com produto químico, inseto ou bicho:**  Na minha casa tem gatos e cachorros.\n-**Contato com gatos ou cachorros doentes/com feridas:** Tem um gato que está com feridas no nariz e boca. \n-**Lesões em pessoas que vivem na mesma residência:** Não que eu saiba Dr(a).\n\n**SINAIS E SINTOMAS ASSOCIADOS:**\n-**Mal- estar geral:** Nega.\n-**Náuseas:** Nega.\n-**Vômitos:** Nega.\n-**Febre:** Nega.\n-**Mialgia/artralgia:** Nega.\n-**Tosse/Dispneia**: Nega.\n-**Perda de peso não intencional:** Nega\n-**Astenia:** Nega.\n-**Anorexia:** Nega.\n-**Catarse e/ou eliminação de flatos/fezes:** Não observei alterações nas fezes. Elimino gases normalmente.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n-**Comorbidades/doenças atuais:** Não tenho problemas de saúde.\n-**Alergias:** Nega.\n-**Cirurgia prévia:** Nega.\n-**Medicamento:** Nega.\n-**Situação vacinal:**  Calendário de vacinas em dia.\n-**Doenças em familiares:** Toda a minha família é bem saudável.\n-**Condições da moradia:** Moro em uma casa grande com um quintalzão e tenho uma plantação de hortaliças.\n\n**HÁBITOS**:\n-**Tabagismo**: Nega\n-**Etilismo**: Nega\n-**Drogas ilícitas**: Nega\n-**Dieta:** Variada.\n\n**DÚVIDAS:**\n**PERGUNTA 1:**  Você tem certeza Dr(a) do diagnóstico, não poderia ser outra coisa? \n**PERGUNTA 2:**  Porque eu peguei isso?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- Pressão arterial: 120x80 mmHg\n\n- Frequência cardíaca: 80 batimentos por minuto\n\n- Frequência respiratória: 16 incursões por minuto\n\n- Saturação de O2: 99%\n\n- Temperatura axilar: 36.4° C\n\n\n\n-Abdome normotenso e indolor à palpação.\n\n\n\n-Ausculta cardíaca e respiratória inalteradas.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1744852955.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia da Ferida",
+      "conteudo": "Verbalize os achados.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1744853147.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Ectoscopia dos nódulos",
+      "conteudo": "Nódulos subcutâneos, indolores, de tamanho variado (1 a 2 cm de diâmetro), com pele suprajacente sã, eritematosa, localizados no dorso da mão direita e face dorsal do antebraço direito (até o terço médio), em disposição linear, formando um cordão ascendente, no trajeto da drenagem linfática.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n- Hemácias: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n- Hemoglobina: 14,2 g/dl (Valor de referência: 14 a 18 g/dl)\n\n- Hematócrito: 34% (Valor de referência: 39 - 52%)\n\n- VCM: 93 fL (Valor de referência: 80 a 100 fL)\n\n- HCM: 31 pg (Valor de referência: 26 - 33 pg)\n\n- CHCM: 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n- RDW CV: 12% (Valor de referência: 11 - 14%)\n\n\n\nPlaquetas: 179.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\nLeucograma:\n\n- Leucócitos: 9.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n- Neutrófilos: 65% (Valor de referência: 40 - 70%)\n\n- Bastões: 3% (Valor de referência: 0 - 5%)\n\n- Linfócitos: 25% (Valor de referência: 20 - 50%)\n\n- Basófilos: 1% (Valor de referência: 0 - 2%)\n\n- Eosinófilos: 2% (Valor de referência: 0 - 6%)\n\n- Monócitos: 4% (Valor de referência: 4 - 8%)\n\n\n\n**Proteína C reativa:** 1 mg/dl (Valores de referência: < 0,3 mg/dl)\n\n\n\n**Função renal:**\n\nCreatinina: 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\nUreia: 32 mg/dl (Valor de referência: < 40 mg/dl)\n\n\n\n**Ionograma plasmático:**\n\nSódio: 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\nK: 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\nCálcio: 9 mg/dl (Valor de referência: 8,7 - 10,2 mg/dl)\n\nMagnésio: 2 mg/dl (Valor de referência: 1,5 - 2,3 mg/dl)\n\nFósforo: 4,2 mg/dl (Valor de referência: 2,5 - 5 mg/dl)\n\n\n\n**Hepatograma:**\n\nTGO: 22 U/l (Valor de referência: 15 – 40 U/l)\n\nTGP: 15 U/l (Valor de referência: 10 – 40 U/l)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Cultura e Biópsia da lesão",
+      "conteudo": "Cultura da lesão: em análise.\n\nBiópsia da lesão: em análise.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) Cumprimenta a paciente simulada; \n(2) Identifica-se; e, \n(3) Dirige-se a ela pelo nome, pelo menos uma vez. \n\n**Adequado:** Realiza os três itens. \n**Parcialmente adequado:** Realiza dois itens. \n**Inadequado**: Realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Demonstra empatia com a paciente:** \n(1) Estabelece contato visual; e, \n(2) Mantém postura atenta e interessada ao longo da consulta. \n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta ativamente a fala da paciente, sem interrompê-la.**\n\n**Adequado:** Realiza a ação. \n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão.** \n\n**Adequado:** Utiliza linguagem acessível. \n**Inadequado:** Não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta sobre o contexto sócio-epidemiológico da paciente simulada e fatores desencadeantes:**\n(1) Presença de animais no domicílio e no peridomicílio;\n(2) Existência de coabitantes e vizinhos com lesão semelhante; e,\n(3) Viagem recente OU traumas OU contatos com insetos.\n\n**Adequado:** Pergunta os três itens.\n**Parcialmente adequado:** Pergunta um ou dois itens.\n**Inadequado:** Não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre as características da lesão:**\n(1) Tempo desde o início do quadro;\n(2) Localização;\n(3) Quantidade;\n(4) Presença de dor;\n(5) Presença de prurido;\n(6) Saída de secreção/sangue; \n(7) Presença de descamação;\n(8) Cor; e,\n(9) Episódios prévios.\n\n**Adequado:** Pergunta sete ou mais itens.\n**Parcialmente adequado:** Pergunta cinco ou seis itens.\n**Inadequado:** Pergunta quatro ou menos itens ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta sobre:**\n(1) Fatores de melhora; e, \n(2) Fatores de piora. \n\n**Adequado:** Pergunta os dois itens. \n**Parcialmente adequado:** Pergunta apenas um item.\n**Inadequado:** Não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Pergunta sobre as características das manifestações locais:**\n(1) Evolução da lesão cutânea desde o início do quadro; \n(2) Linfadenopatia; e,\n(3) Sinais flogísticos (dor, rubor, calor, edema).\n\n**Adequada:** Pergunta dois ou mais itens.\n**Parcialmente adequado:** Pergunta um item.\n**Inadequado:** Não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Pergunta sobre manifestações sistêmicas:**\n(1) Febre;\n(2) Perda de peso;\n(3) Mialgia OU Artralgia;\n(4) Astenia OU Anorexia; e,\n(5) Tosse OU Dispneia.\n\n**Adequado:** Pergunta quatro ou mais itens.\n**Parcialmente adequado:** Pergunta três itens.\n**Inadequado:** Pergunta um ou dois itens ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "As principais formas clínicas da doença são as seguintes: Esporotricose cutânea: caracteriza-se por uma ou múltiplas lesões, localizadas principalmente nas mãos e braços; Esporotricose linfocutânea: é a forma clínica mais frequente; são formados pequenos nódulos, localizados na camada da pele mais profunda, seguindo o trajeto do sistema linfático da região corporal afetada. A localização preferencial é nos membros; Esporotricose extracutânea: quando a doença se espalha para outros locais do corpo, como ossos, mucosas, entre outros, sem comprometimento da pele; Esporotricose disseminada: acontece quando a doença se dissemina para outros locais do organismo, com comprometimento de vários órgãos e/ou sistemas (pulmão, ossos, fígado)."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Descreve as características da lesão:**\n(1) Uma placa eritemato-infiltrada OU Úlcera única; \n(2) Assimetria ou Assimétrica;\n(3) Bordas definidas ou elevadas ou infiltradas; \n(4) Cor não homogênea OU cor heterogênea;\n(5) Diâmetro 1,5 a 2 cm;\n(6) Evolução OU Crescimento; e,\n(7) Dolorosa.\n\n**Adequado:** Descreve seis a sete itens.\n**Inadequado:** Descreve cinco ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza o diagnóstico clínico-epidemiológico:**  \n\n**Adequado:** Verbaliza o diagnóstico clínico-epidemiológico de Esporotricose linfocutânea.\n**Parcialmente adequado:** Suspeita de Esporotricose, mas diz que só pode estabelecer o diagnóstico diante de exames complementares para a pesquisa de Esporotricose: cultura, histopatológico, exame micológico direto.\n**Inadequado:** Não estabelece diagnóstico de Esporotricose.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Os indivíduos geralmente adquirem a infecção pela implantação do fungo na pele ou mucosa por meio de trauma decorrente de acidentes com espinhos, palha ou lascas de madeira; contato com vegetais em decomposição; arranhadura ou mordedura de animais doentes, sendo mais comum o gato. Só se contrai a doença pelo contato com meios ou animais contaminados, não havendo transmissão de pessoa para pessoa."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza diagnósticos diferenciais :**\n(1) Infecções bacterinas;\n(2) Leishmaniose tegumentar;\n(3) Tuberculose cutânea;\n(4) Neoplasia cutânea;\n(5) Bartonelose OU Doença da arranhadura do gato; e,\n(6) Úlceras traumáticas.\n\n**Adequado:** Verbaliza quatro ou mais itens.\n**Parcialmente adequado:** Verbaliza dois ou três itens.\n**Inadequado:** Verbaliza um ou nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Indica ou propõe a prescrição de:**\n(1) Itraconazol;\n(2) Via oral;\n(3) Até cicatrização completa das lesões; e,\n(4) Retorno mensal para avaliação.\n\n**Adequado:** Indica três ou mais itens.\n**Parcialmente adequado:** Indica dois itens.\n**Inadequado:** Não indica item  algum ou indica um item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": "A duração do tratamento pode variar de três a seis meses, ou mesmo um ano, até a cura do indivíduo. Os antifúngicos utilizados para o tratamento da esporotricose humana são o itraconazol, o iodeto de potássio, a terbinafina e o complexo lipídico de anfotericina B, para as formas graves e disseminadas."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Notifica o caso ao SINAN de Esporotricose linfocutânea.**\n\n**Adequado:** Notifica. \n**Inadequado:** Não notifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Explica as medidas de prevenção e controle:**\n(1) Usar luvas, botas e roupas de mangas longas ao manusear solo e plantas;\n(2) Utilizar Equipamentos de Proteção Individual (EPI) como luvas, óculos e outros ao manipular gatos doentes;\n(3) Não permitir que o animal de estimação tenha acesso indiscriminado à rua;\n(4) Gatos em tratamento devem ser mantidos em local seguro e isolado, o ambiente deverá ser limpo com água sanitária, no mínimo diariamente;\n(5) Gatos domésticos deverão ser levados ao veterinário o mais rápido possível após notarem lesões de pele, principalmente nas patas, face e cabeça; e,\n(6) Caso o animal morra, seu corpo deverá ser incinerado e não jogado no lixo, nem deixado ou enterrado em terrenos baldios, pois a contaminação do solo irá manter o ciclo da doença.\n\n**Adequado:** Explica três ou mais itens.\n**Parcialmente adequado:** Explica dois itens.\n**Inadequado:**  Explica um item  ou não explica nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid": 968,
+  "hash": "q1suLEC7GyeLfjscnBVLhHI1",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Lavagem Gástrica",
+  "definicao": "É um procedimento de urgência que deve ser realizado o mais precoce possível, quando indicado, nos casos de ingestão acidental ou intencional de substâncias tóxicas (medicamentos, plantas etc.), a fim de diminuir a exposição e absorção da substância em questão. Quanto mais rápida for a decisão e início do procedimento, maiores são as possibilidades de retirada do agente tóxico.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "86.00",
+    "star": 0,
+    "time": 518.5,
+    "count": 2510
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Urgência e emergência.\nA unidade apresenta a seguinte infraestrutura:\n-  Setor de radiologia com aparelho de radiografia;\n-  Eletrocardiografia;\n-  Laboratório de análises clínicas;\n-  Centro cirúrgico.\n\nDescrição do caso:\nVocê é um médico de plantão atuando na sala de emergência de uma unidade de pronto atendimento (UPA) e dialogará com uma enfermeira.  Ela pedirá a você que avalie Ana, uma  paciente de 30 anos de idade, trazida pelos familiares devido a uma ingestão aguda de aproximadamente 30 comprimidos de medicamentos variados não identificados como tentativa de suicídio, ocorrida há 30 minutos.",
+  "tarefas": "- Escutar o relato da enfermeira; \n- Solicitar exame físico relacionado à queixa principal;\n- Definir a conduta inicial com base no quadro clínico;\n- Responder aos questionamentos da enfermeira.",
+  "script_ator": "**Você será o (a) enfermeiro (a) que auxiliará o médico e responderá suas perguntas de acordo ao roteiro. **\n\n**DADOS INICIAIS DO CASO**\nDoutor(a), boa tarde. Temos aqui a paciente Ana, de 30 anos, previamente hígida, trazida pela familia há cerca de 30 minutos, após ingestão de aproximadamente 30 comprimidos de medicamentos variados não identificados. No momento está ansiosa e queixa-se de náuseas leves e dor abdominal. Não houve vômito. Gostaria que o(a) senhor(a) me orientasse sobre a conduta imediata e a qual procedimento podemos realizar.\n\n**QUALQUER OUTRA PERGUNTA REALIZADA SOBRE ANAMNESE/ EXAME FÍSICO: **\n- Não consta no script.\n\n**SE O CANDIDATO INDICAR CARVÃO ATIVADO VERBALIZAR:**\n- Não temos disponível no local Dr (a), tem mais alguma coisa que podemos fazer?\n\n**SE O CANDIDATO INDICAR LAVAGEM GÁSTRICA, PERGUNTAR:**\n- Como é feito, Dr(a)? Você pode me pedir os materiais que você vai precisar, eu vou separando pra você.\n\n**SE O CANDIDATO SOLICITAR TODOS OS MATERIAIS, RESPONDER:**\n- Considere os materiais disponíveis. Você poderia me explicar o passo-a-passo deste procedimento?\n\n**SE O CANDIDATO EXPLICAR O PASSO-A-PASSO, PERGUNTAR:**\n- Quais são as contraindicações para a lavagem gástrica? E as complicações?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "Paciente em regular estado geral, ansiosa, afebril, acianótica, anictérica, consciente, orientada em tempo e espaço.\n\n\n\n**Frequência cardíaca:** 110 batimentos por minuto.\n\n\n\n**Pressão arterial:** 140 x 90 mmHg.\n\n\n\n**Frequência respiratória:** 20 incursões por minuto.\n\n\n\n**Saturação de O2:** 96% em ar ambiente.\n\n\n\n**Temperatura axilar:** 36,8 °C.\n\n\n\n**ECG:** Taquicardia sinusal. Demais parâmetros dentro da normalidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Escuta atentamente o relato da enfermeira.**\n\n**Adequado:** Escuta o relato.\n**Inadequado:** Não escuta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Solicita exame físico.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Indica o carvão ativado como primeira opção, indica lavagem gástrica como segunda opção.**\n\n**Adequado: ** Indica o carvão ativado como primeira opção, inidica a lavagem gástrica como segunda opçãp.\n**Parcialmente adequado:** Não indica o carvão ativado como primeira opção. \n**Inadequado: **Não indica nenhuma das opções.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita materiais necessários para a realização do procedimento: **\n(1) Sonda oro ou nasogástrica;\n(2) Lidocaína;\n(3) Soro fisiológico ou água;\n(4) Campo ou toalha ou gaze;\n(5) Luvas de procedimento;\n(6) Seringa de 20 ml;\n(7) Máscara;\n(8) Óculos;\n(9) Estetoscópio. \n\n**Adequado: **Solicita seis ou mais itens.\n**Parcialmente adequado: **Solicita quatro ou cinco itens.\n**Inadequado: **Solicita três ou menos materiais.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1",
+        "adequado": " 2"
+      },
+      "dica_teorica": "A  sonda orogástrica  é mais  calibrosa,  facilitando a retirada das  substâncias tóxicas.  No entanto, é um procedimento  menos tolerado  pelos pacientes. Na maioria das situações, passa-se uma  sonda nasogástrica."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Explica a realização do procedimento: **\n(1) Posição do paciente: decúbito lateral esquerdo ou sentado ou Fowler ou semi Fowler;\n(2) Higienização das mãos;\n(3) Paramentação;\n(4) Cobre o tórax do paciente com campo, toalha ou gaze;\n(5) Realiza a medida da sonda posicionando a ponta distal da sonda na ponta do nariz do paciente (ápice do nariz);\n(6) Estenda a sonda do nariz até o lóbulo da orelha (a parte mole na base da orelha).\n(7) A partir do lóbulo da orelha, desça a sonda em linha reta até o apêndice xifoide;\n(8) Usa um pedaço de fita adesiva ou uma caneta marcadora para registrar essa medida na sonda;\n(9) Coloca lidocaína gel na extremidade distal da sonda;\n(10) Pede ao paciente para deglutir durante a passagem da sonda;\n(11) Confirma o correto posicionamento da sonda: insufla ar com a seringa ao mesmo tempo em que ausculta a região epigástrica;\n12) Conecta o cateter ao equipo com SF 0,9% e infunde o volume;\n(13) Drena o conteúdo infundido. \n\n**Adequado: ** Verbaliza onze itens ou mais.\n**Parcialmente adequado: **Verbaliza de seis a dez itens. \n**Inadequado: **Verbaliza cinco itens ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1",
+        "adequado": " 2"
+      },
+      "dica_teorica": "Importante realizar avaliações do paciente a cada 30 minutos ou menos, visto que ele inicialmente pode chegar acordado e evoluir para o coma."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Cita contraindicações para a realização do procedimento: **\n(1) Glasgow ≤ 8;\n(2) Ingestão de cáusticos ou corrosivos;\n(3) Ingestão de solventes;\n(4) Varizes de esôfago de grosso calibre;\n(5) Hematêmese volumosa;\n(6) Cirurgia recente do trato gastrintestinal;\n(7) Ingestão de materiais sólidos com pontas;\n(8) Ingestão de pacotes contendo drogas.\n\n**Adequado: ** Cita quatro ou mais contraindicações. \n**Parcialmente adequado: **Cita duas ou três contraindicações. \n**Inadequado: ** Cita uma ou nenhuma contraindicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Pacientes com Glasgow ≤ 8 devem ser intubados antes da lavagem gástrica."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Cita complicações da lavagem gástrica: **\n(1) Intubação traqueal inadvertida;\n(2) Traumatismo de vias aéreas;\n(3) Laringoespasmo;\n(4) Pneumonia aspirativa;\n(5) Perfuração de esôfago;\n(6) Perfuração de estômago;\n(7) Hiperêmese;\n(8) Hemorragia gastrintestinal.\n\n**Adequado: **Cita quatro ou mais complicações. \n**Parcialmente adequado: **Cita duas ou três complicações. \n**Inadequado: **Cita uma ou nenhuma complicações.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

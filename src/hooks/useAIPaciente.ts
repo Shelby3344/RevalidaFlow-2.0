@@ -14,145 +14,133 @@ interface UseAIPacienteReturn {
   clearHistory: () => void;
 }
 
-// Função para gerar o prompt do sistema baseado no checklist
+function extractPatientInfo(content: ChecklistContent) {
+  const instrucoes = content.instrucoes.itens.join('\n');
+  const descricao = content.scenario.descricao.join('\n');
+  
+  let nome = 'Paciente';
+  const nomeMatch = instrucoes.match(/(?:me chamo|meu nome é|sou o|sou a|DADOS PESSOAIS[:\s]*[-\s]*)?([A-Z][a-záéíóúãõâêîôû]+)/i);
+  if (nomeMatch) nome = nomeMatch[1];
+  
+  let idade = '';
+  const idadeMatch = descricao.match(/(\d+)\s*anos/i) || instrucoes.match(/(\d+)\s*anos/i);
+  if (idadeMatch) idade = idadeMatch[1];
+  
+  let queixaPrincipal = '';
+  const queixaMatch = instrucoes.match(/MOTIVO DE CONSULTA[:\s]*[-\s]*([\s\S]*?)(?=\*\*|$)/i);
+  if (queixaMatch) queixaPrincipal = queixaMatch[1].trim();
+
+  return { nome, idade, queixaPrincipal, instrucoes, descricao };
+}
+
+
 function generateSystemPrompt(content: ChecklistContent): string {
+  const info = extractPatientInfo(content);
   const scenario = content.scenario;
   const instrucoes = content.instrucoes;
   
-  return `Você é um paciente simulado para treinamento médico. Você deve agir EXATAMENTE como o paciente descrito abaixo.
+  return `Você é um paciente simulado chamado ${info.nome}${info.idade ? `, ${info.idade} anos` : ''}.
 
-CENÁRIO CLÍNICO:
-- Nível de atenção: ${scenario.nivel}
-- Tipo de atendimento: ${scenario.tipo}
-- Situação: ${scenario.situacao.join(' ')}
-
-DESCRIÇÃO DO CASO:
+CENÁRIO: ${scenario.nivel} - ${scenario.tipo}
 ${scenario.descricao.join('\n')}
 
-INSTRUÇÕES DO PACIENTE (como você deve se comportar):
+SCRIPT DO PACIENTE:
 ${instrucoes.itens.join('\n')}
 
-REGRAS IMPORTANTES:
-1. Responda APENAS como o paciente, nunca como médico ou assistente
-2. Use linguagem simples e coloquial, como um paciente real falaria
-3. Demonstre emoções apropriadas (dor, medo, preocupação, alívio)
-4. Só revele informações quando perguntado diretamente
-5. Se o médico não perguntar algo específico, não mencione
-6. Reaja naturalmente às perguntas e exames
-7. Se sentir dor durante exame físico, demonstre
-8. Faça perguntas ao médico sobre sua condição quando apropriado
-9. Mostre preocupação com diagnóstico e tratamento
-10. Use expressões como "*suspira*", "*faz careta de dor*", "*parece aliviado*" para demonstrar emoções
-
-LEMBRE-SE: Você é o PACIENTE, não o médico. Responda de forma realista e humana.`;
+REGRAS:
+1. Responda APENAS como paciente, nunca como médico
+2. Use linguagem simples e coloquial brasileira
+3. Demonstre emoções: dor, medo, preocupação
+4. Só revele informações quando perguntado
+5. Use expressões como *suspira*, *faz careta de dor*
+6. Responda de forma CURTA e NATURAL`;
 }
 
-// Função para simular resposta da IA (fallback sem API)
-function generateLocalResponse(
-  message: string,
-  content: ChecklistContent,
-  history: Array<{ role: 'user' | 'assistant'; content: string }>
-): string {
-  const lowerMessage = message.toLowerCase();
-  const instrucoes = content.instrucoes.itens.join(' ').toLowerCase();
-  const descricao = content.scenario.descricao.join(' ').toLowerCase();
+function generateLocalResponse(message: string, content: ChecklistContent): string {
+  const lowerMsg = message.toLowerCase();
+  const info = extractPatientInfo(content);
+  const instrucoes = info.instrucoes.toLowerCase();
+  const descricao = info.descricao.toLowerCase();
   
-  // Respostas baseadas em palavras-chave
-  if (lowerMessage.includes('nome') || lowerMessage.includes('chama')) {
-    // Extrair nome do paciente das instruções se disponível
-    const nomeMatch = instrucoes.match(/(?:me chamo|meu nome é|sou o|sou a)\s+(\w+)/i);
-    if (nomeMatch) {
-      return `Me chamo ${nomeMatch[1]}. *estende a mão para cumprimentar*`;
+  if (lowerMsg.includes('nome') || lowerMsg.includes('chama')) {
+    return info.nome !== 'Paciente' 
+      ? `Me chamo ${info.nome}. *estende a mão*` 
+      : `Pode me chamar de paciente...`;
+  }
+  
+  if (lowerMsg.includes('idade') || lowerMsg.includes('anos')) {
+    return info.idade ? `Tenho ${info.idade} anos, doutor(a).` : `Tenho uns 50 e poucos anos...`;
+  }
+  
+  if (lowerMsg.includes('sente') || lowerMsg.includes('queixa') || lowerMsg.includes('problema')) {
+    if (info.queixaPrincipal) return `*suspira* ${info.queixaPrincipal}`;
+    const sintoma = descricao.includes('dor') ? 'muita dor' : 
+                    descricao.includes('febre') ? 'febre' : 
+                    descricao.includes('tosse') ? 'tosse' : 'mal-estar';
+    return `*suspira* Doutor(a), estou sentindo ${sintoma}. Começou há alguns dias...`;
+  }
+  
+  if (lowerMsg.includes('dor')) {
+    if (lowerMsg.includes('onde') || lowerMsg.includes('local')) {
+      if (instrucoes.includes('costela')) return `*aponta* Dói aqui nas costelas, doutor(a). *faz careta*`;
+      if (instrucoes.includes('cabeça')) return `*leva a mão à cabeça* Dói muito aqui.`;
+      if (instrucoes.includes('barriga')) return `*aponta para a barriga* Dói aqui. *faz careta*`;
+      return `*aponta* Dói aqui, doutor(a)... *faz careta de dor*`;
     }
-    return `Pode me chamar de paciente... *parece desconfortável*`;
-  }
-  
-  if (lowerMessage.includes('idade') || lowerMessage.includes('anos')) {
-    const idadeMatch = descricao.match(/(\d+)\s*anos/);
-    if (idadeMatch) {
-      return `Tenho ${idadeMatch[1]} anos, doutor(a).`;
-    }
-    return `Tenho uns 50 e poucos anos...`;
-  }
-  
-  if (lowerMessage.includes('sente') || lowerMessage.includes('sintoma') || lowerMessage.includes('queixa') || lowerMessage.includes('problema')) {
-    return `*suspira* Doutor(a), estou me sentindo muito mal... Tenho sentido ${
-      descricao.includes('dor') ? 'muita dor' : 
-      descricao.includes('febre') ? 'febre' :
-      descricao.includes('tosse') ? 'tosse' :
-      descricao.includes('falta de ar') ? 'falta de ar' :
-      'um mal-estar geral'
-    }. Começou há alguns dias e está piorando...`;
-  }
-  
-  if (lowerMessage.includes('dor')) {
     if (descricao.includes('dor')) {
-      return `*faz careta* Sim, doutor(a), dói bastante... É uma dor ${
-        descricao.includes('forte') ? 'muito forte' : 'constante'
-      }. Às vezes piora quando me movimento.`;
+      return `*faz careta* Sim, dói bastante... É uma dor ${instrucoes.includes('forte') ? 'muito forte' : 'constante'}.`;
     }
-    return `Não é bem uma dor, doutor(a)... É mais um desconforto.`;
+    return `Não é bem uma dor... É mais um desconforto.`;
   }
   
-  if (lowerMessage.includes('febre') || lowerMessage.includes('temperatura')) {
+  if (lowerMsg.includes('febre') || lowerMsg.includes('temperatura')) {
     if (descricao.includes('febre') || instrucoes.includes('febre')) {
-      return `Sim, tenho sentido calor... Não medi, mas acho que estou com febre. À noite fico com calafrios.`;
+      return `Sim, tenho sentido calor... Acho que estou com febre. À noite fico com calafrios.`;
     }
     return `Não, febre não... Pelo menos não percebi.`;
   }
   
-  if (lowerMessage.includes('medicamento') || lowerMessage.includes('remédio') || lowerMessage.includes('toma')) {
-    return `*pensa um pouco* Tomo alguns remédios... Mas confesso que às vezes esqueço. O senhor(a) quer que eu liste?`;
-  }
-  
-  if (lowerMessage.includes('alergia')) {
-    return `Que eu saiba, não tenho alergia a nenhum medicamento, doutor(a).`;
-  }
-  
-  if (lowerMessage.includes('cirurgia') || lowerMessage.includes('operação') || lowerMessage.includes('internação')) {
-    return `*pensa* Não lembro de ter feito nenhuma cirurgia grande... Mas já fiquei internado uma vez, há muito tempo.`;
-  }
-  
-  if (lowerMessage.includes('fuma') || lowerMessage.includes('cigarro') || lowerMessage.includes('tabagismo')) {
-    if (instrucoes.includes('fuma') || instrucoes.includes('cigarro')) {
-      return `*desvia o olhar* Fumo sim, doutor(a)... Já tentei parar, mas é difícil.`;
+  if (lowerMsg.includes('tosse')) {
+    if (instrucoes.includes('tosse')) {
+      if (instrucoes.includes('catarro')) return `*tosse* Sim, e sai um catarro amarelado.`;
+      return `*tosse* Sim, estou tossindo bastante.`;
     }
-    return `Não, nunca fumei.`;
+    return `Não, tosse não tenho.`;
   }
   
-  if (lowerMessage.includes('álcool') || lowerMessage.includes('bebe') || lowerMessage.includes('bebida')) {
-    if (instrucoes.includes('álcool') || instrucoes.includes('bebe')) {
-      return `*hesita* Bebo socialmente... Às vezes um pouco mais. *parece envergonhado*`;
-    }
-    return `Só socialmente, doutor(a). Uma cervejinha de vez em quando.`;
+  if (lowerMsg.includes('medicamento') || lowerMsg.includes('remédio')) {
+    if (instrucoes.includes('nega')) return `Não tomo nenhum remédio de uso contínuo.`;
+    return `*pensa* Tomo alguns remédios... Quer que eu liste?`;
   }
   
-  if (lowerMessage.includes('exame') || lowerMessage.includes('examinar')) {
-    return `Pode examinar, doutor(a). *se posiciona para o exame* Me avisa se for doer...`;
+  if (lowerMsg.includes('alergia')) {
+    return `Que eu saiba, não tenho alergia a nenhum medicamento.`;
   }
   
-  if (lowerMessage.includes('diagnóstico') || lowerMessage.includes('tenho')) {
-    return `*parece preocupado* O que eu tenho, doutor(a)? É grave? Vou ficar bem?`;
+  if (lowerMsg.includes('exame') || lowerMsg.includes('examinar')) {
+    return `Pode examinar, doutor(a). *se posiciona* Me avisa se for doer...`;
   }
   
-  if (lowerMessage.includes('tratamento') || lowerMessage.includes('receita') || lowerMessage.includes('medicação')) {
-    return `*presta atenção* Entendi, doutor(a). Vou seguir direitinho o tratamento. Tem algum efeito colateral que eu deva saber?`;
+  if (lowerMsg.includes('diagnóstico') || lowerMsg.includes('o que eu tenho')) {
+    return `*parece preocupado* O que eu tenho, doutor(a)? É grave?`;
   }
   
-  if (lowerMessage.includes('obrigado') || lowerMessage.includes('agradeço')) {
-    return `*sorri aliviado* Obrigado, doutor(a)! Fico mais tranquilo agora. Posso voltar se não melhorar?`;
+  if (lowerMsg.includes('tratamento') || lowerMsg.includes('receita')) {
+    return `*presta atenção* Entendi. Vou seguir direitinho o tratamento.`;
   }
   
-  // Resposta genérica
-  const genericResponses = [
-    `*pensa um pouco* Hmm, deixa eu pensar... Pode repetir a pergunta, doutor(a)?`,
-    `*parece confuso* Não tenho certeza sobre isso... O que o senhor(a) acha?`,
-    `Olha, doutor(a), não sei dizer com certeza... Mas posso tentar lembrar.`,
-    `*coça a cabeça* É difícil explicar... Mas vou tentar responder.`,
+  if (lowerMsg.includes('obrigado')) {
+    return `*sorri aliviado* Obrigado, doutor(a)! Fico mais tranquilo agora.`;
+  }
+  
+  const respostas = [
+    `*pensa* Hmm, pode repetir a pergunta, doutor(a)?`,
+    `*parece confuso* Não tenho certeza sobre isso...`,
+    `Olha, não sei dizer com certeza...`,
   ];
-  
-  return genericResponses[Math.floor(Math.random() * genericResponses.length)];
+  return respostas[Math.floor(Math.random() * respostas.length)];
 }
+
 
 export function useAIPaciente({ checklistContent, apiKey }: UseAIPacienteOptions): UseAIPacienteReturn {
   const [isLoading, setIsLoading] = useState(false);
@@ -168,7 +156,6 @@ export function useAIPaciente({ checklistContent, apiKey }: UseAIPacienteOptions
     try {
       let response: string;
 
-      // Se tiver API key, usa a API da OpenAI
       if (apiKey) {
         const systemPrompt = generateSystemPrompt(checklistContent);
         
@@ -179,38 +166,30 @@ export function useAIPaciente({ checklistContent, apiKey }: UseAIPacienteOptions
             'Authorization': `Bearer ${apiKey}`,
           },
           body: JSON.stringify({
-            model: 'gpt-3.5-turbo',
+            model: 'gpt-4o-mini',
             messages: [
               { role: 'system', content: systemPrompt },
-              ...newHistory.map(msg => ({
-                role: msg.role,
-                content: msg.content,
-              })),
+              ...newHistory.map(msg => ({ role: msg.role, content: msg.content })),
             ],
-            temperature: 0.8,
-            max_tokens: 300,
+            temperature: 0.7,
+            max_tokens: 200,
           }),
         });
 
-        if (!apiResponse.ok) {
-          throw new Error('Erro na API');
-        }
+        if (!apiResponse.ok) throw new Error('Erro na API');
 
         const data = await apiResponse.json();
         response = data.choices[0].message.content;
       } else {
-        // Fallback: usa respostas locais baseadas em regras
-        await new Promise(resolve => setTimeout(resolve, 1000 + Math.random() * 1000)); // Simula delay
-        response = generateLocalResponse(message, checklistContent, conversationHistory);
+        await new Promise(resolve => setTimeout(resolve, 800 + Math.random() * 800));
+        response = generateLocalResponse(message, checklistContent);
       }
 
       setConversationHistory([...newHistory, { role: 'assistant', content: response }]);
       return response;
-    } catch (err) {
-      const errorMessage = 'Erro ao processar resposta';
-      setError(errorMessage);
-      // Fallback para resposta local em caso de erro
-      const fallbackResponse = generateLocalResponse(message, checklistContent, conversationHistory);
+    } catch {
+      setError('Erro ao processar resposta');
+      const fallbackResponse = generateLocalResponse(message, checklistContent);
       setConversationHistory([...newHistory, { role: 'assistant', content: fallbackResponse }]);
       return fallbackResponse;
     } finally {
@@ -223,11 +202,5 @@ export function useAIPaciente({ checklistContent, apiKey }: UseAIPacienteOptions
     setError(null);
   }, []);
 
-  return {
-    sendMessage,
-    isLoading,
-    error,
-    conversationHistory,
-    clearHistory,
-  };
+  return { sendMessage, isLoading, error, conversationHistory, clearHistory };
 }

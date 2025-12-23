@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import { List, User, Users, Brain } from "lucide-react";
+import { List, User, Users, Brain, X } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
@@ -10,6 +10,7 @@ import { checklistsData, AREA_OPTIONS, INEP_OPTIONS, AREA_ORDER, AreaCode } from
 import { CreateSessionModal } from "./avaliacao/CreateSessionModal";
 import { getChecklistContentByIdAsync } from "@/data/checklistContents";
 import { ChecklistEvaluationItem } from "@/types/checklists";
+import { useChecklistMetrics } from "@/hooks/useChecklistMetrics";
 
 interface AllChecklistsModalProps {
   open: boolean;
@@ -26,6 +27,9 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
     areaCode: AreaCode;
     evaluationItems: ChecklistEvaluationItem[];
   } | null>(null);
+
+  // Hook para métricas do usuário
+  const { getAverage, getAttempts } = useChecklistMetrics();
 
   // Lista explícita de títulos de GO-Ginecologia (40 itens exatos)
   const ginecologiaList = [
@@ -201,19 +205,29 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-[95vw] w-full max-h-[95vh] h-full bg-background border-border p-0 gap-0">
+      <DialogContent className="fixed inset-4 max-w-none w-auto h-auto max-h-none bg-background border-border p-0 gap-0 overflow-hidden flex flex-col">
         {/* Header */}
-        <DialogHeader className="px-6 py-4 border-b border-border/30">
-          <div className="flex items-center gap-3">
-            <List className="w-5 h-5 text-foreground" />
-            <DialogTitle className="text-lg font-semibold text-foreground">
-              Todos os Checklists
-            </DialogTitle>
+        <DialogHeader className="px-6 py-4 border-b border-border/30 flex-shrink-0">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <List className="w-5 h-5 text-foreground" />
+              <DialogTitle className="text-lg font-semibold text-foreground">
+                Todos os Checklists
+              </DialogTitle>
+            </div>
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => onOpenChange(false)}
+              className="h-8 w-8 rounded-lg hover:bg-secondary"
+            >
+              <X className="w-4 h-4" />
+            </Button>
           </div>
         </DialogHeader>
 
         {/* Filters */}
-        <div className="px-6 py-4 border-b border-border/30">
+        <div className="px-6 py-4 border-b border-border/30 flex-shrink-0">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             {/* User info */}
             <div className="flex items-center gap-2 text-muted-foreground">
@@ -272,7 +286,7 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
         </div>
 
         {/* Table */}
-        <ScrollArea className="flex-1 h-[calc(100vh-280px)]">
+        <ScrollArea className="flex-1 min-h-0">
           <div className="px-6">
             <table className="w-full">
               <thead className="sticky top-0 bg-background z-10">
@@ -284,7 +298,7 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
                     MÉDIA
                   </th>
                   <th className="text-center text-xs font-semibold text-muted-foreground uppercase tracking-wider py-3 px-4 w-24">
-                    NOTA
+                    TENTATIVAS
                   </th>
                   <th className="text-center text-xs font-semibold text-muted-foreground uppercase tracking-wider py-3 px-4 w-48">
                     AÇÕES
@@ -307,14 +321,21 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
                     </td>
                     <td className="text-center py-3 px-4">
                       <span className="text-sm text-muted-foreground">
-                        {item.average !== null && item.average !== undefined 
-                          ? item.average.toFixed(item.average % 1 === 0 ? 0 : 2) 
-                          : "-"}
+                        {(() => {
+                          const userAvg = getAverage(item.id);
+                          const attempts = getAttempts(item.id);
+                          if (attempts === 0) return "-";
+                          return userAvg.toFixed(userAvg % 1 === 0 ? 0 : 2);
+                        })()}
                       </span>
                     </td>
                     <td className="text-center py-3 px-4">
                       <span className="text-sm text-muted-foreground">
-                        {item.grade !== null && item.grade !== undefined ? item.grade : "-"}
+                        {(() => {
+                          const attempts = getAttempts(item.id);
+                          if (attempts === 0) return "-";
+                          return attempts;
+                        })()}
                       </span>
                     </td>
                     <td className="text-center py-3 px-4">
@@ -322,7 +343,7 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
                         <Button
                           size="sm"
                           onClick={() => handleStart(item.id)}
-                          className="btn-primary-gradient text-xs px-3 py-1 h-7"
+                          className="text-xs px-3 py-1 h-7 bg-primary hover:bg-primary/90 text-white"
                         >
                           Treinar
                         </Button>
@@ -354,13 +375,13 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
         </ScrollArea>
 
         {/* Footer */}
-        <div className="px-6 py-4 border-t border-border/30 flex justify-end">
+        <div className="px-6 py-4 border-t border-border/30 flex justify-end flex-shrink-0">
           <Button
             variant="outline"
             onClick={() => onOpenChange(false)}
             className="bg-secondary/50 border-border text-muted-foreground hover:bg-secondary hover:text-foreground"
           >
-            Cancelar
+            Fechar
           </Button>
         </div>
       </DialogContent>

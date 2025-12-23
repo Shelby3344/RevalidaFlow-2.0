@@ -1,0 +1,200 @@
+{
+  "uid": 1117,
+  "hash": "1ehztO_eE6qBVRB4oPDyBbH1",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Influenza",
+  "definicao": "A gripe ou influenza é uma doença infectocontagiosa aguda do trato respiratório,de distribuição global, causada pelo vírus da influenza. Pessoas de todasas idades são susceptíveis a infecção por esse vírus, entretanto, idosos, crianças, gestantes e pessoas com algumas comorbidades (cardiopatas, pneumopatas, hipertensos, diabéticos, obesos mórbidos, entre outros) possuem risco maiorde desenvolver complicações devido à infecção por influenza.Os vírus influenza apresentam um comportamento sazonal, de ocorrênciaanual, mais observado nas estações climáticas mais frias e/ou chuvosas.A incidência de casos pode variar anualmente, observando-se anos com maior ou menor circulação do vírus, ou ainda a identificação de casos o anotodo, com ocorrências de surtos fora dos períodos sazonais",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "61.50",
+    "star": 0,
+    "time": 524,
+    "count": 5245
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial \n- Unidade básica de saúde (UBS).\n\nA unidade conta com a seguinte infraestrutura: \n-Consultório para atendimento; \n-Sala de vacinas; \n-Apoio para realização de radiografias. \n\nDESCRIÇÃO DO CASO: \nVocê é médico(a) em uma UBS e atenderá um paciente de 60 anos de idade,  com queixa de coriza excessiva, febre, cefaleia, mialgia e tosse.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar a anamnese dirigida à queixa principal da paciente;\n-Solicitar e interpretar exame físico;\n-Solicitar exames complementares, se necessário;\n-Estabelecer e comunicar a hipótese diagnóstica;\n-Propor conduta terapêutica;\n-Dar orientações ao paciente e sanar dúvidas.\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Antônio, 60 anos, casado, aposentado.\n\n**MOTIVO DE CONSULTA:**\n-Dr(a) estou me sentindo com muito mal estar, febre, e uma dor de cabeça e dor no corpo.\n\n**SOBRE A FEBRE:**\n**Tempo de início da febre:** Começou a 2 dias.\n**Aferição com termômetro:** Sim, deu 38 graus. \n**Padrão da febre:** Se mantém durante todo o dia. \n**Uso de medicação:** Melhora com dipirona.\n\n**SOBRE A CEFALEIA:**\n**Tempo de surgimento da cefaleia:** Começou a 1 dia.\n**Localização:** Dói toda a cabeça. \n**Intensidade:**  7/10.\n**Característica:**  Parece um peso na minha cabeça.\n**Atenuantes ou agravantes:**  Melhora quando tomo a dipirona. \n\n**MIALGIA:** \n**Tempo de início:** Começou junto com a febre.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n**Doenças crônicas:**  Eu sou super saudável doutor(a). \n**Uso de medicações crônicas:** Tomo enalapril, hidroclorotiazida, metformina, estatina, omeoprazol e rivotril.\n**Cirurgias prévias:** Nunca operei de nada não como eu disse sou super saudável.\n**Internações prévias:** Não Dr(a) sou super saudável.\n**Situação vacinal:** Acho que está tudo em dia. \n**Vacina da gripe:** Lembrei agora que esse ano ainda não tomei a vacina da gripe.\n\n**SOBRE DADOS EPIDEMIOLÓGICOS:**\n**Viagens recentes:**  Faz tempo que não viajo. \n**Situação epidemiológica:**  Moro com a minha esposa, mas ela até o momento está bem de saúde. \n\n**DÚVIDAS:**\n**PERGUNTA 1** Preciso me isolar da minha esposa em casa ou usar máscara?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 140x90 mmHg\n\n- **Frequência cardíaca:** 100 batimentos por minuto\n\n- **Frequência respiratória:** 16 incursões por minuto\n\n-** Saturação de O2:** 99%\n\n- **Temperatura axilar:** 38° C\n\n\n\n**Estado Geral:** Paciente em bom estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n**Respiratório:** Ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n**Abdominal:** Abdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1695606180.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n**- Hemácias**: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**- Hemoglobina: **14,2 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n**- Hematócrito:** 34% (Valor de referência: 39 - 52%)\n\n-** VCM:** 93 fL (Valor de referência: 80 a 100 fL)\n\n**- HCM:** 31 pg (Valor de referência: 26 - 33 pg)\n\n**- CHCM: **32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**- RDW CV: **12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 179.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucograma:**\n\n**- Leucócitos: **13.000/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**- Neutrófilos:** 70% (Valor de referência: 40 - 70%)\n\n**- Bastões: **2% (Valor de referência: 0 - 5%)\n\n**- Linfócitos:** 20% (Valor de referência: 20 - 50%)\n\n-** Basófilos:** 0% (Valor de referência: 0 - 2%)\n\n**- Eosinófilos:** 1% (Valor de referência: 0 - 6%)\n\n-** Monócitos: **4% (Valor de referência: 4 - 8%)",
+      "imagem": "https://app.penserevalida.com/impressos/old/1695606180.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA TÓRAX",
+      "conteudo": "Infiltrado intersticial localizado.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RT - PCR COVID 19 ",
+      "conteudo": "**RT - PCR COVID 19 **-** **Negativo** **( Valor de referência: Negativo)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "RT-PCR INFLUENZA",
+      "conteudo": "**RT - PCR INFLUENZA **- Positivo** **( Valor de referência: Negativo)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) Cumprimenta o paciente;\n(2) Se identifica de maneira cordial;\n(3) Identifica o paciente;\n(4) Pergunta; e,\n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza apenas um item ou não realiza nenhum item..",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Demonstra empatia com a paciente:**\n(1) Estabelece contato visual; e,\n(2) Mantém postura atenta e interessada ao longo da consulta.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Usa linguagem acessível, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. Realiza **anamnese** perguntando sobre as características da febre e sintomas associados: \n(1) Tempo de início de febre; \n(2) Temperatura; \n(3) Persistência ou intermitência; \n(4) Uso de medicamentos;\n(5) Calafrios; e,\n(6) Sudoração.\n\n**Adequado:** Realiza os seis itens.\n**Parcialmente adequado:** Realiza quatro ou cinco itens.\n**Inadequado:** Realiza três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. Realiza **anamnese**, perguntando sobre as características da cefaleia: \n(1) Tempo desde o início do quadro;\n(2) Tipo de dor;\n(3) Localização e irradiação;\n(4) Intensidade ou graduação;\n(5) Fatores de melhoria;\n(6) Fatores de agravamento; e,\n(7) Uso de medicamentos.\n\n**Adequado**: Pergunta cinco ou mais itens.\n**Parcialmente adequado**: Pergunta três ou quatro itens.\n**Inadequado**: Pergunta um ou dois itens ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga:**\n(1) Comorbidades;\n(2) Uso de medicações crônicas;\n(3) Hábitos tóxicos (etilismo, tabagismo e drogas ilícitas);\n(4) Atividade física;\n(5) Alimentação; e,\n(6) Antecedentes familiares. \n\n**Adequado: **Investiga os seis itens.\n**Inadequado:** Não investiga os seis itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7.** Investiga:**\n(1) Situação vacinal da gripe; e,\n(2) Covid-19.\n\n**Adequado:** Investiga os dois itens.\n**Parcialmente adequado:** Investiga um item.\n**Inadequado:** Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita o exame físico.**\n\n**Adequado: **Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita exames complementares:**\n(1) Hemograma; \n(2) RT-PCR COVID 19;\n(3) RT-PCR INFLUENZA; e,\n(4) Radiografia de tórax. \n\n**Adequado:** Solicita os quatro itens.\n**Parcialmente adequado:** Solicita de dois a três itens.\n**Inadequado:** Solicita somente um item OU não solicita nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10.** Informa o diagnóstico de Influenza ou Gripe.**\n\n**Adequado:** Informa.\n**Inadequado:** Não informa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Prescreve **\n(1) Tratamento ambulatorial; \n(2) Hidratação oral;\n(3) Analgésico; e,\n(4) Antitérmico.\n\n**Adequado:** Prescreve os quatro itens.\n**Parcialmente adequado:** Prescreve de dois a três itens.\n**Inadequado:** Prescreve somente um item OU não prescreve nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "Além dos medicamentos sintomáticos e da hidratação, está indicado o uso de fosfato de oseltamivir para todos os casos de SG que tenham condições e fatores de risco para complicações, independentemente da situação vacinal, mesmo em atendimento ambulatorial. Esta indicação se fundamenta no benefício que a terapêutica precoce proporciona, tanto na redução da duração dos sintomas quanto na ocorrência de complicações da infecção pelos vírus da influenza, em pacientes com condições e fatores de risco para complicações."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Prescreve:**\n(1) Fosfato de oseltamivir 75 mg;\n(2) 12/12h; e,\n(3) 5 dias.\n\n**Adequado:** Prescreve os três itens.\n**Inadequado:** Não prescreve os três itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Informa o paciente simulado que será necessário o uso de máscara cirúrgica, enquanto apresentar sintomas gripais.**\n\n**Adequado:** Informa. \n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Outras medidas de prevenção não farmacológicas: Cobrir o nariz e a boca com lenço, ao tossir ou espirrar, e descartar  o lenço no lixo após uso; Lavar as mãos com água e sabão após tossir ou espirrar; No caso de não haver disponibilidade de água e sabão, usar álcool em gel; Evitar tocar olhos, nariz ou boca"
+    }
+  ]
+}

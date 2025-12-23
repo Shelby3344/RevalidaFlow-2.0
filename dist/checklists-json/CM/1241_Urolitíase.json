@@ -1,0 +1,161 @@
+{
+  "uid": 1241,
+  "hash": "atSmseXqVWl5XlFtcZCeDOSAdsX",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Urolitíase",
+  "definicao": "A presença de cálculos no sistema urinário (urolitíase) pode produzir um quadro de dor intensa, normalmente tipo cólica, associado a sintomas como náuseas e vômitos. Em casos complicados, pode haver obstrução total e infecção.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "74.50",
+    "star": 0,
+    "time": 596,
+    "count": 5653
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Urgência e emergência.\n\nA unidade possui a seguinte infraestrutura:\n- Consultório médido;\n- Laboratório de análises clínicas;\n- Setor de radiologia convencional e ultrassonografia;\n-Setor de tomografia.\n\nDESCRIÇÃO DO CASO: \nVocê é médico plantonista em uma UPA e recebe o paciente de 28 anos, estudante, previamente hígido, com queixa de dor abdominal de início súbito. \n\nDADOS DA TRIAGEM: \n- Pressão arterial: 150x90 mmHg \n- Frequência cardíaca: 105 batimentos por minuto \n- Saturação de O2: 98% \n- Frequência respiratória: 14 incursões por minuto \n- Temperatura: 36.1 C\n\nPaciente se encontra inquieto e com fácies de dor intensa.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar exame físico direcionado à queixa principal do paciente;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Bruno, 28 anos, estudante.\n\n**MOTIVO DE CONSULTA: **\n- Dr(a) estou com uma muita dor muito forte na barriga.\n\n**CARACTERÍSTICAS DA DOR: **\n**- Localização: **É do lado direito da barriga.\n**- Início: **Começou de repente a mais ou menos uma hora. \n**- Intensidade: **É uma dor muito forte (9/10).\n**- Tipo de dor: **Parece uma cólica que vai e volta. \n**- Irradiação: **Não irradia, fica só aqui do lado direito. \n**- Fatores de melhora/piora: **Tomei dipirona, mas não adiantou..\n**- Episódios anteriores: **Ano passado senti algo parecido, mas era bem mais fraco.\n\n**SINTOMAS ACOMPANHANTES: **\n- **Náuseas:** Estou enjoado, mas não cheguei a vomitar..\n-**Vômitos:** Nega.\n-**Febre:** Nega.\n-**Disúria:** Nega.\n-**Polaciúria:** Às vezes, sim.\n**- Alterações na urina: **Minha urina é muito escura.\n**- Fezes: **Sem alterações. \n\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nenhuma.\n**- Cirurgias: **Nega.\n**- Medicamentos: **Nega.\n**- Alergias: **Acho que não.\n\n**HÁBITOS: **\n**- Álcool: **Bebo vinho de vez em quando. \n**- Cigarro: **Nega.\n**- Drogas: **Nega.\n**- Ingestão hídrica: **Tomo pouca água, só quando tenho sede.\n**-Retenção urinária:** Vou poucas vezes ao banheiro porque, no mercado, passo muito tempo repondo mercadorias nas prateleiras.\n\n\n**ANTECEDENTES FAMILIARES: **\n- Pai, mãe e irmão sem problemas de saúde.\n\n**Se o candidato solicitar apenas TOMOGRAFIA, você deverá dizer:**\nSeja mais específico (só liberar o impresso quando for verbalizado tomografia de abdome sem contraste).",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 140 x 95 mmHg\n\n**- Frequência cardíaca:** 105 batimentos por minuto\n\n**- Saturação de O2:** 98%\n\n**- Temperatura:** 36.2° C \n\n**- Frequência respiratória:** 14 incursões por minuto\n\n\n\n**Estado geral:**\n\nPaciente em regular estado geral, pálido, diaforético, fácies de dor intensa e inquieto. Afebril, acianótico, anictérico, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos hipoativos, dor à palpação na região de flanco direito, sem defesa nem descompressão brusca dolorosa, sem viceromegalias.\n\n\n\n**Sinal de Giordano:**\n\nNegativo em ambos lados.",
+      "imagem": "https://app.penserevalida.com/impressos/03/39F78151-8F18-4B08-ABEE-592C1ED454BF.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemácias:** 4,6 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 15 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n**Hematócrito:** 45% (Valor de referência: 35 - 47%)\n\n**VCM:** 90 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 31 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 33 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 13% (Valor de referência: 11 - 14%) \n\n\n\n**Leucócitos:** 5.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 65% (Valor de referência: 40 - 70%)\n\n**Bastões:** 3% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 26% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 0% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 2% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 4% (Valor de referência: 4 - 8%)\n\n\n\n**Proteína C reativa:** 0,2 mg/dl (Valor de referência: < 0,3 mg/dl)\n\n\n\n**Creatinina:** 0,9 mg/dL (Valor de referência: 0,7 - 1,1 mg/dl)\n\n**Ureia:** 28 mg/dL (Valor de referência: < 40 mg/dl)",
+      "imagem": "https://app.penserevalida.com/impressos/03/39F78151-8F18-4B08-ABEE-592C1ED454BF.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Análise de urina",
+      "conteudo": "**Características gerais:**\n\n**Volume da amostra:** 40 ml\n\n**Aspecto:** Límpido (Valor de referência: límpido)\n\n**Cor:** Amarela (Valor de referência: não se aplica)\n\n**Depósito:** Escasso (Valor de referência: nulo)\n\n**Densidade:** 1020 (Valor de referência: 1015 - 1025)\n\n**Reação pH:** 5,5 (Valor de referência: 4,5 - 7,8)\n\n\n\n**Exame químico:**\n\n**Proteínas:** Negativo (Valor de referência: negativo)\n\n**Corpos cetônicos:** Negativo (Valor de referência: negativo)\n\n**Glicose:** Negativo (Valor de referência: negativo)\n\n**Bilirrubina:** Negativo (Valor de referência: negativo)\n\n**Urobilinogênio:** 0,2 mg/dl (Valor de referência:< 1 mg/dl)\n\n**Hemoglobina:** Negativo (Valor de referência: negativo)\n\n**Nitrito:** Negativo (Valor de referência: negativo)\n\n\n\n**Sedimentoscopia:**\n\n**Piócitos:** 3 por campo (Valor de referência: < 4 por campo)\n\n**Hemácias:** 8 por campo (Valor de referência: < 2 por campo)\n\n**Epitélio de vias altas:** Ausente (Valor de referência: raras células por campo)\n\n**Epitélio de vias baixas:** Raras (Valor de referência: < 3 por campo)\n\n**Cilindros hialinos:** Ausentes (Valor de referência: < 2 por campo)\n\n**Cilindros patológicos:** Ausentes (Valor de referência: ausentes)\n\n**Cristais:** Vários (Valor de referência: ausentes)\n\n**Tipos:** Oxalato de cálcio\n\n**Flora bacteriana:** Ausente (Valor de referência: ausente)\n\n**Muco:** Presente (Valor de referência: não se aplica)",
+      "imagem": "https://app.penserevalida.com/impressos/03/39F78151-8F18-4B08-ABEE-592C1ED454BF.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Tomografía de abdome sem contraste",
+      "conteudo": "**Se observa cálculo em ureter proximal direito de 6 mm de diâmetro.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga:**\n(1) Episódios similares;\n(2) Sangue na urina ou urina vermelha;\n(3) Disúria;\n(4) Polaciúria;\n(5) Dor lombar;\n(6) Febre ou calafrios;\n(7) Náuseas ou vômitos.\n\n**Adequado: **Investiga de cinco a sete itens.\n**Parcialmente adequado: **Investiga de três a quatro itens.\n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Preditores de ITU associada: - Sexo feminino;- Piúria;- Disúria;- Polaciúria;- Febre."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta por:**\n(1) Ingestão hídrica;\n(2) Hábito de retenção urinária;\n(3) Alteração nas fezes.\n\n**Adequado:** Investiga três itens.\n**Parcialmente adequado:** Investiga de um a dois itens.\n**Inadequado:** Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais.**\n\n**Adequado: **Investiga.\n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico.**\n\n**Adequado: **Solicita.\n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "O Sinal de Giordano positivo, é um achado semiológico que pode estar presente na urolitíase, independente da sua etiologia"
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita manobra de punho percussão (Giordano).**\n\n**Adequado: **Solicita.\n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita:\n(1) Hemograma;\n(2) PCR e(ou) VHS;\n(3) Creatinina\n(4) Ureia;\n(5) Sódio \n(6) Potássio;\n(7) Rotina de urina / sumário de urina / urina tipo 1; e\n(8) Urocultura;\n\n\n**Adequado: **Solicita de sete a oito itens (e obrigatariamente o exame de urina).\n**Parcialmente adequado:** Solicita de quatro a seis itens e obrigatariamente o exame de urina).\n**Inadequado:** Não solicita ou solicita de uma a três itens*",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita:\n(1) Tomografia computadorizada / tomografia de abdome com/\nsem contraste ou tomografia computadorizada / tomografia / TC de rins e vias urinárias;\n(2) Ultrassom/USG/ecografia de abdome ou ultrassom/USG/\necografia de rins e vias urinárias.\n\n**Adequado:** Solicita ambos os itens ou solicita apenas o item 1.\n**Parcialmente adequado:** Solicita apenas o item 2.\n**Inadequado:** Não solicita nenhum dos itens.<br**",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Padrão ouro para diagnóstico de cálculos na via urinária: TAC de abdome total sem contraste. A radiografia e USG também podem ser utilizadas na avaliação inicial, porém apresentam sensibilidade e especificidade limitadas."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Define o diagnóstico de  ureterolitíase/ litíase urinária /\nurolitíase/ uropatia obstrutiva por cálculo. **\n\n**Adequado: **Realiza. \n**Inadequado: **Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Conduta terapêutica: **\n(1) Anti-inflamatórios não hormonais e/ou analgésicos e/ou opioides;\n(2) Terapia medicamentosa de expulsão de cálculos;\n(3) Orienta sobre a importância de ingestão hídrica adequada;\n(4) Encaminha o paciente para acompanhamento ambulatorial.\n\n**Adequado: **Realiza quatro ações. \n**Parcialmente adequado: **Realiza de duas a três ações. \n**Inadequado: **Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "Medidas adicionais: hidratação IV e antieméticos.Expulsão de cálculos: 6 a 10 mm: indicação de medicamento. > 10 mm: requer intervenções ativas."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "uid": 994,
+  "hash": "t3MCWQ2-1WoTAdn1KAJX5grX",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Dermatite Atópica",
+  "definicao": "A dermatite atópica é uma condição crônica, recorrente, inflamatória e pruriginosa da pele, que ocorre com maior frequência em crianças, mas também pode afetar os adultos, os quais representam 1/3 de todos os casos novos da doença. É mais prevalente em pessoas com “tendência atópica”, as quais desenvolvem de uma até três das condições intimamente ligadas: dermatite atópica, rinite alérgica e asma.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "69.00",
+    "star": 0,
+    "time": 596,
+    "count": 5561
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde.\nTipo de atendimento: Ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-  Consultórios;\n-  Laboratório de análises clínicas;\n-  Leito de observação;\n-  Ambulância para transporte do paciente.\n\nDescrição do caso:\nVocê é um médico atuando em uma unidade de atenção primária e atenderá uma paciente de 24 anos, com queixa de coceira no corpo.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal da paciente;\n- Solicitar exame físico direcionado à queixa principal da paciente;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos\nresultados da anamnese e exame físico;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e\nacompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS: **\n-  Francisco, 24 anos de idade, solteiro, estudante.\n\n**MOTIVO DE CONSULTA: **\n- Estou com muita coceira no corpo. \n\n**CARACTERÍSTICAS DO QUADRO: **\n**- Tempo de evolução: **Faz 1 ano mais ou menos que começou. Quando a coceira é muita, vou na farmácia e peço um remédio para coceira. \n**- Localização: **Coça principalmente nas dobras dos joelhos e braços. Às vezes coçam as mãos e os pés também. \n**- Presença de lesões/ manchas/ secreções: **Parece que a pele fica muito irritada, vermelha e com umas bolhinhas. \n**- Frequência: **Geralmente uma ou duas vezes por semana tenho essa coceira. \n**- Fatores de melhora: **Não consta no script. \n**- Fatores de piora: **Quanto mais eu coço, pior fica.\n\n**SINTOMAS ACOMPANHANTES: **\n**- Pele seca: **Sim, minha pele está sempre seca, principalmente no lugar que coça.\n**- Febre: **Nega.\n**- Outros sintomas: **Nega.\n\n**- SE PERGUNTADO POR ALTERAÇÃO NA QUALIDADE DE VIDA DEVIDO AO QUADRO APRESENTADO:**\n- Não, nunca deixo de fazer as minhas coisas, estudar, estar com meus amigos e família.\n\n**CONTATO COM SUBSTÂNCIAS IRRITANTES/ PELO DE ANIMAIS/ ESTRESSE/ MEDICAMENTO NOVO: **\n- Nega.\n\n**ANTECEDENTES PESSOAIS: **\n**- Se o candidato perguntar apenas por doenças/ problemas de saúde: **perguntar a quais doenças ele se refere. \n**- Rinite alérgica: **acho que sim porque quando eu era mais novo espirrava muito, meu nariz coçava e ficava saindo uma secreção clarinha.\n**- Asma: **nega.\n**- Medicamentos: **nega. \n**- Alergia a medicamentos ou alimentos: **que eu saiba não.\n\n**- SE INVESTIGADO SOBRE VIDA SEXUAL: **\n- Tenho relações sempre com preservativo.\n\n**- HÁBITOS: **\n**- Álcool: **de vez em quando tomo cerveja. \n**- Cigarro: **nega. \n**- Drogas ilícitas: **nega.\n**- Sono: **durmo bem, só de vez em quando é difícil dormir quando estou com muita coceira.\n**- Hábito intestinal: **nega alterações.\n**- Urina: **nega alterações.\n**- Alimentação: **variada.\n**- Exercício físico: **musculação.\n\n**ANTECEDENTES FAMILIARES: **\n- Meu pai tem asma.\n\n**DÚVIDAS DO PACIENTE:**\n-Não pode ser outra coisa, Dr(a)?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "Paciente em bom estado geral, afebril, acianótico, anictérico, normocorado e hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Sinais vitais: **\n\n**- Pressão arterial:** 110x70 mmHg.\n\n**- Frequência cardíaca:** 78 batimentos por minuto.\n\n**- Saturação de O2:** 99% de oxigênio em ar ambiente.\n\n**- Temperatura axilar:** 36.3° C \n\n**- Frequência respiratória:** 12 incursões por minuto. \n\n\n\n**Abdominal: **\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem visceromegalias. \n\n\n\n**Aparelhos respiratório, cardiovascular e digestório:** sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_3124.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia de pele e mucosas",
+      "conteudo": "**Pele: **Se observa xerose localizada e liquenificação.\n\nLesões em dobras cutâneas com base eritematosa e regiões de escoriação.\n\n\n\n**Mucosas: **Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese, perguntando sobre as características da\nqueixa principal:**\n(1) Tempo de evolução;\n(2) Localização;\n(3) Presença de lesões ou manchas ou secreção;\n(4) Fatores de piora/ Agravantes;\n(5) Fatores de melhora/ Atenuantes;\n(6) Contato com substâncias irritantes/alergênicas/trauma. \n\n**Adequado: **Investiga cinco ou seis itens. \n**Parcialmente adequado: **Investiga quatro itens. \n**Inadequado: **Investiga três itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre manifestações clínicas associadas ao\nquadro:**\n(1) Presença de febre;\n(2) Xerose ou pele seca;\n\n**Adequado: **Investiga os dois itens. \n**Parcialmente adequado: **Investiga um item. \n**Inadequado: ** Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais: **\n(1) Rinite alérgica ou asma;\n(2) Uso de medicamentos;\n(3) Alergia medicamentosa;\n(4) Alergia a alimentos;\n(5) Vida sexual. \n\n**Adequado: ** Investiga de quatro itens ou mais.\n**Parcialmente adequado: **Investiga três itens. \n**Inadequado: **Investiga dois itens ou menos.\n\n**Obs.: **Não será pontuado o candidato que perguntar por **doenças **ou **problemas de saúde **de forma inespecífica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga prejuízos na qualidade de vida perguntando sobre aspectos pessoais, sociais ou familiares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Em relação à qualidade de vida, um relevante método de avaliação é o Índice de Qualidade de Vida Dermatológico (DLQI), instrumento validado para uso no Brasil."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta por antecedentes familiares de asma ou rinite alérgica ou dermatite atópica. **\n\n**Adequado: **Pergunta sobre alguma das doenças citadas. \n**Inadequado: **Não pergunta.\n\n**Obs.: **Não será pontuado o candidato que perguntar por **doenças **ou **problemas de saúde **na família de forma inespecífica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita: **\n(1) Exame físico;\n(2) Ectoscopia de pele e mucosas ou solicita ver as lesões.\n\n**Adequado: **Solicita os dois itens.\n**Parcialmente adequado: **Solicita somente o item (2). \n**Inadequado: **Não solicita o item (2) ou não solicita item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Formula a hipótese diagnóstica:** Dermatite atópica. \n\n**Adequado: **Formula a hipótese. \n**Inadequado: **Não formula a hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.75"
+      },
+      "dica_teorica": "Consultar na referência bibliográfica (disponível ao final do checklist) os critérios diagnósticos de dermatite atópica de Hanifin e Rajka e do Reino Unido. Os critérios de Hanifin e Rajka são mais abrangentes e geralmente considerados o “padrão de ouro” para o diagnóstico."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Cita diagnósticos diferenciais: **\n(1) Dermatite de contato alérgica ou irritante;\n(2) Líquen simples crônico;\n(3) Psoríase;\n(4) Escabiose;\n(5) Dermatite numular;\n(6) Tinea corporis;\n(7) Urticária. \n\n**Adequado: **Cita três diagnósticos diferenciais. \n**Parcialmente adequado: **Cita dois diagnósticos diferenciais. \n**Inadequado: **Cita um ou nenhum diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Prescreve tratamento não medicamentoso:**\n(1) Uso de emoliente/ hidratante corporal;\n(2) Banhos com água morna ou evitar água muito quente;\n(3) Usar preferencialmente sabonete com pH fisiológico (levemente ácido);\n(4) Evitar o hábito de coçar;\n(5) Usar roupas macias (como de algodão) ou evitar roupas/ acessórios de lã;\n(6) Lavar as roupas com sabão suave e/ou evitar amaciante/ alvejante;\n(7) Oferece apoio psicológico. \n\n**Adequado: **Realiza quatro condutas ou mais.\n**Parcialmente adequado: **Realiza três condutas. \n**Inadequado: **Realiza duas condutas ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "1.75"
+      },
+      "dica_teorica": "Cremes mais espessos, com baixo teor de água, ou pomadas com zero teor de água são preferíveis, pois garantem melhor proteção contra a xerose. Na Relação Nacional de Medicamentos Essenciais (RENAME) estão incluídos o gel e o creme de babosa (Aloe vera (L.) Burm. f.).Consultar por Babosa no RENAME (disponível na plataforma)."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Prescreve tratamento com corticóide tópico.**\n\n**Adequado: **Prescreve. \n**Inadequado: **Não prescreve.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "Corticoides tópicos disponíveis no SUS: dexametasona e acetato de hidrocortisona (consultar o RENAME na plataforma). Não há recomendação formal para o uso de anti-histamínicos como adjuvante terapêutico (poucas evidências baseadas em ensaios clínicos). No entanto, alguns anti-histamínicos sedativos como dexclorfeniramina podem melhor a qualidade do sono de pacientes com prurido."
+    }
+  ]
+}

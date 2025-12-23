@@ -1,0 +1,212 @@
+{
+  "uid": 1007,
+  "hash": "IP-uR8Mx-hCejzYNqIC-p-s1",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Semiologia Abdominal – Apendicite Aguda",
+  "definicao": "Procedimento.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "58.50",
+    "star": 0,
+    "time": 500,
+    "count": 2847
+  },
+  "cenario": "Nível de atenção: Atenção terciária a saúde.\nTipo de atendimento: Pronto socorro.\n\nA Unidade possui a seguinte infraestrutura: \n-Setor de radiologia convencional, ultrassonografia e tomografia; \n-Laboratório de análises clínicas; \n-Leitos de internação e centro cirúrgico. \n\nDescrição do caso: \nVocê irá atender uma paciente do sexo feminino, de 18 anos, com queixa de dor abdominal de 48 horas de evolução, que começou no epigástrio e migrou para a fossa ilíaca direita, de intensidade 7/10, de tipo contínua e progressiva, associada a náuseas, anorexia e febre baixa. Não possui demais alterações gastrointestinais. Nega cirurgias prévias, comorbidades, medicamentos de uso contínuo e alergias. \n\nSinais Vitais: \n- PA: 120x80 mmHg \n- FC: 85 bpm \n- FR: 17 irpm \n- Saturação: 98% AA \n- Temperatura: 37,3°C \n\nCONSIDERE A PRESENÇA DO MANEQUIM NA MACA. \n\nATENÇÃO! NÃO SERÁ NECESSÁRIO REALIZAR ANAMNESE.",
+  "tarefas": "-Realize e verbalize o exame físico abdominal completo da paciente.\n-Realize e verbalize a técnica de pelo menos três manobras semiológicas relacionadas ao motivo de consulta.\n-Cite a principal hipótese diagnóstica  e pelo menos três diagnósticos diferenciais.\n-Mencione a conduta imediata indicada a este paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\nAmanda, 22 anos, estudante.\n\n**COMANDOS:**\n1) **AO VERBALIZAR EXAME FÍSICO:** liberar o impresso número 1.\n2) **AO TÉRMINO DO EXAME FÍSICO:** liberar o impresso número 6.\n3) **AO TERMINAR DE VERBALIZAR/EXPLICAR OS SINAIS PROPEDÊUTICOS OU PONTOS DOLOROSOS OU MANOBRAS SEMIOLÓGICAS:** liberar o impresso número 7.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico Abdominal",
+      "conteudo": "**Verbalize** todas as etapas do exame físico abdominal.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Inspeção",
+      "conteudo": "Verbalize o que você avaliará nesta etapa.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Auscultação",
+      "conteudo": "Verbalize como você irá realizar a ausculta e mencione o que você deverá avaliar.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Percussão",
+      "conteudo": "Verbalize como você realizará esta etapa.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Palpação",
+      "conteudo": "- **Verbalize** Como você avaliará esta etapa. \n\n- **Mencione** quais são os pontos dolorosos existentes na semiologia abdominal (mínimo três).\n\n- **Mencione e explique** As manobras/pontos dolorosos que são pertinentes ao caso (mínimo três).",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "Achados do Exame Físico Abdominal",
+      "conteudo": "**Inspeção:** Abdome simétrico e levemente distendido. Ausência de cicatrizes, hematomas, abaulamentos e retrações.\n\n**Ausculta:** RHA diminuídos nos quatro quadrantes; Ausência de sopros.\n\n**Palpação:** Dor difusa à palpação superficial e profunda, com maior intensidade em fossa ilíaca direita. Fígado e baço não palpáveis.\n\n**Percussão:** Em hipocôndrio direito apresenta macicez hepática e nos demais quadrantes timpanismo. Espaço de Traube livre.",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "Sinais Propedêuticos/Pontos dolorosos abdominais/Manobras Semiológicas",
+      "conteudo": "**Mc Burney:** Positivo.\n\n**Blumberg:** Positivo em fossa ilíaca direita.\n\n**Obturador**: Negativo.\n\n**Rovsing:** Positivo.\n\n**Ponto Cístico:** Negativo.\n\n**Aaron:** Positivo.\n\n**Lapinsky:** Negativo.\n\n**Psoas-íliaco:** Negativo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação**: \n(1) Identifica-se; \n(2) Pergunta o nome, idade e profissão do paciente.\n\n**Adequado:** Realiza ambas ações.\n**Parcialmente adequado:** Realiza somente uma ação.\n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Prepara para iniciar o exame físico abdominal:**\n(1) Solicita que o paciente esteja em decúbito dorsal OU posição supina;\n(2) Pernas estendidas;\n(3) Mãos e braços ao lado do corpo; \n(4) Retira/solicita ao paciente para retirar a camiseta/roupa descobrindo a área abdominal;\n(5) Posiciona-se ao lado direito do paciente\n\n**Adequado:** Realiza as cinco ações.\n**Parcialmente adequado:** Realiza de duas a quatro ações.\n**Inadequado:** Realiza uma ou zero ações.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Sobre o exame físico:**\n(1) Solicita permissão para realizar o exame físico;\n(2) Lava as mãos; e \n(3) Calça as luvas.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realiza de duas ações.\n**Inadequado:** Realiza uma ou zero ações.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Inicia o exame físico através da Inspeção abdominal, verbalizando:**\n(1) Que nesta etapa se avalia de forma estática e dinâmica; e que irá verificar\n(2) O formato do abdome;\n(3) A coloração da pele; \n(4) A presença de cicatrizes e/ou estrias e/ou equimose; \n(5) A presença de abaulamentos OU massas OU protusões; \n(6) A presença/padrão de circulação colateral; \n(7) A presença de retrações/assimetrias;\n(8) A presença de hérnias OU eventrações.\n(9) Pilificação/destribuição dos pelos.\n(10) Cicatriz umbilical.\n \n**Adequado:** Verbaliza de oito a dez itens.\n**Parcialmente adequado:** Verbaliza seis ou sete itens.\n**Inadequado:** Verbaliza cinco ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Realiza Auscultação abdominal após a inspeção e antes da percussão/palpação, verbalizando que:**\n(1) Vou utilizar o estetoscópio para realizar a ausculta abdominal.\n(2) Auscultar nos 4 OU 9 quadrantes abdominais e os sons auscultados são chamados de ruídos hidroaéreos; \n(3) Nesta etapa do exame físico, o ideal é auscultar entre 1-2 minutos em cada quadrante;\n(4) Além de avaliar os RHA, verificará se há sopros abdominais.\n\n**Adequado:** Verbaliza os quatro itens.\n**Parcialmente adequado:** Verbaliza dois ou três itens.\n**Inadequado:** Verbaliza um item ou menos OU realiza a ausculta após a percussão OU palpação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Realiza a Percussão abdominal após a auscultação, verbalizando que:** \n(1) Deve ser feita nos 4 OU 9 quadrantes, utilizando a técnica dígito-digital;\n(2) O ouvido do examinador deve estar a menos de 1 metro do plexímetro e plexor;\n(3) Percutir o espaço semilunar de Traube.\n\n**Adequado:** Verbaliza os três itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Realiza a Palpação abdominal após a percussão, verbalizando:**\n(1) Irei realizar a palpação com minhas mãos.\n(2) Que nesta etapa se avalia de forma superficial e profunda;\n(3) Deve ser realizada nos 4 OU 9 quadrantes;\n(4) A palpação começará seguindo a ordem da região menos dolorosa para mais dolorosa;\n(5) Irei buscar visceromegalias, palpando fígado e baço.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** três ou quatro itens.\n**Inadequado:** Realiza dois ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza quais são os pontos dolorosos explorados na semiologia abdominal:**\n(1) Ponto cístico;\n(2) Ponto de McBurney Direito;\n(3) Ponto de Morris;\n(4) Ponto de McBurney esquerdo;\n(5) Ponto ureteral superior; e\n(6) Ponto ureteral médio.\n\n**Adequado:** Verbaliza cinco ou seis itens.\n**Parcialmente adequado:** Verbaliza três ou quatro itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Avalia se a paciente apresenta Sinal de Blumberg positivo:**\n(1) Explica que irá realizar uma compressão no ponto de MCBurney direito seguido de uma descompressão súbita;\n(2) Explica que presença ou piora da dor indica inflamação peritoneal (Blumberg positivo);\n(3) Verbaliza que o ponto de Mcburney direito se localiza no terço médio distal de uma linha traçada entre a espinha ilíaca direita antero-superior e o umbigo; \n\n**Adequado:** Realiza de duas a três ações.\n**Parcialmente adequado:** Realiza apenas umas das ações.\n**Inadequado:** Não cumpre nenhuma das ações.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. ** Realiza outras manobras semiológicas e palpação de outros pontos dolorosos orientados ao problema:**\n(1) Rovsing, explicando que realizará uma compressão na fossa ilíaca esquerda ou flanco esquerdo; \n(2) Aaron, explicando que realizará uma compressão na FID ou ponto de McBurney direito; \n(3) Lapinsky, explicando que elevará o membro inferior direito estendido; \n(4) Dunphy, explicando que realizará uma percussão em FID ou solicitará ao paciente que simule uma tosse; \n(5) Obturador, explicando que realizará uma flexão da perna sobre a coxa seguido de uma rotação interna da perna direita mantendo a perna esquerda estendida;\n(6) Íleo-psoas, explicando que o paciente deve estar em decúbito lateral esquerdo e logo realizará uma extensão completa da perna direita;\n(7) Murphy, explicando que realizará uma compressão no ponto cístico e solicitar que a paciente realize uma inspiração profunda;\n\n**Adequado:** Verbaliza quatro ou mais itens.\n**Parcialmente adequado:** Verbaliza ao menos três itens. \n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza apendicite aguda como principal hipótese diagnóstica:**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza diagnósticos diferenciais:**\n(1) Gastrite;\n(2) Diverticulite Aguda; \n(3) Pancreatite Aguda; \n(4) Colecistite Aguda; \n(5) Gastroenterocolite Aguda;\n(6) Abscesso ovariano;\n(7) Gravidez ectópica rota; \n(8) Doença Inflamatória Pélvica.\n\n**Adequado:** Verbaliza quatro ou mais itens.\n**Parcialmente adequado:** Verbaliza ao menos três itens.\n**Inadequado:** Verbaliza dois ou menos diagnóstico diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Indica a conduta imediata:**\n(1) Internação/sinônimos para internação;\n(2) Dieta zero/jejum;\n(3) Hidratação parenteral;\n(4) Analgesia; \n(5) Antitérmico;\n(6) Antiemético; \n\n**Adequado:** Indica quatro ou mais condutas.\n**Parcialmente adequado:** Indica três condutas\n**Inadequado:** Indica duas ou menos condutas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

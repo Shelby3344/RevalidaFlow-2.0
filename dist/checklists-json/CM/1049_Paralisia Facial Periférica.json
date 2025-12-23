@@ -1,0 +1,155 @@
+{
+  "uid": 1049,
+  "hash": "cymC7K3z2U9pRQXdO1DGYq1O",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Paralisia Facial Periférica",
+  "definicao": "A Paralisia Facial Periférica (PFP) refere-se ao acometimento do nervo facial (VII nervo craniano) em qualquer ponto de seu trajeto, que se inicia a partir de seu núcleo, localizado na ponte, e vai até as suas ramificações mais distais.  A causa mais comum de PFP é a forma idiopática, também conhecida por paralisia de Bell, cuja incidência é de 20 a 30 casos por 100 mil habitantes por ano e que responde por cerca de 70% de todos os casos de PFP.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "53.00",
+    "star": 0,
+    "time": 573,
+    "count": 3874
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Unidade de Pronto atendimento (UPA).\n\nA unidade possui a seguinte infraestrutura:\n- Laboratório de análises clínicas;\n- Exames de imagem básicos (raio-x e tomografia conforme disponibilidade);\n- Sala de emergência.\n\nDESCRIÇÃO DO CASO:\nVocê atende um paciente masculino de 45 anos, trazido por familiares. O paciente refere perceber que sua boca está torta e está muito preocupado, pois seu irmão, de 59 anos, teve um AVC há 2 anos.",
+  "tarefas": "- Realizar anamnese completa;\n- Solicitar exame físico detalhado;\n- Solicitar exames complementares adequados;\n- Estabelecer hipótese diagnóstica;\n- Citar ao menos 3 etiologias para esse diagnóstico;\n-Verbalizar diagnósticos diferenciais;\n- Definir conduta terapêutica;\n- Responder às dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS: **\n- João, 45 anos de idade, carpinteiro.\n\n**MOTIVO DE CONSULTA:**\n- Doutor (a), acho que tive um AVC. Acordei hoje de manhã com a boca torta.\n\n**CARACTERÍSTISCA DO QUADRO:**\n**- Inicio dos sintomas: **Acordei assim, já faz umas 8 horas.\n**- Parestesia/ formigamento/ anestesia na face: **Sim, do lado esquerdo não sinto bem.\n**- Qualquer outro sintoma perguntado: **Não consta no script.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nega. \n**- Medicamentos: **Nega. \n**- Cirurgias: **Nega.\n**- Cartão de vacina: **Atualizado. \n**- Viagens recentes: **Nega.\n**- História de trauma de crânio ou face: **Nega.\n\n**HÁBITOS: **\n**- Cigarro: **Um maço por dia. \n**- Álcool: **Cachaça e cerveja. \n**- Drogas: **Nega. \n**- Fezes, urina: **Nega alterações.\n**- Atividade física: **Faço caminhada 3 vezes por semana. \n**- Alimentação: **Variada.\n**- Peso corporal: **Nega alterações.\n\n**ANTECEDENTES FAMILIARES:**\n- Meu irmão teve AVC há 2 anos.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n**- Pressão arterial:** 125x70 mmHg \n\n**- Frequência cardíaca:** 88 batimentos por minuto \n\n**- Saturação de O2:** 99% \n\n**- Temperatura axilar:** 36.3° C \n\n**- Frequência respiratória:** 16 incursões por minuto \n\n\n\n**Dados antropométricos:**\n\n**- IMC:** 23 kg/m2 \n\n**- Circunferência abdominal:** 91 cm\n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, normocorado e hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias. \n\n\n\nAusência de adenomegalias.\n\n\n\n**ATENÇÃO! VERBALIZE AO MENOS 3 ACHADOS SEMIOLÓGICOS DA IMAGEM. **",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame neurológico",
+      "conteudo": "Paciente alerta, orientado no tempo e espaço.\n\n\n\n**Marcha e equilíbrio dinâmico:** Sem alterações. \n\n\n\n**Equilíbrio estático:** Preservado. \n\n\n\n**Motricidade:** Preservada nos 4 membros. \n\n\n\n**Coordenação motora:** Preservada.\n\n\n\n**Força muscular:** Grau 5 nos 4 membros. \n\n\n\n**Sensibilidade:** Diminuída na hemiface esquerda. \n\n\n\n**Reflexos:** Normorreflexia.\n\n\n\n**Nervos cranianos:** Alterações de sensibilidade e motricidade do nervo facial esquerdo.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Otoscopia",
+      "conteudo": "**Dentro dos parâmetros de normalidade.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Acolhimento:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza apenas uma ação ou nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "1. **Investiga o quadro perguntando:**\n(1) Início dos sintomas;\n(2) Alteração de sensibilidade na face;\n(3) Otalgia e/ou hipoacusia;\n(4) Vertigem;\n(5) Episódios anteriores.\n\n**Adequado: **Investiga de quatro a cinco itens.\n**Parcialmente adequado: **Investiga três itens.\n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "2. **Investiga outros sinais e sintomas:**\n(1) Perda de força muscular de membros superiores e/ou inferiores;\n(2) Desmaio ou queda ou convulsão;\n(3) Alteração auditiva;\n(4) Perda de equilíbrio;\n(5) História de trauma de crânio e/ou face;\n(6) Febre;\n(7) Perda de peso não intencional.\n\n**Adequado: **Investiga de cinco a sete itens.\n**Parcialmente adequado: **Investiga de três a quatro itens.\n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "3. **Investiga antecedentes pessoais:**\n(1) Doenças;\n(2) Medicamentos;\n(3) Cirurgias;\n(4) Alergias;\n(5) Cartão de vacinas.\n\n**Adequado: **Investiga cinco itens.\n**Parcialmente adequado: **Investiga quatro itens.\n**Inadequado: **Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "4. **Investiga antecedentes familiares:**\n\n**Adequado: **Investiga.\n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "5. **Solicita:**\n(1) Exame físico geral;\n(2) Exame neurológico;\n(3) Otoscopia.\n\n**Adequado: **Solicita três itens.\n**Parcialmente adequado: **Solicita dois itens.\n**Inadequado: **Solicita um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "- Importância da otoscopia:  a síndrome de  Ramsay Hunt  resulta do comprometimento do  gânglio geniculado  do nervo facial pela reativação do vírus varicela-zóster.  Caracteriza‐se pela tríade:  erupção vesico‐pústulo‐crostosa ao redor do meato acústico externo e pavilhão auricular, paralisia facial ipsilateral e lagoftalmo."
+    },
+    {
+      "idx": 7,
+      "descricao": "6. **Interpreta a imagem do exame físico:**\n(1) Incapacidade de levantar a sobrancelha esquerda ou franzir o lado esquerdo da testa;\n(2) Incapacidade de fechar completamente o olho esquerdo;\n(3) Deslocamento do globo ocular ou sinal de Bell;\n(4) Desvio da boca para a direita devido à paralisia do lado esquerdo.\n\n**Adequado: **Interpreta de três a quatro achados.\n**Parcialmente adequado: **Interpreta dois achados.\n**Inadequado: **Interpreta um ou nenhum achado.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "O ponto principal na paralisia facial é  diferenciar entre periférica e central.  Na  paralisia central  o paciente é capaz de levantar as duas sobrancelhas (franzir a testa) e fechar completamente os olhos. Já na  periférica  ocorre afetação de toda a hemi-face."
+    },
+    {
+      "idx": 8,
+      "descricao": "7. **Realiza o diagnóstico de Paralisia Facial Periférica ou Paralisia de Bell.**\n\n**Adequado: **Realiza.\n**Inadequado: **Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "8. **Cita etiologias para o diagnóstico:**\n(1) Infecções;\n(2) Trauma de crânio e/ou face;\n(3) Neoplasias;\n(4) Diabetes;\n(5) Amiloidose;\n(6) Lesão do nervo facial devido a procedimento cirúrgico;\n(7) Doença autoimune.\n\n**Adequado: **Cita quatro etiologias.\n**Parcialmente adequado: **Cita de duas a três etiologias.\n**Inadequado: **Cita apenas uma ou nenhuma etiologia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "9. **Conduta terapêutica:**\n(1) Corticoide via oral;\n(2) Colírio lubrificante;\n(3) Curativo oclusivo do olho durante o sono;\n(4) Fisioterapia.\n\n**Adequado: **Indica de três a quatro ações.\n**Parcialmente adequado: **Indica duas ações.\n**Inadequado: **Indica uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "O uso rotineiro do tratamento combinado (corticoide e antiviral) não é recomendado, mas pode ser considerado em pacientes com paralisia grave ou completa (escala de House-Brackmann V ou VI).Apesar de algumas controvérsias na literatura, a reabilitação com fisioterapia pode ser indicada para prevenir atrofia e melhorar a função muscular."
+    }
+  ]
+}

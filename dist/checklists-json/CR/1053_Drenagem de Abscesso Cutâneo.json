@@ -1,0 +1,215 @@
+{
+  "uid": 1053,
+  "hash": "qciPJ-DvrKpSWTu-Lr_mnYgF",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Drenagem de Abscesso Cutâneo",
+  "definicao": "Abscesso, por definição, constitui-se de coleção de pus na derme e tecidos profundos adjacentes.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "46.50",
+    "star": 0,
+    "time": 420.5,
+    "count": 5934
+  },
+  "cenario": "Nível de atenção: Atenção primária a saúde.\nTipo de atendimento: Pronto - socorro.\nA unidade conta com a seguinte infraestrutura: \nLaboratório de análises clínicas; \nUltrassonografia; \nSala de procedimentos. \n\nDescrição do caso: \nHomem, 36 anos, queixando-se de nodulação dolorosa nas costas.",
+  "tarefas": "Nos 10 minutos próximos de duração da estação você deverá realizar as seguintes tarefas:\n-Realizar a anamnese e exame físico do paciente;\n-Verbalizar o diagnóstico.\n-Adota a (s) conduta (s) terapêuticas (s) necessária (s) ao caso.\n-Verbalizar a realização de procedimentos médicos, se necessário.\n-Verbalizar complicações do quadro apresentado (mínimo 2);\n-Sanar dúvidas e orientar sobre o seguimento ao paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\nPedro, 36 anos, professor, casado. \n\n**MOTIVO DE CONSULTA:**\nDr (a), eu tenho uma bolinha nas costas sabe, faz um tempo já, mas nesses últimos dias ela começou a doer bastante e ficar vermelha, você da uma olhada pra mim?\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**-Tempo de evolução:** A bolinha já faz 1 ano, mas começou a piorar tem uns 5 dias.\n**-Primeiro episódio:** Sim. \n**-Febre:** Me senti mais quente ontem e hoje, mas não medi a temperatura.\n**-Usou ou tomou algum medicamento:** Tomei dipirona e melhorou a sensação de febre, ontem tbm tomei ibuprofeno.\n**-Lesão ou Corte ou Picada no local:** Acho que não.\n**-Secreção:** Nega. \n**-Trauma:** Nega.\n**-Alergias:** Nega.\n**-Comorbidades:** Hipertensão, diabetes mellitus e já fiz um transplante de fígado há uns 3 anos. \n**-Uso de medicamentos de uso contínuo:** Não lembro o nome de todos, losartana, metformina e outros que não me lembro.\n**-Vacinas:** Completas. \n\n**Dúvida caso o candidato não indique antibióticos:**\n- Dr (a) não preciso tomar antibióticos??",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão** **arterial**: 110x80 mmHg\n\n- **Frequência** **cardíaca**: 80 batimentos por minuto\n\n- **Frequência** **respiratória**: 16 incursões por minuto\n\n- **Saturação** **de** **O2**: 98%\n\n- **Temperatura** **axilar**: 37.6° C\n\n\n\n**IMC:** 30 kg/m2\n\n\n\n**Estado Geral:** \n\nPaciente em bom estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1703785062.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia da lesão",
+      "conteudo": "Presença de abscesso cutâneo de aproximadamente 2,2 cm no dorso, com ponto de supuração central.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Se apresenta, pergunta o \n(2) nome, idade e profissão do paciente simulado.\n\n**Adequado:** Realiza ambas ações. \n**Inadequado:** Não realiza as ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Sobre o motivo de consulta e sinais e sintomas associados:**\n(1) Questiona sobre o motivo de consulta \n(2) Tempo de evolução; \n(3) Primeiro episódio \n(4) Trauma OU Lesão OU Corte OU Picada no local; \n(5) Comorbidades; \n(6) Uso de medicamentos; \n(7) Alergias; \n(8) Presença de febre.\n\n**Adequado:** Questiona sete ou oito sintomas.\n**Parcialmente adequado:** Questiona cinco ou seis sintomas.\n**Inadequado:** Questiona quatro ou menos sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Exame físico:**\n(1) Solicita exame físico;(2) verbaliza o diagnóstico de \n Abscesso Cutâneo e a (3) necessidade de drenagem.\n\n**Adequado:** Solicita e verbaliza os três itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita apenas um item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Procedimento:**\n (1) Explica o procedimento ao paciente \n (2) pede autorização para a sua realização.\n\n**Adequado:** Realiza ambas ações. \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.  **Procedimento:**\n(1)Realiza assepsia com  clorexidina ou iodopovidona tópico; \n(2) Paramenta-se com luvas estéreis, máscara e  óculos de proteção. \n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Procedimento:**  Verifica se o abscesso possui flutuação ou verbaliza que ele tem ponto de flutuação como visto no exame físico.\n\n**Adequado:** Verbaliza\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Procedimento: **\nSolicita  lidocaína 1% sem vasoconstritor usando a agulha 40 x 12 ou rosa , aspira o anestésico do frasco (dose de 7-10 mg/kg) e  troca a agulha pela hipodérmica.\n\n**Adequado:** Realiza o procedimento completo.\n**Inadequado:** Não realiza ou realiza incompleto.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8.  **Procedimento: **\n(1) Introduz anestésico a  1 cm do perímetro de maior sinal de flutuação e logo  continua o bloqueio de maneira regional anestesiando em halo ao redor do abscesso \n\n**Adequado:** Realiza a anestesia desde o perímetro de maior flutuação e em toda a lesão. \n**Parcialmente adequado:** Realiza a anestesia começando em outro local. \n**Inadequado:** Não realiza anestesia.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Procedimento:**\nRealiza a  incisão para promover a  drenagem com saída espontânea da secreção purulenta; não espreme a pele circunjacente. \n\n**Adequado:** Realiza o procedimento completo. \n**Inadequado:** Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Procedimento:**\n Coloca pinça hemostática na cavidade quebrando as loculações e liberando quaisquer bolsas de material purulento residuais.\n\n**Adequado:** Verbaliza a necessidade de usar a pinça para quebrar loculações.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Procedimento:**\nIrriga a cavidade com soro fisiológico para limpeza do local.\n\n**Adequado:** Realiza a ação \n**Inadequado:** Não realiza",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Procedimento:**\nIntroduz uma  gaze ou um dreno de Penrose no local com 1 a 2 cm para fora da incisão (para permitir drenagem adequada e impedir que a incisão fique selada e fixa com um ponto simples frouxo de nylon 3.0. \n\n**Adequado:** Realiza ambas ações. \n**Parcialmente adequado:** Só realiza uma ação.\n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Procedimento:**\n(1) Realiza o curativo com gaze.\n\n**Adequado:** Realiza o curativo. \n**Inadequado:** Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Indica antibióticos:** \n(1) Cefalexina OU Sulfametoxazol Trimetopim OU Doxiciclina.\n\n**Adequado:** Indica antibióticos. \n**Inadequado:** Não indica antibióticos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A antibioticoterapia está indicada se houver celulite coexistente, se o paciente for imunocomprometido ou tiver um corpo estranho (enxerto vascular, telas, cateteres e válvulas). • Se necessário, os antibióticos utilizados são: penicilinas, cefalosporinas de 1a geração e quinolonas (nível ambulatorial)."
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Cita complicações:**\n (1) Recidiva do abscesso \n( 2) sangramentos; \n(3) Disseminação sistêmica da infecção; \n(4) endocardites; \n(5) osteomielites; \n(6) formação de abscessos pleurais. \n\n**Adequado:** Cita ao menos duas complicações. \n**Inadequado:** Não cita.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Seguimento:**\n(1) Retornar em um ou dois dias: \n(2) Associar compressas mornas no local, durante 15 minutos, 4x ao dia, até melhora; \n(3) Trocar os curativos diariamente; \n(4) Ficar alerta para sinais de infecção sistêmica (febre, aumento da dor, eritema, edema e calor no local); \n(5) Suporte analgésico para a dor.\n\n**Adequado:** Cita quatro ou cinco condutas.\n**Parcialmente adequado:** Cita três condutas. \n**Inadequado:** Cita duas ou menos condutas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

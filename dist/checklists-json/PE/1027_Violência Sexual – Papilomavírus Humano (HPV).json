@@ -1,0 +1,155 @@
+{
+  "uid": 1027,
+  "hash": "nJ-HYWjzV41NGwN_yrLQQ3pv",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Violência Sexual – Papilomavírus Humano (HPV)",
+  "definicao": "Violência Sexual - Papilomavírus Humano (HPV) é o ato de constranger alguém com gestos, palavras ou com o emprego de violência, prevalecendo-se de relações de confiança, de ascendência, de superioridade hierárquica, de autoridade ou de relação de emprego ou serviço, com o objetivo de obter vantagem sexual.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "73.50",
+    "star": 0,
+    "time": 586.5,
+    "count": 3739
+  },
+  "cenario": "Local de atuação: Unidade de atenção terciária.\nTipo de atendimento: Urgência e Emergência.\nConsidere infraestrutura compatível com o nível de atenção.\n\nDescrição do Caso:\nUma criança do sexo masculino com 4 anos de idade chega à consulta no pronto-socorro conduzida pela mãe, que está muito preocupada. Ela relata que o menor vem apresentando lesões na região perianal.\n\nATENÇÃO! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar a anamnese; \n-Realizar o exame físico geral e segmentar se necessário; \n-Solicitar exames complementares se necessário; \n-Propor plano terapêutico conjunto.",
+  "script_ator": "**DADOS DA MÃE:**\n- Maria, 32 anos, diarista.\n\n**DADOS DA CRIANÇA:**\n- João Pedro, 4 anos.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a), meu filho está com umas lesões na região do ânus.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n- Dr(a), notei isso há uns 4 dias. São como umas verrugas, e ele parece estar desconfortável e diz que dói o local.\n\n**CUIDADO DA CRIANÇA:**\n**- Quem cuida:** - Ele passa o dia com o vizinho, um senhor amigo da família.\n**- Comportamento estranho:** - Nunca notei nada de estranho.\n**- Contato com outros adultos:** - Ele ainda não vai à escola e não tem muito contato com outras crianças.\n\n**AVALIAÇÃO AMPLA E PSICOLÓGICA DA CRIANÇA:**\n- Dr(a), ele é um pouco tímido, mas ultimamente está mais retraído. Observei que ele tem tido pesadelos e também voltou a fazer xixi na cama.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- Nega.\n\n**ANTECEDENTES PERINATAIS (PRÉ-NATAL | PARTO | PÓS-NATAL):**\n- Dr(a), o pré-natal foi normal. Parto cesárea, sem complicações.\n\n**ALIMENTAÇÃO:**\n- Ele tem comido menos.\n\n**DIURESE E CATARSE:**\n- Não notei alterações.\n\n**ALERGIAS:**\n- Nega.\n\n**MEDICAÇÕES DE USO CONTÍNUO OU RECENTE:**\n- Nega.\n\n**CARTÃO DE SAÚDE DA CRIANÇA:**\n- Todas as vacinas estão atualizadas.\n\n**DÚVIDAS:**\n**- Pergunta 1:** - O que essas lesões significam? É algo grave?\n**- Pergunta 2:** - Ele vai precisar fazer mais exames?\n**- Pergunta 3:** - Como ele pode ter contraído isso?\n**- Pergunta 4:** - Quais são as opções de tratamento? Ele vai precisar tomar remédios?\n**- Pergunta 5:** - Isso precisa ser relatado às autoridades? Tenho medo de tomarem meu filho de mim.\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**\n\n**- Pressão arterial: **100/60 mmHg\n\n**- Frequência cardíaca:** 90 bpm\n\n**- Frequência respiratória:** 20 rpm\n\n**- Temperatura:** 36.8°C\n\n\n\n**Dados Antropométricos**\n\n**- Peso:** 18 kg\n\n**- Altura:** 110 cm\n\n**- IMC:** 14.8 (abaixo do peso)\n\n\n\n**- Exame físico:**\n\n Bom estado geral, lúcido, orientado no tempo e espaço, PIRS, sem sinais meníngeos, ECG: 15/15. Reflexos: Normais.\n\n\n\n**-Aparelho respiratório:**\n\n Murmúrios vesiculares presentes, sem ruídos adventícios.\n\n\n\n**- Aparelho cardiovascular:** RCR 2T, sem sopros, pulsos cheios, simétricos.\n\n\n\n**-Abdome:** \n\nPlano, flácido, indolor à palpação, sem massas ou visceromegalias.\n\n\n\n**- Exame de Membros Superiores e Inferiores:** \n\nSem deformidades, boa mobilidade e força, pulsos periféricos presentes.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1700763158.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "INSPEÇÃO DA LESÃO ",
+      "conteudo": "**Anuscopia e Inspeção Anal:**\n\n- Lesões verrucosas na região perianal, compatíveis com condiloma acuminado;\n\n- Esfíncter anal com tônus preservado;\n\n- Sem sinais de sangramento no momento ou outras alterações;\n\n- Exame de genitais: sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "SOROLOGIAS",
+      "conteudo": "**HIV: **Não reagente \n\n**SÍFILIS: **Não reagente\n\n**HEPATITE B:** Negativo \n\n**HEPATITE C:** Negativo",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:** \n(1) Identifica-se; \n(2) Cumprimenta a mãe de maneira adequada/cordial; \n(3) Mantém contato visual; \n(4) Pergunta o nome da mãe e da criança.\n\n**Adequado:** Realiza os quatro itens. \n**Parcialmente adequado:** Realiza dois ou três itens; \n**Inadequado:** Realiza um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Questiona sobre a queixa:**\n(1) Início;\n(2) Saída de sangue ou secreção;\n(3) Prurido;\n(4) Dor.\n\n**Adequado:** Pergunta três ou quatro itens.\n**Parcialmente adequado:** Pergunta pelo menos um ou dois itens.\n**Inadequado:** Não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga exposição de risco:**\n(1) Quem cuida da criança;\n(2) Alteração no comportamento da criança.\n\n**Adequado:** Pergunta com quem a criança fica, se há outros adultos ou crianças presentes e se notou algo estranho.\n**Parcialmente adequado:** Pergunta apenas um ou dois dos itens.\n**Inadequado:** Não pergunta sobre nenhum dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Avalia os aspectos Psicológicos da criança:**\n(1) Irritabilidade, choro;\n(2) Tristeza, medo, pesadelos;\n(3) Enurese noturna;\n(4) Alteração no apetite.\n\n**Adequado:** Avalia todos os itens.\n**Parcialmente adequado:** Avalia dois ou três dos itens.\n**Inadequado:** Avalia um ou nenhum dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza o exame físico com avaliação de ânus e genitais.**\n\n**Adequado:** Realiza exame físico completo, incluindo anuscopia e inspeção anal.\n**Parcialmente adequado:** Realiza exame físico parcial.\n**Inadequado:** Não realiza exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames Sorologias para ISTs:**\n\n**Adequado:** Solicita todos os exames pertinentes ao caso.\n**Parcialmente adequado:** Solicita alguns, mas não todos os exames necessários.\n**Inadequado:** Não solicita exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Diagnóstico e Acolhimento:**\nRealiza o diagnóstico de **violência sexual** e de **condiloma Acuminado (HPV)**, acalma e acolhe a mãe do paciente.\n\n**Adequado:** Fornece um diagnóstico preliminar e acolhe a criança e a mãe.\n**Parcialmente adequado:** Fornece apenas o diagnóstico ou apenas o acolhimento.\n**Inadequado:** Não fornece o diagnóstico e nem o acolhimento.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Propor Conduta Terapêutica:**\n(1) Podofilina a 10%-25% (solução): Aplicar em cada verruga e deixar secar. Usar uma vez por semana até o desaparecimento das lesões. Recomenda-se a utilização de até 0,5 mL em cada aplicação, OU Ácido tricloroacético (ATA) a 80%-90% (solução), aplicar pequena quantidade somente nos condilomas e deixar secar, quando a lesão esbranquiçar. Usar uma vez por semana até oito a dez semanas;\n(2) Acompanhamento Dermatológico: Monitoramento regular para avaliar a eficácia do tratamento;\n(3) Contraindica profilaxia HIV e IST;\n(4) Encaminha para o E - multi com apoio psicológico e serviço social ao paciente e a família.\n\n**Adequado:** Propõe quatro itens.\n**Parcialmente adequado:** Propõe apenas dois itens.\n**Inadequado:** Não propõe nenhum dos itens descritos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9.Notificações:**\n(1) Notificar o Conselho Tutelar: Dada a suspeita de abuso sexual, é mandatório notificar as autoridades competentes.\n(2) Notificar a Vigilância Epidemiológica/SINAN: Para o registro e acompanhamento de casos de ISTs em menores.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Questiona dúvidas e entendimento.**\n(1) Pergunta se a mãe e a criança têm dúvidas;\n(2) Confirma se entenderam as informações dadas;\n(3) Oferece recursos adicionais para apoio.\n\n**Adequado:** Realiza os três itens.\n**Parcialmente Adequado:** Realiza um ou dois dos itens.\n**Inadequado:** Não realiza nenhum dos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

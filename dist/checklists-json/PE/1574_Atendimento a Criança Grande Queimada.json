@@ -1,0 +1,229 @@
+{
+  "uid": 1574,
+  "hash": "b7093a7754b1364b8e8e2e4067e3df55967185acc728bf89b5a5cb043fab4049-1750361521",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Atendimento a Criança Grande Queimada",
+  "definicao": "Queimaduras em crianças são emergências médicas que requerem avaliação e tratamento imediato. A queimadura por água quente é um tipo comum de queimadura em crianças, frequentemente envolvendo extremidades superiores e inferiores, tronco ou face. As queimaduras são classificadas pela profundidade e extensão, sendo a reidratação e o manejo da dor parte essencial do tratamento.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "77.00",
+    "star": 0,
+    "time": 565.5,
+    "count": 744
+  },
+  "cenario": "Local de atuação:\nVocê está em um hospital de nível terciário, especializado no atendimento de pacientes com queimaduras.\nA unidade possui infraestrutura compatível com a complexidade hospitalar.\n\nDescrição do caso:\nVocê é médico(a) de um hospital terciário e foi acionado para atender Vitor, uma criança de 8 anos, trazido pelo SAMU devido a uma queimadura com água fervente.",
+  "tarefas": "- Realizar Anamnese com o profissional do SAMU;\n- Realizar a avaliação primária do paciente segundo o ATLS, verbalizando de forma sistemática o que está sendo investigado em cada etapa da avaliação primária;\n- Verbalizar a porcentagem de superfície corporal queimada;\n- Realizar e verbalizar o cálculo de reposição volêmica segundo a Regra de Parkland.;\n-Verbalizar o diagnóstico completo;\n- Propor manejo complementar adequado;\n\nATENÇÃO: Nesta estação, o candidato poderá utilizar calculadora.",
+  "script_ator": "**DADOS DO MÉDICO DO SAMU:**\n- Dr. Carlos Silva.\n\n**DADOS DA CRIANÇA:**\n- Vitor, 8 anos.\n\n**MOTIVO DE CONSULTA:**\n-Dr(a), atendemos um chamado para Vitor, que sofreu queimadura por água fervente.\n**Tempo do acontecimento:** Há aproximadamente uma hora. \n**O que foi realizado pela equipe:** Realizamos a punção de dois acessos venosos e iniciamos a infusão de 250 mL de Ringer Lactato.\n**- Como ocorreu a queimadura:** A mãe disse que ele esbarrou em uma panela de água fervente na cozinha.\n\n**VACINAÇÃO:**\n- A mãe me informou que o calendário vacinal está completo.\n\n**ANTECEDENTES PESSOAIS:**\n**- Doença de base:** Nega.\n**- Uso de medicação:** Nega.\n**- Alergia:** Nega.\n**- Cirurgia:** Nega.\n\n**ANTECEDENTES FAMILIARES:**\n- Nega.\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "Frequência cardíaca: 140 bpm\n\nFrequência respiratória: 36 irpm\n\nPressão arterial: 100 × 60 mmHg\n\nTemperatura: 37,8°C\n\nSaturação de O₂: 97% em ar ambiente\n\nTempo de enchimento capilar: 3 segundos",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1750857785.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "ABCDE - ITEM A  (Via Aérea com Controle Cervical)",
+      "conteudo": "Criança consciente, alerta, falando normalmente (fala clara e espontânea), sem sinais de estridor, rouquidão, engasgos, sialorreia ou tosse persistente.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1750857785.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "ABCDE - ITEM B  (Breathing – Respiração)",
+      "conteudo": "Frequência respiratória: 36 irpm;\n\nExpansão torácica bilateral, simétrica;\n\nSem uso de musculatura acessória;\n\nAusculta pulmonar com murmúrios vesiculares presentes e simétricos, sem ruídos adventícios.\n\n\n\nSaturação de O₂: 97% em ar ambiente.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1750857785.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "ABCDE - ITEM C (Circulação com Controle de Hemorragias)",
+      "conteudo": "Frequência cardíaca: 140 bpm;\n\nPulso periférico: Presente e rítmico;\n\nPressão arterial: 100 × 60 mmHg;\n\nTempo de enchimento capilar: 3 segundos;\n\nSem sangramentos externos visíveis.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1750857785.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "ABCDE - ITEM D (Neurológico/ Disability)",
+      "conteudo": "Nível de consciência: alerta, responsivo, orientado para pessoa e ambiente;\n\nEscala de coma de Glasgow (ECG): 15 pontos;\n\nPupilas: isocóricas, fotorreagentes e simétricas;\n\nMovimentos: simétricos e espontâneos nos quatro membros;\n\nResposta motora e sensorial: preservadas, sem sinais de déficit focal.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1750857785.png"
+    },
+    {
+      "idx": 6,
+      "titulo": "Superfície corporal queimada (SCQ)",
+      "conteudo": "Ao exame físico, observam-se queimaduras térmicas de primeiro grau em face anterior de ambos os membros inferiores, segundo grau em face anterior de ambos os braços, tórax anterior e abdome.\n\n\n\n**Realize o cálculo da Superfície Corporal Queimada (SCQ), indicando os percentuais correspondentes a cada área corporal acometida, e determine o volume de reposição volêmica a ser infundido conforme a fórmula de Parkland.**",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "ABCDE - ITEM E (Exposição e Controle do Ambiente)",
+      "conteudo": "Superfície corporal examinada sem lesões adicionais além das queimaduras;\n\nAusência de sinais de trauma externo, hematomas, feridas ou sinais suspeitos de abuso;\n\nPele ao redor das queimaduras íntegra, sem sinais de infecção ou contaminação;\n\nTemperatura corporal aferida dentro da normalidade (37,8°C).\n\nNenhum objeto ou roupa constritiva presente que possa comprometer circulação ou respiração.",
+      "imagem": null
+    },
+    {
+      "idx": 8,
+      "titulo": "Dados antropométricos",
+      "conteudo": "- Peso: 19 kg;\n\n- Altura: 107 cm;\n\n- IMC: 15 kg/m².",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a equipe de maneira adequada;\n(3) Mantém contato visual.\n\n**Adequado:** Realiza os três itens.\n**Parcialmente adequado:** Realiza dois itens.\n**Inadequado:** Realiza um item ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona o médico do SAMU:**\n(1) Tempo desde a queimadura;\n(2) Mecanismo da queimadura (como ocorreu);\n(3) Quais foram as primeiras medidas realizadas;\n(4) Vacinação.\n\n**Adequado:** Questiona os quatro itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Conduta:**\n(1) Encaminha paciente para sala vermelha;\n(2) Paramenta-se com touca, máscara, avental e luvas.\n\n**Adequado:** Realiza os dois itens, verbalizando o item dois completamente.\n**Parcialmente adequado:** Realiza os dois itens, não verbalizando o item dois completamente.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita:**\n(1) Monitorização de sinais vitais;\n(2) Dados antropométricos.\n\n**Adequado:** Solicita os dois itens.\n**Inadequado:** Solicita um item ou não solicita item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Verbaliza o início da:**\n(1) Avaliação primária;\n(2) seguindo a abordagem ABCDE conforme os protocolos do ATLS/Trauma.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza somente o item dois.\n**Inadequado:** Não verbaliza o item dois.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita avaliação do item A -  (Vias aéreas e controle cervical) verbalizando que irá observar:**\n(1) Resposta vocal ou verbal (paciente responde Ou paciente chora OU paciente fala);\n(2) Sinais de obstrução (Estridor, sialorreia);\n(3) Sinais de queimadura na face, vias aéreas, boca, pescoço.\n\n**Adequado:** Solicita avaliação e cita os três itens.\n**Parcialmente adequado:** Solicita avaliação e cita dois itens.\n**Inadequado:** Não solicita avaliação ou cita somente um item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita a avaliação do item B (Breathing – Respiração), verbalizando que irá observar:**\n(1) Expansibilidade torácica;\n(2) Ausculta pulmonar;\n(3) Presença de lesão torácica associada.\n\n**Adequado:** Solicita avaliação e cita os três itens.\n**Parcialmente adequado:** Solicita avaliação e cita dois itens.\n**Inadequado:** Não solicita avaliação ou cita somente um item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita a avaliação do item C (Circulação com Controle de Hemorragias), verbalizando que irá observar:**\n(1) Pulso periférico e central;\n(2) Tempo de enchimento capilar (TEC);\n(3) Pressão arterial.\n\n**Adequado:** Solicita avaliação e cita os três itens.\n**Parcialmente adequado:** Solicita avaliação e cita dois itens.\n**Inadequado:** Não solicita avaliação ou cita somente um item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita a avaliação do item D (Neurológico/ Disability), verbalizando que irá observar:**\n(1) Escala de Coma de Glasgow (ECG);\n(2) Pupilas.\n\n**Adequado:** Solicita avaliação e cita os dois itens.\n**Parcialmente adequado:** Solicita avaliação e cita um item.\n**Inadequado:** Não solicita avaliação ou não cita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita a avaliação do item E (Exposição e Controle do Ambiente), verbalizando que irá observar:**\n(1) Expor completamente o paciente;\n(2) Superfície Corpórea Queimada;\n(3) Prevenir hipotermia.\n\n**Adequado:** Solicita avaliação e cita os três itens.\n**Parcialmente adequado:** Solicita avaliação e cita dois itens.\n**Inadequado:** Não solicita avaliação ou cita somente um item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Realiza Cálculo de superfície corpórea queimada e verbaliza resultado:**\n(1) Face anterior de ambos os braços, totalizando 9% da superfície corporal queimada (4,5% em cada membro, por envolver apenas a face anterior);\n(2) Tórax anterior e abdome (18%);\n(3) Totalizando 27% de Superfície corpórea queimada.\n\n**Adequado:** Realiza o cálculo verbalizando os três itens adequadamente.\n**Parcialmente adequado:** Realiza o cálculo e verbaliza corretamente o item três, porém não menciona os itens um e dois.\n**Inadequado:** Não realiza o cálculo ou verbaliza o item três inadequadamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Realiza o cálculo conforme a Regra de Parkland e verbaliza:**\n(1) Infusão total de 1539 mls de Ringer Lactato ou Soro Fisiológico 0,9% em 16 horas.\n\n**Adequado:** Realiza o cálculo e verbaliza o  item de maneira adequada.\n**Inadequado:** Não realiza o cálculo ou não verbaliza o item corretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Nas crianças com menos de 14 anos, o cálculo da fórmula de Parkland deve ser realizado utilizando 3 mL, ou seja, para nosso paciente, a fórmula fica:  3 mL × 19 kg × 27% SCQ = 1.539 mL a ser infundido nas próximas 16 horas de acordo com o ATLS 11 ed."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza o diagnóstico de:**\n(1) Grande queimado;\n(2) considerando que a queimadura atingiu 27% da superfície corporal queimada (SCQ).\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza somente que se trata de um grande queimado.\n**Inadequado:** Não verbaliza que se trata de um grande queimado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Indica como conduta:**\n(1) Internação hospitalar indicada em ala especializada para grandes queimados OU Terapia intensiva;\n(2) Analgesia;\n(3) Sondagem vesical de demora OU Monitorização do débito urinário;\n(4) Não indica vacinação com antitetânica;\n(5) Controle hidroeletrolítico;\n(6) Sondagem gástrica.\n\n**Adequado:** Indica cinco ou seis itens sendo obrigatório o item um.\n**Parcialmente adequado:** Indica três ou quatro itens sendo obrigatório o item um.\n**Inadequado:** Indica dois ou menos itens, ou não indica o item um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "A vacinação com toxoide tetânico deve ser realizada em grandes queimados se o intervalo desde a última dose for superior a 5 anos. A meta de diurese para monitoramento da reposição volêmica é de, no mínimo, 1 mL/kg/hora. A sonda gástrica deve ser colocada e mantida aberta se o doente apresentar náusea, vômitos, distensão abdominal, ou se a queimadura envolver mais de 20% ASCQ. Em tais doentes, é essencial que a sonda gástrica seja colocada e esteja funcionando antes de uma eventual transferência."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "uid": 1091,
+  "hash": "17mQ2E7BrSOIxt8PjMw2ejVO",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Síndrome de Dumping",
+  "definicao": "A síndrome de dumping é complicação gastrointestinal oriunda de operações para obesidade, mas também pode ocasionar-se como consequência de danos no nervo vago. Ela caracteriza-se por um conjunto de sintomas vasomotores e gastrointestinais, associados ao esvaziamento gástrico rápido ou à exposição súbita do intestino delgado aos nutrientes.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "56.00",
+    "star": 0,
+    "time": 584.5,
+    "count": 4147
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Secundária - Ambulatório de Cirurgia. \nA unidade NÃO possui: \n- Setor de diagnóstico por imagem; \n- Laboratório de análises clínicas; \n- Banco de sangue; \n- Leitos de internação; e \n- Centro cirúrgico e unidade de tratamento intensivo. \n\nDescrição do caso: \nMulher, 35 anos, busca atendimento queixando-se de dor abdominal.",
+  "tarefas": "1. Realizar anamnese do paciente;\n2. Solicitar e interpretarexame físico;\n3. Estabelecer e comunicar a hipótese diagnóstica;\n4. Solicitar exames complementares, se necessário;\n5. Verbalizar qual antecedente do paciente se relaciona com o diagnóstico.\n5. Propor conduta terapêutica;\n6. Citar diagnósticos diferenciais;\n7. Dar orientações ao paciente e sanar dúvidas.\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Camila, 35 anos, casada, vendedora.\n\n**MOTIVO DE CONSULTA:**\n- Dr (a), estou estou tendo muita dor na barriga, dor no peito também, uma sensação estranha, acho que estou com problema no coração, estou muito preocupada.\n\n**SOBRE O MOTIVO DE CONSULTA**\n- **Tempo de evolução:** dói um pouco, depois passa, depois dói de novo, faz uns 2 meses isso já.\n- **Localização:** dói mais aqui em cima Dr (a) (epigástrio).\n- **Irradiação:** vai pra barriga toda, pro peito, não sei explicar.\n- **Características:** tipo uma queimação, um aperto, parece que vou desmaiar. \n- **Escala/Intensidade/Progressão:** não dói muito Dr, 3/10, mas essa sensação estranha que me preocupa.\n- **Relação com a alimentação/fator agravante:** dói só depois que eu como alguma coisa, principalmente coisas com muito açúcar, ai fica um tempinho e logo passa.\n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n- **Náuseas:** sim, em todos os episódios.\n- **Vômitos:** não.\n- **Sudorese:** sim.\n- **Distensão abdominal:** sim.\n- **Gases:** sim.\n- **Eructação:** não.\n- **Dispneia:** não.\n- **Sensação de calor:** sim.\n- **Tonturas:** sim.\n- **Sonolência:** não.\n- **Febre:** nega.\n\n**RITMO INTESTINAL**\n- **Diarreia:** toda vez que sinto isso dá muita vontade de ir ao banheiro depois, parece até diarreia. \n- **Característica das fezes:** marrom, sem sangue/pus/moco, que flutuam no vaso e muito fedidas. \n\n**ANTECEDENTES PESSOAIS E HÁBITOS:**\n- **Comorbidades:** nega.\n- **Uso de medicamentos:** tomo uns suplementos polivitamínicos que o médico me passou.\n- **Alergias:** nega.\n- **Cirurgias:** sim, fiz uma cirurgia bariátrica há 5 meses, perdi 15 kg já.\n- **Tabagismo:** nega.\n- **Etilismo:** bebo umas 2 vezes por semana Dr (a), com meus amigos.\n- **Uso de drogas:** nega.\n- **Alimentação:** não estou seguindo a dieta que me passaram, ainda estou comendo bastante doce e comidas mais gordurosas. Claro que eu como menos, não consigo comer o mesmo de antes, mas ainda como fast food e doces.\n- **Prática de exercícios físicos:** nega.\n\n**Caso o candidato não solicita exames após o diagnóstico indagar:**\n- Não vou fazer nenhum exame? Eu acho que preciso fazer exames!\n\n**Questionar se tem dúvida?**\n- Dr (a), não estou com problema no coração?\n\n**Qualquer outro questionamento:** NÃO CONSTA NO SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial**: 120x80 mmHg\n\n- **Frequência cardíaca**: 76 batimentos por minuto\n\n- **Frequência respiratória**: 18 incursões por minuto\n\n- **Saturação de O2**: 98%\n\n- **Temperatura** **axilar**: 36.2° C\n\n\n\n**Estado Geral:** paciente em bom estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** abdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite. Presença de cicatrizes compatíveis com cirurgia laparoscópica.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. (1) Identifica-se e (2) cumprimenta adequadamente a paciente perguntando idade e profissão.\n\n**Adequado:** Realiza todos os comandos.\n**Parcialmente adequado:** Realiza somente um\ncomando.\n**Inadequado: **Não realiza nenhum dos comandos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. Questiona sobre a dor: (1) Tempo de evolução; (2) Localização; (3) Irradiação; (4) Característica; (5) Intensidade; (6) Fatores agravantes e atenuantes/relação com a alimentação; (7) Duração.\n\n**Adequado:** Questiona 6 ou 7 itens. \n**Parcialmente adequado:** Questiona 4 ou 5 itens.\n**Inadequado:** Questiona 3 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. Questiona sobre sinais e sintomas acompanhantes: (1) Náuseas; (2) Vômitos; (3) Sudorese; (4) Distensão abdominal; (5) Borborigmo/Gases; (6) Eructação; (7) Dispneia; (8) Sensação de calor; (9) Tonturas; (10) Sonolência; (11) Febre.\n\n**Adequado:** Questiona 11 a 10 itens. \n**Parcialmente adequado:** Questiona 7 a 8 itens.\n**Inadequado:** Questiona 6 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. Pergunta sobre alterações do ritmo intestinal.\n\n**Adequado:** pergunta.\n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. Se pergunta sobre antecedentes cirúrgicos.\n\n**Adequado:** questiona.\n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. Se pergunta sobre antecedentes pessoais: (1) Comorbidades; (2) Uso de medicamentos; (3) Alergias; (4) Cirurgias prévias; (5) Tabagismo; (6) Etilismo; (7) Uso de drogas.\n\n**Adequado:** Questiona 7 ou 6 itens. \n**Parcialmente adequado:** Questiona 5 ou 4 itens.\n**Inadequado:** Questiona 3 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. Realiza (1) Exame físico geral; (2) Sinais vitais; (3) Verbaliza a presença de cicatrizes compatíveis com cirurgia laparoscópica; (4) Associa as cicatrizes com a cirurgia bariátrica.\n\n**Adequado:** Realiza de 3 a 4 itens.\n**Parcialmente adequado:** Realiza 2 itens.\n**Inadequado:** Realiza 1 ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. (1) Não solicita exames complementares; (2) Verbaliza que o diagnóstico é clínico.\n\n**Adequado:** realiza ambas tarefas. \n**Parcialmente adequado:** realiza somente 1 tarefa.\n**Inadequado:** não realiza nenhuma tarefa.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. Diagnóstico: (1) Síndrome de Dumping.\n\n**Adequado:** verbaliza o diagnóstico e explica ao paciente que é um quadro relacionado a cirurgia bariátrica realizada previamente.\n**Parcialmente adequado:** verbaliza o diagnóstico de síndrome de Dumping e não explica a relação com a cirurgia bariátrica.\n**Inadequado:** não realiza o diagnóstico e não explica ao paciente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.0",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. Diagnósticos diferenciais: (1) Úlcera; (2) DRGE; (3) Estenose gástrica; (4) Gastrite.\n\n**Adequado:** verbaliza ao menos 1 diagnóstico diferencial.\n**Inadequado:** não verbaliza ou verbaliza incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. Tratamento: (1) Dieta equilibrada; (2) Diminuir o consumo de carboidratos; (3) Refeições lentas/comer devagar; (4) Refeições fracionadas/pequenas porções; (5) Evitar o consumo de água durante e logo após as refeições; (6) Deitar por 20-30 minutos após as refeições; \n(7) Realizar atividade física periódica.\n\n**Adequado:** verbaliza 6 ou 7 itens.\n**Parcialmente adequado:** verbaliza 5 ou 4 itens.\n**Inadequado:** verbaliza 3 ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.0",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. Encaminha para o atendimento nutricional/nutricionista/nutrólogo.\n\n**Adequado:** encaminha.\n**Inadequado:** não encaminha.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

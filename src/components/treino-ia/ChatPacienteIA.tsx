@@ -1,16 +1,15 @@
-import { useState, useRef, useEffect, useCallback } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
-  Send,
   User,
   Mic,
   MicOff,
-  Phone,
-  PhoneOff,
+  MessageSquare,
   Volume2,
   VolumeX,
   Loader2,
+  X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
@@ -42,27 +41,28 @@ export function ChatPacienteIA({
 }: ChatPacienteIAProps) {
   const [inputValue, setInputValue] = useState("");
   const [voiceEnabled, setVoiceEnabled] = useState(true);
+  const [pendingMessage, setPendingMessage] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const messagesContainerRef = useRef<HTMLDivElement>(null);
   const lastSpokenMessageRef = useRef<string | null>(null);
 
-  // Hook unificado para voz (gravação + reprodução)
   const {
-    startRecording,
-    stopRecording,
-    isRecording,
+    startConversation,
+    stopConversation,
+    isConversationActive,
     speak,
     stopSpeaking,
     isSpeaking,
     isProcessing,
+    isListening,
     interimTranscript,
-    error: voiceError,
   } = useVoiceChat({
     apiKey,
     voice: "nova",
+    silenceTimeout: 1500,
     onTranscript: (text, isFinal) => {
       if (isFinal && text.trim()) {
-        // Enviar mensagem automaticamente quando transcrição finalizar
-        handleSendVoiceMessage(text.trim());
+        setPendingMessage(text.trim());
       }
     },
     onError: (error) => {
@@ -70,43 +70,41 @@ export function ChatPacienteIA({
     },
   });
 
+  useEffect(() => {
+    if (pendingMessage && !isLoading && !disabled && !isSpeaking) {
+      const msg = pendingMessage;
+      setPendingMessage(null);
+      onSendMessage(msg);
+    }
+  }, [pendingMessage, isLoading, disabled, isSpeaking, onSendMessage]);
+
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (messagesContainerRef.current) {
+      messagesContainerRef.current.scrollTop =
+        messagesContainerRef.current.scrollHeight;
+    }
   };
 
   useEffect(() => {
     scrollToBottom();
-  }, [messages]);
+  }, [messages, interimTranscript]);
 
-  // Falar última mensagem do assistente automaticamente
   useEffect(() => {
     if (!voiceEnabled) return;
-    
     const lastMessage = messages[messages.length - 1];
     if (
       lastMessage?.role === "assistant" &&
-      lastMessage.id !== lastSpokenMessageRef.current
+      lastMessage.id !== lastSpokenMessageRef.current &&
+      !isLoading
     ) {
       lastSpokenMessageRef.current = lastMessage.id;
       speak(lastMessage.content);
     }
-  }, [messages, voiceEnabled, speak]);
-
-  const handleSendVoiceMessage = useCallback(async (text: string) => {
-    if (!text || isLoading || disabled) return;
-    setInputValue("");
-    await onSendMessage(text);
-  }, [isLoading, disabled, onSendMessage]);
+  }, [messages, voiceEnabled, speak, isLoading]);
 
   const handleSendMessage = async () => {
     const messageToSend = inputValue.trim();
     if (!messageToSend || isLoading || disabled) return;
-
-    // Parar gravação se estiver ativa
-    if (isRecording) {
-      await stopRecording();
-    }
-
     setInputValue("");
     await onSendMessage(messageToSend);
   };
@@ -118,41 +116,55 @@ export function ChatPacienteIA({
     }
   };
 
-  const toggleRecording = async () => {
-    if (isRecording) {
-      // Parar gravação e enviar
-      const transcript = await stopRecording();
-      if (transcript && transcript.trim()) {
-        await handleSendVoiceMessage(transcript.trim());
-      }
+  const toggleConversation = async () => {
+    if (!checkVoiceSupport()) {
+      toast.error("Seu navegador não suporta reconhecimento de voz. Use Chrome ou Edge.");
+      return;
+    }
+    
+    if (isConversationActive) {
+      stopConversation();
+      toast.info("Gravação desativada");
     } else {
-      // Iniciar gravação
-      await startRecording();
-      if (apiKey) {
-        toast.success("Gravando... Clique novamente para enviar");
-      } else {
-        toast.success("Microfone ativado");
+      try {
+        await startConversation();
+        toast.success("Gravando sua voz... Fale agora!");
+      } catch (err) {
+        toast.error("Erro ao iniciar gravação. Verifique permissão do microfone.");
       }
     }
   };
 
   const toggleVoice = () => {
-    if (isSpeaking) {
-      stopSpeaking();
-    }
+    if (isSpeaking) stopSpeaking();
     setVoiceEnabled(!voiceEnabled);
     toast.info(voiceEnabled ? "Voz desativada" : "Voz ativada");
   };
 
+  const formatTime = (timestamp?: number | Date) => {
+    const date = timestamp 
+      ? (timestamp instanceof Date ? timestamp : new Date(timestamp))
+      : new Date();
+    return date.toLocaleTimeString("pt-BR", {
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  };
+
+  // Verificar suporte a reconhecimento de voz
+  const checkVoiceSupport = () => {
+    const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
+    return !!SpeechRecognitionAPI;
+  };
+
   if (!isConnected) {
     return (
-      <div className="bg-card border border-border rounded-lg p-6">
+      <div className="bg-card border border-border rounded-xl p-6">
         <div className="flex items-center gap-4 mb-6">
           <div className="relative">
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
               <span className="text-2xl">🧑‍🦱</span>
             </div>
-            <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-gray-500 rounded-full border-2 border-card" />
           </div>
           <div className="flex-1">
             <h3 className="text-lg font-semibold text-foreground">
@@ -162,116 +174,131 @@ export function ChatPacienteIA({
               Paciente simulado por IA
             </p>
           </div>
+        </div>
+        <div className="text-center py-6">
           <Button
             onClick={onConnect}
-            className="bg-green-600 hover:bg-green-700 gap-2"
+            size="lg"
+            className="bg-cyan-500 hover:bg-cyan-600 text-white px-8"
           >
-            <Phone className="w-4 h-4" />
-            Conversar
+            Iniciar Consulta
           </Button>
-        </div>
-        <div className="text-center py-8 text-muted-foreground">
-          <p>Clique em "Conversar" para iniciar a consulta</p>
-          <p className="text-xs mt-2">
-            {apiKey 
-              ? "🎤 Fale pelo microfone ou digite - IA com voz de alta qualidade"
-              : "🎤 Fale pelo microfone ou digite - Configure API Key para voz HD"
-            }
+          <p className="text-xs text-muted-foreground mt-3">
+            🎤 Fale com o paciente - sua voz vira texto
           </p>
         </div>
       </div>
     );
   }
 
+
   return (
-    <div className="bg-card border border-border rounded-lg overflow-hidden flex flex-col h-full">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-green-600/20 to-emerald-600/20 border-b border-border p-3">
+    <div className="bg-[#1a1f2e] border border-border rounded-xl overflow-hidden flex flex-col h-full">
+      {/* Header com paciente */}
+      <div className="bg-[#252b3b] p-3 border-b border-border">
         <div className="flex items-center gap-3">
           <div className="relative">
-            <div className={cn(
-              "w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center",
-              isSpeaking && "ring-2 ring-green-500 ring-offset-2 ring-offset-card"
-            )}>
-              <span className="text-lg">🧑‍🦱</span>
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+              <span className="text-xl">🧑‍🦱</span>
             </div>
-            <div className={cn(
-              "absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full border-2 border-card",
-              isSpeaking ? "bg-green-500 animate-pulse" : "bg-green-500"
-            )} />
+            {isListening && (
+              <div className="absolute -bottom-0.5 -left-0.5 w-5 h-5 bg-red-500 rounded-full flex items-center justify-center">
+                <Mic className="w-3 h-3 text-white" />
+              </div>
+            )}
           </div>
           <div className="flex-1">
-            <h3 className="font-semibold text-foreground text-sm">
-              {pacienteName}
-            </h3>
-            <p className="text-xs text-green-400">
-              {isSpeaking ? "Falando..." : isProcessing ? "Processando..." : "Em consulta"}
-            </p>
+            <h3 className="font-semibold text-foreground">{pacienteName}</h3>
+            <div className="flex items-center gap-2">
+              {isListening && (
+                <span className="text-xs bg-red-500/20 text-red-400 px-2 py-0.5 rounded-full flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse" />
+                  Gravando sua voz
+                </span>
+              )}
+              {isSpeaking && (
+                <span className="text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded-full">
+                  🔊 Falando...
+                </span>
+              )}
+              {!isListening && !isSpeaking && (
+                <span className="text-xs text-muted-foreground">Em consulta</span>
+              )}
+            </div>
           </div>
           <Button
-            variant="outline"
-            size="sm"
+            variant="ghost"
+            size="icon"
             onClick={onDisconnect}
-            className="text-red-400 border-red-400/50 hover:bg-red-500/10"
+            className="text-muted-foreground hover:text-foreground"
           >
-            <PhoneOff className="w-4 h-4" />
+            <X className="w-5 h-5" />
           </Button>
         </div>
       </div>
 
-      {/* Messages */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-3">
+      {/* Área de mensagens */}
+      <div
+        ref={messagesContainerRef}
+        className="flex-1 overflow-y-auto p-4 space-y-4"
+      >
         {messages
           .filter((m) => m.role !== "system")
           .map((message) => (
             <div
               key={message.id}
               className={cn(
-                "flex gap-2",
+                "flex gap-3",
                 message.role === "user" ? "flex-row-reverse" : "flex-row"
               )}
             >
+              {/* Avatar */}
               <div
                 className={cn(
-                  "w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0",
+                  "w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0",
                   message.role === "user"
-                    ? "bg-primary"
-                    : "bg-gradient-to-br from-blue-500 to-purple-600"
+                    ? "bg-cyan-500"
+                    : "bg-gradient-to-br from-amber-400 to-orange-500"
                 )}
               >
                 {message.role === "user" ? (
-                  <User className="w-3 h-3 text-primary-foreground" />
+                  <User className="w-4 h-4 text-white" />
                 ) : (
-                  <span className="text-xs">🧑‍🦱</span>
+                  <span className="text-sm">🧑‍🦱</span>
                 )}
               </div>
+
+              {/* Mensagem */}
               <div
                 className={cn(
-                  "max-w-[80%] rounded-2xl px-3 py-2",
+                  "max-w-[75%] rounded-2xl px-4 py-3",
                   message.role === "user"
-                    ? "bg-primary text-primary-foreground rounded-tr-sm"
-                    : "bg-secondary text-foreground rounded-tl-sm"
+                    ? "bg-cyan-500 text-white rounded-tr-md"
+                    : "bg-[#2a3142] text-foreground rounded-tl-md"
                 )}
               >
-                <p className="text-sm whitespace-pre-wrap">{message.content}</p>
-                {message.metadata?.detectedItems &&
-                  message.metadata.detectedItems.length > 0 && (
-                    <p className="text-[10px] mt-1 text-green-400">
-                      ✓ {message.metadata.detectedItems.length} item(s)
-                      detectado(s)
-                    </p>
+                <p className="text-sm leading-relaxed">{message.content}</p>
+                <p
+                  className={cn(
+                    "text-[10px] mt-1",
+                    message.role === "user"
+                      ? "text-cyan-100"
+                      : "text-muted-foreground"
                   )}
+                >
+                  {formatTime(message.timestamp)}
+                </p>
               </div>
             </div>
           ))}
 
-        {/* Loading indicator */}
+        {/* Loading */}
         {isLoading && (
-          <div className="flex gap-2">
-            <div className="w-7 h-7 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-              <span className="text-xs">🧑‍🦱</span>
+          <div className="flex gap-3">
+            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+              <span className="text-sm">🧑‍🦱</span>
             </div>
-            <div className="bg-secondary rounded-2xl rounded-tl-sm px-3 py-2">
+            <div className="bg-[#2a3142] rounded-2xl rounded-tl-md px-4 py-3">
               <div className="flex gap-1">
                 <span className="w-2 h-2 bg-muted-foreground rounded-full animate-bounce" />
                 <span
@@ -287,15 +314,18 @@ export function ChatPacienteIA({
           </div>
         )}
 
-        {/* Interim transcript while recording */}
-        {isRecording && interimTranscript && (
-          <div className="flex gap-2 flex-row-reverse">
-            <div className="w-7 h-7 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
-              <User className="w-3 h-3 text-primary-foreground" />
+        {/* Transcrição em tempo real */}
+        {isConversationActive && (interimTranscript || isListening) && (
+          <div className="flex gap-3 flex-row-reverse">
+            <div className="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center flex-shrink-0">
+              <User className="w-4 h-4 text-white" />
             </div>
-            <div className="max-w-[80%] rounded-2xl px-3 py-2 bg-primary/50 text-primary-foreground rounded-tr-sm">
-              <p className="text-sm whitespace-pre-wrap italic opacity-70">
-                {interimTranscript}...
+            <div className="max-w-[75%] rounded-2xl px-4 py-3 bg-cyan-500/50 text-white rounded-tr-md border border-cyan-400/30">
+              <p className="text-sm leading-relaxed">
+                {interimTranscript || (
+                  <span className="text-cyan-200 italic">Ouvindo...</span>
+                )}
+                <span className="animate-pulse">|</span>
               </p>
             </div>
           </div>
@@ -304,95 +334,82 @@ export function ChatPacienteIA({
         <div ref={messagesEndRef} />
       </div>
 
-      {/* Input */}
-      <div className="border-t border-border p-3">
-        {/* Recording indicator */}
-        {isRecording && (
-          <div className="flex items-center justify-center gap-2 mb-2 text-red-500">
-            <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
-            <span className="text-xs font-medium">
-              {apiKey ? "Gravando... Clique no microfone para enviar" : "Ouvindo..."}
-            </span>
+      {/* Input e controles */}
+      <div className="border-t border-border p-4 bg-[#252b3b]">
+        {/* Campo de texto com botão enviar */}
+        <div className="flex gap-2 mb-4">
+          <div className="flex-1 relative">
+            <Input
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              onKeyDown={handleKeyDown}
+              placeholder="Digite sua mensagem..."
+              disabled={isLoading || disabled}
+              className="bg-[#1a1f2e] border-border h-11 pr-12 rounded-xl"
+            />
           </div>
-        )}
-
-        {/* Processing indicator */}
-        {isProcessing && (
-          <div className="flex items-center justify-center gap-2 mb-2 text-blue-500">
-            <Loader2 className="w-3 h-3 animate-spin" />
-            <span className="text-xs font-medium">Transcrevendo áudio...</span>
-          </div>
-        )}
-
-        <div className="flex gap-2">
-          {/* Microphone button - prominent */}
-          <Button
-            variant={isRecording ? "destructive" : "outline"}
-            size="icon"
-            onClick={toggleRecording}
-            disabled={isProcessing || isLoading || disabled}
-            className={cn(
-              "h-9 w-9 transition-all",
-              isRecording && "animate-pulse ring-2 ring-red-500 ring-offset-2"
-            )}
-          >
-            {isProcessing ? (
-              <Loader2 className="w-4 h-4 animate-spin" />
-            ) : isRecording ? (
-              <MicOff className="w-4 h-4" />
-            ) : (
-              <Mic className="w-4 h-4" />
-            )}
-          </Button>
-
-          {/* Voice toggle */}
-          <Button
-            variant="outline"
-            size="icon"
-            onClick={toggleVoice}
-            className={cn(
-              "h-9 w-9",
-              !voiceEnabled && "bg-muted",
-              isSpeaking && "animate-pulse bg-green-500/20 border-green-500"
-            )}
-          >
-            {isSpeaking ? (
-              <Volume2 className="w-4 h-4 text-green-500" />
-            ) : voiceEnabled ? (
-              <Volume2 className="w-4 h-4" />
-            ) : (
-              <VolumeX className="w-4 h-4 text-muted-foreground" />
-            )}
-          </Button>
-
-          {/* Text input */}
-          <Input
-            value={inputValue + (isRecording && !apiKey ? interimTranscript : "")}
-            onChange={(e) => setInputValue(e.target.value)}
-            onKeyDown={handleKeyDown}
-            placeholder={isRecording ? "Ouvindo..." : "Fale ou digite..."}
-            disabled={isLoading || disabled || isRecording}
-            className="flex-1 h-9"
-          />
-
-          {/* Send button */}
           <Button
             onClick={handleSendMessage}
-            disabled={isLoading || !inputValue.trim() || disabled || isRecording}
-            className="h-9 w-9"
-            size="icon"
+            disabled={isLoading || !inputValue.trim() || disabled}
+            className="h-11 px-6 bg-cyan-500 hover:bg-cyan-600 rounded-xl"
           >
-            <Send className="w-4 h-4" />
+            Enviar
           </Button>
         </div>
 
-        {/* API mode indicator */}
-        <p className="text-[10px] text-muted-foreground text-center mt-2">
-          {apiKey 
-            ? "🎤 OpenAI Whisper + TTS (alta qualidade)" 
-            : "🎤 Web Speech API (básico)"
-          }
-        </p>
+        {/* Botões de controle */}
+        <div className="flex items-center justify-center gap-4">
+          {/* Botão de chat/texto */}
+          <Button
+            variant="ghost"
+            size="icon"
+            className="w-12 h-12 rounded-full bg-[#1a1f2e] hover:bg-[#2a3142]"
+          >
+            <MessageSquare className="w-5 h-5 text-muted-foreground" />
+          </Button>
+
+          {/* Botão grande de microfone */}
+          <Button
+            onClick={toggleConversation}
+            disabled={isProcessing || isLoading || disabled}
+            className={cn(
+              "w-16 h-16 rounded-full transition-all",
+              isConversationActive
+                ? "bg-red-500 hover:bg-red-600 ring-4 ring-red-500/30"
+                : "bg-cyan-500 hover:bg-cyan-600"
+            )}
+          >
+            {isProcessing ? (
+              <Loader2 className="w-7 h-7 text-white animate-spin" />
+            ) : isConversationActive ? (
+              <MicOff className="w-7 h-7 text-white" />
+            ) : (
+              <Mic className="w-7 h-7 text-white" />
+            )}
+          </Button>
+
+          {/* Botão de voz/mudo */}
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={toggleVoice}
+            className={cn(
+              "w-12 h-12 rounded-full bg-[#1a1f2e] hover:bg-[#2a3142]",
+              isSpeaking && "ring-2 ring-green-500"
+            )}
+          >
+            {voiceEnabled ? (
+              <Volume2
+                className={cn(
+                  "w-5 h-5",
+                  isSpeaking ? "text-green-500" : "text-muted-foreground"
+                )}
+              />
+            ) : (
+              <VolumeX className="w-5 h-5 text-muted-foreground" />
+            )}
+          </Button>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,143 @@
+{
+  "uid": 1247,
+  "hash": "tQ1CenHvX5ihvdQzW3HTgdxq",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Cistite &#8211; Não complicada",
+  "definicao": "Cistite é um processo inflamatório que afeta a bexiga, geralmente causada por infecção bacteriana por E. coli. As bactérias podem alcançar a bexiga por via ascendente (mais comum) ou via hematogênica.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "66.50",
+    "star": 0,
+    "time": 576,
+    "count": 5433
+  },
+  "cenario": "Local de atuação: Atenção Primária à Saúde - unidade básica de saúde (UBS).&nbsp;\n\nDescrição do caso:&nbsp;\nVocê é médico da UBS e atende uma paciente do sexo feminino com queixas de dor abdominal e ardência ao urinar.",
+  "tarefas": "- Anamnese direcionada à queixa principal da paciente;\n- Exame físico que julgar necessário;\n- Hipótese diagnóstica;\n- Conduta terapêutica e orientações necessárias.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Sou Isabella, tenho 26 anos.\n\n**MOTIVO DE CONSULTA:**\n- Dor abdominal e queimação ao urinar de 3 dias de evolução.\n\n**CARACTERÍSTICAS DA DOR ABDOMINAL:**\n**- Início:** Começou faz 3 dias, abaixo do umbigo.\n**- Intensidade:** Leve intensidade (4/10), tipo contínua.\n**- Irradiação:** Não irradia e melhora com ibuprofeno.\n\n**SINTOMAS E SINAIS ASSOCIADOS:**\n**- Polaciúria:** sim;\n**- Disúria:** sim;\n**- Hematúria:** nega;\n**- Febre:** nega;\n**- Dor lombar:** nega.\n\n**EPISÓDIOS SIMILARES ANTERIORES:**\n- É a primeira vez que sinto isso.\n\n**USO DE ANTIBIÓTICOS:**\n- Faz uns 6-7 meses que não tomo, tomei para uma infecção de garganta.\n\n**ANTECEDENTES GINECOLÓGICOS:**\n**- Data da última menstruação:** há 5 dias.\n**- Menarca:** aos 12 anos;\n**- Sexarca:** aos 17 anos;\n**- Vida sexual ativa:** sim, tenho namorado e não usamos preservativo;\n**- Papanicolaou:** nunca realizei.\n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças:** nega;\n**- Alergias:** nega;\n**- Cirurgias:** nega;\n**- Medicação:** Usa anticoncepcional oral combinado.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico ",
+      "conteudo": "**Sinais vitais:**\n**Pressão arterial:** 115x70 mmHg;\n**Frequência cardíaca:** 65 batimentos por minuto;\n**Saturação de O2:** 98%;\n**Temperatura axilar:** 36.5° C;\n**Frequência respiratória:** 17 incursões por minuto;\n\n**Estado geral:**\nPaciente em bom estado geral, afebril, acianótica, anictérica, alerta, orientada no tempo e espaço.\n**Ritmo cardíaco:**\nRegular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n**Ausculta respiratória:**\nCom murmúrio vesicular presente em ambas bases, sem ruídos agregados.\n**Abdome:**\nFlácido, normotenso, ruídos hidroaéreos conservados, doloroso à palpação em região infra umbilical, sem defesa nem descompressão brusca dolorosa abdominal, sem viceromegalias.\n**Membros inferiores:**\nSem alterações.\n**Sinal de Giordano:**\nNegativo bilateralmente.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:&nbsp;**\n(1) apresenta-se adequadamente;\n(2) cumprimenta e identifica a paciente simulada, falando seu\nnome.&nbsp;\n\n**Adequado:** realiza as duas ações.&nbsp;\n**Parcialmente adequado:** realiza apenas uma ação.&nbsp;\n**Inadequado:** não realiza ação alguma.&nbsp;",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.30"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga:**\n(1) disuria,&nbsp;\n(2) polaciúria,&nbsp;\n(3) sangue na urina,&nbsp;\n(4) tenesmo vesical,&nbsp;\n(5) febre ou calafrios,&nbsp;\n(6) dor lombar.&nbsp;\n\n**Adequado:** pergunta quatro ou mais itens.&nbsp;\n**Parcialmente adequado:** pergunta três ou dois itens.&nbsp;\n**Inadequado: **pergunta apenas um item OU não pergunta item\nalgum.&nbsp;",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta pelas características da dor abdominal:**\n(1) tempo de evolução;\n(2) localização;\n(3) intensidade;\n(4) tipo de dor;\n(5) irradiação;\n(6) fatores de melhora ou piora.\n\n**Adequado:** Investigou cinco ou mais características.\n**Parcialmente adequado:** Investigou de duas a quatro características.\n**Inadequado:** Investigou apenas uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Antecedente:**\nInvestigou (1) uso de antibióticos prévio e&nbsp;(2) episódios anteriores similares de infecção urinária .&nbsp;\n\n**Adequado: **investigou os dois.\n**Inadequado: **não investigou ou investigou apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga fatores de risco para ITU:**\n(1) atividade sexual;\n(2) ingesta hídrica;\n(3) retenção urinária;\n(4) uso de roupas íntimas muito justas ou que retenham calor e umidade;\n(5) consumo de fumo, álcool, temperos fortes e cafeína;\n(6) higiene pessoal: uso de papel higiênico incorreto, troca de absorventes.\n\n**Adequado:** pergunta quatro ou mais itens.\n**Parcialmente adequado:** pergunta três ou dois itens.\n**Inadequado:** pergunta apenas um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Um dos pilares que ajudam a formular sua anamnese na prova é conhecer a enfermidade, pois você consegue transformar todo seu conhecimento em perguntas."
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Diagnóstico:**\nRealizou o diagnóstico de infecção urinaria baixa ou cistite.&nbsp;\n\n**Adequado: **Realiza corretamente o diagnóstico.&nbsp;\n**Inadequado: **não realiza o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Exames complementares:**\nNão solicitou exames de laboratório.&nbsp;\n\n**Adequado: **Não realiza exame complementar para o diagnóstico.&nbsp;\n**Inadequado:** Solicita qualquer tipo de exame complementar para ajudar no diagnóstico.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Quando a paciente não tem sinais de alarme, não tem histórico previo de infecções e nem mesmo de uso de antibióticos é preconizado o tratamento empirico sem nenhum tipo de exame para comprovar o diagnóstico de cistite."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Tratamento:**\nRealizou tratamento antibiótico empírico com (1) Nitrofurantoína via oral, 100 mg cada 6 horas por 5 -7 dias OU (2) Fosfomicina 3g via oral, dose única.&nbsp;\n\n**Adequado: **prescreve o medicamento com dose e via de administração corretas.&nbsp;\n**Parcialmente adequado:** prescreve o medicamento adequado, mas sem mencionar a dose adequada ou com a dose e/ou via de administração incorretas.&nbsp;\n**Inadequado: **não prescreve o medicamento adequado.&nbsp;",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Deu orientações gerais pra evitar ITU:&nbsp;**\n(1) ingesta hídrica adequada,&nbsp;\n(2) não reter urina,&nbsp;\n(3) limpeza da região genital da frente para trás.&nbsp;\n(4) urinar após relação sexual.\n\n**Adequado: **Realiza três ou quatro orientações.&nbsp;\n**Parcialmente adequado: **Realiza uma ou duas orientações.&nbsp;\n**Inadequado: **não realiza orientação alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orientações:**\nOrienta a paciente sobre a realização do exame de Papanicolau.&nbsp;\n\n**Adequado: **Orienta.&nbsp;\n**Inadequado: **não orienta",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Segundo o Ministério da saúde, após os 25 anos em todas as mulheres que já tiveram relações sexuais."
+    }
+  ]
+}

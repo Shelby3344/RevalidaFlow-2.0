@@ -16,6 +16,7 @@ import { AnaliseResultadosLocal } from '@/components/avaliacao/AnaliseResultados
 import { useAvaliacaoSession } from '@/hooks/useAvaliacaoSession';
 import { useAvaliacaoTimer } from '@/hooks/useAvaliacaoTimer';
 import { useAvaliacaoSync } from '@/hooks/useAvaliacaoSync';
+import { useChecklistMetrics } from '@/hooks/useChecklistMetrics';
 import { calculatePercentage } from '@/lib/avaliacao-utils';
 import { toast } from 'sonner';
 
@@ -27,6 +28,9 @@ export default function AvaliacaoAvaliador() {
   const [isLoading, setIsLoading] = useState(true);
   const [avaliadoConnected, setAvaliadoConnected] = useState(false);
   const [avaliadoName, setAvaliadoName] = useState<string>();
+
+  // Hook para métricas do usuário
+  const { recordAttempt } = useChecklistMetrics();
 
   const {
     session,
@@ -143,8 +147,19 @@ export default function AvaliacaoAvaliador() {
     stop();
     updateSession({ status: 'finalizado', finishedAt: Date.now() });
     broadcastSessionFinished(session.code);
+    
+    // Salvar métrica do usuário
+    if (session.checklistId) {
+      const totalScore = Object.values(session.scores).reduce((sum, s) => sum + s.score, 0);
+      const maxScore = content.evaluationItems.reduce((sum, item) => sum + item.scores.max, 0);
+      if (maxScore > 0) {
+        const scorePercentage = (totalScore / maxScore) * 10; // Converte para escala de 0-10
+        recordAttempt(session.checklistId, Math.round(scorePercentage * 100) / 100);
+      }
+    }
+    
     toast.success('Avaliação finalizada!');
-  }, [session, stop, updateSession, broadcastSessionFinished]);
+  }, [session, stop, updateSession, broadcastSessionFinished, content.evaluationItems, recordAttempt]);
 
   const handleToggleImpresso = useCallback((impressoId: number) => {
     if (!session) return;

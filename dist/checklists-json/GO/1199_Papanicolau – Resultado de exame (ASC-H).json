@@ -1,0 +1,149 @@
+{
+  "uid": 1199,
+  "hash": "b5lmL1NgByHq62asjxcOOjmV",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Papanicolau – Resultado de exame (ASC-H)",
+  "definicao": "A coleta do exame de colpocitologia oncótica em mulheres assintomáticas é a principal estratégia utilizada para a detecção das lesões precursoras dessa doença no Brasil. Consiste na coleta de células do colo uterino com o objetivo de selecionar as pacientes que fazem parte do grupo de risco para esse tipo de câncer e encaminhá-las para investigação pela colposcopia.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "75.00",
+    "star": 0,
+    "time": 514,
+    "count": 5253
+  },
+  "cenario": "Local de atuação: Atenção primária à saúde - Unidade Básica de Saúde (UBS).\n\nDescrição do caso:\nVocê recebe para atendimento uma paciente, estudante, com consulta agendada para mostrar o exame de Papanicolaou solicitado por você.",
+  "tarefas": "- Solicitar e interpretar o exame trazido pela paciente;\n- Explicar com linguagem acessível o resultado para a paciente;\n-Solicitar uma anamnese dirigida;\n- Solicitar novos exames complementares, se necessário (MÁXIMO 1 EXAME COMPLEMENTAR);\n- Indicar a conduta adequada;\n- Resolver as dúvidas da paciente.\n\nATENÇÃO! NÃO SERÁ NECESSÁRIO REALIZAR EXAME FÍSICO!",
+  "script_ator": "**DADOS PESSOAIS:**\n- Maitê, 30, estudante, solteira.\n\n**MOTIVO DE CONSULTA:**\n- Vim trazer o resultado do Papanicolaou que você solicitou aquele dia.\n\n**Se o candidato solicitar o resultado, liberar o IMPRESSO 1.**\n\n**Qualquer pergunta que for realizada pelo candidato, responder:**\n- Não consta no script.\n\n**Depois que o candidato ler e explicar o resultado, perguntar:**\n- Dr., o que é essa alteração? Tem chance de ser câncer?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Resultado de exame trazido pela paciente",
+      "conteudo": "**Resultado:** ASC-H. \n\n\n\n**ATENÇÃO! Verbalize corretamente o significado de ASC-H.**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Colposcopia",
+      "conteudo": "**Resultado:**\n\nJunção escamo-colunar visível.\n\nSem a presença de achados colposcópicos anormais.\n\n\n\n**OLHE PARA A CÂMERA E INTERPRETE O EXAME.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Apresenta-se adequadamente;\n(2) Cumprimenta e identifica a paciente simulada, falando seu nome.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga antecedentes e fatores de risco para câncer do colo uterino:**\n(1) Papanicolau prévio;\n(2) Sexarca;\n(3) Número de parceiros sexuais;\n(4) Tabagismo;\n(5) Histórico familiar de CA de colo uterino.\n\n**Adequado: **Investiga corretamente quatro ou mais itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado: **Não investiga nenhum ou investiga apenas um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Não realizou exame físico, conforme solicitado. **\n\n**Adequado:** Não realizou exame físico.\n**Inadequado:** Realizou exame físico.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicitou e interpretou corretamente o resultado trazido pela paciente: ASC-H ( atipias em células escamosas em que não se pode afastar lesão de alto grau).**\n\n**Adequado: **Solicita e interpreta corretamente o exame.\n**Inadequado: **Não interpreta corretamente o exame.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explicou à paciente que, com esse resultado, não se pode descartar lesões malignas ou câncer.**\n\n**Adequado: **Explicou corretamente, acalmando a paciente.\n**Inadequado: **Mantém postura alarmista ou diz que o resultado é de caráter benigno.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicitou colposcopia.**\n\n**Adequado: **Solicita colposcopia, explicando ser a conduta adequada para o seguimento da paciente.\n**Inadequado: **Não solicita colposcopia ou indica nova colpocitologia.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Todas as mulheres com laudo citopatológico de ASC-H devem ser encaminhadas para uma unidade de referência para colposcopia."
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbalizou o resultado da colposcopia como normal.**\n\n**Adequado:** Interpreta o exame corretamente.\n**Inadequado:** Não interpreta o exame corretamente.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Deve-se considerar a colposcopia normal se a JEC é visível."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Não solicitou biópsia. **\n\n**Adequado: **Não solicita biópsia. \n**Inadequado: **Solicita biópsia.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Na presença de achados colposcópicos anormais, sem visão da JEC (ZT tipo 3), deve-se proceder à biópsia e à avaliação do canal (conforme Tópicos complementares – Avaliação do canal endocervical), que não é o caso da paciente em questão."
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica que a paciente deverá realizar seguimento com nova citologia e colposcopia em 6 meses.**\n\n**Adequado:** Indica nova colposcopia e colpocitologia com prazo correto.\n**Parcialmente adequado:** Indica apenas um dos exames, mas com o prazo correto.\n**Inadequado:** Não indica nenhum exame ou indica com prazo incorreto.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Quando não há achado colposcópico anormal, deve-se repetir em 6 meses a colposcopia e colpocitologia.Página 54 da bibliografia."
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Pergunta se a paciente tem dúvidas.**\n\n**Adequado:** Questiona sobre dúvidas.\n**Inadequado:** Não questiona sobre dúvidas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

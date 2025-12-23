@@ -1,0 +1,147 @@
+{
+  "uid": 1207,
+  "hash": "0PBZNgHeZIOxhUtC5PbXZC3d",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Transtorno do Espectro Autista (TEA)",
+  "definicao": "O transtorno do espectro autista (TEA) é um distúrbio neurobiológico com início na primeira infância. As principais características são o comprometimento da comunicação e da interação social, acompanhados por comportamentos restritos e repetitivos. A apresentação do TEA pode variar significativamente de um indivíduo para outro, bem como ao longo do desenvolvimento de uma criança em particular. Não há, atualmente, nenhum marcador biológico de diagnóstico para o TEA. Portanto, diagnóstico preciso requer revisão cuidadosa da história e observação direta do comportamento da criança.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "52.00",
+    "star": 0,
+    "time": 552,
+    "count": 4077
+  },
+  "cenario": "Local de atuação: \n- Rádio comunitária. \n\nDescrição do caso: \nVocê é o médico em uma cidade de interior e foi convidado para uma entrevista na rádio local para falar sobre o tema: Transtorno do Espectro Autista.",
+  "tarefas": "-Nesta estação não existe anamnese ou exame físico. \n- Responder aos questionamentos do entrevistador de maneira completa.",
+  "script_ator": "**Você será o entrevistador de uma rádio local e será responsável por conduzir a entrevista com o candidato:**\n\n**NOME DO ENTREVISTADOR:**\n-Júlio, 32 anos.\n\n**APÓS APRESENTAÇÕES:**\n- Hoje, contaremos com a presença de um(a) médico(a) muito especial nesta rádio. Vamos abordar um tema atual e de suma importância para toda a população: Transtorno do Espectro Autista.\n\n**QUESTIONAMENTOS:**\n**-Pergunta 1:** Dr.(a), o que é o Transtorno do Espectro Autista?\n**-Pergunta 2:** Dr.(a), o que significa ser um espectro? É uma doença?\n**-Pergunta 3:** Dr.(a), qual é a causa?\n**-Pergunta 4:** Dr.(a), as vacinas induzem o desenvolvimento do Autismo?\n**-Pergunta 5:** Dr.(a), quais são os sinais? De que modo se faz o diagnóstico?\n**-Pergunta 6:** Dr.(a), existe alguma ferramenta que ajuda no diagnóstico?\n**-Pergunta 7:** Dr.(a), existe algum tratamento? Onde é feito?\n**-Pergunta 8:** Quais os profissionais envolvidos no atendimento da criança com TEA?\n\n**ORIENTAÇÕES:**\n- Você gostaria de deixar alguma orientação para nossos ouvintes sobre acompanhamento e sinais de alarme?\n\n**Após finalizar as orientações:**\n- Muito obrigado, Dr.(a), por aceitar o nosso convite. Que possamos ter a sua presença aqui mais vezes.",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se e cumprimenta o entrevistador.\n(2) Cumprimenta o público ouvinte de maneira adequada e cordial.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Verbaliza que:**\n(1) TEA é um distúrbio caracterizado pela alteração das funções do neurodesenvolvimento, que podem englobar alterações qualitativas e quantitativas da comunicação;\n(2) Seja na linguagem verbal ou não verbal, na interação social;\n(3) Comportamento;\n(4) Apresenta ações repetitivas, hiperfoco para objetos específicos e restrição de interesses.\n\n**Adequado:** Verbaliza os quatro itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Informa que:**\n(1) Cada caso é único e dentro do espectro são identificados graus;\n(2) que podem ser leves e com total independência;\n(3) apresentando discretas dificuldades de adaptação até níveis de total dependência para atividades cotidianas ao longo de toda a vida.\n\n**Adequado:** Informa os três itens.\n**Parcialmente adequado:** Informa dois itens.\n**Inadequado:** Informa um item ou não informa item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Verbaliza que os sinais de alerta no neurodesenvolvimento da criança podem ser percebidos nos primeiros meses de vida, entre 6 e 18 meses.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Informa que:**\n(1) É mais frequente no sexo masculino;\n(2) Etiologia do transtorno do espectro autista ainda é desconhecida;\n(3) Evidências científicas apontam que não há uma causa única, mas sim a interação de fatores genéticos e ambientais.\n\n**Adequado:** Informa os três itens.\n**Parcialmente adequado:** Informa dois itens.\n**Inadequado:** Informa um item ou não informa item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza que as vacinas não causam autismo.**\n\n**Adequado:** Verbaliza. \n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Verbaliza que:**\n(1) O diagnóstico é clínico;\n(2) Identificação de traços do espectro autista é realizada a partir das observações da criança, entrevistas com os pais, e aplicação de métodos de monitoramento do desenvolvimento infantil, durante as consultas de avaliação do crescimento da criança;\n(3) E pode ser necessário a ajuda de um neurologista pediátrico ou psiquiatra infantil.\n\n**Adequado:** Verbaliza os três itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Cita as ferramentas:**\n(1) Caderneta de Saúde da Criança;\n(2) Escala M-CHAT-R (2).\n\n**Adequado:** Cita os dois itens.\n**Parcialmente adequado:** Cita um item.\n**Inadequado:** Não cita item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Explica que:**\n(1) TEA não tem cura;\n(2) O diagnóstico precoce permite o desenvolvimento de práticas para estimular a independência e a promoção de qualidade de vida e acessibilidade para essas crianças;\n(2) E deve ser multidisciplinar.\n\n**Adequado:** Explica os três itens. \n**Parcialmente adequado:** Explica dois itens.\n**Inadequado:** Explica um item ou não explica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza profissionais envolvidos no acompanhamento:**\n(1) Pedagoga;\n(2) Pediatria;\n(3) Fonoaudióloga;\n(4) Neurologista infantil;\n(5) Nutricionista;\n(6) Assistente social.\n\n**Adequado:** Verbaliza cinco ou seis itens.\n**Parcialmente adequado:** Verbaliza três ou quatro itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Orienta que:**\n(1) Se houver presença de sinais de alarme, procurar ajuda profissional; e\n(2) Realizar um acompanhamento adequado do desenvolvimento infantil.\n\n**Adequado:** Orienta um ou dois itens. \n**Inadequado:** Não orienta item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

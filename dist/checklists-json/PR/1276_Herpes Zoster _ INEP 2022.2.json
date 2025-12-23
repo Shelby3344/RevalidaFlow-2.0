@@ -1,0 +1,171 @@
+{
+  "uid": 1276,
+  "hash": "wqGB2BeKn3U7AT_Eu4ks7rXc",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Herpes Zoster | INEP 2022.2",
+  "definicao": "Herpes, ou cobreiro é uma doença causada pelo Vírus Varicela-Zóster (VVZ), o mesmo que causa também a Catapora. Esse vírus permanece em latência durante toda a vida da pessoa. A reativação ocorre na idade adulta ou em pessoas com comprometimento imunológico, como os portadores de doenças crônicas (hipertensão, diabetes), câncer, Aids, transplantados e outras.  Excepcionalmente, há pacientes que desenvolvem herpes-zóster após contato com doentes de varicela e, até mesmo, com outro doente de zóster, o que indica a possibilidade de uma reinfecção em paciente já previamente imunizado. É também possível uma criança adquirir varicela por contato com doente de zóster. A Herpes-Zóster pode levar a complicações e outras formas clínicas graves, inclusive, levar à morte.",
+  "origem": 1,
+  "ano_da_prova": "20222",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "79.00",
+    "star": 0,
+    "time": 565.5,
+    "count": 9547
+  },
+  "cenario": "Unidade de Atenção Primária \n\nA unidade possui a seguinte infraestrutura: \nApoio laboratorial diagnóstico de urgência\n\nHomem de 35 anos comparece à Unidade Básica de Saúde (UBS) queixando-se de dor nas costas.",
+  "tarefas": "Realizar anamnese do paciente. \nSolicitar investigação laboratorial, se necessário. \nDefinir o diagnóstico clínico-laboratorial. \nOrientar o plano terapêutico e as medidas de controle. \n\n\nATENÇÃO: O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "Marcos, 35 anos, casado, repositor no mercadinho do bairro \n\n**Motivo de consulta:** \nDr(a) estou sentindo uma dor aqui nas minhas costas que está me incomodando muito e não estou conseguindo trabalhar direito \n\nSobre a DOR\n**Tempo de evolução da dor:**\nTem 2 dias, \n**Irradiação da dor:**\na dor caminha pela costela em direção ao abdômen do lado direito,\n**Intensidade da dor:**\n8/10, \n**Característica da dor:**\nqueimante, \n**Frequência da dor:**\nprimeiro episódio \n\nSobre ALTERAÇÕES URINÁRIAS E DEFECATÓRIAS\n**Alterações urinárias e/ou defecatórias:**\nPercebi que a minha urina esta mais escura que o habitual mas as estão fezes estão normais\n\nANTECEDENTES PESSOAIS E FAMILIARES\n**Conviventes na mesma moradia:**\nMoro com meu esposo e filho\n**Sintomas nos conviventes da casa:**\nEles estão sem sintomas\n**Ingesta de água:**\nConfesso que bebo pouca água\n\n**Quando receber o diagnóstico, questionar se não poderia ser outra coisa** \n\n**Caso o candidato abra para perguntas:** \nMeu esposo e filho precisam ter algum cuidado especial para não pegar isso ?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Ectoscopia",
+      "conteudo": "Ectoscopia",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Fisico",
+      "conteudo": "**Peso:** 70 Kg. \n\n**Índice de Massa Corporal:** 28 Kg/m². \n\n\n\n**Pressão arterial:** 125/72 mmHg. \n\n**Frequência cardíaca:** 98 batimentos por minuto. \n\n**Temperatura axilar:** 38º C. \n\n\n\nBom estado geral, acianótico e anictérico. \n\n\n\n**Aparelho cardiovascular:** ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros ou turgência jugular. \n\n**Aparelho respiratório:** murmúrio vesicular bem distribuído. Sem ruídos adventícios. \n\n**Abdome:** normotenso, normotimpânico, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes. Sem visceromegalias.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) cumprimenta o paciente simulado;\n(2) identifica-se; \n(3) dirige-se ao paciente simulado pelo nome, pelo menos uma vez; \n(4) pergunta o motivo da consulta; \n(5) ouve o paciente com atenção.\n\n\n**Adequado:** realiza as cinco ações.\n**Parcialmente adequado: **realiza de duas a quatro ações.\n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) estabelece contato visual e \n(2) mantém postura empática ao longo da consulta.\n\n**Adequado:** realiza as duas ações.\n**Parcialmente adequado:** realiza apenas uma das ações.\n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": " 0.15",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala do paciente simulado sem interrompê-lo.**\n\n**Adequado:** realiza integralmente a ação.\n**Inadequado:** não realiza a ação ou não realiza a ação integralmente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível ao paciente simulado, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** utiliza linguagem acessível.\n**Inadequado: **não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Responde às perguntas do paciente simulado.**\n\n**Adequado:** responde às perguntas.\n**Inadequado:** não responde às perguntas",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Explora as características da dor: **\n(1) tempo de início e duração; \n(2) localização e irradiação; \n(3) qualidade/tipo;\n(4) intensidade e evolução; \n(5) fatores desencadeantes e atenuantes, e \n(6) manifestações concomitantes.\n\n**Adequado:** pergunta sobre as seis características da dor.\n**Parcialmente adequado:** pergunta quatro a cinco características da dor\n**Inadequado:** pergunta sobre uma a três características da dor ou não pergunta sobre característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga sintomas associados: **\n(1) respiratórios;\n(2) geniturinários; \n(3) gastrintestinais \n(4) sistêmicos (febre, mal-estar).\n\n**Adequado: **investiga os quatro grupos de sintomas associados.\n**Parcialmente adequado:** investiga dois a três grupos de sintomas associados.\n**Inadequado:** investiga um grupo de sintomas associados ou não investiga grupo de sintomas associados algum",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Pergunta sobre a existência de lesões em mucosas(boca, genitália ou ânus).**\n\n**Adequado:** pergunta se há lesões em mucosas.\n**Inadequado:** não pergunta sobre lesões em mucosas",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Descreve as características da lesão: **\n(1) placa eritematosa; \n(2) associação com lesões vesiculares;\n(3) obedece ao trajeto de um dermátomo.\n\n**Adequado:** descreve as três características da lesão.\n**Parcialmente adequado:** descreve duas características da lesão.\n**Inadequado:** descreve uma característica da lesão ou não descreve característica alguma.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza diagnóstico de Herpes Zoster.**\n\n**Adequado:** realiza o diagnóstico.\n**Inadequado:** não realiza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Cita os principais diagnósticos diferenciais para o caso:**\n(1) pielonefrite; \n(2) nova varíola ou monkeypox;\n(3) varicela; \n(4) lombalgia mecânica/DORT; \n(5) urolitíase.\n\n**Adequado:** cita os cinco principais diagnósticos diferenciais.\n**Parcialmente adequado:** cita dois a quatro principais diagnósticos diferenciais.\n**Inadequado:** cita um dos principais diagnósticos diferenciais ou não cita diagnóstico diferencial algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. I**ndica tratamento: **\n(1) medicações sintomáticas (analgésico/antitérmico e/ou anti-inflamatório); \n(2) antiviral oral (Aciclovir, Fanciclovir, Valaciclovir).\n\n**Adequado:** indica ambos os tratamentos.\n**Parcialmente adequado:** indica um dos tratamentos.\n**Inadequado:** não indica tratamento algum.\n\n**Atenção: A indicação de anti-histamínicos e/ouposologia do antiviral não afeta a pontuação nesta questão.**",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

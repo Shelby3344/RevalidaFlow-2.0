@@ -1,0 +1,190 @@
+{
+  "uid": 1677,
+  "hash": "5a47c750e40f2aff3400ec44e5234e6e106f6a6c221ce0a1b289a2b62031b585-1759511216",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Consulta Pré Cirúrgica/Classificação ASA - Híbrido",
+  "definicao": "O propósito da avaliação pré -operatória é verificar o estado clínico do paciente e o risco próprio da cirurgia, gerando recomendações sobre a avaliação, manuseio e risco de problemas em todo o período per-operatório, definindo o risco cirúrgico, pelo qual o paciente, o anestesista e o cirurgião podem usar para tomar decisões que beneficiem o paciente a curto e longo prazo, visando reduzir eventos de morbimortalidade.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "69.00",
+    "star": 0,
+    "time": 584.5,
+    "count": 198
+  },
+  "cenario": "Nível de atenção: Atenção secundária a saúde.\nTipo de atendimento: Clinica ambulatorial.   \n\nA unidade possui a seguinte infraestrutura:\nSala com consultórios;\nEletrocardiograma;\nSetor de radiologia convencional e ultrassonografia;\nLaboratório de análises clínicas;\n\nDescrição do caso:\nVocê está em um ambulatório de cirurgia geral e irá atender um paciente de 49 anos, que foi encaminhado pela UBS para consulta pré cirúrgica.",
+  "tarefas": "-Interpretar os exames trazidos pelo paciente;\n-Realizar a anamnese pré cirúrgica adequada;\n-Solicitar o exame físico direcionado;\n-Solicitar exames complementares, caso julgue necessário;\n-Estabelecer e comunicar o risco cirúrgico deste paciente segundo o sistema de classificação ASA;\n- Citar mínimo três complicações da cirurgia;\n- Citar orientações pré - cirurgica para o paciente.",
+  "script_ator": "˜**DADOS PESSOAIS:**\n- Me chamo Pedro, tenho 49 anos, sou advogado.\n\n**MOTIVO DE CONSULTA:**\n- Dr.(a), eu vim porque passei na UBS com o meu médico da estratégia de saúde da familia, pois sempre tenho muito dor na barriga sabe, não é uma dor forte, mas sempre incomoda um pouquinho. Aí o médico pediu uns exames e viu que eu tinha umas pedrinhas na vesícula, por isso me encaminhou. Eu trouxe uns exames que ele me pediu, você quer ver?\n\n**ANAMNESE DIRECIONADA:**\n**-Presença de dores:** Ultimamente tenho tido vários episódios de cólicas.\n**- Localização da dor:** Dói a barriga toda.\n**- Intensidade:** 7/10.\n**- Fatores de melhora ou piora:** Melhora quando eu uso buscopam e piora quando como comida gordurosa.\n\n**SINTOMAS ASSOCIADOS:**\n**- Náuseas e vômitos:** Nega.\n**- Alterações intestinais e urinárias:** Nega.\n\n**HÁBITOS:** \n**-  Tabagismo:** Sim, eu fumo há 20 anos.\n**- Etilismo:** Bebo socialmente.\n**-  Alimentação e ingesta hídrica:** Eu como bem mal, Dr(a) por conta dessa correria do trabalho.\n**- Atividade física:** Não faço.\n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças crônicas:** Tenho hipertensão e diabetes.\n**- Medicamento de uso contínuo:** Tomo Metformina e Enalapril.\n**- Cirurgia prévia:** Nega.\n**- Alergias a alimentos, medicamentos em geral:** Nega.\n**- Antecedentes de doenças pulmonares, e histórico de sangramento anormal:** Nega.\n\n\n**Liberar o impresso 1 e 2 somente após o candidato solicitar/confirmar ver os exames trazidos**\n\nAo solicitar o ASA e/ou   METS  liberar somente o  impresso da CLASSIFICAÇÃO mencionada.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exames trazido pelo paciente 1",
+      "conteudo": "Vias biliares: intra e extra-hepáticas sem sinais de dilatação. \n\nVesícula biliar: volume normal, paredes finais e regulares, apresentando múltiplos cálculos em seu interior, o maior com cerca de 2,6mm, móveis a mudança de decúbito.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759519878.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exames trazidos pelo paciente 2",
+      "conteudo": "**Eletrocardiograma:** sem alterações.\n\n**Radiografia de Tórax:** sem alterações.\n\n**EAS/Urinocultura:** sem alterações.\n\n**INR:** 1,0 (Valor de referência 0,8-1,2).",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759519878.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame físico ",
+      "conteudo": "**Sinais Vitais**\n\n**Pressão arterial:** 120x80 mmHg. \n\n**Frequência cardíaca:** 100 batimentos por minuto. \n\n**Saturação de O2:** 95%. \n\n**Temperatura axilar:** 36,2° C.\n\n**Frequência respiratória: 14 incursões por minuto.**\n\n\n\n**Antropometria**:\n\n**Peso**:** **86,7 kg\n\n**Altura**: 1,70 cm\n\n**IMC**: 30 kg/m2\n\n\n\n**Ectoscopia** geral: Paciente em bom estado geral, afebril, acianótico, anictérico, normocorado, hidratado, alerta, orientado em tempo, espaço e pessoa. \n\n\n\n**Aparelho cardiovascular**: bulhas rítmicas e normofonéticas em 2 tempos e sem sopros.\n\n\n\n**Aparelho respiratório**: MV presente em ambos campos pulmonares, sem ruídos adventícios.\n\n\n\n**Aparelho** abdominal: RHA presentes, abdome globoso, timpânico e indolor a palpação superficial e profunda.\n\n\n\n**MMII**: Sem edemas e bem perfundidos. Os pulsos pediosos e radiais estão palpáveis bilateralmente, cheios e simétricos.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759519878.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Classificação  ASA",
+      "conteudo": "Olhe para câmera e verbalize a classe do paciente.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759520735.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "Classificação Funcional METS",
+      "conteudo": "Olhe para câmera e verbalize o equivalente metabólico do paciente.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759526911.png"
+    },
+    {
+      "idx": 6,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemograma:**\n\n**Hemácias**: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina**: 15,9 g/dl (Valor de referência: 12 a 16 mg/dl)\n\n**Hematócrito**: 48% (Valor de referência: 39 - 52%)\n\n\n\n**Leucograma:**\n\n**Leucócitos**: 10.340/mm3 (Valor de referência: 4.000 - 10.000/mm3).\n\n\n\n\n\n**Glicemia**: 125 mg/dl (70 - 110 mg/dl)\n\n\n\n**PCR**: 0,1 mg/dl (Valor de referência: < 0,3 mg/dl)\n\n\n\n**Creatinina**: 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia**: 32 mg/dl (Valor de referência: < 40 mg/dl) \n\n**Sódio**: 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759526911.png"
+    },
+    {
+      "idx": 7,
+      "titulo": "Impresso avaliação ",
+      "conteudo": "Após verbalizar,  escreva a classificação  ASA e a classificação  Funcional/METS do paciente .",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Apresenta-se; e;\n(2) Cumprimenta e identifica adequadamente a paciente.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza uma ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Solicita e interpreta os exames trazidos pelo paciente:**\n(1) Eletrocardiograma sem alterações;\n(2) USG de abdome compatível com Colelitíase;\n(3) Rx de tórax sem alterações.\n\n**Adequado:** Solicita e interpreta os três itens.\n**Parcialmente adequado:** Solicita e interpreta dois itens.\n**Inadequado:** Solicita e interpreta um ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre:**\n(1) Dor;\n(2) Intensidade;\n(3) Localização.; \n(4) Fatores de melhora e piora.\n\n**Adequado:** Pergunta os quatro itens.\n**Parcialmente adequado:** Pergunta três itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre Hábitos:** \n(1) Tabagismo;\n(2) Etilismo;\n(3) Alergias;\n(4) Atividade física;\n(5) Alimentação.\n\n**Adequado:**  Pergunta os cinco itens.\n**Parcialmente adequado:** Pergunta três a quatro itens.\n**Inadequado:**  Pergunta dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta sobre antecedentes pessoais:**\n(1) Doenças crônicas;\n(2) Uso de medicamentos;\n(3) Cirurgias.\n\n**Adequado:** Pergunta sobre os três itens.\n**Parcialmente adequado:** Pergunta dois itens.\n**Inadequado:** Pergunta um ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Classificações ASA e Funcional/METS:**\n(1) Realização de risco cirúrgico, segundo protocolo;\n(2) ASA, e classifica a paciente como ASA 2;\n(3) Escala funcional/ METS 5-7.\n\n**Adequado:**  Escreve e verbaliza  os três itens.\n** Parcialmente adequado:** Escreve e/ou verbaliza dois itens.\n**Inadequado:** Escreve e/ou verbaliza um item ou item algum.\n\n**OBS** O item só será pontuado se verbalizado, escrito em letra legível e mostrado para câmera.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exame físico:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita exames laboratoriais:**\n(1) Hemograma;\n(2) PCR;\n(3) Glicemia capilar;\n(4) Ureia;\n(5) Creatinina;\n(6) Ionograma.\n\n**Adequado:** Solicita cinco a seis itens.\n**Parcialmente adequado:** Solicita quatro itens.\n**Inadequado:** Solicita três ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza manutenção das medicações até o dia da cirurgia:**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Cita complicações de cirurgia:**\n(1) Trombose venosa profunda;\n(2) Infecção de sitio cirúrgico;\n(3  Abscesso intracavitário;\n(4) Pancreatite Aguda Biliar;\n(5) Atelectasia. \n\n**Adequado:** Cita três ou mais itens.\n**Parcialmente adequado:** Cita dois itens.\n**Inadequado:** Cita um ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza mudança do estilo de vida:**\n(1) Interromper o tabagismo\n(2) Alimentação saudável\n(3) Prática de atividades físicas \n\n**Adequado:** Verbaliza dois ou mais itens.\n**Inadequado:** Verbaliza um item ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

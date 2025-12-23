@@ -1,0 +1,198 @@
+{
+  "uid": 1016,
+  "hash": "xRcacHKMUUhBTxNgAeS02Z42",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Cirurgia Bariátrica pelo SUS | INEP 2023.2",
+  "definicao": "A obesidade é uma doença crônica, multifatorial, caracterizada pelo acúmulo de gordura corporal. Fundamentalmente definida quando o paciente adulto apresenta um IMC maior a 30 kg/m2.",
+  "origem": 1,
+  "ano_da_prova": "20232",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "59.00",
+    "star": 0,
+    "time": 595.5,
+    "count": 7194
+  },
+  "cenario": "Local de atuação: atenção primária à saúde — consultório médico em uma unidade\nbásica de saúde (UBS).\n\nDESCRIÇÃO DO CASO\nVocê trabalha em uma UBS e realizará o atendimento, em consulta agendada, de um homem de 30 anos de idade, sem seguimento regular de saúde.\nOs seguintes dados do acolhimento foram coletados pelo(a) técnico(a) de enfermagem:\n• Motivo da consulta: preocupação com o peso corporal.\n• Peso: 92 Kg.\n• Estatura: 1,64 m.\n• Classificação de Risco: VERDE — RISCO BAIXO\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Acolher adequadamente a demanda do paciente;\n-Realizar a abordagem integral da pessoa em seu contexto;\n-Verbalizar a classificação do estado nutricional e o risco de comorbidades do  paciente;\n-Citar o parâmetro de avaliação de distribuição da gordura corporal que está  relacionado ao risco de morbimortalidade. Obs.: somente o primeiro parâmetro de  avaliação verbalizado será considerado;\n-Elencar 6 metas a serem alcançadas no tratamento do paciente. Obs.: somente  as 6 primeiras metas verbalizadas serão consideradas;\n-Pactuar com o paciente o plano de cuidados.",
+  "script_ator": "Jhonny, 30 anos de idade, solteiro, sem filhos, técnico em computação e mora com sua mãe\n\n**MOTIVO DE CONSULTA:**\nGostaria de saber como que eu faço para agendar uma bariátrica pelo SUS\n\nANTECEDENTES PESSOAIS\n**DOENÇAS CRÔNICAS:**\nNão tenho \n**USO CRÔNICO DE MEDICAMENTOS:**\nNão tomo nada \n**ALERGIAS:**\nQue eu saiba não tenho nada \n**STATUS VACINAL:**\nMinhas vacinas estão em dia \n**ANTECEDENTES FAMÍLIARES:**\nQue eu saiba todo mundo na minha família é saudável \n\nHÁBITOS \n**PRÁTICA DE ATIVIDADE FÍSICA:**\nNão faço nenhuma atividade\n**ATIVIDADES DE LAZER:**\nNão tenho tempo \n**CARGA HORÁRIA DE TRABALHO:**\nTrabalho regularmente, seis dias por semana, em uma lan house, onde desenvolvo minhas atividades predominantemente sentado\n**QUALIDADE DO SONO:**\nNão tenho problemas para dormir \n**RONCO:**\nAté hoje ninguém me disse se eu ronco ou não Dr(a)\n**HÁBITOS TÓXICOS:**\nNão fumo, não bebo e não uso drogas\n**TIPO DE ALIMENTAÇÃO:**\nAlmoço diariamente em uma hamburgueria e janto com fartura, pois só consigo dormir de\nbarriga cheia, eu gosto muito de comer\n\n**TEMPO DE EVOLUÇÃO DO AUMENTO DE PESO:**\nComecei a ganhar peso na adolescência e, nos últimos anos, esse ganho de peso se agravou\n**FALTA DE AR:**\nNão tenho \n**ESTRESSE E ANSIEDADE:**\nMe considero uma pessoa calma e sem ansiedade\n\n**NEGAR**\nproblemas de relacionamento familiares\noutros sintomas\n\n**Dúvidas:**\n**PERGUNTA 1: **Quais foram os achados do meu exame físico?\n**PERGUNTA 2:** Qual será a data marcada para a cirurgia e quem é o médico que vai me operar?\n**PERGUNTA 3:** Como vai ser o atendimento clínico na UBS e quais profissionais vão me atender?\n**PERGUNTA 4:** Quais são as metas do meu tratamento?\n**PERGUNTA 5:** O que é preciso alterar em minha rotina?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Peso:** 92 Kg.\n\n**Estatura:** 1,64 m.\n\n**Índice de Massa Corporal (IMC):** 34,2 Kg/m².\n\n**Pressão arterial:** 118 × 69 mmHg.\n\n**Frequência cardíaca:** 88 batimentos por minuto.\n\n**Temperatura axilar:** 36,8ºC.\n\n**Circunferência (cintura) abdominal:** 104 cm.\n\n\n\nSem outras alterações no exame físico",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se.**\n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se;\n(3) Dirige-se ao paciente simulado pelo nome, ao menos uma vez;\n(4) Pergunta o motivo da consulta; e \n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** realiza as cinco ações.\n**Parcialmente adequado:** realiza de duas a quatro ações.\n**Inadequado:** realiza apenas uma ação OU não realiza ação alguma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Conecta-se ao paciente.**\n(1) Estabelece contato visual; e \n(2) Mantém postura empática e interessada ao longo da consulta.\n\n**Adequado:** realiza as duas ações.\n**Parcialmente adequado:** realiza apenas uma ação.\n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Escuta a fala do paciente simulado sem interrompê-lo.**\n\n**Adequado:** realiza integralmente a ação.\n**Inadequado:** não realiza a ação OU não realiza a ação integralmente",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível com o paciente simulado, evitando\ntermos técnicos de difícil compreensão.**\n\n**Adequado:** utiliza linguagem acessível.\n**Inadequado:** não utiliza linguagem acessível",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Comportamento.**\n(1) Oferece confiança ao paciente simulado;\n(2) Não banaliza a condição clínica do paciente simulado;\n(3) Não julga o paciente simulado; e \n(4) Não manifesta atitude paternalista, punitiva ou condescendente em relação ao paciente simulado.\n\n**Adequado:** realiza as quatro ações.\n**Parcialmente adequado:** realiza duas ou três ações.\n**Inadequado:** realiza apenas uma ação OU não realiza ação alguma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Confirma diagnóstico de obesidade.**\n\n**Adequado:** confirma o diagnóstico de obesidade clinicamente.\n**Parcialmente adequado:** refere possibilidade de diagnóstico de obesidade e solicita exames para confirmar.\n**Inadequado:** não confirma o diagnóstico de obesidade OU confirma diagnóstico de sobrepeso.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Estabelece a relação da obesidade com o estilo de vida do paciente (sedentarismo e má alimentação).**\n\n**Adequado:** estabelece essa relação.\n**Inadequado:** não estabelece essa relação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza o estado nutricional e o risco de comorbidades deste paciente segundo o Índice de Massa Corporal (IMC).**\n\n**Adequado:** identifica a obesidade grau I (≥ 30 a 34,9 Kg/m2), de risco moderado OU identifica a obesidade grau I (≥ 30 a 34,9 Kg/m2), de risco elevado. \n**Parcialmente adequado:** identifica corretamente apenas a  obesidade grau I (≥ 30 a 34,9 Kg/m2) OU apenas o risco moderado OU apenas o risco elevado.\n**Inadequado:** identifica incorretamente o grau da obesidade E identifica incorretamente o risco de comorbidades.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza como o parâmetro de avaliação de distribuição da gordura corporal que está relacionado ao risco de morbimortalidade para o caso:**\n(1) A medida da cintura abdominal é o parâmetro; e  \n(2) A medida de cintura abdominal (≥ 102,0 cm OU ≥ 94,0 cm para homens) OU a cintura do paciente é 104 cm OU a cintura do paciente está acima do ponto de corte.\n\n**Adequado:** verbaliza os dois itens.\n**Parcialmente adequado:** verbaliza um item.\n**Inadequado:** não verbaliza item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Contraindica a abordagem cirúrgica ou a cirurgia bariátrica.**\n\n**Adequado: **contraindica.\n**Inadequado:** indica abordagem cirúrgica OU cirurgia bariátrica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica ou encaminha o paciente para serviço de atenção especializada ou para especialista focal (endocrinologista, nutrólogo ou outro).**\n\n**Adequado:** não indica OU não encaminha o paciente.\n**Inadequado:** indica OU encaminha o paciente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica ou prescreve uso de medicamento.**\n\n**Adequado:** não indica OU não prescreve.\n**Inadequado**: indica OU prescreve.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Sugere ou propõe ações direcionadas à mudança de estilo de vida (MEV).**\n(1) Alimentação saudável;\n(2) Atividade física;\n(3) Práticas integrativas em saúde;\n(4) Consciência corporal;\n(5) Gestão do autocuidado; e \n(6) Promoção do empoderamento pessoal.\n\n**Adequado:** indica cinco ou seis itens.\n**Parcialmente adequado:** indica três ou quatro itens.\n**Inadequado:** indica um ou dois itens OU não indica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Elenca metas a serem alcançadas no tratamento do paciente.**\n(1) Diminuição da gordura corporal, preservando ao máximo a  massa magra;\n(2) Promoção da manutenção de perda de peso;\n(3) Cuidado com ganho de peso futuro, orientando o paciente a evitar o ganho;\n(4) Adoção da prática de atividade física regular;\n(5) Adoção de hábitos alimentares saudáveis, como aumento no consumo de alimentos in natura e minimamente processados e redução no consumo de ultraprocessados;\n(6) Mudança de comportamentos sedentários, como passar muito tempo sentado ou deitado em frente à TV, ao videogame ou utilizar muito celulares ou tablets; \n(7) Mudança de hábitos inadequados em relação ao momento da alimentação, como comer em frente à TV ou em frente a outras telas;\n(8) Redução de fatores de risco cardiovasculares associados à obesidade, como hipertensão arterial, dislipidemia, pré-diabete ou diabete melito;\n(9) Melhorias de outras comorbidades associadas ao sobrepeso, tais como apneia do sono, osteoartrite, risco neoplásico etc.;\n(10) Indução de melhora psicossomática com recuperação da autoestima; e \n(11) Aumento da capacidade funcional e da qualidade de vida.\n\n**Adequado:** Elenca seis ou mais metas.\n**Parcialmente adequado:** Elenca quatro ou cinco metas.\n**Inadequado:** Elenca até três metas OU não elenca meta alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indica acompanhamento multiprofissional (OU com o NASF ou com a e-Multi) e o seguimento longitudinal na UBS.**\n\n**Adequado: **indica acompanhamento multiprofissional E o seguimento longitudinal na UBS.\n**Parcialmente adequado: **indica apenas o acompanhamento multiprofissional OU apenas o seguimento na UBS.\n**Inadequado:** não indica acompanhamento algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

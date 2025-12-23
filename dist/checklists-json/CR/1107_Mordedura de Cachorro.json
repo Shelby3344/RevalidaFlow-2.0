@@ -1,0 +1,193 @@
+{
+  "uid": 1107,
+  "hash": "02zngT5HQ0iK_mu8P5I381hz",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Mordedura de Cachorro",
+  "definicao": "Acidente por mordedura/mordida de cão.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "42.50",
+    "star": 0,
+    "time": 554.5,
+    "count": 6036
+  },
+  "cenario": "Nível de atenção: Atenção primária a saúde.\nTipo de atendimento: UBS. \n\nA unidade conta com a seguinte infraestrutura: \nLaboratório de análises clínicas; \nUltrassonografia; \nApoio para realização de radiografias. \n\nDescrição do caso: \nMulher, 24 anos, consulta após ser mordida por um cachorro há 1 hora, apresenta múltiplos ferimentos no antebraço esquerdo.",
+  "tarefas": "Nos 10 minutos de duração da estação realiza as seguintes tarefas:\n-Realizar anamnese direcionada da paciente;\n-Solicitar e interpretar exame físico;\n-Estabelecer e comunicar a hipótese diagnóstica;\n-Propor conduta terapêutica;\n-Verbalizar pautas de alarme/retorno do paciente à unidade (mínimo 2).",
+  "script_ator": "**DADOS PESSOAIS**\n- Lays, 28 anos, casada, advogada. \n\n**MOTIVO DE CONSULTA**\n- Eu estava passeando com o meu cachorro, quando um cachorro veio para cima dele. Tentei defender, mas ele me mordeu. \n\n**SOBRE O MOTIVO DE CONSULTA**\n**Localização:** No antebraço esquerdo.\n**Tempo de evolução:** Aproximadamente 1 hora. \n**Procedência do cachorro:** Desconhecido. \n**Possibilidade de observação do cachorro: **Ele sumiu Dr (a).\n**Comportamento suspeito/indícios de doença do cachorro:** Parecia saudável.\n**Se questiona sobre vacinação do cachorro: **Não sei, parecia de rua. \n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS** \n**-Comorbidades/doenças atuais:**Nega.\n**-Alergias:** Nega.\n**-Medicamentos:** Nega.\n**-Vacina anti-tetânica:** Tenho minha caderneta completa. A última dose tomei há 6 anos.\n\n**HÁBITOS**\n**-Drogas:** Nega.\n**-Consumo de bebidas alcoólicas:** Bebo sim. Socialmente.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais Vitais",
+      "conteudo": "**Pressão arterial:** 120 x 80 mmHg. \n\n**Frequência cardíaca:** 102 batimentos por minuto. \n\n**Saturação de O2:** 99%. AA \n\n**Temperatura axilar:** 36,5° C. \n\n**Frequência respiratória:** 16 incursões por minuto.",
+      "imagem": "https://app.penserevalida.com/impressos/old/Captura-de-Tela-2023-09-30-as-20.03.35.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame da Lesão/Ectoscopia",
+      "conteudo": "Descreva o achado.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se; \n(2) Cumprimenta o paciente simulado.  \n\n**Adequado:** Realiza ambas ações.\n**Parcialmente adequado:** realiza somente uma ação.\n**Inadequado:** não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre o acidente:** \n(1) Tempo de evolução;\n (2) Procedência do cachorro;\n (3) Possibilidade de observação do cachorro;\n (4) Comportamento suspeito/indício de doença do cachorro.\n\n**Adequado:** Pergunta os quatro itens.\n**Parcialmente adequado:** Pergunta dois ou três itens.\n**Inadequado:** Pergunta um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga antecedentes pessoais:**\n (1) Comorbidades;\n (2) Alergias;\n (3) Vacina antitetânica.\n\n**Adequado:** Investiga os três itens.\n**Parcialmente adequado:** Investiga dois itens.\n**Inadequado:** Investiga um ou nenhum outro item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Verbaliza:** \n(1) Lavar as mãos; \n(2) Calçar as luvas.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Realiza exame físico:** \n(1) Sinais vitais;\n (2) Exame físico da lesão/solicita imagem; \n(3) Descreve o ferimento.\n\n**Adequado:** Realiza os três itens.\n**Parcialmente adequado:** Realiza dois itens.\n**Inadequado:** Realiza um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza o diagnóstico:** \n(1) Ferimento grave por mordedura de cachorro.\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": "Ferimento leve - Tipo: Mordeduras, arranhaduras ou lambeduras na pele.- Local: Troncos e membros.- Extensão: Pouco extensa.- Número de lesões: Única.Ferimento grave- Tipo: Mordeduras, arranhaduras ou lambeduras na pele ou mucosas.- Local: Mãos e cabeça.- Extensão: Extensos.- Número de lesões: Múltiplas.- Profundidade: Profundas."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Verbaliza:**\n (1) Lavagem da lesão com água, sabão e antiséptico (Iodopovidine, clorexidina ou álcool iodado); \n(2) Anestesia local com lidocaína 2% sem vasoconstritor, caso a conduta médica seja realizar a sutura;\n(3) Curativo hemostático.\n\n**Adequado:** Verbaliza os três  itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou nenhum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Explica que não realizará sutura neste caso OU a sutura será feita com pontos separados, mas somente uma hora após a administração do soro antirrábica:**\n\n**Adequado:** Explica corretamente.\n**Inadequado:** Não explica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": "Preferencialmente, a ferida não deve ser suturada. Caso essa conduta não seja  possível, deve-se apenas aproximar as bordas e aplicar o soro ou a imunoglobulina  antirrábica uma hora antes do procedimento. Também é necessário fazer a vacina antitetânica e a antibioticoprofilaxia"
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza:**\n(1) Manutenção do curativo; \n(2) Lavar diariamente com solução fisiológica/água e sabão.\n\n**Adequado:** Verbaliza ambos itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Indica:** \n(1) Vacina antirrábica dias 0,3,7,14; \n(2) Soro antirrábico; \n\n**Adequado:** Indica ambos.\n**Parcialmente adequado:** Indica somente somente o item (1).\n**Inadequado:** Não indica o item (1).",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Acidentes envolvendo animais domiciliados que não têm contato com outros  animais ou que estão sempre acompanhados podem ser dispensados da profilaxia.O soro antirrábico ou a imunoglobulina antirrábica devem ser  administrados até 7 dias após a aplicação da primeira dose da vacina.  Após esse período, eles não são mais indicados. A aplicação deve ser feita na porta de entrada do ferimento e, se todo o volume não puder ser  injetado, o restante deve ser administrado via intramuscular, no glúteo;"
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Indica:** \nVacina antitetânica.\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Caderneta completa (> 3 doses), última dose > 5 anos, ferida de alto risco em paciente saudável = vacinação de reforço."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica:** \nAntibioticoprofilaxia.\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "O uso de antibiótico profilático está indicado de modo consensual se houver fatores de risco associados ao ferimento, como: - Ferimentos em face e genitália, em mãos ou próximos a ossos e articulações; - Ferimentos profundos ou laceração, especialmente por mordedura por gatos; - Ferimentos moderados a graves associados a esmagamento; - Ferimentos em áreas com comprometimento venoso ou linfático; - Ferimentos que necessitem de sutura; Ferimentos em imunocomprometidos; - Lacerações submetidas a fechamento primário e feridas que requerem reparo cirúrgico.A medicação de escolha para profilaxia, quando a mordedura é causada por  cães e gatos, é a amoxicilina-clavulanato. Para adultos, amoxicilina-clavulanato  (875+125mg) duas vezes ao dia por três a cinco dias."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza retorno caso apresente os sintomas suspeitos de raiva:** \n(1) Agitação;\n (2) Delírio; \n(3) Comportamento bizarro;\n (4) Espasmos;\n (5) Convulsões;\n (6) Parestesia e sensação de ardência/dor no local da mordida;\n (7) Salivação excessiva;\n (8) Meningismo; \n(9) Paralisia.\n\n**Adequado:** Verbaliza ao menos quatro itens.\n**Inadequado:**  Verbaliza três ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Notifica o caso ao SINAN**\n\n**Adequado:** Notifica.\n**Inadequado:** Não notifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": "É importante lembrar que toda suspeita de Raiva Humana é de notificaçãoindividual e compulsória e necessita ser reportada de forma imediata."
+    }
+  ]
+}

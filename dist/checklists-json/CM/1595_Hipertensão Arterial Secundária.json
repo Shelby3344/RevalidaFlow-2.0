@@ -1,0 +1,183 @@
+{
+  "uid": 1595,
+  "hash": "0841fddc138c90d457c56e59822d59a6a719c11070cda6fb978ebaf8aa2f62ba-1751323527",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Hipertensão Arterial Secundária",
+  "definicao": "A hipertensão arterial secundária à estenose de artéria renal bilateral ocorre quando há estreitamento das artérias renais, resultando em aumento da pressão arterial devido à redução do fluxo sanguíneo para os rins. Este tipo de hipertensão é frequentemente resistente ao tratamento convencional e pode levar a complicações renais significativas.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "45.00",
+    "star": 0,
+    "time": 568.5,
+    "count": 822
+  },
+  "cenario": "Nível de atenção: Unidade de Atenção Secundária.\nTipo de tendimento:Ambulatorial e Hospitalar.\nA unidade possui a seguinte infraestrutura:\n- Consultórios;\n- Ultrassonografia;\n- Laboratório de análises clínicas.\n\nDescrição do caso:\nVocê recebe um paciente masculino relatando história de hipertensão arterial de difícil controle.",
+  "tarefas": "- Realizar a anamnese;\n- Solicitar e interpretar os exame físico geral;\n- Solicitar e interpretar os exames laboratoriais específicos;\n- Estabelecer diagnóstico e identificar a causa do problema;\n- Estabelecer a conduta inicial mais indicada ao quadro clínico;\n- Orientar sobre o acompanhamento e seguimento do paciente.\n- Responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Mauro, 55 anos, casado, gerente de banco.\n\n**MOTIVO DE CONSULTA: **\n- Doutor(a) nove meses atrás fui diagnosticado com hipertensão arterial, então comecei a tomar o medicamento que foi prescrito, porem não consegui controlar.\nEntão fiz outras consultas  no decorrer desse período onde foi realizado o ajuste da dose da medicação que estava tomando e ainda acrescentou outra medicação, porem sem sucesso no controle.\n\n**Tempo de diagnóstico:** Nove meses.\n**Tempo do ultimo ajuste da dose:** Há três meses.\n\n**SE PERGUNTADO POR SINTOMAS ATUAIS/ ASSOCIADOS:**\n- Negar todos os sintomas que forem perguntados.\n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças: **Hipertensão arterial sistêmica e colesterol alto.\n**- Medicamentos: **Uso enalapril e hidroclorotiazida doutor(a).\n**- Adesão medicamentosa:** Tomo certinho como prescrito.\n**- Alergias: **Nega.\n**- Cirurgias: **Nega.\n**- Vacinas:** Atualizado.\n\n**HÁBITOS: **\n**- Álcool: **Nega.\n**- Cigarro: **Fumo desde que tinha 14 anos de idade 2 maços por dia.\n**- Drogas ilícitas: **Nega.\n**- Alimentação: **Tenho tentado melhorar desde o diagnostico de hipertensão.\n**- Atividade física: **Comecei a academia após o diagnostico.\n\n**ANTECEDENTES FAMILIARES:**\n- Tanto minha mãe quanto meu pai faleceram de infarto.\n\n**DÚVIDAS:**\n- O que está causando a hipertensão resistente?\n- O que mais pode causar hipertensão arterial secundaria doutor(a)?\n- E quais as causas da estenose da arteria renal? (Realizar a pergunta somente se o candidato mencionar a estenose)",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 170x100 mmHg (aferida duas vezes pelo médico) \n\n**- Frequência cardíaca:** 75 batimentos por minuto \n\n**- Saturação:** 99% \n\n**- Temperatura:** 36.8° C \n\n**- Frequência respiratória:** 14 incursões por minuto \n\n\n\n**Dados antropométricos:**\n\n**- IMC:** 27 kg/m2 \n\n**- Circunferência abdominal:** 96 cm\n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular presente em ambos campos pulmonares, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos diminuídos, indolor à palpação e sem viceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemácias:** 4,1 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 14 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n**Hematócrito:** 46% (Valor de referência: 39 - 52%)\n\n**VCM:** 93 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 32 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 34 g/dl (Valor de referência: 30 - 34 g/dl) \n\n**RDW:** 11% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 329.000 mm/3 (Valor de referência: 150.000 - 400.000 mm/3)\n\n\n\n**Leucócitos:** 5.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n\n\n**Perfil renal:**\n\n**Creatinina:** 1,8 mg/dL (Valor de referência: 0,7 - 1 mg/d)\n\n**Ureia:** 48 mg/dL (Valor de referência: 40 mg/dl) \n\n**Triglicéridos: **180 mg/dl (< 150 mg/dl) \n\n\n\n\n\n**Glicemia de jejum:** 98 mg/dl (60 - 99 mg/dl)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Ultrassonografia com Doppler das Artérias Renais",
+      "conteudo": "Estenose significativa (mais de 70%) em ambas as artérias renais.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Urina tipo 1",
+      "conteudo": "Características gerais:\n\nVolume da amostra: 35 ml\n\nAspecto: límpido (Valor de referência: límpido)\n\nCor: amarela (Valor de referência: não se aplica)\n\nDepósito: escasso (Valor de referência: nulo)\n\nDensidade: 1025 (Valor de referência: 1015 - 1025)\n\nReação pH: 5,5 (Valor de referência: 4,5 - 7,8)\n\n\n\nExame químico:\n\nProteínas: negativo (Valor de referência: negativo)\n\nCorpos cetônicos: negativo (Valor de referência: negativo)\n\nGlicose: negativo (Valor de referência: negativo)\n\nBilirrubina: negativo (Valor de referência: negativo)\n\nUrobilinogênio: normal (Valor de referência: normal [< 1 mg/dL])\n\nHemoglobina: negativo (Valor de referência: negativo)\n\nNitrito: não reagente. (Valor de referência: não reagente)\n\n\n\nSedimentoscopia:\n\nPiócitos: 3 por campo (Valor de referência: < 4 por campo)\n\nHemácias: 3 por campo (Valor de referência: < 2 por campo)\n\nEpitélio de vias altas: ausente (Valor de referência: raras células por campo)\n\nEpitélio de vias baixas: raras (Valor de referência: < 3 por campo)\n\nCilindros hialinos: ausentes (Valor de referência: < 2 por campo)\n\nCilindros patológicos: ausentes (Valor de referência: ausentes)\n\nCristais: ausentes (Valor de referência: ausentes)\n\nFlora bacteriana: ausente (Valor de referência: ausente)\n\nMuco: presente (Valor de referência: não se aplica)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. ** Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a paciente e equipe médica.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga a história clínica de hipertensão:**\n(1) Tempo de diagnóstico;\n(2) Medicamentos usados;\n(3) Adesão medicamentosa.\n\n**Adequado:** Investiga todos os itens.\n**Parcialmente adequado:** Investiga dois itens.\n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Conhecer a história da hipertensão é crucial para entender a resistência ao tratamento."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunte sobre a existência de outros sinais ou sintomas associados que sejam relevantes para o estabelecimento de diagnósticos diferenciais.**\n(1) Cefaleia;\n(2) Sudorese;\n(3) Astenia;\n(4) Dor no peito;\n(5) Palpitações;\n(6) Dipneia;\n(7) Apneia do sono;;\n(8) Edema em membros inferiores.\n\n**Adequado:** Investiga cinco ou mais itens.\n**Parcialmente adequado:** Investiga dois a quatro itens.\n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais:**\n(1) Outras comorbidades ou doenças;\n(2) Uso de outros fármacos;\n(3) Alergias;\n(4) Internações/hospitalizações prévias;\n(5) Antecedentes familiares;\n(6) Hábitos tóxicos;\n(7) Alimentação/ atividade física;\n(8) Estresse ou variações do humor.\n\n**Adequado:** Investiga oito itens;\n**Parcialmente adequado:** Investiga de três a sete itens;\n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico:** \n(1) Solicita permissão para realizar o exame físico, lava as mãos e se paramenta;\n(2) Interpreta exame físico.\n\n**Adequado:** Realiza as duas ações;\n**Inadequado:** Realiza uma ação ou nenhuma ação.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exames complementares:**\n(1) Hemograma;\t\n(2) Ureia;\t\n(3) Creatinina;\n(4) Exame de urina;\n(5) Glicemia em jejum;\n(6) Perfil lipídico completo;\n(7) Sódio;\n(8) Potássio.\n\n**Adequado:** Solicita seis ou mais exames.\n**Parcialmente adequado:** Solicita três a cinco exames.\n**Inadequado:** Solicita dois ou  menos.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7.  **Solicita a ultrassonografia com Doppler das Artérias Renais.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza diagnóstico de hipertensão arterial secundária à estenose da arteria renal bilateral.**\n\n**Adequado: **Verbaliza a hipótese corretamente e identifica como sendo secundária a estenose renal.\n**Parcialmente adequado:** Verbaliza somente hipertensão secundária.\n**Inadequado:** Não verbaliza o diagnostico e não identifica a causa (etiologia)*",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Estabelece conduta:**\n (1) Suspende o uso do Enalapril;\n (2) Acrescenta um bloqueador dos canais de cálcio (BCC) ao esquema terapêutico.\n (3) Considera o uso de estatinas.\n\n**Adequado:** Realiza três ações.\n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Realiza uma ou nenhuma  ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "O Enalapril (e medicamentos similares como os IECA/BRA) deve ser evitado ou usado com muita cautela na estenose bilateral da artéria renal porque:   Rins com Estenose: Com as artérias estreitadas, os rins recebem menos sangue. Para continuar filtrando, eles dependem de um mecanismo que mantém a pressão dentro de suas unidades filtradoras, através da ação da Angiotensina II.   Ação do Enalapril: O Enalapril bloqueia a formação dessa Angiotensina II.   Risco de Dano Renal: Ao bloquear a Angiotensina II, o Enalapril desativa o mecanismo de proteção dos rins. Isso pode levar a uma queda drástica na filtração renal e causar insuficiência renal aguda (os rins param de funcionar bem subitamente) nos dois rins. Em resumo, o Enalapril pode fazer mais mal do que bem, prejudicando seriamente a função dos rins já comprometidos pela estenose bilateral.ão."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Orienta sobre o acompanhamento:**\n(1) Monitoramento diário da pressão arterial;\n(2) Acompanhamento periódico de eletrólitos e função renal (creatinina, ureia);\n(3) Reforça praticas de hábitos saudáveis (dieta adequada/ atividade física);\n(4) Encaminhamento para E-Multi e/ou CAPS-AD para apoio ao tabagismo.\n(5) Encaminhamento para nefrologista e/ou cirugião vascular.\n\n**Adequado:** Realiza quatro ações ou mais.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado:** Realiza uma ou nenhuma  ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11.  **Verbaliza as seguintes causas de HAS secundaria:**\n(1) Doença Renal Crônica;\n(2) Hiperaldosteronismo Primário;\n(3) Feocromocitoma;\n(4) Síndrome de Cushing;\n(5) Hiperaldosteronismo primário;\n(6) Coarctação da Aorta;\n(7) Uso de substâncias ilicitas (cocaína);\n(8) Pré-eclâmpsia;\n(9) Apneia Obstrutiva do Sono.\n\n**Adequado:** Verbaliza três causas ou mais.\n**Parcialmente adequado:** Verbaliza duas causas.\n**Inadequado:** Realiza uma ou nenhuma  ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "A hipertensão arterial secundária é a pressão alta causada por outra condição de saúde. Diferente da pressão alta comum, ela tem uma razão específica. Identificar essa causa é essencial porque tratá-la pode controlar ou até curar a hipertensão. As Principais Causas Incluem:   Doenças Renais: Problemas nos rins são a causa mais comum. Exemplos são a doença renal crônica ou o estreitamento das artérias que levam sangue aos rins (hipertensão renovascular, causada por placas de gordura ou outro crescimento anormal).   Problemas Hormonais: Desequilíbrios hormonais como excesso de aldosterona (hiperaldosteronismo), adrenalina (feocromocitoma) ou cortisol (Síndrome de Cushing), e problemas na tireoide.   Apneia Obstrutiva do Sono: Paradas na respiração durante o sono que elevam a pressão.   Uso de Certos Medicamentos ou Substâncias: Como anti-inflamatórios, descongestionantes nasais, corticoides, algumas pílulas anticoncepcionais, ou uso excessivo de álcool e drogas ilícitas.   Problemas Vasculares: Estreitamento da artéria principal do corpo (coarctação da aorta).   Gravidez: Condições como pré-eclâmpsia. Se a pressão alta for difícil de controlar, surgir em idades incomuns ou vier com outros sintomas."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza as seguintes causas de estenose da artéria renal:**\n(1) Aterosclerose;\n(2) Displasia Fibromuscular;\n(3) Tumores.\n\n**Adequado:** Verbaliza duas causas ou mais.\n**Parcialmente adequado:** Verbaliza uma causa.\n**Inadequado:** Realiza uma ou nenhuma  ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.55"
+      },
+      "dica_teorica": "As principais causas de estenose bilateral da artéria renal (estreitamento das artérias que levam sangue para ambos os rins) são:   Aterosclerose: É a causa mais comum, especialmente em pessoas mais velhas. Acontece pelo acúmulo de placas de gordura nas artérias, que as estreitam. Geralmente indica doença aterosclerótica em outros vasos também.   Displasia Fibromuscular (DFM): A segunda causa mais comum, que afeta principalmente mulheres jovens. É um crescimento anormal das células na parede da artéria, dando uma aparência de dando uma aparência de dando uma aparência de"
+    }
+  ]
+}

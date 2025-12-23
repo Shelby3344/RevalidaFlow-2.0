@@ -1,0 +1,257 @@
+{
+  "uid": 1214,
+  "hash": "KdUEyd46kwhxJ1mLQcjoAnP9",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Convulsão Febril",
+  "definicao": "Convulsão febril é a emergência neurologica mais frequente em pediatria e trata-se do evento convulsivo que ocorre na infância sempre associado à febre sem evidência de infecção intracraniana ou causa definida e não é considerada uma forma de epilepsia.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "51.00",
+    "star": 0,
+    "time": 577,
+    "count": 9772
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.\nTipo de atendimento: urgência e emergência. \nA unidade apresenta a seguinte infraestrutura: \n-Setor de radiologia convencional e ultrassom; \n-Laboratório de análises clínicas; \n-Leitos de internação. \n\nDescrição do caso:\nVocê é o médico do Pronto Socorro e atenderá um lactente de 1 ano, cuja mãe refere febre.",
+  "tarefas": "- Realize o acolhimento da paciente;\n- Faça a anamnese dirigida à paciente;\n- Solicitar exame físico;\n-Verbalizar o provável diagnóstico; \n- Solicitar exames complementares de laboratório e de imagem, se necessário;\n-Explicar para a mãe o diagnóstico e esclarecer eventuais dúvidas;\n-Orientar a mãe sobre o plano de cuidados.",
+  "script_ator": "**DADOS DA MÃE:** \n- Marília, 28 anos. \n\n**DADOS DA CRIANÇA:** \n- João Miguel de 1 ano.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a), eu trouxe meu filho aqui hoje porque ele está bem quentinho desde ontem.\n\n**SOBRE A FEBRE**\n-**Inicio:** Desde ontem à noite.\n-**Graduou:** Cheguei a medir em casa e estava 40°C.\n-**Tem predomínio de horário:** Não consta.\n-**Recorrente ou continua:** Não consta.\n-**Sudorese:** Não.\n**-Calafrios:** Sim, teve tremor e sudorese.\n**-Tomou alguma medicação:** Dei dipirona, melhorou um pouco mas logo voltou a subir.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Náuseas ou Vômitos:** Nega.\n-**Odinofagia:** Sim, ele reclama de dor ao engolir alimentos.\n-**Coriza:** Estava com o nariz escorrendo.\n-**Tosse:** Tinha um pouco de tosse.\n**-Manchas no Corpo:** Nega.\n**-Sintomas geniturinários:** Nega.\n**-Evacuatórios:** Normais. \n**-Dor abdominal:** Não consta.\n**-Irritabilidade:** Sim, está mais chatinho nos últimos dias.\n**- Convulsões:** Não.\n\n**ANTECEDENTES PESSOAIS:**\n- **Comorbidades:** Sem comorbidades.\n- **Alergias:** Nega.\n-**Uso de medicamentos:** Nega.\n\n**ANTECEDENTES FAMILIARES:**\n- O pai dele tinha convulsões quando era criança.\n\n**CARTÃO DE VACINAS E CADERNETA DA SAÚDE:**\n- Não trouxe, porém está tudo completo. Eu mostrei para a pediatra dele na consulta da semana passada.\n\n**EPIDEMIOLOGIA:**\n-**Creches:** Ele frequenta escolinha.\n-**Casos parecidos:** Em casa, ninguém apresenta os mesmos sinais e sintomas. No entanto, as professoras da escolinha informaram que há outras crianças com o mesmo quadro.\n\n**ATENÇÃO** \n**QUANDO O CANDIDATO SOLICITAR EXAME FÍSICO:** Liberar o impresso: **\"ATENÇÃO 1\"**.\n**APÓS PRIMEIRAS MEDIDAS, CASO O CANDIDATO SOLICITE REAVALIAÇÃO:** Liberar o impresso: **\"ATENÇÃO 2\"**.\n**APÓS NOVAS MEDIDAS, CASO O CANDIDATO SOLICITE REAVALIAÇÃO:** Liberar o impresso: **\"ATENÇÃO 3\"**.\n\n**DÚVIDAS:** \n**- Pergunta 1:** Ele vai ter que tomar alguma medicação em casa pra isso não acontecer mais?\n**-Pergunta 2:** Até quantos anos ele pode apresentar isso?\n\n**Outras perguntas:** - Não consta no SCRIPT.\n\n**IMPRESSOS:**\n**DADOS DA TRIAGEM:** Liberar ao iniciar estação.\n**EXAME FÍSICO:** Liberar o impresso após resolução da crise convulsiva.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": " DADOS DA TRIAGEM",
+      "conteudo": "**Paciente: **Masculino \n\n\n\n**Sinais vitais: **\n\n**-Frequência cardíaca:** 130 batimentos por minuto. \n\n**-Frequência respiratória:** 28 incursões respiratórias por minuto. \n\n**-Saturação de oxigênio:** 99% em ar ambiente. \n\n**-Temperatura axilar:** 40º C. \n\n**-Escala de dor:** (0 – 10): zero. \n\n**-Peso:** 12.500 g. (considere adequado para a idade).\n\n\n\n**Classificação de risco:** AMARELO.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ATENÇÃO 1",
+      "conteudo": "**O PACIENTE ESTÁ DEITADO NA MACA PARA REALIZAR O EXAME FÍSICO, QUANDO COMEÇA A MANIFESTAR AS SEGUINTES ALTERAÇÕES:**\n\n\n\n**1.** Perda de consciência.\n\n**2.** Endurecimento do corpo e abalos musculares generalizados.\n\n**3.** Perda de saliva pela boca.\n\n**4.** Coloração arroxeada dos lábios.\n\n**5.** Respiração levemente ruidosa.\n\n**6.** Perda de urina.\n\n\n\n**DIRIJA-SE PARA A CÂMERA E VERBALIZE:**\n\n- HIPÓTESE DIAGNÓSTICA E CONDUTA.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": " ATENÇÃO 2",
+      "conteudo": "**ATENÇÃO: LOGO DE 5 MINUTOS, O PACIENTE PERSISTE COM AS MESMAS ALTERAÇÕES SUPRACITADAS.**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ATENÇÃO 3",
+      "conteudo": "**CONSIDERE QUE O PACIENTE APRESENTOU: **\n\n- Recuperação completa da consciência.\n\n- Não apresenta movimentos de endurecimento e abalos musculares generalizados.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": " GLICEMIA CAPILAR",
+      "conteudo": "**GLICEMIA CAPILAR:** 89mg/dl",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "EXAME FÍSICO APÓS CRISE",
+      "conteudo": "**Sinais vitais**\n\n**- FC:** 110 bpm.\n\n**- FR:** 22 irpm.\n\n**- PA:** 100 × 60 mmHg (considerar adequada para a idade).\n\n**- SatO2:** 96% (ar ambiente).\n\n**- Temperatura:** 38,1ºC (depois de realizado o antitérmico).\n\n\n\n**Exame físico:** levemente sonolento, vigil, orientado em tempo-espaço-pessoa, Glasgow 15/15, ausência de rigidez de nuca, sem sinais focais e manobras de irritação meníngea negativas.\n\n\n\n**Oroscopia:** sem alterações.\n\n\n\n**Otoscopia:** sem alterações.\n\n\n\n**Rinoscopia:** sem alterações.\n\n\n\n**Aparelho cardiovascular:** bulhas rítmicas e normofonéticas, em dois tempos, sem sopro.\n\n\n\n**Aparelho respiratório:** eupneico. Murmúrio vesicular fisiológico, sem ruídos adventícios.\n\n\n\n**Abdome:** plano, normotenso, sem sinais de irritação peritoneal, ruídos hidroaéreos presentes e normais.",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "EXAMES LABORATORIAIS ",
+      "conteudo": "Sem alterações",
+      "imagem": null
+    },
+    {
+      "idx": 8,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "Sem alterações",
+      "imagem": null
+    },
+    {
+      "idx": 9,
+      "titulo": "PUNÇÃO LOMBAR",
+      "conteudo": "Sem alterações",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome do mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona sobre a febre:**\n(1) Início;\n(2) Característica;\n(3) Quantificação com termômetro; \n(4) Progressão; \n(5) Relação temporal com o exantema; \n(6) Uso de medicações.\n\n**Adequado:** Questiona cinco ou seis itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre sintomas acompanhantes:**\n(1) Tosse;\n(2) Prurido;\n(3) Odinofagia;\n(4) Sintomas catarrais;\n(5) Cefaleia;\n(6) Naúseas OU Vômitos;\n(7) Convulsões.\n\n**Adequado:** Questiona de cinco a sete itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona sobre:**\n(1) Antecedentes pessoais;\n(2) Alergias;\n(3) Antecedentes perinatais;\n(4) Crescimento e desenvolvimento;\n(5) Uso de medicações;\n(6) Frequência em creches ou escolinhas;\n(7) Contato com pessoas com os mesmos sinais e sintomas.\n\n**Adequado:** Questiona de cinco a sete itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita:**\n(1) Caderneta de vacina;\n(2) Caderneta da criança.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exame físico.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Conduta:**\n(1) Encaminha paciente para sala vermelha;\n(2) Paramenta-se com touca, máscara, avental e luvas.\n\n**Adequado:** Realiza os dois itens, verbalizando o item dois completamente.\n**Parcialmente adequado:** Realiza os dois itens, não verbalizando o item dois completamente.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza como conduta:**\n(1) Conter o paciente para evitar lesão;\n(2) Lateralizar a cabeça do paciente para proteger a via aérea superior.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita:**\n(1) Monitorização dos sinais vitais;\n(2) Oxigenoterapia se necessário;\n(3) Acesso venoso periférico calibroso.\n\n**Adequado:** Solicita os três itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita um item ou não solicita item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita glicemia capilar.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza o diagnóstico de Convulsão febril.**\n\n**Adequado:** Verbaliza corretamente o diagnóstico. \n**Inadequado:** Não Verbaliza ou verbaliza incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza medidas para controle da febre com antitérmicos.**\n\n**Adequado:** Verbalizou.\n**Inadequado:** Não verbalizou.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza a conduta:**\n(1) Diazepam;\n(2) 0,1-0,2 mg/kg;\n(3) Endovenoso ou via retal.\nOU\n(1) Midazolam;\n(2) 0,05-0,1 mg/kg;\n(3) Intramuscular.\n\n**Adequado:** Verbaliza os três itens (droga, dose e via).\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta os pais sobre:** \n(1) Benignidade do quadro;\n(2) Necessidade de realizar o controle da temperatura.\n\n**Adequado:** Orienta os dois itens.\n**Parcialmente adequado:** Orienta um item.\n**Inadequado:** Não orienta item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Não indica tratamento preventivo.**\n\n**Adequado:** Não indica. \n**Inadequado:** Indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Orienta que quadro pode se repetir até os 5 anos de idade.**\n\n**Adequado:** Orienta. \n**Inadequado:** Não orienta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

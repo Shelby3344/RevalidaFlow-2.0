@@ -29,6 +29,7 @@ interface UseAIPacienteAvaliadorOptions {
 
 interface UseAIPacienteAvaliadorReturn {
   sendMessage: (message: string) => Promise<AIResponse>;
+  sendInitialGreeting: () => Promise<void>;
   isLoading: boolean;
   error: string | null;
   conversationHistory: MessageIA[];
@@ -43,53 +44,95 @@ interface UseAIPacienteAvaliadorReturn {
 function extractPatientInfo(content: ChecklistContent) {
   const instrucoes = content.instrucoes.itens.join('\n');
   const descricao = content.scenario.descricao.join('\n');
+  const situacao = content.scenario.situacao.join('\n');
+  const orientacoes = content.orientacoes.join('\n');
   
   let nome = 'Paciente';
-  const nomeMatch = instrucoes.match(/(?:me chamo|meu nome é|sou o|sou a|DADOS PESSOAIS[:\s]*[-\s]*)?([A-Z][a-záéíóúãõâêîôû]+)/i);
-  if (nomeMatch) nome = nomeMatch[1];
+  // Busca nome em padrões comuns do script do ator
+  const nomePatterns = [
+    /DADOS PESSOAIS[:\s]*[-\s]*([A-Z][a-záéíóúãõâêîôû]+)/i,
+    /me chamo\s+([A-Z][a-záéíóúãõâêîôû]+)/i,
+    /meu nome é\s+([A-Z][a-záéíóúãõâêîôû]+)/i,
+    /sou o\s+([A-Z][a-záéíóúãõâêîôû]+)/i,
+    /sou a\s+([A-Z][a-záéíóúãõâêîôû]+)/i,
+  ];
+  for (const pattern of nomePatterns) {
+    const match = instrucoes.match(pattern);
+    if (match) {
+      nome = match[1];
+      break;
+    }
+  }
   
   let idade = '';
   const idadeMatch = descricao.match(/(\d+)\s*anos/i) || instrucoes.match(/(\d+)\s*anos/i);
   if (idadeMatch) idade = idadeMatch[1];
   
-  return { nome, idade, instrucoes, descricao };
+  return { nome, idade, instrucoes, descricao, situacao, orientacoes };
 }
 
 
 function generateSystemPrompt(content: ChecklistContent, checklistItems: ChecklistItemForAI[], exames: ExameForAI[]): string {
   const info = extractPatientInfo(content);
   const scenario = content.scenario;
-  const instrucoes = content.instrucoes;
   
+  // Preparar texto do checklist com descrições completas
   const checklistText = checklistItems.map(item => 
-    `${item.id}. ${item.description} (palavras-chave: ${item.keywords.slice(0, 5).join(', ')})`
-  ).join('\n');
+    `${item.id}. ${item.description}\n   Palavras-chave: ${item.keywords.slice(0, 8).join(', ')}`
+  ).join('\n\n');
   
+  // Preparar texto dos exames disponíveis
   const examesText = exames.map(e => 
-    `${e.id}. ${e.title} (palavras-chave: ${e.keywords.slice(0, 3).join(', ')})`
-  ).join('\n');
+    `${e.id}. ${e.title}\n   Palavras-chave: ${e.keywords.slice(0, 5).join(', ')}`
+  ).join('\n\n');
   
-  return `Você é um sistema dual que atua como PACIENTE e AVALIADOR em uma simulação médica OSCE.
+  // Preparar conteúdo dos impressos para a IA poder responder sobre exames
+  const impressosContent = content.impressos.map(imp => 
+    `IMPRESSO ${imp.id} - ${imp.title}:\n${imp.content || 'Conteúdo não disponível'}`
+  ).join('\n\n---\n\n');
+  
+  return `Você é um sistema dual que atua como PACIENTE e AVALIADOR em uma simulação médica OSCE (Exame Clínico Objetivo Estruturado).
 
-PAPEL 1 - PACIENTE:
+═══════════════════════════════════════════════════════════════
+PAPEL 1 - PACIENTE SIMULADO
+═══════════════════════════════════════════════════════════════
+
 Você é ${info.nome}${info.idade ? `, ${info.idade} anos` : ''}.
 
-CENÁRIO: ${scenario.nivel} - ${scenario.tipo}
+CENÁRIO DE ATUAÇÃO:
+- Nível de atenção: ${scenario.nivel}
+- Tipo de atendimento: ${scenario.tipo}
+- Infraestrutura: ${scenario.situacao.join(' ')}
+
+DESCRIÇÃO DO CASO:
 ${scenario.descricao.join('\n')}
 
-SCRIPT DO PACIENTE:
-${instrucoes.itens.join('\n')}
+SCRIPT COMPLETO DO PACIENTE (SIGA RIGOROSAMENTE):
+${info.instrucoes}
 
-PAPEL 2 - AVALIADOR:
+TAREFAS QUE O MÉDICO DEVE REALIZAR:
+${info.orientacoes}
+
+═══════════════════════════════════════════════════════════════
+PAPEL 2 - AVALIADOR AUTOMÁTICO
+═══════════════════════════════════════════════════════════════
+
 Analise cada mensagem do médico e identifique quais itens do checklist foram realizados.
 
-CHECKLIST DE AVALIAÇÃO:
+CHECKLIST DE AVALIAÇÃO (ITENS QUE O MÉDICO DEVE CUMPRIR):
 ${checklistText}
 
-EXAMES DISPONÍVEIS:
+EXAMES DISPONÍVEIS PARA SOLICITAÇÃO:
 ${examesText}
 
-RESPONDA SEMPRE EM JSON VÁLIDO com este formato:
+CONTEÚDO DOS IMPRESSOS (PARA QUANDO O MÉDICO SOLICITAR):
+${impressosContent}
+
+═══════════════════════════════════════════════════════════════
+FORMATO DE RESPOSTA
+═══════════════════════════════════════════════════════════════
+
+RESPONDA SEMPRE EM JSON VÁLIDO com este formato EXATO:
 {
   "pacienteResponse": "Sua resposta como paciente...",
   "detectedChecklistItems": [1, 3],
@@ -100,14 +143,75 @@ RESPONDA SEMPRE EM JSON VÁLIDO com este formato:
   }
 }
 
-REGRAS:
-1. Responda como paciente de forma NATURAL e REALISTA em português brasileiro
-2. Use expressões como *suspira*, *faz careta*, *parece preocupado*
-3. Identifique TODOS os itens do checklist mencionados na mensagem
-4. Classifique: adequate (completo), partial (incompleto), inadequate (incorreto)
-5. Se o médico solicitar exame, inclua o ID em detectedExames
-6. Mantenha consistência com o histórico da conversa
-7. Responda de forma CURTA (máximo 2-3 frases como paciente)`;
+═══════════════════════════════════════════════════════════════
+REGRAS IMPORTANTES
+═══════════════════════════════════════════════════════════════
+
+COMO PACIENTE:
+1. Responda EXATAMENTE conforme o script do paciente acima
+2. Use português brasileiro natural e coloquial
+3. Adicione expressões como *suspira*, *faz careta*, *parece preocupado*
+4. Responda de forma CURTA (máximo 2-3 frases)
+5. Se o médico perguntar algo que está no script, responda conforme o script
+6. Se o médico perguntar algo que deve ser NEGADO (seção NEGAR), negue
+7. Se o médico fizer as DÚVIDAS do script, responda conforme indicado
+
+COMO AVALIADOR:
+1. Identifique TODOS os itens do checklist mencionados na mensagem
+2. Classifique cada item:
+   - "adequate": realizou completamente
+   - "partial": realizou parcialmente
+   - "inadequate": realizou incorretamente
+3. Se o médico solicitar exame, inclua o ID em detectedExames
+4. Seja criterioso mas justo na avaliação
+
+SOBRE EXAMES:
+- Quando o médico solicitar um exame, libere-o em detectedExames
+- O conteúdo do exame será mostrado automaticamente ao médico`;
+}
+
+function generateInitialGreeting(content: ChecklistContent): string {
+  const info = extractPatientInfo(content);
+  const instrucoes = info.instrucoes.toLowerCase();
+  const descricao = info.descricao.toLowerCase();
+  
+  // Buscar queixa principal no script
+  let queixaPrincipal = '';
+  const scriptLines = content.instrucoes.itens;
+  
+  for (const line of scriptLines) {
+    const lowerLine = line.toLowerCase();
+    if (lowerLine.includes('motivo de consulta') || lowerLine.includes('queixa')) {
+      const match = line.match(/["""]([^"""]+)["""]/);
+      if (match) {
+        queixaPrincipal = match[1];
+        break;
+      }
+    }
+  }
+  
+  // Se não encontrou no script, tentar extrair da descrição
+  if (!queixaPrincipal) {
+    if (descricao.includes('dor')) queixaPrincipal = 'muita dor';
+    else if (descricao.includes('febre')) queixaPrincipal = 'febre';
+    else if (descricao.includes('tosse')) queixaPrincipal = 'tosse e mal-estar';
+    else if (descricao.includes('falta de ar')) queixaPrincipal = 'falta de ar';
+    else queixaPrincipal = 'não estou me sentindo bem';
+  }
+  
+  // Gerar saudação baseada no contexto
+  const nome = info.nome !== 'Paciente' ? info.nome : '';
+  const idade = info.idade ? `, ${info.idade} anos` : '';
+  
+  // Verificar se é urgência/emergência
+  const isUrgencia = instrucoes.includes('urgência') || instrucoes.includes('emergência') || 
+                     content.scenario.tipo.toLowerCase().includes('urgência');
+  
+  if (isUrgencia) {
+    return `*entra no consultório com expressão de desconforto*\n\nOlá, doutor(a)... ${nome ? `Me chamo ${nome}${idade}. ` : ''}${queixaPrincipal.charAt(0).toUpperCase() + queixaPrincipal.slice(1)}... *suspira* Vim porque não aguento mais.`;
+  }
+  
+  return `*entra no consultório*\n\nBom dia, doutor(a). ${nome ? `Me chamo ${nome}${idade}. ` : ''}Vim aqui porque ${queixaPrincipal}. *parece preocupado*`;
 }
 
 function generateLocalResponse(message: string, content: ChecklistContent): string {
@@ -116,69 +220,165 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
   const instrucoes = info.instrucoes.toLowerCase();
   const descricao = info.descricao.toLowerCase();
   
+  // Buscar respostas específicas no script do ator
+  const scriptLines = content.instrucoes.itens;
+  
+  // Nome
   if (lowerMsg.includes('nome') || lowerMsg.includes('chama')) {
     return info.nome !== 'Paciente' 
       ? `Me chamo ${info.nome}. *estende a mão*` 
       : `Pode me chamar de paciente...`;
   }
   
+  // Idade
   if (lowerMsg.includes('idade') || lowerMsg.includes('anos')) {
     return info.idade ? `Tenho ${info.idade} anos, doutor(a).` : `Tenho uns 50 e poucos anos...`;
   }
   
-  if (lowerMsg.includes('sente') || lowerMsg.includes('queixa') || lowerMsg.includes('problema')) {
+  // Motivo da consulta / queixa principal
+  if (lowerMsg.includes('sente') || lowerMsg.includes('queixa') || lowerMsg.includes('problema') || lowerMsg.includes('motivo')) {
+    // Buscar no script
+    for (const line of scriptLines) {
+      if (line.toLowerCase().includes('motivo de consulta') || line.toLowerCase().includes('queixa')) {
+        const match = line.match(/["""]([^"""]+)["""]/);
+        if (match) return `*suspira* ${match[1]}`;
+      }
+    }
     const sintoma = descricao.includes('dor') ? 'muita dor' : 
                     descricao.includes('febre') ? 'febre' : 
                     descricao.includes('tosse') ? 'tosse' : 'mal-estar';
     return `*suspira* Doutor(a), estou sentindo ${sintoma}. Começou há alguns dias...`;
   }
   
+  // Dor
   if (lowerMsg.includes('dor')) {
     if (lowerMsg.includes('onde') || lowerMsg.includes('local')) {
       if (instrucoes.includes('costela')) return `*aponta* Dói aqui nas costelas, doutor(a). *faz careta*`;
       if (instrucoes.includes('cabeça')) return `*leva a mão à cabeça* Dói muito aqui.`;
       if (instrucoes.includes('barriga') || instrucoes.includes('abdom')) return `*aponta para a barriga* Dói aqui. *faz careta*`;
+      if (instrucoes.includes('peito') || instrucoes.includes('torác')) return `*aponta para o peito* Dói aqui no peito.`;
       return `*aponta* Dói aqui, doutor(a)... *faz careta de dor*`;
+    }
+    if (instrucoes.includes('nega') && instrucoes.includes('dor')) {
+      return `Não, dor não tenho não, doutor(a).`;
     }
     return `*faz careta* Sim, dói bastante... É uma dor ${instrucoes.includes('forte') ? 'muito forte' : 'constante'}.`;
   }
   
+  // Febre
   if (lowerMsg.includes('febre') || lowerMsg.includes('temperatura')) {
-    if (descricao.includes('febre') || instrucoes.includes('febre')) {
+    if (instrucoes.includes('febre') || instrucoes.includes('quente')) {
       return `Sim, tenho sentido calor... Acho que estou com febre. À noite fico com calafrios.`;
     }
     return `Não, febre não... Pelo menos não percebi.`;
   }
   
+  // Tosse
+  if (lowerMsg.includes('tosse')) {
+    if (instrucoes.includes('tosse')) {
+      const produtiva = instrucoes.includes('produtiva') || instrucoes.includes('catarro');
+      const tempo = instrucoes.match(/há\s+(\d+)\s+(semanas?|dias?)/i);
+      let resposta = `Sim, tenho tossido bastante.`;
+      if (produtiva) resposta += ` É uma tosse com catarro.`;
+      if (tempo) resposta += ` Começou há ${tempo[1]} ${tempo[2]}.`;
+      return resposta;
+    }
+    return `Não, tosse não tenho não.`;
+  }
+  
+  // Medicamentos
   if (lowerMsg.includes('medicamento') || lowerMsg.includes('remédio') || lowerMsg.includes('usa')) {
-    if (instrucoes.includes('nega')) return `Não tomo nenhum remédio de uso contínuo.`;
+    if (instrucoes.includes('nega') && (instrucoes.includes('medicamento') || instrucoes.includes('fármaco'))) {
+      return `Não tomo nenhum remédio de uso contínuo.`;
+    }
     return `*pensa* Tomo alguns remédios... Quer que eu liste?`;
   }
   
+  // Alergia
   if (lowerMsg.includes('alergia')) {
-    return `Que eu saiba, não tenho alergia a nenhum medicamento.`;
+    if (instrucoes.includes('nega') && instrucoes.includes('alergia')) {
+      return `Que eu saiba, não tenho alergia a nenhum medicamento.`;
+    }
+    return `*pensa* Acho que não tenho alergia a nada...`;
   }
   
-  if (lowerMsg.includes('exame') || lowerMsg.includes('examinar')) {
+  // Doenças / antecedentes
+  if (lowerMsg.includes('doença') || lowerMsg.includes('antecedente') || lowerMsg.includes('problema de saúde')) {
+    if (instrucoes.includes('desconhece') || instrucoes.includes('nega')) {
+      return `Que eu saiba, não tenho nenhuma doença.`;
+    }
+    return `*pensa* Tenho alguns problemas de saúde sim...`;
+  }
+  
+  // Hábitos - cigarro
+  if (lowerMsg.includes('fuma') || lowerMsg.includes('cigarro') || lowerMsg.includes('tabag')) {
+    const fumoMatch = instrucoes.match(/fum[oa]\s+(\d+)\s+maços?.*há\s+(\d+)\s+anos/i);
+    if (fumoMatch) {
+      return `Sim, fumo ${fumoMatch[1]} maço${parseInt(fumoMatch[1]) > 1 ? 's' : ''} por dia, há ${fumoMatch[2]} anos.`;
+    }
+    if (instrucoes.includes('fuma') || instrucoes.includes('cigarro')) {
+      return `Sim, fumo há bastante tempo...`;
+    }
+    return `Não, não fumo.`;
+  }
+  
+  // Hábitos - álcool
+  if (lowerMsg.includes('álcool') || lowerMsg.includes('bebe') || lowerMsg.includes('bebida')) {
+    if (instrucoes.includes('bebe') || instrucoes.includes('álcool') || instrucoes.includes('cachaça')) {
+      return `Sim, bebo de vez em quando... Uma cachaça, uma cerveja...`;
+    }
+    return `Não, não bebo.`;
+  }
+  
+  // Hábitos - drogas
+  if (lowerMsg.includes('droga') || lowerMsg.includes('crack') || lowerMsg.includes('cocaína')) {
+    if (instrucoes.includes('crack') || instrucoes.includes('cocaína') || instrucoes.includes('droga')) {
+      return `*desvia o olhar* Às vezes uso umas coisas... crack, cocaína...`;
+    }
+    return `Não, não uso drogas.`;
+  }
+  
+  // Exame físico
+  if (lowerMsg.includes('exame') && (lowerMsg.includes('físico') || lowerMsg.includes('examinar'))) {
     return `Pode examinar, doutor(a). *se posiciona* Me avisa se for doer...`;
   }
   
-  if (lowerMsg.includes('diagnóstico') || lowerMsg.includes('o que eu tenho')) {
+  // Solicitar exames
+  if (lowerMsg.includes('vou pedir') || lowerMsg.includes('solicitar') || lowerMsg.includes('exame de')) {
+    return `Tá bom, doutor(a). Pode pedir o que precisar.`;
+  }
+  
+  // Diagnóstico
+  if (lowerMsg.includes('diagnóstico') || lowerMsg.includes('o que eu tenho') || lowerMsg.includes('o que você tem')) {
     return `*parece preocupado* O que eu tenho, doutor(a)? É grave?`;
   }
   
-  if (lowerMsg.includes('tratamento') || lowerMsg.includes('receita')) {
+  // Tratamento
+  if (lowerMsg.includes('tratamento') || lowerMsg.includes('receita') || lowerMsg.includes('prescrever')) {
     return `*presta atenção* Entendi. Vou seguir direitinho o tratamento.`;
   }
   
-  if (lowerMsg.includes('obrigado')) {
+  // Internação
+  if (lowerMsg.includes('internar') || lowerMsg.includes('internação')) {
+    return `*parece preocupado* Vou ter que ficar internado, doutor(a)?`;
+  }
+  
+  // Obrigado
+  if (lowerMsg.includes('obrigado') || lowerMsg.includes('obrigada')) {
     return `*sorri aliviado* Obrigado, doutor(a)! Fico mais tranquilo agora.`;
   }
   
+  // Apresentação do médico
+  if (lowerMsg.includes('bom dia') || lowerMsg.includes('boa tarde') || lowerMsg.includes('olá') || lowerMsg.includes('prazer')) {
+    return `*acena* Olá, doutor(a). *parece desconfortável*`;
+  }
+  
+  // Respostas genéricas
   const respostas = [
     `*pensa* Hmm, pode repetir a pergunta, doutor(a)?`,
     `*parece confuso* Não tenho certeza sobre isso...`,
     `Olha, não sei dizer com certeza...`,
+    `*coça a cabeça* Deixa eu pensar...`,
   ];
   return respostas[Math.floor(Math.random() * respostas.length)];
 }
@@ -403,6 +603,74 @@ export function useAIPacienteAvaliador({
     }
   }, [apiKey, checklistContent, conversationHistory, completedItems, liberatedExames, callbacks]);
   
+  // Função para enviar saudação inicial do paciente
+  const sendInitialGreeting = useCallback(async () => {
+    setIsLoading(true);
+    
+    try {
+      let greetingMessage: string;
+      
+      if (apiKey) {
+        // Usar API da OpenAI para gerar saudação inicial
+        const systemPrompt = generateSystemPrompt(
+          checklistContent,
+          checklistItemsRef.current,
+          examesRef.current
+        );
+        
+        const apiResponse = await fetch('https://api.openai.com/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey}`,
+          },
+          body: JSON.stringify({
+            model: 'gpt-4o',
+            messages: [
+              { role: 'system', content: systemPrompt },
+              { role: 'user', content: 'O médico acabou de entrar no consultório. Como paciente, apresente-se brevemente e diga sua queixa principal de forma natural, como um paciente real faria. Responda APENAS como paciente, sem JSON.' },
+            ],
+            temperature: 0.8,
+            max_tokens: 200,
+          }),
+        });
+        
+        if (!apiResponse.ok) {
+          throw new Error('Erro na API OpenAI');
+        }
+        
+        const data = await apiResponse.json();
+        greetingMessage = data.choices[0].message.content;
+      } else {
+        // Usar geração local
+        await new Promise(resolve => setTimeout(resolve, 500));
+        greetingMessage = generateInitialGreeting(checklistContent);
+      }
+      
+      // Adicionar mensagem ao histórico
+      const assistantMessage: MessageIA = {
+        id: Date.now().toString(),
+        role: 'assistant',
+        content: greetingMessage,
+        timestamp: new Date(),
+      };
+      
+      setConversationHistory([assistantMessage]);
+    } catch (err) {
+      // Fallback para geração local em caso de erro
+      const greetingMessage = generateInitialGreeting(checklistContent);
+      const assistantMessage: MessageIA = {
+        id: Date.now().toString(),
+        role: 'assistant',
+        content: greetingMessage,
+        timestamp: new Date(),
+      };
+      setConversationHistory([assistantMessage]);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [apiKey, checklistContent]);
+  
   const clearHistory = useCallback(() => {
     setConversationHistory([]);
     setCompletedItems({});
@@ -416,6 +684,7 @@ export function useAIPacienteAvaliador({
   
   return {
     sendMessage,
+    sendInitialGreeting,
     isLoading,
     error,
     conversationHistory,

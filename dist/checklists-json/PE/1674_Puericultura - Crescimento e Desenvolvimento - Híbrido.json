@@ -1,0 +1,200 @@
+{
+  "uid": 1674,
+  "hash": "3caee72997b570fb126e2cf0f932ac77fedb7429896adbf541b429be9422eea4-1759445947",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Puericultura - Crescimento e Desenvolvimento - Híbrido",
+  "definicao": "A consulta de puericultura é fundamental para o monitoramento do crescimento e desenvolvimento infantil, permitindo a identificação precoce de alterações e orientações para a promoção da saúde no primeiro ano de vida.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "64.50",
+    "star": 0,
+    "time": 597.5,
+    "count": 195
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nDescrição do caso:\nVocê é o médico responsável pelo acompanhamento de rotina da bebê Sofia, de 12 meses.",
+  "tarefas": "- Realizar anamnese completa dirigida à mãe;\n- Solicitar o exame físico geral indicando os parâmetros de relevância para avaliação;\n- Verificar o crescimento e o desenvolvimento, plotar nos gráficos e verbalizar resultado;\n- Solicitar exames laboratoriais se julgar necessário;\n- Informar o correto diagnóstico;\n- Propor a conduta e orientar quanto ao seguimento adequado do lactente.",
+  "script_ator": "**DADOS DA MÃE:**\n- Júlia, 29 anos, vendedora.\n\n**DADOS DA CRIANÇA:**\n- Sofia, 12 meses.\n\n**MOTIVO DE CONSULTA:**\n- Viemos para a consulta de rotina Dr.(a).\n\n**QUALQUER SINAL E SINTOMA:**\n-Minha filha é super saudável doutor(a), porém, eu conversei com minha vizinha, e acho que ela já deveria estar andando, mas ela ainda não faz isso.\n\n**MARCOS DO DESENVOLVIMENTO AOS 12 MESES:**\n- **Motor Grosso/Anda com apoio:** Dr.(a) ela começou a sentar com apoio essa semana.\n**-Motor Fino/Pinça fina:** Ela consegue transferir objetos de uma mão para a outra.\n**-Linguagem/fala de 1 a 3 palavras:** Ela só faz barulhos.\n-**Social/Cognição/Dá tchau, bate palmas:** Ela só da risada.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n**-Pré-natal:** Fiz 8 consultas de pré-natal, tomei todas as vacinas e fiz as suplementações necessárias.\n**-Parto:** O parto foi normal com 39 semanas, não tive nenhum tipo de problema.\n**- Internações**: Nega.\n**-Exames de triagem neonatal:** Fizemos todos que foram solicitados.\n**-Alergias:** Nega.\n**-Medicações de uso contínuo:** Nega.\n\n**ALIMENTAÇÃO:**\n- Ela ainda mama Dr.(a) mas damos comida para ela conforme a médica orientou.\n\n**DIURESE E CATARSE:**\n- Normal, sem alterações significativas.\n\n**CADERNETA DE SAÚDE DA CRIANÇA:**\n- Até os 9 meses ela tomou certinho.\n\n**AMBIENTE E SOCIAL:**\n**- Creche/escolinha:** Ela ainda não frequenta a creche, fica comigo e com a minha sogra na maior parte do tempo. \n\n**HÁBITOS:**\n**-Uso de telas:** Nega.\n**-Sono:** Ela dorme bem, umas 5 horas acorda para mamar e dorme novamente mais umas 4-5 horas antes de acordar novamente.\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.\n\n**IMPRESSOS:**\n**-ENCAMINHAMENTO:** Caso o candidato verbalizar a necessidade de encaminhamento, liberar o impresso.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais Vitais:**\n\n- Frequência cardíaca: 110 bpm.\n\n- Frequência respiratória: 30 irpm.\n\n- Temperatura: 36,5°C.\n\n\n\n**Antropometria:**\n\n- Peso: 10 kg.\n\n- Altura: 75 cm.\n\n- Perímetro cefálico: 44 cm.\n\n- IMC: Calcule.\n\n\n\n**Estado Geral:**\n\n- Bebê em bom estado geral, alerta, hidratada, corada e afebril.\n\n\n\n**Exame físico completo:**\n\n- **Crânio:** Fontanelas normotensas.\n\n- **Orofaringe:** Sem alterações.\n\n- **Rinofaringe:** Sem congestão.\n\n- **Cardiovascular:** RCR em 2T, sem sopros.\n\n- **Respiratório:** MV presente e simétrico, sem ruídos.\n\n- **Abdome:** Plano, flácido, sem visceromegalias.\n\n- **Genitais:** Normais para a idade.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1759444381.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "GRÁFICO DE CRESCIMENTO: ALTURA.",
+      "conteudo": "ALTURA X IDADE",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1759444479.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "GRÁFICO DE CRESCIMENTO: PESO.",
+      "conteudo": "PESO X IDADE",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1759444573.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "GRÁFICO DE CRESCIMENTO: IMC",
+      "conteudo": "IMC X IDADE",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1759445034.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "ENCAMINHAMENTO",
+      "conteudo": "**VERBALIZE E PREENCHA OS DADOS PARA ENCAMINHAMENTO.**\n\n**LOGO APÓS, MOSTRE PARA CÂMERA.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre:**\n(1) Doenças preexistentes Ou comorbidades Ou doenças de base Ou patologias;\n(2) Intercorrências no pré-natal ou no parto, prematuridade, baixo peso ao nascer e exposição a certas medicações durante o pré-natal;\n(3) Medicação de uso contínuo e/ou suplementos ou vitaminas.\n\n**Adequado:** Pergunta sobre os três itens.\n**Parcialmente adequado:** Pergunta sobre dois itens.\n**Inadequado:** Pergunta sobre um item ou não pergunta sobre item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre os marcos de desenvolvimento psicomotor:**\n(1) Motor Grosso Ou Anda com apoio;\n(2) Motor Fino Ou Pinça fina;\n(3) Linguagem Ou fala de 1 a 3 palavras;\n(4) Social Ou  Cognição Ou Dá tchau, bate palmas.\n\n**Adequado**: Pergunta sobre os quatro itens.\n**Parcialmente adequado:** Pergunta sobre três itens. \n**Inadequado:** Pergunta sobre dois ou menos itens ou não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre a saúde geral do lactente:**\n(1) Alimentação;\n(2) Ambiente familiar;\n(3) Ambiente social;\n(4) Hábitos fisiológicos ou catarse E diurese;\n(5) Uso de telas;\n(6) Rede de apoio;\n(7) Sono.\n\n**Adequado:** Pergunta seis ou mais itens.\n**Parcialmente adequado:** Pergunta quatro ou cinco itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita caderneta de saúde da criança.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exame físico e dados antropométricos citando:**\n(1) Peso;\n(2) Altura;\n(3) Perímetro cefálico.\n\n**Adequado:** Solicita exame físico citando os três itens.\n**Parcialmente adequado:** Solicita exame físico citando dois itens ou verbaliza somente dados antropométricos.\n**Inadequado:** Não solicita exame físico ou cita somente um item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Realiza e verbaliza o resultado do cálculo do IMC (17,77).**\n\n**Adequado:** Realiza e verbaliza de maneira correta e completa.\n**Inadequado:** Não realiza ou verbaliza de maneira incompleta.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza a plotagem dos dados antropométricos e verbaliza:**\n(1) Peso adequado para a idade;\n(2) Estatura adequada para a idade;\n(3) IMC adequado para a idade.\n\n**Adequado:** Realiza e verbaliza os três itens adequadamente.\n**Parcialmente adequado:** Realiza e verbaliza dois itens adequadamente.\n**Inadequado:** Realiza e verbaliza somente um item ou não verbaliza item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza necessidade de aplicação das vacinas:**\n(1) Meningocócica ACWY;\n(2) Pneumocócica 10-valente;\n(3) Tríplice Viral (SCR – sarampo, caxumba e rubéola).\n\n**Adequado:** Verbaliza os três itens.\n**Inadequado:** Não verbaliza os três itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza a hipótese diagnóstica de Atraso no desenvolvimento neuropsicomotor OU atraso no desenvolvimento infantil.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza a necessidade de encaminhamento para o especialista.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza e preenche o encaminhamento com os seguintes dados:**\n(1) Especialista: Pediatra OU Neuropediatra;\n(2) Hipótese diagnóstica: Atraso no desenvolvimento neuropsicomotor OU Atraso no desenvolvimento infantil.\n\n**Adequado:** Verbaliza e escreve os dois itens.\n**Inadequado:** Não verbaliza e/ou não escreve os dois itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza e escreve o motivo do encaminhamento:**\n(1) Criança de 12 meses com atraso no desenvolvimento neuropsicomotor;\n(2) não apresentando aquisições esperadas para a idade, como;\n(3) não deambula com apoio;\n(4) não realiza pinça fina e;\n(5) não apresenta emissão de palavras com significado;\n(6) Necessita de avaliação especializada para investigação etiológica e acompanhamento multiprofissional.\n\n**Adequado:** Verbaliza e escreve cinco ou seis itens.\n**Parcialmente adequado:** Verbaliza e/ou escreve três ou quatro itens.\n**Inadequado:** Verbaliza e/ou escreve dois ou menos itens OU não verbaliza e/ou não escreve item algum.\n\n **Obs.:** O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

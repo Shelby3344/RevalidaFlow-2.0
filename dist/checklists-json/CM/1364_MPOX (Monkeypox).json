@@ -1,0 +1,166 @@
+{
+  "uid": 1364,
+  "hash": "af906766-66a7-4c4e-8cc3-b35143e1770d",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "MPOX (Monkeypox)",
+  "definicao": "A Monkeypox, também conhecida como varíola dos macacos, é uma zoonose viral causada pelo vírus Monkeypox. A doença é caracterizada por febre, erupção cutânea e linfadenopatia. A transmissão ocorre principalmente por contato próximo e prolongado com secreções respiratórias ou lesões cutâneas de pessoas infectadas.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "33.50",
+    "star": 0,
+    "time": 552.5,
+    "count": 2190
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Pronto Atendimento.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratórios de análises clínicas.\n\nDescrição do caso:\nHomem, de 32 anos, solteiro, com queixa de febre e erupções cutâneas.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar exame físico direcionado à queixa principal do paciente;\n- Solicitarexames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Jonas, 32 anos, solteiro, trabalho em um hotel.\n\n**MOTIVO DE CONSULTA:**\n- Doutor, estou com febre e apareceram manchas no meu corpo.\n\n**SOBRE A FEBRE:**\n**Tempo de evolução:** Cinco dias;\n**Temperatura:** 38,5°C.\n**Calafrios:** Sim.\n\n**SOBRE AS LESÕES DE PELE:**\n**Tempo de evolução:** Começou há uns 2 dias.\n**Localização:** Rosto, tronco, mãos e pés.\n**Lesões urogenitais:** Nega.\n**Evolução:** Começou no rosto umas manchinhas, depois foram mudando e espalhando.\n**Caracterísicas:** Algumas são tipo manchinhas, outra parecem tem secreção dentro. \n**Dor:** Sim.\n**Prurido:** Um pouco.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**Cefaleia:** Nega.\n**Náuseas:** Nega.\n**Vômitos:** Nega.\n**Mialgia:** Sim.\n**Artalgia:** nega.\n**Fadiga:** sim.\n**Sintomas gastrointestinais:** Nega.\n**Sintomas respiratórios:** Nega.\n\n**SE PERGUNTADO POR:**\n- Vacinação prévia: Vacinas completas.\n- Contato com pessoas doentes: Tenho dois amigos com os mesmos sintomas. \n- Viagens recentes: Fui a uma festa em outra cidade.\n- Práticas sexuais: Sim, tive relações recentes com parceiros diferentes, mas usei camisinha. \n- Tabagismo, etilismo e drogas: Nega.\n\n**ANTECEDENTES PESSOAIS:**\n- Doenças: Nega.\n- Alergias: Não.\n- Medicamentos: Não.\n- Cirurgias: Não.\n\n**AO SER INFORMADO DO DIAGNÓSTICO, PERGUNTAR:**\n- Dr (a), eu moro sozinho, preciso ficar isolado em casa? Por quanto tempo?\n\n**SE PERGUNTADO SOBRE TRATAMENTO:**\n- E o que eu faço com essas manchas? Não preciso passar nada?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais vitais:**\n\n**Pressão arterial:** 120/80 mmHg\n\n**Frequência cardíaca:** 85 batimentos por minuto\n\n**Frequência respiratória:** 16 incursões por minuto\n\n**Temperatura:** 38,5°C\n\n**Saturação de oxigênio:** 98% em ar ambiente\n\n\n\n**Exame Clínico:** Paciente em bom estado geral, hidratado, normocorado, febril, com presença de linfadenopatia cervical e axilar. \n\n\n\n**Aparelho Respiratório:** Sem alterações.\n\n\n\n**Aparelho Cardiovascular:** Sem alterações.\n\n\n\n**Aparelho Abdominal:** Sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1747934121.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia (Lesões de pele)",
+      "conteudo": "Verbalize os Achados",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1751915541.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "PCR Mpox",
+      "conteudo": "Reagente",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre o motivo de consulta:**\n(1) Tempo de evolução;\n(2) Progressão;\n(3) Características das lesões.\n\n**Adequado:** Pergunta três itens.\n**Parcialmente adequado:** Pergunta sobre um ou dois itens.\n**Inadequado:** Não pergunta nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta por sinais e sintomas associados:**\n(1) Mialgia;\n(2) Cefaleia;\n(3) Linfadenopatia;\n(4) Náuseas e Vômitos;\n(5) Sintomas gastrointestinais;\n(6) Sintomas respiratórios; \n(7) Lesões urogenitais;\n\n**Adequado:** Pergunta de cinco a sete itens.\n**Parcialmente adequado:** Pergunta três ou quatro itens.\n**Inadequado:** Pergunta sobre dois ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga o perfil epidemiológico do paciente:**\n(1) Contato com pessoas com os mesmos sintomas e/ou doentes;\n(2) Vacinação prévia;\n(3) Viagens recentes;\n(4) Práticas sexuais de risco;\n\n**Adequado:** Investiga quatro ou mais itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.7"
+      },
+      "dica_teorica": "Práticas sexuais de risco aumentam a chance de transmissão e complicações da doença."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico geral:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exames laboratoriais específicos:**\n(1) PCR/qPCR para MPOX.\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Estabelece a hipótese diagnóstica de MPOX (Monkeypox):**\n\n**Adequado:** Estabelece.\n**Inadequado:** Não estabelece.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Indica tratamento sintomático:**\n(1) Antipiréticos, se febre;\n(2) Analgésicos, se dor;\n(3) Anti-histamínicos, se prurido;\n\n**Adequado:** Indica três itens.\n**Parcialmente adequado:** Indica dois itens.\n**Inadequado:** Indica um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": "O tratamento dos casos de MPOX tem se sustentado em medidas de suporte clínico que envolvem manejo da dor e do prurido, cuidados de higiene na área afetada e manutenção do balanço hidroeletrolítico."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. Responde adequadamente que os casos confirmados e prováveis de MPOX devem permanecer em (1) isolamento domiciliar (2) até a remissão completa dos sinais e sintomas, com (3) desaparecimento das crostas e epitelização da pele.\n\n**Adequado:** Responde três itens.\n**Parcialmente adequado:** Responde somente o item um. \n**Inadequado:** Não responde o item um.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. Orienta sobre cuidados com as lesões de pele:\n(1) Evitar tocar nas lesões e levar as mãos à boca e/ou aos olhos;\n(2) Não romper vesículas e pústulas;\n(3) Realizar a higienização da pele e das lesões com água e sabonete;\n\n**Adequado:** Orienta três cuidados.\n**Parcialmente adequado:** Orienta somente dois cuidados.\n**Inadequado:** Orienta um ou nenhum cuidado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Realiza notificação Compulsória de forma imediata (24 horas).**\n\n**Adequado:** Notificou imadeatamente.\n**Parcialmente adequado:** Somente menciona notificação, sem abortar o tempo necessario para tal.\n**Inadequado:** Não notifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

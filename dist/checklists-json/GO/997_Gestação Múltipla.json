@@ -1,0 +1,149 @@
+{
+  "uid": 997,
+  "hash": "BRmeUWuyA9f8AYf8qhV2h3QM",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Gestação Múltipla",
+  "definicao": "A gestação gemelar, independentemente da presença ou da ausência de complicações, é considerada de alto risco, e o obstetra deve atentar para os cuidados e o seguimento necessários no pré-natal e no parto, a fim de obter os melhores resultados para a mãe e os conceptos. As principais complicações maternas são: Anemia, hipertensão, diabetes gestacional, placenta prévia, descolamento prematuro de placenta e hemorragia pós-parto. Entre as complicações fetais, a prematuridade e o baixo peso são as mais frequentes e as que mais impactam o prognóstico neonatal. Além disso, as gestações múltiplas se associam a maiores complicações intraparto",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "40.50",
+    "star": 0,
+    "time": 582.5,
+    "count": 3337
+  },
+  "cenario": "Nível de atenação: Primária. \nTipo de atendimento: Ambulatorial.\n\nA unidade possui a seguinte infraestrutura:\n-Sala de atenção médica.\n\nDESCRIÇÃO DO CASO: \nVocê recebe uma paciente de 26 anos que solicita um horário de encaixe em sua agenda médica, pois no dia anterior veio ao controle pré-natal e esqueceu de entregar um dos exames. \nO exame físico realizado no dia anterior estava dentro da normalidade e não havia nenhuma alteração nos exames laboratoriais. \n\nDados de triagem: \nPeso: 54 kg \nIMC: 22 kg/m² \nPressão Arterial: 120x80 mmHg",
+  "tarefas": "- Realizar anamnese de acordo ao motivo da consulta;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Citar três possíveis complicações maternas do quadro;\n- Citar duas possíveis complicações fetais do quadro;\n- Esclarecer todas dúvidas da paciente simulada.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Anne, 26 anos, casada, estudante de medicina.\n\n**MOTIVO DE CONSULTA**\n-Olá Dr(a), eu estou grávida e acabei de mudar de cidade, só fiz uma consulta no postinho da minha cidade e agora quero seguir aqui. Trouxe a ultrassonografia que eu fiz lá há uns dias, você quer ver?\n\n**DATA DE REALIZAÇÃO DA USG:**\n-Há 4 dias.\n\n**EXAMES PRÉVIOS:**\n-É a minha primeira ultrassom.\n\n**ANTECEDENTES OBSTÉTRICOS/GINECOLÓGICOS**\n**-DUM:** Não lembro exatamente, mas já faz mais de um mês.\n**-Idade Gestacional:**A médica do outro posto me falou que estou de 10 semanas.\n**-GPA:** É a minha primeira gestação.\n**-Intercorrencias na gestação:** Até agora, tudo bem Dr(a), um pouco de enjoo, mas nada demais.\n**-ITS:** Nunca tive nenhuma doença sexualmente transmissível. \n**-Parceiros sexuais:** Só tenho relação com meu esposo.\n**-Papanicolau:** Tem menos de 6 meses do meu último e estava tudo bem no resultado.\n\n**ANTECEDENTES PESSOAIS**\n**-Comorbidades:**Sou saudável.\n**-Uso de medicamentos:** Eu estou tomando sulfato ferroso.\n\n**APÓS O CANDIDATO LER O IMPRESSO DA USG, PERGUNTAR DE FORMA ATIVA: ESTÁ TUDO BEM NO MEU EXAME?**\n\n**DÚVIDAS**\n**-PERGUNTA 1:** Queria saber se essa situação traz algum risco para mim?\n**-PERGUNTA 2:** Essa situação traz algum risco para os bebês?\n**-PERGUNTA 3:** Eu sigo tomando as mesmas medicações ou preciso tomar alguma outra?\n**-PERGUNTA 4:** O resultado desse exame altera a quantidade de consultas de pré-natal para mim?\n**-PERGUNTA 5:** O resultado desse exame muda as minhas chances de ter um parto normal?\n**-PERGUNTA 6:** Em que condições você me recomendaria fazer uma cesárea?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Cartão da Gestante",
+      "conteudo": "",
+      "imagem": "https://app.penserevalida.com/impressos/8/1763235365.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "USG Abdominal ",
+      "conteudo": "**Data do exame: **01/10/2025\n\n**Paciente:** Anne Moraes Lima\n\n**IG:** 9s 02 d \n\n\n\nSe observa gestação monocoriônica diamniótica, presença de sinal do T .",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação: **\n(1) Apresenta-se, cumprimentando a paciente e/ou falando seu nome e/ou questionando o nome dela;\n(2) Pergunta o motivo da consulta/queixa principal da paciente.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza ação alguma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta:**\n(1) Qual foi a data da última menstruação da paciente; ou\n(2) Pergunta a sua idade gestacional.\n(3) Solicita o cartão da gestante.\n\n**Adequado:** Realiza os três itens.\n**Parcialmente adequado:** Realiza somente dois itens.\n**Inadequado: **Realiza um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga**\n(1) Doenças crônicas;\n(2) Uso crônico de medicamentos;\n(3) Alergias e antecedentes cirúrgicos;\n(4) Antecedentes obstétricos (gestas, partos e abortos);\n(5) Controles gestacionais.\n\n**Adequado:** Investiga os cinco itens\n**Parcialmente adequado:** Investiga de três a quatro itens\n**Inadequado:** Investiga dois ou menos itens",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Após a leitura do impresso USG ABDOMINAL é capaz de identificar e verbalizar o diagnóstico de GESTAÇÃO GEMELAR**.\n\n**Adequado:** Diagnóstica Gestação Gemelar\n**Inadequado:** Não diagnostica gestação gemelar",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza 3 possíveis complicações maternas da gestação gemelar**.\n(1) Anemia;\n(2) Hipertensão;\n(3) Diabetes gestacional;\n(4) Placenta prévia;\n(5) Descolamento prematuro de placenta;\n(6) Hemorragia pós-parto.\n\n**Adequado:** Verbaliza de três a seis possíveis complicações maternas\n**Parcialmente adequado:** Verbaliza somente duas possíveis complicações maternas\n**Inadequado:** Verbaliza uma ou nenhuma possível complicação materna",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza 2 possíveis complicações fetais da gestação gemelar**.\n(1) Prematuridade;\n(2) Baixo peso;\n(3) Síndrome da transfusão feto-fetal;\n(4) Restrição do crescimento fetal;\n(5) Discordância de peso.\n\n**Adequado:** Verbaliza duas possíveis complicações fetais.\n**Parcialmente adequado:** Verbaliza somente uma possível complicação fetal.\n**Inadequado:** Não verbaliza nenhuma possível complicação fetal.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Entre as  complicações fetais, a prematuridade e o baixo peso são as mais frequentes e as  que mais impactam o prognóstico neonatal"
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Informa a paciente simulada que:**\nNão é necessário adicionar nenhuma medicação extra, somente ajuste da dose de suplementação de ferro, indicando 40 mg/dia no primeiro trimestre e 80 mg/dia no segundo e terceiro trimestres; e suplementação de carbonato de cálcio 1 250 mg duas vezes ao dia (totalizando 1 000 mg de cálcio elementar), com intervalo mínimo de 2 horas em relação ao ferro.\n\n**Adequado:** Informa a não necessidade de medicação extra e sobre o ajuste da dose de suplementação de ferro com os valores diários \n**Parcialmente adequado:** Informa a não necessidade de medicação extra e sobre o ajuste da dose de suplementação de ferro **sem** verbalizar os valores diários\n**Inadequado:** Não verbaliza sobre a não necessidade de medicação extra",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Em gestações gemelares é necessário maior suplementação calórica, 300 calorias por dia a mais do que as grávidas de feto único, assim como maior necessidade vitaminas e sair minerais. A suplementação de cálcio e vitamina D devem ser realizadas (se necessário). As indicações de Corticoterapia para maduração pulmonar são as mesmas de gestações únicas. E devido a maior volemia materna, deve-se evitar o uso dos beta-agonistas (terbutalina), pelo maior risco de edema agudo de pulmão."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Responde a paciente simulada que haverá um aumento de consultas pré-natal indicando:**\n\nUma consulta a cada 15 dias após a 16ª semana de gestação até 34 semanas e posterior semanal até o parto.\n\n**Adequado:** Responde a paciente simulada que haverá um aumento de consultas pré-natal fazendo a indicação correta de controles (1 a cada 15 dias após 16ª semana e 1 a cada 7 dias após 34ª semana)\n**Parcialmente adequado:** Responde a paciente simulada que haverá um aumento de consultas pré-natal sem indicar a periodicidade de consultas **ou** indicando periodicidade errada\n**Inadequado:** Não responde que haverá aumento de consultas pré-natal",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Na gestação dicoriônica, as consultas podem ser mensais até a 28ª semana de gestação e, posteriormente, a cada 15 dias até 34 semanas, seguindo-se semanalmente até o parto. Já nas gestações monocoriônicas, as consultas devem ser realizadas a cada 15 dias, após a 16ª semana de gestação, até 34 semanas, e depois semanal até o parto"
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Informa as condições para tentativa de parto vaginal.**\n(1) Primeiro gemelar em apresentação cefálica;\n(2) Peso dos fetos entre 1.500 g e 4.000 g;\n(3) Segundo gemelar com peso estimado menor, ou com peso no máximo de 20% maior, do que o primeiro gemelar em exame ultrassonográfico recente;\n(4) Possibilidade de monitorização contínua da frequência cardíaca fetal dos dois fetos.\n\n**Adequado:** Informa de duas a quatro condições para tentativa de parto vaginal \n**Parcialmente adequado:** Informa somente uma condição para tentativa de parto vaginal\n**Inadequado:** Não informa nenhuma condição para tentativa de parto vaginal",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.2"
+      },
+      "dica_teorica": "O preparo do colo uterino e a indução podem ser realizados com  as mesmas medicações e utilizando as mesmas posologias que nas  gestações únicas."
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Informa as condições para realização de cesárea.**\n(1) Gestações monoamnióticas;\n(2) Gêmeos unidos;\n(3) Peso fetal estimado <1.500 g;\n(4) Primeiro gemelar pélvico ou córmico;\n(5) Cicatriz uterina prévia. \n\n**Adequado:** Informa de duas cinco condições para realização de cesárea\n**Parcialmente adequado:** Informa somente uma condição para indicação de cesárea\n**Inadequado:** Não informa nenhuma condição para indicação de cesárea",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

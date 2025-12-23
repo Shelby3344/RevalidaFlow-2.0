@@ -1,0 +1,172 @@
+{
+  "uid": 1620,
+  "hash": "15605469e69eba66f84441d6da5d67e4d9769979b1e7c7998f17869e59c5be6f-1753974249",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Abdome Agudo Perfurativo por Úlcera Péptica | INEP 2025.1",
+  "definicao": "Abdome perfurativo é uma emergência médica grave caracterizada pela perfuração de um órgão oco do trato gastrointestinal, como estômago ou intestino, que resulta no extravasamento de seu conteúdo (ar, bactérias e conteúdo intestinal) para dentro da cavidade abdominal.",
+  "origem": 1,
+  "ano_da_prova": "20251",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "82.50",
+    "star": 0,
+    "time": 569.5,
+    "count": 2283
+  },
+  "cenario": "Nível de atenção: Secundária.\n Tipo de atendimento: Urgência e emergência.\n\n A unidade possui:\n-Setor de radiologia;\n-Laboratório de analises clinicas;\n-  Centro cirúrgico.\n\nDescrição do caso:\nVocê é um médico de plantão na emergência de uma unidade de pronto atendimento (UPA) e atenderá um paciente de 31 anos com queixa de dor abdominal.",
+  "tarefas": "-Realizar anamnese;\n- Solicitar exame físico do paciente;\n -Realizar o exame físico específico no manequim;\n -Solicitar e interpretar exames laboratoriais;\t\n -Solicitar e interpretar exames complementares pertinentes ao caso;\n -Formular e verbalizar a hipótese diagnóstica definitiva;\n -Orientar tratamento inicial e tratamento definitivo.\n- Responder dúvidas do paciente.\n\nATENÇÃO: O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DAD0S PESSOAIS**\nRafael, 31 anos, educador físico, professor de Crossfit. \n\n**MOTIVO DA CONSULTA:**\nDr,(a). Estou com uma dor muito forte na barriga.\n\n**SOBRE A DOR ABDOMINAL:**\n-**Tempo de inicio:** Começou há 6 horas.\n-**Localização:** Começou aqui na boca do estômago.\n-**Irradiação:** A barriga toda.\n-**Tipo:** Em cólica.\n-**Intensidade:** 9/10.\n-**Fatores atuantes:** nega.\n-**Fatores agravantes:** nega.\n\n**SINAIS E SINTOMAS  ACOMPANHANTES:**\n-**Náuseas:** Sim.\n-**Vômitos:** Nega.\n-**Febre:** Nega.\n-**Alterações urinárias:** Nega.\n-**Habito intestinal:** Nega.\n\n**ANTECEDENTES PESSOAIS:**\n-**Tabagismo:**Nega.\n-**Etilismo:** Nega.\n-**Drogas:** Nega.\n-**Doenças crônicas:** Nega.\n-**Uso de medicamentos:** Faço uso de 1 comprimido de nimesulida todas as noites há 3 meses, para alívio das dores, machuco bastante no Crossfit.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico geral",
+      "conteudo": "Exame físico geral",
+      "imagem": "https://app.penserevalida.com/impressos/8/1759259118.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame físico abdominal",
+      "conteudo": "Exame físico abdominal",
+      "imagem": "https://app.penserevalida.com/impressos/8/1759259142.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames Laboratoriais",
+      "conteudo": "Exames Laboratoriais",
+      "imagem": "https://app.penserevalida.com/impressos/155/1753975507.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Radiografia de tórax",
+      "conteudo": "Olhe para a câmera e descreva os achados deste exame de imagem.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n (1) Identifica-se;\n (2) Pergunta o nome e cumprimenta o paciente simulado.\n\n **Adequado:** Realiza as duas ações.\n **Parcialmente adequado:** Realiza apenas uma ação.\n** Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre as características da dor:**\n (1) Tempo de início;\n (2) Irradiação;\n (3) Tipo;\n (4) Intensidade; \n (5) Fatores agravantes;\n (6) Fatores atenuantes.\n\n **Adequado:** Pergunta sobre cinco ou mais características.\n**Parcialmente adequado:** Pergunta sobre quatro características.\n**Inadequado:** Não pergunta ou pergunta  sobre três ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre fatores relevantes para o estabelecimento do diagnóstico:**\n (1) Náuseas e(ou) vômitos;\n (2) Febre;\n (3) Antecedente de dispepsia ou antecedentes dor epigástrica;\n (4) Uso crônico de anti-inflamatório ou uso frequente de medicação.\n (5) Etilismo e tabagismo;\n (6) Episódios prévios semelhantes.\n\n **Adequado:** Pergunta quatro ou mais itens.\n **Parcialmente adequado:** Pergunta dois ou três itens.\n **Inadequado:** Não pergunta ou  pergunta apenas um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Realiza o exame físico abdominal, no manequim,  utilizando \na técnica adequada verbalizando cada ação:**\n\n (1) Sequência: inspeção, ausculta, percussão e palpação;\n (2) Palpação superficial e profunda (bimanual);\n (3) Pesquisa de dor à descompressão brusca.\n\n **Adequado:** Realiza os três itens.\n **Parcialmente adequado:**  Realiza dois itens.\n **Inadequado:** Realiza um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita os exames laboratoriais:**\n (1) PCR e(ou) VHS;\n (2) Hemograma;\n (3) Amilase e(ou)  lipase;\n (4) Ureia e creatinina;\n (5) Sódio e potássio.\n\n **Adequado:** Solicita quatro ou cinco itens (e obrigatoriamente (PCR e hemograma).\n **Parcialmente adequado:** Solicita três itens (e obrigatoriamente (PCR e hemograma).\n **Inadequado:** Não solicita ou solicita apenas um ou dois ou três itens (sem PCR e hemograma).",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita radiografia de tórax  em incidência póstero-anterior \n(PA) e em posição ortostática OU rotina radiológica de abdome agudo:**\n\n **Adequado:** Solicita.\n **Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Interpreta corretamente os achados do exame de imagem, \ndescrevendo o pneumoperitônio:**\n\n **Adequado:** Interpreta.\n **Inadequado:** Não interpreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Define hipótese diagnóstica: úlcera péptica perfurada e(ou)  abdome agudo perfurativo:**\n\n **Adequado:** Define.\n**Inadequado:** Não define",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Correlaciona o uso de anti-inflamatório ao quadro atual ou nimesulida:**\n\n **Adequado:** Correlaciona.\n **Inadequado:** Não correlaciona.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Indica analgesia endovenosa ou intravenosa (IV ou EV):**\n\n **Adequado:** Indica.\n **Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Indica a necessidade de avaliação cirúrgica imediata/  urgente ou indica a necessidade de laparatomia urgente:**\n\n **Adequado:** Indica.\n **Inadequado:** Não indica",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

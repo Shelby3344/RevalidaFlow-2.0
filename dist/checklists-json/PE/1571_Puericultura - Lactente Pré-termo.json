@@ -1,0 +1,222 @@
+{
+  "uid": 1571,
+  "hash": "1bcd4a8010b28166c0705eaecdda8a3b5608cd537d6846873d42b440fc74837e-1750265747",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Puericultura - Lactente Pré-termo",
+  "definicao": "A puericultura de lactentes pré-termo envolve o acompanhamento do crescimento e desenvolvimento de bebês nascidos antes das 37 semanas de gestação. Esses lactentes podem necessitar de um monitoramento mais próximo devido ao risco aumentado de complicações relacionadas ao nascimento prematuro.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "41.00",
+    "star": 0,
+    "time": 591,
+    "count": 211
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nDescrição do caso:\nVocê está na UBS e recebe Deise trazendo seu filho Cláudio, de 5 meses, para uma consulta de puericultura.",
+  "tarefas": "- Realizar anamnese completa dirigida à mãe;\n- Solicitar o exame físico geral indicando os parâmetros de relevância para avaliação;\n- Informar qual gráfico que será utilizado para a plotagem dos dados;\n- Verificar o crescimento e o desenvolvimento, plotar nos gráficos e verbalizar em qual escore Z o lactente se encontra, destacando o que é considerado normal para a idade;\n- Solicitar exames laboratoriais se julgar necessário;\n- Informar o correto diagnóstico;\n- Propor a conduta e orientar quanto ao seguimento adequado do lactente.",
+  "script_ator": "**DADOS DA MÃE:**\n- Deise, 29 anos, professora.\n\n**DADOS DA CRIANÇA:**\n- Cláudio, 5 meses.\n\n**MOTIVO DE CONSULTA:**\n- Consulta de rotina para acompanhamento do crescimento e desenvolvimento do meu filho.\n\n**DETALHES DA CONSULTA:**\n- Não há queixas no momento.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- **Alergias:** Sem histórico de alergias.\n- **Medicações em uso:** Utiliza apenas vitaminas que o Dr.(a) passou, Ferro e Vitamina D.\n-**Internações recentes:** Não, ele é bastante saudável. \n\n**AMBIENTE FAMILIAR.**\n- Moramos bem, com meu marido e meu outro filho, todos somos saudáveis, planejamos muito a gestação do nosso filho, então tomamos muito cuidado com tudo.\n\n**PRÉ-NATAL E PARTO:**\n- **Parto:** O parto foi normal, com 34 semanas de gestação. Tive um descolamento prematuro de placenta, mas, apesar de ele ter nascido prematuro, não tivemos complicações.\n**- Pré-natal:** Realizou pré-natal com 4 consultas e exames adequados.\n\n**AMAMENTAÇÃO.**\n-Ele mama no peito a livre demanda, tem boa pega, nunca tivemos problemas com isso.\n\n**CADERNETA DE SAÚDE DA CRIANÇA**\n-Liberar o impresso.\n\n**DEMAIS QUESTIONAMENTOS:**\n-Não consta\n\n**DÚVIDAS:**\n**Caso o candidato verbalize que vai corrigir a idade do lactante devido o mesmo ter nascido pré-termo. REALIZAR AS PERGUNTAS EM CONJUNTO** \n-**Pergunta1:** Mas como que faz isso Dr(a).?\n-**Pergunta 2:** Qual a importância de corrigir a idade gestacional?\n-**Pergunta 3:** Até quantos anos tem que fazer isso?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE SAÚDE DA CRIANÇA",
+      "conteudo": "**AO NASCER:** \n\n- BCG;\n\n- HEPATITE B.\n\n\n\n**2 MESES:**\n\n- PENTAVALENTE;\n\n-PNEUMOCÓCICA;\n\n- VIP;\n\n- ROTAVIRUS.\n\n\n\n**3 MESES:**\n\n- MENINGOCÓCICA C.\n\n\n\n**4 MESES:**\n\n- PENTAVALENTE;\n\n-PNEUMOCÓCICA;\n\n- VIP;\n\n- ROTAVIRUS.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1750772188.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**\n\n**FC:** 120 bpm\n\n**FR:** 40 irpm\n\n**Temperatura:** 36,5°C\n\n**SatO2:** 98% em ar ambiente\n\n\n\n**Exame Físico Geral:**\n\nLactente está em bom estado geral, corado, hidratado, acianótico e anictérico. Apresenta desenvolvimento motor e social adequado para idade corrigida.\n\n\n\n**Cardiovascular:** Bulhas cardíacas normofonéticas, sem sopros.\n\n**Respiratório:** Murmúrio vesicular presente, sem ruídos adventícios.\n\n**Abdome:** Plano, flácido, sem visceromegalias.\n\n\n\n**Marcos de desenvolvimento**\n\n- Sustenta a cabeça com firmeza.\n\n- Apoia os cotovelos ao ficar de bruços.\n\n- Abre as mãos e leva à boca.\n\n- Emite sons, como gargalhadas e balbucios simples.\n\n- Sorri para pessoas e demonstra interesse em rostos.\n\n- Fixa e acompanha objetos com os olhos.\n\n\n\n- Não senta com apoio.\n\n- Não segura objetos por tempo prolongado.\n\n- Não apresenta controle completo da cabeça em todas as posições.\n\n- Não inicia movimentos intencionais para alcançar objetos.\n\n- Não imita sons de forma mais articulada.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1750772188.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Gráfico Intergrowth-21st (PESO)",
+      "conteudo": "Gráfico Intergrowth-21st (PESO)",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1750772218.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Gráfico Intergrowth-21st (Comprimente e perímetro cefálico)",
+      "conteudo": "Gráfico Intergrowth-21st (Comprimento e perímetro cefálico)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Dados Antropométricos",
+      "conteudo": "Idade: 5 meses\n\nAltura: 59 cm\n\nPeso: 5,2 Kg\n\nPerímetro Cefálico: 39 cm",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe cordialmente;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona sobre:**\n(1) Crescimento e desenvolvimento;\n(2) Alergias;\n(3) Medicações em uso;\n(4) Acompanhamento em consultas de puericultura;\n(5) Ambiente Familiar;\n(6) Internações ou problemas de saúde prévios;\n(7) Amamentação.\n\n**Adequado:** Questiona de cinco a sete itens.\n**Parcialmente adequado:** Questiona quatro itens.\n**Inadequado:** Questiona três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre:**\n(1) Parto (Via de parto, problemas no parto, prematuridade);\n(2) Realização de pré-natal;\n(3) Gestações anteriores.\n\n**Adequado:** Questiona os três itens.\n**Parcialmente adequado:** Questiona dois itens.\n**Inadequado:** Questiona um ou não questiona item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita caderneta de saúde da criança.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico e dados antropométricos citando:**\n(1) Peso;\n(2) Altura;\n(3) Perímetro cefálico.\n\n**Adequado:** Solicita exame físico citando os três itens.\n**Parcialmente adequado:** Solicita exame físico citando dois itens ou verbaliza somente dados antropométricos.\n**Inadequado:** Não solicita exame físico ou cita somente um item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita o gráfico Intergrowth-21st para a plotagem de dados de prematuros.**\n\n**Adequado:** Solicita o gráfico corretamente.\n**Parcialmente adequado:** Solicita somente gráfico para plotagem em prematuros.\n**Inadequado:** Não solicita ou solicita de maneira incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Verbaliza que irá corrigir a idade do lactente, por se tratar de um recém-nascido pré-termo, para realizar a plotagem adequada nos gráficos de crescimento.**\n\n**Adequado:** Verbaliza de maneira adequada.\n**Inadequado:** Não verbaliza ou não corrige a idade.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza que utilizará a idade corrigida de 54 semanas para realizar a plotagem.**\n\n**Adequado:** Verbaliza a idade corrigida corretamente.\n**Inadequado**: Verbaliza incorretamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Explica sobre a correção da idade e sua importância para a avaliação adequada do crescimento e desenvolvimento do lactente prematuro:**\n(1) A idade tem que ser corrigida para todas as crianças nascidas antes das 37 semanas de gestação;\n(2) A idade corrigida ajusta a idade cronológica subtraindo as semanas faltantes para o bebê completar 40 semanas de gestação;\n(3) É realizado essa correção até os 2 anos da criança;\n(4) Garante interpretação correta nas curvas de crescimento.\n\n**Adequado:** Explica os quatro itens.\n**Parcialmente adequado:** Explica dois ou três itens.\n**Inadequado:** Explica um item ou nenhum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Prematuros não tiveram tempo completo de desenvolvimento intrauterino Bebês pré-termo nascem com uma imaturidade orgânica e neurológica natural, porque não completaram a gestação.  Compará-los com bebês a termo da mesma idade cronológica pode gerar interpretações erradas, como diagnóstico falso de atraso no desenvolvimento ou de baixo peso."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza a plotagem do peso no gráfico e verbaliza:**\n(1) Peso se encontra entre (-2 e - 1);\n(2) É considerado adequado para idade entre (-2 e +2).\n\n**Adequado:** Realiza e verbaliza os dois itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Realiza a plotagem da altura no gráfico e verbaliza:**\n(1) Altura se encontra entre (-2 e - 1);\n(2) É considerado adequado para idade entre (-2 e +2).\n\n**Adequado:** Realiza e verbaliza os dois itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Realiza a plotagem no gráfico e verbaliza:**\n(1) Perímetro cefálico se encontra entre (-2 e -1);\n(2) É considerado adequado para idade entre (-2 e +2).\n\n**Adequado:** Realiza e verbaliza os dois itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza que o crescimento e desenvolvimento está normal/adequado para idade.**\n\n**Adequado:** Verbaliza de maneira correta.\n**Inadequado:** Não verbaliza ou verbaliza incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza a necessidade da vacinação com Meningocócica C.**\n\n**Adequado:** Verbaliza a vacina corretamente. \n**Inadequado:** Não verbaliza ou verbaliza incorretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Orienta a mãe sobre importância do seguimento nas consultas de puericultura.**\n\n**Adequado:** Orienta de maneira adequada.\n**Inadequado:** Não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

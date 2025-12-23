@@ -1,0 +1,265 @@
+{
+  "uid": 1326,
+  "hash": "SA9aSWVgrkIou3l37PKbLFid",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Dengue Grupo C",
+  "definicao": "É a arbovirose urbana mais prevalente nas Américas, principalmente no Brasil. Doença febril que tem se mostrado de grande importância em saúde pública nos últimos anos. O período do ano com maior transmissão da doença ocorre nos meses mais chuvosos de cada região, geralmente de novembro a maio. Todas as faixas etárias são igualmente suscetíveis à doença.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "80.00",
+    "star": 0,
+    "time": 451.5,
+    "count": 6182
+  },
+  "cenario": "Nível de atenção: Atenção secundária à saúde.\nTipo de atendimento: Atendimento de urgência e emergência.\n\nA unidade possui a seguinte infraestrutura:\n-Laboratório de análises clínicas;\n-Leitos de observação; e,\n-Farmácia clínica com qualquer medicamento e/ou terapia necessária.\n\nDESCRIÇÃO DO CASO\n- Você é médico(a) da unidade de pronto atendimento e atenderá uma mulher com 29 anos de idade com queixas de febre e dor no corpo.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar anamnese dirigida à queixa principal do paciente;\n-Solicitar investigação laboratorial, se necessário. \n-Definir o diagnóstico clínico-laboratorial. \n-Orientar o plano terapêutico e as medidas de controle.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Joana, 29 anos, advogada, casada.\n\n**MOTIVO DE CONSULTA:**\nDr(a) estou me sentindo muito mal, com febre, dor nas articulações e esta saindo sangue da minha gengiva.\n\n**SOBRE A FEBRE:**\n**-Tempo de evolução:** 4 dias.\n**-Aferição da temperatura:** Medi com termômetro e deu 38.5.\n**-Uso de medicamentos:** Melhora com paracetamol mas logo piora.\n\n**SOBRE ARTRALGIA:**\n**-Artralgia:** Dr(a) eu tenho vontade de chorar em cada mover do meu corpo, dói muito, dói tudo.\n**-Intensidade:** 8/10.\n**-Tempo de evolução:** Tem 4 dias de evolução porém hoje esta insuportável.\n\n**SOBRE SANGRAMENTO GENGIVAL:**\n**-Tempo de evolução:** Começou faz 1 dia.\n**-Desencadeantes do sangramento:** Começou a sangrar do nada.\n\n**SINTOMAS ASSOCIADOS**:\n**-Vômitos:** Vomitei só uma vez ontem.\n**-Náuseas:** Nega.\n**-Desmaios:** Nega\n**-Convulsões:** Nega\n**-Alterações urinarias e defecatórias:** Nega.\n**-Outros sintomas perguntados:** Não consta no script.\n\n**FATORES DE MELHORA OU PIORA:**\n-Nega.\n\n**ANTECEDENTES PESSOAIS:**\n**-Comorbidades:** Nega.\n**-Medicação de uso crônico:** Nega.\n**-ITS:** Nega.\n**-Alergias:** Nega.\n**-Cirurgia:** Nega.\n**-Situação vacinal:** Não trouxe o calendário de vacinas mas acredito que está tudo em dia.\n\n**HÁBITOS:**\n**-Álcool, drogas e cigarro:** Fumo e bebo socialmente.\n**-Hábitos alimentares:** Dr(a) nesses 4 dias não estou tendo vontade nem de comer.\n\n **ANTECEDENTES EPIDEMIOLÓGICOS:**\n**-Contatos com sintomas similares:** Dr(a) meu vizinho estava com sintomas parecidos, porém mais leves. \n**-Conviventes:** Moro com minha esposa e um gato de estimação.\n**-Localização da moradia:** É aqui pertinho.\n**-Viagens recentes:** Nega.\n\n**CONTATO COM ÁGUA PARADA/ENCHENTE:**\n-Na minha casa não tem, o agende comunitário foi lá recentemente.\n\n**Ao ser dado o diagnóstico indagar ao participante se ele tem certeza desse diagnóstico ou se não poderia ser outra coisa.**\n\n**DÚVIDAS:**\n**-PERGUNTA 1: **Isso é grave? Um parente meu teve e morreu.\n**-PERGUNTA 2:** Como pega isso ?\n\n**CASO O PARTICIPANTE DE ALTA HOSPITALAR:**\n-Quando eu tenho que voltar aqui ?\n\n**CASO O PARTICIPANTE SOLICITE INTERNAÇÃO:**\n-Questionar se realmente existe necessidade.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Fisico",
+      "conteudo": "**Regular estado geral** (um pouco sonolenta).\n\n\n\n**Pressão Arterial:** 110 x 60mmHg \n\n**Frequência Cardíaca:** 92bpm \n\n**Frequência Respiratória:** 20irpm \n\n**Saturação de O2:** 98% AA \n\n**Temperatura axilar:** 39,8° \n\n\n\n**Ectoscopia:** Paciente desidratada +++/4 \n\nHipocorada ++/4, com exantema maculopapular em tronco. \n\n**Linfonodos:** Ausentes.\n\n**Aparelho cardiovascular:** \n\nRitmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros ou turgência jugular. \n\n\n\n**Aparelho Respiratório:** \n\nMurmúrio vesicular bem distribuído. Sem ruídos adventícios. \n\n\n\n**Abdome:** \n\nLevemente distendido, RHA normais, dor abdominal difusa, sem sinais de irritação peritoneal e evidencia de fígado palpável a 4 cm do RCD.\n\n\n\n**Extremidades:** Sem lesões ou edemas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exames Complementares",
+      "conteudo": "**Hemograma:**\n\n**Hemoglobina:** 12 (Valor de referência: 12-16)\n\n**Hematócrito:** 49 (Valor de referência: 36-48)\n\n\n\n**Leucócitos:** 2.500 (Valor de referência: 3.700-10.000)\n\n\n\n**Plaquetas:** 71.000 (Valor de referência: 150.000-450.000)\n\n\n\n**Coagulograma:** Alterado\n\n\n\n**TGO:** 45 (Valor de referência: 10-40)\n\n**TGP:** 53 (Valor de referência: 10-55)\n\n\n\n**Albumina sérica:** 3 g/dL (Valor de referência: 3,5-5,2 g/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Teste Rápido de Dengue",
+      "conteudo": "**Teste rápido (NS1): **Positivo (Referencia: negativo).\n\n**Sorologia para dengue:** Não disponível na unidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta a paciente; \n(2) Identifica-se;\n(3) Dirige-se a paciente pelo nome, pelo menos uma vez;\n(4) Pergunta; e, \n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Demonstra empatia com a paciente:**\n(1) Estabelece contato visual; e,\n(2) Mantém postura atenta e interessada ao longo da consulta.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Usa linguagem acessível, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Responde às perguntas trazidas pela paciente.**\n\n**Adequado:** Responde às perguntas da paciente.\n**Inadequado:** Não responde às perguntas da paciente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta a existência de outros sinais, ou sintomas associados:**\n(1) Sintomas gripais (tosse ou expectoração ou coriza ou obstrução nasal);\n(2) Mialgia (ou dor muscular ou dor nos músculos);\n(3) Artralgia (ou dor articular); \n(4) Diarreia (ou alteração nos aspecto das fezes);\n(5) Náuseas;\n(6) Queixas oftalmológicas (hiperemia ou conjuntivite); e,\n(7) Icterícia (ou olho amarelo ou pele amarela).\n\n**Adequado:** Investiga cinco ou mais itens. \n**Parcialmente adequado:** Investiga de dois a quatro itens.\n**Inadequado:** Investiga um item ou não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga:**\n(1) Tempo de sangramento gengival; \n(2) Fatores desencadeantes; e, \n(3) Outros focos de sangramento de mucosa.\n\n**Adequado:** Investiga os três itens. \n**Parcialmente adequado:** Investiga dois itens. \n**Inadequado:** Não investiga nenhum item ou somente investiga um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.50",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga:**\n(1) Comorbidades;\n(2) Medicações; \n(3) Alergias; e,\n(4) Hábitos tóxicos.\n\n**Adequado:** Investiga três ou mais itens. \n**Parcialmente adequado:** Investiga um ou dois itens. \n**Inadequado:** Não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.20",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga sinais de alarme ou choque:**\n(1) Dor abdominal;\n(2) Vômitos;\n(3) Rebaixamento de sensório;\n(4) Lipotimia;\n(5) Irritabilidade;\n(6) Acúmulo de líquido em cavidades; e,\n(7) Hipotensão.\n\n**Adequado:** Investiga quatros ou mais itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga somente um item ou não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9.** Investiga status vacinal.**\n\n**Adequado:** Investiga \n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Investiga sobre situação epidemiológica:**\n(1) Viagens recentes;\n(2) Contato com água de enchente OU água parada OU foco de água parada;\n(3) Contato com rato OU capivara OU carrapato;\n(4) Mosquitos nos ambientes que frequenta; e, \n(5) Familiares e/ou vizinhos com os mesmos sintomas.\n\n**Adequado:** Investiga três ou mais itens. \n**Parcialmente adequado:** Investiga um ou dois itens.\n**Inadequado:** Não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza exame físico:**\n(1) Pede consentimento;\n(2) Verbaliza a higiene de mãos; e, \n(3) Colocação de luvas.\n\n**Adequado:** Realiza os três itens.\n**Inadequado:** Realiza um ou dois itens OU não realiza item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Identifica no exame físico:**\n(1) Dor abdominal difusa; e,\n(2) Presença de hepatomegalia.\n\n**Adequado:** Identifica os dois itens.\n**Inadequado:** Identifica um item ou não identifica item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13.** Solicita teste de antígeno NS1 para dengue.** \n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.40"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Solicita: **\n(1) Hemograma;\n(2) Dosagem de albumina sérica; e,\n(3) Transaminases.\n\n**Adequado:** Solicita os três itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita somente um OU nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.80"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Verbaliza o diagnóstico de dengue - grupo C:**\n\n**Adequado:** Verbaliza o diagnóstico e a gravidade.\n**Parcialmente adequado:** Verbaliza o diagnóstico de dengue, sem especificar gravidade.\n**Inadequado**: Não verbaliza o diagnóstico de dengue ou verbaliza, mas com gravidade **diferente do grupo C**.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Indica as seguintes condutas terapêuticas:**\n(1) Internação hospitalar;\n(2) Prescreve Hidratação com Soro fisiológico 10ml/kg EV na primeira hora; e,\n(3) Paracetamol ou dipirona.\n\n**Adequado:** Indica os três itens.\n**Parcialmente adequado:** Indica o item **um**. \n**Inadequado:** Não indica o item **um**.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Verbaliza a necessidade de reavaliação após 1 e 2 horas.**\n\n**Adequado:** Verbaliza. \n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Após uma hora: reavaliar o paciente (sinais vitais, PA, avaliar diurese – desejável 1 mL/kg/h).Manter hidratação IV 10 mL/kg/h (soro fisiológico a 0,9%) na segunda hora. Até avaliação do hematócrito (que deverá ocorrer em até duas horas da reposição volêmica)"
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Explica corretamente a forma de contágio da dengue. **\n\n**Adequado:** Explica corretamente a transmissão da dengue através da picada do mosquito Aedes aegypti contaminado. \n**Inadequado:** Não explica de forma correta sobre a transmissão da dengue.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "19. **Indica a necessidade de abordagem comunitária, com ação multiprofissional. Considerar adequada se citar ao menos uma outra categoria profissional (ex.: agente comunitária da saúde ou enfermeiro ou agente de combate a endemias).**\n\n**Adequado:** Indica a necessidade de abordagem comunitária e cita OBRIGATORIAMENTE ao menos uma das seguintes categorias multiprofissionais (agente comunitário da saúde, enfermeiro, agente de combate a endemias). \n**Inadequado:** Indica a necessidade de abordagem comunitária sem citar ao menos uma categoria multiprofissional das citas no tópico adequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "20. **Indica ações de vigilância epidemiológica necessárias ao caso: **\n(1) Notificação no SINAN de casos confirmado ou suspeito de dengue;\n(2) Avaliação de novos casos no território; e, \n(3) Intervenção em criadouros.\n\n**Adequado:** Indica os três itens.\n**Parcialmente adequado:** Indica dois itens.\n**Inadequado:** Indica um item ou não indica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

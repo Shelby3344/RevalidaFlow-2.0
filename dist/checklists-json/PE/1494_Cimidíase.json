@@ -1,0 +1,182 @@
+{
+  "uid": 1494,
+  "hash": "9e131845d7ac7916514d5c015780eb3ba69e39ce15f01bf8198b58dd91dcb08f-1743727535",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Cimidíase",
+  "definicao": "​A Cimidíase é uma doença de importância mundial, causada pela infestação do percevejo Cimex lectularius, popularmente conhecido como percevejo de cama. Esses insetos se abrigam em fendas, colchões e estofados, alimentando-se de sangue humano, o que pode causar desconfortos e sérias complicações de saúde.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "29.50",
+    "star": 0,
+    "time": 552,
+    "count": 1529
+  },
+  "cenario": "Local de atuação: Unidade Básica de Saúde.\n\nDescrição do caso:\nVocê está atendendo João, um menino de 10 anos, trazido por sua mãe, que está preocupada com uma coceira intensa que ele vem apresentando.",
+  "tarefas": "- Realizar anamnese do paciente;\n- Solicitar e interpretar exame físico;\n- Solicitar exames laboratoriais se necessário;\n- Estabelecer, comunicar a hipótese diagnóstica, e o seu agente etiológico;\n- Propor conduta terapêutica e verbalizar possíveis complicações;\n- Oferecer orientações sobre prevenção e cuidados no domicílio;\n- Verbalizar diagnósticos diferenciais.",
+  "script_ator": "**DADOS DA MÃE:**\n- Carla, 34 anos, professora.\n\n**DADOS DA CRIANÇA:**\n- João, 10 anos.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a), trouxe meu filho porque ele está com muita coceira no corpo todo.\n\n**PRURIDO:**\n-**Início:** Há aproximadamente 3 dias.\n-**Localização:** Coça o corpo todo.\n-**É contínuo ou intermitente:** Não consta.\n-**Intensidade:** De moderado a intenso.\n-**Contato com algo que desencadeou:** Não sei te dizer doutor(a).\n-**Tem predomínio de horário:** Piora muito no período da manhã.\n-** Tem mais alguém com coceira:** Eu também estou com a mesma coceira.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n- Negar outros sintomas.\n\n**HISTÓRICO RECENTE:**\n-**Viagens:** Recentemente fizemos uma viagem para o litoral no final de semana;\n**-Condições de hospedagem:** Nos hospedamos em uma casa alugada, conseguimos uma promoção, o local era bem simples, mas para passarmos o final de semana estava ótimo.\n**-Contato com mosquitos, percevejos, carrapatos:** No último dia notamos que no lençol tinha uns pontinhos pretos, mas não sei o que era.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- João é saudável e não tem histórico de doenças crônicas.\n\n**VACINAÇÃO:**\n-Não trouxe a caderneta, mas está em dia.\n\n**ALIMENTAÇÃO:**\n- Ele come de tudo, não tem restrições alimentares.\n\n**DIURESE E CATARSE:**\n- Sem alterações.\n\n**ALERGIAS:**\n- Nega.\n\n**MEDICAÇÕES DE USO CONTÍNUO OU RECENTE:**\n- Nega.\n\n**AO RECEBER O DIAGNÓSTICO** de Cimidíase fale:\n- **Pergunta 1:** Tem certeza, não pode ser outra coisa?\n- **Pergunta 2:** Será que ele pegou isso na casa que ficamos?\n\n**DÚVIDAS:**\n- **Pergunta 3:** Como posso tratar isso em casa?\n- **Pergunta 4:** Precisamos tomar alguma medida especial com as roupas de cama?\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Exame Físico Geral:**\n\nBom estado geral, corado, hidratado, sem febre.\n\n\n\n**Dermatológico:**\n\nPresença de pápulas eritematosas e vesículas em face, braços e pernas.\n\n\n\n**Cardiovascular:**\n\nBulhas normofonéticas, sem sopros.\n\n\n\n**Respiratório:**\n\nMurmúrio vesicular presente e sem ruídos adventícios.\n\n\n\n**Abdominal:**\n\nIndolor, sem visceromegalias.\n\n\n\n**Sinais vitais:**\n\n**-FC:** 90 bpm;\n\n**-PA:** 100/75 mmHg;\n\n**-FR:** 22 RPM;\n\n**-T:** 36,8 °C.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1743724829.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DA PELE",
+      "conteudo": "OLHE PARA CÂMERA E DESCREVA OS ACHADOS CLÍNICOS E O SINAL SEMIOLÓGICO.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de três a quatro itens.\n**Inadequado:** Realiza dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga sobre o motivo da consulta:**\n(1) Evolução do prurido desde o inicio do quadro;\n(2) Localização;\n(3) Contínua ou intermitente;\n(4) Intensidade;\n(5) Fator desencadeante;\n(6) Predomínio de horário;\n(7) Mais alguém com os mesmos sinais e sintomas.\n\n**Adequado:** Investiga sete itens.\n**Parcialmente adequado:** Investiga cinco ou seis itens.\n**Inadequado:** Investiga quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta se a paciente teve contato direto com:**\n(1) Animais; \n(2) Produtos químicos;\n(3) Plantas alergênicas. \n\n**Adequado:** Pergunta os três itens.\n**Parcialmente adequado:** Pergunta um ou dois itens. \n**Inadequado:** Não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Questiona sobre a história e contexto da viagem recente:**\n(1) Pergunta sobre viagens recentes;\n(2) Pergunta por contatos com mosquitos, percevejos ou carrapatos;\n(3) Pergunta sobre o local de hospedagem.\n\n**Adequado:** Questiona os três itens.\n**Parcialmente adequado:** Questiona dois itens.\n**Inadequado:** Questiona um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Questiona sobre sinais e sintomas acompanhantes:**\n(1) Lesões na pele;\n(2) Dor ou queimação ou alteração na sensibilidade;\n(3) Linfadenopatia;\n(4) Náuseas ou vômitos ou diarreia;\n(5) Febre.\n\n**Adequada:** Questiona sobre quatro ou cinco itens.\n**Parcialmente adequado:** Questiona sobre dois ou três itens. \n**Inadequado:** Questiona sobre um ou não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame físico e ectoscopia de pele (exame dermatológico):**\n\n**Adequado:** Solicita os dois itens.\n**Inadequado:** Solicita um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Descreve a ectoscopia da seguinte maneira:**\n(1) Lesões eritemato-pápulo-urticadas, dispostas em linha; e,\n(2) \"Sinal do café da manhã, almoço e jantar.\"\n\n**Adequado:** Descreve os dois itens.\n**Parcialmente adequado:** Descreve um item.\n**Inadequado:** Não descreve item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Estabelece a hipótese diagnóstica de Cimidíase, que tem como agente etiológico o percevejo Cimex Lactularius:**\n\n**Adequado:** Estabelece corretamente a hipótese citando o nome do percevejo.\n**Parcialmente adequado:** Estabelece hipótese diagnóstica sem mencionar o percevejo.\n**Inadequado:** Não estabelece o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica a mãe:**\n(1) Que o diagnóstico é clínico, sem necessidade de solicitação de exames laboratoriais; e,\n(2) Que é uma doença autolimitada .\n\n**Adequado:** Explica os dois itens.\n**Parcialmente adequado:** Explica um item.\n**Inadequado:** Não explica item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica conduta adequada:**\n(1) Uso de emolientes;\n(2) Anti-histamínicos;\n(3) Sabonete antisséptico;\n(4) Corticoide tópico.\n\n**Adequado:** Indica quatro itens.\n**Parcialmente adequado:**  Indica três itens.\n**Inadequado:** Indica dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Vale ressaltar que alguns autores sugerem como profilaxia, observação dos lençóis e colchões para ver se não tem manchas sugestivas de sangue, vistoria nas bagagens, não deixar as malas em cima das camas e mantê-las fechadas."
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta medidas preventivas OU erradicação do vetor:**\n(1) Manter higiene;\n(2) Lavar roupas de cama com água quente;\n(3) Aplicar calor no colchão;\n(4) Evitar compartilhamento de roupas;\n(5) Realizar troca do colchão;\n(6) Vistoriar malas e roupas de cama;\n\n**Adequado:** Indica três ou mais itens.\n**Parcialmente adequado:**  Indica dois ou um item.\n**Inadequado:** Não indica nenhum item",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Vale ressaltar que não é fácil, a erradicação do percevejo, porém pode-se aquecer os colchões e roupas de cama, pois esses insetos não sobrevivem a temperaturas acima de 50°C e também pode-se utilizar alguns tipos de inseticidas, porém já há relatos na literatura de que o percevejo já seja resistente a alguns compostos de inseticidas. Tendo os devidos cuidados, evita-se a cimidíase"
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza diagnósticos diferenciais:**\n(1) Dermatite atópica;\n(2) Urticária;\n(3) Escabióse;\n(4) Varicela.\n\n**Adequado:** verbaliza os quatro diagnósticos.\n**Parcialmente adequado:** verbaliza dois ou três diagnósticos.\n**Inadequado:** verbaliza um ou nenhum diagnóstico.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Verbaliza possíveis complicações:**\n(1) Infecções bacterianas;\n(2) Refratariedade;\n\n**Adequado:** Verbaliza uma complicação.\n**Inadequado:** Não verbaliza complicações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

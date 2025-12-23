@@ -1,0 +1,190 @@
+{
+  "uid": 1008,
+  "hash": "rPMU1SqpJuXnOkUsUmLZ-oNu",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Artrite Séptica",
+  "definicao": "A artrite séptica é a infecção da membrana sinovial, sendo considerada uma emergência médica. A frequência é maior em lactentes, ocorrendo 50% antes dos dois anos de idade, com predomínio em meninos (razão 1:2). As articulações dos membros inferiores, como quadris, joelhos e tornozelos são acometidas em 75% dos casos e as das extremidades superiores, em 25%.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "64.50",
+    "star": 0,
+    "time": 546.5,
+    "count": 6009
+  },
+  "cenario": "Nível de atenção: Atenção terciária à saúde - hospitalar.\nTipo de atendimento: Urgência e emergência.\n\nA unidade possui a seguinte infraestrutura:\n- Ultrassonografia, radiografia;\n- Laboratório de análises clínicas;\n- Leito de internação;\n- Centro cirúrgico.\n\nDescrição do caso: \nVocê é um médico atuando em um hospital de atenção terciária e atenderá uma criança de 10 anos de idade, acompanhada pela mãe, com queixa de dor e inchaço no joelho direito.",
+  "tarefas": "-  Realizar anamnese do paciente;\n-  Solicitar exame físico relacionado à queixa principal;\n- Explicar à mãe a indicação de exame(s) complementar(es).\n-  Estabelecer e comunicar a hipótese diagnóstica com base no relato clínico e no exame físico;\n-  Explicar à mãe o manejo inicial e possíveis complicações desse quadro.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS DA MÃE**:\n- Ana Clara, 28 anos, professora.\n\n**DADOS DA CRIANÇA**:\n- Lucas, 10 anos.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a), eu trouxe meu filho aqui porque ele começou a apresentar uma dor e inchaço no joelho direito há 5 dias.\n\n**DETALHES DA QUEIXA PRINCIPAL:**\n**-Início:** Cinco dias.\n**-Localização:** Só no joelho direito.\n**-Intensidade:** Parece que é bem forte.\n**-Característica:** Pontada.\n**-Irradiação:** Não, só dói o joelho.\n**-Agravantes:** Quando anda piora.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Febre:** Sim, começou ontem essa febre de 38.5ºC. Foi medicado com dipirona e melhorou.\n**-Náusea:** Nega.\n**-Vômitos:** Nega.\n**-Trauma:** Sim, ele teve uma queda de bicicleta há uns dias, Dr(a).\n**-Mordido por algum bicho?** Não, Dr(a).\n\n**ANTECEDENTES PESSOAIS:**\n**-Doença:** Nega.\n**-Cirurgia:** Nega.\n**-Alergia:** Nega.\n**-Caderneta de vacina da criança:** A vacinação está em dia conforme o calendário nacional.\n\n**HÁBITOS:**\n**-Alimentação:** Não teve alterações. Ele tem uma dieta variada e adequada.\n**-Diurese e catarse:** Sem alterações.\n\n**ANTECEDENTES FAMILIARES:** Nega.\n\n**DÚVIDAS:**\n**-Pergunta 1: ** Vamos ter que fazer algum exame?\n\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "Paciente em regular estado geral, orientado no tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**SINAIS VITAIS**\n\n**Pressão arterial:** 100x80 mmHg.\n\n**Frequência cardíaca: **80 bpm (adequado para a idade).\n\n**Frequência respiratória:** 16 incursões por minuto.\n\n**Saturação de O2:** 99%.\n\n**Temperatura axilar:** 39°C.\n\n**Aparelho abdominal, cardiovascular e respiratório:** sem alterações.\n\n\n\n**Membros inferiores:** Observa-se joelho direito com sinais flogísticos e dor à mobilização.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1763300941.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia",
+      "conteudo": "-",
+      "imagem": "https://app.penserevalida.com/impressos/old/exame.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Laboratório",
+      "conteudo": "-",
+      "imagem": "https://app.penserevalida.com/impressos/old/artrite.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Radiografia",
+      "conteudo": "Considere realizada.",
+      "imagem": "https://app.penserevalida.com/impressos/old/artrite.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "Ultrassonografia articular",
+      "conteudo": "**Laudo:**\n\nPresença de derrame articular no joelho direito.",
+      "imagem": "https://app.penserevalida.com/impressos/old/COC.png"
+    },
+    {
+      "idx": 6,
+      "titulo": "Cultura do líquido articular",
+      "conteudo": "**Laudo:**\n\nPresença de cocos Gram+ (cachos de uva).",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "Hemocultura",
+      "conteudo": "Em análise.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se; \n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual; \n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "  0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese, perguntando sobre as características da dor:**\n(1) Início;\n(2) Localização;\n(3) Irradiação;\n(4) Características;\n(5) Intensidade;\n(6) Atenuantes e agravantes.\n\n**Adequado:** Pergunta seis itens.\n**Parcialmente adequado: **Pergunta de três a cinco itens.\n**Inadequado: **Pergunta dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga sintomas acompanhantes:**\n(1) Febre;\n(2) Trauma; \n(3) Acidente/contato com insetos/animais/picadas.\n\n**Adequado:** Realiza três itens.\n**Parcialmente adequado:** Realiza dois itens.\n**Inadequado:** Realiza um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre antecedentes pessoais.**\n\n**Adequado:** Pergunta.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita caderneta de vacinação e caderneta da criança.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exame físico.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames laboratoriais:**\n(1) Hemograma;\n(2) PCR;\n(3) Hemocultura.\n\n**Adequado:** Solicita três itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita um item ou menos.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita exames de imagem **\n(1) Radiografia de joelho (bilateral);\n(2) Ultrassonografia de joelho direito com punção e cultura de líquido.\n\n**Adequado:** Solicita dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": " 1.0",
+        "adequado": " 2.0 "
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Formula a hipótese diagnóstica:** artrite séptica. \n\n**Adequado:** Informa.\n**Inadequado: **Não informa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Propõe conduta terapêutica adequada:**\n(1) Internação;\n(2) Antibiótico (Oxacilina);\n(3) Analgesia; \n(4) Antitérmico; \n(5) Repouso relativo no leito; \n(6) Avaliação da equipe de ortopedia.\n\n**Adequado:** Realiza cinco itens ou mais.\n**Parcialmente adequado:** Realiza de três a quatro itens.\n**Inadequado:** Realiza dois itens ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": " 1.0",
+        "adequado": " 2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza as possíveis complicações do quadro:**\n(1) Dano articular permanente/destruição articular.\n(2) Osteomielite secundária;\n(3) Rigidez articular/limitação de movimento; \n(4) Sepse; \n(5) Instabilidade;\n(6) Discrepância de membros;\n(7) Contratura em flexão;\n(8) Deformidade por lesão da placa de crescimento.\n\n**Adequado:** Verbaliza dois itens ou mais.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

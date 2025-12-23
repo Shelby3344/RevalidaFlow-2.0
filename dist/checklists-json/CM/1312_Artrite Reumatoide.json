@@ -1,0 +1,183 @@
+{
+  "uid": 1312,
+  "hash": "7KyQPqYtwdVEaogzCvChfOic",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Artrite Reumatoide",
+  "definicao": "A artrite reumatoide é uma doença crônica autoimune que afeta primariamente a membrana sinovial das articulações periféricas de forma simétrica e progressiva. Se não controlada, produz erosão e deformidades incapacitantes.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "80.50",
+    "star": 0,
+    "time": 497.5,
+    "count": 10599
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas;\n- Setor de radiologia com aparelho de radiografia;\n-Ultrassonografia.\n\nDescrição do caso:\nPaciente procura serviço de saúde por queixas de dores.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar exame físico direcionado à queixa principal do paciente;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Ana, 37 anos de idade, professora.\n\n**MOTIVO DE CONSULTA: **\n- Estou com dor nas articulações.\n\n**CARACTERÍSTICAS DA DOR: **\n**- Tempo de evolução: **Sete meses.\n**- Localização: **Inicialmente nas mãos, e agora também nos punhos e pés. \n**- Intensidade: **Leve (4/10). \n**- Tipo de dor: **Continua.\n**- Irradiação: **Não irradia.\n**- Fatores de piora: **A dor é pior quando fico muito tempo em repouso.\n**- Fatores de melhora: **Quando tomo diclofenaco ou movimento a articulação alivia um pouco.\n\n**SE PERGUNTADO POR RIGIDEZ NAS ARTICULAÇÕES: **\n- Quase todos os dias de manhã. Dura umas duas horas e depois melhora.\n\n**SINTOMAS ACOMPANHANTES: **\n**- Vermelhidão ou calor local ou edema: **às vezes sim.\n\n**SE PERGUNTADO POR MANIFESTAÇÕES SISTÊMICAS: **\n**- Febre: **Nega. \n**- Fadiga: **Últimamente à tarde me sinto muito cansada. \n**- Lesões ou nódulos na pele: **Não vi lesões nem nódulos na pele.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nega doenças prévias.\n**- Medicamentos: **Nega. \n**- Alergias: **Nega.\n**- Cirurgias: **Nega.\n\n**HÁBITOS: **\n**- Álcool: **Bebo cerveja de vez em quando.\n**- Cigarro: **Fumo 1 maço por dia. \n**- Drogas ilícitas: **Nega.\n**- Alterações em urina e fezes: **Nega.\n\n**ANTECEDENTES FAMILIARES:**\n- Pai e mãe não tem problemas de saúde.\n\n\n**Se o candidato solicitar radiografía de mãos e/ou pés: **liberar o IMPRESSO 4.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 130x80 mmHg\n\n**- Frequência cardíaca:** 74 batimentos por minuto\n\n**- Saturação:** 96%\n\n**- Temperatura:** 36° C \n\n**- Frequência respiratória:** 12 incursões por minuto\n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, normocorado, afebril, acianótico, anictérico, alerta, orientado no tempo e espaço.\n\n\n\n**Cardiovascular: **\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, sem sopros. \n\n\n\n**Respiratório: **\n\nAusculta respiratória com murmúrio vesicular presente em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal: **\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias.\n\n\n\n**Exame articular: **\n\nDor à palpação e mobilização de articulações de ambos punhos e metacarpofalangeanas proximais e médias; dor à mobilização de ambos pés.",
+      "imagem": "https://app.penserevalida.com/impressos/02/211D2B1C-15D5-4392-B0A9-C437333E4C21.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemácias:** 4,7 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 13 g/dl (Valor de referência: 12 a 16 mg/dl)\n\n**Hematócrito:** 39% (Valor de referência: 36 - 47%)\n\n**VCM:** 99 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 32 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 31 g/dl (Valor de referência: 30 - 34 g/dl) \n\n**RDW:** 14% (Valor de referência: 11 - 14%)\n\n\n\n**Leucócitos:** 8.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 63% (Valor de referência: 40 - 70%)\n\n**Bastões:** 3% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 25% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 2% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 3% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 4% (Valor de referência: 4 - 8%)\n\n\n\n**Plaquetas:** 165.000 mm/3 (Valor de referência: 150.000 - 400.000 mm/3) \n\n\n\n**Proteína C reativa:** 4 mg/dl (Valor de referência: < 0,3 mg/dl)\n\n\n\n**Creatinina:** 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 25 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**Sódio:** 139 mEq/l (135 - 145 mEq/l)\n\n**K:** 4,5 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\n\n\n**TGO:** 15 U/l (Valor de referência: 10 - 37 U/l)\n\n**TGP:** 20 U/l (Valor de referência: 10 - 37 U/l)",
+      "imagem": "https://app.penserevalida.com/impressos/02/211D2B1C-15D5-4392-B0A9-C437333E4C21.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Fator reumatoide e Anti CCP",
+      "conteudo": "**Fator reumatoide:** 85 UI/ml (Valor de referência: < 8 UI/ml)\n\n\n\n**Anticorpo antipeptídeo citrulinado cíclico (anti-CCP):** 935 UI/ml (Valor de referência: < 20 UI/ml)",
+      "imagem": "https://app.penserevalida.com/impressos/02/211D2B1C-15D5-4392-B0A9-C437333E4C21.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Radiografía de mãos",
+      "conteudo": "**Se observa edema de tecidos moles nas articulações metacarpofalangianas e interfalangianas proximais, estreitamento simétrico do espaço articular de várias articulações metacarpofalangianas e interfalangianas proximais de ambas as mãos e discretas erosões da terceira articulação direita e da quarta articulação metacarpofalangiana esquerda e direita.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga as características da dor: **\n(1) Tempo de evolução;\n(2) Articulações afetadas;\n(3) Intensidade;\n(4) Irradiação;\n(5) Fatores de melhora;\n(6) Fatores de piora;\n\n**Adequado: **Investiga cinco ou mais características. \n**Parcialmente adequado: **Investiga três ou quatro características. \n**Inadequado: **Investiga duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1"
+      },
+      "dica_teorica": "As falanges distais quase nunca são acometidas na AR. Quando afetadas, pensar também em outros diagnósticos como artrite psoriásica, lúpus, doenças por deposição de cristais de pirofosfato cálcico, etc."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta por sintomas associados: **\n(1) Rigidez matinal;\n(2) Duração da rigidez;\n(3) Sinais de inflamação local (vermelhidão e/ou calor local e/ou edema);\n(4) Febre;\n(5) Astenia;\n(6) Nódulos subcutâneos e/ou lesões de pele.\n\n**Adequado: **Investiga cinco ou mais itens. \n**Parcialmente adequado: **Investiga três ou quatro itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Em geral, a rigidez matinal da AR dura 1 hora ou mais.Outras manifestações extra articulares da AR: - Acometimento ocular (esclerite, episclerite e escleromalácia perfurante).- Pleurite. - Pericardite. - Doenças difusas do parênquima pulmonar e vasculite.- Síndrome de Sjögren. - Glomerulonefrite."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais: **\n(1) Doenças;\n(2) Cigarro;\n(3) Álcool;\n(4) Drogas ilícitas;\n(5) Alergias.\n\n**Adequado: **Investiga cinco itens. \n**Parcialmente adequado: **Investiga três ou quatro itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "O tabagismo é o principal fator de risco ambiental atuando no aumento da citrulinização de peptídeos."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga antecedentes familiares de doenças reumatológicas . **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita o exame físico articular. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames gerais de laboratório. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita sorologia para artrite reumatóide: **\n(1) Fator reumatóide;\n(2) Anticorpo antipeptídeo citrulinado cíclico (anti-CCP). \n\n**Adequado: **Solicita dois exames. \n**Parcialmente adequado: **Solicita um exame. \n**Inadequado: **Não solicita nenhum dos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita radiografia de mãos e/ou pés. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": "A radiografia é importante para ter um parâmetro do acometimento articular, fazer futuras comparações e observar a evolução da doença.Também pode ser solicitado radiografia de outras articulações."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza o diagnóstico de artrite reumatóide. **\n\n**Adequado: **Realiza o diagnóstico corretamente. \n**Inadequado: **Não realiza ou cita outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Diagnóstico segundo os criterios do Colégio Americano de Reumatologia."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Conduta terapêutica: **\n(1) Tratamento com drogas reumáticas modificadoras da doença (metotrexato OU leflunomida OU sulfassalazina OU hidroxicloroquina);\n(2) Anti-inflamatório não hormonal ou glicocorticoides para controle da dor;\n(3) Encaminha a paciente ao reumatologista.\n\n**Adequado: **Realiza três ações. \n**Parcialmente adequado: **Realiza uma ou duas ações. \n**Inadequado: **Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Se escolhido metotrexato, associar ácido fólico."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Orienta medidas de cuidado geral: **\n(1) Alimentação balanceada;\n(2) Atividade física regular;\n(3) Abandono do cigarro;\n(4) Evitar álcool e drogas;\n(5) Evitar atividade física extenuante ou longos períodos de pé. \n\n**Adequado: **Orienta quatro itens. \n**Parcialmente adequado: **Orienta três itens. \n**Inadequado: **Orienta dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

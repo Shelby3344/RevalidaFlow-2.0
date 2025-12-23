@@ -1,0 +1,215 @@
+{
+  "uid": 1030,
+  "hash": "2ZQGPmwiRcxycXF6dQri5cHr",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Trabalho De Parto Prematuro",
+  "definicao": "O parto pré-termo é aquele que ocorre em até 36 semanas e 6 dias de idade gestacional, excluindo o período considerado como de abortamento. Sua ocorrência é grande em todo mundo; no Brasil, está em torno de 11%. As complicações da prematuridade são a maior causa de morte neonatal. São três as principais causas de partos pré-termo: o trabalho de parto prematuro, a rotura prematura pré-termo das membranas ovulares e a prematuridade terapêutica (quando alguma condição mórbida materna e/ou fetal ocasiona a antecipação do parto).",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "46.00",
+    "star": 0,
+    "time": 514,
+    "count": 4904
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nTipo de Atenção: Unidade Terciária à Saúde.\nTipo de Atendimento: Ambulatorial e Hospitalar. \n\nA unidade apresenta a seguinte infraestrutura:\n- Ultrassonografia;\n- Laboratório de análises clínicas;\n- Unidade de internção hospitalar.\n\nDescrição do caso: \nMulher de 28 anos, gestante, busca atenção médica por quadro de dor abdominal.",
+  "tarefas": "-Realizar o atendimento da paciente;\n-Estabelecer e comunicar a hipótese diagnóstica;\n-Solicitar exames complementares, se necessário;\n-Propor conduta terapêutica;\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "Priscila, 28 anos, dentista, em relacionamento estável, G1P0A0C0.\n\n**Motivo de consulta:** \nDr(a) estou com uma dor muito forte na barriga. \n\n**CONTROLES GESTACIONAIS**:\n**- Idade gestacional:** 31 semanas e 5 dias.\n**- Caderneta de gestante:**Esqueci de trazer. \n**- Intercorrências na gestação:** Eu ando muito estressada Dr(a) devido ao meu trabalho, eu só recebo se eu trabalhar e devido a gestação terei que deixar de trabalhar e consequentemente deixar de receber, mas não tem outra forma, eu só tenho família fora da cidade e não tenho coragem de deixar meu bebê com babá. \n\n**MOTIVO DE CONSULTA**:\n**- Aparição da dor:** Começou a 3 horas mais ou menos. \n**- Localização da dor:** Começa na boca do meu estômago e depois vai se espalhando por toda a barriga e a barriga vai ficando dura. \n**- Intensidade:** 10/10.\n**- Característica da dor:** É uma dor que vem e vai, e cada vez está vindo com menos intervalo de tempo. \n**- Irradiação da dor:** Dói a barriga mas também caminha para as minhas costas. \n**- Atenuantes e agravantes:** Quando a dor ver não tem nada que melhore, até me falta o ar. \n\n**ANTECEDENTES PESSOAIS E GINECOOBSTÉTRICOS**\n**-Doenças crônicas:** Sou anêmica.\n**- Uso crônico de medicações:** Tomei ácido fólico até 13 semanas, mas depois parei. \n**- Gestas, partos e abortos:** G1P0A0C0.\n\n**Caso o(a) candidato(a) solicite a cardiotocografia (CTG), considerar como exame solicitado.**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Pressão Arterial:** 120 X 80 mmHg.\n\n**Frequência Cardíaca:** 90 bpm\n\n**Frequência Respiratória: **16 irpm\n\n**Saturação de O2:** 99% AA>\n\n**Temperatura axilar:** 36.5°C\n\n\n\n**Altura uterina:** 32 cm.\n\n**BCF:** 120 bpm \n\n**Dinâmica uterina:** Duas contrações em 10 minutos.\n\n**Colo uterino:** Amolecido e esvaecido, dilatação de 4 cm, apagamento cervical 80% em progressão. \n\n\n\n**Exame especular:** Não se observa saída de líquidos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Ultrassonografia Transvaginal",
+      "conteudo": "**Laudo de Ultrassonografia Transvaginal**:\n\n \n\n**Útero:** Gravídico de tamanho compatível com a idade gestacional, apresentando contornos regulares.\n\n**Colo uterino:** Comprimento de 32 mm.\n\n**Orifício cervical interno**: Fechado ao exame ultrassonográfico.\n\n**Orifício cervical externo:** Discretamente entreaberto, com dilatação cervical de aproximadamente 2 cm.\n\nMembranas ovulares Íntegras. \n\nAusência de sinais de infecção ou descolamento placentário.\n\n**Presença de feto**: Único em apresentação cefálica, com batimentos cardíacos regulares, movimentação ativa e volume de líquido amniótico dentro dos parâmetros normais.\n\n**Placenta**: Anterior, grau II de maturidade, sem alterações morfológicas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1.  (1)Apresenta-se; e  \n(2)Pergunta o nome da paciente.\n\n**Adequado**: Realiza as duas ações.\n**Inadequado:** Não realiza nenhuma das ações ou realiza apenas uma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2.** Investiga/Pergunta sobre a história reprodutiva: **\n(1) Gestações; \n(2) Partos;\n(3) Abortos. \n\n**Adequado:** Investiga os três itens. \n**Inadequado:** Não investiga os três itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **(1) Interroga sobre seguimento do pré-natal e\n(2) Solicita cartão/caderneta da gestante.**\n\n**Adequado:** Realiza as duas tarefas. \n**Parcialmente adequado:** Realiza somente uma das tarefas.\n**Inadequado:** Não realiza nenhuma das tarefas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga o motivo de consulta, perguntando ativamente pelas características da dor.**\n(1) Aparição; \n(2) Localização; \n(3) Intensidade; \n(4) Característica; \n(5) Irradiação; \n(6) Atenuantes e/ou agravantes.\n\n**Adequado:** Investiga os seis itens.\n**Parcialmente adequado:** Investiga de três a cinco itens.\n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Investiga sintomas acompanhantes.:**\n(1) Corrimento vaginal; \n(2) Perda de sangue por via vaginal; \n(3) Perda de liquido por via vaginal; \n(4) Náuseas/vômitos; \n(5) Feridas vaginais;\n(6) Sintomas urinários (disúria e polaciúria).\n\n\n**Adequado:** Investiga de quatro a cinco itens.\n**Parcialmente adequado:** Investiga de dois a três itens.\n**Inadequado:** Investiga somente um item ou não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga/Pergunta por:**\n(1) Doenças crônicas;\n(2) Uso crônico de medicação; \n(3) Alergias; \n(4) Antecedentes familiares.\n\n**Adequado:** Pergunta/investiga os quatro itens.\n**Parcialmente adequado:** Pergunta/investiga de dois a três itens.\n**Inadequado:** Pergunta/investiga somente um item ou não pergunta/investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exame físico ou exame gineco/obstétrico:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Diagnostica corretamente a paciente simulada com Trabalho de parto prematuro. **\n\n**Adequado:** Diagnóstica Trabalho de parto prematuro.\n**Inadequado:** Não diagnóstica trabalho de parto prematuro.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita a internação da paciente simulada.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita avaliação da vitalidade fetal com a cardiotocografia. **\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita exames laboratoriais:**\n(1) Hemograma;\n(2) EAS/ Urocultura;\n(3) Coleta de material para pesquisa do estreptococo do grupo B.\n\n**Adequado:** Solicita os três exames.\n**Parcialmente adequado:** Solicita ao menos o terceiro item.\n**Inadequado:** Não solicita o terceiro item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.55"
+      },
+      "dica_teorica": "Pesquisa da colonização pelo estreptococo do grupo B e antibioticoprofilaxia para redução do risco de sepse neonatal precoce."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. Prescreve Corticoesteroides: Betametasona 12 mg IM a cada 24 horas por 2 dias (total de 2 doses) ou Dexametasona 6 mg IM a cada 12 horas por 2 dias (total de 4 doses).\n\n**Adequado:** Prescreve um dos dois esquemas corretamente, mencionando nome do medicamento, dose, via de administração, intervalo e número total de doses.\n**Parcialmente adequado:** Prescreve um dos dois esquemas, mas omite alguma informação (ex: intervalo ou número total de doses).\n**Inadequado:** Não prescreve corticoesteroides ou prescreve de forma incorreta (ex: esquema errado, dose errada).",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.2"
+      },
+      "dica_teorica": "O objetivo do uso é acelerar a maturação pulmonar fetal, garantir maior estabilidade vascular ao prematuro, além de reduzir outras morbidades graves neonatais, como hemorragia periventricular e enterocolite necrosante. São recomendadas tanto a betametasona quanto a dexametasona"
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Prescreve Tocolítico.**\n\n**Adequado:** Prescreve.\n**Inadequado:** Não prescreve.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "São consideradas eleitas para a tocólise pacientes com membranas íntegras, com até 4 cm a 5 cm de dilatação cervical e com idade gestacional entre 24 e 34 semanas. Fora desses limites, seu uso deve ser particularizado de acordo com as características de cada serviço"
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Prescreve Sulfato de Magnésio. **\n\n**Adequado:** Prescreve.\n**Inadequado:** Não prescreve.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Recomenda-se sua ministração até 31 semanas e 6 dias. O uso deve ser iniciado quando se considerar que o parto tem alta probabilidade de ocorrer nas próximas 24 horas. Esquema de uso: dose de ataque de 4g IV em 20 a 30 minutos, e seguir com dose de manutenção em infusão de 1 g IV, por hora, até o nascimento ou máximo de 24 horas de utilização (se não ocorrer o parto em 24 horas, a administração deve ser suspensa)."
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Prescreve Antibioticoprofilaxia para estreptococo do grupo B.**\n\n**Adequado:** Prescreve.\n**Inadequado:** Não prescreve.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "A recomendação é que seja feita coleta de material (vaginal e anal) para cultura específica dessa bactéria e que, enquanto se aguarda o resultado, administre-se o antibiótico. Se o trabalho de parto prematuro não for inibido, o antibiótico deve ser mantido até o parto. Caso o resultado da cultura seja negativo ou se o trabalho de parto prematuro for inibido, o antibiótico deve ser suspenso após a tocólise."
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Realiza as tarefas na ordem solicitada.**\n\n**Adequado:** Realiza.\n**Inadequado:** Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    }
+  ]
+}
