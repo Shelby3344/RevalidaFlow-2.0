@@ -1,77 +1,177 @@
-import { Trophy } from "lucide-react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Trophy, Medal, Crown, Award, ChevronUp, ChevronDown } from "lucide-react";
+import { useUserProfile } from "@/hooks/useUserProfile";
 
 interface RankingUser {
   name: string;
-  position: string;
+  position: number;
   points: number;
   medal?: "OURO" | "PRATA" | "BRONZE";
-  avatar?: string;
   initials: string;
+  trend?: "up" | "down" | "same";
 }
 
-const rankingUsers: RankingUser[] = [
-  { name: "MAICON ROCHA", position: "1° Lugar", points: 6.38, medal: "OURO", initials: "MR" },
-  { name: "Sávio Rocha de Santana", position: "2° Lugar", points: 6.15, medal: "PRATA", initials: "SR" },
-  { name: "Marcelo Correia Silva", position: "3° Lugar", points: 5.94, medal: "BRONZE", initials: "MC" },
-  { name: "Tacyane S. da Silva Oliveira", position: "4° Lugar", points: 5.84, initials: "TS" },
-  { name: "Jean Favian Zambrano Paneque", position: "5° Lugar", points: 5.57, initials: "JZ" },
-  { name: "Nayara Nuñez", position: "4315° Lugar", points: 1.14, initials: "NN" },
+const topUsers: RankingUser[] = [
+  { name: "Lucas Mendes", position: 1, points: 6.38, medal: "OURO", initials: "LM", trend: "same" },
+  { name: "Ana Carolina Silva", position: 2, points: 6.15, medal: "PRATA", initials: "AC", trend: "up" },
+  { name: "Pedro Henrique Costa", position: 3, points: 5.94, medal: "BRONZE", initials: "PH", trend: "down" },
+  { name: "Mariana Oliveira Santos", position: 4, points: 5.84, initials: "MO", trend: "up" },
+  { name: "Rafael Almeida Souza", position: 5, points: 5.57, initials: "RA", trend: "same" },
 ];
 
 export function RankingCard() {
-  const getMedalClass = (medal?: string) => {
+  const { profile } = useUserProfile();
+  
+  // Usuário atual (mock - posição 4315)
+  const currentUser: RankingUser = {
+    name: profile.nome,
+    position: 4315,
+    points: 1.14,
+    initials: profile.nome.split(" ").map(n => n[0]).join("").slice(0, 2).toUpperCase(),
+    trend: "up"
+  };
+
+  const getMedalIcon = (medal?: string) => {
     switch (medal) {
-      case "OURO": return "badge-gold";
-      case "PRATA": return "badge-silver";
-      case "BRONZE": return "badge-bronze";
-      default: return "";
+      case "OURO": return <Crown className="w-4 h-4 text-yellow-500" />;
+      case "PRATA": return <Medal className="w-4 h-4 text-gray-400" />;
+      case "BRONZE": return <Award className="w-4 h-4 text-amber-700" />;
+      default: return null;
     }
   };
 
+  const getMedalBg = (medal?: string) => {
+    switch (medal) {
+      case "OURO": return "bg-gradient-to-r from-yellow-500/20 to-amber-500/20 border-yellow-500/30";
+      case "PRATA": return "bg-gradient-to-r from-gray-400/20 to-slate-400/20 border-gray-400/30";
+      case "BRONZE": return "bg-gradient-to-r from-amber-700/20 to-orange-700/20 border-amber-700/30";
+      default: return "bg-secondary/30 border-border/30";
+    }
+  };
+
+  const getPositionBg = (position: number) => {
+    if (position === 1) return "bg-gradient-to-br from-yellow-500 to-amber-600 text-white";
+    if (position === 2) return "bg-gradient-to-br from-gray-400 to-slate-500 text-white";
+    if (position === 3) return "bg-gradient-to-br from-amber-600 to-orange-700 text-white";
+    return "bg-secondary text-muted-foreground";
+  };
+
   return (
-    <div className="rounded-xl card-gradient p-5">
-      <div className="flex items-center gap-2 mb-6">
-        <Trophy className="w-4 h-4 text-primary" />
-        <h3 className="text-sm font-medium text-primary">Ranking - Top 5</h3>
+    <div className="rounded-2xl bg-card border border-border/50 overflow-hidden">
+      {/* Header */}
+      <div className="px-5 py-4 border-b border-border/30 bg-gradient-to-r from-amber-500/5 to-transparent">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <div className="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center">
+              <Trophy className="w-4 h-4 text-amber-500" />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-foreground">Ranking Geral</h3>
+              <p className="text-xs text-muted-foreground">Top 5 da plataforma</p>
+            </div>
+          </div>
+          <span className="text-xs text-muted-foreground">Atualizado hoje</span>
+        </div>
       </div>
 
-      <table className="table-dark">
-        <thead>
-          <tr>
-            <th>NOME</th>
-            <th>PONTOS</th>
-            <th>MEDALHA</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rankingUsers.map((user, index) => (
-            <tr key={index}>
-              <td>
-                <div className="flex items-center gap-3">
-                  <Avatar className="w-8 h-8">
-                    <AvatarFallback className="bg-primary/20 text-primary text-xs">
-                      {user.initials}
-                    </AvatarFallback>
-                  </Avatar>
-                  <div>
-                    <p className="text-sm font-medium text-foreground">{user.name}</p>
-                    <p className="text-xs text-muted-foreground">{user.position}</p>
-                  </div>
-                </div>
-              </td>
-              <td className="text-sm text-foreground">{user.points.toFixed(2)}</td>
-              <td>
-                {user.medal && (
-                  <span className={`badge-medal ${getMedalClass(user.medal)}`}>
-                    {user.medal}
-                  </span>
-                )}
-              </td>
-            </tr>
+      {/* Top 3 Podium */}
+      <div className="px-5 py-4 border-b border-border/30">
+        <div className="flex items-end justify-center gap-3">
+          {/* 2º Lugar */}
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-gray-400 to-slate-500 flex items-center justify-center text-white font-bold text-sm mb-1">
+              {topUsers[1].initials}
+            </div>
+            <div className="w-16 h-12 rounded-t-lg bg-gray-400/20 flex items-center justify-center">
+              <span className="text-lg font-bold text-gray-400">2°</span>
+            </div>
+          </div>
+          
+          {/* 1º Lugar */}
+          <div className="flex flex-col items-center -mt-4">
+            <Crown className="w-5 h-5 text-yellow-500 mb-1" />
+            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-yellow-500 to-amber-600 flex items-center justify-center text-white font-bold mb-1 ring-2 ring-yellow-500/30">
+              {topUsers[0].initials}
+            </div>
+            <div className="w-16 h-16 rounded-t-lg bg-yellow-500/20 flex items-center justify-center">
+              <span className="text-xl font-bold text-yellow-500">1°</span>
+            </div>
+          </div>
+          
+          {/* 3º Lugar */}
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-600 to-orange-700 flex items-center justify-center text-white font-bold text-sm mb-1">
+              {topUsers[2].initials}
+            </div>
+            <div className="w-16 h-10 rounded-t-lg bg-amber-700/20 flex items-center justify-center">
+              <span className="text-lg font-bold text-amber-700">3°</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Lista completa */}
+      <div className="p-3">
+        <div className="space-y-1.5">
+          {topUsers.map((user) => (
+            <div 
+              key={user.position}
+              className={`flex items-center gap-3 p-2.5 rounded-xl border transition-colors ${getMedalBg(user.medal)}`}
+            >
+              {/* Posição */}
+              <div className={`w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold ${getPositionBg(user.position)}`}>
+                {user.position}°
+              </div>
+
+              {/* Avatar */}
+              <div className="w-9 h-9 rounded-full bg-primary/20 flex items-center justify-center text-primary text-xs font-bold">
+                {user.initials}
+              </div>
+
+              {/* Info */}
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-medium text-foreground truncate">{user.name}</p>
+                <p className="text-xs text-muted-foreground">{user.points.toFixed(2)} pts</p>
+              </div>
+
+              {/* Trend */}
+              {user.trend === "up" && <ChevronUp className="w-4 h-4 text-emerald-500" />}
+              {user.trend === "down" && <ChevronDown className="w-4 h-4 text-red-500" />}
+
+              {/* Medal */}
+              {getMedalIcon(user.medal)}
+            </div>
           ))}
-        </tbody>
-      </table>
+
+          {/* Separador */}
+          <div className="flex items-center gap-2 py-2">
+            <div className="flex-1 h-px bg-border/50" />
+            <span className="text-[10px] text-muted-foreground">SUA POSIÇÃO</span>
+            <div className="flex-1 h-px bg-border/50" />
+          </div>
+
+          {/* Usuário atual */}
+          <div className="flex items-center gap-3 p-2.5 rounded-xl bg-primary/5 border border-primary/20">
+            {/* Posição */}
+            <div className="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center text-xs font-bold text-primary">
+              {currentUser.position}°
+            </div>
+
+            {/* Avatar */}
+            <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary to-violet-600 flex items-center justify-center text-white text-xs font-bold">
+              {currentUser.initials}
+            </div>
+
+            {/* Info */}
+            <div className="flex-1 min-w-0">
+              <p className="text-sm font-medium text-primary truncate">{currentUser.name}</p>
+              <p className="text-xs text-muted-foreground">{currentUser.points.toFixed(2)} pts</p>
+            </div>
+
+            {/* Trend */}
+            {currentUser.trend === "up" && <ChevronUp className="w-4 h-4 text-emerald-500" />}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
