@@ -34,8 +34,13 @@ export function WelcomeBanner() {
 
   // Formata o nome com título
   const getNomeFormatado = () => {
-    const primeiroNome = profile.nome.split(" ")[0];
-    const ultimoNome = profile.nome.split(" ").slice(-1)[0];
+    const partes = profile.nome.trim().split(" ");
+    if (partes.length === 1) {
+      // Se só tem um nome, não duplica
+      return `Dr(a) ${partes[0]}`;
+    }
+    const primeiroNome = partes[0];
+    const ultimoNome = partes[partes.length - 1];
     return `Dr(a) ${primeiroNome} ${ultimoNome}`;
   };
 
