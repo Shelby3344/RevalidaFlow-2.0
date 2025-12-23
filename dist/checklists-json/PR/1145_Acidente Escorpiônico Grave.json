@@ -1,0 +1,221 @@
+{
+  "uid": 1145,
+  "hash": "UhX_6dpQfJS1uG0h9j8sENpH",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Acidente Escorpiônico Grave",
+  "definicao": "Quadro clínico de envenenamento provocado quando um escorpião injeta sua peçonha através do ferrão (télson). Os escorpiões são representantes da classe dos aracnídeos, predominantes nas zonas tropicais e subtropicais do mundo, com maior incidência nos meses em que ocorre aumento de temperatura e umidade.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "77.50",
+    "star": 0,
+    "time": 568.5,
+    "count": 5359
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial.\n- Unidade básica de saúde (UBS).\n\nA unidade conta com a seguinte infraestrutura:\n-Sala de atenção médica;\n-Eletrocardiograma;\n-Sala de curativos.\n\nDESCRIÇÃO DO CASO:\nPaciente masculino, 30 anos, solteiro, busca atenção médica por dor de início súbito na mão direita.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! \nO PACIENTE SIMULADA NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar a anamnese dirigida à queixa principal da paciente;\n-Solicitar exames complementares, caso necessário; \n-Verbalizar o diagnóstico do paciente;\n-Verbalizar a conduta terapêutica adequada segundo o grau do diagnóstico;\n-Indicar medidas de profilaxia (MINIMO 4 MEDIDAS).",
+  "script_ator": "**DADOS PESSOAIS:**\n-Marcelo Silva, 30 anos, motoboy, solteiro.\n\n**MOTIVO DE CONSULTA**:\n-Eu estava limpando umas coisas em casa quando senti uma dor muito forte na mão e não está melhorando.\n\n**SOBRE A DOR:**\n**-Tempo de evolução**: Tem 20 minutos.\n**-Localização:** É na minha mão direita.\n**-Intensidade:** Dói bastante, como um oito.\n**-Característica:** Na hora que começou foi como se algo tivesse me picado e agora é uma dor que queima.\n**-Irradiação:** Está queimando toda a minha mão.\n\n**FATORES DESENCADEANTES**:\n**-Contato com planta, produto químico, inseto ou bicho**: Ultimamente tem aparecido uns escorpiões amarelos, mas eu não consegui achar nenhum depois que comecei a sentir a dor.\n**-Picadas prévias de escorpião:** Não, que eu me lembre nunca fui picado.\n\n**SINTOMAS ASSOCIADOS:**\n**-Náuseas:** A dor é tanta que estou me sentindo com tremor, náuseas e até estou suando muito, minha roupa está até molhada.\n**-Vômitos:** Vomitei uma vez nesses vinte minutos, mas sinto que vou vomitar novamente.\n**-Falta de ar e/ou palpitações:** Estou me sentindo estranho, não sei explicar.\n**-Salivação**: Sim, e muita.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES**\n**-Doenças crônicas:** Não tenho nenhuma doença.\n**-Uso de medicações crônicas:** Não faço uso de nenhum medicamento.\n**-Alergias e cirurgias:** Não tenho alergias e nunca fiz nenhuma cirurgia.\n**-Status vacinal:** Minhas vacinas estão completas.\n\n**HÁBITOS**:\n**-Tabagismo**: Nega.\n**-Etilismo**: Nega.\n**-Drogas ilícitas**: Nega.\n\n**DÚVIDAS:**\n**-PERGUNTA 1:**Vou precisar ficar internado?\n**-PERGUNTA 2:**Tem alguma medicação que eu possa tomar?\n**-PERGUNTA 3:**Tem algo que eu possa fazer para evitar a presença desse animal na minha casa?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Pressão arterial:** 90 × 55 mmHg \n\n**Temperatura:** 38 °C\n\n**Frequência cardíaca: **140 bpm\n\n**Frequência respiratória:** 28 irpm\n\n**Saturação periférica de oxigênio (SatO2):** 98%\n\n\n\n**IMC: **24\n\n\n\n**Estado geral: **Se observa sudoração profusa.\n\n**Aparato Cardiovascular:** Regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n**Aparato Respiratório:** Murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados. \n\n**Abdome:** Normotenso, sem pontos dolorosos.\n\n**Extremidades:** Não se observam edemas.",
+      "imagem": "https://app.penserevalida.com/impressos/old/escorp.webp"
+    },
+    {
+      "idx": 2,
+      "titulo": "Local da dor",
+      "conteudo": "Local da dor",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Eletrocardiograma",
+      "conteudo": "**Taquicardia sinusal**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se;\n(3) Dirige-se ao paciente simulado pelo nome, pelo menos uma vez;\n(4) Faz perguntas; e,\n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza as cinco ações.\n**Parcialmente adequado:** Realiza de duas a quatro ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) Estabelece contato visual; e,\n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado**: Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma das ações.\n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala do paciente simulado sem interrompê-lo. **\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível com o paciente simulado, evitando termos técnicos de difícil compreensão. **\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Investiga os antecedentes pessoais:**\n(1) Doenças prévias; \n(2) Internações; \n(3) Cirurgias anteriores; \n(4) Alergias; e,\n(5) Uso de medicações. \n\n**Adequado:** Investiga mais  de quatro itens. \n**Parcialmente adequado:** Investiga dois ou três itens .\n**Inadequado:** Investiga somente um item ou não investiga nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6.** Investiga o histórico de vacinação.**\n\n**Adequado:** Investiga. \n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga sobre o motivo de consulta: **\n(1) Tempo de evolução;\n(2) Local;\n(3) Dor; \n(4) Edema; e,\n(5) Alteração de coloração .\n\n**Adequado:** Investiga quatro ou cinco itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga somente um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8.** Investiga sintomas acompanhantes:**\n(1) Febre; \n(2) Náuseas;\n(3) Vômitos; \n(4) Mal estar geral; e,\n(5) Parestesia.\n\n**Adequado:** Investiga quatro a ou cinco itens.\n**Parcialmente adequado:** Investiga  dois ou três itens.\n**Inadequado:** Investiga somente um item ou não investiga nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita:**\n(1) Exame físico geral; e,\n(2) Exame físico do local da dor. \n\n**Adequado:** Solicita os dois exames.\n**Parcialmente adequado:** Solicita somente exame físico do local da dor; \n**Inadequado:** Solicita somente exame físico geral OU não solicita nenhum exame físico.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Após a leitura do impresso 2 é capaz de identificar/verbalizar: **\n(1) Ponto de entrada único;\n(2) Ponto de entrada eritematoso;\n(3) leve edema local.\n\n**Adequado: **Identifica/verbaliza os três itens. \n**Parcialmente adequado:** Identifica/verbaliza ao menos um ou dois itens. \n**Inadequado:** Não identifica/verbaliza nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita eletrocardiograma: **\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "O eletrocardiograma é de grande utilidade no acompanhamento dos pacientes. Pode mostrar taquicardia ou bradicardia sinusal, extra-sístoles ventriculares, distúrbios da repolarização ventricular como inversão da onda T em várias derivações, presença de ondas U proeminentes, alterações semelhantes às observadas no infarto agudo do miocárdio (presença de ondas Q e supra ou infradesnivelamento do segmento ST) e bloqueio da condução atrioventricular ou intraventricular do estímulo. Estas alterações desaparecem em três dias na grande maioria dos casos, mas podem persistir por sete ou mais dias."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Diagnóstica o quadro como Acidente escorpiônico grave ou escorpionismo grave:**\n\n**Adequado:** Diagnóstica o quadro clinico de fora correta e completa; \n**Parcialmente adequado:** Diagnóstica o quadro clinico como Acidente escorpiônico ou escorpionismo sem mencionar a gravidade.\n**Inadequado:** Não diagnóstica corretamente o quadro clinico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "Manifestações clinicas:Leve: Dor e parestesia locais Moderado: Dor local intensa associada a uma oumais manifestações, como náuseas, vômitos, sudorese, sialorreia discreta,agitação, taquipneia e taquicardia. Grave: Além das citadas na forma moderada, presença de uma ou mais das seguintesmanifestações: vômitos profusos e incoercíveis, sudorese profusa, sialorréia intensa, prostração, convulsão, coma, bradicardia, insuficiência cardíaca, edema pulmonar agudo e choque."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. Indica:\n(1) Transferência do paciente para unidade de atendimento de maior complexidade;\n(2) Monitoramento continuo dos sinais vitais; e,\n(3) Tratamento precoce de complicações.\n\n**Adequado:** Indica a transferência do paciente explicando o motivo/importância da decisão médica. \n**Parcialmente adequado:** Indica a transferência do paciente sem explicar motivo/importância da decisão médica.\n**Inadequado:** Não indica transferência do paciente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Indica/prescreve:**\nAdministração de 4 a 6 ampolas de Soro antiescorpiônico/Soro antiaracnídico.\n\n**Adequado:** Indica/prescreve a dose adequada de Soro antiescorpiônico/Soro antiaracnídico.\n**Inadequado:** Não indica/prescreve a dose adequada de Soro antiescorpiônico/Soro antiaracnídico.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Informa as possível medidas de profilaxia **\n\n(1) Acondicionar lixo domiciliar em sacos plásticos ou outros recipientes que possam ser mantidos fechados, para evitar baratas, moscas ou outros insetos de que se alimentam os escorpiões;\n(2) Combater a proliferação de baratas no intradomicílio. No caso da utilização de pesticidas, recomenda-se o uso de formulações do tipo gel ou pó. Esta atividade deve ser executada somente por profissionais de empresas especializadas;\n(3) Manter jardins e quintais limpos. Evitar o acúmulo de entulhos, folhas secas, lixo doméstico e materiais de construção nas proximidades das casas. Usar calçados e luvas de raspas de couro nas tarefas de limpeza em jardins e quintais;\n(4) Evitar folhagens densas (plantas ornamentais, trepadeiras, arbusto, bananeiras e outras) junto a paredes e muros das casas. Manter a grama aparada;\n(5) Solicitar ao proprietário ou, no impedimento deste, à prefeitura, a limpeza periódica de terrenos baldios vizinhos, pelo menos, numa faixa de um a dois metros junto às casas;\n(6) Sacudir e examinar roupas e sapatos antes de usá-los, pois escorpiões podem se esconder neles e picam ao serem comprimidos contra o corpo;\n(7) Evitar colocar as mãos sem luvas em buracos, sob pedras, troncos podres e em dormentes da linha férrea;\n(8) Nas casas e apartamentos utilizar soleiras nas portas e janelas, telas em ralos do chão, pias e tanques;\n(9) Vedar frestas e buracos em paredes, assoalhos e vãos entre o forro e a parede;\nConsertar rodapés despregados;\n(10) Afastar as camas e berços das paredes;\n(11) Evitar que roupas de cama e mosquiteiros encostem no chão;\n(12) Não pendurar roupas nas paredes;\n(13) Preservar os inimigos naturais de escorpiões: aves de hábitos noturnos (coruja, joão-bobo), lagartos e sapos.\n\n**Adequado:** Informa quatro ou mais  medidas profiláticas.\n**Parcialmente adequado:** Informa duas ou três medidas profiláticas.\n**Inadequado:** Não informa nenhuma medida profilática OU informa somente uma medida.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Notifica o caso ao SINAN.**\n\n**Adequado:** Notifica.\n**Inadequado:** Não notifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

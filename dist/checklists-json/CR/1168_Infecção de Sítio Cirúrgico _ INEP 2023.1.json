@@ -1,0 +1,213 @@
+{
+  "uid": 1168,
+  "hash": "7sJq26A1NYUw5RWkfjlWcob1",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Infecção de Sítio Cirúrgico | INEP 2023.1",
+  "definicao": "Infecção de sítio cirúrgico é a infecção que ocorre na incisão cirúrgica ou em tecidos manipulados durante o procedimento cirúrgico, e, diagnosticada até 30 dias após a data do procedimento, podendo ser classificadas como incisional superficial, profunda ou de órgão/cavidade.",
+  "origem": 1,
+  "ano_da_prova": "20231",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "58.00",
+    "star": 0,
+    "time": 596.5,
+    "count": 9240
+  },
+  "cenario": "Nível de atenção: Atenção terciária a saúde\nTipo de atendimento: Emergência Geral. \nA unidade possui a seguinte infraestrutura: \n- Aparelho para radiografias; \n- Ultrassonografia e tomografia; \n- Ecocardiografia; \n- Laboratório de análises clínicas; \n- Leitos de enfermaria; \n- Bloco cirúrgico; \n- Unidade de terapia intensiva. \n\nDescrição do caso: \n- Homem de 30 anos de idade, servente, procura atendimento devido a febre no sétimo dia de pós-operatório de apendicectomia realizada em hospital de cidade no interior de Minas Gerais. \n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "Realizar anamnese do paciente; \n-Solicitar e interpretar exame físico; \n-Estabelecer e comunicar as principais hipóteses diagnósticas (no mínimo quatro), antes da solicitação de exames complementares.  Só serão pontuados os diagnósticos diferenciais verbalizados antes da solicitação dos exames complementares; \n-Solicitar exames laboratoriais (no máximo 10), se necessário, descrevendo os achados. Só serão pontuados os dez primeiros exames laboratoriais citados; \n-Solicitar outros exames complementares (no máximo quatro), se necessário, descrevendo os achados. Só serão pontuados os quatro primeiros exames complementares citados; \n-Estabelecer e comunicar as hipóteses diagnósticas definitivas.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Paulo, tem 30 anos, é casado e trabalha como servente de pedreiro.\n\n**MOTIVO DE CONSULTA (FEBRE):**\n- **Inicio:** Há dois dias, ela melhora com o uso de medicação, mas logo volta.\n- **Temperatura:** Não aferi  a temperatura, mas acho que a febre era alta.\n- **Calafrios:** Nega, mas tenho acordado, desde o início da febre, molhado de suor.\n- **Anorexia:** Nega.\n\n**SOBRE O SITIO CIRÚRGICO:**\n- **Eritema e Edema:** Sim, a ferida do umbigo está quente e vermelha.\n- **Presença de dor: **Sim, dói na ferida no local do umbigo e na barriga do lado direito.\n- **Presença de secreção:** Sim, sai um pouco de secreção amarelada.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n- **Sintomas Respiratórios:** Nega.\n- **Sintomas Urinários:** Nega.\n- **Dor lombar:** Nega.\n- **Palpitações:** Já tive uma vez, mas não estou tendo agora.\n-**Náuseas e Vômitos:** Nega.\n-**Evacuação de fezes e eliminação de gases:** Sem alterações.\n\n**SOBRE A CIRURGIA:**\n- **Via cirúrgica:** Via laparoscópica.\n- **Uso de sonda vesical/urinária:** Usei sonda vesical/urinária até o dia posterior a cirurgia; \n- **Uso de antibióticos:** Sim, estava tomando desde a cirurgia até hoje de manhã, mas esqueci de tomar alguns dias.\n\n**ANTECEDENTES PESSOAIS:**\n- **Comorbidades:** Tenho um estreitamento em uma válvula do coração há vários anos e também sou diabético;  \n-** Uso de medicamentos:** o único medicamento que eu tomo atualmente é a metformina; \n-**Uso de bebidas alcoólicas ou drogas ilícitas:** Nega.\n-**Tabagismo:** Fumo 10 cigarros por dia há 10 anos.\n-**Alergias:** Nega.\n-**Cirurgias prévias:** Essa foi a minha primeira cirurgia.\n\n**ANTECEDENTES FAMILIARES:**\n- Minha mãe é diabética.\n\n** O paciente simulado, caso o(a) participante faça a anamnese adequada, perguntará ao(à) participante:  **\n1) Tem algo de errado com a minha cirurgia?\n2) O que eu tenho? Existe outro diagnóstico possível?\n3) Eu preciso fazer outros exames?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais Vitais",
+      "conteudo": "- **Frequência cardíaca: **100 batimentos por minuto. \n\n**- Pressão arterial: **130 × 70 mmHg. \n\n**- Frequência respiratória:** 16 incursões respiratórias por minuto. \n\n**- Temperatura axilar: **38,2°C.\n\n**- Saturação de oxigênio: **97% em ar ambiente. \n\n\n\n**Índice de massa corpórea (IMC):** 35 Kg/m2. \n\n\n\n**- Estado Geral: **paciente em estado geral regular, febril, acianótico, anictérico e desidratado; alerta e orientado no tempo e espaço. \n\n\n\n- **Ausculta respiratória **com murmúrio vesicular presente bilateralmente, sem ruídos adventícios. \n\n\n\n- **Ritmo cardíaco **regular em dois tempos, estalido de abertura da valva mitral e sopro diastólico em ruflar mitral, com formato em decrescendo, com início logo após o estalido.",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-17-091849.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame físico: exame abdominal da região umbilical.",
+      "conteudo": "**Dirija-se para a câmera e explique os achados do exame físico região umbilical.**\n\n\n\n- Demais feridas operatórias sem alterações. \n\n- Abdome flácido, doloroso à palpação profunda em fossa ilíaca direita, sem dor à descompressão brusca, ruídos hidroaéreos hipoativos; sem visceromegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-17-092225-rx.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma:**\n\n- **Hemacias**: 4,85 (Valor de Referência: 4,32-5,66 milhões/mm3).\n\n- **Hemoglobina**: 13,5 (Valor de Referência: 13,3 a 16,7 g/dl). \n\n- **Hematócrito**: 42,7 %(Valor de Referência: 39-5)%).\n\n- **VCM**: 87,8 (Valor de Referência: 80 a 100 fl).\n\n- **HCM**: 30,6 (Valor de Referência: 27,3-32,6 pg).\n\n- **CHCM**: 34,8 (Valor de Referência: 31-37 g/dl). \n\n- **RDW**: 13 (Valor de Referência: 10-15%).\n\n- **Observações**: hemácias normocíticas e normocrômicas.\n\n\n\n**Leucócitos:** 15,556 (Valor de Referência: 3700-9500 mm3).\n\n- **Bastões**: 14% \n\n- **Segmentados**: 63%\n\n- **Eosinófilos**: 0%\n\n- **Linfócitos**: 16%\n\n- **Monócitos**: 6%\n\n\n\n**Plaquetas:** 234,000 (Valor de Referência: 150.000-450.000 mm3) \n\n\n\n**Glicemia (sem jejum): **210 g/dl (Valor de Referência: 70-99 g/dl)\n\n\n\n**Sódio**:140 mEq/L (Valor de Referência: 135-145 mEq/L)\n\n**Potássio:** 4,5 mEq/L (Valor de Referência: 3,5-5,0 mEq/L)\n\n**Ureia: **40 mg/dl (Valor de Referência: 15-45 mEq/L) \n\n**Creatinina: **1,2 mg/dl (Valor de Referência: 0,7-1,3 mg/dl) \n\n\n\n**PCR: **30 mg/dl (Valor de Referência: > 8mg/dl)",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-17-092225-rx.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Sumário de Urina",
+      "conteudo": "**- Cor: **amarela (Valor de Referência: amarela)\n\n- **Aspecto**: límpido (Valor de Referência: límpido/ligeiramente turvo)\n\n**- Densidade: **1025 (Valor de Referência: 1002 a 1030)\n\n**- pH:** 5,0 (Valor de Referência: 5,0 a 8,0)\n\n**- Proteínas:** negativa (Valor de Referência: negativa)\n\n**- Glicose: **negativa (Valor de Referência: negativa)\n\n**- Cetonas: **negativa (Valor de Referência: negativa)\n\n**- Bilirrubinas:** negativa (Valor de Referência: negativa)\n\n**- Uribilinógeno: **negativa (Valor de Referência: até 1 mg/dl)\n\n**- Leucócitos: **2 (Valor de Referência: até 4 p/ml)\n\n**- Hemácias: **1 (Valor de Referência: até 4 p/ml)\n\n**- Células epiteliais: **raras (Valor de Referência: ausentes/raras).\n\n\n\n**Urocultura: **em andamento.",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-17-092225-rx.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "Hemocultura",
+      "conteudo": "Em andamento.",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-17-092225-rx.png"
+    },
+    {
+      "idx": 6,
+      "titulo": "Radiografia de Tórax",
+      "conteudo": "Radiografia de tórax dentro dos padrões de normalidade.",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-17-092415-ecocardio.png"
+    },
+    {
+      "idx": 7,
+      "titulo": "Ultrassonografia de Abdome Total",
+      "conteudo": "- Fígado de tamanho levemente aumentado, com sinais de esteatose moderada. \n\n - Em fossa ilíaca direita, nota-se discreto borramento de gordura em região cecal compatível com manipulação cirúrgica recente. \n\n- Ausência de coleções líquidas evidenciadas ao método. \n\n - Demais aspectos normais.",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-17-092415-ecocardio.png"
+    },
+    {
+      "idx": 8,
+      "titulo": "Tomografia de Abdome Total",
+      "conteudo": "- Fígado com sinais de esteatose moderada. \n\n - Pequena quantidade de líquido livre, sem septação, localizado em fossa ilíaca direita, sugerindo manipulação cirúrgica recente. \n\n - Ausência de coleções em pelve, nos espaços subfrênicos e sub-hepático. \n\n - Demais aspectos normais.",
+      "imagem": "https://app.penserevalida.com/impressos/08/Captura-de-tela-2023-08-17-092415-ecocardio.png"
+    },
+    {
+      "idx": 9,
+      "titulo": "Ecocardiograma Transtorácico",
+      "conteudo": "- Valva mitral com folhetos espessados, abertura reduzida em cúpula. Presença de imagem algodonosa, móvel, aderida a face atrial do folheto anterior, medindo cerca de 8×4 mm com aspecto sugestivo de vegetação. \n\n- Ao Doppler colorido, evidencia-se estenose da valva mitral leve. \n\n- Não há evidências de outras lesões valvares. \n\n- Função ventricular esquerda preservada. Não foram observadas outras anormalidades estruturais cardíacas ou vasculares. \n\n\n\n**Conclusão**: Estenose mitral e presença de vegetação em valva mitral.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1.  **Apresentação: **\n(1) apresenta-se;\n(2) cumprimenta e identifica o paciente simulado. \n\n**Adequado:** Realiza as duas ações. \n**Parcialmente adequado:** Realiza apenas uma ação. \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese perguntando sobre as características da febre e sintomas associados:**\n(1) Tempo de início de febre; \n(2) Temperatura; \n(3) Persistência ou intermitência.  \n\n**Adequado:** Pergunta três características. \n**Parcialmente adequado:** Pergunta duas características. \n**Inadequado:** Pergunta uma característica OU não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre as principais  manifestações clínicas associadas ao quadro:**\n (1) dor abdominal ou dor no local da cirurgia; \n (2) sudorese noturna; \n (3) naúseas E/OU vômitos;\n (4) parada de eliminação de gases E/OU evacuações.  \n\n**Adequado:** Pergunta três OU quatro itens. \n**Parcialmente adequado:** Pergunta dois itens.\n **Inadequado:** Pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre  manifestações clínicas  associadas ao quadro:**\n(1) calafrios; \n(2) sintomas urinários: disúria OU polaciúria OU hematúria OU urina fétida; \n(3) dor lombar; \n(4) sintomas cardíacos: palpitações OU dispneia OU desmaio; \n(5) sintomas respiratórios: tosse OU secreção OU falta de ar.  \n\n**Adequado:** Pergunta quatro ou cinco itens. \n**Parcialmente adequado:** Pergunta ao menos três itens.\n** Inadequado:** Pergunta apenas um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Exame Físico  interpreta os achados da  infecção de sítio cirúrgico da região umbilical:**\n(1) hiperemia; \n(2) saída de secreção seropurulenta.  \n\n**Adequado:** Interpreta dois achados. \n**Inadequado:** Interpreta um achado OU não interpreta achado algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza os diagnósticos diferenciais para esse caso:**\n(1) infecção de sítio cirúrgico superficial (infecção de ferida cirúrgica); \n(2) abscesso intra-abdominal (infecção de sítio cirúrgico profundo); \n(3) pulmonar e/ou infecção respiratória; \n(4) endocardite infecciosa;\n (5) infecção do trato urinário.  \n\n**Adequado:** Verbaliza o diagnóstico diferencial para quatro OU cinco itens. \n **Parcialmente adequado:** Verbaliza o diagnóstico diferencial para três itens. \n**Inadequado:** Verbaliza o diagnóstico diferencial para dois OU um item OU não verbaliza diagnóstico diferencial para item algum.  \n\n**OBSERVAÇÃO: **Só serão pontuados os diagnósticos diferenciais verbalizados antes da solicitação dos exames complementares.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1.0",
+        "adequado": "2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita os  exames laboratoriais:**\n (1) Hemograma com ou sem VHS; \n(2) Proteína C Reativa (PCR); \n(3) Sumário de Urina/EAS;\n (4) Glicemia.  \n\n**Adequado:** Solicita os quatro exames. \n**Parcialmente adequado:** Solicita ao menos três exames.\n** Inadequado:** Não solicita exame algum OU solicita apenas um exame. \n\n **OBSERVAÇÃO: **Só serão pontuados os DEZ primeiros exames laboratoriais citados.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita  outros exames laboratoriais:**\n(1) Hemocultura; \n(2) Urocultura; \n(3) Sódio E potássio;\n (4) Creatinina somente OU ureia e creatinina.  \n\n**Adequado:** Solicita quatro exames.\n**Parcialmente adequado:** Solicita três exames.\n**Inadequado:** Solicita um exame OU não solicita exame algum.  \n\n**OBSERVAÇÃO: **Só serão pontuados os DEZ primeiros exames laboratoriais citados.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita uma Radiografia (Rx) de Tórax PA:**\n\n**Adequado: **solicita o exame. \n**Inadequado: **não solicita o exame.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita uma Ultrassom / Ultrassonografia / USG /Ecografia de abdome total  ou Tomografia/Tomografia computadorizada de abdome total:**\n\n**Adequado:** Solicita um dos exames. \n**Inadequado:**  Não solicita exame algum.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita Ecocardiograma:**\n\n**Adequado:** Solicita o exame. \n**Inadequado:** Não solicita o exame.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza o diagnóstico definitivo:**\n (1) infecção de sítio cirúrgico superficial;\n (2) endocardite infecciosa.  \n\n**Adequado:** Verbaliza  os dois diagnósticos. \n**Parcialmente adequado:** Verbaliza apenas um dos diagnósticos. \n**Inadequado:** Não verbaliza  diagnóstico algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

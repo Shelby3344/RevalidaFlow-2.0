@@ -1,0 +1,177 @@
+{
+  "uid": 987,
+  "hash": "BUDjJNbS-usZEnSFcL_eu8_Z",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Retirada de DIU",
+  "definicao": "O DIU é um método contraceptivo do grupo dos LARCs (Método Contraceptivo de Longa Duração).Sua retirada é indicada pela data de uso do dispositivo escolhido pela paciente, assim como algumas complicações que podem indicar sua retirada.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "62.50",
+    "star": 0,
+    "time": 578,
+    "count": 3035
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Ambulatorial.\n\nA unidade possui a seguinte infraestrutura:\n- Consultório;\n- Laboratório de análises clínicas;\n- Ultrassonografia, radiografia;\n- Leito de internação;\n- Centro cirúrgico. \n\nDescrição do caso:\nVocê é um médico atuando no consultório de uma Unidade de Pronto Atendimento (UPA) e atenderá uma uma paciente de 28 anos em consulta de rotina ginecológica.",
+  "tarefas": "- Realizar anamnese direcionada da paciente;\n- Demonstrar e verbalizar a realização de procedimentos médicos;\n- Realizar orientações pós procedimento, se necessário;\n- Aconselhar sobre planejamento familiar;\n- Esclarecer todas as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Luana, 28 anos, contadora e casada.\n\n**MOTIVO DE CONSULTA:**\n- Dr.(a) eu vim pois eu quero retirar o meu DIU, me falaram que ele dura 5 anos, e já passou mais do que isso. \n\n**PROPEDÊUTICA GINECOLÓGICA:**\n**- Parceiros sexuais: **Tenho parceiro fixo, meu esposo.\n**- Uso de preservativo:** Não uso.\n**- Método contraceptivo:** Uso o DIU, tenho a carteirinha com todas as informações, você quer ver?\n**- Antecedente de ITS:** Nega. \n**- Dor nas relações sexuais/ dispareunia: **Nega. \n**- Sangramento nas relações sexuais/ sinusorragia:** Nega. \n**- Ciclos menstruais:** Regulares. \n**- Dismenorreia: **Raramente, com o DIU dói um pouco mais. Normalmente não tenho dor.\n**- Data da última menstruação:** 15 dias atrás. \n**- Menarca:** Aos 13 anos. \n**- Sexarca:** Aos 18 anos. \n**- Papanicolau:** Último ano, passado normal. \n\n**SE INDICA A RETIRADA DO DIU:**\n- Sim Dr.(a), tudo bem. Podemos tirar hoje? \n\n**SE O PARTICIPANTE INFORMAR QUE IRÁ RETIRAR O DIU:** \n- Liberar o card \"RETIRADA DO DIU\".\n\n**Se pergunta sobre ANTICONCEPÇÃO APÓS a retirada do DIU:**\n- **Desejo de gestar:** Não quero engravidar no momento.\n\n**DÚVIDAS:**\n**Após a retirada do DIU** \n1) Eu posso colocar o DIU novamente Dr (a)? \n2) Eu preciso marcar outro dia ou pode ser nesse mesmo procedimento?\n\n**INSTRUÇÕES PARA A LIBERAÇÃO DOS IMPRESSOS:**\n- Quando o candidato terminar de **solicitar** os materiais necessários, **verbalize**: Considere presente tudo o que julgar necessário. \n- Quando o candidato verbalizar que realizará a **introdução do espéculo**, liberar o impresso: **EXAME ESPECULAR**. Não liberar se apenas solicitar exame físico ginecológico, liberar apenas com a **descrição** do procedimento.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Carteirinha DIU",
+      "conteudo": "**Nome:** Luana. \n\n**Tipo de DIU:** Diu de prata e cobre CU 380 Ag.\n\n**Data de inserção:** 04/01/2020.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1763231624.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Retirada do DIU",
+      "conteudo": "**Verbalize todos os passos necessários para realizar o procedimento.**",
+      "imagem": "https://app.penserevalida.com/impressos/11/1745272480.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame Especular",
+      "conteudo": "**Olhe para a câmera e verbalize os achados.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta e identifica a paciente simulada, perguntando seu nome.\n\n**Adequado:** Realiza dois itens.\n**Parcialmente adequado: **Realiza um item.\n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga contracepção:**\n(1) Questiona sobre tipo de contracepção;\n(2) Questiona sobre informações do DIU (tempo de inserção, composição).\n\n**Adequado:** Investiga dois itens.\n**Parcialmente adequado:** Investiga um item.\n**Inadequado:** Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Indica retirada do DIU:**\n(1) Indica que o tempo de uso do DIU Cu 380 é 5 anos; \n(2) É necessário realizar a retirada do DIU da paciente. \n\n**Adequado:** Realiza dois itens.\n**Parcialmente adequado:** Realiza um item. \n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.0",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "Tempo de duração dos diferentes tipos de DIU:- DIU de cobre (TCu 380A) dura 10 anos (ÚNICO QUE DURA 10 ANOS).- DIU de cobre mini (Cu 375) dura 5 anos.- DIU de cobre e prata (Cu 380 Ag( dura 5 anos.- DIU de levonogestrel: dura 5 anos."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Explicar para a paciente o procedimento a ser realizado:**\n(1) Explica o procedimento;\n(2) Pede autorização.\n\n**Adequado:** Realiza dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Separa os materiais a serem utilizados:**\n(1) Luvas de procedimento;\n(2) Espéculo;\n(3) Pinça de Cheron;\n(4) Gaze;\n(5) Foco de luz;\n(6) Escova cervical. \n\n**Adequado:** Separa cinco itens ou mais.\n**Parcialmente adequado: **Separa de três a quatro itens.\n**Inadequado:** Separa dois itens ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Respeita o pudor da paciente:**\n(1) Certifique-se de trancar a porta;\n(2) Solicita uma auxiliar do sexo feminino para acompanhar o procedimento. \n\n**Adequado:** Realiza dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Preparação:**\n(1) Posiciona a paciente na maca em posição ginecológica;\n(2) Liga o foco de luz;\n(3) Calça as luvas de procedimento;\n(4) Introduz o espéculo e exponha a cérvice.\n\n**Adequado:** Realiza quatro itens.\n**Parcialmente adequado:** Realiza de dois a três itens.\n**Inadequado:** Realiza um item ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Fio do DIU:**\n(1) Identifica os fios do DIU saindo pelo orifício externo do colo uterino.\n\n**Adequado:** Identifica.\n**Inadequado:** Não identifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": "Se os fios não estiverem visíveis, utilize uma escova cervical no canal cervical para resgatar os fios."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Retirada do DIU:**\n(1) Usando a pinça de Cheron, pinça os fios visíveis;\n(2) Traciona gentilmente os fios até a completa saída do DIU. \n\n**Adequado:** Realiza dois itens na ordem correta.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza nenhum item ou realiza na ordem incorreta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "- Se houver dificuldade na remoção, sensação de que o dispositivo está quebrando ou quebra factual do DIU, suspenda o procedimento."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Descarte:**\n(1) Verbaliza que o descarte adequado do DIU deve acontecer em lixo infectado.\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Orientações:**\nOrienta a respeito de possíveis complicações como cólica uterina e sangramentos, e que as mesmas são esperadas. \n\n**Adequado:** Esclarece.\n**Inadequado:** Não esclarece.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Aconselhamento sobre planejamento familiar:**\n(1) Questiona sobre desejo de gestar;\n(2) Se disponibiliza a explicar e ajudar/oferece à paciente novo método contraceptivo. \n(3) Orienta que é possível utilizar o DIU novamente e, caso deseje, o novo dispositivo pode ser inserido no mesmo procedimento.\n\n**Adequado:** Realiza os três itens.\n**Parcialmente adequado:** Realiza dois itens.\n**Inadequado:** Realiza um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

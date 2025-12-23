@@ -1,0 +1,221 @@
+{
+  "uid": 1035,
+  "hash": "I5VhBkq5iyc4M99SADvQa-BU",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "ECG",
+  "definicao": "O Infarto Agudo do Miocárdio é a maior causa de mortes no país. Estima-se que, no Brasil, ocorram de 300 mil a 400 mil casos anuais de infarto e que a cada 5 a 7 casos, ocorra um óbito. Para diminuir o risco de morte, o atendimento de urgência e emergência, nos primeiros minutos, é fundamental para salvar uma vida.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "54.00",
+    "star": 0,
+    "time": 571.5,
+    "count": 3392
+  },
+  "cenario": "Local de atuação: Unidade Básica de Saúde (UBS) – Sala de medicação/observação. \n\nA unidade conta com a seguinte infraestrutura: \n- Sala de atenção médica; \n- Sala de medicação; \n- Eletrocardiograma. \n\nDescrição do caso: \nVocê é o único médico na unidade de atendimento quando o enfermeiro que trabalha junto com você na unidade te informa que está com muito mal estar e sensação de aperto no peito.",
+  "tarefas": "- Realizar anamnese do paciente;\n- Solicitar e interpretar exame físico;\n- Solicitar exames complementares, se necessário, descrevendo passo a passo da realização;\n- Verbalizar conduta terapêutica.",
+  "script_ator": "Luciano, 49 anos, enfermeiro, casado. \n**GRITE DE DOR ENTRE AS RESPOSTAS DAS PERGUNTAS COM O INTUITO DE DESCONCENTRAR O CANDIDATO.**\n\n**MOTIVO DE CONSULTA:** \n-Não estou me sentindo bem, acho que vou morrer, meu peito está doendo.\n\n**SOBRE A DOR:**\n**-Tipo de dor:** Dor no peito forte, que queima. \n**-Tempo de inicio da dor:** Tem uns 20 minutos, não melhora, só piora. \n**-Irradiação:** Começa no meio do peito e vem para a garganta e também sinto que atravessa meu peito e vai até as costas.\n**-Situação de estresse:** Ai Dr(a) tem como trabalhar na área da saúde e não ser estressado? Eu trabalho em 4 locais diferentes, mal consigo ver minha esposa e filhos, estou por me divorciar de tão ausente que me tornei, fora a sobrecarga de trabalho, não tem como não estar estressado. \n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n**-Situação vacinal:** Minhas vacinas estão todas em dia, incluindo covid-19.\n**-Doenças crônicas:** Sou hipertenso e diabético. \n**-Uso de medicações crônicas:**Quando lembro, tomo losartana e metformina.  \n**-Hábitos tóxicos:** Fumo 1 carteira de cigarro por dia a 20 anos. \n**-Antecedentes familiares:** Meu pai faleceu de infarto do coração.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 120x80 mmHg\n\n- **Frequência cardíaca:** 80 batimentos por minuto\n\n- **Frequência respiratória:** 16 incursões por minuto\n\n- **Saturação de O2:** 99%\n\n- **Temperatura axilar:** 36,5°C\n\n\n\n**-Estado Geral:** \n\nPaciente orientado no tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**-Aparelho Cardiovascular:** \n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**-Aparelho Respiratório:** \n\nAusculta respiratória com murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados.\n\n\n\n**-Abdominal:** \n\nAbdome plano, flácido, indolor à palpação, sem massa palpável, RHA preservados, timpânico à percussão, sem sinais de ascite.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699689250.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Procedimento Eletrocardiograma",
+      "conteudo": "**ATENÇÃO!**\n\n\n\nOlhe para a câmera e verbalize todos os passos para a **realização correta e eficaz do Eletrocardiograma, incluindo o preparo de materiais.**\n\n\n\nVocê também deve **verbalizar o reparo anatômico que cada eletrodo deve ser posicionado**, assim como o eletrodo correspondente de cada cor",
+      "imagem": "https://app.penserevalida.com/impressos/old/1699689923.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Resultado Eletrocardiograma",
+      "conteudo": "Ritmo Sinusal. \n\n**Frequência Cardíaca:** 75 batimentos por minuto. \n\n\n\nAlterações da repolarização ventricular secundárias à sobrecarga ventricular esquerda.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1.**Apresentação:**\n (1) Identifica-se;\n(2) Pergunta o nome do enfermeiro;\n(3) Dirige-se ao enfermeiro pelo nome, pelo menos uma vez; \n(4) Pergunta o motivo da consulta; \n(5) Ouve com atenção. \n\n**Adequado:** Realiza as cinco ações.\n**Parcialmente adequado:** Realiza duas a quatro ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) Estabelece contato visual;\n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado**: Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma das ações.\n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala do paciente simulado sem interrompê-lo. **\n\n**Adequado:** Realiza integralmente a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Evita atitude paternalista (condescendente) e “alarmista.”**\n\n**Adequado:** Evita as duas atitudes.\n**Inadequado:** Assume qualquer uma das duas atitudes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Investiga as características anginosas da dor torácica: **\n(1) Padrão anginoso; \n(2) Fatores de piora; \n(3) Fatores de melhora; \n(4) Localização;\n(5) Duração da dor.\n\n**Adequado:** Investiga quatro ou cinco dos principais elementos da angina.\n**Parcialmente adequado:** Investiga dois ou três dos cinco principais elementos da angina.\n**Inadequado:** Investiga apenas uma ou não investiga nenhuma das características anginosas da dor torácica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre uso de tabaco, álcool e outras drogas. **\n\n**Adequado:** Pergunta sobre o uso de ao menos duas drogas.\n**Parcialmente adequado:** Pergunta sobre o uso de apenas uma droga.\n**Inadequado:** Não aborda no atendimento o uso de drogas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta sobre:**\n(1) Hábitos alimentares;\n(2) Prática de atividade física. \n\n**Adequado:** Pergunta sobre os dois hábitos.\n**Parcialmente adequado:** Pergunta sobre apenas um hábito.\n**Inadequado:** Não pergunta sobre nenhum dos hábitos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Pergunta sobre:**\n(1) Doenças ou condições prévias;\n(2) Estado vacinal.\n\n**Adequado:** Realiza as duas perguntas.\n**Parcialmente adequado:** Realiza apenas uma das duas perguntas.\n**Inadequado:** Não realiza nenhuma pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Pergunta sobre doenças na família (ex.: histórico familiar de doença coronariana precoce). **\n\n**Adequado:** Pergunta. \n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Indica a realização de exame físico e/ou Sinais Vitais: **\n\n**Adequado:** Indica. \n**Inadequado:** Não indica.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Indica a necessidade de realização de ECG de repouso 12 derivações.**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Verbaliza a necessidade dos seguintes itens para a realização do ECG:**\n\n(1) 01 Aparelho de Eletrocardiograma completo;\n(2) 01 Bandeja;\n(3) 02 Bolas de Algodão; \n(4) 01 Caneta;\n(5) 0,5 mL Solução alcoólica a 70%;\n(6) 01 Biombo;\n(7) 01 par de Luvas de procedimento;\n(8) 01 Aparelho de barbear;\n(9) 01 Folha de Papel milimetrado.\n\n**Adequado:** Verbaliza de oito a nove itens.\n**Parcialmente adequado:** Verbaliza de três a sete itens.\n**Inadequado:** Verbaliza somente dois o menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.45"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Descrição do procedimento**\n\n(1) Verbaliza a necessidade de higienização de mãos;\n(2) Explica o procedimento que será realizado;\n(3) Solicita a retirada de adorno ou objeto metálico;\n(4) Verbaliza a necessidade de posicionar o paciente no leito;\n(5) Verbaliza a exposição do tórax e realização da antissepsia da pele com a gaze umedecida com o álcool á 70%, na região precordial;\n(6) Verbaliza a antissepsia da pele nas extremidades dos membros com gaze umedecida com álcool a 70%.\n\n**Adequado:** Verbaliza de cinco a seis itens.\n**Parcialmente adequado:** Verbaliza de dois a quatro itens.\n**Inadequado:** Verbaliza somente um item OU não verbaliza nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.45"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Posicionamento dos eletrodos**\n\nV1 -> Vermelho -> 4º espaço intercostal à direita do externo; \nV2 -> Amarelo -> 4º espaço intercostal à esquerda do externo; \nV3 -> Verde -> 5º entre V2 e V4; \nV4 -> Azul -> 5º espaço intercostal e linha hemiclavicular à esquerda; \nV5 -> Marrom -> 5º espaço intercostal e linha axilar anterior à esquerda; \nV6 -> Roxo -> 5º espaço intercostal e linha axilar média à esquerda\n\n**Adequado:** Indica o posicionamento adequado dos seis eletrodos, indicando as cores respectivas\n**Parcialmente adequado:** Indica o posicionamento adequados dos seis eletrodos sem indicar as cores respectivas\n**Inadequado:** Não indica o posicionamento adequado dos seis eletrodos",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Posicionamento braçadeiras:**\n\nRA: Braço direito (right arm)- vermelho; \nLA: Braço esquerdo (left arm) - amarelo;\nRL: Perna direita (right leg) - preto;\nLL: Perna esquerda (left leg)- verde.\n\n**Adequado:** Indica o posicionamento adequado das quatro braçadeiras.\n**Inadequado:** Não indica o posicionamento adequado das quatro braçadeiras.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Indica: **\n\n(1) Cessação de tabagismo; \n(2) Diminuição da jornada de trabalho; \n(3) Prática de atividades físicas; \n(4) Toma adequada de medicamentos; \n(5) Acompanhamento com cardiologista.\n\n**Adequado:** Indica os cinco itens.\n**Parcialmente adequado:** Indica de dois a quatro itens.\n**Inadequado:** Indica somente um item OU não indica nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

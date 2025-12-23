@@ -1,0 +1,168 @@
+{
+  "uid": 1397,
+  "hash": "a58f2724-46d1-4f78-8f5d-daeb6313327e",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Hipotiroidismo Congênito",
+  "definicao": "Hipotireoidismo congênito (HC) é um distúrbio metabólico sistêmico caracterizado pela secreção insuficiente dos hormônios tireoidianos, tiroxina (T4) e triiodotironina (T3). Estes hormônios estão relacionados com o funcionamento de vários órgãos e sistemas e têm papel fundamental na maturação do sistema nervoso central.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "43.00",
+    "star": "4.1",
+    "time": 579,
+    "count": 2010
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Primária.\nA unidade conta com a seguinte infraestrutura:\n-Sala de consultório;\n-Laboratório de análises clínicas;\n-Farmácia; \n\nDescrição do caso:  Você é um (a) médico (a) em uma UBS e deverá atender uma lactente trazida pela mãe em consulta de rotina que refere que sua filha tem choro fraco e rouco, movimenta-se pouco e de forma lenta, e apresenta pele amarelada. Informa que a gestação evoluiu sem intercorrências, mas que só foram observados movimentos fetais a partir do sexto mês. Ela também aproveita a consulta para trazer alguns exames que retirou na recepção.",
+  "tarefas": "-Realizar a anamnese dirigida à mãe;\n-Realizar o exame físico da criança;\n- Verbalize a hipótese diagnostica;\n-Solicite, caso julgue necessário exame laboratorial para confirmação (só será considerado os dois primeiros) \n-Confirmar o diagnostico e cita informações que  o fundamentam, tratamento inicial e orientações de administração e principais consequências a sua filha se não realizar o tratamento; \n-Cite 3 fatores de risco para esse diagnostico;",
+  "script_ator": "**DADOS DA MÃE:** \n- Tania, 34 anos\n\n**DADOS DA CRIANÇA: **  \n- Maira 30 dias de vida\n  \n**MOTIVO DE CONSULTA:** - Dr(a). Trouxe minha filha aqui porque percebi que ela tem choro fraco e rouco, movimenta-se pouco e de forma lenta, e apresenta pele amarelada. E também já aproveitei para trazer o exame que ela fez. **LIBERAR IMPRESSO EXAMES QUE PACIENTE TRAZ A CONSULTA** \n\n**- Início dos sintomas choro fraco e rouco:** Observo que ela é assim desde que nasceu \n**-Sobre a Icterícia:** Observo que ela está assim amarela desde quando nasceu Dra.\n**-Localização:** Não sei Dr(a) acho que está no corpo inteiro esse amarelão.\n\n**SINAIS E SINTOMAS ACOMPANHANTES: ** \n**-Náusea:** Nega\n**-Febre:** Nega\n**-Vômitos:** Nega\n**-Coluria:** Nega\n**-Acolia:** Nega\n** -Prurido:** Nega\n\n**ANTECEDENTES PESSOAIS:**\n-  Nega\n\n**ANTECEDENTES FAMILIARES:**\n-Não possuí antecedentes de alteração genéticas na familiares, ou casos de alterações na tiroide. \n\n**INCOMPATIBILIDADE SANGUINEA: **\nNão há consanguinidade entre os pais.\n\n**ANTECEDENTES PERINATAIS (PRÉ NATAL | PARTO | PÓS NATAL):** \n- Gestação evoluiu sem intercorrências, mas que só foram observados movimentos fetais a partir do sexto mês, quando eu passei a ter acompanhamento pré-natal  regular. \n\n**CADERNETA DE VACINA/CRIANÇA:** **LIBERAR IMPRESSOS**  \n- Estou com ela aqui Dra. ela tomou todas as vacinas adequadas a sua idade \n\n**ALIMENTAÇÃO:** \n- Seio materno livre demanda\n\n**DIURESE E CATARSE:** \n-Em geral, urina em grande quantidade, a urina tem a cor bem clara, ele defecou no dia de hoje sem alterações. \n\n**ALERGIAS:** \n- Nega\n\n**DÚVIDAS:**\n**APÓS ENTREGAR O IMPRESSO DO EXAME DE TSH REALIZAR A PERGUNTA 1**\n**-Pergunta 1:** - O que deu de alterado no exame dela Dra? \n**QUANDO CANDIDATO VERBALIZAR QUE IRÁ SOLICITAR EXAMES LABORATÓRIAIS REALIZAR PERGUNTA 2**\n**-Pergunta 2:** - Qual finalidade de ser realizado outro exame na minha filha? \n**-Pergunta 3:** - Qual é a condição da minha filha e como ela deverá ser tratada?\n**-Pergunta 4:** - Quais são as possíveis complicações do quadro?\n\n**OUTRAS PERGUNTAS:** \n- Não consta no SCRIPT",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE VACINAÇÃO",
+      "conteudo": "Considere que todas as vacinas foram administradas",
+      "imagem": "https://app.penserevalida.com/impressos/12/1731841286.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "CADERNETA DA CRIANÇA ",
+      "conteudo": "**DADOS DO NASCIMENTO:**\n\n**Peso:** 3000g \n\n**Comprimento:** 50 cm\n\n**APGAR**: 8\n\n**Eliminação de mecônio:** Após 48 horas de vida.",
+      "imagem": "https://app.penserevalida.com/impressos/12/1731841286.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "**-Frequência Cardíaca:** 140 batimentos por minuto.\n\n**-Frequência Respiratória:** 55 incursões respiratórias por minuto.\n\n**-Saturação de O₂:** 92% em ar ambiente.\n\n**-Pressão Arterial:** 90 × 58 mmHg.\n\n**-Temperatura:** 36,5C.",
+      "imagem": "https://app.penserevalida.com/impressos/12/1731841286.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "Paciente em bom estado geral, choroso durante o exame, corado, hidratado, acianótico.\n\n\n\n**Aparelho respiratório:** Observa-se respiração nasal ruidosa sem sinais de desconforto respiratório. \n\n\n\n**Aparelho cardiovascular:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.\n\n\n\n**Abdome:** plano, flácido, ruídos hidroaéreos presentes, hérnia umbilical indolor à palpação.\n\n\n\n**Exame da pele:** icterícia discreta (+/6);\n\n\n\nNão apresenta más formações externas.",
+      "imagem": "https://app.penserevalida.com/impressos/12/1731841286.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAME QUE PACIENTE TRAZ A CONSULTA",
+      "conteudo": "Verbalize a mãe alteração encontrada",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "TSH",
+      "conteudo": "TSH: 25 µU/mL (valor de referencia: < 9 μU/mL)",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "T4 LIVRE",
+      "conteudo": "T4 (livre): 0,2 ng/dL (valor de referência: 0,8-2,3 ng/dL)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome da mãe e o nome da criança.\n\n**Adequado:** realiza as quatro ações.\nParcialmente adequado: realiza duas ou três ações.\nInadequado: realiza uma ação OU não realiza ação alguma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as queixas principais e sintomas acompanhantes relevantes para o estabelecimento da condição do caso:**\n(1) Início percepção choro rouco e fraco;\n(2) Tempo da evolução destes sintomas;\n(3) Icterícia (início, localização); \n(4) Náuseas, Febre, Vômitos;\n(5) Coluria;\n(6) Acolia;\n(7) Alteração na pele (prurido OU coceira);\n\n**Adequado:** pergunta cinco ou sete itens.\n**Parcialmente adequado:** pergunta três itens.\n**Inadequado:** pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre os fatores associados e potencialmente desencadeantes do quadro atual:**\n(1) Antecedentes familiares de alteração na tiroide;\n(2) Alterações genéticas na família;\n(3) Incompatibilidade genética; \n\n**Adequado:** pergunta os três itens.\n**Parcialmente adequado:** pergunta dois itens.\n**Inadequado:** pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza corretamente a principal hipótese diagnóstica:**\n(1) Hipotiroidismo congênito \n\n**Adequado:** verbaliza \n**Inadequado:** não verbaliza ou verbaliza outra hipótese diagnostica.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais para confirmação da hipótese diagnostica:**\n(1) TSH;\n(2) T4 livre;\n\n**Adequado:** solicita os dois exames.\n**Parcialmente adequado:** solicita o exame (1).\n**Inadequado:** não solicita o item (1) OU solicita outro exame.\nObs.: serão considerados apenas os dois primeiros exames citados pelo(a) participante.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Valores de TSH acima de 10 μU/mL e T4L ou T4T baixos confirmam o diagnóstico do hipotireoidismo congênito primário e estas crianças deverão ser tratadas."
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Confirma diagnostico de Hipotiroidismo congênito  e cita informações que fundamentam o diagnostico:** \n(1) Choro fraco e rouco; \n(2)Hérnia umbilical; \n(3)Icterícia prolongada; \n(4)Atraso na eliminação de mecônio;\n(5)Congestão nasal;\n(6)Movimentos fetais tardios;\n(7)Alterações laboratoriais; \n\n**Adequado:** Se cita item (1), (2), (3), (7).\n**Parcialmente adequado:**  Se cita outros itens ou seja (4), (5), (6).  \n**Inadequado:** Se não cita nenhum dos itens descritos ou cita outros.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica tratamento da criança e cuidados na administração:**\n(1)levotiroxina: 10-15 mcg/Kg/dia, via oral, 1 vez/dia pela manhã em jejum;\n(2)Comprimido deverá ser triturado, misturado com um pouco de água ou leite materno e administrado com uma colher;\n(3)Manter 30 minutos sem alimentação.\n(4)Em caso de vômitos imediatos, repetir a mesma dose:\n\n**Adequado:** Indica item (1) e (2) (3)\n**Parcialmente adequado:**  Indica apenas levotiroxina não verbalizando dose e refere que deve ser em jejum\n**Inadequado:** Não indica nenhum item ou indica outros itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica as principais consequências da ausência do tratamento a mãe:**\n(1)Retardo mental grave\n(2)Falência do crescimento \n(3)Distúrbios neurológicos \n(4)Ataxia\n(5) Incoordenação\n(6)Estrabismo\n(7)Movimentos coreiformes \n(8)Perda auditiva neurossensorial\n\n**Adequado:** explica seis ou mais condições clínicas.\n**Parcialmente adequado:** explica três a cinco condições clinicas.\n**Inadequado:** não explica condição clínica alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**10. Verbaliza 3 fatores de risco para o hipotiroidismo congênito:**\n(1) Sexo feminino\n(2) Disgenesia tireoidiana OU desenvolvimento imperfeito da glândula tireoide\n(3) Disormonogênese OU defeitos genéticos na produção de hormônios tireoidianos\n\n**Adequado:** Verbaliza os três itens descritos \n**Parcialmente adequado:** verbaliza dois itens descritos\n**Inadequado:** não verbaliza nenhum fator de risco descrito acima.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

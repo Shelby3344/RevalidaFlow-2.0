@@ -1,0 +1,150 @@
+{
+  "uid": 1285,
+  "hash": "PCMIsbxkaD5a7UERhB2lvDsydsFx",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Urgência Hipertensiva",
+  "definicao": "A crise hipertensiva é definida por um aumento súbito na pressão arterial sistêmica, definido por valores ≥ 180x120. Classicamente se divide em emergência e urgência hipertensiva. Outra situação se denomina pseudo crise hipertensiva.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "73.00",
+    "star": 0,
+    "time": 561.5,
+    "count": 5630
+  },
+  "cenario": "Nível de atenção: Secundária.\nTipo de atendimento: Unidade de pronto atendimento (UPA).\nA unidade possui a seguinte infraestrutura:\n- Laboratório de análises clínicas;\n- Exames de imagem básicos;\n- Sala de emergência.\n\nDESCRIÇÃO DO CASO:\nVocê atende Jandira, 58 anos, obesa e hipertensa. A paciente refere que sua sobrinha, estudante de medicina, aferiu sua pressão e observou níveis muito elevados. Imediatamente, a sobrinha acompanhou a tia até a UPA do bairro.",
+  "tarefas": "- Realizar anamnese direcionada à queixa do paciente;\n- Solicitar exame físico direcionado à queixa do paciente;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Jandira, 58 anos de idade, cozinheira, casada.\n\n**MOTIVO DE CONSULTA: **\n- Minha sobrinha me trouxe aqui porque minha pressão está 200x100 mmHg. Ela aferiu minha pressão há 1 hora.\n\n**SINTOMAS ASSOCIADOS: **\n- Sinto que meu coração palpitando e minha cabeça dói.\n\n**SE PERGUNTADO POR FATORES DESENCADEANTES: **\n-  Nega.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Tenho pressão alta há 9 anos.\n**- Medicamentos: **Enalapril e hidroclorotiazida.\n**- Cirurgia: **Nega.\n**- Alergia: **Nega.\n\n**HÁBITOS: **\n**- Cigarro: **Nega.\n**- Álcool: **Nega.\n**- Drogas ilícitas: **Nega.\n**- Alimentação: **Minha alimentação não é muito boa, como muita coisa salgada, refrigerante e embutidos.\n**- Atividade física: **Não faço atividade física porque não tenho muito tempo.\n**- Fezes e urina: **Sem alteração.\n\n**ANTECEDENTES FAMILIARES: **\n- Mãe e pai sem problemas de saúde.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame fisico ",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 190x100 mmHg \n\n**- Frequência cardíaca:** 75 batimentos por minuto \n\n**- Saturação:** 97% \n\n**- Temperatura:** 36,7° C \n\n**- Frequência respiratória:** 15 incursões por minuto \n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos adventícios. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos normoativos, indolor à palpação e sem viceromegalias.\n\n\n\n**Membros inferiores:**\n\nAusência de edema.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame neurológico ",
+      "conteudo": "Paciente alerta, orientado no tempo e espaço.\n\n\n\n**Exame de marcha:** Sem alterações.\n\n\n\n**Equilíbrio estático:** Preservado.\n\n\n\n**Motricidade:** Preservada.\n\n\n\n**Coordenação motora:** Preservada.\n\n\n\n**Força muscular:** Grau 5 nos quatro membros.\n\n\n\n**Reflexos:** Normorreflexia.\n\n\n\n**Nervos cranianos:** Testados todos os 12 pares sem alterações.\n\n\n\n**Sensibilidade:** Preservada nos 4 membros.\n\n\n\n**Pupila:** Isocóricas e fotorreagentes",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Eletrocardiograma (ECG) ",
+      "conteudo": "Dentro da normalidade.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n- Hemácias: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n- Hemoglobina: 14,2 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n- Hematócrito: 34% (Valor de referência: 39 - 52%)\n\n- VCM: 93 fL (Valor de referência: 80 a 100 fL)\n\n- HCM: 31 pg (Valor de referência: 26 - 33 pg)\n\n- CHCM: 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n- RDW CV: 12% (Valor de referência: 11 - 14%)\n\n\n\nPlaquetas: 179.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\nLeucograma:\n\n- Leucócitos: 9.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n- Neutrófilos: 65% (Valor de referência: 40 - 70%)\n\n- Bastões: 3% (Valor de referência: 0 - 5%)\n\n- Linfócitos: 25% (Valor de referência: 20 - 50%)\n\n- Basófilos: 1% (Valor de referência: 0 - 2%)\n\n- Eosinófilos: 2% (Valor de referência: 0 - 6%)\n\n- Monócitos: 4% (Valor de referência: 4 - 8%)\n\n\n\n**Glicemia de jejum:** 80 mg/dl (60 - 99 mg/dl)\n\n**Glicemia pós prandial:** 130 mg/dl (Valor de referência: < 140 mg/dl)\n\n**Hemoglobina glicada:** 5% (Valor de referência: < 5,7%)\n\n\n\n**Função renal:**\n\nCreatinina: 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\nUreia: 32 mg/dl (Valor de referência: < 40 mg/dl)\n\n\n\n**Ionograma plasmático:**\n\nSódio: 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\nK: 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\nCálcio: 9 mg/dl (Valor de referência: 8,7 - 10,2 mg/dl)\n\nCloruro: 105 mEq/l (Valor de referência: 102 - 110 mEq/l)\n\nMagnésio: 2 mg/dl (Valor de referência: 1,5 - 2,3 mg/dl)\n\nFósforo: 4,2 mg/dl (Valor de referência: 2,5 - 5 mg/dl)\n\n\n\n**Urina tipo 1**:\n\nCaracterísticas gerais:\n\nVolume da amostra: 35 ml\n\nAspecto: Límpido (Valor de referência: límpido)\n\nCor: Amarela (Valor de referência: não se aplica)\n\nDepósito: Escasso (Valor de referência: nulo)\n\nDensidade: 1025 (Valor de referência: 1015 - 1025)\n\nReação pH: 5,5 (Valor de referência: 4,5 - 7,8)\n\n\n\nExame químico:\n\nProteínas: Negativo (Valor de referência: negativo)\n\nCorpos cetônicos: Negativo (Valor de referência: negativo)\n\nGlicose: Negativo (Valor de referência: negativo)\n\nBilirrubina: Negativo (Valor de referência: negativo)\n\nUrobilinogênio: Normal (Valor de referência: normal [< 1 mg/dL])\n\nHemoglobina: Negativo (Valor de referência: negativo)\n\nNitrito: Não reagente (Valor de referência: não reagente)\n\n\n\nSedimentoscopia:\n\nPiócitos: 4 por campo (Valor de referência: < 4 por campo)\n\nHemácias: 2 por campo (Valor de referência: < 2 por campo)\n\nEpitélio de vias altas: Ausente (Valor de referência: raras células por campo)\n\nEpitélio de vias baixas: Raras (Valor de referência: < 3 por campo)\n\nCilindros hialinos: Ausentes (Valor de referência: < 2 por campo)\n\nCilindros patológicos: Ausentes (Valor de referência: ausentes)\n\nCristais: Ausentes (Valor de referência: ausentes)\n\nFlora bacteriana: Ausente (Valor de referência: ausente)\n\nMuco: Presente (Valor de referência: não se aplica)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese perguntando por:**\n(1) Dispneia;\n(2) Dor torácica e/ou dor epigástrica/abdominal;\n(3) Palpitação;\n(4) Alterações visuais;\n(5) Desmaio ou perda de consciência ou queda;\n(6) Perda de força.\n\n**Adequado:** Pergunta de quatro a seis itens.\n**Parcialmente adequado:** Pergunta três itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Os sintomas que estiverem presentes podem ser usados como guia para a solicitação inicial de exames complementares."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga ao menos um dos seguintes fatores desencadeantes:**\n(1) Estresse;\n(2) Morte de parente/amigo ou má notícia;\n(3) Uso de drogas estimulantes;\n(4) Abandono da medicação para hipertensão ou uso irregular;\n(5) Transgressão alimentar.\n\n**Adequado:** Investa ao menos um item da lista.\n**Inadequado:** Não investigou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais:**\n(1) Doenças;\n(2) Medicamentos de uso contínuo/recente;\n(3) Alergias;\n(4) Tipo de alimentação;\n(5) Prática de atividade física;\n(6) Álcool;\n(7) Tabagismo.\n\n**Adequado:** Investiga de cinco a sete itens da lista.\n**Parcialmente adequado:** Investiga de três a quatro itens da lista.\n**Inadequado:** Investiga dois ou menos itens da lista.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga antecedentes familiares. **\n\n**Adequado: **Investiga. \n**Inadequado: **Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita:**\n(1) Exame físico geral; e \n(2) Exame neurológico.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita apenas um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames laboratoriais:**\n(1) Hemograma completo;\n(2) Função renal ou ureia/creatinina;\n(3) Eletrólitos ou sódio/potássio;\n(4) Marcadores cardíacos ou troponina;\n(5) Eletrocardiograma (ECG).\n\n**Adequado:** Solicita de quatro a cinco itens.\n**Parcialmente adequado:** Solicita de dois a três itens.\n**Inadequado:** Solicita um ou nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Para uma urgência hipertensiva, que é a elevação grave da pressão arterial sem dano agudo a órgãos, os exames laboratoriais solicitados são principalmente para confirmar a ausência de lesão de órgão-alvo aguda e avaliar o estado geral do paciente."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza o diagnóstico de:  Urgência hipertensiva.**\n\n**Adequado: **Realiza. \n**Inadequado: **Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "Em um primeiro momento, pacientes assintomáticos não têm indicação de exames complementares, salvo se suspeita de lesão em órgão alvo ou hipertensão secundária."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Conduta terapêutica:**\n(1) Indicou anti-hipertensivo por via oral: captopril OU clonidina;\n(2) Repouso e/ou observação;\n(3) Orientou sobre alimentação e/ou atividade física regular;\n(4) Encaminhou a paciente para acompanhamento ambulatorial.\n\n**Adequado:** Realiza de três a quatro ações.\n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Clonidina não faz parte da Relação Nacional de medicamentos essenciais para o SUS, portanto pode não estar disponível em todos os lugares.Objetivo de redução da PA de pelo menos 20 mmHg na PA sistólica e 10 mmHgna PA diastólica, idealmente reduzir a PA para menos de 140/90 mmHg."
+    }
+  ]
+}

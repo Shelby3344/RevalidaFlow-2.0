@@ -1,0 +1,167 @@
+{
+  "uid": 1408,
+  "hash": "536013d1-855c-4a8f-ba28-c0507deacc7a",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "TVP",
+  "definicao": "Trombose venosa profunda (TVP) é uma condição médica em que um coágulo de sangue se forma em uma veia profunda, geralmente nas pernas. O risco aumenta em pacientes com câncer devido a fatores como imobilização prolongada e alterações na coagulação sanguínea.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "53.50",
+    "star": "4.4",
+    "time": 542,
+    "count": 2828
+  },
+  "cenario": "Nível de atenção: Unidade de atenção secundária  a saúde.\nTipo de atendimento: Hospitalar.\n\nA unidade possui a seguinte infraestrutura:\n- Setor de radiologia convencional e ultrassonografia;\n- Laboratório de análises clínicas;\n- Leitos de internação.\n\nDescrição do caso:\nVocê está de plantão na atenção secundária, e irá atender um paciente do sexo masculino, 55 anos, em tratamento de câncer de pulmão, submetido a lobectomia há 20 dias, apresentando dor na perna direita.",
+  "tarefas": "Nos próximos 10 minutos de duração da estação você deverá realizar as seguintes tarefas:\n -Realizar anamnese do paciente;\n -Solicitar e interpretar exame físico direcionado, verbalizando 3 sinais e ou manobras importantes associados a principal hipótese diagnóstica;\n-Solicitar exames complementares, se necessário.\n- Estabelecer e comunicar a hipótese diagnóstica;\n-Verbalizar fatores de risco para a patologia presentes no paciente em questão;\n-Propor conduta terapêutica.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Joaquim, 55 anos, casado, engenheiro.\n\n**MOTIVO DE CONSULTA:**\n- Estou com muita dor na perna direita.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n- **Dor em membro:** Sim, somente na perna direita, piora quando eu caminho.\n-**Tempo de evolução:** 3 dias.\n-**Progressão:** Está piorando.\n- **Edema:** Sim, somente nessa perna.\n- **Eritema:** Um pouco.\n-**Saída de secreções da lesão/pus:** Nega.\n-**Calor:** Nega.\n- **Febre:** Não.\n- **Dispneia:** Nega.\n-**Dor torácica**: Nega.\n-**Tosse:** Nega.\n-**Hemóptise:** Nega.\n\n-** Trauma:** Nega.\n\n**ANTECEDENTES PESSOAIS:**\n- **Comorbidades:** Estou tratando um câncer no pulmão, estágio I. \n- **Cirurgias:** Lobectomia há uns 20 dias, fiquei quase 1 mês internado.\n- **Alergias:** Nega.\n-**Medicamentos contínuos:** Eles me deram alguns medicamentos pós cirurgicos, mas agora não estou tomando nenhum.\n- **Hemorragias prévias:** Nega.\n-**Coagulopatias/Discrasias:** Nega.\n-** TVP prévio:** Nega.\n\n**ANTECEDENTES FAMILIARES:**\n- Pai com histórico de hipertensão.\n- Mãe diabética.\n\n**HÁBITOS:**\n- **Tabagismo:** estou tentando parar desde que descobri o câncer, mais ainda fumo meio maço por dia.\n- **Etilismo:** Socialmente.\n- **Dieta:** Dentro do habitual.\n- **Atividade física:** Sedentário.\n\n**DUVIDAS**\nDr(a) quais as contraindicações da anticoagulação?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 140x90 mmHg\n\n- **Frequência cardíaca:** 88 batimentos por minuto\n\n- **Frequência respiratória:** 18 incursões por minuto\n\n- **Saturação de O2:** 98% AA\n\n- **Temperatura axilar:** 36.5° C\n\n\n\n-**IMC:** 30 kg/m2\n\n\n\n**Estado Geral:** \n\nPaciente em bom estado geral, alerta, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n\n\n**Cardiovascular:** \n\nSem alterações.\n\n\n\n**Respiratório:** \n\nSem alterações.\n\n\n\n**Abdominal:** \n\nSem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1733219485.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ultrassonografia Doppler",
+      "conteudo": "Presença de trombo oclusivo em veia femoral direita.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1733219485.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma:**\n\n**Hemácias:** 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 13,6 g/dl (Valor de referência: 12 a 16 mg/dl)\n\n**Hematócrito:** 43% (Valor de referência: 39 - 52%)\n\n**Plaquetas:** 265.000/mm3 (Valor de referência: 150.000 450.000/mm3)\n\n\n\n**Leucograma:**\n\n**Leucócitos:** 9.000/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 68% (Valor de referência: 40 - 70%)\n\n**Bastões:** 4% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 25% (Valor de referência: 20 - 50%)\n\n\n\n**Glicemia:** 95 mg/dl (Valor de referência 70-100 mg/dl)\n\n\n\n**PCR**: 8 mg/dl (Valor de referência < 5 mg/dl)\n\n\n\n**Creatinina:** 0,9 mg/dL (Valor de referência: 0,7 - 1,1 mg/dl)\n\n**Ureia:** 35 mg/dl (Valor de referência: < 40 mg/dl)\n\n**Sódio:** 137 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4,2 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\n\n\n**Coagulograma:** sem alterações,",
+      "imagem": "https://app.penserevalida.com/impressos/8/1733219485.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Ectoscopia do membro inferior",
+      "conteudo": "Verbalize e Explique 3 sinais importantes relacionados a principal hipótese diagnóstica.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Sinais Semiológicos Resultado",
+      "conteudo": "Sinal de Homans: positivo.\n\nSinais de Bancroft: positivo.\n\nEmpastamento muscular: positivo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Identifica-se e comprimente adequadamente o paciente.**\n\n**Adequado:** Realiza ambos os comandos.\n**Parcialmente adequado:** Realiza apenas um comando.\n**Inadequado:** Não realiza nenhum comando.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre o motivo de consulta e sinais e sintomas associados**:\n(1) Tempo de evolução da dor;\n(2) Progressão;\n(3) Primeiro episódio;\n(4) Edema;\n(5) Eritema;\n(6) Calor;\n(7) Febre;\n(8) Náuseas e/ou Vômitos.\n\n**Adequado:** Pergunta sobre sete ou oito itens.\n**Parcialmente adequado:** Pergunta sobre cinco ou seis itens.\n**Inadequado:** Pergunta sobre quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sinais e sintomas de TEP:**\n(1) Tosse;\n(2) Hemóptise;\n(3) Dispneia;\n(4) Dor torácica.\n\n**Adequado:** Pergunta os quatro sintomas.\n**Parcialmente adequado:** Pergunta ao menos três sintomas.\n**Inadequado:** Pergunta dois ou menos sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre antecedentes incluindo:**\n(1) Comorbidades;\n(2) Cirurgias recentes;\n(3) Uso de medicamentos;\n(4) Tabagismo;\n(5) Consumo de Álcool;\n\n**Adequado:** Pergunta sobre quatro ou mais itens.\n**Parcialmente adequado:** Pergunta ao menos três itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita e explica manobras semiológicas:**\n(1) Sinal de Homans: dor na panturilha a dorsiflexão do pé.\n(2) Sinal de Bancroft: dor à palpação da panturilha.\n(3) Empastamento muscular: diminuição da mobilidade do membro acometido  (sinal da bandeira).\n\n**Adequado:** Explica as três manobras.\n**Parcialmente adequado:**  Explica duas manobras.\n**Inadequado:** Explica uma ou nenhuma manobra.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exames complementares**:\n(1) Ultrassonografia Doppler do membro inferior direito.\n\n**Adequado:** Solicita todos os exames.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Interpreta corretamente os resultados dos exames e faz o diagnóstico de trombose venosa profunda:**\n\n**Adequado:** Interpreta todos os exames corretamente.\n**Parcialmente adequado:** Interpreta apenas alguns exames.\n**Inadequado:** Não interpreta ou interpreta incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza fatores de risco** relacionados ao paciente;\n(1) Cirurgia prévia;\n(2) Imobilização;\n(3) Neoplasia;\n(4) Tabagismo;\n(5) Obesidade.\n\n**Adequado:** Verbaliza quatro a cinco itens.\n**Parcialmente adequado:** Verbaliza ao menos três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Indica tratamento adequado para TVP**:\n(1) Anticoagulação;\n(2) Uso de meias de compressão posterior;\n(3) Mobilização precoce;\n(4) Elevação do membro.\n\n**Adequado:** Indica três ou quatro itens, sendo o (1) obrigatório.\n**Parcialmente adequado:** Indica dois itens, sendo o (1) obrigatório.\n**Inadequado:** Indica uma ou nenhuma opção.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Explica ao paciente às contraindicações absolutas do uso de anticoagulantes:**\n(1) Hemorragia ativa;\n(2) Plaquetopenia <50 mil;\n(3) Hemorragia cerebral prévia;\n(4) Trauma importante.\n\n**Adequado:** Explica três ou quatro itens. \n**Parcialmente adequado:** Explica dois itens.\n**Inadequado:** Explica um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

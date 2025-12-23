@@ -1,0 +1,194 @@
+{
+  "uid": 1443,
+  "hash": "PAPL013d1-855c-4a8f-ba28-c0507deacc7a",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": null,
+  "color": "#ff4a64",
+  "checklist": "Papanicolau – Resultado de exame (ASCUS) + cicatriz sorológica",
+  "definicao": "O termo células escamosas atípicas de significado indeterminado (ASCUS – atypical squamous cells of undetermined significance) foi definido como achados citológicos caracterizados pela presença de alterações celulares insuficientes para o diagnóstico de lesão intraepitelial, mas alterações mais significativas do que as encontradas em processos inflamatórios.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "73.00",
+    "star": 0,
+    "time": 573.5,
+    "count": 1137
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Primária.\nA unidade conta com a seguinte infraestrutura:\nLaboratório de análises clínicas;\nUltrassonografia;\nApoio para realização de radiografias.\n\nDescrição do caso:\nVocê atenderá Anna, uma paciente de 28 anos. Busca atendimento com resultados de exames, se mostra apreensiva e ansiosa.",
+  "tarefas": "- Realizar anamnese da paciente;\n- Solicitar, se necessário, exames complementares pertinentes à situação clínica;\n- Responder às perguntas da paciente de forma completa;\n- Encaminhar a paciente, se necessário, para avaliação de outros profissionais.",
+  "script_ator": "**DADOS PESSOAIS**\nAnna, 28 anos, professora e casada, G0P0A0. \n\n**MOTIVO DE CONSULTA:**\n- Eu realizei exames de rotina que estavam fazendo para as mulheres na E.S.F do meu bairro e vim mostrar os resultados. Estou bastante aflita, pois vi algumas alterações. Você quer ver doutor(a)?\n\n**SOBRE RASTREIOS PREVIOS:**\nEu já tinha feito um preventivo ano passado deu tudo normal.\n\n**Negar qualquer queixa associada.**\n\n**SE QUESTIONADO SOBRE ANTECEDENTE DE SÍFILIS:**\n- Tem quase dois anos eu tratei sífilis com penicilina, porque apareceu uma ferida na minha vagina, mas o médico disse que eu havia me curado. \n\n-Se perguntado sobre o exame de Sífilis prévio, libera o impresso, **Exame antigo de Sífilis**.\n\n**PROPEDÊUTICA GINECOLÓGICA:**\n**- Data da última menstruação:** 20 dias atrás.\n**- Menarca:** Aos 14 anos.\n**- Sexarca:** Aos 18 anos.\n**- Parceiros sexuais:** Há três anos só tenho relação com meu esposo.\n**- Uso de preservativo:** não utilizo preservativo pois sou casada.\n**- Método contraceptivo:** tenho um implante hormonal.\n**- Ciclos menstruais:** Regulares.\n**- Vacinação contra HPV:** Não me vacinei.\n\n**HÁBITOS:**\n**- Tabagismo:** não fumo.\n**- Álcool:** Bebo socialmente.\n**- Drogas:** Nega.\n\n**Se o candidato questionar sobre dúvidas, PERGUNTAR:**\n-  Eu estou com sífilis de novo?\n-  Quais os exames eu vou precisar ficar fazendo? por ser mulher e ter a idade que tenho? \n\n**Ao ser informada que necessitará repetir o exame em um ano, QUESTIONAR:**\n-  E se vier alterado de novo?\n-  E caso venha normal, como vai ser meu seguimento?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RESULTADOS DOS EXAMES",
+      "conteudo": "**TESTES RÁPIDOS**\n\n** HIV:** não reagente. \n\n** SIFILIS:** reagente. \n\n** HEPATITE C:** não reagente. \n\n** HEPATITE B:** não reagente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame antigo de Sífilis. ",
+      "conteudo": "VDRL: 1:16",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "VDRL (NOVO)",
+      "conteudo": "1:2",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- Pressão arterial: 120x80 mmHg\n\n- Frequência cardíaca: 80 batimentos por minuto\n\n- Frequência respiratória: 16 incursões por minuto\n\n- Saturação de O2: 99%\n\n- Temperatura axilar: 36.4° C\n\n\n\n**Estado Geral:** paciente em bom estado geral, orientada em tempo, espaço e pessoa, corada, hidratada, acianótica e anictérica.\n\n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** abdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. Apresenta-se:\n(1) cumprimenta a paciente com empatia e/ou fala o seu nome;\n(2) pergunta mais algum elemento de identificação como idade ou profissão.\n\n**Adequado:** realiza as duas ações.\n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga antecedentes e fatores de risco/proteção para câncer do colo uterino:**\n(1) Tabagismo;\n(2) Início de atividade sexual precoce;\n(3) Multiplicidade de parceiros sexuais;\n(4) Multiparidade;\n(5) Uso de contraceptivos orais;\n(6) Idade;\n(7) Vacinação contra HPV.\n\n**Adequado:** Investiga cinco ou mais dos itens listados.\n**Parcialmente adequado:** Investiga três ou quatro dos itens citados.\n**Inadequado:** Investiga dois ou menos dos itens citados.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona sobre exames preventivos prévios e sobre antecedente de sífilis.**\n\n**Adequado:** Questiona ambos antecedentes.\n**Inadequado:** Não questiona ou questiona apenas um antecedente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza anamnese ginecológica, perguntando:**\n(1) data da última menstruação;\n(2) antecedentes obstétricos;\n(3) antecedentes mamários;\n(4) presença de corrimento vaginal ou secreção vaginal alterada.\n\n**Adequado:** investiga os quatro itens. \n**Parcialmente adequado:** investiga três itens. \n**Inadequado:** investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Exame físico:**\n(1) Exame mamário; \n(2) Exame ginecológico. \n\n**Adequado:** solicita ambos exames. \n**Parcialmente adequado:** solicita apenas um dos exames. \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita novo VDRL.**\n\n**Adequado:** solicita. \n**Inadequado:** não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Esclarece que a paciente apresenta uma cicatriz sorológica para sífilis, e não a doença ativa. **\n\n**Adequado:** esclarece corretamente. \n**Inadequado:** informa que a paciente tem sífilis ou indica tratamento para sífilis.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Cicatriz ou memória sorológica: caracteriza-se pela persistência de resultados reagentes nos testes treponêmicos e/ou reagentes com baixa titulação nos testes não treponêmicos após o tratamento correto para sífilis, sem que isso indique infecção."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica para a paciente, de maneira acessivel o seu diagnóstico de ASCUS.**\n\n**Adequado:** explica corretamente. \n**Inadequado:** náo explica o diagnóstico da paciente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta a necessidade de repetir o exame com um ano. **\n\n**Adequado:** orienta \n**Inadequado:** não orienta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta que se vier alterado em mais uma oportunidade será necessário a realização de uma colposcopia.**\n\n**Adequado:** orienta de maneira correta o seguimento.\n**Inadequado:** não orienta corretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. Orienta que se vier normal, ela repetirá o exame em um ano, e logo de maneira habitual (trienal). \n\n**Adequado:** orienta de maneira correta. \n**Inadequado:** não orienta ou orienta de maneira errônea.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta os exames corretos, de acordo com a idade da paciente para seu seguimento longitudinal:**\n(1) exame de coleta de citologia;\n(2) exame físico da mama; \n(3) testes rápidos. \n\n**Adequado:** orienta os três exames de seguimento. \n**Parcialmente adequado:** orienta um exame de seguimento. \n**Inadequado:** orienta apenas um ou não orienta exame algum para seguimento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Recomenda o uso de preservativos nas relações sexuais.**\n\n**Adequado:** recomenda. \n**Inadequado:** não recomenda.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

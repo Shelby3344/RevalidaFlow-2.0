@@ -1,0 +1,154 @@
+{
+  "uid": 1335,
+  "hash": "3lhyxrtElM69JQFSzhSM1iMW",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Candidíase vaginal (REAPLICAÇÃO) | INEP 2021.1",
+  "definicao": "A candidíase vulvovaginal consiste em uma infecção da vulva e da vagina provocada por fungos do gênero Cândida, principalmente quando há um desbalanço da microbiota vaginal, resultando em sinais como vermelhidão, prurido intenso e corrimento vaginal.",
+  "origem": 1,
+  "ano_da_prova": "20211",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "90.00",
+    "star": 0,
+    "time": 570,
+    "count": 9847
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Primária.\nTipo de Atendimento: Unidade de Atenção Primária - UBS.\n\nA unidade conta com a seguinte infraestrutura:\n- Laboratório de análises clínicas; \n- Ultrassonografia; \n\nDESCRIÇÃO DO CASO:\n- Mulher com 23 anos, queixando-se de corrimento vaginal.",
+  "tarefas": "-  Realizar a anamnese;\n- Realizar o exame físico completo;\n- Solicitar exames complementares, se necessário;\n- Verbalizar a principal hipótese diagnóstica e diagnósticos diferenciais (mínimo 2);\n- Detalhar a conduta diante do quadro, atentando aos preceitos éticos;\n- Esclarecer todas as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Gleise, 23 anos, estudante.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a) faz 5 dias que estou com um corrimento vaginal que esta me incomodando muito.\n\n**SOBRE O CORRIMENTO:**\n**- Prurido: **Sim Dr (a), coça muito.\n**- Aspecto:** Ele é meio grosso, como leite estragado.\n**- Cor:** Meio esbranquiçado.\n**- Alteração urinária:** Quando eu vou urinar dói.\n**- Febre:** Não, não tive febre\n**- Presença de lesões externas:** Nega.\n**- Odor: **Sem odor característico.\n\n**ANTECEDENTES GINECOLÓGICOS:**\n**- DUM:** Há 6 dias.\n**- Menarca:** 13 anos.\n**- Sexarca: **15 anos.\n**- Vida sexual:** Tenho parceiro sexual fixo.\n**- Uso de métodos contraceptivos:** Faço uso de anticoncepcional oral combinado e preservativo.\n**- Comorbidades: **Tenho diabetes mellitus tipo 1.\n\n**SE O PARTICIPANTE VERBALIZAR A REALIZAÇÃO DE TOQUE VAGINAL OU EXAME ESPECULAR SE POSICIONAR CONTRA E NÃO DAR AUTORIZAÇÃO!**\n\nDr (a), eu não quero que coloque nada na minha vagina, não permito!\nMotivo: Não quero.\n\n**Logo do diagnóstico indagar:**\n- Você tem certeza que é isso Dr (a)?\n- Como eu peguei isso? Foi meu namorado que me traiu?\n- Não pode ser outra coisa?\n- Dr, se não é transmitida pelo sexo, qual motivo de eu estar com isso?\n- Você não pode pedir um exame pra ter certeza do diagnóstico?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais vitais:**\n\n**Frequência Cardíaca: **80 batimentos por minuto;\n\n**Pressão Arterial: **120 mmHg x 80 mmHg;\n\n** Frequência Respiratória:** 13 incursões respiratórias por minuto;\n\n**Temperatura:** 36,5 °C.\n\n\n\n**Ectoscopia:**\n\nRegular Estado Geral, normocorada, hidratada, lúcida e orientada no tempo e no espaço.\n\n**Aparelho cardiovascular e respiratório:**\n\n Sem alterações\n\n**Clínico:**\n\n Normotenso, sem alterações.\n\n\n\n**EXAME GINECOLÓGICO**\n\n**Mamas:**\n\nSem alterações.\n\n**Inspeção vulvar:**\n\nVulva hiperemiada e com áreas de descamação difusamente, com saída de secreção\n\nesbranquiçada grumosa pelo introito vaginal, sem lesões vesiculares ou projeções\n\nvegetantes. \n\nSecreção vaginal não apresenta odor.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Cumprimenta a paciente; \n(2) Fala seu nome; e \n(3) Pergunta o nome da paciente.\n\n**Adequado:** Realiza os três comandos.\n**Parcialmente adequado:** Realiza um ou dois comandos.\n**Inadequado:** não realiza nenhum dos comandos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre características do sintoma:** \n(1) Prurido;\n(2) Aspecto;\n(3) Cor; \n(4) Se teve alteração urinária;\n(5) Febre;\n(6) Presença de lesões externas;\n(7) Odor.\n\n**Adequado:** Questiona pelo menos quatro dos itens acima.\n**Parcialmente adequado:** Questiona dois ou três dos itens acima.\n**Inadequado:** Questiona apenas um item ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta:**\n(1) Sobre vida sexual; ou \n(2) Uso de métodos contraceptivos.\n\n**Adequado:** Pergunta pelo menos sobre um dos temas.\n**Inadequado: **Não pergunta sobre nenhum tema.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico adequado.**\n\n**Adequado:** Refere que vai fazer o exame ginecológico avaliando\napenas a vulva ou fazendo apenas uma inspeção.\n**Inadequado: **Cita que irá fazer exame especular ou toque\nvaginal na paciente .",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita a presença de uma técnica de enfermagem para**\n**acompanhar o exame ginecológico.**\n\n**Adequado:** Solicita.\n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Postura e orientação.**\n\n**Para o(a) participante que solicitou o Exame correto:**\n**Adequado: **Explica não só o diagnóstico, mas orienta que não é uma IST, que tem tratamento: deixa a paciente tranquila com relação ao tratamento.\n**Inadequado:** Fica inseguro e não traquiliza a paciente.\n\n**Para o(a) participante que solicitou o Exame incorreto:**\n**Adequado: **Tem uma postura acolhedora, diz que o exame físico seria importante, mas que se ela não deseja fazer o exame físico, ela tem autonomia de decisão ou conversa com a\npaciente explicando como seria o exame, que é algo tranquilo ou refere que, mesmo sem o exame físico, pode se basear na história clínica para instituir tratamento, mas que o mais adequado seria examinar a paciente.\n**Inadequado: **Tem postura agressiva ou fala que se ela não deixar examinar, não conseguirá tratá-la ou tem postura não amistosa com a paciente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta hipótese diagnóstica correta e a justifica (corrimento esbranquiçado, grumoso , sem cheiro, pruriginoso). **\n\n**Adequado:** Refere que se trata de um caso de candidíase e o justifica.\n**Parcialmente adequado:** Dá o diagnóstico, mas não o justifica.\n**Inadequado:** Dá outro diagnóstico ou não deixa claro qual seria\na principal hipótese diagnóstica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita os diagnósticos diferenciais para o caso clínico.**\n\n**Adequado:** Informa pelo menos duas outras vulvovaginites (vaginose, tricomoníase, vaginose citolítica, vaginite por corpo estranho etc.). \n**Parcialmente adequado:** Informa apenas um outro diagnóstico diferencial.\n**Inadequado:** Não informa nenhum outro diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Refere o tratamento adequado.**\n\n**Adequado:** Orienta uso de antifúngico oral (aceitar a classe geral ou nomes específicos).\n**Inadequado:** Informa uso de antifúngico local (pomadas\nvaginais) ou não informa uso de antifúngicos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Foi indicado o tratamento por via oral para a presente paciente por ser Candidiase vaginal complicada. Considera-se CVV complicada quando presente pelo menos um dos seguintescritérios:1) Sintomas intensos. 2) Recorrente (CVVR)3) Agente etiológico não albicans (glabrata, kruzei)4) Presença de comorbidades (diabetes, HIV)5) Gestação.Opções terapêuticas para CVV complicada:Fluconazol 150mg, VO, 1x/dia, dias 1, 4 e 7Itraconazol 100mg, 2 comprimidos, VO, 2x/dia, por 1 diaMiconazol creme vaginal tópico diário por 10-14 dias (gestantes)Manutenção: fluconazol 150mg, VO, 1x/semana, por 6 mesesMiconazol creme vaginal tópico, 2x/semanaÓvulo vaginal, 1x/semana, durante 6 meses"
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Informa que:**\n(1) A cândida é um fungo presente na microbiota vaginal;  e \n(2) Que fatores de risco podem predispor a proliferação exacerbada do fungo, como, por exemplo, roupas molhadas, doenças sistêmicas, hábitos higiênico-dietéticos.\n\n**Adequado:** Orienta os dois pontos acima.\n**Parcialmente adequado:** Orienta apenas um dos dos dois pontos.\n**Inadequado:** Não informa nenhum ponto. \n\nSe o(a) participante disser que cândida é uma doença de transmissão sexual ou que tem transmissão sexual, atribuir inadequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Informa que é desnecessário realizar exame complementar para se obter o diagnóstico e o tratamento da doença (indica que o exame físico e a história clínica já são suficientes).**\n\nObs. Se o(a) participante tiver solicitado exame físico incorreto, mas orientar que anamnese e exame físico são suficientes, atribuir adequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

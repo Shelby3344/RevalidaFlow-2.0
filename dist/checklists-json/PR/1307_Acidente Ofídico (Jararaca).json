@@ -1,0 +1,238 @@
+{
+  "uid": 1307,
+  "hash": "1A-9E9UnWVxH6svw18h9JWE5dsf3d",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Acidente Ofídico (Jararaca)",
+  "definicao": "É o quadro clínico decorrente da mordedura de serpentes. É causado por serpentes da família Viperidae, dos gêneros Bothrops e Bothrocophias (jararacuçu, jararaca, urutu, caiçaca, comboia).",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "54.00",
+    "star": 0,
+    "time": 525,
+    "count": 6447
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Atenção primária à saúde.\nTipo de atendimento: Atendimento ambulatorial.\n- Unidade básica de saúde (UBS).\n\n A unidade apresenta a seguinte infraestrutura:\n - Consultório médico e salas de procedimentos e observação.  \n\nDescrição do caso:\nVocê realizará atendimento médico de um paciente do sexo masculino de 13 anos, trazido por seu pai, que refere que o mesmo foi picado por uma cobra no pé esquerdo, durante uma pescaria, trazendo o animal morto para sua avaliação.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar a anamnese dirigida à queixa principal da paciente;\n-Verbalizar o diagnóstico;\n-Verbalizar 2 características que levam a confirmação do diagnóstico;\n-Propor conduta terapêutica;\n- Avaliar a necessidade de adoção de outras medidas sanitárias.",
+  "script_ator": "**DADOS PESSOAIS:**\n**-Pai:** Rogério, 28 anos.\n**-Paciente:** Bento, 13 anos.\n\n**MOTIVO DE CONSULTA**: \nDr(a) me ajuda, nos estávamos fazendo uma pescaria como de costume dos fim de semana e ai ouvi o grito do meu filho, uma cobra pegou ele bem no pé direito, só tive tempo de cortar ela com um facão que sempre levo comigo **(se mostrar apreensivo)**.\n\n**SOBRE A QUEIXA PRINCIPAL:**\n**-Tempo de evolução da picada:** Mais ou menos 2 horas, só chegamos agora na unidade de atendimento pois estávamos tentando conseguir uma carona com um vizinho já que não temos veículo próprio e vivemos em uma zona de difícil acesso. \n**-Intensidade da dor:** Ele disse que está doendo muito no local da picada (8/10).\n\n**SINTOMAS ASSOCIADOS**:\n**-Edema:** Notei que está inchado ao redor da ferida.\n**-Sangramento de mucosas:** A cerca de 10 minutos ele teve um sangramento espontâneo na gengiva.\n**-Alterações na urina/hábito urinários:** Dr(a) enquanto esperava o vizinho chegar para dar a carona percebi que o xixi dele estava mais escuro.\n**-Negar:** Vômitos, arcadas,  desmaios, febre.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS**:\n**-Situação vacinal:** Não trouxe calendário de vacinas porém estão todas em dia, inclusive covid-19.\n-**Comorbidades**: Não tenho problemas de saúde.\n-**Alergias**: Nega.\n-**Cirurgia prévia**: Nega.\n\n**HÁBITOS TÓXICOS**:\n-**Tabagismo**: Nega.\n-**Etilismo**: Nega.\n-**Drogas ilícitas**: Nega.\n\n**CARACTERÍSTICAS DA COBRA:**\n-Estou com ela morta dentro da unidade básica **(impresso 1)**. \n**-Após o participante identificar a cobra, questione se ele tem certeza que é essa espécie.**\n\n**-Caso o candidato solicite ectoscopia e/ou ver o local da picada mostrar impresso 2**.\n\n**DÚVIDAS:**\n**Pergunta 1:** Isso é grave? \n\n**-Caso o participante de alta hospitalar :** Quando eu tenho que voltar aqui ?\n\n**-Caso o participante solicite internação:** Questionar se realmente existe necessidade.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais vitais",
+      "conteudo": "**SINAIS VITAIS:** \n\nFacie álgica;\n\n**Pressão Arterial:** 120 x 80mmHg;\n\n**Frequência Cardíaca: **90 bpm;\n\n**Frequência Respiratória:** 18 irpm;\n\n**Saturação de O2:** 98% AA;\n\n**Temperatura axilar:** 36,8°",
+      "imagem": "https://app.penserevalida.com/impressos/5/1745091444.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame físico ",
+      "conteudo": "**Exame neurológico: **Sem alterações.\n\n**Exame ocular: **Sem alterações.\n\n**Exame cardiovascular :** Sem alterações.\n\n**Exame respiratório :** Sem alterações. \n\n**Abdome:** Flácido, RHA presentes, Indolor a palpação superficial e profunda. \n\n**Membros inferiores :** Eritema, edema, com sangramento em babação no local da picada, pulsos periféricos presentes.",
+      "imagem": "https://app.penserevalida.com/impressos/5/1745091444.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames complementares",
+      "conteudo": "Doutor(a) nós tivemos um problema com a energia e estamos sem laboratório, sem previsão de retorno.",
+      "imagem": "https://app.penserevalida.com/impressos/5/1745091444.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Imagem da Cobra",
+      "conteudo": "Imagem da Cobra",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta o paciente e o pai;\n(2) Identifica-se; \n(3) Dirige-se a eles pelo nome, pelo menos uma vez;\n(4) Pergunta; e, \n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado**: Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "  0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Demonstra empatia com a paciente:**\n(1) Estabelece contato visual; e,\n(2) Mantém postura empática ao longo da consulta.\n\n**Adequado:** Realiza os dois itens.\n**Parcialmente adequado:** Realiza um item.\n**Inadequado:** Não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "  0.15",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Usa linguagem acessível, evitando termos técnicos de difícil compreensão. **\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "  0.15",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4.**Identifica:**\n (1) Duas características da cobra (após ver o impresso 1); e, \n(2) Classificar o acidente como botrópico.\n\n**Adequado:** Identifica os dois itens.\n**Parcialmente adequado:** Identifica um item.\n**Inadequado:** Não identifica item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "  0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "Há variação nas cores ao longo de sua distribuição geográfica, com indivíduos apresentando tons cinza, pardo-esverdeados, amarelados e marrons. Geralmente o ventre é claro com manchas irregulares, ausência de guiso"
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga sobre a evolução clínica do paciente desde o momento da picada até chegar no local de atendimento.**\n(1) Inchaço local;\n(2) Dor;\n(3) Equimose;\n(4) Sangramento nos pontos de picada; e,\n(5) Alterações urinárias.\n\n**Adequado:** Investiga quatro ou mais itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "  0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga sintomas associados: **\n(1) Sangramento nasal/gengival;\n(2) Sudorese;\n(3) Vômito com sangue; e, \n(4) Pele fria.\n\n**Adequado:** Investiga três ou mais itens.\n**Parcialmente adequado:** Investiga um ou dois itens. \n**Inadequado:** Não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "  0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga** \n(1) Comorbidades;\n(2) Uso de medicações crônicas; e,\n(3) Antecedentes neoplásicos.\n\n**Adequado:** Investiga dois ou mais itens.\n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "-",
+        "adequado": "  0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga** \n(1) Alergias;\n(2) Hábitos tóxicos; e,\n(3) Prática de atividade física. \n\n**Adequado:** Investiga dois ou mais itens;\n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "-",
+        "adequado": "  0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga status vacinal** \n\n**Adequado:** Investiga status vacina.\n**Inadequado:** Não investiga status vacinal.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "-",
+        "adequado": "  0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Pede consentimento ao paciente para realizar:**\n(1) Exame físico;\n(2) Verbaliza a higiene de mãos; e,\n(3) Colocação de luvas.\n\n**Adequado:** Realiza os três itens.\n**Parcialmente adequado:** Realiza um ou dois itens.\n**Inadequado:** Não realiza nenhuma item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "  0.15",
+        "adequado": " 0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11.** Realiza a higienização do local da picada. **\n\n**Adequado:** Verbaliza a necessidade de higienização. \n**Inadequado:** Não verbaliza a necessidade de higienização.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "-",
+        "adequado": "  1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita** \n(1) Tempo de coagulação;\n(2) Hemograma completo; e,\n(3) Ureia e creatinina.\n\n**Adequado:** Solicita os três itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita um ou nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "  0.3",
+        "adequado": " 0.6"
+      },
+      "dica_teorica": "Tempo de coagulação (TC), hemograma e função renal são importantes para o monitoramento da soroterapia e acompanhamento das complicações nos acidentes botrópicos, laquéticos e crotálicos."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Diagnostica adequadamente o quadro como Acidente ofídico botrópico moderado por jararaca.** \n\n**Adequado: **Realiza o diagnóstico completo. \n**Inadequado:** Não realiza o diagnóstico completo ou não realiza o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "-",
+        "adequado": "  1.0"
+      },
+      "dica_teorica": "O diagnóstico de envenenamento ofídico é eminentemente clínico-epidemiológico, não sendo empregado na rotina hospitalar exame laboratorial para confirmação do veneno circulante."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Indica:**\n(1) Internação hospitalar transitória;\n(2) Monitorização dos sinais vitais de maneira continua; e,\n(3) Comunica a unidade de saúde de maior complexidade mais próxima para transferência.\n\n**Adequado:** Indica os três itens.\n**Inadequado:** Indica um, dois ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "-",
+        "adequado": "  0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Indica:** \n(1) Soro Antibotropico 4-8 ampolas;\n(2) Corticoide EV;\n(3) HV com controle da diurese; e,\n(4) Analgésico.\n\n**Adequado:** Indica três ou mais itens.\n**Parcialmente adequado:** Indica um ou dois itens.\n**Inadequado:** Não indica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "  0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Notifica o caso ao SINAN.**\n\n**Adequado:** Notifica ao SINAN.\n**Inadequado:** Não notifica ao SINAN.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": " 0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Cita ao menos 3 medidas de prevenção:** \n(1) Usar botas de cano alto ou perneira de couro;\n(2) Usar luvas de aparas de couro para manipular folhas secas, montes de lixo, lenha, palhas, etc.;\n(3) Não colocar as mãos em buracos; \n(4) Deve-se ter cuidado ao mexer em pilhas de lenha, palhadas de feijão, milho ou cana, e ao revirar cupinzeiros;\n(5) Controlar o aparecimento de roedores nas residências; \n(6) Limpar paióis e terreiros, não deixar lixo acumulado; \n(7) Fechar buracos de muros e frestas de portas; e,\n(8) Evitar acúmulo de lixo ou entulho, de pedras, tijolos, telhas e madeiras, bem como não deixar mato alto ao redor das casas.\n\n**Adequado:** Cita três ou mais itens.\n**Inadequado:** Cita um, dois ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.65"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

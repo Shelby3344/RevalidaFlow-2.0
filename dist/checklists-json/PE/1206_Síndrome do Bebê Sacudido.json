@@ -1,0 +1,228 @@
+{
+  "uid": 1206,
+  "hash": "iaKw2_298RReu_6LFeDq3RbU",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Síndrome do Bebê Sacudido",
+  "definicao": "A Síndrome do Bebê Sacudido (Shaken ou Shaking Baby Syndrome) cujas vítimas são, principalmente, crianças de até dois anos de idade, é causada pela aceleração, desaceleração e rotação bruscas do crânio, ou seja, pela violenta movimentação da criança, resultando em lesões intracranianas (hematomas subdurais), combinadas ou não às hemorragias subaracnóideas e contusões cerebrais, além de hemorragias retinianas.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "64.50",
+    "star": 0,
+    "time": 573,
+    "count": 5957
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.\nTipo de atendimento: urgência e emergência. \nA unidade apresenta a seguinte infraestrutura: \n-Setor de radiologia convencional e ultrassom; \n-Laboratório de análises clínicas; \n-Leitos de internação. \n\nDescrição do caso:\nVocê está em um pronto-socorro e realizará o atendimento de uma lactente de 3 meses, cuja mãe relata que a bebê caiu da cama.",
+  "tarefas": "-Realizar o acolhimento da paciente;\n-Fazer a anamnese dirigida à paciente;\n-Solicitar exame físico detalhado, citando o que necessita avaliar;\n-Solicitar exames laboratoriais e de imagem, se julgar necessário;\n-Interpretar os exames apresentados e verbalizar seus achados;\n-Verbalizar o diagnóstico;\n-Propor as condutas terapêuticas e avaliações que julgar necessário.",
+  "script_ator": "**DADOS DA MÃE: **\n- Maíra, 18 anos, em união estável, desempregada.\n\n**DADOS DA CRIANÇA: **\n-  Júlia, de 3 meses.\n\n**MOTIVO DE CONSULTA: **\n- Dr. (a), eu deixei minha filha na cama enquanto tomava banho. Ela rolou, caiu da cama e bateu a cabeça no chão. Esperei que ela se acalmasse para trazer e poder ver se está tudo bem.\n\n**DETALHES SOBRE O MOMENTO DA QUEDA: **\n**-Como aconteceu:** Então, Dr. (a), ela estava chorando muito, eu fiquei muito nervosa e fui tomar banho. Só a vi rolando e caindo do sofá. \n**-Tempo desde que ocorreu a queda:** Não sei muito bem, acho que umas 2 ou 3 horas.\n\n**INFORMAÇÃO AO ATOR:** Importante informar primeiro que foi na cama e depois no sofá.\n\n**SINAIS E SINTOMAS ASSOCIADOS: **\n**- Perda da consciência/desmaios:** Acho que não, eu deixei ela dormir logo após a queda, para poder parar de chorar.\n**- Náuseas e vômitos:** Apresentou dois episódios de vômitos.\n**- Sonolência:** Ela está muito sonolenta.\n**- Movimentos/ deformidades/ lesões nos membros:** Machucou um pouco, né Dr.(a), afinal ela caiu. \n**-Lesões na cabeça:** Não observei nada na cabeça, não.\n**- Convulsões:** Não sei dizer, porque eu deixei ela deitada um tempo para ver se melhorava. Mas lembrando bem, os braços e as pernas dela ficaram duros de repente em um momento, será que era convulsão, Dr. (a)?\n\n**ANTECEDENTES PERINATAIS, FAMILIARES, ALERGIAS, INTERNAÇÕES, CIRURGIAS OU MEDICAÇÕES DE USO CONTÍNUO:**\n- Não sei, Dr. (a). Depois que ela saiu da maternidade, ela chora muito, não sei por quê. Ela deve ter alguma doença.\n\n**CARTÃO DE SAÚDE DA CRIANÇA: **\n- O que é isso?\n\n**CARTÃO DE VACINAS: **\n- Não sei te informar, pois foi a minha vizinha que a levou para vacinar da última vez.\n\n**ALEITAMENTO MATERNO OU ALIMENTAÇÃO:**\n- Toma leite materno, suco de frutas com um pouquinho de açúcar e água.\n\n**MEDICAÇÕES DE USO CONTÍNUO OU RECENTE:**\n- Nega.\n\n**CONDIÇÕES SOCIOECONÔMICAS E DE MORADIA:**\n- Sou quase uma mãe solteira Dr.(a), meu companheiro trabalha todos os dias da semana o dia todo. Só assim para pagar aluguel e colocar comida na mesa.\n\n**Se o candidato indicar sobre INTERNAÇÃO ou mencionar MAUS TRATOS, diga: **\n- Não!! Eu vou levar minha filha embora! Por que você quer interná-la?\n\n**DÚVIDAS: **\n**- Pergunta 1:** O que irá acontecer comigo? Eu não fiz nada! (Perguntar somente se o participante verbalizar que acionará autoridade policial ou conselho tutelar).\n\n**OUTRAS PERGUNTAS: **\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "ECTOSCOPIA.",
+      "imagem": "https://app.penserevalida.com/impressos/04/bebe_roo300x400.webp"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "ECTOSCOPIA.",
+      "imagem": "https://app.penserevalida.com/impressos/04/subdural.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "TOMOGRAFIA DE CRÂNIO",
+      "conteudo": "**OLHE PARA A CÂMERA E DESCREVA OS ACHADOS DESTA IMAGEM**",
+      "imagem": "https://app.penserevalida.com/impressos/04/hemorragia-retiniana.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "FUNDOSCOPIA/ FUNDO DE OLHO",
+      "conteudo": "**OLHE PARA A CÂMERA E DESCREVA OS ACHADOS DESTA IMAGEM**",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "RADIOGRAFIA DE CORPO INTEIRO",
+      "conteudo": "CONSIDERE REALIZADO.",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "COAGULOGRAMA",
+      "conteudo": "SEM ALTERAÇÕES.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação com a mãe;\n(4) Pergunta o nome da mãe e o nome da criança.\n\n**Adequado:** Realiza as quatro ações.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona sobre a queda:**\n(1) Tempo transcorrido até a busca pela atenção médica;\n(1) Onde ocorreu a queda; \n(2) Detalhes sobre o momento da queda; \n(3) Estado da criança após a queda. \n\n**Adequado: **Investiga os quatro itens.\n**Parcialmente adequado:** Investiga dois ou três itens.\n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre sintomas associados**: \n(1) Convulsões;\n(2) Febre;\n(3) Náuseas;\n(4) Vômitos;\n(5) Irritabilidade Ou Choro intenso;\n(6) Diurese/eliminações urinárias;\n(7) Sangramentos OU hemorragias;\n(8) Sonolência OU Letargia;\n(9) Perda de consciência.\n\n**Adequado:** Questiona de sete a nove itens.\n**Parcialmente adequado:** Questiona cinco ou seis itens.\n**Inadequado:** Questiona quatro ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona sobre:**\n(1) Antecedentes pessoais;\n(2) Alergias;\n(3) Antecedentes perinatais;\n(4) Crescimento e desenvolvimento;\n(5) Uso de medicações;\n(6) Condições socioeconômicas Ou moradia;\n(7) Composição familiar.\n\n**Adequado:** Questiona de cinco a sete itens.\n**Parcialmente adequado:** Questiona quatro itens.\n**Inadequado:** Questiona três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita:**\n(1) Caderneta de vacina;\n(2) Caderneta da criança.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita:**\n(1) Exame físico;\n(2) Ectoscopia de pele e mucosas;\n(3) Sinais vitais;\n(4) Exame neurológico.\n\n**Adequado:** Solicita os quatro itens.\n**Parcialmente adequado:** Solicita três itens.\n**Inadequado:** Solicita dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita de Fundo de Olho ou Fundoscopia.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Interpreta hemorragia retiniana.**\n\n**Adequado:** Interpreta corretamente.\n**Inadequado:** Não interpreta corretamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita exames complementares:**\n(1) Tomografia de Crânio Sem Contraste;\n(2) Radiografia do corpo inteiro;\n(3) Coagulograma.\n\n**Adequado:** Solicita os três exames.\n**Parcialmente adequado:** Solicita dois exames.\n**Inadequado:** Solicita um ou nenhum exame.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza alterações na Tomografia:**\n(1) Hematoma subdural;\n(2) em hemisfério cerebral esquerdo;\n(3) com desvio da linha média.\n\n**Adequado:** Verbaliza os três itens.\n**Parcialmente adequado:** Verbaliza dois itens.\n**Inadequado:** Verbaliza um item ou não verbaliza item algum.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza diagnóstico de:** \n(1) Maus tratos OU Violência doméstica OU Violência física;\n(2) Síndrome do bebê sacudido OU Shaken Baby Syndrome.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica internação hospitalar.**\n\n**Adequado:** Indica. \n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Se opõe ao desejo da mãe de levar a criança para casa.**\n\n**Adequado:** Se opõe. \n**Inadequado:** Não se opõe.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Realiza:**\n(1) Notificação compulsória de violência física ao SINAN;\n(2) Aciona o Conselho Tutelar.\n\n**Adequado:** Realiza as duas ações. \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Artigo 2º, inciso VI da Portaria nº 204 de 17 de fevereiro de 2016"
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Encaminha para Neurologista pediátrico.**\n\n**Adequado:** Encaminha.\n**Inadequado:** Não encaminha ou encaminha somente ao neurologista.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "uid": 1309,
+  "hash": "b8j5W8ZGWEkknZdNU-7MVsAP",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Torção Testicular",
+  "definicao": "Torção testicular (TT) é definida pela interrupção do suprimento sanguíneo testicular causada pela rotação do cordão espermático. É uma emergência cirúrgica que ocorre em 20% - 30% dos homens com escroto. A interrupção do fluxo testicular justifica a necessidade de rápida intervenção para preservação do órgão. Dessa maneira, um atraso no seu diagnóstico e tratamento poderá acarretar necrose testicular e perda do órgão acometido. Quando ocorre a TT, ocorre um edema progressivo por oclusão aterial e venosa, o que poderá resultar no infarto testicular.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "58.00",
+    "star": 0,
+    "time": 523,
+    "count": 6089
+  },
+  "cenario": "Nível de atenção: Atenção terciária a saúde.\nTipo de atendimento: Emergência geral.\n\nA unidade consta com os seguintes recursos: \n- Laboratório para análises; \n- Serviço de radiografia convencional e ultrassonografia; \n- Sala de internação; \n- Serviço de cirurgia; \n- Unidade de terapia intensiva. \n\nDescrição do caso: \n- Adolescente de 17 anos de idade, é trazido a consulta pela mãe, queixando-se de dor no testicular unilateral há 1 hora. \n\nAtenção! Caso julgue necessário realizar exame físico, verbalize! O paciente simulado não deverá ser tocado durante o atendimento",
+  "tarefas": "Nos próximos 10 minutos de duração da estação você deverá realizar as seguintes tarefas:\n-Realizar anamnese do paciente; \n-Solicitar e interpretar exame físico direcionado; \n-Solicitar e interpretar os exames pertinentes; \n-Estabelecer e comunicar hipótese diagnóstica; \n-Verbalizar ao menos um diagnóstico diferencial;\n-Propor conduta para o paciente;\n-Verbalizar ao menos uma complicação do quadro apresentado.",
+  "script_ator": "**DADOS PESSOAIS **\n- Me chamo Enzo, tenho 17 anos, sou solteiro e estudante.\n\n**MOTIVO DE CONSULTA:**\n- Estou com uma dor horrível no testículo. \n\n**-SOBRE O MOTIVO DE CONSULTA:**\n**-Localização:** Testículo esquerdo.\n**-Início: **começou Há 1 hora de maneira súbita.\n**-Intensidade:** 8/10\n**-Progressão:** Mesma intensidade desde que começou. \n**-Irradiação:** Irradia para região inguinal.\n**-Fatores agravantes e atenuantes:** Não tem nada que melhora e nem que piora. Tomei ibuprofeno e não melhorou.\n**-Antecedente de trauma na região:** Nega. \n**-Exposição ao frio:** Nega.\n\n**SINAIS E SÍNTOMAS ACOMPANHANTES**\n**Náuseas:** Sim.\n**Vômitos:** Sim. Tive 2 episódios de vômitos alimentícios hoje.\n**Febre:** Nega. \n**Hematúria:** Nega.\n**Disúria:** Nega.\n**Polaciúria:** Nega.\n**dor supra púbica:** Nega. \n**Secreção uretral:** Nega.\n**Catarse e eliminação de gases:** Tudo normal, Dr(a). \n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS** \n**Comorbidades/doença atual:** Nega. \n**Medicamentos:** Nega.\n**Cirurgia prévia:** Nega. \n\n**ANTECEDENTES UROLÓGICO** \n**Início das relações sexuais:** Ainda não comecei a ter relações sexuais. \n\n**HÁBITOS**\n**Tabagismo:** Nega.\n**Drogas:** Nega.\n**Consumo de bebidas alcoólicas:** Nega.\n\n**Se o candidato indicar tratamento cirúrgico verbalizar: **\n- Dr (a), eu tenho medo de cirurgia, não posso tratar de outra maneira, não?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Pressão arterial:** 110 x 70mmHg. \n\n**Frequência cardíaca:** 92 batimentos por minuto. \n\n**Saturação de O2:** 99%. AA \n\n**Temperatura axilar:** 36,5° C. \n\n**Frequência respiratória:** 16 incursões por minuto.\n\n\n\n**IMC:** 21 kg/m2. \n\n\n\n**Ectoscopia geral: **\n\nPaciente em regular estado geral, face álgica, acianótico, anictérico, corado e hidratado. Apresena-se alerta, orientado em tempo, espaço e pessoa. \n\n\n\n**Aparelho cardiovascular**:\n\n Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Aparelho respiratório**: \n\nAusculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdome**:\n\nFlácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem visceromegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/old/Torcao-testicular.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame de genitais",
+      "conteudo": "- Testículo esquerdo com volume aumentado, endurecido e doloroso à palpação.\n\n\n\n- Sinal de Prehn negativo e Angel positivos. \n\n- Reflexo cremastérico ausente.\n\n- Testículo direito tópico, sem alterações, ausência de dor à palpação, reflexo cremastérico preservado.\n\n\n\n- Sinal de blue dot: Negativo",
+      "imagem": "https://app.penserevalida.com/impressos/02/eco.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Ultrassonografia doppler testicular",
+      "conteudo": "Ausência de fluxo sanguíneo testicular à esquerda.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemograma**\n\n**- Hemácias**: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n- **Hemoglobina**: 14,2 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n- **Hematócrito**: 34% (Valor de referência: 39 - 52%)\n\n- **VCM**: 93 fL (Valor de referência: 80 a 100 fL)\n\n- **HCM**: 31 pg (Valor de referência: 26 - 33 pg) \n\n- **CHCM**: 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n- **RDW CV**: 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas: **179.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucograma:** \n\n- **Leucócitos**: 9.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n- **Neutrófilos**: 65% (Valor de referência: 40 - 70%)\n\n- **Bastões**: 3% (Valor de referência: 0 - 5%)\n\n- **Linfócitos**: 25% (Valor de referência: 20 - 50%)\n\n- **Basófilos**: 1% (Valor de referência: 0 - 2%) \n\n- **Eosinófilos**: 2% (Valor de referência: 0 - 6%)\n\n- **Monócitos**: 4% (Valor de referência: 4 - 8%)\n\n\n\n**PCR:** 1 mg/dl (Valor de referência: < 0,3 mg/dl)\n\n\n\n**Glicemia:** 89 mg/dl (70 - 110 mg/dl)\n\n\n\n**INR/RIN: **1 (Valor de referência: 0,8 - 1,2)\n\n**Creatinina: **0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n\n\n**Ureia:** 32 mg/dl (Valor de referência: < 40 mg/dl) \n\n**Sódio:** 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n\n\n**K:** 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se; \n(2) Cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado**: Realiza uma ou não realiza ação\nalguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre características da dor:**\n(1) Tempo de início;\n(2) Localização;\n(3) Progressão;\n(4) Fatores de agravantes e atenuantes;\n(5) Intensidade;\n(6) Irradiação.\n\n**Adequado:** Pergunta sobre os seis itens.\n**Parcialmente adequado:** Pergunta sobre quatro ou cinco itens.\n**Inadequado:** Pergunta três ou menos itens,",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Saber as características da dor é essencial para definir se estamos frente a um paciente potencialmente grave"
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre o mecanismo da lesão**: \n(1) Trauma; \n(2) Atividade Sexual. \n\n**Adequado:** Questiona as duas ações. \n**Parcialmente adequado:** Questiona uma ação.\n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A busca pela causa de uma condição é importante e deve incluir a exclusão de possíveis traumas como causa."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre sinais e sintomas associados:** \n(1) Febre; \n(2) Náuseas e Vômitos; \n(3) Disúria; \n(4) Polaciúria.\n\n**Adequado:** Pergunta sobre os quatro itens.\n**Parcialmente adequado:** Pergunta ao menos três itens.\n**Inadequado:** Pergunta sobre dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Exame físico: **\n(1) Solicita permissão ao paciente para realizar o exame físico; \n(2) Lava as mãos e paramenta-se. \n\n**Adequado:** Realiza ambas ações. \n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Exame Físico genital:** \n(1) Manobra de Prehn;\n(2) Reflexo Cremastérico; \n(3) Sinal de Angell.\n\n**Adequado:** Verbaliza as três manobras.\n**Parcialmente adequado: **Verbaliza duas manobras.\n**Inadequado: **Não verbaliza ou verbaliza uma manobra",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": "Sinal de Brunzel: testículo elevado em relação ao contralateral;Sinal de Angell: testículo horizontalizado;Reflexo cremastérico: é a tração superior do testículo por suave toque na face interna da coxa.Manobra de Prehn: consiste na elevação do testículo próximo a região inguinal. Quando a causa é inflamatória, pode ocorrer alívio dos sintomas (sinal de prehn positivo), mas quando a causa é por torção não há melhora dos sintomas (sinal de prehn negativo)."
+    },
+    {
+      "idx": 7,
+      "descricao": "7.  **Solicita exame complementar de imagem:** Ultrassonografia/USG/Ecografia Doppler Testicular.\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita exames complementares laboratoriais: **\n(1) Hemograma completo; \n(2) INR/RIN; \n(3) PCR;\n(4) Glicemia;\n(5) Ureia e Creatinina. \n\n**Adequado:** Solicita os cinco exames.\n**Parcialmente adequado:** Solicita três ou quatro exames.\n**Inadequado:** Solicita dois ou menos.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Diagnóstico: **Torção Testicular. \n\n**Adequado:** verbaliza o diagnóstico.\n**Inadequado**: não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Menciona diagnósticos diferenciais: **\n(1) Orquiepididimite; \n(2) Torção do apêndice/hidátide; \n(3) Pielonefrite; \n(4) Ureterolitíase/Urolitíase. \n\n**Adequado:** Menciona ao menos um diagnóstico diferencial. \n**Inadequado:** Não menciona.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "00",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Informa que o tratamento é somente cirúrgico.** \n\n**Adequado:** Informa.\n**Inadequado**: Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica: **\n(1) Cirurgia de emergência; \n(2) Verbaliza orquidopexia no testículo contralateral.\n\n**Adequado:** verbaliza ambas ações.\n**Parcialmente adequado: **verbaliza uma ação. \n**Inadequado**: não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza:**\n (1) Internação; \n (2) Dieta zero; \n (3) Hidratação parenteral; \n (4) Analgésicos; \n \n**Adequado:** Verbaliza os quatro itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza complicações:** \n(1) Atrofia testicular;\n(2) Necrose testicular;\n(3) Infertilidade; \n\n**Adequado:** Verbaliza ao menos uma complicação.\n**Inadequado**: Não verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

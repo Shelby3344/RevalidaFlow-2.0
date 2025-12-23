@@ -1,0 +1,194 @@
+{
+  "uid": 1325,
+  "hash": "gRHrFVYilUHX0nIKUSAwN-eOdsr5x",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Trauma Craniencefálico – TCE Leve",
+  "definicao": "O trauma cranioencefálico consiste em lesão física ao tecido cerebral que, temporária ou permanentemente, incapacita a função cerebral. Pode ser classificado em leve, moderado ou grave segundo a escala de coma de Glasgow.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "67.50",
+    "star": 0,
+    "time": 533.5,
+    "count": 4346
+  },
+  "cenario": "Local da atuação: Atenção terciária. \nA unidade possui a seguinte infraestrutura: \n- Setor de radiologia convencional e ultrassonografia; \n- Tomografia computadorizada; \n- Laboratório de análises clínicas e banco de sangue. \n- Leitos de internação e centro cirúrgico. \n\nDescrição do Caso: \nPaciente masculino, de 9 anos, trazido pela mãe com história de queda da própria altura há 20 minutos.\n\nAtenção! Caso julgue necessário realizar exame físico, verbalize! O paciente simulado não deverá ser tocado durante o atendimento.",
+  "tarefas": "Realizar a anamnese e atendimento inicial correspondente;\nSolicitar e interpretar exame físico direcionado; \nSolicitar e interpretar os exames pertinentes, se necessário; \nEstabelecer e comunicar hipótese diagnóstica; \nPropor conduta terapêutica;\nDar as orientações finais que são pertinentes ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Eu sou Rafaela, mãe do Nicolas. Ele tem 9 anos e é estudante. \n\n**MOTIVO DE CONSULTA:**\n- Dr.(a), meu filho estava brincando quando caiu e bateu a cabeça.\n\n**SOBRE O MOTIVO DE CONSULTA**\n**Tempo de evolução:** Há 20 minutos.\n**Cinemática do acidente (queda):** ele caiu quando estava correndo, brincando de \"pega-pega\" com os amigos (queda da própria altura).\n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n**Perda de consciência:** não. Eu caí e me levantei logo em seguida. Queria continuar brincando, mas minha mãe preferiu que viéssemos para o hospital.\n**Convulsões/ Cefaleia:** nega.\n**Náuseas/Vômitos:** nega.\n**Presença de dor em alguma região específica do corpo:** bati com a cabeça no chão, mas não estou sentindo dor.\n**Sonolência:** nega.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS** \n**Comorbidades/doenças atuais:** nega.\n**Alergias:** nega.\n**Medicamentos/uso de anticoagulantes:** nega.\n**Cirurgia prévia:** nega.\n**Caderneta de vacinação:** não trouxe, mas as vacinas estão todas em dia. \n\n**NO MEIO DA CONSULTA ****INSISTIR ****PARA QUE O MÉDICO REALIZE UM EXAME DE IMAGEM DA CABEÇA.**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico ",
+      "conteudo": "**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, normocorado e hidratado, alerta, orientado em tempo, espaço e pessoa. \n\n\n\n**Cabeça e pescoço: **Paciente com escoriações leves na região occiptal. Sem outras alterações. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados nos quatro quadrantes, indolor à palpação e sem visceromegalias. \n\n\n\n**Fundoscopia:**\n\nSem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame físico Neurológico",
+      "conteudo": "**Escala de coma de Glasgow:**\n\n**- Abertura Ocular: **espontânea.\n\n**- Resposta Verbal: **orientada.\n\n**- Resposta Motora: ** a ordens.\n\n\n\n**Pupilas isocóricas e fotorreagentes: **estável. \n\n\n\n**Marcha e equilíbrio dinâmico:** sem alterações. \n\n\n\n**Equilíbrio estático:** preservado. \n\n\n\n**Motricidade: **preservada nos 4 membros. \n\n\n\n**Coordenação motora: **preservada.\n\n\n\n**Força muscular:** grau 5 nos 4 membros. \n\n\n\n**Sensibilidade:** preservada. \n\n\n\n**Reflexos:** normorreflexia.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Sinais Vitais",
+      "conteudo": "**Saturação de Oxigênio: **98% AA. \n\n**Frequência Respiratória: **18 irpm.\n\n**Ausculta cardíaca: **sem alterações.\n\n**Frequência Cardíaca: **94 bpm.\n\n**Pressão Arterial: **Adequada para a idade. \n\n**Temperatura: **36,5 ºC.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Reavaliação Neurológica após 4 horas ",
+      "conteudo": "**Abertura Ocular: **espontânea (4 ).\n\n**Resposta Verbal: **Orientado (5).\n\n**Resposta Motora: **Obedece a Comandos (6).\n\n**Pupilas isocóricas e fotorreagentes: **estável. \n\n**Glasgow: **15.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentou-se cordialmente ao paciente e iniciou consulta com perguntas abertas. **\n\n**Adequado:** realiza a ação. \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona o paciente quem é ele e/ou se lembra do que aconteceu. **\n\n**Adequado:** realiza a ação. \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre sinais e sintomas:** \n(1) Dor; \n(2) Cefaleia; \n(3) Perda de consciência; \n(4) Convulsões; \n(5) Náuseas e vômitos; \n(6) Sonolência.\n\n**Adequado:** pergunta sobre quatro ou mais itens. \n**Parcialmente adequado:** pergunta sobre três itens.\n**Inadequado:** pergunta sobre dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre: **\n(1) Comorbidades;\n(2) Internações e/ou cirurgias prévias/ Antecedentes pessoais; \n(3) Alergias; \n(4) Uso de medicamentos/uso de anticoagulantes;\n(5) Líquido e alimentos ingeridos. \n\n**Adequado:** pergunta de três a cinco itens. \n**Parcialmente adequado:** pergunta sobre dois itens.\n**Inadequado:** pergunta sobre um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Em pacientes com TCE LEVE a avaliação inicial consiste na história AMPLA e avaliação neurológica. Pergunte particularmente pelo uso de  anticoagulantes."
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita/realiza aferição dos sinais vitais.**\n(1) Frequência cardíaca;\n(2) Frequência respiratória;\n(3) Saturação de oxigênio;\n(4)  Pressão arterial;\n(5) Temperatura.\n\n**Adequado:** solicita/realiza aferição de quatro a cinco sinais vitais.\n**Inadequado:** não solicita/realiza aferição dos sinais vitais.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Realiza o exame físico geral**\n\n**Adequado:** realiza a ação. \n**Inadequado:** não realiza a ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Sempre buscar sinais de fratura oculta como fratura na base do crânio.- Sinal do Guaxinim- Sinal de Battle Nestes casos estão contraindicado: passagem de SNG ou intubação nasotraqueal."
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Realiza o exame físico neurológico**\n\n**Adequado:** realiza a ação. \n**Inadequado:** não realiza a ação.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. ****Não solicita exames laboratoriais. **\n\n**Adequado:** não solicita. \n**Inadequado:** solicita**",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza o diagnóstico de Traumatismo Cranioencefálico (TCE) leve e verbaliza que o Glasgow é igual a 15** \n\n**Adequado:** realiza o diagnóstico de TCE leve e verbaliza o glasgow igual a 15. \n**Parcialmente Adequado :** cita apenas TCE e/ou não verbaliza glasgow igual a 15. \n**Inadequado:** não cita o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "Classificação do TCE:- Leve: Glasgow entre 13-15.- Moderado: Glasgow entre 9-12.- Grave: Glasgow entre 3-8."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Não solicita exames de imagem.** \n\n**Adequado:** não solicita. \n**Inadequado:** solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": "Indicações de TC no TCE Leve:- Glasgow - Cinemática do trauma de grande energia- Perda de consciência > 5 min- Cefaleia- Vômitos- Idade > 65 anos- Fraturas de crânio"
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Indica observação de 4-12h no pronto socorro ou em domicílio, por 24h (acompanhado). **\n\n**Adequado:** realiza a ação. \n**Inadequado:** não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Após 4h de observação com  melhora clínica, com ausência de fatores de risco que indiquem TC ou após TC  normal, se realizada, é permitida a alta hospitalar, porém com orientação para retorno imediato à emergência se cefaleia, déficit neurológico e declínio do estado mental."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Sana todas as dúvidas da mãe. **\n\n**Adequado:** realiza a ação. \n**Inadequado:** não realiza a ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Dá as devidas orientações de Alta e Sinais de alerta para doentes com Trauma Craniencefálico Leve: **\n(1) Sonolência ou dificuldade crescente de acordar o doente (acorde o doente a cada 2 horas durante o período de sono);\n(2) Náusea ou vômito;\n(3) Convulsões ou espasmo;\n(4) Dor de cabeça forte;\n(5) Fraqueza ou perda da sensibilidade nos braços ou nas pernas;\n(6) Confusão ou comportamento estranho; \n(7) Uma pupila (parte preta dos olhos) maior do que a outra, movimentos estranhos dos olhos, visão dupla ou outros distúrbios visuais;\n(8) Pulso muito lento ou muito rápido, ou padrão respiratório incomum\n\n**Adequado:** orienta de seis a oito sinais de alerta.\n**Parcialmente adequado:** orienta de três a cinco sinais de alerta.\n**Inadequado:** orienta dois ou menos sinais de alerta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

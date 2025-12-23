@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -17,10 +17,11 @@ import {
   Crown,
   GraduationCap,
   Building2,
-  Clock
+  Clock,
+  Trash2
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import { useUserProfile, UserProfile } from "@/hooks/useUserProfile";
+import { useUserProfile } from "@/hooks/useUserProfile";
 
 // Interface das preferências
 interface UserPreferences {
@@ -50,6 +51,56 @@ export default function Perfil() {
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
   const [isEditing, setIsEditing] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  // Handler para upload de foto
+  const handlePhotoUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) {
+      // Verifica tamanho (max 5MB)
+      if (file.size > 5 * 1024 * 1024) {
+        toast({
+          title: "Arquivo muito grande",
+          description: "A imagem deve ter no máximo 5MB.",
+          variant: "destructive"
+        });
+        return;
+      }
+
+      // Verifica tipo
+      if (!file.type.startsWith('image/')) {
+        toast({
+          title: "Formato inválido",
+          description: "Por favor, selecione uma imagem.",
+          variant: "destructive"
+        });
+        return;
+      }
+
+      // Converte para base64 e salva
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        const base64 = reader.result as string;
+        updateProfile("avatar", base64);
+        saveProfile();
+        toast({
+          title: "Foto atualizada!",
+          description: "Sua foto de perfil foi alterada com sucesso.",
+        });
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  // Remove a foto
+  const handleRemovePhoto = () => {
+    updateProfile("avatar", "");
+    saveProfile();
+    toast({
+      title: "Foto removida",
+      description: "Sua foto de perfil foi removida.",
+    });
+  };
 
   // Carrega preferências do localStorage
   useEffect(() => {
@@ -105,13 +156,47 @@ export default function Perfil() {
         <div className="rounded-xl card-gradient p-6">
           <div className="flex flex-col sm:flex-row items-center gap-6">
             {/* Avatar */}
-            <div className="relative">
-              <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-violet-600 flex items-center justify-center text-white text-3xl font-bold">
-                {profile.nome.split(" ").map(n => n[0]).join("").slice(0, 2)}
-              </div>
-              <button className="absolute bottom-0 right-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center hover:bg-primary/90 transition-colors">
+            <div className="relative group">
+              {profile.avatar ? (
+                <img 
+                  src={profile.avatar} 
+                  alt="Foto de perfil"
+                  className="w-24 h-24 rounded-full object-cover border-4 border-primary/20"
+                />
+              ) : (
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-violet-600 flex items-center justify-center text-white text-3xl font-bold">
+                  {profile.nome.split(" ").map(n => n[0]).join("").slice(0, 2)}
+                </div>
+              )}
+              
+              {/* Input hidden para upload */}
+              <input
+                type="file"
+                ref={fileInputRef}
+                onChange={handlePhotoUpload}
+                accept="image/*"
+                className="hidden"
+              />
+              
+              {/* Botão de câmera */}
+              <button 
+                onClick={() => fileInputRef.current?.click()}
+                className="absolute bottom-0 right-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center hover:bg-primary/90 transition-colors"
+                title="Alterar foto"
+              >
                 <Camera className="w-4 h-4" />
               </button>
+
+              {/* Botão de remover (aparece no hover se tiver foto) */}
+              {profile.avatar && (
+                <button 
+                  onClick={handleRemovePhoto}
+                  className="absolute top-0 right-0 w-6 h-6 rounded-full bg-destructive text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
+                  title="Remover foto"
+                >
+                  <Trash2 className="w-3 h-3" />
+                </button>
+              )}
             </div>
 
             {/* Info */}

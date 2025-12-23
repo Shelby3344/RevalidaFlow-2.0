@@ -1,0 +1,155 @@
+{
+  "uid": 1162,
+  "hash": "FVHkazwuv03OgYPPysAnAe0o",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Acidente Por Aranha",
+  "definicao": "Segundo o Instituto Butantan (2005), as aranhas de maior importância médica no Brasil são a Loxosceles spp. (Aranha-marrom), a Phoneutria spp. (Aranha-armadeira), a Lycosa spp. (Aranha-de-grama) e Latrodectus spp. (Viúva-negra). Poucas aranhas possuem a capacidade de intoxicar o homem. Na maioria dos casos a dor é local e causada mais pela ação física da ferroada do que pelo veneno propriamente dito.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "62.50",
+    "star": 0,
+    "time": 572.5,
+    "count": 5586
+  },
+  "cenario": "Nível de atenção: Unidade de atenção terciária à saúde.\nTipo de atendimento: Urgência e Emergência.\n\nA unidade apresenta a seguinte infraestrutura:\n- Consultórios de atenção médica;\n- Enfermaria;\n- Laboratório de análises clinicas;\n- Serviço de radiologia convencional e tomografia computadorizada;\n- Centro cirúrgico. \n\nDescrição do caso: \nVocê é médico(a) plantonista em um pronto socorro de um hospital de 3º nível e recebe para atendimento um homem que refere ter sido picado por uma aranha enquanto limpava o quintal da sua casa. O paciente trouxe uma foto da aranha pensando que poderia te ajudar.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente; \n- Solicitar e interpretar o exame físico; \n- Identificar e verbalizar corretamente o gênero da aranha mostrada pelo paciente; \n- Solicitar exames complementares, se necessário;\n- Propor conduta terapêutica adequada; \n- Realizar orientações sobre prevenção de acidentes por animais peçonhentos.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Miguel, 40 anos de idade, mecânico. \n\n**MOTIVO DE CONSULTA: **\n- Estava limpando o quintal da minha casa e uma aranha me picou.\n\n**CARACTERÍSTICAS DO ACIDENTE: **\n**- Tempo de evolução: **Já tem umas duas horas. \n**- Local: **Foi na mão direita.\n**- Dor: **Sim, começou logo depois da picada. \n**- Intensidade: **Muito forte (8/10) na mão inteira. \n**- Irradiação: **Não.\n**- Tipo de dor: **Queimação.\n\n**SINTOMAS ASSOCIADOS: **\n**- Vômitos: **Vomitei umas 4 vezes. \n**- Alterações visuais: **Minha visão está embaçada. \n**- Excesso de salivação/ sialorréia: **Sim, estou até babando. \n**- Outros sintomas: **Nega.\n**-Priapismo:**Sim.\n**-Astenia:** Dr, eu me sinto muito fraco.\n\n**SE PERGUNTADO POR LIMPEZA OU ANTISSEPSIA DO LOCAL: **\n- Responder que não.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Não tenho nenhuma doença. \n**- Medicamentos: **Não uso nenhuma medicação. \n**- Alergias: **Que eu saiba não. \n**- Cartão de vacina: **Atualizado.\n\n**HÁBITOS: **\n**- Álcool: **Cerveja de vez em quando. \n**- Cigarro: **Não fumo. \n**- Drogas: **Não uso nenhuma droga. \n**- Alteração na urina: **Minha urina está normal, eu acho.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 170x100 mmHg \n\n**- Frequência cardíaca:** 115 batimentos por minuto \n\n**- Saturação de O2:** 99% \n\n**- Temperatura axilar:** 36.3° C \n\n**- Frequência respiratória:** 16 incursões por minuto \n\n\n\n**Estado geral:**\n\nPaciente se encontra agitado e em mau estado geral. Afebril, acianótico, pálido, sudorese profusa, anictérico, hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nAusculta respiratória com murmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias. \n\n\n\n**Neurológico:**\n\nSem alterações. \n\n\n\n**Exame da mão:**\n\nSe constata sinais discretos de inflamação e 2 pontos de inoculação.",
+      "imagem": "https://app.penserevalida.com/impressos/08/IMG_0757.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "LABORATÓRIO",
+      "conteudo": "**Hemácias:** 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 15 g/dl (Valor de referência: 14 a 18 mg/dl)\n\n**Hematócrito:** 45% (Valor de referência: 39 - 52%)\n\n**VCM:** 85 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 30 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 30 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW CV:** 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 175.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**PCR:** 40mg/dL (menor ou igual a 8mg/dL)\n\n\n\n**Leucócitos:** 5.240/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 65% (Valor de referência: 40 - 70%)\n\n**Bastões:** 3% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 25% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 1% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 2% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 4% (Valor de referência: 4 - 8%)\n\n\n\n**Glicemia sérica:** 95 mg/dl\n\n\n\n**Creatinina:** 0,8 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 19 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**Sódio:** 140 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)",
+      "imagem": "https://app.penserevalida.com/impressos/08/IMG_0757.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "IMAGEM DA ARANHA",
+      "conteudo": "**ATENÇÃO! VERBALIZE O GÊNERO DA ARANHA MOSTRADA NA IMAGEM. **",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese direcionada perguntando por: **\n(1) Tempo de evolução;\n(2) Dor no local da picada;\n(3) Salivação excessiva ou sialorréia;\n(4) Vômitos;\n(5) Priapismo;\n(6) Sudorese;\n(7) Limpeza da região afetada;\n\n**Adequado: **Pergunta seis ou sete itens. \n**Parcialmente adequado: **Pergunta de três a cinco itens. \n**Inadequado: **Pergunta por dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga os antecedentes pessoais.**\n(1) Doenças;\n(2) Uso de medicamentos;\n(3) Alergias;\n(4) Álcool;\n(5) Drogas ilícitas;\n(6) Estado vacinal. \n\n**Adequado: **Investiga cinco ou seis itens.\n**Parcialmente adequado: **Investiga três ou quatro itens. \n**Inadequado: **Ivestiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita o exame físico. **\n\n**Adequado: **Solicita. \n**Inadequado: Não solicita**",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita os exames laboratoriais: **\n(1) Hemograma;\n(2) PCR e/ou VHS;\n(3) Gasometria arterial;\n(4) Ureia e/ou Creatinina;\n(5) Urina 1 ou EAS.\n(6) Sódio e Potássio.\n\n**Adequado: **Solicita de cinco a seis itens.\n**Parcialmente adequado:** Solicita três ou quatro itens.\n**Inadequado: **Solicita dois ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Identifica corretamente a aranha mostrada na foto:** \n\n**Adequado: **Identifica o gênero Phoneutria ou aranha armadeira. \n**Inadequado: **Não identifica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Realiza o diagnóstico de acidente grave por Phoneutria ou aranha armadeira. **\n\n**Adequado: **Realiza o diagnóstico (acidente por Phoneutria/ aranha armadeira) e classifica como grave.\n**Parcialmente adequado: **Realiza o diagnóstico mas não classifica como grave. \n**Inadequado: **Não realiza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": "A classificação de acidente  leve, moderado ou grave  é fundamental para o  tratamento  e se baseia nos  sinais e sintomas  apresentados pelo paciente. Ver classificação na referência disponibilizada ao final do checklist.*"
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza a conduta terapêutica adequada. **\n(1) Indica soro antiaracnídico, 5 a 10 ampolas (validar esse item se citar soro antiaracnídico e o número de ampolas);\n(2) Indica analgesia endovenosa;\n(3) Limpeza e/ou antissepsia da região afetada; \n(4) Solicita internação em unidade de cuidados intensivos. \n\n**Adequado: **Realiza as quatro ações. \n**Parcialmente adequado: **Realiza de uma a três ações (obrigatoriamente deve incluir o item 1). \n**Inadequado: **Não indica corretamente o item 1 ou não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Acidente leve:   - Analgesia (infiltração anestésica local e/ou analgésicos sistêmicos); - Observação clínica.   Acidente moderado:   - Analgesia (infiltração anestésica local e/ou analgésicos sistêmicos); - Soro antiaracnídico (2 a 4 ampolas); - Internação.  Acidente grave:   - Analgesia (infiltração anestésica local e/ou analgésicos sistêmicos)  - Soro antiaracnídico (5 a 10 ampolas); - Internação em cuidados intensivos."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Orienta sobre prevenção de acidentes com animais peçonhentos. **\n(1) Manter jardins e quintais limpos; \n(2) Usar luvas ou botas; \n(3) Verificar roupas e sapatos antes de usá-los;\n(4) Combater a proliferação de insetos;\n(5) Evitar folhagens densas.\n\n**Adequado: **Orienta ao menos dois itens. \n**Inadequado: **Orienta um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza a notificação de acidente por animais peçonhentos ao SINAN. **\n\n**Adequado: **Realiza. \n**Inadequado: **Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

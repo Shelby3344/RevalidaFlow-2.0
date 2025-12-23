@@ -1,0 +1,121 @@
+{
+  "uid": 1037,
+  "hash": "S1EIvD-t9vANhspZQ56OUXuC",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Lavagem De Ouvido",
+  "definicao": "Cerume é uma condição normal no canal auditivo externo e geralmente confere proteção contra otites agudas. O cerume impactado está presente em aproximadamente 10% das crianças, 5% dos adultos hígidos, 57% dos pacientes idosos e 37% das pessoas com retardo cognitivo. A presença dele é geralmente assintomática, mas, às vezes, pode causar complicações, como perda auditiva, dor ou tonturas. Também pode interferir no exame da membrana timpânica. O tratamento é realizado, principalmente, por meio da remoção mecânica, pelas técnicas de irrigação com solução salina ou remoção manual.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "75.00",
+    "star": 0,
+    "time": 463,
+    "count": 3718
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.\nTipo de atendimento: Ambulatorial. \n\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Sala de procedimentos;\n-Exame Audimétrico.\n\nDescrição do caso: \nVocê realizará o atendimento de Larissa, 25 anos de idade, estudante, sem antecedentes patológicos que consulta queixando-se de audição diminuída no ouvido direito.",
+  "tarefas": "- Solicitar exame físico direcionado à queixa da paciente;\n- Adotar conduta terapeutica pertinente ao caso e verbalizar realização do procedimento necessário; \n- Citar ao menos quatro contraindicações para realização do procedimento; \n- Verbalizar possíveis complicações do procedimento.\n\nAtenção!\nA paciente simulada não deverá ser tocada.",
+  "script_ator": "**Você será o (a) ENFERMEIRO (A) e PACIENTE que auxiliará e responderá as perguntas do (a) médico (a) de acordo ao roteiro. **\n\n**DADOS PESSOAIS: **\n-  Larissa, 25 anos de idade, estudante.\n\n**MOTIVO DE CONSULTA:**\n- Dr (a), eu venho porque sinto que não ouço direito com o ouvido direito e tenho a sensação de que está tapado.\n\n**SE O CANDIDATO REALIZAR QUALQUER PERGUNTA AO PACIENTE REFERENTE À ANAMNESE:**\n- Não consta no script.\n\n**QUANDO O CANDIDATO ESTIVER EXPLICANDO SOBRE O PROCEDIMENTO, REALIZAR AS SEGUINTES PERGUNTAS:**\n- Vai doer doutor (a)?\n- A lavagem de ouvido pode gerar alguma complicação?\n\n**QUANDO O CANDIDATO SOLICITAR OS MATERIAIS, RESPONDER:**\n- Considere disponível.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Otoscopia",
+      "conteudo": "Conduto auditivo direito: Apresenta tampão de cerume impactado. \n\nConduto auditivo esquerdo: Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Cita contraindicações para a remoção do cerume por meio do método de irrigação com solução salina: **\n(1) História de perfuração do tímpano;\n(2) Otite aguda;\n(3) História de cirurgia otológica;\n(4) Paciente não cooperativo.\n\n**Adequado: **Cita as quatro contraindicações. \n**Parcialmente adequado: **Cita duas ou três contraindicações. \n**Inadequado: **Cita uma ou nenhuma contraindicação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Algumas possíveis INDICAÇÕES de remoção do cerume:- Otalgia;- Diminuição da audição;- Dificuldade de realizar otoscopia;- Desconforto auditivo;- Tinnitus (zumbido); - Tontura ou vertigem; - Tosse crônica."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Indica a realização da lavagem de ouvido.**\n\n**Adequado:** Indica. \n**Inadequado:** Não indica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Explica à paciente com linguagem acessível sobre os seguintes aspectos: **\n(1) Como será realizado o procedimento;\n(2) Que o procedimento não deve ocasionar dor OU que pode ocasionar apenas um incômodo;\n(3) Que, apesar de raro, pode haver complicações devido ao procedimento.\n\n**Adequado: **Explica sobre os três aspectos. \n**Parcialmente adequado: **Explica sobre dois aspectos. \n**Inadequado: **Explica sobre um ou nenhum aspecto.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Se a remoção do cerume  não foi satisfatória,  emolientes podem ser utilizados por alguns dias e tentar novamente a remoção. Caso seja ineficaz, sugere-se o  encaminhamento ao especialista.   Opções de emolientes:  à base de água (como trietanolamina) ou à base de óleo."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita os materiais para a realização do procedimento:**\n(1) Campo ou toalha limpa ou compressa;\n(2) Otoscópio;\n(3) Seringa de 20 ml ou maior;\n(4) Cuba redonda;\n(5) Cuba rim;\n(6) Luvas de procedimento;\n(7) Tesoura;\n(8) Cateter agulhado (scalp borboleta);\n(9) Solução salina 0,9% aquecida.\n\n**Adequado: **Solicita todos os itens. \n**Parcialmente adequado: **Solicita seis a oito itens.\n**Inadequado: **Solicita cinco itens ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1",
+        "adequado": " 2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza os passos da remoção do tampão de cerume:**\n(1) Posição do paciente: sentado com a cabeça reta;\n(2) Cortar o scalp para que o tubo fique com aproximadamente 4 cm e o acopla a uma seringa;\n(3) Higienizar as mãos e coloca as luvas de procedimento;\n(4) Coloca a solução aquecida na cuba redonda (ou verbaliza que vai aspirar diretamente do frasco);\n(5) Posicionar o campo, toalha ou compressas no ombro do paciente;\n(6) Posicionar a cuba rim junto à cabeça/pescoço do paciente, logo abaixo da orelha;\n(7) Tracionar o pavilhão auricular para trás e para cima e instila sob pressão a solução salina no conduto auditivo externo.\n\n**Adequado: **Verbaliza seis ou sete itens. \n**Parcialmente adequado: **Verbaliza quatro ou cinco itens.\n**Inadequado: **Verbaliza três ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1",
+        "adequado": " 2"
+      },
+      "dica_teorica": "O procedimento deve ser suspenso  diante das seguintes situações:- Se não houver mais cerume a ser removido;- Insucesso após várias tentativas;- Desistência do paciente;- Dor ou outra intercorrência."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Realiza nova otoscopia após o procedimento.**\n\n**Adequado:** Realiza. \n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza complicações do procedimento:**\n(1) Dor;\n(2) Lesão de pele no conduto auditivo;\n(3) Otite externa;\n(4) Perfuração timpânica;\n(5) Vertigem.\n\n**Adequado: **Verbaliza quatro ou cinco complicações. \n**Parcialmente adequado: **Verbaliza três ou duas complicações. \n**Inadequado: **Verbaliza uma ou nenhuma complicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

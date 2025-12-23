@@ -1,0 +1,222 @@
+{
+  "uid": 1128,
+  "hash": "fl_360nLZvIYRZljEfya7GQA",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "",
+  "color": "#775dd0",
+  "checklist": "Câncer de Testículo",
+  "definicao": "Neoplasia maligna localizada nos testículos, 95% originadas de células germinativas testiculares.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "72.00",
+    "star": 0,
+    "time": 538.5,
+    "count": 5451
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Secundária - Ambulatorial e Hospitalar.\n\nA unidade possui a seguinte infraestrutura:\nLaboratório de análises clínicas;\nSetor de radiologia convencional e ultrassonografia;\nTomografia computadorizada;\nLeitos de internação e centro cirúrgico.\n\nDescrição do caso:\nPaciente, 34 anos, consulta por edema testicular e dor em baixo ventre e períneo.",
+  "tarefas": "1. Realizar anamnese do paciente;\n2. Solicitar e interpretar exame físico;\n3. Estabelecer e comunicar a hipótese diagnóstica;\n4. Verbalizar diagnóstico diferencial (mínimo 2);\n5. Solicitar laboratório e outros exames complementares, se necessário.\n6. Solicitar exame de imagem (máximo 1), só será aceito o primeiro exame verbalizado.\n7. Propor conduta terapêutica;\n8. Dar orientações ao paciente e sanar dúvidas.\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Isaac, 34 anos, solteiro, barbeiro.\n\n**MOTIVO DE CONSULTA:**\n- Dr, estou com dor aqui em baixo da barriga, uma sensação de peso, e parece que um testículo está inchado.\n\n**MOTIVO DE CONSULTA (edema testicular):**\n- **Tempo de evolução:** há 1 semana.\n\n**MOTIVO DE CONSULTA (dor):**\n- **Tempo de evolução**: há 2 meses.\n- **Localização:** pra baixo do umbigo.\n- **Irradiação:** vai até a virilha esquerda.\n- **Característica**: sensação de peso, um incômodo.\n- **Intensidade:** 2/10.\n- **Agravantes e/ou Atenuantes:** nega.\n\n**SINAIS E SINTOMAS ACOMPANHANTES**\n- **Febre:** nega.\n- **Náuseas e Vômitos:** nega.\n- **Perda de peso:** nega.\n- **Astenia/Fadiga:** nega.&nbsp;\n- **Dor óssea:** nega.\n\n**ANTECEDENTES PESSOAIS**\n- **Comorbidades:** nega.\n- **Uso de medicamentos:** nega.\n- **Alergias:** nega.\n- **Cirurgias:** hidrocelectomia aos 3 anos.\n\n**HÁBITOS**\n- **Tabagismo**: sim, 1 maço por dia.\n- **Etilismo:** nega.\n- **Dieta:** equilibrada, como um pouco de tudo.\n- **Prática de exercícios físicos:** 4 vezes por semana, musculação.\n\n**ANTECEDENTES FAMILIARES**\n- Mãe: hipertensa.\n- Pai: câncer de estômago.\n\n**Depois do diagnóstico perguntar:**\nDr (a), eu vou poder ter filhos depois do tratamento?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais Vitais e Exame Físico Geral",
+      "conteudo": "**Sinais vitais:**\n\n- Pressão arterial: 120x80 mmHg;\n\n- Frequência cardíaca: 80 batimentos por minuto;\n\n- Saturação de O2: 98%;\n\n- Temperatura axilar: 36.4° C; \n\n- Frequência respiratória: 14 incursões por minuto.\n\n\n\n**Estado geral: **paciente em bom estado geral, orientado em tempo, espaço e pessoa, normocorado, hidratado, acianótico e anictérico.\n\n**Aparato cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n**Aparato respiratorio:** ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados. \n\n**Aparato abdominal:** abdome plano, flácido, ausência de massa palpável, visceromegalias, indolor à palpação superficial e profunda, ruídos hidroaéreos presentes, descompressão brusca negativa.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1694859438.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Físico da Região Genital",
+      "conteudo": "**Testículo** **esquerdo**: presença de edema testicular, sem sinais e sintomas inflamatórios, massa palpável, de aproximadamente 1,5 cm na porção superointerna testicular, de consistência pétrea, indolor. Ausência de linfonodomegalias.&nbsp;\n**Testículo** **direito**: sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1694859438.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Laboratório Geral",
+      "conteudo": "**Hemograma**\n- **Hemácias**: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n- **Hemoglobina**: 14,2 g/dl (Valor de referência: 14 a 18 mg/dl)\n- **Hematócrito**: 40% (Valor de referência: 39 - 52%)\n\n**Plaquetas**: 279.000 mm/3 (150.000 - 400.000 mm/3)\n\n**Leucograma**:\n- **Leucócitos**: 7.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n- **Neutrófilos**: 65% (Valor de referência: 40 - 70%)\n- **Bastões**: 3% (Valor de referência: 0 - 5%)\n- **Linfócitos**: 25% (Valor de referência: 20 - 50%)\n- **Basófilos**: 1% (Valor de referência: 0 - 2%)\n- **Eosinófilos**: 2% (Valor de referência: 0 - 6%)\n- **Monócitos**: 4% (Valor de referência: 4 - 8%)\n\n**Função renal:**\n**Creatinina**: 0,9 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n**Ureia**: 35 mg/dl (Valor de referência: &lt; 40 mg/dl)\n\n**Ionograma plasmático:**\n**Sódio**: 136 mEq/l (Valor de referência: 135 - 145 mEq/l)\n**K**: 4,5 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\n**Proteína C reativa:** 1 ,2 mg/dl (Valores de referência: &lt; 0,3 mg/dl)",
+      "imagem": "https://app.penserevalida.com/impressos/old/1694859438.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Ultrassom Testicular",
+      "conteudo": "Bolsa escrotal esquerda: testículo esquerdo globoso, com aumento de volume e ecotextura heterogênea. Presença de massa pétrea de 2x1x0.5 cm localizada na porção superointerna testicular;&nbsp;\nBolsa escrotal direita: sem alterações.\n\n**Conclusão**: diagnóstico presuntivo de tumor/neoplasia maligna testicular.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Marcadores Tumorais Séricos",
+      "conteudo": "**BHCG:** sem alterações.\n\n** Alfafetoproteina:** sem alterações.\n\n**LDH:** aumentado.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se; (2) Cumprimenta o paciente simulado.&nbsp;\n\n**Adequado:** realiza ambas ações.\n**Parcialmente adequado:** realiza somente uma ação.\n**Inadequado:** não realiza ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre o motivo de consulta (edema/dor):**\n(1) Tempo de evolução; (2) Localização; (3) Irradiação; (4) Características; (5) Intensidade; (6) Agravantes e/ou Atenuantes.\n\n**Adequado:** pergunta sobre 5 ou 6 itens.\n**Parcialmente adequado:** pergunta sobre 4 itens.\n**Inadequado:** pergunta sobre 3 ou 2 itens,",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Outros sinais ou sintomas que poderiam ter sido abordados: dor testicular aguda secundária ao infarto testicular por crescimento da neoplasia, ginecomastia, hipertireoidismo e sintomas decorrentes a metástases como anorexia, perda de peso, dor óssea, massa cervical, edema de membros etc."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre sinais e sintomas acompanhantes:** (1) Febre; (2) Náuseas/Vômitos; (3) Perda de peso; (4) Astenia/Fadiga.\n\n**Adequado:** pergunta 4 itens.\n**Parcialmente adequado:** pergunta 3 itens.\n**Inadequado:** pergunta 2 ou 1 item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Importante para o diagnóstico diferencial. Lembrar que a orquiepididimite geralmente está acompanhada de sintomas inflamatórios (febre, náuseas, vômitos)."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre antecedentes pessoais e hábitos:** (1) Comorbidades; (2) Uso de Medicamentos; (3) Alergias; (4) Cirurgias; (5) Tabagismo; (6) Etilismo; (7) Dieta; (8) Exercícios físicos.\n\n**Adequado:** pergunta de 6 a 8 itens.\n**Parcialmente adequado:** pergunta 4 ou 5 itens.\n**Inadequado:** pergunta 3 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Lembrar dos fatores de risco para o desenvolvimento de ca de testículo: criptorquidia (principal), histórico familiar de ca de testículo, hipospádia, infecção por HIV. É mito que andar de cavalo, de bicicleta, ter tido trauma local ou ter realizado uma vasectomia são fatores de risco."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta sobre antecedentes familiares.**\n\n**Adequado:** pergunta.\n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. (1) Solicita **exame físico**; (2) Paramenta-se, lava as mãos e coloca luvas.\n\n**Adequado:** realiza ambas ações.\n**Parcialmente adequado:** só solicita o exame físico.\n**Inadequado:** não realiza nenhuma ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita**: (1) Hemograma; (2) Leucograma; (3) Ureia/Creatinina; (4) Ionograma; (5) PCR.\n\n**Adequado:** solicita os 4 exames.\n**Parcialmente adequado:** solicita 2 ou 3 exames.\n**Inadequado:** solicita 1 ou 0 exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita**: (1) Ultrassom testicular; (2) Com doppler.\n\n**Adequado:** solicita os 2 exames.\n**Parcialmente adequado:** solicita somente o ultrassom testicular.\n**Inadequado:** não realiza nenhuma ação.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita marcadores tumorais séricos:** (1) BHCG; (2) Alfafetoproteina; (3) LDH.\n\n**Adequado:** solicita os 3 itens.\n**Parcialmente adequado:** solicita 2 itens.\n**Inadequado:** solicita 1 ou 0 itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Utiliza o protocolo SPIKES.**\n\n**Adequado:** menciona.\n**Parcialmente adequado:** não menciona.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Diagnóstico:** (1) Câncer testicular.\n\n**Adequado:** verbaliza o diagnóstico correto.\n**Inadequado:** não verbaliza ou verbaliza incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "É o tumor mais prevalente na população jovem do sexo masculino entre 15-25 anos de idade. É mais frequente em homens brancos."
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Diagnóstico Diferencial:** (1) Orquite; (2) Epididimite; (3) Torção testicular; (4) Hidrocele; (5) Espermatocele.\n\n**Adequado:** cita 2 diagnósticos diferenciais.\n**Inadequado:** não cita ou cita menos de 2.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.7"
+      },
+      "dica_teorica": "Apesar de ser o tumor mais prevalente na população masculina e jovem o ca de testículo é bem raro, representando cerca de 1% de câncer em homens, por isso, é importante lembrar dos diagnósticos diferenciais, que são muito mais frequentes."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Entra em contato com serviço de oncologia, transferindo o paciente para avaliação e estadiamento. **\n\n**Adequado:** realiza a ação.\n**Inadequado:** não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Sana as dúvidas do paciente.**\n\n**Adequado:** realiza a ação.\n**Inadequado:** não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Realiza a estação em ordem.**\n\n**Adequado:** realiza a ação.\n**Inadequado:** não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

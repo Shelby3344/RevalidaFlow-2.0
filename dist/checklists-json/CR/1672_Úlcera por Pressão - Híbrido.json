@@ -1,0 +1,156 @@
+{
+  "uid": 1672,
+  "hash": "f0d1cf20bdc4c9d288a568a365093eda8d290f39c2e06ea5bd87d2940c65f212-1759408305",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Úlcera por Pressão - Híbrido",
+  "definicao": "A Úlcera por Pressão/Escara trata-se de uma lesão decorrente do contato prolongado entre as partes moles (pele, subcutâneo e musculatura) e ossos com a superfície (colchão e outros).",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "48.50",
+    "star": 0,
+    "time": 555,
+    "count": 214
+  },
+  "cenario": "Nível de atenção: Atenção terciária a saúde.\nTipo de atendimento: Hospitalar.\n\nDescrição do caso:\nVocê é médico em um hospital terciário e está atuando na UTI.\nÉ chamado para avaliar um paciente , Joaquim de 59 anos, que está internado há 40 dias devido a um quadro de sepse de foco pulmonar.\n\nNo momento da avaliação, a equipe de enfermagem relata que o paciente apresenta um quadro de úlcera por pressão caracterizado por lesão em região sacral. \n\nA interação será com a enfermeira da UTI.",
+  "tarefas": "-Realizar anamnese do paciente;\n- Solicitar e interpretar exame físico  e complementares\n- Estabelecer e comunicar a hipótese diagnóstica e sua classificação \n-Verbalizar no mínimo três fatores de riscos;\n-Verbalizar  o plano terapêutico e orientações ao paciente.",
+  "script_ator": "**DADOS PESSOAIS**\n- Enfermeira: Maia\n- Joaquim , 59 anos , aposentado.\n\n**MOTIVO DE CONSULTA**\n- Dr (a) eu solicitei essa avaliação, pois notei que o ferida que o sr. Joaquim apresenta na região do sacro está piorando muito e desde então ele voltou a ter febre.\n\n**TEMPO DE EVOLUÇÃO:** \n -Começou há 3 semanas.\n\n**SOBRE A LESÃO:**\n**-Quantidade:** Uma.\n**-Evolução:** Começou bem pequena e foi progredindo.\n**- Saída de secreção:** Sim, notei que tem saído bastante secreção.\n**- Presença de sangramento:** Nega.\n**- Presença de odor:** Sim, está com um cheiro bem forte.\n**-Dor:** ele não fala quase Dr (a), fica difícil saber se está doendo, mas parece incomodado.\n\n**Sintomas sistêmicos:**\n**- Febre:** Sim, há 3 dias , 38,2°C.\n**- Calafrios:** Sim.\n**-Alterações urinárias e intestinais:** Nega.\n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças crônicas:** Hipertensão e diabetes.\n**-Uso de medicamentos:** Enalapril e Metformina.\n**-Cirurgias prévias:** Nega.\n\n**HÁBITOS:**\n**- Tabagismo:** Nega.\n**-  Etilismo:** Nega.\n**- Alimentação:** Ele está se alimentando por sonda ,Dr (a) \n\n**OBS:** Após o candidato verbalizar o tratamento liberar o **impresso da prescrição medica**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais vitais.",
+      "conteudo": "**Frequência cardíaca:** 105 bpm.\n\n**PA:** 100x65 mmHg.\n\n**FR:** 19 irpm.\n\n**Temperatura axilar:** 38,7°C.\n\n**Saturação de oxigênio:** 97% AA.\n\n**IMC:** 20 kg/m2.\n\n\n\nRegular estado geral, febril, acianótico, anictérico.\n\n\n\n**Abdome:** escavado, ausência de dor à palpação superficial e profunda em todo abdome, sem dor à descompressão brusca. RHA dentro da normalidade.\n\n\n\n**Aparelhos respiratório e cardiovascular:** sem anormalidades.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759407878.ppm"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia da lesão ",
+      "conteudo": "OLHE PARA CÂMERA E VERBALIZE OS ACHADOS.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759408166.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Glicemia capilar",
+      "conteudo": "Glicemia Capilar/Dextro em Jejum: 250 mg/dl.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759408166.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Impresso   de prescrição medica",
+      "conteudo": "Verbalize e preencha a ficha de prescrição médica referentes ao quadro atual.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemácias:** 4 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 13 g/dl (Valor de referência: 12 a 16 mg/dl)\n\n**Hematócrito:** 36% (Valor de referência: 35 - 47%)\n\n**VCM:** 90 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 31 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 33 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 13% (Valor de referência: 11 - 14%)\n\n\n\n**Leucócitos:** 15.340/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 79% (Valor de referência: 40 - 70%)\n\n**Bastões:** 9% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 10% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 0% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 1% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 1% (Valor de referência: 4 - 8%)\n\n\n\n**Proteína C reativa:** 12 mg/dl (Valor de referência: < 0,3 mg/dl)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação**:\n(1) Apresenta-se; e;\n(2) Cumprimenta e identifica adequadamente ao paciente;\n(3) Cumprimenta o enfermeiro perguntando por seu nome.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realiza apenas duas ações ação.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre:**\n(1) Tempo de evolução;\n(2) Evolução;\n(3) Presença de dor;\n(4) Presença de secreções;\n(5) Odor.\n\n**Adequado:** Pergunta os cinco itens.\n**Parcialmente adequado:** Pergunta três ou quatro itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre:** \n(1) Doenças prévias;\n(2) Uso de medicamentos continuo;\n(3) Cirurgias prévias;\n(4) Tabagismo;\n(5) Etilismo.\n\n**Adequado:** Pergunta os cinco itens.\n**Parcialmente adequado:** Pergunta três ou quatro itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita exame físico:** \n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita ectoscopia da lesão e verbaliza os seguintes achados:**\n(1) Lesão em região sacral;\n(2) Lesão extensa, de contornos irregulares;\n(3) Presença de exsudato;\n(4) Áreas de necrose associadas a tecido de granulação.\n\n**Adequado:**  Verbaliza os quatro itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza o diagnóstico de úlcera por pressão estagio 4:** \n\n**Adequado:** Verbaliza o diagnóstico completo.\n**Inadequado:** Não verbaliza Ou verbaliza incompleto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "úlcera por pressão estágio IV (perda total da espessura da pele com exposição de estruturas profundas, podendo alcançar músculo e osso"
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Verbaliza fatores de riscos:** \n(1) Idade avançada;\n(2) Imobilidade;\n(3) Diabetes Mellitus tipo 2;\n(4) Hipertensão Arterial;\n(5) Desnutrição;\n(6) Perda sensorial Ou Demência.\n\n**Adequado:** Verbaliza três ou mais itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza e preenche a prescrição medica para o quadro atual:**\n(1) Mudança de decúbito a cada duas horas e curativo diário;\n(2) Desbridamento cirúrgico Ou remoção de tecido desvitalizado;\n(3) Desbridamento químico Ou Papaína 10%  em áreas de necrose;\n(4) Cultura de secreção;\n(5) Antibióticoterapia endovenosa.\n\n**Adequado:** Verbaliza e preenche os cinco itens.\n**Parcialmente adequado:** Verbaliza e/ou preenche três ou quatro itens.\n**Inadequado:** Verbaliza e/ou preenche dois ou menos itens Ou item algum.\n\n**Obs.: O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.**",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Laboratório:** \n(1) Hemograma;\n(2) PCR;\n(3) Glicemia capilar.\n\n**Adequado:** Solicita os três itens.\n**Inadequado:** Solicita dois ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

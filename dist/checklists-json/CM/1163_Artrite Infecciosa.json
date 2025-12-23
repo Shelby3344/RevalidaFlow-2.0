@@ -1,0 +1,150 @@
+{
+  "uid": 1163,
+  "hash": "SWhvytt46TTjIX9gKeLYWq_F",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Artrite Infecciosa",
+  "definicao": "As artrites sépticas podem ser divididas em gonocócica (causada por Neisseria gonorrhoeae) e não gonocócica (Staphylococcus aureus, S. pyogenes, H. influenzae, Escherichia coli, etc). A infecção, que ocorre nos tecidos sinoviais e periarticulares, constitui uma emergência médica e requer atenção imediata.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "68.00",
+    "star": 0,
+    "time": 595.5,
+    "count": 6899
+  },
+  "cenario": "Local de atuação: Unidade de Pronto Atendimento (UPA).\nTipo de atendimento: Demanda espontânea.\n\nA unidade apresenta a seguinte infraestrutura:\n- Consultórios de atenção médica;\n- Enfermaria;\n- Laboratório de análises clinicas;\n- Serviço de radiologia convencional e tomografia computadorizada;\n- Centro cirúrgico. \n\nDescrição do caso:\nVocê atende um paciente masculino de 40 anos de idade que se queixa de dor no joelho direito.",
+  "tarefas": "- Realizar anamnese do paciente;\n- Solicitar e interpretar exame físico;\n- Solicitar e interpretar exames complementares caso clínico, se necessário;\n- Definir  a principal hipótese diagnóstica;\n- Propor a conduta terapêutica necessária.",
+  "script_ator": "**DADOS PESSOAIS: **\n-  Paulo, 40 anos de idade, mecânico, casado. \n\n**MOTIVO DE CONSULTA: **\n- Estou com muita dor no joelho. \n\n**CARACTERÍSTICAS DA DOR: **\n**- Tempo de evolução: **4 dias. \n**- Localização: **Dói o joelho inteiro. \n**- Intensidade: **Muito forte (8/10). \n**- Progressão: **Começou leve e foi piorando. \n**- Tipo de dor: **Parece que fica latejando. \n**- Irradiação: **Nega. \n**- Fatores de piora: **Caminhar, apoiar o pé ou movimentar o joelho. \n**- Fatores de melhora: **Não. \n**- Episódios anteriores: **Nega. \n**- Outras articulações afetadas: **Nega. \n\n**SINTOMAS ACOMPANHANTES: **\n -Faz 2 dias que estou tendo febre e mal estar, medi a temperatura e estava com 39 graus. \n\n**SE PERGUNTADO POR TRAUMA, CORTES, LESÕES OU PROCEDIMENTOS NA ARTICULAÇÃO: **\n- Aplicaram umas injeções de corticoide no meu joelho há alguns dias porque machuquei jogando bola. Mas parece que não resolveu porque agora está doendo mais ainda. \n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Nega. \n**- Cirurgias: **Nega. \n**- Medicamentos: **Nega. \n**- Alergias:** Nega. \n**- Uso recente de antibióticos: **Nega. \n**- Cartão de vacinas: **Atualizado. \n\n**HÁBITOS:** \n**- Álcool: **Cerveja de vez em quando. \n**- Drogas lícitas: **Nega. \n**- Cigarro: **Nega. \n**- Atividade física: **Jogava bola 3 vezes por semana mas esses dias não estou jogando. \n**- Alimentação: **Variada. \n**- Vida sexual: **Ativa, somente com minha esposa. \n\n**Se o candidato solicitar radiografia OU ultrassonografia de joelho, liberar o IMPRESSO 3.**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 125x70 mmHg \n\n**- Frequência cardíaca:** 107 batimentos por minuto \n\n**- Saturação de O2:** 99% \n\n**- Temperatura axilar:** 39.3° C \n\n**- Frequência respiratória:** 14 incursões por minuto \n\n\n\n**-Estado geral:**\n\nPaciente em regular estado geral, febril, acianótico, anictérico, normocorado e hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**-Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**-Respiratório:**\n\nMurmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**-Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias. \n\n\n\n**-Articulação do joelho:**\n\nSe constata edema, aumento da temperatura local e rubor.\n\nRedução da mobilidade passiva e ativa.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemácias:** 4,8 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n**Hemoglobina:** 17 g/dl (Valor de referência: 14 a 18 g/dl)\n\n**Hematócrito:** 49% (Valor de referência: 39 - 52%)\n\n**VCM:** 93 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 31 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n**RDW:** 12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas:** 285.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucócitos:** 12.480/mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n**Neutrófilos:** 78% (Valor de referência: 40 - 70%)\n\n**Bastões:** 3% (Valor de referência: 0 - 5%)\n\n**Linfócitos:** 12% (Valor de referência: 20 - 50%)\n\n**Basófilos:** 1% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 2% (Valor de referência: 0 - 6%)\n\n**Monócitos:** 4% (Valor de referência: 4 - 8%)\n\n\n\n**Glicemia sérica:** 105 mg/dl\n\n\n\n**Creatinina:** 1 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia:** 19 mg/dl (Valor de referência: < 40 mg/dl) \n\n\n\n**Sódio:** 140 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K:** 4.7 mEq/l (Valor de referência: 3,5 - 5 mEq/l) \n\n\n\n**Proteína C reativa:** 2,3 mg/dl (Valores de referência: < 0,3 mg/dl)\n\n\n\n**Hemocultura:** em processamento.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Radiografia/ecografia do joelho",
+      "conteudo": "**Edema de partes moles;**\n\n**Derrame articular moderado;**\n\n**Ausência de alterações ósseas.**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Artrocentese/ Análise do líquido sinovial",
+      "conteudo": "Líquido de aspecto purulento, com aumento da celularidade a predomínio de neutrófilos. Ausência de cristais de urato monossódico. \n\n\n\n**Tinção de Gram Nicolle:** se observam cocos Gram positivos.\n\n**Cultura do líquido sinovial:** em processamento.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado. \n\n**Adequado:** Realiza as duas ações. \n**Inadequado: **Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga as características da dor: **\n(1) Tempo de evolução;\n(2) Localização;\n(3) Intensidade;\n(4) Tipo de dor;\n(5) Irradiação;\n(6) Fatores de melhora;\n(7) Fatores de piora;\n(8) Progressão;\n(9) Sintomas acompanhantes. \n\n**Adequado: **Investiga ao menos sete características da dor. \n**Parcialmente adequado: **Investiga de quatro a seis características.\n**Inadequado: **Investiga três ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga: **\n(1) Trauma ou corte ou infecção na pele ou procedimentos invasivos na articulação;\n(2) Outras articulações afetadas;\n(3) Episódios anteriores;\n(4) Condutas sexuais de risco OU número de parceiros (as) sexuais OU uso de preservativo;\n(5) Lesões de pele e/ou mucosas;\n(6) Corrimento uretral;\n(7) Uso de drogas injetáveis. \n\n**Adequado: **Investiga ao menos cinco itens. \n**Parcialmente adequado: **Investiga quatro itens. \n**Inadequado: **Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Importante investigar a vida sexual do paciente bem como lesões em pele, mucosas e corrimento uretral (pensando em artrite gonocócica)."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **(1) Solicita exame físico, (2) verbaliza que há a presença de sinais de inflamação ou flogísticos e menciona ao menos dois sinais.**\n\n**Adequado: **Solicita exame físico e VERBALIZA sinais inflamatórios.\n**Parcialmente adequado: **Solicita exame físico mas não verbaliza sinais inflamatórios.\n**Inadequado: **Não solicita exame físico.\n\n**Obs**: serão considerado os seguintes sinais inflamatórios: dor, edema/tumor, eritema/rubor,  aumento da temperatura local/ calor e redução da mobilidade/ perda funcional*",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Sinais e sintomas cardinais da inflamação:  calor, rubor, edema, dor e limitação funcional."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exames laboratoriais:**\n(1) Hemograma;\n(2) PCR e/ou VHS;\n(3) Ureia;\n(4) Creatinina;\n(5) Hemocultura.\n\n**Adequado: **Solicita ao menos quatro itens.\n**Parcialmente adequado:** Solicita ao menos três itens.\n**Inadequado: **Solicita dois ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita radiografia OU ecografia de joelho. **\n\n**Adequado: **Solicita algum dos exames. \n**Inadequado: **Não solicita nenhum exame.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita artrocentese do joelho ou análise do líquido sinovial. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza o diagnóstico de artrite infecciosa/ séptica. **\n\n**Adequado: **Realiza. \n**Inadequado: **Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Outros diagnósticos a considerar:  traumatismo, fratura e artrite gotosa."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Conduta terapêutica: **\n(1) Internação;\n(2) Indica tratamento empírico inicial com Oxacilina OU Vancomicina;\n(3) Aspiração/ drenagem da articulação;\n(4) Analgesia.\n \n**Adequado: **Realiza as quatro ações. \n**Parcialmente adequado: **Realiza duas ou três ações. \n**Inadequado: **Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Ao iniciar um tratamento empírico considerar a  epidemiologia do Staphylococcus aureus. Ajustar o ATB se necessário quando a cultura estiver disponível."
+    }
+  ]
+}

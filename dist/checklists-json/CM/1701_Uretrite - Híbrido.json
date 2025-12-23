@@ -1,0 +1,189 @@
+{
+  "uid": 1701,
+  "hash": "b0c136d9d7c9e4a6d5b1612352ccedb70654be83360c5e0228be55c4158d269f-1760635333",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Uretrite - Híbrido",
+  "definicao": "uretrite é uma síndrome clínica caracterizada por inflamação da mucosa uretral, geralmente de origem infecciosa, e mais comumente transmitida por via sexual. Essa inflamação pode comprometer parcial ou totalmente o epitélio da uretra, levando a manifestações locais como disúria, ardor miccional, secreção uretral e, em alguns casos, prurido ou desconforto perineal.\n\nDo ponto de vista etiológico, a uretrite é classificada em dois grandes grupos:\n\n1. Uretrite gonocócica, causada pela Neisseria gonorrhoeae, e\n\n\n2. Uretrite não gonocócica, provocada predominantemente por Chlamydia trachomatis e, em menor proporção, Mycoplasma genitalium, Ureaplasma urealyticum e Trichomonas vaginalis.\n\n\n\nA infecção se estabelece, na maioria dos casos, por contato direto com secreções genitais contaminadas durante o ato sexual, envolvendo relações vaginais, anais ou orais desprotegidas. Após a inoculação, o agente infeccioso adere e invade as células epiteliais uretrais, desencadeando uma resposta inflamatória local.\n\nClinicamente, a uretrite se manifesta tipicamente por secreção uretral purulenta ou mucopurulenta (podendo variar conforme o agente etiológico), ardor ao urinar e, em casos mais discretos, apenas leve desconforto uretral. Em homens, é importante distinguir o quadro de outras causas de disúria, como prostatite ou cistite, que apresentam apresentações clínicas e manejos diferentes.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "77.50",
+    "star": 0,
+    "time": 547.5,
+    "count": 221
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas.\n\nDescrição do caso:\nPaciente do sexo masculino, 28 anos, previamente saudável, procura a unidade básica de saúde referindo ardor ao urinar.",
+  "tarefas": "- Realizar anamnese detalhada;\n- Solicitar e interpretar exame físico;\n- Solicitar  exames complementares;\n- Verbalizar e escrever hipótese diagnóstica.\n- Verbalizar e escrever a prescrição medicamentosa ao paciente; \n-  Realizar orientações de prevenção.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR O EXAME FÍSICO , VERBALIZE!\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.*",
+  "script_ator": "**DADOS PESSOAIS:**\n- Italo, 28 anos, solteiro, motorista de aplicativo.\n\n**MOTIVO DE CONSULTA:**\n-Bom dia, doutor. Há uns três dias comecei a sentir ardor quando urino e percebi uma secreção saindo pela uretra.\n\n**CARACTERÍSTICAS DA LEUCORREIA:**\n- **Tempo de evolução:** Há uns três dias.\n- **Cor:** É meio amarelada, parece pus mesmo.\n- **Cheiro:** Tem um cheiro muito forte.\n- **Quantidade:** Muita quantidade, principalmente pela manhã quando acordo.\n- **Episódios anteriores:** Primeira vez.\n\n**SINTOMAS E SINAIS ASSOCIADOS:**\n**- Polaciúria:**Nega;\n**- Hematúria:** Nega;\n**- Febre:** Nega;\n**- Dor lombar:** Nega.\n**- Lesões ou úlceras genitais:** Nega.\n** - Prurido:** Nega.\n\n**ANTECEDENTES PESSOAIS:**\n- **Comorbidades:** Nega.\n- **Cirurgias:** Nega.\n- **Medicamentos:** Nega uso de fármacos.\n- **Alergias:** Desconhece alergias.\n- **Cartão de vacina:** Atualizado.\n- **Vida sexual:** Ativa, com diferentes parceiras.\n-**Orientação sexual:**Heterossexual. \n- **Preservativo:** Uso irregular de preservativo.\n**-  Antecedente de IST:** Nega.\n\n**HÁBITOS:**\n- **Bebida:** Bebo socialmente aos finais de semana.\n- **Tabagismo:** Nega.\n- **Drogas:** Nega.\n**-Alimentação:** Por conta do meu trabalho acabo comendo muita comida de rua, pães, pastéis, pizza e fast-food.\n**-Atividade física:** Sedentário.\n\n**DÚVIDAS:**\n- Doutor(a), eu pegeui isso através de relações sexuais?\n\n**INSTRUÇÕES AO EXAMINADOR/ ENTREGA DE IMPRESSOS:**\n-Se o canditado verbalizar** EXAME FÍSICO ,LIBERAR IMPRESSOS 1.**\n- Se o canditado verbalizar **PESQUISA DIRETA DA SECREÇÃO URETRAL OU BACTERIOSCOPIA OU GRAM, LIBERAR IMPRESSO 2**.\n- Se o canditado verbalizar **SOROLOGIAS, LIBERAR IMPRESSO IMPRESSO 3.**\n- Se o canditado verbalizar ** HIPÓTESE DIAGNÓSTICA, LIBERAR IMPRESSO IMPRESSO 4.**\n- Se o canditado verbalizar ** TRATAMENTO, LIBERAR IMPRESSO IMPRESSO 5.**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico ",
+      "conteudo": "**Sinais vitais:**\n\n**Pressão arterial:** 130x85 mmHg.\n\n**Frequência cardíaca:** 78 bpm.\n\n**Frequência respiratória:** 16 irpm.\n\n**Temperatura:** 36,5°C.\n\n**Saturação de O₂:** 98%.\n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, consciente, orientado no tempo e espaço, afebril, sem sinais de desconforto.\n\n\n\n**Geniturinário:**\n\n**Pênis:** Presença de secreção uretral purulenta amarelada, visível no meato, saindo espontaneamente.\n\n\n\n**Meato uretral:** Hiperemiado, discretamente edemaciado.\n\n\n\n**Testículos e epidídimos:** Normotróficos, sem dor, induração ou aumento de volume.\n\n\n\n**Linfonodos inguinais:** Discretamente aumentados, móveis e indolores.",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1760646424.png"
+    },
+    {
+      "idx": 2,
+      "titulo": " Pesquisa direta da secreção uretral (bacterioscopia / Gram)",
+      "conteudo": "Presença de diplococos gram-negativos intracelulares.",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1760646424.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Sorologias",
+      "conteudo": "Coletado / Em processamento.",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1760646424.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Diagnóstico ",
+      "conteudo": "Verbalize e escreva a principal **hipótese diagnóstica** e sua **etiologia.**",
+      "imagem": "https://app.penserevalida.com/impressos/1867/1760646451.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "Prenscrição medicamentosa",
+      "conteudo": "Verbalize e preencha corretamente a **prescrição medicamentosa** pertinente ao quadro do paciente, mencionando **nome do medicamento, via, dose e intervalo de administração.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **. Apresentação: **\n(1) Apresenta-se adequadamente;\n(2) Cumprimenta e identifica o paciente simulado, falando seu nome. \n\n**Adequado: **Realiza as duas ações. \n**Parcialmente adequado:** Realiza apenas uma ação. \n**Inadequado:**Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **. Pergunta sobre a leucorreia: **\n(1) Tempo de evolução; \n(2) Cor/aspecto;\n(3) Cheiro;\n(4) Quantidade; \n(5) Episódios anteriores.\n\n**Adequado: **Pergunta quatro ou cinco características. \n**Parcialmente adequado: **Pergunta duas ou três características. \n**Inadequado: **Pergunta uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga sintomas acompanhantes:**\n(1) Polaciúria;\n(2) Hematúria;\n(3) Febre;\n(4) Dor lombar;\n(5) Lesões ou úlceras genitais;\n(6) Prurido.\n\n**Adequado: **Investiga quatro ou mais itens. \n**Parcialmente adequado: **Investiga dois ou três itens. \n**Inadequado: **Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais:**\n(1) Doenças crônicas;\n(2) Medicação de uso contínuo;\n(3) Alergia medicamentosa;\n(4) Cirurgias prévias;\n(5) Antecedentes familiares;\n(6) Hábitos tóxicos;\n(7) Hábitos alimentares;\n(8) Prática de atividade física.\n\n**Adequado:** Investiga as oito ações;\n**Parcialmente:** Investiga cinco a sete ações;\n**Inadequado:** Investiga quatro ou não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga atividade sexual:**\n(1) Parcerias;\n(2) Orientação sexual;\n(3) Uso de preservativo;\n(4) Antecedente de IST.\n\n**Adequado: **Investiga os  quatro itens. \n**Parcialmente adequado: **Investiga dois ou três itens. \n**Inadequado: **Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exame físico genital. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita pesquisa direta da secreção uretral ou bacterioscopia ou Gram.**\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita exames para IST, ou teste rápido, para:**\n(1) HIV; \n(2) Sífilis; \n(3) Hepatite B; e,\n(4) Hepatite C.  \n\n**Adequado**: Solicita os quatro itens. \n**Parcialmente adequado**: Solicita três itens.\n**Inadequado**: Solicita um ou dois itens OU não solicita item algum.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza e escreve o diagnóstico de: Uretrite gonocócica:**\n\n**Adequado:** Verbaliza e escreve o diagnóstico corretamente.\n**Parcialmente adequado:** Verbaliza ou  escreve o diagnóstico de Uretrite somente.\n**Inadequado:** Não verbaliza e nem escreve o diagnóstico.\n\n**Obs.: O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza e prescreve a terapia adequada ao paciente: **\n(1) Ceftriaxona 500 mg IM dose única;\n(2) Azitromicina 1 g VO dose única;\n\n**Adequado: **Verbaliza e escreve os dois itens corretamente.\n**Parcialmente adequado: **Verbaliza e/ou escreve um item corretamente OU os dois itens incompletos. \n**Inadequado: **Não verbaliza nem escreve itens algum.\n\n**A prescrição deve conter nome, dose e via do medicamento.**\n\n**Obs:** O item só será pontuado se verbalizado, escrito de maneira legível e mostrado para a câmera.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11.  **Recomenda o uso de preservativos nas relações sexuais.** \n\n**Adequado**: Recomenda. \n**Inadequado**: Não recomenda.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Responde/Explica o paciente sobre o contágio sexual:**\nQue a infecção pode ser uma infecção sexualmente transmissível.\n\n**Adequado**: Responde/Explica. \n**Inadequado**: Não responde/explica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "uid": 1116,
+  "hash": "I6H5Y5TM9oyPcRyNOlK9Qla2",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Planejamento Familiar – Laqueadura",
+  "definicao": "A laqueadura tubária, também conhecida como ligadura tubária, ligadura detrompas e anticoncepção cirúrgica voluntária, é um método de esterilização femininaque consiste em algum procedimento cirúrgico de oclusão da trompa de Falópio, com a finalidade de interromper a sua permeabilidade e, consequentemente, a função do órgão, com fim exclusivamente contraceptivo.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "72.50",
+    "star": 0,
+    "time": 491,
+    "count": 5003
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Atenção Secundária.\nTipo de atendimento: Ambulatorial e Hospitalar.\n\nA unidade possui a seguinte infraestrutura: \nSetor de radiologia convencional e ultrassonografia; \n-Laboratório de análises clínicas; \n-Leitos de internação e centro cirúrgico. \n\nDescrição do caso: \nVocê atenderá uma paciente, solicitando realizar uma laqueadura tubária.",
+  "tarefas": "- Realizar anamnese da paciente;\n- Se julgar necessário, solicitar e interpretar exame físico;\n- Se julgar necessário, solicitar e interpretar exames complementares;\n- Dar orientações à paciente e sanar dúvidas.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Melissa, 38 anos, estudante, casada. \n\n**MOTIVO DA CONSULTA:**\n-Dr (a) eu gostaria de realizar uma laqueadura para não precisar tomar mais anticoncepcional. \n\n**ANTECEDENTES GINECOLÓGICOS:**\n- **DUM**: Há 10 dias.\n**- Menarca:** 14 anos.\n**- Sexarca: **17 anos.\n**- Atividade sexual:** Sou casada.\n**- Uso de anticonceptivos: **Uso anticoncepcional oral combinado desde que comecei a ter relações sexuais. \n**- Preservativo:** Não uso preservativo, só me relaciono com o meu esposo.\n**- Antecedente de ITS:** Já tratei gonorreia há dois anos, quando descobri que meu marido me traia. \n\n**ANTECEDENTES OBSTÉTRICOS:**\n**- Desejo de gestar:** Nunca tive vontade de ser mãe, tenho muito medo de engravidar.\n**- Gestação:** 0 **Parto:** 0 **Aborto:** 0 \n\n**ANTECEDENTES PESSOAIS:**\n**- Comorbidades:** Nega.\n**- Uso de medicamentos:** Nega.\n**- Alergias:** Nega.\n**- Cirurgias:** Nega.\n**- Vacinas:** Estão completas. \n\n**HÁBITOS:**\n**- Tabagismo:** Nega.\n**- Etilismo:** Nega. \n**- Drogas ilícitas:** Nega.\n**- Dieta: **Saudável. \n**- Prática de exercícios físicos:** Cinco vezes na semana. \n\n**ANTECEDENTES FAMILIARES:**\n**- Mãe:** Nega.\n**- Pai:** Nega.\n\n**DÚVIDAS:**\n- Qualquer mulher pode realizar esse procedimento?\n- Meu esposo não está de acordo com a laqueadura, e disse que não vai assinar nenhum documento. Isso pode me atrapalhar no procedimento?\n- Minha amiga está grávida e a médica que faz o pré-natal dela disse que ela não poderia fazer a laqueadura no momento do parto, que deveria esperar. É verdade? \n- Como é esse procedimento? vão me cortar muito? qual é a técnica utilizada?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n**- Pressão arterial:** 110x80 mmHg\n\n**- Frequência cardíaca: **83 batimentos por minuto\n\n**- Frequência respiratória:** 16 incursões por minuto\n\n**- Saturação de O2:** 97%\n\n**- Temperatura axilar:** 36.4° C\n\n\n\n**Estado Geral:** \n\nPaciente em bom estado geral, orientada em tempo, espaço e pessoa, corada, hidratada, acianótica e anictérica.\n\n\n\n**Cardiovascular:** \n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:** \n\nAusculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n\n\n**Abdominal:** \n\nAbdome plano, flácido, indolor a palpação, sem massa palpável, RHA preservados, timpânico a percussão, sem sinais de ascite.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.** **Apresentação:** \n(1) Identifica-se; \n(2) Cumprimenta a paciente simulada. \n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.250"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2**. **Postura:**\n(1) Mantém postura acolhedora; \n(2) Sem fazer julgamentos ou tentar interferir na escolha da paciente. \n\n**Adequado:** Realiza ambas ações.\n**Inadequado:** Realiza apenas uma das ações ou tenta interferir na escolha da paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3.** **Pergunta sobre antecedentes ginecológicos:**\n(1) DUM;\n(2) Menarca;\n(3) Sexarca; \n(4) Parceria sexual; \n(5) Uso de anticonceptivos/Preservativo;\n(6) Antecedente de ITS;\n\n**Adequado:** Investiga cinco ou mais antecedentes ginecológicos. \n**Parcialmente adequado:** Investiga de dois a quatro antecedentes ginecológicos.\n**Inadequado:** Investiga apenas um ou não investiga nenhum antecedente ginecológico corretamente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4.** **Pergunta sobre antecedentes obstétricos:**\n(1) Desejo de gestar;\n(2) Gestações prévias; \n(3) Partos; \n(4) Abortos; \n\n**Adequado:** Investiga os quatro antecedentes obstétricos.\n**Parcialmente adequado:** Investiga dois ou três antecedentes obstétricos.\n**Inadequado:** Investiga apenas um ou não investiga nenhum antecedente obstétrico.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5**. **Solicita exame físico e verbaliza como normal.**\n\n**Adequado:** Realiza ambas ações.\n**Parcialmente adequado:** Realiza apenas uma das ações.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6.** **Informa que a idade para realizar a ligadura tubária é 21 anos ou mais.** \n\n**Adequado:** Informa corretamente a idade.\n**Inadequado:** Não informa a idade ou informa idade errada (não considerar se citar 25 anos).",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Informa que não é obrigatório ter filhos para realizar a laqueadura.**\n\n**Adequado:** Informa.\n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8.** **Informa que não é necessário o consentimento do cônjugue para a realização da laqueadura.**\n\n**Adequado:** Informa. \n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9**. **Informa que agora pode sim realizar a laqueadura no momento do parto/cesárea.**\n\n**Adequado:** Informa.\n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Paciente deve informar e assinar 60 dias antes do parto o consentimento informado."
+    },
+    {
+      "idx": 10,
+      "descricao": "**10.** **Informa que a laqueadura é considerado um método definitivo, e que a paciente deve estar segura de sua decisão.**\n\n**Adequado:** Informa. \n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11.** **Informa que a laqueadura não previne de doenças sexualmente transmissíveis e que deve se proteger quanto a isso com uso de preservativo.**\n\n**Adequado:** Informa e indica uso de preservativo.\n**Parcialmente adequado:** Informa mas não prescreve o uso de preservativo.\n**Inadequado:** Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza as possíveis técnicas utilizadas no procedimento:**\n(1) Minilaparotomia; \n(2) Colpotomia;\n(3) Laparoscopia transumbilical.\n\n**Adequado:** Verbaliza duas técnicas.\n**Parcialmente adequado: **Verbaliza apenas uma técnica. \n**Inadequado:** Não verbaliza nenhuma técnica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.625",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "Minilaparotomia: Por meio de pequena incisão cirúrgica abdominal transversa (3-5 cm), que é feita acima da linha dos pelos pubianos. Cada trompa é ligada e seccionada, ou bloqueada com um grampo ou anel. Colpotomia: Pode ser anterior (entrada pelo espaço vésico-uterino) ou posterior (entrada pelo espaço de Douglas), geralmente utilizada quando a mulher se submete a um procedimento cirúrgico por via vaginal. Laparoscopia transumbilical: Pode ser realizada em nível ambulatorial, com anestesia local e sedação leve. Uma pequena incisão (2 cm) é feita logo abaixo da cicatriz umbilical, por meio da qual se insere o laparoscópio. Cada trompa é bloqueada com um grampo, um anel ou por eletrocoagulação."
+    }
+  ]
+}

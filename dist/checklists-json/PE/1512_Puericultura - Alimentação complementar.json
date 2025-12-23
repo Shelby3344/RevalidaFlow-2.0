@@ -1,0 +1,228 @@
+{
+  "uid": 1512,
+  "hash": "b59c72838739a44394613acd8ae21a38340ecfe641d1ba90a88607ab63647bef-1745253372",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Puericultura - Alimentação complementar",
+  "definicao": "A consulta de puericultura é essencial para garantir o crescimento e desenvolvimento saudáveis da criança. Nessa fase, a introdução da alimentação complementar é uma etapa crucial que deve ser bem orientada aos pais ou cuidadores, juntamente com a atualização do calendário vacinal e a reposição de vitaminas, se necessário.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "53.50",
+    "star": 0,
+    "time": 539.5,
+    "count": 1708
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nVocê é médico(a) da Unidade Básica de Saúde realiza atendimento à paciente Bárbara, que compareceu à consulta de puericultura acompanhada de sua filha, Maitê.",
+  "tarefas": "- Realizar anamnese completa dirigida à mãe;\n- Solicitar o exame físico geral indicando os parâmetros de relevância para avaliação;\n- Verificar o crescimento e o desenvolvimento, plotar nos gráficos e verbalizar em qual escore Z o lactente se encontra, destacando o que é considerado normal para a idade;\n- Solicitar exames laboratoriais se julgar necessário;\n- Informar o correto diagnóstico;\n- Propor a conduta e orientar quanto ao seguimento adequado do lactente;\n-Sanar as dúvidas maternas.",
+  "script_ator": "**DADOS DA MÃE:**\n- Bárbara, 29 anos, casada.\n\n**DADOS DA CRIANÇA:**\n- Maitê, 5 meses.\n\n**MOTIVO DE CONSULTA:**\n- Dra., trouxe a Maitê para a consulta de rotina.\n\n**QUALQUER SINAL E SINTOMA:**\n-Minha filha é super saudável doutor(a).\n\n**ALERGIAS:**\n-Nega.\n\n**MEDICAÇÕES EM USO:**\n- Faz uso de ferro desde os três meses e Vitamina D doutor(a).\n\n**COMORBIDADES:**\n-Nega.\n\n**PRÉ-NATAL:**\n-Fiz 8 consultas de pré-natal, tomei todas as vacinas e fiz as suplementações necessárias.\n\n**PARTO:**\n- O parto foi normal com 40 semanas, não tive nenhum tipo de problema.\n\n**EXAMES DE TRIAGEM NEONATAL:**\n-Fizemos todos que foram solicitados.\n\n**CADERNETA DA CRIANÇA E VACINAL:**\n-Deixei na recepção.\n\n**CRESCIMENTO E DESENVOLVIMENTO:**\n-Até a última consulta estava tudo normal.\n\n**AMAMENTAÇÃO:**\n-Ela mama diariamente sem nenhum tipo de problema, nunca precisou de nenhum tipo de formula ou algo assim.\n\n**DÚVIDAS:**\n**- Pergunta 1:** Está tudo bem com o crescimento dela doutor(a)?\n**- Pergunta 2:** Doutor(a) vou ter que voltar a trabalhar agora quando ela completar 6 meses, como eu faço em relação a amamentação, guardar o leite?\n**- Pergunta 3:** Quais alimentos vou poder oferecer para ela a partir dos 6 meses, e eu vi que é melhor bater no liquidificador para ela conseguir engolir, é isso mesmo?\n**- Pergunta 4:** Quais vacinas ela vai precisar receber hoje e com 6 meses?\n\n**DEMAIS QUESTIONAMENTOS:**\n-Não consta.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**\n\n-FC: 120 bpm\n\n-FR: 45 ipm\n\n-PA: 90 x 65 mmHg\n\n-Saturação: 98%\n\n\n\n- Peso: 7,5 kg\n\n- Comprimento: 65 cm\n\n- Perímetro cefálico: 42 cm\n\n- Frequência cardíaca: 120 bpm\n\n- Temperatura: 36,7°C\n\n\n\n**Estado Geral:** Bom estado geral, ativa e responsiva, pele íntegra, sem sinais de desidratação ou desnutrição. Desenvolvimento motor e cognitivo dentro dos padrões esperados para a idade.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1745250148.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "GRÁFICOS OMS",
+      "conteudo": "ALTURA X IDADE",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1745250214.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "GRÁFICOS OMS",
+      "conteudo": "PERÍMETRO CEFÁLICO X IDADE",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1745250181.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "GRÁFICOS OMS",
+      "conteudo": "PESO X IDADE",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1745250345.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "GRÁFICO OMS",
+      "conteudo": "IMC X IDADE",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "CADERNETA DE VACINAÇÃO",
+      "conteudo": "**AO NASCER:** \n\n- BCG\n\n- HEPATITE B\n\n\n\n**2 MESES:**\n\n- PENTAVALENTE\n\n-PNEUMOCÓCICA\n\n- VIP\n\n- ROTAVIRUS\n\n\n\n**3 MESES:**\n\n- MENINGOCÓCICA\n\n\n\n**4 MESES:**\n\n- PENTAVALENTE\n\n-PNEUMOCÓCICA\n\n- VIP\n\n- ROTAVIRUS",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre sinais e sintomas:**\n(1) Febre;\n(2) Irritabilidade ou letargia ou choro;\n(3) Tosse ou rinorreia ou conjuntivite ou coriza;\n(4) Diarreia ou constipação. \n\n**Adequado:** Pergunta sobre três ou quatro itens.\n**Parcialmente adequado:** Pergunta sobre dois itens.\n**Inadequado:** Pergunta um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona quanto à gestação / antecedentes gestacionais:**\n(1) Intercorrências no pré-natal;\n(2) Idade gestacional;\n(3) Condições perinatais;\n(4) Via do parto;\n(5) Testes de triagem neonatal.\n\n**Adequado:** Questiona quatro ou cinco itens.\n**Parcialmente adequado:** Questiona dois ou três itens.\n**Inadequado:** Questiona um ou  item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre a saúde geral do bebê:**\n(1) Alimentação;\n(2) Ambiente familiar;\n(3) Ambiente social;\n(4) Hábitos fisiológicos ou catarse E diurese;\n(5) Uso de telas;\n(6) Rede de apoio;\n(7) Sono.\n\n**Adequado:** Pergunta seis ou sete itens.\n**Parcialmente adequado:** Pergunta quatro ou cinco itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita caderneta de saúde da criança.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exame físico e dados antropométricos citando:**\n(1) Peso;\n(2) Altura;\n(3) Perímetro cefálico.\n\n**Adequado:** Solicita exame físico citando os três itens.\n**Parcialmente adequado:** Solicita exame físico citando dois itens ou verbaliza somente dados antropométricos.\n**Inadequado:** Não solicita exame físico ou cita somente um item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita gráficos da OMS para plotagem e interpreta adequadamente:**\n(1) Peso x Idade: Adequado;\n(2) Perímetro cefálico x Idade: Adequado;\n(3) IMC x Idade: Adequado;\n(4) Altura x Idade: Adequado.\n\n\n**Adequado:** Solicita e interpreta os quatro gráficos adequadamente.\n**Parcialmente adequado:** Solicita e interpreta três gráficos adequadamente.\n**Inadequado:** Não Solicita ou interpreta dois ou menos gráficos adequadamente.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza sobre o desenvolvimento do bebê:**\n(1) Explica que o desenvolvimento está adequado para a idade;\n(2) Reforça a importância de estímulos adequados.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza um item.\n**Inadequado:** Não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Orienta sobre próximas vacinas:**\n(1) Meningocócica com 5 meses;\n(2) Pentavalente com 6 meses;\n(3) VIP com 6 meses;\n(4) Influenza com 6 meses;\n(5) Covid com 6 meses.\n\n**Adequado:** Orienta adequadamente as cinco vacinas.\n**Parcialmente adequado:**  Orienta adequadamente três ou quatro vacinas.\n**Inadequado:** Orienta adequadamente duas ou nenhuma vacina.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Orienta sobre suplementação de vitaminas:**\n(1) Manter suplementação de Ferro 1mg/kg;\n(2) Manter suplementação de Vitamina D 400 UI/dia;\n(3) Iniciar aos 6 meses megadoses de Vitamina A 100.000 U.\n\n**Adequado:** Orienta adequadamente os três itens.\n**Parcialmente adequado:**  Orienta adequadamente dois itens.\n**Inadequado:** Orienta adequadamente um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Orienta sobre a alimentação da criança:**\n(1) Seguir com o aleitamento materno até os dois anos ou mais;\n(2) Evitar liquidificador e papinhas pastosas;\n(3) Utilizar os grandes grupos alimentares por refeição: cereais + leguminosas + proteínas + verduras e legumes;\n(4) Evitar sal;\n(5) Não oferecer açucar e alimentos ultraprocessador;\n(6) Não oferecer mel.\n\n**Adequado:** Orienta cinco ou seis itens;\n**Parcialmente adequado:** Orienta três ou quatro itens;\n**Inadequado:** Orienta dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Orienta sobre evitar uso de telas:**\n\n**Adequado:** Orienta corretamente.\n**Inadequado:** Não orienta ou orienta de forma inadequada.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.65"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Orienta sobre acondicionamento do leite materno:**\n(1) Temperatura ambiente: Até 2 horas;\n(2) Geladeira: Até 12 horas;\n(3) Congelador: Até 15 dias.\n\n**Adequado:** Orienta os três itens;\n**Parcialmente adequado:** Orienta dois itens;\n**Inadequado:** Orienta um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta que o leite materno:**\n(1) Para ser descongelado, o frasco deverá ser retirado do congelador ou freezer e colocado em banho-maria, na água quente, com o fogo já desligado;\n(2) Deve ser oferecido para a criança em um copinho, xícara ou colher.\n\n**Adequado:** Orienta os dois itens adequadamente.\n**Inadequado:** Orienta um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Finaliza consulta com acolhimento e reforça a importância do retorno:**\n\n**Adequado:** Finaliza com acolhimento e reforça o retorno.\n**Inadequado:** Não finaliza adequadamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "uid": 1208,
+  "hash": "8V1EnoHolzNIsXd6cDpvPt8o",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Baixa Estatura Constitucional",
+  "definicao": "A BE (Baixa Estatura) é uma queixa familiar e um sinal clínico frequente nos ambulatórios de pediatria, fazendo parte das síndromes de crescimento linear.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "59.00",
+    "star": 0,
+    "time": 522.5,
+    "count": 6871
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.\nTipo de atendimento: ambulatorial.\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação.\n\nDescrição do caso:\nVocê é o médico de uma UBS e realizará atendimento a um paciente masculino de sete ano e seis meses, acompanhado de sua mãe, que refere achar seu filho pequeno para idade comparado com os outros colegas da mesma idade.",
+  "tarefas": "- Realizar anamnese completa dirigida à mãe;\n- Solicitar o exame físico geral indicando os parâmetros de relevância para avaliação;\n- Verificar o crescimento e o desenvolvimento, plotar nos gráficos e verbalizar em qual escore Z o lactente se encontra, destacando o que é considerado normal para a idade;\n- Solicitar exames laboratoriais e de imagem, se julgar necessário;\n- Informar o correto diagnóstico;\n- Propor a conduta e orientar quanto ao seguimento adequado do lactente.\n\nO PARTICIPANTE PODERÁ UTILIZAR A CALCULADORA NESTA ESTAÇÃO",
+  "script_ator": "**DADOS DA MÃE:**\n- Fabiana, 32 anos, casada, cozinheira.\n\n**DADOS DA CRIANÇA:**\n- Henrique, sete anos e seis meses.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a), trouxe meu filho, porque estou achando que ele está muito baixinho comparado aos colegas de classe. Noto que todos estão mais altos que ele, e estou preocupada com isso.\n\n**DETALHES DO MOTIVO DE CONSULTA:**\n**- Tempo desde que percebeu/sempre foi baixo:** Eu sempre o notei menor que os demais, porém agora a altura dele está discrepante se comparado aos amigos.\n\n**SINAIS E SINTOMAS ASSOCIADOS:**\n- Ele não sente nada, Dr.(a) eu que realmente estou incomodada com a relação do tamanho dele e o dos demais.\n\n**ANTECEDENTES PESSOAIS, ALERGIAS, INTERNAÇÕES, CIRURGIAS OU MEDICAÇÕES DE USO CONTÍNUO:**\n- Não, Dr(a), ele nunca teve nada.\n\n**ANTECEDENTES FAMILIARES:**\n- **Comorbidades:** Não Dr.(a), todos somos saudáveis na nossa família.\n**- Ao ser questionado sobre altura dos pais**: Liberar impresso do \"alvo genético\".\n\n**CADERNETA DA CRIANÇA E VACINAL:**\n- Liberar o impresso.\n\n**ATIVIDADE FÍSICA**\n- Ele não pratica atividade física, gosta muito de jogar videogame e ficar no celular.\n\n**ALIMENTAÇÃO**\n- Tem dias que ele até come bem, mas sempre prefere salgadinhos, macarrão instantâneo, refrigerantes.\n\n**SONO**\n- Então doutor(a), como ele fica muito no celular e jogando videogame, quando eu percebo, ele vai dormir umas 3 ou 4 horas da manhã, mas acorda tarde então compensa por ter dormido esse horário né?\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.\n\n**DÚVIDAS:**\n**- Pergunta 1:** Eu ouvi dizer que o sono é importante para o crescimento, por quê?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE SAUDE DA CRIANÇA",
+      "conteudo": "**Dados da gestação e parto:** Pré-natal realizado sem alterações materno-fetais. Parto via vaginal 39,2 semanas sem intercorrências.\n\n\n\n**DADOS DE RECÉM-NASCIDO:** \n\n**Peso do nascimento:** 3.275g;\n\n**Comprimento:** 50 cm;\n\n**Perímetro cefálico:** 35 cm;\n\n**APGAR**: 9/10/10.\n\n**Amamentado na 1ª hora.**\n\n**Triagens neonatais:** Realizadas e sem alterações.\n\n\n\n**CARTÃO DE VACINAS:** Completo e atualizado.",
+      "imagem": "https://app.penserevalida.com/impressos/04/Captura-de-Tela-2838-3.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "TABELAS DE CRESCIMENTO",
+      "conteudo": "**ESTATURA X IDADE **\n\nConsidere as marcações em vermelho como os pontos realizados nas consultas anteriores.\n\n\n\n**- ESTATURA: **110 cm.\n\n**- PESO: **25kgs.\n\n\n\n**ATENÇÃO: UTILIZE ESSA TABELA PARA INTRODUZIR NOVOS DADOS SE FOR NECESSÁRIO.**",
+      "imagem": "https://app.penserevalida.com/impressos/04/Captura-de-Tela-2840.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "TABELAS DE CRESCIMENTO",
+      "conteudo": "**PESO X IDADE **\n\nConsidere as marcações em vermelho como os pontos realizados nas consultas anteriores.\n\n\n\n**- ESTATURA: **110 cm.\n\n**- PESO: **25kgs.\n\n\n\n**ATENÇÃO: UTILIZE ESSA TABELA PARA INTRODUZIR NOVOS DADOS SE FOR NECESSÁRIO.**",
+      "imagem": "https://app.penserevalida.com/impressos/04/Captura-de-Tela-2839.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "TABELAS DE CRESCIMENTO",
+      "conteudo": "**IMC X IDADE **\n\nConsidere as marcações em vermelho como os pontos realizados nas consultas anteriores.\n\n**ATENÇÃO: UTILIZE ESSA TABELA PARA INTRODUZIR NOVOS DADOS SE FOR NECESSÁRIO**",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "ALTURA DOS PAIS / ALVO GENÉTICO",
+      "conteudo": "**ALTURA DA MÃE:** 1,54m.\n\n**ALTURA DO PAI:** 1,67m.\n\n\n\n**REALIZE O CÁLCULO PARA ESTATURA ALVO DESTA CRIANÇA**.",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Exame físico geral:**\n\n\n\n**Neurológico:** lúcido, vigil, orientado em tempo-espaço-pessoa, Glasgow 15/15, ausência de rigidez de nuca, sem sinais focais e manobras de irritação meníngea negativas.\n\n\n\n**Cabeça e pescoço:** normocefálico, implantação pilosa de acordo com a idade, sem lesões na pele e mucosas.\n\n\n\n**Aparelho cardiovascular:** bulhas rítmicas e normofonéticas, em dois tempos, sem sopro.\n\n\n\n**Aparelho respiratório:** eupneico. Murmúrio vesicular fisiológico, sem ruídos adventícios.\n\n\n\n**Abdome:** plano, normotenso, sem visceromegalias, não doloroso à palpação, sem sinais de irritação peritoneal, ruídos hidroaéreos presentes e normais.\n\n\n\n**Sinais vitais:**\n\n**-  FC**: 90 bpm;\n\n**-  FR:** 18 irpm;\n\n**-  PA:** 100 × 60 mmHg (considerar adequada para a idade);\n\n**-  SatO2:** 98% (ar ambiente);\n\n**-  Temperatura:** 36,1º C",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "PESO, ALTURA E IMC",
+      "conteudo": "**- ESTATURA: **110 cm.\n\n**- PESO: **25kgs.\n\n**-IMC: Calcular.**",
+      "imagem": null
+    },
+    {
+      "idx": 8,
+      "titulo": "RADIOGRAFIA DE MÃO E PUNHO ESQUERDO",
+      "conteudo": "**Laudo:** Radiografia de mão e punho esquerdo -  Idade óssea de 5 anos;",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre a saúde geral:**\n(1) Alimentação;\n(2) Ambiente familiar;\n(3) Ambiente social;\n(4) Hábitos fisiológicos ou catarse E diurese;\n(5) Uso de telas;\n(6) Rede de apoio;\n(7) Sono.\n\n**Adequado:** Pergunta seis ou sete itens.\n**Parcialmente adequado:** Pergunta quatro ou cinco itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre:**\n(1) Antecedentes pessoais;\n(2) Alergias;\n(3) Antecedentes perinatais;\n(4) Crescimento e desenvolvimento;\n(5) Uso de medicações.\n(6) Frequência em escolinhas.\n\n**Adequado:** Questiona de cinco ou seis itens.\n**Parcialmente adequado:** Questiona três ou quatro itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita:**\n(1) Caderneta de vacina;\n(2) Caderneta da criança.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga sobre a altura dos pais OU alvo genético.**\n\n**Adequado:** Investiga.\n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza alvo genético de 167 centímetros OU 1,67 metros.**\n\n**Adequado:** Verbaliza. \n**Inadequado:** Não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "“Atenção: o cálculo do alvo genético deve ser realizado em centímetros (cm) e não em metros (m). Utilize sempre a altura dos pais expressa em cm para evitar erros.”"
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exame físico e verbaliza necessidade de:**\n(1) Peso;\n(2) Estatura; e\n(3) IMC.\n\n**Adequado:** Verbaliza todos os itens.\n**Inadequado:** Não verbaliza algum dos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Realiza e verbaliza o resultado do cálculo do IMC (20,66).**\n\n**Adequado:** Realiza e verbaliza de maneira correta e completa.\n**Inadequado:** Não realiza ou verbaliza de maneira incompleta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza a plotagem da estatura no gráfico e verbaliza:**\n(1) Altura se estatura entre (-2 e -3);\n(2) Baixo para idade OU baixa estatura para idade;\n(2) É considerado adequado para idade entre (-2 e +2).\n\n**Adequado:** Realiza e verbaliza dois ou três itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Realiza a plotagem no gráfico e verbaliza:**\n(1) IMC se encontra entre (+2  e +3);\n(2) Obesidade;\n(2) É considerado adequado para idade entre (-2 e +1).\n\n**Adequado:** Realiza e verbaliza dois ou três itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Realiza a plotagem do peso no gráfico e verbaliza:**\n(1) Peso se encontra entre (0 e +1);\n(2) É considerado adequado para idade entre (-2 e +2).\n\n**Adequado:** Realiza e verbaliza os dois itens de maneira adequada.\n**Parcialmente adequado:** Realiza e verbaliza somente um item.\n**Inadequado:** Não realiza ou verbaliza de maneira inadequada.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita Radiografia de Mão e Punho esquerdo.**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Não há consenso em relação aos exames laboratoriais que devem ser solicitados de rotina na investigação de pacientes com BE.Estes devem ser direcionados de acordo com o quadro clínico sugestivo. No entanto, no monitoramento do crescimento, a realização de radiografia de mão e punho para avaliar a idade óssea é importante, pois permite avaliar a potencial chance de recuperação estatural."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza a mãe diagnóstico de Baixa Estatura Constitucional.**\n\n**Adequado:** Verbaliza. \n**Inadequado:** Não verbaliza.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "A baixa estatura (BE) é definida como estatura abaixo de -2DP (desvios padrão) em relação à média da população de referência.A idade esquelética correlaciona-se bem com o estágio de desenvolvimento e pode ser útil para prever a altura adulta em adolescentes de maturação precoce ou tardia. Na baixa estatura familiar, a idade óssea é normal (comparável à idade cronológica), enquanto o atraso constitucional, a baixa estatura endocrinológica e a desnutrição podem estar associados a um atraso na idade óssea comparável à idade da altura."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta mãe: **\n(1) Sobre a benignidade do quadro;\n(2) Sobre a necessidade de seguir o acompanhamento da criança em unidade de saúde/UBS/ESF/pediatra.\n\n\n**Adequado:** Orienta os dois itens.\n**Parcialmente adequado:** Orienta um item.\n**Inadequado:** Não orienta item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Orienta sobre:**\n(1) A importância do sono;\n(2) para a liberação do hormônio do crescimento;\n(3) Alimentação saudável;\n(4) Prática de exercícios físicos.\n\n**Adequado:** Orienta três a quatro itens.\n**Parcialmente adequado:** Orienta dois itens.\n**Inadequado:** Orienta um item ou não orienta item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Além da estatura e da velocidade de crescimento, a estatura da criança também deve ser avaliada de acordo com seu padrão genético (estatura-alvo). O cálculo da estatura alvo deve ser feito da seguinte maneira (altura em centímetros):Menino: (altura materna + altura paterna + 13 dividido por 2) = X ± 5cmMenina: altura materna + altura paterna - 13 dividido por 2) = X ± 5cm"
+    }
+  ]
+}

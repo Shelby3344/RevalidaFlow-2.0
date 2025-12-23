@@ -1,0 +1,221 @@
+{
+  "uid": 1050,
+  "hash": "bMjFNqnmJm63krlkPV1Do5I3",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Hepatite A",
+  "definicao": "A Hepatite A é uma infecção causada pelo vírus A (HAV) da hepatite, também conhecida como “hepatite infecciosa”. Na maioria dos casos, a hepatite A é uma doença de caráter benigno, contudo o curso sintomático e a letalidade aumentam com a idade.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "71.00",
+    "star": 0,
+    "time": 561,
+    "count": 5480
+  },
+  "cenario": "Local de atuação: \nUnidade de Atenção Primária. \n\nA unidade conta com a seguinte infraestrutura: \nSala de atenção médica; \nSala de vacinas; \nLaboratório de análises clínicas.\n\nDescrição do caso: \nPedro, 32 anos, busca atenção médica por quadro de fadiga, mal-estar, febre, dores musculares.",
+  "tarefas": "1. Realizar anamnese do paciente;\n2. Solicitar e interpretar exame físico;\n3. Estabelecer e comunicar a hipótese diagnóstica;\n4. Solicitar exames complementares, se necessário, descrevendo os achados;\n5. Propor conduta terapêutica;\n6. Dar orientações ao paciente e sanar dúvidas.",
+  "script_ator": "Pedro, 32 anos, solteiro, digital influencer. \n\n**Motivo de consulta:**\nOlá Dr(a) não estou me sentindo bem a 3 dias já, então pedi para passar com você aqui no postinho.\n\n**Sintomas atuais:** \nEstou com muito mal estar, dor muscular e febre \n\nSobre a FEBRE\n**Temperatura da febre:** \n38,5 graus \n**Horário do dia que a febre é mais prevalente:** \nNão consegui perceber um padrão \n**Tempo de evolução da febre:** \nTem três dias\n**NEGAR CALAFRIOS**\n\n**Inicio das dores musculares:** \nTem três dias \n**Dor em alguma parte específica do corpo:** \nDói meu corpo todo \n\n**Sintomas acompanhantes:** \nHoje acordei com dor de barriga e logo minhas fezes ficaram moles \n**Número de evacuações:** \nDesde que acordei já fui no banheiro 3 vezes \n\nANTECEDENTES PESSOAIS E FAMILIARES\n**Uso de tóxicos:** \nBebo, fumo e uso cocaína nos fim de semana \n**Vida sexual ativa:** \nSim, geralmente tenho relações sexuais quase que diariamente, mas tem aproximadamente uns 20 dias da minha última relação\n**Parceiros sexuais:**\nSou o tipo de pessoa que se atrai pela personalidade e não por um sexo em específico\n**Tipo de prática sexual:** \nFaço todo tipo de prática Dr(a) anal, vaginal, oral, sexo individual e grupal\n**Uso de preservativos nas relações:** \nEu não sou muito adepto não para ser sincero, gosto de ter pele na pele\n**Status vacinal:** \nNossa Dr(a) eu sei que estou com muitas vacinas atrasadas\n\n**NEGAR **\nDOENÇAS CRÔNICAS, \nUSO CRÔNICO DE MEDICAÇÕES, \nALERGIAS\n\nEPIDEMIOLOGIA\n**Situação epidemiológica:** Olha eu acho que não conheço ninguém que esteja com esses sintomas, mas antes de tudo isso começar eu tive relação sexual com uma pessoa nova que tinha um aspecto meio doente, não sei dizer bem, parecia meio amarelo, mas depois não tive mais contato com ele. \n\n** DÚVIDAS:**\n**PERGUNTA 1** Dr(a) existe alguma medida de prevenção para essa doença? Pode me dizer ao menos 4?\n**PERGUNTA 2** Dr(a) agora que sabemos que eu peguei essa doença, eu ainda assim preciso tomar vacina para ela?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- **Pressão arterial:** 100x70 mmHg\n\n- **Frequência cardíaca: **110 batimentos por minuto\n\n- **Frequência respiratória:** 16 incursões por minuto\n\n- **Saturação de O2:** 99%\n\n- **Temperatura axilar:** 38.4° C\n\n\n\n**Estado Geral:** paciente em regular estado geral, orientado em tempo, espaço e pessoa, corado, hidratado, acianótico e anictérico.\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n**Respiratório:** ausculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados.\n\n**Abdominal:** abdome plano, indolor a palpação, sem massa palpável, RHA aumentados, sem sinais de ascite.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": " IgM anti-HAV ",
+      "conteudo": "**Resultado:** Reagente (Valor de referência: Não reagente)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Sorologia ITS",
+      "conteudo": "**Teste rápido para HIV:** Resultado: não reagente (valor de referência: não reagente)\n\n**Teste rápido para sífilis:** Resultado: não reagente (valor de referência: não reagente)\n\n**Teste rápido para hepatite B:** Resultado: não reagente (valor de referência: não reagente)\n\n**Teste rápido para hepatite C:** Resultado: não reagente (valor de referência: não reagente)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) cumprimenta o paciente simulado;\n(2) identifica-se; \n(3) dirige-se ao paciente simulado pelo nome, pelo menos uma vez; \n(4) pergunta sobre o motivo da consulta; \n(5) ouve com atenção o relato inicial do paciente. \n\n**Adequado:** realiza as cinco ações. \n**Parcialmente adequado:** realiza quatro, três ou duas ações. \n**Inadequado:** realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Contato visual e linguagem não verbal: **\n(1) estabelece contato visual; \n(2) mantém linguagem não verbal adequada. \n\n**Adequado:** realiza as duas ações. \n**Parcialmente adequado:** realiza apenas uma das ações. \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta, ao longo da consulta, a fala do paciente simulado sem interrompê-lo. **\n\n**Adequado:** realiza a ação. \n**Inadequado:** não realiza a ação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4**. Investiga **\n(1) doenças crônicas\n(2) uso de medicação crônica\n(3) hábitos tóxicos \n(4) pratica de atividade física \n\n**Adequado:** Investiga os quatro itens\n**Parcialmente adequado:** Investiga de dois a três itens\n**Inadequado:** Investiga somente um item OU não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. Realiza **anamnese**, perguntando sobre as características da febre e sintomas associados:\n(1) tempo de início de febre; \n(2) temperatura; \n(3) persistência ou intermitência. \n\n**Adequado: **pergunta três características. \n**Parcialmente adequado:** pergunta duas características. \n**Inadequado: **pergunta uma característica OU não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga **\n(1) Dores musculares \n(2) Anorexia \n(3) Náuseas e vômitos\n(4) Dor abdominal \n(5) Alterações urinarias \n(6) Alterações nas fezes \n(7) Alteração na coloração da pele\n\n**Adequado:** Investiga de seis a sete itens\n**Parcialmente adequado:** Investiga de dois a cinco itens\n**Inadequado:** Investiga somente um item OU não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga sobre a vida sexual do paciente simulado**\n(1) Número de parceiros (as);\n(2) Via de sexo \n(3) Uso de preservativos\n(4) Prática sexual com novos parceiros nos últimos 30 dias \n(5) Prática sexual sob o uso de substancias \n\n**Adequado:** Investiga de quatro a cinco itens\n**Parcialmente adequado:** Investiga de dois a três itens\n**Inadequado:** Investiga somente um item OU não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga **\n(1) Situação epidemiológica \n(2) Status vacinal\n\n**Adequado:** Investiga os dois itens\n**Parcialmente adequado:** Investiga somente um item\n**Inadequado:** Não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.55"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita o exame físico**\n\n**Adequado:** Solicita\n**Inadequado:** Não solicita",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita **\n(1) IgM anti-HAV \n(2) Teste rápido para HIV \n(3) Teste rápido para Siflis \n(4) Teste rápido para Hepatite B \n(5) Teste rápido para Hepatite C\n\n**Adequado:** Solicita os cinco itens\n**Parcialmente adequado:** Solicita somente quatro itens\n**Inadequado:** Solicita três ou menos itens",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza o diagnóstico de Infecção recente por vírus da Hepatite A **\n\n**Adequado:** Verbaliza\n**Inadequado:** Não verbaliza",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Prescreve **\n(1) Tratamento ambulatorial\n(2) Antitérmico \n(3) Analgesia \n(4) Pautas de alarme para caso de sintomas de desidratação\n\n**Adequado:** Prescreve os quatro itens\n**Parcialmente adequado:** Prescreve de dois a três itens\n**Inadequado:** Prescreve somente um item OU não prescreve nenhum",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "A hospitalização está indicada apenas nos casos de insuficiência hepática aguda"
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Orienta o paciente simulado sobre o uso de preservativos**\n\n**Adequado:** Orienta\n**Inadequado:** Não orienta",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Verbaliza possíveis medidas de prevenção para a Hepatite A**\n(1) Lavar as mãos (incluindo após o uso do sanitário, trocar fraldas e antes do preparo de alimentos);\n(2) Lavar com água tratada, clorada ou fervida, os alimentos que são consumidos crus, deixando-os de molho por 30 minutos;\n(3) Cozinhar bem os alimentos antes de consumi-los, principalmente mariscos, frutos do mar e peixes;\n(4) Lavar adequadamente pratos, copos, talheres e mamadeiras;\n(5) Usar instalações sanitárias;\n(6) No caso de creches, pré-escolas, lanchonetes, restaurantes e instituições fechadas, adotar medidas rigorosas de higiene, tais como a desinfecção de objetos, bancadas e chão utilizando hipoclorito de sódio a 2,5% ou água sanitária.\n(7) Não tomar banho ou brincar perto de valões, riachos, chafarizes, enchentes ou próximo de onde haja esgoto;\n(8) Evitar a construção de fossas próximas a poços e nascentes de rios;\n(9) Usar preservativos e higienização das mãos, genitália, períneo e região anal antes e após as relações sexuais.\n\n**Adequado:** Verbaliza quatro ou mais medidas de prevenção \n**Parcialmente adequado:** Verbaliza de uma a três medidas de prevenção\n**Inadequado:** Não verbaliza nenhuma medida de prevenção",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Informa ao paciente simulado que caso consiga se recuperar da infecção irá adquirir imunidade duradoura contra o HAV**\n\n**Adequado:** Informa\n**Inadequado:** Não informa",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.45"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Notifica ao SINAN.**\n\n**Adequado:** Notifica.\n**Inadequado:** Não notifica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Notificar no Sistema de Informação de Agravos de Notificação (Sinan), utilizando a Ficha de Investigação das Hepatites Virais;"
+    }
+  ]
+}

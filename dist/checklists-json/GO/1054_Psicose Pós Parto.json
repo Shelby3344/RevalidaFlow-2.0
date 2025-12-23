@@ -1,0 +1,238 @@
+{
+  "uid": 1054,
+  "hash": "6uhHnmj13sk9S6ehlFjLc48e",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Psicose Pós Parto",
+  "definicao": "Trata-se de uma doença psiquiátrica em que a mãe apresenta sintomas como: delírios e alucinações, insônia, agitação, confusão mental e raiva. Pode ter relação com o transtorno bipolar e oscila entre a indiferença e a agressão, entre outros sintomas.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "66.00",
+    "star": 0,
+    "time": 510,
+    "count": 3968
+  },
+  "cenario": "Local de atuação: Unidade de Atenção Secundária - Ambulatorial e Hospitalar. \n\nA unidade possui a seguinte infraestrutura: \nSala de atenção médica; \nLaboratório de análises clinicas; \nLeitos de internação; \nApoio psiquiátrico disponível para avaliação de saúde mental; \nCAPS \n\nDescrição do caso: \nLarissa, 24 anos é trazida por seu esposo a unidade saúde por quadro de agitação",
+  "tarefas": "1. Realizar a anamnese indireta\n2. Solicitar e interpretar exame físico \n3. Solicitar exames complementares, se necessário, descrevendo os achados;\n4. Estabelecer e comunicar a hipótese diagnóstica;\n5. Propor conduta terapêutica;\n\nATENÇÃO! O INTERROGATÓRIO DEVERÁ SER REALIZADO DE FORMA INDIRETA.",
+  "script_ator": "**Nome da paciente:** \nLarissa, 24 anos, puérpera \n**Nome do esposo:** \nMateus, 22 anos, ajudante de obras\n\n**Motivo da consulta:** \nDr(a) minha esposa não está bem, nosso primeiro filho nasceu tem 5 dias e ela ao invés de estar feliz e sendo boa mãe esta parecendo uma louca \n\nSobre o MOTIVO DE CONSULTA\n**Caso o candidato pergunte o motivo que faz pensar que ela parece uma louca, responder:** \nEla não liga para o bebe, faz pouco caso, deixa chorar, vejo que esta muito irritada e as vezes não parece nem que é ela mesma, mescla momentos em que fala muito por momentos em que se mantém em silêncio profundo e se quer me olha nos olhos\n\n**Caso o candidato pergunte por outros filhos, responder:** \nÉ nosso primeiro filho \n\n**Tentativa de causar dano para o bebe ou para si mesma:** \nEssa madrugada o bebe chorou muito e ela surtou, ficou gritando assim: \"faz ele parar ou eu faço\", isso me deixou muito assustado porque eu acho que o bebe só estava com fome, mas ela não queria dar o peito \n\n**Via de parto:** \nEla teve um parto normal, mas foi meio traumático porque o bebe ficou com o ombro preso, ela sentia muita dor e não aceitaram dar anestesia, ela teve que aguentar tudo\n\n**Doenças psiquiátricas na paciente simulada:** \nEla ia no psicólogo desde nova e estava tomando uns remédios antes de engravidar, mas eu nunca perguntei sobre isso, mas trouxe uma das receitas que ela tinha em casa\n\n**Alucinações/ pensamentos irreais:** \nEla é meio espiritual, e chegou a comentar que via um anjo preto no quarto, mas achei que era coisa da religião dela \n\n**Alimentação da paciente:** \nNão vejo ela comer\n\n**Caso o candidato pergunte pela relação do casal, tentando investigar sobre violência doméstica, responder:** \nDr(a) todo casal tem problemas\n\n**Negar uso de substâncias tóxicas**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RECEITA",
+      "conteudo": "@name Meirelles da Costa\n\nRG xx.xxx.xxx.x\n\n\n\nOlanzapina ---------5 mg -------- 2 caixas\n\n01 comprimido a cada 12 horas \n\n\n\nDiagnóstico: Transtorno bipolar \n\n\n\nDr Revalida INEP",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Físico",
+      "conteudo": "**Pressão Arteiral**: 120/80\n\n**Frequência Cardíaca**: 140 BPM \n\n**Temperatura axilar:** 39,4ºC\n\n\n\n**Cabeça e pescoço:** Pupilas reativas, simétricas e midriáticas;\n\n**Tórax:** Boa entrada bilateral de ar (pouca colaboração por parte da paciente).\n\n**Mama esquerda:** Aumentada de tamanho, dor intensa à palpação, endurecimento localizado, com aumento de temperatura e eritema local. \n\n**Mama direita:** Sem alterações.\n\n**Abdome:** Depressível, indolor, ruídos hidroaéreos presentes.\n\n**Neurológico:** Alerta, não compreende nem efetua ordens. Fala incoerente, sem foco neurológico aparente.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Avaliação de saúde mental",
+      "conteudo": "Quadro de vários dias de evolução caracterizado por discurso de conteúdo místico delirante, excitação psicomotora, insônia, verborragia, mutismo e confusão.\n\n\n\nNega alimentar-se em um período de três dias e nega alimentar com peito a seu filho. \n\n\n\nO interrogatório se realiza com o esposo devido a paciente presentar mutismo.\n\nEle refere que o gatilho poderia ser o nascimento do filho, que aparentemente nasceu frente a um trabalho de parto muito doloroso.\n\n\n\nAo exame mental, se presenta alerta, porém permanece com os olhos fechados e em mutismo, por momentos levanta o braço e aponta para uma parede vazia.\n\nSe constata rigidez de membros superiores e inferiores e imitação involuntária de movimento.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Exame Laboratorial",
+      "conteudo": "**Hemograma**\n\n- **Hemácias:** 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3)\n\n- **Hemoglobina: **11 g/dl (Valor de referência: 12 a 18 mg/dl)\n\n- **Hematócrito:** 33,5% (Valor de referência: 39 - 52%)\n\n- **VCM: **93 fL (Valor de referência: 80 a 100 fL)\n\n- **HCM: **31 pg (Valor de referência: 26 - 33 pg)\n\n- **CHCM: **32 g/dl (Valor de referência: 30 - 34 g/dl)\n\n- **RDW CV: **12% (Valor de referência: 11 - 14%)\n\n\n\n**Plaquetas: **324.000 mm/3 (150.000 - 400.000 mm/3)\n\n\n\n**Leucograma:**\n\n- **Leucócitos**: 13.090 /mm3 (Valor de referência: 4.000 - 10.000/mm3)\n\n- **Neutrófilos: **65% (Valor de referência: 40 - 70%)\n\n- **Bastões: **3% (Valor de referência: 0 - 5%)\n\n- **Linfócitos: **25% (Valor de referência: 20 - 50%)\n\n- **Basófilos: **1% (Valor de referência: 0 - 2%)\n\n- **Eosinófilos: **2% (Valor de referência: 0 - 6%)\n\n- **Monócitos: **4% (Valor de referência: 4 - 8%)\n\n\n\n**Função renal:**\n\n**Creatinina: **0,7 mg/dL (Valor de referência (0,7 - 1,1 mg/dl)\n\n**Ureia: **18 mg/dl (Valor de referência: < 40 mg/dl)\n\n\n\n**Ionograma plasmático:**\n\n**Sódio: **138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\n**K: **3,4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\n**Cálcio: **9 mg/dl (Valor de referência: 8,7 - 10,2 mg/dl)\n\n**Cloruro: **102 mEq/l (Valor de referência: 102 - 110 mEq/l)\n\n\n\n**Glicemia ao azar:** 98 mg/dl (Valor de referência: < 140 mg/dl)\n\n\n\n**Função tireoidiana:**\n\n**TSH:** 3 mU/l (Valor de referência: 0,4 - 4,5 mU/l)\n\n**T3: **110 ng/dl (Valor de referência: 80 - 180 ng/dl)\n\n**T4 livre: **1 ng/dl (Valor de referência: 0,7 - 1,8 ng/dl)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1.**Apresentação: **\nApresenta-se (1),\npergunta o nome da paciente (2) e \npergunta o nome do acompanhante(3)\n\n**Adequado:** realiza as três ações.\n**Inadequado:** não realiza nenhuma das ações ou realiza apenas uma ou duas das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga de forma aberta o motivo de consulta**\n\n**Adequado:** Investiga\n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Avalia o contexto do parto: via de parto, tempo de internação, intercorrências na maternidade, outros fatores associados **\n\n**Adequado: **Avalia duas ou mais condições\n**Parcialmente adequado:** Avalia apenas uma condição \n**Inadequado:** Não avalia o contexto do parto",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4**. Investiga tentativa de causar auto dano, dano para o bebe ou para terceiros**\n\n**Adequado:** Investiga\n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Investiga problemas na mama e na amamentação**\n\n**Adequado:** Investiga\n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga doenças psiquiátricas**\n\n**Adequado:** Investiga\n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga alucinações/ pensamentos irreais**\n\n**Adequado:** Investiga\n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga possíveis fatores de risco para a evolução do quadro:**\n(1)Histórico de depressão;\n(2)Falta de apoio da família, parceiro e amigos;\n(3)Estresse, problemas financeiros ou familiares;\n(4)Falta de planejamento da gravidez;\n(5)Limitações físicas anteriores, durante ou após o parto;\n(6)Transtorno bipolar;\n(7)Histórico familiar de depressão ou outros transtornos mentais;\n(8)História de desordem disfórica pré-menstrual (PMDD);\n(9)Violência doméstica.\n\n**Adequado:** Investiga de seis a nove itens\n**Parcialmente adequado:** Investiga de dois a cinco itens\n**Inadequado:** Investiga somente um item OU não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9.** Solicita exame físico**\n\n**Adequado:** Solicita\n**Inadequado:** Não solicita",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita avaliação de saúde mental**\n\n**Adequado:** Solicita\n**Inadequado:** Não solicita",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita exames laboratoriais **\n(1) Hemograma\n(2) Sódio \n(3) Potássio \n(4) Cálcio\n(5) Ureia \n(6) Creatinina\n(7) Função tireoide \n(8) Glicemia\n\n**Adequado:** Solicita de sete a oito exames laboratoriais \n**Parcialmente adequado:** Solicita de dois a seis exames laboratoriais\n**Inadequado:** Solicita somente um exame laboratorial ou não solicita nenhum",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Após uma história clinica minuciosa e um exame físico completo, tais exames laboratoriais iniciais ajudam a excluir causas orgânicas da psicose puerperal"
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Diagnostica a paciente com psicose pós parto e mastite em mama esquerda**\n\n**Adequado:** Diagnostica a paciente adequadamente;\n**Parcialmente adequado:** Diagnostica somente a psicose pós parto.\n**Inadequado:** Não diagnostica adequadamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.85",
+        "adequado": "1.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Solicita internação da paciente **\n\n**Adequado:** Solicita\n**Inadequado:** Não solicita",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Manejo da psicose**\n**Prescreve **\n(1) Antidepressivos OU antipsicóticos OU estabilizadores de humor \n(2) Acompanhamento com psicólogo e psiquiatra\n\n**Adequado:** Prescreve os dois itens\n**Parcialmente adequado:** Prescreve somente um dos itens\n**Inadequado:** Não prescreve nenhum item",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Contraindica a amamentação **\n\n**Adequado:** Contraindica\n**Inadequado:** Não contraindica",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Psicose puerperal é uma das poucas contraindicações absolutas à amamentação e o ideal é que mães sintomáticas não fiquem sozinha com seus filhos."
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Manejo da mama**\n**Prescreve**\n(1) Esvaziamento da mama\n(2) Antitérmico\n(3) Antibióticoterapia\n\n**Adequado:** Prescreve dois ou três itens\n**Parcialmente adequado:** Prescreve somente um dos itens\n**Inadequado:** Não prescreve nenhum item",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Encaminha o caso para Centros de Atenção Psicossocial (Caps)**\n\n**Adequado:** Encaminha\n**Inadequado:** Não encaminha",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "uid": 1251,
+  "hash": "RvnSKBYXlHm9J7ADaFR4gyfu",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "1",
+  "color": "#ff4a64",
+  "checklist": "Placenta Prévia",
+  "definicao": "Placenta prévia é definida como a placenta que se implanta total ou parcialmente no segmento inferior do útero, a partir da 22ª semana de gestação. A prevalência geral de placenta prévia é de 5,2 por 1.000 gestações (IC 95%: 4,5 a 5,9) e tem aumentado com a maior realização de operações cesarianas",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "60.00",
+    "star": 0,
+    "time": 587,
+    "count": 6877
+  },
+  "cenario": "Local de atuação\nUnidade de Atenção Primária. \n\nA unidade possui a seguinte infraestrutura: \nlaboratório de análises clínicas; \nsetor de diagnóstico de imagem: aparelhos de ecografia e exames radiológicos convencionais (Rx). \n\nDescrição do caso\nPaciente feminina, 35 anos, secundigesta, com 36 semanas e 3 dias de idade gestacional, é trazida à maternidade por seu esposo devido a sangramento vaginal de 1 dia de evolução.",
+  "tarefas": "Realize o atendimento;\nSolicite exames laboratoriais, caso necessário\nSolicite exames de imagem (MAXIMO 2) \nVerbalize hipótese diagnóstica \nVerbalize diagnósticos diferenciais (MÍNIMO 2) \nIndique conduta terapêutica\nCite fatores de risco para o diagnóstico principal (MINIMO 3)",
+  "script_ator": "Carla, 35 anos, casada, G2P0A0C1\n\n**Motivo de consulta:** \nOi Dr(a), eu vim hoje por coisa da cabeça do meu marido, eu fui fazer xixi e percebi que tinha um pouco de sangue na calcinha, falei para ele que deve ser porque estou no final da gestação mas ele insistiu em me trazer aqui.\n\nMOTIVO DE CONSULTA\n**Tempo do sangramento:** \nPercebi esse sangue a mais ou menos 2 horas, mas segue tendo sangue na calcinha\n**Quantidade:**\né pouca quantidade\n**Cor:**\nvermelho vivo\n**Dor abdominal:**\nnão sinto nenhuma dor \n**Episódios prévios de sangramento:** \njá é a quinta vez que tenho sangue na calcinha durante a gravidez, mas sempre para sozinho o sangramento, por isso estou dizendo que meu esposo se acalme, mas ele é muito neurótico \n**Traumas:** \nNão, eu sou tratada como uma princesa por conta da gravidez, não bati em nada não\n\n\n**Movimentos fetais:** \nEu percebi que o meu bebe esta se movimentando menos, mas é normal já que esta bem apertado aqui dentro de mim né ?\n\n**Controle pré- natal:** \nvenho fazendo tudo certinho Dr(a) \n\n**NEGAR **\nfebre\nperda de liquido \n\nANTECEDENTES PESSOAIS E GINECOOBSTÉTRICOS\n- Idade Gestacional:** 37 semanas.\n\n**NEGAR**\ndoença crônica\nuso de medicação \nalergia**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Fisico",
+      "conteudo": "**Sinais Vitais**\n\n**Pressão arterial: **110 x 70 mmHg \n\n**Frequência cardíaca:** 100 bpm \n\n**Frequência respiratória: **20 irpm \n\n**Saturação de Oxigênio:** 97%\n\n**Temperatura axilar:** 36,5 ºC \n\n\n\n**Ectoscopia:** Bom estado geral, hipocorada (2 /4 ), hidratada, acianótica, anictérica, afebril ao toque.\n\n**Sistema Respiratório:** MV bilateralmente, sem ruídos adventícios.\n\n**Sistema Cardiovascular: **Regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n**Abdome:** gravídico, normotenso, normotimpânico, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes. Sem visceromegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/11/1744707138.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Físico ginecológico/ obstétrico",
+      "conteudo": "**Altura uterina: **35 cm. \n\n**Tônus uterino:** normal\n\n**BCF:** 138 bpm, rítmico.\n\n**Exame especular:** presença de pequena quantidade de sangue vermelho vivo se exteriorizando pelo orifício externo do colo. Paredes vaginais íntegras.",
+      "imagem": "https://app.penserevalida.com/impressos/11/1744707138.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "USG ",
+      "conteudo": "A borda inferior da placenta dista 14,9 mm do orifício interno do colo",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:** cumprimenta e se apresenta à paciente simulada.\n\n**Adequado:** cumprimenta a paciente simulada e se apresenta.\n**Parcialmente adequado:** realiza apenas uma das atividades. \n**Inadequado:** não realiza nenhuma das duas atividades",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga história reprodutiva, questionando:**\n(1) gestações prévias;\n(2) partos; e \n(3) abortos.\n\n**Adequado:** Investiga história reprodutiva da paciente questionando os três itens \n**Inadequado:** Investiga história reprodutiva da paciente sem questionar os três itens OU não investiga história reprodutiva da paciente",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta:**\n(1) se está realizando os controles pré-natais; e \n(2) solicita o cartão/caderneta da gestante.\n\n**Adequado:** Realiza as duas tarefas \n**Parcialmente adequado:** Realiza somente uma das tarefas \n**Inadequado:** Não realiza nenhuma das tarefas",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4.** Solicita permissão para realizar exame físico (1), verbaliza a necessidade de calçar luvas(2) e solicita presença de um(a) auxiliar na sala(3).**\n\n**Adequado:** Realiza as três tarefas \n**Parcialmente adequado:** Realiza ao menos duas tarefas \n**Inadequado:** Realiza somente uma tarefa OU não realiza nenhuma das tarefas",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Não solicita/verbaliza realização do toque vaginal **\n\n**Adequado:** Não solicita/verbaliza \n**Inadequado:** Solicita/verbaliza",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita Ultrassonografia (USG) **\n\n**Adequado:** Solicita \n**Inadequado:** Não solicita",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "O exame de ecodoppler obstétrico deve ser realizado para diagnosticar acretismo placentário, ou mesmo placenta increta ou percreta, com invasão de órgãos locais como bexiga e reto, sempre que uma placenta prévia for diagnosticada e também nos casos de implantação anterior baixa sobre a área de cicatriz de cesáreas anteriores. A ressonância nuclear magnética também pode ser um método de diagnóstico, principalmente em placentas posteriores, porém os resultados não são superiores aos da ultrassonografia transvaginal. Ela apresenta a vantagem de não ser examinador dependente, porém a pouca acessibilidade ao exame limita a sua indicação"
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita Cardiotocografia **\n\n**Adequado:** Solicita \n**Inadequado:** Não solicita",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Diagnóstica a condição da paciente como Placenta Prévia Lateral ou Baixa **\n\n**Adequado:** Realiza o diagnóstico de Placenta Prévia Lateral ou Baixa\n**Parcialmente adequado:** Realiza o diagnóstico de Placenta Prévia \n**Inadequado:** Não realiza o diagnóstico de Placenta Prévia",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": "Sangramento indolor;Autolimitado;Final do segundo e início do terceiro trimestre;Presença de sangramento sentinelaCentro-total ou completa: Recobre totalmente o orifício internoCentro-parcial ou parcial: Recobre parcialmente o orifício interno Marginal: A borda placentária atinge a borda do orifício internoLateral ou baixa: Implantação no segmento inferior, sem atingir o orifício interno"
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita:**\n(1) Hematócrito e hemoglobina; \n(2) tipagem sanguínea ABO/Rh; e \n(3) coagulograma. \n\n**Adequado:** Solicita os três exames \n**Parcialmente adequado:** Solicita ao menos dois exames \n**Inadequado:** Solicita somente um exame OU não solicita nenhum exame",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Cita diagnósticos diferenciais com o quadro de placenta prévia **\n**Obs:** Serão considerados os seguintes diagnósticos diferenciais: \n(1) Descolamento prematuro de placenta;\n(2) Vasa previa; \n(3) Ruptura do seio marginal; \n(4) Patologias cervicais como pólipos, ectrópios sangrantes e tumores; \n(5) Rotura Uterina. \n\n**Adequado:** Cita dois  ou mais diagnósticos diferenciais \n**Parcialmente adequado:** Cita apenas um\n**Inadequado:** Não cita nenhum",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Terapêutica:** \n(1) Indica internação; \n(2) hidratação venosa; \n(3) repouso; e \n(4) monitorização materno/fetal. \n\n**Adequado:** Indica os quatro itens de conduta terapêutica \n**Parcialmente adequado:** Indica de dois a três itens de conduta terapêutica \n**Inadequado:** Indica somente um item de conduta terapêutica OU não indica nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Indica/verbaliza:**\n(1) necessidade de contato com um obstetra; e \n(2) encaminha paciente para resolução da gestação.\n\n**Adequado:** Realiza as duas tarefas \n**Parcialmente adequado:** Realiza somente uma das tarefas \n**Inadequado:** Não realiza nenhuma das tarefas",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A conduta obstétrica no manejo da gestante com placenta prévia depende dos elementos de conduta: gravidade da hemorragia, estimativa da maturidade fetal, condição fetal e presença ou não de trabalho de parto"
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza fatores de risco para placenta previa **\n**Obs:** Serão aceitos os seguintes fatores de risco: \ncesárea anterior (1),\nplacenta prévia em gestação anterior(2), \ngestação múltipla (3), \nmultiparidade (4), \nidade materna acima dos 35 anos (5), \ntabagismo (6), \nuso de cocaína (7), \nfertilização in vitro (8),\ncuretagens (9), \ncirurgias uterinas anteriores (10), \nabortos eletivos e/ou espontâneos(11). \n\n**Adequado:** Verbaliza tres ou mais fatores de risco.\n**Parcialmente adequado:** Verbaliza dois fatores de risco\n**Inadequado:** Não verbaliza nenhum fator de risco",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

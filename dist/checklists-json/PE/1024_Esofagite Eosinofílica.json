@@ -1,0 +1,172 @@
+{
+  "uid": 1024,
+  "hash": "Z8D0Tjr6rPOaR-9Le2nBYA4X",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Esofagite Eosinofílica",
+  "definicao": "Esofagite eosinofílica é uma doença crônica mediada pelo sistema imunitário do esôfago resultando em inflamação predominante de eosinófilos no esôfago; pode causar sintomas semelhantes a refluxo, disfagia e impactação alimentar.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "30.50",
+    "star": 0,
+    "time": 546,
+    "count": 3327
+  },
+  "cenario": "Nível de atenção: secundária.\nTipo de atendimento: ambulatorial.\n \nA unidade possui a seguinte infraestrutura: \n- consultórios;\n- setor de radiologia;\n- setor de endoscopia e colonoscopia;\n- laboratório de análises clínicas;\n- sala de emegência;\n-leitos de internação.\n\nDescrição do caso: \nVocê é um médico atuando no consultório de uma unidade básica de saúde (UPA) e atenderá um adolescente de 10 anos acompanhado pela mãe. Chega à unidade básica de saúde com queixas de dor abdominal, episódios intermitentes de vômitos e dificuldade para engolir alimentos sólidos.",
+  "tarefas": "- Realizar anamnese;\n- Solicitar e interpretar o exame físico do paciente;\n- Solicitar e interpretar os exames complementares pertinentes ao caso;\n- Formular e verbalizar a hipótese diagnóstica;\n- Propor um plano terapêutico adequado;\n- Explicar o prognóstico e orientar a mãe, respondendo eventuais dúvidas.",
+  "script_ator": "**DADOS DA MÃE**:\n- Joana, 35 anos, professora.\n\n**DADOS DA CRIANÇA**: \n- Matheus, 10 anos.\n\n**MOTIVO DE CONSULTA:**\n- Estou me sentindo mal e com dor de barriga há seis meses. Estou ficando entalado e às vezes chego a vomitar. \n\n**DETALHES DA QUEIXA PRINCIPAL**\n**-Vômitos:** - São intermitentes e ocorrem principalmente após as refeições. Sem presença de sangue.\n**-Dor:** - Dor abdominal difusa, sem localização específica, piora com a ingestão de alimentos.\n**-Febre:** -Não tive febre.\n**-Peso:** - Dr(a), notei que meu filho perdeu peso.\n**-Impactação alimentar:** - Isso acontece umas duas ou três vezes por semana. Às vezes sinto como se a comida ficasse presa na garganta e dói um pouco quando tento engolir, principalmente, se são alimentos secos ou pedaços maiores. Antes a dificuldade para deglutir era só com a carne, mas agora sinto até ao comer pão.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Fraqueza:** - Dr(a), observo que ele agora está sempre cansado e com menor disposição para brincar e fazer atividades físicas. \n**-Coceira/Prurido cutâneo:** - Está apresentando coceira. \n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n- Então, Dr(a), ele tem rinite alérgica e dermatite atópica. E, em nossa família, temos histórico de asma.\n\n**ANTECEDENTES PERINATAIS (PRÉ NATAL | PARTO | PÓS NATAL):**\n- Tive uma gestação de 36 semanas, parto normal, sem complicações no período neonatal, e amamentação exclusiva até os três meses.\n\n**ALIMENTAÇÃO:**\n- Ele tem uma dieta variada, mas tem se tornado cada vez mais seletivo. Observo que ele vem evitando alimentos que antes consumia.\n\n**DIURESE E CATARSE:**\n- Nega.\n\n**ALERGIAS:**\n-Nega.\n\n**MEDICAÇÕES DE USO CONTÍNUO OU RECENTE:**\n- Nega.\n\n**CADERNETA DE SAÚDE  DA CRIANÇA:**\n- Vacinação atualizada de acordo com o calendário nacional de vacinação.\n\n**DÚVIDAS:**\n**-Pergunta 1:** - Qual exame vai precisar para chegar ao diagnóstico?\n**-Pergunta 2:**- O que ele tem, Dr(a)? Como ele adquiriu isso? Você pode me explicar sobre?\n**-Pergunta 3:** - Pode ser outra coisa?\n**-Pergunta 4:** - Tem cura?\n\n**OUTRAS PERGUNTAS:**\n- Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FISICO",
+      "conteudo": "Paciente em bom estado geral, consciente, orientado no tempo e espaço, bom estado nutricional, sem sinais de desnutrição ou desidratação. Cooperativo e comunicativo durante o exame.\n\n\n\n**Sinais Vitais:**\n\n**Pressão arterial:** 100/60 mmHg.\n\n**Frequência cardíaca:** 80 batimentos por minuto.\n\n**Frequência respiratória:** 20 incursões por minuto.\n\n**Temperatura axilar:** 36.8°C.\n\n\n\n**Dados Antropométricos**\n\n**Peso:** 35 kg.\n\n**Altura:** 140 cm.\n\n\n\n**Dermatoscopia:** Pele com áreas de xerose e algumas placas eczematosas sugestivas de dermatite atópica, principalmente em dobras de cotovelos e joelhos. Sem lesões urticariformes ou petéquias.\n\n\n\n**Aparelho respiratório, cardiovascular e abdominal:** Sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1700845031.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma:**\n\n**Hemácias:** 4,1 milhões/mm³ (valor de referência: 4,3 a 5,8 milhões/mm³)\n\n**Hemoglobina:** 12,4 g/dL (VR: 9,0 a 14,0 g/dL)\n\n**Hematócrito:** 37% (VR: 35,0 a 45,0%)\n\n**VCM:** 99 fl (valor de referência: 80 a 100 fl)\n\n**HCM:** 31 pg (valor de referência: 26-33 pg)\n\n**CHCM:** 32 g/dl (valor de referência: 30-34 fl)\n\n**PLAQUETAS:** 230.000 mm³ (VR: 150.000 a 450.000 mm³)\n\n\n\n**Leucócitos:** 10.200 mm³ (VR: 5.000 a 19.500 mm³)\n\n**Segmentados:** 26%;\n\n**Linfócitos:** 64%;\n\n**Monócitos:** 8%;\n\n**Eosinófilos:** > 500 células/µL\n\n**Basófilos:** 1%;\n\n\n\n**Antiendomísio IgA:** Negativo \n\n\n\n**Antitransglutaminase IgA:** Negativo (100 IU/mL (elevado,)\n\n\n\n**Exame Parasitológico de Fezes (EPF) - Três Amostras:** EPF: Negativo.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1700845031.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "ENDOSCOPIA DIGESTIVA ALTA",
+      "conteudo": "**LAUDO:**\n\n**Esôfago: **Presença de múltiplos anéis esofágicos distintos (\"esôfago traquealizado\") que impedem a passagem do endoscópio adulto, necessitando de dilatação ou uso de um endoscópio pediátrico para a passagem. Calibre esofagiano diminuído <13mm. \n\nEstrias longitudinais proeminentes ao longo de todo o esôfago.\n\nEdema da mucosa esofágica, conferindo uma aparência pálida e frágil ao tecido (\"crepe paper esophagus\"). Áreas de exsudatos brancos ou placas, indicando a presença de eosinófilos na superfície da mucosa.\n\nAusência de sangramento ou úlceras significativas.\n\n**Estômago e Duodeno: **Sem alterações endoscópicas significativas, mucosa íntegra, sem sinais de inflamação ou erosão.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "BIÓPSIA",
+      "conteudo": "**Esôfago:** \n\n- Infiltrado eosinofílico denso com mais de 15 eosinófilos por campo de grande aumento em múltiplos campos examinados.\n\n- Hiperplasia das células basais e alongamento das papilas dérmicas.\n\nPresença de microabscessos de eosinófilos em algumas áreas.\n\n- Ausência de granulócitos neutrofílicos, indicando inflamação específica não relacionada a refluxo gastroesofágico.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:** \n(1) Identifica-se; \n(2) Cumprimenta a mãe de maneira adequada/cordial; \n(3) Mantém contato visual; \n(4) Pergunta o nome da mãe e da criança. \n\n**Adequado:** Realiza os quatro itens. \n**Parcialmente adequado:** Realiza dois ou três itens. \n**Inadequado:** Realiza um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga os sintomas relacionados à queixa principal:** \n(1) Pergunta sobre o início e a duração da disfagia;\n(2) Questiona sobre os alimentos que desencadeiam a impactação;\n(3) Investiga sintomas associados, como dor abdominal e vômitos, regurgitação, pirose tosse;\n(4) Avalia o impacto dos sintomas no desempenho escolar e nas atividades diárias;\n(5) Verifica alterações no sono e apetite.\n\n**Adequado:** Pergunta três itens ou mais.\n**Parcialmente adequado:** Pergunta dois itens.\n**Inadequado:** Pergunta um item ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre fatoresrelevantes para o estabelecimento do diagnóstico:**\n(1) Investiga histórico de atopia, incluindo rinite alérgica e dermatite;\n(2) Questiona sobre episódios anteriores de sintomas gastrointestinais;\n(3) Avalia a presença de sintomas em familiares, indicando possíveis condições hereditárias.\n\n**Adequado:** Pergunta três itens.\n**Parcialmente adequado:** Pergunta dois itens.\n**Inadequado:** Pergunta um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre:**\n(1) Alimentação;\n(2) Sono;\n(3) Uso de medicamentos;\n(4) Vacinas;\n(5) Dados pré natais; \n(6) Aleitamento exclusivo; \n(7) Via de parto; \n(8) Idade gestacional ao nascimento.\n\n**Adequado:** Pergunta pelo menos seis itens.\n**Parcialmente adequado:** Pergunta cinco ou quatro itens.\n**Inadequado:** Pergunta três itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita e interpreta o exame físico:**\n\n**Adequado:** Solicita e interpreta corretamente o exame físico.\n**Inadequado:** Não solicita ou não interpreta o exame físico.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exames laboratoriais:** \n(1) Hemograma;\n(2) Sorologias;\n(3) Parasitológico de fezes.\n\n**Adequado:** Solicita um item ou mais.\n**Inadequado:** Não solicita nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita endoscopia digestiva alta com biópsia.**\n\n**Adequado:** Solicita corretamente o exame complementar.\n**Inadequado:** Não solicita exames ou solicita incorretamente.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Formula a hipótese diagnóstica:** esofagite eosinofílica, **explicando os achados clínicos, laboratoriais e endoscópicos**. Informa à mãe que se trata de uma doença crônica. A causa exata não é totalmente compreendida, mas acredita-se que seja relacionada à respostas alérgicas ou atópicas. Isso significa que o sistema imunológico da criança reage de forma exagerada a certos alérgenos, que podem ser alimentos ou elementos do ambiente, como pólen ou ácaros.\n\n**Adequado:** Formula corretamente a hipótese diagnóstica e explica  sobre a doença.\n**Parcialmente adequado:** Formula corretamente o diagnóstico mas não explica sobre a doença.\n**Inadequado:** Não formula o diagnóstico corretamente, nem explica sobre a doença.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Propõe tratamento de maneira adequada:**\nDiscute estratégias de manejo dos 3 DS (dieta, drogas e dilatação):\n(1)Cita realizar dieta de eliminação de alérgenos guiada por testes de alergia: prick test ou patch test;\n(2)Cita uso de drogas ou medicamentos: IBP, Corticóides tópicos e Dupilumabe;\n(3)Cita realizar dilatação endoscópica em casos indicados.\n\n**Adequado:** Cita três itens.\n**Parcialmente adequado:** Cita dois itens.\n**Inadequado:** Cita um item ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "1. A dieta de eliminação deve ser guiada por testes de alergia: prick test ou patch test. 2. O uso de medicamentos deve-se iniciar o tratamento com IBP, mantido por 8-12 semanas, seguido de nova endoscopia com biópsias de esôfago para avaliação de resposta. Dose para crianças: 1- 2 mg/kg Corticoides tópicos(budesonnida viscosa): Estão indicados para pacientes que não respondem a IBP.( Necessita de manipulação (diluir Budesonida em Sucralose). Dupilumabe: pode ser indicado em pacientes com doença refratária, não candidatos a terapia convencional ou com outras comorbidades que se beneficiam desse medicamento (ex: asma, dermatite atópica, rinosinusite crônica com polipose nasal, prurigo nodular), a partir de 12 anos de idade com peso corporal igual ou superior a 40 kg. 3. A dilatação endoscópica deve ser reservada para pacientes com a forma fibroestenosante, evoluindo com estenoses graves (calibre esofagiano < 13 mm)."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Orienta:**\n(1) Define manejo multidisciplinar: Encaminha para avaliação com especialista em gastroenterologia pediátrica , alergista e nutricionista;\n(2) Marca retorno para acompanhamento próximo.\n\n**Adequado:** Estabelece um plano de acompanhamento completo..\n**Inadequado:** Não estabelece um plano de acompanhamento.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Responde os questionamentos:**\n(1) Pergunta se a mãe e a criança têm dúvidas;\n(2) Confirma se entenderam as informações dadas.\n\n**Adequado:** Realiza dois itens.\n**Inadequado:** Realiza um item ou menos.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

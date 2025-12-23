@@ -1,0 +1,167 @@
+{
+  "uid": 1637,
+  "hash": "56e4a880396a1de36471edc59dbd1fba2bd603e410e3bb434e12cce3b0d26ac7-1758132334",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Melanoma - Híbrido",
+  "definicao": "O melanoma cutâneo é um tumor maligno originado dos melanócitos (células produtoras de melanina), caracterizado por crescimento descontrolado dessas células. É uma das neoplasias de pele menos frequentes, porém a que apresenta maior potencial de mortalidade.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "93.50",
+    "star": 0,
+    "time": 452,
+    "count": 363
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: primária.\nTipo de atendimento: ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas;\n- Setor de radiologia com aparelho de radiografia.\n\nDescrição do caso:\nVocê é um médico atuando no consultório de uma unidade básica de saúde (UBS) e atenderá a Carla, de 45 anos queixando-se de uma mancha na perna.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal da paciente.\n- Solicitar exame físico direcionado à queixa principal da paciente.\n- Formular e verbalizar a principal hipótese diagnóstica.\n- Realizar a conduta subsequente necessária para o quadro apresentado.\n- Verbalizar potenciais fatores de risco para o quadro apresentado (mínimo 4).\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Carla, 45 anos, casada, doméstica.\n\n**MOTIVO DE CONSULTA:** \n- Dr (a), eu estou com uma mancha na perna, nunca dei muita bola para ela, mas minha cunhada viu e disse que era melhor investigar.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**Tempo de evolução:** não sei dizer há quanto tempo ela existe, faz um bom tempinho já.\n**Progressão:** não sei dizer.\n**Cor da lesão/características da lesão:** marrom Dr (a), quer ver?\n**Quantidade:** é só essa mesmo, não tenho outras.\n**Presença de prurido:** não.\n**Presença de descamação:** não.\n**Presença de sangramento:** não.\n**Presença de dor:** não.\n**Queimadura solar prévia:** nega.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:** \n**Febre:** nega. \n**Perda de peso:** nega. \n**Astenia/Fadiga:** nega. \n\n**ANTECEDENTES PESSOAIS:**\n**Outras doenças / doenças preexistentes:** nega.\n**Câncer de pele prévio:** nega.\n**Medicação de uso contínuo:** nega.\n**Alergias:** nega.\n\n**ANTECEDENTES FAMILIARES:**\n**Câncer de pele na família:** meu pai teve um melanoma quando tinha 40 anos, tratou e melhorou. \n\n**INSTRUÇÕES AO EXAMINADOR/ENTREGA DE IMPRESSOS**:\n-Se o candidato solicitar **EXAME FÍSICO**: liberar o impresso **EXAME FÍSICO GERAL.**\n- Se o candidato solicitar **ECTOSCOPIA/LESÃO**: liberar os impressos **ECTOSCOPIA/LESÃO E DIAGNÓSTICO.**\n- Se o candidato solicitar **BIÓPSIA**: liberar o impresso **BIÓPSIA**.\n- Se o candidato solicitar **ENCAMINHAMENTO**: liberar o impresso **ENCAMINHAMENTO**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico Geral",
+      "conteudo": "Paciente em bom estado geral, afebril, acianótica, anictérica e hidratada; alerta, orientada no tempo e espaço.\n\n\n\n**SINAIS VITAIS**\n\n**Frequência cardíaca:** 90 batimentos por minuto.\n\n**Pressão arterial:** 125 mmHg x 90 mmHg.\n\n**Frequência respiratória:** 18 incursões respiratórias por minuto.\n\n**Temperatura axilar:** 36,3 °C.\n\n**Saturação de O2:** 99% de oxigênio em ar ambiente.\n\n**IMC:** 24 kg/m2.\n\n\n\n**Aparelhos respiratório, cardiovascular e digestório:** sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1758188388.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ectoscopia/Lesão",
+      "conteudo": "**Verbalize e escreva os achados encontrados.**",
+      "imagem": "https://app.penserevalida.com/impressos/8/1758188529.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Diagnóstico",
+      "conteudo": "**Verbalize e escreva a principal hipótese diagnóstica.**",
+      "imagem": "https://app.penserevalida.com/impressos/8/1758188472.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Biópsia",
+      "conteudo": "Não disponível no local.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1758188472.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "Encaminhamento",
+      "conteudo": "**Preencha o encaminhamento necessário para o quadro apresentado.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese, perguntando sobre o motivo da consulta:**\n(1) Tempo de evolução;\n(2) Progressão;\n(3) Cor/características físicas;\n(4) Quantidade;\n(5) Prurido;\n(6) Descamação;\n(7) Sangramento;\n(8) Dor ou sensibilidade local;\n(9) Queimadura solar prévia.\n\n**Adequado:** Pergunta sobre sete ou mais características. \n**Parcialmente adequado:** Pergunta apenas sobre seis ou cinco características.\n**Inadequado:** Pergunta apenas sobre quatro ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre manifestações clínicas associadas ao quadro:**\n(1) Perda de peso;\n(2) Linfonodomegalia regional;\n\n**Adequado:** Pergunta sobre as duas manifestações. \n**Parcialmente adequado:** Pergunta apenas sobre uma manifestação.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita exame físico:**\n(1) Geral;\n(2) Ectoscopia de pele;\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Descreve e escreve as características da lesão:**\n(1) Lesão pigmentada ou hipercrômica;\n(2) Assimétrica;\n(3) Bordas irregulares;\n(4) Variedade de cores/heterogênea; \n(5) Diâmetro de 6 cm.\n\n**Adequado:** Verbaliza e escreve ao menos quatro características corretamente.\n**Parcialmente adequado:** Verbaliza e/ou escreve ao menos três características corretamente.\n**Inadequado:** Verbaliza e/ou escreve duas ou menos características Ou característica alguma.\n\nObs: o item só será pontuado se verbalizado, escrito e mostrado para a câmera.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre antecedentes pessoais:**\n(1) Comorbidades;\n(2) Câncer de pele prévio;\n(3) Uso de medicamentos;\n\n**Adequado:** Pergunta sobre três itens. \n**Parcialmente adequado:** Pergunta apenas sobre dois itens.\n**Inadequado:** Não pergunta ou pergunta somente um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta sobre antecedentes familiares:**\n(1) Comorbidades;\n(2) Câncer de pele prévio;\n\n**Adequado:** Pergunta sobre ambos itens. \n**Parcialmente adequado:** Pergunta apenas sobre um itens.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Formula a hipótese diagnóstica: melanoma extensivo superficial.**\n\n**Adequado:** Verbaliza e escreve a hipótese  diagnóstica corretamente. \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n**Parcialmente adequado:** Verbaliza ou escreve  a hipótese diagnóstica corretamente.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n**Inadequado: ** Verbaliza e /ou escreve outra hipótese Ou não verbaliza nem escreve  hipótese alguma.\t\n\n**Obs.: O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza  encaminhamento preenchido com os seguintes itens:**\n(1) Especialista- Ao dermatologista;\n(2) Exame complementar especifico necessário - Biópsia;\n(3) Suspeita Clinica- Devido à lesão sugestiva ou suspeita de melanoma extensivo superficial. \n\n**Adequado:** Preenche com os três itens adequadamente.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n**Parcialmente adequado:**  Preenche com dois itens adequadamente.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n**Inadequado:**  Preenche com um item OU não encaminha .\t\t\n\n**Obs.: O item só será pontuado se for preenchido de forma legível e mostrado para a  câmera.**",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza potenciais fatores de risco relacionados ao quadro:**\n(1) Exposição solar intermitente e intensa;\n(2) Queimaduras solares;\n(3) Fototipo de pele;\n(4) Antecedente pessoal de melanoma;\n(5) Antecedente familiar de melanoma;\n(6) Imunossupressão.\n\n**Adequado:** Verbaliza ao menos quatro itens.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

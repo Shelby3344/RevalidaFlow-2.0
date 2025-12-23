@@ -1,0 +1,122 @@
+{
+  "uid": 1322,
+  "hash": "zGrtJwm4DhRr68FR8c8d7F4y",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Hipertireoidismo | INEP 2021.1",
+  "definicao": "A tireotoxicose é uma síndrome que se da pelo excesso de hormônio tireoidiano livre. Quando esse excesso de hormônio ocorre pela hiper função da glândula tireoide, se denomina hipertiroidismo. Outras causas de tireotoxicose podem ser a ingestão excessiva de hormônios tireoidianos, seja iatrogênica ou na tentativa de perda de peso (tireotoxicose factícia), produção de hormônios tireoidianos por tecido tireoidiano ectópico (como ocorre na metástase funcionante de carcinoma folicular), destruição da glândula com liberação de hormônios pré-formados por processos inflamatório, entre outras.",
+  "origem": 1,
+  "ano_da_prova": "20211",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "81.00",
+    "star": 0,
+    "time": 474,
+    "count": 10128
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas.\n\nDescrição do caso:\nUm homem de 35 anos de idade, chamado Fábio, que se queixa de nos últimos tempos sentir-se muito irritado e ansioso. Está sempre incomodado com o calor, perdeu 15Kg em 3 semanas e seus colegas de trabalho passaram a chamá-lo de “olho de peixe” (“olhos saltados”).",
+  "tarefas": "- Anamnese.\n- Exame físico.\n- Solicitar e interpretar adequadamente exames complementares pertinentes ao caso.\n- Informar o diagnóstico. \n- Realizar a conduta terapêutica.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Fábio, 35 anos, pedreiro, casado.\n\n**MOTIVO DE CONSULTA: **\n- Faz uns 6 meses que me sinto muito irritado e ansioso, tenho calor o tempo todo e perdi 15Kg em 3 semanas. Percebi também que meus olhos estão muito grandes.\n \n**QUALQUER PERGUNTA QUE FOR REALIZADA SOBRE OS SINTOMAS DO MOTIVO DE CONSULTA: **\n- Não consta no script.\n\n**SINTOMAS ASSOCIADOS: **\n- Negar todos.\n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças:** Nega.\n**- Transtornos psiquiátricos: ** Nega.\n**- Medicamentos: ** Nega.\n**- Alergias: ** Nega.\n\n**HÁBITOS: **\n**- Cigarro: ** Fumo 1 maço por dia há 3 anos. \n**- Álcool: ** Bebo cerveja nos finais de semana.\n**- Drogas: ** Nega.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- PA:** 160 mmHg x 70 mmHg \n\n**- FC:** 130 bpm \n\n**- Sat O2:** 95% em ar ambiente \n\n\n\n**Estado geral:**\n\nBEG, corado, hidratado, eupneico, afebril, acianótico, anictérico, tremor de extremidades e exoftalmia bilateral.\n\n\n\n**Exames de palpação de tireoide:**\n\nNota-se bócio difuso. \n\n\n\n**Respiratório:**\n\nSem alterações. \n\n\n\n**Cardiovascular:**\n\nTaquicardia sinusal, sem sopros, sem arritmias. \n\n\n\n**Abdominal:**\n\nAbdome sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório ",
+      "conteudo": "**TSH:** 0,001 mUI/L (Valor de referência: 0,3 - 5 mUI/L)\n\n**T4 livre:** 5,2 ng/dl (Valor de referência: 0,5 - 1,3 ng/dl)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Ultrassonografia de tiroide",
+      "conteudo": "Lobos tireoidianos tópicos, de morfologia globosa e contornos lobulados. Parênquima com ecogenicidade reduzida e ecotextura difusamente heterogênea.\n\n\n\nNota-se aumento de suas dimensões sem componente mergulhante. \n\n\n\nNão há evidências de nódulos na topografia das paratireoides. Estruturas vasculares cervicais preservadas. Ausência de linfonodomegalias cervicais.\n\n\n\n**Conclusão: Bocio difuso da glândula tireoide.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado: **Não realiza nenhuma ação ou realiza apenas 1 item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza perguntas pertinentes ao caso: **\n(1) Uso de medicamentos;\n(2) Drogas ilícitas;\n(3) Doenças;\n(4) Presença de transtornos psiquiátricos (exceto sintomas de ansiedade e de irritabilidade). \n\n**Adequado: **Pergunta quatro itens.\n**Parcialmente adequado: **Pergunta dpis ou três itens.\n**Inadequado: **Pergunta apenas um item ou não pergunta nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Solicita exame físico. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita exames laboratoriais de hormônios tireoideanos **(validar se solicitar explicitamente hormônios tireoideanos, ou TSH e T4 livre). \n\n**Adequado: **Solicita.\n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita ecografia da glândula tireoide. **\n\n**Adequado: **Solicita.\n**Inadequado: **Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Hipótese diagnóstica: **Faz o diagnóstico de hipertireoidismo.\n\n**Adequado: **Faz.\n**Inadequado: **Não faz.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 2"
+      },
+      "dica_teorica": "A doença de Graves produz excesso de hormônios tireoidianos (hipertiroidismo), sendo a responsável pela síndrome de tireotoxicose."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Cita o tratamento clínico: **\n\n**Adequado: **Cita Betabloqueadores (Propranolol, atenolol, metoprolol) ou bloqueador canal de cálcio (verapamil, ou diltiazem) e tionamidas: propiltiouracil, metimazol (esses se for doença de Graves).\n**Parcialmente adequado: **Cita pelo menos tionamidas: propiltiouracil, metimazol (esses se for doença de Graves).\n**Inadequado: **Não cita nenhum tratamento medicamentoso ou cita tratamento inadequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Os  betabloqueadores  se utilizam para reduzir os efeitos adrenérgicos como por exemplo o tremor de extremidades. As  tionamidas  reduzem a produção dos hormônios da glândula tireoide."
+    }
+  ]
+}

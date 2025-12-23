@@ -1,6 +1,44 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useUserProfile } from "@/hooks/useUserProfile";
+import { useState, useEffect } from "react";
 
 export function WelcomeBanner() {
+  const { profile } = useUserProfile();
+  const [mediaGeral, setMediaGeral] = useState(0);
+  const notaCorte = 66.148;
+
+  // Calcula a média geral baseada nos desempenhos salvos
+  useEffect(() => {
+    // Busca desempenhos do localStorage
+    const desempenhos = localStorage.getItem("userDesempenhos");
+    if (desempenhos) {
+      const data = JSON.parse(desempenhos);
+      if (data.length > 0) {
+        const soma = data.reduce((acc: number, d: { nota: number }) => acc + d.nota, 0);
+        setMediaGeral(soma / data.length);
+      }
+    } else {
+      // Valor padrão se não houver desempenhos
+      setMediaGeral(7.0);
+    }
+  }, []);
+
+  // Determina a mensagem baseada na média
+  const getMensagem = () => {
+    if (mediaGeral >= notaCorte / 10) {
+      return "parabéns! Sua média está acima da nota de corte definida";
+    } else {
+      return "continue estudando! Sua média está abaixo da nota de corte definida";
+    }
+  };
+
+  // Formata o nome com título
+  const getNomeFormatado = () => {
+    const primeiroNome = profile.nome.split(" ")[0];
+    const ultimoNome = profile.nome.split(" ").slice(-1)[0];
+    return `Dr(a) ${primeiroNome} ${ultimoNome}`;
+  };
+
   return (
     <div className="relative overflow-hidden rounded-xl card-gradient p-6">
       {/* Premium link */}
@@ -19,10 +57,10 @@ export function WelcomeBanner() {
 
           {/* Welcome message */}
           <p className="text-foreground">
-            <span className="text-primary font-semibold">Dra Nayara Nuñez</span> sua média geral está em{" "}
-            <span className="text-warning font-bold">7.00</span>, parabéns! Sua média está
+            <span className="text-primary font-semibold">{getNomeFormatado()}</span> sua média geral está em{" "}
+            <span className="text-warning font-bold">{mediaGeral.toFixed(2)}</span>, {getMensagem()}
             <br />
-            acima da nota de corte definida <span className="font-bold">66.148</span>. Continue treinando firme!
+            <span className="font-bold">{notaCorte}</span>. Continue treinando firme!
           </p>
         </div>
 
@@ -33,12 +71,20 @@ export function WelcomeBanner() {
           </button>
           
           <div className="w-48 h-48 relative">
-            {/* Placeholder illustration */}
+            {/* Avatar do usuário ou placeholder */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary/20 to-info/20 flex items-center justify-center">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-warning/30 to-primary/30 flex items-center justify-center">
-                  <span className="text-4xl">👩‍⚕️</span>
-                </div>
+                {profile.avatar ? (
+                  <img 
+                    src={profile.avatar} 
+                    alt="Foto de perfil"
+                    className="w-24 h-24 rounded-full object-cover"
+                  />
+                ) : (
+                  <div className="w-24 h-24 rounded-full bg-gradient-to-br from-warning/30 to-primary/30 flex items-center justify-center">
+                    <span className="text-4xl">👩‍⚕️</span>
+                  </div>
+                )}
               </div>
             </div>
           </div>

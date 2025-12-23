@@ -1,0 +1,160 @@
+{
+  "uid": 1090,
+  "hash": "BxqLA_wbkCheHPS-6qTSFzol",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Ascaridíase",
+  "definicao": "Doença parasitária do homem, causada por um helminto. Habitualmente, não causa sintomatologia, mas pode manifestar-se com sintomas do trato gastrointestinal. Quando há grande número de parasitas, pode ocorrer quadro de obstrução intestinal. Em virtude do ciclo pulmonar da larva, alguns pacientes apresentam manifestações pulmonares, com broncoespasmo, hemoptise e pneumonite, caracterizando a síndrome de Löefler, que cursa com eosinofilia importante.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "93.00",
+    "star": 0,
+    "time": 536.5,
+    "count": 5798
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial — Consultório médico em unidade básica de saúde da família (UBSF).\n\nA unidade possui a seguinte infraestrutura:\n- Consultórios;\n- Laboratório de análises clínicas.\n\nDESCRIÇÃO DO CASO:\nVocê é um médico atuando em uma UBSF e atenderá um paciente de 30 anos de idade queixando-se de diarreia e falta de apetite.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "- Realizar anamnese direcionada à queixa do paciente;\n- Realizar exame físico direcionado à queixa do paciente;\n- Solicitar demais exames complementares pertinentes ao caso;\n- Formular o diagnóstico específico mais provável;\n- Estabelecer a conduta adequada.",
+  "script_ator": "**DADOS PESSOAIS: **\n- José, 30 anos de idade, casado, comerciante de feira.\n\n**MOTIVO DE CONSULTA: **\n- Estou tendo muita diarreia e sem apetite.\n\n**CARACTERÍSTICAS DA DIARREIA: **\n**- Tempo de evolução:** Tem 2 meses mais ou menos. \n**-Frequência/ número de episódios:** Umas 3 vezes por dia, às vezes um pouco mais.\n**- Padrão da diarreia (contínua ou intermitente):** Às vezes fico alguns dias sem ter diarreia, mas depois ela volta. \n**- Consistência: **Mole. \n**- Presença de pus ou sangue: **Não.\n**- Relação com algum tipo de alimento: **Acho que não. \n**- Episódios anteriores: **Ano passado também tive muita diarreia.\n\n**SINTOMAS ASSOCIADOS: **\n**-Perda de apetite:** Sim.\n**-Fraqueza:** Também estou cansado.\n**-Desconforto abdominal:** Um pouco.\n**-Náuseas e vômitos:** Nega.\n**-Febre:** Nega.\n**-Suor:** Nega.\n**-Tosse:** Nega.\n\n**SE PERGUNTADO POR CONTATOS ESTREITOS COM SINTOMAS SIMILARES: **\n- Minha esposa e alguns vizinhos também estão com diarreia.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças prévias:** Nega. \n**-Síndrome do intestino irritável / Doença Celíaca/ Hipertireoidismo / Doença de Crohn / Colite Ulcerativa /  Colite Pseudomembranosa:** Nega.\n**- Medicamentos:** Nega. \n**- Alergias:** Nega.\n**- Viagens recentes:** Nega.\n\n**HÁBITOS: **\n**- Cigarro: **Nega. \n**- Álcool: **Cerveja aos fins de semana. \n**- Drogas: **Nega.\n**- Alimentação: **No almoço como alguma coisa na feira enquanto estou trabalhando. De noite fazemos janta em casa. \n**- Alteração no peso corporal: **Senti que estou mais magro.\n\n**FOCO EPIDEMIOLÓGICO:**\n- **Contato com animais:** Eu moro perto de um lixão, então tem muitos cachorros e moscas por perto. \n-**Acesso à água potável:** Temos água proveniente de poço, mas não sei se a água é muito boa.\n-**Rede de esgoto:** Sim. \n-**Medidas de higiene:** Ah Dr (a), eu costumo lavar as mãos só no banho mesmo.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 110x70 mmHg \n\n**- Frequência cardíaca:** 92 batimentos por minuto\n\n**- Saturação de O2:** 98% \n\n**- Temperatura axilar:** 36.2° C \n\n**- Frequência respiratória:** 14 incursões por minuto \n\n\n\n**Dados antropométricos:**\n\n**IMC:** 19 kg/m2 \n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, normocorado e hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nAusculta respiratória com murmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos aumentados, indolor à palpação e sem viceromegalias. \n\n\n\nAusência de adenomegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Parasitológico de fezes",
+      "conteudo": "**Exame microscópico: **\n\nSe observam ovos de Ascaris lumbricoides.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Cumprimenta o paciente simulado;\n(2) Identifica-se;\n(3) Dirige-se ao paciente simulado pelo nome, pelo menos uma vez;\n(4) Pergunta o motivo da consulta.\n\n**Adequado:** Realiza as quatro ações.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado:** Realiza apenas uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Postura:**\n(1) Estabelece contato visual;\n(2) Mantém postura empática ao longo da consulta; e,\n(3) Escuta a fala do paciente simulado sem interrompê-lo.\n\n**Adequado:** Realiza as três ações.\n**Parcialmente adequado:** Realiza apenas uma ou duas ações.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga a diarreia perguntando:**\n(1) Tempo de evolução;\n(2) Frequência/ número de episódios;\n(3) Presença de sangue e/ou pus nas fezes;\n(4) Consistência da matéria fecal; e,\n(5) Episódios anteriores. \n\n**Adequado:** Investiga quatro ou mais itens.\n**Parcialmente adequado:** Investiga três itens. \n**Inadequado:** Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4.**Pergunta por outros sintomas associados: **\n(1) Febre;\n(2) Dor abdominal;\n(3) Náuseas e vômitos;\n(4) Tosse;\n(5) Fraqueza; e,\n(6) Perda de apetite.\n\n**Adequado:** Pergunta três ou mais itens.\n**Parcialmente adequado:** Pergunta dois itens. \n**Inadequado:** Pergunta um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Em virtude do  ciclo pulmonar da larva,  alguns pacientes apresentam  manifestações pulmonares,  com broncoespasmo, hemoptise e pneumonite, caracterizando a  Síndrome de Löefler,  que cursa com  eosinofilia  importante."
+    },
+    {
+      "idx": 5,
+      "descricao": "5.  **Investiga dados epidemiológicos: **\n(1) Viagens recente;\n(2) Integrantes da casa e/ou vizinhos com sintomas similares;\n(3) Acesso à água potável;\n(4) Presença de rede de esgoto. \n\n**Adequado:** Investiga dois ou mais itens. \n**Parcialmente adequado:** Investiga um item. \n**Inadequado: **Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Pergunta sobre a presença de doenças:**\n(1) Síndrome do intestino irritável;\n(2) Doença Celíaca;\n(3) Hipertireoidismo;\n(4) Doença de Crohn; e,\n(5) Colite Ulcerativa.\n\n**Adequado:** Pergunta quatros itens ou mais.\n**Parcialmente adequado:** Pergunta de um a três itens. \n**Inadequado:** Não perguntou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre os hábitos de vida:**\n(1) Etilismo;\n(2) Tabagismo;\n(3) Uso de álcool ou outras drogas;\n(4) Atividade física; e,\n(5) Medidas de higiene.\n\n**Adequado:** Pergunta sobre quatro ou mais itens.\n**Parcialmente adequado:** Pergunta apenas sobre dois ou três itens.\n**Inadequado:** Pergunta sobre apenas um item ou não pergunta sobre item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "7. **Solicita exame parasitológico de fezes. **\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "8. **Verbaliza a principal hipótese diagnóstica.**\n\n**Adequado:** Verbaliza o diagnóstico de ascaridíase. \n**Inadequado:** Não verbaliza ou verbaliza outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "9. **Indica tratamento específico:**\n(1) Albendazol; e,\n(2) Mebendazol. \n\n**Adequado:** Indica um item.\n**Inadequado:** Não indica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "- Albendazol:  400 mg dose única.- Mebendazol:  100 mg, 2 vezes ao dia, durante 3 dias."
+    },
+    {
+      "idx": 11,
+      "descricao": "10. **Indica medidas gerais:**\n(1) Tratamento da água de origem duvidosa com algum dos seguintes métodos: ferver a água ou adição de hipoclorito de sódio;\n(2) Lavar frutas e verduras com água potável;\n(3) Consumir alimentos bem cozidos; e,\n(4) Lavagem frequente das mãos.\n\n**Adequado:** Indica três ou mais itens. \n**Parcialmente adequado:** Indica dois itens. \n**Inadequado:** Indica um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "A água para consumo humano deve ser filtrada com filtro doméstico, coador de papel ou pano limpo, e, posteriormente, fervida (elimina bactérias, vírus e parasitas). Caso não seja possível ferver, obter água de uma fonte que não tenha sido contaminada por esgoto e realizar a filtração (com filtro doméstico, coador de papel ou pano limpo) e posterior tratamento com hipoclorito de sódio (2,5%)."
+    }
+  ]
+}

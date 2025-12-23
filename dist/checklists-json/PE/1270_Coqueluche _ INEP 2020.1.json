@@ -1,0 +1,166 @@
+{
+  "uid": 1270,
+  "hash": "Ped",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Coqueluche | INEP 2020.1",
+  "definicao": "A coqueluche é uma infecção respiratória, transmissível, causada por bactéria (Bordetella Pertussis). Está presente em todo o mundo. Sua principal característica são as crises de tosse seca.",
+  "origem": 1,
+  "ano_da_prova": "20201",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "51.50",
+    "star": 0,
+    "time": 582.5,
+    "count": 12176
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - UPA.\nTipo de atendimento: urgência e emergência. \nA unidade apresenta a seguinte infraestrutura: \n-Setor de radiologia convencional e ultrassom; \n-Laboratório de análises clínicas; \n-Leitos de internação. \n\nDescrição do caso:\nVocê está em um pronto-socorro e realiza o atendimento de um lactente de oito meses trazido pela mãe que refere que, há 20 dias, seu filho iniciou quadro de febre e tosse. A febre melhorou depois de dois dias, mas a tosse vem piorando. Ontem ela levou ele na UBS perto de sua casa e a médica que realizou atendimento solicitou exames de sangue e radiografia orientando retorno hoje para reavaliação. Mas ela decidiu trazer ele no pronto-socorro porque notou que ele vem apresentando dificuldade para respirar por conta da tosse.",
+  "tarefas": "- Realizar anamnese dirigida para a queixa relatada pela mãe;\n- Interpretar e verbalizar para o(a) chefe de estação os resultados dos exames complementares;\n- Explicar para a mãe o diagnóstico;\n- Orientar a mãe sobre o plano de cuidados.",
+  "script_ator": "**DADOS DA MÃE: **\n- Maria, 29 anos.\n\n**DADOS DA CRIANÇA: **\n- Pedro 8 meses.\n\n**MOTIVO DE CONSULTA:** \n- Dr.(a), há 20 dias, meu filho iniciou quadro de febre e tosse. Levei-o ao posto, onde a médica solicitou alguns exames e uma radiografia do pulmão, e pediu para que eu retornasse, mas achei melhor trazer ao pronto socorro para ver se algum médico pode passar um xarope para essa tosse dele, pois está horrível.\n\n**SOBRE TOSSE:**\n**- Início:** Começou faz uns 14 dias.\n**- Duração da tosse:** A tosse dura o dia inteiro.\n**- Frequência da tosse:** Mais de cinco acessos de tosse rápida.\n**- Expectoração:** Não tem secreção. \n**- Guincho/Som inspiratório:** Sim, faz um barulho quando ele respira.\n**-Cianose:** Ele fica roxo quando tosse muito, eu fico bem assustada.\n\n**SINTOMAS ASSOCIADOS:**\n**- Febre:** Sim, teve um episódio há uns 20 dias, mas melhorou sem uso de medicação.\n**- Falta de ar:** Sim, Dr.(a), quando está tossindo muito, fica com falta de ar.\n\n**ANTECEDENTES PESSOAIS:**\n**- Vacinas:** Dr.(a), eu sempre levo ele para tomar as vacinas, porém, da última vez, as vacinas dos seis meses estavam em falta na UBS, e acabei esquecendo de voltar.\n**- Crescimento e desenvolvimento:** Tudo normal. Ele é bem saudável, nunca teve nada.\n**- Medicações em uso, alergias e internações:** Nega.\n\n**IMPRESSOS:** \n**-Hemograma e Radiografia de tórax:** Ao ser solicitado exames trazidos pela mãe, liberar impressos.\n**-Exame físico:** Ao ser solicitado liberar o impresso.\n\n**DÚVIDAS:**\n-**Pergunta 1:** O que você está vendo na radiografia, Dr.(a)?\n\n**OUTRAS PERGUNTAS:** \n-Não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": " EXAME FÍSICO",
+      "conteudo": "**Resultado da Avaliação Inicial:**\n\n\n\n**Sinais vitais:** \n\n**FC:** 110 bpm;\n\n**FR: **35 irpm; \n\n**SatO2: 2:** 98% (ar ambiente). \n\n\n\n**Peso:** 8,5 kg.\n\n\n\n**Exame físico geral:** \n\nLactente em bom estado geral, corado, hidratado e acianótico.\n\n\n\n**Aparelho cardiovascular:** \n\nRCR 2T, com bulhas normofonéticas, sem sopro. \n\n\n\n**Aparelho respiratório:** \n\nSem esforço respiratório. Murmúrio vesicular fisiológico, sem ruídos adventícios. \n\n\n\n**Abdome:** \n\nPlano, normotenso, sem visceromegalias, não doloroso à palpação, sem sinais de irritação peritoneal, ruídos hidroaéreos presentes e normais.",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1749926563.png"
+    },
+    {
+      "idx": 2,
+      "titulo": " HEMOGRAMA",
+      "conteudo": "**Hemoglobina:** 12 g/dL (valor de referência = 11 a 13 g/dL).\n\n **Hematócrito:** 38% (valor de referência = 37% a 41%).\n\n\n\n**Leucócitos:** 40 mil/mm3 (valor de referência = 7 a 9 mil/mm3).\n\n **Linfócitos:** 80% (valor de referência = 10% a 20%).",
+      "imagem": "https://app.penserevalida.com/impressos/5368/1749926563.png"
+    },
+    {
+      "idx": 3,
+      "titulo": " RADIOGRAFIA DE TÓRAX",
+      "conteudo": "** DESCREVA OS ACHADOS DA IMAGEM PARA A CAMERA**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Apresenta-se à mãe simulada;\n(2) Pergunta nome da mãe;\n(3) Pergunta nome da criança.\n\n**Adequado:** Realiza os três itens corretamente. \n**Parcialmente adequado:** Realiza um ou dois itens corretamente. \n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre as características da tosse paroxística:**\n(1) Duração - acima de 20 dias;\n(2) Relação com o ciclo respiratório - tosses rápidas e curtas (de cinco a dez) em uma única expiração;\n(3) Frequência - 30 a 40 episódios/dia.\n\n**Adequado:** Investiga as três características da tosse.\n**Parcialmente adequado:** Investiga até duas características da tosse.\n**Inadequado:** Não caracteriza a tosse.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1.0",
+        "adequado": " 2.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre a presença do guincho inspiratório, que ocorre logo após o acesso de tosse, durante uma inspiração profunda através da glote estreitada, podendo originar um som.**\n\n**Adequado:** Pergunta. \n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Verbaliza o resultado do hemograma: leucocitose com linfocitose.**\n\n**Adequado:** Verbaliza. \n**Inadequado:** Não verbaliza.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Verbaliza a interpretação da radiografia de tórax: Imagem de \"coração borrado\", \"felpudo\" ou \"franjado\", porque as bordas da imagem cardíaca não são nítidas, em decorrência dos infiltrados pulmonares.**\n\n**Adequado:** Verbaliza. \n**Inadequado:** Não verbaliza.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Explica com linguagem simples, o diagnóstico de coqueluche.**\n\n**Adequado:** Explica. \n**Inadequado:** Não explica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Explica sobre a necessidade de internação.**\n\n**Adequado:** Explica. \n**Inadequado:** Não explica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Orienta a mãe sobre a necessidade de uso de antibiótico.**\n\n**Adequado:** Orienta. \n**Inadequado:** Não orienta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Indica a notificação do caso de coqueluche.**\n\n**Adequado:** Indica. \n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Investiga os comunicantes ou contatos íntimos (membros da família ou pessoas que vivem na mesma casa ou que frequentam habitualmente o local de moradia do caso) e indica quimioprofilaxia com azitromicina ou claritromicina.**\n\n**Adequado:** Indica quimioprofilaxia com azitromicina ou claritromicina para comunicantes ou contatos.\n**Parcialmente adequado:**Indica a quimioprofilaxia para comunicantes ou contatos sem especificar as opções de antibióticos.\n**Inadequado:** Não investiga os comunicantes ou contatos nem indica a quimioprofilaxia.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.0"
+      },
+      "dica_teorica": "Esquemas Antimicrobianos Terapêuticos e Quimioprofiláticos;Todos os pacientes diagnosticados e todos os contactantes domiciliares devem receber antibiótico terapêutico ou profilático. A recomendação atual do Ministério da Saúde é utilizar como droga preferencial a azitromicina pela maior facilidade de uso. O tratamento e a quimioprofilaxia têm os mesmos esquemas terapêuticos."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Pergunta se a mãe possui alguma dúvida.**\n\n**Adequado:** Pergunta. \n**Inadequado:** Não pergunta.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

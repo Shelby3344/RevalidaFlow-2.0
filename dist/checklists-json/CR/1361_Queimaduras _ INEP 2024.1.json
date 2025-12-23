@@ -1,0 +1,200 @@
+{
+  "uid": 1361,
+  "hash": "e000cd49-bebc-44d7-86d4-123051233fed",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Queimaduras | INEP 2024.1",
+  "definicao": "Checklist INEP",
+  "origem": 1,
+  "ano_da_prova": "20241",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "63.50",
+    "star": 0,
+    "time": 590.5,
+    "count": 5194
+  },
+  "cenario": "Local de atuação: urgência e emergência - pronto socorro de hospital.\nA unidade hospitalar possui a seguinte infraestrutura:\n- Setor de radiologia convencional;\n- Laboratório de análises clínicas;\n- Leitos de internação;\n- Centro cirúrgico.\n\nDescrição do caso:\nPaciente, previamente hígida, de 20 anos, trazida pelos bombeiros, vítima de queimaduras decorrentes de incêndio.",
+  "tarefas": "Realizar o atendimento da paciente;\nVerbalizar os achados e condutas;\nCalcular a extensão da superfície corporal queimada; e\nAdotar a (s) conduta (s) terapêutica (s) necessária (s) ao caso, conforme o Protocolo de Suporte Avançado de Vida no Trauma;\nVerbalizar a realização de procedimentos médicos necessários ao caso.\n\nAtenção!\nCaso julgue necessário realizar exame físico, verbalize;\nA paciente simulada não deverá ser tocada durante o atendimento;\nHá na estação todos os materias necessários ao atendimento da paciente;\nOs insumos ilustrados representam alguns dos materiais disponíveis para o atendimento;\nConsidere que a paciente está coberta com uma manta térmica.",
+  "script_ator": "**DADOS** **PESSOAIS**:\nMeu nome é Ana, sou solteira, tenho 20 anos e trabalho na indústria farmacêutica.\n\n**SOBRE O OCORRIDO**:\nAcontecimento: Não sei ao certo o que aconteceu, eu estava no trabalho.\nOuvi os bombeiros falando que o incêncio começou devido a um curto-circuito, mas não houve explosões.\nTempo decorrido: Não sei quanto tempo fiquei no local até o resgate, mas acho que demorou bastante.\nInalação de fumaça: A sala em que eu estava estava repleta de fumaça.\n\n**SINAIS** **E SINTOMAS**:\nDor: estou com muita dor.\nDispneia: muita dificuldade para respirar, como se o ar estivesse pesado e sinto muita sede.\n\n**Caso o(a) participante verbalizasse adequadamente os procedimentos necessários ao caso, ele(a) poderia receber, do(a) chefe de estação, os seguintes impressos ou as seguintes orientações:**\n• Ao solicitar para verificar os sinais vitais, ele(a) receberia o IMPRESSO – SINAIS VITAIS;\n• Ao verbalizar a necessidade de realizar a oxigenoterapia com máscara ou por entubação orotraqueal, seria informado que o procedimento foi realizado;\n• Ao solicitar que seja feita a monitorização da paciente de forma inespecífica, seria\nsolicitado que verbalizasse os parâmetros que devem ser monitorados.\n• Ao solicitar a realização do exame físico, ele(a) receberia o IMPRESSO — EXAME FÍSICO;\n• Ao solicitar a realização de exame para avaliar a superfície corporal queimada, ele(a)\nreceberia o IMPRESSO — SUPERFÍCIE CORPORAL QUEIMADA;\n• Ao verbalizar a necessidade de realizar a hidratação venosa, ele(a) receberia o\nIMPRESSO — CÁLCULO DA SUPERFÍCIE CORPORAL E REPOSIÇÃO VOLÊMICA;\n•Ao solicitar que seja feita a analgesia, seria informado que o procedimento foi realizado;\n• Ao indicar a necessidade de realizar o acesso venoso sem especificar o calibre do\ncateter, o tipo da veia, o volume mínimo infundido e o tipo de soro, seria solicitado que\nverbalizasse os quatro parâmetros para a realização do acesso venoso. Após a verbalização, seria informado que o procedimento foi realizado;\n• Ao referir a necessidade de fazer o curativo na paciente, seria solicitado que\nespecificasse o tipo de curativo. Após a verbalização, seria informado que o procedimento foi realizado;\n\n**No decorrer do atendimento, caso o(a) participante tenha adotado a conduta adequada,**\n**o(a) chefe de estação perguntaria:**\n• Se há necessidade de transferência da paciente a um centro terciário.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais Vitais",
+      "conteudo": "**Pressão** **arterial**: 90 x 60 mmHg.\n\n**Frequência** **cardíaca**: 112 bpm.\n\n**Frequência** **respiratória**: 40 irpm.\n\n**Temperatura**: 36,1°C\n\n**Saturação** **de** **Oxigênio**: 82%.\n\n\n\n**Verbalize para a câmera de forma clara as alterações dos sinais vitais.**",
+      "imagem": "https://app.penserevalida.com/impressos/8/1723138989.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Fisico",
+      "conteudo": "Desitradada ++/4+, taquipnéica, normocorada.\n\nQueimadura de vibriças nasais, hipermia e edema de orofaringe.\n\nAbdome e respiratório: com murmúrio vesicular diminuído globalmente, sem ruídos adventícios.\n\nPeso: 50 kg.\n\nQueimadura de 2° grau na face anterior do tronco e membros inferiores face anterior.\n\n\n\n**Verbalize para a câmera de forma clara as alterações do exame físico.**",
+      "imagem": "https://app.penserevalida.com/impressos/8/1723138989.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Cálculo da superfície corporal e reposição volêmica",
+      "conteudo": "**As respostas para as perguntas a seguir devem ser verbalizadas para a câmera, de forma clara.**\n\n\n\n- Qual o volume indicado para a reposição volêmica nas primeiras 8 horas?\n\n\n\n- Qual o volume indicado para a reposição volêmica nas 16 horas seguintes?\n\n\n\n- Qual a superfície corporal queimada?",
+      "imagem": "https://app.penserevalida.com/impressos/8/1723138989.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Abocath/Jelcos",
+      "conteudo": "**Verbalize o quatro parâmetros para realizar o acesso venoso.**",
+      "imagem": "https://app.penserevalida.com/impressos/8/1730803708.jfif"
+    },
+    {
+      "idx": 5,
+      "titulo": "Superfície Corporal Queimada",
+      "conteudo": "Impresso SCQ",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. Identifica-se e identifica adequadamente a paciente.\n\n**Adequado:** Realiza os dois comandos.\n**Parcialmente adequado:** Realiza um dos comandos.\n**Inadequado:** Não realiza nenhum dos comandos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. Pergunta sobre as características do acidente:\n(1) local,\n(2) tempo de exposição,\n(3) inalação de fumaça.\n\n**Adequado:** Pergunta corretamente sobre todos os itens.\n**Parcialmente adequado:** Pergunta sobre dois itens OU se o incêndio ocorreu em local fechado.\n**Inadequado:** Pergunta sobre um item ou não pergunta nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. Verbaliza as alterações dos sinais vitais:\n(1) pressão arterial diminuída OU pressão arterial baixa;\n(2) taquicardia OU frequência cardíaca aumentada;\n(3) taquipneia OU frequência respiratória aumentada; e,\n(4) baixa saturação de oxigênio.\n\n**Adequado: **Verbaliza todos os itens.\n**Parcialmente adequado: **Verbaliza dois ou três itens.\n**Inadequado:** Verbaliza apenas um itemou não verbaliza item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. Solicita monitorização da paciente indicando os seguintes parâmetros:\n1. frequência cardíaca;\n2. pressão arterial;\n3. oximetria OU saturação de oxigênio; e,\n4. diurese.\n\n**Adequado:** solicita a monitorização indicando 3 ou mais itens.\n**Parcialmente adequado:** solicita a monitorização indicando apenas 2 itens.\n**Inadequado:** não solicita a monitorização ou solicita a monitorização indicando apenas 1 item.\n\n**Obs. A monitorização da paciente pode ser indicada a qualquer momento.**",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. Identifica os sinais de queimadura de vias aéreas verbalizando que a paciente está com:\n1.queimadura de vibrissas nasais ou de mucosas nasais; OU,\n2.hiperemia ou edema de orofaringe; OU,\n3.dificuldade respiratória ou dispneia ou dificuldade de respirar.\n\n**Adequado: **Identifica\n**Inadequado:** Não identifica",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. Indica suplementação de oxigênio sob máscara de Venturi (ou sob máscara não reinalante) ou entubação orotraqueal.\n\n**Adequado:** Indica a suplementação de oxigênio sob uma das formas descritas no caput do item.\n**Parcialmente adequado:** Indica a suplementação por via aérea definitiva sem especificar a forma de fornecimento de oxigênio.\n**Inadequado:** Não indica a suplementação de oxigênio OU indica a suplementação especificando outra forma de fornecimento de oxigênio",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. Verbaliza a necessidade de avaliação da superfície corporal queimada, com retirada de toda vestimenta ou com a exposição completa da paciente.\n\n**Adequado: **Verbaliza a necessidade de avaliação da superfície corporal queimada com a retirada de toda a vestimenta ou com exposição completa da paciente.\n**Parcialmente adequado:** verbaliza a necessidade de avaliação da superfície corporal queimada sem citar a retirada da vestimenta ou sem citar a exposição completa da paciente.\n**Inadequado: **não verbaliza a necessidade de avaliação da superfície corporal queimada.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. Calcula corretamente a superfície corporal queimada,segundo a regra dos 9 ( 36%).\n\n**Adequado:** Calcula corretamente a área queimada.\n**Inadequado:** Não calcula corretamente a área queimada",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. Prescreve corretamente a reposição volêmica de acordo com o ATLS.\n\n**Adequado:** 1.800 mL nas primeiras 8 horas e 1.800mL nas 16 horas seguintes.\n**Inadequado:** Não prescreve corretamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. Indica o tipo de acesso para a hidratação venosa:\n1. cateter calibre n.º 14 ou n.º 16 ou nº 18;\n2. veia periférica; e\n3. ringuer lactato ou soro fisiológico ou cristalóide.\n\n**Adequado: **solicita a realização de acesso venoso indicando corretamente os três parâmetros.\n**Parcialmente adequado:** solicita a realização de acesso venoso indicando corretamente dois parâmetros.\n**Inadequado:** não solicita a realização de acesso venoso ou solicita a realização de acesso venoso indicando um ou nenhum parâmetro.\n\nObs.: a verbalização de veia específica pertencente ao sistema venoso periférico será acatada como equivalente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. Indica a analgesia:\n\n**Adequado**: Indica.\n**Inadequado:** Não indica ou indica analgesia via oral.\n\nObs.: Será considerado adequado caso não indique a via de administração ou oriente a administração por via endovenosa.\n\nObs. 2: Será considerado adequado o participante que indicou\no uso de analgésico durante a sequência rápida de intubação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. Indica o curativo oclusivo ou estéril (indicando ou não a utilização de pomada cicatrizante e/ou anti-infecciosa):\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. Verbaliza a necessidade de transferência da paciente simulada para centro de referência ou centro de queimados ou unidade de queimados.\n\n**Adequado:** verbaliza a necessidade de transferência.\n**Inadequado:** não verbaliza a necessidade de transferência",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

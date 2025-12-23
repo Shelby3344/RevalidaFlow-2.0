@@ -1,0 +1,121 @@
+{
+  "uid": 1058,
+  "hash": "vIaxsMiDtPGrkqmu6fqT0Kyg",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Punção Lombar",
+  "definicao": "A punção lombar é usada para identificar alterações neurológicas, que podem ser infecções (como meningite ou encefalite), assim como doenças como esclerose múltipla ou hemorragia subaracnoidea. Além disso, também pode ser usada para inserir medicamentos no líquido cefalorraquidiano, como quimioterápicos ou antibióticos.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "65.00",
+    "star": 0,
+    "time": 565.5,
+    "count": 3181
+  },
+  "cenario": "Nivel de atenção: Atenção terciária à saúde.\nTipo de atendimento: Urgência e emergência.\n\nDescrição do caso:\nVocê é o médico de plantão e acaba de realizar a história clínica de um paciente masculino de 22 anos de idade que apresenta sinais e sintomas sugestivos de meningite de vários dias de evolução.",
+  "tarefas": "- Verbalizar ao menos três contraindicações (absolutas ou relativas) para a realização de punção lombar;\n- Verbalizar ao menos duas indicações para realizar tomografia de crânio antes da punção lombar; \n- Solicitar os materiais necessários e verbalizar o procedimento de punção lombar; \n- Interpretar o resultado de análise do líquido cefalorraquidiano e verbalizar etiologia mais provável;\n- Informar ao menos três possíveis complicações do procedimento.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Gabriel, 22 anos de idade, estudante de direito.\n\n**SE O CANDIDATO TENTAR SE COMUNICAR COM O PACIENTE OU REALIZAR QUALQUER OUTRA PERGUNTA, RESPONDER: ** \n- Não consta no script.\n\n**QUANDO O CANDIDATO TERMINAR DE VERBALIZAR AS TAREFAS 1 E 2, PERGUNTAR:**\n- O que você vai precisar para realizar a punção lombar? Como será feito o procedimento?\n\n**QUANDO SOLICITAR OS MATERIAIS, RESPONDER:**\n- Considere disponível.\n\n**QUANDO O CANDIDATO TERMINAR DE EXPLICAR O PROCEDIMENTO OU SOLICITAR A ANÁLIASE DO LÍQUIDO CEFALORRAQUIDIANO LIBERAR O IMPRESSO: - RESULTADO DA ANÁLISE DO LÍQUOR.**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RESULTADO DA ANÁLISE DO LÍQUOR",
+      "conteudo": "**Pressão de abertura:** Aumentada. \n\n**Aspecto:** Límpido. \n\n**Cor:** Xantocrômica. \n\n**Células:** Aumentadas a predomínio de linfócitos. \n\n**Proteínas:** Aumentadas. \n\n**Glicose:** Diminuída.\n\n**Adenosina deaminase:** Aumentada. \n\n**Baciloscopia com tinção de Ziehl-Neelsen:** Positiva. \n\n\n\n**CULTURA:** Em processamento.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se; e,\n(2) Cumprimenta o paciente simulado e pergunta seu nome.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Solicita a autorização do paciente para a realização da punção lombar.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Verbaliza contraindicações para a realização da punção lombar: **\n(1) Infecção no local de punção;\n(2) Sinais de hipertensão intracraniana;\n(3) Plaquetopenia  1,5;\n(5) Lesões neurológicas com efeito de massa.\n\n**Adequado:** Verbaliza quatro ou cinco contraindicações. \n**Parcialmente adequado: **Verbaliza três ou duas contraindicações. \n**Inadequado: **Verbaliza uma ou nenhuma contraindicação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Verbaliza situações nas quais é necessário realizar tomografia de crânio antes da punção lombar: **\n(1) Imunodepressão;\n(2) Edema de papila;\n(3) Foco neurológico;\n(4) Rebaixamento do nível de consciência;\n(5) Histórico recente de convulsão. \n\n**Adequado: **Verbaliza ao menos dois itens. \n**Parcialmente adequado: **Verbaliza um item.\n**Inadequado: **Não verbaliza nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita materiais para o procedimento: **\n(1) Equipamentos de proteção individual;\n(2) Campo cirúrgico;\n(3) Gazes;\n(4) Agulha para punção;\n(5) Anestésico local;\n(6) Clorexidina degermante ou iodo;\n(7) Tubo para coleta do líquido;\n(8) Termo de consentimento livre e esclarecido. \n\n**Adequado: **Solicita de seis a oito itens da lista. \n**Parcialmente adequado: **Solicita de quatro a cinco itens.\n**Inadequado: **Solicita três ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza os passos para a realização da punção lombar: **\n(1) Posicionamento do paciente em decúbito lateral com posição fetal OU sentado com flexão de tronco;\n(2) Antissepsia no local da punção;\n(3) Colocação de campo cirúrgico;\n(4) Anestesia local;\n(5) Punção entre os espaços L3 - L4 OU L4 - L5;\n(6) Retirada de líquido cefalorraquidiano;\n(7) Curativo local. \n\n**Adequado: **Verbaliza seis ou sete itens. \n**Parcialmente adequado: **Verbaliza quatro ou cinco itens. \n**Inadequado: **Verbaliza três ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 1",
+        "adequado": " 2"
+      },
+      "dica_teorica": "Algumas indicações de PL: - Suspeita de encefalite, meningite bacteriana, viral;- Suspeita de esclerose múltipla ou encefalite autoimune;- Hemorragia subaracnóidea não diagnosticada com TAC;- Síndrome de Guillain-Barré;- Administração de medicamentos."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Indica, com base na análise do LCR, a hipótese de meningite tuberculosa.**\n\n**Adequado: **Indica. \n**Inadequado: **Não indica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 2"
+      },
+      "dica_teorica": "A prevenção  se dá pela  vacinação com BCG  (bacilo de Calmette e Guérin) ao nascer, uma vez que  diminui a mortalidade e formas graves da tuberculose."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Cita as possíveis complicações do procedimento: **\n(1) Cefaleia;\n(2) Dor lombar;\n(3) Herniação cerebral;\n(4) Hematoma;\n(5) Infecção do sítio de punção. \n\n**Adequado: **Cita quatro ou cinco complicações. \n**Parcialmente adequado: **Cita três ou duas complicações.\n**Inadequado: **Cita uma ou nenhuma complicação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

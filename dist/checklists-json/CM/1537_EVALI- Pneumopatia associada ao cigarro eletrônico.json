@@ -1,0 +1,173 @@
+{
+  "uid": 1537,
+  "hash": "4937d90a1edb7fcd22c3ac7cadeeb02c1282ae25b343b8abc72dc623dedb9a30-1747264029",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "EVALI- Pneumopatia associada ao cigarro eletrônico",
+  "definicao": "EVALI (lesão pulmonar associada ao uso de cigarros eletrônicos ou vaping) é uma condição respiratória grave que pode ocorrer após o uso de produtos de vaping. Os sintomas incluem tosse, falta de ar e dor no peito. O diagnóstico é clínico e pode exigir exames de imagem e laboratoriais para exclusão de outras condições.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "55.00",
+    "star": 0,
+    "time": 599.5,
+    "count": 2418
+  },
+  "cenario": "Nível de Atenção: Unidade de Atenção Terciária.\nTipo de atendimento: Unidade de pronto atendimento - UPA.\n\nConsidere que todos os recursos necessários para atendimento estão disponíveis.\n- Setor de radiologia convencional e ultrassonografia;\n- Tomografia computadorizada;\n- Laboratório de análises clínicas e banco de sangue;\n\nDescrição do caso:\nVocê é médico em uma UPA e atende um jovem de 22 anos com dificuldade respiratória e tosse.",
+  "tarefas": "- Realizar a anamnese;\n- Solicitar e interpretar os exame físico geral;\n- Solicitar e interpretar os exames laboratoriais;\n-Verbalizar hipóteses diagnósticas explicando a causa do quadro ao paciente;\n-Formular diagnósticos diferenciais;\n-Estabelece conduta terapêutica;\n- Orientar sobre as medidas que deverão ser adotadas após a alta do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Lucas, 22 anos, estudante, solteiro.\n\n**MOTIVO DE CONSULTA:**\n- Estou com dor no peito, tosse e uma falta de ar que se iniciaram há alguns dias. \n\n**CARACTERÍSTICAS DA DOR NO PEITO: **\n**- Tempo de evolução: ** Começou a uma semana.\n**- Intensidade: **É uma dor moderada (6/10). \n**- Característica: **Continua. \n**- Irradiação: **Não muda de lugar.\n**- Fatores de piora: **Piora quando respiro fundo.\n**- Fatores de melhora: **Não tem nenhum.\n**- Progressão:** Está cada vez pior doutor(a).\n\n**CARACTERÍSTICAS DA TOSSE: **\n**- Tempo de evolução: **Tem quatro meses que estou tossindo.\n**- Presença de secreção: **É uma tosse seca.\n\n**CARACTERÍSTICAS DA FALTA DE AR (DISPNEIA):**\n**Tempo de início:** Começou há 2 semanas.\n**Progressão:** Piorou nos últimos 5 dias.\n**Frequência:** Constante.\n**Fatores de melhora e/ou piora:**  Intensifica com o esforço físico.\n\n**SINTOMAS ASSOCIADOS:**\n**Febre:** Me sinto quente em alguns períodos do dia, mas não medi. \n**Calafrios:**  Nega.\n**Sudorese:** Nega.\n**Hemoptise:** Nega.\n**Cianose e/ou palidez:** Nega.\n**Sintomas gripais:** Nega\n**Alterações neurológicas:** Nega. \n**Palpitações e/ou desmaios:** Nega\n**Náuseas/Vômitos:** Tenho sentido nauseas.\n**Diarreia / Constipação:** Nega.\n**Alterações urinárias:** Nega. \n**Alterações cutâneas:** Nega.\n**Perda de peso e/ou anorexia:** Nega.\n\n**ANTECEDENTES PESSOAIS:**\n** Doenças: **Nega patologias prévias.\n** Cirurgias: **Nega.\n** Medicamentos: **Não usa.\n** Alergias: **Nega.\n\n**HÁBITOS:**\n** Álcool: **Ocasionalmente.\n** Cigarro: **Eu fumo doutor, mas não fumo cigarros tradicionais, eu gosto muito do Vape conhece? Esses cigarrinhos eletrônicos, já fumo a dois anos, não sei dizer a quantidade que fumo, mas estou com ele sempre na mão durante todo o dia.\n** Drogas: **Nega.\n** Atividade física: **Sou sedentário.\n** Alimentação:** É bem equilibrada.\n\n**ANTECEDENTES FAMILIARES:**\n- Mãe com asma, pai saudável",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n** Pressão arterial: **100x60 mmHg\n\n** Frequência cardíaca: **115 bpm\n\n** Saturação de O2: **85%\n\n** Temperatura: **39º C\n\n** Frequência respiratória: **32 incursões por minuto\n\n\n\n**Estado geral:**\n\nPaciente agitado, em estado de desconforto respiratório, respirações rápidas e profundas, com uso de musculatura acessória, febril, acianótico, anictérico.\n\n\n\n**Respiratório:**\n\nMurmúrio vesicular diminuído em ambas as bases pulmonares, com estertores crepitantes difusos.\n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular, sem sopros.\n\n\n\n**Abdominal:**\n\nAbdome flácido, indolor à palpação.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Radiografia de tórax",
+      "conteudo": "Infiltrados pulmonares bilaterais difusos, com padrão de vidro fosco.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Tomografia Computadorizada (TC) de Tórax",
+      "conteudo": "Opacidades em vidro fosco difusas, espessamento dos septos interlobulares e derrame pleural bilateral (pequeno).",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma**\n\n- Hemácias: 4,5 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3).\n\n- Hemoglobina: 14,2 g/dl (Valor de referência: 14 a 18 mg/dl).\n\n- Hematócrito: 34% (Valor de referência: 39 - 52%).\n\n- VCM: 93 fL (Valor de referência: 80 a 100 fL).\n\n- HCM: 31 pg (Valor de referência: 26 - 33 pg).\n\n- CHCM: 32 g/dl (Valor de referência: 30 - 34 g/dl).\n\n- RDW CV: 12% (Valor de referência: 11 - 14%).\n\n\n\nPlaquetas: 179.000 mm/3 (150.000 - 400.000 mm/3).\n\n\n\nLeucograma:\n\n- Leucócitos: 15.340/mm3 (Valor de referência: 4.000 - 10.000/mm3).\n\n- Neutrófilos: 80% (Valor de referência: 40 - 70%).\n\n- Bastões: 3% (Valor de referência: 0 - 5%).\n\n- Linfócitos: 25% (Valor de referência: 20 - 50%).\n\n- Basófilos: 1% (Valor de referência: 0 - 2%).\n\n- Eosinófilos: 2% (Valor de referência: 0 - 6%).\n\n- Monócitos: 4% (Valor de referência: 4 - 8%).\n\n\n\nProcalcitonina (PCT): Inferior a 0,1 ng/mL.  (Valor de referência: <0,1 ng/mL).\n\n\n\n**Proteína C reativa:** 5 mg/dl (Valores de referência: < 0,3 mg/dl)\n\n\n\n**Troponina:** 0,02 ng/ml (Valor de referência: < 0,04 ng/ml)\n\n\n\n**Ionograma plasmático:**\n\nSódio: 138 mEq/l (Valor de referência: 135 - 145 mEq/l)\n\nK: 4 mEq/l (Valor de referência: 3,5 - 5 mEq/l)\n\nCálcio: 9 mg/dl (Valor de referência: 8,7 - 10,2 mg/dl)\n\nCloruro: 105 mEq/l (Valor de referência: 102 - 110 mEq/l)\n\nMagnésio: 2 mg/dl (Valor de referência: 1,5 - 2,3 mg/dl)\n\nFósforo: 4,2 mg/dl (Valor de referência: 2,5 - 5 mg/dl)\n\n\n\n**Gasometria arterial:**\n\n**pH: **7,35 (Valor de referência: 7,35 - 7,45)\n\n**PaCO2:** 60 mm Hg (Valor de referência: 35 - 45 mm Hg)\n\n**PaO2:** 52 mm Hg (Valor de referência: 80 - 100 mm Hg)\n\n**HCO3**: 28 mEq/l (Valor de referência: 22 - 26 mEq/l)\n\nBE: 3 (Valor de referência: -2 a +2)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "RT - PCR COVID 19 ",
+      "conteudo": "**RT - PCR COVID 19 **-** **Negativo** **( Valor de referência: Negativo)",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "RT-PCR INFLUENZA",
+      "conteudo": "**RT - PCR INFLUENZA **- Negativo** **( Valor de referência: Negativo)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza apenas uma ação ou nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga as características da dor torácica: **\n(1) Tempo de evolução;\n(2) Localização;\n(3) Intensidade;\n(4) Características da dor;\n(5) Irradiação; \n(6) Fatores de melhora;\n(7) Fatores de piora;\n(8) Progressão;\n(9) Episódios anteriores. \n\n**Adequado: **Investiga nove características. \n**Parcialmente adequado: **Investiga de seis a oito características. \n**Inadequado: **Investiga cinco ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **.Investiga sobre os sintomas associados relevantes para o estabelecimento de diagnósticos diferenciais:** \n(1) Febre ou calafrios ou sudorese;\n(2) Tosse;\n(3) Expectoração ou secreção  purulenta ou catarro; \n(4) Hemoptise ou expectoração com sangue;\n(5) Cianose e/ou palidez; \n(6) Sintomas gripais (rinorreia, secreção nasal, espirros);\n(7) Despertar noturno por falta de ar ou palpitações ou desmaios;\n(8) Perda de peso e/ou anorexia.\n\n**Adequado:** Investiga sete ou mais itens; \n**Parcialmente adequado:** Investiga quatro a seis itens;\n**Inadequado:** Investiga três itens ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais:**\n(1) Doenças crônicas;\n(2) Medicação de uso contínuo;\n(3) Alergia medicamentosa;\n(4) Internações prévias;\n(5) Antecedentes familiares;\n(6) Hábitos tóxicos;\n(7) Hábitos alimentares;\n(8) Prática de atividade física.\n\n**Adequado:** Investiga as oito ações;\n**Parcialmente:** Investiga cinco a sete ações;\n**Inadequado:** Investiga quatro ou não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico:** \n(1) Solicita permissão para realizar o exame físico, lava as mãos e se paramenta;\n(2) Interpreta exame físico.\n\n**Adequado:** Realiza as duas ações;\n**Inadequado:** Realiza uma ação ou nenhuma ação.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exames complementares:**\n(1) Hemograma;\n(2) PCR/VSH;\n(3) Procalcitonina;\n(4) Gasometria Arterial;\n(5) Radiografia de tórax; \n(6) Tomografia Computadorizada de Tórax;\n(7) RT - PCR COVID 19 e INFLUENZA.\n\n**Adequado:** Solicita seis exames ou mais.\n**Parcialmente adequado:** Solicita quatro a cinco exames.\n**Inadequado:** Solicita três ou não solicita nenhum exame.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "A procalcitonina é um biomarcador útil para diferenciar infecções bacterianas de infecções virais e outros processos inflamatórios, pois seus níveis tendem a ser mais elevados em infecções bacterianas. O valor normal da procalcitonina (PCT) no sangue é inferior a 0,1 ng/mL. Níveis acima de 0,25 ng/mL podem indicar uma infecção. Valores entre 0,5 e 2 ng/mL podem indicar inflamação sistêmica ou risco moderado de progressão para septicemia. Níveis acima de 2 ng/mL são indicativos de alto risco de infecção bacteriana grave ou choque séptico."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Realiza diagnóstico de:** \n(1) EVALI (E-cigarette or Vaping product use-Associated Lung Injury) grave OU Pneumopatia ( lesâo pulmonar) associada ao uso de cigarros eletrônicos.\n(2) Insuficiência respiratória aguda mista.\n\n**Adequado:** Realiza adequadamente  ambos diagnósticos .\n**Parcialmente adequado:**  Realiza um diagnóstico.\n**Inadequado:** Não realiza*",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "A EVALI (Lesão Pulmonar Associada ao Uso de Cigarro Eletrônico) pode causar insuficiência respiratória, geralmente do tipo hipoxêmica aguda (tipo 1) ou hipercápnica (tipo 2), dependendo da gravidade e da causa da lesão pulmonar. A hipoxemia ocorre quando os níveis de oxigênio no sangue ficam muito baixos, enquanto a hipercapnia acontece quando há excesso de dióxido de carbono no sangue. A EVALI pode também levar à síndrome da angústia respiratória aguda (SARA), uma forma grave de insuficiência respiratória hipoxêmica.  Insuficiência respiratória hipoxêmica (tipo 1) A EVALI pode causar inflamação e danos aos pulmões, comprometendo a troca gasosa e, consequentemente, reduzindo a quantidade de oxigênio que chega ao sangue.  Insuficiência respiratória hipercápnica (tipo 2): Em alguns casos, a EVALI pode levar à incapacidade de remover o dióxido de carbono do corpo, resultando em níveis elevados de CO2 no sangue."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza diagnósticos diferenciais:**\n(1) Pneumonia viral;\n(2) Pneumonia bacteriana;\n(3) Pneumonia por fungos ;\n(4) Pneumocistose – principalmente em pacientes imunossuprimidos;\n(5) COVID-19.\n\n**Adequado:** Verbaliza dois ou mais diagnósticos diferenciais.\n**Parcialmente adequado:** Verbaliza um diagnóstico diferencial.\n**Inadequado:** Não verbaliza diagnósticos diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Define conduta terapêutica:**\n(1) Indica Intubação orotraqueal  com uso de ventilação mecânica;\n(2) Indica administração de metilprednisolona intravenosa (1 mg/kg/dia) com posterior redução gradual da dose;\n(3) Realiza monitorização contínua dos sinais vitais e da mecânica ventilatória;\n(4) Indica fisioterapia respiratória; \n(5) Indica controle radiológico da doença.\n\n**Adequado:** Realiza quatro ou mais ações.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Orienta sobre as medidas que deverão ser adotadas após a alta do paciente:**\n(1) Orienta interrupção o uso do cigarro eletrônico;\n(2) Orienta sobre mudança no estilo de vida como, pratica de atividade física regular e alimentação saudável;\n(3) Acompanhamento ambulatorial para monitorização da função pulmonar;\n(4) Reabilitação pulmonar para otimizar a recuperação da capacidade respiratória;\n(5) Encaminha paciente para E-multi e/ou  CAPS-AD. \n\n**Adequado:** Realiza três ou mais ações.\n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

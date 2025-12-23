@@ -1,0 +1,212 @@
+{
+  "uid": 1231,
+  "hash": "Q_ZNx3di9p-fUtX3C1MXBnnL",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Vaginose Bacteriana",
+  "definicao": "A vaginose bacteriana ocorre quando há um desequilíbrio na microbiota vaginal com diminuição dos Lactobacilos. Essa alteração produz aumento do pH vaginal e um crecimiento desproporcional de bactérias anaeróbias.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "76.50",
+    "star": 0,
+    "time": 599,
+    "count": 6687
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de Atenção: Atenção Primária à Saúde .\nTipo de Atendimento: Ambulatorial - Unidade Básica de Saúde.\n\nA unidade possui a seguinte infraestrutura:\n- Sala de medicação;\n- Medicamentos fornecidos pelo SUS;\n- Microscópio óptico.\n\nDescrição do caso:\nVocê é o médico de uma estratégia da saúde da família e atende uma paciente com queixa de corrimento vaginal.",
+  "tarefas": "- Anamnese dirigida à queixa principal da paciente. \n- Solicitar exame físico. \n- Solicitar e interpretar exame ginecológico pertinente ao caso. \n- Verbalizar o diagnóstico e o principal agente etiológico. \n- Explicar o critério diagnóstico.\n- Responder aos questionamentos da paciente, se houver. \n- Conduta terapêutica.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Olívia, tenho 25 anos e sou estudante.\n\n**MOTIVO DA CONSULTA:**\n- Venho pra consultar porque estou com corrimento vaginal.\n\n**SOBRE O CORRIMENTO:**\n**- Início:** Começou faz uma semana. \n**- Aspecto:** É uma secreção líquida. \n**- Cor:** Acinzentada. \n**- Cheiro:** Tem um cheiro muito ruim, de peixe podre. \n**- Fatores de melhora ou piora:** Piora quando estou menstruada.\n\n**SINTOMAS ASSOCIADOS:**\n- Negar qualquer sintoma associado perguntado. \n\n**ANTECEDENTES PESSOAIS:**\n**- Doenças:**Nega doenças.\n**- Cirurgias: **Apendicectomía aos 12 anos de idade. \n**- Medicamentos:** Anticoncepcional oral combinado.\n**- Alergia:** Dipirona.\n**- Cartão de vacinação:** Atualizado. \n\n**HÁBITOS:**\n**- Tóxicos: **Nega cigarro, álcool e drogas. \n**- Fezes, urina: **Sem alterações.\n\n**ANTECEDENTES GINECOLÓGICOS:**\n**- Data da última menstruação:** Há 5 dias. \n**- Menarca:** Aos 10 anos. \n**- Sexarca:** Aos 17 anos.\n**- Vida sexual:** Ativa, com único parceiro. Utilizam preservativos em todas as relações. \n**- Último controle ginecológico:** Realizados há 3 meses sem alterações.\n\n**Ao receber o diagnóstico, perguntar:** \n- isso é transmitido pelo sexo? Meu namorado vai precisar de tratamento também?\n\n**Questionar: **\nDr (a) VOCÊ TEM CERTEZA QUE É ESSE DIAGNÓSTICO? Por quê?\n\n**O candidato deverá solicitar quais exames ginecológicos necessita (inspeção genital, exame especular, toque vaginal, etc). **Liberar somente os impressos verbalizados.*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico ",
+      "conteudo": "**Sinais vitais:**\n\n**Pressão arterial:** 110x70 mmHg \n\n**Frequência cardíaca: **63 batimentos por minuto \n\n**Saturação de O2:** 96% \n\n**Temperatura axilar: **36° C \n\n**Frequência respiratória: **14 incursões por minuto \n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótica, anictérica, normocorada e hidratada, alerta, orientada no tempo e espaço. \n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n**Respiratório:**\n\nAusculta respiratória com murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos agregados. \n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/old/980A785E-3125-494E-93C7-4889C33D2176.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Inspeção genital",
+      "conteudo": "**Inspeção genital: **Não se observam lesões nem alterações em região genital e anal.",
+      "imagem": "https://app.penserevalida.com/impressos/old/980A785E-3125-494E-93C7-4889C33D2176.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame especular",
+      "conteudo": "**Exame especular:**\n\nDescreva os achados!",
+      "imagem": "https://app.penserevalida.com/impressos/old/1AA16861-505C-458B-BC22-1649BB210E1C.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Toque vaginal",
+      "conteudo": "Sem dor à palpação e mobilização do colo uterino.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1AA16861-505C-458B-BC22-1649BB210E1C.jpeg"
+    },
+    {
+      "idx": 5,
+      "titulo": "Análise microscópica",
+      "conteudo": "**Análise microscópica da secreção vaginal:**\n\nSe observa células indicadoras (clue cells) e ausência de leucócitos.",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "Teste de Whiff",
+      "conteudo": "**Positivo:** liberação de odor desagradável à aplicação de KOH sobre a secreção vaginal.",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "pH",
+      "conteudo": "> 4,5",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:** \n(1) Apresenta-se adequadamente;\n(2) Cumprimenta e identifica a paciente simulada, falando seu\nnome. \n\n**Adequado: **Realiza as duas ações. \n**Parcialmente adequado:** Realiza apenas uma ação. \n**Inadequado: **Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características do corrimento:**\n(1) Tempo de evolução;\n(2) Aspecto;\n(3) Cheiro;\n(4) Cor;\n(5) Fatores de piora.\n\n**Adequado: **Investiga quatro ou mais características.\n**Parcialmente adequado: **Investiga de dois ou três características.\n**Inadequado: **Investiga uma ou nenhuma das características corretas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.625",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga vida sexual:**\n(1) Número de parceiros; \n(2) Uso de preservativo; \n(3) Dispareunia; \n(4) Sinusorragia.\n\n**Adequado:** Pergunta quatro itens.\n**Parcialmente adequado:** Pergunta três ou dois itens.\n**Inadequado:** Pergunta apenas um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga antecedentes ginecológicos:** \n(1) Data da última menstruação; \n(2) Menarca; \n(3) Sexarca; \n(4) Controles ginecológicos prévios; \n(5) Uso de métodos contraceptivos. \n\n**Adequado:** Pergunta quatro ou mais itens. \n**Parcialmente adequado:** Pergunta três ou dois itens. \n**Inadequado:** Pergunta apenas um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita inspeção vaginal e verbaliza como normal.**\n\n**Adequado:** Solicita e interpreta.\n**Inadequado:** Não solicita ou não interpreta.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita o exame especular e verbaliza a presença de secreção acinzentada.**\n\n**Adequado:** Solicita e interpreta.\n**Inadequado:** Não solicita ou não interpreta.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita toque vaginal e verbaliza como normal.**\n\n**Adequado:** Solicita e interpreta.\n**Inadequado:** Não solicita ou não interpreta.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita análise microscópica e verbaliza a presença de clue cells (células indicadoras) e ausência de leucócitos.**\n\n**Adequado: **Solicita e interpreta.\n**Inadequado: **Não solicita ou não interpreta.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita a realização do teste de Whiff ou a adição de hidróxido de potássio a 10% na secreção, e verbaliza como positivo.**\n\n**Adequado: **Solicita e interpreta.\n**Inadequado: **Não solicita ou não interpreta.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza o diagnóstico de vaginose bacteriana e principal agente etiológico, Gardnerella vaginalis.**\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "Outros agentes etiológicos:Prevotella spp, Peptostreptococcus sp, Mobiluncus spp e Mycoplasma hominis."
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Informa que o**\n(1) Diagnóstico é realizado com os critérios de Amsel, sendo eles:\n(2) Corrimento vaginal homogêneo (corrimento branco-acinzentado);\n(3) PH vaginal > 4,5;\n(4) Presença de clue cells (células-guia) no exame de lâmina a fresco;\n(5) Teste de whiff positivo (odor fétido das aminas com adição de hidróxido de potássio a 10%);\n(6) O diagnóstico é feito com 3 ou mais critérios presentes.\n\n**Adequado:** Informa cinco ou mais itens.\n**Parcialmente adequado:** Informa de quatro a dois itens.\n**Inadequado:** Informa apenas um item ou não informa item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica que não é uma doença transmitida pelo sexo e por tanto o parceiro não necessita realizar esse tratamento. **\n\n**Adequado: **Explica. \n**Inadequado: **Não explica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica tratamento com Metronidazol 500 mg por via oral (VO) duas vezes ao dia durante 7 dias e informa que a paciente não deve ingerir bebida alcoólica durante o tratamento. **\n\n**Adequado: **Prescreve o medicamento com dose e via de administração corretas e informa o não consumo de álcool. \n**Parcialmente adequado:** Prescreve o medicamento adequado, mas sem mencionar a dose adequada ou com a dose e/ou via de administração incorretas ou não informa o não consumo de álcool. \n**Inadequado:** Não prescreve o medicamento adequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "O uso concomitante de metronidazol e álcool favorece a aparição do efeito dissulfiram. Tratamento via vaginal: metronidazol gel vaginal 100mg/g, um aplicador cheio via vaginal, à noite ao deitar-se, por 5 dias."
+    }
+  ]
+}

@@ -92,15 +92,23 @@ export function Navbar() {
               size="icon"
               onClick={handleProfileClick}
               className={cn(
-                "h-10 w-10 rounded-xl",
-                "bg-gradient-to-br from-primary to-violet-600",
+                "h-10 w-10 rounded-xl overflow-hidden",
+                !profile.avatar && "bg-gradient-to-br from-primary to-violet-600",
                 "hover:opacity-90"
               )}
               title="Meu Perfil"
             >
-              <span className="text-white font-bold text-sm">
-                {profile.nome.split(" ").map(n => n[0]).join("").slice(0, 2)}
-              </span>
+              {profile.avatar ? (
+                <img 
+                  src={profile.avatar} 
+                  alt="Foto de perfil"
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <span className="text-white font-bold text-sm">
+                  {profile.nome.split(" ").map(n => n[0]).join("").slice(0, 2)}
+                </span>
+              )}
             </Button>
           </div>
         </div>

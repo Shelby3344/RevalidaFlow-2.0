@@ -1,0 +1,161 @@
+{
+  "uid": 1059,
+  "hash": "gOM0mUAGE6rdv3X6pBVAYSl9",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Suporte Avançado De Vida – Assistolia",
+  "definicao": "A assistolia e a atividade elétrica sem pulso (AESP) são ritmo não chocáveis, já que normalmente estão associadas a causas potencialmente reversíveis que não estão relacionadas diretamente com o sistema elétrico do coração.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "82.50",
+    "star": 0,
+    "time": 448.5,
+    "count": 2967
+  },
+  "cenario": "Nível de atenção: Terciária.\nTipo de atendimento: Sala vermelha - Unidade de pronto atendimento.\n\nA unidade possui a seguinte infraestrutura:\n- Sala de emergências;\n- Laboratório de análises clínicas e banco de sangue;\n- Tomografia computadorizada;\n- Serviços de transfusão de sangue.\n\nDescrição do caso:\nVocê recebe um paciente masculino de 62 anos, obeso, sedentário, diabético e hipertenso mal controlado há 15 anos. Os familiares relatam que o paciente queixava-se de dor intensa no peito com irradiação para o braço esquerdo há 40 minutos e episódio de desmaio há 10 minutos. O paciente permanece inconsciente e foi trazido de carro ao pronto-socorro. O paciente já se encontra na sala vermelha.",
+  "tarefas": "- Realizar o atendimento do paciente (nesse momento você conta com a ajuda de um enfermeiro);\n- Perguntar ou solicitar ao enfermeiro tudo que for necessário para o atendimento;\n- Verbalizar todos os passos do atendimento;\n- Responder as perguntas realizadas pelo enfermeiro.",
+  "script_ator": "**Você será o enfermeiro que auxiliará o médico e responderá suas perguntas de acordo ao roteiro. **\n\n**SE PERGUNTADO SE O PACIENTE RESPONDE A ESTÍMULOS:**\n- Paciente não responde.\n\n**SE PERGUNTADO SE O PACIENTE TEM PULSO E RESPIRA:**\n- Não tem pulso e não respira.\n\n**SE SOLICITADA A AJUDA DA EQUIPE:**\n- Considere que a equipe já está aqui.\n\n**SE SOLICITADO DESFIBRILADOR:**\n- Já vou preparar o desfibrilador, te aviso quando estiver pronto.\n\n**Nesse momento o candidato deveria verbalizar o início das compressões torácicas e ventilação. **\n- Aguarde e em seguida diga: doutor (a), o desfibrilador já está pronto.\n\n**SE SOLICITADO VER O RITMO DO PACIENTE:**\n- Liberar o IMPRESSO 1. \n\n**CASO O CANDIDATO PEÇA PARA VERIFICAR A CONEXÃO DOS ELETRODOS OU AUMENTAR O GANHO DO MONITOR CARDÍACO, DIGA:**\n- Verificado doutor (a), o ritmo realmente é esse!\n\n**SE SOLICITADO ACESSO VENOSO PERIFÉRICO E ADMINISTRAÇÃO DE ADRENALINA:**\n- Realizado!\n\n**DEPOIS QUE O CANDIDATO VERBALIZAR A CONTINUAÇÃO DAS COMPRESSÕES, DIGA:**\n- Já se passaram 2 minutos de RCP doutor (a). Esse é o novo ritmo do paciente (libere o IMPRESSO 2).\n\n**DEPOIS QUE O CANDIDATO VERBALIZAR A CONTINUAÇÃO DA RCP, PERGUNTE:**\n- O que pode ter causado a parada cardiorrespiratória nesse paciente? Poderia me dizer 4 causas?\n\n**QUANDO O CANDIDATO DISSER AS CAUSAS (OU NÃO SE LEMBRAR E QUISER CONTINUAR O ATENDIMENTO), DIGA: **\n- Ok doutor (a), já se passaram 2 minutos de RCP. Esse é o novo ritmo (libere o IMPRESSO 3).\n\n**CASO O CANDIDATO PERGUNTE SE TEM PULSO:**\n- Sim, doutor (a)! O paciente tem pulso e respira!\n\n**SE SOLICITADO ELETROCARDIOGRAMA DE 12 DERIVAÇÕES:**\n- Libere o IMPRESSO 4.\n\n**CASO O CANDIDATO VERBALIZE QUE INICIARÁ OS CUIDADOS PÓS PCR E/OU ENCAMINHAR O PACIENTE PARA CATETERISMO:**\n- Considere realizado!\n\n**Se o candidato solicitar qualquer exame, responder: **\n- Considere solicitado.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Ritmo cardíaco 1",
+      "conteudo": "** ATENÇÃO! VERBALIZE O NOME DO RITMO E EM SEGUIDA A CONDUTA TERAPÊUTICA. **",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0855.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Ritmo cardíaco 2",
+      "conteudo": "** ATENÇÃO! VERBALIZE O NOME DO RITMO E EM SEGUIDA A CONDUTA TERAPÊUTICA. **",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0854.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Ritmo cardíaco 3",
+      "conteudo": "** ATENÇÃO! AO VER ESSE TRAÇADO, INDIQUE A PRÓXIMA CONDUTA. **",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0853.jpeg"
+    },
+    {
+      "idx": 4,
+      "titulo": "ECG de 12 derivações",
+      "conteudo": "** ATENÇÃO! ANALISANDO O ECG E O HISTÓRICO DO PACIENTE, INDIQUE O DIAGNÓSTICO E A CONDUTA TERAPÊUTICA ESPECÍFICA. **",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Comprova se o paciente responde:**\n(1) Chama o paciente em voz alta;\n(2) Realiza estímulo tátil.\n\n**Adequado:** Verbaliza as duas ações.\n**Parcialmente adequado:** Verbaliza apenas uma ação.\n**Inadequado:** Não verbaliza nenhuma ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Verifica ou pergunta se o paciente:**\n(1) Tem pulso;\n(2) Se respira.\n\n**Adequado:** Realiza as duas perguntas.\n**Parcialmente adequado:** Realiza apenas uma pergunta.\n**Inadequado:** Não realiza nenhuma pergunta.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Idealmente realizar as duas ações  ao mesmo tempo e por no  máximo 10 segundos."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Verbaliza que iniciará as compressões torácicas associadas à ventilação até a preparação do desfibrilador/ monitor.**\n\n**Adequado: **Verbaliza início das compressões e ventilações. \n**Parcialmente adequado: **Verbaliza apenas compressões torácicas.\n**Inadequado: **Não verbaliza compressões torácicas ou não realiza ação alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "RCP de qualidade:  - Comprima o tórax 5 cm com frequência de 100 a 120/min permitindo o retorno completo do tórax;- Minimize as interrupções das compressões;- Troque o compressor a cada 2 minutos, ou antes se estiver cansado;- Se não houver via aérea avançada, realize 30:2(relação compressão-ventilação);- Evite ventilação excessiva."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Ao solicitar o ritmo o candidato:**\n(1) Interpreta o ritmo do IMPRESSO 1 como Assistolia;\n(2) Indica o protocolo para confirmar o traçado: checar se os cabos estão conectados e/ou aumentar ganhos no monitor e/ou verificar outras derivações.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "Protocolo da linha reta.*"
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Após identificar o IMPRESSO 1 e realizar o protocolo da linha reta, indica:**\n(1) Retorno das compressões torácicas;\n(2) Acesso venoso periférico;\n(3) Adrenalina 1 mg (validar esse item se indicado o nome da droga e a dose).\n\n**Adequado:** Realiza três ações.\n**Parcialmente adequado:** Realiza duas ações.\n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Adrenalina 1 mg, IV  (ou intra-óssea) em bolus,  seguida de  flush de SF  para facilitar a chegada da droga na corrente sanguínea."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Após ver o IMPRESSO 2, realiza as seguintes tarefas:**\n(1) Continua as compressões torácicas;\n(2) Ao ser questionado pelo enfermeiro, indica **quatro ** das seguintes causas de PCR: Hipovolemia, hipóxia, acidose, hipoglicemia, hipo/hiperpotassemia, hipotermia, pneumotórax hipertensivo, tamponamento cardíaco, intoxicação, trombose pulmonar, trombose coronária (IAM).\n\n**Adequado:** Realiza as duas tarefas.\n**Parcialmente adequado:** Realiza a tarefa (2) e  indica ao menos quatro causas.\n**Inadequado:** Não realiza a tarefa um ou cita apenas duas causa de PCR.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Ver mnemônico dos  Hs e Ts  para  causas reversíveis  de PCR disponível na referência ao final do checklist."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Após ver o IMPRESSO 3, pergunta ou verifica se o paciente tem pulso. **\n\n**Adequado: **Pergunta. \n**Inadequado: **Não pergunta.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Quando  houver ritmo  no monitor,  checar o pulso  para diferenciar a Atividade Elétrica Sem Pulso (AESP)  do Retorno da Circulação Espontânea (RCE)."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita ECG de 12 derivações.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "ECG de 12 derivações  é um dos vários exames que devem ser realizados após o paciente sair de uma PCR.Nesse caso, é ainda mais importante já que a  provável causa  da PCR foi um  IAM."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza o diagnóstico de infarto agudo do miocárdio.**\n\n**Adequado:** Realiza.\n**Inadequado:** Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Indica cuidados pós parada cardiorrespiratória e/ou ativa o serviço de hemodinâmica (ou indica angioplastia coronária, cateterismo cardíaco ou reperfusão coronária).**\n\n**Adequado:** Realiza a tarefa.\n**Inadequado:** Não realiza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Os cuidados após uma parada cardiorrespiratória (PCR) incluem transferência para UTI, otimização da função cardiopulmonar e cerebral, controle da temperatura, da pressão arterial e da glicemia. É fundamental manter a oxigenação adequada (SpO₂ ≥ 94%), evitar hiperóxia e hipocapnia/hipercapnia, tratar a causa inicial e monitorar o paciente de perto para prevenir novas paradas."
+    }
+  ]
+}

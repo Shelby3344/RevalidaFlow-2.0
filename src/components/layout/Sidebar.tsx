@@ -49,7 +49,6 @@ const menuSections: MenuSection[] = [
         icon: ClipboardList,
         children: [
           { title: "Revalida Flow", path: "/checklists" },
-          { title: "Parceiros", path: "/checklists/parceiros" },
         ],
       },
       {

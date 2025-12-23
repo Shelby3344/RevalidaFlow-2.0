@@ -11,6 +11,7 @@ import { CreateSessionModal } from "./avaliacao/CreateSessionModal";
 import { getChecklistContentByIdAsync } from "@/data/checklistContents";
 import { ChecklistEvaluationItem } from "@/types/checklists";
 import { useChecklistMetrics } from "@/hooks/useChecklistMetrics";
+import { useUserProfile } from "@/hooks/useUserProfile";
 
 interface AllChecklistsModalProps {
   open: boolean;
@@ -18,6 +19,7 @@ interface AllChecklistsModalProps {
 }
 
 export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalProps) {
+  const { profile } = useUserProfile();
   const [selectedArea, setSelectedArea] = useState("all");
   const [selectedInep, setSelectedInep] = useState("all");
   const [sessionModalOpen, setSessionModalOpen] = useState(false);
@@ -227,7 +229,7 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
             {/* User info */}
             <div className="flex items-center gap-2 text-muted-foreground">
               <User className="w-4 h-4" />
-              <span className="text-sm">Nayara Nuñez</span>
+              <span className="text-sm">{profile.nome}</span>
             </div>
 
             {/* Filters */}

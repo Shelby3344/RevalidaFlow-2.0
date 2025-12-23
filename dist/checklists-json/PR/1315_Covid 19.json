@@ -1,0 +1,276 @@
+{
+  "uid": 1315,
+  "hash": "0Ysp2AqL02a3fJUtl3VRBQfC",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Covid 19",
+  "definicao": "A Covid-19 é uma infecção respiratória aguda causada pelo coronavírus SARS-CoV-2, potencialmente grave, de elevada transmissibilidade e de distribuição global.Os coronavírus são uma grande família de vírus comuns em muitas espécies diferentes de animais, incluindo o homem, camelos, gado, gatos e morcegos. Raramente os coronavírus de animais podem infectar pessoas e depois se espalhar entre seres humanos como já ocorreu com o MERS-CoV e o SARS-CoV-2. Até o momento, não foi definido o reservatório silvestre do SARS-CoV-2.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "45.50",
+    "star": 0,
+    "time": 595,
+    "count": 5219
+  },
+  "cenario": "Local de atuação:\nUnidade de Atenção Primária.\n\nA unidade possui a seguinte infraestrutura:\n- consultórios para atendimento;\n- sala de vacina;\n- setor de radiologia.\n\nDescrição do caso:\nHomem de 42 anos comparece à Unidade Básica de Saúde (UBS) queixando-se de coriza, cefaleia e febre.",
+  "tarefas": "Realizar anamnese do paciente. \nSolicitar investigação laboratorial, se necessário. \nVerbalizar como é feita a coleta do exame para a principal suspeita diagnóstica.\nDefinir o diagnóstico clínico-laboratorial. \nOrientar o plano terapêutico e as medidas de controle. \n\nATENÇÃO: O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "Benjamin, 42 anos, jornalista, casado.\n\n**Motivo de consulta:**\nDr(a) estou me sentindo com um mal estar, febre, e uma dor de cabeça estranha já tem 4 dias\n\nSobre a febre\n**Aferição da temperatura:**\nFebre de 38.5 \n**Uso de medicamentos:**\nmelhora com dipirona mas logo volta a subir\n\nSobre a cefaleia\n**Característica da cefaleia:**\nA dor de cabeça é como se fosse uma linha tensional que passa por toda a minha cabeça ate a nuca, \n**Intensidade da dor:**\n5/10, \n**Uso de medicamentos:**\nmelhora com a dipirona mas logo volta;\n\nSobre hábitos intestinais\n**Alteração nas fezes:**\nOntem de noite minhas fezes começaram a sair pastosas mas seguem de cor normal \n\n**Sintomas acompanhantes:**\n**Tosse:** Sim, com um catarro transparente.\n**Coriza:** Sim.\n\n**NEGAR**\ncalafrios, \nnáuseas, \nvômitos, \ndesmaio, \nconvulsões, \nalterações urinarias, \nanosmia, \ndispneia.\n\nSobre ANTECEDENTES PESSOAIS e FAMILIARES\n**Hábitos alimentares:**\nDr(a) nesses 4 dias não estou tendo vontade nem de comer, mas estou forçando ao menos uma sopinha\n**Quem vive na mesma residência:**\nMoro com minha esposa (não tenho filhos)\n**Localização da casa:**\nMoro aqui pertinho da UBS\n**Situação vacinal:**\nDr(a) Não trouxe a minha carterinha de vacinas mas estão em dia\n**Vacina COVID-19:**\nTomei somente duas doses e depois não quis mais tomar, porque percebi que as pessoas já não estavam morrendo como antes, ultima dose a 10 meses atrás.\n**Hábitos tóxicos:**\nBebe e fuma socialmente, não faz uso de drogas ilícitas \n\n**Status vacinal da ESPOSA:**\nMinha mulher só tomou uma dose da vacina do covid-19, porque o pai dela tomou uma dose e morreu e ai ela ficou assustada, não lembro quando foi que ela tomou a vacina.\n\n**NEGA**\ncomorbidades, \nantecedentes neoplasicos pessoais ou familiares\nmedicação de uso crônico,\nalergias\nITS \nviagens nos últimos 3 anos\n\n**Antecedentes epidemiológicos:**\nDr(a) minha esposa esteve com sintomas parecidos na semana passada mas ela não teve essa diarreia que estou tendo não, então acho que são coisas diferentes.\n\n**Antes de ser entregue o exame de COVID-19 questionar ao participante como é feito o exame do cotonete**\n\n**Ao ser dado o diagnóstico mostrar-se muito assustado e dizer que está com medo de morrer (caso o participante não tenha pedido nenhum exame de imagem, informar que você quer fazer um RX do peito para ter certeza)**\n\n**Caso o participante de alta hospitalar :**\nQuando eu tenho que voltar aqui ?\n\n**Caso o participante solicite internação :**\nQuestionar se realmente existe necessidade",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Fisico",
+      "conteudo": "**Pressão arterial:** 140/100 mmHg. \n\n**Frequência cardíaca:** 107 batimentos por minuto. \n\n**Frequência respiratória:** 20 \n\n**Temperatura axilar:** 38º C. \n\n**Saturação de Oxigênio:** 98% \n\n\n\n**Ectoscopia:** Paciente desidratado +/++++ \n\n**Linfonodos:** Ausentes \n\n**Aparato Cardiovascular:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros ou turgência jugular. \n\n**Aparato Respiratório:** Murmúrio vesicular bem distribuído. Sem ruídos adventícios. \n\n**Abdome:** Normotenso, normotimpânico, indolor à palpação superficial e profunda. Ruídos hidroaéreos aumentados. Sem visceromegalias. \n\n**Membros inferiores:** Sem lesões. Edema +/++++",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exames Complementares",
+      "conteudo": "**Hemograma Completo:**\n\n**Hemoglobina:** 12 (Ref. 12-16)\n\n**Hematócrito:** 45 (Ref. 36-48)\n\n\n\n**Leucócitos:** 10.000 (Ref. 3.700-10.000)\n\n\n\n**Plaquetas:** 90.000 (Ref. 150.000-450.000)\n\n\n\n**Glicemia de jejum:** 152 mg/dl (Ref. 70-110 mg/dl)\n\n\n\n**Proteína C reativa:** 4 mg/dl (Ref. < 0,3 mg/dl)\n\n\n\n**Creatinina:** 0,8 mg/dl (Ref. 0,7-1,1 mg/dl)\n\n**Ureia:** 32 mg/dl (Ref. < 40 mg/dl)\n\n\n\n**TGO:** 30 U/l (VR: 0-31 U/l);\n\n**TGP:** 28 U/l (VR: 0-31 U/l)\n\n**GGT:** 28 U/l (VR: 5-39 U/l)\n\n**LDH:** 420 U/l (VR: 240-480 U/l)\n\n**Bilirrubina total:** 1,0 mg/dl (VR: 0-1 mg/dl)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RT-PCR Covid 19, dengue, chicunguya, zika virus",
+      "conteudo": "**RT- PCR COVID 19** - POSITIVO (REF. NEGATIVO) \n\n**RT- PCR DENGUE** - NEGATIVO (REF. NEGATIVO) \n\n**RT - PCR CHIKUNGUNYA ** - NEGATIVO (REF. NEGATIVO) \n\n**RT- PCR ZIKA VIRUS** - NEGATIVO (REF. NEGATIVO)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação**:\n(1) Cumprimenta o paciente;\n(2) Se identifica de maneira cordial; \n(3) Identifica o paciente;\n(4) Pergunta; e, \n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza as cinco ações.\n**Parcialmente adequado:** Realiza de duas a quatro ações.\n**Inadequado:** Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) estabelece contato visual e \n(2) mantém postura empática ao longo da consulta \n\n**Adequado:** Realiza as duas tarefas \n**Inadequado:** Não realiza as duas tarefas",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Usa linguagem acessível, evitando termos técnicos de difícil compreensão. **\n\n**Adequado:** Usa linguagem acessível \n**Inadequado:** Não usa linguagem acessível",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Responde às perguntas trazidas pelo paciente.**\n\n**Adequado:** Responde às perguntas da paciente \n**Inadequado:** Não responde às perguntas da paciente",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5.** Investiga características da cefaleia:**\n(1) tempo de início, \n(2) localização,\n(3) progressão, \n(4) fatores de melhora ou piora. \n\n**Adequado:** Investiga as quatro características \n**Parcialmente adequado:** Investiga de duas a três características \n**Inadequado:** Investiga somente uma característica ou não investiga nenhuma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga febre: **\n(1) aferição com termômetro, \n(2) padrão de aparecimento da febre, \n(3) maior temperatura alcançada, \n(4) uso de medicações de alivio \n\n**Adequado:** Investiga os quatro itens \n**Parcialmente adequado:** Investiga de dois a três itens \n**Inadequado:** Investiga somente um item OU não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga **\n(1) comorbidades, \n(2) uso de medicações crônicas, \n(3) antecedentes neoplásicos \n\n**Adequado: **Investiga os três itens \n**Inadequado:** Não investiga os três itens",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8.** Investiga **\n(1) alergias, \n(2) hábitos tóxicos, \n(3) prática de atividade física \n\n**Adequado:** Investiga os três itens \n**Parcialmente adequado:** Investiga de um a dois itens \n**Inadequado:** Não investiga nenhum item",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita:**\ncaderneta de vacinas (1) e \nsolicita caderneta de vacina covid-19 (2) \n\n**Adequado:** Solicita as duas cadernetas de vacinação \n**Parcialmente adequado:** Solicita somente uma das cadernetas de vacinação \n**Inadequado:** Não solicita nenhuma das cadernetas de vacinação",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Investiga sobre situação epidemiológica **\n\n**Adequado:** Investiga \n**Inadequado:** Não investiga",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. Pede consentimento ao paciente para realizar:\n(1) Exame físico;\n(2) Verbaliza a higiene de mãos; e, \n(3) Colocação de luvas.\n\n**Adequado:** Realiza as três tarefas.\n**Inadequado:** Não realiza as três tarefas.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Após leitura do impresso 1 é capaz de identificar/verbalizar: **\n(1) Hipertensão arterial ou pressão arterial elevada;\n(2) Taquicardia;\n(3) Febre;\n(4) Desidratação leve;\n(5) Aumento de RHA; e, \n(6) Presença de edema em membro inferior.\n\n**Adequado:** Identifica/verbaliza cinco ou mais itens.\n**Parcialmente adequado: **Identifica/verbaliza de dois a quatro itens.\n**Inadequado:** Identifica/verbaliza somente um item OU não identifica/verbaliza nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Solicita:**\nhemograma completo (1), \nao menos um marcador inflamatório (PCR e/ou VHS) (2), \nhepatograma (3), \nfunção renal (4) \n\n**Adequado:** Solicita os quatro exames laboratoriais \n**Parcialmente adequado:** Solicita de dois a três exames laboratoriais \n**Inadequado:** Solicita somente um exame laboratorial OU não solicita nenhum exame laboratorial",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Solicita:**\n(1) Exame específico para COVID-19 (sendo aceitos biologia molecular, sorologia ou teste rápido, PCR); e \n(2) Exame para diagnóstico diferencial com ao menos uma arbovirose (dengue, chikungunya, zika virus).\n\n**Adequado:** Realiza as duas tarefas. \n**Parcialmente adequado:** Solicita somente exame para COVID 19. \n**Inadequado:** Não solicita exame para COVID-19.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Explica corretamente como é realizado o swab nasal **\n\n**Adequado:** Explica ao paciente que será necessário inserir o swab em uma narina paralelamente ao palato e assoalho nasal, rotacionando e logo manter o swab imóvel por 10 segundos e retirar devagar em rotação. Seguido pelo armazenamento do swab com soro fisiológico, identificação e envio ao laboratório \n**Inadequado:** Não explica corretamente como é realizado o swab nasal",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Verbaliza o diagnóstico de Covid- 19 **\n\n**Adequado:** Verbaliza \n**Inadequado**: Não verbaliza",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Realiza:**\n(1) Tranquiliza o paciente; e,\n(2) Explica de forma simples que no caso em questão não existe necessidade de realização de exames de imagem por se tratar de uma clinica leve.\n\n**Adequado:** Realiza as duas tarefas \n**Parcialmente adequado:** Realiza somente uma das tarefas \n**Inadequado: **Não realiza nenhuma das tarefas",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Explica ao paciente:**\n(1) Dar alta hospitalar;\n(2) Com tratamento sintomático; e,\n(3) Medidas de isolamento (distanciamento social, etiqueta respiratória e de higienização das mãos, uso de máscaras, limpeza e desinfeção de ambientes, isolamento de casos suspeitos e confirmados.\n\n**Obs:** O terceiro item SOMENTE será pontuado em caro de explicar AO MENOS DUAS MEDIDAS\n\n**Adequado:** Realiza as três tarefas.\n**Parcialmente adequado:** Realiza ao menos duas tarefas.\n**Inadequado: **Realiza somente uma tarefas OU não realiza nenhuma tarefa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "19**. Explora a consulta, chamando o paciente para acompanhamento com o médico de cabeceira para iniciar medidas de melhoria da qualidade de vida (como realização de exercícios, dieta acompanhada por nutricionista, e controles da pressão arterial) **\n\n**Adequado: **Explora a consulta \n**Inadequado:** Não explora a consulta",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Médico de cabeceira (família): é o termo mais comum e formalmente aceito para se referir ao profissional de saúde que acompanha o paciente de forma contínua e abrangente, focado na atenção primária."
+    },
+    {
+      "idx": 20,
+      "descricao": "20. **Indica a necessidade de abordagem comunitária, com ação multiprofissional. Considerar adequada se citar ao menos uma outra categoria profissional (ex.: agente comunitária da saúde ou enfermeiro).**\n\n**Adequado:** Indica a necessidade de abordagem comunitária e cita OBRIGATORIAMENTE ao menos uma das seguintes categorias multiprofissionais (agente comunitário da saúde, enfermeiro) \n**Inadequado:** Indica a necessidade de abordagem comunitária sem citar ao menos uma categoria multiprofissional das citas no tópico adequado.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.925"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "21. **Indica:**\nnecessidade de notificação no SINAN (1), \noferece atestado médico (2) \n\n**Adequado:** indica as duas ações. \n**Parcialmente adequado:** indica apenas uma ação.\n**Inadequado:** não indica nenhuma ação de vigilância epidemiológica necessária ao caso.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.375",
+        "adequado": "0.925"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

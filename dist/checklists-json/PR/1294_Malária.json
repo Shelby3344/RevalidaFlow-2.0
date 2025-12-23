@@ -1,0 +1,288 @@
+{
+  "uid": 1294,
+  "hash": "O4bfP_la0v1yEC4086ch8r3I",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Malária",
+  "definicao": "A malária é uma doença infecciosa febril aguda, causada por protozoários do gênero Plasmodium transmitidos pela picada da fêmea infectada do mosquito do gênero Anopheles, também conhecido como mosquito-prego.  A malária também é conhecida como impaludismo, paludismo, febre palustre, febre intermitente, febre terçã benigna, febre terçã maligna, além de nomes populares como maleita, sezão, tremedeira, batedeira ou febre.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "65.50",
+    "star": 0,
+    "time": 599.5,
+    "count": 8525
+  },
+  "cenario": "Nível de atenção: Atenção secundária à saúde.\nTipo de atendimento: Unidade de Pronto Atendimento no estado de São Paulo (UPA).\n\n A unidade apresenta a seguinte infraestrutura:\n-Setor de radiologia;\n-Laboratório de análises clínicas;\n-Leitos de observação; \n-Farmácia clínica com qualquer medicamento e/ou terapia necessária.\n\nDESCRIÇÃO DO CASO: \nVocê é médico(a) da unidade de pronto atendimento e atenderá um homem de 22 anos febre.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar anamnese dirigida à queixa principal do paciente;\n-Solicitar exames físicos necessários à avaliação do caso;\n-Solicitar exames complementares pertinentes ao caso;\n-Relacionar os resultados dos exames às hipóteses diagnósticas;\n-Verbalizar o diagnóstico e elaborar a conduta terapêutica;\n-Avaliar a necessidade de adoção de outras medidas sanitárias.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Arthur, 22 anos, estudante, proveniente de Rondônia.\n\n**MOTIVO DE CONSULTA:**\n-Dr(a) eu vim porque estou doente e já não sei mais o que fazer, tenho uma febre que não passa.\n\n**SOBRE A FEBRE:**\n**Tempo de evolução da febre:** Já estou nesse ciclo a uns 5 dias.\n**Aferição com termômetro:** Febre de 40 graus.\n**Padrão da febre:** Fico 2 dias sem a febre e depois ela volta fica unas 6 horas.\n**Uso de medicação:** Melhora com dipirona mas sempre volta a aparecer.\n**Calafrios e sudoração:** Nos períodos de febre me tremo muito, fico com calafrios.\n\n**SOBRE OS VÔMITOS:**\n**Tempo de evolução:** Tem 3 dias.\n**Conteúdo:** Alimentício.\n**Presença sangue:** Nega.\n**Fatores de melhora ou piora:** Nega.\n**Náuseas**: Sim, o tempo todo.\n\n**FALTA DE APETITE OU INAPETÊNCIA:**\n-Não consigo comer nada porque me sinto enjoado o tempo todo e tenho vômito mesmo não comendo.\n \n**EPISÓDIOS ANTERIORES:**\n-Nega. \n\n**SINTOMAS ASSOCIADOS**:\n**Fraqueza**: Sim.\n**Cansaço:** Sim.\n**Dor de cabeça**: Sim.\n**Tremores:** Sim.\n**Dor no corpo:** Muita dor no corpo, parece que um caminhão passou em cima de mim.\n**Dispneia:** Nega.\n**Hemorragia ou sangramento:** Nega.\n**Alteração da consciência:** Nega. \n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**\n**Comorbidades**: Não tenho problemas de saúde.\n**Medicamentos uso crônico**: Nenhuma medicação contínua.\n**Alergias**: Não que eu saiba.\n**Cirurgia prévia**: Não consta no roteiro.\n**Situação vacinal:** Não sei dizer, mas lembro que só tomei uma dose da vacina COVID 19.\n**ITS:** Nega.\n**Parceiro sexual:** Fixo.\n**Uso de preservativo nas relações sexuais:** Sempre uso preservativo em todas as relações.\n\n**HÁBITOS TÓXICOS:**\n**Tabagismo, etilismo e drogas ilícitas:** Bebo cerveja aos fim de semana, fumo 10 cigarros por dia desde os 16 anos e uso maconha quando me junta com os amigos em festas. \n\n**DADOS EPIDEMIOLÓGICOS:** \n**Viagens recentes:** Dr(a) eu cheguei de Rondônia tem uns 10 dias, fui visitar meus tios, fiquei 12 dias lá de férias.\n**Contatos com sintomas similares:** Não sei.\n**Contato com água de enchente, rato, capivara ou carrapato:** Não consta no roteiro.\n\n**Ao ser dado o diagnóstico indagar ao participante se ele tem certeza desse diagnóstico ou se não poderia ser outra coisa.**\n\n**DÚVIDAS:**\n**Pergunta 1:** Isso é grave? \n**Pergunta 2:** Como pega isso?\n**Pergunta 3 : **Como devo tomar a medicação?\n\n**Caso o participante de alta hospitalar :**\n-Quando eu tenho que voltar aqui?\n\n**Caso o participante solicite internação :**\n-Questionar se realmente existe necessidade.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico ",
+      "conteudo": "**Signos Vitais **\n\n**Pressão Arterial:** 85 X 60 \n\n**Frequência Cardíaca:** 108 BPM \n\n**Frequência Respiratória:** 26 IRPM \n\n**Saturação de 02:** 95% \n\n**Temperatura axilar:** 41°C\n\n\n\nPaciente em regular estado geral, hipocorado +++ /++++ , desidratado +++/++++ \n\n\n\n**Linfonodos:** Ausentes. \n\n**Ausculta cardiorrespiratória:** MV com crepitações difusas. \n\n**Abdome**: Levemente distendido, RHA normais, doloroso difusamente. \n\n**Extremidades:** Dores musculares generalizadas, sem edema.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Laboratorial",
+      "conteudo": "**Hemograma completo:**\n\n**Hemoglobina: **15 (Valor de referencia: 12-16)\n\n**Hematócrito:** 50 (Valor de referencia: 36-48)\n\n\n\n**Leucócitos: **3.200 (Valor de referencia: 3.700-10.000)\n\n\n\n**Plaquetas:** 160.000 (Valor de referencia: 150.000-450.000)\n\n\n\n**Tipagem sanguínea:** O+ \n\n\n\n**Bilirrubina Total:** 2,1 (Valor de referencia: 0.2-1.1) - \n\n**Bilirrubina Direta:** 0,6 (Valor de referencia:0.1-0.4)\n\n**Bilirrubina Indireta:** 1,4 (Valor de referencia:0.1-0.7)\n\n**TGO:** 80 (Valor de referencia: 10-40) \n\n**TGP:** 105 (Valor de referencia: 10-55)\n\n\n\n**Ureia:** 38 (Valor de referencia: 16-40) \n\n**Creatinina:** 1,0 (Valor de referencia: 0.6-1,2)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Teste rápido para Malária",
+      "conteudo": "**Teste rápido para Malária:** Positivo - Valor de Referencia: negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Gota Espessa",
+      "conteudo": "**Gota espessa:**   1+/4+  (Plasmodium vivax).",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "TESTE DE G6PD",
+      "conteudo": "**Resultado:** 7 UI/gHb.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:** \n(1) Cumprimenta o paciente; \n(2) Se identifica de maneira cordial; \n(3) Identifica o paciente;\n(4) Pergunta; e,\n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza apenas um item ou não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.20",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura: **\n(1) Estabelece contato visual; e,\n(2) Mantém postura empática ao longo da consulta. \n\n**Adequado:** Realiza os dois itens.\n**Inadequado:** Não realiza os dois itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.20"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Usa linguagem acessível, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.20"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Responde às perguntas trazidas pelo paciente.**\n\n**Adequado:** Responde às perguntas do paciente. \n**Inadequado:** Não responde às perguntas do paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.20"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga sobre as características da febre:**\n(1) Tempo de início;\n(2) Padrão;\n(3) Questiona se foi aferida com termômetro;\n(4) Uso de medicações;\n(5) Calafrios; e,\n(6) Sudorese.\n\n**Adequado:** Investiga quatro ou mais itens.\n**Parcialmente adequado:** Investiga dois a três itens. \n**Inadequado:** Investiga somente um item OU não investiga nenhuma característica",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.20"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga sobre sintomas acompanhantes como: **\n(1) Mialgia (OU dor muscular OU dor nos músculos);\n(2) Náuseas; \n(3) Vômitos;\n(4) Alterações de urina;\n(5) Diarreia (OU alteração no aspecto das fezes); \n(6) Icterícia (OU olho amarelo OU pele amarela); \n(7) Sintomas gripais (tosse, expectoração, coriza, obstrução nasal, dor de garganta);\n(8) Dores articulares;\n(9) Hiperemia ocular ou conjuntivite;\n(10) Adinamia;\n(11) Anorexia;\n(12) Dor abdominal; e,\n(13) Hemorragia ou sangramento.\n\n**Adequado:** Investiga seis ou mais itens.\n**Parcialmente adequado:** Investiga três a cinco itens.\n**Inadequado:** Investiga sobre dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga:**\n(1) Comorbidades;\n(2) Uso de medicações crônicas;\n(3) Antecedentes neoplásicos;\n(4) Alergias; e,\n(5) Hábitos tóxicos (tabagismo. etilismo e drogas ilícitas).\n\n**Adequado:** Investiga os cinco itens.\n**Inadequado:** Não investiga os cinco itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga sobre situação epidemiológica:**\n(1) Condições de moradia;\n(2) Procedência;\n(3) Viagens recentes;\n(4) Familiares e ou vizinhos com os mesmos sintomas; e,\n(5) Mosquitos nos ambientes que frequenta.\n\n**Adequado:** Investiga três ou mais itens.\n**Parcialmente adequado:** Investiga um ou dois itens\n**Inadequado:** Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita exame físico:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Após leitura do impresso 1 é capaz de identificar/verbalizar:**\n (1) Hipotensão;\n(2) Taquicardia; \n(3) Taquipneia; e,\n(4) Febre alta.\n\n**Adequado:** Identifica/verbaliza os quatro itens.\n**Parcialmente adequado:** identifica/verbaliza ao menos três itens. \n**Inadequado:** identifica/verbaliza somente de um a dois itens OU não identifica/verbaliza nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita:**\n(1) Hemograma completo;\n(2) Bilirrubina total, direto e indireto; \n(3) TGO e TGP; e,\n(4) Ureia e Creatinina. \n\n**Adequado:** Solicita os quatro itens. \n**Parcialmente adequado:** Solicita três itens.\n**Inadequado:** Solicita de um a dois itens. OU não solicita nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita teste rápido para Malária:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "O teste rápido é solicitado em zonas onde não há grande incidência de malária, tem um resultado entre 15-20 minutos e tem maior sensibilidade para P. falciparum. NÃO PODE SER USADO COMO CRITÉRIO DE CURA POIS NUNCA SE NEGATIVIZA"
+    },
+    {
+      "idx": 13,
+      "descricao": "13.** Solicita Exame de Gota Espessa:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": "Forma de diagnóstico preferencial, identifica a quantidade de parasitas e o tipo, baixo custo, porém é examinador dependente"
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Solicita Teste de G6PD (enzima Glicose-6-fosfato desidrogenase).**\n\n**Adequado:** Solicita. \n**Inadequado:** Não solicita.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15.**Verbaliza o diagnóstico de:** \n(1) Malária; e,\n(2) Plasmodium vivax.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza o item um.\n**Inadequado:** Não verbaliza o item um.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Orienta:**\n(1) Importante desidratação;\n(2) Acesso venoso periférico;\n(3) Expansão hídrica; e,\n(4) Antitérmico e/ou analgesia;\n\n**Adequado:** Realiza os quatro itens.\n**Parcialmente adequado:** Realiza dois ou três itens.\n**Inadequado:** Realiza somente um item ou não realiza nenhum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.4",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Indica a prescrição de:**\n(1) Cloroquina pelo período de três dias; e,\n(2) Tafenoquina dose única.\n\n**Adequado:** Indica os dois itens.\n**Parcialmente adequado:** Indica os dois itens SEM verbalizar o tempo de uso. \n**Inadequado:** Não indica os dois itens.\n\nTafenoquina 300 mg dose única + Cloroquina 600 mg dose única e + 2 dias de cloroquina 450 mg.\n**Obs:** Devido o Teste de G6PD com resultado maior ou igual a 6.1 UI/gHb.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.50",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Desde o dia 06/06/2023 o Ministério da Saúde incorporou a Tafenoquina no SUS para o tratamento da Malária, mas ATENÇÃO é somente em caso de contaminação pelo Plasmodium vivax (tipo mais comum de malária no Brasil). A inovação dessa medicação vem em que é necessário somente uma ÚNICA dose ao contrario da medicação usada anteriormente em que o tratamento se estendia por 14 dias, melhorando dessa fora a adesão ao tratamento."
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Explica corretamente a toma da medicação:**\n(1) Os medicamentos devem ser ingeridos, preferencialmente após uma refeição evitando assim vômitos. \n(2) Em caso de vômitos até 60 minutos da tomada, repetir toda a medicação da dose e, se ocorrer após 60 minutos, não é necessário repetir a medicação. \n\n**Adequado: **Explica os dois itens.\n**Parcialmente adequado:** Explica um itens.\n**Inadequado:** Não explica nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Sempre que possível, deve-se optar pela supervisão das doses dos medicamentos para garantir uma melhor adesão ao tratamento.O paciente deve completar o tratamento conforme a recomendação, mesmo que os sintomas desapareçam, pois a interrupção do tratamento pode levar a recidiva da doença ou agravamento do quadro, além de manter o ciclo de transmissão da doença, permitindo que outras pessoas também adoeçam por malária."
+    },
+    {
+      "idx": 19,
+      "descricao": "19. **Explica corretamente a forma de contágio da malária:**\n(1) É causada por protozoários do gênero Plasmodium; e,\n(2) Transmitidos pela picada da fêmea infectada do mosquito do gênero Anopheles, também conhecido como mosquito-prego. \n\n**Adequado:** Explica os dois itens.\n**Inadequado:** Explica um item ou não explica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "20. **Indica ações de vigilância epidemiológica necessárias ao caso:**\n(1) Notificação do caso ao SINAN; e,\n(2) Avaliação de novos casos no território.\n\n**Adequado:** Indica os dois itens.\n**Parcialmente adequado:** Indica um item.\n**Inadequado:** Não indica nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "21. **Convida o paciente para participar do Caps AD para tratar sua adicção ao cigarro.**\n\n**Adequado:** Convida.\n**Inadequado:** Não convida.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Lembrar do contexto: Paciente em uso de cigarro a 3 anos e uso de maconha."
+    }
+  ]
+}

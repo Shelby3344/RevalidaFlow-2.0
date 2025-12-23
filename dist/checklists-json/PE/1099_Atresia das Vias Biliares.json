@@ -1,0 +1,222 @@
+{
+  "uid": 1099,
+  "hash": "ygAXA0taeduYo3bG-ERDPO-S",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "",
+  "color": "#38e7a6",
+  "checklist": "Atresia das Vias Biliares",
+  "definicao": "A atresia de vias biliares (AVB) é uma doença do fígado e ductos biliares que ocorre em recém-nascidos. As células do fígado produzem um líquido chamado bile, que ajuda na digestão de gorduras e carrega algumas substâncias para serem eliminadas pelo intestino através de ductos biliares.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "58.50",
+    "star": 0,
+    "time": 587,
+    "count": 7580
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.\nTipo de atendimento: urgência e emergência. \nA unidade apresenta a seguinte infraestrutura: \n-Setor de radiologia convencional e ultrassom; \n-Laboratório de análises clínicas; \n-Leitos de internação. \n\nDescrição do caso: \nVocê irá atender um lactente com duas semanas de vida, que veio trazido pelos pais com queixa de pele amarelada.",
+  "tarefas": "-Realizar o acolhimento da paciente;\n-Fazer a anamnese dirigida à paciente;\n-Solicitar exame físico detalhado, citando o que necessita avaliar e interpreta-lo;\n-Solicitar exames laboratoriais e interpreta-los;\n-Solicitar exame de imagem se julgar necessário;\n-Verbalizar o diagnóstico;\n-Verbalizar quatro diagnósticos diferenciais;\n- Propor as condutas que julgar adequadas.",
+  "script_ator": "**NOME DA MÃE:**\n- Ana, 36 anos.\n\n**DADOS DA CRIANÇA:**\n- Heitor, duas semanas de vida.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a), tem uma semana que eu percebi que os olhos e a pele do meu filho estão amarelados.\n\n**ICTERICIA:**\n**- Início:** Percebi que começou faz uma semana, é mais marcante na pele e nos olhinhos.\n**- Localização:** Agora está no corpo todo.\n**- Prurido/Irritabilidade:** Sim, parece que está incomodado, irritado.\n\n**SINTOMAS ACOMPANHANTES:** \n**-Colúria:** Sim, o xixi dele está bem escuro.\n**-Acolia:** Sim, as fezes dele estão bem claras.\n**- Diarreia:** Nega.\n\n**ALEITAMENTO MATERNO:**\n- Dr(a), está sendo amamentado de forma exclusiva.\n\n**ANTECENDENTES PESSOAIS E FAMILIARES:**\n- Nega.\n\n**ANTECENDENTES PERINATAIS (PRENATAL | PARTO | PÓS NATAL):**\n- A gravidez transcorreu sem intercorrências, não tive infecções e tomei as vacinas e vitaminas adequadas.\n\n**CARTÃO DE VACINAS:** \n- Estão todas atualizadas.\n\n**MEDICAÇÕES:**\n- Nega.\n\n**ALERGIAS:**\n- Nega.\n\n**DÚVIDAS**\n**-Pergunta 1:** Isso não é tão grave né Dr.(a)?\n\n**CASO O CANDIDATO INDIQUE CIRURGIA** \n**-Pergunta 2:** Qual o nome dessa cirurgia?\n**- Pergunta 3:** Até quando ele pode operar?\n**- Pergunta 4:** Após ele operar estará curado?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO ",
+      "conteudo": "**Sinais Vitais:**\n\n**- Temperatura:** 36,8 °C;\n\n**- Frequência cardíaca:** 120 bpm;\n\n**- Frequência respiratória:** 30 rpm;\n\n**- Pressão arterial:** 90/60 mmHg;\n\n**- SpO2:** 98%;\n\n\n\n**Ectoscopia:**\n\nO paciente está em bom estado geral, ativo e alerta. A criança apresenta reflexos normais, tônus muscular adequado e movimentos normais das extremidades.\n\n\n\n**Aparelho respiratório:**\n\nMurmúrio vesicular presente bilateralmente sem ruídos adventícios e sem tiragens.\n\n\n\n**Aparelho cardíaco:**\n\nRitmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.\n\n\n\n**Abdome:**\n\nAbdome está distendido com presença de hepatomegalia.\n\n\n\n**Genitália:**\n\nTípica masculina, dentro do esperado para a idade.\n\n\n\n**Pele:**\n\nIcterícia pronunciada na pele e nas mucosas, incluindo os olhos;",
+      "imagem": "https://app.penserevalida.com/impressos/old/1696791493.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "DADOS ANTROPOMÉTRICOS",
+      "conteudo": "Considere que todos os dados antropométricos se encontram adequados para idade do paciente.",
+      "imagem": "https://app.penserevalida.com/impressos/old/1696791493.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATÓRIAIS",
+      "conteudo": "**HEMOGRAMA COMPLETO:**\n\n**Hemoglobina:** 10,2 g/dL (Valores de Referência: 9,5 - 13,5 g/dL)\n\n**Hematócrito:** 30,5% (Valores de Referência: 28% - 42%)\n\n**Leucócitos:** 12.500/mm³ (Valores de Referência: 5.000 - 15.000/mm³)\n\n**Plaquetas:** 220.000/mm³ (Valores de Referência: 150.000 - 450.000/mm³)\n\n\n\n**FUNÇÃO HEPÁTICA E TRANSAMINASSAS: **\n\n**Bilirrubina Total: **11,3 mg/dL (Valores de Referência: 0,3 - 1,0 mg/dL)\n\n**Bilirrubina Direta: **9,0 mg/dL (Valores de Referência: 0,1 - 0,3 mg/dL)\n\n**Bilirrubina Indireta: **2,3 mg/dL (Valores de Referência: 0,1 - 0,8 mg/dL)\n\n**ALT (Alanina Aminotransferase):** 93 U/L (Valores de Referência: 5 - 40 U/L)\n\n**AST (Aspartato Aminotransferase):** 88U/L (Valores de Referência: 5 - 35 U/L)\n\n**Fosfatase Alcalina:** 520 U/L (Valores de Referência: 50 - 150 U/L)",
+      "imagem": "https://app.penserevalida.com/impressos/old/1696791493.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "ULTRASSONOGRAFIA DE VIAS BILIARES",
+      "conteudo": "**LAUDO:**\n\n**Vesícula Biliar:** A vesícula biliar não visível na ultrassonografia.\n\n**Ductos Biliares:** Não há evidência visual de fluxo de bile saindo do fígado para a vesícula biliar.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "BIOPSIA HEPATICA",
+      "conteudo": "Vias portais aumentadas com fibrose e proliferação de ductos biliares.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se;\n(2) Cumprimenta o pai de maneira adequada/cordial;\n(3) Mantém contato visual;\n(4) Pergunta o nome da mãe;\n(5) Pergunta o nome da criança.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item OU não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre a icterícia:**\n(1) Início; \n(2) Localização; \n(3) Progressão; \n(4) Prurido/irritabilidade.\n\n**Adequado:** Pergunta três ou quatro itens.\n**Parcialmente adequado:** Pergunta dois itens.\n**Inadequado:** Pergunta um item ou não pergunta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre sintomas acompanhantes:**\n(1) Colúria;\n(2) Acolia;\n(3) Diarreia;\n(4) Vômitos;\n(5) Sonolência/Flacidez/Rebaixamento.\n\n**Adequado:** Questiona quatro ou cinco itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Questiona quanto à gestação / antecedentes gestacionais:**\n(1) Intercorrências no pré-natal;\n(2) Idade gestacional;\n(3) Condições perinatais;\n(4) Via do parto.\n\n**Adequado:** Questiona três ou quatro itens.\n**Parcialmente adequado:** Questiona dois itens.\n**Inadequado:** Questiona um item ou não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita:**\n(1) Caderneta de vacina;\n(2) Caderneta da criança.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita:**\n(1) Exame físico;\n(2) Sinais vitais;\n(3) Ectoscopia de pele e mucosas.\n\n**Adequado:** Solicita os três itens.\n**Parcialmente adequado:** Solicita dois itens.\n**Inadequado:** Solicita um item ou não solicita item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames laboratoriais**\n(1) Hemograma;\n(2) TGO OU AST;\n(3) TGP OU ALT;\n(3) Função renal;\n(4) Bilirrubina total e frações;\n(5) Gama GT;\n(6) Fosfatase alcalina.\n\n**Adequado:** Solicita cinco ou seis exames.\n**Parcialmente adequado:** Solicita quatro exames.\n**Inadequado:** Solicita três ou menos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza alterações laboratoriais:**\n(1) Elevação de Bilirrubinas totais;\n(2) Predomínio de bilirrubina direta OU aumento de bilirrubina direta;\n(3) Elevação de AST;\n(4) Elevação de ALT;\n(5) Elevação de Gama GT;\n(6) Elevação de Fosfatase Alcalina.\n\n**Adequado:** Verbaliza cinco ou seis itens.\n**Parcialmente adequado:** Verbaliza quatro itens.\n**Inadequado:** Verbaliza três ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita:**\n(1) Ultrassonografia abdominal ou de vias biliares em jejum;\n(2) Biópsia hepática. \n\n**Adequado:** Solicita os dois exames. \n**Inadequado:** Não solicita os dois exames.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza o diagnóstico de Atresia de vias biliares.** \n\n**Adequado:** Verbaliza o diagnóstico correto.\n**Inadequado:** Não verbaliza ou verbaliza incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Verbaliza diagnósticos diferenciais:**\n(1) Hemólise; \n(2) Hepatite Neonatal; \n(3) Infecções congênitas; \n(4) Deficiência de G6PD; \n(5) Fibrose cística; \n(6) Síndrome de Dubin-Johnson e Rotor.\n\n**Adequado:** Verbaliza de quatro a seis itens.\n**Parcialmente adequado:** Verbaliza três itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Solicita OU encaminha para avaliação do cirurgião pediátrico OU Hepatologista pediátrico.**\n\n**Adequado:** Solicita OU encaminha.\n**Inadequado:** Não solicita ou encaminha.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza para a mãe que o procedimento mais comum é a hepatoportoenterostomia OU cirurgia de KASAI.**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta que:**\n(1) O procedimento deve ser feita o mais rápido possível;\n(2) no máximo 8 semanas (60 dias);\n(3) para que o prognóstico seja melhor.\n\n**Adequado:** Orienta os três itens.\n**Parcialmente adequado:** Orienta dois itens.\n**Inadequado:** Orienta um item ou não orienta item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Orienta que:**\n(1) É uma doença grave;\n(2) E pode ser necessário transplante hepático no futuro.\n\n**Adequado:** Orienta os dois itens.\n**Parcialmente adequado:** Orienta um item.\n**Inadequado:** Não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "uid": 1653,
+  "hash": "86a0edfacd04b9a458bdc480346a7619fc6dc3be668457e3d34cfd7590074ecd-1758721878",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": null,
+  "color": "#775dd0",
+  "checklist": "Apendicite aguda -  Híbrido",
+  "definicao": "Apendicite aguda é definida como um processo inflamatório do apêndice cecal, geralmente causado por obstrução da luz apendicular (por fecalito, hiperplasia linfóide, corpo estranho ou, mais raramente, tumor).",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "83.00",
+    "star": 0,
+    "time": 495,
+    "count": 347
+  },
+  "cenario": "Nível de atenção: Unidade de atenção secundária.\nTipo de atendimento: Pronto socorro.\n\nA unidade possui a seguinte infraestrutura: \n- Possui setor de radiologia convencional e ultrassonografia; \n-  Possui tomografia computadorizada;\n- Possui laboratório de análises clínicas; \n- Possui centro cirúrgico e leitos de internação (enfermaria e unidade de terapia intensiva); \n- Não possui banco de sangue. \n\nDescrição do caso: \nVocê está de plantão em um pronto-socorro de hospital secundário de urgência e vai atender um paciente de 27 anos, sexo masculino, com dor de forte intensidade em andar inferior do abdome, com piora progressiva, iniciada há 2 dias , acompanhado de náuseas e vômitos.",
+  "tarefas": "- Realizar o atendimento do paciente simulado.\n- Realizar exame físico pertinente ao caso.\n- Definir o diagnóstico;\n- Solicitar exames pertinentes ao caso\n-Adotar a conduta terapêutica necessária;\n-Verbalizar no mínimo 2 diagnósticos diferencias;",
+  "script_ator": "**DADOS PESSOAIS**\n- Carlos, 27 anos, solteiro, estudante. \n\n**MOTIVO DE CONSULTA**\n- Dr (a), Estou com muita dor na barriga.\n\n**SOBRE O MOTIVO DA CONSULTA:**\n**-Tempo de início:**  Há dois dias.\n**- Localização:** Aqui do lado direito da barriga.\n**- Irradiação:** Sim, começou aqui  na boca do estômago e depois foi por lado direito aqui embaixo.\n**- Intensidade:** 8/10.\n**- Característica da dor:** Uma dor em cólica.\n**- Fatores de melhora ou piora:** Nega.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Febre:** Sim, 37,9 ºC\n**-Náuseas e vômitos:** Sim, vomitei três vezes e sinto náuseas.\n**-Anorexia:** Sim, não sinto fome.\n**-Diarreia:** Nega.\n**- Alterações urinárias:** Nega.\n\n**HÁBITOS:**\n**-Tabagismo:** Nega.\n**-Etilismo:** Nega.\n**- Drogas:** Nega.\n\n**ANTECENTES PESSOAIS:**\n** Doenças crônicas:** Nega.\n**Cirurgias prévia:** Nega.\n**Uso de medicamentos de uso contínuo:** Nega.\n\nA partir dos pedidos adequados pelo participante, ele irá receber o seguinte impresso:\t                              ● IMPRESSO —  PRESCRIÇÃO DE INTERNAÇÃO, caso indique a internação do paciente;",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Sinais Vitais",
+      "conteudo": "**Pressão arterial:** 110 x 70 mmHg;\n\n**Frequência cardíaca:** 100 batimentos por minuto; \n\n**Saturação de O2:** 99% AA;\n\n**Temperatura axilar:** 38.2° C;\n\n**Frequência respiratória:** 20 incursões por minuto;\n\n**Escore de coma de Glasgow **: 15",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759331727.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório/Bioquímico",
+      "conteudo": "**Hemograma**:\n\n- **Hemoglobina**: 13,2 mg/dL (VR: 12-16)\n\n- **Hematócrito**: 37,1% (VR: 35 – 45)\n\n- **Leucócitos**: 17.110 (VR 4.500 – 11.000)\n\n- **Neutrófilos** **segmentados**: 68,1%\n\n- **Bastões**: 11,5%  (VR: 0- 5%)\n\n- **Linfócitos**: 8,1% (20 a 40%)\n\n- **Monócitos**: 7,4%  (VR: 2 a 10%)\n\n- **Plaquetas**: 251.000 (VR: 150.000 – 450.000)\n\n\n\n**PCR:** 76,22 mg/L (VR: 5 mg/L)\n\n\n\n**Ureia:** 21 (VR: 15-45)\n\n**Creatinina:** 1,08 (VR: 0,6 a 1,2)\n\n**Na:** 135 mEq/mL (VR 135 – 145)\n\n**K: **3,4 mEq/mL (3,5 a 4,5)\n\n\n\n**Urina simples:** \n\nSem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759331727.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame físico abdominal.",
+      "conteudo": "**Olhe para câmera e verbalize a ordem do exame físico abdominal e as manobras a serem realizadas**",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759331727.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Resultado do exame físico ",
+      "conteudo": "**Blumberg:** Positivo.\n\n**Rovsing:** Positivo.",
+      "imagem": "https://app.penserevalida.com/impressos/155/1759331727.png"
+    },
+    {
+      "idx": 5,
+      "titulo": "Prescrição de internação",
+      "conteudo": "**VERBALIZE E PREENCHA DE FORMA LEGÍVEL E COMPLETA A PRESCRIÇÃO DE INTERNAÇÃO**\n\n**LOGO APÓS, MOSTRE PARA CÂMERA.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1.  **Identifica-se adequadamente para a paciente:**\n\n**Adequado:** Identifica-se.\n**Inadequado:** Não se identifica",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Pergunta sobre a dor:**\n(1) Início e localização ;\n(2) Irradiação;\n(3) Características;\n(4) intensidade;\n(5) Fatores de melhora ou piora.\n\n**Adequado:** Pergunta  cinco itens.\n**Parcialmente adequado:** Pergunta três ou quatro itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sinais e sintomas acompanhantes:**\n(1) Náuseas e vômitos;\n(2) Febre;\n(3) Anorexia;\n(4) Alterações urinarias OU intestinais.\n\n**Adequado:** Pergunta quatro sintomas.\n**Parcialmente adequado:** Pergunta três itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita permissão para realizar o exame:**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico abdominal:**\n(1) Inspeção, ausculta, percussão, palpação.\n\n**Adequado:** Solicita e verbaliza na sequência correta.\n**Inadequado:** Solicita e verbaliza fora da sequência OU não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.7",
+        "parcial": "-",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Verbaliza as manobras semiológicas e identifica os sinais:**\n(1) Sinal de Blumberg;\n(2) Sinal de Rovsing.\n\n**Adequado:** Verbaliza as duas manobras.\n**Parcialmente adequado:** Verbaliza ao menos uma manobra.\n**Inadequado:** Não verbaliza nenhuma manobra.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exame laboratorial:**\n(1) Hemograma;\n(2) PCR;\n(3) Ureia;\n(4) Creatinina;\n(5) Urina simples.\n\n**Adequado:** Solicita os cinco itens.\n**Parcialmente adequado:** Solicita três a quatro itens.\n**Inadequado:** Solicita dois ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza a principal hipótese de abdome agudo inflamatório por apendicite aguda:**\n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza e escreve a prescrição de internação:**\n(1) Dieta zero;\n(2) Antiemético endovenoso;\n(3) Analgesia endovenosa;\n(4) Hidratação endovenosa com cristaloides;\n(5) Antibióticoterapia;\n(6) Repouso relativo.\n\n**Adequado:** Verbaliza e escreve os seis itens.\n**Parcialmente adequado:** Verbaliza e/ou escreve cinco ou quatro itens.\n**Inadequado:**  Verbaliza e/ou escreve um, dois OU nenhum item.\n\n**Obs.: O item só será pontuado se for verbalizado, escrito de forma legível e mostrado para a  câmera.**",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.2",
+        "adequado": "2.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza diagnóstico diferenciais:**\n(1) Pancreatite;\n(2) Colecistite;\n(3) Diverticulite;\n(4) Cólica renal;\n(5) Infecção urinaria.\n\n**Adequado:** Verbaliza dois ou mais itens.\n**Inadequado:**Verbaliza um item ou menos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

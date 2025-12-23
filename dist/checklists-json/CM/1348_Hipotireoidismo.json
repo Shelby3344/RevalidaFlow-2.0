@@ -1,0 +1,144 @@
+{
+  "uid": 1348,
+  "hash": "QeUhrfiueg9BnuBuHZ-3lBYj",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Hipotireoidismo",
+  "definicao": "O hipotiroidismo é um transtorno que cursa com diminuição na secreção de hormônios T3 e T4 capazes de satisfazer as necessidades do organismo. Pode ser classificado em primário, secundário ou terciario de acordo ao local de acometimento (tireoide, hipófise ou hipotálamo)",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "62.00",
+    "star": 0,
+    "time": 565.5,
+    "count": 8317
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento: Ambulatorial.\nA unidade possui a seguinte infraestrutura:\n- Consultório (sala de atendimento simulado);\n- Laboratório de análises clínicas.\n\nDescrição do caso:\nVocê recebe para atendimento a paciente do sexo feminino, 32 anos de idade, com consulta agendada.",
+  "tarefas": "- Realizar anamnese direcionada à queixa principal do paciente;\n- Solicitar exame físico direcionado à queixa principal do paciente;\n- Solicitar exames complementares pertinentes ao caso;\n- Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n-Verbalizar ao menos um diagnóstico diferencial; \n- Orientar medidas terapêuticas iniciais (farmacológicas e não farmacológicas) e acompanhamento clínico.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Lara, 32 anos de idade, solteira, desempregada.\n\n**MOTIVO DE CONSULTA: **\n- Já faz uns 6 meses que estou me sentindo muito estranha, meio triste e sem vontade de sair com minhas amigas, parece que estou sempre cansada.\n\n**SE PERGUNTADO POR:**\n**- Sensação de inchaço ou aumento de peso: **Sim, percebi que estou mais inchada.\n**- Hábito intestinal/ alteração nas fezes:** O intestino tá mais preguiçoso, as vezes fico alguns dias sem ir ao banheiro. \n**- Excesso de frio: **Estou sentindo muito frio ultimamente. \n**- Alteração no cabelo ou pele ou unhas: **Meu cabelo está caindo muito e minha pele tá sempre seca.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Não tenho nenhum problema de saúde. \n**- Cirurgia: **Tiraram meu apêndice aos 12 anos de idade. \n**- Medicamentos: **Anticoncepcional oral.\n**- Alergia: **Nega.\n**- Data da última menstruação: **Há 10 dias. \n\n**HÁBITOS: **\n**- Álcool: **Nega. \n**- Cigarro: **Nega. \n**- Drogas ilícitas: **Nega. \n\n**ANTECEDENTES FAMILIARES:**\n- Minha mãe tem pressão alta*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame fisico ",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 100x70 mmHg \n\n**- Frequência cardíaca:** 75 batimentos por minuto \n\n**- Saturação:** 99% \n\n**- Temperatura:** 36° C \n\n**- Frequência respiratória:** 12 incursões por minuto \n\n\n\n**Estado geral:**\n\nPaciente em regular estado geral, apático, afebril, acianótico, anictérico, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros. \n\n\n\n**Respiratório:**\n\nMurmúrio vesicular presente em ambos campos pulmonares, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos diminuídos, indolor à palpação e sem viceromegalias.\n\n\n\n**Palpação da glândula tireoide:**\n\nSem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório ",
+      "conteudo": "**Hemácias:** 4,6 milhões/mm3 (Valor de referência: 4,3 a 5,8 milhões/mm3) \n\n**Hemoglobina:** 14,1 g/dl (Valor de referência: 12 a 16 mg/dl) \n\n**Hematócrito:** 46% (Valor de referência: 36 - 52%) \n\n**VCM:** 93 fL (Valor de referência: 80 a 100 fL)\n\n**HCM:** 32 pg (Valor de referência: 26 - 33 pg) \n\n**CHCM:** 33 g/dl (Valor de referência: 30 - 34 g/dl) \n\n**RDW:** 11% (Valor de referência: 11 - 14%) \n\n\n\n**Leucócitos:** 5.340/mm3 (Valor de referência: 4.000 - 10.000/mm3) \n\n**Neutrófilos:** 65% (Valor de referência: 40 - 70%) \n\n**Bastões:** 3% (Valor de referência: 0 - 5%) \n\n**Linfócitos:** 25% (Valor de referência: 20 - 50%) \n\n**Basófilos:** 2% (Valor de referência: 0 - 2%) \n\n**Eosinófilos:** 3% (Valor de referência: 0 - 6%) \n\n**Monócitos:** 0% (Valor de referência: 4 - 8%) \n\n\n\n**Plaquetas:** 329.000 mm/3 (Valor de referência: 150.000 - 400.000 mm/3) \n\n\n\n**Vitamina B12:** 546 pg/ml (Valor de referência: 200 a 900 pg/ml)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Perfil da tireoide/ TSH, T3 e T4",
+      "conteudo": "**TSH:** 15 mU/l (Valor de referência: 0,4 - 4,5 mU/l) \n\n**T3:** 35 ng/dl (Valor de referência: 80 - 180 ng/dl) \n\n**T4 livre:** 0,1 (Valor de referência: 0,7 - 1,8 ng/dl)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta o paciente simulado.\n\n**Adequado: **Realiza as duas ações.\n**Parcialmente adequado: **Realiza uma ação.\n**Inadequado: **Não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.1",
+        "adequado": " 0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga o quadro apresentado perguntando: **\n(1) Intolerância ao frio;\n(2) Alterações no hábito intestinal;\n(3) Alterações na personalidade e/ou humor;\n(4) Alterações no cabelo e/ou pele e/ou unhas;\n(5) Parestesia das mãos e/ou pés (ou alterações na sensibilidade cutânea). \n(6) Inchaço ou aumento do peso corporal;\n(7) Bócio ou inchaço cervical.\n\n**Adequado: **Pergunta seis ou mais itens. \n**Parcialmente adequado: **Pergunta de três a cinco itens. \n**Inadequado: **Pergunta um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga antecedentes pessoais:**\n(1) Doenças crônicas;\n(2) Medicação de uso contínuo;\n(3) Alergia medicamentosa;\n(4) Internações prévias;\n(5) Antecedentes familiares;\n(6) Hábitos tóxicos;\n(7) Hábitos alimentares;\n(8) Prática de atividade física.\n\n**Adequado:** Investiga oitoitens. \n**Parcialmente:** Investiga cinco a sete itens. \n**Inadequado:** Investiga quatro ou não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Realiza exame físico cervical ou da tireoide  **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exames de laboratório. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": "Importante para descartar anemia."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita exames complementares:**\n(1) Hemograma;\t\n(2) TSH;\t\n(3) T3/T4 livre;\n(4) Anti-TPO.\n\n**Adequado:** Solicita quatro exames.\n**Parcialmente adequado:** Solicita três exames.\n**Inadequado:** Solicita dois ou  menos.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Informa o diagnóstico de hipotireoidismo. **\n\n**Adequado: **iIforma.\n**Inadequado: **Não informa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 2"
+      },
+      "dica_teorica": "A causa mais comum de hipotireoidismo primário é a Tiroidite de Hashimoto (condição autoimune). Hipotireoidismo primário: TSH elevado e T4L baixo;Hipotireoidismo central: TSH inadequado para T4L baixo;Hipotireoidismo subclínico: TSH elevado e T4L normal. Se hipotireoidismo central: encaminhar para segundo nível de atenção."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza diagnóstico diferencial: **\n(1) Transtorno depressivo maior OU depressão;\n(2) Anemia por deficiência de ferro;\n(3) Anemia megaloblástica. \n\n**Adequado: **Verbaliza ao menos um diagnóstico diferencial. \n**Inadequado: **Não verbaliza diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Conduta terapêutica: **\n(1) Indica levotiroxina;\n(2) Marca retorno para nova avaliação.\n\n**Adequado: **Realiza as duas ações. \n**Parcialmente adequado: **Realiza apenas o item um. \n**Inadequado: **Não realiza o item um ou item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.75",
+        "adequado": " 1.5"
+      },
+      "dica_teorica": "Dose inicial: 1,2 a 1,7 mcg/kg/dia em jejum.Retorno: em 6 a 8 semanas com nova dosagem de TSH.Se o TSH permanecer elevado, aumentar dose da levotiroxina.Após obtenção de TSH normal, manter tratamento e realizar controles a cada 6 - 12 meses."
+    }
+  ]
+}

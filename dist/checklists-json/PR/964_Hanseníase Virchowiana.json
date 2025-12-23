@@ -1,0 +1,271 @@
+{
+  "uid": 964,
+  "hash": "GRZmwF9NObaCq_vlzQ54Q-TT",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Hanseníase Virchowiana",
+  "definicao": "A hanseníase é uma doença crônica, infectocontagiosa, cujo agente etiológico é o Mycobacterium leprae, um bacilo álcool-ácido resistente, fracamente gram-positivo, que infecta os nervos periféricos e, mais especificamente, as células de Schwann.A doença acomete principalmente os nervos superficiais da pele e troncos nervosos periféricos (localizados na face, pescoço, terço médio do braço e abaixo do cotovelo e dos joelhos), mas também pode afetar os olhos e órgãos internos (mucosas, testículos, ossos, baço, fígado, etc.).",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "69.00",
+    "star": 0,
+    "time": 558,
+    "count": 4423
+  },
+  "cenario": "Nível de atenção: Primária.\nTipo de atendimento:  Ambulatorial.\n\nA unidade apresenta a seguinte infraestrutura:\n-Consultórios;\n-Laboratório de análises clínicas;\n-Leitos de observação. \n\nDescrição do caso:\nVocê é um médico atuando no consultório de uma unidade básica de saúde (UBS) e atenderá um paciente de 31 anos trazido por sua irmã, com queixas de alterações dermatológicas.",
+  "tarefas": "- Realizar a anamnese do paciente; \n- Solicitar e interpretar o exame físico; \n- Formular e verbalizar a hipótese diagnóstica, com base na história clínica e no exame físico; \n- Propor conduta terapêutica adequada;\n- Orientar e sanar dúvidas.",
+  "script_ator": "**Nome do paciente:** Lucas.\n**Idade do paciente:** 31 anos.\n**Nome do acompanhante:** Daiane.\n**Vínculo afetivo:** Irmã. \n\n**MOTIVO DE CONSULTA:**\n- Oi Dr(a), vim em busca de ajuda. Meu irmão é dependente químico e ficou mais de um mês sumido, encontramos ele e estamos cuidando novamente, mas reparei que ele esta com umas coisas estranhas na pele.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**Tempo de surgimento das alterações na pele:** muitos anos.\n**Característica das alterações na pele:** o rosto está deformado.\n**Zonas afetadas:** rosto, pés, mãos.\n\n**SINTOMAS ACOMPANHANTES:**\n**Formigamentos:** sim, nos pés e às vezes nas mãos.\n**Zonas sem pelo:** ele não tem mais pelos na sobrancelha.\n**Sudoração:** não.\n**Artralgia:** sim.\n\n**CONTATO COM PESSOA PORTADORA DE HANSENIASE OU LESÕES SIMILARES:**\n- A ex. mulher dele tinha, ele foi casado um tempo, mas a mulher era tão viciada quanto ele e morreu de overdose, acho que não tratou essa doença não.\n\n**ANTECEDENTES PESSOAIS:**\n**Doenças crônicas:** não.\n**Uso de medicamentos:** não.\n**Situação vacinal:** incerta.\n\n**SOBRE HÁBITOS TÓXICOS:**\n**Tempo de dependência química:** 5 anos.\n**Tipo de substâncias:** não sei. \n\n**CASO O CANDIDATO QUESTIONE SE HÁ DÚVIDAS:**\n**PERGUNTA 1: **Como ele pegou isso? Foi através das drogas?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Ectoscopia de Face",
+      "conteudo": "",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Físico",
+      "conteudo": "Paciente em bom estado geral, levemente desidratado, corado, demonstrando ansiedade. \n\n\n\n**Pressão Arterial:** 125 x 85 mmHg, \n\n**Frequência Cardíaca:** 86 batimentos por minuto.\n\n**Frequência Respiratória:** 16 incursões por minuto.\n\n**Temperatura axilar:** 36,5°C.\n\n\n\n**Aparelho cardiovascular e respiratório:** sem alterações.\n\n\n\n**Abdome:** sem alterações.\n\n\n\n**Inspeção da face:** Facie leonina.\n\n\n\n**Avaliação Neurológica Simplificada:** Espessamento do nervo auricular direito e esquerdo e do nervo mediano direito e esquerdo. \n\n\n\n**Força muscular:** Preservada em MMSS e MMII.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame Dermatoneurológico",
+      "conteudo": "**Teste da sensibilidade térmica: ** ausência de sensibilidade térmica nas extremidades.\n\n\n\n**Teste da sensibilidade dolorosa:** ausência de sensibilidade dolorosa nas extremidades.\n\n\n\n**Teste da sensibilidade tátil:** ausência de sensibilidade tátil nas extremidades.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Baciloscopia, Biópsia, Teste de pilocarpina, Teste da histamina",
+      "conteudo": "Positivo para M. leprae",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta a irmã do paciente simulado; \n(2) Identifica-se; \n(3) Dirige-se a irmã do paciente simulado pelo nome, pelo menos uma vez; \n(4) Pergunta o motivo da consulta;\n(5) Ouve com atenção o motivo da consulta.\n\n**Adequado:** Realiza cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Estabelece contato visual e mantém postura empática ao longo da consulta.**\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza apenas uma das ações.\n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Escuta a fala da irmã do paciente simulado, sem interrompê-la.**\n\n**Adequado: **Realiza integralmente a ação. \n**Inadequado:** Não realiza integralmente a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Usa linguagem acessível para com a irmã do paciente simulado, evitando termos técnicos de difícil compreensão.**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não utiliza linguagem acessível",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Responde as perguntas da irmã do paciente simulado.**\n\n**Adequado:** Responde as perguntas.\n**Inadequado:** Não responde as perguntas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Investiga a queixa principal:** \n(1) Tempo de aparição das lesões;\n(2) Característica das lesões;\n(3) Zonas de afetação.\n\n**Adequado:** Investiga três itens.\n**Parcialmente adequado: **Investiga dois itens.\n**Inadequado: **Investiga um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Investiga sintomas associados:**\n(1) Formigamentos ou parestesias;\n(2) Zonas sem pelo;\n(3) Alteração de sudoração local;\n(4) Contato com pessoas portadoras de hanseníase ou com mesma sintomatologia.\n\n**Adequado: **Investiga quatro itens.\n**Parcialmente adequado:** Investiga de dois a três itens. \n**Inadequado: **Investiga um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Investiga antecedentes pessoais:**\n(1) Doenças crônicas; \n(2) Uso de medicamentos; \n(3) Situação vacinal. \n\n**Adequado:** Investiga três itens.\n**Parcialmente adequado:** Investiga dois itens. \n**Inadequado:** Investiga um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Investiga antecedentes relacionados à dependência química:**\n(1) Quais drogas são utilizadas pelo paciente simulado; \n(2) Qual a via de administração é utilizada;\n(3) Tempo de dependência química.\n\n**Adequado:** Investiga três itens.\n**Parcialmente adequado: **Investiga dois itens. \n**Inadequado:** Investiga um item ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Solicita:**\n(1) Ectoscopia da face;\n(2) Exame físico geral.\n\n**Adequado:** Solicita dois itens.\n**Parcialmente adequado: **Solicita apenas o item (1).\n**Inadequado:** Não solicita nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Solicita exame dermatoneurológico.**\n\n**Adequado:** Solicita.\n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Formula a hipótese diagnóstica:** hanseníase.\n\n**Adequado: **Formula a hipótese diagnóstica corretamente.\n**Inadequado:** Não formula a hipótese diagnóstica corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Em casos de Hanseníase Virchowiana frequentemente o diagnóstico clínico pode ser estabelecido com base no comprometimento cutâneo exuberante associado ao segundo sinal cardinal – o espessamento de nervos periféricos –, associado a alterações sensitivas e/ou motoras e/ou autonômicas.Quando necessário, o diagnóstico pode ser confirmado pela baciloscopia positiva do esfregaço intradérmico (terceiro sinal cardinal) que, via de regra, revela alta carga bacilar."
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Realiza a classificação operacional da hanseníase:** multibacilar. \n\n**Adequado:** Classifica como multibacilar. \n**Inadequado:** Não classifica como multibacilar.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Caracteriza-se pela presença de mais de cinco lesões de pele e/ou baciloscopia positiva. Há consenso sobre a classificação como MB dos casos de hanseníase que apresentam mais de um nervo periférico comprometido, desde que devidamente documentada a perda ou diminuição de sensibilidade nos seus respectivos territórios."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Realiza a classificação clinica da hanseníase:** virchowiana.\n\n**Adequado:** Classifica como virchowiana.\n**Inadequado:** Não classifica como virchowiana.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "O comprometimento cutâneo pode ser silencioso, com a progressiva infiltração sobretudo da face, com acentuação dos sulcos cutâneos, perda dos pelos dos cílios e supercílios (madarose), congestão nasal e aumento dos pavilhões auriculares. Ocorre infiltração difusa das mãos e pés, com perda da conformação usual dos dedos, que assumem aspecto “salsichoide”. Com a evolução da doença não tratada, surgem múltiplas pápulas e nódulos cutâneos, assintomáticos e de consistência firme (hansenomas), geralmente com coloração acastanhada ou ferruginosa"
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Conduta terapêutica mensal:** dose mensal supervisionada de **rifampicina** 600mg, **clofazimina** 300mg, **dapsona** 100mg.\n\n**Adequado:** Prescreve corretamente a medicação e informa as respectivas doses.\n**Parcialmente adequado: **Prescreve corretamente a medicação sem informar as doses ou informa doses incorretas.\n**Inadequado:** Não prescreve corretamente a medicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Conduta terapêutica diária:** dose diária auto-administrada de **clofazimina** 50mg e **dapsona** 100mg.\n\n**Adequado:** Prescreve corretamente a medicação e informa as respectivas doses.\n**Parcialmente adequado: **Prescreve corretamente a medicação sem informar as doses ou informa doses incorretas.\n**Inadequado:** Não prescreve corretamente a medicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Informa que o tratamento deve ser realizado por 12 meses.**\n\n**Adequado: **Informa.\n**Inadequado**: Não informa.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "18. **Entrega a caderneta da pessoa acometida pela hanseníase.**\n\n**Adequado:** Entrega a caderneta.\n**Inadequado:** Não entrega.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "A Caderneta de Saúde da Pessoa Acometida pela Hanseníase foi elaborada pelo Ministério da Saúde para que você tenha o registro do seu tratamento, assim como orientações sobre a doença, seus direitos e os cuidados com a sua saúde"
+    },
+    {
+      "idx": 19,
+      "descricao": "19. **Notifica o caso ao SINAN.**\n\n**Adequado: **Notifica corretamente.\n**Inadequado:** Não notifica ou  não menciona SINAN.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "20. **Prescreve tratamento não farmacológico:** abordagem psicossocial.\n\n**Adequado:** Prescreve.\n**Inadequado:** Não prescreve.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": "Na hanseníase, o estigma se desenvolveu ao longo de muitos anos de superstições e enganos, estabelecendo discriminação e exclusão social em virtude das crenças sobre sua transmissão e cura, além do temor da incapacidade física que a doença pode ocasionar em decorrência do diagnóstico tardio. O estigma ligado à hanseníase é representado por um conjunto de fatores: fantasias, medos, valores, entre outros, podendo causar prejuízos à saúde física, psicológica e social, assim como o desemprego, aumentando a vulnerabilidade dessas pessoas e grupos. Esse receio pode se estender à comunidade e aos profissionais de saúde."
+    }
+  ]
+}

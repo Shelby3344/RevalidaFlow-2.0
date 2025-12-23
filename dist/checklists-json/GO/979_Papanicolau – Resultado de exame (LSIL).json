@@ -1,0 +1,149 @@
+{
+  "uid": 979,
+  "hash": "n8WOtqnhc4lkRntu5_I5y1J9",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": "0",
+  "color": "#ff4a64",
+  "checklist": "Papanicolau – Resultado de exame (LSIL)",
+  "definicao": "A coleta do exame de colpocitologia oncótica em mulheres assintomáticas é a principal estratégia utilizada para a detecção das lesões precursoras dessa doença no Brasil. Consiste na coleta de células do colo uterino com o objetivo de selecionar as pacientes que fazem parte do grupo de risco para esse tipo de câncer e encaminhá-las para investigação pela colposcopia.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "48.50",
+    "star": 0,
+    "time": 544,
+    "count": 4641
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Unidade de Atenção Primária.\nTipo de atendimento: Demanda espontânea - Unidade Básica de Saúde (UBS)\n\nA unidade conta com a seguinte infraestrutura:\n-Laboratório de análises clínicas;\n-Ultrassonografia;\n-Apoio para realização de radiografias.\n\nDESCRIÇÃO DO CASO\nVocê atenderá uma paciente, que busca a consulta para apresentar exame complementar.",
+  "tarefas": "- Realizar anamnese da paciente;\n- Solicitar e interpretar exame físico, se julgar necessário;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Solicitar exames complementares, se necessário, descrevendo os achados;\n- Propor conduta terapêutica e de seguimento;\n- Dar orientações ao paciente e sanar dúvidas.",
+  "script_ator": "**DADOS PESSOAIS:**\n- Laís, 28 anos, advogada e solteira.\n\n**MOTIVO DE CONSULTA:**\n- Dr(a). eu trouxe o exame preventivo que você tinha me orientado a fazer.\n\n**SOBRE RASTREIOS PREVIOS:**\n- Eu já tinha feito um preventivo há 6 meses atrás e deu alterado. Você quer ver?\n\n**-Nega qualquer queixa associada.**\n\n**PROPEDÊUTICA GINECOLÓGICA:**\n**- Data da última menstruação:** 15 dias atrás.\n**- Menarca:** Aos 13 anos.\n**- Sexarca:** Aos 17 anos.\n**- Parceiros e/ou vida sexual:** Não tenho parceiro fixo, mas tenho vida sexual ativa.\n**- Uso de preservativo:** Irregular.\n**- Método contraceptivo:** Nega.\n**- Antecedente de ITS:** Nega.\n**- Ciclos menstruais:** Regulares.\n**- Vacinação contra HPV:** Não me vacinei.\n\n**HÁBITOS:**\n**- Tabagismo:** Fumo há 4 anos.\n**- Álcool:** Bebo socialmente.\n**- Drogas:** Nega.\n\n**Se o candidato verbalizar sobre a relação da alteração com o HPV, PERGUNTAR:**\n- O que eu tenho é câncer dr(a)? \n- Quais são as maneiras de ter contato com esse vírus?\n- Quais são as maneiras de se prevenir contra o câncer de colo do útero?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Resultado de exame 6 meses atrás. ",
+      "conteudo": "**Lesão intraepitelial de baixo grau (LSIL).**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Novo Preventivo",
+      "conteudo": "**Lesão intraepitelial de baixo grau (LSIL).**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**\n(1) Apresenta-se adequadamente;\n(2) Cumprimenta e identifica a paciente simulada, falando seu nome.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Não realiza ação alguma ou realiza apenas uma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga antecedentes e fatores de risco/proteção para câncer do colo uterino:**\n(1) Tabagismo;\n(2) Início de atividade sexual precoce;\n(3) Multiplicidade de parceiros sexuais;\n(4) Multiparidade;\n(5) Uso de contraceptivos orais;\n(6) Idade;\n(7) Vacinação contra HPV.\n\n**Adequado:** Investiga cinco ou mais dos itens listados.\n**Parcialmente adequado:** Investiga três ou quatro dos itens citados.\n**Inadequado:** Investiga dois ou menos dos itens citados.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona sobre exames preventivos prévios.**\n\n**Adequado:** Questiona.\n**Inadequado:** Não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.70"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Informa que:**\n(1) Há alteração no exame da paciente;\n(2) Ela deverá realizar uma colposcopia.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza apenas uma ou não realiza ação alguma.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explica que:**\n(1) A alteração apresentada está associada à infecção persistente por subtipos oncogênicos do vírus HPV (Papilomavírus Humano);\n(2) Especialmente o HPV-16 e o HPV-18.\n\n**Adequado:** Explica ambos os itens.\n**Parcialmente adequado:** Explica apenas um dos itens.\n**Inadequado:** Não explica item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Responde a paciente:**\n(1) Que o resultado L-SIL no preventivo não significa câncer, mas sim uma condição precursora (displasia);\n(2) Geralmente regressa espontaneamente e possui baixo risco de evolução para câncer.\n\n**Adequado:** Responde ambos os itens.\n**Parcialmente adequado:** Responde apenas um dos itens.\n**Inadequado:** Não Responde item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": "De acordo com o Ministério da Saúde, a conduta frente ao Papanicolau com resultado de L-SIL é:   Mulheres < 25 anos: repetir o exame citopatológico em 3 anos;   Mulheres ≥ 25 anos: repetir em 6 meses;   Se a lesão persistir, deve-se encaminhar para colposcopia."
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Esclarece sobre a transmissão do HPV.**\n(1) Contato direto com a pele ou mucosa infectada.\n(2) Via sexual (oral-genital, genital-genital ou mesmo manual-genital).\n(3) Pode haver transmissão durante o parto.\n\n**Adequado:** Esclarece ao menos duas das vias de transmissão.\n**Inadequado:** Não esclarece ou esclarece apenas uma das vias de transmissão.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica o uso de preservativo nas futuras relações sexuais.**\n\n**Adequado:** Indica.\n**Inadequado:** Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica cessar tabagismo e explica a relação do tabagismo com o câncer do colo uterino.**\n\n**Adequado:** Indica a cessação do tabagismo, justificando.\n**Parcialmente adequado:** Indica a cessação do tabagismo, mas não justifica.\n**Inadequado:** Não indica a cessação do tabagismo.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "As substâncias tóxicas presentes no cigarro reduzem a imunidade local do colo do útero, dificultando que o organismo elimine o vírus. Além disso, o tabaco provoca alterações nas células cervicais, tornando-as mais suscetíveis às mutações causadas pelo HPV."
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza os exames sorológicos a serem solicitados para a paciente:**\n(1) HIV (Teste rápido ou Sorologia);\n(2) Sífilis (VDRL ou Teste rápido);\n(3) Hepatite C e/ou Anti-HCV; \n(4) Hepatite B e/ou HBS Ag.Oferta de testes rápidos.\n\n**Adequado:** Verbaliza os quatro testes rápidos.\n**Parcialmente adequado:** Verbaliza dois ou três testes rápidos ou verbaliza teste rápido sem especificar qual é.\n**Inadequado:** Não verbaliza nenhum teste rápido.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

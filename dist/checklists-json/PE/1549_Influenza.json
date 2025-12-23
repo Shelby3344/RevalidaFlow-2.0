@@ -1,0 +1,188 @@
+{
+  "uid": 1549,
+  "hash": "9450d64b0ef2f487179115b81607a6f85caf90a97c0434ba9a10c9b232e394a3-1748516113",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Influenza",
+  "definicao": "A gripe ou influenza é uma doença infectocontagiosa aguda do trato respiratório, de distribuição global, causada pelo vírus da influenza. Pessoas de todas as idades são susceptíveis a infecção por esse vírus, entretanto, idosos, crianças, gestantes e pessoas com algumas comorbidades (cardiopatas, pneumopatas, hipertensos, diabéticos, obesos mórbidos, entre outros) possuem risco maior de desenvolver complicações devido à infecção por influenza.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "48.00",
+    "star": 0,
+    "time": 565,
+    "count": 1721
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.\nTipo de atendimento: urgência e emergência. \nA unidade apresenta a seguinte infraestrutura: \n-Setor de radiologia convencional e ultrassom; \n-Laboratório de análises clínicas; \n-Leitos de internação. \n\nDescrição do caso: Você é um(a) médico(a) de plantão em um serviço de pronto atendimento e deverá atender a um menino de 1 ano e 10 meses de idade com febre e tosse, que vai à consulta acompanhado pela mãe.",
+  "tarefas": "-Realizar a anamnese dirigida à mãe;\n-Solicitar e Interpretar o exame físico da criança;\n-Solicitar, caso julgue necessário, exames complementares;\n-Verbalizar o diagnóstico e conduta completa da patologia;\n- Verbalizar quatro complicações do quadro;\n-Verbalizar cinco sinais de alarme.",
+  "script_ator": "**DADOS DA MÃE:** \n- Vanessa, 30 anos, advogada.\n\n**DADOS DA CRIANÇA:**  \n-  João, 1 ano e 10 meses de idade.\n\n**MOTIVO DE CONSULTA:** \n- Dr(a). trouxe meu filho aqui porque ele está com febre e tosse.\n\n**SOBRE A FEBRE:**\n-**Inicio: **Começou hoje.\n-**Graduou:** Cheguei a medir em casa e estava 39,2°C.\n-**Tem predomínio de horário:** Não consta.\n-**Recorrente ou continua:** Está o tempo todo.\n-**Sudorese:** Sim doutor.\n**-Calafrios:** Parece que ele treme de frio.\n**- Tomou alguma medicação:** Dei dipirona pra ele mas não melhorou.\n\n**SOBRE A TOSSE:**\n**-Início:** Começou junto com a febre.\n**- Secreção:** Não tem muita secreção.\n**-Características:** É mais seca.\n**- Melhora ou piora:** Piora de noite.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**-Obstrução nasal:** Sim, prejudica bastante quando ele se alimenta.\n**-Rinorréia:** Sim, o nariz dele está escorrendo muito.\n**-Náuseas ou Vômitos:** Chegou a vomitar o leite uma vez ontem à noite devido a tosse. \n**-Manchas no Corpo:** Nega.\n**-Sintomas geniturinários:** Nega.\n**-Evacuatórios:** Normais.\n**-Dor abdominal:** Não consta.\n**-Irritabilidade:** Sim, está bem irritado hoje.\n\n**ANTECEDENTES PESSOAIS:**\n- **Comorbidades:** Ele tem síndrome de Down, mas é super saudável, faz todos os controles com a pediatra.\n-**Frequenta creches/escolinhas:** Sim Dr(a).,ele já vai para creche para que possamos trabalhar.\n**-Alimentação:** Normalmente, ele come bem e toma muita água, mas comendo bem menos, mas continua aceitando bem água.\n**-Alergias:** Nega.\n\n**ANTECEDENTES FAMILIARES:**\n-Não possuí antecedentes mórbidos familiares.\n\n**PESSOAS COM OS MESMOS SINTOMAS/CRECHE/ESCOLA:**\n- Sim Dr(a)., está tendo muitos casos desse na creche que ele vai. Inclusive até um bebezinho ficou internado esses dias.\n\n**ANTECEDENTES PERINATAIS (PRÉ NATAL | PARTO | PÓS NATAL):** \n- Ele nasceu de parto normal, após uma gestação tranquila, não tive nenhuma complicação. \n\n**CADERNETA DE VACINA/CRIANÇA:**\n- Não trouxe, mas tomou todas as vacinas adequadas a sua idade.\n\n**DÚVIDAS:**\n**-Pergunta 1** - Isso é grave Dr(a).?\n**-Pergunta 2** - Se o candidato indicar Oseltamivir:** \"Como que eu dou esse remédio? É líquido?\"\n\n**OUTRAS PERGUNTAS:\n-Não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**-Peso:** 12 Kg.\n\n**-Estatura:** 87 cm.\n\n\n\n**SINAIS VITAIS**\n\n**-Temperatura axilar:** 38,7 °C.\n\n**-Frequência cardíaca:** 120 bpm.\n\n**-Frequência respiratória:** 25 irpm.\n\n**-Saturação de O2:** 98% em ar ambiente.\n\n\n\n**Exame físico:** \n\nBom estado geral, corado, hidratado, acianótico, anictérico, febril, eupneico, sem desconforto respiratório, sem linfonodomegalias; choroso e inquieto.\n\n\n\n**Exame cardiovascular:** Sem alterações.\n\n\n\n**Exame respiratório:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Teste Rápido para influenza",
+      "conteudo": "**Positivo**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exames laboratoriais",
+      "conteudo": "Covid-19: Negativo.\n\nNS1: Negativo.\n\nChikungunya: Negativo.\n\nZika: Negativo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresenta-se:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome da mãe e o nome da criança.\n\n**Adequado:** Realiza as quatro ações.\n**Parcialmente adequado:** Realiza duas ou três ações.\n**Inadequado:** Realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Questiona sobre a febre:**\n(1) Início;\n(2) Graduou;\n(3) Predomínio de horário;\n(5) Sudorese;\n(6) Calafrios;\n(7) Frequência;\n(8) Medicação utilizada.\n\n**Adequado:** Questiona de seis a oito itens.\n**Parcialmente adequado:** Questiona quatro ou cinco itens.\n**Inadequado:** Questiona três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Questiona sobre a tosse:** \n(1) Início;\n(2) Secreção;\n(3) Características; \n(4) Fatores de melhora ou piora; \n\n**Adequado:** Questiona três ou quatro itens.\n**Parcialmente adequado:** Questiona dois itens.\n**Inadequado:** Questiona um item ou não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre sinais e sintomas associados:**\n(1) Rinorreia;\n(2) Irritabilidade;\n(3) Diarreia ou Alterações na catarse;\n(4) Náuseas ou vômitos.\n\n**Adequado:** Pergunta os quatro itens.\n**Parcialmente adequado:** Pergunta dois ou três itens.\n**Inadequado:** Pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Questiona sobre:**\n(1) Antecedentes pessoais;\n(2) Alergias;\n(3) Antecedentes perinatais;\n(4) Crescimento e desenvolvimento;\n(5) Uso de medicações;\n(6) Contato com pessoas com os mesmos sintomas.\n\n**Adequado:** Questiona de quatro a seis itens.\n**Parcialmente adequado:** Questiona três itens.\n**Inadequado:** Questiona dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita:**\n(1) Caderneta de vacina;\n(2) Caderneta da criança.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita:**\n(1) Exame físico geral;\n(2) Sinais vitais.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita teste rápido para influenza:**\n\n**Adequado:** Solicita..\n**Inadequado:** Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A possibilidade da confirmação do diagnóstico de influenza por testes laboratoriais tem importância não apenas para fins de vigilância epidemiológica como também para auxílio em situações individuais, para orientar a decisão de introduzir antivirais ou antimicrobianos em pacientes de risco, assim como nas medidas de controle de infecção associadas aos cuidados à saúde em ambiente hospitalar."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza o diagnóstico de Gripe ou Influenza.**\n\n**Adequado:** Verbaliza corretamente.\n**Inadequado:** Não verbaliza corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza a conduta:**\n(1) Tratamento ambulatorial;\n(2) Hidratação;\n(3) Antitérmicos: paracetamol OU ibuprofeno OU dipirona;\n(4) Oseltamivir OU Tamiflu;\n(5) 30 mg, 12/12 horas por 5 dias.\n\n**Adequado:** Verbaliza os cinco itens.\n**Parcialmente adequado:** Verbaliza três ou quatro itens.\n**Inadequado:** Verbaliza dois ou menos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Explica à mãe como se administra o oseltamivir:**\n(1) Abrir a parte superior da cápsula com uma tesoura lavada;\n(2) Transferir todo o conteúdo da cápsula para uma colher ou xícara;\n(3) Adicionar ao pó 7,5 ml (se cápsula de 75 mg) OU poucos ml, OU 2-3 ml OU uma colher de chá (se cápsula de 30 mg) de água filtrada ou fervida;\n(4) Mexer com uma colher limpa por alguns segundos;\n(5) Aspirar com uma seringa 3 ml (se cápsula de 75 ml) ou todo o conteúdo (se cápsula de 30 mg).\n\n**Adequado:** Explica corretamente todos os passos e as doses preconizadas.\n**Parcialmente adequado:** Explica corretamente todos os passos somente para um tipo de cápsula ou dose (75 OU 30 mg);\n**Inadequado:** Não explica corretamente todos os passos para nenhum tipo de cápsula ou dose.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Explica à mãe sobre os sinais de agravamento/alarme ou alerta:**\n(1) Persistência ou retorno da febre;\n(2) Taquipneia;\n(3) Esforço respiratório (batimento de asas do nariz, tiragem intercostal, supraclavicular, subcostal);\n(4) Alteração do nível de consciência (irritabilidade ou apatia); \n(5) Palidez cutânea;\n(6) Vômitos incoercíveis;\n(7) Incapacidade de alimentar-se ou hidratar-se.\n\n**Adequado:** Explica de cinco a sete itens.\n**Parcialmente adequado:** Explica quatro itens.\n**Inadequado:** Explica três ou menos itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza possíveis complicações da doença:**\n(1) Otite média;\n(2) Parotidite;\n(3) Bronquiolite;\n(4) Pneumonia;\n(5) Crupe;\n(6) Miocardite;\n(7) Convulsão febril;\n(8) Encefalopatia;\n(9) Síndrome de Reye;\n(10) Broncoespasmo;\n(11) Infecção bacteriana invasiva secundária.\n\n**Adequado:** Verbaliza de quatro a dez complicações.\n**Parcialmente adequado:** Verbaliza três complicações.\n**Inadequado:** Verbaliza duas ou menos complicações.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

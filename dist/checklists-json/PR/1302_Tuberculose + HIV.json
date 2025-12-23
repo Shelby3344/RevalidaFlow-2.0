@@ -1,0 +1,262 @@
+{
+  "uid": 1302,
+  "hash": "8pLIxcL-n9MO8cYy5pNu2r5C",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": "",
+  "color": "#fdcc6a",
+  "checklist": "Tuberculose + HIV",
+  "definicao": "A tuberculose é uma doença infecciosa e transmissível, causada pela bactéria Mycobacterium tuberculosis, também conhecida como bacilo de Koch. A doença afeta prioritariamente os pulmões (forma pulmonar), embora possa acometer outros órgãos e/ou sistemas.  A forma extrapulmonar, que afeta outros órgãos que não o pulmão, ocorre mais frequentemente em pessoas vivendo com HIV, especialmente aquelas com comprometimento imunológico.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "52.50",
+    "star": 0,
+    "time": 575,
+    "count": 7619
+  },
+  "cenario": "Nível de atenção: Atenção secundária à saúde.\nTipo de atendimento: Atendimento ambulatorial e hospitalar. \n\nA unidade possui a seguinte infraestrutura: \n-Consultórios;\n-Laboratório de análises clínicas;\n-Radiografia, ultrassom e tomografia computadorizada;\n-Internação transitória.\n\nDescrição do caso:\nVocê está fazendo seu plantão noturno na unidade e, atenderá um homem de 34 anos de idade que está internado com queixa de tosse.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar anamnese dirigida à queixa principal do paciente;\n-Solicitar exame físico e sinais vitais;\n-Verbalizar e explica o diagnóstico;\n-Verbaliza as condutas iniciais considerando que o paciente ainda permanecerá internado;\n-Avaliar a necessidade de adoção de outras medidas sanitárias.*",
+  "script_ator": "**DADOS PESSOAIS:**\n-Isaac, 34 anos, açougueiro.\n\n**MOTIVO DE CONSULTA:**\n-Doutor(a), estou com essa tosse horrível há 4 meses já. Dessa vez, me deixaram aqui internado, mas ainda não descobriram nada.\n\n**SOBRE A TOSSE:**\n**Momento do dia que é pior:** A tosse é o dia todo, mas é pior à noite.\n**Secreção:** É uma tosse seca.\n**Fatores de piora ou melhora:** Nega.\n**Uso de medicamentos:** Nega.\n**Episódios anteriores de tosse crônica:** Nega.\n\n**SINTOMAS ASSOCIADOS**:\n**Perda de peso:** Eu emagreci demais, Doutor(a). Perdi 10 kg nos últimos 4 meses, mas percebi que não tenho mais tanta vontade de comer.\n**Febre/febrícula:** Venho acompanhando com o termômetro e minha temperatura não fica normal, fica sempre um pouco aumentada, pior à noite.\n**Sudoração noturna:** Sim, eu acordo com a camisa toda molhada de suor todos os dias.\n**Sintomas de refluxo:** Nega.\n**Náuseas:** Nega.\n**Vômitos:** Nega.\n**Dispneia:** Nega.\n\n**ANTECEDENTES EPIDEMIOLOGICOS:**\n**Contato com os mesmos sintomas:** Nega.\n**Contato com paciente tuberculoso:** Nega.\n**Viagens nos últimos 5 anos:** Nega.\n\n**ANTECEDENTES PESSOAIS E FAMILIARES**\n**Comorbidades:** Nega.\n**Uso de medicações crônicas:** Nega.\n**Alergias:** Nega.\n**Tratamento prévio para ITS:** Nega.\n**Presença de lesões em genitais:** Nega.\n**Prática sexual desprotegida** Eu tenho relação sexual não protegida com múltiplos parceiros(as), mas não quero falar sobre essa parte da vida pessoal.\n\n**HÁBITOS TÓXICOS:**\n**Etilismo:** Bebo todos os dias 1 dose de destilado no horário de almoço.\n**Tabagismo e uso de drogas ilícitas:** Nega.\n\n**DÚVIDAS**\n**Pergunta 1:** Isso é grave?\n**Pergunta 2:** Quando posso ter alta?\n**Pergunta 3:** Esses medicamentos fazem mal para outras partes do meu corpo?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Fisico",
+      "conteudo": "**Sinais vitais:** \n\n**Peso:** 85 Kg \n\n**Frequência Cardíaca:** 90 bpm; \n\n**Frequência Respiratória:** 16 irpm; \n\n**Saturação de oxigênio:** 95% em ar ambiente\n\n**PA:** 120/80 mmHg; \n\n**Pulsos periféricos:** amplos e simétricos; \n\n**Tempo de enchimento capilar:** < 2 segundos.\n\n**Temperatura axilar:** 36,5°C.\n\n\n\nRegular estado geral, orientado, acianótico, anictérico, afebril, eupneico.\n\n\n\n**Ritmo cardíaco:** \n\nRegular, bulhas rítmicas e normofonéticas, sem sopros.\n\n\n\n**Aparato respiratório:** ]\n\nRedução do murmúrio vesicular no campo pleuropulmonar direito alto.\n\n\n\n**Abdome:** \n\nPlano, flácido, indolor, sem massas e visceromegalias.\n\n\n\n**Membros inferiores:** Sem edema e sinais de trombose.",
+      "imagem": "https://app.penserevalida.com/impressos/02/63v39n05-13029945fig07.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame complementar de Imagem (RX tórax)",
+      "conteudo": "Descreva o achado radiológico",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Baciloscopia",
+      "conteudo": "**Amostra:** escarro. \n\n\n\n**Pesquisa de bacilo ácido-álcool resistente:** POSITIVA - Valor de referência: negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Teste Rápido Molecular",
+      "conteudo": "**AMOSTRA: **Escarro. \n\n\n\nPOSITIVO para tuberculose - Valor de referência: Negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "LF-LAM (teste rápido)",
+      "conteudo": "**Resultado:** Positivo (Valor de referência: Negativo)",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "Sorologia",
+      "conteudo": "**Anti HIV -** Resultado: POSITIVO - Valor de referência: Negativo. \n\n**Anti HTLV 1 e 2:** Resultado: Negativo - Valor de referência: Negativo.\n\n**Anti Hepatite B - **Resultado: Negativo - Valor de referência: Negativo.\n\n**Anti Hepatite C -** Resultado: Negativo - Valor de referência: Negativo.\n\n**Teste Rápido Sífilis -** Resultado: Negativo - Valor de referência: Negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "Exame Complementar Laboratorial",
+      "conteudo": "**Glicemia:** 96 mg/dL (Valor de referência: 70-99); \n\n\n\n**Ureia:** 32 mg/dl (Valor de referência: < 40 mg/dl)\n\n**Creatinina:** 1,0 mg/dL (Valor de referência: 0,7-1,3); \n\n\n\n**TGO: **18 U/L (Valor de referência: 5-40); \n\n**TGP:** 16 U/L (Valor de referência: 7-56).",
+      "imagem": null
+    },
+    {
+      "idx": 8,
+      "titulo": "Segundo Teste anti-Hiv ",
+      "conteudo": "**Resultado: **Positivo \n\n \n\nValor de referência: Negativo",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**\n(1) Cumprimenta o paciente;\n(2) Identifica-se; e,\n(3) Dirige-se ao paciente pelo nome, pelo menos uma vez.\n\n**Adequado:** Realiza os três itens.\n**Parcialmente adequado:** Realiza dois itens.\n**Inadequado:** Realiza um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese, com perguntas referentes a: **\n(1) Comorbidades;\n(2) Episódios semelhantes; \n(3) História de exposição a álcool, tabaco ou drogas; \n(4) História de contato próximo com paciente portador de tosse ou tuberculose; \n(5) História medicamentosa; \n(6) História de alergias; e,\n(7) Viagens recentes. \n\n**Adequado:** Realiza cinco ou mais itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza um item ou não realiza item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Realiza anamnese, com perguntas referentes a: **\n(1) Horário mais comum da tosse; \n(2) Presença de conteúdo produtivo/hemoptise; \n(3) Presença de fatores desencadeantes; \n(4) Presença de dispneia associada;\n(5) Presença de sintomas de doença do refluxo; \n(6) Uso de medicações para alívio da tosse; \n(7) Sudorese noturna associada; \n(8) Febre associada; \n(9) Perda ponderal recente; e,\n(10) Inapetência. \n\n**Adequado:** Realiza oito ou mais itens.\n**Parcialmente adequado:** Realiza de três a sete itens.\n**Inadequado:** Realiza dois, um OU nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Solicita/verbaliza:**\n(1) Exame físico e sinais vitais; \n(2) Regular estado geral; e,\n(3) Redução do murmúrio vesicular no campo pleuropulmonar direito alto.\n\n**Adequado:** Solicita/verbaliza os três itens. \n**Parcialmente adequado:** Solicita/verbaliza o item um.\n**Inadequado:** Não Solicita/verbaliza o item um.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.50",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita:**\n(1) Radiografia de tórax; e,\n(2) É capaz de descrever a presença de caverna em campo pulmonar médio direito.\n\n**Adequado:** Solicita os dois itens.\n**Parcialmente adequado:** Solicita um item.\n**Inadequado:** Não solicita item algum.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.50",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita:**\n(1) Duas (2) amostras de baciloscopia com pesquisa de BAAR no escarro;\n(2) Teste rápido molecular; e,\n(3) LF-LAM.\n\n**Adequado:** Solicita um item.\n**Inadequado:** Não solicita nenhum dos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7.** Solicita:**\n(1) Sorologia anti-HIV;\n(2) Hep B;\n(3) Hep C;\n(4) Sífilis;\n(5) HTLV 1 e 2;\n(6) Glicemia;\n(7) Ureia e creatinina; e,\n(8) TGO e TGP.\n\n**Adequado:** Solicita os sete ou mais itens.\n**Parcialmente adequado:** Solicita seis itens. \n**Inadequado:** Solicita cinco ou menos itens.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.50",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza que vai ativar o protocolo SPIKES para comunicar o diagnóstico de HIV ao paciente.** \n\n**Adequado:** Verbaliza.\n**Inadequado:** Não verbaliza.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Protocolo SPIKES: 1 - Planejar/ensaiar a conversa mentalmente já que é uma situação de estresse. 2 - Avaliar a percepção do paciente. 3 - Obtendo o convite do paciente. 4 - Dando Conhecimento e Informação ao Paciente. 5 - Abordar as Emoções dos Pacientes com Respostas Afetivas.6 - Estratégia e Resumo."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Explica o diagnóstico. **\n\n**Adequado:** Explica de forma simples e breve o diagnóstico para o paciente simulado. \n**Inadequado:** Não explica o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Decide pelo isolamento respiratório por aerossol do paciente na internação.**\n\n**Adequado:** Verbaliza a necessidade de isolamento respiratório do paciente.\n**Inadequado:** Não verbaliza a necessidade de isolamento respiratório.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Orienta:**\n(1)Encaminha o paciente aos serviços que atendem pessoas vivendo com HIV, mais próximos de sua residência;\n(3) Para iniciar o tratamento da infecção pelo HIV; e,\n(2) Continuidade ao tratamento da tuberculose após a alta.\n\n**Adequado:** Orienta os três itens.\n**Inadequado:** Não orienta os três itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": "Caso o teste anti-HIV seja positivo, o paciente deve ser encaminhado para o Serviço de Atenção Especializada (SAE) ou Unidades Dispensadoras de Medicamentos para PVHIV mais próximos de sua residência, a fim de dar continuidade ao tratamento da TB e iniciar tratamento para HIV"
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Notifica ao SINAN:**\n(1) HIV; e,\n(2) Tuberculose pulmonar ativa.\n\n**Adequado:** Notifica os dois itens.\n**Inadequado:** Notifica um item ou não notifica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.50"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Verbaliza o tratamento completo para TB 2RHZE (Rifampicina, Isoniazida, Pirazinamida e Etambutol) /4RH (Rifampicina, Isoniazida): **\n(1) 2 meses de tratamento diário com RHZE com 5 comprimidos/dia; \n(2) 4 meses de tratamento diário de RH, 2 comp 300/150 mg + 1 comp de 150/75 mg OU 5 comp 150/75 mg.\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza os dois itens, sem verbalizar as doses.\n**Inadequado:** Não verbaliza o tratamento adequadamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "14.** Explica:** \n(1) Deve evitar o uso de álcool; e,\n(2) Pelo risco de lesão ao fígado e piora dos efeitos adversos.\n\n**Adequado:** Explica os dois itens.\n**Inadequado:** Explica um item ou não explica item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.30"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Explica efeitos colaterais menores das medicações:**\n(1) Gástricos (epigastralgia, dor abdominal, náuseas e vômitos); \n(2) Cutâneos (edema, irritação, acne e prurido); e\n(3) Outros (cefaleia, vertigem, insônia, ansiedade e artralgia, urina e suor avermelhados). \n\n**Adequado: **Explica ao menos dois efeitos colaterais menores, sendo necessário ao menos um em cada categoria.\n**Parcialmente adequado:** Explica ao menos um efeito colateral menor.\n**Inadequado:** Não explica nenhum efeito colateral da medicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "0.075",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "16. **Propõe a investigação dos contactantes:**\n\n**Adequado:** Propõe investigação dos contactantes. \n**Inadequado:** Não propõe investigação dos contactantes.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "17. **Oferece ao paciente oportunidade de esclarecer todas as dúvidas. **\n\n**Adequado:** Pergunta por dúvidas ao paciente simulado. \n**Inadequado:** Não pergunta por dúvidas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0 ",
+        "parcial": "-",
+        "adequado": "0.10"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

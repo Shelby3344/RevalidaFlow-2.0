@@ -1,0 +1,210 @@
+{
+  "uid": 1376,
+  "hash": "36fd1754-62c4-4b36-aefe-b1f525abebc6",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Intoxicação por Organofosforados",
+  "definicao": "A intoxicação por organofosforados ocorre devido à exposição a pesticidas que inibem a enzima acetilcolinesterase, levando ao acúmulo de acetilcolina e consequente hiperestimulação colinérgica. Os sintomas incluem miose, sialorreia, lacrimejamento, sudorese, diarreia, vômitos, broncoconstrição e bradicardia.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "58.00",
+    "star": 0,
+    "time": 550,
+    "count": 2824
+  },
+  "cenario": "Nível de atenção: Atenção secundária à saúde.\nTipo de atendimento: Unidade de Pronto Atendimento.\n\nA unidade apresenta a seguinte infraestrutura:\n-  Consultórios;\n- Laboratórios de análises clínicas;\n- Leitos de observação; \n- Serviço de diagnóstico por imagem. \n\nDESCRIÇÃO DO CASO:\nVocê é médico(a) da unidade de pronto atendimento, e atenderá um homem de 50 anos de idade com queixa de tontura, náusea e sudorese profusa.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar anamnese direcionada à queixa principal do paciente;\n-Solicitar exames físicos necessários à avaliação do caso;\n-Solicitar exames complementares pertinentes ao caso;\n-Relacionar os resultados dos exames às hipóteses diagnósticas;\n- Verbalizar o diagnóstico, sua classificação de gravidade e elaborar conduta terapêutica.",
+  "script_ator": "**DADOS PESSOAIS:**\n-Carlos Silva, 50 anos, trabalhador rural, casado.\n\n**MOTIVO DE CONSULTA:**\nDr (a), estou com tontura, náusea e não paro de suar.\n\n**SOBRE O MOTIVO DE CONSULTA:**\n**Início dos sintomas:** Começaram há 2 horas aproximadamente.\n**Fator desencadeante:** Estava trabalhando em casa, pulverizando as plantas na roça e comecei a passar mal.\n**Tempo de exposição:** Trabalhei por umas 4 horas até começar a passar mal.\n**Sudorese:** Intensa, parece que fiz exercício pesado.\n**Episódios prévios:** Nega.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n**Sialorreia:** Sim, bastante, parece que estou babando. \n**Vômitos:** Sim, 2 vezes, de tipo alimentício. \n**Lacrimejamento:** Constante.\n**Alterações visuais:** Sim, visão turva.\n**Sintomas gastrointestinais:** Nega.\n**Sintomas genitourinários:** Nega.\n**Sintomas respiratórios:** Sim, estou com falta de ar e uma sensação de aperto no peito.\n\n**ANTECEDENTES PESSOAIS:**\n**Comorbidades:** Sou hipertenso e tenho o colesterol alto.\n**Medicamentos contínuos:** Sinvastatina e hidroclorotiazida. \n\n**ANTECEDENTES FAMILIARES:**\n-Desconheço.\n\n**SOBRE O TRABALHO:**\n**Ocupação:** Eu e minha mulher plantamos algumas coisas para vender, temos de tudo, vou trazer para o Sr (a) na próxima consulta.\n**Uso de agrotóxicos:** Sim, eu comprei um novo essa semana, que foi o que usei hoje.\n**Uso de EPI:** Não uso nada disso Dr, sou da roça, estou acostumado. \n\n**DÚVIDAS:**\n**PERGUNTA 1:** O que posso fazer para melhorar?\n**PERGUNTA 2:** Preciso ser internado?\n**PERGUNTA 3:** Isso é grave?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais Vitais:**\n\nFrequência Cardíaca: 105 bpm;\n\nFrequência Respiratória: 25 irpm;\n\nPressão Arterial: 90 x 60 mmHg;\n\nSaturação de Oxigênio em ar ambiente: 94%;\n\nTemperatura Axilar: 36,6°C.\n\n\n\n**Exame Clínico:**\n\nRegular estado geral, corado, sudorese intensa, afebril, consciente em tempo, espaço e pessoa. \n\nPupilas mióticas e fotorreagentes.\n\nGlasgow: 13. \n\n\n\n**Aparelho cardiovascular:** Sem alterações;\n\n\n\n**Aparelho respiratório:** Murmúrio vesicular normal, presença de broncoespasmo e sibilâncias dispersas.\n\n\n\n**Aparelho abdominal:**Sem alterações.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1736355525.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemoglobina:** 13 g/dL (Valor de referência: 13-17 g/dL)\n\n**Hematócrito:** 41% (Valor de referência: 40-52%)\n\n**Leucócitos: **12.000/mm³ (Valor de referência: 4.000-11.000/mm³)\n\n**Plaquetas:** 150.000/mm³ (Valor de referência: 150.000-450.000/mm)\n\n\n\n**Ureia:** 17,0 mg/dL (Valor de referência: 13-43 mg/dL)\n\n**Creatinina**:1,0 mg/dL (Valor de referência: 0,7-1,3 mg/dL)\n\n\n\n**Sódio (Na⁺):** 130 mEq/L (Valor de referência: 135-145 mEq/L)\n\n**Potássio (K⁺):** 4,0 mEq/L (Valor de referência: 3,5-5,0 mEq/L)\n\n**Cloro (Cl⁻):** 100 mEq/L (Valor de referência: 96-106 mEq/L)\n\n**Cálcio (Ca²⁺):** 9,0 mg/dL (Valor de referência: 8,5-10,5 mg/dL)\n\n\n\n**Bicarbonato (HCO3): **14 mEq/L (Valor de referência: 22-26 mEq/L)\n\n**pH arterial:** 7,20 (Valor de referência: 7.35-7.45)\n\n\n\n**Glicemia:** 80 mg/dL (Valor de referência: 70-99 mg/dL)\n\n\n\n**TGO (AST):** 50 U/L (Valor de referência: Até 40 U/L)\n\n**TGP (ALT):** 50 U/L (Valor de referência: Até 40 U/L)\n\n**Bilirrubina total:** 1,0 mg/dL (Valor de referência: Até 1,2 mg/dL)",
+      "imagem": "https://app.penserevalida.com/impressos/8/1736355525.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "ECG",
+      "conteudo": "Laudo: Taquicardia Sinusal",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta o paciente;\n(2) Se apresenta;\n(3) Usa o nome do paciente;\n(4) Pergunta o motivo da consulta; e,\n(5) Ouve atentamente o paciente.\n\n**Adequado:** Realiza os cinco itens.\n**Parcialmente adequado:** Realiza de dois a quatro itens.\n**Inadequado:** Realiza apenas um ou não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura:**\n(1) Estabelece contato visual; e,\n(2) Mantém postura empática.\n\n**Adequado:** Realiza os dois itens.\n**Inadequado:** Não realiza os dois itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Escuta ativamente a fala do paciente sem interrupções:**\n\n**Adequado**: Realiza a ação.\n**Inadequado**:  Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível evitando termos técnicos:**\n\n**Adequado**: Utiliza linguagem acessível.\n**Inadequado**: Não utiliza linguagem acessível.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investigação epidemiológica:**\n(1) Início dos sintomas;\n(2) Fator desencadeante;\n(2) Uso de agrotóxicos;\n(3) Tempo de exposição; e,\n(4) Uso de EPI.\n\n**Adequado:** Investiga três ou mais itens.\n**Parcialmente adequado:** Investiga dois itens.\n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "É importante determinar o tipo e a quantidade de exposição ao organofosforado para guiar o tratamento."
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Sinais e sintomas acompanhantes:**\n(1) Sialorreia;\n(2) Sudorese;\n(3) Náuseas e/ou vômitos;\n(4) Sintomas ou sinais gastrointestinais; e,\n(5) Sintomas ou sinais respiratórios;\n\n**Adequado:** Investiga quatro ou mais itens.\n**Parcialmente adequado:** Investiga três itens.\n**Inadequado:** Investiga dois ou um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exame físico**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita exames complementares:**\n(1) Hemograma;\n(2) Eletrólitos e/ou Sódio e Potássio; \n(3) Gasometria; \n(4) Glicemia; \n(5) TGO;\n(6) TGP; e,\n(7) Função Renal e/ou Ureia e Creatinina;\n\n**Adequado:** Solicita seis ou mais itens.\n**Parcialmente adequado:** Solicita cinco itens.\n**Inadequado:** Solicita quatro ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Solicita eletrocardiograma.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Verbaliza hipótese diagnóstica:**\n(1) Intoxicação por organofosforados; e,\n(2) Moderada ou Grave;\n\n**Adequado:** Verbaliza os dois itens.\n**Parcialmente adequado:** Verbaliza somente o item um.\n**Inadequado:** Não verbaliza hipótese adequada.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Considere uma intoxicação moderada ou grave nos seguintes casos:  •\tSinais de distúrbios do sistema nervoso central, incluindo alterações no estado de alerta (em especial uma pontuação na escala Glasgow ≤ 13);   •\tSinais de alterações na função respiratória; •\tFasciculações ou debilidade muscular;   •\tFrequência cardíaca menor de 60 bpm ou maior que 100 bpm;   •\tHipotensão arterial;   •\tExposição intencional ao agrotóxico (tentativas de suicídio)."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Explica que a hipótese diagnóstica se deve à:**\n(1) Antecedente de exposição à agroquímicos e/ou perfil epidemiológico do paciente; e,\n(2) Síndrome colinérgica compatível. \n\n**Adequado:** Verbaliza os dois itens. \n**Parcialmente adequado:** Verbaliza somente o item um.\n**Inadequado:** Não verbaliza hipótese adequada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Orienta sobre necessidade de internação na UTI:**\n\n**Adequado:** Informa sobre a necessidade de internação na UTI para monitoramento.\n**Inadequado:** Não orienta sobre a necessidade de internação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Propõe conduta terapêutica:**\n(1) Monitorização contínua;\n(2) Hidratação e/ou Reposição de líquidos; e,\n(3) Infusão de atropina;\n\n**Adequado:** Propõe dois ou mais itens.\n**Parcialmente adequado:** Propõe um item.\n**Inadequado:** Não propõe item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Lembrando que se devem fazer 2 acessos venosos, 1 para infusão de líquidos e outro para a infusão de atropina."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta medidas de prevenção:**\n(1) Uso de equipamentos de proteção individual.\n\n**Adequado:** Orienta.\n**Inadequado:** Não orienta.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "15. **Realiza notificação na ficha de notificação exógena ao SINAN.**\n\n**Adequado:** Realiza.\n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

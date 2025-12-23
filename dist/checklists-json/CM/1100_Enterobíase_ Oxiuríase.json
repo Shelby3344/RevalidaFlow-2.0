@@ -1,0 +1,166 @@
+{
+  "uid": 1100,
+  "hash": "NnceGF7A8wDItJcy89_5bT-k",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "",
+  "color": "#038ffb",
+  "checklist": "Enterobíase/ Oxiuríase",
+  "definicao": "A oxiuríase é uma infestação intestinal causada por helminto. Apresenta como característica principal, o prurido perianal, frequentemente noturno, que causa irritabilidade, desassossego, desconforto e sono intranquilo. Sintomas inespecíficos do aparelho digestivo podem ocorrer: vômitos, dor abdominal, tenesmo e, raramente, fezes sanguinolentas.",
+  "origem": 0,
+  "ano_da_prova": "",
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "86.50",
+    "star": 0,
+    "time": 550,
+    "count": 4199
+  },
+  "cenario": "Nível de atenção: Unidade de atenção primária à saúde.\nTipo de atendimento: Ambulatorial.\n\nA unidade apresenta a seguinte infraestrutura:\n- Suporte para laboratório de análises clínicas;\n- Suporte para exames de imagem;\n- Microscópio óptico. \n\nDescrição do caso: \nVocê recebe para consulta uma mulher de 39 anos de idade que se queixa de intensa coceira na região anal.",
+  "tarefas": "- Realizar anamnese dirigida à queixa principal da paciente;\n- Solicitar, descrever e interpretar o exame físico;\n- Estabelecer e comunicar a hipótese diagnóstica;\n- Solicitar exames complementares pertinentes ao caso;\n- Propor conduta terapêutica e seguimento da paciente;\n- Dar orientações à paciente e citar ao menos duas complicações da doença.",
+  "script_ator": "**DADOS PESSOAIS: **\n- Júlia, 39 anos de idade, desempregada, casada.\n\n**MOTIVO DE CONSULTA: **\n- Estou com uma coceira insuportável na região anal.\n\n**CARACTERÍSTICAS DO QUADRO: **\n**- Tempo de evolução: **Começou já tem uns 3 dias.\n**- Outras partes do corpo afetadas: **Nega.\n**- Fatores ou momentos de piora: **De noite a coceira é muito pior. \n**- Fatores de melhora: **Nega.\n**- Episódios anteriores: **Ano passado também tive essa coceira.\n\n**SINTOMAS ASSOCIADOS: ** Negar todos.\n\n**ANTECEDENTES PESSOAIS: **\n**- Doenças: **Não tenho nenhuma doença. \n**- Medicamentos: **Somente meu anticoncepcional. \n**- Alergias: **Não tenho nenhuma alergia. \n**- Data da última menstruação: **Há 7 dias.\n**- Viagens recentes: **Nega.\n\n**CONTATOS ESTREITOS COM SINTOMAS SIMILARES: ** Minha familia inteira está assim. Começou com meu filho de 8 anos, depois o mais novo de 5 anos, meu marido e agora eu.\n\n**HÁBITOS: **\n**- Cigarro: **Não fumo. \n**- Álcool: **Somente em festas. \n**- Drogas: **Não uso drogas. \n**- Urina e fezes: **Não percebi nenhuma alteração, dr(a).\n**- Peso corporal: **Nega. \n**- Apetite: **Conservado.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais: **\n\n**- Pressão arterial:** 130x70 mmHg \n\n**- Frequência cardíaca:** 88 batimentos por minuto \n\n**- Saturação de O2:** 98% \n\n**- Temperatura axilar:** 36.4° C \n\n**- Frequência respiratória:** 16 incursões por minuto \n\n\n\n**Estado geral:**\n\nPaciente em bom estado geral, afebril, acianótico, anictérico, normocorado e hidratado, alerta, orientado no tempo e espaço. \n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas, ausência de sopros.\n\n\n\n**Respiratório:**\n\nAusculta respiratória com murmúrio vesicular preservado, sem ruídos agregados. \n\n\n\n**Abdominal:**\n\nAbdome flácido, normotenso, ruídos hidroaéreos preservados, indolor à palpação e sem viceromegalias. \n\n\n\nAusência de adenomegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0813.jpeg"
+    },
+    {
+      "idx": 2,
+      "titulo": "Inspeção anal",
+      "conteudo": "**Região perianal com hiperemia e escoriações leves.**",
+      "imagem": "https://app.penserevalida.com/impressos/old/IMG_0813.jpeg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Análise microscópica de Swab anal ou fita adesiva",
+      "conteudo": "**Observam-se ovos de Enterobius vermiculares.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação: **\n(1) Identifica-se;\n(2) Cumprimenta a paciente simulada.\n\n**Adequado: **Realiza as duas ações.\n**Inadequado:** Realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Investiga as características do quadro: **\n(1) Tempo de evolução;\n(2) Fatores/momentos de piora;\n(3) Fatores de melhora;\n(4) Episódios anteriores. \n\n**Adequado: **Investiga os quatro itens. \n**Parcialmente adequado: **Investiga ao menos três itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Investiga outros sinais e sintomas associados:**\n(1) Presença de secreção perianal;\n(2) Dor anal;\n(3) Presença de sangue;\n(4) Alteração do hábito intestinal OU diarreia OU constipação;\n(5) Dor abdominal;\n(6) Prurido vulvar e/ou vaginal;\n(7) Corrimento vaginal;\n\n**Adequado: **Investiga de cinco a sete itens. \n**Parcialmente adequado: **Investiga de três a quatro itens. \n**Inadequado: **Investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": "Podem ocorrer sintomas inespecíficos do aparelho digestivo  como vômitos, dores abdominais, tenesmo, puxo e, raramente, fezes sanguinolentas."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga os antecedentes pessoais. **\n(1) Doenças;\n(2) Uso de medicamentos;\n(3) Alergias;\n(4) Data da última menstruação;\n(5) Viagens recentes; \n(6) Contato com pessoas com sintomas similares.\n\n**Adequado: **Investiga cinco ou seis itens. \n**Parcialmente adequado: **Investiga quatro itens. \n**Inadequado: **Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.25",
+        "adequado": " 0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico geral. **\n\n**Adequado: **Solicita. \n**Inadequado: **Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita: **\n(1) Permissão para realizar inspeção anal;\n(2) Oferece a presença de outro (a) profissional para acompanhar o exame;\n(3) Calça luvas de procedimento; \n(4) Solicita ou verbaliza que irá realizar inspeção anal.\n\n**Adequado: **Realiza os quatro itens. \n**Parcialmente adequado: **Realiza dois ou três itens. \n**Inadequado: **Realiza um ou nenhum item.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": " 0.5",
+        "adequado": " 1"
+      },
+      "dica_teorica": "As  escoriações  provocadas pelo ato de coçar podem resultar em  infecções secundárias  em torno do ânus, com congestão na região anal, ocasionando inflamação com pontos hemorrágicos, onde se encontram, frequentemente, fêmeas adultas e ovos."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita análise microscópica de swab anal ou de fita adesiva. **\n\n**Adequado: **Solicita adequadamente uma das técnicas. \n**Inadequado: **Não solicita.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Formula o diagnóstico de oxiuríase ou enterobíase. **\n\n**Adequado: **Realiza. \n**Inadequado: **Não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": " 1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Indica a conduta terapêutica adequada com mebendazol OU albendazol OU pamoato de pirvínio OU pamoato de pirantel.**\n\n**Adequado: **Indica algum dos medicamentos listados. \n**Inadequado: **Não indica.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": "- Pamoato de Pirvínio: 10mg/kg, VO, dose única;- Pamoato de Pirantel: 10mg/kg, VO, dose única;- Mebendazol: 100mg, VO, 2 vezes ao dia, durante 3 dias consecutivos;- Albendazol: 10mg/kg, VO, dose única até o máximo de 400mg."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Fornece orientações gerais à paciente. **\n(1) Informa que os membros da família também devem ser tratados;\n(2) Orienta sobre hábitos de higiene pessoal: lavagem frequente das mãos e/ou manter as unhas aparadas e/ou evitar coçar a região anal desnuda e levar as mãos à boca e/ou manter limpas as instalações sanitárias e roupas de cama.\n\n**Adequado: **Realiza as duas ações. \n**Parcialmente adequado: **Realiza uma ação. \n**Inadequado: **Não realiza nenhuma ação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Informa à paciente sobre ao menos duas das seguintes complicações: **\n(1) Sobreinfecção bacteriana;\n(2) Salpingite;\n(3) Vulvovaginite;\n(4) Granulomas pelvianos.\n\n**Adequado: **Cita duas complicações. \n**Parcialmente adequado: **Cita uma complicação. \n**Inadequado: **Não cita nenhuma complicação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

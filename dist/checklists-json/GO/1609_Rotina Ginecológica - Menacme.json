@@ -1,0 +1,183 @@
+{
+  "uid": 1609,
+  "hash": "9e9f95b12765dba586859b627aebc084d77243f1b545f849f9605606077f8aaa-1752434907",
+  "area": 2,
+  "area_a": "GO",
+  "area_b": "GO",
+  "area_s": null,
+  "color": "#ff4a64",
+  "checklist": "Rotina Ginecológica - Menacme",
+  "definicao": "A rotina ginecológica na menacme é essencial para o monitoramento da saúde reprodutiva da mulher. Esta fase é marcada pela presença de ciclos menstruais regulares e a avaliação periódica é fundamental para a prevenção, diagnóstico precoce e tratamento de doenças ginecológicas.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "76.50",
+    "star": 0,
+    "time": 558,
+    "count": 505
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO\nNível de atenção: Atenção secundária à saúde - ambulatorial.\nTipo de atendimento: clínica de saúde da mulher.\n\nA unidade apresenta a seguinte infraestrutura:\n- Consultório médico.\n- Sala de exames.\n- Laboratório de análises clínicas.\n\nDescrição do caso:\nVocê irá atender uma paciente feminina, 27 anos, que busca atendimento para realização de check-up ginecológico anual.",
+  "tarefas": "-Realizar a anamnese completa da paciente;\n-Solicitar o exame físico direcionado ao motivo de consulta;\n-Solicitar exames complementares, se necessário;\n-Orientar sobre a importância de hábitos saudáveis para a saúde ginecológica;\n-Responde eventuais dúvidas da paciente.",
+  "script_ator": "**Dados pessoais:**\n-Mariana Silva, 27 anos, professora, solteira.\n\n**Motivo de consulta:**\n-Eu vim para uma consulta de rotina Dr (a), quero ver se está tudo certo.\n\n**Sinais ou sintomas atuais:**\n- **Corrimento vaginal ou leucorreia:** Nega.\n- **Dispareunia: **Nega.\n- **Prurido vaginal:** Nega.\n- **Dor ou alterações nas mamas:** Nega.\n\n**Antecedentes ginecológicos:**\n- **DUM:** há 1 semana.\n- **Menarca: **Aos 14 anos.\n- **Sexarca:** Aos 16 anos.\n- **Características dos ciclos: **Meus ciclos são regulares, a cada 30 dias, duram 3 ou 4 dias,  e em moderada quantidade.\n- **Dor ou cólicas menstruais:** Nega.\n- **TPM e/ou sintomas emocionais relacionados à menstruação:** Tenho um pouco de TPM sim, mas nada além do normal, não me impede de seguir as atividades diárias.\n\n**Atividade sexual:**\n- **Estado civil**: Solteira.\n- **Número de parceiros:** No momento não tenho parceiros fixos, mas fixo com umas 2 pessoas por mês, geralmente quando saio para dançar ou em algum encontro de aplicativo.\n- **Uso de preservativo de barreira:** Ás vezes eu uso sim, outras vezes não. \n- **Uso de outros anticonceptivos:** Eu tenho o DIU de cobre há 2 anos. \n- **Último controle do DIU:** Não controlei após colocar.\n- **Queixas sobre o DIU:** Não tenho nenhuma, gosto muito de ter o DIU.\n- **Infecções de transmissão sexuais prévias:** Nunca tive.\n\n**Antecedentes obstétricos:**\n- **Gestações, partos e abortos: **Nunca engravidei.\n- **Desejo de gestação:** Só depois de casar Dr (a)! Não quero saber de filhos agora não.\n\n**Antecedentes pessoais e familiares:**\n- **Comorbidades:** Sou saudável, não tenho nenhuma doença.\n- **Uso de medicamentos contínuos:** Não tomo nenhum medicamento.\n- **Câncer de mama, de colo de útero ou cânceres ginecológicos na familia:** Minha tia, irmã do meu pai teve câncer de mama aos 60 anos, só. \n\n**Hábitos:**\n- **Uso de drogas, álcool e tabagismo:** Nega.\n- **Atividade física:** Não faço.\n- **Alimentação:** Bem equilibrada, como frutas e verduras.\n- **Imunizações ou vacinas:** Em dia.\n\n**Exames prévios:**\n- **Citologia oncótica cervical/papanicolau**: Nunca fiz.\n- **Ecografia endovaginal:** Nunca fiz.\n\n**Dúvidas:**\n-Quando devo repetir o Papanicolau?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Estado geral e sinais vitais:**\n\nPaciente em bom estado geral, afebril, acianótica, anictérica, normocorada e hidratada, alerta e orientada no tempo e espaço.\n\n\n\n**Sinais vitais:**\n\n**Pressão arterial:** 120/70 mmHg\n\n**Frequência cardíaca:** 70 batimentos por minuto.\n\n**Saturação de O2:** 99%\n\n**Temperatura axilar:** 36.2°C\n\n**Frequência respiratória:** 18 incursões por minuto\n\n\n\n**IMC:** 22 kg/m²",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame Mamário",
+      "conteudo": "**Inspeção estática e dinâmica:** Mamas simétricas, sem retrações, abaulamentos ou alterações cutâneas.\n\n**Palpação:** Mamas com consistência fibroelástica, sem nódulos ou áreas suspeitas, sem dor à palpação.\n\n**Papilas mamárias:** Sem descargas mamilares ou inversão.\n\n**Região axilar:** Sem linfonodomegalias palpáveis.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "Exame Ginecológico",
+      "conteudo": "**Exame especular:**\n\n- **Genitália externa:** Sem lesões, sem sinais de infecção, coloração e trofismo preservados.\n\n**-Espéculo vaginal: **Introdução sem dificuldades. Vagina com secreção fisiológica, paredes coradas e úmidas.\n\n-**Colo uterino visível: **Rosa pálido, sem lesões, erosões, ectopias ou sangramentos. Orifício externo puntiforme (nulípara) ou transverso (multípara). Sem leucorreia anormal ou odor fétido.\n\n\n\n**Toque bimanual:**\n\n- **Trofismo vaginal:** Preservado, sem dor.\n\n-  **Útero:** Em anteversoflexão, de volume e consistência normais, móvel e indolor.\n\n- **Anexos:** Sem massas ou dor à palpação.\n\n- **Fundo de saco posterior (de Douglas): **Livre, sem dor ou espessamento.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "Sorologias/Testes rápidos",
+      "conteudo": "- **HIV:** Negativo.\n\n- **Sífilis:** Negativo.\n\n- **Hepatite B:** Negativo.\n\n- **Hepatite C:** Negativo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta a paciente e/ou fala o seu nome;\n(2) Pergunta o motivo da consulta ou a queixa principal da paciente.\n\n**Adequado:** Realiza as duas ações.\n**Parcialmente adequado:** Realiza uma ação.\n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2.  **Pergunta sobre sinais ou sintomas:**\n(1) Corrimento vaginal ou leucorreia;\n(2) Dispareunia (dor ou desconforto na relação sexual);\n(3) Prurido vaginal;\n(4) Dor ou alterações nas mamas.\n\n**Adequado:** Pergunta três ou mais itens.\n**Parcialmente adequado: **Pergunta dois itens.\n**Inadequado: **Pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pergunta sobre antecedentes ginecológicos:**\n(1) DUM;\n(2) Menarca;\n(3) Sexarca;\n(4) Características dos ciclos: regularidade, frequencia, quantidade e duração; \n(5) Dor ou cólicas menstruais;\n(6) TPM e/ou sintomas emocionais relacionados à menstruação: depressão/tristeza, irritabilidade/nervosismo.\n\n**Adequado:** Pergunta cinco ou mais itens.\n**Parcialmente adequado:** Pergunta quatro itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.55",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Pergunta sobre atividade sexual:**\n(1) Estado civil;\n(2) Número de parceiros;\n(3) Uso de preservativo de barreira (masculino e/ou femenino);\n(4) Uso de anticonceptivos;\n(5) Infecções de transmissão sexuais prévias.\n\n**Adequado:** Pergunta quatro ou mais itens.\n**Parcialmente adequado:** Pergunta três itens.\n**Inadequado:** Pergunta dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.55",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Pergunta sobre antecedentes pessoais e familiares:**\n(1) Comorbidades;\n(2) Uso de medicamentos contínuos;\n(3) Câncer de mama, de colo de útero ou cânceres ginecológicos na familia.\n\n**Adequado:** Pergunta sobre dois ou mais itens.\n**Parcialmente adequado:** Pergunta sobre um item.\n**Inadequado:** Não pergunta nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.55",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Indica exames ginecológicos e/ou questiona se a paciente os fez recentemente:**\n(1) Citologia oncótica cervical (ou papanicolau ou preventivo);\n(2) Ecografia endovaginal (USG sinônimos).\n\n**Adequado:** Indica ou questiona os dois itens.\n**Inadequado:** Indica ou questiona um item ou não indica ou questiona item algum.\n\nObs.: A referência a exames de forma genérica não será considerada para fins de pontuação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": "A ecografia não é um exame de rotina, porém, o INEP cobrou a solicitação ou ao menos que vocês perguntassem se a paciente o fez na estação de climatério de 2024.1. Neste caso também temos que solicitar a USG para controlar o DIU."
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta sobre antecedentes obstétricos:**\n(1) Gestações, partos e abortos;\n(2) Desejo de gestação. \n\n**Adequado:** Pergunta.\n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Pergunta sobre hábitos de vida e vacinas:**\n(1) Uso de drogas, álcool e tabagismo;\n(2) Atividade física;\n(3) Alimentação;\n(4) Imunizações ou vacinas ou solicita a caderneta de vacinas.\n\n**Adequado:** Pergunta os três  itens.\n**Parcialmente adequado:** Pergunta dois itens.\n**Inadequado:** Pergunta um ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Realiza o exame físico direcionado:**\n(1) Estado geral e sinais vitais;\n(2) Exame físico mamário;\n(3) Exame especular;\n(4) Toque bimanual.\n\n**Adequado:** Realiza/solicita os quatro itens.\n**Parcialmente adequado:** Realiza/solicita três itens.\n**Inadequado:** Realiza/solicita dois ou menos itens.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10.**Solicita sorologias ou teste rápido:**\n(1) Sífilis;\n(2) HIV;\n(3) Hepatite B;\n(4) Hepatite C.\n\n**Adequado:** Solicita os quatro itens.\n**Parcialmente adequado:** Solicita três itens.\n**Inadequado:** Solicita dois ou menos itens..",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Discute sobre a importância de hábitos saudáveis para a saúde ginecológica:**\n(1) Uso de preservativo regularmente;\n(2) Seguimento periódico da colpocitologia oncótica ou papanicolau; \n(3) Importância do planejamento familiar com controle do DIU de cobre.\n\n**Adequado:** Discute sobre dois ou mais itens.\n**Parcialmente adequado:** Discute sobre um item.\n**Inadequado:** Não discute nenhum dos itens.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12.** Explica que a colpocitologia oncótica terá que ser realizada daqui 1 (um) ano se o resultado vier normal, e se o próximo também vier normal será realizada de 3 em 3 anos.**\n\n**Adequado:** Responde adequadamente.\n**Inadequado:** Não responde adequadamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

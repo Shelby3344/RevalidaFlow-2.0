@@ -1,0 +1,144 @@
+{
+  "uid": 1405,
+  "hash": "cb0dbeed-ee48-42db-925f-74bdbe064de0",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": null,
+  "color": "#38e7a6",
+  "checklist": "Meningite Viral",
+  "definicao": "A meningite viral é geralmente benigna, na maioria dos casos com líquor de celularidade de 50 a 500 células/mm, com predomínio de linfomononuclear. Caracteriza-se por um quadro clínico de alteração\nneurológica que, em geral, evolui de forma benigna.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "74.50",
+    "star": "4.8",
+    "time": 568,
+    "count": 1986
+  },
+  "cenario": "Local de Atuação: Atenção Secundária ambulatorial e hospitalar. \nA unidade possui como infraestrutura\n- Consultórios \n- Laboratório de analises clinicas\n\nDescrição do Caso;\nVocê está em um hospital secundário e realiza o atendimento de uma criança acompanhada pela mãe que refere que seu filho vem a dois dias apresentando febre, mal-estar, náusea, e dor abdominal evoluindo hoje com vômitos.",
+  "tarefas": "- Realizar atendimento da criança;\n- Realizar exame físico e verbalizar hipótese diagnostica;\n-Solicitar 1 exame laboratorial ( só será considerado o primeiro exame verbalizado;)\n-Confirmar diagnostico, e verbalizar agentes mais frequentes relacionados ao caso; \n-Explicar para a mãe conduta;",
+  "script_ator": "**DADOS DA MÃE:** \n- Thais 30 anos, empresária \n\n**DADOS DA CRIANÇA:** \n- Flávio 4 anos \n\n**MOTIVO DE CONSULTA:** \n- Dra. trouxe meu filho aqui porquê há dois dias ele vinha apresentando febre e mal estar além de náuseas e dor abdominal e hoje começou a apresentar vômitos.  \n\n**INVESTIGA MOTIVO DE CONSULTA:**\n**FEBRE:**\n-**Início:** - Há três dias.\n-**Característica:** alguns episódios durante o dia \n-**Temperatura:** Não tenho termômetro em casa Dra. mas percebi ele bem quente, administrei dipirona e ele melhorou. \n\n**NAUSEAS E VÔMITOS:** \n- **Início:** - Há três dias começou a náusea e hoje ele vomitou\n-**Característica do vomito:** Foi em pequena quantidade. \n \n**DOR ABDOMINAL:** \n- **Início:** - Há três dias \n-**localização:** Eu não sei Dra. percebo apenas que ele esta irritado\n-**Característica:** não consta no Script.  \n\n**SINTOMAS ASSOCIADOS:**\n- Sim, ele chora  quando abaixa a cabeça, não sei se tem alguma coisa a ver. \n\n**CHORO OU IRRITABILIDADE:**\n- Ele apresenta- se irritado.\n\n**ALIMENTAÇÃO:**\n- Não está se alimentando como de costume. \n\n**SITUAÇÃO EPIDEMIOLÓGICA - VIAGENS, CONTATO COM PESSOAS COM MESMO QUADRO,\nSE FREQUENTA ESCOLA :**\n-  Ele não vai a escola ainda, não há ninguém em casa com esse quadro, não viajamos Dra.  \n\n**ANTECEDENTES PERINATAIS (PRÉ-NATAL / PARTO / PÓS-NATAL):**\n- Sem intercorrências no pré-natal, parto ou pós natal. \n\n**CARTÃO DE VACINAS:**\n- Encontra-se em dia as vacinas. \n\n**ANTECEDENTES PATOLÓGICOS:**\n- Não possui nenhuma doença Dra. \n\n**DÚVIDAS:**\n**- Pergunta 1:** - Isso é grave?\n**- Pergunta 2:** - Qual a provável causa?\n**- Pergunta 3:** - Ele ficará internado?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE VACINA ",
+      "conteudo": "Caderneta de vacina se encontra em dia.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Exame físico:** Regular estado geral, choroso a manipulação, hidratado, febril: 38,7º.\n\n\n\n**Peso e desenvolvimento ponderoestatural:** compatível com a idade. \n\n**Os sinais de Kernig e Brudzinski são positivos**\n\n\n\n**Pulmões:** limpos, ventilando bem, sem sibilos, roncos ou estertores.\n\n\n\n**Abdome:** plano, flácido e indolor; sem visceromegalias. Ruídos hidroaéreos normais.\n\n\n\n**Pele e anexo:** sem particularidades.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ANALISE DE LCR",
+      "conteudo": "**Analise de exame quimiocitológico do líquor** \n\n**Aspecto:** Límpido\n\n**Cor:** Incolor ou opalescente\n\n**Cloretos e Glicose:** Normal\n\n**Proteínas totais:** Levemente aumentas\n\n**Globulinas:** Negativa ou positiva\n\n**Leucócitos:** 5 a 500 linfócitos",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**\n(1) Identifica-se;\n(2) Cumprimenta a mãe de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome da mãe e o nome da criança.\n\n**Adequado:** realiza as quatro ações.\nParcialmente adequado: realiza duas ou três ações.\nInadequado: realiza uma ação OU não realiza ação alguma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as queixas principais relevantes para o estabelecimento da condição do caso:**\n(1) febre\n(2) náuseas e vômitos \n(3) dor abdominal\n(4) tempo da evolução destes sintomas.\n\n**Adequado:** pergunta o três ou quatro itens.\n**Parcialmente adequado:** pergunta dois itens.\n**Inadequado:** pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre os fatores associados e potencialmente desencadeantes do quadro atual:**\n(1) viagens, contatos com pessoas com mesmo quadro;\n(2) medicação utilizada ou medicação de uso continuo ou sobre tratamento prévio;\n(3) alergias;\n(4) doença(s) de base do paciente (antecedente pessoal).\n\n**Adequado:** pergunta os quatro itens.\n**Parcialmente adequado:** pergunta dois ou três itens.\n**Inadequado:** pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza corretamente a hipótese diagnóstica:**\n(1) presença sinais Kernig e Brudzinski positivos\n(2) hipótese de meningite \n\n**Adequado:** verbaliza os dois itens.\n**Parcialmente adequado:** verbaliza apenas um item. \n**Inadequado:** não verbaliza item algum.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais:**\n(1) Quimiocitológico do líquor (LCR)\n\n**Adequado:** solicita o exame quimiocitológico do líquor (LCR)  \n**Inadequado:**não solicita  LCR ou solicita outro exame",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**7. Confirma diagnostico a mãe e verbaliza achados clínicos, laboratoriais que justificam o caso** \n(1) Meningite viral\n(2)Sinais Kernig e Brudzinski positivos\n(3) Características do LCR ( Incolor ou opalescente, presença de linfócitos aumentados) \n \n**Adequado:** verbaliza os 3 achados \n**Parcialmente adequado:** Verbaliza apenas 2 achados.\n**Inadequado:** não verbaliza os achados descritos, OU verbaliza outros.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**10. Verbaliza os agente mais frequentes envolvidos no quadro de  meningite viral**\n(1)Enterovírus\n(2)Adenovírus\n(3)Vírus herpes simples tipo 1 e 2, e HIV 1\n\n**Adequado:** Verbaliza os três agentes mais frequentes.\n**Parcialmente adequado:** verbaliza dois dos agentes descritos.\n**Inadequado:**verbaliza  um ou nenhum dos agentes descritos ou verbaliza outro.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.8",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**9. Indica**\n(1)Internação\n(2)Antitérmicos\n(3)Analgésicos \n\n**Adequado:** indica três condutas\n**Parcialmente adequado:** Indica apenas duas condutas.\n**Inadequado: **não indica OU indica apenas um das condutas.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.8",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**10. Realiza Notificação Compulsória no SINAN** \n\n**Adequado:** Realiza a notificação\n**Inadequado:**  Não realiza a notificação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

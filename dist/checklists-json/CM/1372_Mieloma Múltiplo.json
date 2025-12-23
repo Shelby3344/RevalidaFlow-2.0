@@ -1,0 +1,184 @@
+{
+  "uid": 1372,
+  "hash": "969e4f69-99c8-49bb-8a97-07aa4373216d",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": null,
+  "color": "#038ffb",
+  "checklist": "Mieloma Múltiplo",
+  "definicao": "O mieloma múltiplo é uma neoplasia maligna das células plasmáticas, caracterizada pela produção anormal de imunoglobulinas monoclonais, que levam à disfunção medular e lesões ósseas. Comumente afeta adultos mais velhos e é mais prevalente em homens e em pessoas negras.",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "73.00",
+    "star": 0,
+    "time": 556,
+    "count": 2083
+  },
+  "cenario": "Nível de atenção: Atenção terciária.\nTipo de atendimento: Ambulatorial.\n\nA unidade possui a seguinte infraestrutura:\n- Consultórios médicos;\n- Laboratório de análises clínicas;\n- Setor de diagnostico por imagem com radiologia convencional, ressonância magnética e tomografia computadorizada.\n\nDescrição do caso:\nVocê irá realizar o atendimento de um homem de 65 anos, negro, com histórico de dor lombar persistente e fraqueza há 8 meses.",
+  "tarefas": "-  Realizar anamnese direcionada à queixa principal do paciente;\n-  Solicitar exame físico direcionado à queixa principal do paciente;\n-  Solicitar exames complementares pertinentes ao caso;\n-  Formular e verbalizar a principal hipótese diagnóstica, correlacionando-a aos resultados dos exames complementares;\n- Orientar conduta subsequente.",
+  "script_ator": "**DADOS PESSOAIS:**\n- João, 65 anos, casado, aposentado.\n\n**MOTIVO DE CONSULTA:**\n-  Dr, (a). Eu tenho sentido muita dor lombar e estou me sentindo fraco há alguns meses.\n\n**SOBRE O A DOR:**\n- ** Tempo de evolução:** Não me lembro bem, mas ja faz uns 8 meses.\n- ** Localização:** Na lombar, dos dois lados.\n- ** Irradiação:** Nega.\n- ** Características:** Parece que dói o osso mesmo.\n- ** Intensidade:** 8/10, às vezes não consigo dormir.\n- ** Fatores agravantes e atenuantes:** Tomei dipirona, mas não melhorou. Essa dor piora bastante de noite e quando eu me movimento.\n- ** Progressão:** Começou fraca, agora dói bastante todos o dias.\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**\n- ** Trauma:** Nega.\n- ** Perda de peso:** Sim, perdi cerca de 6 kg nos últimos meses.\n- ** Fadiga:** Sim, sinto-me cansado o tempo todo.\n- ** Sinais e sintomas geniturinários:** Nega.\n- ** Fraqueza muscular:** Sim.\n- ** Anorexia:** Sim.\n- ** Náuseas:** Um pouco.\n- ** Vômitos:** Nega.\n- ** Infecções frequentes:** Sim, tive algumas gripes e até uma pneumonia recentemente.\n- ** Fraturas recentes:** Nega.\n-** Cefaleia, alterações visuais ou demais manifestações neurológicas:** Nega. \n\n**ANTECEDENTES PESSOAIS:**\n- **Doenças:** Hipertensão.\n- **Alergias:** Nega.\n- **Medicamentos:** Hidroclorotiazida 25 mg 1 pela manhã e losartana 50 mg de 12 em 12 horas.\n\n**HÁBITOS:**\n-  **Álcool:** Consumo ocasional.\n- ** Tabagismo:** Ex-fumante, parou há 10 anos.\n- ** Alimentação:** Dieta variada.\n\n**ANTECEDENTES FAMILIARES:**\n-  Meu pai teve câncer de próstata.\n\n**- APÓS A FORMULAÇÃO DA HIPÓTESE DIAGNÓSTICA, QUESTIONAR:** \n- Dr, e agora? Vou precisar tomar algum remédio?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame físico",
+      "conteudo": "**Sinais vitais:**\n\n- Pressão arterial: 145 x 90 mmHg.\n\n- Frequência cardíaca: 95 batimentos por minuto.\n\n- Frequência respiratória: 16 incursões respiratórias por minuto.\n\n- Temperatura: 36,8° C.\n\n- Saturaçao de oxigênio: 97% em ar ambiente.\n\n\n\n**Estado geral:**\n\nPaciente em moderado estado geral, emagrecido, pálido, sem linfonodomegalias; presença de dor à palpação em coluna torácica e lombar.\n\n\n\n**Cardiovascular:**\n\nRitmo cardíaco regular, sem sopros.\n\n\n\n**Respiratório:**\n\nMurmúrio vesicular presente, sem ruídos adventícios.\n\n\n\n**Abdominal:**\n\nAbdome flácido, indolor, sem visceromegalias.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1735926836.png"
+    },
+    {
+      "idx": 2,
+      "titulo": "Laboratório",
+      "conteudo": "**Hemograma:**\n\n- Hemoglobina: 9,7 g/dL (VR : 13,0–17,5 g/dL)\n\n- Leucócitos: 3.600/μL (VR: 4.000–10.000/μL)\n\n- Plaquetas: 148.000/mm3 (VR: 150.000–450.000/μL)\n\n\n\nHematoscopia: presença de fenômeno de Rouleaux.\n\n\n\n- VHS:  100 mm/h  (VR: <15 mm/h)\n\n\n\n- Creatinina: 2,5 mg/dL (VR: 0,7–1,2 mg/dL)\n\n- Ureia: 60 mg/dL (VR: 10–40 mg/dL)\n\n- Sódio: 140 mEq/L (VR: 135–145 mEq/L)\n\n- Potássio: 4,0 mEq/L (VR: 3,5–5,0 mEq/L)\n\n- Cálcio: 11,5 mg/dL (VR: 8,5–10,5 mg/dL)\n\n- Albumina: 2,8 g/dL (VR: 3,5–5,0 g/dL)\n\n- TGO (AST): 20 (VR: 10–40 U/L)\n\n- TGP (ALT): 22 (VR: 10–45 U/L)\n\n- LDH:  320 U/L (VR: 140–280 U/L)\n\n- Fosfatase Alcalina: 45 U/L (VR 40-120 U/L)\n\n- Ácido Úrico: 8,5 mg/dL\t(VR: 3,5–7,2 mg/dL)\n\n\n\n-EAS/Urina tipo 1:\n\nAspecto: límpido (VR: límpido)\n\nDensidade: 1040  (VR: 1.005–1.030)\n\npH: 4,5 (VR: 4,5-8.0)\n\nGlicose: ausente.\n\nProteínas: 4+ (VR: negativo)\n\nCetonas: negativo (VR: negativo)\n\nBactérias: ausentes (VR: ausentes)\n\nCristais: fosfato de cálcio (VR: ausentes)",
+      "imagem": "https://app.penserevalida.com/impressos/8/1735926836.png"
+    },
+    {
+      "idx": 3,
+      "titulo": "Tomografia Computadoriada ou Ressonância Magnética de Tórax, Coluna e Pelve",
+      "conteudo": "Presença de múltiplas lesões líticas em vértebras torácicas e lombares.",
+      "imagem": "https://app.penserevalida.com/impressos/8/1735926836.png"
+    },
+    {
+      "idx": 4,
+      "titulo": "Eletroforese de Proteínas",
+      "conteudo": "Se detecta presença de pico monoclonal Gamma.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "Beta 2 microglobulina",
+      "conteudo": "5,6 mg/L (VR: <2,5 mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "Proteína Urinária (Bence Jones)",
+      "conteudo": "Pesquisa positiva (VR: negativo)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Identifica-se; \n(2) Cumprimenta o paciente simulado.\n\n**Adequado:** Realiza as duas ações.\n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Realiza anamnese, perguntando sobre as características da dor:**\n(1) Início;\n(2) Frequência / intervalo entre episódios;\n(3) Fatores desencadeantes / gatilhos;\n(4) Agravantes/ fatores de piora;\n(5) Atenuantes /  fatores de melhora;\n(6) Intensidade;\n(7) Irradiação;\n(8) Despertar noturno;\n(9) Rigidez matinal.\n(10) Tipo da dor (queimação, choque, pontada, fisgada, contínua etc.).\n\n**Adequado:** Pergunta sobre cinco ou mais características. \n**Parcialmente adequado:** Pergunta apenas sobre três ou quatro características.\n**Inadequado:** Não pergunta ou pergunta apenas sobre duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "A dor óssea no mieloma múltiplo é frequentemente associada a lesões líticas e pode ser debilitante."
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Pesquisa a existencia de outros sinais e sintomas relacionados à queixa principal:**\n(1) Febre; \n(2) Alterações sensitivas: parestesias ou alodinia;\n(3) Acometimento de outras articulações/regiões;\n(4) Fadiga/astenia;\n(5) Sinais flogísticos — vermelhidão (rubor), alteração da temperatura (calor), inchaço (edema).\n(6) Alterações esfincterianas (fecal ou urinária);\n(7) Perda de peso.\n(8) Hipercalcemia: náuseas, vômitos, constipação, poliúria, desidratação, fraqueza muscular, letargia, confusão mental;\n\n**Adequado:** Investiga ao menos seis itens. \n**Parcialmente adequado:** Investiga quatro ou cinco itens. \n**Inadequado:** Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Esses sintomas são comuns em pacientes com mieloma múltiplo devido à produção anormal de células plasmáticas."
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Investiga antecedentes pessoais e hábitos de vida:**\n(1) Trauma;\n(2) Tabagismo;\n(3) História de infecções virais;\n(4) Fraturas recentes e/ou fraturas patológicas;\n(5) Comorbidades;\n(6) Uso de medicamentos contínuos; \n\n**Adequado:** Investiga os seis itens.\n**Parcialmente adequado:** investiga quatro ou cinco itens.\n**Inadequado:** Investiga três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "O conhecimento de fatores de risco pode ajudar no diagnóstico precoce e manejo do mieloma múltiplo."
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Solicita exame físico específico do aparelho locomotor.**\n\n**Adequado:** Solicita.\n**Inadequado:** Não solicita.",
+      "categoria": "ex",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6. **Solicita Tomografia Computadorizada e/ou Ressonância Magnética da coluna lombar.**\n\n**Adequado:** Solicita radiografia ou ressonancia magnética ou tomografia de coluna.\n**Inadequado:** Não solicita.",
+      "categoria": "im",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Solicita exames laboratoriais de investigação inicial:**\n(1) Hemograma completo;\n(2) Função Renal e/ou ureia E creatinina\n(3) Cálcio;\n(4) Albumina;\n(5) Fosfatase alcalina;\n(6) Ácido Úrico; \n(7) LDH;\n(8) Urina tipo 1;\n(9) PCR e/ou VHS.\n\n**Adequado:** Solicita ao menos oito exames.\n**Parcialmente adequado:** Solicita seis ou sete exames.\n**Inadequado:** Solicita apenas cinco ou menos exames.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Os exames laboratoriais e de imagem são essenciais para confirmar o diagnóstico de mieloma múltiplo."
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Solicita exames complementares de maior especificidade:**\n(1) Eletroforese de proteínas;\n(2) Pesquisa de proteína de Bence Jones em urina de 24 horas;\n(3) Beta 2 microglobulina;\n(4) Hematoscopia ou Esfregaço; \n(5) Aspirado ou Biópsia de Medula óssea.\n\n**Adequado:** Solicita quatro ou cinco itens.\n**Parcialmente adequado:** Solicita três ou dois itens.\n**Inadequado:** Solicita apenas um ou nenhum item.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Critérios diagnosticos do mieloma múltiplo:  Presença de plasmócitos clonais na medula óssea em proporção maior que 10% OU um plasmocitoma +  pelo menos um dos critérios de dano a órgãos-alvo (CRAB) OU marcadores de malignidade (hipercalcemia, insuficiência renal, anemia, lesões ósseas) E/OU plasmócitos clonais na medula com mais de 60% ou relação entre cadeias leves séricas afetadas e não afetadas ≥ 100 E/OU Mais de uma lesão focal em ressonância magnética (RM) com pelo menos 5 mm."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Interpreta os achados laboratoriais e identifica as alterações sugestivas de mieloma múltiplo:**\n(1) Anemia;\n(2) Hipercalcemia;\n(3) Pico monoclonal em Gamma.\n(4) Leucopenia;\n(5) Plaquetopenia;\n(6) Proteinúria de Bence Jones;\n(7) Ácido Úrico aumentado;\n(8) Albumina diminuída;\n(9) Fosfatase alcalina normal;\n(10) Beta-2 microglobulina aumentada.\n\n**Adequado:** Identifica oito achados.\n**Parcialmente adequado:** Identifica de cinco a sete achados.\n**Inadequado:** Identifica quatro ou menos achados.",
+      "categoria": "lab",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "Esses achados laboratoriais são indicativos de mieloma múltiplo e ajudam a diferenciar de outras condições."
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Formula hipótese diagnóstica de mieloma múltiplo:**\n\n**Adequado:** Formula hipótese.\n**Inadequado:** Não formula hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2.0"
+      },
+      "dica_teorica": "O diagnóstico precoce de mieloma múltiplo pode melhorar o prognóstico e a qualidade de vida do paciente."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Encaminha para o especialista** \n\n**Adequado:** Encaminha. \n**Inadequado:** Não encaminha.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.0"
+      },
+      "dica_teorica": "O tratamento do mieloma múltiplo é multidisciplinar, envolvendo quimioterapia e cuidados de suporte."
+    }
+  ]
+}

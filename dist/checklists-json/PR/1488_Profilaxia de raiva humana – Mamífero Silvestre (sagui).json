@@ -1,0 +1,199 @@
+{
+  "uid": 1488,
+  "hash": "15bc1c671fa4ec3a40c10ca31321a827b702f4b86a6b999e30896825484b113d-1743292115",
+  "area": 4,
+  "area_a": "MFC",
+  "area_b": "PR",
+  "area_s": null,
+  "color": "#fdcc6a",
+  "checklist": "Profilaxia de raiva humana – Mamífero Silvestre (sagui)",
+  "definicao": "Profilaxia de raiva humana envolvendo mamífero silvestre (sagui).",
+  "origem": 0,
+  "ano_da_prova": null,
+  "tipo_de_checklist": 1,
+  "resumo": {
+    "pct": "69.50",
+    "star": 0,
+    "time": 559,
+    "count": 1275
+  },
+  "cenario": "Cenário de Atendimento:\nNível de atenção: atenção primária à saúde.\nTipo de atendimento: atendimento ambulatorial - Unidade Básica de Saúde (UBS).\n \nA unidade apresenta a seguinte infraestrutura:\n- Sala de atenção médica,\n- Farmácia com medicamentos fornecidos pelo SUS,\n- Sala de vacinas.\n\nDescrição do caso:\nPaciente do sexo feminino de 56 anos comparece à unidade buscando atenção médica devido a uma mordida por um sagui.\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!\nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "tarefas": "-Realizar a anamnese dirigida à queixa principal da paciente;\n-Solicitar exame físico do membro afetado;\n-Explicar o diagnóstico;\n-Pactuar plano de cuidado com a paciente usando o método clínico centrado na pessoa;\n-Avaliar a necessidade de adoção de outras medidas sanitárias.",
+  "script_ator": "**DADOS PESSOAIS:**\nHelena, 56 anos, do lar, residente do interior do Ceará.\n\n**MOTIVO DE CONSULTA:**\nDr (a), no fundo da minha casa, há um pé de jambo onde vive uma família de saguis. Sempre costumo alimentar os animais, mas hoje, ao ver meu neto de 3 anos se aproximar deles, um dos saguis avançou, e enquanto tentava protegê-lo fui mordida na perna.\n\n**SOBRE A MORDIDA:**\n-**Tempo de evolução**:  Aproximadamente há 1 hora.\n-**Localização:** Perna direita.\n-**Quantidade de mordidas**: Só uma.\n-**Profundidade**: É bem superficial, acho que nem deveria ter vindo.\n-**Contatos com outros animais**: Nega.\n-**Residência em área de risco para raiva**: Nega.\n-**Higienização do local**: Nega.\n-**Mordidas por esse animal ou outros**: Nega.\n\n**SINTOMAS ASSOCIADOS**:\n-**Dor na perna**: Dói bem pouco.\n-**Eritema, edema, rubor, calor**: Leve edema e eritema.\n-**Sangramento ou saída de secreção**: Nega.\n-**Febre**: Nega.\n-**Alteração visual**: Nega.\n-**Tonturas**: Nega.\n-**Náuseas ou vômitos**: Nega.\n-**Mal-estar**: Nega.\n-**Cefaleia:** Nega.\n-Não apresenta outros sintomas.\n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS:**\n-**Comorbidades**:  Não tenho doenças.\n-**Medicações**: Nega.\n-**Alergias**: Nega.\n-**Cirurgia prévia**: Nega.\n-**Uso recente ou nos últimos 90 dias de antibiótico**: Nega.\n\n**HÁBITOS**:\n-**Tabagismo**: Nega.\n-**Etilismo**: Nega.\n-**Drogas ilícitas**: Nega.\n\n**CADERNETA DE VACINAÇÃO**: Eu não trouxe, mas acho que está em dia.\n**VACINA ANTITETÂNICA**: Não lembro quando tomei.\n**VACINA/SORO ANTIRRÁBICA**: Nunca tomei.\n\n**Dúvidas:**\n**Pergunta 1:** Preciso tomar alguma vacina?\n**Pergunta 2:** Como devo cuidar da ferida?\n**Pergunta 3:** O que fazer para isso não acontecer novamente?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "Exame Físico",
+      "conteudo": "**Sinais Vitais:**\n\nFrequência cardíaca: 72 bpm\n\nPressão arterial: 120/80 mmHg\n\nTemperatura: 36,6 °C\n\nFrequência respiratória: 16 irpm\n\n\n\n**Exame Geral:**\n\nPaciente em bom estado geral, orientada em tempo e espaço, hidratada.\n\n\n\n**Linfonodos**: Não palpáveis.\n\n**Abdome**: Normotenso e indolor à palpação.\n\nAusculta cardíaca e respiratória inalteradas.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1743293360.webp"
+    },
+    {
+      "idx": 2,
+      "titulo": "Exame da Lesão",
+      "conteudo": "Ferida recente, superficial, de aproximadamente 3,5 cm, não sangrante, única, com bordas irregulares. Leve eritema, edema e aumento da temperatura local.",
+      "imagem": "https://app.penserevalida.com/impressos/1022/1743299346.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "Imagem do animal",
+      "conteudo": "Imagem do animal.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "1. **Apresentação:**\n(1) Cumprimenta a paciente;\n(2) Identifica-se;\n(3) Pergunta o seu nome;\n(4) Pergunta a sua idade;\n(5) Ouve com atenção o relato da mordida.\n\n**Adequado:** Realiza todas as cinco ações.\n**Parcialmente adequado:** Realiza três ou quatro ações.\n**Inadequado:** Realiza uma ou duas ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "2. **Postura:**\n(1) Estabelece contato visual;\n(2) Mantém postura empática durante a consulta.\n\n**Adequado:** Realiza ambas as ações.\n**Inadequado:** Não realiza as duas ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "3. **Usa linguagem acessível, evitando termos técnicos complexos:**\n\n**Adequado:** Usa linguagem acessível.\n**Inadequado:** Não usa linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "4. **Escuta ativamente a fala do paciente, sem interrompê-lo:**\n\n**Adequado:** Realiza a ação.\n**Inadequado:** Não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "5. **Investiga:**\n(1)Tempo de evolução da mordida;\n(2) Locais da mordida;\n(3) Histórico de mordidas anteriores;\n(4) Características do animal (comportamento agressivo não habitual, se estava em estado de babação);\n(5) Contatos com outros animais;\n(6) Procedente de área de risco para Raiva.\n\n**Adequado:** Investiga cinco ou mais itens de forma adequada.\n**Parcialmente adequado:** Investiga três ou quatro itens.\n**Inadequado:** Investiga um, dois ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "6.**Investiga sobre antecedentes:**\n(1) Doenças;\n(2) Alergias;\n(3) Uso de medicações;\n(4) Uso recente de antibiótico;\n(5) Estado vacinal para tétano.\n\n**Adequado:** Investiga os cinco itens.\n**Parcialmente adequado:** Investiga quatro ou três itens.\n**Inadequado:** Investiga um, dois ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "7. **Pergunta sobre manifestações sistêmicas:**\n(1) Febre;\n(2) Náuseas ou vômitos;\n(3) Dor no local;\n(4) Sinais flogísticos no local (rubor, calor, edema);\n(5) Tontura;\n(6) Mal-estar;\n(7) Cefaleia.\n\n**Adequado:** Pergunta sobre seis ou mais itens.\n**Parcialmente adequado:** Pergunta quatro itens.\n**Inadequado:** Pergunta três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "8. **Verbaliza o Diagnóstico:**\n(1) Verbaliza mordedura por mamífero silvestre OU por sagui;\n(2) Explica o diagnóstico à paciente.\n\n**Adequado:** Verbaliza os dois itens.\n**Inadequado:** Verbaliza um ou nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "As agressões de animais silvestres a humanos são classificadas como acidentes graves pelo Ministério da Saúde."
+    },
+    {
+      "idx": 9,
+      "descricao": "9. **Verbaliza a necessidade de:**\n(1) Lavagem das mãos e uso dos equipamentos de proteção individual;\n(2) Higienização local com água e sabão.\n\n**Adequado:** Verbaliza os dois itens.\n**Inadequado:** Verbaliza um ou nenhum item.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "10. **Inicia profilaxia pós-exposição à raiva:**\n(1) Administra vacina antirrábica;\n(2) 4 doses (0, 3, 7, 14);\n(3) Via intramuscular ou intradérmica;\n(4) Administra imunoglobulina humana antirrábica (IGHAR) ou Soro antirrábico (SAR).\n\n**Adequado:** Realiza as quatro ações.\n**Parcialmente adequado:** Realiza três ou duas das ações.\n**Inadequado:** Não realiza nenhuma ou uma das ações.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "1.0",
+        "adequado": "2"
+      },
+      "dica_teorica": "O SAR, ou a IGHAR, deve ser administrado no dia 0. Caso não esteja disponível, aplicar o mais rápido possível até o 7° dia após a aplicação da 1° dose de vacina. Após esse prazo é contraindicado. Existindo clara identificação da localização da(s) lesão(ões), recentes ou cicatrizadas, deve-se infiltrar o volume total indicado, ou o máximo possível, dentro ou ao redor da(s) lesão(ões). Se não for possível, aplicar o restante por via IM, respeitando o volume máximo de cada grupo muscular mais próximo da lesão. Soro antirrábico (SAR): 40 UI/kg de peso. Imunoglobulina humana antirrábica (IGHAR): IGHAR 20 UI/kg de peso."
+    },
+    {
+      "idx": 11,
+      "descricao": "11. **Indica ou propõe a prescrição de:**\n(1) Reforço da vacina antitetânica;\n(2) Analgesia por via oral.\n\n**Adequado:** Indica os dois itens.\n**Inadequado:** Não indica ou indica inadequadamente.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0.0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "12. **Orienta a paciente sobre os cuidados locais com a ferida:**\n(1) Retirada de curativo após 24-48 horas;\n(2) Lavagem com soro fisiológico OU com água limpa e\ncom sabão neutro e enxugá-la com toalha limpa;\n(3) Orientar sinais de infecção de ferida (hiperemia, calor,\nrubor e secreção purulenta); e \n(4) Manter a ferida limpa e seca.\n\n**Adequado:** Orienta três ou mais itens.\n**Parcialmente adequado:** Orienta dois itens.\n**Inadequado:** Orienta apenas um item OU não orienta item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "13. **Realiza notificação do caso ao SINAN conforme protocolo de saúde pública:**\n**Adequado:** Realiza a notificação.\n**Inadequado:** Não realiza a notificação.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Notificação é importante para vigilância epidemiológica."
+    },
+    {
+      "idx": 14,
+      "descricao": "14. **Orienta a paciente quanto aos fatores de risco e às medidas preventivas:**\n(1) Educação e conscientização: Informa sobre os riscos associados ao contato com saguis e a importância de preservar a fauna local;\n(2) Não alimentar: Alimentar saguis pode torná-los dependentes dos humanos e aumentar o risco de acidentes, além de prejudicar a saúde dos animais;\n(3) Manter distância:  Mantenha uma distância segura. Eles são animais silvestres e devem ser respeitados em seu habitat natural;\n(4) Evitar o contato direto: Não tente tocar ou alimentar os saguis, pois isso pode levar a mordidas ou transmissão de doenças;\n(5) Denunciar situações de risco: Se perceber saguis em áreas urbanas que possam representar um risco para a população, entre em contato com as autoridades locais ou órgãos de proteção ambiental;\n(6) Cuidados com a saúde: Caso haja contato acidental, é importante procurar orientação médica para avaliação.\n\n**Adequado:** Orienta três ou mais itens.\n**Parcialmente adequado:** Orienta dois ou um item.\n**Inadequado:** Orienta apenas um item OU não orienta item algum.",
+      "categoria": "ct",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}
