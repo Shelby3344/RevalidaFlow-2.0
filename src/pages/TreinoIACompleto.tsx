@@ -25,6 +25,7 @@ import {
 import { ChecklistContent } from "@/types/checklists";
 import { ChatPacienteIA } from "@/components/treino-ia/ChatPacienteIA";
 import { ChecklistCompletoIA } from "@/components/treino-ia/ChecklistCompletoIA";
+import { ChecklistBloqueado } from "@/components/treino-ia/ChecklistBloqueado";
 import { ImpressosComCadeado } from "@/components/treino-ia/ImpressosComCadeado";
 import { FeedbackItem } from "@/components/treino-ia/FeedbackItem";
 import { AnaliseResultados } from "@/components/treino-ia/AnaliseResultados";
@@ -38,7 +39,8 @@ import { formatTime } from "@/lib/avaliacao-utils";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
-type SessionPhase = "setup" | "running" | "paused" | "finished";
+type SessionPhase = "setup" | "running" | "paused" | "finished" | "choosing" | "reviewing";
+type EvaluationMode = "auto" | "ia" | null;
 
 interface FeedbackNotification {
   item: ItemScoreIA;
@@ -60,6 +62,8 @@ export default function TreinoIACompleto() {
   });
   const [showSettings, setShowSettings] = useState(false);
   const [feedbackNotifications, setFeedbackNotifications] = useState<FeedbackNotification[]>([]);
+  const [evaluationMode, setEvaluationMode] = useState<EvaluationMode>(null);
+  const [checklistUnlocked, setChecklistUnlocked] = useState(false);
 
   // Hook para métricas do usuário
   const { recordAttempt } = useChecklistMetrics();
@@ -146,14 +150,79 @@ export default function TreinoIACompleto() {
     loadChecklist();
   }, [checklistId, navigate]);
 
-  // Gerar nome do paciente
-  const getPacienteName = () => {
+  // Gerar nome do paciente e detectar gênero
+  const getPacienteInfo = () => {
     const instrucoes = content.instrucoes.itens.join(" ");
-    const nomeMatch = instrucoes.match(/(?:me chamo|meu nome é|sou o|sou a)\s+(\w+)/i);
-    if (nomeMatch) return nomeMatch[1];
-    const nomes = ["Maria Silva", "João Santos", "Ana Oliveira", "Carlos Souza"];
+    const descricao = content.scenario.descricao.join(" ");
+    const fullText = instrucoes + " " + descricao;
+    
+    // Tentar extrair nome dos dados pessoais (formato: "Nome, idade anos" ou "- Nome, idade anos")
+    // Exemplos: "Isadora, 35 anos", "- Lays, 28 anos", "Mariana, 31 anos", "Joaquim, 66 anos"
+    const dadosPessoaisMatch = fullText.match(/(?:DADOS PESSOAIS[:\s]*[-\s]*|^[-\s]*)([A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ][a-záéíóúâêîôûãõç]+)(?:,|\s+\d)/m);
+    if (dadosPessoaisMatch) {
+      return dadosPessoaisMatch[1];
+    }
+    
+    // Tentar extrair nome de "Meu nome é X" ou "Me chamo X"
+    const nomeMatch = fullText.match(/(?:meu nome é|me chamo|sou o|sou a)\s+([A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ][a-záéíóúâêîôûãõç]+)/i);
+    if (nomeMatch) {
+      return nomeMatch[1];
+    }
+    
+    // Se não encontrou nome, usar nome padrão baseado em gênero
+    const isFemale = fullText.toLowerCase().includes("sou a ") || 
+                     fullText.toLowerCase().includes("paciente feminina") ||
+                     fullText.toLowerCase().includes("mulher") ||
+                     fullText.toLowerCase().includes("gestante") ||
+                     fullText.toLowerCase().includes("grávida") ||
+                     fullText.toLowerCase().includes("menstruação") ||
+                     fullText.toLowerCase().includes("mama") ||
+                     fullText.toLowerCase().includes("útero") ||
+                     fullText.toLowerCase().includes("vaginal");
+    
+    const nomesFemininos = ["Maria Silva", "Ana Oliveira", "Carla Santos", "Juliana Costa"];
+    const nomesMasculinos = ["João Santos", "Carlos Souza", "Pedro Lima", "Roberto Alves"];
+    
+    const nomes = isFemale ? nomesFemininos : nomesMasculinos;
     return nomes[Math.floor(Math.random() * nomes.length)];
   };
+
+  // Detectar gênero do paciente para voz
+  const getPacienteGender = (): 'male' | 'female' => {
+    const instrucoes = content.instrucoes.itens.join(" ");
+    const descricao = content.scenario.descricao.join(" ");
+    const fullText = (instrucoes + " " + descricao).toLowerCase();
+    
+    // Indicadores de gênero feminino
+    const femaleIndicators = [
+      "sou a ", "paciente feminina", "mulher", "gestante", "grávida",
+      "menstruação", "mama", "útero", "vaginal", "ela ", " ela",
+      "senhora", "dona ", "mãe ", "filha", "esposa", "feminino"
+    ];
+    
+    // Indicadores de gênero masculino
+    const maleIndicators = [
+      "sou o ", "paciente masculino", "homem", "ele ", " ele",
+      "senhor", "pai ", "filho", "esposo", "masculino", "próstata",
+      "testículo", "pênis"
+    ];
+    
+    let femaleScore = 0;
+    let maleScore = 0;
+    
+    for (const indicator of femaleIndicators) {
+      if (fullText.includes(indicator)) femaleScore++;
+    }
+    
+    for (const indicator of maleIndicators) {
+      if (fullText.includes(indicator)) maleScore++;
+    }
+    
+    // Se não conseguiu determinar, usar feminino como padrão (mais comum em OSCE)
+    return maleScore > femaleScore ? 'male' : 'female';
+  };
+
+  const getPacienteName = () => getPacienteInfo();
 
   const handleStart = async () => {
     setPhase("running");
@@ -179,16 +248,45 @@ export default function TreinoIACompleto() {
 
   const handleFinish = () => {
     pause();
-    setPhase("finished");
+    setPhase("choosing"); // Vai para tela de escolha antes de mostrar resultado
     setIsConnected(false);
+    toast.success("Consulta finalizada! Escolha como deseja ver sua avaliação.");
+  };
+
+  // Função para escolher auto-avaliação
+  const handleAutoAvaliar = () => {
+    setEvaluationMode("auto");
+    setChecklistUnlocked(true);
+    setPhase("reviewing");
+    toast.info("Revise a conversa e avalie seu desempenho no checklist.");
+  };
+
+  // Função para escolher avaliação pela IA
+  const handleAvaliacaoIA = () => {
+    setEvaluationMode("ia");
+    setChecklistUnlocked(true);
+    setPhase("finished");
     
     // Salvar métrica do usuário
     if (checklistId && maxScore > 0) {
-      const scorePercentage = (totalScore / maxScore) * 10; // Converte para escala de 0-10
+      const scorePercentage = (totalScore / maxScore) * 10;
       recordAttempt(checklistId, Math.round(scorePercentage * 100) / 100);
     }
     
-    toast.success("Consulta finalizada!");
+    toast.success("Avaliação pela IA concluída!");
+  };
+
+  // Função para finalizar auto-avaliação
+  const handleFinishAutoAvaliar = () => {
+    setPhase("finished");
+    
+    // Salvar métrica do usuário
+    if (checklistId && maxScore > 0) {
+      const scorePercentage = (totalScore / maxScore) * 10;
+      recordAttempt(checklistId, Math.round(scorePercentage * 100) / 100);
+    }
+    
+    toast.success("Auto-avaliação concluída!");
   };
 
   const handleRestart = () => {
@@ -197,6 +295,8 @@ export default function TreinoIACompleto() {
     setPhase("setup");
     setIsConnected(false);
     setFeedbackNotifications([]);
+    setEvaluationMode(null);
+    setChecklistUnlocked(false);
     toast.info("Treino reiniciado");
   };
 
@@ -349,6 +449,21 @@ export default function TreinoIACompleto() {
                   </>
                 )}
 
+                {/* Botão para finalizar auto-avaliação */}
+                {phase === "reviewing" && (
+                  <Button onClick={handleFinishAutoAvaliar} className="bg-green-600 hover:bg-green-700">
+                    <Trophy className="w-4 h-4 mr-2" />
+                    Concluir Auto-avaliação
+                  </Button>
+                )}
+
+                {/* Botão para escolher modo na fase choosing */}
+                {phase === "choosing" && (
+                  <span className="text-xs text-amber-400 px-3 py-2 bg-amber-500/10 rounded-lg">
+                    Escolha como deseja ver sua avaliação →
+                  </span>
+                )}
+
                 <Button variant="ghost" size="icon" onClick={() => setShowSettings(!showSettings)}>
                   <Settings className="w-4 h-4" />
                 </Button>
@@ -394,10 +509,11 @@ export default function TreinoIACompleto() {
             <div className="h-full grid grid-cols-1 lg:grid-cols-5 gap-4 p-4">
               {/* Coluna esquerda - Chat (2/5 = 40%) */}
               <div className="lg:col-span-2 flex flex-col min-h-0">
-                {/* Chat - altura limitada */}
-                <div className="max-h-[350px]">
+                {/* Chat - altura maior para melhor visualização */}
+                <div className="h-[500px]">
                   <ChatPacienteIA
                     pacienteName={getPacienteName()}
+                    pacienteGender={getPacienteGender()}
                     messages={conversationHistory}
                     onSendMessage={handleSendMessage}
                     isLoading={isAILoading}
@@ -444,10 +560,15 @@ export default function TreinoIACompleto() {
                       </span>
                     </div>
                   </div>
-                  <div className="p-3 space-y-1 text-xs text-muted-foreground">
-                    {content.orientacoes.map((item, idx) => (
-                      <p key={idx}>- {item}</p>
-                    ))}
+                  <div className="p-3">
+                    <ul className="space-y-1.5 text-xs text-muted-foreground">
+                      {content.orientacoes.map((item, idx) => (
+                        <li key={idx} className="flex items-start gap-2">
+                          <span className="text-primary mt-0.5">•</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
 
@@ -460,10 +581,42 @@ export default function TreinoIACompleto() {
                         <span className="text-xs font-medium">{content.instrucoes.titulo || "Orientações do Ator/Atriz"}</span>
                       </div>
                     </div>
-                    <div className="p-3 space-y-1 text-xs text-muted-foreground">
-                      {content.instrucoes.itens.map((item, idx) => (
-                        <p key={idx}>- {item}</p>
-                      ))}
+                    <div className="p-3 max-h-[300px] overflow-y-auto">
+                      <div className="space-y-3 text-xs">
+                        {content.instrucoes.itens.map((item, idx) => {
+                          // Detectar se é um título de categoria (começa com letra maiúscula e termina com :)
+                          const isCategory = /^[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ][A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ\s]+:/.test(item);
+                          // Detectar se é um item com label (ex: "DADOS PESSOAIS: valor")
+                          const hasLabel = item.includes(':') && !isCategory;
+                          
+                          if (isCategory) {
+                            return (
+                              <div key={idx} className="pt-2 first:pt-0">
+                                <p className="text-primary font-semibold text-[11px] uppercase tracking-wide border-b border-primary/20 pb-1 mb-2">
+                                  {item}
+                                </p>
+                              </div>
+                            );
+                          }
+                          
+                          if (hasLabel) {
+                            const [label, ...rest] = item.split(':');
+                            const value = rest.join(':').trim();
+                            return (
+                              <div key={idx} className="flex flex-col gap-0.5 pl-2 border-l-2 border-primary/20">
+                                <span className="text-foreground font-medium text-[11px]">{label}:</span>
+                                <span className="text-muted-foreground leading-relaxed">{value}</span>
+                              </div>
+                            );
+                          }
+                          
+                          return (
+                            <p key={idx} className="text-muted-foreground pl-2 border-l-2 border-primary/20 leading-relaxed">
+                              {item}
+                            </p>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
                 )}
@@ -476,14 +629,23 @@ export default function TreinoIACompleto() {
                   />
                 </div>
 
-                {/* Checklist Completo - ocupa o resto do espaço */}
+                {/* Checklist - Bloqueado ou Desbloqueado */}
                 <div className="flex-1 min-h-0">
-                  <ChecklistCompletoIA
-                    items={content.evaluationItems}
-                    completedItems={completedItems}
-                    totalScore={totalScore}
-                    maxScore={maxScore}
-                  />
+                  {checklistUnlocked ? (
+                    <ChecklistCompletoIA
+                      items={content.evaluationItems}
+                      completedItems={completedItems}
+                      totalScore={totalScore}
+                      maxScore={maxScore}
+                    />
+                  ) : (
+                    <ChecklistBloqueado
+                      totalItems={content.evaluationItems.length}
+                      onAutoAvaliar={handleAutoAvaliar}
+                      onAvaliacaoIA={handleAvaliacaoIA}
+                      isFinished={phase === "choosing"}
+                    />
+                  )}
                 </div>
               </div>
             </div>

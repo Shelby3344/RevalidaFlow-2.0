@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import {
   List,
   FileText,
-  Bot,
   Play,
   TrendingUp,
   Clock,
@@ -16,10 +15,12 @@ import {
   Calendar,
   Target,
   Flame,
+  Brain,
 } from "lucide-react";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
 import { AllChecklistsModal } from "@/components/AllChecklistsModal";
+import { TreinoIAModeModal } from "@/components/treino-ia/TreinoIAModeModal";
 import { cn } from "@/lib/utils";
 
 type ActivityType = "completed" | "paused" | "resumed" | "started";
@@ -114,6 +115,7 @@ const getActivityLabel = (type: ActivityType) => {
 
 export default function Checklists() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isIAModalOpen, setIsIAModalOpen] = useState(false);
   const [filterPeriod, setFilterPeriod] = useState<FilterPeriod>("7days");
   const navigate = useNavigate();
 
@@ -385,9 +387,9 @@ export default function Checklists() {
                   </Button>
                   <Button
                     className="w-full h-10 gap-2 bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white hover:opacity-90 text-sm"
-                    onClick={() => setIsModalOpen(true)}
+                    onClick={() => setIsIAModalOpen(true)}
                   >
-                    <Bot className="w-4 h-4" />
+                    <Brain className="w-4 h-4" />
                     Treinar com Paciente IA
                   </Button>
                   <Button className="w-full h-10 gap-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm">
@@ -476,6 +478,9 @@ export default function Checklists() {
 
       {/* Modal */}
       <AllChecklistsModal open={isModalOpen} onOpenChange={setIsModalOpen} />
+      
+      {/* Modal de Treino IA */}
+      <TreinoIAModeModal open={isIAModalOpen} onOpenChange={setIsIAModalOpen} />
     </AppLayout>
   );
 }

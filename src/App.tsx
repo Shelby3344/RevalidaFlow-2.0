@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/hooks/useTheme";
+import { UserProfileProvider } from "@/hooks/useUserProfile";
 import Dashboard from "./pages/Dashboard";
 import Checklists from "./pages/Checklists";
 import ChecklistExecution from "./pages/ChecklistExecution";
@@ -23,6 +24,7 @@ import Mentorados from "./pages/Mentorados";
 import Feedback from "./pages/Feedback";
 import Suporte from "./pages/Suporte";
 import Login from "./pages/Login";
+import Perfil from "./pages/Perfil";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,10 +32,11 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <ThemeProvider defaultTheme="dark" storageKey="revalida-flow-theme">
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
+      <UserProfileProvider>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+          <BrowserRouter>
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/checklists" element={<Checklists />} />
@@ -57,11 +60,13 @@ const App = () => (
             <Route path="/mentorados" element={<Mentorados />} />
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/suporte" element={<Suporte />} />
+            <Route path="/perfil" element={<Perfil />} />
             <Route path="/login" element={<Login />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
-      </TooltipProvider>
+        </TooltipProvider>
+      </UserProfileProvider>
     </ThemeProvider>
   </QueryClientProvider>
 );

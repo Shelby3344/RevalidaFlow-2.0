@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import { List, User, Users, Brain, X } from "lucide-react";
+import { List, User, Users, X } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
@@ -175,11 +175,6 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
     navigate(`/checklists/execucao/${id}`);
   };
 
-  const handleTreinoIA = (id: string) => {
-    onOpenChange(false);
-    navigate(`/treino-ia-completo/${id}`);
-  };
-
   const handleCreateSession = async (id: string, title: string, areaCode: AreaCode) => {
     try {
       const content = await getChecklistContentByIdAsync(id);
@@ -346,15 +341,6 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
                           className="text-xs px-3 py-1 h-7 bg-primary hover:bg-primary/90 text-white"
                         >
                           Treinar
-                        </Button>
-                        <Button
-                          size="sm"
-                          variant="outline"
-                          onClick={() => handleTreinoIA(item.id)}
-                          className="text-xs px-3 py-1 h-7 border-purple-500/50 text-purple-400 hover:bg-purple-500/10"
-                        >
-                          <Brain className="w-3 h-3 mr-1" />
-                          IA
                         </Button>
                         <Button
                           size="sm"

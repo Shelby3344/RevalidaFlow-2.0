@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Lock, Unlock, ChevronDown, ChevronUp, FileText } from "lucide-react";
+import { Lock, Unlock, ChevronDown, ChevronUp, FileText, Mic } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ImpressoItem } from "@/types/checklists";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -29,11 +29,18 @@ export function ImpressosComCadeado({
       <div className="px-3 py-2 border-b border-border/50 bg-secondary/30">
         <div className="flex items-center gap-2">
           <FileText className="w-4 h-4 text-primary" />
-          <h3 className="text-xs font-semibold text-foreground">Impressos</h3>
+          <h3 className="text-xs font-semibold text-foreground">Impressos / Exames</h3>
           <span className="text-[10px] text-muted-foreground ml-auto">
             {liberatedExames.length}/{impressos.length} liberados
           </span>
         </div>
+        {/* Dica de como liberar */}
+        {liberatedExames.length === 0 && (
+          <div className="flex items-center gap-1.5 mt-1.5 text-[10px] text-amber-400">
+            <Mic className="w-3 h-3" />
+            <span>Solicite exames ao paciente para desbloquear</span>
+          </div>
+        )}
       </div>
 
       {/* Lista de impressos */}
@@ -101,6 +108,13 @@ export function ImpressosComCadeado({
                         <ChevronDown className="w-3.5 h-3.5 text-muted-foreground" />
                       )}
                     </div>
+                  )}
+
+                  {/* Dica para desbloquear */}
+                  {!isUnlocked && (
+                    <span className="text-[9px] text-muted-foreground italic">
+                      Solicite ao paciente
+                    </span>
                   )}
                 </div>
 

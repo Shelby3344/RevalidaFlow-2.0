@@ -208,7 +208,8 @@ async function initializeIndex(): Promise<void> {
 }
 
 // Função para carregar um checklist por UID (assíncrona)
-export async function loadChecklistByUidAsync(uid: string | number): Promise<ChecklistContent | null> {
+// Também aceita o título do checklist para busca por nome
+export async function loadChecklistByUidAsync(uid: string | number, title?: string): Promise<ChecklistContent | null> {
   const uidStr = String(uid);
   
   // Retorna do cache se já carregado
@@ -229,11 +230,44 @@ export async function loadChecklistByUidAsync(uid: string | number): Promise<Che
       
       for (const folder of folders) {
         try {
-          // Primeiro tenta buscar o arquivo pelo UID
+          // Primeiro tenta buscar o arquivo pelo UID no índice
           const indexResponse = await fetch(`/checklists-json/${folder}/index.json`);
           if (indexResponse.ok) {
-            const index = await indexResponse.json();
-            const fileName = index[uidStr];
+            const index = await indexResponse.json() as Record<string, string>;
+            
+            // Tenta pelo UID direto
+            let fileName = index[uidStr];
+            
+            // Se não encontrou pelo UID e temos um título, busca pelo nome do arquivo
+            if (!fileName && title) {
+              // Normaliza o título para comparação
+              const normalizedTitle = title
+                .replace(/\s*\|\s*INEP\s*\d+\.?\d*/gi, '') // Remove " | INEP 2024.2" ou " | INEP 2021"
+                .replace(/[_\-–]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .toLowerCase()
+                .trim();
+              
+              // Busca no índice por nome de arquivo que contenha o título
+              for (const [, file] of Object.entries(index)) {
+                const normalizedFileName = (file as string)
+                  .replace(/^\d+_/, '') // Remove o UID do início (ex: "1107_")
+                  .replace(/\.json$/i, '') // Remove extensão
+                  .replace(/[_\-–]/g, ' ')
+                  .replace(/\s*_?\s*INEP\s*\d+\.?\d*/gi, '') // Remove INEP
+                  .replace(/\s+/g, ' ')
+                  .toLowerCase()
+                  .trim();
+                
+                if (normalizedFileName === normalizedTitle || 
+                    normalizedFileName.includes(normalizedTitle) ||
+                    normalizedTitle.includes(normalizedFileName)) {
+                  fileName = file as string;
+                  break;
+                }
+              }
+            }
+            
             if (fileName) {
               const response = await fetch(`/checklists-json/${folder}/${fileName}`);
               if (response.ok) {

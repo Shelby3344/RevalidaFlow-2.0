@@ -18,6 +18,7 @@ import { useVoiceChat } from "@/hooks/useVoiceChat";
 
 interface ChatPacienteIAProps {
   pacienteName: string;
+  pacienteGender?: 'male' | 'female'; // Gênero do paciente para voz
   messages: MessageIA[];
   onSendMessage: (message: string) => Promise<void>;
   isLoading: boolean;
@@ -28,8 +29,19 @@ interface ChatPacienteIAProps {
   apiKey?: string;
 }
 
+// Função para determinar a voz baseada no gênero
+function getVoiceForGender(gender?: 'male' | 'female'): 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer' {
+  // Vozes femininas: nova (natural), shimmer (expressiva), alloy (neutra)
+  // Vozes masculinas: onyx (grave), echo (média), fable (narrativa)
+  if (gender === 'male') {
+    return 'onyx'; // Voz masculina grave e natural
+  }
+  return 'nova'; // Voz feminina natural (padrão)
+}
+
 export function ChatPacienteIA({
   pacienteName,
+  pacienteGender,
   messages,
   onSendMessage,
   isLoading,
@@ -46,6 +58,9 @@ export function ChatPacienteIA({
   const messagesContainerRef = useRef<HTMLDivElement>(null);
   const lastSpokenMessageRef = useRef<string | null>(null);
 
+  // Determinar voz baseada no gênero do paciente
+  const pacienteVoice = getVoiceForGender(pacienteGender);
+
   const {
     startConversation,
     stopConversation,
@@ -58,7 +73,8 @@ export function ChatPacienteIA({
     interimTranscript,
   } = useVoiceChat({
     apiKey,
-    voice: "nova",
+    voice: pacienteVoice, // Voz baseada no gênero
+    useHDVoice: true, // Usar TTS HD para maior qualidade
     silenceTimeout: 1500,
     onTranscript: (text, isFinal) => {
       if (isFinal && text.trim()) {

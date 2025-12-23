@@ -1770,7 +1770,13 @@ export const getChecklistContentByIdAsync = async (id: string): Promise<Checklis
   // Tenta carregar do JSON via fetch
   try {
     const { loadChecklistByUidAsync } = await import('./checklistLoader');
-    const content = await loadChecklistByUidAsync(id);
+    const { checklistsData } = await import('./checklists');
+    
+    // Busca o título do checklist pelo ID
+    const checklistInfo = checklistsData.find(c => c.id === id);
+    const title = checklistInfo?.title;
+    
+    const content = await loadChecklistByUidAsync(id, title);
     if (content) {
       // Adiciona ao cache estático para próximas chamadas
       checklistContents[id] = content;

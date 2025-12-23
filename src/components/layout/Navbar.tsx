@@ -1,14 +1,22 @@
-import { Sun, Moon, Bell, Search, User } from "lucide-react";
+import { Sun, Moon, Bell, Search, User, Crown } from "lucide-react";
 import { useTheme } from "@/hooks/useTheme";
+import { useUserProfile } from "@/hooks/useUserProfile";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
+import { useNavigate } from "react-router-dom";
 
 export function Navbar() {
   const { resolvedTheme, setTheme } = useTheme();
+  const { profile } = useUserProfile();
+  const navigate = useNavigate();
 
   const toggleTheme = () => {
     setTheme(resolvedTheme === "dark" ? "light" : "dark");
+  };
+
+  const handleProfileClick = () => {
+    navigate("/perfil");
   };
 
   return (
@@ -69,19 +77,30 @@ export function Navbar() {
           {/* User */}
           <div className="flex items-center gap-3 pl-2 ml-2 border-l border-border">
             <div className="hidden sm:block text-right">
-              <p className="text-sm font-medium text-foreground">Nayara Nuñez</p>
-              <p className="text-xs text-muted-foreground">Premium</p>
+              <div className="flex items-center justify-end gap-2">
+                <p className="text-sm font-medium text-foreground">{profile.nome}</p>
+                {profile.plano === "premium" && (
+                  <Crown className="w-4 h-4 text-yellow-500" />
+                )}
+              </div>
+              <p className="text-xs text-muted-foreground">
+                {profile.plano === "premium" ? "Premium" : "Free"}
+              </p>
             </div>
             <Button
               variant="ghost"
               size="icon"
+              onClick={handleProfileClick}
               className={cn(
                 "h-10 w-10 rounded-xl",
                 "bg-gradient-to-br from-primary to-violet-600",
                 "hover:opacity-90"
               )}
+              title="Meu Perfil"
             >
-              <User className="w-5 h-5 text-white" />
+              <span className="text-white font-bold text-sm">
+                {profile.nome.split(" ").map(n => n[0]).join("").slice(0, 2)}
+              </span>
             </Button>
           </div>
         </div>

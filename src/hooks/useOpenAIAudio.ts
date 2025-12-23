@@ -4,6 +4,7 @@ interface UseOpenAIAudioOptions {
   apiKey?: string;
   voice?: 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer';
   speed?: number;
+  useHDVoice?: boolean; // Usar tts-1-hd para maior qualidade
 }
 
 interface UseOpenAIAudioReturn {
@@ -18,6 +19,7 @@ export function useOpenAIAudio({
   apiKey,
   voice = 'nova', // Voz feminina natural
   speed = 1.0,
+  useHDVoice = true, // Usar tts-1-hd por padrão para maior qualidade
 }: UseOpenAIAudioOptions = {}): UseOpenAIAudioReturn {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -65,7 +67,7 @@ export function useOpenAIAudio({
           'Authorization': `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
-          model: 'tts-1',
+          model: useHDVoice ? 'tts-1-hd' : 'tts-1', // HD para maior qualidade
           input: cleanText,
           voice: voice,
           speed: speed,

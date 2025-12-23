@@ -4,6 +4,7 @@ export interface UseVoiceChatOptions {
   apiKey?: string;
   voice?: 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer';
   silenceTimeout?: number;
+  useHDVoice?: boolean; // Usar tts-1-hd para maior qualidade
   onTranscript?: (text: string, isFinal: boolean) => void;
   onSilenceDetected?: () => void;
   onAudioStart?: () => void;
@@ -42,6 +43,7 @@ export function useVoiceChat({
   apiKey,
   voice = 'nova',
   silenceTimeout = 2000,
+  useHDVoice = true, // Usar tts-1-hd por padrão para maior qualidade
   onTranscript,
   onSilenceDetected,
   onAudioStart,
@@ -466,7 +468,7 @@ export function useVoiceChat({
             'Authorization': `Bearer ${apiKey}`,
           },
           body: JSON.stringify({
-            model: 'tts-1',
+            model: useHDVoice ? 'tts-1-hd' : 'tts-1', // HD para maior qualidade
             input: cleanText,
             voice: voice,
             speed: 1.0,
