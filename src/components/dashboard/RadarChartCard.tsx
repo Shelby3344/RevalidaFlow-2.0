@@ -4,8 +4,7 @@ import { Target, Zap, BookOpen, Stethoscope, Brain, Pill, FileImage, ClipboardLi
 interface Category {
   name: string;
   shortName: string;
-  flashcards: number;
-  checklists: number;
+  progress: number;
   icon: React.ReactNode;
 }
 
@@ -37,12 +36,12 @@ const areasData: Area[] = [
     gradientFrom: "from-red-500",
     gradientTo: "to-rose-600",
     categories: [
-      { name: "Anamnese", shortName: "ANA", flashcards: 75, checklists: 65, icon: categoryIcons.ANA },
-      { name: "Exame Físico", shortName: "EF", flashcards: 80, checklists: 70, icon: categoryIcons.EF },
-      { name: "Laboratório", shortName: "LAB", flashcards: 60, checklists: 50, icon: categoryIcons.LAB },
-      { name: "Imagem", shortName: "IMG", flashcards: 85, checklists: 75, icon: categoryIcons.IMG },
-      { name: "Diagnóstico", shortName: "DX", flashcards: 70, checklists: 60, icon: categoryIcons.DX },
-      { name: "Conduta", shortName: "CDT", flashcards: 65, checklists: 55, icon: categoryIcons.CDT },
+      { name: "Anamnese", shortName: "ANA", progress: 65, icon: categoryIcons.ANA },
+      { name: "Exame Físico", shortName: "EF", progress: 70, icon: categoryIcons.EF },
+      { name: "Laboratório", shortName: "LAB", progress: 50, icon: categoryIcons.LAB },
+      { name: "Imagem", shortName: "IMG", progress: 75, icon: categoryIcons.IMG },
+      { name: "Diagnóstico", shortName: "DX", progress: 60, icon: categoryIcons.DX },
+      { name: "Conduta", shortName: "CDT", progress: 55, icon: categoryIcons.CDT },
     ],
   },
   {
@@ -53,12 +52,12 @@ const areasData: Area[] = [
     gradientFrom: "from-blue-500",
     gradientTo: "to-cyan-600",
     categories: [
-      { name: "Anamnese", shortName: "ANA", flashcards: 80, checklists: 60, icon: categoryIcons.ANA },
-      { name: "Exame Físico", shortName: "EF", flashcards: 70, checklists: 50, icon: categoryIcons.EF },
-      { name: "Laboratório", shortName: "LAB", flashcards: 85, checklists: 70, icon: categoryIcons.LAB },
-      { name: "Imagem", shortName: "IMG", flashcards: 50, checklists: 30, icon: categoryIcons.IMG },
-      { name: "Diagnóstico", shortName: "DX", flashcards: 75, checklists: 55, icon: categoryIcons.DX },
-      { name: "Conduta", shortName: "CDT", flashcards: 80, checklists: 65, icon: categoryIcons.CDT },
+      { name: "Anamnese", shortName: "ANA", progress: 60, icon: categoryIcons.ANA },
+      { name: "Exame Físico", shortName: "EF", progress: 50, icon: categoryIcons.EF },
+      { name: "Laboratório", shortName: "LAB", progress: 70, icon: categoryIcons.LAB },
+      { name: "Imagem", shortName: "IMG", progress: 30, icon: categoryIcons.IMG },
+      { name: "Diagnóstico", shortName: "DX", progress: 55, icon: categoryIcons.DX },
+      { name: "Conduta", shortName: "CDT", progress: 65, icon: categoryIcons.CDT },
     ],
   },
   {
@@ -69,12 +68,12 @@ const areasData: Area[] = [
     gradientFrom: "from-purple-500",
     gradientTo: "to-violet-600",
     categories: [
-      { name: "Anamnese", shortName: "ANA", flashcards: 70, checklists: 55, icon: categoryIcons.ANA },
-      { name: "Exame Físico", shortName: "EF", flashcards: 65, checklists: 45, icon: categoryIcons.EF },
-      { name: "Laboratório", shortName: "LAB", flashcards: 55, checklists: 40, icon: categoryIcons.LAB },
-      { name: "Imagem", shortName: "IMG", flashcards: 80, checklists: 65, icon: categoryIcons.IMG },
-      { name: "Diagnóstico", shortName: "DX", flashcards: 60, checklists: 50, icon: categoryIcons.DX },
-      { name: "Conduta", shortName: "CDT", flashcards: 75, checklists: 60, icon: categoryIcons.CDT },
+      { name: "Anamnese", shortName: "ANA", progress: 55, icon: categoryIcons.ANA },
+      { name: "Exame Físico", shortName: "EF", progress: 45, icon: categoryIcons.EF },
+      { name: "Laboratório", shortName: "LAB", progress: 40, icon: categoryIcons.LAB },
+      { name: "Imagem", shortName: "IMG", progress: 65, icon: categoryIcons.IMG },
+      { name: "Diagnóstico", shortName: "DX", progress: 50, icon: categoryIcons.DX },
+      { name: "Conduta", shortName: "CDT", progress: 60, icon: categoryIcons.CDT },
     ],
   },
   {
@@ -85,12 +84,12 @@ const areasData: Area[] = [
     gradientFrom: "from-amber-500",
     gradientTo: "to-orange-600",
     categories: [
-      { name: "Anamnese", shortName: "ANA", flashcards: 85, checklists: 70, icon: categoryIcons.ANA },
-      { name: "Exame Físico", shortName: "EF", flashcards: 75, checklists: 60, icon: categoryIcons.EF },
-      { name: "Laboratório", shortName: "LAB", flashcards: 65, checklists: 45, icon: categoryIcons.LAB },
-      { name: "Imagem", shortName: "IMG", flashcards: 45, checklists: 30, icon: categoryIcons.IMG },
-      { name: "Diagnóstico", shortName: "DX", flashcards: 70, checklists: 55, icon: categoryIcons.DX },
-      { name: "Conduta", shortName: "CDT", flashcards: 80, checklists: 65, icon: categoryIcons.CDT },
+      { name: "Anamnese", shortName: "ANA", progress: 70, icon: categoryIcons.ANA },
+      { name: "Exame Físico", shortName: "EF", progress: 60, icon: categoryIcons.EF },
+      { name: "Laboratório", shortName: "LAB", progress: 45, icon: categoryIcons.LAB },
+      { name: "Imagem", shortName: "IMG", progress: 30, icon: categoryIcons.IMG },
+      { name: "Diagnóstico", shortName: "DX", progress: 55, icon: categoryIcons.DX },
+      { name: "Conduta", shortName: "CDT", progress: 65, icon: categoryIcons.CDT },
     ],
   },
   {
@@ -101,12 +100,12 @@ const areasData: Area[] = [
     gradientFrom: "from-emerald-500",
     gradientTo: "to-teal-600",
     categories: [
-      { name: "Anamnese", shortName: "ANA", flashcards: 90, checklists: 80, icon: categoryIcons.ANA },
-      { name: "Exame Físico", shortName: "EF", flashcards: 60, checklists: 45, icon: categoryIcons.EF },
-      { name: "Laboratório", shortName: "LAB", flashcards: 70, checklists: 55, icon: categoryIcons.LAB },
-      { name: "Imagem", shortName: "IMG", flashcards: 40, checklists: 25, icon: categoryIcons.IMG },
-      { name: "Diagnóstico", shortName: "DX", flashcards: 85, checklists: 70, icon: categoryIcons.DX },
-      { name: "Conduta", shortName: "CDT", flashcards: 95, checklists: 85, icon: categoryIcons.CDT },
+      { name: "Anamnese", shortName: "ANA", progress: 80, icon: categoryIcons.ANA },
+      { name: "Exame Físico", shortName: "EF", progress: 45, icon: categoryIcons.EF },
+      { name: "Laboratório", shortName: "LAB", progress: 55, icon: categoryIcons.LAB },
+      { name: "Imagem", shortName: "IMG", progress: 25, icon: categoryIcons.IMG },
+      { name: "Diagnóstico", shortName: "DX", progress: 70, icon: categoryIcons.DX },
+      { name: "Conduta", shortName: "CDT", progress: 85, icon: categoryIcons.CDT },
     ],
   },
 ];
@@ -116,21 +115,15 @@ export function RadarChartCard() {
   const maxValue = 100;
 
   // Calcula média geral da área
-  const areaAverage = selectedArea.categories.reduce((acc, cat) => {
-    return acc + (cat.flashcards + cat.checklists) / 2;
-  }, 0) / selectedArea.categories.length;
+  const areaAverage = selectedArea.categories.reduce((acc, cat) => acc + cat.progress, 0) / selectedArea.categories.length;
 
-  const weakestCategory = selectedArea.categories.reduce((prev, curr) => {
-    const prevAvg = (prev.flashcards + prev.checklists) / 2;
-    const currAvg = (curr.flashcards + curr.checklists) / 2;
-    return currAvg < prevAvg ? curr : prev;
-  });
+  const weakestCategory = selectedArea.categories.reduce((prev, curr) => 
+    curr.progress < prev.progress ? curr : prev
+  );
 
-  const strongestCategory = selectedArea.categories.reduce((prev, curr) => {
-    const prevAvg = (prev.flashcards + prev.checklists) / 2;
-    const currAvg = (curr.flashcards + curr.checklists) / 2;
-    return currAvg > prevAvg ? curr : prev;
-  });
+  const strongestCategory = selectedArea.categories.reduce((prev, curr) => 
+    curr.progress > prev.progress ? curr : prev
+  );
 
   return (
     <div className="rounded-2xl bg-card border border-border/50 overflow-hidden h-full flex flex-col">
@@ -180,24 +173,11 @@ export function RadarChartCard() {
         </p>
       </div>
 
-      {/* Legenda */}
-      <div className="px-5 py-2 flex justify-center gap-6 border-b border-border/30">
-        <div className="flex items-center gap-2">
-          <div className="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500" />
-          <span className="text-xs text-muted-foreground">Flashcards</span>
-        </div>
-        <div className="flex items-center gap-2">
-          <div className="w-2.5 h-2.5 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500" />
-          <span className="text-xs text-muted-foreground">Checklists</span>
-        </div>
-      </div>
-
       {/* Lista de categorias */}
       <div className="p-4 space-y-2 flex-1 overflow-auto">
         {selectedArea.categories.map((cat) => {
-          const avg = (cat.flashcards + cat.checklists) / 2;
-          const isWeak = avg < 50;
-          const isStrong = avg >= 70;
+          const isWeak = cat.progress < 50;
+          const isStrong = cat.progress >= 70;
           
           return (
             <div 
@@ -218,38 +198,33 @@ export function RadarChartCard() {
                 
                 {/* Info */}
                 <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 mb-1">
+                  <div className="flex items-center gap-2 mb-1.5">
                     <span className="text-sm font-medium text-foreground">{cat.name}</span>
                     {isWeak && <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-red-500/20 text-red-500">Revisar</span>}
                     {isStrong && <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-500">Ótimo</span>}
                   </div>
                   
-                  {/* Barras de progresso */}
-                  <div className="flex gap-2">
-                    <div className="flex-1">
-                      <div className="h-1.5 rounded-full bg-secondary overflow-hidden">
-                        <div 
-                          className="h-full rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 transition-all duration-500"
-                          style={{ width: `${(cat.flashcards / maxValue) * 100}%` }}
-                        />
-                      </div>
-                    </div>
-                    <div className="flex-1">
-                      <div className="h-1.5 rounded-full bg-secondary overflow-hidden">
-                        <div 
-                          className="h-full rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 transition-all duration-500"
-                          style={{ width: `${(cat.checklists / maxValue) * 100}%` }}
-                        />
-                      </div>
-                    </div>
+                  {/* Barra de progresso única */}
+                  <div className="h-2 rounded-full bg-secondary overflow-hidden">
+                    <div 
+                      className={`h-full rounded-full transition-all duration-500 ${
+                        isWeak 
+                          ? "bg-gradient-to-r from-red-500 to-orange-500"
+                          : isStrong
+                            ? "bg-gradient-to-r from-emerald-500 to-teal-500"
+                            : "bg-gradient-to-r from-blue-500 to-cyan-500"
+                      }`}
+                      style={{ width: `${(cat.progress / maxValue) * 100}%` }}
+                    />
                   </div>
                 </div>
 
-                {/* Percentuais */}
-                <div className="flex flex-col items-end gap-0.5">
-                  <span className="text-xs font-semibold text-blue-500">{cat.flashcards}%</span>
-                  <span className="text-xs font-semibold text-emerald-500">{cat.checklists}%</span>
-                </div>
+                {/* Percentual */}
+                <span className={`text-sm font-bold ${
+                  isWeak ? "text-red-500" : isStrong ? "text-emerald-500" : "text-blue-500"
+                }`}>
+                  {cat.progress}%
+                </span>
               </div>
             </div>
           );
