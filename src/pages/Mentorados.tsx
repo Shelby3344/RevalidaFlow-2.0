@@ -27,7 +27,7 @@ const mentoradosData: Mentorado[] = [
   { id: 4, name: "Rebecca Manfredini", email: "becca.manfredini@gmail.com", treinamentos: 6 },
   { id: 5, name: "R9", email: "rpradovieiradeoliveira@gmail.com", treinamentos: 58 },
   { id: 6, name: "Pedro HM", email: "pedrohenriqmoura@gmail.com", treinamentos: 271 },
-  { id: 7, name: "Nayara Nunez", email: "naynunezsantos@gmail.com", treinamentos: 0 },
+  { id: 7, name: "Shelbinho", email: "shelbinho@gmail.com", treinamentos: 0 },
   { id: 8, name: "Nayana Vilemon", email: "nayanavilemonleite@gmail.com", treinamentos: 0 },
   { id: 9, name: "Mayane Santos", email: "mayane.ss15@gmail.com", treinamentos: 83 },
   { id: 10, name: "Luis quintana", email: "luiscarlosquintana18@gmail.com", treinamentos: 0 },
