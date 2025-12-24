@@ -22,19 +22,19 @@ export interface UserProfile {
 // Dados iniciais mockados
 const defaultProfile: UserProfile = {
   id: "1",
-  nome: "Nayara Nuñez",
-  email: "nayara.nunez@email.com",
-  telefone: "(11) 99999-9999",
-  cidade: "São Paulo",
-  estado: "SP",
-  dataNascimento: "1995-03-15",
-  universidade: "USP - Universidade de São Paulo",
-  anoFormatura: "2020",
-  crm: "123456-SP",
-  especialidade: "Clínica Médica",
+  nome: "Shelbinho",
+  email: "",
+  telefone: "",
+  cidade: "",
+  estado: "",
+  dataNascimento: "",
+  universidade: "",
+  anoFormatura: "",
+  crm: "",
+  especialidade: "",
   avatar: "",
-  plano: "premium",
-  dataExpiracao: "2025-12-31",
+  plano: "free",
+  dataExpiracao: null,
   dataCadastro: "2024-01-15"
 };
 
