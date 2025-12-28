@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { CollaborativeMenuModal } from "@/components/collaborative/CollaborativeMenuModal";
 
 interface MenuItem {
   title: string;
@@ -116,6 +117,7 @@ export function Sidebar({
   onCloseMobileMenu
 }: SidebarProps) {
   const [expandedItems, setExpandedItems] = useState<string[]>(["Checklists"]);
+  const [isCollaborativeMenuOpen, setIsCollaborativeMenuOpen] = useState(false);
 
   const toggleExpand = (title: string) => {
     setExpandedItems((prev) =>
@@ -284,6 +286,24 @@ export function Sidebar({
                               </NavLink>
                             </li>
                           ))}
+                          
+                          {/* Botão de Treino Colaborativo - apenas para Checklists */}
+                          {item.title === "Checklists" && (
+                            <li>
+                              <button
+                                onClick={() => setIsCollaborativeMenuOpen(true)}
+                                className={cn(
+                                  "flex items-center py-2 px-3 text-[13px] rounded-lg w-full",
+                                  "transition-all duration-200",
+                                  "text-muted-foreground hover:text-foreground hover:bg-muted/50",
+                                  "bg-gradient-to-r from-blue-600/10 to-indigo-600/10 hover:from-blue-600/20 hover:to-indigo-600/20"
+                                )}
+                              >
+                                <Users className="w-3 h-3 mr-2" />
+                                Treino Colaborativo
+                              </button>
+                            </li>
+                          )}
                         </ul>
                       )}
                     </div>
@@ -325,6 +345,12 @@ export function Sidebar({
           </div>
         ))}
       </nav>
+
+      {/* Modal de Treino Colaborativo */}
+      <CollaborativeMenuModal 
+        open={isCollaborativeMenuOpen} 
+        onOpenChange={setIsCollaborativeMenuOpen}
+      />
     </aside>
   );
 }

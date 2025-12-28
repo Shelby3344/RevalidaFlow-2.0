@@ -10,7 +10,6 @@ import {
   Eye,
   CheckCircle2,
   PauseCircle,
-  AlertCircle,
   ChevronRight,
   Calendar,
   Target,
@@ -21,6 +20,7 @@ import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
 import { AllChecklistsModal } from "@/components/AllChecklistsModal";
 import { TreinoIAModeModal } from "@/components/treino-ia/TreinoIAModeModal";
+import { ActiveUsersPanel } from "@/components/collaborative/ActiveUsersPanel";
 import { cn } from "@/lib/utils";
 
 type ActivityType = "completed" | "paused" | "resumed" | "started";
@@ -121,6 +121,12 @@ export default function Checklists() {
 
   const handleStartChecklist = (id: string) => {
     navigate(`/checklists/execucao/${id}`);
+  };
+
+  const handleJoinRoom = (roomId: string) => {
+    console.log('Entrando na sala:', roomId);
+    // Navegar para a sala colaborativa
+    navigate(`/collaborative/${roomId}`);
   };
 
   return (
@@ -277,33 +283,7 @@ export default function Checklists() {
               </div>
             </div>
 
-            {/* Continuar de onde parou */}
-            {recentActivities.some((a) => a.type === "paused") && (
-              <div className="card-modern p-5 border-l-4 border-amber-500 bg-amber-500/5">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-xl bg-amber-500/20 flex items-center justify-center">
-                      <AlertCircle className="w-5 h-5 text-amber-500" />
-                    </div>
-                    <div>
-                      <h3 className="text-sm font-semibold text-foreground">
-                        Você tem um checklist pausado
-                      </h3>
-                      <p className="text-xs text-muted-foreground">
-                        Síndrome dos Ovários Policísticos - SOP • 4:15 de progresso
-                      </p>
-                    </div>
-                  </div>
-                  <Button
-                    onClick={() => handleStartChecklist("2")}
-                    className="bg-amber-500 hover:bg-amber-600 text-white"
-                  >
-                    <Play className="w-4 h-4 mr-2" />
-                    Continuar
-                  </Button>
-                </div>
-              </div>
-            )}
+            {/* Continuar de onde parou - REMOVIDO */}
           </div>
 
           {/* Sidebar - Stats e Ações */}
@@ -392,6 +372,9 @@ export default function Checklists() {
                     <Brain className="w-4 h-4" />
                     Treinar com Paciente IA
                   </Button>
+                  
+
+                  
                   <Button className="w-full h-10 gap-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm">
                     <FileText className="w-4 h-4" />
                     Criar Simulado
@@ -472,6 +455,9 @@ export default function Checklists() {
                 </div>
               </div>
             </div>
+
+            {/* Painel de Usuários Ativos */}
+            <ActiveUsersPanel onJoinRoom={handleJoinRoom} />
           </div>
         </div>
       </div>

@@ -1,14 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Brain, Shuffle, List, X, Sparkles, Eye, EyeOff } from "lucide-react";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Select,
   SelectContent,
@@ -34,12 +27,36 @@ export function TreinoIAModeModal({
   const [selectedArea, setSelectedArea] = useState("all");
   const navigate = useNavigate();
 
+  // Handle ESC key and body scroll
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        handleClose();
+      }
+    };
+
+    if (open) {
+      document.addEventListener('keydown', handleEscape);
+      document.body.style.overflow = 'hidden';
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+      document.body.style.overflow = 'unset';
+    };
+  }, [open]);
+
   // Filtrar checklists por área
   const filteredChecklists = checklistsData.filter((item) => {
     if (selectedArea === "all") return true;
     if (selectedArea === "GO") return item.areaCode === "GO";
     return item.areaCode === selectedArea;
   });
+
+  // Debug: log dos dados carregados
+  console.log('Total de checklists carregados:', checklistsData.length);
+  console.log('Checklists filtrados:', filteredChecklists.length);
+  console.log('Área selecionada:', selectedArea);
 
   // Iniciar treino com caso aleatório
   const handleRandomStart = () => {
@@ -76,20 +93,29 @@ export function TreinoIAModeModal({
     onOpenChange(false);
   };
 
+  if (!open) return null;
+
   return (
-    <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="max-w-lg bg-background border-border p-0 gap-0 sm:rounded-lg [&>button]:hidden">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4">
+      {/* Backdrop */}
+      <div 
+        className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+        onClick={handleClose}
+      />
+      
+      {/* Modal Content */}
+      <div className="relative z-10 w-full max-w-lg bg-background border border-border rounded-lg shadow-xl max-h-[95vh] sm:max-h-[90vh] flex flex-col animate-in fade-in-0 zoom-in-95 duration-300">
         {/* Header */}
-        <DialogHeader className="px-6 py-4 border-b border-border/30">
+        <div className="px-4 sm:px-6 py-4 border-b border-border/30 flex-shrink-0">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-500 to-fuchsia-600 flex items-center justify-center">
                 <Brain className="w-5 h-5 text-white" />
               </div>
               <div>
-                <DialogTitle className="text-lg font-semibold text-foreground">
+                <h2 className="text-lg font-semibold text-foreground">
                   Treino com Paciente IA
-                </DialogTitle>
+                </h2>
                 <p className="text-xs text-muted-foreground">
                   Pratique consultas com paciente simulado
                 </p>
@@ -104,10 +130,10 @@ export function TreinoIAModeModal({
               <X className="w-4 h-4" />
             </Button>
           </div>
-        </DialogHeader>
+        </div>
 
-        {/* Content - altura fixa para manter modal centralizado */}
-        <div className="p-6 min-h-[380px] max-h-[60vh] overflow-y-auto flex flex-col">
+        {/* Content - altura flexível para evitar corte */}
+        <div className="p-4 sm:p-6 flex-1 overflow-y-auto flex flex-col min-h-0">
           {mode === null && (
             <div className="space-y-4">
               <p className="text-sm text-muted-foreground text-center mb-6">
@@ -216,11 +242,11 @@ export function TreinoIAModeModal({
 
                 <div className="text-xs text-muted-foreground">
                   {selectedArea === "all"
-                    ? `${checklistsData.length} casos disponíveis`
+                    ? `${checklistsData.length} casos disponíveis (Total: ${checklistsData.length})`
                     : `${filteredChecklists.length} casos em ${
                         AREA_OPTIONS.find((a) => a.value === selectedArea)
                           ?.label || selectedArea
-                      }`}
+                      } (Total geral: ${checklistsData.length})`}
                 </div>
 
                 <Button
@@ -271,29 +297,33 @@ export function TreinoIAModeModal({
                 Atenção: O nome do checklist revela o diagnóstico
               </div>
 
-              <ScrollArea className="flex-1 min-h-[200px] -mx-2 px-2">
+              <div className="flex-1 min-h-[150px] max-h-[400px] overflow-y-auto -mx-2 px-2">
                 <div className="space-y-1">
-                  {filteredChecklists.map((item) => (
-                    <button
-                      key={item.id}
-                      onClick={() => handleSelectChecklist(item.id)}
-                      className="w-full p-3 rounded-lg border border-border/50 hover:border-cyan-500/50 hover:bg-cyan-500/5 transition-all text-left group"
-                    >
-                      <div className="flex items-center gap-3">
-                        <AreaBadge areaCode={item.areaCode} />
-                        <span className="text-sm text-foreground flex-1 truncate">
-                          {item.title}
-                        </span>
-                        <Brain className="w-4 h-4 text-muted-foreground group-hover:text-cyan-400 transition-colors" />
-                      </div>
-                    </button>
-                  ))}
+                  {console.log('Renderizando casos:', filteredChecklists.length)} {/* Debug */}
+                  {filteredChecklists.map((item, index) => {
+                    console.log(`Caso ${index + 1}:`, item.title); // Debug cada caso
+                    return (
+                      <button
+                        key={item.id}
+                        onClick={() => handleSelectChecklist(item.id)}
+                        className="w-full p-3 rounded-lg border border-border/50 hover:border-cyan-500/50 hover:bg-cyan-500/5 transition-all text-left group"
+                      >
+                        <div className="flex items-center gap-3">
+                          <AreaBadge areaCode={item.areaCode} />
+                          <span className="text-sm text-foreground flex-1 truncate">
+                            {item.title}
+                          </span>
+                          <Brain className="w-4 h-4 text-muted-foreground group-hover:text-cyan-400 transition-colors" />
+                        </div>
+                      </button>
+                    );
+                  })}
                 </div>
-              </ScrollArea>
+              </div>
             </div>
           )}
         </div>
-      </DialogContent>
-    </Dialog>
+      </div>
+    </div>
   );
 }

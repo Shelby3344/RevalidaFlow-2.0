@@ -12,6 +12,7 @@ import AvaliacaoAvaliador from "./pages/AvaliacaoAvaliador";
 import AvaliacaoAvaliado from "./pages/AvaliacaoAvaliado";
 import TreinoIA from "./pages/TreinoIA";
 import TreinoIACompleto from "./pages/TreinoIACompleto";
+import CollaborativeRoom from "./pages/CollaborativeRoom";
 import FlashcardsPage from "./pages/FlashcardsPage";
 import PenseResumos from "./pages/PenseResumos";
 import CronogramaCalendar from "./pages/CronogramaCalendar";
@@ -41,6 +42,7 @@ const App = () => (
             <Route path="/" element={<Dashboard />} />
             <Route path="/checklists" element={<Checklists />} />
             <Route path="/checklists/execucao/:id" element={<ChecklistExecution />} />
+            <Route path="/collaborative/:roomId" element={<CollaborativeRoom />} />
             <Route path="/avaliacao/:sessionCode" element={<AvaliacaoAvaliador />} />
             <Route path="/avaliacao/participar/:sessionCode" element={<AvaliacaoAvaliado />} />
             <Route path="/treino-ia/:checklistId" element={<TreinoIA />} />

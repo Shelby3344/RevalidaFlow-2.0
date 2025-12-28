@@ -1,15 +1,13 @@
 import { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import { List, User, Users, X } from "lucide-react";
+import { List, User, X, Users } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { AreaBadge } from "./AreaBadge";
+import { CreateRoomModal } from "./collaborative/CreateRoomModal";
 import { checklistsData, AREA_OPTIONS, INEP_OPTIONS, AREA_ORDER, AreaCode } from "@/data/checklists";
-import { CreateSessionModal } from "./avaliacao/CreateSessionModal";
-import { getChecklistContentByIdAsync } from "@/data/checklistContents";
-import { ChecklistEvaluationItem } from "@/types/checklists";
 import { useChecklistMetrics } from "@/hooks/useChecklistMetrics";
 import { useUserProfile } from "@/hooks/useUserProfile";
 
@@ -22,13 +20,17 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
   const { profile } = useUserProfile();
   const [selectedArea, setSelectedArea] = useState("all");
   const [selectedInep, setSelectedInep] = useState("all");
-  const [sessionModalOpen, setSessionModalOpen] = useState(false);
-  const [selectedChecklist, setSelectedChecklist] = useState<{
-    id: string;
-    title: string;
+  const [createRoomModal, setCreateRoomModal] = useState<{
+    open: boolean;
+    checklistId: string;
+    checklistTitle: string;
     areaCode: AreaCode;
-    evaluationItems: ChecklistEvaluationItem[];
-  } | null>(null);
+  }>({
+    open: false,
+    checklistId: '',
+    checklistTitle: '',
+    areaCode: 'CM'
+  });
 
   // Hook para métricas do usuário
   const { getAverage, getAttempts } = useChecklistMetrics();
@@ -177,30 +179,26 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
     navigate(`/checklists/execucao/${id}`);
   };
 
-  const handleCreateSession = async (id: string, title: string, areaCode: AreaCode) => {
-    try {
-      const content = await getChecklistContentByIdAsync(id);
-      setSelectedChecklist({
-        id,
-        title,
-        areaCode,
-        evaluationItems: content.evaluationItems,
-      });
-      setSessionModalOpen(true);
-    } catch (error) {
-      console.error('Erro ao carregar checklist:', error);
-    }
+  const handleCreateRoom = (checklistId: string, checklistTitle: string, areaCode: AreaCode) => {
+    setCreateRoomModal({
+      open: true,
+      checklistId,
+      checklistTitle,
+      areaCode
+    });
   };
 
-  const handleSessionModalClose = (isOpen: boolean) => {
-    setSessionModalOpen(isOpen);
-    if (!isOpen) {
-      setSelectedChecklist(null);
-      onOpenChange(false);
-    }
+  const handleRoomCreated = (roomId: string, roomCode?: string) => {
+    console.log('Sala criada:', roomId, roomCode);
+    // Navegar para a sala colaborativa
+    navigate(`/collaborative/${roomId}`);
+    
+    // Fechar modal principal
+    onOpenChange(false);
   };
 
   return (
+    <>
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="fixed inset-4 max-w-none w-auto h-auto max-h-none bg-background border-border p-0 gap-0 overflow-hidden flex flex-col">
         {/* Header */}
@@ -346,12 +344,11 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
                         </Button>
                         <Button
                           size="sm"
-                          variant="outline"
-                          onClick={() => handleCreateSession(item.id, item.title, item.areaCode)}
-                          className="text-xs px-3 py-1 h-7 border-green-500/50 text-green-400 hover:bg-green-500/10"
+                          onClick={() => handleCreateRoom(item.id, item.title, item.areaCode)}
+                          className="text-xs px-3 py-1 h-7 bg-gradient-to-r from-blue-600 to-indigo-600 hover:opacity-90 text-white"
                         >
                           <Users className="w-3 h-3 mr-1" />
-                          Avaliar
+                          Em Grupo
                         </Button>
                       </div>
                     </td>
@@ -373,18 +370,17 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
           </Button>
         </div>
       </DialogContent>
-
-      {/* Modal de criação de sessão */}
-      {selectedChecklist && (
-        <CreateSessionModal
-          open={sessionModalOpen}
-          onOpenChange={handleSessionModalClose}
-          checklistId={selectedChecklist.id}
-          checklistTitle={selectedChecklist.title}
-          areaCode={selectedChecklist.areaCode}
-          evaluationItems={selectedChecklist.evaluationItems}
-        />
-      )}
     </Dialog>
+
+    {/* Modal para criar sala colaborativa */}
+    <CreateRoomModal
+      open={createRoomModal.open}
+      onOpenChange={(open) => setCreateRoomModal(prev => ({ ...prev, open }))}
+      checklistId={createRoomModal.checklistId}
+      checklistTitle={createRoomModal.checklistTitle}
+      areaCode={createRoomModal.areaCode}
+      onRoomCreated={handleRoomCreated}
+    />
+  </>
   );
 }

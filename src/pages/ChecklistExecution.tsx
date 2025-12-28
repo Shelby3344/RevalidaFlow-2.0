@@ -2,12 +2,11 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
-import { Lock, MessageSquare, Clock, ListChecks, AlignLeft, Users } from "lucide-react";
+import { Lock, MessageSquare, Clock, ListChecks, AlignLeft } from "lucide-react";
 import { checklistsData } from "@/data/checklists";
 import { getChecklistContentById, getChecklistContentByIdAsync, defaultChecklistContent } from "@/data/checklistContents";
 import { AreaBadge } from "@/components/AreaBadge";
 import { ChecklistContent } from "@/types/checklists";
-import { CreateSessionModal } from "@/components/avaliacao/CreateSessionModal";
 
 export default function ChecklistExecution() {
   const { id } = useParams<{ id: string }>();
@@ -49,7 +48,6 @@ export default function ChecklistExecution() {
   }, [id]);
 
   const [impressosState, setImpressosState] = useState(content.impressos);
-  const [showCreateSession, setShowCreateSession] = useState(false);
   
   // Atualiza impressos quando o conteúdo muda
   useEffect(() => {
@@ -233,10 +231,26 @@ export default function ChecklistExecution() {
                           </div>
                         </td>
                         <td className="py-4 text-right align-top">
-                          <div className="space-y-1 text-xs text-muted-foreground">
-                            <p>{item.scores.min.toFixed(1)}</p>
-                            {item.scoring.partial && item.scoring.partial !== "—" && <p>{item.scores.partial.toFixed(1)}</p>}
-                            <p>{item.scores.max.toFixed(1)}</p>
+                          <div className="flex justify-end">
+                            {/* Container com largura fixa para garantir alinhamento consistente */}
+                            <div className="flex gap-1 justify-end" style={{ minWidth: '200px' }}>
+                              {/* Botão Inadequado */}
+                              <div className="w-16 h-10 border-2 border-blue-500 rounded flex items-center justify-center text-blue-500 font-bold text-sm">
+                                {item.scores.min}
+                              </div>
+                              
+                              {/* Botão Parcial (se existir) */}
+                              {item.scoring.partial && item.scoring.partial !== "—" && (
+                                <div className="w-16 h-10 border-2 border-blue-500 rounded flex items-center justify-center text-blue-500 font-bold text-sm">
+                                  {item.scores.partial}
+                                </div>
+                              )}
+                              
+                              {/* Botão Adequado */}
+                              <div className="w-16 h-10 border-2 border-blue-500 rounded flex items-center justify-center text-blue-500 font-bold text-sm">
+                                {item.scores.max}
+                              </div>
+                            </div>
                           </div>
                         </td>
                       </tr>
@@ -283,15 +297,6 @@ export default function ChecklistExecution() {
 
           {/* Right Sidebar */}
           <div className="w-72 border-l border-border bg-card p-4 flex flex-col gap-4">
-            {/* Botão Criar Sessão de Avaliação */}
-            <Button 
-              className="w-full bg-green-600 hover:bg-green-700 text-white"
-              onClick={() => setShowCreateSession(true)}
-            >
-              <Users className="w-4 h-4 mr-2" />
-              Avaliar Aluno
-            </Button>
-
             {/* Timer */}
             <div className="text-center">
               <div className="bg-primary text-primary-foreground text-2xl font-mono py-3 px-6 rounded-lg">
@@ -363,18 +368,6 @@ export default function ChecklistExecution() {
           </div>
         </div>
       </div>
-      )}
-
-      {/* Modal para criar sessão de avaliação */}
-      {checklist && (
-        <CreateSessionModal
-          open={showCreateSession}
-          onOpenChange={setShowCreateSession}
-          checklistId={checklist.id}
-          checklistTitle={checklistTitle}
-          areaCode={checklist.areaCode}
-          evaluationItems={content.evaluationItems}
-        />
       )}
     </AppLayout>
   );

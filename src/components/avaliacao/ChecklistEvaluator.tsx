@@ -3,7 +3,7 @@ import { ChecklistEvaluationItem } from '@/types/checklists';
 import { ItemScore } from '@/types/avaliacao';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { Check, Minus, X } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 interface ChecklistEvaluatorProps {
   items: ChecklistEvaluationItem[];
@@ -18,6 +18,8 @@ export function ChecklistEvaluator({
   onScoreChange,
   disabled = false,
 }: ChecklistEvaluatorProps) {
+  console.log('ChecklistEvaluator renderizado com:', { items: items.length, disabled }); // Debug
+  
   // Estado para controlar quais subitens foram marcados como realizados
   const [checkedSubItems, setCheckedSubItems] = useState<Record<string, boolean>>({});
 
@@ -110,53 +112,56 @@ export function ChecklistEvaluator({
               </p>
             </div>
 
-            {/* Botões de pontuação */}
-            <div className="flex gap-2 pt-2">
-              {/* Adequado */}
+            {/* Botões de pontuação - Formato horizontal */}
+            <div className="flex justify-center gap-1 pt-2">
+              {/* Inadequado - 0 */}
               <Button
                 size="sm"
-                variant={selectedType === 'adequate' ? 'default' : 'outline'}
+                variant={selectedType === 'inadequate' ? 'default' : 'outline'}
                 className={cn(
-                  'flex-1 gap-1',
-                  selectedType === 'adequate' && 'bg-green-600 hover:bg-green-700'
+                  'w-20 h-12 text-lg font-bold border-2',
+                  selectedType === 'inadequate' 
+                    ? 'bg-blue-600 hover:bg-blue-700 border-blue-500 text-white' 
+                    : 'border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950'
                 )}
-                onClick={() => onScoreChange(item.id, item.scores.max, 'adequate')}
+                onClick={() => onScoreChange(item.id, item.scores.min, 'inadequate')}
                 disabled={disabled}
               >
-                <Check className="w-3 h-3" />
-                <span className="text-xs">{item.scores.max.toFixed(1)}</span>
+                {item.scores.min}
               </Button>
 
-              {/* Parcial */}
+              {/* Parcial - 0.5 */}
               {hasPartial && (
                 <Button
                   size="sm"
                   variant={selectedType === 'partial' ? 'default' : 'outline'}
                   className={cn(
-                    'flex-1 gap-1',
-                    selectedType === 'partial' && 'bg-amber-600 hover:bg-amber-700'
+                    'w-20 h-12 text-lg font-bold border-2',
+                    selectedType === 'partial' 
+                      ? 'bg-blue-600 hover:bg-blue-700 border-blue-500 text-white' 
+                      : 'border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950'
                   )}
                   onClick={() => onScoreChange(item.id, item.scores.partial, 'partial')}
                   disabled={disabled}
                 >
-                  <Minus className="w-3 h-3" />
-                  <span className="text-xs">{item.scores.partial.toFixed(1)}</span>
+                  {item.scores.partial}
                 </Button>
               )}
 
-              {/* Inadequado */}
+              {/* Adequado - 1 */}
               <Button
                 size="sm"
-                variant={selectedType === 'inadequate' ? 'default' : 'outline'}
+                variant={selectedType === 'adequate' ? 'default' : 'outline'}
                 className={cn(
-                  'flex-1 gap-1',
-                  selectedType === 'inadequate' && 'bg-red-600 hover:bg-red-700'
+                  'w-20 h-12 text-lg font-bold border-2',
+                  selectedType === 'adequate' 
+                    ? 'bg-blue-600 hover:bg-blue-700 border-blue-500 text-white' 
+                    : 'border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950'
                 )}
-                onClick={() => onScoreChange(item.id, item.scores.min, 'inadequate')}
+                onClick={() => onScoreChange(item.id, item.scores.max, 'adequate')}
                 disabled={disabled}
               >
-                <X className="w-3 h-3" />
-                <span className="text-xs">{item.scores.min.toFixed(1)}</span>
+                {item.scores.max}
               </Button>
             </div>
           </div>
