@@ -238,8 +238,9 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
       : `Pode me chamar de paciente.`;
   }
   
-  // Idade
-  if (lowerMsg.includes('idade') || lowerMsg.includes('anos')) {
+  // Idade - mas NÃO quando pergunta sobre "intensidade" da dor
+  if ((lowerMsg.includes('idade') || lowerMsg.includes('quantos anos')) && 
+      !lowerMsg.includes('intensidade') && !lowerMsg.includes('intensa')) {
     return info.idade ? `Tenho ${info.idade} anos, doutor(a).` : `Tenho uns 50 e poucos anos.`;
   }
   
@@ -260,6 +261,18 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
   
   // Dor
   if (lowerMsg.includes('dor')) {
+    // Intensidade da dor - PRIORIDADE ALTA
+    if (lowerMsg.includes('intensidade') || lowerMsg.includes('intensa') || 
+        lowerMsg.includes('forte') || lowerMsg.includes('escala') || 
+        lowerMsg.includes('nota') || lowerMsg.includes('0 a 10')) {
+      if (instrucoes.includes('forte') || instrucoes.includes('intensa')) {
+        return `É muito forte, doutor(a). Numa escala de 0 a 10, eu diria uns 8.`;
+      }
+      if (instrucoes.includes('leve') || instrucoes.includes('fraca')) {
+        return `É uma dor mais leve. Uns 3 ou 4 de 10.`;
+      }
+      return `É uma dor moderada. Uns 5 ou 6 de 10, eu diria.`;
+    }
     if (lowerMsg.includes('onde') || lowerMsg.includes('local')) {
       if (instrucoes.includes('costela')) return `Dói aqui nas costelas, doutor(a).`;
       if (instrucoes.includes('cabeça')) return `Dói muito aqui na cabeça.`;
@@ -435,37 +448,32 @@ export function useAIPacienteAvaliador({
     try {
       let aiResponse: AIResponse;
       
-      if (apiKey) {
-        // Usar API da OpenAI
-        const systemPrompt = generateSystemPrompt(
-          checklistContent,
-          checklistItemsRef.current,
-          examesRef.current
-        );
-        
-        const apiResponse = await fetch('https://api.openai.com/v1/chat/completions', {
+      // Sempre tentar usar a API proxy primeiro
+      const systemPrompt = generateSystemPrompt(
+        checklistContent,
+        checklistItemsRef.current,
+        examesRef.current
+      );
+      
+      try {
+        const apiResponse = await fetch('/api/chat', {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`,
-          },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
+            systemPrompt,
+            messages: newHistory.map(msg => ({ role: msg.role, content: msg.content })),
             model: 'gpt-4o-mini',
-            messages: [
-              { role: 'system', content: systemPrompt },
-              ...newHistory.map(msg => ({ role: msg.role, content: msg.content })),
-            ],
             temperature: 0.7,
             max_tokens: 500,
           }),
         });
         
         if (!apiResponse.ok) {
-          throw new Error('Erro na API OpenAI');
+          throw new Error('API proxy error');
         }
         
         const data = await apiResponse.json();
-        const responseText = data.choices[0].message.content;
+        const responseText = data.content;
         
         // Tentar parsear JSON da resposta
         try {
@@ -485,8 +493,9 @@ export function useAIPacienteAvaliador({
             itemScores: {},
           };
         }
-      } else {
-        // Usar detecção local (fallback)
+      } catch (apiError) {
+        // Fallback para detecção local se API falhar
+        console.warn('[AI Avaliador] API falhou, usando fallback local:', apiError);
         await new Promise(resolve => setTimeout(resolve, 800 + Math.random() * 800));
         
         const pacienteResponse = generateLocalResponse(message, checklistContent);
@@ -609,7 +618,7 @@ export function useAIPacienteAvaliador({
     } finally {
       setIsLoading(false);
     }
-  }, [apiKey, checklistContent, conversationHistory, completedItems, liberatedExames, callbacks]);
+  }, [checklistContent, conversationHistory, completedItems, liberatedExames, callbacks]);
   
   // Função para enviar saudação inicial do paciente
   const sendInitialGreeting = useCallback(async () => {
@@ -618,39 +627,37 @@ export function useAIPacienteAvaliador({
     try {
       let greetingMessage: string;
       
-      if (apiKey) {
-        // Usar API da OpenAI para gerar saudação inicial
-        const systemPrompt = generateSystemPrompt(
-          checklistContent,
-          checklistItemsRef.current,
-          examesRef.current
-        );
-        
-        const apiResponse = await fetch('https://api.openai.com/v1/chat/completions', {
+      // Usar API proxy para gerar saudação inicial
+      const systemPrompt = generateSystemPrompt(
+        checklistContent,
+        checklistItemsRef.current,
+        examesRef.current
+      );
+      
+      try {
+        const apiResponse = await fetch('/api/chat', {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`,
-          },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            model: 'gpt-4o',
+            systemPrompt,
             messages: [
-              { role: 'system', content: systemPrompt },
               { role: 'user', content: 'O médico acabou de entrar no consultório. Como paciente, apresente-se brevemente e diga sua queixa principal de forma natural, como um paciente real faria. Responda APENAS como paciente, sem JSON.' },
             ],
+            model: 'gpt-4o',
             temperature: 0.8,
             max_tokens: 200,
           }),
         });
         
         if (!apiResponse.ok) {
-          throw new Error('Erro na API OpenAI');
+          throw new Error('API proxy error');
         }
         
         const data = await apiResponse.json();
-        greetingMessage = data.choices[0].message.content;
-      } else {
-        // Usar geração local
+        greetingMessage = data.content;
+      } catch (apiError) {
+        // Fallback para geração local
+        console.warn('[AI Avaliador] API falhou para greeting, usando fallback local:', apiError);
         await new Promise(resolve => setTimeout(resolve, 500));
         greetingMessage = generateInitialGreeting(checklistContent);
       }
@@ -677,7 +684,7 @@ export function useAIPacienteAvaliador({
     } finally {
       setIsLoading(false);
     }
-  }, [apiKey, checklistContent]);
+  }, [checklistContent]);
   
   const clearHistory = useCallback(() => {
     setConversationHistory([]);

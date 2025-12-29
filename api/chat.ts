@@ -8,7 +8,7 @@ export default async function handler(req: Request) {
   }
 
   try {
-    const { messages, systemPrompt } = await req.json();
+    const { messages, systemPrompt, model, temperature, max_tokens } = await req.json();
 
     if (!messages || !systemPrompt) {
       return new Response('Messages and systemPrompt are required', { status: 400 });
@@ -27,13 +27,13 @@ export default async function handler(req: Request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'gpt-4o-mini',
+        model: model || 'gpt-4o-mini',
         messages: [
           { role: 'system', content: systemPrompt },
           ...messages,
         ],
-        temperature: 0.7,
-        max_tokens: 300,
+        temperature: temperature ?? 0.7,
+        max_tokens: max_tokens || 300,
       }),
     });
 
