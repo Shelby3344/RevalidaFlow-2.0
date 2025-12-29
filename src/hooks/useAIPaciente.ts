@@ -3,7 +3,6 @@ import { ChecklistContent } from '@/types/checklists';
 
 interface UseAIPacienteOptions {
   checklistContent: ChecklistContent;
-  apiKey?: string;
 }
 
 interface UseAIPacienteReturn {
@@ -39,21 +38,30 @@ function generateSystemPrompt(content: ChecklistContent): string {
   const scenario = content.scenario;
   const instrucoes = content.instrucoes;
   
-  return `Você é um paciente simulado chamado ${info.nome}${info.idade ? `, ${info.idade} anos` : ''}.
+  return `Você é um paciente simulado para treinamento médico. Seu papel é interpretar o paciente descrito abaixo de forma realista.
 
-CENÁRIO: ${scenario.nivel} - ${scenario.tipo}
+DADOS DO PACIENTE:
+- Nome: ${info.nome}
+- Idade: ${info.idade || 'não especificada'}
+- Cenário: ${scenario.nivel} - ${scenario.tipo}
+
+DESCRIÇÃO DO CASO:
 ${scenario.descricao.join('\n')}
 
-SCRIPT DO PACIENTE:
+INFORMAÇÕES DO PACIENTE (use para responder perguntas):
 ${instrucoes.itens.join('\n')}
 
-REGRAS:
-1. Responda APENAS como paciente, nunca como médico
-2. Use linguagem simples e coloquial brasileira
-3. Demonstre emoções: dor, medo, preocupação
-4. Só revele informações quando perguntado
-5. Use expressões como *suspira*, *faz careta de dor*
-6. Responda de forma CURTA e NATURAL`;
+REGRAS IMPORTANTES:
+1. Você é o PACIENTE, não o médico. Nunca dê diagnósticos ou prescrições.
+2. Responda de forma CURTA e NATURAL, como um paciente real falaria.
+3. Use linguagem simples e coloquial brasileira.
+4. Demonstre emoções apropriadas: dor, medo, preocupação, alívio.
+5. Só revele informações quando o médico perguntar especificamente.
+6. Use expressões entre asteriscos para ações: *suspira*, *faz careta de dor*, *pensa*
+7. Se não souber algo, diga que não sabe ou não lembra.
+8. Mantenha consistência com as informações do caso clínico.
+9. Responda APENAS o que foi perguntado, não antecipe informações.
+10. Máximo de 2-3 frases por resposta.`;
 }
 
 function generateLocalResponse(message: string, content: ChecklistContent): string {
@@ -68,7 +76,7 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
       : `Pode me chamar de paciente...`;
   }
   
-  if (lowerMsg.includes('idade') || lowerMsg.includes('anos')) {
+  if ((lowerMsg.includes('idade') || lowerMsg.includes('quantos anos')) && !lowerMsg.includes('intensidade')) {
     return info.idade ? `Tenho ${info.idade} anos, doutor(a).` : `Tenho uns 50 e poucos anos...`;
   }
   
@@ -81,11 +89,27 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
   }
   
   if (lowerMsg.includes('dor')) {
+    if (lowerMsg.includes('intensidade') || lowerMsg.includes('forte') || lowerMsg.includes('escala') || lowerMsg.includes('nota')) {
+      if (instrucoes.includes('forte') || instrucoes.includes('intensa')) {
+        return `*faz careta* É muito forte, doutor(a)... Numa escala de 0 a 10, eu diria uns 8. *geme baixinho*`;
+      }
+      if (instrucoes.includes('leve') || instrucoes.includes('fraca')) {
+        return `É uma dor mais leve... Uns 3 ou 4 de 10. Mas incomoda bastante.`;
+      }
+      return `*pensa* É uma dor moderada... Uns 5 ou 6 de 10, eu diria. Às vezes piora.`;
+    }
     if (lowerMsg.includes('onde') || lowerMsg.includes('local')) {
       if (instrucoes.includes('costela')) return `*aponta* Dói aqui nas costelas, doutor(a). *faz careta*`;
       if (instrucoes.includes('cabeça')) return `*leva a mão à cabeça* Dói muito aqui.`;
-      if (instrucoes.includes('barriga')) return `*aponta para a barriga* Dói aqui. *faz careta*`;
+      if (instrucoes.includes('barriga') || instrucoes.includes('abdom')) return `*aponta para a barriga* Dói aqui. *faz careta*`;
+      if (instrucoes.includes('peito') || instrucoes.includes('tórax')) return `*leva a mão ao peito* Dói aqui no peito, doutor(a).`;
       return `*aponta* Dói aqui, doutor(a)... *faz careta de dor*`;
+    }
+    if (lowerMsg.includes('quando') || lowerMsg.includes('começou') || lowerMsg.includes('tempo')) {
+      return `*pensa* Começou há alguns dias... Uns 3 ou 4 dias, mais ou menos.`;
+    }
+    if (lowerMsg.includes('piora') || lowerMsg.includes('melhora')) {
+      return `*pensa* Piora quando me movimento... Melhora um pouco quando fico quieto.`;
     }
     if (descricao.includes('dor')) {
       return `*faz careta* Sim, dói bastante... É uma dor ${instrucoes.includes('forte') ? 'muito forte' : 'constante'}.`;
@@ -142,7 +166,7 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
 }
 
 
-export function useAIPaciente({ checklistContent, apiKey }: UseAIPacienteOptions): UseAIPacienteReturn {
+export function useAIPaciente({ checklistContent }: UseAIPacienteOptions): UseAIPacienteReturn {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [conversationHistory, setConversationHistory] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([]);
@@ -154,40 +178,33 @@ export function useAIPaciente({ checklistContent, apiKey }: UseAIPacienteOptions
     const newHistory = [...conversationHistory, { role: 'user' as const, content: message }];
 
     try {
+      const systemPrompt = generateSystemPrompt(checklistContent);
+      
+      // Usar API proxy para evitar CORS e expor API key
+      const apiResponse = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          systemPrompt,
+          messages: newHistory.map(msg => ({ role: msg.role, content: msg.content })),
+        }),
+      });
+
       let response: string;
 
-      if (apiKey) {
-        const systemPrompt = generateSystemPrompt(checklistContent);
-        
-        const apiResponse = await fetch('https://api.openai.com/v1/chat/completions', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`,
-          },
-          body: JSON.stringify({
-            model: 'gpt-4o-mini',
-            messages: [
-              { role: 'system', content: systemPrompt },
-              ...newHistory.map(msg => ({ role: msg.role, content: msg.content })),
-            ],
-            temperature: 0.7,
-            max_tokens: 200,
-          }),
-        });
-
-        if (!apiResponse.ok) throw new Error('Erro na API');
-
+      if (apiResponse.ok) {
         const data = await apiResponse.json();
-        response = data.choices[0].message.content;
+        response = data.content;
       } else {
-        await new Promise(resolve => setTimeout(resolve, 800 + Math.random() * 800));
+        // Fallback para respostas locais se API falhar
+        console.warn('[AI Paciente] API falhou, usando fallback local');
         response = generateLocalResponse(message, checklistContent);
       }
 
       setConversationHistory([...newHistory, { role: 'assistant', content: response }]);
       return response;
-    } catch {
+    } catch (err) {
+      console.error('[AI Paciente] Erro:', err);
       setError('Erro ao processar resposta');
       const fallbackResponse = generateLocalResponse(message, checklistContent);
       setConversationHistory([...newHistory, { role: 'assistant', content: fallbackResponse }]);
@@ -195,7 +212,7 @@ export function useAIPaciente({ checklistContent, apiKey }: UseAIPacienteOptions
     } finally {
       setIsLoading(false);
     }
-  }, [apiKey, checklistContent, conversationHistory]);
+  }, [checklistContent, conversationHistory]);
 
   const clearHistory = useCallback(() => {
     setConversationHistory([]);
