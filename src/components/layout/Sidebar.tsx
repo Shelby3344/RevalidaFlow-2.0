@@ -43,7 +43,7 @@ interface MenuSection {
 
 const menuSections: MenuSection[] = [
   {
-    items: [{ title: "Dashboard", icon: LayoutDashboard, path: "/" }],
+    items: [{ title: "Dashboard", icon: LayoutDashboard, path: "/dashboard" }],
   },
   {
     title: "Estudos",
