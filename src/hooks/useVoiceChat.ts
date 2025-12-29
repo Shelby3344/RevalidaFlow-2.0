@@ -103,3 +103,101 @@ export function useVoiceChat({
     const data = await response.json();
     return data.text || '';
   }, []);
+
+  const speak = useCallback(async (text: string) => {
+    const cleanText = cleanTextForSpeech(text);
+    if (!cleanText) return;
+    if (audioRef.current) { audioRef.current.pause(); audioRef.current = null; }
+    setIsProcessing(true);
+    isSpeakingRef.current = true;
+    try {
+      console.log('[TTS] Gerando audio para:', cleanText.substring(0, 50) + '...');
+      const response = await fetch('/api/tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: cleanText, voice }),
+      });
+      console.log('[TTS] Response status:', response.status);
+      if (!response.ok) { const errorText = await response.text(); console.error('[TTS] Erro:', errorText); throw new Error('Erro TTS: ' + response.status); }
+      const audioBlob = await response.blob();
+      const audioUrl = URL.createObjectURL(audioBlob);
+      const audio = new Audio(audioUrl);
+      audioRef.current = audio;
+      audio.onplay = () => { setIsSpeaking(true); setIsProcessing(false); onAudioStart?.(); };
+      audio.onended = () => { setIsSpeaking(false); isSpeakingRef.current = false; URL.revokeObjectURL(audioUrl); onAudioEnd?.(); };
+      audio.onerror = () => { setIsSpeaking(false); isSpeakingRef.current = false; setIsProcessing(false); };
+      await audio.play();
+    } catch (err) {
+      console.error('[TTS] Erro:', err);
+      setIsProcessing(false);
+      isSpeakingRef.current = false;
+      onError?.('Erro ao reproduzir audio');
+    }
+  }, [voice, onAudioStart, onAudioEnd, onError]);
+
+  const stopSpeaking = useCallback(() => {
+    if (audioRef.current) { audioRef.current.pause(); audioRef.current = null; }
+    setIsSpeaking(false);
+    isSpeakingRef.current = false;
+  }, []);
+
+  const startRecording = useCallback(async () => {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true } });
+      streamRef.current = stream;
+      const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus') ? 'audio/webm;codecs=opus' : 'audio/webm';
+      const recorder = new MediaRecorder(stream, { mimeType });
+      audioChunksRef.current = [];
+      recorder.ondataavailable = (e) => { if (e.data.size > 0) audioChunksRef.current.push(e.data); };
+      mediaRecorderRef.current = recorder;
+      recorder.start(100);
+      setIsRecording(true);
+      setIsListening(true);
+      setInterimTranscript('Gravando...');
+    } catch (err) {
+      onError?.('Erro ao acessar microfone');
+    }
+  }, [onError]);
+
+  const stopRecording = useCallback(async (): Promise<string | null> => {
+    return new Promise((resolve) => {
+      if (!mediaRecorderRef.current || mediaRecorderRef.current.state === 'inactive') {
+        setIsRecording(false); setIsListening(false); setInterimTranscript(''); resolve(null); return;
+      }
+      mediaRecorderRef.current.onstop = async () => {
+        if (streamRef.current) { streamRef.current.getTracks().forEach(t => t.stop()); streamRef.current = null; }
+        const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+        audioChunksRef.current = [];
+        if (audioBlob.size < 1000) { setIsRecording(false); setIsListening(false); setInterimTranscript(''); resolve(null); return; }
+        setInterimTranscript('Transcrevendo...');
+        setIsProcessing(true);
+        try {
+          const text = await transcribeAudio(audioBlob);
+          setIsRecording(false); setIsListening(false); setIsProcessing(false); setInterimTranscript('');
+          if (text && text.trim().length > 2) { setFinalTranscript(text); onTranscript?.(text, true); resolve(text); }
+          else { resolve(null); }
+        } catch (err) {
+          setIsRecording(false); setIsListening(false); setIsProcessing(false); setInterimTranscript('');
+          onError?.('Erro na transcricao'); resolve(null);
+        }
+      };
+      mediaRecorderRef.current.stop();
+    });
+  }, [transcribeAudio, onTranscript, onError]);
+
+  const startConversation = useCallback(async () => {
+    setError(null); isActiveRef.current = true; setIsConversationActive(true); await startRecording();
+  }, [startRecording]);
+
+  const stopConversation = useCallback(() => {
+    isActiveRef.current = false; setIsConversationActive(false);
+    if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') { mediaRecorderRef.current.stop(); }
+    if (streamRef.current) { streamRef.current.getTracks().forEach(t => t.stop()); streamRef.current = null; }
+    setIsListening(false); setIsRecording(false); setInterimTranscript('');
+  }, []);
+
+  return {
+    startConversation, stopConversation, isConversationActive, speak, stopSpeaking, isSpeaking,
+    isProcessing, isListening, error, hasPermission, interimTranscript, startRecording, stopRecording, isRecording, finalTranscript,
+  };
+}
