@@ -16,10 +16,8 @@ interface UseOpenAIAudioReturn {
 }
 
 export function useOpenAIAudio({
-  apiKey,
   voice = 'nova', // Voz feminina natural
   speed = 1.0,
-  useHDVoice = true, // Usar tts-1-hd por padrão para maior qualidade
 }: UseOpenAIAudioOptions = {}): UseOpenAIAudioReturn {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -42,14 +40,6 @@ export function useOpenAIAudio({
   }, []);
 
   const speak = useCallback(async (text: string) => {
-    // Obter API key do .env se não foi passada
-    const effectiveApiKey = apiKey || import.meta.env.VITE_OPENAI_API_KEY;
-    
-    if (!effectiveApiKey) {
-      setError('API Key não configurada');
-      return;
-    }
-
     // Limpar texto de expressões entre asteriscos
     const cleanText = text.replace(/\*[^*]+\*/g, '').trim();
     if (!cleanText) return;
@@ -63,27 +53,25 @@ export function useOpenAIAudio({
     try {
       abortControllerRef.current = new AbortController();
 
-      console.log('[OpenAI Audio] Usando TTS HD com voz:', voice);
+      console.log('[OpenAI Audio] Usando TTS com voz:', voice);
       
-      const response = await fetch('https://api.openai.com/v1/audio/speech', {
+      // Usar nossa API proxy para evitar CORS
+      const response = await fetch('/api/tts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${effectiveApiKey}`,
         },
         body: JSON.stringify({
-          model: useHDVoice ? 'tts-1-hd' : 'tts-1', // HD para maior qualidade
-          input: cleanText,
+          text: cleanText,
           voice: voice,
           speed: speed,
-          response_format: 'mp3',
         }),
         signal: abortControllerRef.current.signal,
       });
 
       if (!response.ok) {
-        const errorData = await response.json().catch(() => ({}));
-        throw new Error(errorData.error?.message || `Erro ${response.status}`);
+        const errorText = await response.text();
+        throw new Error(errorText || `Erro ${response.status}`);
       }
 
       const audioBlob = await response.blob();
@@ -111,7 +99,7 @@ export function useOpenAIAudio({
       setError(err instanceof Error ? err.message : 'Erro desconhecido');
       setIsLoading(false);
     }
-  }, [apiKey, voice, speed, stop]);
+  }, [voice, speed, stop]);
 
   return {
     speak,

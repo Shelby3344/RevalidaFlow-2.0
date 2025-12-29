@@ -8,7 +8,7 @@ export default async function handler(req: Request) {
   }
 
   try {
-    const { text, voice = 'nova' } = await req.json();
+    const { text, voice = 'nova', speed = 1.0 } = await req.json();
 
     if (!text) {
       return new Response('Text is required', { status: 400 });
@@ -27,9 +27,10 @@ export default async function handler(req: Request) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'tts-1',
+        model: 'tts-1-hd',
         input: text,
         voice: voice,
+        speed: speed,
         response_format: 'mp3',
       }),
     });
