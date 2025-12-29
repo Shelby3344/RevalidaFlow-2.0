@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import {
   LayoutDashboard,
   ClipboardList,
@@ -20,10 +20,12 @@ import {
   PinOff,
   Zap,
   X,
+  LogOut,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { CollaborativeMenuModal } from "@/components/collaborative/CollaborativeMenuModal";
+import { useAuth } from "@/hooks/useAuth";
 
 interface MenuItem {
   title: string;
@@ -118,6 +120,13 @@ export function Sidebar({
 }: SidebarProps) {
   const [expandedItems, setExpandedItems] = useState<string[]>(["Checklists"]);
   const [isCollaborativeMenuOpen, setIsCollaborativeMenuOpen] = useState(false);
+  const { user, signOut } = useAuth();
+  const navigate = useNavigate();
+
+  const handleLogout = async () => {
+    await signOut();
+    navigate("/login");
+  };
 
   const toggleExpand = (title: string) => {
     setExpandedItems((prev) =>
@@ -220,7 +229,7 @@ export function Sidebar({
       {/* Navigation */}
       <nav className={cn(
         "overflow-y-auto py-3 md:py-4 px-2 md:px-3",
-        isMobile ? "h-[calc(100vh-56px)]" : "h-[calc(100vh-104px)]"
+        isMobile ? "h-[calc(100vh-56px-60px)]" : "h-[calc(100vh-104px-60px)]"
       )}>
         {menuSections.map((section, sectionIdx) => (
           <div key={sectionIdx} className="mb-4 md:mb-6">
@@ -351,6 +360,30 @@ export function Sidebar({
         open={isCollaborativeMenuOpen} 
         onOpenChange={setIsCollaborativeMenuOpen}
       />
+
+      {/* Logout Button */}
+      {user && (
+        <div className={cn(
+          "absolute bottom-0 left-0 right-0 p-3 border-t border-border/50 bg-sidebar",
+          (isExpanded || isMobile) ? "" : "flex justify-center"
+        )}>
+          <button
+            onClick={handleLogout}
+            className={cn(
+              "flex items-center gap-3 w-full py-2.5 px-3 rounded-lg",
+              "text-muted-foreground hover:text-red-500 hover:bg-red-500/10",
+              "transition-all duration-200",
+              (!isExpanded && !isMobile) && "justify-center"
+            )}
+            title="Sair"
+          >
+            <LogOut className="w-[18px] h-[18px]" />
+            {(isExpanded || isMobile) && (
+              <span className="text-[13px] font-medium">Sair</span>
+            )}
+          </button>
+        </div>
+      )}
     </aside>
   );
 }

@@ -1,23 +1,38 @@
 // Configuração centralizada para APIs de IA
 
+// Inicializa a API key no localStorage se não existir
+function initializeApiKey(): void {
+  const existingKey = localStorage.getItem('openai_api_key');
+  if (!existingKey) {
+    const envKey = import.meta.env.VITE_OPENAI_API_KEY;
+    if (envKey) {
+      localStorage.setItem('openai_api_key', envKey);
+      console.log('[AI Config] API Key inicializada do .env para localStorage');
+    }
+  }
+}
+
+// Executa inicialização
+initializeApiKey();
+
 // Chave da API OpenAI
 // Prioridade: 1. localStorage, 2. variável de ambiente
 export function getOpenAIApiKey(): string {
-  // Primeiro tenta do localStorage (configurado pelo usuário)
+  // Primeiro tenta do localStorage
   const localKey = localStorage.getItem('openai_api_key');
   if (localKey) {
-    console.log('[AI Config] API Key carregada do localStorage');
     return localKey;
   }
   
   // Depois tenta da variável de ambiente
   const envKey = import.meta.env.VITE_OPENAI_API_KEY;
   if (envKey) {
-    console.log('[AI Config] API Key carregada do .env');
+    // Salva no localStorage para garantir persistência
+    localStorage.setItem('openai_api_key', envKey);
     return envKey;
   }
   
-  console.log('[AI Config] Nenhuma API Key encontrada - configure VITE_OPENAI_API_KEY no .env');
+  console.warn('[AI Config] Nenhuma API Key encontrada - configure VITE_OPENAI_API_KEY no .env');
   return '';
 }
 

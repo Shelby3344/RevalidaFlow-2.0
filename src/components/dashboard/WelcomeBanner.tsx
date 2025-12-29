@@ -1,9 +1,11 @@
 import { Flame, TrendingUp, Target } from "lucide-react";
 import { useUserProfile } from "@/hooks/useUserProfile";
+import { useAuth } from "@/hooks/useAuth";
 import { useState, useEffect } from "react";
 
 export function WelcomeBanner() {
   const { profile } = useUserProfile();
+  const { user } = useAuth();
   const [mediaGeral, setMediaGeral] = useState(0);
   const [sequencia, setSequencia] = useState(0);
   const notaCorte = 66.148;
@@ -29,9 +31,24 @@ export function WelcomeBanner() {
   // Determina se está acima da nota de corte
   const acimaDoCorte = mediaGeral >= notaCorte / 10;
 
+  // Pega o nome do usuário autenticado ou do perfil local
+  const getUserName = () => {
+    if (user?.user_metadata?.full_name) {
+      return user.user_metadata.full_name;
+    }
+    if (user?.user_metadata?.name) {
+      return user.user_metadata.name;
+    }
+    if (user?.email) {
+      return user.email.split('@')[0];
+    }
+    return profile.nome;
+  };
+
   // Formata o nome
   const getNomeFormatado = () => {
-    const partes = profile.nome.trim().split(" ");
+    const nome = getUserName();
+    const partes = nome.trim().split(" ");
     if (partes.length === 1) {
       return partes[0];
     }
@@ -40,11 +57,23 @@ export function WelcomeBanner() {
 
   // Iniciais para avatar
   const getIniciais = () => {
-    const partes = profile.nome.trim().split(" ");
+    const nome = getUserName();
+    const partes = nome.trim().split(" ");
     if (partes.length === 1) {
       return partes[0].substring(0, 2).toUpperCase();
     }
     return `${partes[0][0]}${partes[partes.length - 1][0]}`.toUpperCase();
+  };
+
+  // Avatar do usuário
+  const getAvatar = () => {
+    if (user?.user_metadata?.avatar_url) {
+      return user.user_metadata.avatar_url;
+    }
+    if (user?.user_metadata?.picture) {
+      return user.user_metadata.picture;
+    }
+    return profile.avatar;
   };
 
   return (
@@ -57,9 +86,9 @@ export function WelcomeBanner() {
         <div className="hidden sm:block">
           <div className="relative">
             <div className="w-14 h-14 md:w-20 md:h-20 rounded-xl md:rounded-2xl bg-gradient-to-br from-primary to-violet-600 flex items-center justify-center shadow-lg shadow-primary/20">
-              {profile.avatar ? (
+              {getAvatar() ? (
                 <img 
-                  src={profile.avatar} 
+                  src={getAvatar()} 
                   alt="Foto de perfil"
                   className="w-full h-full rounded-xl md:rounded-2xl object-cover"
                 />

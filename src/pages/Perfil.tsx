@@ -18,10 +18,12 @@ import {
   GraduationCap,
   Building2,
   Clock,
-  Trash2
+  Trash2,
+  RefreshCw
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useUserProfile } from "@/hooks/useUserProfile";
+import { useAuth } from "@/hooks/useAuth";
 
 // Interface das preferências
 interface UserPreferences {
@@ -47,11 +49,81 @@ const defaultPreferences: UserPreferences = {
 export default function Perfil() {
   const { toast } = useToast();
   const { profile, updateProfile, saveProfile } = useUserProfile();
+  const { user } = useAuth();
   const [activeTab, setActiveTab] = useState<"dados" | "preferencias" | "conta">("dados");
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
   const [isEditing, setIsEditing] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  // Pega dados do Google se disponíveis
+  const getGoogleName = () => {
+    if (user?.user_metadata?.full_name) return user.user_metadata.full_name;
+    if (user?.user_metadata?.name) return user.user_metadata.name;
+    return null;
+  };
+
+  const getGoogleAvatar = () => {
+    if (user?.user_metadata?.avatar_url) return user.user_metadata.avatar_url;
+    if (user?.user_metadata?.picture) return user.user_metadata.picture;
+    return null;
+  };
+
+  const getGoogleEmail = () => {
+    return user?.email || null;
+  };
+
+  // Nome e avatar a exibir (prioriza dados locais se existirem, senão usa Google)
+  const displayName = profile.nome && profile.nome !== "Shelbinho" ? profile.nome : (getGoogleName() || profile.nome);
+  const displayAvatar = profile.avatar || getGoogleAvatar();
+  const displayEmail = profile.email || getGoogleEmail() || "";
+
+  // Sincroniza dados do Google com o perfil local (apenas se não tiver dados locais)
+  useEffect(() => {
+    if (user) {
+      let shouldSave = false;
+      
+      // Se não tem nome local ou é o padrão, usa do Google
+      if ((!profile.nome || profile.nome === "Shelbinho") && getGoogleName()) {
+        updateProfile("nome", getGoogleName()!);
+        shouldSave = true;
+      }
+      
+      // Se não tem email local, usa do Google
+      if (!profile.email && getGoogleEmail()) {
+        updateProfile("email", getGoogleEmail()!);
+        shouldSave = true;
+      }
+      
+      // Se não tem avatar local, usa do Google
+      if (!profile.avatar && getGoogleAvatar()) {
+        updateProfile("avatar", getGoogleAvatar()!);
+        shouldSave = true;
+      }
+      
+      if (shouldSave) {
+        saveProfile();
+      }
+    }
+  }, [user]);
+
+  // Restaura dados do Google
+  const handleRestoreFromGoogle = () => {
+    if (getGoogleName()) {
+      updateProfile("nome", getGoogleName()!);
+    }
+    if (getGoogleAvatar()) {
+      updateProfile("avatar", getGoogleAvatar()!);
+    }
+    if (getGoogleEmail()) {
+      updateProfile("email", getGoogleEmail()!);
+    }
+    saveProfile();
+    toast({
+      title: "Dados restaurados!",
+      description: "Seus dados do Google foram restaurados.",
+    });
+  };
 
   // Handler para upload de foto
   const handlePhotoUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -157,15 +229,15 @@ export default function Perfil() {
           <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-6">
             {/* Avatar */}
             <div className="relative group">
-              {profile.avatar ? (
+              {displayAvatar ? (
                 <img 
-                  src={profile.avatar} 
+                  src={displayAvatar} 
                   alt="Foto de perfil"
                   className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover border-4 border-primary/20"
                 />
               ) : (
                 <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-gradient-to-br from-primary to-violet-600 flex items-center justify-center text-white text-2xl md:text-3xl font-bold">
-                  {profile.nome.split(" ").map(n => n[0]).join("").slice(0, 2)}
+                  {displayName.split(" ").map(n => n[0]).join("").slice(0, 2)}
                 </div>
               )}
               
@@ -188,7 +260,7 @@ export default function Perfil() {
               </button>
 
               {/* Botão de remover (aparece no hover se tiver foto) */}
-              {profile.avatar && (
+              {displayAvatar && (
                 <button 
                   onClick={handleRemovePhoto}
                   className="absolute top-0 right-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-destructive text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity"
@@ -202,7 +274,7 @@ export default function Perfil() {
             {/* Info */}
             <div className="flex-1 text-center sm:text-left">
               <div className="flex items-center justify-center sm:justify-start gap-2 mb-1">
-                <h1 className="text-xl md:text-2xl font-bold text-foreground">{profile.nome}</h1>
+                <h1 className="text-xl md:text-2xl font-bold text-foreground">{displayName}</h1>
                 {profile.plano === "premium" && (
                   <span className="flex items-center gap-1 px-1.5 md:px-2 py-0.5 rounded-full bg-gradient-to-r from-yellow-500 to-amber-500 text-white text-[10px] md:text-xs font-bold">
                     <Crown className="w-2.5 h-2.5 md:w-3 md:h-3" />
@@ -210,10 +282,21 @@ export default function Perfil() {
                   </span>
                 )}
               </div>
-              <p className="text-sm text-muted-foreground">{profile.email}</p>
+              <p className="text-sm text-muted-foreground">{displayEmail}</p>
               <p className="text-xs md:text-sm text-muted-foreground mt-1">
                 Membro desde {new Date(profile.dataCadastro).toLocaleDateString("pt-BR", { month: "long", year: "numeric" })}
               </p>
+              
+              {/* Botão para restaurar dados do Google */}
+              {user && (getGoogleName() || getGoogleAvatar()) && (
+                <button
+                  onClick={handleRestoreFromGoogle}
+                  className="mt-2 flex items-center gap-1.5 text-xs text-primary hover:text-primary/80 transition-colors"
+                >
+                  <RefreshCw className="w-3 h-3" />
+                  Restaurar dados do Google
+                </button>
+              )}
             </div>
 
             {/* Ações */}

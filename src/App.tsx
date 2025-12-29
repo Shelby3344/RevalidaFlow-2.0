@@ -5,6 +5,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/hooks/useTheme";
 import { UserProfileProvider } from "@/hooks/useUserProfile";
+import { AuthProvider } from "@/hooks/useAuth";
+import LandingPage from "./pages/LandingPage";
 import Dashboard from "./pages/Dashboard";
 import Checklists from "./pages/Checklists";
 import ChecklistExecution from "./pages/ChecklistExecution";
@@ -33,13 +35,15 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <ThemeProvider defaultTheme="dark" storageKey="revalida-flow-theme">
-      <UserProfileProvider>
-        <TooltipProvider>
-          <Toaster />
-          <Sonner />
-          <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
+      <AuthProvider>
+        <UserProfileProvider>
+          <TooltipProvider>
+            <Toaster />
+            <Sonner />
+            <BrowserRouter>
+            <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/checklists" element={<Checklists />} />
             <Route path="/checklists/execucao/:id" element={<ChecklistExecution />} />
             <Route path="/collaborative/:roomId" element={<CollaborativeRoom />} />
@@ -67,8 +71,9 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
-        </TooltipProvider>
-      </UserProfileProvider>
+          </TooltipProvider>
+        </UserProfileProvider>
+      </AuthProvider>
     </ThemeProvider>
   </QueryClientProvider>
 );
