@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
@@ -14,11 +14,12 @@ import {
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
 import { MessageIA } from "@/types/treino-ia";
-import { useVoiceChat } from "@/hooks/useVoiceChat";
+import { useVoiceChat, getVoiceProfileForPatient } from "@/hooks/useVoiceChat";
 
 interface ChatPacienteIAProps {
   pacienteName: string;
-  pacienteGender?: 'male' | 'female'; // Gênero do paciente para voz
+  pacienteGender?: 'male' | 'female';
+  pacienteAge?: number;
   messages: MessageIA[];
   onSendMessage: (message: string) => Promise<void>;
   isLoading: boolean;
@@ -29,19 +30,10 @@ interface ChatPacienteIAProps {
   apiKey?: string;
 }
 
-// Função para determinar a voz baseada no gênero
-function getVoiceForGender(gender?: 'male' | 'female'): 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer' {
-  // Vozes femininas: nova (natural), shimmer (expressiva), alloy (neutra)
-  // Vozes masculinas: onyx (grave), echo (média), fable (narrativa)
-  if (gender === 'male') {
-    return 'onyx'; // Voz masculina grave e natural
-  }
-  return 'nova'; // Voz feminina natural (padrão)
-}
-
 export function ChatPacienteIA({
   pacienteName,
   pacienteGender,
+  pacienteAge,
   messages,
   onSendMessage,
   isLoading,
@@ -58,13 +50,30 @@ export function ChatPacienteIA({
   const messagesContainerRef = useRef<HTMLDivElement>(null);
   const lastSpokenMessageRef = useRef<string | null>(null);
 
-  // Determinar voz baseada no gênero do paciente
-  const pacienteVoice = getVoiceForGender(pacienteGender);
+  // Perfil de voz calculado uma única vez (consistente durante toda a sessão)
+  const voiceProfile = useMemo(() => {
+    const profile = getVoiceProfileForPatient(pacienteGender, pacienteAge);
+    console.log('[ChatPacienteIA] Perfil de voz fixado:', profile.description, '- Voz:', profile.voice);
+    return profile;
+  }, [pacienteGender, pacienteAge]);
+
+  // Emoji do paciente baseado no gênero e idade
+  const pacienteEmoji = useMemo(() => {
+    if (pacienteGender === 'female') {
+      if (pacienteAge && pacienteAge >= 60) return '👵'; // Mulher idosa
+      if (pacienteAge && pacienteAge < 18) return '👧'; // Menina
+      return '👩'; // Mulher adulta
+    } else {
+      if (pacienteAge && pacienteAge >= 60) return '👴'; // Homem idoso
+      if (pacienteAge && pacienteAge < 18) return '👦'; // Menino
+      return '👨'; // Homem adulto
+    }
+  }, [pacienteGender, pacienteAge]);
 
   const {
-    startConversation,
-    stopConversation,
-    isConversationActive,
+    startRecording,
+    stopRecording,
+    isRecording,
     speak,
     stopSpeaking,
     isSpeaking,
@@ -73,9 +82,8 @@ export function ChatPacienteIA({
     interimTranscript,
   } = useVoiceChat({
     apiKey,
-    voice: pacienteVoice, // Voz baseada no gênero
-    useHDVoice: true, // Usar TTS HD para maior qualidade
-    silenceTimeout: 1500,
+    voice: voiceProfile.voice,
+    speed: voiceProfile.speed,
     onTranscript: (text, isFinal) => {
       if (isFinal && text.trim()) {
         setPendingMessage(text.trim());
@@ -86,13 +94,14 @@ export function ChatPacienteIA({
     },
   });
 
+  // Enviar mensagem pendente quando não estiver ocupado
   useEffect(() => {
-    if (pendingMessage && !isLoading && !disabled && !isSpeaking) {
+    if (pendingMessage && !isLoading && !disabled && !isSpeaking && !isProcessing) {
       const msg = pendingMessage;
       setPendingMessage(null);
       onSendMessage(msg);
     }
-  }, [pendingMessage, isLoading, disabled, isSpeaking, onSendMessage]);
+  }, [pendingMessage, isLoading, disabled, isSpeaking, isProcessing, onSendMessage]);
 
   const scrollToBottom = () => {
     if (messagesContainerRef.current) {
@@ -105,18 +114,36 @@ export function ChatPacienteIA({
     scrollToBottom();
   }, [messages, interimTranscript]);
 
+  // Reproduzir áudio da última mensagem do assistente (sem duplicação)
+  const lastMessageIdRef = useRef<string | null>(null);
+  const speakingMessageIdRef = useRef<string | null>(null);
+  
   useEffect(() => {
-    if (!voiceEnabled) return;
+    // Não reproduzir se voz desabilitada, carregando, ou já falando
+    if (!voiceEnabled || isLoading) return;
+    
     const lastMessage = messages[messages.length - 1];
+    
+    // Verificar se é uma nova mensagem do assistente que ainda não foi falada
     if (
       lastMessage?.role === "assistant" &&
-      lastMessage.id !== lastSpokenMessageRef.current &&
-      !isLoading
+      lastMessage.id !== lastMessageIdRef.current &&
+      lastMessage.id !== speakingMessageIdRef.current
     ) {
-      lastSpokenMessageRef.current = lastMessage.id;
-      speak(lastMessage.content);
+      // Marcar como processada para evitar duplicação
+      lastMessageIdRef.current = lastMessage.id;
+      speakingMessageIdRef.current = lastMessage.id;
+      
+      // Iniciar fala imediatamente
+      const timer = setTimeout(() => {
+        if (!isSpeaking && !isProcessing) {
+          speak(lastMessage.content);
+        }
+      }, 50); // Reduzido de 300ms para 50ms
+      
+      return () => clearTimeout(timer);
     }
-  }, [messages, voiceEnabled, speak, isLoading]);
+  }, [messages, voiceEnabled, speak, isLoading, isSpeaking, isProcessing]);
 
   const handleSendMessage = async () => {
     const messageToSend = inputValue.trim();
@@ -133,18 +160,17 @@ export function ChatPacienteIA({
   };
 
   const toggleConversation = async () => {
-    if (!checkVoiceSupport()) {
-      toast.error("Seu navegador não suporta reconhecimento de voz. Use Chrome ou Edge.");
-      return;
-    }
-    
-    if (isConversationActive) {
-      stopConversation();
-      toast.info("Gravação desativada");
+    if (isRecording) {
+      // Parar gravação e transcrever
+      const text = await stopRecording();
+      if (text) {
+        toast.success("Mensagem transcrita!");
+      }
     } else {
+      // Iniciar gravação
       try {
-        await startConversation();
-        toast.success("Gravando sua voz... Fale agora!");
+        await startRecording();
+        toast.info("🎤 Gravando... Clique novamente para enviar");
       } catch (err) {
         toast.error("Erro ao iniciar gravação. Verifique permissão do microfone.");
       }
@@ -167,19 +193,13 @@ export function ChatPacienteIA({
     });
   };
 
-  // Verificar suporte a reconhecimento de voz
-  const checkVoiceSupport = () => {
-    const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
-    return !!SpeechRecognitionAPI;
-  };
-
   if (!isConnected) {
     return (
       <div className="bg-card border border-border rounded-xl p-6">
         <div className="flex items-center gap-4 mb-6">
           <div className="relative">
             <div className="w-14 h-14 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
-              <span className="text-2xl">🧑‍🦱</span>
+              <span className="text-2xl">{pacienteEmoji}</span>
             </div>
           </div>
           <div className="flex-1">
@@ -215,9 +235,9 @@ export function ChatPacienteIA({
         <div className="flex items-center gap-3">
           <div className="relative">
             <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
-              <span className="text-xl">🧑‍🦱</span>
+              <span className="text-xl">{pacienteEmoji}</span>
             </div>
-            {isListening && (
+            {isRecording && (
               <div className="absolute -bottom-0.5 -left-0.5 w-5 h-5 bg-red-500 rounded-full flex items-center justify-center">
                 <Mic className="w-3 h-3 text-white" />
               </div>
@@ -226,10 +246,15 @@ export function ChatPacienteIA({
           <div className="flex-1">
             <h3 className="font-semibold text-foreground">{pacienteName}</h3>
             <div className="flex items-center gap-2">
-              {isListening && (
+              {isRecording && (
                 <span className="text-xs bg-red-500/20 text-red-400 px-2 py-0.5 rounded-full flex items-center gap-1">
                   <span className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse" />
                   Gravando sua voz
+                </span>
+              )}
+              {isProcessing && (
+                <span className="text-xs bg-yellow-500/20 text-yellow-400 px-2 py-0.5 rounded-full">
+                  📝 Transcrevendo...
                 </span>
               )}
               {isSpeaking && (
@@ -237,7 +262,7 @@ export function ChatPacienteIA({
                   🔊 Falando...
                 </span>
               )}
-              {!isListening && !isSpeaking && (
+              {!isRecording && !isSpeaking && !isProcessing && (
                 <span className="text-xs text-muted-foreground">Em consulta</span>
               )}
             </div>
@@ -280,7 +305,7 @@ export function ChatPacienteIA({
                 {message.role === "user" ? (
                   <User className="w-4 h-4 text-white" />
                 ) : (
-                  <span className="text-sm">🧑‍🦱</span>
+                  <span className="text-sm">{pacienteEmoji}</span>
                 )}
               </div>
 
@@ -312,7 +337,7 @@ export function ChatPacienteIA({
         {isLoading && (
           <div className="flex gap-3">
             <div className="w-8 h-8 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
-              <span className="text-sm">🧑‍🦱</span>
+              <span className="text-sm">{pacienteEmoji}</span>
             </div>
             <div className="bg-[#2a3142] rounded-2xl rounded-tl-md px-4 py-3">
               <div className="flex gap-1">
@@ -331,7 +356,7 @@ export function ChatPacienteIA({
         )}
 
         {/* Transcrição em tempo real */}
-        {isConversationActive && (interimTranscript || isListening) && (
+        {(isRecording || isProcessing) && (
           <div className="flex gap-3 flex-row-reverse">
             <div className="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center flex-shrink-0">
               <User className="w-4 h-4 text-white" />
@@ -339,7 +364,9 @@ export function ChatPacienteIA({
             <div className="max-w-[75%] rounded-2xl px-4 py-3 bg-cyan-500/50 text-white rounded-tr-md border border-cyan-400/30">
               <p className="text-sm leading-relaxed">
                 {interimTranscript || (
-                  <span className="text-cyan-200 italic">Ouvindo...</span>
+                  <span className="text-cyan-200 italic">
+                    {isRecording ? "🎤 Gravando..." : "📝 Transcrevendo..."}
+                  </span>
                 )}
                 <span className="animate-pulse">|</span>
               </p>
@@ -384,20 +411,20 @@ export function ChatPacienteIA({
             <MessageSquare className="w-5 h-5 text-muted-foreground" />
           </Button>
 
-          {/* Botão grande de microfone */}
+          {/* Botão grande de microfone - Push to Talk */}
           <Button
             onClick={toggleConversation}
             disabled={isProcessing || isLoading || disabled}
             className={cn(
               "w-16 h-16 rounded-full transition-all",
-              isConversationActive
-                ? "bg-red-500 hover:bg-red-600 ring-4 ring-red-500/30"
+              isRecording
+                ? "bg-red-500 hover:bg-red-600 ring-4 ring-red-500/30 animate-pulse"
                 : "bg-cyan-500 hover:bg-cyan-600"
             )}
           >
             {isProcessing ? (
               <Loader2 className="w-7 h-7 text-white animate-spin" />
-            ) : isConversationActive ? (
+            ) : isRecording ? (
               <MicOff className="w-7 h-7 text-white" />
             ) : (
               <Mic className="w-7 h-7 text-white" />

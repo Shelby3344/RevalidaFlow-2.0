@@ -1,8 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { User } from 'lucide-react';
+import { useUserProfile } from '@/hooks/useUserProfile';
 
 interface JoinSessionModalProps {
   open: boolean;
@@ -15,7 +16,7 @@ export function JoinSessionModal({
   checklistTitle,
   onJoin,
 }: JoinSessionModalProps) {
-  const [name, setName] = useState('');
+  const { profile } = useUserProfile();
 
   // Handle body scroll
   useEffect(() => {
@@ -29,8 +30,7 @@ export function JoinSessionModal({
   }, [open]);
 
   const handleJoin = () => {
-    if (!name.trim()) return;
-    onJoin(name.trim());
+    onJoin(profile.nome);
   };
 
   if (!open) return null;
@@ -65,15 +65,11 @@ export function JoinSessionModal({
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="avaliadoName">Seu nome</Label>
-              <Input
-                id="avaliadoName"
-                placeholder="Digite seu nome"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && handleJoin()}
-                autoFocus
-              />
+              <Label>Você</Label>
+              <div className="bg-secondary/50 rounded-lg p-3 flex items-center gap-2">
+                <User className="w-4 h-4 text-primary" />
+                <p className="text-sm font-medium text-foreground">{profile.nome}</p>
+              </div>
             </div>
 
             <div className="bg-amber-500/10 border border-amber-500/30 rounded-lg p-3 text-sm">
@@ -89,7 +85,7 @@ export function JoinSessionModal({
 
         {/* Footer */}
         <div className="px-4 sm:px-6 py-4 border-t border-border/30 flex-shrink-0">
-          <Button onClick={handleJoin} disabled={!name.trim()} className="w-full">
+          <Button onClick={handleJoin} className="w-full">
             Entrar na Sessão
           </Button>
         </div>

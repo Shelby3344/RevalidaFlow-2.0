@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { X } from 'lucide-react';
+import { X, User } from 'lucide-react';
 import { useAvaliacaoSession } from '@/hooks/useAvaliacaoSession';
+import { useUserProfile } from '@/hooks/useUserProfile';
 import { ChecklistEvaluationItem } from '@/types/checklists';
 
 interface CreateSessionModalProps {
@@ -26,7 +26,7 @@ export function CreateSessionModal({
   evaluationItems,
 }: CreateSessionModalProps) {
   const navigate = useNavigate();
-  const [avaliadorName, setAvaliadorName] = useState('');
+  const { profile } = useUserProfile();
   const { createSession } = useAvaliacaoSession();
 
   // Handle ESC key and body scroll
@@ -52,13 +52,11 @@ export function CreateSessionModal({
   const maxScore = evaluationItems.reduce((total, item) => total + item.scores.max, 0);
 
   const handleCreate = () => {
-    if (!avaliadorName.trim()) return;
-
     const sessionCode = createSession(
       checklistId,
       checklistTitle,
       areaCode,
-      avaliadorName.trim(),
+      profile.nome,
       maxScore
     );
 
@@ -114,14 +112,11 @@ export function CreateSessionModal({
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="avaliadorName">Seu nome (Avaliador)</Label>
-              <Input
-                id="avaliadorName"
-                placeholder="Digite seu nome"
-                value={avaliadorName}
-                onChange={(e) => setAvaliadorName(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && handleCreate()}
-              />
+              <Label>Avaliador</Label>
+              <div className="bg-secondary/50 rounded-lg p-3 flex items-center gap-2">
+                <User className="w-4 h-4 text-primary" />
+                <p className="text-sm font-medium text-foreground">{profile.nome}</p>
+              </div>
             </div>
 
             <div className="bg-primary/10 rounded-lg p-3 text-sm">
@@ -142,7 +137,7 @@ export function CreateSessionModal({
             <Button variant="outline" onClick={() => onOpenChange(false)} className="flex-1">
               Cancelar
             </Button>
-            <Button onClick={handleCreate} disabled={!avaliadorName.trim()} className="flex-1">
+            <Button onClick={handleCreate} className="flex-1">
               Criar Sessão
             </Button>
           </div>

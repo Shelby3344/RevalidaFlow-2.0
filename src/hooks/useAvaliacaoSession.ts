@@ -13,6 +13,7 @@ interface UseAvaliacaoSessionReturn {
   session: AvaliacaoSession | null;
   createSession: (checklistId: string, checklistTitle: string, areaCode: string, avaliadorName: string, maxScore: number) => string;
   loadSession: (sessionCode: string) => AvaliacaoSession | null;
+  createSessionFromData: (sessionCode: string, data: { checklistId: string; checklistTitle: string; areaCode: string; avaliadorName: string; maxScore: number }) => AvaliacaoSession;
   updateSession: (updates: Partial<AvaliacaoSession>) => void;
   setScore: (itemId: number, score: number, type: ItemScore['type']) => void;
   unlockImpresso: (impressoId: number) => void;
@@ -78,6 +79,41 @@ export function useAvaliacaoSession(): UseAvaliacaoSessionReturn {
     const loaded = sessions[sessionCode] || null;
     setSession(loaded);
     return loaded;
+  }, []);
+
+  const createSessionFromData = useCallback((
+    sessionCode: string,
+    data: { checklistId: string; checklistTitle: string; areaCode: string; avaliadorName: string; maxScore: number }
+  ): AvaliacaoSession => {
+    // Verifica se já existe
+    const sessions = getSessions();
+    if (sessions[sessionCode]) {
+      setSession(sessions[sessionCode]);
+      return sessions[sessionCode];
+    }
+
+    // Cria nova sessão a partir dos dados
+    const newSession: AvaliacaoSession = {
+      code: sessionCode,
+      checklistId: data.checklistId,
+      checklistTitle: data.checklistTitle,
+      areaCode: data.areaCode,
+      avaliadorName: data.avaliadorName,
+      status: 'aguardando',
+      createdAt: Date.now(),
+      timeRemaining: DEFAULT_DURATION,
+      totalDuration: DEFAULT_DURATION,
+      scores: {},
+      totalScore: 0,
+      maxScore: data.maxScore,
+      unlockedImpressos: [],
+      resultShared: false,
+    };
+
+    sessions[sessionCode] = newSession;
+    saveSessions(sessions);
+    setSession(newSession);
+    return newSession;
   }, []);
 
   const updateSession = useCallback((updates: Partial<AvaliacaoSession>): void => {
@@ -157,6 +193,18 @@ export function useAvaliacaoSession(): UseAvaliacaoSessionReturn {
   }, []);
 
   const getSessionLink = useCallback((sessionCode: string): string => {
+    // Busca a sessão para incluir os dados no link
+    const sessions = getSessions();
+    const session = sessions[sessionCode];
+    if (session) {
+      return generateSessionLink(sessionCode, {
+        checklistId: session.checklistId,
+        checklistTitle: session.checklistTitle,
+        areaCode: session.areaCode,
+        avaliadorName: session.avaliadorName,
+        maxScore: session.maxScore,
+      });
+    }
     return generateSessionLink(sessionCode);
   }, []);
 
@@ -175,6 +223,7 @@ export function useAvaliacaoSession(): UseAvaliacaoSessionReturn {
     session,
     createSession,
     loadSession,
+    createSessionFromData,
     updateSession,
     setScore,
     unlockImpresso,

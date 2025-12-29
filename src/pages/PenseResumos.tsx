@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
-import { Search, ArrowLeft, BookOpen } from "lucide-react";
+import { Search, ArrowLeft, BookOpen, Sparkles } from "lucide-react";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { loadAllResumos, loadResumoByUid, ResumoItem, ResumoJson } from "@/data/resumoLoader";
-
-const ITEMS_PER_PAGE = 10;
 
 // Cores por área
 const areaColors: Record<string, string> = {
@@ -24,9 +22,125 @@ const areaNames: Record<string, string> = {
   PR: "Preventiva"
 };
 
+// Cores de gradiente por área
+const areaGradients: Record<string, string> = {
+  CM: 'from-blue-500/20 to-blue-600/30',
+  CR: 'from-red-500/20 to-red-600/30',
+  GO: 'from-purple-500/20 to-purple-600/30',
+  PE: 'from-yellow-500/20 to-yellow-600/30',
+  PR: 'from-green-500/20 to-green-600/30'
+};
+
+// Ícones SVG médicos por categoria
+const getMedicalIcon = (tema: string, area: string): string => {
+  const temaLower = tema.toLowerCase();
+  
+  // Ícones específicos por tema
+  if (temaLower.includes('coração') || temaLower.includes('cardí') || temaLower.includes('infarto') || temaLower.includes('arritmia') || temaLower.includes('fibrilação')) {
+    return '❤️'; // Coração
+  }
+  if (temaLower.includes('pulmão') || temaLower.includes('pulmonar') || temaLower.includes('asma') || temaLower.includes('dpoc') || temaLower.includes('pneumonia') || temaLower.includes('respirat')) {
+    return '🫁'; // Pulmão
+  }
+  if (temaLower.includes('cérebro') || temaLower.includes('cerebral') || temaLower.includes('avc') || temaLower.includes('neuro') || temaLower.includes('epilepsia') || temaLower.includes('parkinson') || temaLower.includes('alzheimer')) {
+    return '🧠'; // Cérebro
+  }
+  if (temaLower.includes('osso') || temaLower.includes('fratura') || temaLower.includes('artrite') || temaLower.includes('artrose') || temaLower.includes('ortop')) {
+    return '🦴'; // Osso
+  }
+  if (temaLower.includes('rim') || temaLower.includes('renal') || temaLower.includes('nefr')) {
+    return '🫘'; // Rim
+  }
+  if (temaLower.includes('fígado') || temaLower.includes('hepát') || temaLower.includes('hepatite') || temaLower.includes('cirrose')) {
+    return '🫀'; // Fígado (usando coração anatômico)
+  }
+  if (temaLower.includes('estômago') || temaLower.includes('gástr') || temaLower.includes('digest') || temaLower.includes('intestin') || temaLower.includes('diarr')) {
+    return '🫃'; // Estômago
+  }
+  if (temaLower.includes('olho') || temaLower.includes('ocular') || temaLower.includes('visão') || temaLower.includes('oftalm')) {
+    return '👁️'; // Olho
+  }
+  if (temaLower.includes('ouvido') || temaLower.includes('audit') || temaLower.includes('otite')) {
+    return '👂'; // Ouvido
+  }
+  if (temaLower.includes('pele') || temaLower.includes('dermat') || temaLower.includes('cutân') || temaLower.includes('erisipela') || temaLower.includes('celulite')) {
+    return '🧴'; // Pele
+  }
+  if (temaLower.includes('sangue') || temaLower.includes('anemia') || temaLower.includes('leucemia') || temaLower.includes('hemato')) {
+    return '🩸'; // Sangue
+  }
+  if (temaLower.includes('vírus') || temaLower.includes('viral') || temaLower.includes('covid') || temaLower.includes('gripe') || temaLower.includes('dengue') || temaLower.includes('hepatite')) {
+    return '🦠'; // Vírus
+  }
+  if (temaLower.includes('bactéria') || temaLower.includes('infecç') || temaLower.includes('sepse') || temaLower.includes('antibiótico')) {
+    return '🔬'; // Microscópio
+  }
+  if (temaLower.includes('vacina') || temaLower.includes('imuniz')) {
+    return '💉'; // Seringa
+  }
+  if (temaLower.includes('medicamento') || temaLower.includes('fármaco') || temaLower.includes('droga') || temaLower.includes('intoxicação')) {
+    return '💊'; // Pílula
+  }
+  if (temaLower.includes('cirurgia') || temaLower.includes('cirúrg') || temaLower.includes('operação')) {
+    return '🔪'; // Cirurgia
+  }
+  if (temaLower.includes('gravidez') || temaLower.includes('gestação') || temaLower.includes('parto') || temaLower.includes('obstét')) {
+    return '🤰'; // Gravidez
+  }
+  if (temaLower.includes('bebê') || temaLower.includes('neonato') || temaLower.includes('recém-nascido') || temaLower.includes('puericultura')) {
+    return '👶'; // Bebê
+  }
+  if (temaLower.includes('criança') || temaLower.includes('infantil') || temaLower.includes('pediátr')) {
+    return '🧒'; // Criança
+  }
+  if (temaLower.includes('idoso') || temaLower.includes('geriatr') || temaLower.includes('senil')) {
+    return '👴'; // Idoso
+  }
+  if (temaLower.includes('mental') || temaLower.includes('psiq') || temaLower.includes('depressão') || temaLower.includes('ansiedade') || temaLower.includes('pânico')) {
+    return '🧘'; // Saúde mental
+  }
+  if (temaLower.includes('dor') || temaLower.includes('cefaleia') || temaLower.includes('enxaqueca')) {
+    return '🤕'; // Dor
+  }
+  if (temaLower.includes('febre') || temaLower.includes('temperatura')) {
+    return '🤒'; // Febre
+  }
+  if (temaLower.includes('diabetes') || temaLower.includes('glicose') || temaLower.includes('insulina')) {
+    return '🍬'; // Diabetes
+  }
+  if (temaLower.includes('tireoide') || temaLower.includes('hipotireoid') || temaLower.includes('hipertireoid')) {
+    return '🦋'; // Tireoide
+  }
+  if (temaLower.includes('câncer') || temaLower.includes('tumor') || temaLower.includes('oncol') || temaLower.includes('neoplasia')) {
+    return '🎗️'; // Câncer
+  }
+  if (temaLower.includes('emergência') || temaLower.includes('urgência') || temaLower.includes('trauma')) {
+    return '🚑'; // Emergência
+  }
+  if (temaLower.includes('exame') || temaLower.includes('diagnóstico') || temaLower.includes('laborat')) {
+    return '🧪'; // Exame
+  }
+  if (temaLower.includes('raio') || temaLower.includes('radiolog') || temaLower.includes('tomografia') || temaLower.includes('ressonância')) {
+    return '📷'; // Imagem
+  }
+  if (temaLower.includes('eletro') || temaLower.includes('ecg') || temaLower.includes('eeg')) {
+    return '📈'; // ECG
+  }
+  
+  // Fallback por área
+  const areaIcons: Record<string, string> = {
+    CM: '🩺', // Estetoscópio
+    CR: '⚕️', // Símbolo médico
+    GO: '🌸', // Flor (feminino)
+    PE: '🧒', // Criança
+    PR: '🏥'  // Hospital
+  };
+  
+  return areaIcons[area] || '📋';
+};
+
 export default function PenseResumos() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
   const [resumos, setResumos] = useState<ResumoItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [selectedResumo, setSelectedResumo] = useState<ResumoJson | null>(null);
@@ -51,15 +165,12 @@ export default function PenseResumos() {
     return matchesSearch && matchesArea;
   });
 
-  // Paginação
-  const totalPages = Math.ceil(filteredResumos.length / ITEMS_PER_PAGE);
-  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const paginatedResumos = filteredResumos.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-
-  // Reset página quando filtro muda
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchTerm, selectedArea]);
+  // Agrupa por área
+  const resumosByArea = filteredResumos.reduce((acc, r) => {
+    if (!acc[r.area]) acc[r.area] = [];
+    acc[r.area].push(r);
+    return acc;
+  }, {} as Record<string, ResumoItem[]>);
 
   // Abre um resumo
   const handleOpenResumo = async (uid: number) => {
@@ -152,232 +263,104 @@ export default function PenseResumos() {
         </div>
       )}
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Main content */}
-        <div className="lg:col-span-2 space-y-6">
-          <div className="flex items-center justify-between">
-            <h1 className="text-xl font-semibold text-foreground">Pense Resumos</h1>
-            <div className="flex items-center gap-2">
-              <span className="text-sm text-muted-foreground">Pesquisar</span>
-              <Input
-                placeholder="Buscar tema..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-48 bg-card border-border h-9 text-sm"
-              />
-            </div>
+      <div className="space-y-6">
+        {/* Header */}
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <Sparkles className="w-6 h-6 text-primary" />
+            <h1 className="text-2xl font-bold text-foreground">Flow Resumos</h1>
+            <span className="text-sm text-muted-foreground">({resumos.length} temas)</span>
           </div>
+          <div className="relative w-full sm:w-72">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+            <Input
+              placeholder="Buscar tema..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="pl-10 bg-card border-border"
+            />
+          </div>
+        </div>
 
-          {/* Filtros por área */}
-          <div className="flex flex-wrap gap-2">
+        {/* Filtros por área */}
+        <div className="flex flex-wrap gap-2">
+          <Button
+            size="sm"
+            variant={selectedArea === null ? "default" : "outline"}
+            onClick={() => setSelectedArea(null)}
+            className="text-xs"
+          >
+            Todos ({resumos.length})
+          </Button>
+          {Object.entries(areaNames).map(([code, name]) => (
             <Button
+              key={code}
               size="sm"
-              variant={selectedArea === null ? "default" : "outline"}
-              onClick={() => setSelectedArea(null)}
+              variant={selectedArea === code ? "default" : "outline"}
+              onClick={() => setSelectedArea(code)}
               className="text-xs"
             >
-              Todos ({resumos.length})
+              <span className={`w-2 h-2 rounded-full ${areaColors[code]} mr-2`}></span>
+              {name} ({countByArea[code] || 0})
             </Button>
-            {Object.entries(areaNames).map(([code, name]) => (
-              <Button
-                key={code}
-                size="sm"
-                variant={selectedArea === code ? "default" : "outline"}
-                onClick={() => setSelectedArea(code)}
-                className="text-xs"
-              >
-                <span className={`w-2 h-2 rounded-full ${areaColors[code]} mr-2`}></span>
-                {name} ({countByArea[code] || 0})
-              </Button>
-            ))}
-          </div>
-
-          {/* Table */}
-          {isLoading ? (
-            <div className="flex items-center justify-center py-12">
-              <div className="text-center">
-                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-                <p className="text-muted-foreground">Carregando resumos...</p>
-              </div>
-            </div>
-          ) : (
-            <div className="rounded-xl overflow-hidden border border-border">
-              <table className="w-full">
-                <thead>
-                  <tr className="border-b border-border bg-card/50">
-                    <th className="text-left px-4 py-3 text-xs font-semibold text-muted-foreground uppercase tracking-wider w-16">
-                      Área
-                    </th>
-                    <th className="text-left px-4 py-3 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                      Tema
-                      <span className="ml-1">↑</span>
-                    </th>
-                    <th className="text-center px-4 py-3 text-xs font-semibold text-muted-foreground uppercase tracking-wider w-24">
-                      Média (%)
-                    </th>
-                    <th className="text-center px-4 py-3 text-xs font-semibold text-muted-foreground uppercase tracking-wider w-24">
-                      Ação
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {paginatedResumos.map((resumo) => (
-                    <tr key={resumo.id} className="border-b border-border last:border-0 hover:bg-card/50">
-                      <td className="px-4 py-3">
-                        <span className={`px-2 py-1 rounded text-[10px] font-bold text-white ${areaColors[resumo.area]}`}>
-                          {resumo.area}
-                        </span>
-                      </td>
-                      <td className="px-4 py-3 text-sm text-foreground">{resumo.tema}</td>
-                      <td className="px-4 py-3 text-sm text-center text-muted-foreground">{resumo.media.toFixed(2)}</td>
-                      <td className="px-4 py-3 text-center">
-                        <Button 
-                          size="sm" 
-                          className="bg-info hover:bg-info/90 text-white text-xs px-4"
-                          onClick={() => handleOpenResumo(resumo.uid)}
-                        >
-                          Abrir
-                        </Button>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-
-              {/* Pagination */}
-              {totalPages > 1 && (
-                <div className="flex items-center justify-between px-4 py-3 border-t border-border">
-                  <span className="text-sm text-muted-foreground">
-                    Mostrando {startIndex + 1}-{Math.min(startIndex + ITEMS_PER_PAGE, filteredResumos.length)} de {filteredResumos.length}
-                  </span>
-                  <div className="flex items-center gap-1">
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
-                      className="text-xs border-border h-8"
-                      disabled={currentPage === 1}
-                      onClick={() => setCurrentPage(p => p - 1)}
-                    >
-                      Anterior
-                    </Button>
-                    
-                    {/* Páginas */}
-                    {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                      let pageNum;
-                      if (totalPages <= 5) {
-                        pageNum = i + 1;
-                      } else if (currentPage <= 3) {
-                        pageNum = i + 1;
-                      } else if (currentPage >= totalPages - 2) {
-                        pageNum = totalPages - 4 + i;
-                      } else {
-                        pageNum = currentPage - 2 + i;
-                      }
-                      
-                      return (
-                        <Button
-                          key={pageNum}
-                          size="sm"
-                          variant={currentPage === pageNum ? "default" : "outline"}
-                          className={`text-xs w-8 h-8 ${currentPage === pageNum ? 'bg-primary text-primary-foreground' : 'border-border'}`}
-                          onClick={() => setCurrentPage(pageNum)}
-                        >
-                          {pageNum}
-                        </Button>
-                      );
-                    })}
-                    
-                    {totalPages > 5 && currentPage < totalPages - 2 && (
-                      <>
-                        <span className="px-2 text-muted-foreground">...</span>
-                        <Button
-                          size="sm"
-                          variant="outline"
-                          className="text-xs w-8 h-8 border-border"
-                          onClick={() => setCurrentPage(totalPages)}
-                        >
-                          {totalPages}
-                        </Button>
-                      </>
-                    )}
-                    
-                    <Button 
-                      variant="outline" 
-                      size="sm" 
-                      className="text-xs border-border h-8"
-                      disabled={currentPage === totalPages}
-                      onClick={() => setCurrentPage(p => p + 1)}
-                    >
-                      Próximo
-                    </Button>
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
-
-          {/* Progress bar */}
-          <div className="h-2 rounded-full bg-card overflow-hidden">
-            <div className="h-full rounded-full" style={{ 
-              background: 'linear-gradient(90deg, #818cf8 0%, #a78bfa 25%, #c4b5fd 50%, #fbbf24 75%, #f472b6 100%)',
-              width: `${(filteredResumos.length / resumos.length) * 100}%`
-            }} />
-          </div>
+          ))}
         </div>
 
-        {/* Sidebar */}
-        <div className="space-y-6">
-          <div className="rounded-xl card-gradient p-6">
-            <p className="text-sm text-muted-foreground mb-4">
-              Mais de <span className="font-bold text-foreground">{resumos.length}</span> Resumos atualizados.
-            </p>
-            
-            {/* Donut chart */}
-            <div className="flex justify-center mb-4">
-              <div className="relative w-32 h-32">
-                <svg viewBox="0 0 100 100" className="w-full h-full transform -rotate-90">
-                  <circle cx="50" cy="50" r="40" fill="none" stroke="hsl(var(--card))" strokeWidth="12" />
-                  {/* CM - Azul */}
-                  <circle cx="50" cy="50" r="40" fill="none" stroke="#3b82f6" strokeWidth="12" 
-                    strokeDasharray={`${(countByArea['CM'] || 0) / resumos.length * 251.2} 251.2`} 
-                    strokeDashoffset="0" />
-                  {/* CR - Vermelho */}
-                  <circle cx="50" cy="50" r="40" fill="none" stroke="#ef4444" strokeWidth="12" 
-                    strokeDasharray={`${(countByArea['CR'] || 0) / resumos.length * 251.2} 251.2`} 
-                    strokeDashoffset={`-${(countByArea['CM'] || 0) / resumos.length * 251.2}`} />
-                  {/* GO - Roxo */}
-                  <circle cx="50" cy="50" r="40" fill="none" stroke="#a855f7" strokeWidth="12" 
-                    strokeDasharray={`${(countByArea['GO'] || 0) / resumos.length * 251.2} 251.2`} 
-                    strokeDashoffset={`-${((countByArea['CM'] || 0) + (countByArea['CR'] || 0)) / resumos.length * 251.2}`} />
-                  {/* PE - Amarelo */}
-                  <circle cx="50" cy="50" r="40" fill="none" stroke="#eab308" strokeWidth="12" 
-                    strokeDasharray={`${(countByArea['PE'] || 0) / resumos.length * 251.2} 251.2`} 
-                    strokeDashoffset={`-${((countByArea['CM'] || 0) + (countByArea['CR'] || 0) + (countByArea['GO'] || 0)) / resumos.length * 251.2}`} />
-                  {/* PR - Verde */}
-                  <circle cx="50" cy="50" r="40" fill="none" stroke="#22c55e" strokeWidth="12" 
-                    strokeDasharray={`${(countByArea['PR'] || 0) / resumos.length * 251.2} 251.2`} 
-                    strokeDashoffset={`-${((countByArea['CM'] || 0) + (countByArea['CR'] || 0) + (countByArea['GO'] || 0) + (countByArea['PE'] || 0)) / resumos.length * 251.2}`} />
-                </svg>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">{resumos.length}</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Legenda */}
-            <div className="space-y-2">
-              {Object.entries(areaNames).map(([code, name]) => (
-                <div key={code} className="flex items-center justify-between text-sm">
-                  <div className="flex items-center gap-2">
-                    <span className={`w-3 h-3 rounded-full ${areaColors[code]}`}></span>
-                    <span className="text-muted-foreground">{name}</span>
-                  </div>
-                  <span className="text-foreground font-medium">{countByArea[code] || 0}</span>
-                </div>
-              ))}
+        {/* Loading */}
+        {isLoading ? (
+          <div className="flex items-center justify-center py-12">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+              <p className="text-muted-foreground">Carregando resumos...</p>
             </div>
           </div>
-        </div>
+        ) : (
+          /* Cards por área */
+          <div className="space-y-8">
+            {(selectedArea ? [selectedArea] : Object.keys(areaNames)).map(areaCode => {
+              const areaResumos = resumosByArea[areaCode] || [];
+              if (areaResumos.length === 0) return null;
+
+              return (
+                <div key={areaCode}>
+                  {/* Cabeçalho da área */}
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center gap-2">
+                      <Sparkles className="w-4 h-4 text-muted-foreground" />
+                      <h2 className="text-lg font-semibold text-foreground">{areaNames[areaCode]}</h2>
+                    </div>
+                    <span className="text-sm text-emerald-400">{areaResumos.length} temas</span>
+                  </div>
+
+                  {/* Grid de cards */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {areaResumos.map((resumo) => (
+                      <div
+                        key={resumo.id}
+                        onClick={() => handleOpenResumo(resumo.uid)}
+                        className="flex items-start gap-3 p-3 rounded-lg bg-card/50 border border-border/50 hover:bg-card hover:border-primary/30 transition-all cursor-pointer group"
+                      >
+                        {/* Ícone médico */}
+                        <div className={`w-14 h-14 rounded-lg flex-shrink-0 bg-gradient-to-br ${areaGradients[resumo.area]} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                          <span className="text-2xl">{getMedicalIcon(resumo.tema, resumo.area)}</span>
+                        </div>
+
+                        {/* Info */}
+                        <div className="flex-1 min-w-0">
+                          <h3 className="text-sm font-medium text-emerald-400 group-hover:text-emerald-300 truncate">
+                            {resumo.tema}
+                          </h3>
+                          <p className="text-xs text-muted-foreground mt-0.5">Equipe PEPList</p>
+                          <p className="text-xs text-muted-foreground">2025</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
 
       <footer className="mt-8 text-center text-sm text-muted-foreground">

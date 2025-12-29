@@ -21,6 +21,7 @@ import { Button } from "@/components/ui/button";
 import { AllChecklistsModal } from "@/components/AllChecklistsModal";
 import { TreinoIAModeModal } from "@/components/treino-ia/TreinoIAModeModal";
 import { ActiveUsersPanel } from "@/components/collaborative/ActiveUsersPanel";
+import { checklistsData } from "@/data/checklists";
 import { cn } from "@/lib/utils";
 
 type ActivityType = "completed" | "paused" | "resumed" | "started";
@@ -347,7 +348,7 @@ export default function Checklists() {
                     />
                   </svg>
                   <div className="absolute inset-0 flex flex-col items-center justify-center">
-                    <span className="text-3xl font-bold text-gradient">586</span>
+                    <span className="text-3xl font-bold text-gradient">{checklistsData.length}</span>
                     <span className="text-[10px] text-muted-foreground">concluídos</span>
                   </div>
                 </div>

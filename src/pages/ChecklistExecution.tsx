@@ -1,23 +1,82 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
-import { Lock, MessageSquare, Clock, ListChecks, AlignLeft } from "lucide-react";
+import { Lock, MessageSquare, Clock, ListChecks, AlignLeft, Users, Play, Pause, RotateCcw } from "lucide-react";
 import { checklistsData } from "@/data/checklists";
 import { getChecklistContentById, getChecklistContentByIdAsync, defaultChecklistContent } from "@/data/checklistContents";
 import { AreaBadge } from "@/components/AreaBadge";
 import { ChecklistContent } from "@/types/checklists";
+import { CreateSessionModal } from "@/components/avaliacao/CreateSessionModal";
 
 export default function ChecklistExecution() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const [timer, setTimer] = useState("00:00");
+  
+  // Timer state - 10 minutos = 600 segundos
+  const [timeRemaining, setTimeRemaining] = useState(600);
+  const [isTimerRunning, setIsTimerRunning] = useState(false);
+  const [isTimerPaused, setIsTimerPaused] = useState(false);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  
   const [selectedConversation, setSelectedConversation] = useState("Conversa: (Aluno, Ator, etc)");
   const [content, setContent] = useState<ChecklistContent>(defaultChecklistContent);
   const [isLoading, setIsLoading] = useState(true);
 
   const checklist = checklistsData.find(c => c.id === id);
   const checklistTitle = checklist ? `${checklist.areaCode} ${checklist.title}` : "Checklist não encontrado";
+  
+  // Estado para modal de criar sessão de avaliação
+  const [showCreateSessionModal, setShowCreateSessionModal] = useState(false);
+
+  // Formatar tempo em MM:SS
+  const formatTime = (seconds: number): string => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  // Timer effect
+  useEffect(() => {
+    if (isTimerRunning && !isTimerPaused && timeRemaining > 0) {
+      timerRef.current = setInterval(() => {
+        setTimeRemaining(prev => {
+          if (prev <= 1) {
+            setIsTimerRunning(false);
+            if (timerRef.current) clearInterval(timerRef.current);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+    }
+
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [isTimerRunning, isTimerPaused]);
+
+  // Controles do timer
+  const handleStartTimer = () => {
+    setIsTimerRunning(true);
+    setIsTimerPaused(false);
+  };
+
+  const handlePauseTimer = () => {
+    setIsTimerPaused(true);
+    if (timerRef.current) clearInterval(timerRef.current);
+  };
+
+  const handleResumeTimer = () => {
+    setIsTimerPaused(false);
+  };
+
+  const handleResetTimer = () => {
+    setIsTimerRunning(false);
+    setIsTimerPaused(false);
+    setTimeRemaining(600);
+    if (timerRef.current) clearInterval(timerRef.current);
+  };
   
   // Carrega o conteúdo do checklist (primeiro tenta síncrono, depois assíncrono)
   useEffect(() => {
@@ -299,15 +358,59 @@ export default function ChecklistExecution() {
           <div className="w-72 border-l border-border bg-card p-4 flex flex-col gap-4">
             {/* Timer */}
             <div className="text-center">
-              <div className="bg-primary text-primary-foreground text-2xl font-mono py-3 px-6 rounded-lg">
-                {timer}
+              <div className={`text-2xl font-mono py-3 px-6 rounded-lg ${
+                timeRemaining <= 60 && isTimerRunning 
+                  ? 'bg-red-500/20 text-red-400 animate-pulse' 
+                  : 'bg-primary text-primary-foreground'
+              }`}>
+                {formatTime(timeRemaining)}
               </div>
             </div>
 
-            {/* Pause Button */}
-            <Button className="btn-primary-gradient w-full">
-              ⏸ Pausar
-            </Button>
+            {/* Timer Controls */}
+            {!isTimerRunning ? (
+              <Button 
+                onClick={handleStartTimer}
+                className="btn-primary-gradient w-full"
+              >
+                <Play className="w-4 h-4 mr-2" />
+                Iniciar
+              </Button>
+            ) : isTimerPaused ? (
+              <div className="flex gap-2">
+                <Button 
+                  onClick={handleResumeTimer}
+                  className="btn-primary-gradient flex-1"
+                >
+                  <Play className="w-4 h-4 mr-2" />
+                  Continuar
+                </Button>
+                <Button 
+                  onClick={handleResetTimer}
+                  variant="outline"
+                  className="flex-shrink-0"
+                >
+                  <RotateCcw className="w-4 h-4" />
+                </Button>
+              </div>
+            ) : (
+              <div className="flex gap-2">
+                <Button 
+                  onClick={handlePauseTimer}
+                  className="btn-primary-gradient flex-1"
+                >
+                  <Pause className="w-4 h-4 mr-2" />
+                  Pausar
+                </Button>
+                <Button 
+                  onClick={handleResetTimer}
+                  variant="outline"
+                  className="flex-shrink-0"
+                >
+                  <RotateCcw className="w-4 h-4" />
+                </Button>
+              </div>
+            )}
 
             {/* Conversation Dropdown */}
             <div className="space-y-2">
@@ -357,6 +460,21 @@ export default function ChecklistExecution() {
               </Button>
             </div>
 
+            {/* Avaliação em Dupla - Criar sessão */}
+            <div className="border-t border-border pt-4 space-y-3">
+              <p className="text-xs text-muted-foreground font-medium">Avaliação em Dupla</p>
+              <p className="text-xs text-muted-foreground">
+                Crie uma sessão para treinar com um colega. Um será o avaliador e outro o avaliado.
+              </p>
+              <Button 
+                onClick={() => setShowCreateSessionModal(true)}
+                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:opacity-90 text-white text-sm"
+              >
+                <Users className="w-4 h-4 mr-2" />
+                Criar Sessão de Avaliação
+              </Button>
+            </div>
+
             {/* Color Dots Indicator */}
             <div className="flex flex-col gap-2 mt-auto">
               <div className="flex items-center gap-2">
@@ -368,6 +486,18 @@ export default function ChecklistExecution() {
           </div>
         </div>
       </div>
+      )}
+      
+      {/* Modal para criar sessão de avaliação */}
+      {checklist && (
+        <CreateSessionModal
+          open={showCreateSessionModal}
+          onOpenChange={setShowCreateSessionModal}
+          checklistId={checklist.id}
+          checklistTitle={checklist.title}
+          areaCode={checklist.areaCode}
+          evaluationItems={content.evaluationItems}
+        />
       )}
     </AppLayout>
   );

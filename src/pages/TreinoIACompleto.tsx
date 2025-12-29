@@ -1,15 +1,12 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import {
   Play,
   Pause,
   RotateCcw,
   ArrowLeft,
-  Clock,
-  Settings,
   Trophy,
   Brain,
   MessageSquare,
@@ -31,11 +28,10 @@ import { FeedbackItem } from "@/components/treino-ia/FeedbackItem";
 import { AnaliseResultados } from "@/components/treino-ia/AnaliseResultados";
 import { ResultSummary } from "@/components/avaliacao/ResultSummary";
 import { useAIPacienteAvaliador } from "@/hooks/useAIPacienteAvaliador";
-import { useAvaliacaoTimer } from "@/hooks/useAvaliacaoTimer";
 import { useChecklistMetrics } from "@/hooks/useChecklistMetrics";
+import { getOpenAIApiKey } from "@/services/aiConfig";
 import { ItemScoreIA } from "@/types/treino-ia";
 import { ItemScore } from "@/types/avaliacao";
-import { formatTime } from "@/lib/avaliacao-utils";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 
@@ -56,26 +52,24 @@ export default function TreinoIACompleto() {
   const [isLoading, setIsLoading] = useState(true);
   const [phase, setPhase] = useState<SessionPhase>("setup");
   const [isConnected, setIsConnected] = useState(false);
-  const [apiKey, setApiKey] = useState(() => {
-    // Carregar API Key do localStorage
-    return localStorage.getItem("openai_api_key") || "";
-  });
-  const [showSettings, setShowSettings] = useState(false);
   const [feedbackNotifications, setFeedbackNotifications] = useState<FeedbackNotification[]>([]);
   const [evaluationMode, setEvaluationMode] = useState<EvaluationMode>(null);
   const [checklistUnlocked, setChecklistUnlocked] = useState(false);
+  
+  // API Key - carregada automaticamente do sistema (não exposta ao usuário)
+  const apiKey = getOpenAIApiKey();
 
   // Hook para métricas do usuário
   const { recordAttempt } = useChecklistMetrics();
 
-  // Timer
-  const { timeRemaining, isRunning, start, pause, reset } = useAvaliacaoTimer({
-    initialTime: 600,
-    onFinish: () => {
-      toast.warning("Tempo esgotado!");
-      handleFinish();
-    },
-  });
+  // Timer - desabilitado para modo estudo
+  // const { timeRemaining, isRunning, start, pause, reset } = useAvaliacaoTimer({
+  //   initialTime: 600,
+  //   onFinish: () => {
+  //     toast.warning("Tempo esgotado!");
+  //     handleFinish();
+  //   },
+  // });
 
   // Callbacks para o hook
   const handleChecklistItemCompleted = useCallback((itemId: number, score: ItemScoreIA) => {
@@ -150,84 +144,81 @@ export default function TreinoIACompleto() {
     loadChecklist();
   }, [checklistId, navigate]);
 
-  // Gerar nome do paciente e detectar gênero
-  const getPacienteInfo = () => {
+  // Informações do paciente calculadas uma única vez por checklist (consistente)
+  const pacienteInfo = useMemo(() => {
     const instrucoes = content.instrucoes.itens.join(" ");
     const descricao = content.scenario.descricao.join(" ");
     const fullText = instrucoes + " " + descricao;
+    const fullTextLower = fullText.toLowerCase();
     
-    // Tentar extrair nome dos dados pessoais (formato: "Nome, idade anos" ou "- Nome, idade anos")
-    // Exemplos: "Isadora, 35 anos", "- Lays, 28 anos", "Mariana, 31 anos", "Joaquim, 66 anos"
+    // Detectar nome
+    let nome = "";
+    
+    // Tentar extrair nome dos dados pessoais
     const dadosPessoaisMatch = fullText.match(/(?:DADOS PESSOAIS[:\s]*[-\s]*|^[-\s]*)([A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ][a-záéíóúâêîôûãõç]+)(?:,|\s+\d)/m);
     if (dadosPessoaisMatch) {
-      return dadosPessoaisMatch[1];
+      nome = dadosPessoaisMatch[1];
     }
     
     // Tentar extrair nome de "Meu nome é X" ou "Me chamo X"
-    const nomeMatch = fullText.match(/(?:meu nome é|me chamo|sou o|sou a)\s+([A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ][a-záéíóúâêîôûãõç]+)/i);
-    if (nomeMatch) {
-      return nomeMatch[1];
+    if (!nome) {
+      const nomeMatch = fullText.match(/(?:meu nome é|me chamo|sou o|sou a)\s+([A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ][a-záéíóúâêîôûãõç]+)/i);
+      if (nomeMatch) {
+        nome = nomeMatch[1];
+      }
     }
     
-    // Se não encontrou nome, usar nome padrão baseado em gênero
-    const isFemale = fullText.toLowerCase().includes("sou a ") || 
-                     fullText.toLowerCase().includes("paciente feminina") ||
-                     fullText.toLowerCase().includes("mulher") ||
-                     fullText.toLowerCase().includes("gestante") ||
-                     fullText.toLowerCase().includes("grávida") ||
-                     fullText.toLowerCase().includes("menstruação") ||
-                     fullText.toLowerCase().includes("mama") ||
-                     fullText.toLowerCase().includes("útero") ||
-                     fullText.toLowerCase().includes("vaginal");
-    
-    const nomesFemininos = ["Maria Silva", "Ana Oliveira", "Carla Santos", "Juliana Costa"];
-    const nomesMasculinos = ["João Santos", "Carlos Souza", "Pedro Lima", "Roberto Alves"];
-    
-    const nomes = isFemale ? nomesFemininos : nomesMasculinos;
-    return nomes[Math.floor(Math.random() * nomes.length)];
-  };
-
-  // Detectar gênero do paciente para voz
-  const getPacienteGender = (): 'male' | 'female' => {
-    const instrucoes = content.instrucoes.itens.join(" ");
-    const descricao = content.scenario.descricao.join(" ");
-    const fullText = (instrucoes + " " + descricao).toLowerCase();
-    
-    // Indicadores de gênero feminino
+    // Detectar gênero
     const femaleIndicators = [
       "sou a ", "paciente feminina", "mulher", "gestante", "grávida",
-      "menstruação", "mama", "útero", "vaginal", "ela ", " ela",
-      "senhora", "dona ", "mãe ", "filha", "esposa", "feminino"
+      "menstruação", "mama", "útero", "vaginal", "senhora", "dona ",
+      "mãe ", "filha", "esposa", "feminino"
     ];
     
-    // Indicadores de gênero masculino
     const maleIndicators = [
-      "sou o ", "paciente masculino", "homem", "ele ", " ele",
-      "senhor", "pai ", "filho", "esposo", "masculino", "próstata",
-      "testículo", "pênis"
+      "sou o ", "paciente masculino", "homem", "senhor", "pai ",
+      "filho", "esposo", "masculino", "próstata", "testículo", "pênis"
     ];
     
     let femaleScore = 0;
     let maleScore = 0;
     
     for (const indicator of femaleIndicators) {
-      if (fullText.includes(indicator)) femaleScore++;
+      if (fullTextLower.includes(indicator)) femaleScore++;
     }
     
     for (const indicator of maleIndicators) {
-      if (fullText.includes(indicator)) maleScore++;
+      if (fullTextLower.includes(indicator)) maleScore++;
     }
     
-    // Se não conseguiu determinar, usar feminino como padrão (mais comum em OSCE)
-    return maleScore > femaleScore ? 'male' : 'female';
-  };
+    const gender: 'male' | 'female' = maleScore > femaleScore ? 'male' : 'female';
+    
+    // Se não encontrou nome, usar nome fixo baseado no gênero
+    if (!nome) {
+      nome = gender === 'female' ? "Maria" : "João";
+    }
+    
+    // Detectar idade
+    let age: number | undefined;
+    const ageMatch = fullText.match(/(\d+)\s*anos/i);
+    if (ageMatch) {
+      const parsedAge = parseInt(ageMatch[1]);
+      if (parsedAge > 0 && parsedAge < 120) {
+        age = parsedAge;
+      }
+    }
+    
+    return { nome, gender, age };
+  }, [content]);
 
-  const getPacienteName = () => getPacienteInfo();
+  // Funções de acesso às informações do paciente (consistentes)
+  const getPacienteName = () => pacienteInfo.nome;
+  const getPacienteGender = () => pacienteInfo.gender;
+  const getPacienteAge = () => pacienteInfo.age;
 
   const handleStart = async () => {
     setPhase("running");
     setIsConnected(true);
-    start();
     toast.success("Consulta iniciada!", { description: "A IA irá avaliar seu desempenho" });
     
     // Enviar saudação inicial do paciente
@@ -235,19 +226,16 @@ export default function TreinoIACompleto() {
   };
 
   const handlePause = () => {
-    if (isRunning) {
-      pause();
+    if (phase === "running") {
       setPhase("paused");
       toast.info("Consulta pausada");
     } else {
-      start();
       setPhase("running");
       toast.info("Consulta retomada");
     }
   };
 
   const handleFinish = () => {
-    pause();
     setPhase("choosing"); // Vai para tela de escolha antes de mostrar resultado
     setIsConnected(false);
     toast.success("Consulta finalizada! Escolha como deseja ver sua avaliação.");
@@ -290,7 +278,6 @@ export default function TreinoIACompleto() {
   };
 
   const handleRestart = () => {
-    reset();
     clearHistory();
     setPhase("setup");
     setIsConnected(false);
@@ -416,19 +403,6 @@ export default function TreinoIACompleto() {
               </div>
 
               <div className="flex items-center gap-3">
-                {/* Timer */}
-                <div
-                  className={cn(
-                    "flex items-center gap-2 px-4 py-2 rounded-lg font-mono text-lg",
-                    timeRemaining <= 60 && phase === "running"
-                      ? "bg-red-500/20 text-red-400"
-                      : "bg-primary/20 text-primary"
-                  )}
-                >
-                  <Clock className="w-4 h-4" />
-                  {formatTime(timeRemaining)}
-                </div>
-
                 {/* Controles */}
                 {phase === "setup" && (
                   <Button onClick={handleStart} className="bg-green-600 hover:bg-green-700">
@@ -440,7 +414,7 @@ export default function TreinoIACompleto() {
                 {(phase === "running" || phase === "paused") && (
                   <>
                     <Button variant="outline" onClick={handlePause}>
-                      {isRunning ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
+                      {phase === "running" ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
                     </Button>
                     <Button onClick={handleFinish}>
                       <Trophy className="w-4 h-4 mr-2" />
@@ -463,45 +437,8 @@ export default function TreinoIACompleto() {
                     Escolha como deseja ver sua avaliação →
                   </span>
                 )}
-
-                <Button variant="ghost" size="icon" onClick={() => setShowSettings(!showSettings)}>
-                  <Settings className="w-4 h-4" />
-                </Button>
               </div>
             </div>
-
-            {/* Settings Panel */}
-            {showSettings && (
-              <div className="mt-4 p-4 bg-secondary/30 rounded-lg">
-                <h3 className="text-sm font-medium mb-2">Configurações da IA</h3>
-                <div className="flex gap-2">
-                  <Input
-                    type="password"
-                    placeholder="API Key OpenAI (obrigatória para voz)"
-                    value={apiKey}
-                    onChange={(e) => setApiKey(e.target.value)}
-                    className="flex-1"
-                  />
-                  <Button variant="outline" onClick={() => {
-                    localStorage.setItem("openai_api_key", apiKey);
-                    setShowSettings(false);
-                    if (apiKey) {
-                      toast.success("API Key salva! Voz da OpenAI ativada.");
-                    }
-                  }}>
-                    Salvar
-                  </Button>
-                </div>
-                <p className="text-xs text-muted-foreground mt-2">
-                  💡 Com API Key: Voz natural da OpenAI + GPT-4o. Sem API Key: voz do navegador.
-                </p>
-                {!apiKey && (
-                  <p className="text-xs text-amber-400 mt-1">
-                    ⚠️ Configure a API Key para usar a voz da OpenAI
-                  </p>
-                )}
-              </div>
-            )}
           </div>
 
           {/* Content */}

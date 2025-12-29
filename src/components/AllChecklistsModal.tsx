@@ -1,13 +1,12 @@
 import { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import { List, User, X, Users } from "lucide-react";
+import { List, User, X } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { AreaBadge } from "./AreaBadge";
-import { CreateRoomModal } from "./collaborative/CreateRoomModal";
-import { checklistsData, AREA_OPTIONS, INEP_OPTIONS, AREA_ORDER, AreaCode } from "@/data/checklists";
+import { checklistsData, AREA_OPTIONS, INEP_OPTIONS, AREA_ORDER } from "@/data/checklists";
 import { useChecklistMetrics } from "@/hooks/useChecklistMetrics";
 import { useUserProfile } from "@/hooks/useUserProfile";
 
@@ -20,17 +19,6 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
   const { profile } = useUserProfile();
   const [selectedArea, setSelectedArea] = useState("all");
   const [selectedInep, setSelectedInep] = useState("all");
-  const [createRoomModal, setCreateRoomModal] = useState<{
-    open: boolean;
-    checklistId: string;
-    checklistTitle: string;
-    areaCode: AreaCode;
-  }>({
-    open: false,
-    checklistId: '',
-    checklistTitle: '',
-    areaCode: 'CM'
-  });
 
   // Hook para métricas do usuário
   const { getAverage, getAttempts } = useChecklistMetrics();
@@ -179,28 +167,9 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
     navigate(`/checklists/execucao/${id}`);
   };
 
-  const handleCreateRoom = (checklistId: string, checklistTitle: string, areaCode: AreaCode) => {
-    setCreateRoomModal({
-      open: true,
-      checklistId,
-      checklistTitle,
-      areaCode
-    });
-  };
-
-  const handleRoomCreated = (roomId: string, roomCode?: string) => {
-    console.log('Sala criada:', roomId, roomCode);
-    // Navegar para a sala colaborativa
-    navigate(`/collaborative/${roomId}`);
-    
-    // Fechar modal principal
-    onOpenChange(false);
-  };
-
   return (
-    <>
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="fixed inset-4 max-w-none w-auto h-auto max-h-none bg-background border-border p-0 gap-0 overflow-hidden flex flex-col">
+      <DialogContent className="fixed inset-4 max-w-none w-auto h-auto max-h-none bg-background border-border p-0 gap-0 overflow-hidden flex flex-col [&>button]:hidden">
         {/* Header */}
         <DialogHeader className="px-6 py-4 border-b border-border/30 flex-shrink-0">
           <div className="flex items-center justify-between">
@@ -334,23 +303,13 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
                       </span>
                     </td>
                     <td className="text-center py-3 px-4">
-                      <div className="flex items-center justify-center gap-2">
-                        <Button
-                          size="sm"
-                          onClick={() => handleStart(item.id)}
-                          className="text-xs px-3 py-1 h-7 bg-primary hover:bg-primary/90 text-white"
-                        >
-                          Treinar
-                        </Button>
-                        <Button
-                          size="sm"
-                          onClick={() => handleCreateRoom(item.id, item.title, item.areaCode)}
-                          className="text-xs px-3 py-1 h-7 bg-gradient-to-r from-blue-600 to-indigo-600 hover:opacity-90 text-white"
-                        >
-                          <Users className="w-3 h-3 mr-1" />
-                          Em Grupo
-                        </Button>
-                      </div>
+                      <Button
+                        size="sm"
+                        onClick={() => handleStart(item.id)}
+                        className="text-xs px-3 py-1 h-7 bg-primary hover:bg-primary/90 text-white"
+                      >
+                        Treinar
+                      </Button>
                     </td>
                   </tr>
                 ))}
@@ -371,16 +330,5 @@ export function AllChecklistsModal({ open, onOpenChange }: AllChecklistsModalPro
         </div>
       </DialogContent>
     </Dialog>
-
-    {/* Modal para criar sala colaborativa */}
-    <CreateRoomModal
-      open={createRoomModal.open}
-      onOpenChange={(open) => setCreateRoomModal(prev => ({ ...prev, open }))}
-      checklistId={createRoomModal.checklistId}
-      checklistTitle={createRoomModal.checklistTitle}
-      areaCode={createRoomModal.areaCode}
-      onRoomCreated={handleRoomCreated}
-    />
-  </>
   );
 }

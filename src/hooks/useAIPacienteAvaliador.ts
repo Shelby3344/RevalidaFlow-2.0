@@ -150,7 +150,7 @@ REGRAS IMPORTANTES
 COMO PACIENTE:
 1. Responda EXATAMENTE conforme o script do paciente acima
 2. Use português brasileiro natural e coloquial
-3. Adicione expressões como *suspira*, *faz careta*, *parece preocupado*
+3. NÃO use expressões entre asteriscos como *suspira* ou *faz careta*
 4. Responda de forma CURTA (máximo 2-3 frases)
 5. Se o médico perguntar algo que está no script, responda conforme o script
 6. Se o médico perguntar algo que deve ser NEGADO (seção NEGAR), negue
@@ -165,9 +165,17 @@ COMO AVALIADOR:
 3. Se o médico solicitar exame, inclua o ID em detectedExames
 4. Seja criterioso mas justo na avaliação
 
-SOBRE EXAMES:
-- Quando o médico solicitar um exame, libere-o em detectedExames
-- O conteúdo do exame será mostrado automaticamente ao médico`;
+SOBRE EXAMES (MUITO IMPORTANTE):
+- Quando o médico solicitar QUALQUER exame (sinais vitais, exame físico, laboratório, etc.), LIBERE-O em detectedExames
+- Detecte solicitações como: "quero ver sinais vitais", "solicito exame físico", "me mostre o laboratório", "preciso dos exames bioquímicos"
+- Mapeamento de exames:
+  * "sinais vitais" ou "pressão" ou "temperatura" → Impresso de Sinais Vitais (ID 1)
+  * "exame físico" ou "ausculta" ou "palpação" → Impresso de Exame Físico (ID 2)
+  * "laboratório" ou "hemograma" ou "sangue" → Impresso de Laboratório (ID 3)
+  * "bioquímicos" ou "glicemia" ou "colesterol" → Impresso de Exames Bioquímicos (ID 4)
+- Quando liberar exame, NÃO fale sobre ele na resposta do paciente
+- O conteúdo do exame será mostrado automaticamente na tela ao médico
+- Responda apenas: "Pode verificar, doutor(a)." ou algo similar e curto`;
 }
 
 function generateInitialGreeting(content: ChecklistContent): string {
@@ -208,10 +216,10 @@ function generateInitialGreeting(content: ChecklistContent): string {
                      content.scenario.tipo.toLowerCase().includes('urgência');
   
   if (isUrgencia) {
-    return `*entra no consultório com expressão de desconforto*\n\nOlá, doutor(a)... ${nome ? `Me chamo ${nome}${idade}. ` : ''}${queixaPrincipal.charAt(0).toUpperCase() + queixaPrincipal.slice(1)}... *suspira* Vim porque não aguento mais.`;
+    return `Olá, doutor(a)... ${nome ? `Me chamo ${nome}${idade}. ` : ''}${queixaPrincipal.charAt(0).toUpperCase() + queixaPrincipal.slice(1)}... Vim porque não aguento mais.`;
   }
   
-  return `*entra no consultório*\n\nBom dia, doutor(a). ${nome ? `Me chamo ${nome}${idade}. ` : ''}Vim aqui porque ${queixaPrincipal}. *parece preocupado*`;
+  return `Bom dia, doutor(a). ${nome ? `Me chamo ${nome}${idade}. ` : ''}Vim aqui porque ${queixaPrincipal}.`;
 }
 
 function generateLocalResponse(message: string, content: ChecklistContent): string {
@@ -226,13 +234,13 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
   // Nome
   if (lowerMsg.includes('nome') || lowerMsg.includes('chama')) {
     return info.nome !== 'Paciente' 
-      ? `Me chamo ${info.nome}. *estende a mão*` 
-      : `Pode me chamar de paciente...`;
+      ? `Me chamo ${info.nome}.` 
+      : `Pode me chamar de paciente.`;
   }
   
   // Idade
   if (lowerMsg.includes('idade') || lowerMsg.includes('anos')) {
-    return info.idade ? `Tenho ${info.idade} anos, doutor(a).` : `Tenho uns 50 e poucos anos...`;
+    return info.idade ? `Tenho ${info.idade} anos, doutor(a).` : `Tenho uns 50 e poucos anos.`;
   }
   
   // Motivo da consulta / queixa principal
@@ -241,36 +249,36 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
     for (const line of scriptLines) {
       if (line.toLowerCase().includes('motivo de consulta') || line.toLowerCase().includes('queixa')) {
         const match = line.match(/["""]([^"""]+)["""]/);
-        if (match) return `*suspira* ${match[1]}`;
+        if (match) return match[1];
       }
     }
     const sintoma = descricao.includes('dor') ? 'muita dor' : 
                     descricao.includes('febre') ? 'febre' : 
                     descricao.includes('tosse') ? 'tosse' : 'mal-estar';
-    return `*suspira* Doutor(a), estou sentindo ${sintoma}. Começou há alguns dias...`;
+    return `Doutor(a), estou sentindo ${sintoma}. Começou há alguns dias.`;
   }
   
   // Dor
   if (lowerMsg.includes('dor')) {
     if (lowerMsg.includes('onde') || lowerMsg.includes('local')) {
-      if (instrucoes.includes('costela')) return `*aponta* Dói aqui nas costelas, doutor(a). *faz careta*`;
-      if (instrucoes.includes('cabeça')) return `*leva a mão à cabeça* Dói muito aqui.`;
-      if (instrucoes.includes('barriga') || instrucoes.includes('abdom')) return `*aponta para a barriga* Dói aqui. *faz careta*`;
-      if (instrucoes.includes('peito') || instrucoes.includes('torác')) return `*aponta para o peito* Dói aqui no peito.`;
-      return `*aponta* Dói aqui, doutor(a)... *faz careta de dor*`;
+      if (instrucoes.includes('costela')) return `Dói aqui nas costelas, doutor(a).`;
+      if (instrucoes.includes('cabeça')) return `Dói muito aqui na cabeça.`;
+      if (instrucoes.includes('barriga') || instrucoes.includes('abdom')) return `Dói aqui na barriga.`;
+      if (instrucoes.includes('peito') || instrucoes.includes('torác')) return `Dói aqui no peito.`;
+      return `Dói aqui, doutor(a).`;
     }
     if (instrucoes.includes('nega') && instrucoes.includes('dor')) {
       return `Não, dor não tenho não, doutor(a).`;
     }
-    return `*faz careta* Sim, dói bastante... É uma dor ${instrucoes.includes('forte') ? 'muito forte' : 'constante'}.`;
+    return `Sim, dói bastante. É uma dor ${instrucoes.includes('forte') ? 'muito forte' : 'constante'}.`;
   }
   
   // Febre
   if (lowerMsg.includes('febre') || lowerMsg.includes('temperatura')) {
     if (instrucoes.includes('febre') || instrucoes.includes('quente')) {
-      return `Sim, tenho sentido calor... Acho que estou com febre. À noite fico com calafrios.`;
+      return `Sim, tenho sentido calor. Acho que estou com febre. À noite fico com calafrios.`;
     }
-    return `Não, febre não... Pelo menos não percebi.`;
+    return `Não, febre não. Pelo menos não percebi.`;
   }
   
   // Tosse
@@ -291,7 +299,7 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
     if (instrucoes.includes('nega') && (instrucoes.includes('medicamento') || instrucoes.includes('fármaco'))) {
       return `Não tomo nenhum remédio de uso contínuo.`;
     }
-    return `*pensa* Tomo alguns remédios... Quer que eu liste?`;
+    return `Tomo alguns remédios. Quer que eu liste?`;
   }
   
   // Alergia
@@ -299,7 +307,7 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
     if (instrucoes.includes('nega') && instrucoes.includes('alergia')) {
       return `Que eu saiba, não tenho alergia a nenhum medicamento.`;
     }
-    return `*pensa* Acho que não tenho alergia a nada...`;
+    return `Acho que não tenho alergia a nada.`;
   }
   
   // Doenças / antecedentes
@@ -307,7 +315,7 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
     if (instrucoes.includes('desconhece') || instrucoes.includes('nega')) {
       return `Que eu saiba, não tenho nenhuma doença.`;
     }
-    return `*pensa* Tenho alguns problemas de saúde sim...`;
+    return `Tenho alguns problemas de saúde sim.`;
   }
   
   // Hábitos - cigarro
@@ -317,7 +325,7 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
       return `Sim, fumo ${fumoMatch[1]} maço${parseInt(fumoMatch[1]) > 1 ? 's' : ''} por dia, há ${fumoMatch[2]} anos.`;
     }
     if (instrucoes.includes('fuma') || instrucoes.includes('cigarro')) {
-      return `Sim, fumo há bastante tempo...`;
+      return `Sim, fumo há bastante tempo.`;
     }
     return `Não, não fumo.`;
   }
@@ -325,7 +333,7 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
   // Hábitos - álcool
   if (lowerMsg.includes('álcool') || lowerMsg.includes('bebe') || lowerMsg.includes('bebida')) {
     if (instrucoes.includes('bebe') || instrucoes.includes('álcool') || instrucoes.includes('cachaça')) {
-      return `Sim, bebo de vez em quando... Uma cachaça, uma cerveja...`;
+      return `Sim, bebo de vez em quando. Uma cachaça, uma cerveja.`;
     }
     return `Não, não bebo.`;
   }
@@ -333,14 +341,14 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
   // Hábitos - drogas
   if (lowerMsg.includes('droga') || lowerMsg.includes('crack') || lowerMsg.includes('cocaína')) {
     if (instrucoes.includes('crack') || instrucoes.includes('cocaína') || instrucoes.includes('droga')) {
-      return `*desvia o olhar* Às vezes uso umas coisas... crack, cocaína...`;
+      return `Às vezes uso umas coisas. Crack, cocaína.`;
     }
     return `Não, não uso drogas.`;
   }
   
   // Exame físico
   if (lowerMsg.includes('exame') && (lowerMsg.includes('físico') || lowerMsg.includes('examinar'))) {
-    return `Pode examinar, doutor(a). *se posiciona* Me avisa se for doer...`;
+    return `Pode examinar, doutor(a). Me avisa se for doer.`;
   }
   
   // Solicitar exames
@@ -350,35 +358,35 @@ function generateLocalResponse(message: string, content: ChecklistContent): stri
   
   // Diagnóstico
   if (lowerMsg.includes('diagnóstico') || lowerMsg.includes('o que eu tenho') || lowerMsg.includes('o que você tem')) {
-    return `*parece preocupado* O que eu tenho, doutor(a)? É grave?`;
+    return `O que eu tenho, doutor(a)? É grave?`;
   }
   
   // Tratamento
   if (lowerMsg.includes('tratamento') || lowerMsg.includes('receita') || lowerMsg.includes('prescrever')) {
-    return `*presta atenção* Entendi. Vou seguir direitinho o tratamento.`;
+    return `Entendi. Vou seguir direitinho o tratamento.`;
   }
   
   // Internação
   if (lowerMsg.includes('internar') || lowerMsg.includes('internação')) {
-    return `*parece preocupado* Vou ter que ficar internado, doutor(a)?`;
+    return `Vou ter que ficar internado, doutor(a)?`;
   }
   
   // Obrigado
   if (lowerMsg.includes('obrigado') || lowerMsg.includes('obrigada')) {
-    return `*sorri aliviado* Obrigado, doutor(a)! Fico mais tranquilo agora.`;
+    return `Obrigado, doutor(a)! Fico mais tranquilo agora.`;
   }
   
   // Apresentação do médico
   if (lowerMsg.includes('bom dia') || lowerMsg.includes('boa tarde') || lowerMsg.includes('olá') || lowerMsg.includes('prazer')) {
-    return `*acena* Olá, doutor(a). *parece desconfortável*`;
+    return `Olá, doutor(a).`;
   }
   
   // Respostas genéricas
   const respostas = [
-    `*pensa* Hmm, pode repetir a pergunta, doutor(a)?`,
-    `*parece confuso* Não tenho certeza sobre isso...`,
-    `Olha, não sei dizer com certeza...`,
-    `*coça a cabeça* Deixa eu pensar...`,
+    `Hmm, pode repetir a pergunta, doutor(a)?`,
+    `Não tenho certeza sobre isso.`,
+    `Olha, não sei dizer com certeza.`,
+    `Deixa eu pensar.`,
   ];
   return respostas[Math.floor(Math.random() * respostas.length)];
 }

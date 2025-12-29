@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
 import { MessageSquare, ListChecks, Lock, Unlock } from "lucide-react";
@@ -14,11 +14,12 @@ import { ResultSummary } from "@/components/avaliacao/ResultSummary";
 import { JoinSessionModal } from "@/components/avaliacao/JoinSessionModal";
 import { useAvaliacaoSession } from "@/hooks/useAvaliacaoSession";
 import { useAvaliacaoSync } from "@/hooks/useAvaliacaoSync";
-import { formatTime } from "@/lib/avaliacao-utils";
+import { formatTime, decodeSessionData } from "@/lib/avaliacao-utils";
 import { toast } from "sonner";
 
 export default function AvaliacaoAvaliado() {
   const { sessionCode } = useParams<{ sessionCode: string }>();
+  const [searchParams] = useSearchParams();
   const navigate = useNavigate();
 
   const [content, setContent] = useState<ChecklistContent>(
@@ -35,7 +36,7 @@ export default function AvaliacaoAvaliado() {
   const [resultShared, setResultShared] = useState(false);
   const [expandedImpressos, setExpandedImpressos] = useState<Set<number>>(new Set());
 
-  const { session, loadSession, updateSession } = useAvaliacaoSession();
+  const { session, loadSession, updateSession, createSessionFromData } = useAvaliacaoSession();
 
   const { broadcastAvaliadoConnected } = useAvaliacaoSync({
     sessionCode,
@@ -91,7 +92,20 @@ export default function AvaliacaoAvaliado() {
         return;
       }
 
-      const loaded = loadSession(sessionCode);
+      // Primeiro tenta carregar do localStorage
+      let loaded = loadSession(sessionCode);
+      
+      // Se não encontrou, tenta criar a partir dos dados da URL
+      if (!loaded) {
+        const encodedData = searchParams.get('data');
+        if (encodedData) {
+          const sessionData = decodeSessionData(encodedData);
+          if (sessionData) {
+            loaded = createSessionFromData(sessionCode, sessionData);
+          }
+        }
+      }
+
       if (!loaded) {
         toast.error("Sessão não encontrada ou expirada");
         navigate("/");
@@ -125,7 +139,7 @@ export default function AvaliacaoAvaliado() {
     };
 
     initSession();
-  }, [sessionCode, loadSession, navigate]);
+  }, [sessionCode, searchParams, loadSession, createSessionFromData, navigate]);
 
   const handleJoinSession = useCallback((name: string) => {
     if (!sessionCode) return;

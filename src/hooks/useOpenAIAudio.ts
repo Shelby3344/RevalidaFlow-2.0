@@ -42,7 +42,10 @@ export function useOpenAIAudio({
   }, []);
 
   const speak = useCallback(async (text: string) => {
-    if (!apiKey) {
+    // Obter API key do .env se não foi passada
+    const effectiveApiKey = apiKey || import.meta.env.VITE_OPENAI_API_KEY;
+    
+    if (!effectiveApiKey) {
       setError('API Key não configurada');
       return;
     }
@@ -60,11 +63,13 @@ export function useOpenAIAudio({
     try {
       abortControllerRef.current = new AbortController();
 
+      console.log('[OpenAI Audio] Usando TTS HD com voz:', voice);
+      
       const response = await fetch('https://api.openai.com/v1/audio/speech', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${apiKey}`,
+          'Authorization': `Bearer ${effectiveApiKey}`,
         },
         body: JSON.stringify({
           model: useHDVoice ? 'tts-1-hd' : 'tts-1', // HD para maior qualidade

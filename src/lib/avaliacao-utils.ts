@@ -13,10 +13,51 @@ export function generateSessionCode(): string {
 }
 
 /**
- * Gera o link completo para compartilhar a sessão com o avaliado
+ * Codifica dados da sessão para incluir na URL
  */
-export function generateSessionLink(sessionCode: string): string {
+export function encodeSessionData(data: {
+  checklistId: string;
+  checklistTitle: string;
+  areaCode: string;
+  avaliadorName: string;
+  maxScore: number;
+}): string {
+  return btoa(encodeURIComponent(JSON.stringify(data)));
+}
+
+/**
+ * Decodifica dados da sessão da URL
+ */
+export function decodeSessionData(encoded: string): {
+  checklistId: string;
+  checklistTitle: string;
+  areaCode: string;
+  avaliadorName: string;
+  maxScore: number;
+} | null {
+  try {
+    return JSON.parse(decodeURIComponent(atob(encoded)));
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Gera o link completo para compartilhar a sessão com o avaliado
+ * Inclui os dados da sessão codificados na URL
+ */
+export function generateSessionLink(sessionCode: string, sessionData?: {
+  checklistId: string;
+  checklistTitle: string;
+  areaCode: string;
+  avaliadorName: string;
+  maxScore: number;
+}): string {
   const baseUrl = window.location.origin;
+  if (sessionData) {
+    const encoded = encodeSessionData(sessionData);
+    return `${baseUrl}/avaliacao/participar/${sessionCode}?data=${encoded}`;
+  }
   return `${baseUrl}/avaliacao/participar/${sessionCode}`;
 }
 

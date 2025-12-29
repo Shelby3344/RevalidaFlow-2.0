@@ -7,15 +7,40 @@ import { ImpressoItem } from '@/types/checklists';
  * Palavras-chave que indicam solicitação de exame
  */
 const EXAM_REQUEST_KEYWORDS = [
-  'solicitar', 'pedir', 'quero', 'preciso', 'fazer', 'realizar',
+  // Verbos de solicitação
+  'solicitar', 'solicito', 'pedir', 'peço', 'quero', 'preciso', 
+  'fazer', 'realizar', 'ver', 'mostrar', 'trazer', 'apresentar',
+  'gostaria', 'poderia', 'pode', 'posso',
+  // Substantivos
   'exame', 'exames', 'resultado', 'resultados', 'laudo', 'laudos',
+  // Tipos de exame
   'hemograma', 'raio', 'rx', 'tomografia', 'ressonancia', 'ultrassom',
   'eletrocardiograma', 'ecg', 'ecocardiograma', 'eco',
   'glicemia', 'colesterol', 'triglicerides', 'creatinina', 'ureia',
   'tsh', 't4', 'psa', 'hba1c', 'hemoglobina',
   'urina', 'fezes', 'sangue', 'laboratorio',
-  'ver', 'mostrar', 'trazer', 'apresentar',
+  // Exame físico
+  'fisico', 'físico', 'sinais', 'vitais', 'pressao', 'pressão',
+  'temperatura', 'pulso', 'frequencia', 'frequência', 'cardiaca', 'cardíaca',
+  'respiratoria', 'respiratória', 'saturacao', 'saturação', 'oximetria',
+  'ausculta', 'palpacao', 'palpação', 'inspecao', 'inspeção', 'percussao', 'percussão',
+  'abdome', 'abdominal', 'torax', 'tórax', 'pulmonar', 'cardiaco', 'cardíaco',
+  // Bioquímicos
+  'bioquimico', 'bioquímico', 'bioquimica', 'bioquímica', 'bioquimicos', 'bioquímicos',
 ];
+
+/**
+ * Mapeamento de termos comuns para tipos de exame
+ */
+const EXAM_ALIASES: Record<string, string[]> = {
+  'sinais vitais': ['sinais', 'vitais', 'pressao', 'pressão', 'temperatura', 'pulso', 'saturacao', 'saturação'],
+  'exame fisico': ['fisico', 'físico', 'ausculta', 'palpacao', 'palpação', 'inspecao', 'inspeção', 'percussao', 'percussão'],
+  'exame físico': ['fisico', 'físico', 'ausculta', 'palpacao', 'palpação', 'inspecao', 'inspeção', 'percussao', 'percussão'],
+  'laboratorio': ['laboratorio', 'laboratório', 'sangue', 'hemograma', 'bioquimico', 'bioquímico'],
+  'laboratório': ['laboratorio', 'laboratório', 'sangue', 'hemograma', 'bioquimico', 'bioquímico'],
+  'bioquimicos': ['bioquimico', 'bioquímico', 'bioquimica', 'bioquímica', 'glicemia', 'colesterol', 'creatinina'],
+  'bioquímicos': ['bioquimico', 'bioquímico', 'bioquimica', 'bioquímica', 'glicemia', 'colesterol', 'creatinina'],
+};
 
 /**
  * Converte impressos para formato de detecção
@@ -48,6 +73,15 @@ function extractExameKeywords(titulo: string, conteudo: string): string[] {
     'urina', 'eas', 'fezes', 'parasitologico',
     'tsh', 't4', 't3', 'psa', 'hba1c',
     'pcr', 'vhs', 'leucograma', 'plaquetas',
+    // Exame físico e sinais vitais
+    'fisico', 'físico', 'sinais', 'vitais', 'pressao', 'pressão',
+    'temperatura', 'pulso', 'frequencia', 'frequência',
+    'saturacao', 'saturação', 'oximetria', 'ausculta',
+    'palpacao', 'palpação', 'inspecao', 'inspeção',
+    'abdome', 'abdominal', 'torax', 'tórax', 'pulmonar',
+    // Bioquímicos
+    'bioquimico', 'bioquímico', 'bioquimica', 'bioquímica', 'bioquimicos', 'bioquímicos',
+    'laboratorio', 'laboratório',
   ];
   
   for (const examType of examTypes) {
@@ -85,7 +119,7 @@ export function detectExameRequests(
   
   // Verificar se é uma solicitação de exame
   const isExamRequest = EXAM_REQUEST_KEYWORDS.some(keyword => 
-    normalizedMessage.includes(keyword)
+    normalizedMessage.includes(keyword.normalize('NFD').replace(/[\u0300-\u036f]/g, ''))
   );
   
   if (!isExamRequest) {
@@ -95,6 +129,15 @@ export function detectExameRequests(
   const detectedExames: number[] = [];
   const notFound: string[] = [];
   
+  // Expandir aliases na mensagem
+  let expandedKeywords: string[] = [];
+  for (const [alias, keywords] of Object.entries(EXAM_ALIASES)) {
+    const normalizedAlias = alias.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    if (normalizedMessage.includes(normalizedAlias)) {
+      expandedKeywords.push(...keywords.map(k => k.normalize('NFD').replace(/[\u0300-\u036f]/g, '')));
+    }
+  }
+  
   // Procurar exames mencionados
   for (const exame of availableExames) {
     // Pular exames já liberados
@@ -102,11 +145,29 @@ export function detectExameRequests(
       continue;
     }
     
-    const matchCount = exame.keywords.filter(keyword => 
+    // Normalizar keywords do exame
+    const normalizedKeywords = exame.keywords.map(k => 
+      k.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    );
+    
+    // Verificar match direto
+    let matchCount = normalizedKeywords.filter(keyword => 
       normalizedMessage.includes(keyword)
     ).length;
     
-    if (matchCount >= 1) {
+    // Verificar match com aliases expandidos
+    if (matchCount === 0 && expandedKeywords.length > 0) {
+      matchCount = normalizedKeywords.filter(keyword =>
+        expandedKeywords.some(ek => keyword.includes(ek) || ek.includes(keyword))
+      ).length;
+    }
+    
+    // Verificar título do exame diretamente
+    const normalizedTitle = exame.title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const titleWords = normalizedTitle.split(/[\s\-–]+/).filter(w => w.length > 2);
+    const titleMatch = titleWords.some(word => normalizedMessage.includes(word));
+    
+    if (matchCount >= 1 || titleMatch) {
       detectedExames.push(exame.id);
     }
   }
@@ -118,9 +179,13 @@ export function detectExameRequests(
   ];
   
   for (const exam of commonExams) {
-    if (normalizedMessage.includes(exam)) {
+    const normalizedExam = exam.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    if (normalizedMessage.includes(normalizedExam)) {
       const found = availableExames.some(e => 
-        e.keywords.some(k => k.includes(exam) || exam.includes(k))
+        e.keywords.some(k => {
+          const nk = k.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+          return nk.includes(normalizedExam) || normalizedExam.includes(nk);
+        })
       );
       if (!found && !notFound.includes(exam)) {
         notFound.push(exam);
@@ -145,8 +210,8 @@ export function generateExameNotFoundMessage(notFoundExames: string[]): string {
 }
 
 /**
- * Gera mensagem quando exame é liberado
+ * Gera mensagem quando exame é liberado (sem expressões faciais)
  */
 export function generateExameLiberatedMessage(exame: ExameForAI): string {
-  return `*entrega o resultado* Aqui está o ${exame.title}. Pode analisar, doutor(a).`;
+  return `Aqui está o ${exame.title}. Pode analisar, doutor(a).`;
 }

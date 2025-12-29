@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Lock, Unlock, ChevronDown, ChevronUp, FileText, Mic } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ImpressoItem } from "@/types/checklists";
@@ -14,6 +14,21 @@ export function ImpressosComCadeado({
   liberatedExames,
 }: ImpressosComCadeadoProps) {
   const [expandedImpresso, setExpandedImpresso] = useState<number | null>(null);
+  const prevLiberatedRef = useRef<number[]>([]);
+
+  // Auto-expandir quando um novo exame é liberado
+  useEffect(() => {
+    const newlyLiberated = liberatedExames.filter(
+      id => !prevLiberatedRef.current.includes(id)
+    );
+    
+    if (newlyLiberated.length > 0) {
+      // Expandir o último exame liberado
+      setExpandedImpresso(newlyLiberated[newlyLiberated.length - 1]);
+    }
+    
+    prevLiberatedRef.current = liberatedExames;
+  }, [liberatedExames]);
 
   if (impressos.length === 0) return null;
 

@@ -1,10 +1,49 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 
+// API Key hardcoded como fallback
+const FALLBACK_API_KEY = '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';
+
+// Tipos de voz disponíveis na OpenAI
+export type OpenAIVoice = 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer';
+
+// Perfil de voz baseado no paciente
+export interface VoiceProfile {
+  voice: OpenAIVoice;
+  speed: number;
+  description: string;
+}
+
+// Perfis de voz para diferentes tipos de pacientes
+export const VOICE_PROFILES: Record<string, VoiceProfile> = {
+  'female_young': { voice: 'nova', speed: 1.0, description: 'Mulher jovem' },
+  'female_adult': { voice: 'nova', speed: 1.0, description: 'Mulher adulta' },
+  'female_elderly': { voice: 'shimmer', speed: 0.95, description: 'Mulher idosa' },
+  'male_young': { voice: 'echo', speed: 1.0, description: 'Homem jovem' },
+  'male_adult': { voice: 'onyx', speed: 1.0, description: 'Homem adulto' },
+  'male_elderly': { voice: 'onyx', speed: 0.95, description: 'Homem idoso' },
+  'neutral': { voice: 'alloy', speed: 1.0, description: 'Voz neutra' },
+};
+
+export function getVoiceProfileForPatient(
+  gender?: 'male' | 'female',
+  age?: number
+): VoiceProfile {
+  const genderPrefix = gender === 'male' ? 'male' : 'female';
+  
+  if (age !== undefined) {
+    if (age < 30) return VOICE_PROFILES[`${genderPrefix}_young`];
+    if (age >= 60) return VOICE_PROFILES[`${genderPrefix}_elderly`];
+    return VOICE_PROFILES[`${genderPrefix}_adult`];
+  }
+  
+  return VOICE_PROFILES[`${genderPrefix}_adult`];
+}
+
 export interface UseVoiceChatOptions {
   apiKey?: string;
-  voice?: 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer';
+  voice?: OpenAIVoice;
+  speed?: number;
   silenceTimeout?: number;
-  useHDVoice?: boolean; // Usar tts-1-hd para maior qualidade
   onTranscript?: (text: string, isFinal: boolean) => void;
   onSilenceDetected?: () => void;
   onAudioStart?: () => void;
@@ -13,44 +52,38 @@ export interface UseVoiceChatOptions {
 }
 
 export interface UseVoiceChatReturn {
-  // Conversation mode (auto VAD)
   startConversation: () => Promise<void>;
   stopConversation: () => void;
   isConversationActive: boolean;
-  
-  // Manual recording (push-to-talk)
   startRecording: () => Promise<void>;
   stopRecording: () => Promise<string | null>;
   isRecording: boolean;
-  
-  // Playback
   speak: (text: string) => Promise<void>;
   stopSpeaking: () => void;
   isSpeaking: boolean;
-  
-  // State
   isProcessing: boolean;
   isListening: boolean;
   error: string | null;
   hasPermission: boolean;
-  
-  // Transcript
   interimTranscript: string;
   finalTranscript: string;
+}
+
+function getEffectiveApiKey(apiKey?: string): string {
+  return apiKey || import.meta.env.VITE_OPENAI_API_KEY || FALLBACK_API_KEY;
 }
 
 export function useVoiceChat({
   apiKey,
   voice = 'nova',
-  silenceTimeout = 2000,
-  useHDVoice = true, // Usar tts-1-hd por padrão para maior qualidade
+  speed = 1.0,
+  silenceTimeout = 1200, // Reduzido para 1.2 segundos (mais rápido)
   onTranscript,
   onSilenceDetected,
   onAudioStart,
   onAudioEnd,
   onError,
 }: UseVoiceChatOptions = {}): UseVoiceChatReturn {
-  // State
   const [isRecording, setIsRecording] = useState(false);
   const [isConversationActive, setIsConversationActive] = useState(false);
   const [isListening, setIsListening] = useState(false);
@@ -61,43 +94,67 @@ export function useVoiceChat({
   const [interimTranscript, setInterimTranscript] = useState('');
   const [finalTranscript, setFinalTranscript] = useState('');
 
-  // Refs
+  // Refs para controle de estado
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
   const streamRef = useRef<MediaStream | null>(null);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const synthRef = useRef<SpeechSynthesis | null>(null);
-  const isConversationActiveRef = useRef<boolean>(false);
-  const isSpeakingRef = useRef<boolean>(false);
+  const audioElementRef = useRef<HTMLAudioElement | null>(null);
+  const isConversationActiveRef = useRef(false);
+  const isSpeakingRef = useRef(false);
+  const isProcessingRef = useRef(false);
   const silenceTimerRef = useRef<NodeJS.Timeout | null>(null);
   const audioContextRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
   const silenceStartRef = useRef<number>(0);
+  
+  // Controle de fila de áudio para evitar sobreposição
+  const audioQueueRef = useRef<string[]>([]);
+  const isPlayingRef = useRef(false);
+  const currentAudioIdRef = useRef<string | null>(null);
 
-  // Check permission on mount
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      cleanupAll();
+    };
+  }, []);
+
+  const cleanupAll = useCallback(() => {
+    if (silenceTimerRef.current) {
+      clearTimeout(silenceTimerRef.current);
+      silenceTimerRef.current = null;
+    }
+    if (streamRef.current) {
+      streamRef.current.getTracks().forEach(track => track.stop());
+      streamRef.current = null;
+    }
+    if (audioElementRef.current) {
+      audioElementRef.current.pause();
+      audioElementRef.current.src = '';
+      audioElementRef.current = null;
+    }
+    if (audioContextRef.current && audioContextRef.current.state !== 'closed') {
+      audioContextRef.current.close();
+      audioContextRef.current = null;
+    }
+    // Limpar fila de áudio
+    audioQueueRef.current.forEach(url => URL.revokeObjectURL(url));
+    audioQueueRef.current = [];
+    isPlayingRef.current = false;
+  }, []);
+
+  // Check permission
   useEffect(() => {
     navigator.mediaDevices.getUserMedia({ audio: true })
       .then(() => setHasPermission(true))
       .catch(() => setHasPermission(false));
-    
-    synthRef.current = window.speechSynthesis;
-    
-    return () => {
-      if (streamRef.current) {
-        streamRef.current.getTracks().forEach(track => track.stop());
-      }
-      if (audioRef.current) {
-        audioRef.current.pause();
-      }
-      if (audioContextRef.current) {
-        audioContextRef.current.close();
-      }
-    };
   }, []);
 
-  // Transcribe audio using OpenAI Whisper
-  const transcribeWithWhisper = useCallback(async (audioBlob: Blob): Promise<string> => {
-    if (!apiKey) {
+  // Transcrição com Whisper
+  const transcribeAudio = useCallback(async (audioBlob: Blob): Promise<string> => {
+    const effectiveApiKey = getEffectiveApiKey(apiKey);
+    
+    if (!effectiveApiKey) {
       throw new Error('API Key não configurada');
     }
 
@@ -105,59 +162,245 @@ export function useVoiceChat({
     formData.append('file', audioBlob, 'audio.webm');
     formData.append('model', 'whisper-1');
     formData.append('language', 'pt');
+    formData.append('response_format', 'json');
 
     const response = await fetch('https://api.openai.com/v1/audio/transcriptions', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${apiKey}`,
+        'Authorization': `Bearer ${effectiveApiKey}`,
       },
       body: formData,
     });
 
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}));
-      throw new Error(errorData.error?.message || `Erro ${response.status}`);
+      throw new Error(errorData.error?.message || `Erro na transcrição: ${response.status}`);
     }
 
     const data = await response.json();
-    return data.text;
+    return data.text || '';
   }, [apiKey]);
 
-  // Detect silence using audio levels
+  // Reproduzir próximo áudio da fila (sequencial, sem sobreposição)
+  const playNextAudio = useCallback(async () => {
+    // Se já está tocando ou fila vazia, não faz nada
+    if (isPlayingRef.current || audioQueueRef.current.length === 0) {
+      return;
+    }
+
+    isPlayingRef.current = true;
+    const audioUrl = audioQueueRef.current.shift()!;
+    const audioId = Date.now().toString();
+    currentAudioIdRef.current = audioId;
+
+    try {
+      // Criar novo elemento de áudio
+      const audio = new Audio();
+      audioElementRef.current = audio;
+      
+      // Configurar para melhor qualidade
+      audio.preload = 'auto';
+      audio.volume = 1.0;
+
+      await new Promise<void>((resolve, reject) => {
+        const cleanup = () => {
+          audio.oncanplaythrough = null;
+          audio.onended = null;
+          audio.onerror = null;
+          audio.onpause = null;
+        };
+
+        audio.oncanplaythrough = async () => {
+          // Verificar se ainda é o áudio atual
+          if (currentAudioIdRef.current !== audioId) {
+            cleanup();
+            URL.revokeObjectURL(audioUrl);
+            resolve();
+            return;
+          }
+
+          try {
+            setIsSpeaking(true);
+            isSpeakingRef.current = true;
+            onAudioStart?.();
+            await audio.play();
+          } catch (err) {
+            cleanup();
+            reject(err);
+          }
+        };
+
+        audio.onended = () => {
+          cleanup();
+          URL.revokeObjectURL(audioUrl);
+          setIsSpeaking(false);
+          isSpeakingRef.current = false;
+          isPlayingRef.current = false;
+          onAudioEnd?.();
+          resolve();
+          
+          // Próximo áudio mais rápido
+          setTimeout(() => {
+            playNextAudio();
+          }, 100); // Reduzido de 200ms para 100ms
+        };
+
+        audio.onerror = () => {
+          cleanup();
+          URL.revokeObjectURL(audioUrl);
+          isPlayingRef.current = false;
+          setIsSpeaking(false);
+          isSpeakingRef.current = false;
+          reject(new Error('Erro ao reproduzir áudio'));
+        };
+
+        audio.src = audioUrl;
+        audio.load();
+      });
+    } catch (err) {
+      console.error('[TTS] Erro na reprodução:', err);
+      isPlayingRef.current = false;
+      setIsSpeaking(false);
+      isSpeakingRef.current = false;
+      onAudioEnd?.();
+      
+      // Tentar próximo áudio
+      setTimeout(() => playNextAudio(), 100);
+    }
+  }, [onAudioStart, onAudioEnd]);
+
+  // Síntese de voz com OpenAI TTS
+  const speak = useCallback(async (text: string) => {
+    if (!text.trim()) return;
+
+    // Limpar expressões entre asteriscos (ações do paciente)
+    const cleanText = text.replace(/\*[^*]+\*/g, '').trim();
+    if (!cleanText) return;
+
+    // Se já está processando este texto, ignorar
+    if (isProcessingRef.current) {
+      console.log('[TTS] Já processando, aguardando...');
+      return;
+    }
+
+    const effectiveApiKey = getEffectiveApiKey(apiKey);
+    
+    if (!effectiveApiKey || !effectiveApiKey.startsWith('sk-')) {
+      console.error('[TTS] API Key inválida');
+      onError?.('API Key inválida');
+      return;
+    }
+
+    console.log('[TTS] Gerando áudio para:', cleanText.substring(0, 40) + '...');
+    
+    isProcessingRef.current = true;
+    setIsProcessing(true);
+
+    try {
+      const response = await fetch('https://api.openai.com/v1/audio/speech', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${effectiveApiKey}`,
+        },
+        body: JSON.stringify({
+          model: 'tts-1-hd',
+          input: cleanText,
+          voice: voice,
+          speed: speed,
+          response_format: 'mp3',
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.error?.message || `Erro TTS: ${response.status}`);
+      }
+
+      const audioBlob = await response.blob();
+      const audioUrl = URL.createObjectURL(audioBlob);
+      
+      // Adicionar à fila
+      audioQueueRef.current.push(audioUrl);
+      
+      console.log('[TTS] ✅ Áudio adicionado à fila');
+      
+      setIsProcessing(false);
+      isProcessingRef.current = false;
+      
+      // Iniciar reprodução se não estiver tocando
+      if (!isPlayingRef.current) {
+        playNextAudio();
+      }
+    } catch (err) {
+      const errorMsg = err instanceof Error ? err.message : 'Erro ao sintetizar áudio';
+      console.error('[TTS] ❌ Erro:', errorMsg);
+      setError(errorMsg);
+      onError?.(errorMsg);
+      setIsProcessing(false);
+      isProcessingRef.current = false;
+    }
+  }, [apiKey, voice, speed, playNextAudio, onError]);
+
+  // Parar toda reprodução
+  const stopSpeaking = useCallback(() => {
+    currentAudioIdRef.current = null;
+    
+    // Limpar fila
+    audioQueueRef.current.forEach(url => URL.revokeObjectURL(url));
+    audioQueueRef.current = [];
+    isPlayingRef.current = false;
+    
+    // Parar áudio atual
+    if (audioElementRef.current) {
+      audioElementRef.current.pause();
+      audioElementRef.current.src = '';
+      audioElementRef.current = null;
+    }
+    
+    setIsSpeaking(false);
+    isSpeakingRef.current = false;
+    onAudioEnd?.();
+  }, [onAudioEnd]);
+
+
+  // Verificar nível de áudio para detecção de silêncio
   const checkAudioLevel = useCallback(() => {
-    if (!analyserRef.current || !isConversationActiveRef.current) return;
+    if (!analyserRef.current || !isConversationActiveRef.current || isSpeakingRef.current) {
+      return;
+    }
     
     const dataArray = new Uint8Array(analyserRef.current.frequencyBinCount);
     analyserRef.current.getByteFrequencyData(dataArray);
     
-    // Calculate average volume
     const average = dataArray.reduce((a, b) => a + b, 0) / dataArray.length;
-    
-    // Threshold for silence (adjust as needed)
-    const silenceThreshold = 10;
+    const silenceThreshold = 12; // Threshold mais sensível
     
     if (average < silenceThreshold) {
-      // Silence detected
       if (silenceStartRef.current === 0) {
         silenceStartRef.current = Date.now();
       } else if (Date.now() - silenceStartRef.current > silenceTimeout) {
-        // Silence for too long - stop and transcribe
-        if (audioChunksRef.current.length > 0) {
-          stopConversationAndTranscribe();
+        if (audioChunksRef.current.length > 0 && !isProcessingRef.current) {
+          processRecording();
         }
       }
     } else {
-      // Sound detected - reset silence timer
       silenceStartRef.current = 0;
-      setInterimTranscript('Ouvindo...');
+      setInterimTranscript('🎤 Ouvindo...');
     }
   }, [silenceTimeout]);
 
-  // Stop conversation and transcribe
-  const stopConversationAndTranscribe = useCallback(async () => {
+  // Processar gravação e transcrever
+  const processRecording = useCallback(async () => {
     if (!mediaRecorderRef.current || mediaRecorderRef.current.state === 'inactive') {
       return;
     }
+
+    if (isProcessingRef.current) {
+      return;
+    }
+
+    isProcessingRef.current = true;
 
     return new Promise<void>((resolve) => {
       const mediaRecorder = mediaRecorderRef.current!;
@@ -166,8 +409,8 @@ export function useVoiceChat({
         const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
         audioChunksRef.current = [];
 
-        if (audioBlob.size < 1000) {
-          // Too short, restart listening
+        if (audioBlob.size < 2000) {
+          isProcessingRef.current = false;
           if (isConversationActiveRef.current && !isSpeakingRef.current) {
             startRecordingInternal();
           }
@@ -176,34 +419,53 @@ export function useVoiceChat({
         }
 
         setIsListening(false);
-        setInterimTranscript('Transcrevendo...');
+        setInterimTranscript('📝 Transcrevendo...');
         setIsProcessing(true);
 
         try {
-          if (apiKey) {
-            const transcript = await transcribeWithWhisper(audioBlob);
-            if (transcript.trim()) {
-              setFinalTranscript(transcript);
+          const transcript = await transcribeAudio(audioBlob);
+          
+          if (transcript && transcript.trim()) {
+            const cleanTranscript = transcript.trim();
+            
+            // Filtrar transcrições inválidas
+            const invalidPhrases = [
+              'legendas pela comunidade',
+              'amara.org',
+              'subscribed',
+              'subscribe',
+              'obrigado por assistir',
+              'thanks for watching'
+            ];
+            
+            const isInvalid = invalidPhrases.some(phrase => 
+              cleanTranscript.toLowerCase().includes(phrase)
+            );
+            
+            if (!isInvalid && cleanTranscript.length > 2) {
+              setFinalTranscript(cleanTranscript);
               setInterimTranscript('');
-              onTranscript?.(transcript, true);
+              onTranscript?.(cleanTranscript, true);
               onSilenceDetected?.();
             }
           }
         } catch (err) {
           const errorMsg = err instanceof Error ? err.message : 'Erro na transcrição';
+          console.error('[Whisper] Erro:', errorMsg);
           setError(errorMsg);
           onError?.(errorMsg);
         } finally {
           setIsProcessing(false);
+          isProcessingRef.current = false;
           setInterimTranscript('');
           
-          // Restart listening after transcription (if not speaking)
-          if (isConversationActiveRef.current && !isSpeakingRef.current) {
+          // Reiniciar gravação rapidamente após processar
+          if (isConversationActiveRef.current && !isSpeakingRef.current && !isPlayingRef.current) {
             setTimeout(() => {
-              if (isConversationActiveRef.current && !isSpeakingRef.current) {
+              if (isConversationActiveRef.current && !isSpeakingRef.current && !isPlayingRef.current) {
                 startRecordingInternal();
               }
-            }, 500);
+            }, 150); // Reduzido de 500ms para 150ms
           }
         }
         resolve();
@@ -211,11 +473,20 @@ export function useVoiceChat({
 
       mediaRecorder.stop();
     });
-  }, [apiKey, transcribeWithWhisper, onTranscript, onSilenceDetected, onError]);
+  }, [transcribeAudio, onTranscript, onSilenceDetected, onError]);
 
-  // Internal start recording
+  // Iniciar gravação interna
   const startRecordingInternal = useCallback(async () => {
+    // Não iniciar se estiver falando ou processando
+    if (isSpeakingRef.current || isProcessingRef.current || isPlayingRef.current) {
+      return;
+    }
+
     try {
+      if (streamRef.current) {
+        streamRef.current.getTracks().forEach(track => track.stop());
+      }
+
       const stream = await navigator.mediaDevices.getUserMedia({ 
         audio: {
           echoCancellation: true,
@@ -227,18 +498,22 @@ export function useVoiceChat({
       streamRef.current = stream;
       setHasPermission(true);
 
-      // Setup audio analysis for silence detection
+      if (audioContextRef.current && audioContextRef.current.state !== 'closed') {
+        await audioContextRef.current.close();
+      }
+      
       audioContextRef.current = new AudioContext();
       const source = audioContextRef.current.createMediaStreamSource(stream);
       analyserRef.current = audioContextRef.current.createAnalyser();
-      analyserRef.current.fftSize = 256;
+      analyserRef.current.fftSize = 512;
       source.connect(analyserRef.current);
 
-      const mediaRecorder = new MediaRecorder(stream, {
-        mimeType: MediaRecorder.isTypeSupported('audio/webm;codecs=opus') 
-          ? 'audio/webm;codecs=opus' 
-          : 'audio/webm'
-      });
+      let mimeType = 'audio/webm';
+      if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
+        mimeType = 'audio/webm;codecs=opus';
+      }
+
+      const mediaRecorder = new MediaRecorder(stream, { mimeType });
 
       audioChunksRef.current = [];
       silenceStartRef.current = 0;
@@ -250,15 +525,17 @@ export function useVoiceChat({
       };
 
       mediaRecorderRef.current = mediaRecorder;
-      mediaRecorder.start(100);
+      mediaRecorder.start(200);
       setIsListening(true);
-      setInterimTranscript('Ouvindo...');
+      setInterimTranscript('🎤 Ouvindo...');
 
-      // Start silence detection loop
       const checkLoop = () => {
-        if (isConversationActiveRef.current && mediaRecorderRef.current?.state === 'recording') {
+        if (isConversationActiveRef.current && 
+            mediaRecorderRef.current?.state === 'recording' &&
+            !isSpeakingRef.current &&
+            !isPlayingRef.current) {
           checkAudioLevel();
-          silenceTimerRef.current = setTimeout(checkLoop, 100);
+          silenceTimerRef.current = setTimeout(checkLoop, 80); // Verificação mais frequente (80ms)
         }
       };
       checkLoop();
@@ -271,15 +548,17 @@ export function useVoiceChat({
     }
   }, [checkAudioLevel, onError]);
 
-  // Start conversation mode
+  // Iniciar modo conversa
   const startConversation = useCallback(async () => {
     setError(null);
     setInterimTranscript('');
     setFinalTranscript('');
 
-    if (!apiKey) {
-      setError('API Key necessária para transcrição');
-      onError?.('Configure a API Key da OpenAI nas configurações para usar o reconhecimento de voz.');
+    const effectiveApiKey = getEffectiveApiKey(apiKey);
+    
+    if (!effectiveApiKey) {
+      setError('API Key necessária');
+      onError?.('Configure a API Key da OpenAI.');
       return;
     }
 
@@ -289,7 +568,7 @@ export function useVoiceChat({
     await startRecordingInternal();
   }, [apiKey, startRecordingInternal, onError]);
 
-  // Stop conversation mode
+  // Parar modo conversa
   const stopConversation = useCallback(() => {
     isConversationActiveRef.current = false;
     setIsConversationActive(false);
@@ -308,36 +587,28 @@ export function useVoiceChat({
       streamRef.current = null;
     }
     
-    if (audioContextRef.current) {
-      audioContextRef.current.close();
-      audioContextRef.current = null;
-    }
-    
     setIsListening(false);
     setInterimTranscript('');
   }, []);
 
-  // Manual recording (push-to-talk)
+  // Gravação manual
   const startRecording = useCallback(async () => {
     setError(null);
 
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ 
-        audio: {
-          echoCancellation: true,
-          noiseSuppression: true,
-        }
+        audio: { echoCancellation: true, noiseSuppression: true }
       });
       
       streamRef.current = stream;
       setHasPermission(true);
 
-      const mediaRecorder = new MediaRecorder(stream, {
-        mimeType: MediaRecorder.isTypeSupported('audio/webm;codecs=opus') 
-          ? 'audio/webm;codecs=opus' 
-          : 'audio/webm'
-      });
+      let mimeType = 'audio/webm';
+      if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
+        mimeType = 'audio/webm;codecs=opus';
+      }
 
+      const mediaRecorder = new MediaRecorder(stream, { mimeType });
       audioChunksRef.current = [];
 
       mediaRecorder.ondataavailable = (event) => {
@@ -347,9 +618,9 @@ export function useVoiceChat({
       };
 
       mediaRecorderRef.current = mediaRecorder;
-      mediaRecorder.start(100);
+      mediaRecorder.start(200);
       setIsRecording(true);
-      setInterimTranscript('Gravando...');
+      setInterimTranscript('🎤 Gravando...');
     } catch (err) {
       const errorMsg = err instanceof Error ? err.message : 'Erro ao acessar microfone';
       setError(errorMsg);
@@ -358,7 +629,7 @@ export function useVoiceChat({
     }
   }, [onError]);
 
-  // Stop manual recording
+  // Parar gravação manual
   const stopRecording = useCallback(async (): Promise<string | null> => {
     if (!mediaRecorderRef.current || mediaRecorderRef.current.state === 'inactive') {
       setIsRecording(false);
@@ -377,189 +648,41 @@ export function useVoiceChat({
         const audioBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
         audioChunksRef.current = [];
 
-        if (audioBlob.size < 1000) {
+        if (audioBlob.size < 2000) {
           setIsRecording(false);
           setInterimTranscript('');
           resolve(null);
           return;
         }
 
-        if (apiKey) {
-          setIsProcessing(true);
-          setInterimTranscript('Transcrevendo...');
-          try {
-            const transcript = await transcribeWithWhisper(audioBlob);
-            setInterimTranscript('');
+        setIsProcessing(true);
+        setInterimTranscript('📝 Transcrevendo...');
+        
+        try {
+          const transcript = await transcribeAudio(audioBlob);
+          setInterimTranscript('');
+          
+          if (transcript && transcript.trim()) {
             onTranscript?.(transcript, true);
             resolve(transcript);
-          } catch (err) {
-            const errorMsg = err instanceof Error ? err.message : 'Erro na transcrição';
-            setError(errorMsg);
-            onError?.(errorMsg);
+          } else {
             resolve(null);
-          } finally {
-            setIsProcessing(false);
-            setIsRecording(false);
-            setInterimTranscript('');
           }
-        } else {
+        } catch (err) {
+          const errorMsg = err instanceof Error ? err.message : 'Erro na transcrição';
+          setError(errorMsg);
+          onError?.(errorMsg);
+          resolve(null);
+        } finally {
+          setIsProcessing(false);
           setIsRecording(false);
           setInterimTranscript('');
-          resolve(null);
         }
       };
 
       mediaRecorder.stop();
     });
-  }, [apiKey, transcribeWithWhisper, onTranscript, onError]);
-
-  // Speak text using TTS
-  const speak = useCallback(async (text: string) => {
-    if (!text.trim()) return;
-
-    const cleanText = text.replace(/\*[^*]+\*/g, '').trim();
-    if (!cleanText) return;
-
-    // Pause recording while speaking
-    if (isConversationActiveRef.current) {
-      if (silenceTimerRef.current) {
-        clearTimeout(silenceTimerRef.current);
-      }
-      if (mediaRecorderRef.current && mediaRecorderRef.current.state === 'recording') {
-        mediaRecorderRef.current.stop();
-      }
-      if (streamRef.current) {
-        streamRef.current.getTracks().forEach(track => track.stop());
-        streamRef.current = null;
-      }
-      setIsListening(false);
-    }
-
-    // Stop any current playback
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current = null;
-    }
-    synthRef.current?.cancel();
-
-    isSpeakingRef.current = true;
-
-    const resumeListening = () => {
-      isSpeakingRef.current = false;
-      if (isConversationActiveRef.current) {
-        setTimeout(() => {
-          if (isConversationActiveRef.current && !isSpeakingRef.current) {
-            startRecordingInternal();
-          }
-        }, 500);
-      }
-    };
-
-    // Use OpenAI TTS if API key available
-    if (apiKey) {
-      setIsProcessing(true);
-      onAudioStart?.();
-
-      try {
-        const response = await fetch('https://api.openai.com/v1/audio/speech', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${apiKey}`,
-          },
-          body: JSON.stringify({
-            model: useHDVoice ? 'tts-1-hd' : 'tts-1', // HD para maior qualidade
-            input: cleanText,
-            voice: voice,
-            speed: 1.0,
-            response_format: 'mp3',
-          }),
-        });
-
-        if (!response.ok) {
-          throw new Error(`Erro ${response.status}`);
-        }
-
-        const audioBlob = await response.blob();
-        const audioUrl = URL.createObjectURL(audioBlob);
-
-        audioRef.current = new Audio(audioUrl);
-        
-        audioRef.current.onended = () => {
-          setIsSpeaking(false);
-          onAudioEnd?.();
-          URL.revokeObjectURL(audioUrl);
-          resumeListening();
-        };
-
-        audioRef.current.onerror = () => {
-          setIsSpeaking(false);
-          onAudioEnd?.();
-          URL.revokeObjectURL(audioUrl);
-          resumeListening();
-        };
-
-        setIsProcessing(false);
-        setIsSpeaking(true);
-        await audioRef.current.play();
-      } catch (err) {
-        setIsProcessing(false);
-        isSpeakingRef.current = false;
-        const errorMsg = err instanceof Error ? err.message : 'Erro ao sintetizar áudio';
-        setError(errorMsg);
-        onError?.(errorMsg);
-        onAudioEnd?.();
-        resumeListening();
-      }
-    } else {
-      // Fallback to Web Speech API
-      if (!synthRef.current) {
-        resumeListening();
-        return;
-      }
-
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      utterance.lang = 'pt-BR';
-      utterance.rate = 0.9;
-      utterance.pitch = 1;
-
-      const voices = synthRef.current.getVoices();
-      const ptVoice = voices.find(v => v.lang.startsWith('pt'));
-      if (ptVoice) utterance.voice = ptVoice;
-
-      utterance.onstart = () => {
-        setIsSpeaking(true);
-        onAudioStart?.();
-      };
-
-      utterance.onend = () => {
-        setIsSpeaking(false);
-        onAudioEnd?.();
-        resumeListening();
-      };
-
-      utterance.onerror = () => {
-        setIsSpeaking(false);
-        onAudioEnd?.();
-        resumeListening();
-      };
-
-      synthRef.current.speak(utterance);
-    }
-  }, [apiKey, voice, startRecordingInternal, onAudioStart, onAudioEnd, onError]);
-
-  // Stop speaking
-  const stopSpeaking = useCallback(() => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current.currentTime = 0;
-      audioRef.current = null;
-    }
-    synthRef.current?.cancel();
-    setIsSpeaking(false);
-    isSpeakingRef.current = false;
-    onAudioEnd?.();
-  }, [onAudioEnd]);
+  }, [transcribeAudio, onTranscript, onError]);
 
   return {
     startConversation,
