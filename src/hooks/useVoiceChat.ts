@@ -20,10 +20,10 @@ export const VOICE_PROFILES: Record<string, VoiceProfile> = {
 export function getVoiceProfileForPatient(gender?: 'male' | 'female', age?: number): VoiceProfile {
   const g = gender === 'male' ? 'male' : 'female';
   if (age !== undefined) {
-    if (age < 30) return VOICE_PROFILES[`_young`];
-    if (age >= 60) return VOICE_PROFILES[`_elderly`];
+    if (age < 30) return VOICE_PROFILES[g + '_young'];
+    if (age >= 60) return VOICE_PROFILES[g + '_elderly'];
   }
-  return VOICE_PROFILES[`_adult`];
+  return VOICE_PROFILES[g + '_adult'];
 }
 
 function cleanTextForSpeech(text: string): string {
@@ -201,3 +201,4 @@ export function useVoiceChat({
     isProcessing, isListening, error, hasPermission, interimTranscript, startRecording, stopRecording, isRecording, finalTranscript,
   };
 }
+
