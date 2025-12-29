@@ -1,10 +1,7 @@
 // Configuração centralizada para APIs de IA
 
-// API Key hardcoded como fallback (para quando .env não carrega)
-const FALLBACK_API_KEY = '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';
-
 // Chave da API OpenAI
-// Prioridade: 1. localStorage, 2. variável de ambiente, 3. fallback hardcoded
+// Prioridade: 1. localStorage, 2. variável de ambiente
 export function getOpenAIApiKey(): string {
   // Primeiro tenta do localStorage (configurado pelo usuário)
   const localKey = localStorage.getItem('openai_api_key');
@@ -20,13 +17,7 @@ export function getOpenAIApiKey(): string {
     return envKey;
   }
   
-  // Fallback para key hardcoded
-  if (FALLBACK_API_KEY) {
-    console.log('[AI Config] API Key carregada do fallback hardcoded');
-    return FALLBACK_API_KEY;
-  }
-  
-  console.log('[AI Config] Nenhuma API Key encontrada');
+  console.log('[AI Config] Nenhuma API Key encontrada - configure VITE_OPENAI_API_KEY no .env');
   return '';
 }
 
