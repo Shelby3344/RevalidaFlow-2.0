@@ -4,73 +4,61 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { 
   CheckCircle2, Circle, Plus, Trash2, Calendar,
-  TrendingUp, Target, ChevronLeft, ChevronRight
+  Target, ChevronLeft, ChevronRight, Loader2
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useAuth } from "@/hooks/useAuth";
-import { supabase } from "@/lib/supabase";
-
-interface Task {
-  id: string;
-  text: string;
-  completed: boolean;
-  date: string;
-}
+import { useUserData } from "@/hooks/useUserData";
+import { toast } from "sonner";
 
 interface DayData {
   date: string;
-  tasks: Task[];
+  tasks: { id: string; text: string; completed: boolean; date: string }[];
   percentage: number;
 }
 
-const STORAGE_KEY = "produtividade_tasks";
-
 export default function Produtividade() {
-  const { user } = useAuth();
-  const [tasks, setTasks] = useState<Task[]>([]);
+  const { tasks, loadingTasks, addTask, toggleTask, deleteTask, getTasksByDate } = useUserData();
   const [newTask, setNewTask] = useState("");
   const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split("T")[0]);
   const [viewMode, setViewMode] = useState<"dia" | "semana" | "mes">("dia");
+  const [isAdding, setIsAdding] = useState(false);
 
-  // Load tasks from localStorage
-  useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      setTasks(JSON.parse(saved));
-    }
-  }, []);
-
-  // Save tasks to localStorage
-  useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));
-  }, [tasks]);
-
-  const todayTasks = tasks.filter(t => t.date === selectedDate);
+  const todayTasks = getTasksByDate(selectedDate);
   const completedCount = todayTasks.filter(t => t.completed).length;
   const percentage = todayTasks.length > 0 
     ? Math.round((completedCount / todayTasks.length) * 100) 
     : 0;
 
-  const addTask = () => {
+  const handleAddTask = async () => {
     if (!newTask.trim()) return;
-    const task: Task = {
-      id: Date.now().toString(),
-      text: newTask.trim(),
-      completed: false,
-      date: selectedDate,
-    };
-    setTasks(prev => [...prev, task]);
-    setNewTask("");
+    
+    setIsAdding(true);
+    try {
+      await addTask(newTask.trim(), selectedDate);
+      setNewTask("");
+      toast.success("Tarefa adicionada!");
+    } catch (error) {
+      toast.error("Erro ao adicionar tarefa");
+    } finally {
+      setIsAdding(false);
+    }
   };
 
-  const toggleTask = (id: string) => {
-    setTasks(prev => prev.map(t => 
-      t.id === id ? { ...t, completed: !t.completed } : t
-    ));
+  const handleToggleTask = async (id: string) => {
+    try {
+      await toggleTask(id);
+    } catch (error) {
+      toast.error("Erro ao atualizar tarefa");
+    }
   };
 
-  const deleteTask = (id: string) => {
-    setTasks(prev => prev.filter(t => t.id !== id));
+  const handleDeleteTask = async (id: string) => {
+    try {
+      await deleteTask(id);
+      toast.success("Tarefa removida");
+    } catch (error) {
+      toast.error("Erro ao remover tarefa");
+    }
   };
 
   const navigateDate = (direction: number) => {
@@ -104,7 +92,7 @@ export default function Produtividade() {
       const date = new Date(weekStart);
       date.setDate(date.getDate() + i);
       const dateStr = date.toISOString().split("T")[0];
-      const dayTasks = tasks.filter(t => t.date === dateStr);
+      const dayTasks = getTasksByDate(dateStr);
       const completed = dayTasks.filter(t => t.completed).length;
       days.push({
         date: dateStr,
@@ -127,7 +115,7 @@ export default function Produtividade() {
     
     for (let day = 1; day <= daysInMonth; day++) {
       const dateStr = `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
-      const dayTasks = tasks.filter(t => t.date === dateStr);
+      const dayTasks = getTasksByDate(dateStr);
       totalTasks += dayTasks.length;
       completedTasks += dayTasks.filter(t => t.completed).length;
     }
@@ -154,6 +142,16 @@ export default function Produtividade() {
     if (pct >= 50) return "bg-amber-500";
     return "bg-red-500";
   };
+
+  if (loadingTasks) {
+    return (
+      <AppLayout>
+        <div className="flex items-center justify-center h-96">
+          <Loader2 className="w-8 h-8 animate-spin text-primary" />
+        </div>
+      </AppLayout>
+    );
+  }
 
   return (
     <AppLayout>
@@ -264,12 +262,17 @@ export default function Produtividade() {
           <Input
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && addTask()}
+            onKeyDown={(e) => e.key === "Enter" && handleAddTask()}
             placeholder="Adicionar nova tarefa..."
             className="flex-1"
+            disabled={isAdding}
           />
-          <Button onClick={addTask} className="gap-2">
-            <Plus className="w-4 h-4" />
+          <Button onClick={handleAddTask} className="gap-2" disabled={isAdding}>
+            {isAdding ? (
+              <Loader2 className="w-4 h-4 animate-spin" />
+            ) : (
+              <Plus className="w-4 h-4" />
+            )}
             Adicionar
           </Button>
         </div>
@@ -294,7 +297,7 @@ export default function Produtividade() {
                 )}
               >
                 <button
-                  onClick={() => toggleTask(task.id)}
+                  onClick={() => handleToggleTask(task.id)}
                   className="flex-shrink-0"
                 >
                   {task.completed ? (
@@ -310,7 +313,7 @@ export default function Produtividade() {
                   {task.text}
                 </span>
                 <button
-                  onClick={() => deleteTask(task.id)}
+                  onClick={() => handleDeleteTask(task.id)}
                   className="text-muted-foreground hover:text-red-500 transition-colors"
                 >
                   <Trash2 className="w-4 h-4" />
@@ -384,7 +387,7 @@ export default function Produtividade() {
                 
                 for (let day = 1; day <= daysInMonth; day++) {
                   const dateStr = `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
-                  const dayTasks = tasks.filter(t => t.date === dateStr);
+                  const dayTasks = getTasksByDate(dateStr);
                   const completed = dayTasks.filter(t => t.completed).length;
                   const pct = dayTasks.length > 0 ? Math.round((completed / dayTasks.length) * 100) : -1;
                   const isToday = dateStr === today;

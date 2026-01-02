@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/hooks/useTheme";
 import { UserProfileProvider } from "@/hooks/useUserProfile";
 import { AuthProvider } from "@/hooks/useAuth";
+import { ProtectedRoute } from "@/components/auth/ProtectedRoute";
 import LandingPage from "./pages/LandingPage";
 import Dashboard from "./pages/Dashboard";
 import Checklists from "./pages/Checklists";
@@ -43,38 +44,43 @@ const App = () => (
             <Toaster />
             <Sonner />
             <BrowserRouter>
-            <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/checklists" element={<Checklists />} />
-            <Route path="/checklists/execucao/:id" element={<ChecklistExecution />} />
-            <Route path="/collaborative/:roomId" element={<CollaborativeRoom />} />
-            <Route path="/avaliacao/:sessionCode" element={<AvaliacaoAvaliador />} />
-            <Route path="/avaliacao/participar/:sessionCode" element={<AvaliacaoAvaliado />} />
-            <Route path="/treino-ia/:checklistId" element={<TreinoIA />} />
-            <Route path="/treino-ia-completo/:checklistId" element={<TreinoIACompleto />} />
-            <Route path="/checklists/parceiros" element={<Checklists />} />
-            <Route path="/flashcards" element={<FlashcardsPage />} />
-            <Route path="/flashcards/revisao" element={<FlashcardsPage />} />
-            <Route path="/resumos" element={<PenseResumos />} />
-            <Route path="/cronograma" element={<CronogramaCalendar />} />
-            <Route path="/entrar" element={<Login />} />
-            <Route path="/live" element={<LiveParceiros />} />
-            <Route path="/novidades" element={<Novidades />} />
-            <Route path="/aulas" element={<Aulas />} />
-            <Route path="/desempenhos" element={<MeusDesempenhos />} />
-            <Route path="/produtividade" element={<Produtividade />} />
-            <Route path="/analytics" element={<Analytics />} />
-            <Route path="/historico/checklist" element={<HistoricoChecklist />} />
-            <Route path="/historico/flashcard" element={<HistoricoChecklist />} />
-            <Route path="/mentorados" element={<Mentorados />} />
-            <Route path="/feedback" element={<Feedback />} />
-            <Route path="/suporte" element={<Suporte />} />
-            <Route path="/perfil" element={<Perfil />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </BrowserRouter>
+              <Routes>
+                {/* Rotas Públicas */}
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/entrar" element={<Login />} />
+                
+                {/* Rotas Protegidas */}
+                <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+                <Route path="/checklists" element={<ProtectedRoute><Checklists /></ProtectedRoute>} />
+                <Route path="/checklists/execucao/:id" element={<ProtectedRoute><ChecklistExecution /></ProtectedRoute>} />
+                <Route path="/checklists/parceiros" element={<ProtectedRoute><Checklists /></ProtectedRoute>} />
+                <Route path="/collaborative/:roomId" element={<ProtectedRoute><CollaborativeRoom /></ProtectedRoute>} />
+                <Route path="/avaliacao/:sessionCode" element={<ProtectedRoute><AvaliacaoAvaliador /></ProtectedRoute>} />
+                <Route path="/avaliacao/participar/:sessionCode" element={<ProtectedRoute><AvaliacaoAvaliado /></ProtectedRoute>} />
+                <Route path="/treino-ia/:checklistId" element={<ProtectedRoute><TreinoIA /></ProtectedRoute>} />
+                <Route path="/treino-ia-completo/:checklistId" element={<ProtectedRoute><TreinoIACompleto /></ProtectedRoute>} />
+                <Route path="/flashcards" element={<ProtectedRoute><FlashcardsPage /></ProtectedRoute>} />
+                <Route path="/flashcards/revisao" element={<ProtectedRoute><FlashcardsPage /></ProtectedRoute>} />
+                <Route path="/resumos" element={<ProtectedRoute><PenseResumos /></ProtectedRoute>} />
+                <Route path="/cronograma" element={<ProtectedRoute><CronogramaCalendar /></ProtectedRoute>} />
+                <Route path="/live" element={<ProtectedRoute><LiveParceiros /></ProtectedRoute>} />
+                <Route path="/novidades" element={<ProtectedRoute><Novidades /></ProtectedRoute>} />
+                <Route path="/aulas" element={<ProtectedRoute><Aulas /></ProtectedRoute>} />
+                <Route path="/desempenhos" element={<ProtectedRoute><MeusDesempenhos /></ProtectedRoute>} />
+                <Route path="/produtividade" element={<ProtectedRoute><Produtividade /></ProtectedRoute>} />
+                <Route path="/analytics" element={<ProtectedRoute><Analytics /></ProtectedRoute>} />
+                <Route path="/historico/checklist" element={<ProtectedRoute><HistoricoChecklist /></ProtectedRoute>} />
+                <Route path="/historico/flashcard" element={<ProtectedRoute><HistoricoChecklist /></ProtectedRoute>} />
+                <Route path="/mentorados" element={<ProtectedRoute><Mentorados /></ProtectedRoute>} />
+                <Route path="/feedback" element={<ProtectedRoute><Feedback /></ProtectedRoute>} />
+                <Route path="/suporte" element={<ProtectedRoute><Suporte /></ProtectedRoute>} />
+                <Route path="/perfil" element={<ProtectedRoute><Perfil /></ProtectedRoute>} />
+                
+                {/* 404 */}
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </BrowserRouter>
           </TooltipProvider>
         </UserProfileProvider>
       </AuthProvider>
