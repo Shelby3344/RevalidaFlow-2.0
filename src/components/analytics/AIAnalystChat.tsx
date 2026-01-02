@@ -51,6 +51,29 @@ const suggestedQuestions = [
   "Monte um plano de estudos para mim",
 ];
 
+// Função para converter markdown em HTML
+function formatMessage(text: string): string {
+  return text
+    // Negrito: **texto** ou __texto__
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/__(.+?)__/g, '<strong>$1</strong>')
+    // Itálico: *texto* ou _texto_
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/_(.+?)_/g, '<em>$1</em>')
+    // Quebras de linha
+    .replace(/\n/g, '<br/>');
+}
+
+// Componente para renderizar mensagem formatada
+function FormattedMessage({ content, className }: { content: string; className?: string }) {
+  return (
+    <p 
+      className={cn("text-sm", className)}
+      dangerouslySetInnerHTML={{ __html: formatMessage(content) }}
+    />
+  );
+}
+
 
 function generateSystemPrompt(stats: UserStats): string {
   const areasText = stats.areaStats
@@ -267,7 +290,10 @@ Como posso te ajudar hoje? Posso analisar suas áreas de dificuldade, sugerir um
                       ? "bg-primary text-primary-foreground rounded-tr-sm"
                       : "bg-card border border-border rounded-tl-sm"
                   )}>
-                    <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                    <FormattedMessage 
+                      content={message.content} 
+                      className={message.role === "user" ? "text-primary-foreground" : ""}
+                    />
                     <p className={cn(
                       "text-[10px] mt-1",
                       message.role === "user" ? "text-primary-foreground/70" : "text-muted-foreground"
