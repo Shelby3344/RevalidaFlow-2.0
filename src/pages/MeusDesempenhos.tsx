@@ -26,6 +26,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/hooks/useAuth";
+import { AIAnalystChat } from "@/components/analytics/AIAnalystChat";
 
 // Types
 interface AreaStats {
@@ -223,67 +224,15 @@ function AreaCard({ area }: { area: AreaStats }) {
   );
 }
 
-// Componente de IA Insights
-function AIInsightsCard({ isLoading, insights }: { isLoading: boolean; insights: string[] }) {
-  return (
-    <Card className="border-primary/20 bg-gradient-to-br from-primary/5 to-transparent">
-      <CardHeader className="pb-3">
-        <CardTitle className="flex items-center gap-2 text-lg">
-          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
-            <Brain className="w-4 h-4 text-primary" />
-          </div>
-          Análise da IA
-          <Badge variant="secondary" className="ml-auto">Beta</Badge>
-        </CardTitle>
-      </CardHeader>
-      <CardContent>
-        {isLoading ? (
-          <div className="flex items-center justify-center py-8">
-            <Loader2 className="w-6 h-6 animate-spin text-primary" />
-            <span className="ml-2 text-muted-foreground">Analisando seus dados...</span>
-          </div>
-        ) : (
-          <div className="space-y-3">
-            {insights.map((insight, index) => (
-              <div key={index} className="flex gap-3 p-3 rounded-lg bg-card/50 border border-border/50">
-                <Sparkles className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                <p className="text-sm text-foreground/90">{insight}</p>
-              </div>
-            ))}
-          </div>
-        )}
-      </CardContent>
-    </Card>
-  );
-}
-
-
 // Componente Principal
 export default function MeusDesempenhos() {
   const { user } = useAuth();
   const [selectedPeriod, setSelectedPeriod] = useState("30d");
-  const [isLoadingAI, setIsLoadingAI] = useState(true);
-  const [aiInsights, setAiInsights] = useState<string[]>([]);
   
   // Calcular estatísticas gerais
   const totalEstacoes = mockAreaStats.reduce((acc, a) => acc + a.estacoes, 0);
   const mediaGeral = mockAreaStats.reduce((acc, a) => acc + a.media, 0) / mockAreaStats.length;
   const tempoTotal = mockWeeklyActivity.reduce((acc, d) => acc + d.tempo, 0);
-  
-  // Simular análise da IA
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setAiInsights([
-        "📈 Sua média em Pediatria (7.9) está 16% acima da média da plataforma. Continue assim!",
-        "⚠️ Você tem dificuldade em Ginecologia (6.4). Recomendo focar em casos de Colestase e Pré-eclâmpsia.",
-        "🎯 Seu ponto fraco é Laboratório (58%). Pratique mais interpretação de exames.",
-        "💡 Você treina mais às quintas-feiras. Considere distribuir melhor ao longo da semana.",
-        "🏆 Você está no top 25% dos usuários em Preventiva. Parabéns!"
-      ]);
-      setIsLoadingAI(false);
-    }, 2000);
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <AppLayout>
@@ -638,8 +587,17 @@ export default function MeusDesempenhos() {
         </div>
 
 
-        {/* AI Insights */}
-        <AIInsightsCard isLoading={isLoadingAI} insights={aiInsights} />
+        {/* AI Chat */}
+        <AIAnalystChat 
+          userStats={{
+            mediaGeral,
+            totalEstacoes,
+            tempoEstudo: tempoTotal,
+            areaStats: mockAreaStats.map(a => ({ area: a.area, media: a.media, estacoes: a.estacoes })),
+            categoryPerformance: mockCategoryPerformance.map(c => ({ category: c.category, percentage: c.percentage })),
+            weakPoints: mockWeakPoints.map(w => ({ title: w.title, score: w.score, area: w.area })),
+          }}
+        />
 
         {/* Atividade Semanal */}
         <Card>
