@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { useAuth } from "@/hooks/useAuth";
 import { 
   Brain, 
   CheckCircle2, 
@@ -144,7 +145,15 @@ function AnimatedStat({ value, label, suffix = "" }: { value: number; label: str
 
 export default function LandingPage() {
   const navigate = useNavigate();
+  const { user, loading } = useAuth();
   const [scrollY, setScrollY] = useState(0);
+
+  // Redirect to dashboard if user is already logged in
+  useEffect(() => {
+    if (!loading && user) {
+      navigate("/dashboard");
+    }
+  }, [user, loading, navigate]);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
