@@ -1,13 +1,13 @@
 import { useState, useRef, useEffect } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { 
   Brain, Send, Loader2, Sparkles, User, Bot, 
-  TrendingUp, Target, AlertTriangle, Lightbulb,
-  ChevronDown, ChevronUp, MessageSquare
+  TrendingUp, Target, Lightbulb,
+  Zap, Crown, Star
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -42,38 +42,33 @@ interface AIAnalystChatProps {
   userStats: UserStats;
 }
 
+
 const suggestedQuestions = [
-  "Onde preciso melhorar mais?",
-  "Qual área devo focar essa semana?",
-  "Como posso aumentar minha média?",
-  "Analise meu desempenho geral",
-  "Quais são meus pontos fortes?",
-  "Monte um plano de estudos para mim",
+  { icon: Target, text: "Onde preciso melhorar?", color: "text-red-400" },
+  { icon: TrendingUp, text: "Como aumentar minha média?", color: "text-green-400" },
+  { icon: Lightbulb, text: "Monte um plano de estudos", color: "text-yellow-400" },
+  { icon: Star, text: "Quais meus pontos fortes?", color: "text-blue-400" },
 ];
 
 // Função para converter markdown em HTML
 function formatMessage(text: string): string {
   return text
-    // Negrito: **texto** ou __texto__
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/__(.+?)__/g, '<strong>$1</strong>')
-    // Itálico: *texto* ou _texto_
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-primary font-semibold">$1</strong>')
+    .replace(/__(.+?)__/g, '<strong class="text-primary font-semibold">$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     .replace(/_(.+?)_/g, '<em>$1</em>')
-    // Quebras de linha
     .replace(/\n/g, '<br/>');
 }
 
 // Componente para renderizar mensagem formatada
 function FormattedMessage({ content, className }: { content: string; className?: string }) {
   return (
-    <p 
-      className={cn("text-sm", className)}
+    <div 
+      className={cn("text-sm leading-relaxed", className)}
       dangerouslySetInnerHTML={{ __html: formatMessage(content) }}
     />
   );
 }
-
 
 function generateSystemPrompt(stats: UserStats): string {
   const areasText = stats.areaStats
@@ -116,14 +111,15 @@ REGRAS:
 7. Considere que a nota de aprovação no Revalida é geralmente 6.0
 8. Responda em português brasileiro
 9. Mantenha respostas concisas (máximo 3-4 parágrafos)
-10. Se o estudante perguntar algo fora do contexto de estudos, redirecione educadamente`;
+10. Use **negrito** para destacar informações importantes
+11. Se o estudante perguntar algo fora do contexto de estudos, redirecione educadamente`;
 }
+
 
 export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [isExpanded, setIsExpanded] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -133,23 +129,6 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
     }
   }, [messages]);
-
-  // Initial greeting
-  useEffect(() => {
-    if (messages.length === 0 && isExpanded) {
-      const greeting: Message = {
-        id: "greeting",
-        role: "assistant",
-        content: `Olá! 👋 Sou seu mentor de estudos para o Revalida. 
-
-Analisei seus dados e vi que você tem uma média geral de **${userStats.mediaGeral.toFixed(1)}** com **${userStats.totalEstacoes} estações** realizadas.
-
-Como posso te ajudar hoje? Posso analisar suas áreas de dificuldade, sugerir um plano de estudos ou responder dúvidas sobre sua preparação.`,
-        timestamp: new Date(),
-      };
-      setMessages([greeting]);
-    }
-  }, [isExpanded, userStats]);
 
   const sendMessage = async (messageText: string) => {
     if (!messageText.trim() || isLoading) return;
@@ -179,7 +158,7 @@ Como posso te ajudar hoje? Posso analisar suas áreas de dificuldade, sugerir um
           })),
           model: "gpt-4o-mini",
           temperature: 0.7,
-          max_tokens: 500,
+          max_tokens: 600,
         }),
       });
 
@@ -189,7 +168,6 @@ Como posso te ajudar hoje? Posso analisar suas áreas de dificuldade, sugerir um
         const data = await response.json();
         assistantContent = data.content;
       } else {
-        // Fallback local response
         assistantContent = generateLocalResponse(messageText, userStats);
       }
 
@@ -215,7 +193,6 @@ Como posso te ajudar hoje? Posso analisar suas áreas de dificuldade, sugerir um
     }
   };
 
-
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
@@ -223,99 +200,164 @@ Como posso te ajudar hoje? Posso analisar suas áreas de dificuldade, sugerir um
     }
   };
 
-  const handleSuggestedQuestion = (question: string) => {
-    sendMessage(question);
-  };
-
   return (
-    <Card className={cn(
-      "border-primary/20 transition-all duration-300",
-      isExpanded ? "bg-gradient-to-br from-primary/5 to-transparent" : ""
-    )}>
-      <CardHeader 
-        className="pb-3 cursor-pointer"
-        onClick={() => setIsExpanded(!isExpanded)}
-      >
-        <CardTitle className="flex items-center justify-between">
-          <div className="flex items-center gap-2 text-lg">
-            <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
-              <Brain className="w-4 h-4 text-primary" />
+    <div className="relative">
+      {/* Glow Effect Background */}
+      <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-500 to-cyan-500 rounded-2xl blur-lg opacity-20 animate-pulse" />
+      
+      <Card className="relative overflow-hidden border-0 bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900 shadow-2xl">
+        {/* Premium Header */}
+        <div className="relative px-6 py-5 border-b border-white/10">
+          {/* Animated gradient line */}
+          <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-purple-500 to-transparent" />
+          
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              {/* Animated AI Icon */}
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl blur-md opacity-60 animate-pulse" />
+                <div className="relative w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 via-pink-500 to-cyan-500 flex items-center justify-center shadow-lg">
+                  <Brain className="w-6 h-6 text-white" />
+                </div>
+              </div>
+              
+              <div>
+                <div className="flex items-center gap-2">
+                  <h2 className="text-xl font-bold text-white">Mentor IA</h2>
+                  <Badge className="bg-gradient-to-r from-amber-500 to-orange-500 text-white border-0 text-[10px] px-2">
+                    <Crown className="w-3 h-3 mr-1" />
+                    PRO
+                  </Badge>
+                </div>
+                <p className="text-sm text-white/60">Seu assistente pessoal de estudos</p>
+              </div>
             </div>
-            Mentor IA
-            <Badge variant="secondary" className="ml-2">Chat</Badge>
+            
+            <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-green-500/20 border border-green-500/30">
+                <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                <span className="text-xs text-green-400 font-medium">Online</span>
+              </div>
+            </div>
           </div>
-          <Button variant="ghost" size="icon" className="h-8 w-8">
-            {isExpanded ? (
-              <ChevronUp className="w-4 h-4" />
-            ) : (
-              <ChevronDown className="w-4 h-4" />
-            )}
-          </Button>
-        </CardTitle>
-        {!isExpanded && (
-          <p className="text-sm text-muted-foreground mt-1">
-            Clique para conversar com seu mentor de estudos
-          </p>
-        )}
-      </CardHeader>
+        </div>
 
-      {isExpanded && (
-        <CardContent className="space-y-4">
+
+        <CardContent className="p-0">
           {/* Messages Area */}
-          <ScrollArea className="h-[350px] pr-4" ref={scrollRef}>
-            <div className="space-y-4">
-              {messages.map((message) => (
-                <div
-                  key={message.id}
-                  className={cn(
-                    "flex gap-3",
-                    message.role === "user" ? "flex-row-reverse" : ""
-                  )}
-                >
-                  <div className={cn(
-                    "w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0",
-                    message.role === "user" 
-                      ? "bg-primary text-primary-foreground" 
-                      : "bg-gradient-to-br from-purple-500 to-pink-500 text-white"
-                  )}>
-                    {message.role === "user" ? (
-                      <User className="w-4 h-4" />
-                    ) : (
-                      <Bot className="w-4 h-4" />
-                    )}
+          <ScrollArea className="h-[400px]" ref={scrollRef}>
+            <div className="p-6 space-y-4">
+              {messages.length === 0 ? (
+                /* Welcome State */
+                <div className="text-center py-8">
+                  <div className="relative inline-block mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-xl opacity-30 animate-pulse" />
+                    <div className="relative w-20 h-20 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-white/10 flex items-center justify-center">
+                      <Sparkles className="w-10 h-10 text-purple-400" />
+                    </div>
                   </div>
-                  <div className={cn(
-                    "max-w-[80%] rounded-2xl px-4 py-3",
-                    message.role === "user"
-                      ? "bg-primary text-primary-foreground rounded-tr-sm"
-                      : "bg-card border border-border rounded-tl-sm"
-                  )}>
-                    <FormattedMessage 
-                      content={message.content} 
-                      className={message.role === "user" ? "text-primary-foreground" : ""}
-                    />
-                    <p className={cn(
-                      "text-[10px] mt-1",
-                      message.role === "user" ? "text-primary-foreground/70" : "text-muted-foreground"
-                    )}>
-                      {message.timestamp.toLocaleTimeString("pt-BR", { 
-                        hour: "2-digit", 
-                        minute: "2-digit" 
-                      })}
-                    </p>
+                  
+                  <h3 className="text-lg font-semibold text-white mb-2">
+                    Olá! Sou seu Mentor de Estudos 👋
+                  </h3>
+                  <p className="text-white/60 text-sm max-w-md mx-auto mb-6">
+                    Analiso seus dados de desempenho e te ajudo a identificar onde focar seus estudos para maximizar sua aprovação no Revalida.
+                  </p>
+                  
+                  {/* Quick Stats */}
+                  <div className="flex justify-center gap-4 mb-8">
+                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10">
+                      <p className="text-2xl font-bold text-white">{userStats.mediaGeral.toFixed(1)}</p>
+                      <p className="text-xs text-white/50">Média Geral</p>
+                    </div>
+                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10">
+                      <p className="text-2xl font-bold text-white">{userStats.totalEstacoes}</p>
+                      <p className="text-xs text-white/50">Estações</p>
+                    </div>
+                  </div>
+                  
+                  {/* Suggested Questions */}
+                  <p className="text-xs text-white/40 mb-3 flex items-center justify-center gap-1">
+                    <Zap className="w-3 h-3" />
+                    Perguntas sugeridas
+                  </p>
+                  <div className="grid grid-cols-2 gap-2 max-w-md mx-auto">
+                    {suggestedQuestions.map((q, index) => (
+                      <button
+                        key={index}
+                        onClick={() => sendMessage(q.text)}
+                        disabled={isLoading}
+                        className="group flex items-center gap-2 p-3 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-purple-500/50 transition-all duration-300 text-left"
+                      >
+                        <q.icon className={cn("w-4 h-4 flex-shrink-0", q.color)} />
+                        <span className="text-xs text-white/80 group-hover:text-white">{q.text}</span>
+                      </button>
+                    ))}
                   </div>
                 </div>
-              ))}
+              ) : (
+                /* Chat Messages */
+                messages.map((message) => (
+                  <div
+                    key={message.id}
+                    className={cn(
+                      "flex gap-3",
+                      message.role === "user" ? "flex-row-reverse" : ""
+                    )}
+                  >
+                    {/* Avatar */}
+                    <div className={cn(
+                      "w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg",
+                      message.role === "user" 
+                        ? "bg-gradient-to-br from-cyan-500 to-blue-500" 
+                        : "bg-gradient-to-br from-purple-500 to-pink-500"
+                    )}>
+                      {message.role === "user" ? (
+                        <User className="w-4 h-4 text-white" />
+                      ) : (
+                        <Bot className="w-4 h-4 text-white" />
+                      )}
+                    </div>
+                    
+                    {/* Message Bubble */}
+                    <div className={cn(
+                      "max-w-[80%] rounded-2xl px-4 py-3 shadow-lg",
+                      message.role === "user"
+                        ? "bg-gradient-to-br from-cyan-500 to-blue-600 text-white rounded-tr-sm"
+                        : "bg-white/10 backdrop-blur-sm border border-white/10 rounded-tl-sm"
+                    )}>
+                      <FormattedMessage 
+                        content={message.content} 
+                        className={message.role === "user" ? "text-white" : "text-white/90"}
+                      />
+                      <p className={cn(
+                        "text-[10px] mt-2 opacity-60",
+                        message.role === "user" ? "text-white" : "text-white"
+                      )}>
+                        {message.timestamp.toLocaleTimeString("pt-BR", { 
+                          hour: "2-digit", 
+                          minute: "2-digit" 
+                        })}
+                      </p>
+                    </div>
+                  </div>
+                ))
+              )}
 
+              {/* Loading State */}
               {isLoading && (
                 <div className="flex gap-3">
-                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
                     <Bot className="w-4 h-4 text-white" />
                   </div>
-                  <div className="bg-card border border-border rounded-2xl rounded-tl-sm px-4 py-3">
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/10 rounded-2xl rounded-tl-sm px-4 py-3">
                     <div className="flex items-center gap-2">
-                      <Loader2 className="w-4 h-4 animate-spin text-primary" />
-                      <span className="text-sm text-muted-foreground">Analisando...</span>
+                      <div className="flex gap-1">
+                        <div className="w-2 h-2 rounded-full bg-purple-400 animate-bounce" style={{ animationDelay: "0ms" }} />
+                        <div className="w-2 h-2 rounded-full bg-pink-400 animate-bounce" style={{ animationDelay: "150ms" }} />
+                        <div className="w-2 h-2 rounded-full bg-cyan-400 animate-bounce" style={{ animationDelay: "300ms" }} />
+                      </div>
+                      <span className="text-sm text-white/60">Analisando seus dados...</span>
                     </div>
                   </div>
                 </div>
@@ -323,75 +365,58 @@ Como posso te ajudar hoje? Posso analisar suas áreas de dificuldade, sugerir um
             </div>
           </ScrollArea>
 
-          {/* Suggested Questions */}
-          {messages.length <= 1 && (
-            <div className="space-y-2">
-              <p className="text-xs text-muted-foreground flex items-center gap-1">
-                <Lightbulb className="w-3 h-3" />
-                Sugestões de perguntas:
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {suggestedQuestions.map((question, index) => (
-                  <Button
-                    key={index}
-                    variant="outline"
-                    size="sm"
-                    className="text-xs h-7"
-                    onClick={() => handleSuggestedQuestion(question)}
-                    disabled={isLoading}
-                  >
-                    {question}
-                  </Button>
-                ))}
-              </div>
-            </div>
-          )}
 
           {/* Input Area */}
-          <div className="flex gap-2">
-            <Input
-              ref={inputRef}
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyPress={handleKeyPress}
-              placeholder="Pergunte sobre seu desempenho..."
-              disabled={isLoading}
-              className="flex-1"
-            />
-            <Button 
-              onClick={() => sendMessage(input)}
-              disabled={!input.trim() || isLoading}
-              size="icon"
-            >
-              {isLoading ? (
-                <Loader2 className="w-4 h-4 animate-spin" />
-              ) : (
-                <Send className="w-4 h-4" />
-              )}
-            </Button>
+          <div className="p-4 border-t border-white/10 bg-black/20">
+            <div className="flex gap-3">
+              <div className="flex-1 relative">
+                <Input
+                  ref={inputRef}
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyDown={handleKeyPress}
+                  placeholder="Pergunte sobre seu desempenho..."
+                  disabled={isLoading}
+                  className="w-full bg-white/5 border-white/10 text-white placeholder:text-white/40 focus:border-purple-500/50 focus:ring-purple-500/20 pr-12 h-12 rounded-xl"
+                />
+              </div>
+              <Button 
+                onClick={() => sendMessage(input)}
+                disabled={!input.trim() || isLoading}
+                className="h-12 w-12 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 border-0 shadow-lg shadow-purple-500/25"
+              >
+                {isLoading ? (
+                  <Loader2 className="w-5 h-5 animate-spin" />
+                ) : (
+                  <Send className="w-5 h-5" />
+                )}
+              </Button>
+            </div>
+            
+            {/* Powered by */}
+            <div className="flex items-center justify-center gap-2 mt-3">
+              <span className="text-[10px] text-white/30">Powered by</span>
+              <span className="text-[10px] font-medium bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">GPT-4</span>
+            </div>
           </div>
         </CardContent>
-      )}
-    </Card>
+      </Card>
+    </div>
   );
 }
-
 
 // Fallback local response generator
 function generateLocalResponse(message: string, stats: UserStats): string {
   const lowerMsg = message.toLowerCase();
   
-  // Find weakest area
   const weakestArea = stats.areaStats.reduce((min, area) => 
     area.media < min.media ? area : min
   );
   
-  // Find strongest area
   const strongestArea = stats.areaStats.reduce((max, area) => 
     area.media > max.media ? area : max
   );
   
-  // Find weakest category
   const weakestCategory = stats.categoryPerformance.reduce((min, cat) => 
     cat.percentage < min.percentage ? cat : min
   );
@@ -404,25 +429,30 @@ function generateLocalResponse(message: string, stats: UserStats): string {
 📋 Na categoria de avaliação, você precisa focar em **${weakestCategory.category}** (${weakestCategory.percentage}%).
 
 💡 **Sugestão:** Refaça as estações com nota abaixo de 5.0, especialmente:
-${stats.weakPoints.slice(0, 3).map(w => `- ${w.title} (nota ${w.score.toFixed(1)})`).join("\n")}
+${stats.weakPoints.slice(0, 3).map(w => `• ${w.title} (nota ${w.score.toFixed(1)})`).join("\n")}
 
 Quer que eu monte um plano de estudos focado nessas áreas?`;
   }
 
-  if (lowerMsg.includes("focar") || lowerMsg.includes("priorizar") || lowerMsg.includes("semana")) {
-    return `🎯 **Prioridades para esta semana:**
+  if (lowerMsg.includes("plano") || lowerMsg.includes("cronograma") || lowerMsg.includes("estudos")) {
+    return `📅 **Plano de Estudos Personalizado:**
 
-1. **${weakestArea.area}** - Sua área mais fraca (média ${weakestArea.media.toFixed(1)})
-   - Faça pelo menos 3 estações novas
-   - Revise os conceitos teóricos
+**Segunda a Sexta:**
+🔴 **${weakestArea.area}** - 2 estações/dia (prioridade máxima)
+🟡 Outras áreas - 1 estação/dia
 
-2. **${weakestCategory.category}** - Categoria com menor desempenho (${weakestCategory.percentage}%)
-   - Pratique especificamente essa etapa nas estações
+**Sábado:**
+📝 Revisão das estações com nota < 6.0
+📚 Estudo teórico de **${weakestCategory.category}**
 
-3. **Revisão das piores notas:**
-   - ${stats.weakPoints[0]?.title || "Revise estações anteriores"}
+**Domingo:**
+🎯 Simulado completo (1 estação de cada área)
+📊 Análise do desempenho da semana
 
-📅 Meta: Aumentar sua média em ${weakestArea.area} para pelo menos 7.0!`;
+**Meta Semanal:**
+• Mínimo 15 estações
+• Aumentar média de ${weakestArea.area} em 0.5 pontos
+• Melhorar ${weakestCategory.category} para > 70%`;
   }
 
   if (lowerMsg.includes("média") || lowerMsg.includes("aumentar") || lowerMsg.includes("nota")) {
@@ -430,78 +460,39 @@ Quer que eu monte um plano de estudos focado nessas áreas?`;
     return `📈 **Como aumentar sua média:**
 
 Sua média atual: **${stats.mediaGeral.toFixed(1)}/10**
-${stats.mediaGeral >= 6 ? "✅ Você está acima da nota de corte!" : `⚠️ Faltam ${pontosParaAprovacao.toFixed(1)} pontos para a nota de corte (6.0)`}
+${stats.mediaGeral >= 6 ? "✅ Você está acima da nota de corte!" : `⚠️ Faltam **${pontosParaAprovacao.toFixed(1)} pontos** para a nota de corte (6.0)`}
 
 **Estratégias:**
-1. Foque em ${weakestArea.area} - cada ponto ganho aqui impacta mais sua média
-2. Melhore ${weakestCategory.category} - está puxando sua nota para baixo
+1. Foque em **${weakestArea.area}** - cada ponto ganho aqui impacta mais sua média
+2. Melhore **${weakestCategory.category}** - está puxando sua nota para baixo
 3. Refaça estações com nota < 5.0 até conseguir > 7.0
 
-**Projeção:** Se você aumentar ${weakestArea.area} de ${weakestArea.media.toFixed(1)} para 7.5, sua média geral subiria para aproximadamente ${(stats.mediaGeral + 0.5).toFixed(1)}!`;
-  }
-
-  if (lowerMsg.includes("geral") || lowerMsg.includes("análise") || lowerMsg.includes("desempenho")) {
-    return `📊 **Análise Geral do seu Desempenho:**
-
-📈 **Média Geral:** ${stats.mediaGeral.toFixed(1)}/10
-📚 **Estações Realizadas:** ${stats.totalEstacoes}
-⏱️ **Tempo de Estudo:** ${Math.floor(stats.tempoEstudo / 60)}h ${stats.tempoEstudo % 60}min
-
-**Pontos Fortes:**
-✅ ${strongestArea.area} - Média ${strongestArea.media.toFixed(1)} (${strongestArea.estacoes} estações)
-
-**Pontos a Melhorar:**
-⚠️ ${weakestArea.area} - Média ${weakestArea.media.toFixed(1)}
-⚠️ ${weakestCategory.category} - ${weakestCategory.percentage}%
-
-**Recomendação:** ${stats.mediaGeral >= 7 ? "Você está no caminho certo! Mantenha a consistência." : "Foque nas áreas fracas para equilibrar seu desempenho."}`;
+**Projeção:** Se você aumentar ${weakestArea.area} de ${weakestArea.media.toFixed(1)} para 7.5, sua média geral subiria para aproximadamente **${(stats.mediaGeral + 0.5).toFixed(1)}**!`;
   }
 
   if (lowerMsg.includes("forte") || lowerMsg.includes("bom") || lowerMsg.includes("melhor")) {
     return `💪 **Seus Pontos Fortes:**
 
 🏆 **Melhor área:** ${strongestArea.area}
-   - Média: ${strongestArea.media.toFixed(1)}/10
-   - Estações: ${strongestArea.estacoes}
+• Média: **${strongestArea.media.toFixed(1)}/10**
+• Estações: ${strongestArea.estacoes}
 
 📋 **Melhores categorias:**
 ${stats.categoryPerformance
   .filter(c => c.percentage >= 70)
-  .map(c => `✅ ${c.category}: ${c.percentage}%`)
+  .map(c => `✅ ${c.category}: **${c.percentage}%**`)
   .join("\n") || "Continue praticando para identificar seus pontos fortes!"}
 
-💡 Use seus pontos fortes como base para melhorar as áreas mais fracas. A metodologia que funciona em ${strongestArea.area} pode ser aplicada em outras áreas!`;
+💡 Use seus pontos fortes como base para melhorar as áreas mais fracas!`;
   }
 
-  if (lowerMsg.includes("plano") || lowerMsg.includes("cronograma") || lowerMsg.includes("estudos")) {
-    return `📅 **Plano de Estudos Sugerido:**
-
-**Segunda a Sexta:**
-🔴 ${weakestArea.area} - 2 estações/dia (prioridade máxima)
-🟡 ${stats.areaStats.find(a => a !== weakestArea && a !== strongestArea)?.area || "Clínica"} - 1 estação/dia
-
-**Sábado:**
-📝 Revisão das estações com nota < 6.0
-📚 Estudo teórico de ${weakestCategory.category}
-
-**Domingo:**
-🎯 Simulado completo (1 estação de cada área)
-📊 Análise do desempenho da semana
-
-**Meta Semanal:**
-- Mínimo 15 estações
-- Aumentar média de ${weakestArea.area} em 0.5 pontos
-- Melhorar ${weakestCategory.category} para > 70%`;
-  }
-
-  // Default response
   return `Entendi sua pergunta! 🤔
 
 Com base nos seus dados:
-- Média geral: ${stats.mediaGeral.toFixed(1)}
-- ${stats.totalEstacoes} estações realizadas
-- Área mais forte: ${strongestArea.area} (${strongestArea.media.toFixed(1)})
-- Área para focar: ${weakestArea.area} (${weakestArea.media.toFixed(1)})
+• Média geral: **${stats.mediaGeral.toFixed(1)}**
+• ${stats.totalEstacoes} estações realizadas
+• Área mais forte: **${strongestArea.area}** (${strongestArea.media.toFixed(1)})
+• Área para focar: **${weakestArea.area}** (${weakestArea.media.toFixed(1)})
 
 Posso te ajudar com:
 • Análise detalhada do seu desempenho

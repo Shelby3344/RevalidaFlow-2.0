@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -13,16 +13,16 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import {
-  LineChart, Line, AreaChart, Area, BarChart, Bar, PieChart, Pie, Cell,
+  Line, AreaChart, Area, BarChart, Bar, PieChart, Pie, Cell,
   RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis,
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend
 } from "recharts";
 import {
-  TrendingUp, TrendingDown, Target, Award, Clock, Brain,
-  BarChart3, Activity, Users, Sparkles, ChevronRight,
-  Calendar, Zap, Trophy, BookOpen, Stethoscope, Baby,
+  TrendingUp, Target, Award, Clock,
+  BarChart3, Activity, Users, ChevronRight,
+  Calendar, Stethoscope, Baby,
   Heart, Scissors, Shield, AlertTriangle, CheckCircle2,
-  ArrowUpRight, ArrowDownRight, Loader2
+  ArrowUpRight, ArrowDownRight
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/hooks/useAuth";
@@ -226,7 +226,7 @@ function AreaCard({ area }: { area: AreaStats }) {
 
 // Componente Principal
 export default function MeusDesempenhos() {
-  const { user } = useAuth();
+  useAuth(); // Ensure user is authenticated
   const [selectedPeriod, setSelectedPeriod] = useState("30d");
   
   // Calcular estatísticas gerais
@@ -258,6 +258,18 @@ export default function MeusDesempenhos() {
             </Select>
           </div>
         </div>
+
+        {/* AI Chat - Premium Feature */}
+        <AIAnalystChat 
+          userStats={{
+            mediaGeral,
+            totalEstacoes,
+            tempoEstudo: tempoTotal,
+            areaStats: mockAreaStats.map(a => ({ area: a.area, media: a.media, estacoes: a.estacoes })),
+            categoryPerformance: mockCategoryPerformance.map(c => ({ category: c.category, percentage: c.percentage })),
+            weakPoints: mockWeakPoints.map(w => ({ title: w.title, score: w.score, area: w.area })),
+          }}
+        />
 
         {/* Stats Overview */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -586,18 +598,6 @@ export default function MeusDesempenhos() {
           </div>
         </div>
 
-
-        {/* AI Chat */}
-        <AIAnalystChat 
-          userStats={{
-            mediaGeral,
-            totalEstacoes,
-            tempoEstudo: tempoTotal,
-            areaStats: mockAreaStats.map(a => ({ area: a.area, media: a.media, estacoes: a.estacoes })),
-            categoryPerformance: mockCategoryPerformance.map(c => ({ category: c.category, percentage: c.percentage })),
-            weakPoints: mockWeakPoints.map(w => ({ title: w.title, score: w.score, area: w.area })),
-          }}
-        />
 
         {/* Atividade Semanal */}
         <Card>
