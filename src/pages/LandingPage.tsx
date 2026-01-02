@@ -912,13 +912,31 @@ export default function LandingPage() {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Suporte</h4>
               <ul className="space-y-2">
-                {["Central de Ajuda", "Contato", "Termos de Uso", "Privacidade", "FAQ"].map((item) => (
-                  <li key={item}>
-                    <a href="#" className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
-                      {item}
-                    </a>
-                  </li>
-                ))}
+                <li>
+                  <a href="#" className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+                    Central de Ajuda
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+                    Contato
+                  </a>
+                </li>
+                <li>
+                  <a href="/termos" className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+                    Termos de Uso
+                  </a>
+                </li>
+                <li>
+                  <a href="/privacidade" className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+                    Privacidade
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+                    FAQ
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

@@ -31,6 +31,8 @@ import Feedback from "./pages/Feedback";
 import Suporte from "./pages/Suporte";
 import Login from "./pages/Login";
 import Perfil from "./pages/Perfil";
+import TermosDeUso from "./pages/TermosDeUso";
+import Privacidade from "./pages/Privacidade";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -49,6 +51,8 @@ const App = () => (
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/entrar" element={<Login />} />
+                <Route path="/termos" element={<TermosDeUso />} />
+                <Route path="/privacidade" element={<Privacidade />} />
                 
                 {/* Rotas Protegidas */}
                 <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />

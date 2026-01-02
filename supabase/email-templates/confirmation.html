@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirme seu email - RevalidaFlow</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #e2e8f0;
+      background-color: #0f172a;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .card {
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 40px;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .logo-icon {
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%);
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+    .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: #f8fafc;
+    }
+    .logo-text span {
+      color: #06b6d4;
+    }
+    h1 {
+      color: #f8fafc;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+    .button {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      margin: 32px auto;
+      padding: 16px 32px;
+      background: linear-gradient(135deg, #06b6d4 0%, #8b5cf6 100%);
+      color: #ffffff !important;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 600;
+      font-size: 16px;
+      border-radius: 12px;
+    }
+    .button:hover {
+      opacity: 0.9;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #334155;
+    }
+    .footer p {
+      font-size: 14px;
+      color: #64748b;
+      margin: 8px 0;
+    }
+    .link {
+      color: #06b6d4;
+      text-decoration: none;
+    }
+    .link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="logo">
+        <div class="logo-icon"></div>
+        <div class="logo-text">Revalida<span>Flow</span></div>
+      </div>
+      
+      <h1>Confirme seu email 📧</h1>
+      
+      <p>Olá!</p>
+      
+      <p>
+        Obrigado por se cadastrar no RevalidaFlow! Para começar sua jornada de preparação 
+        para o Revalida, confirme seu endereço de email clicando no botão abaixo:
+      </p>
+      
+      <a href="{{ .ConfirmationURL }}" class="button">
+        Confirmar Email
+      </a>
+      
+      <p style="font-size: 14px; text-align: center;">
+        Se você não criou uma conta no RevalidaFlow, pode ignorar este email.
+      </p>
+      
+      <div class="footer">
+        <p>
+          Se o botão não funcionar, copie e cole este link no seu navegador:
+        </p>
+        <p>
+          <a href="{{ .ConfirmationURL }}" class="link">{{ .ConfirmationURL }}</a>
+        </p>
+        <p style="margin-top: 24px;">
+          © 2025 RevalidaFlow. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
