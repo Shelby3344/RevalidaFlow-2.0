@@ -10,6 +10,7 @@ import {
   Sparkles,
   GraduationCap,
   BarChart3,
+  Activity,
   History,
   Users,
   MessageSquare,
@@ -79,6 +80,7 @@ const menuSections: MenuSection[] = [
     title: "Progresso",
     items: [
       { title: "Desempenho", icon: BarChart3, path: "/desempenhos" },
+      { title: "Analytics", icon: Activity, path: "/analytics", badge: "Novo", badgeType: "new" },
       {
         title: "Histórico",
         icon: History,
