@@ -1,14 +1,8 @@
 import { useState, useRef, useEffect } from "react";
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { 
-  Brain, Send, Loader2, Sparkles, User, Bot, 
-  TrendingUp, Target, Lightbulb,
-  Zap, Crown, Star
-} from "lucide-react";
+import { Brain, Send, Loader2, User, Bot, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface Message {
@@ -42,25 +36,22 @@ interface AIAnalystChatProps {
   userStats: UserStats;
 }
 
-
 const suggestedQuestions = [
-  { icon: Target, text: "Onde preciso melhorar?", color: "text-red-400" },
-  { icon: TrendingUp, text: "Como aumentar minha média?", color: "text-green-400" },
-  { icon: Lightbulb, text: "Monte um plano de estudos", color: "text-yellow-400" },
-  { icon: Star, text: "Quais meus pontos fortes?", color: "text-blue-400" },
+  "Onde preciso melhorar?",
+  "Monte um plano de estudos",
+  "Como aumentar minha média?",
+  "Quais meus pontos fortes?",
 ];
 
-// Função para converter markdown em HTML
 function formatMessage(text: string): string {
   return text
-    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-primary font-semibold">$1</strong>')
-    .replace(/__(.+?)__/g, '<strong class="text-primary font-semibold">$1</strong>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-purple-400 font-semibold">$1</strong>')
+    .replace(/__(.+?)__/g, '<strong class="text-purple-400 font-semibold">$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     .replace(/_(.+?)_/g, '<em>$1</em>')
     .replace(/\n/g, '<br/>');
 }
 
-// Componente para renderizar mensagem formatada
 function FormattedMessage({ content, className }: { content: string; className?: string }) {
   return (
     <div 
@@ -115,7 +106,6 @@ REGRAS:
 11. Se o estudante perguntar algo fora do contexto de estudos, redirecione educadamente`;
 }
 
-
 export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
@@ -123,7 +113,6 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Scroll to bottom when new messages arrive
   useEffect(() => {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
@@ -201,201 +190,161 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
   };
 
   return (
-    <div className="relative">
-      <Card className="relative overflow-hidden border border-border/50 bg-card shadow-lg">
-        {/* Premium Header */}
-        <div className="relative px-6 py-5 border-b border-border">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              {/* AI Icon */}
-              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 via-pink-500 to-cyan-500 flex items-center justify-center shadow-md">
-                <Brain className="w-6 h-6 text-white" />
-              </div>
-              
-              <div>
-                <div className="flex items-center gap-2">
-                  <h2 className="text-xl font-bold text-foreground">Mentor IA</h2>
-                  <Badge className="bg-gradient-to-r from-amber-500 to-orange-500 text-white border-0 text-[10px] px-2">
-                    <Crown className="w-3 h-3 mr-1" />
-                    PRO
-                  </Badge>
-                </div>
-                <p className="text-sm text-muted-foreground">Seu assistente pessoal de estudos</p>
-              </div>
-            </div>
-            
-            <div className="flex items-center gap-2">
-              <div className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-green-500/20 border border-green-500/30">
-                <div className="w-2 h-2 rounded-full bg-green-500" />
-                <span className="text-xs text-green-500 font-medium">Online</span>
-              </div>
-            </div>
+    <div className="rounded-2xl bg-[#0d0d1a] border border-[#1a1a2e] overflow-hidden">
+      {/* Header */}
+      <div className="px-6 py-4 border-b border-[#1a1a2e] flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-xl bg-purple-500/20 flex items-center justify-center">
+            <Brain className="w-5 h-5 text-purple-400" />
+          </div>
+          <div>
+            <h2 className="text-white font-semibold">Mentor IA</h2>
+            <p className="text-xs text-gray-500">Análise personalizada</p>
           </div>
         </div>
+        <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10">
+          <div className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+          <span className="text-[10px] text-emerald-500 font-medium">Online</span>
+        </div>
+      </div>
 
+      {/* Chat Area */}
+      <ScrollArea className="h-[380px]" ref={scrollRef}>
+        <div className="p-6">
+          {messages.length === 0 ? (
+            <div className="text-center py-6">
+              <div className="w-16 h-16 rounded-full bg-purple-500/10 flex items-center justify-center mx-auto mb-4">
+                <Sparkles className="w-8 h-8 text-purple-400" />
+              </div>
+              
+              <h3 className="text-white font-medium mb-1">
+                Olá! Sou seu Mentor 👋
+              </h3>
+              <p className="text-gray-500 text-sm mb-6 max-w-sm mx-auto">
+                Analiso seus dados e te ajudo a focar no que importa para sua aprovação.
+              </p>
 
-        <CardContent className="p-0">
-          {/* Messages Area */}
-          <ScrollArea className="h-[400px]" ref={scrollRef}>
-            <div className="p-6 space-y-4">
-              {messages.length === 0 ? (
-                /* Welcome State */
-                <div className="text-center py-8">
-                  <div className="relative inline-block mb-6">
-                    <div className="w-20 h-20 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-border flex items-center justify-center">
-                      <Sparkles className="w-10 h-10 text-purple-500" />
-                    </div>
+              {/* Stats Preview */}
+              <div className="flex justify-center gap-6 mb-6">
+                <div className="text-center">
+                  <p className="text-2xl font-bold text-purple-400">{userStats.mediaGeral.toFixed(1)}</p>
+                  <p className="text-[10px] text-gray-600 uppercase tracking-wider">Média</p>
+                </div>
+                <div className="w-px bg-[#1a1a2e]" />
+                <div className="text-center">
+                  <p className="text-2xl font-bold text-purple-400">{userStats.totalEstacoes}</p>
+                  <p className="text-[10px] text-gray-600 uppercase tracking-wider">Estações</p>
+                </div>
+              </div>
+
+              {/* Suggested Questions */}
+              <div className="space-y-2">
+                {suggestedQuestions.map((q, index) => (
+                  <button
+                    key={index}
+                    onClick={() => sendMessage(q)}
+                    disabled={isLoading}
+                    className="w-full p-3 rounded-xl bg-[#12121f] border border-[#1a1a2e] hover:border-purple-500/30 hover:bg-[#15152a] transition-all text-sm text-gray-400 hover:text-gray-300 text-left"
+                  >
+                    {q}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <div className="space-y-4">
+              {messages.map((message) => (
+                <div
+                  key={message.id}
+                  className={cn(
+                    "flex gap-3",
+                    message.role === "user" ? "flex-row-reverse" : ""
+                  )}
+                >
+                  <div className={cn(
+                    "w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0",
+                    message.role === "user" 
+                      ? "bg-purple-500/20" 
+                      : "bg-[#1a1a2e]"
+                  )}>
+                    {message.role === "user" ? (
+                      <User className="w-4 h-4 text-purple-400" />
+                    ) : (
+                      <Bot className="w-4 h-4 text-gray-400" />
+                    )}
                   </div>
                   
-                  <h3 className="text-lg font-semibold text-foreground mb-2">
-                    Olá! Sou seu Mentor de Estudos 👋
-                  </h3>
-                  <p className="text-muted-foreground text-sm max-w-md mx-auto mb-6">
-                    Analiso seus dados de desempenho e te ajudo a identificar onde focar seus estudos para maximizar sua aprovação no Revalida.
-                  </p>
-                  
-                  {/* Quick Stats */}
-                  <div className="flex justify-center gap-4 mb-8">
-                    <div className="px-4 py-2 rounded-lg bg-secondary border border-border">
-                      <p className="text-2xl font-bold text-foreground">{userStats.mediaGeral.toFixed(1)}</p>
-                      <p className="text-xs text-muted-foreground">Média Geral</p>
-                    </div>
-                    <div className="px-4 py-2 rounded-lg bg-secondary border border-border">
-                      <p className="text-2xl font-bold text-foreground">{userStats.totalEstacoes}</p>
-                      <p className="text-xs text-muted-foreground">Estações</p>
-                    </div>
-                  </div>
-                  
-                  {/* Suggested Questions */}
-                  <p className="text-xs text-muted-foreground mb-3 flex items-center justify-center gap-1">
-                    <Zap className="w-3 h-3" />
-                    Perguntas sugeridas
-                  </p>
-                  <div className="grid grid-cols-2 gap-2 max-w-md mx-auto">
-                    {suggestedQuestions.map((q, index) => (
-                      <button
-                        key={index}
-                        onClick={() => sendMessage(q.text)}
-                        disabled={isLoading}
-                        className="group flex items-center gap-2 p-3 rounded-xl bg-secondary border border-border hover:bg-accent hover:border-primary/50 transition-all duration-300 text-left"
-                      >
-                        <q.icon className={cn("w-4 h-4 flex-shrink-0", q.color)} />
-                        <span className="text-xs text-foreground group-hover:text-foreground">{q.text}</span>
-                      </button>
-                    ))}
+                  <div className={cn(
+                    "max-w-[80%] rounded-2xl px-4 py-3",
+                    message.role === "user"
+                      ? "bg-purple-500 text-white rounded-tr-md"
+                      : "bg-[#12121f] border border-[#1a1a2e] rounded-tl-md"
+                  )}>
+                    <FormattedMessage 
+                      content={message.content} 
+                      className={message.role === "user" ? "text-white" : "text-gray-300"}
+                    />
+                    <p className={cn(
+                      "text-[10px] mt-2",
+                      message.role === "user" ? "text-purple-200" : "text-gray-600"
+                    )}>
+                      {message.timestamp.toLocaleTimeString("pt-BR", { 
+                        hour: "2-digit", 
+                        minute: "2-digit" 
+                      })}
+                    </p>
                   </div>
                 </div>
-              ) : (
-                /* Chat Messages */
-                messages.map((message) => (
-                  <div
-                    key={message.id}
-                    className={cn(
-                      "flex gap-3",
-                      message.role === "user" ? "flex-row-reverse" : ""
-                    )}
-                  >
-                    {/* Avatar */}
-                    <div className={cn(
-                      "w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg",
-                      message.role === "user" 
-                        ? "bg-gradient-to-br from-cyan-500 to-blue-500" 
-                        : "bg-gradient-to-br from-purple-500 to-pink-500"
-                    )}>
-                      {message.role === "user" ? (
-                        <User className="w-4 h-4 text-white" />
-                      ) : (
-                        <Bot className="w-4 h-4 text-white" />
-                      )}
-                    </div>
-                    
-                    {/* Message Bubble */}
-                    <div className={cn(
-                      "max-w-[80%] rounded-2xl px-4 py-3 shadow-sm",
-                      message.role === "user"
-                        ? "bg-primary text-primary-foreground rounded-tr-sm"
-                        : "bg-secondary border border-border rounded-tl-sm"
-                    )}>
-                      <FormattedMessage 
-                        content={message.content} 
-                        className={message.role === "user" ? "text-primary-foreground" : "text-foreground"}
-                      />
-                      <p className={cn(
-                        "text-[10px] mt-2 opacity-60",
-                        message.role === "user" ? "text-primary-foreground" : "text-muted-foreground"
-                      )}>
-                        {message.timestamp.toLocaleTimeString("pt-BR", { 
-                          hour: "2-digit", 
-                          minute: "2-digit" 
-                        })}
-                      </p>
-                    </div>
-                  </div>
-                ))
-              )}
+              ))}
 
-              {/* Loading State */}
               {isLoading && (
                 <div className="flex gap-3">
-                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-sm">
-                    <Bot className="w-4 h-4 text-white" />
+                  <div className="w-8 h-8 rounded-lg bg-[#1a1a2e] flex items-center justify-center">
+                    <Bot className="w-4 h-4 text-gray-400" />
                   </div>
-                  <div className="bg-secondary border border-border rounded-2xl rounded-tl-sm px-4 py-3">
-                    <div className="flex items-center gap-2">
-                      <div className="flex gap-1">
-                        <div className="w-2 h-2 rounded-full bg-purple-500 animate-bounce" style={{ animationDelay: "0ms" }} />
-                        <div className="w-2 h-2 rounded-full bg-pink-500 animate-bounce" style={{ animationDelay: "150ms" }} />
-                        <div className="w-2 h-2 rounded-full bg-cyan-500 animate-bounce" style={{ animationDelay: "300ms" }} />
-                      </div>
-                      <span className="text-sm text-muted-foreground">Analisando seus dados...</span>
+                  <div className="bg-[#12121f] border border-[#1a1a2e] rounded-2xl rounded-tl-md px-4 py-3">
+                    <div className="flex items-center gap-1.5">
+                      <div className="w-1.5 h-1.5 rounded-full bg-purple-400 animate-bounce" style={{ animationDelay: "0ms" }} />
+                      <div className="w-1.5 h-1.5 rounded-full bg-purple-400 animate-bounce" style={{ animationDelay: "150ms" }} />
+                      <div className="w-1.5 h-1.5 rounded-full bg-purple-400 animate-bounce" style={{ animationDelay: "300ms" }} />
                     </div>
                   </div>
                 </div>
               )}
             </div>
-          </ScrollArea>
+          )}
+        </div>
+      </ScrollArea>
 
-
-          {/* Input Area */}
-          <div className="p-4 border-t border-border bg-card">
-            <div className="flex gap-3">
-              <div className="flex-1 relative">
-                <Input
-                  ref={inputRef}
-                  value={input}
-                  onChange={(e) => setInput(e.target.value)}
-                  onKeyDown={handleKeyPress}
-                  placeholder="Pergunte sobre seu desempenho..."
-                  disabled={isLoading}
-                  className="w-full pr-12 h-12 rounded-xl"
-                />
-              </div>
-              <Button 
-                onClick={() => sendMessage(input)}
-                disabled={!input.trim() || isLoading}
-                className="h-12 w-12 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 border-0"
-              >
-                {isLoading ? (
-                  <Loader2 className="w-5 h-5 animate-spin" />
-                ) : (
-                  <Send className="w-5 h-5" />
-                )}
-              </Button>
-            </div>
-            
-            {/* Powered by */}
-            <div className="flex items-center justify-center gap-2 mt-3">
-              <span className="text-[10px] text-muted-foreground">Powered by</span>
-              <span className="text-[10px] font-medium bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">GPT-4</span>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+      {/* Input */}
+      <div className="p-4 border-t border-[#1a1a2e]">
+        <div className="flex gap-2">
+          <Input
+            ref={inputRef}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={handleKeyPress}
+            placeholder="Pergunte algo..."
+            disabled={isLoading}
+            className="flex-1 bg-[#12121f] border-[#1a1a2e] text-white placeholder:text-gray-600 focus:border-purple-500/50 h-11 rounded-xl"
+          />
+          <Button 
+            onClick={() => sendMessage(input)}
+            disabled={!input.trim() || isLoading}
+            className="h-11 w-11 rounded-xl bg-purple-500 hover:bg-purple-600 border-0"
+          >
+            {isLoading ? (
+              <Loader2 className="w-4 h-4 animate-spin" />
+            ) : (
+              <Send className="w-4 h-4" />
+            )}
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
 
-// Fallback local response generator
 function generateLocalResponse(message: string, stats: UserStats): string {
   const lowerMsg = message.toLowerCase();
   
