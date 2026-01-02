@@ -298,7 +298,7 @@ export function Sidebar({
                             </li>
                           ))}
                           
-                          {/* Botão de Treino Colaborativo - apenas para Checklists */}
+                          {/* Botão de Checklist Rooms - apenas para Checklists */}
                           {item.title === "Checklists" && (
                             <li>
                               <button
@@ -311,7 +311,7 @@ export function Sidebar({
                                 )}
                               >
                                 <Users className="w-3 h-3 mr-2" />
-                                Treino Colaborativo
+                                Checklist Rooms
                               </button>
                             </li>
                           )}
