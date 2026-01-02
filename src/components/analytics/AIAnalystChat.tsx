@@ -202,41 +202,32 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
 
   return (
     <div className="relative">
-      {/* Glow Effect Background */}
-      <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-500 to-cyan-500 rounded-2xl blur-lg opacity-20 animate-pulse" />
-      
-      <Card className="relative overflow-hidden border-0 bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900 shadow-2xl">
+      <Card className="relative overflow-hidden border border-border/50 bg-card shadow-lg">
         {/* Premium Header */}
-        <div className="relative px-6 py-5 border-b border-white/10">
-          {/* Animated gradient line */}
-          <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-purple-500 to-transparent" />
-          
+        <div className="relative px-6 py-5 border-b border-border">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              {/* Animated AI Icon */}
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl blur-md opacity-60 animate-pulse" />
-                <div className="relative w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 via-pink-500 to-cyan-500 flex items-center justify-center shadow-lg">
-                  <Brain className="w-6 h-6 text-white" />
-                </div>
+              {/* AI Icon */}
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 via-pink-500 to-cyan-500 flex items-center justify-center shadow-md">
+                <Brain className="w-6 h-6 text-white" />
               </div>
               
               <div>
                 <div className="flex items-center gap-2">
-                  <h2 className="text-xl font-bold text-white">Mentor IA</h2>
+                  <h2 className="text-xl font-bold text-foreground">Mentor IA</h2>
                   <Badge className="bg-gradient-to-r from-amber-500 to-orange-500 text-white border-0 text-[10px] px-2">
                     <Crown className="w-3 h-3 mr-1" />
                     PRO
                   </Badge>
                 </div>
-                <p className="text-sm text-white/60">Seu assistente pessoal de estudos</p>
+                <p className="text-sm text-muted-foreground">Seu assistente pessoal de estudos</p>
               </div>
             </div>
             
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-green-500/20 border border-green-500/30">
-                <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                <span className="text-xs text-green-400 font-medium">Online</span>
+                <div className="w-2 h-2 rounded-full bg-green-500" />
+                <span className="text-xs text-green-500 font-medium">Online</span>
               </div>
             </div>
           </div>
@@ -251,33 +242,32 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
                 /* Welcome State */
                 <div className="text-center py-8">
                   <div className="relative inline-block mb-6">
-                    <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-xl opacity-30 animate-pulse" />
-                    <div className="relative w-20 h-20 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-white/10 flex items-center justify-center">
-                      <Sparkles className="w-10 h-10 text-purple-400" />
+                    <div className="w-20 h-20 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-border flex items-center justify-center">
+                      <Sparkles className="w-10 h-10 text-purple-500" />
                     </div>
                   </div>
                   
-                  <h3 className="text-lg font-semibold text-white mb-2">
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
                     Olá! Sou seu Mentor de Estudos 👋
                   </h3>
-                  <p className="text-white/60 text-sm max-w-md mx-auto mb-6">
+                  <p className="text-muted-foreground text-sm max-w-md mx-auto mb-6">
                     Analiso seus dados de desempenho e te ajudo a identificar onde focar seus estudos para maximizar sua aprovação no Revalida.
                   </p>
                   
                   {/* Quick Stats */}
                   <div className="flex justify-center gap-4 mb-8">
-                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10">
-                      <p className="text-2xl font-bold text-white">{userStats.mediaGeral.toFixed(1)}</p>
-                      <p className="text-xs text-white/50">Média Geral</p>
+                    <div className="px-4 py-2 rounded-lg bg-secondary border border-border">
+                      <p className="text-2xl font-bold text-foreground">{userStats.mediaGeral.toFixed(1)}</p>
+                      <p className="text-xs text-muted-foreground">Média Geral</p>
                     </div>
-                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10">
-                      <p className="text-2xl font-bold text-white">{userStats.totalEstacoes}</p>
-                      <p className="text-xs text-white/50">Estações</p>
+                    <div className="px-4 py-2 rounded-lg bg-secondary border border-border">
+                      <p className="text-2xl font-bold text-foreground">{userStats.totalEstacoes}</p>
+                      <p className="text-xs text-muted-foreground">Estações</p>
                     </div>
                   </div>
                   
                   {/* Suggested Questions */}
-                  <p className="text-xs text-white/40 mb-3 flex items-center justify-center gap-1">
+                  <p className="text-xs text-muted-foreground mb-3 flex items-center justify-center gap-1">
                     <Zap className="w-3 h-3" />
                     Perguntas sugeridas
                   </p>
@@ -287,10 +277,10 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
                         key={index}
                         onClick={() => sendMessage(q.text)}
                         disabled={isLoading}
-                        className="group flex items-center gap-2 p-3 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-purple-500/50 transition-all duration-300 text-left"
+                        className="group flex items-center gap-2 p-3 rounded-xl bg-secondary border border-border hover:bg-accent hover:border-primary/50 transition-all duration-300 text-left"
                       >
                         <q.icon className={cn("w-4 h-4 flex-shrink-0", q.color)} />
-                        <span className="text-xs text-white/80 group-hover:text-white">{q.text}</span>
+                        <span className="text-xs text-foreground group-hover:text-foreground">{q.text}</span>
                       </button>
                     ))}
                   </div>
@@ -321,18 +311,18 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
                     
                     {/* Message Bubble */}
                     <div className={cn(
-                      "max-w-[80%] rounded-2xl px-4 py-3 shadow-lg",
+                      "max-w-[80%] rounded-2xl px-4 py-3 shadow-sm",
                       message.role === "user"
-                        ? "bg-gradient-to-br from-cyan-500 to-blue-600 text-white rounded-tr-sm"
-                        : "bg-white/10 backdrop-blur-sm border border-white/10 rounded-tl-sm"
+                        ? "bg-primary text-primary-foreground rounded-tr-sm"
+                        : "bg-secondary border border-border rounded-tl-sm"
                     )}>
                       <FormattedMessage 
                         content={message.content} 
-                        className={message.role === "user" ? "text-white" : "text-white/90"}
+                        className={message.role === "user" ? "text-primary-foreground" : "text-foreground"}
                       />
                       <p className={cn(
                         "text-[10px] mt-2 opacity-60",
-                        message.role === "user" ? "text-white" : "text-white"
+                        message.role === "user" ? "text-primary-foreground" : "text-muted-foreground"
                       )}>
                         {message.timestamp.toLocaleTimeString("pt-BR", { 
                           hour: "2-digit", 
@@ -347,17 +337,17 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
               {/* Loading State */}
               {isLoading && (
                 <div className="flex gap-3">
-                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-sm">
                     <Bot className="w-4 h-4 text-white" />
                   </div>
-                  <div className="bg-white/10 backdrop-blur-sm border border-white/10 rounded-2xl rounded-tl-sm px-4 py-3">
+                  <div className="bg-secondary border border-border rounded-2xl rounded-tl-sm px-4 py-3">
                     <div className="flex items-center gap-2">
                       <div className="flex gap-1">
-                        <div className="w-2 h-2 rounded-full bg-purple-400 animate-bounce" style={{ animationDelay: "0ms" }} />
-                        <div className="w-2 h-2 rounded-full bg-pink-400 animate-bounce" style={{ animationDelay: "150ms" }} />
-                        <div className="w-2 h-2 rounded-full bg-cyan-400 animate-bounce" style={{ animationDelay: "300ms" }} />
+                        <div className="w-2 h-2 rounded-full bg-purple-500 animate-bounce" style={{ animationDelay: "0ms" }} />
+                        <div className="w-2 h-2 rounded-full bg-pink-500 animate-bounce" style={{ animationDelay: "150ms" }} />
+                        <div className="w-2 h-2 rounded-full bg-cyan-500 animate-bounce" style={{ animationDelay: "300ms" }} />
                       </div>
-                      <span className="text-sm text-white/60">Analisando seus dados...</span>
+                      <span className="text-sm text-muted-foreground">Analisando seus dados...</span>
                     </div>
                   </div>
                 </div>
@@ -367,7 +357,7 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
 
 
           {/* Input Area */}
-          <div className="p-4 border-t border-white/10 bg-black/20">
+          <div className="p-4 border-t border-border bg-card">
             <div className="flex gap-3">
               <div className="flex-1 relative">
                 <Input
@@ -377,13 +367,13 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
                   onKeyDown={handleKeyPress}
                   placeholder="Pergunte sobre seu desempenho..."
                   disabled={isLoading}
-                  className="w-full bg-white/5 border-white/10 text-white placeholder:text-white/40 focus:border-purple-500/50 focus:ring-purple-500/20 pr-12 h-12 rounded-xl"
+                  className="w-full pr-12 h-12 rounded-xl"
                 />
               </div>
               <Button 
                 onClick={() => sendMessage(input)}
                 disabled={!input.trim() || isLoading}
-                className="h-12 w-12 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 border-0 shadow-lg shadow-purple-500/25"
+                className="h-12 w-12 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 border-0"
               >
                 {isLoading ? (
                   <Loader2 className="w-5 h-5 animate-spin" />
@@ -395,8 +385,8 @@ export function AIAnalystChat({ userStats }: AIAnalystChatProps) {
             
             {/* Powered by */}
             <div className="flex items-center justify-center gap-2 mt-3">
-              <span className="text-[10px] text-white/30">Powered by</span>
-              <span className="text-[10px] font-medium bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">GPT-4</span>
+              <span className="text-[10px] text-muted-foreground">Powered by</span>
+              <span className="text-[10px] font-medium bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">GPT-4</span>
             </div>
           </div>
         </CardContent>
