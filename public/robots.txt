@@ -1,3 +1,6 @@
+# RevalidaFlow - robots.txt
+# https://revalidaflow.com
+
 User-agent: Googlebot
 Allow: /
 
@@ -12,3 +15,12 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /dashboard
+Disallow: /checklists/execucao
+Disallow: /treino-ia
+Disallow: /collaborative
+Disallow: /perfil
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://revalidaflow.com/sitemap.xml
