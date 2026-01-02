@@ -21,6 +21,7 @@ import {
   Zap,
   X,
   LogOut,
+  ListChecks,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -79,6 +80,7 @@ const menuSections: MenuSection[] = [
     title: "Progresso",
     items: [
       { title: "Desempenho", icon: BarChart3, path: "/desempenhos" },
+      { title: "Produtividade", icon: ListChecks, path: "/produtividade", badge: "Novo", badgeType: "new" },
       {
         title: "Histórico",
         icon: History,

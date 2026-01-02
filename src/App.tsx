@@ -23,6 +23,7 @@ import Novidades from "./pages/Novidades";
 import Aulas from "./pages/Aulas";
 import MeusDesempenhos from "./pages/MeusDesempenhos";
 import Analytics from "./pages/Analytics";
+import Produtividade from "./pages/Produtividade";
 import HistoricoChecklist from "./pages/HistoricoChecklist";
 import Mentorados from "./pages/Mentorados";
 import Feedback from "./pages/Feedback";
@@ -62,6 +63,7 @@ const App = () => (
             <Route path="/novidades" element={<Novidades />} />
             <Route path="/aulas" element={<Aulas />} />
             <Route path="/desempenhos" element={<MeusDesempenhos />} />
+            <Route path="/produtividade" element={<Produtividade />} />
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/historico/checklist" element={<HistoricoChecklist />} />
             <Route path="/historico/flashcard" element={<HistoricoChecklist />} />
