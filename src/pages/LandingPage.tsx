@@ -19,7 +19,18 @@ import {
   Check,
   MessageSquare,
   BarChart3,
-  Clock
+  Clock,
+  ChevronDown,
+  Mail,
+  Phone,
+  MapPin,
+  Instagram,
+  Youtube,
+  Linkedin,
+  Shield,
+  Headphones,
+  CreditCard,
+  Quote
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import ScrollStack, { ScrollStackItem } from "@/components/landing/ScrollStack";
@@ -219,11 +230,14 @@ export default function LandingPage() {
               <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 Recursos
               </a>
-              <a href="#stats" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Resultados
+              <a href="#recursos" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Como Funciona
               </a>
               <a href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 Planos
+              </a>
+              <a href="#stats" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Resultados
               </a>
             </div>
 
@@ -521,6 +535,294 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-24 px-4 bg-card/30">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              O que nossos <span className="text-cyan-400">alunos</span> dizem
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Milhares de médicos já conquistaram sua aprovação com o RevalidaFlow
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                name: "Dr. Carlos Silva",
+                role: "Aprovado Revalida 2024",
+                avatar: "CS",
+                text: "O treino com paciente IA foi um diferencial enorme. Consegui praticar anamnese todos os dias sem depender de colegas. Aprovei de primeira!",
+                rating: 5
+              },
+              {
+                name: "Dra. Ana Beatriz",
+                role: "Aprovada Revalida 2024",
+                avatar: "AB",
+                text: "Os checklists são idênticos aos da prova. A pontuação detalhada me ajudou a identificar exatamente onde eu estava errando. Recomendo demais!",
+                rating: 5
+              },
+              {
+                name: "Dr. Pedro Henrique",
+                role: "Aprovado Revalida 2023",
+                avatar: "PH",
+                text: "O treino colaborativo com meus colegas de estudo foi essencial. Conseguimos simular a prova real e nos preparar muito melhor.",
+                rating: 5
+              },
+              {
+                name: "Dra. Mariana Costa",
+                role: "Aprovada Revalida 2024",
+                avatar: "MC",
+                text: "A plataforma é muito intuitiva e completa. Os resumos e flashcards me ajudaram muito na parte teórica. Vale cada centavo!",
+                rating: 5
+              },
+              {
+                name: "Dr. Lucas Oliveira",
+                role: "Aprovado Revalida 2024",
+                avatar: "LO",
+                text: "Estudei 3 meses com o RevalidaFlow e passei com nota alta. O sistema de gamificação me manteve motivado durante toda a preparação.",
+                rating: 5
+              },
+              {
+                name: "Dra. Juliana Santos",
+                role: "Aprovada Revalida 2023",
+                avatar: "JS",
+                text: "O reconhecimento de voz funciona muito bem. Parece que estou realmente conversando com um paciente. Tecnologia de ponta!",
+                rating: 5
+              }
+            ].map((testimonial, index) => (
+              <div 
+                key={index}
+                className="p-6 rounded-2xl bg-card border border-border/50 hover:border-cyan-500/30 transition-all duration-300"
+              >
+                <div className="flex items-center gap-1 mb-4">
+                  {[...Array(testimonial.rating)].map((_, i) => (
+                    <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                  ))}
+                </div>
+                <Quote className="w-8 h-8 text-cyan-500/20 mb-2" />
+                <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
+                  "{testimonial.text}"
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-500 to-purple-500 flex items-center justify-center text-white text-sm font-medium">
+                    {testimonial.avatar}
+                  </div>
+                  <div>
+                    <p className="font-medium text-foreground text-sm">{testimonial.name}</p>
+                    <p className="text-xs text-muted-foreground">{testimonial.role}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Section */}
+      <section id="pricing" className="py-24 px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Planos que cabem no seu <span className="text-cyan-400">bolso</span>
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Escolha o plano ideal para sua preparação. Todos incluem acesso completo à plataforma.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Plano Mensal */}
+            <div className="relative p-6 rounded-2xl bg-card border border-border/50 hover:border-cyan-500/30 transition-all duration-300">
+              <h3 className="text-lg font-semibold mb-2">Mensal</h3>
+              <p className="text-muted-foreground text-sm mb-4">Ideal para testar a plataforma</p>
+              <div className="mb-6">
+                <span className="text-4xl font-bold">R$97</span>
+                <span className="text-muted-foreground">/mês</span>
+              </div>
+              <ul className="space-y-3 mb-6">
+                {[
+                  "Acesso a todos os checklists",
+                  "Treino com Paciente IA",
+                  "Treino Colaborativo",
+                  "Resumos e Flashcards",
+                  "Suporte por email"
+                ].map((item, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <Check className="w-4 h-4 text-cyan-500" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Button 
+                variant="outline" 
+                className="w-full"
+                onClick={() => navigate("/login")}
+              >
+                Começar Agora
+              </Button>
+            </div>
+
+            {/* Plano Semestral - Destaque */}
+            <div className="relative p-6 rounded-2xl bg-gradient-to-b from-cyan-500/10 to-purple-500/10 border-2 border-cyan-500/50 hover:border-cyan-500 transition-all duration-300 scale-105">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full text-xs font-medium text-white">
+                Mais Popular
+              </div>
+              <h3 className="text-lg font-semibold mb-2">Semestral</h3>
+              <p className="text-muted-foreground text-sm mb-4">Melhor custo-benefício</p>
+              <div className="mb-2">
+                <span className="text-4xl font-bold">R$67</span>
+                <span className="text-muted-foreground">/mês</span>
+              </div>
+              <p className="text-xs text-cyan-400 mb-4">Economia de R$180 (6x R$67)</p>
+              <ul className="space-y-3 mb-6">
+                {[
+                  "Tudo do plano Mensal",
+                  "Acesso prioritário a novidades",
+                  "Mentor IA personalizado",
+                  "Simulados exclusivos",
+                  "Suporte prioritário"
+                ].map((item, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm text-foreground">
+                    <Check className="w-4 h-4 text-cyan-500" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Button 
+                className="w-full bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600"
+                onClick={() => navigate("/login")}
+              >
+                Escolher Semestral
+              </Button>
+            </div>
+
+            {/* Plano Anual */}
+            <div className="relative p-6 rounded-2xl bg-card border border-border/50 hover:border-cyan-500/30 transition-all duration-300">
+              <h3 className="text-lg font-semibold mb-2">Anual</h3>
+              <p className="text-muted-foreground text-sm mb-4">Máxima economia</p>
+              <div className="mb-2">
+                <span className="text-4xl font-bold">R$47</span>
+                <span className="text-muted-foreground">/mês</span>
+              </div>
+              <p className="text-xs text-green-400 mb-4">Economia de R$600 (12x R$47)</p>
+              <ul className="space-y-3 mb-6">
+                {[
+                  "Tudo do plano Semestral",
+                  "Acesso vitalício às atualizações",
+                  "Grupo VIP no WhatsApp",
+                  "Mentoria em grupo mensal",
+                  "Certificado de conclusão"
+                ].map((item, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <Check className="w-4 h-4 text-cyan-500" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Button 
+                variant="outline" 
+                className="w-full"
+                onClick={() => navigate("/login")}
+              >
+                Escolher Anual
+              </Button>
+            </div>
+          </div>
+
+          {/* Garantia */}
+          <div className="mt-12 text-center">
+            <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-green-500/10 border border-green-500/20">
+              <Shield className="w-5 h-5 text-green-500" />
+              <span className="text-sm text-green-400">Garantia de 7 dias ou seu dinheiro de volta</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-24 px-4 bg-card/30">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Perguntas <span className="text-cyan-400">Frequentes</span>
+            </h2>
+            <p className="text-muted-foreground">
+              Tire suas dúvidas sobre a plataforma
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            {[
+              {
+                question: "O que é o RevalidaFlow?",
+                answer: "O RevalidaFlow é a plataforma mais completa para preparação da prova prática do Revalida. Oferecemos treino com paciente virtual por IA, 176+ checklists OSCE oficiais, treino colaborativo em tempo real, resumos, flashcards e muito mais."
+              },
+              {
+                question: "Como funciona o treino com Paciente IA?",
+                answer: "Você conversa por voz com um paciente virtual que responde em tempo real usando inteligência artificial. É como uma consulta médica real - você faz anamnese, solicita exames e recebe respostas naturais. Ao final, recebe uma avaliação detalhada do seu desempenho."
+              },
+              {
+                question: "Os checklists são das bancas oficiais?",
+                answer: "Sim! Temos 176+ checklists baseados nas principais bancas do Revalida (INEP, UFMT, etc). Cada checklist tem pontuação detalhada item por item, exatamente como na prova real."
+              },
+              {
+                question: "Posso treinar com outros colegas?",
+                answer: "Sim! O treino colaborativo permite criar salas em tempo real onde um colega avalia enquanto o outro executa o checklist. É perfeito para simular a dinâmica real da prova."
+              },
+              {
+                question: "Funciona no celular?",
+                answer: "Sim! A plataforma é totalmente responsiva e funciona em qualquer dispositivo - computador, tablet ou celular. O reconhecimento de voz também funciona no mobile."
+              },
+              {
+                question: "Tem garantia?",
+                answer: "Sim! Oferecemos garantia incondicional de 7 dias. Se não gostar, devolvemos 100% do seu dinheiro, sem perguntas."
+              },
+              {
+                question: "Como faço para cancelar?",
+                answer: "Você pode cancelar a qualquer momento diretamente na plataforma, sem burocracia. Seu acesso continua até o fim do período pago."
+              }
+            ].map((faq, index) => (
+              <details 
+                key={index}
+                className="group p-4 rounded-xl bg-card border border-border/50 hover:border-cyan-500/30 transition-all duration-300"
+              >
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <span className="font-medium text-foreground">{faq.question}</span>
+                  <ChevronDown className="w-5 h-5 text-muted-foreground group-open:rotate-180 transition-transform" />
+                </summary>
+                <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
+                  {faq.answer}
+                </p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Section */}
+      <section className="py-16 px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {[
+              { icon: Shield, label: "Pagamento Seguro", desc: "SSL 256-bit" },
+              { icon: CreditCard, label: "Parcelamento", desc: "Até 12x sem juros" },
+              { icon: Headphones, label: "Suporte", desc: "7 dias por semana" },
+              { icon: Trophy, label: "Satisfação", desc: "98% de aprovação" }
+            ].map((item, index) => (
+              <div key={index} className="text-center">
+                <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center mx-auto mb-3">
+                  <item.icon className="w-6 h-6 text-cyan-400" />
+                </div>
+                <p className="font-medium text-foreground text-sm">{item.label}</p>
+                <p className="text-xs text-muted-foreground">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 px-4">
         <div className="max-w-4xl mx-auto">
@@ -539,7 +841,7 @@ export default function LandingPage() {
               <Button 
                 size="lg"
                 className="bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-lg px-8 h-14 rounded-xl"
-                onClick={() => navigate("/dashboard")}
+                onClick={() => navigate("/login")}
               >
                 Criar Conta Grátis
                 <ArrowRight className="w-5 h-5 ml-2" />
@@ -550,21 +852,101 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-4 border-t border-border/50">
+      <footer className="py-16 px-4 border-t border-border/50 bg-card/30">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-purple-500 flex items-center justify-center">
-                <Zap className="w-5 h-5 text-white" />
+          {/* Main Footer */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+            {/* Brand */}
+            <div className="md:col-span-1">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-purple-500 flex items-center justify-center">
+                  <Zap className="w-5 h-5 text-white" />
+                </div>
+                <span className="text-lg font-bold">
+                  Revalida<span className="text-cyan-400">Flow</span>
+                </span>
               </div>
-              <span className="text-lg font-bold">
-                Revalida<span className="text-cyan-400">Flow</span>
-              </span>
+              <p className="text-sm text-muted-foreground mb-4">
+                A plataforma mais completa para sua aprovação no Revalida.
+              </p>
+              <div className="flex items-center gap-3">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-card border border-border/50 flex items-center justify-center text-muted-foreground hover:text-cyan-400 hover:border-cyan-500/50 transition-all">
+                  <Instagram className="w-4 h-4" />
+                </a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-card border border-border/50 flex items-center justify-center text-muted-foreground hover:text-cyan-400 hover:border-cyan-500/50 transition-all">
+                  <Youtube className="w-4 h-4" />
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-card border border-border/50 flex items-center justify-center text-muted-foreground hover:text-cyan-400 hover:border-cyan-500/50 transition-all">
+                  <Linkedin className="w-4 h-4" />
+                </a>
+              </div>
             </div>
-            
-            <div className="text-sm text-muted-foreground">
+
+            {/* Links */}
+            <div>
+              <h4 className="font-semibold text-foreground mb-4">Plataforma</h4>
+              <ul className="space-y-2">
+                {["Checklists", "Treino IA", "Colaborativo", "Flashcards", "Resumos"].map((item) => (
+                  <li key={item}>
+                    <a href="#" className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+                      {item}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-foreground mb-4">Empresa</h4>
+              <ul className="space-y-2">
+                {["Sobre nós", "Blog", "Carreiras", "Parceiros", "Afiliados"].map((item) => (
+                  <li key={item}>
+                    <a href="#" className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+                      {item}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-foreground mb-4">Suporte</h4>
+              <ul className="space-y-2">
+                {["Central de Ajuda", "Contato", "Termos de Uso", "Privacidade", "FAQ"].map((item) => (
+                  <li key={item}>
+                    <a href="#" className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+                      {item}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {/* Contact Info */}
+          <div className="flex flex-wrap items-center justify-center gap-6 py-6 border-t border-b border-border/50 mb-8">
+            <a href="mailto:contato@revalidaflow.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+              <Mail className="w-4 h-4" />
+              contato@revalidaflow.com
+            </a>
+            <a href="tel:+5511999999999" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+              <Phone className="w-4 h-4" />
+              (11) 99999-9999
+            </a>
+            <span className="flex items-center gap-2 text-sm text-muted-foreground">
+              <MapPin className="w-4 h-4" />
+              São Paulo, Brasil
+            </span>
+          </div>
+
+          {/* Bottom Footer */}
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-sm text-muted-foreground">
               © 2025 RevalidaFlow. Todos os direitos reservados.
-            </div>
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Feito com 💜 para médicos que sonham alto
+            </p>
           </div>
         </div>
       </footer>
