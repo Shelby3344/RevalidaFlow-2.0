@@ -622,8 +622,8 @@ export default function LandingPage() {
 
       {/* Pricing Section */}
       <section id="pricing" className="py-24 px-4">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-16">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Planos que cabem no seu <span className="text-cyan-400">bolso</span>
             </h2>
@@ -632,14 +632,31 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* Plano Mensal */}
+          {/* Banner de Lançamento */}
+          <div className="mb-12 p-4 rounded-2xl bg-gradient-to-r from-yellow-500/10 to-orange-500/10 border border-yellow-500/30 text-center">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <Sparkles className="w-5 h-5 text-yellow-400" />
+              <span className="text-lg font-bold text-yellow-400">🎉 OFERTA DE LANÇAMENTO</span>
+              <Sparkles className="w-5 h-5 text-yellow-400" />
+            </div>
+            <p className="text-sm text-muted-foreground">Primeiros 90 dias com desconto especial!</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Plano PRO Mensal */}
             <div className="relative p-6 rounded-2xl bg-card border border-border/50 hover:border-cyan-500/30 transition-all duration-300">
-              <h3 className="text-lg font-semibold mb-2">Mensal</h3>
-              <p className="text-muted-foreground text-sm mb-4">Ideal para testar a plataforma</p>
-              <div className="mb-6">
-                <span className="text-4xl font-bold">R$97</span>
+              <div className="absolute -top-3 left-4 px-3 py-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full text-xs font-medium text-white">
+                ✨ PRO
+              </div>
+              <h3 className="text-lg font-semibold mb-2 mt-2">Mensal</h3>
+              <p className="text-muted-foreground text-sm mb-4">Flexibilidade total</p>
+              <div className="mb-2">
+                <span className="text-3xl font-bold">R$19,90</span>
                 <span className="text-muted-foreground">/mês</span>
+              </div>
+              <div className="mb-4 p-2 rounded-lg bg-yellow-500/10 border border-yellow-500/30">
+                <p className="text-xs text-yellow-400 font-medium">🎉 Lançamento: R$14,90/mês</p>
+                <p className="text-xs text-muted-foreground">25% OFF nos primeiros 90 dias</p>
               </div>
               <ul className="space-y-3 mb-6">
                 {[
@@ -664,18 +681,22 @@ export default function LandingPage() {
               </Button>
             </div>
 
-            {/* Plano Semestral - Destaque */}
-            <div className="relative p-6 rounded-2xl bg-gradient-to-b from-cyan-500/10 to-purple-500/10 border-2 border-cyan-500/50 hover:border-cyan-500 transition-all duration-300 scale-105">
+            {/* Plano PRO Anual - Destaque */}
+            <div className="relative p-6 rounded-2xl bg-gradient-to-b from-cyan-500/10 to-purple-500/10 border-2 border-cyan-500/50 hover:border-cyan-500 transition-all duration-300 lg:scale-105">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-1 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full text-xs font-medium text-white">
                 Mais Popular
               </div>
-              <h3 className="text-lg font-semibold mb-2">Semestral</h3>
+              <h3 className="text-lg font-semibold mb-2 mt-2">Anual</h3>
               <p className="text-muted-foreground text-sm mb-4">Melhor custo-benefício</p>
               <div className="mb-2">
-                <span className="text-4xl font-bold">R$67</span>
+                <span className="text-3xl font-bold">R$14,99</span>
                 <span className="text-muted-foreground">/mês</span>
               </div>
-              <p className="text-xs text-cyan-400 mb-4">Economia de R$180 (6x R$67)</p>
+              <p className="text-xs text-cyan-400 mb-2">R$179,90/ano (25% OFF)</p>
+              <div className="mb-4 p-2 rounded-lg bg-yellow-500/10 border border-yellow-500/30">
+                <p className="text-xs text-yellow-400 font-medium">🎉 Lançamento: R$149,90/ano</p>
+                <p className="text-xs text-muted-foreground">37% OFF nos primeiros 90 dias</p>
+              </div>
               <ul className="space-y-3 mb-6">
                 {[
                   "Tudo do plano Mensal",
@@ -694,39 +715,80 @@ export default function LandingPage() {
                 className="w-full bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600"
                 onClick={() => navigate("/login")}
               >
-                Escolher Semestral
+                Escolher Anual
               </Button>
             </div>
 
-            {/* Plano Anual */}
-            <div className="relative p-6 rounded-2xl bg-card border border-border/50 hover:border-cyan-500/30 transition-all duration-300">
-              <h3 className="text-lg font-semibold mb-2">Anual</h3>
-              <p className="text-muted-foreground text-sm mb-4">Máxima economia</p>
+            {/* Plano BUSINESS */}
+            <div className="relative p-6 rounded-2xl bg-card border border-border/50 hover:border-purple-500/30 transition-all duration-300">
+              <div className="absolute -top-3 left-4 px-3 py-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-xs font-medium text-white">
+                🏢 BUSINESS
+              </div>
+              <h3 className="text-lg font-semibold mb-2 mt-2">Business</h3>
+              <p className="text-muted-foreground text-sm mb-4">Para grupos de estudo</p>
               <div className="mb-2">
-                <span className="text-4xl font-bold">R$47</span>
+                <span className="text-3xl font-bold">R$79</span>
                 <span className="text-muted-foreground">/mês</span>
               </div>
-              <p className="text-xs text-green-400 mb-4">Economia de R$600 (12x R$47)</p>
+              <div className="mb-4 p-2 rounded-lg bg-yellow-500/10 border border-yellow-500/30">
+                <p className="text-xs text-yellow-400 font-medium">🎉 Lançamento: R$69/mês</p>
+                <p className="text-xs text-muted-foreground">13% OFF nos primeiros 90 dias</p>
+              </div>
               <ul className="space-y-3 mb-6">
                 {[
-                  "Tudo do plano Semestral",
-                  "Acesso vitalício às atualizações",
-                  "Grupo VIP no WhatsApp",
-                  "Mentoria em grupo mensal",
-                  "Certificado de conclusão"
+                  "Tudo do plano Anual",
+                  "Até 5 usuários",
+                  "Painel administrativo",
+                  "Relatórios de progresso",
+                  "Suporte dedicado"
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Check className="w-4 h-4 text-cyan-500" />
+                    <Check className="w-4 h-4 text-purple-500" />
                     {item}
                   </li>
                 ))}
               </ul>
               <Button 
                 variant="outline" 
-                className="w-full"
+                className="w-full border-purple-500/50 hover:bg-purple-500/10"
                 onClick={() => navigate("/login")}
               >
-                Escolher Anual
+                Escolher Business
+              </Button>
+            </div>
+
+            {/* Plano ENTERPRISE */}
+            <div className="relative p-6 rounded-2xl bg-gradient-to-b from-yellow-500/5 to-orange-500/5 border border-yellow-500/30 hover:border-yellow-500/50 transition-all duration-300">
+              <div className="absolute -top-3 left-4 px-3 py-1 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full text-xs font-medium text-white">
+                🏆 ENTERPRISE
+              </div>
+              <h3 className="text-lg font-semibold mb-2 mt-2">Enterprise</h3>
+              <p className="text-muted-foreground text-sm mb-4">Para instituições</p>
+              <div className="mb-6">
+                <span className="text-3xl font-bold">R$299</span>
+                <span className="text-muted-foreground">/mês</span>
+              </div>
+              <ul className="space-y-3 mb-6">
+                {[
+                  "Tudo do plano Business",
+                  "Usuários ilimitados",
+                  "API de integração",
+                  "Customização de marca",
+                  "Gerente de conta dedicado",
+                  "SLA garantido"
+                ].map((item, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <Check className="w-4 h-4 text-yellow-500" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <Button 
+                variant="outline" 
+                className="w-full border-yellow-500/50 hover:bg-yellow-500/10"
+                onClick={() => navigate("/login")}
+              >
+                Falar com Vendas
               </Button>
             </div>
           </div>
