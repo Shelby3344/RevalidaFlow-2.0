@@ -18,7 +18,7 @@ import {
   ChevronRight,
   Pin,
   PinOff,
-  Zap,
+  Stethoscope,
   X,
   LogOut,
   ListChecks,
@@ -173,18 +173,18 @@ export function Sidebar({
           <div
             className={cn(
               "flex items-center justify-center rounded-xl",
-              "bg-gradient-to-br from-emerald-500 to-teal-600",
-              "shadow-lg shadow-emerald-500/20",
+              "bg-gradient-to-br from-cyan-500 to-purple-600",
+              "shadow-lg shadow-cyan-500/20",
               "w-9 h-9 md:w-10 md:h-10"
             )}
           >
-            <Zap className="w-4 h-4 md:w-5 md:h-5 text-white" />
+            <Stethoscope className="w-4 h-4 md:w-5 md:h-5 text-white" />
           </div>
         </div>
         {(isExpanded || isMobile) && (
           <div className="flex-1 min-w-0">
             <h1 className="text-sm md:text-base font-bold text-foreground tracking-tight">
-              Revalida<span className="text-emerald-500">Flow</span>
+              Revalida<span className="text-cyan-400">Flow</span>
             </h1>
             <p className="text-[9px] md:text-[10px] text-muted-foreground font-medium">Plataforma de Estudos</p>
           </div>
@@ -218,7 +218,7 @@ export function Sidebar({
             className={cn(
               "h-8 w-8 rounded-lg",
               isPinned
-                ? "text-emerald-500 bg-emerald-500/10 hover:bg-emerald-500/20"
+                ? "text-cyan-500 bg-cyan-500/10 hover:bg-cyan-500/20"
                 : "text-muted-foreground hover:text-foreground"
             )}
             title={isPinned ? "Desafixar sidebar" : "Fixar sidebar"}
@@ -288,7 +288,7 @@ export function Sidebar({
                                     "flex items-center py-2 px-3 text-[13px] rounded-lg",
                                     "transition-all duration-200",
                                     isActive
-                                      ? "text-emerald-500 font-medium bg-emerald-500/10"
+                                      ? "text-cyan-500 font-medium bg-cyan-500/10"
                                       : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
                                   )
                                 }
