@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { AppLayout } from "@/components/layout/AppLayout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -13,128 +13,31 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+import {
   LineChart, Line, AreaChart, Area, BarChart, Bar, PieChart, Pie, Cell,
   RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis,
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend
 } from "recharts";
 import {
-  TrendingUp, TrendingDown, Target, Award, Clock, Brain,
+  TrendingUp, Target, Award, Clock, Brain,
   BarChart3, Activity, Users, Sparkles, ChevronRight,
-  Calendar, Zap, Trophy, BookOpen, Stethoscope, Baby,
-  Heart, Scissors, Shield, AlertTriangle, CheckCircle2,
-  ArrowUpRight, ArrowDownRight, Loader2, MessageSquare
+  AlertTriangle, CheckCircle2,
+  ArrowUpRight, ArrowDownRight, Loader2, RefreshCw, Trash2
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useAuth } from "@/hooks/useAuth";
+import { useAnalytics, AreaStats } from "@/hooks/useAnalytics";
+import { toast } from "sonner";
 
-// Types
-interface AreaStats {
-  area: string;
-  areaCode: string;
-  media: number;
-  estacoes: number;
-  color: string;
-  icon: any;
-  trend: number;
-}
-
-interface CategoryPerformance {
-  category: string;
-  percentage: number;
-  color: string;
-}
-
-interface WeakPoint {
-  id: number;
-  title: string;
-  score: number;
-  area: string;
-  date: string;
-}
-
-interface EvolutionData {
-  date: string;
-  score: number;
-  media: number;
-}
-
-
-interface GlobalStats {
-  totalUsers: number;
-  avgScore: number;
-  topPerformers: number;
-  activeToday: number;
-}
-
-// Mock data - será substituído por dados reais do Supabase
-const mockAreaStats: AreaStats[] = [
-  { area: "Cirurgia", areaCode: "CR", media: 7.5, estacoes: 11, color: "#3b82f6", icon: Scissors, trend: 5 },
-  { area: "Clínica Médica", areaCode: "CM", media: 6.5, estacoes: 11, color: "#8b5cf6", icon: Stethoscope, trend: -2 },
-  { area: "Ginecologia", areaCode: "GO", media: 6.4, estacoes: 9, color: "#ec4899", icon: Heart, trend: 8 },
-  { area: "Pediatria", areaCode: "PE", media: 7.9, estacoes: 15, color: "#10b981", icon: Baby, trend: 12 },
-  { area: "Preventiva", areaCode: "PR", media: 8.0, estacoes: 7, color: "#f59e0b", icon: Shield, trend: 3 },
-];
-
-const mockCategoryPerformance: CategoryPerformance[] = [
-  { category: "Anamnese", percentage: 71, color: "#22c55e" },
-  { category: "Exame Físico", percentage: 73, color: "#22c55e" },
-  { category: "Laboratório", percentage: 58, color: "#f59e0b" },
-  { category: "Imagem", percentage: 55, color: "#f59e0b" },
-  { category: "Diagnóstico", percentage: 62, color: "#f59e0b" },
-  { category: "Conduta", percentage: 70, color: "#22c55e" },
-];
-
-const mockWeakPoints: WeakPoint[] = [
-  { id: 1, title: "Colestase Gravídica", score: 1.6, area: "GO", date: "28/12" },
-  { id: 2, title: "Febre Reumática", score: 3.4, area: "PE", date: "26/12" },
-  { id: 3, title: "Síndrome do Bebê Sacudido", score: 4.3, area: "PE", date: "25/12" },
-  { id: 4, title: "Cefaleia Tensional", score: 4.5, area: "CM", date: "24/12" },
-  { id: 5, title: "Apendicite Aguda", score: 4.8, area: "CR", date: "23/12" },
-];
-
-const mockEvolutionData: EvolutionData[] = [
-  { date: "01/12", score: 5.2, media: 6.5 },
-  { date: "05/12", score: 5.8, media: 6.5 },
-  { date: "10/12", score: 6.1, media: 6.6 },
-  { date: "15/12", score: 6.8, media: 6.6 },
-  { date: "20/12", score: 7.2, media: 6.7 },
-  { date: "25/12", score: 7.0, media: 6.7 },
-  { date: "30/12", score: 7.3, media: 6.8 },
-];
-
-const mockGlobalStats: GlobalStats = {
-  totalUsers: 2547,
-  avgScore: 6.8,
-  topPerformers: 312,
-  activeToday: 847,
-};
-
-
-const mockRadarData = [
-  { subject: "Cirurgia", A: 75, B: 68, fullMark: 100 },
-  { subject: "Clínica", A: 65, B: 70, fullMark: 100 },
-  { subject: "GO", A: 64, B: 65, fullMark: 100 },
-  { subject: "Pediatria", A: 79, B: 72, fullMark: 100 },
-  { subject: "Preventiva", A: 80, B: 75, fullMark: 100 },
-];
-
-const mockWeeklyActivity = [
-  { day: "Seg", estacoes: 4, tempo: 45 },
-  { day: "Ter", estacoes: 6, tempo: 72 },
-  { day: "Qua", estacoes: 3, tempo: 35 },
-  { day: "Qui", estacoes: 8, tempo: 95 },
-  { day: "Sex", estacoes: 5, tempo: 58 },
-  { day: "Sáb", estacoes: 2, tempo: 25 },
-  { day: "Dom", estacoes: 1, tempo: 12 },
-];
-
-const mockDistributionData = [
-  { name: "Cirurgia", value: 11, color: "#3b82f6" },
-  { name: "Clínica", value: 11, color: "#8b5cf6" },
-  { name: "GO", value: 9, color: "#ec4899" },
-  { name: "Pediatria", value: 15, color: "#10b981" },
-  { name: "Preventiva", value: 7, color: "#f59e0b" },
-];
 
 // Componente de Score Circular
 function CircularScore({ score, size = 120, strokeWidth = 8 }: { score: number; size?: number; strokeWidth?: number }) {
@@ -180,7 +83,6 @@ function CircularScore({ score, size = 120, strokeWidth = 8 }: { score: number; 
   );
 }
 
-
 // Componente de Card de Área
 function AreaCard({ area }: { area: AreaStats }) {
   const Icon = area.icon;
@@ -195,16 +97,18 @@ function AreaCard({ area }: { area: AreaStats }) {
         >
           <Icon className="w-5 h-5" style={{ color: area.color }} />
         </div>
-        <div className={cn(
-          "flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full",
-          isPositive ? "bg-green-500/10 text-green-500" : "bg-red-500/10 text-red-500"
-        )}>
-          {isPositive ? <ArrowUpRight className="w-3 h-3" /> : <ArrowDownRight className="w-3 h-3" />}
-          {Math.abs(area.trend)}%
-        </div>
+        {area.estacoes > 0 && (
+          <div className={cn(
+            "flex items-center gap-1 text-xs font-medium px-2 py-1 rounded-full",
+            isPositive ? "bg-green-500/10 text-green-500" : "bg-red-500/10 text-red-500"
+          )}>
+            {isPositive ? <ArrowUpRight className="w-3 h-3" /> : <ArrowDownRight className="w-3 h-3" />}
+            {Math.abs(area.trend)}%
+          </div>
+        )}
       </div>
       
-      <h3 className="font-semibold text-foreground mb-1">{area.area}</h3>
+      <h3 className="font-semibold text-foreground mb-1 text-sm">{area.area}</h3>
       
       <div className="flex items-end justify-between">
         <div>
@@ -224,67 +128,90 @@ function AreaCard({ area }: { area: AreaStats }) {
   );
 }
 
-// Componente de IA Insights
-function AIInsightsCard({ isLoading, insights }: { isLoading: boolean; insights: string[] }) {
+// Componente de Estado Vazio
+function EmptyState({ onRefresh }: { onRefresh: () => void }) {
   return (
-    <Card className="border-primary/20 bg-gradient-to-br from-primary/5 to-transparent">
-      <CardHeader className="pb-3">
-        <CardTitle className="flex items-center gap-2 text-lg">
-          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
-            <Brain className="w-4 h-4 text-primary" />
-          </div>
-          Análise da IA
-          <Badge variant="secondary" className="ml-auto">Beta</Badge>
-        </CardTitle>
-      </CardHeader>
-      <CardContent>
-        {isLoading ? (
-          <div className="flex items-center justify-center py-8">
-            <Loader2 className="w-6 h-6 animate-spin text-primary" />
-            <span className="ml-2 text-muted-foreground">Analisando seus dados...</span>
-          </div>
-        ) : (
-          <div className="space-y-3">
-            {insights.map((insight, index) => (
-              <div key={index} className="flex gap-3 p-3 rounded-lg bg-card/50 border border-border/50">
-                <Sparkles className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                <p className="text-sm text-foreground/90">{insight}</p>
-              </div>
-            ))}
-          </div>
-        )}
-      </CardContent>
-    </Card>
+    <div className="flex flex-col items-center justify-center py-16 text-center">
+      <div className="w-20 h-20 rounded-full bg-muted/50 flex items-center justify-center mb-4">
+        <BarChart3 className="w-10 h-10 text-muted-foreground" />
+      </div>
+      <h3 className="text-lg font-semibold text-foreground mb-2">Nenhum dado ainda</h3>
+      <p className="text-muted-foreground text-sm max-w-md mb-4">
+        Complete alguns checklists para ver suas estatísticas de desempenho aqui.
+      </p>
+      <Button onClick={onRefresh} variant="outline" size="sm">
+        <RefreshCw className="w-4 h-4 mr-2" />
+        Atualizar
+      </Button>
+    </div>
   );
 }
 
 
 // Componente Principal
 export default function Analytics() {
-  const { user } = useAuth();
+  const {
+    areaStats,
+    weakPoints,
+    evolutionData,
+    globalStats,
+    loading,
+    totalEstacoes,
+    mediaGeral,
+    tempoTotalMinutos,
+    refreshData,
+    resetAllStats,
+    stats,
+  } = useAnalytics();
+
   const [selectedPeriod, setSelectedPeriod] = useState("30d");
-  const [isLoadingAI, setIsLoadingAI] = useState(true);
-  const [aiInsights, setAiInsights] = useState<string[]>([]);
-  
-  // Calcular estatísticas gerais
-  const totalEstacoes = mockAreaStats.reduce((acc, a) => acc + a.estacoes, 0);
-  const mediaGeral = mockAreaStats.reduce((acc, a) => acc + a.media, 0) / mockAreaStats.length;
-  const tempoTotal = mockWeeklyActivity.reduce((acc, d) => acc + d.tempo, 0);
-  
-  // Simular análise da IA
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setAiInsights([
-        "📈 Sua média em Pediatria (7.9) está 16% acima da média da plataforma. Continue assim!",
-        "⚠️ Você tem dificuldade em Ginecologia (6.4). Recomendo focar em casos de Colestase e Pré-eclâmpsia.",
-        "🎯 Seu ponto fraco é Laboratório (58%). Pratique mais interpretação de exames.",
-        "💡 Você treina mais às quintas-feiras. Considere distribuir melhor ao longo da semana.",
-        "🏆 Você está no top 25% dos usuários em Preventiva. Parabéns!"
-      ]);
-      setIsLoadingAI(false);
-    }, 2000);
-    return () => clearTimeout(timer);
-  }, []);
+  const [isResetting, setIsResetting] = useState(false);
+
+  // Preparar dados para gráficos
+  const radarData = areaStats.map(a => ({
+    subject: a.areaCode,
+    A: a.media * 10,
+    B: globalStats.avgScore * 10 || 65,
+    fullMark: 100,
+  }));
+
+  const distributionData = areaStats
+    .filter(a => a.estacoes > 0)
+    .map(a => ({
+      name: a.areaCode,
+      value: a.estacoes,
+      color: a.color,
+    }));
+
+  // Handler para resetar estatísticas
+  const handleResetStats = async () => {
+    setIsResetting(true);
+    try {
+      await resetAllStats();
+      toast.success("Estatísticas resetadas com sucesso!");
+    } catch (error) {
+      toast.error("Erro ao resetar estatísticas");
+    } finally {
+      setIsResetting(false);
+    }
+  };
+
+  // Calcular ranking do usuário
+  const getUserRanking = () => {
+    if (globalStats.totalUsers === 0 || mediaGeral === 0) return "N/A";
+    const percentile = mediaGeral >= 7 ? 25 : mediaGeral >= 5 ? 50 : 75;
+    return `Top ${percentile}%`;
+  };
+
+  if (loading) {
+    return (
+      <AppLayout>
+        <div className="flex items-center justify-center h-64">
+          <Loader2 className="w-8 h-8 animate-spin text-primary" />
+        </div>
+      </AppLayout>
+    );
+  }
 
   return (
     <AppLayout>
@@ -308,6 +235,44 @@ export default function Analytics() {
                 <SelectItem value="all">Todo período</SelectItem>
               </SelectContent>
             </Select>
+
+            <Button variant="outline" size="icon" onClick={refreshData}>
+              <RefreshCw className="w-4 h-4" />
+            </Button>
+
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button variant="outline" size="icon" className="text-destructive hover:text-destructive">
+                  <Trash2 className="w-4 h-4" />
+                </Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Resetar todas as estatísticas?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    Esta ação irá apagar permanentemente todo o seu histórico de checklists e estatísticas. 
+                    Você começará do zero. Esta ação não pode ser desfeita.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Cancelar</AlertDialogCancel>
+                  <AlertDialogAction
+                    onClick={handleResetStats}
+                    disabled={isResetting}
+                    className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+                  >
+                    {isResetting ? (
+                      <>
+                        <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                        Resetando...
+                      </>
+                    ) : (
+                      "Sim, resetar tudo"
+                    )}
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
           </div>
         </div>
 
@@ -348,7 +313,9 @@ export default function Analytics() {
                   <Clock className="w-5 h-5 text-purple-500" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold">{Math.floor(tempoTotal / 60)}h{tempoTotal % 60}m</p>
+                  <p className="text-2xl font-bold">
+                    {Math.floor(tempoTotalMinutos / 60)}h{Math.round(tempoTotalMinutos % 60)}m
+                  </p>
                   <p className="text-xs text-muted-foreground">Tempo de Estudo</p>
                 </div>
               </div>
@@ -362,7 +329,7 @@ export default function Analytics() {
                   <Award className="w-5 h-5 text-amber-500" />
                 </div>
                 <div>
-                  <p className="text-2xl font-bold">Top 25%</p>
+                  <p className="text-2xl font-bold">{getUserRanking()}</p>
                   <p className="text-xs text-muted-foreground">Ranking Geral</p>
                 </div>
               </div>
@@ -370,304 +337,298 @@ export default function Analytics() {
           </Card>
         </div>
 
+        {totalEstacoes === 0 ? (
+          <EmptyState onRefresh={refreshData} />
+        ) : (
+          <>
+            {/* Main Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              {/* Left Column - 2/3 */}
+              <div className="lg:col-span-2 space-y-6">
+                {/* Evolução */}
+                {evolutionData.length > 0 && (
+                  <Card>
+                    <CardHeader className="pb-2">
+                      <div className="flex items-center justify-between">
+                        <CardTitle className="flex items-center gap-2">
+                          <Activity className="w-5 h-5 text-primary" />
+                          Evolução do Desempenho
+                        </CardTitle>
+                        <div className="flex items-center gap-4 text-xs">
+                          <div className="flex items-center gap-1">
+                            <div className="w-3 h-3 rounded-full bg-primary" />
+                            <span>Você</span>
+                          </div>
+                          <div className="flex items-center gap-1">
+                            <div className="w-3 h-3 rounded-full bg-muted-foreground/50" />
+                            <span>Média Geral</span>
+                          </div>
+                        </div>
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="h-[280px]">
+                        <ResponsiveContainer width="100%" height="100%">
+                          <AreaChart data={evolutionData}>
+                            <defs>
+                              <linearGradient id="colorScore" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="5%" stopColor="#06b6d4" stopOpacity={0.3}/>
+                                <stop offset="95%" stopColor="#06b6d4" stopOpacity={0}/>
+                              </linearGradient>
+                            </defs>
+                            <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+                            <XAxis dataKey="date" stroke="hsl(var(--muted-foreground))" fontSize={12} />
+                            <YAxis stroke="hsl(var(--muted-foreground))" fontSize={12} domain={[0, 10]} />
+                            <Tooltip 
+                              contentStyle={{ 
+                                backgroundColor: 'hsl(var(--card))', 
+                                border: '1px solid hsl(var(--border))',
+                                borderRadius: '8px'
+                              }}
+                            />
+                            <Area type="monotone" dataKey="score" stroke="#06b6d4" strokeWidth={2} fill="url(#colorScore)" />
+                            <Line type="monotone" dataKey="media" stroke="hsl(var(--muted-foreground))" strokeWidth={2} strokeDasharray="5 5" dot={false} />
+                          </AreaChart>
+                        </ResponsiveContainer>
+                      </div>
+                    </CardContent>
+                  </Card>
+                )}
 
-        {/* Main Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Left Column - 2/3 */}
-          <div className="lg:col-span-2 space-y-6">
-            {/* Evolução */}
-            <Card>
-              <CardHeader className="pb-2">
-                <div className="flex items-center justify-between">
-                  <CardTitle className="flex items-center gap-2">
-                    <Activity className="w-5 h-5 text-primary" />
-                    Evolução do Desempenho
-                  </CardTitle>
-                  <div className="flex items-center gap-4 text-xs">
-                    <div className="flex items-center gap-1">
-                      <div className="w-3 h-3 rounded-full bg-primary" />
-                      <span>Você</span>
+                {/* Desempenho por Área */}
+                <Card>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="flex items-center gap-2">
+                      <BarChart3 className="w-5 h-5 text-primary" />
+                      Desempenho por Área
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                      {areaStats.map((area) => (
+                        <AreaCard key={area.areaCode} area={area} />
+                      ))}
                     </div>
-                    <div className="flex items-center gap-1">
-                      <div className="w-3 h-3 rounded-full bg-muted-foreground/50" />
-                      <span>Média Geral</span>
+                  </CardContent>
+                </Card>
+
+                {/* Tabs de Gráficos */}
+                <Card>
+                  <CardHeader className="pb-2">
+                    <Tabs defaultValue="radar" className="w-full">
+                      <div className="flex items-center justify-between">
+                        <CardTitle>Análise Comparativa</CardTitle>
+                        <TabsList>
+                          <TabsTrigger value="radar">Radar</TabsTrigger>
+                          <TabsTrigger value="bar">Barras</TabsTrigger>
+                          <TabsTrigger value="pie">Pizza</TabsTrigger>
+                        </TabsList>
+                      </div>
+                      
+                      <TabsContent value="radar" className="mt-4">
+                        <div className="h-[300px]">
+                          <ResponsiveContainer width="100%" height="100%">
+                            <RadarChart data={radarData}>
+                              <PolarGrid stroke="hsl(var(--border))" />
+                              <PolarAngleAxis dataKey="subject" stroke="hsl(var(--muted-foreground))" fontSize={12} />
+                              <PolarRadiusAxis angle={30} domain={[0, 100]} stroke="hsl(var(--border))" />
+                              <Radar name="Você" dataKey="A" stroke="#06b6d4" fill="#06b6d4" fillOpacity={0.3} />
+                              <Radar name="Média Geral" dataKey="B" stroke="#8b5cf6" fill="#8b5cf6" fillOpacity={0.2} />
+                              <Legend />
+                            </RadarChart>
+                          </ResponsiveContainer>
+                        </div>
+                      </TabsContent>
+                      
+                      <TabsContent value="bar" className="mt-4">
+                        <div className="h-[300px]">
+                          <ResponsiveContainer width="100%" height="100%">
+                            <BarChart data={areaStats} layout="vertical">
+                              <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+                              <XAxis type="number" domain={[0, 10]} stroke="hsl(var(--muted-foreground))" />
+                              <YAxis dataKey="area" type="category" stroke="hsl(var(--muted-foreground))" fontSize={12} width={100} />
+                              <Tooltip 
+                                contentStyle={{ 
+                                  backgroundColor: 'hsl(var(--card))', 
+                                  border: '1px solid hsl(var(--border))',
+                                  borderRadius: '8px'
+                                }}
+                              />
+                              <Bar dataKey="media" radius={[0, 4, 4, 0]}>
+                                {areaStats.map((entry, index) => (
+                                  <Cell key={`cell-${index}`} fill={entry.color} />
+                                ))}
+                              </Bar>
+                            </BarChart>
+                          </ResponsiveContainer>
+                        </div>
+                      </TabsContent>
+                      
+                      <TabsContent value="pie" className="mt-4">
+                        <div className="h-[300px]">
+                          {distributionData.length > 0 ? (
+                            <ResponsiveContainer width="100%" height="100%">
+                              <PieChart>
+                                <Pie
+                                  data={distributionData}
+                                  cx="50%"
+                                  cy="50%"
+                                  innerRadius={60}
+                                  outerRadius={100}
+                                  paddingAngle={5}
+                                  dataKey="value"
+                                  label={({ name, value }) => `${name}: ${value}`}
+                                >
+                                  {distributionData.map((entry, index) => (
+                                    <Cell key={`cell-${index}`} fill={entry.color} />
+                                  ))}
+                                </Pie>
+                                <Tooltip />
+                                <Legend />
+                              </PieChart>
+                            </ResponsiveContainer>
+                          ) : (
+                            <div className="flex items-center justify-center h-full text-muted-foreground">
+                              Sem dados para exibir
+                            </div>
+                          )}
+                        </div>
+                      </TabsContent>
+                    </Tabs>
+                  </CardHeader>
+                </Card>
+              </div>
+
+              {/* Right Column - 1/3 */}
+              <div className="space-y-6">
+                {/* Score Geral */}
+                <Card>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-base">Minha Média Geral</CardTitle>
+                  </CardHeader>
+                  <CardContent className="flex flex-col items-center">
+                    <CircularScore score={mediaGeral} size={140} />
+                    <div className="mt-4 w-full space-y-2">
+                      <div className="flex justify-between text-sm">
+                        <span className="text-muted-foreground">Média da Plataforma</span>
+                        <span className="font-medium">{globalStats.avgScore.toFixed(1)}</span>
+                      </div>
+                      <div className="flex justify-between text-sm">
+                        <span className="text-muted-foreground">Sua Posição</span>
+                        <span className={cn(
+                          "font-medium",
+                          mediaGeral >= 7 ? "text-green-500" : mediaGeral >= 5 ? "text-amber-500" : "text-red-500"
+                        )}>
+                          {getUserRanking()}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-sm">
+                        <span className="text-muted-foreground">Melhor Nota</span>
+                        <span className="font-medium text-green-500">
+                          {stats?.best_score ? (stats.best_score / 10).toFixed(1) : "N/A"}
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <div className="h-[280px]">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <AreaChart data={mockEvolutionData}>
-                      <defs>
-                        <linearGradient id="colorScore" x1="0" y1="0" x2="0" y2="1">
-                          <stop offset="5%" stopColor="#06b6d4" stopOpacity={0.3}/>
-                          <stop offset="95%" stopColor="#06b6d4" stopOpacity={0}/>
-                        </linearGradient>
-                      </defs>
-                      <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                      <XAxis dataKey="date" stroke="hsl(var(--muted-foreground))" fontSize={12} />
-                      <YAxis stroke="hsl(var(--muted-foreground))" fontSize={12} domain={[0, 10]} />
-                      <Tooltip 
-                        contentStyle={{ 
-                          backgroundColor: 'hsl(var(--card))', 
-                          border: '1px solid hsl(var(--border))',
-                          borderRadius: '8px'
-                        }}
-                      />
-                      <Area type="monotone" dataKey="score" stroke="#06b6d4" strokeWidth={2} fill="url(#colorScore)" />
-                      <Line type="monotone" dataKey="media" stroke="hsl(var(--muted-foreground))" strokeWidth={2} strokeDasharray="5 5" dot={false} />
-                    </AreaChart>
-                  </ResponsiveContainer>
-                </div>
-              </CardContent>
-            </Card>
+                  </CardContent>
+                </Card>
 
-            {/* Desempenho por Área */}
-            <Card>
-              <CardHeader className="pb-2">
-                <CardTitle className="flex items-center gap-2">
-                  <BarChart3 className="w-5 h-5 text-primary" />
-                  Desempenho por Área
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-                  {mockAreaStats.map((area) => (
-                    <AreaCard key={area.areaCode} area={area} />
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+                {/* Pontos a Melhorar */}
+                <Card>
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-base flex items-center gap-2">
+                      <AlertTriangle className="w-4 h-4 text-amber-500" />
+                      Pontos a Melhorar
+                      {weakPoints.length > 0 && (
+                        <Badge variant="secondary" className="ml-auto">{weakPoints.length}</Badge>
+                      )}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-2">
+                    {weakPoints.length > 0 ? (
+                      weakPoints.map((point) => (
+                        <div 
+                          key={point.id} 
+                          className="flex items-center gap-3 p-2 rounded-lg bg-card hover:bg-accent/50 transition-colors cursor-pointer"
+                        >
+                          <div className={cn(
+                            "w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold text-white",
+                            point.score < 3 ? "bg-red-500" : point.score < 5 ? "bg-amber-500" : "bg-yellow-500"
+                          )}>
+                            {point.score.toFixed(1)}
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <p className="text-sm font-medium truncate">{point.title}</p>
+                            <p className="text-xs text-muted-foreground">{point.area} • {point.date}</p>
+                          </div>
+                          <ChevronRight className="w-4 h-4 text-muted-foreground" />
+                        </div>
+                      ))
+                    ) : (
+                      <div className="text-center py-4 text-sm text-muted-foreground">
+                        <CheckCircle2 className="w-8 h-8 mx-auto mb-2 text-green-500" />
+                        Nenhum ponto fraco identificado!
+                      </div>
+                    )}
+                  </CardContent>
+                </Card>
 
-            {/* Tabs de Gráficos */}
-            <Card>
-              <CardHeader className="pb-2">
-                <Tabs defaultValue="radar" className="w-full">
-                  <div className="flex items-center justify-between">
-                    <CardTitle>Análise Comparativa</CardTitle>
-                    <TabsList>
-                      <TabsTrigger value="radar">Radar</TabsTrigger>
-                      <TabsTrigger value="bar">Barras</TabsTrigger>
-                      <TabsTrigger value="pie">Pizza</TabsTrigger>
-                    </TabsList>
-                  </div>
-                  
-                  <TabsContent value="radar" className="mt-4">
-                    <div className="h-[300px]">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <RadarChart data={mockRadarData}>
-                          <PolarGrid stroke="hsl(var(--border))" />
-                          <PolarAngleAxis dataKey="subject" stroke="hsl(var(--muted-foreground))" fontSize={12} />
-                          <PolarRadiusAxis angle={30} domain={[0, 100]} stroke="hsl(var(--border))" />
-                          <Radar name="Você" dataKey="A" stroke="#06b6d4" fill="#06b6d4" fillOpacity={0.3} />
-                          <Radar name="Média Geral" dataKey="B" stroke="#8b5cf6" fill="#8b5cf6" fillOpacity={0.2} />
-                          <Legend />
-                        </RadarChart>
-                      </ResponsiveContainer>
+                {/* Estatísticas Globais */}
+                <Card className="bg-gradient-to-br from-primary/5 to-transparent border-primary/20">
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-base flex items-center gap-2">
+                      <Users className="w-4 h-4 text-primary" />
+                      Estatísticas da Plataforma
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="text-center p-3 rounded-lg bg-card/50">
+                        <p className="text-xl font-bold text-foreground">{globalStats.totalUsers.toLocaleString()}</p>
+                        <p className="text-xs text-muted-foreground">Usuários</p>
+                      </div>
+                      <div className="text-center p-3 rounded-lg bg-card/50">
+                        <p className="text-xl font-bold text-foreground">{globalStats.avgScore.toFixed(1)}</p>
+                        <p className="text-xs text-muted-foreground">Média Geral</p>
+                      </div>
+                      <div className="text-center p-3 rounded-lg bg-card/50">
+                        <p className="text-xl font-bold text-green-500">{globalStats.topPerformers}</p>
+                        <p className="text-xs text-muted-foreground">Top Performers</p>
+                      </div>
+                      <div className="text-center p-3 rounded-lg bg-card/50">
+                        <p className="text-xl font-bold text-primary">{globalStats.activeToday}</p>
+                        <p className="text-xs text-muted-foreground">Ativos Hoje</p>
+                      </div>
                     </div>
-                  </TabsContent>
-                  
-                  <TabsContent value="bar" className="mt-4">
-                    <div className="h-[300px]">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <BarChart data={mockAreaStats} layout="vertical">
-                          <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                          <XAxis type="number" domain={[0, 10]} stroke="hsl(var(--muted-foreground))" />
-                          <YAxis dataKey="area" type="category" stroke="hsl(var(--muted-foreground))" fontSize={12} width={80} />
-                          <Tooltip 
-                            contentStyle={{ 
-                              backgroundColor: 'hsl(var(--card))', 
-                              border: '1px solid hsl(var(--border))',
-                              borderRadius: '8px'
-                            }}
-                          />
-                          <Bar dataKey="media" radius={[0, 4, 4, 0]}>
-                            {mockAreaStats.map((entry, index) => (
-                              <Cell key={`cell-${index}`} fill={entry.color} />
-                            ))}
-                          </Bar>
-                        </BarChart>
-                      </ResponsiveContainer>
-                    </div>
-                  </TabsContent>
-                  
-                  <TabsContent value="pie" className="mt-4">
-                    <div className="h-[300px]">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <PieChart>
-                          <Pie
-                            data={mockDistributionData}
-                            cx="50%"
-                            cy="50%"
-                            innerRadius={60}
-                            outerRadius={100}
-                            paddingAngle={5}
-                            dataKey="value"
-                            label={({ name, value }) => `${name}: ${value}`}
-                          >
-                            {mockDistributionData.map((entry, index) => (
-                              <Cell key={`cell-${index}`} fill={entry.color} />
-                            ))}
-                          </Pie>
-                          <Tooltip />
-                          <Legend />
-                        </PieChart>
-                      </ResponsiveContainer>
-                    </div>
-                  </TabsContent>
-                </Tabs>
-              </CardHeader>
-            </Card>
-          </div>
+                  </CardContent>
+                </Card>
 
-
-          {/* Right Column - 1/3 */}
-          <div className="space-y-6">
-            {/* Score Geral */}
-            <Card>
-              <CardHeader className="pb-2">
-                <CardTitle className="text-base">Minha Média Geral</CardTitle>
-              </CardHeader>
-              <CardContent className="flex flex-col items-center">
-                <CircularScore score={mediaGeral} size={140} />
-                <div className="mt-4 w-full space-y-2">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Média da Plataforma</span>
-                    <span className="font-medium">{mockGlobalStats.avgScore}</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Sua Posição</span>
-                    <span className="font-medium text-green-500">Top 25%</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Desempenho por Categoria */}
-            <Card>
-              <CardHeader className="pb-2">
-                <CardTitle className="text-base flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-primary" />
-                  Desempenho por Categoria
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                {mockCategoryPerformance.map((cat) => (
-                  <div key={cat.category} className="space-y-1">
-                    <div className="flex justify-between text-sm">
-                      <span className="text-foreground">{cat.category}</span>
-                      <span className="font-medium" style={{ color: cat.color }}>{cat.percentage}%</span>
-                    </div>
-                    <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                      <div 
-                        className="h-full rounded-full transition-all duration-500"
-                        style={{ width: `${cat.percentage}%`, backgroundColor: cat.color }}
-                      />
-                    </div>
-                  </div>
-                ))}
-              </CardContent>
-            </Card>
-
-            {/* Pontos a Melhorar */}
-            <Card>
-              <CardHeader className="pb-2">
-                <CardTitle className="text-base flex items-center gap-2">
-                  <AlertTriangle className="w-4 h-4 text-amber-500" />
-                  Pontos a Melhorar
-                  <Badge variant="secondary" className="ml-auto">{mockWeakPoints.length}</Badge>
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                {mockWeakPoints.slice(0, 4).map((point) => (
-                  <div 
-                    key={point.id} 
-                    className="flex items-center gap-3 p-2 rounded-lg bg-card hover:bg-accent/50 transition-colors cursor-pointer"
-                  >
-                    <div className={cn(
-                      "w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold text-white",
-                      point.score < 3 ? "bg-red-500" : point.score < 5 ? "bg-amber-500" : "bg-yellow-500"
-                    )}>
-                      {point.score.toFixed(1)}
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium truncate">{point.title}</p>
-                      <p className="text-xs text-muted-foreground">{point.area} • {point.date}</p>
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-muted-foreground" />
-                  </div>
-                ))}
-                <Button variant="outline" className="w-full mt-2" size="sm">
-                  Ver Mais ({mockWeakPoints.length - 4})
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Estatísticas Globais */}
-            <Card className="bg-gradient-to-br from-primary/5 to-transparent border-primary/20">
-              <CardHeader className="pb-2">
-                <CardTitle className="text-base flex items-center gap-2">
-                  <Users className="w-4 h-4 text-primary" />
-                  Estatísticas da Plataforma
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="text-center p-3 rounded-lg bg-card/50">
-                    <p className="text-xl font-bold text-foreground">{mockGlobalStats.totalUsers.toLocaleString()}</p>
-                    <p className="text-xs text-muted-foreground">Usuários</p>
-                  </div>
-                  <div className="text-center p-3 rounded-lg bg-card/50">
-                    <p className="text-xl font-bold text-foreground">{mockGlobalStats.avgScore}</p>
-                    <p className="text-xs text-muted-foreground">Média Geral</p>
-                  </div>
-                  <div className="text-center p-3 rounded-lg bg-card/50">
-                    <p className="text-xl font-bold text-green-500">{mockGlobalStats.topPerformers}</p>
-                    <p className="text-xs text-muted-foreground">Top Performers</p>
-                  </div>
-                  <div className="text-center p-3 rounded-lg bg-card/50">
-                    <p className="text-xl font-bold text-primary">{mockGlobalStats.activeToday}</p>
-                    <p className="text-xs text-muted-foreground">Ativos Hoje</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-
-
-        {/* AI Insights */}
-        <AIInsightsCard isLoading={isLoadingAI} insights={aiInsights} />
-
-        {/* Atividade Semanal */}
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="flex items-center gap-2">
-              <Calendar className="w-5 h-5 text-primary" />
-              Atividade Semanal
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="h-[200px]">
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={mockWeeklyActivity}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
-                  <XAxis dataKey="day" stroke="hsl(var(--muted-foreground))" fontSize={12} />
-                  <YAxis stroke="hsl(var(--muted-foreground))" fontSize={12} />
-                  <Tooltip 
-                    contentStyle={{ 
-                      backgroundColor: 'hsl(var(--card))', 
-                      border: '1px solid hsl(var(--border))',
-                      borderRadius: '8px'
-                    }}
-                  />
-                  <Bar dataKey="estacoes" name="Estações" fill="#06b6d4" radius={[4, 4, 0, 0]} />
-                </BarChart>
-              </ResponsiveContainer>
+                {/* Streak */}
+                {stats && (
+                  <Card>
+                    <CardHeader className="pb-2">
+                      <CardTitle className="text-base flex items-center gap-2">
+                        <Sparkles className="w-4 h-4 text-amber-500" />
+                        Sequência de Estudos
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <p className="text-3xl font-bold text-amber-500">🔥 {stats.current_streak}</p>
+                          <p className="text-xs text-muted-foreground">dias seguidos</p>
+                        </div>
+                        <div className="text-right">
+                          <p className="text-lg font-semibold text-foreground">{stats.longest_streak}</p>
+                          <p className="text-xs text-muted-foreground">recorde</p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                )}
+              </div>
             </div>
-          </CardContent>
-        </Card>
+          </>
+        )}
 
         {/* Footer */}
         <footer className="text-center text-sm text-muted-foreground py-4">

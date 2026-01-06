@@ -1,26 +1,43 @@
-import { Clock, Target, TrendingUp, Award } from "lucide-react";
-
-interface Specialty {
-  name: string;
-  average: number;
-  stations: number;
-  color: string;
-  bgColor: string;
-}
-
-const specialties: Specialty[] = [
-  { name: "Cirurgia", average: 4.00, stations: 1, color: "text-red-500", bgColor: "bg-red-500" },
-  { name: "Clínica", average: 0, stations: 0, color: "text-blue-500", bgColor: "bg-blue-500" },
-  { name: "GO", average: 0, stations: 0, color: "text-purple-500", bgColor: "bg-purple-500" },
-  { name: "Pediatria", average: 0, stations: 0, color: "text-amber-500", bgColor: "bg-amber-500" },
-  { name: "Preventiva", average: 10.00, stations: 1, color: "text-emerald-500", bgColor: "bg-emerald-500" },
-  { name: "INEP 2020/2025.1", average: 7.00, stations: 2, color: "text-violet-500", bgColor: "bg-violet-500" },
-];
+import { Clock, Target, TrendingUp, TrendingDown, Award, Loader2 } from "lucide-react";
+import { useAnalytics } from "@/hooks/useAnalytics";
 
 export function StatsCard() {
-  const totalEstacoes = specialties.reduce((acc, s) => acc + s.stations, 0);
-  const mediaGeral = 7.00;
-  const tempoTreinamento = "00:10:40";
+  const { areaStats, totalEstacoes, mediaGeral, tempoTotalMinutos, loading } = useAnalytics();
+
+  // Formatar tempo
+  const formatTime = (minutes: number) => {
+    const hours = Math.floor(minutes / 60);
+    const mins = Math.round(minutes % 60);
+    const secs = 0;
+    return `${hours.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  // Determinar tendência baseado na média
+  const getTrend = () => {
+    if (mediaGeral >= 7) return { icon: TrendingUp, text: "Subindo", color: "text-emerald-500", bg: "bg-emerald-500/10" };
+    if (mediaGeral >= 5) return { icon: TrendingUp, text: "Estável", color: "text-amber-500", bg: "bg-amber-500/10" };
+    return { icon: TrendingDown, text: "Revisar", color: "text-red-500", bg: "bg-red-500/10" };
+  };
+
+  const trend = getTrend();
+  const TrendIcon = trend.icon;
+
+  // Cores por área
+  const areaColors: Record<string, { text: string; bg: string }> = {
+    CR: { text: "text-red-500", bg: "bg-red-500" },
+    CM: { text: "text-blue-500", bg: "bg-blue-500" },
+    GO: { text: "text-purple-500", bg: "bg-purple-500" },
+    PE: { text: "text-amber-500", bg: "bg-amber-500" },
+    PR: { text: "text-emerald-500", bg: "bg-emerald-500" },
+  };
+
+  if (loading) {
+    return (
+      <div className="rounded-2xl bg-card border border-border/50 p-8 flex items-center justify-center">
+        <Loader2 className="w-6 h-6 animate-spin text-primary" />
+      </div>
+    );
+  }
 
   return (
     <div className="rounded-2xl bg-card border border-border/50 overflow-hidden">
@@ -35,7 +52,7 @@ export function StatsCard() {
               <h3 className="text-sm font-semibold text-foreground">Estatísticas Gerais</h3>
               <div className="flex items-center gap-1 text-xs text-muted-foreground">
                 <Clock className="w-3 h-3" />
-                <span>{tempoTreinamento}</span>
+                <span>{formatTime(tempoTotalMinutos)}</span>
               </div>
             </div>
           </div>
@@ -90,36 +107,46 @@ export function StatsCard() {
 
           {/* Tendência */}
           <div className="text-center">
-            <div className="w-16 h-16 rounded-xl bg-emerald-500/10 flex flex-col items-center justify-center mb-1">
-              <TrendingUp className="w-6 h-6 text-emerald-500" />
+            <div className={`w-16 h-16 rounded-xl ${trend.bg} flex flex-col items-center justify-center mb-1`}>
+              <TrendIcon className={`w-6 h-6 ${trend.color}`} />
             </div>
-            <p className="text-xs text-muted-foreground">Subindo</p>
+            <p className="text-xs text-muted-foreground">{trend.text}</p>
           </div>
         </div>
 
         {/* Specialties list */}
         <div className="space-y-2">
-          {specialties.map((specialty) => (
-            <div 
-              key={specialty.name} 
-              className="flex items-center justify-between p-2.5 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-colors"
-            >
-              <div className="flex items-center gap-3">
-                <div className={`w-1 h-8 rounded-full ${specialty.bgColor}`} />
-                <div>
-                  <p className={`text-sm font-medium ${specialty.color}`}>{specialty.name}</p>
-                  <p className="text-xs text-muted-foreground">
-                    Média: <span className="font-medium text-foreground">{specialty.average.toFixed(2)}</span>
-                  </p>
+          {areaStats.map((area) => {
+            const colors = areaColors[area.areaCode] || { text: "text-gray-500", bg: "bg-gray-500" };
+            return (
+              <div 
+                key={area.areaCode} 
+                className="flex items-center justify-between p-2.5 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-colors"
+              >
+                <div className="flex items-center gap-3">
+                  <div className={`w-1 h-8 rounded-full ${colors.bg}`} />
+                  <div>
+                    <p className={`text-sm font-medium ${colors.text}`}>{area.area}</p>
+                    <p className="text-xs text-muted-foreground">
+                      Média: <span className="font-medium text-foreground">{area.media.toFixed(2)}</span>
+                    </p>
+                  </div>
+                </div>
+                <div className="text-right">
+                  <p className="text-sm font-semibold text-foreground">{area.estacoes}</p>
+                  <p className="text-[10px] text-muted-foreground">estações</p>
                 </div>
               </div>
-              <div className="text-right">
-                <p className="text-sm font-semibold text-foreground">{specialty.stations}</p>
-                <p className="text-[10px] text-muted-foreground">estações</p>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
+
+        {/* Empty state */}
+        {totalEstacoes === 0 && (
+          <div className="text-center py-4 text-sm text-muted-foreground">
+            Complete checklists para ver suas estatísticas
+          </div>
+        )}
       </div>
     </div>
   );

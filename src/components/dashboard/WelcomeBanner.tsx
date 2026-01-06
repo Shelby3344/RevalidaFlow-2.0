@@ -1,32 +1,15 @@
-import { Flame, TrendingUp, Target } from "lucide-react";
+import { Flame, TrendingUp, Target, Loader2 } from "lucide-react";
 import { useUserProfile } from "@/hooks/useUserProfile";
 import { useAuth } from "@/hooks/useAuth";
-import { useState, useEffect } from "react";
+import { useAnalytics } from "@/hooks/useAnalytics";
 
 export function WelcomeBanner() {
   const { profile } = useUserProfile();
   const { user } = useAuth();
-  const [mediaGeral, setMediaGeral] = useState(0);
-  const [sequencia, setSequencia] = useState(0);
+  const { mediaGeral, stats, loading } = useAnalytics();
+  
   const notaCorte = 66.148;
-
-  // Calcula a média geral baseada nos desempenhos salvos
-  useEffect(() => {
-    const desempenhos = localStorage.getItem("userDesempenhos");
-    if (desempenhos) {
-      const data = JSON.parse(desempenhos);
-      if (data.length > 0) {
-        const soma = data.reduce((acc: number, d: { nota: number }) => acc + d.nota, 0);
-        setMediaGeral(soma / data.length);
-      }
-    } else {
-      setMediaGeral(7.0);
-    }
-    
-    // Sequência de dias (mock por enquanto)
-    const seq = localStorage.getItem("userSequencia");
-    setSequencia(seq ? parseInt(seq) : 5);
-  }, []);
+  const sequencia = stats?.current_streak || 0;
 
   // Determina se está acima da nota de corte
   const acimaDoCorte = mediaGeral >= notaCorte / 10;
@@ -129,9 +112,13 @@ export function WelcomeBanner() {
               <Target className={`w-3.5 h-3.5 md:w-4 md:h-4 ${acimaDoCorte ? 'text-emerald-500' : 'text-amber-500'}`} />
               <div>
                 <span className="text-[10px] md:text-xs text-muted-foreground">Média</span>
-                <p className={`text-xs md:text-sm font-bold ${acimaDoCorte ? 'text-emerald-500' : 'text-amber-500'}`}>
-                  {mediaGeral.toFixed(2)}
-                </p>
+                {loading ? (
+                  <Loader2 className="w-3 h-3 animate-spin text-muted-foreground" />
+                ) : (
+                  <p className={`text-xs md:text-sm font-bold ${acimaDoCorte ? 'text-emerald-500' : 'text-amber-500'}`}>
+                    {mediaGeral.toFixed(2)}
+                  </p>
+                )}
               </div>
             </div>
 
@@ -149,7 +136,11 @@ export function WelcomeBanner() {
               <Flame className="w-3.5 h-3.5 md:w-4 md:h-4 text-orange-500" />
               <div>
                 <span className="text-[10px] md:text-xs text-muted-foreground">Sequência</span>
-                <p className="text-xs md:text-sm font-bold text-orange-500">{sequencia} dias 🔥</p>
+                {loading ? (
+                  <Loader2 className="w-3 h-3 animate-spin text-muted-foreground" />
+                ) : (
+                  <p className="text-xs md:text-sm font-bold text-orange-500">{sequencia} dias 🔥</p>
+                )}
               </div>
             </div>
           </div>
