@@ -33,6 +33,7 @@ import Login from "./pages/Login";
 import Perfil from "./pages/Perfil";
 import TermosDeUso from "./pages/TermosDeUso";
 import Privacidade from "./pages/Privacidade";
+import Comunidade from "./pages/Comunidade";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -80,6 +81,7 @@ const App = () => (
                 <Route path="/feedback" element={<ProtectedRoute><Feedback /></ProtectedRoute>} />
                 <Route path="/suporte" element={<ProtectedRoute><Suporte /></ProtectedRoute>} />
                 <Route path="/perfil" element={<ProtectedRoute><Perfil /></ProtectedRoute>} />
+                <Route path="/comunidade" element={<ProtectedRoute><Comunidade /></ProtectedRoute>} />
                 
                 {/* 404 */}
                 <Route path="*" element={<NotFound />} />

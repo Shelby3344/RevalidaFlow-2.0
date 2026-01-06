@@ -14,6 +14,8 @@ import { ResultSummary } from "@/components/avaliacao/ResultSummary";
 import { JoinSessionModal } from "@/components/avaliacao/JoinSessionModal";
 import { useAvaliacaoSession } from "@/hooks/useAvaliacaoSession";
 import { useAvaliacaoSync } from "@/hooks/useAvaliacaoSync";
+import { useUserData } from "@/hooks/useUserData";
+import { ResultData } from "@/types/avaliacao";
 import { formatTime, decodeSessionData } from "@/lib/avaliacao-utils";
 import { toast } from "sonner";
 
@@ -35,8 +37,33 @@ export default function AvaliacaoAvaliado() {
   >("aguardando");
   const [resultShared, setResultShared] = useState(false);
   const [expandedImpressos, setExpandedImpressos] = useState<Set<number>>(new Set());
+  const [resultSaved, setResultSaved] = useState(false);
 
   const { session, loadSession, updateSession, createSessionFromData } = useAvaliacaoSession();
+  const { saveAttempt } = useUserData();
+
+  // Função para salvar estatísticas do avaliado
+  const saveAvaliadoStats = useCallback(async (resultData: ResultData) => {
+    if (resultSaved) return; // Evitar salvar duplicado
+    
+    try {
+      await saveAttempt({
+        checklist_id: resultData.checklistId,
+        checklist_title: resultData.checklistTitle,
+        area_code: resultData.areaCode,
+        score: resultData.totalScore,
+        max_score: resultData.maxScore,
+        percentage: resultData.percentage,
+        duration_seconds: resultData.durationSeconds,
+      });
+      
+      setResultSaved(true);
+      toast.success('Seu resultado foi salvo no seu perfil!');
+    } catch (error) {
+      console.error('Erro ao salvar estatísticas:', error);
+      toast.error('Erro ao salvar estatísticas');
+    }
+  }, [saveAttempt, resultSaved]);
 
   const { broadcastAvaliadoConnected } = useAvaliacaoSync({
     sessionCode,
@@ -78,6 +105,10 @@ export default function AvaliacaoAvaliado() {
         loadSession(sessionCode);
       }
       toast.success("Resultado disponível!");
+    },
+    onResultData: (resultData: ResultData) => {
+      // Salvar estatísticas no perfil do avaliado
+      saveAvaliadoStats(resultData);
     },
   });
 

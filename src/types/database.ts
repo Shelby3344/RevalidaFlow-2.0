@@ -69,9 +69,35 @@ export interface StudySession {
 }
 
 // Tipos para inserção (sem campos auto-gerados)
-export type InsertChecklistAttempt = Omit<ChecklistAttempt, 'id' | 'created_at'>;
+export type InsertChecklistAttempt = Omit<ChecklistAttempt, 'id' | 'created_at' | 'completed_at'>;
 export type InsertProductivityTask = Omit<ProductivityTask, 'id' | 'created_at'>;
 export type InsertStudySession = Omit<StudySession, 'id' | 'ended_at'>;
+
+// Tipos do Chat Global
+export interface GlobalChatMessage {
+  id: string;
+  user_id: string;
+  content: string;
+  reply_to_id: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface PrivateMessage {
+  id: string;
+  sender_id: string;
+  receiver_id: string;
+  content: string;
+  read_at: string | null;
+  created_at: string;
+}
+
+export interface UserPresence {
+  user_id: string;
+  status: 'online' | 'away' | 'offline';
+  last_seen: string;
+  updated_at: string;
+}
 
 // Database schema type para Supabase
 export interface Database {
@@ -106,6 +132,21 @@ export interface Database {
         Row: StudySession;
         Insert: InsertStudySession;
         Update: Partial<StudySession>;
+      };
+      global_chat_messages: {
+        Row: GlobalChatMessage;
+        Insert: Omit<GlobalChatMessage, 'id' | 'created_at' | 'updated_at'>;
+        Update: Partial<GlobalChatMessage>;
+      };
+      private_messages: {
+        Row: PrivateMessage;
+        Insert: Omit<PrivateMessage, 'id' | 'created_at'>;
+        Update: Partial<PrivateMessage>;
+      };
+      user_presence: {
+        Row: UserPresence;
+        Insert: Omit<UserPresence, 'updated_at'>;
+        Update: Partial<UserPresence>;
       };
     };
   };

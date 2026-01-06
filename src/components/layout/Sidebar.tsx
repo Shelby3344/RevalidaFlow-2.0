@@ -22,6 +22,7 @@ import {
   X,
   LogOut,
   ListChecks,
+  Globe,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -44,7 +45,10 @@ interface MenuSection {
 
 const menuSections: MenuSection[] = [
   {
-    items: [{ title: "Dashboard", icon: LayoutDashboard, path: "/dashboard" }],
+    items: [
+      { title: "Dashboard", icon: LayoutDashboard, path: "/dashboard" },
+      { title: "Comunidade", icon: Globe, path: "/comunidade", badge: "Novo", badgeType: "new" },
+    ],
   },
   {
     title: "Estudos",

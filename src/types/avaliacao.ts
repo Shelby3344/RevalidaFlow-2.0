@@ -42,6 +42,18 @@ export interface SessionState {
   resultShared: boolean;
 }
 
+// Dados do resultado para salvar no perfil do avaliado
+export interface ResultData {
+  checklistId: string;
+  checklistTitle: string;
+  areaCode: string;
+  totalScore: number;
+  maxScore: number;
+  percentage: number;
+  durationSeconds: number;
+  scores: Record<number, ItemScore>;
+}
+
 // Mensagens do BroadcastChannel para sincronização
 export type SyncMessage = 
   | { type: 'STATE_UPDATE'; sessionCode: string; state: SessionState }
@@ -53,4 +65,5 @@ export type SyncMessage =
   | { type: 'SESSION_PAUSED'; sessionCode: string }
   | { type: 'SESSION_RESUMED'; sessionCode: string }
   | { type: 'SESSION_FINISHED'; sessionCode: string }
-  | { type: 'RESULT_SHARED'; sessionCode: string };
+  | { type: 'RESULT_SHARED'; sessionCode: string }
+  | { type: 'RESULT_DATA'; sessionCode: string; resultData: ResultData };

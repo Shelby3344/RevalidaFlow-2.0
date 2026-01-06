@@ -1,5 +1,5 @@
 import { useEffect, useRef, useCallback } from 'react';
-import { SyncMessage, SessionState } from '@/types/avaliacao';
+import { SyncMessage, SessionState, ResultData } from '@/types/avaliacao';
 import { BROADCAST_CHANNEL } from '@/lib/avaliacao-utils';
 
 interface UseAvaliacaoSyncReturn {
@@ -14,6 +14,7 @@ interface UseAvaliacaoSyncReturn {
   broadcastSessionFinished: (sessionCode: string) => void;
   broadcastAvaliadoConnected: (sessionCode: string, name: string) => void;
   broadcastResultShared: (sessionCode: string) => void;
+  broadcastResultData: (sessionCode: string, resultData: ResultData) => void;
 }
 
 interface UseAvaliacaoSyncOptions {
@@ -29,6 +30,7 @@ interface UseAvaliacaoSyncOptions {
   onSessionFinished?: () => void;
   onAvaliadoConnected?: (name: string) => void;
   onResultShared?: () => void;
+  onResultData?: (resultData: ResultData) => void;
 }
 
 export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAvaliacaoSyncReturn {
@@ -45,6 +47,7 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
     onSessionFinished,
     onAvaliadoConnected,
     onResultShared,
+    onResultData,
   } = options;
 
   const channelRef = useRef<BroadcastChannel | null>(null);
@@ -62,6 +65,7 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
     onSessionFinished,
     onAvaliadoConnected,
     onResultShared,
+    onResultData,
   });
 
   useEffect(() => {
@@ -77,8 +81,9 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
       onSessionFinished,
       onAvaliadoConnected,
       onResultShared,
+      onResultData,
     };
-  }, [onMessage, onStateUpdate, onTimerTick, onImpressoUnlocked, onImpressoLocked, onSessionStarted, onSessionPaused, onSessionResumed, onSessionFinished, onAvaliadoConnected, onResultShared]);
+  }, [onMessage, onStateUpdate, onTimerTick, onImpressoUnlocked, onImpressoLocked, onSessionStarted, onSessionPaused, onSessionResumed, onSessionFinished, onAvaliadoConnected, onResultShared, onResultData]);
 
   // Inicializar canal
   useEffect(() => {
@@ -155,6 +160,11 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
             callbacks.onResultShared();
           }
           break;
+        case 'RESULT_DATA':
+          if (callbacks.onResultData) {
+            callbacks.onResultData(message.resultData);
+          }
+          break;
       }
     };
 
@@ -215,6 +225,10 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
     broadcast({ type: 'RESULT_SHARED', sessionCode });
   }, [broadcast]);
 
+  const broadcastResultData = useCallback((sessionCode: string, resultData: ResultData) => {
+    broadcast({ type: 'RESULT_DATA', sessionCode, resultData });
+  }, [broadcast]);
+
   return {
     broadcast,
     broadcastState,
@@ -227,5 +241,6 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
     broadcastSessionFinished,
     broadcastAvaliadoConnected,
     broadcastResultShared,
+    broadcastResultData,
   };
 }
