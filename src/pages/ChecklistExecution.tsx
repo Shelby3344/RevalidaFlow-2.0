@@ -269,9 +269,9 @@ export default function ChecklistExecution() {
     const isSelected = response?.scoreType === type;
     
     const colors = {
-      adequate: isSelected ? 'bg-green-500 border-green-500 text-white' : 'border-green-500 text-green-500 hover:bg-green-500/10',
-      partial: isSelected ? 'bg-amber-500 border-amber-500 text-white' : 'border-amber-500 text-amber-500 hover:bg-amber-500/10',
-      inadequate: isSelected ? 'bg-red-500 border-red-500 text-white' : 'border-red-500 text-red-500 hover:bg-red-500/10',
+      adequate: isSelected ? 'bg-green-500 border-green-500 text-white' : 'border-cyan-500 text-cyan-400 hover:bg-cyan-500/10',
+      partial: isSelected ? 'bg-amber-500 border-amber-500 text-white' : 'border-cyan-500 text-cyan-400 hover:bg-cyan-500/10',
+      inadequate: isSelected ? 'bg-red-500 border-red-500 text-white' : 'border-cyan-500 text-cyan-400 hover:bg-cyan-500/10',
     };
 
     return (
