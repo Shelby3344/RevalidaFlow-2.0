@@ -1,6 +1,7 @@
 import { useEffect, useRef, useCallback } from 'react';
+import { supabase } from '@/lib/supabase';
 import { SyncMessage, SessionState, ResultData } from '@/types/avaliacao';
-import { BROADCAST_CHANNEL } from '@/lib/avaliacao-utils';
+import { RealtimeChannel } from '@supabase/supabase-js';
 
 interface UseAvaliacaoSyncReturn {
   broadcast: (message: SyncMessage) => void;
@@ -50,7 +51,7 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
     onResultData,
   } = options;
 
-  const channelRef = useRef<BroadcastChannel | null>(null);
+  const channelRef = useRef<RealtimeChannel | null>(null);
   
   // Refs para callbacks (evitar re-subscriptions)
   const callbacksRef = useRef({
@@ -85,23 +86,20 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
     };
   }, [onMessage, onStateUpdate, onTimerTick, onImpressoUnlocked, onImpressoLocked, onSessionStarted, onSessionPaused, onSessionResumed, onSessionFinished, onAvaliadoConnected, onResultShared, onResultData]);
 
-  // Inicializar canal
+  // Inicializar canal Supabase Realtime
   useEffect(() => {
-    if (typeof BroadcastChannel === 'undefined') {
-      console.warn('BroadcastChannel não suportado neste navegador');
-      return;
-    }
+    if (!sessionCode) return;
 
-    channelRef.current = new BroadcastChannel(BROADCAST_CHANNEL);
+    // Criar canal único para esta sessão
+    const channel = supabase.channel(`avaliacao-${sessionCode}`, {
+      config: {
+        broadcast: { self: false }, // Não receber próprias mensagens
+      },
+    });
 
-    const handleMessage = (event: MessageEvent<SyncMessage>) => {
-      const message = event.data;
+    const handleMessage = (payload: { event: string; payload: SyncMessage }) => {
+      const message = payload.payload;
       const callbacks = callbacksRef.current;
-
-      // Filtrar por sessionCode se especificado
-      if (sessionCode && message.sessionCode !== sessionCode) {
-        return;
-      }
 
       // Callback genérico
       if (callbacks.onMessage) {
@@ -168,12 +166,19 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
       }
     };
 
-    channelRef.current.addEventListener('message', handleMessage);
+    channel
+      .on('broadcast', { event: 'sync' }, handleMessage)
+      .subscribe((status) => {
+        if (status === 'SUBSCRIBED') {
+          console.log(`Conectado ao canal avaliacao-${sessionCode}`);
+        }
+      });
+
+    channelRef.current = channel;
 
     return () => {
       if (channelRef.current) {
-        channelRef.current.removeEventListener('message', handleMessage);
-        channelRef.current.close();
+        supabase.removeChannel(channelRef.current);
         channelRef.current = null;
       }
     };
@@ -181,7 +186,11 @@ export function useAvaliacaoSync(options: UseAvaliacaoSyncOptions = {}): UseAval
 
   const broadcast = useCallback((message: SyncMessage) => {
     if (channelRef.current) {
-      channelRef.current.postMessage(message);
+      channelRef.current.send({
+        type: 'broadcast',
+        event: 'sync',
+        payload: message,
+      });
     }
   }, []);
 

@@ -75,7 +75,7 @@ export default function AvaliacaoAvaliador() {
     broadcastResultShared,
     broadcastResultData,
   } = useAvaliacaoSync({
-    sessionCode: session?.code,
+    sessionCode: sessionCode, // Usar sessionCode da URL diretamente
     onAvaliadoConnected: (name) => {
       setAvaliadoConnected(true);
       setAvaliadoName(name);
