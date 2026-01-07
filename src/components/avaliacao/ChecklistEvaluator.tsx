@@ -113,7 +113,7 @@ export function ChecklistEvaluator({
             </div>
 
             {/* Botões de pontuação - Alinhados à direita */}
-            <div className="flex justify-end gap-1 pt-2">
+            <div className="flex justify-end gap-2 pt-2">
               {/* Inadequado - 0 */}
               <Button
                 size="sm"
@@ -122,7 +122,7 @@ export function ChecklistEvaluator({
                   'w-16 h-10 text-base font-bold border-2',
                   selectedType === 'inadequate' 
                     ? 'bg-red-600 hover:bg-red-700 border-red-500 text-white' 
-                    : 'border-red-500 text-red-500 hover:bg-red-50 dark:hover:bg-red-950'
+                    : 'border-cyan-500 text-cyan-400 hover:bg-cyan-950/30'
                 )}
                 onClick={() => onScoreChange(item.id, item.scores.min, 'inadequate')}
                 disabled={disabled}
@@ -139,7 +139,7 @@ export function ChecklistEvaluator({
                     'w-16 h-10 text-base font-bold border-2',
                     selectedType === 'partial' 
                       ? 'bg-amber-600 hover:bg-amber-700 border-amber-500 text-white' 
-                      : 'border-amber-500 text-amber-500 hover:bg-amber-50 dark:hover:bg-amber-950'
+                      : 'border-cyan-500 text-cyan-400 hover:bg-cyan-950/30'
                   )}
                   onClick={() => onScoreChange(item.id, item.scores.partial, 'partial')}
                   disabled={disabled}
@@ -156,7 +156,7 @@ export function ChecklistEvaluator({
                   'w-16 h-10 text-base font-bold border-2',
                   selectedType === 'adequate' 
                     ? 'bg-green-600 hover:bg-green-700 border-green-500 text-white' 
-                    : 'border-green-500 text-green-500 hover:bg-green-50 dark:hover:bg-green-950'
+                    : 'border-cyan-500 text-cyan-400 hover:bg-cyan-950/30'
                 )}
                 onClick={() => onScoreChange(item.id, item.scores.max, 'adequate')}
                 disabled={disabled}
