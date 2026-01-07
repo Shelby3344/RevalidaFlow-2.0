@@ -20,6 +20,7 @@ import { AppLayout } from "@/components/layout/AppLayout";
 import { Button } from "@/components/ui/button";
 import { AllChecklistsModal } from "@/components/AllChecklistsModal";
 import { TreinoIAModeModal } from "@/components/treino-ia/TreinoIAModeModal";
+import { PepeChecklistsModal } from "@/components/PepeChecklistsModal";
 import { ActiveUsersPanel } from "@/components/collaborative/ActiveUsersPanel";
 import { checklistsData } from "@/data/checklists";
 import { cn } from "@/lib/utils";
@@ -117,6 +118,7 @@ const getActivityLabel = (type: ActivityType) => {
 export default function Checklists() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isIAModalOpen, setIsIAModalOpen] = useState(false);
+  const [isPepeModalOpen, setIsPepeModalOpen] = useState(false);
   const [filterPeriod, setFilterPeriod] = useState<FilterPeriod>("7days");
   const navigate = useNavigate();
 
@@ -374,6 +376,14 @@ export default function Checklists() {
                     Treinar com Paciente IA
                   </Button>
                   
+                  <Button
+                    className="w-full h-10 gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white hover:opacity-90 text-sm"
+                    onClick={() => setIsPepeModalOpen(true)}
+                  >
+                    <FileText className="w-4 h-4" />
+                    Checklists PEPE
+                  </Button>
+                  
 
                   
                   <Button className="w-full h-10 gap-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm">
@@ -468,6 +478,9 @@ export default function Checklists() {
       
       {/* Modal de Treino IA */}
       <TreinoIAModeModal open={isIAModalOpen} onOpenChange={setIsIAModalOpen} />
+      
+      {/* Modal de Checklists PEPE */}
+      <PepeChecklistsModal open={isPepeModalOpen} onOpenChange={setIsPepeModalOpen} />
     </AppLayout>
   );
 }
