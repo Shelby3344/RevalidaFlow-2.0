@@ -62,8 +62,8 @@ const App = () => (
                 <Route path="/checklists/execucao/:id" element={<ProtectedRoute><ChecklistExecution /></ProtectedRoute>} />
                 <Route path="/checklists/parceiros" element={<ProtectedRoute><Checklists /></ProtectedRoute>} />
                 <Route path="/collaborative/:roomId" element={<ProtectedRoute><CollaborativeRoom /></ProtectedRoute>} />
-                <Route path="/avaliacao/:sessionCode" element={<ProtectedRoute><AvaliacaoAvaliador /></ProtectedRoute>} />
                 <Route path="/avaliacao/participar/:sessionCode" element={<ProtectedRoute><AvaliacaoAvaliado /></ProtectedRoute>} />
+                <Route path="/avaliacao/:sessionCode" element={<ProtectedRoute><AvaliacaoAvaliador /></ProtectedRoute>} />
                 <Route path="/treino-ia/:checklistId" element={<ProtectedRoute><TreinoIA /></ProtectedRoute>} />
                 <Route path="/treino-ia-completo/:checklistId" element={<ProtectedRoute><TreinoIACompleto /></ProtectedRoute>} />
                 <Route path="/flashcards" element={<ProtectedRoute><FlashcardsPage /></ProtectedRoute>} />
