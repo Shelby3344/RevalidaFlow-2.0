@@ -48,7 +48,7 @@ export default function HistoricoChecklist() {
         {/* Main content */}
         <div className="lg:col-span-2 space-y-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-xl font-semibold text-foreground">Histórico de Checklist | Revalida Flow</h1>
+            <h1 className="text-xl font-semibold text-foreground">Histórico de Checklist | ProREV</h1>
             <div className="flex items-center gap-2">
               <Button variant="outline" size="sm" className="border-border bg-primary text-primary-foreground">
                 Todos
@@ -81,7 +81,7 @@ export default function HistoricoChecklist() {
                   : "text-muted-foreground hover:text-foreground"
               )}
             >
-              Revalida Flow
+              ProREV
             </button>
             <button
               onClick={() => setActiveTab("simulado")}
@@ -212,7 +212,7 @@ export default function HistoricoChecklist() {
       </div>
 
       <footer className="mt-8 text-center text-sm text-muted-foreground">
-        © 2025 Revalida Flow
+        © 2025 ProREV
       </footer>
     </AppLayout>
   );

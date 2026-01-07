@@ -632,7 +632,7 @@ export default function Analytics() {
 
         {/* Footer */}
         <footer className="text-center text-sm text-muted-foreground py-4">
-          RevalidaFlow © 2025
+          ProREV © 2025
         </footer>
       </div>
     </AppLayout>

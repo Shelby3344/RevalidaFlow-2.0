@@ -66,7 +66,7 @@ export default function LiveParceiros() {
                     <div className="w-2.5 h-2.5 bg-primary rounded-sm"></div>
                     <div className="w-2.5 h-2.5 bg-primary rounded-sm"></div>
                   </div>
-                  <p className="text-[8px] font-bold text-primary mt-1">REVALIDA FLOW</p>
+                  <p className="text-[8px] font-bold text-primary mt-1">PROREV</p>
                 </div>
               </div>
             </div>
@@ -156,7 +156,7 @@ export default function LiveParceiros() {
       </div>
 
       <footer className="mt-8 text-center text-sm text-muted-foreground">
-        © 2025 Revalida Flow
+        © 2025 ProREV
       </footer>
     </AppLayout>
   );

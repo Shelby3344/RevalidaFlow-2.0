@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 
-// Console personalizado do RevalidaFlow
+// Console personalizado do ProREV
 const showConsoleMessage = () => {
   // Título grande e chamativo
   console.log(
@@ -11,7 +11,7 @@ const showConsoleMessage = () => {
   );
 
   console.log(
-    "%cRevalidaFlow detectou atividade suspeita no console! 🔍",
+    "%cProREV detectou atividade suspeita no console! 🔍",
     "font-size: 16px; color: #a78bfa; padding-bottom: 15px;"
   );
 
@@ -93,7 +93,7 @@ const showConsoleMessage = () => {
 
   // Footer
   console.log(
-    "%cRevalidaFlow © 2025",
+    "%cProREV © 2025",
     "color: #64748b; font-size: 12px;"
   );
 };

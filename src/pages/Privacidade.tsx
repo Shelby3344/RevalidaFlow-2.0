@@ -18,7 +18,7 @@ export default function Privacidade() {
               <Zap className="w-5 h-5 text-white" />
             </div>
             <span className="text-lg font-bold">
-              Revalida<span className="text-cyan-400">Flow</span>
+              Pro<span className="text-cyan-400">REV</span>
             </span>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function Privacidade() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">1. Introdução</h2>
             <p className="text-muted-foreground leading-relaxed">
-              A sua privacidade é importante para nós. Esta Política de Privacidade explica como o RevalidaFlow 
+              A sua privacidade é importante para nós. Esta Política de Privacidade explica como o ProREV 
               coleta, usa, divulga e protege suas informações pessoais quando você utiliza nossa plataforma.
             </p>
           </section>
@@ -170,8 +170,8 @@ export default function Privacidade() {
             </p>
             <div className="mt-4 p-4 bg-card rounded-lg border border-border">
               <p className="text-foreground font-medium">Email:</p>
-              <a href="mailto:privacidade@revalidaflow.com" className="text-cyan-400 hover:underline">
-                privacidade@revalidaflow.com
+              <a href="mailto:privacidade@prorev.com.br" className="text-cyan-400 hover:underline">
+                privacidade@prorev.com.br
               </a>
             </div>
           </section>
@@ -181,7 +181,7 @@ export default function Privacidade() {
       {/* Footer */}
       <footer className="border-t border-border/50 py-8 mt-12">
         <div className="max-w-4xl mx-auto px-4 text-center text-sm text-muted-foreground">
-          © 2025 RevalidaFlow. Todos os direitos reservados.
+          © 2025 ProREV. Todos os direitos reservados.
         </div>
       </footer>
     </div>

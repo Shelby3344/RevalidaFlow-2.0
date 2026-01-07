@@ -940,7 +940,7 @@ export default function Aulas() {
       </div>
 
       <footer className="mt-8 text-center text-sm text-muted-foreground">
-        © 2025 Revalida Flow
+        © 2025 ProREV
       </footer>
 
       {/* Modals */}

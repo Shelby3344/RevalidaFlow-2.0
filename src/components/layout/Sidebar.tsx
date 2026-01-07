@@ -63,7 +63,7 @@ const menuSections: MenuSection[] = [
         title: "Checklists",
         icon: ClipboardList,
         children: [
-          { title: "Revalida Flow", path: "/checklists" },
+          { title: "ProREV", path: "/checklists" },
         ],
       },
       {

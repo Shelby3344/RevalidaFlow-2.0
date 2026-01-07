@@ -18,7 +18,7 @@ export default function TermosDeUso() {
               <Zap className="w-5 h-5 text-white" />
             </div>
             <span className="text-lg font-bold">
-              Revalida<span className="text-cyan-400">Flow</span>
+              Pro<span className="text-cyan-400">REV</span>
             </span>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function TermosDeUso() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">1. Aceitação dos Termos</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Ao acessar e usar a plataforma RevalidaFlow, você concorda em cumprir e estar vinculado a estes Termos de Uso. 
+              Ao acessar e usar a plataforma ProREV, você concorda em cumprir e estar vinculado a estes Termos de Uso. 
               Se você não concordar com qualquer parte destes termos, não poderá acessar o serviço.
             </p>
           </section>
@@ -41,7 +41,7 @@ export default function TermosDeUso() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">2. Descrição do Serviço</h2>
             <p className="text-muted-foreground leading-relaxed">
-              O RevalidaFlow é uma plataforma educacional online destinada à preparação para o exame Revalida. 
+              O ProREV é uma plataforma educacional online destinada à preparação para o exame Revalida. 
               Oferecemos checklists OSCE, treino com paciente virtual por IA, salas colaborativas, flashcards, 
               resumos e outras ferramentas de estudo.
             </p>
@@ -78,7 +78,7 @@ export default function TermosDeUso() {
             <h2 className="text-xl font-semibold text-foreground mb-4">5. Propriedade Intelectual</h2>
             <p className="text-muted-foreground leading-relaxed">
               Todo o conteúdo disponível na plataforma, incluindo textos, gráficos, logos, ícones, imagens, 
-              clipes de áudio, downloads digitais e compilações de dados, é propriedade do RevalidaFlow ou 
+              clipes de áudio, downloads digitais e compilações de dados, é propriedade do ProREV ou 
               de seus fornecedores de conteúdo e está protegido por leis de direitos autorais.
             </p>
           </section>
@@ -107,7 +107,7 @@ export default function TermosDeUso() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">8. Limitação de Responsabilidade</h2>
             <p className="text-muted-foreground leading-relaxed">
-              O RevalidaFlow é uma ferramenta de estudo e não garante aprovação em exames. 
+              O ProREV é uma ferramenta de estudo e não garante aprovação em exames. 
               Não nos responsabilizamos por decisões tomadas com base no conteúdo da plataforma. 
               O serviço é fornecido "como está", sem garantias de qualquer tipo.
             </p>
@@ -126,8 +126,8 @@ export default function TermosDeUso() {
             <h2 className="text-xl font-semibold text-foreground mb-4">10. Contato</h2>
             <p className="text-muted-foreground leading-relaxed">
               Para dúvidas sobre estes Termos de Uso, entre em contato através do email: 
-              <a href="mailto:contato@revalidaflow.com" className="text-cyan-400 hover:underline ml-1">
-                contato@revalidaflow.com
+              <a href="mailto:contato@prorev.com.br" className="text-cyan-400 hover:underline ml-1">
+                contato@prorev.com.br
               </a>
             </p>
           </section>
@@ -137,7 +137,7 @@ export default function TermosDeUso() {
       {/* Footer */}
       <footer className="border-t border-border/50 py-8 mt-12">
         <div className="max-w-4xl mx-auto px-4 text-center text-sm text-muted-foreground">
-          © 2025 RevalidaFlow. Todos os direitos reservados.
+          © 2025 ProREV. Todos os direitos reservados.
         </div>
       </footer>
     </div>

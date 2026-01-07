@@ -45,7 +45,7 @@ export default function Dashboard() {
 
       {/* Footer */}
       <footer className="mt-6 md:mt-8 text-center text-xs md:text-sm text-muted-foreground pb-4">
-        © 2025 Revalida Flow
+        © 2025 ProREV
       </footer>
     </AppLayout>
   );
