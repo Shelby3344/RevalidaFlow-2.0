@@ -357,62 +357,74 @@ export default function AvaliacaoAvaliado() {
                   </p>
                 </div>
               ) : (
-                <div className="p-5 space-y-4 text-sm text-muted-foreground">
-                  <div>
-                    <p>
-                      <span className="text-foreground font-medium">
-                        Nível de atenção:
-                      </span>{" "}
-                      {content.scenario.nivel}.
+                <div className="p-5 space-y-4">
+                  {/* Info cards em grid */}
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="bg-secondary/30 rounded-lg p-3">
+                      <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">Nível de atenção</p>
+                      <p className="text-sm text-foreground font-medium">{content.scenario.nivel}</p>
+                    </div>
+                    <div className="bg-secondary/30 rounded-lg p-3">
+                      <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">Tipo de atendimento</p>
+                      <p className="text-sm text-foreground font-medium">{content.scenario.tipo}</p>
+                    </div>
+                  </div>
+                  
+                  {/* Infraestrutura */}
+                  <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-lg p-4">
+                    <p className="text-xs text-cyan-400 uppercase tracking-wide font-medium mb-3 flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full"></span>
+                      Infraestrutura disponível
                     </p>
-                    <p>
-                      <span className="text-foreground font-medium">
-                        Tipo de atendimento:
-                      </span>{" "}
-                      {content.scenario.tipo}.
-                    </p>
+                    <div className="grid gap-1.5">
+                      {content.scenario.situacao.map((item, idx) => (
+                        <p key={idx} className="text-sm text-foreground/80 pl-3.5 flex items-start gap-2">
+                          <span className="text-cyan-400 mt-1">•</span>
+                          {item.replace(/^-+/, '').trim()}
+                        </p>
+                      ))}
+                    </div>
                   </div>
 
-                  <div>
-                    <p className="text-foreground mb-2">
-                      A unidade possui a seguinte infraestrutura:
+                  {/* Descrição do caso */}
+                  <div className="bg-primary/5 border border-primary/20 rounded-lg p-4">
+                    <p className="text-xs text-primary uppercase tracking-wide font-medium mb-3 flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
+                      Descrição do caso
                     </p>
-                    {content.scenario.situacao.map((item, idx) => (
-                      <p key={idx}>-{item}</p>
-                    ))}
-                  </div>
-
-                  <div className="pt-2">
-                    <p className="text-foreground font-medium mb-2">
-                      DESCRIÇÃO DO CASO:
-                    </p>
-                    {content.scenario.descricao.map((item, idx) => (
-                      <p key={idx} className={idx > 0 ? "mt-2" : ""}>
-                        {item}
-                      </p>
-                    ))}
+                    <div className="space-y-2">
+                      {content.scenario.descricao.map((item, idx) => (
+                        <p key={idx} className="text-sm text-foreground/90 leading-relaxed">{item}</p>
+                      ))}
+                    </div>
                   </div>
                 </div>
               )}
             </div>
 
-            {/* Nos 10 Min. minutos de duração da estação */}
-            <div className="bg-amber-500/10 border border-amber-500/30 rounded-lg mb-6 overflow-hidden">
-              <div className="bg-amber-500/20 border-b border-amber-500/30 px-4 py-3">
-                <div className="flex items-center gap-2 text-amber-400">
+            {/* Tarefas da Estação */}
+            <div className="bg-card border border-border rounded-lg mb-6 overflow-hidden">
+              <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-3">
+                <div className="flex items-center gap-2 text-primary">
                   <ListChecks className="w-4 h-4" />
-                  <span className="text-sm font-medium">
-                    ⏱ Nos 10 Min. minutos de duração da estação, você deverá
-                    executar as seguintes tarefas:
-                  </span>
+                  <span className="text-sm font-medium">Tarefas da Estação (10 minutos)</span>
                 </div>
               </div>
 
               {sessionStatus !== "aguardando" && (
-                <div className="p-5 space-y-1 text-sm text-muted-foreground">
-                  {content.orientacoes.map((item, idx) => (
-                    <p key={idx}>-{item}</p>
-                  ))}
+                <div className="p-5">
+                  <div className="grid gap-2">
+                    {content.orientacoes
+                      .filter(item => !item.toLowerCase().includes('nos 10 min') && !item.toLowerCase().includes('duração da estação'))
+                      .map((item, idx) => (
+                      <div key={idx} className="flex items-start gap-3 bg-secondary/20 rounded-lg p-3">
+                        <span className="flex-shrink-0 w-6 h-6 bg-primary/20 text-primary rounded-full flex items-center justify-center text-xs font-bold">
+                          {idx + 1}
+                        </span>
+                        <p className="text-sm text-foreground/90 pt-0.5">{item.replace(/^-+/, '').trim()}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
