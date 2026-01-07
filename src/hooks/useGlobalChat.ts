@@ -34,17 +34,34 @@ export function useGlobalChat(): UseGlobalChatReturn {
   // Carregar mensagens globais
   const loadMessages = useCallback(async () => {
     try {
-      const { data, error } = await supabase
+      // Buscar mensagens
+      const { data: messagesData, error } = await supabase
         .from('global_chat_messages')
-        .select(`
-          *,
-          user:profiles!global_chat_messages_user_id_fkey(id, full_name, avatar_url)
-        `)
+        .select('*')
         .order('created_at', { ascending: false })
         .limit(100);
       
       if (error) throw error;
-      setMessages((data || []).reverse());
+      
+      if (messagesData && messagesData.length > 0) {
+        // Buscar perfis dos usuários
+        const userIds = [...new Set(messagesData.map(m => m.user_id))];
+        const { data: profiles } = await supabase
+          .from('profiles')
+          .select('id, full_name, avatar_url')
+          .in('id', userIds);
+        
+        const profilesMap = new Map(profiles?.map(p => [p.id, p]) || []);
+        
+        const messagesWithUsers: GlobalChatMessage[] = messagesData.map(m => ({
+          ...m,
+          user: profilesMap.get(m.user_id) as ChatUser || null
+        }));
+        
+        setMessages(messagesWithUsers.reverse());
+      } else {
+        setMessages([]);
+      }
     } catch (error) {
       console.error('Erro ao carregar mensagens:', error);
     } finally {
@@ -57,17 +74,33 @@ export function useGlobalChat(): UseGlobalChatReturn {
     try {
       const twoMinutesAgo = new Date(Date.now() - 2 * 60 * 1000).toISOString();
       
-      const { data, error } = await supabase
+      const { data: presenceData, error } = await supabase
         .from('user_presence')
-        .select(`
-          *,
-          user:profiles!user_presence_user_id_fkey(id, full_name, avatar_url)
-        `)
+        .select('*')
         .eq('status', 'online')
         .gte('last_seen', twoMinutesAgo);
       
       if (error) throw error;
-      setOnlineUsers(data || []);
+      
+      if (presenceData && presenceData.length > 0) {
+        // Buscar perfis dos usuários
+        const userIds = presenceData.map(p => p.user_id);
+        const { data: profiles } = await supabase
+          .from('profiles')
+          .select('id, full_name, avatar_url')
+          .in('id', userIds);
+        
+        const profilesMap = new Map(profiles?.map(p => [p.id, p]) || []);
+        
+        const usersWithProfiles: UserPresence[] = presenceData.map(p => ({
+          ...p,
+          user: profilesMap.get(p.user_id) || null
+        }));
+        
+        setOnlineUsers(usersWithProfiles);
+      } else {
+        setOnlineUsers([]);
+      }
     } catch (error) {
       console.error('Erro ao carregar usuários online:', error);
     }
@@ -125,6 +158,7 @@ export function useGlobalChat(): UseGlobalChatReturn {
     if (!user || !content.trim()) return;
     
     try {
+      // Inserir mensagem
       const { data, error } = await supabase
         .from('global_chat_messages')
         .insert({
@@ -132,17 +166,25 @@ export function useGlobalChat(): UseGlobalChatReturn {
           content: content.trim(),
           reply_to_id: replyToId || null
         })
-        .select(`
-          *,
-          user:profiles!global_chat_messages_user_id_fkey(id, full_name, avatar_url)
-        `)
+        .select('*')
         .single();
       
       if (error) throw error;
       
+      // Buscar dados do perfil do usuário atual
+      const { data: profile } = await supabase
+        .from('profiles')
+        .select('id, full_name, avatar_url')
+        .eq('id', user.id)
+        .single();
+      
       // Adicionar mensagem localmente imediatamente
       if (data) {
-        setMessages(prev => [...prev, data as GlobalChatMessage]);
+        const newMessage: GlobalChatMessage = {
+          ...data,
+          user: profile as ChatUser
+        };
+        setMessages(prev => [...prev, newMessage]);
       }
     } catch (error) {
       console.error('Erro ao enviar mensagem:', error);
@@ -173,19 +215,34 @@ export function useGlobalChat(): UseGlobalChatReturn {
     if (!user) return;
     
     try {
-      const { data, error } = await supabase
+      const { data: messagesData, error } = await supabase
         .from('private_messages')
-        .select(`
-          *,
-          sender:profiles!private_messages_sender_id_fkey(id, full_name, avatar_url),
-          receiver:profiles!private_messages_receiver_id_fkey(id, full_name, avatar_url)
-        `)
+        .select('*')
         .or(`and(sender_id.eq.${user.id},receiver_id.eq.${otherUserId}),and(sender_id.eq.${otherUserId},receiver_id.eq.${user.id})`)
         .order('created_at', { ascending: true })
         .limit(100);
       
       if (error) throw error;
-      setPrivateMessages(data || []);
+      
+      if (messagesData && messagesData.length > 0) {
+        // Buscar perfis dos usuários envolvidos
+        const { data: profiles } = await supabase
+          .from('profiles')
+          .select('id, full_name, avatar_url')
+          .in('id', [user.id, otherUserId]);
+        
+        const profilesMap = new Map(profiles?.map(p => [p.id, p]) || []);
+        
+        const messagesWithUsers: PrivateMessage[] = messagesData.map(m => ({
+          ...m,
+          sender: profilesMap.get(m.sender_id) || null,
+          receiver: profilesMap.get(m.receiver_id) || null
+        }));
+        
+        setPrivateMessages(messagesWithUsers);
+      } else {
+        setPrivateMessages([]);
+      }
     } catch (error) {
       console.error('Erro ao carregar mensagens privadas:', error);
     }
