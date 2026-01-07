@@ -53,10 +53,17 @@ export function useGlobalChat(): UseGlobalChatReturn {
         
         const profilesMap = new Map(profiles?.map(p => [p.id, p]) || []);
         
-        const messagesWithUsers: GlobalChatMessage[] = messagesData.map(m => ({
-          ...m,
-          user: profilesMap.get(m.user_id) as ChatUser || null
-        }));
+        const messagesWithUsers: GlobalChatMessage[] = messagesData.map(m => {
+          const profile = profilesMap.get(m.user_id);
+          return {
+            ...m,
+            user: profile ? {
+              id: profile.id,
+              full_name: profile.full_name || 'Usuário',
+              avatar_url: profile.avatar_url || null
+            } as ChatUser : null
+          };
+        });
         
         setMessages(messagesWithUsers.reverse());
       } else {
@@ -179,10 +186,15 @@ export function useGlobalChat(): UseGlobalChatReturn {
         .single();
       
       // Adicionar mensagem localmente imediatamente
+      // Usar user_metadata como fallback se perfil não tiver dados
       if (data) {
         const newMessage: GlobalChatMessage = {
           ...data,
-          user: profile as ChatUser
+          user: {
+            id: user.id,
+            full_name: profile?.full_name || user.user_metadata?.full_name || user.user_metadata?.name || 'Usuário',
+            avatar_url: profile?.avatar_url || user.user_metadata?.avatar_url || user.user_metadata?.picture || null
+          } as ChatUser
         };
         setMessages(prev => [...prev, newMessage]);
       }
