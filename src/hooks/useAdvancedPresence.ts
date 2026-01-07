@@ -143,19 +143,22 @@ export function useAdvancedPresence(): UseAdvancedPresenceReturn {
           badgesMap.set(b.user_id, [...existing, b.badge_type as BadgeType]);
         });
         
-        const extendedUsers: UserPresenceExtended[] = data.map(p => ({
-          user_id: p.user_id,
-          status: p.status as 'online' | 'away' | 'offline',
-          activity_type: (p.activity_type as ActivityType) || 'online',
-          current_module: p.current_module,
-          last_seen: p.last_seen,
-          user: {
-            full_name: profilesMap.get(p.user_id)?.full_name || null,
-            avatar_url: profilesMap.get(p.user_id)?.avatar_url || null,
-            level: (profilesMap.get(p.user_id)?.level as UserLevel) || 'bronze',
-            badges: badgesMap.get(p.user_id) || []
-          }
-        }));
+        const extendedUsers: UserPresenceExtended[] = data.map(p => {
+          const profile = profilesMap.get(p.user_id);
+          return {
+            user_id: p.user_id,
+            status: p.status as 'online' | 'away' | 'offline',
+            activity_type: (p.activity_type as ActivityType) || 'online',
+            current_module: p.current_module,
+            last_seen: p.last_seen,
+            user: {
+              full_name: profile?.full_name || null,
+              avatar_url: profile?.avatar_url || null,
+              level: (profile?.level as UserLevel) || 'bronze',
+              badges: badgesMap.get(p.user_id) || []
+            }
+          };
+        });
         
         setOnlineUsers(extendedUsers);
       } else {
@@ -183,7 +186,9 @@ export function useAdvancedPresence(): UseAdvancedPresenceReturn {
         { event: '*', schema: 'public', table: 'user_presence' },
         (payload) => {
           // Ignorar mudanças do próprio usuário
-          const changedUserId = payload.new?.user_id || payload.old?.user_id;
+          const newRecord = payload.new as { user_id?: string } | null;
+          const oldRecord = payload.old as { user_id?: string } | null;
+          const changedUserId = newRecord?.user_id || oldRecord?.user_id;
           if (changedUserId !== user.id) {
             loadOnlineUsers();
           }

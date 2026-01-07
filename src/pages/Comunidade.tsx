@@ -153,7 +153,7 @@ export default function Comunidade() {
               <div>
                 <div className="flex items-center gap-2">
                   <span className="font-semibold text-foreground">
-                    {user?.user_metadata?.full_name || 'Estudante'}
+                    {user?.user_metadata?.full_name || user?.user_metadata?.name || 'Estudante'}
                   </span>
                   <LevelBadge level={level} points={totalPoints} size="sm" />
                 </div>
