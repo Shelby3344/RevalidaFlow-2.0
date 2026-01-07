@@ -21,10 +21,10 @@ export interface UserProfile {
   dataCadastro: string;
 }
 
-// Dados iniciais mockados
+// Dados iniciais
 const defaultProfile: UserProfile = {
   id: "1",
-  nome: "Shelbinho",
+  nome: "Usuário",
   email: "",
   telefone: "",
   cidade: "",
@@ -45,6 +45,7 @@ interface UserProfileContextType {
   setProfile: (profile: UserProfile) => void;
   updateProfile: (field: keyof UserProfile, value: string) => void;
   saveProfile: () => Promise<void>;
+  loading: boolean;
 }
 
 const UserProfileContext = createContext<UserProfileContextType | undefined>(undefined);
@@ -52,14 +53,70 @@ const UserProfileContext = createContext<UserProfileContextType | undefined>(und
 export function UserProfileProvider({ children }: { children: ReactNode }) {
   const { user } = useAuth();
   const [profile, setProfileState] = useState<UserProfile>(defaultProfile);
+  const [loading, setLoading] = useState(true);
 
-  // Carrega do localStorage na inicialização
+  // Carrega do Supabase primeiro, depois localStorage como fallback
   useEffect(() => {
-    const savedProfile = localStorage.getItem("userProfile");
-    if (savedProfile) {
-      setProfileState(JSON.parse(savedProfile));
-    }
-  }, []);
+    const loadProfile = async () => {
+      setLoading(true);
+      
+      if (user) {
+        try {
+          // Buscar do Supabase
+          const { data: supabaseProfile } = await supabase
+            .from('profiles')
+            .select('*')
+            .eq('id', user.id)
+            .single();
+          
+          if (supabaseProfile) {
+            // Carregar dados locais para campos extras
+            const savedProfile = localStorage.getItem("userProfile");
+            const localData = savedProfile ? JSON.parse(savedProfile) : {};
+            
+            setProfileState({
+              ...defaultProfile,
+              ...localData,
+              id: user.id,
+              nome: supabaseProfile.full_name || user.user_metadata?.full_name || user.user_metadata?.name || localData.nome || 'Usuário',
+              email: supabaseProfile.email || user.email || '',
+              avatar: supabaseProfile.avatar_url || user.user_metadata?.avatar_url || user.user_metadata?.picture || '',
+            });
+          } else {
+            // Fallback para user_metadata
+            const savedProfile = localStorage.getItem("userProfile");
+            const localData = savedProfile ? JSON.parse(savedProfile) : {};
+            
+            setProfileState({
+              ...defaultProfile,
+              ...localData,
+              id: user.id,
+              nome: user.user_metadata?.full_name || user.user_metadata?.name || localData.nome || 'Usuário',
+              email: user.email || '',
+              avatar: user.user_metadata?.avatar_url || user.user_metadata?.picture || '',
+            });
+          }
+        } catch (error) {
+          console.error('Erro ao carregar perfil:', error);
+          // Fallback para localStorage
+          const savedProfile = localStorage.getItem("userProfile");
+          if (savedProfile) {
+            setProfileState(JSON.parse(savedProfile));
+          }
+        }
+      } else {
+        // Sem usuário logado, usar localStorage
+        const savedProfile = localStorage.getItem("userProfile");
+        if (savedProfile) {
+          setProfileState(JSON.parse(savedProfile));
+        }
+      }
+      
+      setLoading(false);
+    };
+    
+    loadProfile();
+  }, [user]);
 
   const setProfile = (newProfile: UserProfile) => {
     setProfileState(newProfile);
@@ -92,7 +149,7 @@ export function UserProfileProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <UserProfileContext.Provider value={{ profile, setProfile, updateProfile, saveProfile }}>
+    <UserProfileContext.Provider value={{ profile, setProfile, updateProfile, saveProfile, loading }}>
       {children}
     </UserProfileContext.Provider>
   );
