@@ -1,4 +1,6 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import { supabase } from "@/lib/supabase";
+import { useAuth } from "@/hooks/useAuth";
 
 // Interface do perfil do usuário
 export interface UserProfile {
@@ -48,6 +50,7 @@ interface UserProfileContextType {
 const UserProfileContext = createContext<UserProfileContextType | undefined>(undefined);
 
 export function UserProfileProvider({ children }: { children: ReactNode }) {
+  const { user } = useAuth();
   const [profile, setProfileState] = useState<UserProfile>(defaultProfile);
 
   // Carrega do localStorage na inicialização
@@ -67,7 +70,25 @@ export function UserProfileProvider({ children }: { children: ReactNode }) {
   };
 
   const saveProfile = async () => {
+    // Salva no localStorage
     localStorage.setItem("userProfile", JSON.stringify(profile));
+    
+    // Também atualiza no Supabase se o usuário estiver logado
+    if (user) {
+      try {
+        await supabase
+          .from('profiles')
+          .upsert({
+            id: user.id,
+            full_name: profile.nome,
+            avatar_url: profile.avatar,
+            email: profile.email || user.email,
+            updated_at: new Date().toISOString()
+          });
+      } catch (error) {
+        console.error('Erro ao atualizar perfil no Supabase:', error);
+      }
+    }
   };
 
   return (
