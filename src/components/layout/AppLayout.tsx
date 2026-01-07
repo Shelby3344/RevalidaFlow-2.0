@@ -12,10 +12,10 @@ export function AppLayout({ children }: AppLayoutProps) {
   const [isMobile, setIsMobile] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
-  // Carregar estado do localStorage
+  // Carregar estado do localStorage (padrão: encolhido)
   const [isPinned, setIsPinned] = useState(() => {
     const saved = localStorage.getItem("sidebar-pinned");
-    return saved !== null ? JSON.parse(saved) : true;
+    return saved !== null ? JSON.parse(saved) : false;
   });
   const [isHovered, setIsHovered] = useState(false);
 
