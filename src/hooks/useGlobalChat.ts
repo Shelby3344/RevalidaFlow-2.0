@@ -2,28 +2,20 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { supabase } from '@/lib/supabase';
 import { useAuth } from '@/hooks/useAuth';
 import { GlobalChatMessage, ChatUser, UserPresence, PrivateMessage, Conversation } from '@/types/chat';
-import { RealtimeChannel } from '@supabase/supabase-js';
 
 interface UseGlobalChatReturn {
-  // Global Chat
   messages: GlobalChatMessage[];
   loadingMessages: boolean;
   sendMessage: (content: string, replyToId?: string) => Promise<void>;
   deleteMessage: (messageId: string) => Promise<void>;
-  
-  // Online Users
   onlineUsers: UserPresence[];
   onlineCount: number;
-  
-  // Private Messages
   conversations: Conversation[];
   privateMessages: PrivateMessage[];
   unreadCount: number;
   sendPrivateMessage: (receiverId: string, content: string) => Promise<void>;
   loadPrivateMessages: (otherUserId: string) => Promise<void>;
   markAsRead: (otherUserId: string) => Promise<void>;
-  
-  // Presence
   updatePresence: (status: 'online' | 'away' | 'offline') => Promise<void>;
 }
 
@@ -37,12 +29,10 @@ export function useGlobalChat(): UseGlobalChatReturn {
   const [privateMessages, setPrivateMessages] = useState<PrivateMessage[]>([]);
   const [unreadCount, setUnreadCount] = useState(0);
   
-  const channelRef = useRef<RealtimeChannel | null>(null);
-  const presenceIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const isInitializedRef = useRef(false);
 
   // Carregar mensagens globais
   const loadMessages = useCallback(async () => {
-    setLoadingMessages(true);
     try {
       const { data, error } = await supabase
         .from('global_chat_messages')
@@ -65,7 +55,6 @@ export function useGlobalChat(): UseGlobalChatReturn {
   // Carregar usuários online
   const loadOnlineUsers = useCallback(async () => {
     try {
-      // Considerar online quem atualizou nos últimos 2 minutos
       const twoMinutesAgo = new Date(Date.now() - 2 * 60 * 1000).toISOString();
       
       const { data, error } = await supabase
@@ -94,7 +83,6 @@ export function useGlobalChat(): UseGlobalChatReturn {
       
       if (error) throw error;
       
-      // Buscar dados dos usuários
       if (data && data.length > 0) {
         const userIds = data.map((c: Conversation) => c.other_user_id);
         const { data: users } = await supabase
@@ -132,20 +120,30 @@ export function useGlobalChat(): UseGlobalChatReturn {
     }
   }, [user]);
 
-  // Enviar mensagem global
+  // Enviar mensagem global - agora adiciona localmente também
   const sendMessage = useCallback(async (content: string, replyToId?: string) => {
     if (!user || !content.trim()) return;
     
     try {
-      const { error } = await supabase
+      const { data, error } = await supabase
         .from('global_chat_messages')
         .insert({
           user_id: user.id,
           content: content.trim(),
           reply_to_id: replyToId || null
-        });
+        })
+        .select(`
+          *,
+          user:profiles!global_chat_messages_user_id_fkey(id, full_name, avatar_url)
+        `)
+        .single();
       
       if (error) throw error;
+      
+      // Adicionar mensagem localmente imediatamente
+      if (data) {
+        setMessages(prev => [...prev, data as GlobalChatMessage]);
+      }
     } catch (error) {
       console.error('Erro ao enviar mensagem:', error);
       throw error;
@@ -161,6 +159,9 @@ export function useGlobalChat(): UseGlobalChatReturn {
         .eq('id', messageId);
       
       if (error) throw error;
+      
+      // Remover localmente
+      setMessages(prev => prev.filter(m => m.id !== messageId));
     } catch (error) {
       console.error('Erro ao deletar mensagem:', error);
       throw error;
@@ -205,7 +206,6 @@ export function useGlobalChat(): UseGlobalChatReturn {
       
       if (error) throw error;
       
-      // Recarregar mensagens
       await loadPrivateMessages(receiverId);
       await loadConversations();
     } catch (error) {
@@ -240,7 +240,7 @@ export function useGlobalChat(): UseGlobalChatReturn {
     if (!user) return;
     
     try {
-      const { error } = await supabase
+      await supabase
         .from('user_presence')
         .upsert({
           user_id: user.id,
@@ -248,46 +248,45 @@ export function useGlobalChat(): UseGlobalChatReturn {
           last_seen: new Date().toISOString(),
           updated_at: new Date().toISOString()
         });
-      
-      if (error) throw error;
     } catch (error) {
       console.error('Erro ao atualizar presença:', error);
     }
   }, [user]);
 
-  // Setup Realtime subscriptions
+  // Setup inicial e realtime (roda uma vez)
   useEffect(() => {
-    if (!user) return;
+    if (!user || isInitializedRef.current) return;
+    isInitializedRef.current = true;
 
     // Carregar dados iniciais
     loadMessages();
     loadOnlineUsers();
     loadConversations();
     loadUnreadCount();
-    
-    // Marcar como online
     updatePresence('online');
 
     // Criar canal de realtime
     const channel = supabase
-      .channel('global-chat')
+      .channel('global-chat-' + user.id)
       .on(
         'postgres_changes',
         { event: 'INSERT', schema: 'public', table: 'global_chat_messages' },
         async (payload) => {
-          // Buscar dados do usuário
-          const { data: userData } = await supabase
-            .from('profiles')
-            .select('id, full_name, avatar_url')
-            .eq('id', payload.new.user_id)
-            .single();
-          
-          const newMessage: GlobalChatMessage = {
-            ...payload.new as GlobalChatMessage,
-            user: userData as ChatUser
-          };
-          
-          setMessages(prev => [...prev, newMessage]);
+          // Só adicionar se não for nossa própria mensagem (já adicionamos localmente)
+          if (payload.new.user_id !== user.id) {
+            const { data: userData } = await supabase
+              .from('profiles')
+              .select('id, full_name, avatar_url')
+              .eq('id', payload.new.user_id)
+              .single();
+            
+            const newMessage: GlobalChatMessage = {
+              ...payload.new as GlobalChatMessage,
+              user: userData as ChatUser
+            };
+            
+            setMessages(prev => [...prev, newMessage]);
+          }
         }
       )
       .on(
@@ -302,57 +301,27 @@ export function useGlobalChat(): UseGlobalChatReturn {
         { event: 'INSERT', schema: 'public', table: 'private_messages' },
         (payload) => {
           const msg = payload.new as PrivateMessage;
-          // Se for mensagem para mim, atualizar contagem
           if (msg.receiver_id === user.id) {
             loadUnreadCount();
             loadConversations();
           }
         }
       )
-      .on(
-        'postgres_changes',
-        { event: '*', schema: 'public', table: 'user_presence' },
-        () => {
-          loadOnlineUsers();
-        }
-      )
       .subscribe();
 
-    channelRef.current = channel;
-
-    // Atualizar presença a cada 30 segundos
-    presenceIntervalRef.current = setInterval(() => {
+    // Heartbeat de presença
+    const presenceInterval = setInterval(() => {
       updatePresence('online');
     }, 30000);
 
     // Cleanup
     return () => {
-      if (channelRef.current) {
-        supabase.removeChannel(channelRef.current);
-      }
-      if (presenceIntervalRef.current) {
-        clearInterval(presenceIntervalRef.current);
-      }
-      // Marcar como offline ao sair
+      supabase.removeChannel(channel);
+      clearInterval(presenceInterval);
       updatePresence('offline');
+      isInitializedRef.current = false;
     };
   }, [user, loadMessages, loadOnlineUsers, loadConversations, loadUnreadCount, updatePresence]);
-
-  // Detectar quando usuário sai da página
-  useEffect(() => {
-    const handleBeforeUnload = () => {
-      if (user) {
-        // Usar sendBeacon para garantir que a requisição seja enviada
-        navigator.sendBeacon(
-          `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/user_presence?user_id=eq.${user.id}`,
-          JSON.stringify({ status: 'offline', last_seen: new Date().toISOString() })
-        );
-      }
-    };
-
-    window.addEventListener('beforeunload', handleBeforeUnload);
-    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
-  }, [user]);
 
   return {
     messages,

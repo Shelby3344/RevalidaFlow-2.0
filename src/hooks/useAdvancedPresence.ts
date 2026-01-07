@@ -4,27 +4,19 @@ import { useAuth } from '@/hooks/useAuth';
 import { ActivityType, UserPresenceExtended, UserLevel, BadgeType } from '@/types/community';
 
 interface UseAdvancedPresenceReturn {
-  // Current user status
   currentStatus: ActivityType;
-  
-  // Online users
   onlineUsers: UserPresenceExtended[];
   studyingNowUsers: UserPresenceExtended[];
   onlineCount: number;
   studyingCount: number;
-  
-  // Actions
   setStudying: (module?: string) => Promise<void>;
   setOnline: () => Promise<void>;
   setAway: () => Promise<void>;
   setOffline: () => Promise<void>;
-  
-  // Loading
   loading: boolean;
 }
 
 const AWAY_TIMEOUT = 5 * 60 * 1000; // 5 minutes
-const OFFLINE_TIMEOUT = 15 * 60 * 1000; // 15 minutes
 
 export function useAdvancedPresence(): UseAdvancedPresenceReturn {
   const { user } = useAuth();
@@ -33,15 +25,15 @@ export function useAdvancedPresence(): UseAdvancedPresenceReturn {
   const [loading, setLoading] = useState(true);
   
   const awayTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const offlineTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const lastActivityRef = useRef<number>(Date.now());
+  const statusRef = useRef<ActivityType>('offline');
+  const isInitializedRef = useRef(false);
 
-  // Update presence in database
+  // Update presence in database (stable reference)
   const updatePresence = useCallback(async (status: ActivityType, module?: string) => {
     if (!user) return;
     
     try {
-      const { error } = await supabase
+      await supabase
         .from('user_presence')
         .upsert({
           user_id: user.id,
@@ -52,55 +44,30 @@ export function useAdvancedPresence(): UseAdvancedPresenceReturn {
           updated_at: new Date().toISOString()
         });
       
-      if (error) throw error;
+      statusRef.current = status;
       setCurrentStatus(status);
     } catch (error) {
       console.error('Error updating presence:', error);
     }
   }, [user]);
 
-  // Set studying status
   const setStudying = useCallback(async (module?: string) => {
     await updatePresence('studying', module);
-    resetActivityTimers();
   }, [updatePresence]);
 
-  // Set online status
   const setOnline = useCallback(async () => {
     await updatePresence('online');
-    resetActivityTimers();
   }, [updatePresence]);
 
-  // Set away status
   const setAway = useCallback(async () => {
     await updatePresence('away');
   }, [updatePresence]);
 
-  // Set offline status
   const setOffline = useCallback(async () => {
     await updatePresence('offline');
   }, [updatePresence]);
 
-  // Reset activity timers
-  const resetActivityTimers = useCallback(() => {
-    lastActivityRef.current = Date.now();
-    
-    if (awayTimeoutRef.current) clearTimeout(awayTimeoutRef.current);
-    if (offlineTimeoutRef.current) clearTimeout(offlineTimeoutRef.current);
-    
-    awayTimeoutRef.current = setTimeout(() => {
-      if (currentStatus !== 'studying') {
-        setAway();
-      }
-    }, AWAY_TIMEOUT);
-    
-    offlineTimeoutRef.current = setTimeout(() => {
-      setOffline();
-    }, OFFLINE_TIMEOUT);
-  }, [currentStatus, setAway, setOffline]);
-
-
-  // Load online users
+  // Load online users (stable, doesn't trigger re-renders in loop)
   const loadOnlineUsers = useCallback(async () => {
     if (!user) return;
     
@@ -109,36 +76,24 @@ export function useAdvancedPresence(): UseAdvancedPresenceReturn {
       
       const { data, error } = await supabase
         .from('user_presence')
-        .select(`
-          user_id,
-          status,
-          activity_type,
-          current_module,
-          last_seen
-        `)
+        .select('user_id, status, activity_type, current_module, last_seen')
         .in('status', ['online'])
         .gte('last_seen', twoMinutesAgo)
-        .neq('user_id', user.id); // Excluir o próprio usuário
+        .neq('user_id', user.id);
       
       if (error) throw error;
       
       if (data && data.length > 0) {
-        // Get user profiles
         const userIds = data.map(p => p.user_id);
-        const { data: profiles } = await supabase
-          .from('profiles')
-          .select('id, full_name, avatar_url, level')
-          .in('id', userIds);
         
-        // Get badges for users
-        const { data: badges } = await supabase
-          .from('user_badges')
-          .select('user_id, badge_type')
-          .in('user_id', userIds);
+        const [profilesRes, badgesRes] = await Promise.all([
+          supabase.from('profiles').select('id, full_name, avatar_url, level').in('id', userIds),
+          supabase.from('user_badges').select('user_id, badge_type').in('user_id', userIds)
+        ]);
         
-        const profilesMap = new Map(profiles?.map(p => [p.id, p]) || []);
+        const profilesMap = new Map(profilesRes.data?.map(p => [p.id, p]) || []);
         const badgesMap = new Map<string, BadgeType[]>();
-        badges?.forEach(b => {
+        badgesRes.data?.forEach(b => {
           const existing = badgesMap.get(b.user_id) || [];
           badgesMap.set(b.user_id, [...existing, b.badge_type as BadgeType]);
         });
@@ -171,70 +126,74 @@ export function useAdvancedPresence(): UseAdvancedPresenceReturn {
     }
   }, [user]);
 
-  // Initial setup
+  // Initialize presence and subscriptions (runs once)
   useEffect(() => {
-    if (!user) return;
+    if (!user || isInitializedRef.current) return;
+    isInitializedRef.current = true;
     
+    // Initial load
     loadOnlineUsers();
-    setOnline();
+    updatePresence('online');
     
-    // Subscribe to presence changes (only for other users)
+    // Subscribe to presence changes from OTHER users only
     const channel = supabase
-      .channel('presence-changes')
+      .channel('presence-changes-' + user.id)
       .on(
         'postgres_changes',
         { event: '*', schema: 'public', table: 'user_presence' },
         (payload) => {
-          // Ignorar mudanças do próprio usuário
           const newRecord = payload.new as { user_id?: string } | null;
           const oldRecord = payload.old as { user_id?: string } | null;
           const changedUserId = newRecord?.user_id || oldRecord?.user_id;
-          if (changedUserId !== user.id) {
+          // Only reload if it's NOT our own change
+          if (changedUserId && changedUserId !== user.id) {
             loadOnlineUsers();
           }
         }
       )
       .subscribe();
     
-    // Update presence every 30 seconds
+    // Heartbeat every 30 seconds
     const presenceInterval = setInterval(() => {
-      if (currentStatus !== 'offline') {
-        updatePresence(currentStatus);
+      if (statusRef.current !== 'offline') {
+        updatePresence(statusRef.current);
       }
     }, 30000);
     
-    // Track user activity
-    const handleActivity = () => {
-      if (currentStatus === 'away') {
-        setOnline();
-      }
-      resetActivityTimers();
+    // Away timeout on inactivity
+    const resetAwayTimer = () => {
+      if (awayTimeoutRef.current) clearTimeout(awayTimeoutRef.current);
+      awayTimeoutRef.current = setTimeout(() => {
+        if (statusRef.current === 'online') {
+          updatePresence('away');
+        }
+      }, AWAY_TIMEOUT);
     };
     
+    const handleActivity = () => {
+      if (statusRef.current === 'away') {
+        updatePresence('online');
+      }
+      resetAwayTimer();
+    };
+    
+    resetAwayTimer();
     window.addEventListener('mousemove', handleActivity);
     window.addEventListener('keydown', handleActivity);
-    window.addEventListener('click', handleActivity);
     
-    // Handle page unload
-    const handleUnload = () => {
-      setOffline();
-    };
-    window.addEventListener('beforeunload', handleUnload);
-    
+    // Cleanup
     return () => {
       supabase.removeChannel(channel);
       clearInterval(presenceInterval);
       if (awayTimeoutRef.current) clearTimeout(awayTimeoutRef.current);
-      if (offlineTimeoutRef.current) clearTimeout(offlineTimeoutRef.current);
       window.removeEventListener('mousemove', handleActivity);
       window.removeEventListener('keydown', handleActivity);
-      window.removeEventListener('click', handleActivity);
-      window.removeEventListener('beforeunload', handleUnload);
-      setOffline();
+      // Mark offline on unmount
+      updatePresence('offline');
+      isInitializedRef.current = false;
     };
-  }, [user, loadOnlineUsers, setOnline, setOffline, currentStatus, updatePresence, resetActivityTimers]);
+  }, [user, loadOnlineUsers, updatePresence]);
 
-  // Filter studying users
   const studyingNowUsers = onlineUsers.filter(u => u.activity_type === 'studying');
 
   return {
