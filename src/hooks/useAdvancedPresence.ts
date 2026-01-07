@@ -87,14 +87,15 @@ export function useAdvancedPresence(): UseAdvancedPresenceReturn {
       
       if (profilesError) throw profilesError;
       
-      if (!profiles || profiles.length === 0) {
-        setAllUsers([]);
-        setLoading(false);
-        return;
-      }
+      // Buscar usuários fictícios para popular a lista
+      const { data: fakeUsers } = await supabase
+        .from('fake_ranking_users')
+        .select('id, display_name, avatar_url, level, total_points')
+        .order('total_points', { ascending: false })
+        .limit(100);
       
-      // Buscar presença de todos os usuários
-      const userIds = profiles.map(p => p.id);
+      // Buscar presença de todos os usuários reais
+      const userIds = profiles?.map(p => p.id) || [];
       const { data: presenceData } = await supabase
         .from('user_presence')
         .select('user_id, status, activity_type, current_module, last_seen')
@@ -113,8 +114,8 @@ export function useAdvancedPresence(): UseAdvancedPresenceReturn {
         badgesMap.set(b.user_id, [...existing, b.badge_type as BadgeType]);
       });
       
-      // Combinar perfis com presença
-      const extendedUsers: UserPresenceExtended[] = profiles.map(profile => {
+      // Combinar perfis reais com presença
+      const realUsers: UserPresenceExtended[] = (profiles || []).map(profile => {
         const presence = presenceMap.get(profile.id);
         const lastSeen = presence?.last_seen;
         const isRecentlyActive = lastSeen && new Date(lastSeen) > new Date(twoMinutesAgo);
@@ -143,6 +144,25 @@ export function useAdvancedPresence(): UseAdvancedPresenceReturn {
           }
         };
       });
+      
+      // Adicionar usuários fictícios (sempre offline, mas aparecem na lista)
+      const fakeUsersList: UserPresenceExtended[] = (fakeUsers || []).map(fake => ({
+        user_id: fake.id,
+        status: 'offline' as const,
+        activity_type: 'offline' as ActivityType,
+        current_module: null,
+        last_seen: null,
+        user: {
+          full_name: fake.display_name,
+          avatar_url: fake.avatar_url || null,
+          level: (fake.level as UserLevel) || 'bronze',
+          badges: [],
+          role: 'user'
+        }
+      }));
+      
+      // Combinar usuários reais + fictícios
+      const extendedUsers = [...realUsers, ...fakeUsersList];
       
       // Ordenar: online primeiro, depois offline, admins no topo
       extendedUsers.sort((a, b) => {
