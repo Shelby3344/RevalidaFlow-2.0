@@ -100,13 +100,18 @@ export default function AvaliacaoAvaliado() {
     },
     onResultShared: () => {
       setResultShared(true);
-      // Recarregar sessão para obter pontuações atualizadas
-      if (sessionCode) {
-        loadSession(sessionCode);
-      }
       toast.success("Resultado disponível!");
     },
     onResultData: (resultData: ResultData) => {
+      // Atualizar sessão local com os scores recebidos do avaliador
+      if (session) {
+        updateSession({
+          scores: resultData.scores,
+          totalScore: resultData.totalScore,
+          maxScore: resultData.maxScore,
+          resultShared: true,
+        });
+      }
       // Salvar estatísticas no perfil do avaliado
       saveAvaliadoStats(resultData);
     },
