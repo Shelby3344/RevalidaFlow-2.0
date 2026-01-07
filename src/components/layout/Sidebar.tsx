@@ -51,6 +51,12 @@ const menuSections: MenuSection[] = [
     ],
   },
   {
+    title: "Revalida",
+    items: [
+      { title: "Painel INEP", icon: BarChart3, path: "/painel-revalida", badge: "Novo", badgeType: "new" },
+    ],
+  },
+  {
     title: "Estudos",
     items: [
       {

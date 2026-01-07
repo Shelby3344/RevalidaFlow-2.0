@@ -4,7 +4,7 @@ import {
   MessageCircle, Trophy, Users, X, Send, 
   Flame, Clock, TrendingUp, TrendingDown,
   Play, ExternalLink, MoreVertical, Trash2, Reply,
-  ChevronUp, ChevronDown, Target, Sparkles
+  ChevronUp, ChevronDown, Target, Sparkles, BookOpen
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -185,7 +185,7 @@ export default function Comunidade() {
               </div>
               <div className="text-center">
                 <div className="flex items-center gap-1.5">
-                  <span className="text-lg">📚</span>
+                  <BookOpen className="w-4 h-4 text-green-500" />
                   <span className="text-lg font-bold text-green-500">{studyingCount}</span>
                 </div>
                 <span className="text-[10px] text-muted-foreground">estudando</span>
