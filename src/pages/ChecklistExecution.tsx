@@ -443,24 +443,46 @@ export default function ChecklistExecution() {
                 </div>
               </div>
 
-              <div className="p-5 space-y-4 text-sm text-muted-foreground">
-                <div>
-                  <p><span className="text-foreground italic">Nível de atenção:</span> {content.scenario.nivel}.</p>
-                  <p><span className="text-foreground italic">Tipo de atendimento:</span> {content.scenario.tipo}.</p>
+              <div className="p-5 space-y-4">
+                {/* Info cards em grid */}
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="bg-secondary/30 rounded-lg p-3">
+                    <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">Nível de atenção</p>
+                    <p className="text-sm text-foreground font-medium">{content.scenario.nivel}</p>
+                  </div>
+                  <div className="bg-secondary/30 rounded-lg p-3">
+                    <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">Tipo de atendimento</p>
+                    <p className="text-sm text-foreground font-medium">{content.scenario.tipo}</p>
+                  </div>
                 </div>
                 
-                <div>
-                  <p className="text-foreground mb-2">A unidade possui a seguinte infraestrutura:</p>
-                  {content.scenario.situacao.map((item, idx) => (
-                    <p key={idx}>-{item}</p>
-                  ))}
+                {/* Infraestrutura */}
+                <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-lg p-4">
+                  <p className="text-xs text-cyan-400 uppercase tracking-wide font-medium mb-3 flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full"></span>
+                    Infraestrutura disponível
+                  </p>
+                  <div className="grid gap-1.5">
+                    {content.scenario.situacao.map((item, idx) => (
+                      <p key={idx} className="text-sm text-foreground/80 pl-3.5 flex items-start gap-2">
+                        <span className="text-cyan-400 mt-1">•</span>
+                        {item.replace(/^-+/, '').trim()}
+                      </p>
+                    ))}
+                  </div>
                 </div>
 
-                <div className="pt-2">
-                  <p className="text-foreground font-medium mb-2">DESCRIÇÃO DO CASO:</p>
-                  {content.scenario.descricao.map((item, idx) => (
-                    <p key={idx} className={idx > 0 ? "mt-2" : ""}>{item}</p>
-                  ))}
+                {/* Descrição do caso */}
+                <div className="bg-primary/5 border border-primary/20 rounded-lg p-4">
+                  <p className="text-xs text-primary uppercase tracking-wide font-medium mb-3 flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
+                    Descrição do caso
+                  </p>
+                  <div className="space-y-2">
+                    {content.scenario.descricao.map((item, idx) => (
+                      <p key={idx} className="text-sm text-foreground/90 leading-relaxed">{item}</p>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
@@ -470,14 +492,23 @@ export default function ChecklistExecution() {
               <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-3">
                 <div className="flex items-center gap-2 text-primary">
                   <ListChecks className="w-4 h-4" />
-                  <span className="text-sm font-medium">Nos 10 minutos de duração da estação, você deverá executar as seguintes tarefas:</span>
+                  <span className="text-sm font-medium">Tarefas da Estação (10 minutos)</span>
                 </div>
               </div>
 
-              <div className="p-5 space-y-1 text-sm text-muted-foreground">
-                {content.orientacoes.map((item, idx) => (
-                  <p key={idx}>-{item}</p>
-                ))}
+              <div className="p-5">
+                <div className="grid gap-2">
+                  {content.orientacoes
+                    .filter(item => !item.toLowerCase().includes('nos 10 min') && !item.toLowerCase().includes('duração da estação'))
+                    .map((item, idx) => (
+                    <div key={idx} className="flex items-start gap-3 bg-secondary/20 rounded-lg p-3">
+                      <span className="flex-shrink-0 w-6 h-6 bg-primary/20 text-primary rounded-full flex items-center justify-center text-xs font-bold">
+                        {idx + 1}
+                      </span>
+                      <p className="text-sm text-foreground/90 pt-0.5">{item.replace(/^-+/, '').trim()}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
 
@@ -490,25 +521,36 @@ export default function ChecklistExecution() {
                 </div>
               </div>
 
-              <div className="p-5 text-sm text-muted-foreground">
-                <p className="font-semibold text-foreground mb-4">Você será o enfermeiro que auxiliará o médico e responderá suas perguntas de acordo ao roteiro.</p>
-                <p className="italic text-muted-foreground mb-6">-Olá eu me chamo Matheus, enfermeiro que o auxiliará durante todo o atendimento.</p>
+              <div className="p-5 space-y-5">
+                {/* Introdução */}
+                <div className="bg-primary/5 border border-primary/20 rounded-lg p-4">
+                  <p className="font-medium text-foreground">Você será o enfermeiro que auxiliará o médico e responderá suas perguntas de acordo ao roteiro.</p>
+                  <p className="italic text-muted-foreground mt-2 text-sm">"Olá, eu me chamo Matheus, enfermeiro que o auxiliará durante todo o atendimento."</p>
+                </div>
 
+                {/* Itens organizados em grid */}
                 {content.instrucoes.itens.length > 0 && (
-                  <div className="space-y-4">
+                  <div className="grid gap-3">
                     {content.instrucoes.itens.map((item, idx) => {
                       const colonIndex = item.indexOf(":");
                       if (colonIndex > -1) {
-                        const titulo = item.substring(0, colonIndex);
+                        const titulo = item.substring(0, colonIndex).trim();
                         const resto = item.substring(colonIndex + 1).trim();
                         return (
-                          <div key={idx}>
-                            <p className="text-amber-400/90 font-semibold uppercase">{titulo}:</p>
-                            <p className="text-amber-400/70">-{resto}</p>
+                          <div key={idx} className="bg-amber-500/5 border border-amber-500/20 rounded-lg p-4">
+                            <p className="text-amber-400 font-semibold text-sm uppercase tracking-wide mb-2 flex items-center gap-2">
+                              <span className="w-1.5 h-1.5 bg-amber-400 rounded-full"></span>
+                              {titulo}
+                            </p>
+                            <p className="text-foreground/80 text-sm leading-relaxed pl-3.5">{resto}</p>
                           </div>
                         );
                       }
-                      return <p key={idx}>{item}</p>;
+                      return (
+                        <div key={idx} className="bg-secondary/30 rounded-lg p-4">
+                          <p className="text-foreground/80 text-sm">{item}</p>
+                        </div>
+                      );
                     })}
                   </div>
                 )}

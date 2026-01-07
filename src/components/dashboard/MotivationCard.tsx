@@ -8,7 +8,7 @@ export function MotivationCard() {
         <h3 className="text-sm font-medium text-primary">Motivação Revalida Flow</h3>
       </div>
       <p className="text-sm text-foreground/90 leading-relaxed">
-        Estudar não é um fardo, é a ponte para o seu sonho.
+        Cada hora de estudo te aproxima da sua aprovação. Continue firme!
       </p>
     </div>
   );
