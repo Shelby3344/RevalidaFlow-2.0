@@ -4,7 +4,7 @@ import {
   MessageCircle, Trophy, Users, X, Send, 
   Flame, Clock, TrendingUp, TrendingDown,
   Play, ExternalLink, MoreVertical, Trash2, Reply,
-  ChevronUp, ChevronDown, Target, Sparkles, BookOpen
+  ChevronUp, ChevronDown, Target, Sparkles, BookOpen, Crown
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -42,12 +42,17 @@ export default function Comunidade() {
     loadingMessages,
     sendMessage,
     deleteMessage,
+    clearMessages,
   } = useGlobalChat();
   const { 
+    allUsers,
     onlineUsers, 
+    offlineUsers,
     studyingNowUsers, 
-    onlineCount, 
-    studyingCount 
+    onlineCount,
+    offlineCount,
+    studyingCount,
+    totalUsers
   } = useAdvancedPresence();
   const { 
     rankings, 
@@ -342,50 +347,100 @@ export default function Comunidade() {
                             <Send className="w-4 h-4 mr-2" />
                             Enviar
                           </Button>
+                          {messages.length > 0 && (
+                            <Button 
+                              type="button" 
+                              variant="outline" 
+                              size="icon"
+                              onClick={clearMessages}
+                              title="Limpar chat"
+                            >
+                              <Trash2 className="w-4 h-4 text-muted-foreground" />
+                            </Button>
+                          )}
                         </div>
                       </form>
                     </div>
                   </div>
 
-                  {/* Online Users Sidebar */}
+                  {/* Users Sidebar - Todos os usuários */}
                   <div className="hidden lg:block w-72 border-l border-border bg-card/50">
                     <div className="p-4 border-b border-border">
                       <h3 className="font-semibold flex items-center gap-2">
                         <Users className="w-4 h-4" />
-                        Online ({onlineCount})
+                        Membros ({totalUsers})
                       </h3>
+                      <p className="text-xs text-muted-foreground mt-1">
+                        <span className="inline-flex items-center gap-1">
+                          <span className="w-2 h-2 bg-green-500 rounded-full" />
+                          {onlineCount} online
+                        </span>
+                        <span className="mx-2">•</span>
+                        <span className="inline-flex items-center gap-1">
+                          <span className="w-2 h-2 bg-gray-500 rounded-full" />
+                          {offlineCount} offline
+                        </span>
+                      </p>
                     </div>
-                    <ScrollArea className="h-[calc(100%-60px)]">
+                    <ScrollArea className="h-[calc(100%-80px)]">
                       <div className="p-2 space-y-1">
-                        {onlineUsers.map((presence) => (
-                          <button
-                            key={presence.user_id}
-                            onClick={() => setProfileUserId(presence.user_id)}
-                            className="w-full flex items-center gap-3 p-2 rounded-lg hover:bg-secondary/50 transition-colors"
-                          >
-                            <div className="relative">
-                              <Avatar className="w-8 h-8">
-                                <AvatarImage src={presence.user?.avatar_url || undefined} />
-                                <AvatarFallback className="text-xs bg-primary/20">
-                                  {getInitials(presence.user?.full_name || null)}
-                                </AvatarFallback>
-                              </Avatar>
-                              <span className={cn(
-                                "absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full border-2 border-card",
-                                presence.activity_type === 'studying' ? 'bg-green-500' : 'bg-blue-500'
-                              )} />
-                            </div>
-                            <div className="flex-1 text-left min-w-0">
-                              <p className="text-sm font-medium truncate">
-                                {presence.user?.full_name || 'Usuário'}
-                              </p>
-                              {presence.activity_type === 'studying' && (
-                                <p className="text-[10px] text-green-500">📚 Estudando</p>
+                        {allUsers.map((presence) => {
+                          const isOnline = presence.status === 'online';
+                          const isAdmin = presence.user?.role === 'admin';
+                          
+                          return (
+                            <button
+                              key={presence.user_id}
+                              onClick={() => setProfileUserId(presence.user_id)}
+                              className={cn(
+                                "w-full flex items-center gap-3 p-2 rounded-lg hover:bg-secondary/50 transition-colors",
+                                !isOnline && "opacity-60"
                               )}
-                            </div>
-                            <LevelBadge level={presence.user?.level || 'bronze'} size="sm" showTooltip={false} />
-                          </button>
-                        ))}
+                            >
+                              <div className="relative">
+                                <Avatar className={cn(
+                                  "w-8 h-8",
+                                  isAdmin && "ring-2 ring-yellow-500"
+                                )}>
+                                  <AvatarImage src={presence.user?.avatar_url || undefined} />
+                                  <AvatarFallback className={cn(
+                                    "text-xs",
+                                    isAdmin ? "bg-yellow-500/20" : "bg-primary/20"
+                                  )}>
+                                    {getInitials(presence.user?.full_name || null)}
+                                  </AvatarFallback>
+                                </Avatar>
+                                {/* Status indicator */}
+                                <span className={cn(
+                                  "absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full border-2 border-card",
+                                  isOnline 
+                                    ? presence.activity_type === 'studying' 
+                                      ? 'bg-green-500 animate-pulse' 
+                                      : 'bg-green-500'
+                                    : 'bg-gray-500'
+                                )} />
+                              </div>
+                              <div className="flex-1 text-left min-w-0">
+                                <p className={cn(
+                                  "text-sm font-medium truncate",
+                                  isAdmin && "text-yellow-500"
+                                )}>
+                                  {presence.user?.full_name || 'Usuário'}
+                                  {isAdmin && (
+                                    <Crown className="w-3 h-3 inline ml-1 text-yellow-500" />
+                                  )}
+                                </p>
+                                {isOnline && presence.activity_type === 'studying' && (
+                                  <p className="text-[10px] text-green-500">📚 Estudando</p>
+                                )}
+                                {!isOnline && (
+                                  <p className="text-[10px] text-muted-foreground">Offline</p>
+                                )}
+                              </div>
+                              <LevelBadge level={presence.user?.level || 'bronze'} size="sm" showTooltip={false} />
+                            </button>
+                          );
+                        })}
                       </div>
                     </ScrollArea>
                   </div>
@@ -736,28 +791,57 @@ function ChatMessage({
   getInitials,
   formatTime,
 }: ChatMessageProps) {
+  const isAdmin = message.user?.role === 'admin';
+  const isModerator = message.user?.role === 'moderator';
+  
   return (
     <div className={cn("flex gap-3", isOwn && "flex-row-reverse")}>
       <button onClick={onUserClick} className="flex-shrink-0 relative">
         <Avatar className={cn(
           "w-10 h-10",
-          isStudying && "ring-2 ring-green-500"
+          isStudying && "ring-2 ring-green-500",
+          isAdmin && "ring-2 ring-yellow-500",
+          isModerator && "ring-2 ring-blue-500"
         )}>
           <AvatarImage src={message.user?.avatar_url || undefined} />
-          <AvatarFallback className="bg-primary/20">
+          <AvatarFallback className={cn(
+            "bg-primary/20",
+            isAdmin && "bg-yellow-500/20",
+            isModerator && "bg-blue-500/20"
+          )}>
             {getInitials(message.user?.full_name || null)}
           </AvatarFallback>
         </Avatar>
-        {isStudying && (
+        {isStudying && !isAdmin && (
           <span className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-green-500 rounded-full border-2 border-background" />
+        )}
+        {isAdmin && (
+          <span className="absolute -bottom-0.5 -right-0.5 w-4 h-4 bg-yellow-500 rounded-full border-2 border-background flex items-center justify-center">
+            <Crown className="w-2.5 h-2.5 text-yellow-900" />
+          </span>
         )}
       </button>
       
       <div className={cn("flex-1 max-w-xl", isOwn && "flex flex-col items-end")}>
         <div className="flex items-center gap-2 mb-1 flex-wrap">
-          <button onClick={onUserClick} className="text-sm font-semibold hover:underline">
+          <button onClick={onUserClick} className={cn(
+            "text-sm font-semibold hover:underline",
+            isAdmin && "text-yellow-500",
+            isModerator && "text-blue-500"
+          )}>
             {message.user?.full_name || 'Usuário'}
           </button>
+          {isAdmin && (
+            <span className="flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-gradient-to-r from-yellow-500 to-amber-500 text-yellow-900 text-[10px] font-bold">
+              <Crown className="w-2.5 h-2.5" />
+              ADMIN
+            </span>
+          )}
+          {isModerator && (
+            <span className="flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-blue-500 text-white text-[10px] font-bold">
+              MOD
+            </span>
+          )}
           {isStudying && <StudyingNowBadge size="sm" />}
           <span className="text-xs text-muted-foreground">
             {formatTime(message.created_at)}
@@ -767,8 +851,12 @@ function ChatMessage({
         <div className={cn(
           "rounded-2xl px-4 py-2.5 group relative",
           isOwn 
-            ? "bg-primary text-primary-foreground rounded-tr-sm" 
-            : "bg-secondary rounded-tl-sm"
+            ? isAdmin 
+              ? "bg-gradient-to-r from-yellow-500 to-amber-500 text-yellow-900 rounded-tr-sm"
+              : "bg-primary text-primary-foreground rounded-tr-sm" 
+            : isAdmin
+              ? "bg-gradient-to-r from-yellow-500/20 to-amber-500/20 border border-yellow-500/30 rounded-tl-sm"
+              : "bg-secondary rounded-tl-sm"
         )}>
           <p className="text-sm leading-relaxed break-words">
             {renderContent(message.content)}

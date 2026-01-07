@@ -8,6 +8,7 @@ interface UseGlobalChatReturn {
   loadingMessages: boolean;
   sendMessage: (content: string, replyToId?: string) => Promise<void>;
   deleteMessage: (messageId: string) => Promise<void>;
+  clearMessages: () => void;
   onlineUsers: UserPresence[];
   onlineCount: number;
   conversations: Conversation[];
@@ -31,24 +32,27 @@ export function useGlobalChat(): UseGlobalChatReturn {
   
   const isInitializedRef = useRef(false);
 
-  // Carregar mensagens globais
+  // Carregar mensagens globais (apenas últimas 24 horas)
   const loadMessages = useCallback(async () => {
     try {
-      // Buscar mensagens
+      const twentyFourHoursAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+      
+      // Buscar mensagens das últimas 24 horas
       const { data: messagesData, error } = await supabase
         .from('global_chat_messages')
         .select('*')
+        .gte('created_at', twentyFourHoursAgo)
         .order('created_at', { ascending: false })
         .limit(100);
       
       if (error) throw error;
       
       if (messagesData && messagesData.length > 0) {
-        // Buscar perfis dos usuários
+        // Buscar perfis dos usuários (incluindo role)
         const userIds = [...new Set(messagesData.map(m => m.user_id))];
         const { data: profiles } = await supabase
           .from('profiles')
-          .select('id, full_name, avatar_url')
+          .select('id, full_name, avatar_url, role')
           .in('id', userIds);
         
         const profilesMap = new Map(profiles?.map(p => [p.id, p]) || []);
@@ -60,7 +64,8 @@ export function useGlobalChat(): UseGlobalChatReturn {
             user: profile ? {
               id: profile.id,
               full_name: profile.full_name || 'Usuário',
-              avatar_url: profile.avatar_url || null
+              avatar_url: profile.avatar_url || null,
+              role: profile.role || 'user'
             } as ChatUser : null
           };
         });
@@ -178,10 +183,10 @@ export function useGlobalChat(): UseGlobalChatReturn {
       
       if (error) throw error;
       
-      // Buscar dados do perfil do usuário atual
+      // Buscar dados do perfil do usuário atual (incluindo role)
       const { data: profile } = await supabase
         .from('profiles')
-        .select('id, full_name, avatar_url')
+        .select('id, full_name, avatar_url, role')
         .eq('id', user.id)
         .single();
       
@@ -193,7 +198,8 @@ export function useGlobalChat(): UseGlobalChatReturn {
           user: {
             id: user.id,
             full_name: profile?.full_name || user.user_metadata?.full_name || user.user_metadata?.name || 'Usuário',
-            avatar_url: profile?.avatar_url || user.user_metadata?.avatar_url || user.user_metadata?.picture || null
+            avatar_url: profile?.avatar_url || user.user_metadata?.avatar_url || user.user_metadata?.picture || null,
+            role: profile?.role || 'user'
           } as ChatUser
         };
         setMessages(prev => [...prev, newMessage]);
@@ -220,6 +226,11 @@ export function useGlobalChat(): UseGlobalChatReturn {
       console.error('Erro ao deletar mensagem:', error);
       throw error;
     }
+  }, []);
+
+  // Limpar mensagens localmente (apenas visual, não deleta do banco)
+  const clearMessages = useCallback(() => {
+    setMessages([]);
   }, []);
 
   // Carregar mensagens privadas com um usuário
@@ -397,6 +408,7 @@ export function useGlobalChat(): UseGlobalChatReturn {
     loadingMessages,
     sendMessage,
     deleteMessage,
+    clearMessages,
     onlineUsers,
     onlineCount: onlineUsers.length,
     conversations,

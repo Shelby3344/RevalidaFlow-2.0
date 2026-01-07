@@ -78,12 +78,13 @@ export interface UserPresenceExtended {
   status: 'online' | 'away' | 'offline';
   activity_type: ActivityType;
   current_module: string | null;
-  last_seen: string;
+  last_seen: string | null;
   user: {
     full_name: string | null;
     avatar_url: string | null;
     level: UserLevel;
     badges: BadgeType[];
+    role?: 'user' | 'admin' | 'moderator';
   };
 }
 

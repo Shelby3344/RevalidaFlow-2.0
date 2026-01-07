@@ -230,8 +230,11 @@ export default function ChecklistExecution() {
         duration_seconds: durationSeconds,
       });
 
+      // Pontos são dados automaticamente pelo trigger do banco de dados
+      // 50 pts por checklist + 10 pts por hora de estudo
+
       setResultSaved(true);
-      toast.success("Resultado salvo com sucesso!");
+      toast.success("Resultado salvo! +50 pontos de experiência!");
     } catch (error) {
       console.error("Erro ao salvar:", error);
       toast.error("Erro ao salvar resultado");
