@@ -112,17 +112,17 @@ export function ChecklistEvaluator({
               </p>
             </div>
 
-            {/* Botões de pontuação - Formato horizontal */}
-            <div className="flex justify-center gap-1 pt-2">
+            {/* Botões de pontuação - Alinhados à direita */}
+            <div className="flex justify-end gap-1 pt-2">
               {/* Inadequado - 0 */}
               <Button
                 size="sm"
                 variant={selectedType === 'inadequate' ? 'default' : 'outline'}
                 className={cn(
-                  'w-20 h-12 text-lg font-bold border-2',
+                  'w-16 h-10 text-base font-bold border-2',
                   selectedType === 'inadequate' 
-                    ? 'bg-blue-600 hover:bg-blue-700 border-blue-500 text-white' 
-                    : 'border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950'
+                    ? 'bg-red-600 hover:bg-red-700 border-red-500 text-white' 
+                    : 'border-red-500 text-red-500 hover:bg-red-50 dark:hover:bg-red-950'
                 )}
                 onClick={() => onScoreChange(item.id, item.scores.min, 'inadequate')}
                 disabled={disabled}
@@ -136,10 +136,10 @@ export function ChecklistEvaluator({
                   size="sm"
                   variant={selectedType === 'partial' ? 'default' : 'outline'}
                   className={cn(
-                    'w-20 h-12 text-lg font-bold border-2',
+                    'w-16 h-10 text-base font-bold border-2',
                     selectedType === 'partial' 
-                      ? 'bg-blue-600 hover:bg-blue-700 border-blue-500 text-white' 
-                      : 'border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950'
+                      ? 'bg-amber-600 hover:bg-amber-700 border-amber-500 text-white' 
+                      : 'border-amber-500 text-amber-500 hover:bg-amber-50 dark:hover:bg-amber-950'
                   )}
                   onClick={() => onScoreChange(item.id, item.scores.partial, 'partial')}
                   disabled={disabled}
@@ -153,10 +153,10 @@ export function ChecklistEvaluator({
                 size="sm"
                 variant={selectedType === 'adequate' ? 'default' : 'outline'}
                 className={cn(
-                  'w-20 h-12 text-lg font-bold border-2',
+                  'w-16 h-10 text-base font-bold border-2',
                   selectedType === 'adequate' 
-                    ? 'bg-blue-600 hover:bg-blue-700 border-blue-500 text-white' 
-                    : 'border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-950'
+                    ? 'bg-green-600 hover:bg-green-700 border-green-500 text-white' 
+                    : 'border-green-500 text-green-500 hover:bg-green-50 dark:hover:bg-green-950'
                 )}
                 onClick={() => onScoreChange(item.id, item.scores.max, 'adequate')}
                 disabled={disabled}
