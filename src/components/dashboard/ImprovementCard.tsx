@@ -1,4 +1,4 @@
-import { AlertTriangle, CheckCircle2, Loader2, ChevronRight } from "lucide-react";
+?import { AlertTriangle, CheckCircle2, Loader2, ChevronRight } from "lucide-react";
 import { useAnalytics } from "@/hooks/useAnalytics";
 import { cn } from "@/lib/utils";
 
