@@ -7,6 +7,7 @@ export interface Questao {
   enunciado: string;
   alternativas: string[];
   gabarito: string;
+  explicacao?: string;
 }
 
 export interface QuestaoFilters {

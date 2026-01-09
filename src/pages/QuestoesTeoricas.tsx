@@ -168,6 +168,33 @@ export default function QuestoesTeoricas() {
               })}
             </div>
 
+            {/* Explicação */}
+            {(showAnswer || currentProgress?.answered) && currentQuestao.explicacao && (
+              <div className="p-6 border-t border-border bg-gradient-to-r from-green-500/5 to-emerald-500/5">
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center">
+                    <CheckCircle2 className="w-5 h-5 text-green-500" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-green-500 mb-2">Explicação</h4>
+                    <p className="text-foreground/90 leading-relaxed">
+                      {currentQuestao.explicacao}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Sem gabarito disponível */}
+            {(showAnswer || currentProgress?.answered) && !currentQuestao.gabarito && (
+              <div className="p-6 border-t border-border bg-amber-500/5">
+                <div className="flex items-center gap-3 text-amber-500">
+                  <Loader2 className="w-5 h-5" />
+                  <span className="text-sm">Gabarito ainda não disponível para esta questão</span>
+                </div>
+              </div>
+            )}
+
             {/* Actions */}
             <div className="p-6 border-t border-border flex items-center justify-between">
               <Button
