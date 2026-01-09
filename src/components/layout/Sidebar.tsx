@@ -23,6 +23,7 @@ import {
   LogOut,
   ListChecks,
   Globe,
+  FileQuestion,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -66,6 +67,7 @@ const menuSections: MenuSection[] = [
           { title: "ProREV", path: "/checklists" },
         ],
       },
+      { title: "Questões", icon: FileQuestion, path: "/questoes", badge: "4116", badgeType: "count" },
       {
         title: "Flashcards",
         icon: CreditCard,

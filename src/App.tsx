@@ -35,6 +35,7 @@ import TermosDeUso from "./pages/TermosDeUso";
 import Privacidade from "./pages/Privacidade";
 import Comunidade from "./pages/Comunidade";
 import PainelRevalida from "./pages/PainelRevalida";
+import QuestoesTeoricas from "./pages/QuestoesTeoricas";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -83,6 +84,7 @@ const App = () => (
                 <Route path="/suporte" element={<ProtectedRoute><Suporte /></ProtectedRoute>} />
                 <Route path="/perfil" element={<ProtectedRoute><Perfil /></ProtectedRoute>} />
                 <Route path="/comunidade" element={<ProtectedRoute><Comunidade /></ProtectedRoute>} />
+                <Route path="/questoes" element={<ProtectedRoute><QuestoesTeoricas /></ProtectedRoute>} />
                 <Route path="/painel-revalida" element={<ProtectedRoute><PainelRevalida /></ProtectedRoute>} />
                 
                 {/* 404 */}
