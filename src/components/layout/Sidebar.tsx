@@ -77,7 +77,7 @@ const menuSections: MenuSection[] = [
   {
     title: "Prática",
     items: [
-      { title: "Questões", icon: FileQuestion, path: "/questoes", badge: "4116", badgeType: "count" },
+      { title: "Questões", icon: FileQuestion, path: "/questoes" },
       {
         title: "Checklists",
         icon: ClipboardList,
