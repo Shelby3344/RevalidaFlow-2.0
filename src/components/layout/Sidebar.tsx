@@ -6,14 +6,8 @@ import {
   CreditCard,
   BookOpen,
   Calendar,
-  Tv,
-  Sparkles,
-  GraduationCap,
   BarChart3,
-  History,
   Users,
-  MessageSquare,
-  HelpCircle,
   ChevronDown,
   ChevronRight,
   Pin,
@@ -21,9 +15,9 @@ import {
   Stethoscope,
   X,
   LogOut,
-  ListChecks,
   Globe,
   FileQuestion,
+  Brain,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -36,7 +30,8 @@ interface MenuItem {
   path?: string;
   badge?: string | number;
   badgeType?: "new" | "count";
-  children?: { title: string; path: string }[];
+  children?: { title: string; path: string; onClick?: () => void }[];
+  isChecklistSection?: boolean;
 }
 
 interface MenuSection {
@@ -46,28 +41,22 @@ interface MenuSection {
 
 const menuSections: MenuSection[] = [
   {
+    title: "Início",
     items: [
       { title: "Dashboard", icon: LayoutDashboard, path: "/dashboard" },
-      { title: "Comunidade", icon: Globe, path: "/comunidade", badge: "Novo", badgeType: "new" },
+      { title: "Comunidade", icon: Globe, path: "/comunidade" },
     ],
   },
   {
-    title: "Revalida",
+    title: "Dados & Avaliação",
     items: [
-      { title: "Painel INEP", icon: BarChart3, path: "/painel-revalida", badge: "Novo", badgeType: "new" },
+      { title: "Painel INEP", icon: BarChart3, path: "/painel-revalida" },
     ],
   },
   {
     title: "Estudos",
     items: [
-      {
-        title: "Checklists",
-        icon: ClipboardList,
-        children: [
-          { title: "ProREV", path: "/checklists" },
-        ],
-      },
-      { title: "Questões", icon: FileQuestion, path: "/questoes", badge: "4116", badgeType: "count" },
+      { title: "Resumos", icon: BookOpen, path: "/resumos" },
       {
         title: "Flashcards",
         icon: CreditCard,
@@ -76,39 +65,21 @@ const menuSections: MenuSection[] = [
           { title: "Revisão", path: "/flashcards/revisao" },
         ],
       },
-      { title: "Resumos", icon: BookOpen, path: "/resumos", badge: "Novo", badgeType: "new" },
-      { title: "Cronograma", icon: Calendar, path: "/cronograma", badge: "Novo", badgeType: "new" },
+      { title: "Cronograma", icon: Calendar, path: "/cronograma" },
     ],
   },
   {
-    title: "Conteúdo",
+    title: "Prática",
     items: [
-      { title: "Aulas", icon: GraduationCap, path: "/aulas", badge: 177, badgeType: "count" },
-      { title: "Lives", icon: Tv, path: "/live" },
-      { title: "Novidades", icon: Sparkles, path: "/novidades" },
-    ],
-  },
-  {
-    title: "Progresso",
-    items: [
-      { title: "Desempenho", icon: BarChart3, path: "/desempenhos" },
-      { title: "Produtividade", icon: ListChecks, path: "/produtividade", badge: "Novo", badgeType: "new" },
+      { title: "Questões", icon: FileQuestion, path: "/questoes", badge: "4116", badgeType: "count" },
       {
-        title: "Histórico",
-        icon: History,
+        title: "Checklists",
+        icon: ClipboardList,
+        isChecklistSection: true,
         children: [
-          { title: "Checklist", path: "/historico/checklist" },
-          { title: "Flashcard", path: "/historico/flashcard" },
+          { title: "Checklist ProREV", path: "/checklists" },
         ],
       },
-    ],
-  },
-  {
-    title: "Comunidade",
-    items: [
-      { title: "Mentorados", icon: Users, path: "/mentorados" },
-      { title: "Feedback", icon: MessageSquare, path: "/feedback" },
-      { title: "Suporte", icon: HelpCircle, path: "/suporte" },
     ],
   },
 ];
@@ -196,7 +167,7 @@ export function Sidebar({
         {(isExpanded || isMobile) && (
           <div className="flex-1 min-w-0">
             <h1 className="text-sm md:text-base font-bold text-foreground tracking-tight">
-              Revalida<span className="text-cyan-400">Flow</span>
+              Pro<span className="text-cyan-400">REV</span>
             </h1>
             <p className="text-[9px] md:text-[10px] text-muted-foreground font-medium">Plataforma de Estudos</p>
           </div>
@@ -311,7 +282,7 @@ export function Sidebar({
                           ))}
                           
                           {/* Botão de Checklist Rooms - apenas para Checklists */}
-                          {item.title === "Checklists" && (
+                          {item.isChecklistSection && (
                             <li>
                               <button
                                 onClick={() => setIsCollaborativeMenuOpen(true)}
