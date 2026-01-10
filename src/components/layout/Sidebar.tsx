@@ -6,8 +6,14 @@ import {
   CreditCard,
   BookOpen,
   Calendar,
+  Tv,
+  Sparkles,
+  GraduationCap,
   BarChart3,
+  History,
   Users,
+  MessageSquare,
+  HelpCircle,
   ChevronDown,
   ChevronRight,
   Pin,
@@ -15,9 +21,9 @@ import {
   Stethoscope,
   X,
   LogOut,
+  ListChecks,
   Globe,
   FileQuestion,
-  Brain,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -30,7 +36,7 @@ interface MenuItem {
   path?: string;
   badge?: string | number;
   badgeType?: "new" | "count";
-  children?: { title: string; path: string; onClick?: () => void }[];
+  children?: { title: string; path: string }[];
   isChecklistSection?: boolean;
 }
 
@@ -80,6 +86,37 @@ const menuSections: MenuSection[] = [
           { title: "Checklist ProREV", path: "/checklists" },
         ],
       },
+    ],
+  },
+  {
+    title: "Conteúdo",
+    items: [
+      { title: "Aulas", icon: GraduationCap, path: "/aulas", badge: 177, badgeType: "count" },
+      { title: "Lives", icon: Tv, path: "/live" },
+      { title: "Novidades", icon: Sparkles, path: "/novidades" },
+    ],
+  },
+  {
+    title: "Progresso",
+    items: [
+      { title: "Desempenho", icon: BarChart3, path: "/desempenhos" },
+      { title: "Produtividade", icon: ListChecks, path: "/produtividade" },
+      {
+        title: "Histórico",
+        icon: History,
+        children: [
+          { title: "Checklist", path: "/historico/checklist" },
+          { title: "Flashcard", path: "/historico/flashcard" },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Suporte",
+    items: [
+      { title: "Mentorados", icon: Users, path: "/mentorados" },
+      { title: "Feedback", icon: MessageSquare, path: "/feedback" },
+      { title: "Suporte", icon: HelpCircle, path: "/suporte" },
     ],
   },
 ];
