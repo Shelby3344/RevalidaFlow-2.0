@@ -126,7 +126,7 @@ export default function QuestoesTeoricas() {
 
               {/* Enunciado */}
               <div className="p-6 md:p-8 border-b border-border bg-gradient-to-b from-muted/30 to-transparent">
-                <p className="text-foreground leading-relaxed text-base md:text-lg whitespace-pre-wrap">
+                <p className="text-foreground leading-relaxed text-base md:text-lg whitespace-pre-wrap text-justify">
                   {currentQuestao.enunciado}
                 </p>
               </div>
@@ -176,7 +176,7 @@ export default function QuestoesTeoricas() {
                           )}
                         </span>
                         <span className={cn(
-                          "flex-1 pt-2 text-sm md:text-base leading-relaxed",
+                          "flex-1 pt-2 text-sm md:text-base leading-relaxed text-justify",
                           showResult && !isCorrect && !isSelected && "text-muted-foreground"
                         )}>
                           {altText}
@@ -196,7 +196,7 @@ export default function QuestoesTeoricas() {
                     </div>
                     <div className="flex-1">
                       <h4 className="font-semibold text-green-500 mb-2 text-sm uppercase tracking-wider">Explicação</h4>
-                      <p className="text-foreground leading-relaxed">
+                      <p className="text-foreground leading-relaxed text-justify">
                         {currentQuestao.explicacao}
                       </p>
                     </div>
