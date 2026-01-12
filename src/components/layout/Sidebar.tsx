@@ -190,16 +190,11 @@ export function Sidebar({
         )}
       >
         <div className="relative flex-shrink-0">
-          <div
-            className={cn(
-              "flex items-center justify-center rounded-xl",
-              "bg-gradient-to-br from-cyan-500 to-purple-600",
-              "shadow-lg shadow-cyan-500/20",
-              "w-9 h-9 md:w-10 md:h-10"
-            )}
-          >
-            <Stethoscope className="w-4 h-4 md:w-5 md:h-5 text-white" />
-          </div>
+          <img 
+            src="/image/prorev.png" 
+            alt="ProREV" 
+            className="w-9 h-9 md:w-10 md:h-10 rounded-xl object-contain"
+          />
         </div>
         {(isExpanded || isMobile) && (
           <div className="flex-1 min-w-0">
