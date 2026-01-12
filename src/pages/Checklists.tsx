@@ -4,16 +4,13 @@ import {
   List,
   FileText,
   Play,
-  TrendingUp,
   Clock,
   RotateCcw,
   Eye,
   CheckCircle2,
   PauseCircle,
   ChevronRight,
-  Calendar,
   Target,
-  Flame,
   Brain,
 } from "lucide-react";
 import { AppLayout } from "@/components/layout/AppLayout";
@@ -291,179 +288,138 @@ export default function Checklists() {
 
           {/* Sidebar - Stats e Ações */}
           <div className="space-y-6">
-            {/* Stats Card com Donut */}
-            <div className="card-modern p-6">
-              <div className="text-center">
-                {/* Donut chart */}
-                <div className="relative w-36 h-36 mx-auto mb-4">
-                  <svg className="w-36 h-36 transform -rotate-90" viewBox="0 0 160 160">
-                    <circle
-                      cx="80"
-                      cy="80"
-                      r="60"
-                      stroke="hsl(var(--muted))"
-                      strokeWidth="14"
-                      fill="none"
-                    />
-                    <circle
-                      cx="80"
-                      cy="80"
-                      r="60"
-                      stroke="hsl(142 76% 36%)"
-                      strokeWidth="14"
-                      fill="none"
-                      strokeDasharray="94 283"
-                      strokeLinecap="round"
-                    />
-                    <circle
-                      cx="80"
-                      cy="80"
-                      r="60"
-                      stroke="hsl(38 92% 50%)"
-                      strokeWidth="14"
-                      fill="none"
-                      strokeDasharray="75 283"
-                      strokeDashoffset="-94"
-                      strokeLinecap="round"
-                    />
-                    <circle
-                      cx="80"
-                      cy="80"
-                      r="60"
-                      stroke="hsl(199 89% 48%)"
-                      strokeWidth="14"
-                      fill="none"
-                      strokeDasharray="57 283"
-                      strokeDashoffset="-169"
-                      strokeLinecap="round"
-                    />
-                    <circle
-                      cx="80"
-                      cy="80"
-                      r="60"
-                      stroke="hsl(258 90% 66%)"
-                      strokeWidth="14"
-                      fill="none"
-                      strokeDasharray="38 283"
-                      strokeDashoffset="-226"
-                      strokeLinecap="round"
-                    />
-                  </svg>
-                  <div className="absolute inset-0 flex flex-col items-center justify-center">
-                    <span className="text-3xl font-bold text-gradient">{checklistsData.length}</span>
-                    <span className="text-[10px] text-muted-foreground">concluídos</span>
+            {/* Quick Actions - Cards Horizontais */}
+            <div className="space-y-3">
+              {/* Card Principal - Todos os Checklists */}
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-full group relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700/50 p-4 text-left transition-all hover:border-cyan-500/50 hover:shadow-lg hover:shadow-cyan-500/10"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center group-hover:bg-cyan-500/30 transition-colors">
+                    <List className="w-6 h-6 text-cyan-400" />
                   </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-semibold text-white text-sm">Todos os Checklists</h3>
+                    <p className="text-xs text-slate-400 mt-0.5">{checklistsData.length} estações disponíveis</p>
+                  </div>
+                  <ChevronRight className="w-5 h-5 text-slate-500 group-hover:text-cyan-400 group-hover:translate-x-1 transition-all" />
                 </div>
+              </button>
 
-                <p className="text-xs text-muted-foreground mb-5">
-                  Você está no caminho certo! Continue praticando.
-                </p>
+              {/* Card - Treinar com IA */}
+              <button
+                onClick={() => setIsIAModalOpen(true)}
+                className="w-full group relative overflow-hidden rounded-2xl bg-gradient-to-br from-violet-900/50 to-fuchsia-900/50 border border-violet-700/30 p-4 text-left transition-all hover:border-violet-500/50 hover:shadow-lg hover:shadow-violet-500/10"
+              >
+                <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-violet-500/20 to-transparent rounded-full blur-2xl" />
+                <div className="flex items-center gap-4 relative">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-violet-500/20 flex items-center justify-center group-hover:bg-violet-500/30 transition-colors">
+                    <Brain className="w-6 h-6 text-violet-400" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-semibold text-white text-sm">Paciente IA</h3>
+                    <p className="text-xs text-violet-300/70 mt-0.5">Simulação com inteligência artificial</p>
+                  </div>
+                  <ChevronRight className="w-5 h-5 text-violet-400/50 group-hover:text-violet-400 group-hover:translate-x-1 transition-all" />
+                </div>
+              </button>
 
-                {/* Action buttons */}
-                <div className="space-y-2.5">
-                  <Button
-                    className="w-full h-10 gap-2 bg-primary hover:bg-primary/90 text-white text-sm"
-                    onClick={() => setIsModalOpen(true)}
-                  >
-                    <List className="w-4 h-4" />
-                    Todos os Checklists
-                  </Button>
-                  <Button
-                    className="w-full h-10 gap-2 bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white hover:opacity-90 text-sm"
-                    onClick={() => setIsIAModalOpen(true)}
-                  >
-                    <Brain className="w-4 h-4" />
-                    Treinar com Paciente IA
-                  </Button>
-                  
-                  <Button
-                    className="w-full h-10 gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white hover:opacity-90 text-sm"
-                    onClick={() => setIsPepeModalOpen(true)}
-                  >
-                    <FileText className="w-4 h-4" />
-                    Checklists PEPE
-                  </Button>
-                  
+              {/* Card - Checklists PEPE */}
+              <button
+                onClick={() => setIsPepeModalOpen(true)}
+                className="w-full group relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-900/50 to-purple-900/50 border border-indigo-700/30 p-4 text-left transition-all hover:border-indigo-500/50 hover:shadow-lg hover:shadow-indigo-500/10"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-indigo-500/20 flex items-center justify-center group-hover:bg-indigo-500/30 transition-colors">
+                    <FileText className="w-6 h-6 text-indigo-400" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-semibold text-white text-sm">Checklists PEPE</h3>
+                    <p className="text-xs text-indigo-300/70 mt-0.5">Estações oficiais do PEPE</p>
+                  </div>
+                  <ChevronRight className="w-5 h-5 text-indigo-400/50 group-hover:text-indigo-400 group-hover:translate-x-1 transition-all" />
+                </div>
+              </button>
 
-                  
-                  <Button className="w-full h-10 gap-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm">
-                    <FileText className="w-4 h-4" />
-                    Criar Simulado
-                  </Button>
+              {/* Card - Criar Simulado */}
+              <button
+                className="w-full group relative overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-900/50 to-teal-900/50 border border-emerald-700/30 p-4 text-left transition-all hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/10"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center group-hover:bg-emerald-500/30 transition-colors">
+                    <Target className="w-6 h-6 text-emerald-400" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-semibold text-white text-sm">Criar Simulado</h3>
+                    <p className="text-xs text-emerald-300/70 mt-0.5">Monte seu próprio treino</p>
+                  </div>
+                  <ChevronRight className="w-5 h-5 text-emerald-400/50 group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+                </div>
+              </button>
+            </div>
+
+            {/* Stats Compacto */}
+            <div className="card-modern p-4">
+              <div className="grid grid-cols-3 gap-3 text-center">
+                <div className="space-y-1">
+                  <div className="text-2xl font-bold text-cyan-400">{checklistsData.length}</div>
+                  <div className="text-[10px] text-muted-foreground uppercase tracking-wider">Concluídos</div>
+                </div>
+                <div className="space-y-1 border-x border-border/50">
+                  <div className="text-2xl font-bold text-emerald-400">78%</div>
+                  <div className="text-[10px] text-muted-foreground uppercase tracking-wider">Média</div>
+                </div>
+                <div className="space-y-1">
+                  <div className="text-2xl font-bold text-amber-400">7🔥</div>
+                  <div className="text-[10px] text-muted-foreground uppercase tracking-wider">Sequência</div>
                 </div>
               </div>
             </div>
 
-            {/* Progresso Semanal */}
-            <div className="card-modern p-5">
-              <h3 className="text-sm font-semibold text-foreground mb-4 flex items-center gap-2">
-                <TrendingUp className="w-4 h-4 text-emerald-500" />
-                Seu Progresso
+            {/* Progresso por Área - Visual diferente */}
+            <div className="card-modern p-4">
+              <h3 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-4">
+                Progresso por Área
               </h3>
 
-              <div className="space-y-4">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <Calendar className="w-4 h-4 text-muted-foreground" />
-                    <span className="text-sm text-muted-foreground">Esta semana</span>
+              <div className="grid grid-cols-5 gap-2">
+                {[
+                  { area: "CM", color: "bg-blue-500", percent: 65 },
+                  { area: "CR", color: "bg-red-500", percent: 45 },
+                  { area: "GO", color: "bg-fuchsia-500", percent: 80 },
+                  { area: "PD", color: "bg-amber-500", percent: 55 },
+                  { area: "PV", color: "bg-emerald-500", percent: 70 },
+                ].map((item) => (
+                  <div key={item.area} className="text-center">
+                    <div className="relative w-full aspect-square mb-1.5">
+                      <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+                        <circle
+                          cx="18"
+                          cy="18"
+                          r="14"
+                          stroke="hsl(var(--muted))"
+                          strokeWidth="3"
+                          fill="none"
+                        />
+                        <circle
+                          cx="18"
+                          cy="18"
+                          r="14"
+                          className={item.color.replace('bg-', 'stroke-')}
+                          strokeWidth="3"
+                          fill="none"
+                          strokeDasharray={`${item.percent * 0.88} 88`}
+                          strokeLinecap="round"
+                        />
+                      </svg>
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <span className="text-[10px] font-bold text-foreground">{item.percent}%</span>
+                      </div>
+                    </div>
+                    <span className="text-[10px] font-medium text-muted-foreground">{item.area}</span>
                   </div>
-                  <span className="text-sm font-semibold text-foreground">12 checklists</span>
-                </div>
-
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <Target className="w-4 h-4 text-muted-foreground" />
-                    <span className="text-sm text-muted-foreground">Média geral</span>
-                  </div>
-                  <span className="text-sm font-semibold text-emerald-500">78%</span>
-                </div>
-
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <Flame className="w-4 h-4 text-amber-500" />
-                    <span className="text-sm text-muted-foreground">Sequência</span>
-                  </div>
-                  <span className="text-sm font-semibold text-amber-500">🔥 7 dias</span>
-                </div>
-              </div>
-
-              {/* Mini progress bars por área */}
-              <div className="mt-5 pt-4 border-t border-border/50 space-y-3">
-                <div className="flex items-center gap-3">
-                  <span className="text-xs text-muted-foreground w-16">Clínica</span>
-                  <div className="flex-1 h-1.5 rounded-full bg-muted overflow-hidden">
-                    <div className="h-full w-[65%] bg-blue-500 rounded-full" />
-                  </div>
-                  <span className="text-xs font-medium text-foreground">65%</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-xs text-muted-foreground w-16">Cirurgia</span>
-                  <div className="flex-1 h-1.5 rounded-full bg-muted overflow-hidden">
-                    <div className="h-full w-[45%] bg-red-500 rounded-full" />
-                  </div>
-                  <span className="text-xs font-medium text-foreground">45%</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-xs text-muted-foreground w-16">GO</span>
-                  <div className="flex-1 h-1.5 rounded-full bg-muted overflow-hidden">
-                    <div className="h-full w-[80%] bg-fuchsia-500 rounded-full" />
-                  </div>
-                  <span className="text-xs font-medium text-foreground">80%</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-xs text-muted-foreground w-16">Pediatria</span>
-                  <div className="flex-1 h-1.5 rounded-full bg-muted overflow-hidden">
-                    <div className="h-full w-[55%] bg-amber-500 rounded-full" />
-                  </div>
-                  <span className="text-xs font-medium text-foreground">55%</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-xs text-muted-foreground w-16">Preventiva</span>
-                  <div className="flex-1 h-1.5 rounded-full bg-muted overflow-hidden">
-                    <div className="h-full w-[70%] bg-emerald-500 rounded-full" />
-                  </div>
-                  <span className="text-xs font-medium text-foreground">70%</span>
-                </div>
+                ))}
               </div>
             </div>
 
