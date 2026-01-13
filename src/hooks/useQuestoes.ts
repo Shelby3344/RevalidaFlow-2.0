@@ -1,9 +1,16 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { Questao, QuestaoFilters, QuestaoProgress, FilterOption } from '@/types/questoes';
+import { supabase } from '@/lib/supabase';
+import { useAuth } from '@/hooks/useAuth';
 
-const STORAGE_KEY = 'prorev_questoes_progress';
+interface AdvancedFilters {
+  hideCorrect: boolean;
+  hideReviewed: boolean;
+  onlyLast5Years: boolean;
+}
 
 export function useQuestoes() {
+  const { user } = useAuth();
   const [questoes, setQuestoes] = useState<Questao[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -14,9 +21,15 @@ export function useQuestoes() {
     anos: [],
     searchTerm: ''
   });
+  const [advancedFilters, setAdvancedFilters] = useState<AdvancedFilters>({
+    hideCorrect: false,
+    hideReviewed: false,
+    onlyLast5Years: false
+  });
   const [progress, setProgress] = useState<Record<number, QuestaoProgress>>({});
   const [showAnswer, setShowAnswer] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [savingProgress, setSavingProgress] = useState(false);
 
   // Carregar questões do JSON
   useEffect(() => {
@@ -36,24 +49,172 @@ export function useQuestoes() {
     loadQuestoes();
   }, []);
 
-  // Carregar progresso do localStorage
+  // Carregar progresso e configurações do Supabase
   useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
+    if (!user) return;
+
+    const loadUserData = async () => {
       try {
-        setProgress(JSON.parse(saved));
-      } catch (e) {
-        console.error('Erro ao carregar progresso:', e);
+        // Carregar progresso
+        const { data: progressData, error: progressError } = await supabase
+          .from('questoes_progress')
+          .select('*')
+          .eq('user_id', user.id);
+
+        if (progressError) throw progressError;
+
+        if (progressData) {
+          const progressMap: Record<number, QuestaoProgress> = {};
+          progressData.forEach((p: any) => {
+            progressMap[p.questao_id] = {
+              questaoId: p.questao_id,
+              answered: true,
+              selectedAnswer: p.selected_answer,
+              isCorrect: p.is_correct,
+              answeredAt: p.answered_at
+            };
+          });
+          setProgress(progressMap);
+        }
+
+        // Carregar configurações avançadas
+        const { data: settingsData, error: settingsError } = await supabase
+          .from('questoes_user_settings')
+          .select('*')
+          .eq('user_id', user.id)
+          .single();
+
+        if (settingsData && !settingsError) {
+          setAdvancedFilters({
+            hideCorrect: settingsData.hide_correct || false,
+            hideReviewed: settingsData.hide_reviewed || false,
+            onlyLast5Years: settingsData.only_last_5_years || false
+          });
+        }
+      } catch (err) {
+        console.error('Erro ao carregar dados do usuário:', err);
       }
+    };
+
+    loadUserData();
+  }, [user]);
+
+  // Salvar progresso no Supabase
+  const saveProgress = useCallback(async (questaoId: number, answer: string, isCorrect: boolean | null) => {
+    if (!user) return;
+
+    setSavingProgress(true);
+    try {
+      const { error } = await supabase
+        .from('questoes_progress')
+        .upsert({
+          user_id: user.id,
+          questao_id: questaoId,
+          selected_answer: answer,
+          is_correct: isCorrect,
+          answered_at: new Date().toISOString()
+        }, {
+          onConflict: 'user_id,questao_id'
+        });
+
+      if (error) throw error;
+
+      // Atualizar estado local
+      setProgress(prev => ({
+        ...prev,
+        [questaoId]: {
+          questaoId,
+          answered: true,
+          selectedAnswer: answer,
+          isCorrect,
+          answeredAt: new Date().toISOString()
+        }
+      }));
+    } catch (err) {
+      console.error('Erro ao salvar progresso:', err);
+    } finally {
+      setSavingProgress(false);
     }
-  }, []);
+  }, [user]);
 
-  // Salvar progresso no localStorage
-  const saveProgress = useCallback((newProgress: Record<number, QuestaoProgress>) => {
-    setProgress(newProgress);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(newProgress));
-  }, []);
+  // Salvar configurações avançadas no Supabase
+  const saveAdvancedFilters = useCallback(async (newFilters: AdvancedFilters) => {
+    if (!user) return;
 
+    setAdvancedFilters(newFilters);
+
+    try {
+      const { error } = await supabase
+        .from('questoes_user_settings')
+        .upsert({
+          user_id: user.id,
+          hide_correct: newFilters.hideCorrect,
+          hide_reviewed: newFilters.hideReviewed,
+          only_last_5_years: newFilters.onlyLast5Years
+        }, {
+          onConflict: 'user_id'
+        });
+
+      if (error) throw error;
+    } catch (err) {
+      console.error('Erro ao salvar configurações:', err);
+    }
+  }, [user]);
+
+  // Toggle filtro avançado
+  const toggleAdvancedFilter = useCallback((filter: keyof AdvancedFilters) => {
+    const newFilters = { ...advancedFilters, [filter]: !advancedFilters[filter] };
+    saveAdvancedFilters(newFilters);
+    setCurrentIndex(0);
+  }, [advancedFilters, saveAdvancedFilters]);
+
+  // Gerar chave única para os filtros atuais
+  const getFilterKey = useCallback(() => {
+    return JSON.stringify({
+      esp: filters.especialidades.sort(),
+      inst: filters.instituicoes.sort(),
+      anos: filters.anos.sort(),
+      adv: advancedFilters
+    });
+  }, [filters, advancedFilters]);
+
+  // Salvar último índice no Supabase
+  const saveLastIndex = useCallback(async (index: number, filterKey: string) => {
+    if (!user) return;
+
+    try {
+      await supabase
+        .from('questoes_last_index')
+        .upsert({
+          user_id: user.id,
+          filter_key: filterKey,
+          last_index: index
+        }, {
+          onConflict: 'user_id,filter_key'
+        });
+    } catch (err) {
+      console.error('Erro ao salvar último índice:', err);
+    }
+  }, [user]);
+
+  // Carregar último índice do Supabase
+  const loadLastIndex = useCallback(async (filterKey: string): Promise<number> => {
+    if (!user) return 0;
+
+    try {
+      const { data, error } = await supabase
+        .from('questoes_last_index')
+        .select('last_index')
+        .eq('user_id', user.id)
+        .eq('filter_key', filterKey)
+        .single();
+
+      if (error || !data) return 0;
+      return data.last_index || 0;
+    } catch (err) {
+      return 0;
+    }
+  }, [user]);
 
   // Extrair opções de filtro únicas
   const filterOptions = useMemo(() => {
@@ -83,13 +244,17 @@ export function useQuestoes() {
       instituicoes: toOptions(instituicoesMap),
       anos: Array.from(anosMap.entries())
         .map(([value, count]) => ({ value, label: value, count }))
-        .sort((a, b) => b.value.localeCompare(a.value)) // Anos em ordem decrescente
+        .sort((a, b) => b.value.localeCompare(a.value))
     };
   }, [questoes]);
 
   // Questões filtradas
   const filteredQuestoes = useMemo(() => {
+    const currentYear = new Date().getFullYear();
+    const fiveYearsAgo = currentYear - 5;
+    
     return questoes.filter(q => {
+      // Filtros básicos
       if (filters.especialidades.length > 0 && !filters.especialidades.includes(q.especialidade)) {
         return false;
       }
@@ -101,12 +266,32 @@ export function useQuestoes() {
       }
       if (filters.searchTerm) {
         const search = filters.searchTerm.toLowerCase();
-        return q.enunciado.toLowerCase().includes(search) ||
+        const matchesSearch = q.enunciado.toLowerCase().includes(search) ||
                q.alternativas.some(a => a.toLowerCase().includes(search));
+        if (!matchesSearch) return false;
       }
+      
+      // Filtros avançados
+      const questionProgress = progress[q.id];
+      
+      if (advancedFilters.hideCorrect && questionProgress?.isCorrect === true) {
+        return false;
+      }
+      
+      if (advancedFilters.hideReviewed && questionProgress?.answered) {
+        return false;
+      }
+      
+      if (advancedFilters.onlyLast5Years) {
+        const questionYear = parseInt(q.ano);
+        if (isNaN(questionYear) || questionYear < fiveYearsAgo) {
+          return false;
+        }
+      }
+      
       return true;
     });
-  }, [questoes, filters]);
+  }, [questoes, filters, advancedFilters, progress]);
 
   // Questão atual
   const currentQuestao = filteredQuestoes[currentIndex] || null;
@@ -114,28 +299,43 @@ export function useQuestoes() {
   // Navegação
   const goToNext = useCallback(() => {
     if (currentIndex < filteredQuestoes.length - 1) {
-      setCurrentIndex(prev => prev + 1);
+      const newIndex = currentIndex + 1;
+      setCurrentIndex(newIndex);
       setShowAnswer(false);
       setSelectedAnswer(null);
+      saveLastIndex(newIndex, getFilterKey());
     }
-  }, [currentIndex, filteredQuestoes.length]);
+  }, [currentIndex, filteredQuestoes.length, saveLastIndex, getFilterKey]);
 
   const goToPrevious = useCallback(() => {
     if (currentIndex > 0) {
-      setCurrentIndex(prev => prev - 1);
+      const newIndex = currentIndex - 1;
+      setCurrentIndex(newIndex);
       setShowAnswer(false);
       setSelectedAnswer(null);
+      saveLastIndex(newIndex, getFilterKey());
     }
-  }, [currentIndex]);
+  }, [currentIndex, saveLastIndex, getFilterKey]);
 
   const goToIndex = useCallback((index: number) => {
     if (index >= 0 && index < filteredQuestoes.length) {
       setCurrentIndex(index);
       setShowAnswer(false);
       setSelectedAnswer(null);
+      saveLastIndex(index, getFilterKey());
     }
-  }, [filteredQuestoes.length]);
+  }, [filteredQuestoes.length, saveLastIndex, getFilterKey]);
 
+  // Iniciar estudo - carrega de onde parou
+  const startStudy = useCallback(async () => {
+    const filterKey = getFilterKey();
+    const lastIndex = await loadLastIndex(filterKey);
+    const validIndex = Math.min(lastIndex, Math.max(0, filteredQuestoes.length - 1));
+    setCurrentIndex(validIndex);
+    setShowAnswer(false);
+    setSelectedAnswer(null);
+    return validIndex;
+  }, [getFilterKey, loadLastIndex, filteredQuestoes.length]);
 
   // Responder questão
   const answerQuestion = useCallback((answer: string) => {
@@ -147,18 +347,9 @@ export function useQuestoes() {
       ? answer.charAt(0).toUpperCase() === currentQuestao.gabarito.charAt(0).toUpperCase()
       : null;
 
-    const newProgress = {
-      ...progress,
-      [currentQuestao.id]: {
-        questaoId: currentQuestao.id,
-        answered: true,
-        selectedAnswer: answer,
-        isCorrect,
-        answeredAt: new Date().toISOString()
-      }
-    };
-    saveProgress(newProgress);
-  }, [currentQuestao, progress, saveProgress]);
+    // Salvar no Supabase
+    saveProgress(currentQuestao.id, answer, isCorrect);
+  }, [currentQuestao, saveProgress]);
 
   // Revelar resposta
   const revealAnswer = useCallback(() => {
@@ -213,10 +404,26 @@ export function useQuestoes() {
   }, [questoes.length, filteredQuestoes.length, progress]);
 
   // Reset progresso
-  const resetProgress = useCallback(() => {
-    setProgress({});
-    localStorage.removeItem(STORAGE_KEY);
-  }, []);
+  const resetProgress = useCallback(async () => {
+    if (!user) return;
+
+    try {
+      await supabase
+        .from('questoes_progress')
+        .delete()
+        .eq('user_id', user.id);
+
+      await supabase
+        .from('questoes_last_index')
+        .delete()
+        .eq('user_id', user.id);
+
+      setProgress({});
+      setCurrentIndex(0);
+    } catch (err) {
+      console.error('Erro ao resetar progresso:', err);
+    }
+  }, [user]);
 
   return {
     questoes,
@@ -226,18 +433,22 @@ export function useQuestoes() {
     loading,
     error,
     filters,
+    advancedFilters,
     filterOptions,
     progress,
     showAnswer,
     selectedAnswer,
     stats,
+    savingProgress,
     goToNext,
     goToPrevious,
     goToIndex,
+    startStudy,
     answerQuestion,
     revealAnswer,
     updateFilters,
     toggleFilter,
+    toggleAdvancedFilter,
     clearFilters,
     resetProgress,
     setShowAnswer

@@ -4,14 +4,22 @@ import { useQuestoes } from '@/hooks/useQuestoes';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Checkbox } from '@/components/ui/checkbox';
+import { Switch } from '@/components/ui/switch';
 import { 
   ChevronLeft, ChevronRight, 
   CheckCircle2, XCircle, Calendar,
   Building2, ChevronDown, ChevronUp,
   Loader2, Stethoscope, ArrowLeft,
-  Lightbulb, BookOpen
+  Lightbulb, BookOpen, Settings,
+  EyeOff, Clock, Info
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 export default function QuestoesTeoricas() {
   const {
@@ -19,6 +27,7 @@ export default function QuestoesTeoricas() {
     currentIndex,
     loading,
     filters,
+    advancedFilters,
     filterOptions,
     progress,
     showAnswer,
@@ -29,14 +38,17 @@ export default function QuestoesTeoricas() {
     answerQuestion,
     revealAnswer,
     toggleFilter,
+    toggleAdvancedFilter,
     clearFilters,
-    setShowAnswer
+    setShowAnswer,
+    startStudy
   } = useQuestoes();
 
   const [expandedSections, setExpandedSections] = useState({
     especialidades: true,
     instituicoes: false,
-    anos: false
+    anos: false,
+    advanced: false
   });
   const [showQuestao, setShowQuestao] = useState(false);
 
@@ -46,8 +58,9 @@ export default function QuestoesTeoricas() {
 
   const currentProgress = currentQuestao ? progress[currentQuestao.id] : null;
 
-  const startStudy = () => {
+  const handleStartStudy = async () => {
     if (stats.filtered > 0) {
+      await startStudy();
       setShowQuestao(true);
       setShowAnswer(false);
     }
@@ -356,8 +369,104 @@ export default function QuestoesTeoricas() {
               options={filterOptions.anos}
               selected={filters.anos}
               onToggleOption={(value) => toggleFilter('anos', value)}
-              isLast
             />
+
+            {/* Configurações Avançadas */}
+            <div className="border-t border-border">
+              <button
+                onClick={() => toggleSection('advanced')}
+                className="w-full flex items-center justify-between p-4 hover:bg-muted/50 transition-colors"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-9 h-9 rounded-lg bg-purple-500/10 flex items-center justify-center text-purple-500">
+                    <Settings className="w-5 h-5" />
+                  </div>
+                  <span className="font-medium text-foreground">Configurações Avançadas</span>
+                </div>
+                <div className={cn(
+                  "w-8 h-8 rounded-lg flex items-center justify-center transition-colors",
+                  expandedSections.advanced ? "bg-purple-500/10 text-purple-500" : "bg-muted text-muted-foreground"
+                )}>
+                  {expandedSections.advanced ? (
+                    <ChevronUp className="w-5 h-5" />
+                  ) : (
+                    <ChevronDown className="w-5 h-5" />
+                  )}
+                </div>
+              </button>
+              
+              {expandedSections.advanced && (
+                <div className="px-4 pb-4 space-y-3">
+                  <TooltipProvider>
+                    {/* Ocultar questões já acertadas */}
+                    <div className="flex items-center justify-between p-3 rounded-xl bg-muted/30 border border-transparent hover:bg-muted/50 transition-all">
+                      <div className="flex items-center gap-3">
+                        <Switch
+                          checked={advancedFilters.hideCorrect}
+                          onCheckedChange={() => toggleAdvancedFilter('hideCorrect')}
+                        />
+                        <div className="flex items-center gap-2">
+                          <EyeOff className="w-4 h-4 text-green-500" />
+                          <span className="text-sm text-foreground">Ocultar questões já acertadas</span>
+                        </div>
+                      </div>
+                      <Tooltip>
+                        <TooltipTrigger>
+                          <Info className="w-4 h-4 text-muted-foreground" />
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Esconde questões que você já respondeu corretamente</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </div>
+
+                    {/* Ocultar questões já revisadas */}
+                    <div className="flex items-center justify-between p-3 rounded-xl bg-muted/30 border border-transparent hover:bg-muted/50 transition-all">
+                      <div className="flex items-center gap-3">
+                        <Switch
+                          checked={advancedFilters.hideReviewed}
+                          onCheckedChange={() => toggleAdvancedFilter('hideReviewed')}
+                        />
+                        <div className="flex items-center gap-2">
+                          <BookOpen className="w-4 h-4 text-blue-500" />
+                          <span className="text-sm text-foreground">Ocultar questões já revisadas</span>
+                        </div>
+                      </div>
+                      <Tooltip>
+                        <TooltipTrigger>
+                          <Info className="w-4 h-4 text-muted-foreground" />
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Esconde todas as questões que você já respondeu (certas ou erradas)</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </div>
+
+                    {/* Apenas últimos 5 anos */}
+                    <div className="flex items-center justify-between p-3 rounded-xl bg-muted/30 border border-transparent hover:bg-muted/50 transition-all">
+                      <div className="flex items-center gap-3">
+                        <Switch
+                          checked={advancedFilters.onlyLast5Years}
+                          onCheckedChange={() => toggleAdvancedFilter('onlyLast5Years')}
+                        />
+                        <div className="flex items-center gap-2">
+                          <Clock className="w-4 h-4 text-amber-500" />
+                          <span className="text-sm text-foreground">Apenas últimos 5 anos</span>
+                        </div>
+                      </div>
+                      <Tooltip>
+                        <TooltipTrigger>
+                          <Info className="w-4 h-4 text-muted-foreground" />
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Mostra apenas questões dos últimos 5 anos</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </div>
+                  </TooltipProvider>
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Actions */}
@@ -374,7 +483,7 @@ export default function QuestoesTeoricas() {
               Limpar filtros
             </Button>
             <Button
-              onClick={startStudy}
+              onClick={handleStartStudy}
               disabled={stats.filtered === 0}
               size="lg"
               className="bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 gap-2 shadow-lg shadow-cyan-500/20"
