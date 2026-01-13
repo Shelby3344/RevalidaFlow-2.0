@@ -51,17 +51,21 @@ export function CreateSessionModal({
   // Calcular pontuação máxima
   const maxScore = evaluationItems.reduce((total, item) => total + item.scores.max, 0);
 
-  const handleCreate = () => {
-    const sessionCode = createSession(
-      checklistId,
-      checklistTitle,
-      areaCode,
-      profile.nome,
-      maxScore
-    );
+  const handleCreate = async () => {
+    try {
+      const sessionCode = await createSession(
+        checklistId,
+        checklistTitle,
+        areaCode,
+        profile.nome,
+        maxScore
+      );
 
-    onOpenChange(false);
-    navigate(`/avaliacao/${sessionCode}`);
+      onOpenChange(false);
+      navigate(`/avaliacao/${sessionCode}`);
+    } catch (error) {
+      console.error('Erro ao criar sessão:', error);
+    }
   };
 
   console.log('CreateSessionModal render:', { open, checklistTitle, areaCode }); // Debug

@@ -90,7 +90,7 @@ export default function AvaliacaoAvaliador() {
 
       if (sessionCode) {
         // Tentar carregar sessão existente
-        const loaded = loadSession(sessionCode);
+        const loaded = await loadSession(sessionCode);
         if (loaded) {
           setTime(loaded.timeRemaining);
           // Carregar conteúdo do checklist
@@ -114,38 +114,38 @@ export default function AvaliacaoAvaliador() {
   }, [sessionCode, loadSession, navigate, setTime]);
 
   // Handlers
-  const handleStart = useCallback(() => {
+  const handleStart = useCallback(async () => {
     if (!session) return;
     
     start();
     const now = Date.now();
     setSessionStartTime(now);
-    updateSession({ status: 'em_andamento', startedAt: now });
+    await updateSession({ status: 'em_andamento', startedAt: now });
     broadcastSessionStarted(session.code);
     toast.success('Avaliação iniciada!');
   }, [session, start, updateSession, broadcastSessionStarted]);
 
-  const handlePause = useCallback(() => {
+  const handlePause = useCallback(async () => {
     if (!session) return;
     
     pause();
-    updateSession({ status: 'pausado' });
+    await updateSession({ status: 'pausado' });
     broadcastSessionPaused(session.code);
   }, [session, pause, updateSession, broadcastSessionPaused]);
 
-  const handleResume = useCallback(() => {
+  const handleResume = useCallback(async () => {
     if (!session) return;
     
     resume();
-    updateSession({ status: 'em_andamento' });
+    await updateSession({ status: 'em_andamento' });
     broadcastSessionResumed(session.code);
   }, [session, resume, updateSession, broadcastSessionResumed]);
 
-  const handleFinish = useCallback(() => {
+  const handleFinish = useCallback(async () => {
     if (!session) return;
     
     stop();
-    updateSession({ status: 'finalizado', finishedAt: Date.now() });
+    await updateSession({ status: 'finalizado', finishedAt: Date.now() });
     broadcastSessionFinished(session.code);
     
     // NÃO salvamos métricas aqui - as estatísticas são do AVALIADO, não do avaliador
@@ -154,22 +154,22 @@ export default function AvaliacaoAvaliador() {
     toast.success('Avaliação finalizada!');
   }, [session, stop, updateSession, broadcastSessionFinished]);
 
-  const handleToggleImpresso = useCallback((impressoId: number) => {
+  const handleToggleImpresso = useCallback(async (impressoId: number) => {
     if (!session) return;
     
     const isUnlocked = session.unlockedImpressos.includes(impressoId);
     
     if (isUnlocked) {
-      lockImpresso(impressoId);
+      await lockImpresso(impressoId);
       broadcastImpressoLocked(session.code, impressoId);
     } else {
-      unlockImpresso(impressoId);
+      await unlockImpresso(impressoId);
       broadcastImpressoUnlocked(session.code, impressoId);
       toast.success('Impresso liberado para o avaliado');
     }
   }, [session, unlockImpresso, lockImpresso, broadcastImpressoUnlocked, broadcastImpressoLocked]);
 
-  const handleShareResult = useCallback(() => {
+  const handleShareResult = useCallback(async () => {
     if (!session) return;
     
     // Calcular duração da sessão
@@ -194,7 +194,7 @@ export default function AvaliacaoAvaliador() {
       scores: session.scores,
     });
     
-    updateSession({ resultShared: true });
+    await updateSession({ resultShared: true });
     broadcastResultShared(session.code);
     toast.success('Resultado compartilhado com o avaliado');
   }, [session, sessionStartTime, updateSession, broadcastResultShared, broadcastResultData]);

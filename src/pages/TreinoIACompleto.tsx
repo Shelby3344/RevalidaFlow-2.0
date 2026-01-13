@@ -250,7 +250,7 @@ export default function TreinoIACompleto() {
   };
 
   // Função para escolher avaliação pela IA
-  const handleAvaliacaoIA = () => {
+  const handleAvaliacaoIA = async () => {
     setEvaluationMode("ia");
     setChecklistUnlocked(true);
     setPhase("finished");
@@ -258,20 +258,20 @@ export default function TreinoIACompleto() {
     // Salvar métrica do usuário
     if (checklistId && maxScore > 0) {
       const scorePercentage = (totalScore / maxScore) * 10;
-      recordAttempt(checklistId, Math.round(scorePercentage * 100) / 100);
+      await recordAttempt(checklistId, Math.round(scorePercentage * 100) / 100);
     }
     
     toast.success("Avaliação pela IA concluída!");
   };
 
   // Função para finalizar auto-avaliação
-  const handleFinishAutoAvaliar = () => {
+  const handleFinishAutoAvaliar = async () => {
     setPhase("finished");
     
     // Salvar métrica do usuário
     if (checklistId && maxScore > 0) {
       const scorePercentage = (totalScore / maxScore) * 10;
-      recordAttempt(checklistId, Math.round(scorePercentage * 100) / 100);
+      await recordAttempt(checklistId, Math.round(scorePercentage * 100) / 100);
     }
     
     toast.success("Auto-avaliação concluída!");

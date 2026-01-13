@@ -128,8 +128,8 @@ export default function AvaliacaoAvaliado() {
         return;
       }
 
-      // Primeiro tenta carregar do localStorage
-      let loaded = loadSession(sessionCode);
+      // Primeiro tenta carregar do Supabase
+      let loaded = await loadSession(sessionCode);
       
       // Se não encontrou, tenta criar a partir dos dados da URL
       if (!loaded) {
@@ -137,7 +137,7 @@ export default function AvaliacaoAvaliado() {
         if (encodedData) {
           const sessionData = decodeSessionData(encodedData);
           if (sessionData) {
-            loaded = createSessionFromData(sessionCode, sessionData);
+            loaded = await createSessionFromData(sessionCode, sessionData);
           }
         }
       }
@@ -177,10 +177,10 @@ export default function AvaliacaoAvaliado() {
     initSession();
   }, [sessionCode, searchParams, loadSession, createSessionFromData, navigate]);
 
-  const handleJoinSession = useCallback((name: string) => {
+  const handleJoinSession = useCallback(async (name: string) => {
     if (!sessionCode) return;
     
-    updateSession({ avaliadoName: name });
+    await updateSession({ avaliadoName: name });
     broadcastAvaliadoConnected(sessionCode, name);
     setShowJoinModal(false);
     setHasJoined(true);
