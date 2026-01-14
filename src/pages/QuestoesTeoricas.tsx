@@ -5,13 +5,14 @@ import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Switch } from '@/components/ui/switch';
+import { Input } from '@/components/ui/input';
 import { 
   ChevronLeft, ChevronRight, 
   CheckCircle2, XCircle, Calendar,
   Building2, ChevronDown, ChevronUp,
   Loader2, Stethoscope, ArrowLeft,
   Lightbulb, BookOpen, Settings,
-  EyeOff, Clock, Info
+  EyeOff, Clock, Info, Search
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import {
@@ -20,6 +21,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { HierarchicalFilterSection } from '@/components/questoes/HierarchicalFilterSection';
 
 export default function QuestoesTeoricas() {
   const {
@@ -29,6 +31,7 @@ export default function QuestoesTeoricas() {
     filters,
     advancedFilters,
     filterOptions,
+    hierarchicalFilters,
     progress,
     showAnswer,
     selectedAnswer,
@@ -41,7 +44,8 @@ export default function QuestoesTeoricas() {
     toggleAdvancedFilter,
     clearFilters,
     setShowAnswer,
-    startStudy
+    startStudy,
+    updateFilters
   } = useQuestoes();
 
   const [expandedSections, setExpandedSections] = useState({
@@ -51,6 +55,7 @@ export default function QuestoesTeoricas() {
     advanced: false
   });
   const [showQuestao, setShowQuestao] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
 
   const toggleSection = (section: keyof typeof expandedSections) => {
     setExpandedSections(prev => ({ ...prev, [section]: !prev[section] }));
@@ -69,6 +74,11 @@ export default function QuestoesTeoricas() {
   const backToFilters = () => {
     setShowQuestao(false);
     setShowAnswer(false);
+  };
+
+  const handleSearch = (term: string) => {
+    setSearchTerm(term);
+    updateFilters({ searchTerm: term });
   };
 
   if (loading) {
@@ -338,15 +348,28 @@ export default function QuestoesTeoricas() {
               <p className="text-sm text-muted-foreground">Selecione os filtros para personalizar seu estudo</p>
             </div>
             
-            {/* Especialidades */}
-            <FilterSection
-              title="Especialidades"
-              icon={<Stethoscope className="w-5 h-5" />}
-              expanded={expandedSections.especialidades}
-              onToggle={() => toggleSection('especialidades')}
-              options={filterOptions.especialidades}
-              selected={filters.especialidades}
-              onToggleOption={(value) => toggleFilter('especialidades', value)}
+            {/* Barra de Pesquisa */}
+            <div className="p-4 border-b border-border">
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+                <Input
+                  placeholder="Pesquisar especialidades, temas, focos e subfocos..."
+                  value={searchTerm}
+                  onChange={(e) => handleSearch(e.target.value)}
+                  className="pl-10"
+                />
+              </div>
+            </div>
+
+            {/* Filtros Hierárquicos (Especialidade > Tema > Subtema) */}
+            <HierarchicalFilterSection
+              hierarchicalFilters={hierarchicalFilters}
+              selectedEspecialidades={filters.especialidades}
+              selectedTemas={filters.temas}
+              selectedSubtemas={filters.subtemas}
+              onToggleEspecialidade={(value) => toggleFilter('especialidades', value)}
+              onToggleTema={(value) => toggleFilter('temas', value)}
+              onToggleSubtema={(value) => toggleFilter('subtemas', value)}
             />
 
             {/* Instituições */}

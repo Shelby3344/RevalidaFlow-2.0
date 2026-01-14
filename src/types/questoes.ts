@@ -1,6 +1,8 @@
 export interface Questao {
   id: number;
   especialidade: string;
+  tema?: string;
+  subtema?: string;
   instituicao: string;
   ano: string;
   modalidade: string;
@@ -12,6 +14,8 @@ export interface Questao {
 
 export interface QuestaoFilters {
   especialidades: string[];
+  temas: string[];
+  subtemas: string[];
   instituicoes: string[];
   anos: string[];
   searchTerm: string;
@@ -29,4 +33,18 @@ export interface FilterOption {
   value: string;
   label: string;
   count: number;
+}
+
+// Estrutura hierárquica para filtros
+export interface HierarchicalFilter {
+  especialidade: string;
+  count: number;
+  temas: {
+    tema: string;
+    count: number;
+    subtemas: {
+      subtema: string;
+      count: number;
+    }[];
+  }[];
 }

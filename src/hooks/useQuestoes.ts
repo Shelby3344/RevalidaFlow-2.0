@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import { Questao, QuestaoFilters, QuestaoProgress, FilterOption } from '@/types/questoes';
+import { Questao, QuestaoFilters, QuestaoProgress, FilterOption, HierarchicalFilter } from '@/types/questoes';
 import { supabase } from '@/lib/supabase';
 import { useAuth } from '@/hooks/useAuth';
 
@@ -17,6 +17,8 @@ export function useQuestoes() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [filters, setFilters] = useState<QuestaoFilters>({
     especialidades: [],
+    temas: [],
+    subtemas: [],
     instituicoes: [],
     anos: [],
     searchTerm: ''
@@ -36,7 +38,7 @@ export function useQuestoes() {
     const loadQuestoes = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/questoes-json/questoes_revalida.json');
+        const response = await fetch('/questoes-json/questoes_revalida_classified.json');
         if (!response.ok) throw new Error('Erro ao carregar questões');
         const data = await response.json();
         setQuestoes(data);
@@ -219,12 +221,20 @@ export function useQuestoes() {
   // Extrair opções de filtro únicas
   const filterOptions = useMemo(() => {
     const especialidadesMap = new Map<string, number>();
+    const temasMap = new Map<string, number>();
+    const subtemasMap = new Map<string, number>();
     const instituicoesMap = new Map<string, number>();
     const anosMap = new Map<string, number>();
 
     questoes.forEach(q => {
       if (q.especialidade) {
         especialidadesMap.set(q.especialidade, (especialidadesMap.get(q.especialidade) || 0) + 1);
+      }
+      if (q.tema) {
+        temasMap.set(q.tema, (temasMap.get(q.tema) || 0) + 1);
+      }
+      if (q.subtema) {
+        subtemasMap.set(q.subtema, (subtemasMap.get(q.subtema) || 0) + 1);
       }
       if (q.instituicao) {
         instituicoesMap.set(q.instituicao, (instituicoesMap.get(q.instituicao) || 0) + 1);
@@ -241,11 +251,61 @@ export function useQuestoes() {
 
     return {
       especialidades: toOptions(especialidadesMap),
+      temas: toOptions(temasMap),
+      subtemas: toOptions(subtemasMap),
       instituicoes: toOptions(instituicoesMap),
       anos: Array.from(anosMap.entries())
         .map(([value, count]) => ({ value, label: value, count }))
         .sort((a, b) => b.value.localeCompare(a.value))
     };
+  }, [questoes]);
+
+  // Estrutura hierárquica para filtros
+  const hierarchicalFilters = useMemo((): HierarchicalFilter[] => {
+    const hierarchy: Record<string, {
+      count: number;
+      temas: Record<string, {
+        count: number;
+        subtemas: Record<string, number>;
+      }>;
+    }> = {};
+
+    questoes.forEach(q => {
+      const esp = q.especialidade || 'Outros';
+      const tema = q.tema || 'Geral';
+      const subtema = q.subtema || 'Geral';
+
+      if (!hierarchy[esp]) {
+        hierarchy[esp] = { count: 0, temas: {} };
+      }
+      hierarchy[esp].count++;
+
+      if (!hierarchy[esp].temas[tema]) {
+        hierarchy[esp].temas[tema] = { count: 0, subtemas: {} };
+      }
+      hierarchy[esp].temas[tema].count++;
+
+      if (!hierarchy[esp].temas[tema].subtemas[subtema]) {
+        hierarchy[esp].temas[tema].subtemas[subtema] = 0;
+      }
+      hierarchy[esp].temas[tema].subtemas[subtema]++;
+    });
+
+    return Object.entries(hierarchy)
+      .map(([especialidade, data]) => ({
+        especialidade,
+        count: data.count,
+        temas: Object.entries(data.temas)
+          .map(([tema, temaData]) => ({
+            tema,
+            count: temaData.count,
+            subtemas: Object.entries(temaData.subtemas)
+              .map(([subtema, count]) => ({ subtema, count }))
+              .sort((a, b) => b.count - a.count)
+          }))
+          .sort((a, b) => b.count - a.count)
+      }))
+      .sort((a, b) => b.count - a.count);
   }, [questoes]);
 
   // Questões filtradas
@@ -256,6 +316,12 @@ export function useQuestoes() {
     return questoes.filter(q => {
       // Filtros básicos
       if (filters.especialidades.length > 0 && !filters.especialidades.includes(q.especialidade)) {
+        return false;
+      }
+      if (filters.temas.length > 0 && q.tema && !filters.temas.includes(q.tema)) {
+        return false;
+      }
+      if (filters.subtemas.length > 0 && q.subtema && !filters.subtemas.includes(q.subtema)) {
         return false;
       }
       if (filters.instituicoes.length > 0 && !filters.instituicoes.includes(q.instituicao)) {
@@ -380,6 +446,8 @@ export function useQuestoes() {
   const clearFilters = useCallback(() => {
     setFilters({
       especialidades: [],
+      temas: [],
+      subtemas: [],
       instituicoes: [],
       anos: [],
       searchTerm: ''
@@ -435,6 +503,7 @@ export function useQuestoes() {
     filters,
     advancedFilters,
     filterOptions,
+    hierarchicalFilters,
     progress,
     showAnswer,
     selectedAnswer,

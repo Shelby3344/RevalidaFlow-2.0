@@ -52,35 +52,45 @@ ALTER TABLE questoes_user_settings ENABLE ROW LEVEL SECURITY;
 ALTER TABLE questoes_last_index ENABLE ROW LEVEL SECURITY;
 
 -- Políticas para questoes_progress
+DROP POLICY IF EXISTS "Users can view own progress" ON questoes_progress;
 CREATE POLICY "Users can view own progress" ON questoes_progress
   FOR SELECT USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can insert own progress" ON questoes_progress;
 CREATE POLICY "Users can insert own progress" ON questoes_progress
   FOR INSERT WITH CHECK (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can update own progress" ON questoes_progress;
 CREATE POLICY "Users can update own progress" ON questoes_progress
   FOR UPDATE USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can delete own progress" ON questoes_progress;
 CREATE POLICY "Users can delete own progress" ON questoes_progress
   FOR DELETE USING (auth.uid() = user_id);
 
 -- Políticas para questoes_user_settings
+DROP POLICY IF EXISTS "Users can view own settings" ON questoes_user_settings;
 CREATE POLICY "Users can view own settings" ON questoes_user_settings
   FOR SELECT USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can insert own settings" ON questoes_user_settings;
 CREATE POLICY "Users can insert own settings" ON questoes_user_settings
   FOR INSERT WITH CHECK (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can update own settings" ON questoes_user_settings;
 CREATE POLICY "Users can update own settings" ON questoes_user_settings
   FOR UPDATE USING (auth.uid() = user_id);
 
 -- Políticas para questoes_last_index
+DROP POLICY IF EXISTS "Users can view own last index" ON questoes_last_index;
 CREATE POLICY "Users can view own last index" ON questoes_last_index
   FOR SELECT USING (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can insert own last index" ON questoes_last_index;
 CREATE POLICY "Users can insert own last index" ON questoes_last_index
   FOR INSERT WITH CHECK (auth.uid() = user_id);
 
+DROP POLICY IF EXISTS "Users can update own last index" ON questoes_last_index;
 CREATE POLICY "Users can update own last index" ON questoes_last_index
   FOR UPDATE USING (auth.uid() = user_id);
 
