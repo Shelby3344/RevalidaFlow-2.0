@@ -189,6 +189,12 @@ export function Sidebar({
           (isExpanded || isMobile) ? "gap-3 px-4 md:px-5" : "justify-center px-2"
         )}
       >
+        {/* Ícone quando colapsado */}
+        {!isExpanded && !isMobile && (
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-500 to-purple-500 flex items-center justify-center">
+            <span className="text-white font-bold text-sm">RF</span>
+          </div>
+        )}
         {(isExpanded || isMobile) && (
           <div className="flex-1 min-w-0">
             <h1 className="text-sm md:text-base font-bold text-foreground tracking-tight">

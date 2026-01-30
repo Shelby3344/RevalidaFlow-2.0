@@ -249,11 +249,21 @@ export function useQuestoes() {
         .map(([value, count]) => ({ value, label: value, count }))
         .sort((a, b) => b.count - a.count);
 
+    // Mapeia "ProREV" para "RevalidaFLOW" na exibição
+    const toInstituicoesOptions = (map: Map<string, number>): FilterOption[] => 
+      Array.from(map.entries())
+        .map(([value, count]) => ({ 
+          value, 
+          label: value === 'ProREV' ? 'RevalidaFLOW' : value, 
+          count 
+        }))
+        .sort((a, b) => b.count - a.count);
+
     return {
       especialidades: toOptions(especialidadesMap),
       temas: toOptions(temasMap),
       subtemas: toOptions(subtemasMap),
-      instituicoes: toOptions(instituicoesMap),
+      instituicoes: toInstituicoesOptions(instituicoesMap),
       anos: Array.from(anosMap.entries())
         .map(([value, count]) => ({ value, label: value, count }))
         .sort((a, b) => b.value.localeCompare(a.value))
