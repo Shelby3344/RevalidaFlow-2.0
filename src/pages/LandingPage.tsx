@@ -218,13 +218,8 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-2 md:py-3 bg-background/80 backdrop-blur-lg border border-border/50 rounded-full">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <img 
-                src="/image/prorev.png" 
-                alt="ProREV" 
-                className="w-8 h-8 md:w-10 md:h-10 rounded-lg object-contain"
-              />
               <span className="text-lg md:text-xl font-bold">
-                Pro<span className="text-cyan-400">REV</span>
+                Revalida<span className="text-cyan-400">FLOW</span>
               </span>
             </div>
             
@@ -373,7 +368,7 @@ export default function LandingPage() {
             Conheça nossos <span className="text-cyan-400">recursos</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Role para descobrir tudo que o ProREV oferece
+            Role para descobrir tudo que o RevalidaFLOW oferece
           </p>
         </div>
         
@@ -526,7 +521,7 @@ export default function LandingPage() {
               O que nossos <span className="text-cyan-400">alunos</span> dizem
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Milhares de médicos já conquistaram sua aprovação com o ProREV
+              Milhares de médicos já conquistaram sua aprovação com o RevalidaFLOW
             </p>
           </div>
 
@@ -564,7 +559,7 @@ export default function LandingPage() {
                 name: "Dr. Lucas Oliveira",
                 role: "Aprovado Revalida 2024",
                 avatar: "LO",
-                text: "Estudei 3 meses com o ProREV e passei com nota alta. O sistema de gamificação me manteve motivado durante toda a preparação.",
+                text: "Estudei 3 meses com o RevalidaFLOW e passei com nota alta. O sistema de gamificação me manteve motivado durante toda a preparação.",
                 rating: 5
               },
               {
@@ -801,8 +796,8 @@ export default function LandingPage() {
           <div className="space-y-4">
             {[
               {
-                question: "O que é o ProREV?",
-                answer: "O ProREV é a plataforma mais completa para preparação do Revalida INEP. Oferecemos treino com paciente virtual, 659+ checklists OSCE, 4.116 questões teóricas, treino colaborativo em tempo real, resumos, flashcards e muito mais."
+                question: "O que é o RevalidaFLOW?",
+                answer: "O RevalidaFLOW é a plataforma mais completa para preparação do Revalida INEP. Oferecemos treino com paciente virtual, 659+ checklists OSCE, 4.116 questões teóricas, treino colaborativo em tempo real, resumos, flashcards e muito mais."
               },
               {
                 question: "Como funciona o treino com Paciente Virtual?",
@@ -880,7 +875,7 @@ export default function LandingPage() {
                 Pronto para começar?
               </h2>
               <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-                Junte-se a milhares de médicos que já estão se preparando com o ProREV.
+                Junte-se a milhares de médicos que já estão se preparando com o RevalidaFLOW.
                 Comece gratuitamente hoje mesmo.
               </p>
               <Button 
@@ -904,13 +899,8 @@ export default function LandingPage() {
             {/* Brand */}
             <div className="md:col-span-1">
               <div className="flex items-center gap-2 mb-4">
-                <img 
-                  src="/image/prorev.png" 
-                  alt="ProREV" 
-                  className="w-8 h-8 rounded-lg object-contain"
-                />
                 <span className="text-lg font-bold">
-                  Pro<span className="text-cyan-400">REV</span>
+                  Revalida<span className="text-cyan-400">FLOW</span>
                 </span>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
@@ -990,9 +980,9 @@ export default function LandingPage() {
 
           {/* Contact Info */}
           <div className="flex flex-wrap items-center justify-center gap-6 py-6 border-t border-b border-border/50 mb-8">
-            <a href="mailto:contato@prorev.com.br" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
+            <a href="mailto:contato@revalidaflow.com.br" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
               <Mail className="w-4 h-4" />
-              contato@prorev.com.br
+              contato@revalidaflow.com.br
             </a>
             <a href="tel:+5511999999999" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-cyan-400 transition-colors">
               <Phone className="w-4 h-4" />
@@ -1007,7 +997,7 @@ export default function LandingPage() {
           {/* Bottom Footer */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2025 ProREV. Todos os direitos reservados.
+              © 2025 RevalidaFLOW. Todos os direitos reservados.
             </p>
             <p className="text-sm text-muted-foreground">
               Feito com 💜 para médicos que sonham alto

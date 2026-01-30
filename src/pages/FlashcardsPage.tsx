@@ -156,7 +156,7 @@ export default function FlashcardsPage() {
       </div>
 
       <footer className="mt-8 text-center text-sm text-muted-foreground">
-        © 2025 ProREV
+        © 2025 RevalidaFLOW
       </footer>
     </AppLayout>
   );

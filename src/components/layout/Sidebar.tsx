@@ -83,7 +83,7 @@ const menuSections: MenuSection[] = [
         icon: ClipboardList,
         isChecklistSection: true,
         children: [
-          { title: "Checklist ProREV", path: "/checklists" },
+          { title: "Checklist RevalidaFLOW", path: "/checklists" },
         ],
       },
     ],
@@ -189,17 +189,10 @@ export function Sidebar({
           (isExpanded || isMobile) ? "gap-3 px-4 md:px-5" : "justify-center px-2"
         )}
       >
-        <div className="relative flex-shrink-0">
-          <img 
-            src="/image/prorev.png" 
-            alt="ProREV" 
-            className="w-9 h-9 md:w-10 md:h-10 rounded-xl object-contain"
-          />
-        </div>
         {(isExpanded || isMobile) && (
           <div className="flex-1 min-w-0">
             <h1 className="text-sm md:text-base font-bold text-foreground tracking-tight">
-              Pro<span className="text-cyan-400">REV</span>
+              Revalida<span className="text-cyan-400">FLOW</span>
             </h1>
             <p className="text-[9px] md:text-[10px] text-muted-foreground font-medium">Plataforma de Estudos</p>
           </div>

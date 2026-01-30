@@ -168,13 +168,8 @@ export default function Login() {
           {/* Logo */}
           <div className="text-center">
             <div className="inline-flex items-center gap-3 mb-6">
-              <img 
-                src="/image/prorev.png" 
-                alt="ProREV" 
-                className="w-12 h-12 rounded-xl object-contain"
-              />
               <div className="text-left">
-                <h1 className="text-2xl font-bold text-foreground">Pro<span className="text-primary">REV</span></h1>
+                <h1 className="text-2xl font-bold text-foreground">Revalida<span className="text-primary">FLOW</span></h1>
               </div>
             </div>
             <h2 className="text-2xl font-bold text-foreground mb-2">
