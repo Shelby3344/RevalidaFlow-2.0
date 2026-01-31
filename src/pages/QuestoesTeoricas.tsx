@@ -393,6 +393,7 @@ export default function QuestoesTeoricas() {
               options={filterOptions.anos}
               selected={filters.anos}
               onToggleOption={(value) => toggleFilter('anos', value)}
+              singleColumn
             />
 
             {/* Configurações Avançadas */}
@@ -534,6 +535,7 @@ interface FilterSectionProps {
   onToggleOption: (value: string) => void;
   isLast?: boolean;
   hideCount?: boolean;
+  singleColumn?: boolean;
 }
 
 function FilterSection({
@@ -545,7 +547,8 @@ function FilterSection({
   selected,
   onToggleOption,
   isLast,
-  hideCount
+  hideCount,
+  singleColumn
 }: FilterSectionProps) {
   return (
     <div className={cn(!isLast && "border-b border-border")}>
@@ -578,7 +581,10 @@ function FilterSection({
       
       {expanded && (
         <ScrollArea className="max-h-72">
-          <div className="px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-2">
+          <div className={cn(
+            "px-4 pb-4 gap-2",
+            singleColumn ? "flex flex-col" : "grid grid-cols-1 md:grid-cols-2"
+          )}>
             {options.map((option) => (
               <label
                 key={option.value}

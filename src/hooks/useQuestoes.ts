@@ -267,7 +267,7 @@ export function useQuestoes() {
       anos: Array.from(anosMap.entries())
         .filter(([value]) => parseInt(value) >= 2011) // Mostrar apenas anos a partir de 2011
         .map(([value, count]) => ({ value, label: value, count }))
-        .sort((a, b) => b.value.localeCompare(a.value))
+        .sort((a, b) => a.value.localeCompare(b.value)) // Ordenar de 2011 até 2026
     };
   }, [questoes]);
 
