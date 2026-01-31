@@ -580,7 +580,7 @@ function FilterSection({
       </button>
       
       {expanded && (
-        <ScrollArea className="max-h-72">
+        <div className="max-h-80 overflow-y-auto">
           <div className={cn(
             "px-4 pb-4 gap-2",
             singleColumn ? "flex flex-col" : "grid grid-cols-1 md:grid-cols-2"
@@ -609,7 +609,7 @@ function FilterSection({
               </label>
             ))}
           </div>
-        </ScrollArea>
+        </div>
       )}
     </div>
   );
