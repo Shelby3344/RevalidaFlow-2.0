@@ -249,12 +249,12 @@ export function useQuestoes() {
         .map(([value, count]) => ({ value, label: value, count }))
         .sort((a, b) => b.count - a.count);
 
-    // Mapeia "ProREV" para "RevalidaFLOW" na exibição
+    // Mapeia "ProREV" para "Revalida" na exibição
     const toInstituicoesOptions = (map: Map<string, number>): FilterOption[] => 
       Array.from(map.entries())
         .map(([value, count]) => ({ 
           value, 
-          label: value === 'ProREV' ? 'RevalidaFLOW' : value, 
+          label: value === 'ProREV' ? 'Revalida' : value, 
           count 
         }))
         .sort((a, b) => b.count - a.count);
