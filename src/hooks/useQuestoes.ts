@@ -265,6 +265,7 @@ export function useQuestoes() {
       subtemas: toOptions(subtemasMap),
       instituicoes: toInstituicoesOptions(instituicoesMap),
       anos: Array.from(anosMap.entries())
+        .filter(([value]) => parseInt(value) >= 2011) // Mostrar apenas anos a partir de 2011
         .map(([value, count]) => ({ value, label: value, count }))
         .sort((a, b) => b.value.localeCompare(a.value))
     };
