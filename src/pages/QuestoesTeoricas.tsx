@@ -381,6 +381,7 @@ export default function QuestoesTeoricas() {
               options={filterOptions.instituicoes}
               selected={filters.instituicoes}
               onToggleOption={(value) => toggleFilter('instituicoes', value)}
+              hideCount
             />
 
             {/* Anos */}
@@ -532,6 +533,7 @@ interface FilterSectionProps {
   selected: string[];
   onToggleOption: (value: string) => void;
   isLast?: boolean;
+  hideCount?: boolean;
 }
 
 function FilterSection({
@@ -542,7 +544,8 @@ function FilterSection({
   options,
   selected,
   onToggleOption,
-  isLast
+  isLast,
+  hideCount
 }: FilterSectionProps) {
   return (
     <div className={cn(!isLast && "border-b border-border")}>
@@ -592,9 +595,11 @@ function FilterSection({
                   className="border-muted-foreground data-[state=checked]:bg-cyan-500 data-[state=checked]:border-cyan-500"
                 />
                 <span className="flex-1 text-sm text-foreground truncate">{option.label}</span>
-                <span className="text-xs text-muted-foreground bg-muted px-2 py-1 rounded-md font-medium">
-                  {option.count}
-                </span>
+                {!hideCount && (
+                  <span className="text-xs text-muted-foreground bg-muted px-2 py-1 rounded-md font-medium">
+                    {option.count}
+                  </span>
+                )}
               </label>
             ))}
           </div>
