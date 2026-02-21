@@ -122,55 +122,61 @@ export default function AvaliacaoAvaliado() {
     const initSession = async () => {
       setIsLoading(true);
 
-      if (!sessionCode) {
-        toast.error("Código de sessão inválido");
-        navigate("/");
-        return;
-      }
+      try {
+        if (!sessionCode) {
+          toast.error("Código de sessão inválido");
+          navigate("/");
+          return;
+        }
 
-      // Primeiro tenta carregar do Supabase
-      let loaded = await loadSession(sessionCode);
-      
-      // Se não encontrou, tenta criar a partir dos dados da URL
-      if (!loaded) {
-        const encodedData = searchParams.get('data');
-        if (encodedData) {
-          const sessionData = decodeSessionData(encodedData);
-          if (sessionData) {
-            loaded = await createSessionFromData(sessionCode, sessionData);
+        // Primeiro tenta carregar do Supabase
+        let loaded = await loadSession(sessionCode);
+        
+        // Se não encontrou, tenta criar a partir dos dados da URL
+        if (!loaded) {
+          const encodedData = searchParams.get('data');
+          if (encodedData) {
+            const sessionData = decodeSessionData(encodedData);
+            if (sessionData) {
+              loaded = await createSessionFromData(sessionCode, sessionData);
+            }
           }
         }
-      }
 
-      if (!loaded) {
-        toast.error("Sessão não encontrada ou expirada");
+        if (!loaded) {
+          toast.error("Sessão não encontrada ou expirada");
+          navigate("/");
+          return;
+        }
+
+        // Atualizar estados locais
+        setTimeRemaining(loaded.timeRemaining);
+        setUnlockedImpressos(loaded.unlockedImpressos);
+        setSessionStatus(loaded.status);
+        setResultShared(loaded.resultShared);
+
+        // Carregar conteúdo do checklist
+        try {
+          const checklistContent = await getChecklistContentByIdAsync(
+            loaded.checklistId
+          );
+          setContent(checklistContent);
+        } catch {
+          setContent(defaultChecklistContent);
+        }
+
+        // Mostrar modal de entrada se ainda não entrou
+        if (!loaded.avaliadoName) {
+          setShowJoinModal(true);
+        } else {
+          setHasJoined(true);
+        }
+      } catch (error) {
+        console.error('Erro ao inicializar sessão:', error);
+        toast.error("Erro ao conectar à sessão");
         navigate("/");
-        return;
-      }
-
-      // Atualizar estados locais
-      setTimeRemaining(loaded.timeRemaining);
-      setUnlockedImpressos(loaded.unlockedImpressos);
-      setSessionStatus(loaded.status);
-      setResultShared(loaded.resultShared);
-
-      // Carregar conteúdo do checklist
-      try {
-        const checklistContent = await getChecklistContentByIdAsync(
-          loaded.checklistId
-        );
-        setContent(checklistContent);
-      } catch {
-        setContent(defaultChecklistContent);
-      }
-
-      setIsLoading(false);
-      
-      // Mostrar modal de entrada se ainda não entrou
-      if (!loaded.avaliadoName) {
-        setShowJoinModal(true);
-      } else {
-        setHasJoined(true);
+      } finally {
+        setIsLoading(false);
       }
     };
 
@@ -180,7 +186,13 @@ export default function AvaliacaoAvaliado() {
   const handleJoinSession = useCallback(async (name: string) => {
     if (!sessionCode) return;
     
-    await updateSession({ avaliadoName: name });
+    // Setar avaliado_id e avaliado_name para que a RLS permita acesso após mudança de status
+    const { user } = await import('@/lib/supabase').then(m => m.supabase.auth.getUser());
+    const updates: any = { avaliadoName: name };
+    if (user?.data?.user?.id) {
+      updates.avaliadoId = user.data.user.id;
+    }
+    await updateSession(updates);
     broadcastAvaliadoConnected(sessionCode, name);
     setShowJoinModal(false);
     setHasJoined(true);

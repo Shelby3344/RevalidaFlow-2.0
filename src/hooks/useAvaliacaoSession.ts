@@ -15,7 +15,7 @@ interface UseAvaliacaoSessionReturn {
   loading: boolean;
   createSession: (checklistId: string, checklistTitle: string, areaCode: string, avaliadorName: string, maxScore: number) => Promise<string>;
   loadSession: (sessionCode: string) => Promise<AvaliacaoSession | null>;
-  createSessionFromData: (sessionCode: string, data: { checklistId: string; checklistTitle: string; areaCode: string; avaliadorName: string; maxScore: number }) => Promise<AvaliacaoSession>;
+  createSessionFromData: (sessionCode: string, data: { checklistId: string; checklistTitle: string; areaCode: string; avaliadorName: string; maxScore: number }) => Promise<AvaliacaoSession | null>;
   updateSession: (updates: Partial<AvaliacaoSession>) => Promise<void>;
   setScore: (itemId: number, score: number, type: ItemScore['type']) => Promise<void>;
   unlockImpresso: (impressoId: number) => Promise<void>;
@@ -164,22 +164,32 @@ export function useAvaliacaoSession(): UseAvaliacaoSessionReturn {
   const createSessionFromData = useCallback(async (
     sessionCode: string,
     data: { checklistId: string; checklistTitle: string; areaCode: string; avaliadorName: string; maxScore: number }
-  ): Promise<AvaliacaoSession> => {
+  ): Promise<AvaliacaoSession | null> => {
     // Primeiro tenta carregar a sessão existente
     const existing = await loadSession(sessionCode);
     if (existing) return existing;
 
-    // Se não existe, cria uma nova (caso raro)
-    const code = await createSession(
-      data.checklistId,
-      data.checklistTitle,
-      data.areaCode,
-      data.avaliadorName,
-      data.maxScore
-    );
+    // Se não existe, criar sessão local (sem persistir no DB — a sessão deveria ter sido criada pelo avaliador)
+    const localSession: AvaliacaoSession = {
+      code: sessionCode,
+      checklistId: data.checklistId,
+      checklistTitle: data.checklistTitle,
+      areaCode: data.areaCode,
+      avaliadorName: data.avaliadorName,
+      status: 'aguardando',
+      createdAt: Date.now(),
+      timeRemaining: DEFAULT_DURATION,
+      totalDuration: DEFAULT_DURATION,
+      scores: {},
+      totalScore: 0,
+      maxScore: data.maxScore,
+      unlockedImpressos: [],
+      resultShared: false,
+    };
 
-    return session!;
-  }, [loadSession, createSession, session]);
+    setSession(localSession);
+    return localSession;
+  }, [loadSession]);
 
   // Atualizar sessão
   const updateSession = useCallback(async (updates: Partial<AvaliacaoSession>): Promise<void> => {
@@ -189,6 +199,7 @@ export function useAvaliacaoSession(): UseAvaliacaoSessionReturn {
     
     if (updates.status) dbUpdates.status = localStatusToDb(updates.status);
     if (updates.avaliadoName) dbUpdates.avaliado_name = updates.avaliadoName;
+    if ((updates as any).avaliadoId) dbUpdates.avaliado_id = (updates as any).avaliadoId;
     if (updates.totalScore !== undefined) dbUpdates.score = updates.totalScore;
     if (updates.startedAt) dbUpdates.started_at = new Date(updates.startedAt).toISOString();
     if (updates.finishedAt) dbUpdates.completed_at = new Date(updates.finishedAt).toISOString();
