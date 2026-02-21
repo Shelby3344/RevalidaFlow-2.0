@@ -1,0 +1,149 @@
+{
+  "uid": 104,
+  "hash": "pepe_104",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Transtorno Depressivo Maior",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária - Unidade Básica de Saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório para atendimento;  \n• Acesso a solicitações de exames laboratoriais;  \n• Equipe de NASF para apoio.\n\nDescrição do caso:\nVocê está em atendimento ambulatorial na UBS e receberá a paciente de 54 anos, trazida pela irmã devido a um quadro de perda de peso e tristeza profunda. A paciente nega comorbidades, alergias ou uso de medicamentos contínuos.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese da paciente;  \n- Solicitar dois exames complementares para investigação de causas orgânicas;  \n- Estabelecer a hipótese diagnóstica;  \n- Realizar o manejo inicial do caso, incluindo abordagem farmacológica e não farmacológica.  \n\n\\\nATENÇÃO! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Paciente:** Joana, 54 anos, viúva, do lar.  \n• **Acompanhante:** Irmã Janice 52 anos.  \n\n**QUEIXA PRINCIPAL:**  \n• **PACIENTE:** Não sei... minha irmã me trouxe.  \n• **IRMÃ:** Doutor(a), eu a trouxe porque ela não está nada bem. Desde que o marido e o filho dela faleceram em um acidente de carro, há 6 meses, ela só fica em casa, não quer ver ninguém.  \n\n**HISTÓRIA DA DOENÇA ATUAL (PACIENTE RESPONDE COM FRASES CURTAS, IRMÃ COMPLEMENTA):**  \n• **Humor e Anedonia:** Já acordo com um sentimento de tristeza, angústia, que não passa. Não tenho vontade de fazer nada. Não sinto prazer em nada. Só quero dormir.  \n• **Sono e Energia:** Tenho sono o tempo todo. Se me deixar, durmo o dia inteiro. Já acordo fadigada. Me sinto cansada o dia todo.  \n• **Apetite e Peso:** Perdi uns 10 kg nos últimos meses. Não tenho fome e não quero comer nada.  \n• **Cognição:** Não consigo lembrar nem o que eu vi na TV ontem. Não consigo parar e me concentrar em nada.  \n• **Ideação Suicida:** Hoje, não. Mas, umas semanas atrás, pensei em fazer uma besteira. Passou pela cabeça sim. Mas ficou por isso mesmo.  \n\n**ANTECEDENTES (IRMÃ RESPONDE, SE QUESTIONADA):**  \n• **Histórico Psiquiátrico:** Não, ela nunca teve depressão antes. Sempre foi uma pessoa muito alegre.  \n• **Hábitos:** Ela não bebe e não fuma.  \n• **Suporte Familiar:** Eu e minha família moramos perto e estamos muito preocupados com ela.  \n\n**ORIENTAÇÕES AOS ATORES:**  \n• A paciente (Joana) deve responder com frases curtas, monossilábicas e com pouca energia. A irmã (acompanhante) complementa as informações ativamente.  \n• A informação sobre a ideação suicida só deve ser informada se o(a) participante perguntar diretamente sobre pensamentos de morte ou de se machucar.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS (DA IRMÃ):**  \n• *O que a minha irmã tem, doutor(a)?*  \n• *Isso tem tratamento? Ela vai voltar a ser como era antes?*  \n• *O tratamento é só com remédio ou tem mais alguma coisa que a gente possa fazer para ajudar?*  \n• *Eu devo me preocupar com esses pensamentos de 'besteira' que ela teve?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 128x82 mmHg  \n• **FC:** 80 bpm  \n• **FR:** 20 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.5°C  \n\n\n**Exame Físico Segmentar:**  \n• **Ectoscopia e Estado Geral:** Regular estado geral, consciente, orientada, porém hipoativa, com discurso lentificado.  \n• **Cardiovascular, Respiratório e Abdome:** Sem alterações.  \n• **Extremidades:** Sem edemas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma:**  \n• **Hemoglobina:** 12,6 g/dL (VR: 12 a 16,5 g/dL).  \n• **Hematócrito:** 37% (VR: 35 a 47%).  \n• **Leucócitos:** 5.320/mm³ (VR: 4.000-11.000/mm³).  \n• **Plaquetas:** 240.000/mm³ (VR: 150.000-450.000/mm³).  \n\n\n**Função Tireoidiana:**  \n• **TSH:** 3,78 mUI/L (VR: 0,34-5,60 mUI/L).  \n• **T4 livre:** 1,02 ng/dL (VR: 0,54 – 1,24 ng/dL).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta a paciente simulada e sua irmã, e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando os critérios para Transtorno Depressivo Maior.**  \n(1) investiga os critérios de humor (humor deprimido, anedonia);  \n(2) questiona sobre os demais sintomas (alterações de sono, apetite/peso, energia, cognição);  \n(3) investiga ativamente a presença de ideação suicida.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Diferencia o quadro atual de um luto não complicado.**  \n\n**Adequado:** reconhece que, apesar do luto ser o gatilho, a intensidade dos sintomas, a duração de 6 meses, a perda de peso acentuada e a ideação suicida caracterizam um episódio depressivo maior, e não um luto fisiológico.  \n**Inadequado:** não consegue diferenciar o luto de um transtorno depressivo.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames complementares para investigação de causas orgânicas.**  \n\n**Adequado:** solicita exames básicos para excluir causas orgânicas de sintomas depressivos, como Hemograma completo e TSH/T4 livre.  \n**Inadequado:** não solicita exames ou solicita exames desnecessários.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Estabelece a hipótese diagnóstica.**  \n\n**Adequado:** estabelece a hipótese de Transtorno Depressivo Maior, episódio único, grave, com base no número e na intensidade dos sintomas e na presença de ideação suicida.  \n**Parcialmente adequado:** estabelece a hipótese de depressão, mas não a classifica quanto à gravidade.  \n**Inadequado:** não estabelece a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Prescreve o tratamento farmacológico de primeira linha.**  \n\n**Adequado:** prescreve um Inibidor Seletivo da Recaptação de Serotonina (ISRS), como Sertralina, Fluoxetina ou Escitalopram, explicando que é a primeira escolha para o tratamento.  \n**Inadequado:** não prescreve um antidepressivo ou prescreve uma classe que não é de primeira linha (ex: benzodiazepínico).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre o início do tratamento farmacológico.**  \n(1) explica que o efeito do medicamento não é imediato, levando de 2 a 4 semanas para começar;  \n(2) orienta sobre os possíveis efeitos colaterais iniciais (náuseas, cefaleia) e que eles tendem a melhorar;  \n(3) reforça a importância de não interromper o tratamento por conta própria.  \n\n**Adequado:** orienta sobre os três itens.  \n**Parcialmente adequado:** orienta sobre dois itens.  \n**Inadequado:** não orienta a paciente ou orienta sobre apenas um item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Elabora um plano de cuidado não farmacológico.**  \n(1) encaminha a paciente para psicoterapia (psicólogo do NASF ou da rede);  \n(2) incentiva a retomada gradual de atividades prazerosas e a prática de atividade física leve;  \n(3) envolve a família (irmã) como rede de apoio no cuidado.  \n\n**Adequado:** elabora um plano com os três componentes.  \n**Parcialmente adequado:** elabora um plano com dois componentes.  \n**Inadequado:** não elabora um plano ou o faz com apenas um componente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Aborda o risco de suicídio e estabelece um plano de segurança.**  \n\n**Adequado:** aborda a ideação suicida de forma direta, valida a preocupação da irmã e estabelece um plano de segurança, orientando a família a não deixar a paciente sozinha e a procurar a emergência em caso de piora dos pensamentos.  \n**Inadequado:** não aborda o risco de suicídio ou minimiza a ideação suicida relatada.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Esclarece as dúvidas da irmã de forma empática e informativa.**  \n(1) explica o diagnóstico de Depressão, diferenciando-o da tristeza comum do luto;  \n(2) informa que a condição tem tratamento e bom prognóstico com a abordagem correta;  \n(3) detalha que o tratamento envolve tanto remédios quanto a psicoterapia e o apoio familiar;  \n(4) reforça que a ideação suicida é um sintoma da doença e que a família deve levar a sério e monitorar.  \n\n**Adequado:** Aborda os quatro pontos.  \n**Parcialmente adequado:** Aborda dois ou três pontos.  \n**Inadequado:** Aborda um ou nenhum ponto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

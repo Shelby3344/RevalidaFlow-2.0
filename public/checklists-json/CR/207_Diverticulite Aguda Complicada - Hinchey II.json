@@ -1,0 +1,166 @@
+{
+  "uid": 207,
+  "hash": "pepe_207",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Diverticulite Aguda Complicada - Hinchey II",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• setor de radiologia com tomografia computadorizada e ultrassonografia;  \n• centro cirúrgico e leitos de internação.\n\nDescrição do caso:\nVocê atenderá uma mulher de 65 anos que procura o pronto-socorro com queixa de dor abdominal e febre persistente há 5 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar e interpretar o exame físico, caso necessário;  \n- Solicitar e interpretar os exames complementares pertinentes;  \n- Formular a hipótese diagnóstica e a classificação de gravidade;  \n- Propor a conduta terapêutica inicial;  \n- Responder às dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Sônia, 65 anos, casada, aposentada.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor na barriga que não passa. Já faz 5 dias.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou há 5 dias. Fui no postinho há 3 dias, me deram antibiótico, mas não melhorou.  \n• **Localização:** É aqui no pé da barriga, do lado esquerdo.  \n• **Irradiação:** Não.  \n• **Característica:** É uma dor que fica latejando, o tempo todo.  \n• **Intensidade:** Está forte, um 7 de 10.  \n• **Atenuantes/agravantes:** Piora quando eu ando. O remédio pra dor alivia um pouco, mas logo volta.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Estou com febre, medi em casa e deu 38,4°C. Sinto calafrios.  \n• **Náuseas/vômitos:** Estou enjoada, mas não cheguei a vomitar.  \n• **Ritmo intestinal:** Meu intestino está meio preso.  \n• **Sintomas urinários:** Nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** Nega.  \n• **Doenças:** Tenho pressão alta.  \n• **Medicações:** Uso Losartana. E há 3 dias comecei a tomar Metronidazol que o médico do posto passou.  \n• **Cirurgias:** Tirei a vesícula há 10 anos.  \n• **Tabagismo:** Parei de fumar há 20 anos.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Por que o remédio não funcionou?*  \n• *Isso é grave? Vou precisar operar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130x85 mmHg  \n• **FC:** 104 bpm  \n• **FR:** 20 irpm  \n• **SatO2:** 97% em ar ambiente  \n• **Temp. axilar:** 38,3°C  \n\n\n**Ectoscopia:** Paciente em regular estado geral, orientada, hipocorada (+/4+), hidratada, febril.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, taquicárdico, bulhas normofonéticas.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdominal:**  \n• **Inspeção:** Abdome plano, sem cicatrizes relevantes.  \n• **Ausculta:** Ruídos hidroaéreos diminuídos.  \n• **Palpação:** Dor à palpação profunda em fossa ilíaca esquerda (FIE), onde se palpa uma massa mal definida, dolorosa. Sinais de Blumberg e Rovsing negativos (sem irritação peritoneal difusa).  \n\n**Toque Retal:** Dor à palpação da parede anterior do reto, abaulamento em fundo de saco.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 11,5 g/dL (VR: 12,0-16,0 g/dL)  \n• **Leucócitos:** 16.800/mm³ (VR: 4.000-11.000/mm³)  \n• **Bastões:** 9% (VR: 0-5%)  \n• **Plaquetas:** 310.000/mm³ (VR: 150.000-450.000/mm³)  \n\n\n**BIOQUÍMICA**  \n• **PCR:** 185 mg/L (VR: \\< 5,0 mg/L)  \n• **Ureia:** 42 mg/dL (VR: 13 - 43 mg/dl)  \n• **Creatinina:** 1,0 mg/dL (VR: 0,6 - 1,2 mg/dl)  \n\n\n**URINA TIPO I (EAS):**  \n• Leucócitos: 5-10 por campo.  \n• Hemácias: 2-3 por campo.  \n• Nitrito: Negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TC DE ABDOME E PELVE",
+      "conteudo": "**Laudo:**  \nEspessamento da parede colônica e densificação da gordura pericólica.  \n\nObserva-se coleção líquida com paredes espessadas e realce periférico pelo contraste, localizada na pelve, adjacente ao sigmoide, medindo 5,8 x 5,5 cm (Volume estimado: 90 mL).  \n\nAusência de pneumoperitônio ou líquido livre significativo na cavidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida ao quadro atual:**  \n(1) investiga as características da dor (localização, intensidade, início);  \n(2) pergunta sobre sintomas associados (febre, calafrios, náuseas, vômitos);  \n(3) questiona sobre alterações do hábito intestinal.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga o histórico da paciente:**  \n(1) pergunta sobre o uso recente de medicamentos (especialmente os antibióticos);  \n(2) pergunta sobre antecedentes patológicos e cirurgias prévias.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico da paciente.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame de imagem padrão-ouro para confirmação diagnóstica e estadiamento da diverticulite aguda.**  \n\n**Adequado:** solicita Tomografia Computadorizada (TC) de abdome e pelve (com contraste).  \n**Parcialmente adequado:** solicita TC sem contraste OU solicita apenas Ultrassonografia (USG) de abdome.  \n**Inadequado:** não solicita TC ou USG.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta os achados da Tomografia Computadorizada.**  \n(1) identifica os sinais de diverticulite (inflamação, espessamento do sigmoide);  \n(2) identifica a presença da coleção pélvica (abscesso).  \n\n**Adequado:** interpreta os dois achados.  \n**Parcialmente adequado:** interpreta apenas um achado.  \n**Inadequado:** não interpreta os achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a hipótese diagnóstica principal.**  \n\n**Adequado:** verbaliza o diagnóstico de Diverticulite Complicada.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza apenas \"Diverticulite Aguda\", sem citar o quadro complicado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Classifica corretamente a gravidade da diverticulite aguda (Classificação de Hinchey).**  \n\n**Adequado:** classifica como Hinchey II (abscesso pélvico ou a distância).  \n**Parcialmente adequado:** classifica como Hinchey I, OU Ia, OU Ib (abscesso pericólico).  \n**Inadequado:** não classifica ou classifica incorretamente (0, III ou IV).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica as condutas clínicas iniciais para o manejo hospitalar.**  \n(1) internação hospitalar;  \n(2) jejum ou dieta líquida restrita;  \n(3) antibioticoterapia endovenosa (cobertura para gram-negativos e anaeróbios);  \n(4) Analgesia EV;  \n(5) Antitérmico.  \n\n**Adequado:** indica as três ou quatro condutas.  \n**Parcialmente adequado:** indica duas condutas.  \n**Inadequado:** indica uma ou nenhuma conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a conduta específica para o manejo do abscesso pélvico.**  \n\n**Adequado:** indica drenagem percutânea (guiada por TC ou USG).  \n**Inadequado:** indica apenas tratamento clínico (antibióticos) ou indica cirurgia de urgência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a paciente sobre a necessidade de investigação complementar após a resolução do quadro agudo.**  \n\n**Adequado:** orienta a realização de colonoscopia (após 4-6 semanas) para excluir neoplasia.  \n**Inadequado:** não orienta a colonoscopia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "uid": 516,
+  "hash": "pepe_516",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Esporotricose",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde (APS).  \nTipo de atendimento: Ambulatorial – Unidade Básica de Saúde (UBS).  \nA unidade possui consultório, acesso a exames laboratoriais e farmácia com medicamentos básicos.\n\nDescrição do caso:\nVocê está em seu atendimento de rotina na UBS e atenderá um paciente de 28 anos, que se queixa de feridas no braço que não cicatrizam e estão se espalhando.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese do paciente.  \n- Solicitar o exame físico direcionado, caso haja necessidade.  \n- Elaborar a hipótese diagnóstica principal e sua classificação.  \n- Solicitar exames complementares, caso necessário.  \n- Estabelecer o plano terapêutico.  \n- Realizar orientações sobre a doença e o tratamento.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Fábio, 28 anos, solteiro.  \n• **Profissão:** Catador de material reciclável.  \n\n**MOTIVO DE CONSULTA:** \"Estou com uma ferida que não fecha e apareceram outros caroços pelo meu braço.\"  \n\n• **Localização:** Na minha mão e braço direito.  \n\n• **Evolução:** \"Há mais ou menos 30 dias, o primeiro machucado virou uma ferida que não cicatriza. Depois, notei outros caroços, que foram aparecendo um depois do outro, subindo pelo braço.\"  \n\n• **Dor:** As lesões não doem muito.  \n• **Coloração:** são vermelhas.  \n• **Secreção:** a primeira está com um líquido claro.  \n\n• **Febre/vômitos/diarreia:** nega.  \n\n**HISTÓRIA EPIDEMIOLÓGICA E HÁBITOS:**  \n• **Alergias, medicações e doenças:** nega.  \n\n• **Contato com animais:** \"Eu tenho um gato. Ele apareceu lá em casa todo machucado há uns 2 meses, com umas feridas no focinho que não saram.\"  \n• **História do trauma:** \"O gato me arranhou uma vez na mão onde começou a primeira ferida.\"  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *Esse remédio que o senhor vai passar demora muito pra fazer efeito?*  \n• *Essa doença também passa para outras pessoas?*  \n• *Doutor(a), e o meu gato? O que eu faço com ele? Não quero ter que me livrar dele.*  \n• *O que eu posso fazer para não pegar essa doença novamente?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "INAIS VITAIS E ANTROPOMETRIA",
+      "conteudo": "**SINAIS VITAIS E ANTROPOMETRIA**  \n\n\n• **PA:** 120x80 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **Temp:** 36,6ºC  \n\n• **HGT (Glicemia Capilar):** 95 mg/dL (ao acaso)  \n• **Peso:** 75 kg  \n• **Altura:** 1,78 m  \n• **IMC:** 23,6 kg/m² (Eutrófico)",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO DERMATOLÓGICO 1",
+      "conteudo": "• **Lesão inicial (dorso da mão direita):**  \n\n\n**OLHE PARA A CÂMERA E VERBALIZE O(S) ACHADO(S) ENCONTRADO(S) NA IMAGEM!**",
+      "imagem": "img_printeds/e516p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO DERMATOLÓGICO 2",
+      "conteudo": "• **Trajeto linfático (braço e antebraço direito):**  \n\n\n**OLHE PARA A CÂMERA E VERBALIZE O(S) ACHADO(S) ENCONTRADO(S) NA IMAGEM!**",
+      "imagem": "img_printeds/e516p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Acolhimento e Anamnese Epidemiológica:**  \n(1) Acolhe o paciente e investiga a cronologia e o aspecto das lesões;  \n(2) Investiga ativamente o contato com animais (especialmente gatos), arranhaduras ou mordeduras, e a saúde do animal.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Exame Físico Dermatológico:**  \n(1) Solicita e faz a descrição da lesão inicial (úlcera ou cancro de inoculação ou lesão ulcerada);  \n(2) Solicita e faz a descrição das lesões secundárias do trajeto linfático, identificando o padrão linear ascendente ou linfangite nodular ou \"lesões em rosário\".  \n\n\n**Adequado:** descreve os dois itens.  \n**Parcialmente adequado:** descreve um item.  \n**Inadequado:** não descreve ou não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Hipótese Diagnóstica:**  \n(1) Verbaliza a hipótese principal de Esporotricose;  \n(2) Classifica como forma linfocutânea.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas a hipótese principal sem classificação.  \n**Inadequado:** não realiza a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Plano Diagnóstico (Confirmação):**  \n(1) Orienta sobre a necessidade de coleta de material (swab da lesão ou biópsia ou secreção);  \n(2) Solicita cultura para fungos ou cultura fúngica (padrão-ouro).  \n\n**Adequado:** indica o método de confirmação e o exame correto.  \n**Parcialmente adequado:** indica apenas a coleta ou apenas a cultura.  \n**Inadequado:** não indica ou inicia tratamento sem mencionar plano de confirmação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Plano Terapêutico:**  \n(1) Prescreve Itraconazol como primeira escolha;  \n(2) Orienta que o tratamento é prolongado (3 a 6 meses) e deve ser mantido por algumas semanas após a cura clínica.  \n\n**Adequado:** indica tratamento e tempo corretos.  \n**Parcialmente adequado:** indica apenas a droga ou apenas o tempo.  \n**Inadequado:** não prescreve ou prescreve incorretamente (ex: antibiótico).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orientações sobre a Doença:**  \n(1) Explica ao paciente o que é a esporotricose (micose ou doença causada por fungo);  \n(2) Esclarece que a transmissão direta entre humanos é muito rara, tranquilizando o paciente sobre o risco para outras pessoas.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não orienta ou informa incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Abordagem de Saúde Única (Manejo do Animal):**  \n(1) Orienta que o gato é a provável fonte de infecção e também precisa de tratamento;  \n(2) Encaminha/orienta o paciente a levar o animal ao Centro de Controle de Zoonoses (CCZ) ou a um veterinário para tratamento (não abandonar/eutanasiar).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não aborda a saúde do animal ou sugere abandono.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orientações de Prevenção:**  \n(1) Orienta o uso de luvas ao manusear materiais de jardinagem, lixo ou ao cuidar de animais doentes;  \n(2) Orienta sobre o manejo ambiental (isolar o gato doente de outros animais).  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza uma orientação.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Notificação Compulsória:**  \n(1) Verbaliza a necessidade de notificar o caso no SINAN (Ficha de notificação).  \n\n**Adequado:** menciona a notificação.  \n**Inadequado:** não menciona.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicitação de Exames de Segurança e Coinfecção:**  \n(1) Solicita exames de função hepática (TGO/TGP) para monitoramento do uso de Itraconazol;  \n(2) Oferece teste rápido para HIV/Sífilis/Hepatites (Rastreio de ISTs/Imunidade).  \n\n**Adequado:** solicita os dois grupos de exames.  \n**Parcialmente adequado:** solicita apenas um grupo.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Vínculo e Encerramento:**  \n(1) Agenda retorno para reavaliação (mensal ou para ver exames);  \n(2) Reforça a importância da adesão ao tratamento para evitar recidivas.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

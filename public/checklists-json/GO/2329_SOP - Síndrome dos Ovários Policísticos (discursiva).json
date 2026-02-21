@@ -1,0 +1,166 @@
+{
+  "uid": 2329,
+  "hash": "pepe_2329",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "SOP - Síndrome dos Ovários Policísticos (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas.\n\nDescrição do caso:\nVocê está em atendimento no ambulatório e receberá uma paciente de 32 anos, casada, com queixa de irregularidade menstrual e dificuldade para engravidar.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso;  \n- Solicitar e Interpretar os dados do exame físico e dos exames complementares;  \n- Formular e verbalizar a hipótese diagnóstica principal;  \n- Citar três diagnósticos diferenciais para o caso (somente as 3 primeiras são aceitas);  \n- Orientar a conduta e o plano terapêutico inicial;  \n- Citar possíveis complicações a longo prazo decorrentes do diagnóstico.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mônica, 32 anos, casada, vendedora.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), vim aqui porque minha menstruação é muito desregulada e eu não consigo engravidar. Já faz 7 anos que estou tentando.  \n\n**SOBRE A MENSTRUAÇÃO:**  \n• **DUM:** a última faz mais de 2 meses.  \n• **Irregularidade:** Desde que menstruei a primeira vez, nunca foi certinho. Fico meses sem menstruar, às vezes até 6 meses.  \n• **Cólicas:** é muito irregular. As vezes aparece, outras não.  \n• **Uso de contraceptivo:** Nunca tomei pílula nem usei nada hormonal.  \n• **Relações sexuais:** Tenho relações com meu marido umas duas vezes por semana.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Pelos:** Desde a adolescência eu tenho muitos pelos. No rosto, nos braços, nas costas... Foi piorando com o tempo.  \n• **Acne:** Também tenho muita espinha, principalmente no rosto e nas costas.  \n• **Outros sintomas:** Nega ondas de calor, saída de leite pelas mamas, dor de cabeça ou alterações na visão.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** Não tenho nenhuma doença e não tomo nenhum remédio.  \n• **Cirurgias e internações:** Nunca precisei.  \n• **Peso:** Engordei um pouco depois que casei.  \n• **Alimentação:** como de tudo, não faço dieta.  \n• **Atv. física:** não faço nada atualmente.  \n• **Papanicolau:** fiz o último faz 2 anos e estava tudo certo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *Isso tem tratamento? O que eu preciso fazer?*  \n• *E para eu engravidar, tem algum jeito?*  \n• *E não poderia ser outra coisa?*  \n• *Isso pode me trazer algum outro problema de saúde no futuro?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 99% em ar ambiente  \n• **Temp. axilar:** 36.6°C  \n\n\n**Antropometria:**  \n• **Altura:** 1,62 m  \n• **Peso:** 71 kg  \n• **IMC:** 27 kg/m²  \n\n\n**Ectoscopia:**  \n• **Pele:** Presença de acne em face e dorso. Pilificação em buço, membros superiores, dorso e linha alba.  \n• **Escala de Ferriman-Gallwey:** 18  \n\n\n**Exame ginecológico:**  \n• **Especular:** Sem alterações.  \n• **Toque vaginal:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**PERFIL HORMONAL:**  \n• **TSH:** 2,1 mUI/L (VR: 0,4 - 4,5 mUI/L)  \n• **T4 Livre:** 1,1 ng/dL (VR: 0,7 - 1,8 ng/dL)  \n• **Prolactina:** 15 ng/mL (VR: < 25 ng/mL)  \n• **FSH:** 5,2 mUI/mL (VR: 3,5 - 12,5 mUI/mL - fase folicular)  \n• **17-OH Progesterona:** 0,8 ng/mL (VR: < 2,0 ng/mL - fase folicular)  \n\n\n**OUTROS:**  \n• **Cortisol urinário 24h:** 45 mcg/24h (VR: < 50 mcg/24h)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ULTRASSOM TRANSVAGINAL",
+      "conteudo": "**OLHE PARA A CÂMERA E VERBALIZE O(S) ACHADO(S) NA IMAGEM!**",
+      "imagem": "img_printeds/2023-2-e29p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da irregularidade menstrual e da infertilidade:**  \n(1) pergunta sobre a frequência e duração dos períodos de amenorreia;  \n(2) investiga o tempo de tentativa de concepção;  \n(3) pergunta sobre a frequência das relações sexuais.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sinais e sintomas de hiperandrogenismo:**  \n(1) pergunta sobre o início e a progressão do aumento de pelos (hirsutismo);  \n(2) pergunta sobre a presença e piora da acne.  \n\n**Adequado:** pergunta os dois itens.  \n**Parcialmente adequado:** pergunta um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames laboratoriais e de imagem para investigação de diagnósticos diferenciais da Síndrome do Ovário Policístico:**  \n(1) Ultrassonografia pélvica (OU transvaginal);  \n(2) Beta-HCG (OU teste de gravidez);  \n(3) TSH (OU TSH e T4 livre);  \n(4) Prolactina;  \n(5) 17-hidroxiprogesterona (OU 17-OH progesterona);  \n(6) Testosterona total;  \n(7) FSH.  \n\n**Adequado:** solicita o item (1) E três ou mais exames laboratoriais (itens 2 a 7).  \n**Parcialmente adequado:** solicita o item (1) E dois exames laboratoriais (itens 2 a 7) OU solicita quatro ou mais exames laboratoriais sem o exame de imagem.  \n**Inadequado:** solicita o item (1) e apenas um exame laboratorial OU solicita três ou menos exames laboratoriais sem o exame de imagem OU não solicita exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta os dados do exame físico e exames complementares que confirmam os critérios diagnósticos:**  \n(1) cita o hiperandrogenismo clínico (hirsutismo / Ferriman-Gallwey = 18 OU > 8);  \n(2) cita a disfunção ovulatória (oligo/amenorreia);  \n(3) cita a morfologia de ovários policísticos no ultrassom (volume > 10 cm³ E/OU ≥ 12 folículos).  \n\n**Adequado:** interpreta e cita os três itens.  \n**Parcialmente adequado:** interpreta e cita dois itens.  \n**Inadequado:** interpreta e cita um item ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a hipótese diagnóstica de Síndrome dos Ovários Policísticos (SOP).**  \n\n**Adequado:** verbaliza o diagnóstico completo.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza outro.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita três diagnósticos diferenciais que foram excluídos pelos exames normais:**  \n(1) disfunção tireoidiana;  \n(2) hiperprolactinemia;  \n(3) hiperplasia adrenal congênita não clássica;  \n(4) síndrome de Cushing;  \n(5) tumores produtores de androgênios.  \n\n**Adequado:** cita três ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** cita dois diagnósticos diferenciais.  \n**Inadequado:** cita um ou nenhum diagnóstico diferencial.  \n\n\\\n*OBS.: será aceito apenas os três primeiros verbalizados pelo candidato.*",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta, como primeira linha de tratamento, as mudanças no estilo de vida (MEV):**  \n(1) orienta a perda de peso;  \n(2) recomenda a prática de atividade física regular;  \n(3) sugere acompanhamento nutricional ou dieta balanceada.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define a conduta para o desejo de engravidar da paciente.**  \n\n**Adequado:** informa que a paciente poderá ser candidata à indução da ovulação com medicamentos específicos (Clomifeno ou Letrozol).  \n**Inadequado:** não aborda a questão da infertilidade ou indica tratamentos de alta complexidade como primeira linha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Cita três possíveis complicações a longo prazo da Síndrome dos Ovários Policísticos:**  \n(1) Diabetes Mellitus tipo 2 (ou resistência insulínica);  \n(2) dislipidemia (ou síndrome metabólica ou doença cardiovascular);  \n(3) câncer de endométrio;  \n(4) esteatose hepática não alcoólica (NAFLD);  \n(5) apneia do sono.  \n\n**Adequado:** cita três ou mais complicações.  \n**Parcialmente adequado:** cita duas complicações.  \n**Inadequado:** cita uma ou nenhuma complicação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Elabora um plano de seguimento.**  \n(1) solicita exames para rastreio de comorbidades metabólicas (glicemia de jejum e/ou perfil lipídico);  \n(2) agenda retorno para reavaliar a adesão às MEV e seguimento.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

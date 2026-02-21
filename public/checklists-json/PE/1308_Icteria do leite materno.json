@@ -1,0 +1,221 @@
+{
+  "uid": 1308,
+  "hash": "pepe_1308",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Icteria do leite materno",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde (UBS).  \nA unidade possui consultórios.\n\nDescrição do caso:\nVocê está em atendimento em uma Unidade Básica de Saúde e recebe uma mãe com seu bebê de 22 dias de vida. A mãe está preocupada, pois notou que a pele e os olhos do seu filho estão amarelados.",
+  "tarefas": "TAREFAS:  \n\n- Realizar a anamnese direcionada à queixa da mãe;  \n- Solicitar e interpretar exame(s), caso necessário;  \n- Informar a hipótese diagnóstica para o caso, afastando os possíveis diagnósticos diferenciais;  \n- Esclarecer dúvidas e orientar a mãe sobre a conduta.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Juliana, 29 anos.  \n• **RN:** Pedro, 22 dias.  \n\n\n**MOTIVO DE CONSULTA:** Doutor(a), percebi que o a pele e os olhos do Pedro estão amarelados.  \n\n\n**SOBRE A ICTERÍCIA:**  \n• **Início:** Eu notei faz uns 5 dias.  \n• **Localização:** Está no rosto e nos olhos dele.  \n• **Progressão:** Achei que ia melhorar sozinho, mas não melhorou ainda.  \n\n\n**SINTOMAS ASSOCIADOS:**  \n• **Estado geral:** Fora isso ele está super bem, bem ativo.  \n• **Urina e fezes:** O xixi e o cocô estão normais.  \n\n\n**PUERICULTURA:**  \n• **Idade:** Ele está com 22 dias hoje.  \n• **Semanas de gestação e via parto:** Ele nasceu de 39 semanas, de parto normal.  \n• **Pré-natal e intercorrências:** foram tranquilos, sem nenhum problema.  \n• **Amamentação:** Estou amamentando só no peito, e ele está mamando super bem.  \n• **Desenvolvimento:** Ele está ganhando peso direitinho.  \n• **VACINAÇÃO:** está anotado na caderneta dele.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato indique que é algum problema de aleitamento ou amamentação, questionar: ***Então devo parar de amamentar?***  \n\n\n**DÚVIDAS:**  \n• *O que ele tem?*  \n• *Como vai ser o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA CRIANÇA",
+      "conteudo": "**DADOS AO NASCIMENTO**  \n\n• **Idade Gestacional:** 39 semanas   \n\n• **Peso ao nascer:** 3.150g   \n\n\n**VACINAS ATUALIZADAS**   \n\n• BCG   \n\n• Hepatite B (1ª dose)   \n\n\n**TESTES DE TRIAGEM NEONATAL**   \n\n• **Teste do Pezinho:** Normal   \n\n• **Teste da Orelhinha:** Normal   \n\n• **Teste do Olhinho:** Normal",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 70x45 mmHg  \n• **FC:** 130 bpm  \n• **FR:** 45 irpm  \n• **SatO2:** 99%  \n• **Temp. axilar:** 36.8° C  \n• **Peso:** 3.800g  \n\n\n**Ectoscopia:** recém-nascido em bom estado geral, ativo, reativo, corado, hidratado e acianótico.  \n\n**Pele e mucosas:** Icterícia ++/4+ da face aos ombros. Escleras ictéricas bilateralmente.   \n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n**Respiratório:** murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n**Abdominal:** abdome plano e flácido, indolor a palpação, RHA preservados, timpânico a percussão, sem massa palpável.  \n\n**MMII:** sem alterações.  \n\n**Neurológico:** adequado para idade.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n\n• **Hemácias:** 4,8 milhões/mm3 (VR: 4,0 a 5,5 milhões/mm3)  \n\n• **Hemoglobina:** 15 g/dl (VR: 14 a 20 mg/dl)  \n\n• **Hematócrito:** 45% (VR: 44 - 64%)  \n\n\n• **Plaquetas:** 250.000 mm/3 (150.000 - 450.000 mm/3)  \n\n\n• **Leucócitos:** 8.000/mm3 (VR: 5.000 - 19.500/mm3)  \n\n• **Neutrófilos:** 60% (VR: 40 - 75%)  \n\n• **Linfócitos:** 30% (VR: 20 - 50%)  \n\n\n\n• **Bilirrubinas totais:** 8,0 mg/dl (VR: < 1,0 mg/dl)  \n\n• **Bilirrubina indireta:** 7,3 mg/dl (VR: 0,2 - 0,8 mg/dl)  \n\n• **Bilirrubina direta:** 0,7 mg/dl (VR: < 0,3 mg/dl)  \n\n\n\n**TIPAGEM SANGUÍNEA**  \n\n• **Mãe:** A+  \n\n• **Recém-nascido:** A+  \n\n• **Coombs Direto:** Negativo",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. O(a) candidato(a) cumprimentou a mãe e identificou-se da maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. O(a) candidato(a) estabeleceu clima harmônico na consulta, interagindo efetivamente com a mãe do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. O(a) candidato(a) ouviu com atenção as queixas da mãe do paciente, sem interrupção desnecessária.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. O(a) candidato(a) usou efetivamente linguagem não verbal (postura, gestual, atitude).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "~~**5. O(a) candidato(a) identificou nos dados apresentados o quadro de meningite meningocócica.**~~",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0.5",
+        "parcial": "0.5",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Item anulado! a pontuação correspondente ao  \nitem será atribuída a todos os participantes  "
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. O(a) candidato(a) identificou a icterícia clínica.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7.1. O(a) candidato(a) identificou hiperbilirruinemia indireta nos exames.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**7.2. O(a) candidato(a) reconheceu a ausência de fatores de risco para icterícia prolongada:**  \n(1) história de hemólise;  \n(2) vômitos;  \n(3) letargia;  \n(4) baixo peso;  \n(5) urina escura;  \n(6) fezes acólicas.  \n\n**Adequado:** reconhece 4 ou 5 fatores de risco.  \n**Parcialmente adequado:** reconhece 3 fatores de risco.  \n**Inadequado:** reconhece apenas 2 fatores ou menos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**7.3. O(a) candidato(a) afastou doença hemolítica (ABO; Rh) pelos dados nos exames.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**7.4. O(a) candidato(a) identificou não haver indicação de fototerapia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**7.5. O(a) candidato(a) identificou o aleitamento natural como fator prolongador da icterícia.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": "A ILM se desenvolve nas primeiras semanas de vida, geralmente entre a 2a e a 4a semana.\nA icterícia pode ser mais pronunciada em bebês alimentados exclusivamente com leite\nmaterno. Os bebês com ILM podem ter icterícia persistente e, em alguns casos, ela pode\nser mais grave do que a icterícia do aleitamento materno.\n\nImportante!: Não há necessidade de suspender o aleitamento\nmaterno, pois haverá regressão espontânea do quadro.\nPodem ser feitas correções das técnicas de amamentação,\norientação familiar e suplementação com fórmulas em\ncasos selecionados."
+    },
+    {
+      "idx": 12,
+      "descricao": "**7.6. O(a) candidato(a) orientou a manutenção do aleitamento materno.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**8. O(a) candidato(a) prestou atenção às inquietações do paciente, demonstrando empatia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**9. O(a) candidato(a) expressou-se com clareza e segurança ao orientar a mãe.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**10. O(a) candidato(a) conferiu entendimento, perguntando se há ainda dúvidas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**11. O(a) candidato(a) demonstrou interesse em auxiliar a mãe do paciente em sua situação de saúde.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

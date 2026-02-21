@@ -1,0 +1,150 @@
+{
+  "uid": 2211,
+  "hash": "pepe_2211",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Síndrome de Wolff-Parkinson-White (arritmia)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Atenção Secundária: Unidade de Pronto-Atendimento (UPA).  \nA unidade possui a seguinte infraestrutura:  \n• aparelhos para exames radiológicos convencionais (Rx);  \n• eletrocardiografia (ECG);  \n• laboratório de análises clínicas.\n\nDescrição do caso:\n• Homem de 19 anos, estudante universitário, procura atendimento na unidade  \napós episódio de desmaio ocorrido há aproximadamente 20 minutos.",
+  "tarefas": "Nos proximos 10 minutos, voce devera executar as tarefas a seguir:  \n1. realizar anamnese do paciente.  \n2. solicitar e interpretar exame físico.  \n3. solicitar e interpretar exames laboratoriais (no máximo SEIS exames).  \n4. solicitar e interpretar outros exames complementares pertinentes ao caso (no  \nmáximo DOIS exames). So serao pontuados os DOIS primeiros exames  complementares citados.  \n5. estabelecer e comunicar hipótese diagnóstica inicial.  \n6. propor tratamento e/ou encaminhamento do paciente para seguimento adequado.  \n\nATENÇÃO!  \nVOCÊ DEVERÁ, OBRIGATORIAMENTE,  \nREALIZAR AS TAREFAS NA SEQUENCIA DESCRITA ACIMA.  \nATENÇÃO!  \nO PACIENTE SIMULADO  \nNÃO DEVERA SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Ricardo, 19 anos de idade, estudante.  \n\n**MOTIVO DE CONSULTA**:  \n• Há 20 minutos mais ou menos eu tive um desmaio e fiquei preocupado porque pode ser grave né. Eu tava conversando com meus amigos e de repente senti o coração batendo forte e acelerado, minha visão escureceu e quando acordei tava todo mundo em volta de mim.  \n\n**SE PERGUNTADO POR EPISÓDIOS ANTERIORES**:  \n• É a primeira vez que eu desmaio, mas essa palpitação ja tive outras vezes.  \n\n**SE PERGUNTADO POR SINTOMAS ANTES DO DESMAIO**:  \n• Somente a palpitação e a visão escura.  \n\n**SE PERGUNTADO POR SINTOMAS DEPOIS DA RECUPERAÇÃO DO DESMAIO**:  \n• Negar todos.  \n\n**SINTOMAS ACOMPANHANTES**:  \n• Só senti a palpitação e a visão escura mesmo.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: não tenho problemas de saúde.  \n• **Medicamentos**: não uso medicamentos.  \n• **Alergias**: nega.  \n\n**HÁBITOS**:  \n• **Cigarro**: não fumo.  \n• **Álcool**: não.  \n• **Drogas ilícitas**: nega.  \n\n**AO RECEBER O DIAGNÓSTICO, PERGUNTAR**:  \n• O que é isso doutor, poderia me explicar? O que a gente vai fazer?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência cardíaca:** 84 batimentos por minuto.  \n**Pressão arterial:** 125 x 65 mmHg.  \n**Frequência respiratória:** 16 incursões respiratórias por minuto.  \n**Temperatura axilar:** 36,4°C.  \n**Saturação:** 99% de oxigênio em ar ambiente.  \n**IMC:** 23 Kg/m2.  \n\n\nPaciente em bom estado geral, afebril, acianótico, anictérico e hidratado; alerta, orientado no tempo e espaço.  \n\n\nAusculta respiratória com murmúrio vesicular presente em ambos os hemitóraxes, sem ruídos adventícios.  \n\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas; ausência de sopros.  \n\n\nAbdome flácido, normotenso, ruídos hidroaéreos normoativos; indolor à palpação e sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ASPECTOS NEUROLÓGICOS",
+      "conteudo": "Paciente alerta, orientado no tempo e espaço, verbalizando e interagindo de forma apropriada. Sem alterações focais.  \n\n\n**Exame de marcha:** sem alterações.  \n\n\n**Equilíbrio:** preservado.  \n**Motricidade:** preservado.  \n**Coordenação motora:** normal.  \n**Força muscular:** preservado nos 4 membros.  \n\n\n**Reflexos:** preservados e normais.  \n\n\n**Nervos cranianos:** testados todos 12 pares sem alterações.  \n\n\n**Sensibilidade:** preservados e normais em todo corpo.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "",
+      "imagem": "img_printeds/2022-2-e1p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "ELETROCARDIOGRAMA (ECG)",
+      "conteudo": "**Frequência cardíaca:** 64 batimentos por minuto *(Valor de Referência: 60 e 100 bpm)*.  \n\n\n**Ritmo:** sinusal.  \n\n\n**Intervalo PR:** < 120 ms *(Valor de Referência: 120 a 200 ms)*.  \n\n\n**Presença de onda delta:** presente *(Valor de Referência: Ausência de onda delta)*.  \n**Duração do QRS:** 120 ms (com onda delta) *(Valor de Referência: 60 ms a <120 ms)*.  \n**Eixo SÂQRS:** -30° *(Valor de Referência: entre -30º e +90º)*.",
+      "imagem": "img_printeds/2022-2-e1p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se e cumprimenta o paciente simulado;  \n(2) Pergunta algum dado de identificação (idade, estado civil, profissão e/ou naturalidade).  \n\n**Adequado:** realiza todos os procedimentos.  \n**Parcialmente adequado:** realiza um dos procedimentos.  \n**Inadequado:** não realiza procedimento algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre manifestações durante e após a crise:**  \n(1) Movimentos involuntários (ou convulsão);  \n(2) Liberação esfincteriana;  \n(3) Lesões na língua, crânio ou na face (ou se bateu com a cabeça);  \n(4) Padrão de recuperação.  \n\n**Adequado:** investiga três ou mais achados clínicos.  \n**Parcialmente adequado:** investiga dois achados clínicos.  \n**Inadequado:** investiga apenas um achado clínico ou nao investiga achado clínico algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre manifestações que precedem a crise:**  \n(1) Uso de medicamentos, drogas lícitas e ilícitas;  \n(2) Alimentação e jejum;  \n(3) Atividade física;  \n(4) Eventos similares anteriores;  \n(5) Doenças prévias e traumas.  \n\n**Adequado:** investiga três ou mais achados.  \n**Parcialmente adequado:** investiga dois achados.  \n**Inadequado:** investiga apenas um achado ou não investiga achado algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita: (1) exame físico geral e (2) exame neurológico.**  \n\n**Adequado:** solicita exame físico especificando aspecto neurológico.  \n**Parcialmente adequado:** solicita exame físico mas não especifica aspecto neurológico.  \n**Inadequado:** não solicita exame físico.  \n\n*ATENÇÃO: O(A) participante só irá pontuar caso solicite o exame físico ANTES de receber o impresso.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais:**  \n(1) Glicemia;  \n(2) Sódio;  \n(3) Potássio;  \n(4) Hematócrito/hemoglobina ou hemograma;  \n(5) Cálcio;  \n(6) Magnésio.  \n\n**Adequado:** solicita de quatro a seis dos exames listados.  \n**Parcialmente adequado:** solicita de dois a três dos exames listados.  \n**Inadequado:** solicita um dos exames listados ou não solicita exame algum.  \n\n*ATENÇÃO: O candidato só irá pontuar caso ele cite os exames listados ANTES de receber o impresso.*  \n*Só serão considerados os seis primeiros exames citados pelo participante ANTES de receber o impresso.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. (1) Solicita e (2) interpreta o eletrocardiograma (ECG).**  \n\n**Adequado:** solicita e relaciona os achados do ECG (PR-Curto ou Wolf-Parkinson-White ou presença de onda delta) a riscos de arritmia (ou alteração da atividade elétrica do coração).  \n**Parcialmente adequado:** solicita, mas não interpreta corretamente o achado.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula hipóteses diagnósticas.**  \n\n**Adequado:** identifica e explica o diagnóstico de síncope ou desmaio/perda de consciência de origem cardíaca, relacionando-o à arritmia ou alteração da atividade elétrica doncoração (mencionando ou não taquicardia ou pré-excitação ventricular ou Wolff-Parkinson-White).  \n**Inadequado:** não identifica a síncope ou desmaio/perda de consciência de origem cardíaca.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Seguimento do paciente: encaminha para a cardiologia e/ou realização de Holter.**  \n\n**Adequado:** encaminha.  \n**Inadequado:** não encaminha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza adequadamente a sequência das tarefas, conforme solicitado nas orientações ao participante.**  \n\n**Adequado:** realiza.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

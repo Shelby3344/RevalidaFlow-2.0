@@ -1,0 +1,161 @@
+{
+  "uid": 2327,
+  "hash": "pepe_2327",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Neoplasia de Pâncreas (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: ambulatório de Cirurgia Geral.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• solicitações de exames laboratoriais;  \n• solicitações de exames de imagem.\n\nDescrição do caso:\nVocê está em atendimento no ambulatório de cirurgia geral e receberá um homem de 68 anos, encaminhado da Unidade Básica de Saúde (UBS) para investigação de dor abdominal e perda de peso.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Verbalizar a principal hipótese diagnóstica.  \n- Propor as condutas terapêuticas para o caso.  \n\n\\\nO TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA A REALIZAÇÃO DO EXAME ABDOMINAL.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• João Carlos, 68 anos, aposentado.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim do postinho por causa de uma dor na barriga que não passa, também estou perdendo muito peso e minha pele está mais amarela.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou faz 2 meses isso.  \n• **Localização:** É na boca do estômago.  \n• **Característica:** É uma dor que não melhora com nada, não tem relação com o que eu como.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Icterícia:** Faz 1 mês que minha pele e meus olhos começaram a ficar amarelados.  \n• **Colúria:** Minha urina está bem escura, parece chá-mate.  \n• **Acolia Fecal:** Minhas fezes estão brancas, sem cor.  \n• **Prurido:** Sinto uma coceira no corpo todo.  \n• **Perda de peso:** Emagreci muito, uns 15 quilos nos últimos 3 meses, sem fazer dieta.  \n• **Astenia/Cansaço/Fraqueza:** Sim, estou me sentindo muito fraco. Deve ser porque estou perdendo peso.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, cirurgias e internações:** Nego.  \n• **Doenças:** Tenho pressão alta e gastrite. E agora faz um ano que apareceu a diabetes.  \n• **Medicações:** Tomo losartana, hidroclorotiazida, omeprazol e metformina.  \n• **Álcool, tabaco e drogas:** Eu bebo um pouco quase todo dia. e fumo há muitos anos, quase um maço por dia.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho é grave, doutor(a)?*  \n• *O que essa massa na minha barriga significa?*  \n• *Tem tratamento para o meu caso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 140x88 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.5°C  \n\n\n**Ectoscopia:** Bom estado geral, hipocorado +/4+, hidratado, eupneico, ictérico 3+/4+, acianótico.  \n• Presença de escoriações na pele por prurido.  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** sem alterações.  \n\n\n**ABDOMINAL:**  \n• **Inspeção:** Abdome plano.  \n• **Ausculta:** Ruídos hidroaéreos presentes e normoativos.  \n• **Palpação:** Massa arredondada, de consistência fibroelástica e indolor palpável abaixo do rebordo costal direito. Dor à palpação profunda em quadrante superior direito.  \n• **Sinais de irritação peritoneal:** Descompressão brusca negativa.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 12,5 g/dL (VR: 13 – 15 g/dL)  \n• **Hematócrito:** 38% (VR: 41 – 54%)  \n\n\n**PERFIL HEPÁTICO**  \n• **Bilirrubinas totais:** 18,8 mg/dL (VR: 0,3 – 1,0 mg/dL)  \n• **Bilirrubina direta:** 16,4 mg/dL (VR: 0,1 – 0,3 mg/dL)  \n• **Bilirrubina indireta:** 2,4 mg/dL (VR: 0,2 – 0,7 mg/dL)  \n• **TGO:** 180 U/L (VR: 0 – 35 U/L)  \n• **TGP:** 194 U/L (VR: 0 – 35 U/L)  \n• **Fosfatase alcalina:** 348 U/L (VR: 30 – 120 U/L)  \n• **Gama-GT:** 138 U/L (VR: 1 – 94 U/L)  \n\n\n**COAGULOGRAMA**  \n• **INR:** 1,8 (VR: 0,8 – 1,2)  \n\n\n**PERFIL GLICÊMICO**  \n• **Glicemia de jejum:** 199 mg/dL (VR: 70 – 100 mg/dL)  \n• **Hemoglobina glicada:** 9% (VR: < 5,6%)  \n\n\n**PERFIL RENAL**  \n• **Ureia:** 54 mg/dL (VR: 10 – 45 mg/dL)  \n• **Creatinina:** 1,4 mg/dL (VR: 0,6 – 1,2 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "MARCADORES TUMORAIS",
+      "conteudo": "• **Antígeno Carcinoembrionário (CEA):** 12 ng/mL (VR: 0,2 – 5 ng/mL)  \n• **CA 19.9:** 950 U/mL (VR: 0,6 – 37 U/mL)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "TC DE ABDOME",
+      "conteudo": "**LAUDO:**  \n• Massa sólida em cabeça do pâncreas com 5 cm de diâmetro, com sinais de invasão duodenal e de vasos mesentéricos.  \n• Dilatação acentuada das vias biliares intra e extra-hepáticas.  \n• Vesícula biliar aumentada de volume, com paredes finas e conteúdo homogêneo em seu interior.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga os sintomas de colestase e consumo:**  \n(1) icterícia (pele/olhos amarelados);  \n(2) colúria (urina escura);  \n(3) acolia fecal (fezes claras);  \n(4) prurido (coceira);  \n(5) perda de peso.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga os fatores de risco para neoplasia de pâncreas:**  \n(1) tabagismo;  \n(2) etilismo;  \n(3) diabetes mellitus;  \n(4) idade;  \n(5) obesidade (IMC).  \n\n**Adequado:** investiga três ou mais fatores.  \n**Parcialmente adequado:** investiga dois fatores.  \n**Inadequado:** investiga um fator ou não investiga fator algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta o achado da massa palpável no exame físico.**  \n\n**Adequado:** verbaliza que a massa corresponde à vesícula biliar distendida e palpável OU Sinal de Courvoisier-Terrier.  \n**Parcialmente adequado:** verbaliza que é uma massa em hipocôndrio direito, sem especificar a vesícula ou o sinal.  \n**Inadequado:** não interpreta o achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais pertinentes para a investigação.**  \n(1) hemograma;  \n(2) perfil hepático (bilirrubinas, TGO, TGP, FA, GGT);  \n(3) coagulograma (INR);  \n(4) marcadores tumorais (CA 19.9 e/ou CEA).  \n\n**Adequado:** solicita três ou mais grupos de exames.  \n**Parcialmente adequado:** solicita dois grupos de exames.  \n**Inadequado:** solicita um grupo de exames ou não solicita nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame de imagem abdominal.**  \n\n**Adequado:** solicita Tomografia Computadorizada de Abdome.  \n**Inadequado:** não solicita TC de abdome OU solicita apenas ultrassonografia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a principal hipótese diagnóstica.**  \n\n**Adequado:** verbaliza o diagnóstico de neoplasia de cabeça de pâncreas OU adenocarcinoma de pâncreas.  \n**Parcialmente adequado:** verbaliza o diagnóstico de neoplasia periampular.  \n**Inadequado:** não verbaliza a hipótese diagnóstica ou cita outra.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Correlaciona os achados dos exames com o diagnóstico.**  \n(1) Padrão colestático no perfil hepático (aumento de bilirrubina direta, FA e GGT);  \n(2) Alargamento do INR;  \n(3) Elevação significativa do CA 19.9;  \n(4) achados da TC (massa em cabeça de pâncreas com invasão local).  \n\n**Adequado:** correlaciona três ou mais achados.  \n**Parcialmente adequado:** correlaciona dois achados.  \n**Inadequado:** correlaciona um ou nenhum achado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica o conceito de estadiamento e a necessidade de biópsia.**  \n\n**Adequado:** explica que, apesar da alta suspeita, é necessária a confirmação por biópsia (geralmente por ecoendoscopia com punção) e que o tratamento dependerá do estadiamento completo da doença.  \n**Inadequado:** não menciona a necessidade de confirmação histopatológica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Cita cinco possíveis condutas (clínicas e cirúrgicas) para o paciente.**  \n(1) Quimioterapia (paliativa, neoadjuvante ou adjuvante);  \n(2) Radioterapia;  \n(3) Drenagem da via biliar (endoscópica por CPRE ou percutânea);  \n(4) Derivação cirúrgica (gastroenteroanastomose ou coledocojejunostomia) para alívio de sintomas;  \n(5) Controle da dor e suporte nutricional.  \n\n**Adequado:** cita quatro ou mais condutas.  \n**Parcialmente adequado:** cita duas ou três condutas.  \n**Inadequado:** não cita as condutas ou cita apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

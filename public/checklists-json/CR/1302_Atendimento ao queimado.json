@@ -1,0 +1,166 @@
+{
+  "uid": 1302,
+  "hash": "pepe_1302",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Atendimento ao queimado",
+  "definicao": "Referência:\r\nAtualização na reposição volêmica do paciente queimado\r\nColtro PS. Atualização na reposição volêmica do paciente queimado. Rev Bras Queimaduras2025;24(1):2-3\r\nhttps://www.rbqueimaduras.com.br/export-pdf/591/v24n1a02.pdf",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Local de atuação: urgência e emergência - pronto-socorro de hospital.  \nA unidade hospitalar possui a seguinte infraestrutura:  \n• Setor de radiologia convencional;  \n• Laboratório de análises clínicas;  \n• Leitos de internação;  \n• Centro cirúrgico.  \n\n.\n\nDescrição do caso:\nVocê é médico(a) que está de plantão em um pronto-socorro e atenderá uma paciente de 24 anos, trazida pelo namorado com queimaduras pelo corpo após acidente em churrasqueira há 20 minutos.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Colher história clínica relevante sobre o caso;  \n- Realizar o atendimento da paciente;  \n- Avaliar o grau das lesões, calcular a extensão da superfície corporal queimada e o volume de reposição volêmica;  \n- adotar a conduta terapêutica necessária.  \n\n\nATENÇÃO!  \n- CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \n- A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO!  \n- HÁ NA ESTAÇÃO TODOS OS MATERIAIS NECESSÁRIOS AO ATENDIMENTO DA PACIENTE!  \nINSTRUÇÕES PARA O(A) PARTICIPANTE",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• SOMENTE APÓS O CANDIDATO CONCLUIR TODA A AVALIAÇÃO DO ABCDE, LIBERAR O IMPRESSO **AVALIAÇÃO PÓS ABCDE**.  \n\n\n**DADOS PESSOAIS:**  \n• Ana, 24 anos, estudante.  \n\n\n**MOTIVO DE CONSULTA:** Doutor(a), eu me queimei tentando acender a churrasqueira.  \n\n\n**SOBRE O ACIDENTE:**  \n• **Início:** faz uns 20 minutos.  \n• **Como aconteceu:** Eu estava tentando acender a churrasqueira e só tinha álcool em casa. Joguei o álcool no carvão, mas acho que escorreu um pouco em mim. Quando risquei o fósforo, o fogo veio pra cima.  \n• **Localização:** tirando o rosto, acho que a parte da frente inteira queimou.  \n• **Dor:** Está doendo demais, é uma dor insuportável.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Última refeição:** faz umas 3 horas.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *É necessário transferir a paciente para um centro especializado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "• **PA:** 125x85 mmHg  \n\n• **FC:** 98 bpm  \n\n• **FR:** 19 irpm  \n\n• **SatO2:** 95%  \n\n• **Temp. axilar:** 36.8° C  \n\n• **Peso:** 44.5 kg",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "SUPERFÍCIE CORPORAL QUEIMADA",
+      "conteudo": "**RESPONDA AS PERGUNTAS A SEGUIR:**  \n\n\n• **1 - Qual o total da superfície corporal queimada (regra dos 9)?**  \n• **2 - Qual o tipo de líquido a ser infundido?**  \n• **3 - Qual o volume indicado para reposição volêmica nas primeiras 8 h?**  \n• **4 - Qual o volume indicado para reposição volêmica nas 16 horas seguintes?**",
+      "imagem": "img_printeds/2013-e2p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "AVALIAÇÃO PÓS ABCDE",
+      "conteudo": "• **A:** Via aérea pérvea.  \n\n• **B:** Padrão respiratório normal, saturação de 98% após oxigenioterapia.  \n\n• **C:** Ausculta cardiorespiratória sem alterações, ausência de hemorragias e pelve estável.  \n\n• **D:** Glasgow 15, pupilas isocóricas e fotorreagentes.  \n\n• **E:** Tronco e coxas apresentando queimaduras de coloração rosa com presença de bolhas locais e dor moderada.  \nÁrea de braços e antebraços anteriores com queimaduras de coloração marrom e textura seca com ausência de dor em alguns locais.  \n\n\n**ATENÇÃO**  \n**VERBALIZE QUAL O GRAU DE QUEIMADURAS DA PACIENTE**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. O(a) candidato(a) verificou a permeabilidade das VVAA.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. O(a) candidato(a) verificou o padrão respiratório e indicou O2 sob cateter nasal ou máscara a 2 a 3L/min..**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. O(a) candidato(a) indicou a punção de duas veias calibrosas e iniciou ressuscitação volêmica com Ringer ou SF (2000 ml)..**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. O(a) candidato(a) colheu informações referentes a antecedentes relevantes para o tratamento (ARDEU):**  \n(1) A-alergias;  \n(2) R-remédios;  \n(3) D-doenças prévias;  \n(4) E-eventos relacionados;  \n(5) U-última refeição.  \n\n**Adequado:** investiga todos os itens.  \n**Parcialmente adequado:** investiga 3 ou 4 itens.  \n**Inadequado:** investiga 2 itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. O(a) candidato(a) avaliou corretamente o grau das lesões, identificando como 2º e 3º graus.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. O(a) candidato(a) calculou corretamente a área queimada (18% tronco anterior, 18% coxas e 9% antebraços = 45%).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. O(a) candidato(a) realizou o tratamento inicial da dor indicando soro ou compressas frias sobre as lesões e analgésicos.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. O(a) candidato(a) orientou a cobertura das lesões com compressas estéreis.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. O(a) candidato(a) indicou a passagem de sondas vesical e nasogástrica.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. O(a) candidato(a) calculou volume de reposição volêmica pela formula de Parkland:**  \n2 ml x % SCQ x peso (kg)= 4.000-4005 mL: infundir 50% do volume calculando nas primeiras 8 horas e 50% nas 16 horas seguintes.  \n\n*OBS: Também considerar adequado caso o candidato verbalize 4.000-4005 mL em 16 horas, sem divisão de intervalos.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "Até a 10ª edição do ATLS (2018), para pacientes adultos com\nqueimaduras térmicas, a recomendação era realizar essa reposição\nde volume nas primeiras 24 horas, com base na fórmula: 2 ml x\nPeso (kg) x SCQ (%), sendo que metade desse volume deveria ser\nadministrado nas primeiras 8 horas após o trauma, e a outra metade\nnas próximas 16 horas.\n\nNa 11ª edição do ATLS (2025), para queimaduras térmicas de \npacientes adultos, a recomendação é realizar a reposição de volume \ncom base na mesma fórmula: 2ml x Peso (kg) x SCQ (%), porém agora \nnas primeiras 16 horas após o trauma (sem divisão de intervalos), \ne não mais nas primeiras 24 horas."
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. O(a) candidato(a) indicou internação ou remoção para um centro de queimados após estabilização.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

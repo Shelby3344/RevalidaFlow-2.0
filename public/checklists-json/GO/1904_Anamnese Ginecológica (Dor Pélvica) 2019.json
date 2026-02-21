@@ -1,0 +1,246 @@
+{
+  "uid": 1904,
+  "hash": "pepe_1904",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Anamnese Ginecológica (Dor Pélvica) | 2019",
+  "definicao": "Estação simples, apenas com anamnese.  \nPratique com o menor tempo possível.  \n\nEstação original adaptada  \nPSU-CE 2019 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê está atendendo na UBS e recebe uma paciente de 25 anos, que comparece à consulta com queixa de dor no \"pé da barriga\".",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese ginecológica completa dirigida à queixa da paciente.  \n\n\\\nNÃO É NECESSÁRIO REALIZAR O EXAME FÍSICO.  \nNÃO É NECESSÁRIO FORMULAR DIAGNÓSTICOS.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Edneia, 25 anos, vendedora de roupas.  \n\n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor chata na minha barriga e um corrimento que está incomodando.  \n\n\n**SOBRE A DOR:**  \n• **Início:** Começou faz uns 5 dias e é o tempo todo, não para. Começou logo depois que minha menstruação acabou.    \n• **Localização:** Dói bem no meio, no final da barriga.  \n• **Irradiação:** Às vezes parece que vai para as costas (região lombar).  \n• **Característica:** É uma dor tipo cólica, mas diferente da menstrual.  \n• **Intensidade:** De 0 a 10, é uns 6. Incomoda bastante.  \n\n• **Fatores de Piora:** Piora quando eu ando muito ou quando tenho relação sexual.  \n• **Fatores de Alívio:** Melhora um pouco quando eu deito ou tomo Dipirona, mas logo volta.  \n\n\n**CORRIMENTO:** Começou faz uns 4 dias.  \n• **Cor:** É meio amarelado.  \n• **Cheiro/Odor:** tem um cheiro um pouco forte.  \n• **Sangramento:** nega.  \n\n\n**SINTOMAS URINÁRIOS:**\n• **Disuria:** arde um pouco sim.  \n• **Polaciuria:** Estou indo fazer xixi toda hora.  \n• **Cor:** A cor da urina está normal.  \n\n\n**DEMAIS SINTOMAS:**  \n• **Intestinais:** O intestino está normal, não tive diarreia nem constipação.  \n• **Febre, Cefaleia e Vômitos:** nega.  \n\n\n**HISTÓRICO GINECOLÓGICO E SEXUAL:**  \n• **Menarca:** Minha primeira menstruação foi com 12 anos (menarca).  \n• **Menstruação:** O fluxo é normal, dura uns 5 dias e vem todo mês.  \n• **Cólicas:** tenho um pouco de cólica no começo, mas depois passa.  \n\n\n• **Sexarca:** Comecei com 17 anos. \n• **Dispareunia:** Dói na hora da relação, lá no fundo.  \n• **Parceria fixa:** Tive 3 parceiros na vida. Agora estou com um namorado novo há 2 meses.  \n• **Contracepção:** Tomo pílula anticoncepcional, mas esqueço às vezes.  \n• **Preservativo:** Com esse namorado novo a gente não está usando muito camisinha.  \n\n\n**DEMAIS PERGUNTAS:** Não consta no Script.",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**01 Identificou-se para o paciente? (nome OU profissão)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**02 Cumprimentou a paciente?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**03 Perguntou pelo menos 3 itens da identificação do paciente? (nome, idade, naturalidade, procedência, profissão, escolaridade, raça ou religião)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**04 Passou a tratar o paciente pelo nome?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**05 Não interrompeu o paciente nos primeiros segundos da queixa principal e HDA?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**06 Perguntou sobre o tipo de dor?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**07 Perguntou sobre a localização E a irradiação da dor?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**08 Perguntou sobre a intensidade E a duração da dor?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**09 Perguntou por fatores de piora E de alívio da dor?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10 Perguntou se a dor tem relação com o ciclo menstrual?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11 Questionou se a paciente tem corrimento?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12 Questionou pelo menos 2 sintomas urinários? (polaciúria, disúria ou alteração da cor da urina)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13 Questionou se houve mudança no hábito intestinal? (constipação, diarreia ou dor ao defecar)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14 Perguntou se tem dor e sangramento na relação sexual?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15 Perguntou pelo menos 3 itens sobre a menstruação? (menarca, intensidade, duração ou intervalo)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16 Interrogou pelo menos 2 itens sobre a vida sexual? (início, número de parceiros ou vida sexual ativa)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17 Perguntou sobre contracepção?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18 Questionou sobre uso de preservativo?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19 Perguntou se a paciente queria acrescentar algo que não houvesse sido questionado?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20 Manteve o contato visual com a paciente durante a anamnese?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "uid": 2321,
+  "hash": "pepe_2321",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Esôfago de Barret (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• acesso ao sistema de resultados de exames laboratoriais e de imagem.\n\nDescrição do caso:\nVocê está em atendimento ambulatorial e receberá um homem de 55 anos que procura atendimento com queixa de queimação no peito e retorno do alimento, trazendo o resultado de uma endoscopia.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Interpretar o resultado do exame de endoscopia digestiva alta.  \n- Verbalizar o diagnóstico com base nos achados.  \n- Elaborar e explicar o plano terapêutico, incluindo medidas medicamentosas e não medicamentosas.  \n- Responder às dúvidas do paciente.  \n\n\\\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 55 anos, motorista de aplicativo.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim trazer o resultado de uma endoscopia que eu fiz. E continuo com uma queimação e a comida voltando.  \n\n**SOBRE A QUEIMAÇÃO E REGURGITAÇÃO:**  \n• **Início:** Já faz muitos meses, mas vem piorando.  \n• **Frequência:** Quase todo dia, principalmente à noite.  \n• **Piora:** Piora muito quando eu como coisas gordurosas ou tomo muito café. E se eu deito logo depois de comer, a comida volta na garganta.  \n• **Melhora:** Tomo um antiácido de vez em quando, mas o alívio dura pouco.  \n• **Dor torácica:** Às vezes sinto uma dor no peito que me assusta, parece que é do coração, mas acho que é por causa disso.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Tosse:** Tenho tido uma tosse seca, principalmente quando me deito à noite.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Que eu saiba, não tenho nenhuma doença.  \n• **Medicações:** Só esse antiácido que compro na farmácia.  \n• **Cirurgias:** Nunca operei.  \n\n**HÁBITOS DE VIDA:**  \n• **Peso:** Eu sei que estou acima do peso, a vida de motorista é complicada.  \n• **Tabagismo:** Fumo um maço de cigarro por dia há uns 30 anos.  \n• **Álcool:** Tomo umas duas ou três latinhas de cerveja todo fim de semana.  \n• **Alimentação:** Gosto de tomar um cafezinho o dia todo pra ficar acordado. No almoço, como o que tem no restaurante, geralmente comida mais pesada.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que deu nesse meu exame? É grave?*  \n• *Essa tal de metaplasia... isso é câncer?*  \n• *E como a gente trata isso?*  \n• *Vou ter que fazer de novo essa endoscopia pra ver se melhorou?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "ENDOSCOPIA DIGESTIVA ALTA COM BIÓPSIA",
+      "conteudo": "**Achados Endoscópicos:**  \n• Esôfago: Presença de esofagite erosiva moderada (Grau C de Los Angeles).  \n• Junção Esofagogástrica (JEG): Posicionada 4 cm acima do pinçamento diafragmático, caracterizando hérnia de hiato por deslizamento.  \n• Mucosa Gástrica: Observam-se linguetas de mucosa de coloração salmão ascendendo da JEG, sugestivas de metaplasia intestinal. Realizadas biópsias.  \n• Estômago e Duodeno: Sem outras alterações.  \n\n\n**Resultado da Biópsia (Anatomopatológico):**  \n• **Descrição:** Fragmentos de mucosa esofágica distal exibindo epitélio colunar com metaplasia intestinal (presença de células caliciformes).  \n• **Conclusão:** Ausência de displasia ou sinais de malignidade na amostra examinada.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 135 x 85 mmHg  \n• **Frequência Cardíaca:** 88 batimentos por minuto  \n• **Frequência Respiratória:** 18 incursões respiratórias por minuto  \n• **Temperatura Axilar:** 36,5°C  \n\n\n**ANTROPOMETRIA:**  \n• **Peso:** 105 kg  \n• **Altura:** 1,75 m  \n• **IMC:** 34,3 kg/m²  \n• **Circunferência Abdominal:** 104cm.  \n\n\n**EXAME CLÍNICO:**  \n• Bom estado geral, corado, hidratado, anictérico.  \n• Aparelho cardiovascular e respiratório sem alterações.  \n• Abdome: Globoso, flácido, indolor à palpação, sem visceromegalias. Ruídos hidroaéreos presentes.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da queimação e regurgitação:**  \n(1) início e/ou frequência;  \n(2) fatores de piora (alimentos, decúbito);  \n(3) fatores de melhora;  \n(4) intensidade.  \n\n**Adequado:** pergunta três ou mais características.  \n**Parcialmente adequado:** pergunta duas características.  \n**Inadequado:** pergunta uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas associados relevantes:**  \n(1) dor torácica;  \n(2) tosse seca (principalmente noturna);  \n(3) dificuldade ou dor para engolir (disfagia/odinofagia).  \n\n**Adequado:** investiga os três sintomas.  \n**Parcialmente adequado:** investiga dois sintomas.  \n**Inadequado:** investiga um ou nenhum sintoma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga hábitos de vida que são fatores de risco:**  \n(1) tabagismo;  \n(2) consumo de álcool;  \n(3) hábitos alimentares (café, gordura);  \n(4) obesidade/sobrepeso.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta e verbaliza os achados da endoscopia e biópsia:**  \n(1) hérnia de hiato;  \n(2) esofagite erosiva;  \n(3) Esôfago de Barrett (OU metaplasia intestinal).  \n\n**Adequado:** verbaliza os três achados.  \n**Parcialmente adequado:** verbaliza dois achados.  \n**Inadequado:** verbaliza um ou nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico principal de Esôfago de Barrett secundário à Doença do Refluxo Gastroesofágico.**  \n\n**Adequado:** verbaliza o diagnóstico completo, associando Barrett ao refluxo.  \n**Parcialmente adequado:** verbaliza apenas \"Esôfago de Barrett\" ou apenas \"Doença do Refluxo\".  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza um diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica à paciente, em linguagem acessível, o que é o Esôfago de Barrett e o seu principal risco associado.**  \n(1) explica que é uma transformação das células do esôfago causada pela acidez do estômago; e  \n(2) menciona o risco aumentado de adenocarcinoma de esôfago.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza nenhuma ação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve o tratamento medicamentoso de primeira linha.**  \n\n**Adequado:** prescreve inibidor de bomba de prótons (IBP).  \n**Inadequado:** não prescreve IBP ou prescreve apenas antiácidos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta medidas comportamentais relacionadas à dieta e hábitos pós-refeição:**  \n(1) evitar alimentos gordurosos, ácidos, apimentados e café;  \n(2) elevar a cabeceira da cama; e,  \n(3) evitar deitar-se logo após as refeições.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre a necessidade de mudança de hábitos de vida.**  \n(1) cessar o tabagismo;  \n(2) perder peso; e,  \n(3) reduzir o consumo de álcool.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Define o plano de seguimento e vigilância endoscópica para o Esôfago de Barrett.**  \n\n**Adequado:** explica que, por se tratar de um Barrett sem displasia, o paciente precisará repetir a endoscopia com biópsias a cada 3 a 5 anos para vigilância.  \n**Inadequado:** não estabelece um plano de vigilância endoscópica ou indica um intervalo incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

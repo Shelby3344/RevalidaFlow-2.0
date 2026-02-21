@@ -1,0 +1,149 @@
+{
+  "uid": 2216,
+  "hash": "pepe_2216",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Anemia Megaloblástica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Unidade de Atenção Terciária: Ambulatorial e Hospitalar.  \n• A unidade possui infraestrutura compatível com a complexidade hospitalar.\n\nDescrição do caso:\n• Mulher de 26 anos, com queixas de fadiga, cefaleia e dormência nas mãos há seis  \nmeses.",
+  "tarefas": "Nos proximos 10 minutos, você devera executar as tarefas a seguir:  \n1. realizar anamnese da paciente.  \n2. solicitar e interpretar exame físico.  \n3. solicitar e interpretar exames complementares do caso clínico, se necessário.  \n4. definir a(s) hipótese(s) diagnóstica(s) e sua(s) etiologia(s).  \n5. propor a conduta terapêutica necessária.  \n\n\nATENÇÃO:  \nVOCÊ DEVERÁ, OBRIGATORIAMENTE,  \nREALIZAR AS TAREFAS NA SEQUENCIA DESCRITA ACIMA.  \nA PACIENTE SIMULADA  \nNÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Fernanda, 26 anos, casada, comerciante.  \n\n**MOTIVO DE CONSULTA**:  \n• Faz uns 6 meses que estou sentindo dormência nas mãos, nos pés, dor de cabeça e cansaço.  \n\n**SE PERGUNTADO SOBRE OS SINTOMAS DO MOTIVO DE CONSULTA**:  \n• Não consta no script (a única informação disponível é o tempo de evolução de 6 meses).  \n\n**SE PERGUNTADO POR**:  \n• **Alteração na marcha**: sinto que estou caminhando meio estranho.  \n• **Perda de força/fraqueza**: sim, parece que estou sem força nas pernas.  \n• **Perda de equilíbrio**: nega.  \n• **Queda**: sim, duas vezes. Acho que foi pela fraqueza nas pernas.  \n• **Tontura**: nega.  \n• **Alteração em mucosas/ língua**: sinto que a língua está meio inflamada.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: não tenho nenhum problema de saúde.  \n• **Alergias**: nega.  \n• **Cirurgias**: fiz cirurgia bariátrica há 5 anos.  \n• **Medicamentos/ suplementos/ vitaminas**: não tomo nada.  \n\n**HÁBITOS**:  \n• **Álcool**: bebo no fins de semana.  \n• **Cigarro**: nega.  \n• **Drogas ilícitas**: nega.  \n• **Peso corporal**: não percebi alteração no peso.  \n• **Fezes**: nega alterações.  \n• **Urina**: nega alterações.  \n• **Alimentação**: como pequenas porções ao longo do dia.  \n• **Alterações menstruais ou sangramento vaginal anormal**: nega.  \n\n**AO SER INFORMADO DO TRATAMENTO, PERGUNTAR**:  \n• Tenho que tomar essas vitaminas por quanto tempo?  \n\n**SE O CANDIDATO MENCIONAR INJEÇÕES DE VITAMINA B12, QUESTIONAR**:  \n• Não queria tomar injeções, existe outra opção?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Pressão arterial:** 110 x 80 mmHg.  \n**Frequência cardíaca:** 108 batimentos por minuto.  \n**Frequência respiratória:** 12 incursões respiratórias por minuto.  \n**Temperatura:** 37,1º C.  \n**Saturação de oxigênio:** 98% em ar ambiente.  \n\n\nBom estado geral, hidratada e hipocorada (2+/4+); língua lisa com sinais de glossite com hiperemia e relevo alterado; acianótica, anictérica e afebril; sem linfonodomegalias; pele com eczema (lesões eritematodescamativas) em antebraço e pernas.  \n\n\n**Aparelho respiratório:** sem alterações.  \n\n\n**Aparelho cardiovascular:** ritmo cardíaco regular em dois tempos; bulhas hiperfonéticas globalmente; sopro sistólico (2+/6+) em todos os focos de ausculta, principalmente em focos pulmonar e aórtico.  \n\n\n**Exame abdominal:** cicatrizes cirúrgicas de acesso videolaparoscópico, sem outras alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "",
+      "imagem": "img_printeds/2022-2-e6p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se;  \n(2) Cumprimenta o paciente simulado.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta por sinais e sintomas relacionados à anemia:**  \n(1) TGI: perda sanguínea como melena (sangue nas fezes) ou hematêmese  \n(vômito com sangue);  \n(2) Ginecológico: (alterações menstruais/ sangramento anormal);  \n(3) Nutricional (alteração de apetite ou perguntar se está se alimentando bem);  \n(4) Neoplásica (perda de peso não intencional recente).  \n\n**Adequado:** pergunta quatro itens.  \n**Parcialmente adequado:** pergunta dois ou três itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga manifestações neurológicas:**  \n(1) Alterações na marcha;  \n(2) Perda de força (ou fraqueza);  \n(3) Alterações do equilíbrio (queda ou tontura).  \n\n**Adequado:** pergunta qualquer um dos itens.  \n**Inadequado:** não pergunta.  \n\nObservação: não pontuará o(a) participante que mencionar o(s) sintoma(s)  \napós a leitura do IMPRESSO 2.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita: (1) exame físico geral e (2) exame neurológico.**  \n\n**Adequado:** solicita ambos.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita:**  \n(1) Hemograma;  \n(2) Vitamina B12 (cianocobalamina);  \n(3) Qualquer exame da cinética do ferro (ferro sérico, ferritina sérica, índice de  \nsaturação de transferrina).  \n\n**Adequado:** solicita todos os três exames.  \n**Parcialmente adequado:** solicita pelo menos hemograma e nível sérico de  \nvitamina B12.  \n**Inadequado:** solicita um ou nenhum dos exames listados.  \n\nAtenção: o (a) participante só irá pontuar caso ele(a) cite os exames listados  \nANTES de receber o impresso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Identifica achados laboratoriais:**  \n(1) Hemograma com VCM aumentado (ou macrocitose);  \n(2) Vitamina B12 baixa;  \n(3) Cinética do ferro normal.  \n\n**Adequado:** identifica as três alterações.  \n**Parcialmente adequado:** identifica duas alterações.  \n**Inadequado:** identifica uma alteração ou não identifica alteração alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Estabelece o diagnóstico de anemia megaloblástica secundária à**  \ndeficiência de vitamina B12 (ou anemia por deficiência de vitamina B12 ou  \nanemia perniciosa) decorrente da gastroplastia (bypass gástrico ou cirurgia  \nbariátrica).  \n\n**Adequado:** estabelece o diagnóstico da anemia megaloblástica (ou anemia por  \ndeficiência de vitamina B12 ou anemia perniciosa).  \n**Parcialmente adequado:** estabelece somente o diagnóstico de anemia, sem  \nespecificá-la.  \n**Inadequado:** não estabelece o diagnóstico de anemia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica tratamento da anemia megaloblástica por via parenteral ou**  \nsublingual de manutenção com vitamina B12.  \n\n**Adequado:** indica vitamina B12 e o tempo de tratamento.  \n**Parcialmente adequado:** indica vitamina B12, mas não refere o tempo de  \ntratamento.  \n**Inadequado:** não indica o tempo ou indica o tempo incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a necessidade de monitoramento dos níveis séricos de vitamina B12.**  \n\n**Adequado:** indica monitoramento.  \n**Inadequado:** não indica monitoramento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza adequadamente a sequência das tarefas, conforme solicitado nas**  \norientações ao (à) participante.  \n\n**Adequado:** realiza.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

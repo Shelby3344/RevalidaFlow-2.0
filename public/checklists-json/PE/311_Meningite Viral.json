@@ -1,0 +1,172 @@
+{
+  "uid": 311,
+  "hash": "pepe_311",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Meningite Viral",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultórios;  \n• Laboratório de análises clínicas;  \n• Setor de Radiologia.\n\nDescrição do caso:\nVocê está de plantão no pronto-atendimento e atenderá uma criança de 4 anos, trazida pela mãe com queixa de febre e vômitos há 2 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar o exame físico da criança;  \n- Formular a(s) hipótese(s) diagnóstica(s);  \n- Solicitar e interpretas exames complementares, caso necessário;  \n- Definir a conduta e orientar a mãe.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Thais, 30 anos.  \n• **Criança:** Bernardo, 4 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), trouxe meu filho porque ele está com febre alta há dois dias, vomitou duas vezes hoje e está muito caidinho, só quer ficar deitado.  \n\n**SOBRE FEBRE:**  \n• **Início:** Há 2 dias.  \n• **Aferição:** Em casa deu 38,8°C. Eu dei dipirona, melhora um pouco, mas logo volta.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Vômitos:** Vomitou 2 vezes hoje, em jato, logo depois que tentou comer.  \n• **Estado geral:** Ele está muito sonolento, irritado, choroso.  \n• **Cefaleia/Rigidez:** Ele não sabe dizer que dói a cabeça, mas chora quando eu tento mexer no pescoço para trocar a roupa.  \n• **Alimentação:** Não quer comer nada.  \n\n**NEGAR OUTROS SINTOMAS:**  \n• Tosse, coriza, dor de garganta, diarreia, manchas na pele ou dor para fazer xixi.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** Nunca teve nada grave.  \n• **Vacinação:** Sim, estão todas em dia.  \n• **Contatos:** Ele ainda não vai na creche. Ninguém mais em casa está doente.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ele tem, doutor(a)? É grave?*  \n• *O que causou isso nele? É bactéria ou vírus de alguma comida?*  \n• *Ele vai precisar ficar internado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **Frequência Cardíaca:** 122 bpm  \n• **Frequência Respiratória:** 28 irpm  \n• **Pressão Arterial:** 105 x 65 mmHg  \n• **Saturação de Oxigênio:** 97% em ar ambiente  \n• **Temperatura Axilar:** 38,9°C  \n\n\n**Exame Geral:**  \nRegular estado geral, sonolento, mas desperta ao chamado, choroso e irritado à manipulação. Hidratado, normocorado.  \n\n\n**Aparelho Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n**Aparelho Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n**Abdome:** Flácido, levemente doloroso à palpação difusa, sem visceromegalias. Ruídos hidroaéreos presentes.  \n\n**Pele:** Sem lesões ou exantemas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME NEUROLÓGICO (SINAIS MENÍNGEOS)",
+      "conteudo": "Paciente apresenta nítida resistência dolorosa à tentativa de flexão passiva do pescoço.  \n\n\n• **SINAL DE BRUDZINSKI:** Positivo. Ocorre flexão involuntária dos joelhos e quadris ao se tentar fletir passivamente a cabeça do paciente.  \n\n\n• **SINAL DE KERNIG:** Positivo. Paciente em decúbito dorsal, coxa fletida a 90° sobre o quadril. Há resistência dolorosa e incapacidade de estender completamente o joelho passivamente.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,6 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 13,5 g/dl (VR: 14 a 18 mg/dl)  \n\n• **Plaquetas:** 290.000 mm/3 (150.000 - 400.000 mm/3)  \n\n• **Leucócitos:** 10.900/mm3 (VR: 4.000 - 10.000/mm3)  \n• **Neutrófilos:** 30% (VR: 40 - 70%)  \n• **Linfócitos:** 62% (VR: 20 - 50%)  \n\n\n**BIOQUÍMICA SÉRICA**  \n\n• **Glicemia:** 100 mg/dl (VR: 60 - 99 mg/dl)  \n\n• **Creatinina (Cr):** 0,7 mg/dL (VR: 0,5 - 1,2 mg/dl)  \n\n• **Ureia (Ur):** 38 mg/dl (VR: 13 - 43 mg/dl)  \n\n• **Sódio (Na):** 138 mEq/l (VR: 135 - 145 mEq/l)  \n\n• **Potássio: (K):** 4,1 mEq/l (VR: 3,5 - 5 mEq/l)  \n\n\n• **Proteína C reativa (PCR):** 16 mg/L (VR: < 3 mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ANÁLISE LCR",
+      "conteudo": "**Aspecto:** Límpido e incolor.  \n**Pressão de abertura:** 190 mmH₂O (VR: 70-180 mmH₂O)  \n\n\n**Citologia:**  \n• **Leucócitos:** 120 células/mm³ (VR: < 5 células/mm³)  \n• **Diferencial:** 90% Linfócitos, 10% Monócitos (VR: Predomínio linfomonocitário)  \n• **Hemácias:** 2 células/mm³  \n\n\n**Bioquímica:**  \n• **Proteínas:** 70 mg/dL (VR: 15-45 mg/dL)  \n• **Glicose:** 65 mg/dL (VR: 50-80 mg/dL ou > 2/3 da glicemia sérica)  \n• **Cloretos:** Normal  \n\n\n**Microbiologia:**  \n• **Bacterioscopia (Gram):** Negativa.  \n• **Cultura para bactérias:** Em andamento.  \n• **Pesquisa de fungos (Tinta da China):** Negativa.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) Identifica-se;  \n(2) Cumprimenta a mãe de maneira adequada/cordial;  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre os sintomas neurológicos/meníngeos associados:**  \n(1) sonolência ou irritabilidade;  \n(2) cefaleia (ou choro intenso);  \n(3) rigidez de nuca (ou dor/choro ao mover o pescoço);  \n(4) vômitos.  \n\n**Adequado:** pergunta três ou quatro itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre antecedentes e fatores epidemiológicos relevantes:**  \n(1) estado vacinal (especialmente para meningite, Hib, pneumococo);  \n(2) frequência a creches ou escolas;  \n(3) contato com pessoas doentes.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita a realização de exame físico direcionado para irritação meníngea.**  \n\n**Adequado:** solicita verbalmente a pesquisa dos sinais de Kernig e Brudzinski (ou sinais de rigidez de nuca).  \n**Inadequado:** não solicita a pesquisa específica dos sinais meníngeos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta os achados do exame físico (Impresso 2).**  \n\n**Adequado:** verbaliza que os sinais de Kernig e Brudzinski estão positivos, indicando irritação meníngea.  \n**Inadequado:** não interpreta os achados ou os interpreta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula a hipótese diagnóstica de Meningite (ou Meningoencefalite).**  \n\n**Adequado:** verbaliza a hipótese diagnóstica de meningite.  \n**Inadequado:** não verbaliza a hipótese ou formula hipótese incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita o exame complementar padrão-ouro para confirmação diagnóstica.**  \n\n**Adequado:** solicita a punção lombar para análise do Líquor (LCR) ou exame quimiocitológico do líquor.  \n**Inadequado:** não solicita a punção lombar OU solicita outro exame como prioritário.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta os achados do LCR (Impresso 3) e confirma o diagnóstico.**  \n\n**Adequado:** correlaciona os achados (pleocitose linfocitária, glicose normal, proteína levemente aumentada) e confirma o diagnóstico de Meningite Viral.  \n**Parcialmente adequado:** confirma Meningite Viral, mas não correlaciona os achados do LCR.  \n**Inadequado:** não confirma o diagnóstico ou o classifica incorretamente (ex: bacteriana).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza os agentes etiológicos mais frequentes para o quadro:**  \n(1) Enterovírus;  \n(2) Herpesvírus;  \n(3) Arbovírus (ex: Dengue, Zika - dependendo do contexto epidemiológico).  \n\n**Adequado:** cita dois ou mais agentes.  \n**Parcialmente adequado:** cita um agente.  \n**Inadequado:** não cita nenhum agente ou cita agentes incorretos (ex: bactérias).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a conduta imediata para o paciente.**  \n(1) internação hospitalar;  \n(2) tratamento de suporte (hidratação venosa);  \n(3) medicação sintomática (analgésicos, antieméticos e antitérmicos).  \n\n**Adequado:** indica as três condutas.  \n**Parcialmente adequado:** indica duas condutas.  \n**Inadequado:** indica uma ou nenhuma conduta (ex: alta hospitalar).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza a notificação compulsória do caso (Meningite Viral).**  \n\n**Adequado:** verbaliza a necessidade de realizar a notificação compulsória (SINAN).  \n**Inadequado:** não verbaliza a notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

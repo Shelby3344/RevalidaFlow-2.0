@@ -1,0 +1,238 @@
+{
+  "uid": 1802,
+  "hash": "pepe_1802",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Asma - Controle na Adolescência | 2018",
+  "definicao": "Estação original adaptada  \nPSU-CE 2018 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Balança, estadiômetro e gráficos de crescimento;  \n• Medidor de fluxo expiratório (Peak Flow).\n\nDescrição do caso:\nVocê está atendendo na UBS e recebe Rafael, um menino de 14 anos, acompanhado pela mãe. Eles comparecem para uma consulta de rotina, mas a mãe relata que o filho tem-se apresentado \"cansado\" e com tosse ultimamente.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Realizar o exame físico direcionado e a avaliação antropométrica (utilizando os gráficos disponíveis);  \n- Avaliar o controle clínico da condição respiratória;  \n- Estabelecer o diagnóstico e negociar o plano terapêutico com o paciente e a mãe.  \n- Certificar-se com o paciente sobre o uso das medicações.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \n\nCONSIDERE QUE HÁ PAPEL, CANETA E CALCULADORA DISPONÍVEL.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar os gráficos antropométricos no início da estação.  \n\n\n**DADOS PESSOAIS:**  \n• **Paciente:** Rafael, 14 anos, estudante.  \n\n\n**MOTIVO DE CONSULTA:** Doutor(a), minha mãe me trouxe para ver o crescimento, mas também estou tossindo muito e ficando cansado.  \n\n\n**SOBRE A TOSSE E DISPNEIA:**  \n• **Início:** De um mês pra cá que começou.  \n• **Sintomas:** Tenho tosse seca e chiado no peito.  \n• **Frequência:** Está acontecendo umas 3 ou 4 vezes por semana.  \n• **Sintomas noturnos:** Sim, acordo tossindo as vezes.  \n\n• **Piora:** Não estou conseguindo jogar bola direito, tenho que parar porque falta o ar.  \n\n• **Melhora:** Uso uma \"bombinha de ar\" do meu primo quando ataca.  \n\n\n**HISTÓRICO:**  \n• **Doenças:** Minha mãe diz que eu tinha asma quando era criança, mas eu não lembro.  \n\n• **Internações:** Minha mãe falou que já fui internado por isso.  \n\n• **Alergias:** Tenho rinite, meu nariz coça muito.  \n\n\n**HISTÓRICO FAMILIAR E AMBIENTAL:**  \n• **Família:** Meu primo eu sei que tem asma e rinite.  \n• **Animais:** Temos um gato dentro de casa.  \n• **Ambiente:** Meu pai fuma na varanda.  \n\n\n**ABORDAGEM DO ADOLESCENTE:**  \n• **Escola:** Estou no 1º ano do ensino médio.  \n• **Alimentação:** Como a comida da escola, mas gosto muito de salgadinho e refrigerante também.  \n• **Vacinas:** Minha mãe disse que estão em dia.  \n• **Atividade física:** Gosto de jogar futebol, mas estou parando por causa do cansaço.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que eu tenho mesmo doutor(a)?*  \n\n• *Vou poder voltar a jogar bola?*  \n\n• *Quando eu devo usar esses remédios?*  \n\n• *E se isso não funcionar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **FC:** 88 bpm  \n• **FR:** 22 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp:** 36.5°C  \n\n\n**Antropometria:**  \n• **IMC:** 19.8 kg/m²  \n• **Estatura:** 165 cm  \n\n\n**Exame Segmentar:**  \n• **Ectoscopia:** Bom estado geral, corado, hidratado, acianótico.  \n\n• **Pulmões:** Murmúrio vesicular presente bilateralmente, com sibilos expiratórios leves e difusos.  \n\n• **Coracão/Abdome:** Sem alterações.  \n\n• **Oroscopia/Otoscopia:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME PEAK FLOW",
+      "conteudo": "• **Valor Predito (Referência):** 340 L/min\n\n\n**Resultados:**\n• **1ª Medida (Pré-Broncodilatador):** 250 L/min (73% do valor predito)\n\n• **2ª Medida (Pós-Broncodilatador):** 315 L/min (92% do valor predito)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "GRÁFICO DE ESTATURA",
+      "conteudo": "",
+      "imagem": "img_printeds/e1802p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "GRÁFICO DE IMC",
+      "conteudo": "",
+      "imagem": "img_printeds/e1802p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentou-se ao paciente (nome ou profissão) ou cumprimentou-o?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Perguntou o nome e a idade paciente?**  \n\n**Adequado:** pergunta o nome e a idade.  \n**Inadequado:** não pergunta ou pergunta apenas um dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Perguntou de forma aberta o motivo da consulta?**  \n\n**Adequado:** pergunta de forma aberta.  \n**Inadequado:** não pergunta ou pergunta de forma fechada/induzida.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realizou “escuta atenta”, utilizando linguagem verbal e não-verbal?**  \n(1) manteve contato visual;  \n(2) postura corporal;  \n(3) gestos encorajadores;  \n(4) encorajamentos mínimos-“Hum, hum”; “sim”; “e então”; “fale mais sobre isso”;  \n(5) não interrompeu o paciente;  \n(6) evitou fazer anotações;  \n(7) evitou olhar o relógio durante a fala do paciente.  \n\n**Adequado:** demonstra pelo menos 2 itens de escuta atenta.  \n**Parcialmente adequado:** demonstra apenas 1 item.  \n**Inadequado:** não demonstra escuta atenta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Perguntou pelas características clínicas da asma (pelo menos 2)?**  \n(1) número de episódios de tosse/chiado/sibilância;  \n(2) primeira crise;  \n(3) última crise;  \n(4) horários do dia mais frequentes;  \n(5) crises recorrentes/intercrise assintomático.  \n\n**Adequado:** pergunta pelo menos dois itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta sobre as características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Perguntou sobre fatores desencadeantes e fatores de alívio da asma?**  \n(1) piora com exercício físico;  \n(2) piora com poeira ou fumaça de cigarro;  \n(3) piora com mudança de clima;  \n(4) melhora com aerossol ou corticoide.  \n\n**Adequado:** pergunta pelo menos um fator desencadeante ou de alívio.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Avaliou o controle clínico atual da asma (pelo menos 1)?**  \n(1) Sintomas diurnos (> 2x/semana);  \n(2) Limitação de atividades;  \n(3) Despertares noturnos;  \n(4) Necessidade de medicação de alívio (> 2x/semana).  \n\n**Adequado:** avalia pelo menos um critério de controle.  \n**Inadequado:** não avalia o controle.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realizou abordagem integral do adolescente (pelo menos 2)?**  \n(1) alimentação;  \n(2) vacinas;  \n(3) escolaridade;  \n(4) atividade física;  \n(5) sexualidade.  \n\n**Adequado:** aborda pelo menos dois tópicos.  \n**Parcialmente adequado:** aborda apenas um tópico.  \n**Inadequado:** não realiza abordagem integral.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Perguntou sobre história de alergia ou atendimentos recentes (pelo menos 1)?**  \n(1) alergias (rinite, dermatite);  \n(2) internamentos prévios;  \n(3) idas a emergência.  \n\n**Adequado:** pergunta pelo menos um item.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Perguntou se tem história familiar de asma/alergia?**  \n(1) pais ou irmãos com asma;  \n(2) pais ou irmãos com rinite ou dermatite atópica.  \n\n**Adequado:** pergunta sobre história familiar.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Perguntou sobre dados sobre história ambiental (pelo menos 1)?**  \n(1) fumantes em casa;  \n(2) presença de animais;  \n(3) presença de mofo ou outros alérgenos.  \n\n**Adequado:** pergunta pelo menos um item.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Avaliou estatura e IMC e anotou no gráfico de crescimento?**  \n\n**Adequado:** plota/anota corretamente a estatura e o IMC nos gráficos impressos.  \n**Inadequado:** não plota ou plota incorretamente.  \n\n*OBS.: O Z escore correto é entre 0 e +1.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Realizou um resumo das informações colhidas e informou o paciente sobre o diagnóstico de asma, usando uma linguagem acessível, evitando termos técnicos?**  \n\n**Adequado:** realiza o resumo e informa o diagnóstico com linguagem acessível.  \n**Parcialmente adequado:** informa o diagnóstico mas usa termos técnicos ou não faz o resumo.  \n**Inadequado:** não informa o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Negociou o plano de tratamento–medicamentos de resgate e intercrise?**  \n(1) resgate: considerar broncodilatador de curta duração (Salbutamol ou Fenoterol);  \n(2) manutenção/intercrise: corticoide inalado ou antileucotrieno diário.  \n\n**Adequado:** negocia e prescreve ambas as classes de medicamentos (resgate e controle).  \n**Parcialmente adequado:** prescreve apenas uma classe.  \n**Inadequado:** não prescreve ou prescreve incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Negociou o plano de tratamento – educação e controle ambiental?**  \n\n**Adequado:** orienta sobre controle ambiental (evitar fumo, poeira, animais no quarto).  \n**Inadequado:** não realiza orientações ambientais.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Certificou-se o entendimento, pedindo para paciente explicar como tomará as medicações?**  \n\n**Adequado:** solicita que o paciente explique o uso (Salbutamol em crises/resgate e corticoide diário).  \n**Inadequado:** não verifica o entendimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Explicou o que fazer se o tratamento não funcionar, negociando os próximos passos (retornar para nova medida de pressões em 1 a 2 semanas)?**  \n\n**Adequado:** fornece orientações de retorno ou sinais de alerta.  \n**Inadequado:** não fornece orientações de seguimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

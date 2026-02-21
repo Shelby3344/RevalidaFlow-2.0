@@ -1,0 +1,298 @@
+{
+  "uid": 1604,
+  "hash": "pepe_1604",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Dengue na gestação",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você é o médico(a) de uma UPA.\n\nDescrição do caso:\nVocê é o médico(a) de uma UPA e recebe uma paciente do sexo feminino de 24 anos, gestante de 33 semanas com queixa de febre, fraqueza e cefaleia.",
+  "tarefas": "TAREFAS:  \n\nNos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- Realizar a anamnese dirigida ao caso  \n- Solicitar exame físico, caso necessário  \n- Solicitar exame(s) complementar(es), caso necessário  \n- Informar a hipótese diagnóstica e seu(s) diagnóstico(s) diferencial(is), caso exista  \n- Responder as dúvidas da paciente  \n- Propor condutas e orientações ao caso",
+  "script_ator": "**DADOS PESSOAIS:**  \n- Rosineia, 24 anos, auxiliar administrativa.\n\n**QUEIXA PRINCIPAL:** Vim porque estou com um mal estar, com dor no corpo e também tive febre.  \n\n\n**SOBRE FEBRE:**  \n- **Início:** começou há 3 dias.  \n- **Graduação:** está variando entre 38 e 39ºC.  \n- **Medicação:** Tomei paracetamol, mas depois a febre volta.  \n\n\n**SINTOMAS ASSOCIADOS:**\n- **Dor no corpo:** começou junto com a febre, e dói nas juntas, parece que entre os ossos.\n- **Cefaleia:** dor pulsando, toda cabeça e atrás dos olhos também.\n- **Prostração:** estou mais fraca, vontade de ficar deitada. \n\n\n**NEGAR:**  \n- Exantemas ou manchas pelo corpo.\n- Dor abdominal, náuseas e vômitos.\n- Desmaios, tonturas, hipotensão ou perda de consciência.\n- Sangramentos e hemorragias.\n\n\n**DADOS OBSTÉTRICOS:**  \n- **Caderneta da gestante:** vim do trabalho e não passei em casa. Não trouxe. Mas até agora está tudo bem com a gestação.  \n- **GPA:** primeira gestação.  \n- **IG:** 33 semanas.   \n- **Movimentos fetais:** ele está se mexendo e chutando bastante ultimamente.  \n\n\n**ANTECEDENTES PESSOAIS:**   \n- **Alergias, doenças, cirurgias e internações:** nega.  \n- **Medicações:** só as vitaminas que receitaram no pré-natal.   \n- **Vacinação:** tomei duas na gestação, não lembro quais.  \n- **Álcool, tabaco e drogas:** nega.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n- que eu conheço só minha irmã que está com sintomas parecidos.  \n\n\n**OUTRAS PERGUNTAS:** Não consta no Script.  \n\n\n**DÚVIDAS:**  \n- Tem risco de passar pro meu bebê?  \n- Qual risco para mim e para o bebê?  \n- Vou precisar internar?  \n\n\n**ORIENTAÇÕES:**  \n- Caso o candidato solicite exame físico: *\"o quê o(a) senhor(a) gostaria no exame físico?\"*  \n- Após o canditato solicitar qualquer exame complementar: *\"Concluiu seu pedido?\"*  \n- Caso o candidato oriente a ingesta de líquidos ou SRO: *\"Quantos ML preciso tomar?\"*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **PA:** 120 x 80mmHg  \n• **FC:** 91bpm  \n• **FR:** 16irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temperatura:** 37.9°C  \n\n\n• **Ectoscopia:** paciente em regular estado geral, anictécia, acianótica, febril, linfonodos não palpáveis.  \n\n• **Aparato cardiovascular:** Ritmo normal em 2 tempos com bulhas cardíacas normofonéticas.  \n\n• **Aparato respiratório:** Murmúrio vesicular audível em ambos campos pulmonares sem ruídos adventícios.  \n\n• **Abdome:** Inspeção (distendido devido útero gravídico), Ausculta (RHA normais), Palpação (indolor a palpação superficial e profunda), Percussão (sem alterações).  \n\n• **MMII:** sem lesões ou edemas.  \n\n\n**EXAME FÍSICO OBSTÉTRICO**  \n\n\n• **AU:** 30cm.  \n• **BCF:** 139bpm.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "PROVA DO LAÇO",
+      "conteudo": "**Prova do laço:** presença de 1 petéquia.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES COMPLEMENTARES",
+      "conteudo": "**Hemograma:**  \n• **Hb:** 12 mg/dL (VR: 12-16)  \n• **Ht:** 44% (VR: 35 – 45)  \n• **Leucócitos:** 9.500 (VR 4.500 – 11.000)  \n• **Plaquetas:** 160.000 (VR: 150.000 – 450.000)  \n\n\n**Teste rápido NS1:** em andamento.  \n**Sorologias para dengue IgM/IgG:** em andamento.  \n**Sorologias para Zika:** em andamento.  \n**Sorologias para Chikungunya:** em andamento.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Investiga a febre, caracterizando, pelo menos, tempo de início ou duração e intensidade.**  \n\n**Adequado:** se investigar os dois itens;  \n**Parcialmente adequado:** se investigar apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga a ocorrência de exantema.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a ocorrência de sintomas articulares, como artralgias, edema articular ou limitação funcional.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga os seguintes sintomas: cefaleia, mialgias, dor retro-orbitária, adinamia, prostração.**  \n\n**Adequado:** dois ou mais sintomas;  \n**Parcialmente adequado:** um sintoma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga sinais de alarme: dor abdominal, vômitos persistentes, hipotensão postural, lipotimia, sonolência, diminuição da diurese, irritabilidade, desconforto respiratório.**  \n\n**Adequado:** dois ou mais sinais;  \n**Parcialmente adequado:** um sinal.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pesquisa ocorrência de sangramento: epistaxe, hemorragias de pele, gengivorragia, hemorragia conjuntival, hematêmese, melena, sangramento vaginal, hematúria.**  \n   \n**Adequado:** duas ou mais ocorrências;  \n**Parcialmente adequado:** uma ocorrência.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interroga se está fazendo pré-natal.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a necessidade de verificar a pressão arterial.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza a necessidade de verificar a frequência cardíaca.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza a necessidade de realizar exame físico do abdome.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza a necessidade de realizar exame gineco-obstétrico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza a necessidade de realizar a Prova do Laço e informa que o resultado está normal.**  \n   \n**Adequado:** se verbalizar a necessidade de realização e que o resultado está normal;  \n**Parcialmente adequado:** se apenas verbalizar a necessidade de realização.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Informa que é grande a probabilidade do diagnóstico ser Dengue (não aceitar virose ou quadro viral ou síndrome virais).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Apresenta outras hipóteses diagnósticas como Zika e Chikungunya.**  \n   \n**Adequado:** se citar as duas hipóteses;  \n**Parcialmente adequado:** se citar apenas uma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Solicita exames específicos para dengue: sorologia IgG e IgM (Elisa) OU isolamento viral (RT-PCR, imunohistoquímica ou NS1) - todas por amostra de sangue.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Solicita exame específico para Zika e Chikungunya. Não é necessário especificar a técnica do exame.**  \n   \n**Adequado:** se solicita os dois exames;  \n**Parcialmente adequado:** se solicita apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Solicita hemograma.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Responde que existe risco de transmissão vertical (infecção passar da mãe para o bebê).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Com relação aos riscos para o binômio materno-fetal, responde os seguintes: aborto, trabalho de parto pré-termo, restrição de crescimento fetal, baixo peso ao nascer, hemorragias e acometimento neurológico.**  \n   \n**Adequado:** dois ou mais riscos;  \n**Parcialmente adequado:** um risco.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Orienta hidratação por via oral: 80 ML-kg/dia.**  \n\n**Adequado:** se especifica volume da hidratação entre 4,5 e 5 litros/dia;  \n**Parcialmente adequado:** se faz orientação genérica sem especificar volume.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**21. Orienta uso de sintomáticos: analgésicos e antitérmicos - Paracetamol/Dipirona (considerar não realizado se prescrever AAS ou anti-inflamatórios não hormonais como: Cetoprofeno, Ibuprofeno, Diclofenaco, Nimesulida).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 22,
+      "descricao": "**22. Verbaliza a necessidade de notificação do caso suspeito.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 23,
+      "descricao": "**23. Responde que não há necessidade de internação hospitalar e indica acompanhamento ambulatorial e/ou retorno para reavaliação.**  \n\n**Adequado:** se responder \"não\" e indicar acompanhamento;  \n**Parcialmente adequado:** se apenas responder que não há necessidade de internação;  \n**Não realizado:** se indicar internação hospitalar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

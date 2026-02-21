@@ -1,0 +1,149 @@
+{
+  "uid": 1113,
+  "hash": "pepe_1113",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Hipotireodismo congênito (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATUAÇÃO  \nNível de atenção: primária.  \nA unidade possui a seguinte infraestrutura:  \n• Consultórios médicos e de enfermagem;  \n• Sala de vacinação.\n\nDescrição do caso:\n• Você é médico(a) em uma consulta de puericultura e atenderá uma mãe que traz seu filho de 30 dias de vida. Ela relata preocupações sobre o comportamento e alguns sinais físicos da criança. O resultado do \"teste do pezinho\" ainda não está disponível.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese dirigida às queixas da mãe;  \n- Solicitar e interpretar o exame físico;  \n- Formular e verbalizar a principal hipótese diagnóstica, justificando-a com base nos achados clínicos;  \n- Explicar à mãe a importância do \"teste do pezinho\" para o prognóstico da criança e propor a conduta adequada para o caso.  \n\n\\\nATENÇÃO!  \nCASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO LACTENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Tatiane, 32 anos.  \n• **Criança:** Lucas, 30 dias de vida.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu trouxe o Lucas porque estou achando ele muito quietinho. O chorinho dele é fraco. Também estou achando ele meio amarelo.  \n\n• **Percepção dos sintomas:** comecei a perceber faz uns 10 dias isso.  \n\n**PUERICULTURA:**  \n• **Amamentação:** Ele mama só no peito.  \n• **Urina e fezes:** Ele demorou um pouco pra fazer o primeiro cocô, só depois de dois dias.  \n• **Sono:** Ele é bem sonolento, fica mais dormindo mesmo.  \n• **Choro:** é fraco e meio rouco.  \n• **vômito ou febre:** nega.  \n\n**SINTOMAS ASSOCIADOS:**  \n• O narizinho dele parece que está sempre meio entupido, faz um barulhinho pra respirar. E essa hérnia no umbigo apareceu também.  \n\n**ANTECEDENTES PERINATAIS:**  \n• **GPA:** é minha terceira gestação. Não tive abortos.  \n• **IG:** nasceu com 37 semanas.  \n• **Peso, comprimento e via parto:** Está na caderneta dele.  \n• **Pré-natal e intercorrências:** A gestação foi tranquila, mas eu só comecei o pré-natal com seis meses. Eu só senti ele mexer na barriga a partir daí também.  \n• **Testes de triagem:** Ainda não saiu o resultado do teste do pezinho.  \n\n**ANTECEDENTES FAMILIARES:**  \n• **Tipagem sanguinea:** eu e meu marido somos O+.  \n• Não temos ninguém com problema de saúde na família, e meus outros dois filhos são super saudáveis.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que o meu filho pode ter, doutor(a)?*  \n• *Isso é grave?*  \n• *Aquele teste do pezinho vai dizer o que ele tem? Por que ele é importante?*  \n• *O que a gente precisa fazer agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA CRIANÇA",
+      "conteudo": "**Dados ao Nascimento:**   \n• **Peso ao nascer:** 3000g   \n• **Comprimento:** 50 cm   \n• **Idade gestacional:** 37 semanas   \n• **Apgar no 5º minuto:** 8   \n• **Tipo de parto:** Vaginal   \n• **Tipagem sanguínea:** O+   \n• **Eliminação de mecônio:** Após 48 horas de vida   \n\n\n**Vacinas ao Nascer:**   \n• Hepatite B   \n• BCG",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Sinais Vitais:**\n• **PA:** 90x60 mmHg  \n• **FC:** 110 bpm  \n• **FR:** 35 irpm  \n• **SatO2:** 97% em a.a.  \n• **Temp:** 36,5°C  \n\n\n• **Idade:** 30 dias de vida  \n• **Peso:** 3.400 g  \n• **Comprimento:** 52 cm  \n\n\n**Ectoscopia:** Lactente hipoativo, com resposta lenta aos estímulos. Choro fraco e rouco. Icterícia discreta (+/4+), principalmente em face e pescoço. Pele seca.  \n\n**Cabeça e Pescoço:** Fontanela anterior ampla.  \n\n**Respiratório:** Respiração nasal ruidosa. Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n**Cardiovascular:** Ritmo cardíaco regular, sem sopros.  \n\n**Abdome:** Globoso, flácido. Hérnia umbilical presente, redutível. Fígado e baço não palpáveis.  \n\n**Neurológico:** Tônus muscular diminuído globalmente (hipotonia). Reflexos primitivos presentes, porém com resposta diminuída.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**    \n(1) identifica-se; e,    \n(2) cumprimenta a paciente simulada e pergunta seu nome.    \n\n**Adequado:** realiza as duas ações.    \n**Parcialmente adequado:** realiza uma ação.    \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga a queixa principal, questionando sobre as características do choro, da movimentação e da pele da criança.**   \n\n**Adequado:** investiga os três itens (choro, movimentação, pele).  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga antecedentes gestacionais e perinatais relevantes:**  \n(1) Início do pré-natal;   \n(2) Percepção dos movimentos fetais;   \n(3) Tempo para eliminação de mecônio.   \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga a presença de outros sinais e sintomas, como respiração nasal ruidosa e hérnia umbilical.**   \n\n**Adequado:** investiga os dois sinais.  \n**Parcialmente adequado:** investiga um sinal.  \n**Inadequado:** não investiga nenhum dos sinais.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita a realização do exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula a hipótese diagnóstica de Hipotireoidismo Congênito.**   \n\n**Adequado:** formula a hipótese de Hipotireoidismo Congênito.  \n**Inadequado:** não formula a hipótese ou formula outra hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Justifica a hipótese diagnóstica com, pelo menos, três achados da anamnese ou do exame físico, dentre os seguintes:**   \n(1) Choro fraco e rouco;   \n(2) Hipoatividade / movimentos lentos;   \n(3) Icterícia prolongada;   \n(4) Hérnia umbilical;   \n(5) Eliminação tardia de mecônio;   \n(6) Respiração nasal ruidosa / congestão nasal;   \n(7) Movimentos fetais tardios.   \n\n**Adequado:** justifica com três ou mais achados.  \n**Parcialmente adequado:** justifica com dois achados.  \n**Inadequado:** justifica com um ou nenhum achado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica à mãe a importância do \"teste do pezinho\" para o diagnóstico precoce da condição.**   \n\n**Adequado:** explica.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta que o diagnóstico e o tratamento precoces são essenciais para garantir o desenvolvimento neuropsicomotor adequado da criança.**   \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre a necessidade de encaminhamento para endocrinologista pediátrico para confirmação e tratamento, caso o teste venha alterado.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

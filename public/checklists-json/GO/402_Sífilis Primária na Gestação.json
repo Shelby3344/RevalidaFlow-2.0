@@ -1,0 +1,188 @@
+{
+  "uid": 402,
+  "hash": "pepe_402",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Sífilis Primária na Gestação",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas.  \n• Farmácia com dispensação de medicamentos.\n\nDescrição do caso:\nVocê atenderá uma mulher de 23 anos, com 14 semanas de idade gestacional, que comparece à consulta de pré-natal com queixa de uma \"ferida\" na região genital.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Solicitar o exame físico específico, caso necessário.  \n- Formular e verbalizar a principal hipótese diagnóstica e seus diferenciais.  \n- Solicitar e interpretar os exames complementares para a investigação.  \n- Estabelecer a conduta terapêutica completa.  \n- Fornecer orientações e responder às dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mariana, 23 anos, solteira, vendedora.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim para minha consulta de pré-natal, mas estou um pouco preocupada com uma feridinha que apareceu lá embaixo.  \n\n**SOBRE A LESÃO:**  \n• **Início:** Apareceu há umas 2 semanas.  \n• **Localização:** Bem na entrada da vagina.  \n• **Dor:** Não dói nada, nem coça. Só notei porque senti um carocinho.  \n• **Secreção:** Não sai nada, é limpinha.  \n\n**HISTÓRIA GINECO-OBSTÉTRICA:**  \n• **GPA:** É minha primeira gravidez (G1P0A0).  \n• **Pré-natal:** Esta é minha segunda consulta. Na primeira, o(a) senhor(a) pediu os exames de sangue.  \n• **História Sexual:** Não tenho parceiro fixo. Tive relações com duas pessoas nos últimos três meses. Às vezes a gente acaba não usando camisinha.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** Sou saudável, só estou tomando as vitaminas do pré-natal.  \n• **Alergias:** Nunca tive alergia a nenhum remédio que eu saiba.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que é essa ferida, doutor(a)? Parece ser grave?*  \n• *Pode prejudicar meu bebê?*  \n• *Meus parceiros precisam saber? Eles precisam de tratamento?*  \n• *Como é o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 115x70 mmHg  \n• **FC:** 84 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36,6°C  \n\n\n**Exame físico geral sem alterações.**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO GINECOLÓGICO",
+      "conteudo": "**Inspeção da genitália externa:**  \n• Presença de lesão ulcerada, única, com aproximadamente 1 cm de diâmetro, de fundo limpo, base endurecida, bordas bem definidas e elevadas, indolor à palpação, localizada em fúrcula vaginal.  \n• Palpação de linfonodomegalia inguinal bilateral, móvel, indolor e não supurativa.  \n\n\n**Exame especular e toque vaginal:** sem outras alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "SOROLOGIAS",
+      "conteudo": "**Paciente:** Mariana Costa  \n**Idade:** 23 anos  \n**Data da Coleta:** (na primeira consulta, há 3 semanas)  \n\n\n• **VDRL:** Reagente, título 1:32  \n\n• **Teste Rápido para Sífilis (Treponêmico):** Reagente  \n\n• **HIV (Teste Rápido):** Não Reagente  \n\n• **HBsAg:** Não Reagente  \n\n• **Anti-HCV:** Não Reagente  \n\n• **Toxoplasmose IgG e IgM:** Não Reagentes",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da lesão genital.**  \n(1) tempo de surgimento;  \n(2) presença ou ausência de dor;  \n(3) número de lesões;  \n(4) presença de secreção.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a história sexual e fatores de risco.**  \n(1) número de parceiros sexuais;  \n(2) uso de preservativo (camisinha);  \n(3) histórico de outras Infecções Sexualmente Transmissíveis (IST).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico ginecológico.**  \n\n**Adequado:** solicita a inspeção da genitália externa e a palpação de linfonodos inguinais.  \n**Inadequado:** não solicita o exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula a principal hipótese diagnóstica com base na clínica.**  \n\n**Adequado:** verbaliza a hipótese de Sífilis Primária (ou Cancro Duro).  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita os exames sorológicos para confirmação diagnóstica.**  \n\n**Adequado:** solicita um teste não treponêmico (VDRL) E um teste treponêmico (Teste Rápido ou FTA-Abs).  \n**Parcialmente adequado:** solicita apenas um dos tipos de teste.  \n**Inadequado:** não solicita os exames para sífilis.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta os resultados sorológicos e confirma o diagnóstico.**  \n\n**Adequado:** correlaciona o VDRL com título de 1:32 e o teste treponêmico reagente para confirmar o diagnóstico de sífilis em atividade, compatível com a fase primária.  \n**Parcialmente adequado:** confirma o diagnóstico de sífilis, mas não correlaciona os dois exames ou o título do VDRL.  \n**Inadequado:** não confirma o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve o tratamento correto para a gestante.**  \n\n**Adequado:** prescreve Penicilina G Benzatina, na dose de 2,4 milhões de UI, via intramuscular, em dose única.  \n**Inadequado:** prescreve dose, via ou medicamento incorretos, ou não prescreve o tratamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre a necessidade de tratar o(s) parceiro(s) sexual(is).**  \n\n**Adequado:** explica a importância de convocar e tratar o(s) parceiro(s) dos últimos 90 dias, independentemente dos resultados sorológicos deles, para evitar reinfecção.  \n**Inadequado:** não orienta sobre o tratamento de parceiros.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explica os riscos da sífilis congênita para o feto.**  \n\n**Adequado:** menciona a possibilidade de complicações graves, como abortamento, prematuridade, malformações e sequelas neurológicas e ósseas no bebê.  \n**Parcialmente adequado:** menciona apenas que \"pode passar para o bebê\", de forma genérica.  \n**Inadequado:** não explica os riscos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Estabelece o plano de seguimento e controle de cura.**  \n\n**Adequado:** orienta a realização de VDRL mensalmente durante a gestação e no momento do parto para monitorar a resposta ao tratamento.  \n**Inadequado:** não estabelece um plano de seguimento sorológico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realiza a notificação compulsória do caso ao SINAN.**  \n\n**Adequado:** verbaliza que Sífilis na Gestação é um agravo de notificação compulsória e que o caso será notificado.  \n**Inadequado:** não menciona a necessidade de notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre a prevenção de ISTs.**  \n\n**Adequado:** reforça a importância do uso de preservativo (camisinha) em todas as relações sexuais para prevenir sífilis e outras infecções.  \n**Inadequado:** não fornece orientação sobre prevenção.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

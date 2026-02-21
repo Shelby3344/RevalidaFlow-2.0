@@ -1,0 +1,166 @@
+{
+  "uid": 1214,
+  "hash": "pepe_1214",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Pneumonia Adquirida na Comunidade - PAC (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de estabilização e pequenos procedimentos;  \n• Raio-X, ultrassonografia, eletrocardiograma;  \n• Laboratório de análises clínicas;  \n• Banco de sangue;\n\nDescrição do caso:\nVocê está de plantão em uma UPA e atenderá uma paciente de 20 anos com queixa de febre, tosse e dor no corpo há 3 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese sobre o caso;  \n- Solicitar e interpretar o exame físico, caso necessário;  \n- Solicitar e interpretar exame(s) complementar(es), caso necessário;  \n- Informar a hipótese diagnóstica;  \n- Propor a conduta terapêutica adequada;  \n- Responder as dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \nJoana, 20 anos, estudante universitária.  \n\n**QUEIXA PRINCIPAL:**   \n• Doutor(a), estou aqui porque estou com febre alta e uma tosse muito forte, dor de cabeça e agora apareceu uma dor no peito quando eu tusso ou respiro.  \n\n**SOBRE A FEBRE:**  \n• **Início:** Começou há 3 dias, de repente.  \n• **Aferição:** Não medi, mas sinto que é alta.  \n• **Sudorese e calafrios:** Sim, tenho calafrios.  \n\n**SOBRE A TOSSE:**  \n• **Início:** Começou há 3 dias.  \n• **Frequência:** Estou tossindo direto.  \n• **Expectoração:** No começo era seca, mas agora estou com catarro amarelado.  \n• **Sangue/Pus:** nega.  \n• **Falta de Ar e Chiado:** nega.  \n• **Medicação:** tomei uns remédios caseiros, mas nao adiantou.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Dor torácica:** quando estou tossindo ou respiro forte. Dói mais debaixo das costelas do lado direito.  \n• **Mialgia:** Sim, dor no corpo todo.  \n• **Cefaleia:** sim.  \n• **Astenia:** Me sinto muito mal, bem fraca.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho. Só uns remédios caseiros, mas não melhorou nada.  \n• **Álcool, tabaco e drogas:** nega.  \n• **Contactantes c/ sintomas parecidos:** nem com gripe e nem tuberculose que eu saiba.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Alguma coisa mostra que é grave?*  \n• *Vou precisar ficar internada?*  \n• *Qual é o tratamento? Como precisa tomar o remédio e por quanto tempo?*  \n• *Isso é algum vírus? Qual o nome?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 104 bpm  \n• **FR:** 22 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp. axilar:** 39.0° C  \n\n\n**Ectoscopia:** Regular estado geral, lúcida, orientada, levemente desidratada, mucosas coradas, anictérica.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** Diminuição da expansibilidade do hemitórax direito; murmúrio vesicular diminuído e frêmito tóraco-vocal aumentado na metade inferior do pulmão direito.  \nPresença de crepitações, roncos e alguns sibilos no 1/3 inferior do pulmão direito. Ausculta de sopro tubário na mesma região.  \n\n\n\n**Abdominal:** Sem alterações.  \n\n\n**MMII:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Leucócitos:** 15.500/mm³ (VR: 4.000 - 11.000/mm³)  \n• **Neutrófilos:** 75% (VR: 40 - 70%)  \n• **Bastões:** 8% (VR: 0 - 5%)  \n• **Hemoglobina:** 13,5 g/dl (VR: 14 a 18 g/dl)  \n• **Plaquetas:** 250.000 mm/3 (VR: 150.000 - 450.000/mm³)  \n\n**BIOQUÍMICA**  \n• **Ureia:** 35 mg/dL (VR: 10 - 50 mg/dL)  \n• **Creatinina:** 0.8 mg/dL (VR: 0.6 - 1.2 mg/dL)  \n• **PCR:** 150 mg/L (VR: < 5 mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**DESCREVA O(S) ACHADO(S) DA IMAGEM**   \n\n\nATENÇÃO - RESPONDA A PERGUNTA:\n• **Quais outros achados radiológicos poderiam sugerir maior gravidade do quadro?**",
+      "imagem": "img_printeds/2012-e14p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida sobre o quadro clínico da paciente.**  \n\n**Adequado:** realiza a anamnese.  \n**Inadequado:** não realiza a anamnese.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verbaliza os principais achados do exame físico do aparelho respiratório, com base nas informações fornecidas:**  \n(1) Diminuição da expansibilidade à direita;  \n(2) Crepitações, roncos ou sibilos em terço inferior direito;  \n(3) Diminuição do murmúrio vesicular E aumento do frêmito tóraco-vocal na base direita.  \n\n**Adequado:** verbaliza os três achados.  \n**Parcialmente adequado:** verbaliza dois achados.  \n**Inadequado:** verbaliza um ou nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita radiografia de tórax.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta a radiografia de tórax, identificando:**  \n(1) Opacidade/consolidação no terço inferior do hemitórax direito;  \n(2) Presença de broncogramas aéreos.  \n\n**Adequado:** realiza os dois itens.  \n**Parcialmente adequado:** realiza um item.  \n**Inadequado:** não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Informa outros achados radiológicos que poderiam sugerir maior gravidade do quadro:**  \n(1) abscesso pulmonar (cavitação, nível hidroaéreo);  \n(2) derrame pleural (ausência dos seios costofrênicos, desvio do mediastino);  \n(3) envolvimento multilobar;  \n(4) pneumotórax;  \n(5) empiema;  \n(6) tumores pulmonares.  \n\n**Adequado:** informa ao menos dois achados.  \n**Parcialmente adequado:** informa um achado.  \n**Inadequado:** não informa nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica de Pneumonia Adquirida na Comunidade.**  \n\n**Adequado:** formula a hipótese.  \n**Inadequado:** não formula a hipótese ou formula outra, como pneumonia complicada.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Identifica o agente etiológico mais comum para o quadro.**  \n\n**Adequado:** verbaliza Streptococcus pneumoniae, OU estreptococo, OU pneumococo, OU bactérias atípicas.  \n**Inadequado:** não verbaliza ou verbaliza outro agente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Avalia a gravidade da pneumonia e define o local de tratamento:**  \n(1) Aplica ou menciona um critério de gravidade (CURB-65 ou CRB-65);  \n(2) Conclui que a paciente tem baixo risco (CURB-65 = 0);  \n(3) Indica tratamento ambulatorial.  \n\n**Adequado:** realiza os três itens.  \n**Parcialmente adequado:** realiza dois itens.  \n**Inadequado:** realiza um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Propõe a conduta terapêutica específica para tratamento ambulatorial (apenas um dos itens):**  \n(1) Azitromicina por 3 a 7 dias, VO;  \n(2) Claritromicina por 7 a 14 dias, VO;  \n(3) Amoxicilina por 7 a 14 dias, VO;  \n(4) Doxiciclina por 7 a 14 dias, VO.  \n\n\n**Adequado:** propõe o medicamento e sua posologia corretamente.  \n**Parcialmente adequado:** propõe o medicamento, mas sua posologia incorretamente.  \n**Inadequado:** propõe o medicamento e a posologia incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Fornece orientações à paciente:**  \n(1) Orienta sobre o uso de antitérmico e analgésicos (Dipirona, Ibuprofeno, etc);  \n(2) Orienta sobre os sinais de alerta para procurar o serviço de saúde (piora da falta de ar, febre persistente, confusão mental);  \n(3) Orienta sobre medidas de suporte (hidratação, repouso).  \n\n**Adequado:** realiza os três itens.  \n**Parcialmente adequado:** realiza dois itens.  \n**Inadequado:** realiza um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

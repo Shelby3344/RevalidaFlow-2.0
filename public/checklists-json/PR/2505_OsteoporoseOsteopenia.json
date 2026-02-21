@@ -1,0 +1,204 @@
+{
+  "uid": 2505,
+  "hash": "pepe_2505",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Osteoporose/Osteopenia",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária.  \nTipo de atendimento: ambulatorial - consultório médico em unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico.\n\nDescrição do caso:\nVocê é um médico atuando em uma unidade básica de saúde (UBS) e realizará atendimento, em consulta agendada, de uma mulher de 66 anos, branca, que apresentará a você o resultado de exame de densitometria óssea realizado em mutirão de saúde da mulher.",
+  "tarefas": "TAREFAS:  \n- realizar a avaliação clínica da paciente;  \n- interpretar e verbalizar o resultado da densitometria óssea, explicando à paciente o significado do(s) achado(s) densitométrico(s);  \n- orientar o plano terapêutico e as condutas adequadas ao caso, com base no(s) achado(s) densitométrico(s).  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Joana, 66 anos, casada e dona de casa.  \n\n**MOTIVO DE CONSULTA:** Bom dia, doutor(a). Eu fiz esse exame dos ossos num mutirão de saúde e queria que o senhor(a) olhasse pra mim.  \n\n**DEMAIS QUEIXAS:**  \n• **Dor ou outros sintomas:** Não sinto nada, doutor(a). Nenhuma dor.  \n• **Febre, inchaço nas juntas, palpitação:** Não, nada disso.  \n• **Insônia, perda de peso:** nega.  \n\n**HISTÓRICO DE FRATURAS:** • A única coisa foi que eu quebrei o pulso faz um ano. Escorreguei em casa, foi uma queda boba.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **GPA:** tenho 4 filhos.  \n• **Menarca:** aos 12 anos.  \n• **Menopausa:** Minha menstruação parou com 55 anos.  \n• **TRH:**  Nunca fiz reposição hormonal.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e remédios:** Não tenho nenhuma doença. Não tomo nenhum remédio.  \n• **Histórico familiar:** Na minha família, que eu saiba, ninguém teve problema nos ossos.  \n\n**HÁBITOS DE VIDA:**  \n• **Alimentação:** Eu como bastante, bem equilibrada. Mas leite e queijo eu não como desde os 50 anos.  \n• **Xantinas:** Não tomo chá, mas café eu tomo bastante.  \n• **Atividade física:** Eu caminho todo dia, uns 40 minutos. Pego o solzinho da manhã.  \n• **Álcool e cigarro:** Não bebo e não fumo.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que deu no meu exame, doutor(a)?*  \n• *Esse problema tem tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "DENSITOMETRIA ÓSSEA",
+      "conteudo": "| Região | BMD (g/cm²) | (%) | T escore | (%) | Z escore |  \n| :---: | :---: | :---: | :---: | :---: | :---: |  \n| L1-L4 | 0,862 | 75 | -2,6 | 96 | -0,3 |  \n| Colo femoral | 0,861 | 83 | -1,3 | 102 | 0,1 |  \n\n\n**Valores de referência (T-escore):**  \n• **Normal:** até -1  \n• **Osteopenia:** entre -1 e -2,5  \n• **Osteoporose:** < -2,5\n\n\n**ATENÇÃO! OLHANDO PARA A CÂMERA, INTERPRETE E VERBALIZE O(S) ACHADO(S) DENSITOMÉTRICO(S).**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Estatura:** 150 cm.  \n• **Peso:** 67,5 kg.  \n• **Índice de massa corporal:** 30 kg/m².  \n• **Pressão arterial:** 125 mmHg x 72 mmHg.  \n• **Frequência cardíaca:** 72 batimentos por minuto.  \n• **Temperatura axilar:** 36°C.  \n\n\nExame físico sem outras alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) cumprimenta a paciente simulada;  \n(2) identifica-se;  \n(3) dirige-se à paciente simulada pelo nome, pelo menos uma vez;  \n(4) ouve a paciente com atenção.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza apenas duas ou três ações.  \n**Inadequado:** realiza apenas uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Postura:**  \n(1) estabelece contato visual; e  \n(2) mantém postura empática ao longo da consulta.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Escuta a fala da paciente simulada sem interrompê-la.**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível à paciente simulada, evitando termos técnicos de difícil compreensão.**  \n\n**Adequado:** utiliza linguagem acessível.  \n**Inadequado:** não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Responde às perguntas da paciente simulada.**  \n\n**Adequado:** responde às perguntas.  \n**Inadequado:** não responde às perguntas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre:**  \n(1) menarca;  \n(2) menopausa;  \n(3) uso de terapia hormonal.  \n\n**Adequado:** pergunta sobre os três itens.  \n**Parcialmente adequado:** pergunta sobre um ou dois itens.  \n**Inadequado:** não pergunta sobre nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga causas de osteoporose secundária:**  \n(1) uso de fármacos relacionados: crônico de glicocorticoide, inibidor da bomba de prótons, lítio, anticonvulsivantes, levotiroxina e outros;  \n(2) doenças endócrinas: hiperparatireoidismo, hipertireoidismo e outros;  \n(3) doenças intestinais: má absorção, doenças inflamatórias intestinais e outras;  \n(4) doenças reumáticas: artrite reumatoide e outras;  \n(5) outras doenças: doença pulmonar obstrutiva crônica, \ndoença renal crônica, doenças hepáticas crônicas, urolitíase e outros.  \n(6) neoplasias: mieloma, leucemias, linfomas, neoplasias \nprodutoras de PTH e outras;  \n(7) pós-transplante.  \n\n**Adequado:** investiga quatro ou mais causas secundárias.  \n**Parcialmente adequado:** investiga apenas duas ou três causas secundárias.  \n**Inadequado:** investiga apenas uma causa secundária ou não investiga nenhuma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Investiga história de fratura:**  \n(1) fratura pessoal por fragilidade;  \n(2) história familiar de fratura de quadril ou história familiar de \nosteoporose.  \n\n**Adequado:** investiga as duas situações.  \n**Parcialmente adequado:** investiga apenas uma.  \n**Inadequado:** não investiga nenhuma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Pergunta sobre hábitos alimentares:**  \n(1) ingestão de fontes de cálcio (leite ou derivados ou outros alimentos correlacionados);  \n(2) ingestão de xantinas (café, chá preto ou bebidas à base de cola).  \n\n**Adequado:** faz as duas perguntas.  \n**Parcialmente adequado:** faz uma pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Pergunta sobre outros hábitos de vida:**  \n(1) atividade física;  \n(2) etilismo;  \n(3) tabagismo; e  \n(4) exposição solar.  \n\n**Adequado:** pergunta sobre os quatro itens.  \n**Parcialmente adequado:** pergunta apenas sobre dois ou três itens.  \n**Inadequado:** pergunta apenas sobre um item ou não pergunta sobre nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza os achados da densitometria:**  \n(1) osteoporose na coluna lombar;  \n(2) osteopenia no fêmur.  \n\n**Adequado:** verbaliza os dois achados.  \n**Parcialmente adequado:** verbaliza apenas um achado.  \n**Inadequado:** não verbaliza nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Cita os principais fatores de risco para osteoporose/osteopenia na paciente simulada:**  \n(1) mulher;  \n(2) branca;  \n(3) idosa;  \n(4) baixa estatura;  \n(5) pós-menopausa sem terapia hormonal;  \n(6) ingestão baixa de cálcio.  \n\n**Adequado:** cita cinco ou seis fatores de risco.  \n**Parcialmente adequado:** cita apenas três ou quatro fatores de risco.  \n**Inadequado:** cita apenas um ou dois fatores de risco ou não cita nenhum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica tratamento medicamentoso:**  \n(1) bifosfonatos ou alendronato ou rizendronato ou ibandronato;  \n(2) cálcio com ou sem vitamina D.  \n\n**Adequado:** indica (1) e (2).  \n**Parcialmente adequado:** indica apenas (1).  \n**Inadequado:** indica apenas (2) ou indica outro tratamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Solicita exames laboratoriais:**  \n(1) hemograma;  \n(2) velocidade de hemossedimentação (VHS);  \n(3) proteína C-reativa;  \n(4) cálcio sérico;  \n(5) albumina;  \n(6) creatinina;  \n(7) fósforo;  \n(8) fosfatase alcalina e transaminases hepáticas;  \n(9) cálcio urinário de 24 horas;  \n(10) vitamina D;  \n(11) PTH;  \n(12) TSH;  \n(13) T4 livre.  \n\n**Adequado:** solicita 4 ou mais exames.  \n**Parcialmente adequado:** solicita apenas 2 ou 3 exames.  \n**Inadequado:** solicita apenas um exame ou não solicita nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indica medidas de educação em saúde:**  \n(1) manutenção da atividade física;  \n(2) orientação da prevenção de quedas;  \n(3) evitar o etilismo e(ou) tabagismo;  \n(4) aumento da ingesta de fontes de cálcio;  \n(5) redução do consumo de xantinas (café ou chá ou bebidas à base de cola);  \n(6) manutenção da exposição solar.  \n\n**Adequado:** indica quatro ou mais medidas.  \n**Parcialmente adequado:** indica apenas duas ou três medidas.  \n**Inadequado:** indica apenas uma medida ou não indica nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

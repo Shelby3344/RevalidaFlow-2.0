@@ -1,0 +1,243 @@
+{
+  "uid": 2107,
+  "hash": "pepe_2107",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "ABCDE - Pneumotórax Hipertensivo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está de plantão na emergência de um hospital de médio porte. \n\nOBSERVAÇÃO  \nO hospital possui a seguinte estrutura:  \n• setor de radiologia convencional, ultrassonografia e tomografia computadorizada. Não  \npossui ressonância nuclear magnética;  \n• laboratório de análises clínicas;  \n• leitos de internação;  \n• centro cirúrgico e banco de sangue.  \n• Não há plantão de ortopedia nem de subespecialidades.\n\nDescrição do caso:\nVocê está de plantão na emergência de um hospital de médio porte e vai atender uma paciente  \nde 25 anos de idade, sexo feminino, vítima de trauma automobilístico. A paciente estava sozinha  \nno veículo quando, ao dormir ao volante, colidiu frontalmente contra um poste de concreto. Foi  \nlevada ao pronto-socorro pelos bombeiros, que relataram acidente carro-poste sem uso do cinto  \nde segurança. A paciente se apresenta sonolenta, gemente, desorientada em tempo e espaço e  \ncom sinais claros de embriaguez. Escala de coma de Glasgow 13.  \nAo exame físico, mostrou-se hipocorada (+/4+), taquipneica (27 irpm), taquicárdica  \n(FC = 110 bpm), apresentando dor em tórax anterior.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar o atendimento da paciente vítima de politrauma, de acordo com o preconizado  \npelo ATLS;  \n- identificar as alterações no exame físico;  \n- adotar a(s) conduta(s) terapêutica(s) necessária(s);  \n- demonstrar a realização de procedimentos médicos, caso necessário.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Alice, 23 anos de idade.  \n\n**DEMAIS DADOS**:  \n• Não consta do script.  \n\n1) Ao solicitar exame físico, liberar impresso -EXAME FÍSICO;  \n2) Após o diagnóstico e/ou ao verbalizar a conduta terapêutica/procedimento necessário, liberar impresso - PROCEDIMENTO;  \n3) Após a estabilização da paciente/conduta terapêutica, liberar impresso-PERGUNTA DO CHEFE DA EQUIPE DO PLANTÃO.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**PA:** 90 × 50 mmHg  \n**FC:** 125 BPM  \n**FR:** 32 IRPM  \n\n\n**ACV:** Turgência jugular, bulhas cardíacas hipofonéticas.  \n**AR:** Murmúrio vesicular abolido à direita com hipertimpanismo.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "PROCEDIMENTO",
+      "conteudo": "**DESCREVA O(S) PROCEDIMENTO(S) QUE VOCÊ IRÁ REALIZAR, DEMONSTRANDO CLARAMENTE PARA A CÂMERA OS MATERIAIS QUE SERÃO UTILIZADOS E A TÉCNICA ADEQUADA.**  \n**CUIDADO PARA NÃO LESIONAR A PACIENTE SIMULADA.**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "PERGUNTA CHEFE DA EQUIPE DE PLANTÃO",
+      "conteudo": "O CHEFE DE EQUIPE DO PLANTÃO PERGUNTA SE HÁ NECESSIDADE DE TRANSFERÊNCIA DA PACIENTE PARA UM CENTRO TERCIÁRIO.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e identifica adequadamente o paciente.**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Avalia e verbaliza se as vias aéreas estão pérvias.**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verbaliza a necessidade de permanência do colar cervical e da máscara de**  \noxigênio.  \n**Adequado:** verbaliza a necessidade dos dois itens.  \n**Parcialmente adequado:** verbaliza a necessidade de um dos dois itens.  \n**Inadequado:** não verbaliza a necessidade de nenhum dos dois itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza ou verbaliza o exame do aparelho respiratório.**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica e verbaliza o diagnóstico de pneumotórax hipertensivo.**  \n\n**Adequado:** identifica o diagnóstico.  \n**Inadequado:** não identifica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Escolhe adequadamente o cateter n.° 14 para realização da punção.**  \n\n**Adequado:** escolhe adequadamente.  \n**Inadequado:** não escolhe/cita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Descreve a punção no quarto ou quinto espaço intercostal, linha axilar**  \nanterior ou média.  \n\n**Adequado:** descreve adequadamente.  \n**Inadequado:** não descreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a drenagem torácica fechada após a realização da punção de**  \ndescompressão.  \n\n**Adequado:** indica a drenagem torácica fechada.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Escolhe adequadamente o dreno (números 32 ou 36) para realização da**  \ndrenagem.  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Descreve a drenagem no quarto ou quinto espaço intercostal, linha axilar**  \nmédia.  \n\n**Adequado:** Descreve adequadamente.  \n**Inadequado:** Não descreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita raio-x de tórax após a punção ou drenagem.**  \n\n**Adequado:** solicita radiografia de tórax após o procedimento.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Solicita monitoração da paciente (FC, PA e oximetria).**  \n\n**Adequado:** solicita;  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Realiza ou verbaliza novamente o exame do aparelho respiratório após os procedimentos.**    \n\n**Adequado:** realiza ou verbaliza a ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Realiza ou verbaliza o exame do aparelho cardiovascular.**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Solicita um segundo acesso venoso calibroso.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Realiza ou verbaliza o exame do D do trauma (Escala de coma de Glasgow e**  \nreação de pupilas).  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Realiza ou verbaliza a exposição de toda a paciente com prevenção da**  \nhipotermia.  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Responde ao chefe de equipe que, no momento, NÃO será necessária remoção da paciente após a entrega do IMPRESSO 3**  \n\n**Adequado:** responde corretamente.  \n**Inadequado:** não responde.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

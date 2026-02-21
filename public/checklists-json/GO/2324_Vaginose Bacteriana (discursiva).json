@@ -1,0 +1,166 @@
+{
+  "uid": 2324,
+  "hash": "pepe_2324",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Vaginose Bacteriana (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma mulher de 32 anos, que procura atendimento com queixa de corrimento vaginal com odor fétido.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Solicitar e interpretar o exame físico.  \n- Formular a principal hipótese diagnóstica.  \n- Solicitar e interpretar os exames complementares para confirmação diagnóstica.  \n- Explicar o diagnóstico e orientar o tratamento com sua posologia completa.  \n- Orientar sobre as medidas de prevenção e responder dúvidas.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Bárbara, 32 anos, solteira, bibliotecária.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com um corrimento amarelado e com um cheiro forte, que piorou.  \n\n**SOBRE O CORRIMENTO:**  \n• **Início:** Percebi há umas 2 semanas, mas nos últimos dias piorou.  \n• **Aspecto e cor:** É meio amarelado, às vezes branco-acinzentado. É mais líquido, não é grosso.  \n• **Cheiro:** Tem um cheiro forte, que parece peixe, e piora depois da relação sexual.  \n• **Prurido:** Não coça.  \n• **Volume:** Aumentou bastante.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Nega:** febre, dor pélvica, dor para urinar (disúria) ou dor durante a relação sexual (dispareunia).  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** Minha última menstruação terminou há 10 dias.  \n• **Ciclos:** Sempre foram regulares, com poucas cólicas.  \n• **Anticoncepção** Eu tenho DIU.  \n• **Preservativo:** Uso camisinha, mas às vezes eu esqueço.  \n• **Parceiros:** Nos últimos meses, tive mais de um parceiro.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Duchas:** Eu costumo fazer duchas vaginais com frequência para me sentir mais limpa, principalmente por causa do cheiro.  \n• **Sabonetes íntimos:** Não uso.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso é uma DST?*  \n• *É algum vírus?*  \n• *Qual o tratamento? Meu parceiro precisa tratar também?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 115x70 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 99% em ar ambiente  \n• **Temp. axilar:** 36.4°C  \n\n\nPaciente em bom estado geral, corada, hidratada, afebril.  \n\n\n**Exame abdominal:** Abdome plano, flácido, indolor à palpação, sem massas ou visceromegalias.  \n\n\n**Demais segmentos sem alterações**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "**Inspeção vulvar:** Sem alterações.  \n\n\n**Exame especular:** Conteúdo vaginal em moderada quantidade, de aspecto branco-acinzentado, homogêneo e bolhoso, com odor fétido característico (semelhante a peixe).  \nParedes vaginais sem sinais flogísticos. Colo uterino de aspecto normal, sem hiperemia ou friabilidade.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ANÁLISE DA SECREÇÃO VAGINAL",
+      "conteudo": "• **pH vaginal:** 5,5 (VR: 3,8 a 4,5).  \n\n\n• **Teste das aminas (Whiff Test):** Positivo.  \n\n\n• **Exame a fresco (microscopia):** Presença de *clue cells* (++/+4). Raros leucócitos. Ausência de pseudo-hifas, leveduras ou protozoários flagelados.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese da queixa principal, perguntando sobre:**  \n(1) início;  \n(2) cor;  \n(3) odor; e,  \n(4) presença de prurido.  \n\n**Adequado:** pergunta sobre os quatro itens.  \n**Parcialmente adequado:** pergunta sobre dois ou três itens.  \n**Inadequado:** pergunta sobre um item ou não pergunta sobre item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas de diagnósticos diferenciais:**  \n(1) dor pélvica ou abdominal;  \n(2) febre; e,  \n(3) disúria (ou dor para urinar).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga fatores de risco e história ginecológica:**  \n(1) número de parceiros sexuais;  \n(2) uso de preservativo;  \n(3) prática de duchas vaginais; e,  \n(4) data da última menstruação.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico ginecológico, verbalizando a necessidade do exame especular.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a hipótese diagnóstica de Vaginose Bacteriana.**  \n\n**Adequado:** verbaliza a hipótese diagnóstica de Vaginose Bacteriana.  \n**Inadequado:** não verbaliza ou verbaliza outra hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita e/ou interpreta os exames para confirmação diagnóstica:**  \n(1) pH vaginal;  \n(2) Teste das aminas (Whiff test); e,  \n(3) Exame a fresco (microscopia para pesquisa de *clue cells*).  \n\n**Adequado:** solicita e/ou interpreta os três exames.  \n**Parcialmente adequado:** solicita e/ou interpreta dois exames.  \n**Inadequado:** solicita e/ou interpreta um exame ou não solicita/interpreta exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Aponta o agente etiológico mais comum.**  \n\n**Adequado:** cita a *Gardnerella vaginalis* como o principal microrganismo associado, explicando que a vaginose é uma disbiose (desequilíbrio da flora vaginal) e não uma infecção por um único agente.  \n**Inadequado:** não sabe citar o agente ou o confunde.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve o tratamento medicamentoso adequado para Vaginose Bacteriana (Metronidazol OU Clindamicina, por via oral OU vaginal).**  \n\n**Adequado:** prescreve uma das opções de tratamento padrão (Ex: Metronidazol 500mg, VO, 12/12h por 7 dias; OU Metronidazol gel vaginal por 5 noites).  \n**Parcialmente adequado:** prescreve a medicação correta, mas com posologia ou via incorreta.  \n**Inadequado:** não prescreve tratamento ou prescreve medicação incorreta (ex: antifúngico).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre a não necessidade de tratar o(s) parceiro(s) sexual(is) de rotina.**  \n\n**Adequado:** explica que, por não ser considerada uma IST, o tratamento de parceiros masculinos assintomáticos não é recomendado de rotina.  \n**Inadequado:** indica o tratamento do parceiro ou não aborda o tema.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre medidas preventivas para evitar recidivas:**  \n(1) não realizar duchas vaginais; e,  \n(2) usar preservativo em todas as relações sexuais.  \n(3) Evitar múltiplos parceiros sexuais;  \n\n**Adequado:** orienta duas ou três medidas.  \n**Parcialmente adequado:** orienta apenas uma medida.  \n**Inadequado:** não orienta medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

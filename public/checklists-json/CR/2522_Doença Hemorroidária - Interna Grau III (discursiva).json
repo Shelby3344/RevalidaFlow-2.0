@@ -1,0 +1,149 @@
+{
+  "uid": 2522,
+  "hash": "pepe_2522",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Doença Hemorroidária - Interna Grau III (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê está em atendimento em uma UBS e receberá um paciente de 41 anos, com queixa de sangramento nas fezes e nodulação anal durante as evacuações.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Formular e verbalizar o diagnóstico mais provável e sua classificação.  \n- Propor as condutas clínicas adequadas.  \n- Orientar sobre a indicação de tratamento cirúrgico.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Whindersson, 41 anos, motorista de aplicativo.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), vim aqui porque Toda vez que eu vou ao banheiro, sai um pouco de sangue no papel e eu sinto uma bolinha para fora.  \n\n**SOBRE SANGRAMENTO E NODULAÇÃO:**  \n• **Início:** já faz uns 8 meses que começou.  \n• **Frequência:** Acontece umas 3 ou 4 vezes por mês, principalmente quando meu intestino está mais preso.  \n• **Sangramento:** É um sangue vermelho vivo, que pinga no vaso ou suja o papel. Não vem misturado nas fezes.  \n\n• **Nodulação:** Sinto uma 'bolinha' de carne saindo para fora quando faço força para evacuar.  \n• **Redução:** Depois que eu termino, eu mesmo consigo empurrar essa bolinha para dentro com o dedo.  \n• **Dor:** Não sinto dor, só o incômodo da bolinha saindo.  \n\n**SOBRE EVACUAÇÕES:**  \n• **Hábito Intestinal:** Meu intestino é meio preso. Eu vou ao banheiro umas 3 ou 4 vezes na semana.  \n• **Fezes:** As fezes são mais duras, ressecadas, e eu preciso fazer um pouco de força para evacuar.  \n• **Força:** Às vezes faço muita força para evacuar e fico bastante tempo sentado no vaso, mexendo no celular.  \n\n• **Negar:** perda de peso, febre, dor abdominal, mudança no formato das fezes ou diarreia.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença e não tomo nenhum remédio.  \n• **Cirurgias e internações:** Nunca operei.  \n• **Tabagismo:** Não fumo.  \n• **Etilismo:** Bebo cerveja socialmente, nos fins de semana.  \n• **Alimentação e hidratação:** Admito que como pouca salada e fruta, e bebo pouca água durante o dia.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai tinha o mesmo problema.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *Isso é grave? Pode ser câncer?*  \n• *O que eu preciso fazer para melhorar?*  \n• *Vou precisar de cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 125x80 mmHg  \n• **FC:** 76 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36.6°C  \n• **SatO2:** 99% em ar ambiente  \n• **IMC:** 26 kg/m².  \n\n\n**EXAME CLÍNICO:**  \n• Bom estado geral, corado, hidratado, anictérico.  \n• Abdome plano, flácido, indolor à palpação, sem massas ou visceromegalias. Ruídos hidroaéreos presentes e normais.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME PROCTOLÓGICO",
+      "conteudo": "• **Inspeção perianal:** sem alterações visíveis, fissuras ou abscessos.  \n\n• **Manobra de Valsalva:** exteriorização de mamilos hemorroidários pelo canal anal.  \n\n• **Redutibilidade:** prolapso redutível manualmente pelo examinador/paciente.  \n\n• **Toque retal:** tônus esfincteriano preservado, ampola retal sem massas ou lesões palpáveis. Próstata de dimensões normais e consistência fibroelástica.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da queixa principal:**  \n(1) características do sangramento (cor, quantidade, relação com evacuação);  \n(2) características do prolapso (quando ocorre, se reduz espontaneamente ou necessita de ajuda);  \n(3) presença de dor anal associada;  \n(4) frequência dos episódios.  \n\n**Adequado:** pergunta três ou quatro características.  \n**Parcialmente adequado:** pergunta duas características.  \n**Inadequado:** pergunta uma característica ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sinais de alarme para outras doenças colorretais:**  \n(1) perda de peso inexplicada;  \n(2) alteração do hábito intestinal (diarreia e/ou constipação alternadas);  \n(3) dor abdominal.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga fatores de risco e hábitos de vida:**  \n(1) dieta (ingestão de fibras);  \n(2) hidratação;  \n(3) hábitos evacuatórios (esforço, tempo no vaso sanitário);  \n(4) história familiar.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico direcionado ao quadro.**  \n\n**Adequado:** solicita o exame proctológico (inspeção anal, toque retal, manobra de Valsalva).  \n**Inadequado:** não solicita o exame proctológico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico de Doença Hemorroidária (ou Hemorroidas).**  \n\n**Adequado:** verbaliza o diagnóstico.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza um diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Classifica corretamente a doença hemorroidária do paciente.**  \n(1) interna; e,  \n(2) grau III.  \n\n**Adequado:** classifica corretamente os dois itens.  \n**Parcialmente adequado:** classifica corretamente apenas um item.  \n**Inadequado:** não classifica ou classifica incorretamente os dois itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre as condutas clínicas (tratamento conservador):**  \n(1) mudança dietética (aumento da ingestão de fibras e líquidos);  \n(2) mudança de hábitos evacuatórios (evitar esforço e tempo prolongado no vaso);  \n(3) medidas de higiene local (banhos de assento, evitar papel higiênico).  \n(4) Uso de pomadas ou supositórios tópicos para alívio sintomático.  \n\n**Adequado:** orienta três ou quatro itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.9",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre o tratamento definitivo.**  \n\n**Adequado:** explica que, para o grau III, o tratamento cirúrgico (hemorroidectomia, Hemorroidopexia grampeada, ou Hemorroidoplastia) é a conduta definitiva indicada.  \n**Parcialmente adequado:** menciona a possibilidade de cirurgia, mas sem especificar a indicação para o caso.  \n**Inadequado:** não menciona a indicação cirúrgica, ou menciona trombectomia, ou escleroterapia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita exames complementares para avaliação completa do caso.**  \n(1) hemograma (para avaliar anemia);  \n(2) colonoscopia (para excluir outras causas de sangramento).  \n\n**Adequado:** solicita ou menciona a necessidade dos dois exames.  \n**Parcialmente adequado:** solicita ou menciona a necessidade de apenas um dos exames.  \n**Inadequado:** não solicita ou menciona a necessidade de nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

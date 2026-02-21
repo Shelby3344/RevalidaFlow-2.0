@@ -1,0 +1,177 @@
+{
+  "uid": 212,
+  "hash": "pepe_212",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Pancreatite Crônica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• acesso a exames laboratoriais.\n\nDescrição do caso:\nPaciente de 48 anos procura a Unidade Básica de Saúde com queixa de dor abdominal persistente e emagrecimento há 6 meses. Ele trás um exame de imagem realizado na UPA na semana anterior.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao quadro;  \n- Solicitar o exame físico, caso necessário;  \n- Avaliar os exames trazidos pelo paciente;  \n- Verbalizar a principal hipótese diagnóstica;  \n- Propor e explicar as indicações de tratamento para esta condição.  \n- Responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Gláucio, 48 anos, pedreiro.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu continuo com uma dor na boca do estômago que não passa e estou emagrecendo muito.  \n\n\n**SOBRE A DOR:**  \n• **Início:** Há uns 6 meses, mas vem piorando.  \n• **Localização:** É bem na boca do estômago, mas vai para as costas também.  \n• **Característica:** É uma dor chata, contínua.  \n• **Fator de piora:** Piora quando eu como, uns 20 minutos depois, principalmente se a comida for gordurosa.  \n• **Intensidade:** Agora está incomodando bastante, nota 7.  \n\n**SOBRE EMAGRECIMENTO E HÁBITO INTESTINAL:**  \n• **Peso:** Perdi uns 10 quilos nesses 6 meses. As roupas estão caindo.  \n• **Urina:** Sinto muita sede e urino bastante ultimamente.  \n• **Fezes:** O intestino está solto. As fezes boiam no vaso e têm um cheiro muito forte. Parece que tem gordura misturada.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Que eu saiba não tenho nada. Mas eu tava com muita dor semana passada e fui no PS e fizeram um exame. Trouxe pra você olhar. *-> Liberar o impresso **TC DE ABDOME.***  \n• **Álcool:** Bebo uma cachaça todo dia. Umas 4 doses por dia, há mais de 20 anos.  \n• **Tabagismo:** Fumo um maço de cigarro por dia desde os 18 anos.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Como que trata isso?*  \n• *Vou precisar operar?*  \n• *Posso continuar bebendo só no fim de semana?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 130x80 mmHg.  \n• **FC:** 88 bpm.  \n• **FR:** 16 irpm.  \n• **Temperatura:** 36,5ºC.  \n• **IMC:** 19 kg/m².  \n\n\n**Ectoscopia:** Regular estado geral, emagrecido, corado, hidratado, anictérico.  \n\n\n**Abdome:** Plano, flácido, doloroso à palpação profunda em epigástrio, sem massas palpáveis, sem visceromegalias. Ruídos hidroaéreos presentes.  \n\n\n**Restante do exame físico:** Sem alterações dignas de nota.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Bioquímica:**  \n• **Glicemia em jejum:** 158 mg/dL (VR: ---)  \n• **Hemoglobina Glicada (HbA1c):** 7,8% (VR: < 5,7%)  \n• **Amilase:** 95 U/L (VR: 30-110 U/L)  \n• **Lipase:** 45 U/L (VR: 13-60 U/L)  \n• **TGO:** 45 U/L (VR: < 40 U/L)  \n• **TGP:** 48 U/L (VR: < 41 U/L)  \n• **Gama-GT:** 180 U/L (VR: < 50 U/L)  \n\n\n**Fezes:**  \n• Elastase fecal: 80 µg/g (VR: > 200 µg/g)  \n• Pesquisa de gordura fecal (Sudan III): Positiva (+++/4+)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TC DE ABDOME",
+      "conteudo": "Pâncreas de dimensões reduzidas, de contornos irregulares e presença de múltiplas calcificações grosseiras distribuídas pela cabeça, corpo e cauda.",
+      "imagem": "img_printeds/e212p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese da dor:**  \n(1) localização (epigástrio) e irradiação (para o dorso);  \n(2) fator de piora (alimentação/gordura);  \n(3) cronicidade (evolução de meses).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga um ou dois itens.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas de insuficiência pancreática:**  \n(1) Alterações nas Fezes, OU esteatorreia (gordura nas fezes, fezes que boiam, odor fétido);  \n(2) perda de peso.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga hábitos de vida:**  \n(1) etilismo (quantidade e duração);  \n(2) tabagismo.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico abdominal.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a hipótese diagnóstica de Pancreatite Crônica (ou Pancreatite Crônica Alcoólica).**  \n\n**Adequado:** verbaliza o diagnóstico correto.  \n**Inadequado:** não verbaliza ou verbaliza outro diagnóstico (ex: gastrite, úlcera).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames complementares essenciais:**  \n(1) Amilase E Lipase;  \n(2) Glicemia (jejum ou HbA1c);  \n(3) Pesquisa de gordura fecal (ou elastase fecal);  \n(4) TGO, TGP e Gama-GT;\n\n**Adequado:** solicita três ou quatro itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta o tratamento não farmacológico:**  \n(1) Abstinência total de álcool;  \n(2) Cessação do tabagismo;  \n(3) Dieta fracionada com restrição de gorduras.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta um ou dois itens.  \n**Inadequado:** não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve reposição de enzimas pancreáticas (Pancreatina/Lipase ex: Creon) associada às refeições.**  \n\n**Adequado:** prescreve corretamente (indica uso nas refeições).  \n**Parcialmente adequado:** prescreve, mas sem orientação de uso nas refeições.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Prescreve analgesia (escalonada: analgésicos simples ou opioides fracos se necessário) E inibidor de bomba de prótons (ex: Omeprazol) para otimizar ação das enzimas.**  \n\n**Adequado:** prescreve analgesia E IBP.  \n**Parcialmente adequado:** prescreve apenas um dos dois.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explica as indicações de tratamento cirúrgico para a Pancreatite Crônica:**  \n(1) Dor intratável (refratária ao tratamento clínico);  \n(2) Suspeita de neoplasia (câncer);  \n(3) Complicações obstrutivas (do ducto biliar, duodeno ou pseudocistos sintomáticos).  \n\n**Adequado:** cita duas ou mais indicações.  \n**Parcialmente adequado:** cita apenas uma indicação.  \n**Inadequado:** não cita indicações ou cita incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta o acompanhamento para controle do Diabetes Mellitus e reposição de vitaminas lipossolúveis (A, D, E, K) se necessário.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

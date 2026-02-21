@@ -1,0 +1,160 @@
+{
+  "uid": 1612,
+  "hash": "pepe_1612",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "xABCDE - Fratura de fêmur (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATUAÇÃO  \nLocal de atuação: UTI móvel - Cena de acidente.  \nA unidade possui a seguinte infraestrutura:  \n• Equipamentos de suporte avançado de vida;  \n• Materiais para controle de hemorragias, imobilização e acesso venoso.\n\nDescrição do caso:\nVocê é o(a) médico(a) da equipe de atendimento pré-hospitalar e atenderá um homem de 30 anos, motorista de um veículo vítima de colisão contra uma árvore. Há um óbito no local (passageiro). Ele queixa-se de dor no peito ao respirar e dor intensa na perna esquerda.",
+  "tarefas": "TAREFAS:  \n- Realizar a avaliação pré-hospitalar primária do paciente (XABCDE);  \n- Identificar lesões e o estado hemodinâmico do paciente;  \n- Realizar as condutas imediatas para estabilização;  \n- Comunicar-se com a central de regulação sobre a cena;  \n- Responder as perguntas do chefe de Estação.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Ricardo, 30 anos, engenheiro.  \n\n**MOTIVO DE CONSULTA:** • Ai... meu peito dói quando eu respiro... e minha perna... minha perna esquerda dói demais...  \n\n**SOBRE DOR:**  \n• **Início:** Foi depois da batida...  \n• **Localização:** No lado esquerdo do peito e na coxa esquerda.  \n• **Intensidade:** A dor na perna é 10, a pior que já senti. No peito é mais fraca, mas piora pra respirar.  \n• **Trauma:** O carro bateu na árvore... eu estava dirigindo.  \n\n**ALTERAÇÃO NEUROLÓGICA:**  \n• **Perda de consciência:** Não sei... acho que não desmaiei. Está tudo meio confuso.  \n• **O que aconteceu?:** Eu não lembro direito... só do barulho e da dor.  \n\n**SINTOMAS ASSOCIADOS:**  \n• Estou com dificuldade pra respirar...  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**PERGUNTAS DO CHEFE DE ESTAÇÃO:**  \n• *O que deverá ser informado para a central de regulação?*  \n• *Cite as possíveis lesões traumáticas para este tipo de acidente*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 85x55 mmHg  \n• **FC:** 120 bpm  \n• **FR:** 26 irpm  \n• **SatO2:** 92% (em ar ambiente)  \n\n\nPaciente pálido, sudoreico, confuso, com cinto de segurança afivelado.  \n\n\n**ATENÇÃO**  \nVerbalize toda a Avaliação Primária (xABCDE) deste paciente, e ao final solicite o IMPRESSO de resposta.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "AVALIAÇÃO (XABCDE)",
+      "conteudo": "• **X (Exsanguinação externa grave):** Ferimento de aproximadamente 20 cm em coxa esquerda com sangramento venoso significativo.  \n\n\n• **A (Vias Aéreas e Coluna Cervical):** Vias aéreas pérvias, paciente verbalizando. Coluna cervical alinhada, sem deformidades visíveis.  \n\n\n• **B (Respiração e Ventilação):** Dor à palpação do gradeado costal esquerdo. Ausculta pulmonar com murmúrio vesicular presente e simétrico. Dispneia leve.  \n\n\n• **C (CirculaçãO):** PA: 85x50 mmHg, FC: 123 bpm; Pulsos periféricos finos e rápidos. Enchimento capilar maior que 2 segundos.  \n\n\n• **D (Avaliação Neurológica):** Escala de Coma de Glasgow = 13 (Abertura Ocular: 4, Resposta Verbal: 4 - confuso, Resposta Motora: 5 - localiza dor). Pupilas isocóricas e fotorreagentes.  \n\n\n• **E (Exposição e Ambiente):** Deformidade em membro superior esquerdo. Ferimento extenso na coxa esquerda.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação e Segurança:**  \n(1) Apresenta-se ao paciente;  \n(2) Verbaliza a avaliação de segurança da cena.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Avaliação das vias aéreas (A):**  \n(1) Verifica a perviedade das vias aéreas;  \n(2) Instala colar cervical.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Avaliação da respiração e ventilação (B):**  \n(1) Realiza inspeção, palpação e ausculta do tórax;  \n(2) Oferta oxigênio em alto fluxo (máscara não reinalante).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Avaliação da circulação e controle de hemorragia (X):**  \n(1) Identifica o ferimento grave na coxa esquerda com sangramento venoso;  \n(2) Realiza compressão direta no ferimento para controlar o sangramento;  \n\n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Conduta na Circulação (C):**  \n(1) Verifica pulsos centrais e periféricos e o tempo de enchimento capilar.  \n(2) Punciona dois acessos venosos periféricos de grosso calibre (ex: Jelco 14 ou 16);  \n(3) Inicia reposição volêmica com solução cristaloide (Soro Fisiológico ou Ringer Lactato).  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza apenas uma ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula a hipótese de Choque Hipovolêmico Hemorrágico.**  \n\n**Adequado:** formula a hipótese, justificada pela hipotensão e taquicardia.  \n**Inadequado:** não formula a hipótese de choque hipovolêmico hemorrágico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Avaliação neurológica (D):**  \n(1) Aplica a Escala de Coma de Glasgow;  \n(2) Avalia as pupilas (tamanho e fotorreatividade).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Exposição e controle do ambiente (E):**  \n(1) Expõe completamente o paciente para procurar outras lesões;  \n(2) Previne a hipotermia (utiliza manta térmica).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Condutas secundárias:**  \n(1) Imobiliza as fraturas suspeitas (membro superior e inferior esquerdo);  \n(2) Verbaliza a necessidade de transporte rápido para um hospital com disponibilidade de cirurgia imediata;  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Comunica-se com a Central de Regulação de Urgências.**  \n(1) Informa a gravidade (choque hemorrágico, fratura de fêmur);  \n(2) Informa sobre o óbito de um dos ocupantes;  \n(3) Solicita vaga para hospital de referência terciária.  \n\n**Adequado:** informa sobre os três itens.  \n**Parcialmente adequado:** informa sobre dois itens.  \n**Inadequado:** informa sobre apenas um item ou não se comunica com a central.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza possíveis lesões traumáticas decorrentes de um acidente automobilístico de alta energia:**  \n(1) TCE (Traumatismo Cranioencefálico);  \n(2) Fratura de coluna cervical;  \n(3) Trauma torácico (fraturas de arcos costais, contusão pulmonar, hemo/pneumotórax, tórax instável);  \n(4) Trauma de grandes vasos (Ex: rotura de aorta);  \n(5) Trauma abdominal (lesão de baço ou fígado);  \n(6) Fratura ou luxação de quadril;  \n(7) Fratura de membros inferiores (fêmur, tíbia/fíbula, tornozelo/pé);  \n(8) Fratura de membros superiores.  \n\n**Adequado:** verbaliza cinco ou mais lesões.  \n**Parcialmente adequado:** verbaliza quatro lesões.  \n**Inadequado:** verbaliza três ou menos lesões.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "uid": 1601,
+  "hash": "pepe_1601",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Protocolo SPIKES - HIV",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você é médico(a) de uma UBS ..\n\nDescrição do caso:\nVocê é médico(a) de uma UBS e recebe uma paciente de 22 anos, trazendo resultado de exames laboratoriais realizados em sua última doação de sangue.",
+  "tarefas": "TAREFAS:  \n\nNos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- Realizar anamnese direcionada aos exames complementares;  \n- Utilizar habilidades profissionais para comunicação do diagnóstico;  \n- Fornecer orientações à paciente;  \n- Esclarecer dúvidas.",
+  "script_ator": "**DADOS PESSOAIS:**  \n**Nome:** Manuela  \n**Idade:** 22 anos  \n**Estado civil:** Solteira  \n\n\n**Profissão:** *NÃO INFORMAR AO CANDIDATO NESTE MOMENTO.*  \n**INFORMAR QUE É PROFISSIONAL DO SEXO SOMENTE APÓS O CANDITADO QUESTIONAR SOBRE RELAÇÃO SEXUAL**  \n\n\n**MOTIVO DA CONSULTA:** Então Dr(a) estou até meio ansiosa. O pessoal do banco de sangue pediu que eu fosse lá buscar os resultados dos meus exames e trazer numa consulta aqui no postinho.  \n\n**DEMAIS QUEIXAS OU SINTOMAS:** nega.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** há 5 dias. Fluxo regular.  \n• **Parceria fixa:** Não tenho parceiro fixo, e tenho relações constantes. Sou profissional do sexo Dr(a).  \n• **Uso de preservativo:** Quase todas as vezes.  \n• **Anticoncepcional:** Uso pilula oral.    \n\n\n**ANTECEDENTES PESSOAIS:**\n• **Doação de sangue:** Já doo sangue há 2 anos, a cada 6 meses.  \n• **Alergias, doenças, medicações, cirurgias e internações:** nega.  \n• **Álcool, tabaco e drogas:** nega.  \n\n\nPERGUNTAS DO CANDIDATO ACERCA DOS EXAMES:  \n• **ACOMPANHANTE:** *A minha mãe está lá fora, mas prefiro saber sozinha mesmo.*  \n• **ESTADO DE SAÚDE:** *Pareço estar bem, não estou sentindo nada.*  \n• **CONHECIMENTO SOBRE HIV:** *Sei que é um vírus.*  \n• **QUER SABER SOBRE SUA SAÚDE:** *Sim, quero saber de tudo.*\n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**LIBERAR O IMPRESSO *EXAME CONFIRMATÓRIO HIV* SOMENTE APÓS O CANDIDATO SOLICITAR ESTE EXAME EM ESPECÍFICO**  \n\n\nDÚVIDAS:\nCASO RECEBA O DIAGNÓSTICO:  \n• *Dr(a), mas é certeza isso? Não pode ser algum resultado errado?*  \n• *Como peguei isso?*  \n• *Tem cura? Como eu poderia tratar?*  \n• *Preciso fazer algum acompanhamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "INFORMAÇÕES E EXAMES DA PACIENTE",
+      "conteudo": "**SINAIS VITAIS NA TRIAGEM:**  \n● PA: **110 x 70mmHg**  \n● FC: **72bpm**  \n● FR: **18irpm**  \n● SatO2: **99% em ar ambiente**  \n● Temperatura: **36.6ºC**  \n\n\n**EXAMES LABORATORIAIS**  \n\n**HEMOGRAMA:**  \n**Hb: 12.5** (Ref. 12-16)  \n**Ht: 38** (Ref. 36-48)  \n**Leucócitos: 6.000** (Ref. 3.700-10.000)  \n**Plaquetas: 200.000** (Ref. 150.000-450.000)  \n\n\n**TIPO SANGUÍNEO:** O-  \n\n\n**TRIAGEM SOROLÓGICA DO DOADOR:**  \n**Hepatite B:** negativo;  \n**Hepatite C:** negativo;  \n**Doença de Chagas:** negativo;  \n**Sífilis:** negativo;  \n**HIV:** positivo;  \n**HTLV I/II:** negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME CONFIRMATÓRIO HIV",
+      "conteudo": "**TESTE MOLECULAR**  \n**HIV-PCR:** positivo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se, cumprimenta e acolhe a doadora de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga dados pessoais da doadora (pelo menos: nome, idade, profissão).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Mantém postura receptiva (contato visual com a paciente padronizada; tronco voltado para a doadora sem cruzamento de membros superiores).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Envolve pessoas significativas antes de dar a notícia (pergunta à doadora se ela está acompanhada e se gostaria que a mãe entrasse na sala).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Ao comunicar o resultado antecipa que tem más notícias no intuito de reduzir o seu impacto.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Assegura a paciente que o teste foi confirmado, por repetição na mesma amostra, como informado no resultado do exame e determinado por lei.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Dá respostas empáticas e/ou validações verbais ao longo da entrevista**  \n**(por exemplo: *“Eu posso ver o quanto isso está sendo difícil para você\"*; *“Eu gostaria que as notícias não fossem essas”*).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Investiga a percepção da doadora sobre a infecção pelo HIV antes de dar explicações.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Fornece explicações com linguagem simples e evita o jargão médico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Investiga a vida sexual da doadora (pelo menos: número e regularidade de parceiros, relações protegidas ou não), uso de drogas ilícitas e história de transfusão prévia.**  \n\n**Adequado:** se investigar todas as possibilidades.  \n**Parcialmente adequado:** se investigar somente a vida sexual.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explica à paciente sobre os meios de transmissão a que ela se expôs.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica, em linguagem acessível à doadora, a diferença entre infecção e doença pelo HIV.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Ressalta aspectos de prognóstico mais positivo face à existência de drogas eficazes para o tratamento.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Fala de forma pausada (dando informações aos poucos), certificando-se de que a doadora está entendendo as informações transmitidas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta a paciente quanto ao seu potencial de contaminação e a necessidade de que todas as suas relações sexuais sejam protegidas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Explica à paciente a necessidade de elaborar um plano de enfrentamento (pelo menos: realização de novos exames e encaminhamento para tratamento).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Pergunta se a doadora tem dúvidas, se gostaria de ter mais informações e se sente segura para voltar para casa.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

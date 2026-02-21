@@ -1,0 +1,149 @@
+{
+  "uid": 314,
+  "hash": "pepe_314",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Hérnia Inguinal Indireta",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê é médico(a) em uma UBS e atenderá um lactente de 3 semanas de vida, trazido pela mãe por notar um \"caroço\" na região da virilha.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar o exame físico específico e para diagnóstico diferencial do quadro.  \n- Formular a(s) hipótese(s) diagnóstica(s).  \n- Explicar à mãe a condição da criança, a fisiopatologia e as possíveis complicações.  \n- Propor a conduta terapêutica e o seguimento adequados.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Juliana, 28 anos.  \n• **Criança:** Mateus, 3 semanas de vida.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim porque apareceu um carocinho aqui na virilha dele.  \n\n**SOBRE O ABAULAMENTO:**  \n• **Início:** Percebi faz uns 5 dias.  \n• **Localização:** é do lado esquerdo.  \n• **Atenuante/agravente:** Ele aparece mais quando chora ou faz força. Quando ele está calmo, parece que some.  \n• **Dor:** Ele não parece ter dor.  \n• **Calor/vermelhidão:** nega.  \n\n**SINTOMAS ASSOCIADOS:**  \nNão teve febre, não vomitou. Está mamando bem.  \n\n**ANTECEDENTES PESSOAIS E PERINATAIS:**  \n• **GPA:** Foi minha primeira gestação.  \n• **Semanas de gestação e via parto:** Ele nasceu de 36 semanas, foi parto normal.  \n• **Pré-natal e intercorrências:** precisei ficar um pouco na incubadora para ganhar peso, mas foi tudo bem.  \n• **VACINAÇÃO:** Tomou as vacinas do hospital.  \n• **Testes de triagem:** Fez o teste do pezinho, deu tudo normal.  \n• **Amamentação:** Está só no peito.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que é isso, doutor(a)? É grave?*  \n• *Por que isso apareceu?*  \n• *Isso pode piorar ou dar algum problema?*  \n• *Meu filho vai precisar operar? É urgente?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE SAÚDE DA CRIANÇA",
+      "conteudo": "• **Nome:** Mateus.  \n\n• **Dias de vida:** 20 dias  \n\n• **Sexo:** Masculino.  \n\n• **Idade Gestacional:** 36 semanas.  \n\n• **Peso de nascimento:** 2.750 gramas.  \n\n• **Comprimento ao nascer:** 47 centímetros.  \n\n• **Apgar:** 8/9.  \n\n• **Tipo Sanguíneo mãe:** O+  \n\n• **Vacinação:** BCG e Hepatite B (ao nascer).  \n\n• **Triagem neonatal:** Normal.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Idade:** 3 semanas.  \n• **Peso atual:** 3.100 g.  \n• **Estado Geral:** Bom estado geral, corado, hidratado, anictérico, afebril, reativo.  \n• **Frequência Cardíaca:** 140 bpm.  \n• **Frequência Respiratória:** 45 irpm.  \n\n\n• **Aparelho Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Aparelho Cardiovascular:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.  \n\n• **Abdome:** Flácido, ruídos hidroaéreos presentes, indolor à palpação, sem visceromegalias.  \n\n\n• **Região Inguinal:** Presença de abaulamento em região inguinal direita (aprox. 2 cm), indolor à palpação, que se reduz espontaneamente/facilmente à palpação leve.  \nManobra de Valsalva (ao choro) positiva, com novo abaulamento e impulso herniário sentido na ponta do dedo.  \n\n• **Genitália:** Testículos tópicos em bolsa escrotal.  \n\n• **Teste de Transiluminação:** Negativo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e pergunta o nome dela e da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida sobre a queixa atual:**  \n(1) tempo de surgimento;  \n(2) fatores de piora (choro, esforço);  \n(3) redutibilidade (se desaparece ou diminui);  \n(4) sintomas associados (vômitos, dor/irritabilidade, febre).  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga antecedentes perinatais relevantes:**  \n(1) história gestacional (prematuridade);  \n(2) tipo de parto;  \n(3) intercorrências neonatais (Ex: internação em UTI, uso de ventilação).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza o exame físico da região inguinal:**  \n(1) solicita/realiza a inspeção da região inguinal;  \n(2) realiza a manobra de palpação/redução do abaulamento (pode solicitar que a mãe estimule o choro para manobra de Valsalva).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza o teste de transiluminação.**  \n\n**Adequado:** realiza o teste (verbalizando o uso de uma fonte de luz).  \n**Inadequado:** não realiza o teste.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico de Hérnia Inguinal Indireta (Direita).**  \n\n**Adequado:** verbaliza o diagnóstico completo (Hérnia Inguinal Indireta).  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza apenas \"hérnia\".",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica a fisiopatologia para a mãe.**  \n\n**Adequado:** explica, em linguagem acessível, que a hérnia é causada pela persistência de um canal (conduto peritônio-vaginal) que deveria ter fechado após o nascimento.  \n**Inadequado:** não explica a causa ou usa termos técnicos incompreensíveis.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita os principais diagnósticos diferenciais para o caso:**  \n(1) Hidrocele comunicante;  \n(2) Linfadenopatia inguinal (íngua).  \n\n**Adequado:** cita os dois diagnósticos.  \n**Parcialmente adequado:** cita um diagnóstico.  \n**Inadequado:** não cita nenhum diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta a mãe sobre os sinais de complicações (sinais de alarme):**  \n(1) Encarceramento (abaulamento que não \"volta\" mais para dentro);  \n(2) Estrangulamento (dor intensa, vômitos, vermelhidão local, febre).  \n\n**Adequado:** orienta sobre as duas complicações/sinais.  \n**Parcialmente adequado:** orienta sobre uma complicação/sinal.  \n**Inadequado:** não orienta sobre complicações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a conduta terapêutica:**  \n(1) indica tratamento cirúrgico (herniorrafia), OU encaminhamento ao cirurgião;  \n(2) explica que, por ser redutível (não complicada), a cirurgia é eletiva, mas deve ser programada (devido ao risco de encarceramento no lactente).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** indica a cirurgia, mas não esclarece o caráter (eletivo vs. urgência) corretamente.  \n**Inadequado:** não indica cirurgia ou indica conduta expectante.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

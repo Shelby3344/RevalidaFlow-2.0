@@ -1,0 +1,189 @@
+{
+  "uid": 2421,
+  "hash": "pepe_2421",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Doença/Mal de Alzheimer (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - ambulatório.  \nTipo de atendimento: Ambulatório de Psiquiatria/Geriatria.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• setor de diagnóstico por imagem.\n\nDescrição do caso:\nVocê está em atendimento no ambulatório de psiquiatria e receberá uma paciente de 77 anos, encaminhada pela UBS com suspeita de depressão e perda de memória.",
+  "tarefas": "TAREFAS:  \n- Realizar anamnese sobre o quadro.  \n- Formular a hipótese diagnóstica mais provável para o quadro.  \n- Identificar os fatores de risco e os diagnósticos diferenciais pertinentes;  \n- Solicitar e Interpretar exame(s) pertinente(s), caso haja necessidade;  \n- Propor o tratamento farmacológico e orientar sobre as condutas não farmacológicas.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Paciente:** Sra. Helena, 77 anos, aposentada, viúva.  \n• **Acompanhante:** Filho, Ricardo, 45 anos.  \n\n**MOTIVO DE CONSULTA:**  \n• **Filho:** Doutor(a), eu trouxe minha mãe porque o médico do postinho nos encaminhou. Ele achou que ela estava com depressão, mas o que nos preocupa mesmo é a memória dela, que vem piorando muito.  \n\n**SOBRE AS QUEIXAS DE MEMÓRIA:**  \n• **Início:** Começou devagar, há uns 2 anos.   \n• **1 - Esquecimento de objetos:** sim, foi a primeira coisa que aconteceu, não lembrava onde deixava a chave de casa, os óculos ou a bolsa.  \n• **2 - Concentração/palavras:** Ela era bem organizada, mas agora está mais dificil e também tinha dificuldade para achar as palavras certas.  \n• **3 - Memória recente:** Depois de um tempo começou a se esquecer de coisas recentes, pergunta a mesma coisa várias vezes, esquece o que almoçou.  \n• **4 - Memória remota:** O curioso é que ela se lembra perfeitamente de histórias da infância dela, com todos os detalhes.  \n• **5 - Orientação:** Ela se perde, às vezes não sabe que dia da semana é.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Humor:** Ela fica mais quieta, às vezes meio apática, mas não chora nem se queixa de tristeza.  \n• **Funcionalidade:** Ela não consegue mais fazer compras, esquece de pagar as contas.  \n• **Sintomas neurológicos:** nega tremores, fraqueza nos braços ou pernas, dificuldade para andar ou engolir.  \n• **Trauma/quedas:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Tem pressão alta, diabetes e um problema nos rins.  \n• **Medicações:** Usa Losartana, Metformina e às vezes um diurético. Trata tudo certinho.   \n• **Cirurgias e internações:** Nunca fez cirurgias.  \n• **Álcool, tabaco e drogas:** Nunca fumou e não bebe.  \n\n**ANTECEDENTES FAMILIARES:**  \n• **Filho:** A mãe dela, minha avó, também ficou \"esquecida\" no final da vida.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que minha mãe tem, isso é normal da idade?*  \n• *Existe algum tratamento para isso?*  \n• *Não pode ser outra coisa?*  \n• *Ela vai ficar curada?*  \n• *Como eu cuido dela agora? Está cada vez mais difícil...*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **PA:** 135 x 85 mmHg.  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.4°C  \n\n\n**EXAME NEUROLÓGICO GERAL:**  \n• **Pares cranianos:** Preservados.  \n• **Força muscular:** Grau 5/5 globalmente.  \n• **Sensibilidade:** Preservada.  \n• **Coordenação e marcha:** Sem alterações significativas.  \n• **Reflexos:** Normoativos.  \n\n\n• **DEMAIS SEGMENTOS** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "MINIMENTAL - MEEM",
+      "conteudo": "**Paciente:** Helena de Castro, 77 anos.  \n**Anos de estudo:** 6 anos.\n\n\n**AVALIAÇÃO COGNITIVA**  \n**MINI-EXAME DO ESTADO MENTAL - MEEM:**  \n\n\n• **Escore total:** 19/30.  \n• **Déficits observados:** Orientação temporal (erra dia, mês e ano), evocação de 3 palavras (não lembra nenhuma após 5 minutos), cálculo e atenção (dificuldade em subtração seriada), linguagem (dificuldade em nomear objetos).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:** sem alterações.  \n• **Hemoglobina:** 12,5 g/dL (VR: 12,0 – 16,0 g/dL)  \n• **Leucócitos:** 6.500 mm³ (VR: 4.000 – 11.000/mm³)  \n\n\n• **Glicemia de jejum:** 115 mg/dL (VR: 70 – 99 mg/dL)  \n• **Creatinina:** 1,4 mg/dL (VR: 0,6 – 1,2 mg/dL)  \n• **Ureia:** 55 mg/dL (VR: 10 – 50 mg/dL)  \n• **TSH (Hormônio Tireoestimulante):** 2,8 mU/L (VR: 0,4 – 4,5 mU/L)  \n• **Vitamina B12:** 450 pg/mL (VR: 200 - 900 pg/mL)  \n• **Sorologia para sífilis (VDRL):** Não reagente.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RNM DE ENCÉFALO",
+      "conteudo": "**RESSONÂNCIA MAGNÉTICA DE ENCÉFALO**  \n\n\n**LAUDO:**  \n• Observa-se redução volumétrica acentuada e simétrica dos hipocampos.  \n• Atrofia cortical difusa, com predomínio em regiões posteriores (parieto-temporais).  \n• Ausência de lesões isquêmicas agudas, hemorragias ou processos expansivos.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "PET SCAN CEREBRAL",
+      "conteudo": "**LAUDO:**  \n• Detecção de captação cortical difusa do traçador amiloide, indicando presença significativa de placas beta-amiloides.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e acolhe a paciente e seu acompanhante.**  \n(1) identifica-se de forma cordial;  \n(2) dirige-se à paciente e ao filho, criando um ambiente de confiança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características do declínio cognitivo.**  \n(1) pergunta sobre o início e a progressão dos sintomas de memória (recente vs. remota, esquecimento de objetos);  \n(2) investiga outras áreas cognitivas (linguagem, orientação, reconhecimento de faces, função executiva, etc);  \n(3) questiona sobre sintomas nas atividades de vida diária (fazer compras, pagar contas, cozinhar, vestir-se, etc).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Diferencia o quadro de depressão, investigando sintomas de humor e comportamento.**  \n(1) pergunta sobre humor deprimido, choro fácil ou anedonia;  \n(2) investiga a presença de apatia, irritabilidade ou agitação.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga antecedentes e fatores de risco.**  \n(1) pergunta sobre comorbidades (HAS, DM);  \n(2) questiona sobre histórico familiar de demência ou problemas de memória.  \n\n**Adequado:** pergunta os dois itens.  \n**Parcialmente adequado:** pergunta um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais para afastar causas reversíveis:**  \n(1) Hemograma;  \n(2) Função renal (Ureia e Creatinina);  \n(3) Sódio e Potássio;  \n(4) TSH;  \n(5) Vitamina B12; e,  \n(6) Sorologia para sífilis.  \n\n**Adequado:** solicita cinco ou mais exames.  \n**Parcialmente adequado:** solicita quatro exames.  \n**Inadequado:** solicita três ou menos exames ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames de imagem:**  \n(1) Ressonância Magnética de Crânio/Cerebral/Enféfalo;  \n(2) PET Scan.  \n\n**Adequado:** solicita ao menos um dos exames.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Avalia e diagnostica o quadro cognitivo:**  \n(1) solicita a avaliação cognitiva (Minimental ou MMSE); e,  \n(2) avalia e diagnostica como Demência, OU Quadro de Demência, OU Quadro Demencial, OU Deficit Cognitivo.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a hipótese diagnóstica mais provável com base nos dados clínicos e de imagem.**  \n\n**Adequado:** verbaliza o diagnóstico de Doença de Alzheimer.  \n**Parcialmente adequado:** verbaliza o diagnóstico de Síndrome Demencial ou Transtorno Neurocognitivo Maior sem especificar a etiologia.  \n**Inadequado:** não verbaliza uma hipótese diagnóstica ou sugere apenas depressão.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita diagnósticos diferenciais para o quadro demencial.**  \n(1) Demência vascular/multivascular;  \n(2) Demência com corpos de Lewy;  \n(3) Demência frontotemporal;  \n(4) Hipotireoidismo;  \n(5) Deficiência de Vitamina B12.  \n(6) Sífilis/NeuroSífilis.  \n(7) Síndrome de Korsakoff.  \n(8) Pelagra (deficiência de niacina).  \n\n\n**Adequado:** cita três ou mais diferenciais relevantes.  \n**Parcialmente adequado:** cita dois diferenciais.  \n**Inadequado:** cita um ou nenhum diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Identifica os fatores de risco:**  \n(1) idade avançada;  \n(2) hipertensão; e,  \n(3) diabetes.  \n\n**Adequado:** cita os três fatores.  \n**Parcialmente adequado:** cita um ou dois fatores.  \n**Inadequado:** não cita fator algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica o tratamento farmacológico para os sintomas cognitivos.**  \n(1) Inibidores da acetilcolinesterase (Donepezila, Rivastigmina ou Galantamina); e/ou,  \n(2) Antagonista do receptor NMDA (Memantina);  \n\n**Adequado:** indica uma ou ambas as classes de medicamentos aprovados.  \n**Parcialmente adequado:** menciona apenas \"remédio para memória\" sem especificar a classe.  \n**Inadequado:** não indica tratamento farmacológico ou indica tratamento inadequado (ex: apenas antidepressivo).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Fornece orientações não farmacológicas e sobre o prognóstico.**  \n(1) orienta sobre a importância de um ambiente seguro e rotina estruturada/organizada;  \n(2) sugere atividades de estimulação cognitiva e social (palavras cruzadas, leituras, jogos de cartas, tabuleiros, etc);  \n(3) orienta sobre boa nutrição e prática de exercícios físicos;  \n(4) orienta uso de Antioxidantes: Omega 3, Vitamina E.  \n(5) explica que a doença é progressiva e o tratamento visa retardar a progressão e melhorar a qualidade de vida, não a cura.  \n\n**Adequado:** realiza três ou quatro ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

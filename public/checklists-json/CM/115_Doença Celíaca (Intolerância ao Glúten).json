@@ -1,0 +1,177 @@
+{
+  "uid": 115,
+  "hash": "pepe_115",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Doença Celíaca (Intolerância ao Glúten)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.  \nTipo de atendimento: Ambulatorial – Unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas.\n\nDescrição do caso:\nVocê é um(a) médico(a) em uma UBS e atenderá uma mulher de 24 anos com queixa de diarreia crônica e perda de peso.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Solicitar o exame físico específico, caso necessário.  \n- Formular e verbalizar as hipóteses diagnósticas para o quadro.  \n- Solicitar e interpretar os exames complementares para a avaliação inicial.  \n- Estabelecer o plano terapêutico inicial e as orientações.  \n- Responder às dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Amanda, 24 anos, estudante de direito.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim aqui porque faz quase um ano que eu estou com uma diarreia que não melhora, a barriga vive inchada e eu emagreci bastante.  \n\n**SOBRE OS SINTOMAS:**  \n• **Diarreia:** Tenho umas 3 a 4 evacuações por dia, as fezes são mais aquosas, pastosas. Geralmente piora depois que eu como.  \n• **Distensão abdominal:** Minha barriga fica muito estufada, com muitos gases, é bem desconfortável.  \n• **Perda de peso:** Perdi uns 5 quilos nos últimos seis meses, sem fazer dieta.  \n• **Sintomas associados:** Me sinto muito cansada, sem energia para nada. Também aparecem umas aftas na minha boca de vez em quando.  \n\n**HISTÓRICO ALIMENTAR:**  \n• Eu notei que quando como pão, macarrão ou pizza, os sintomas parecem piorar bastante.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Fui diagnosticada com anemia por falta de ferro uns meses atrás. Estou tomando sulfato ferroso, mas não melhorou muito.  \n• **Alergias e medicações:** Nenhuma alergia. Só tomo o ferro mesmo.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Tenho uma prima que descobriu recentemente que tem os mesmos sintomas que eu.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu posso ter, doutor(a)?*  \n• *Isso é grave?*  \n• *Quais exames eu preciso fazer?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 82 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36.5°C  \n\n\n**Antropometria:**  \n• **Peso:** 50 kg  \n• **Altura:** 1,65 m  \n• **IMC:** 18,4 kg/m²  \n\n\n**Ectoscopia:** Paciente em bom estado geral, orientada, hipocorada (++/4+), hidratada, acianótica e anictérica.  \n\n\n**Abdome:** Levemente distendido, flácido, difusamente doloroso à palpação profunda, sem sinais de irritação peritoneal. Ruídos hidroaéreos aumentados.  \n\n\n**Pele e fâneros:** Pele seca, sem lesões cutâneas específicas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 9,8 g/dL (VR: 12,0-16,0 g/dL)  \n• **VCM:** 75 fL (VR: 80-100 fL)  \n• **HCM:** 24 pg (VR: 27-33 pg)  \n• **Leucócitos:** 6.500/mm³ (VR: 4.000-11.000/mm³)  \n• **Plaquetas:** 280.000/mm³ (VR: 150.000-450.000/mm³)  \n\n\n**PERFIL DE FERRO**  \n• **Ferro sérico:** 30 mcg/dL (VR: 60-170 mcg/dL)  \n• **Ferritina:** 10 ng/mL (VR: 15-150 ng/mL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ANTICORPOS SÉRICOS",
+      "conteudo": "• **Anticorpo anti-transglutaminase tecidual (Anti-TTG) IgA:** 250 U/mL (VR: < 20 U/mL)  \n\n\n• **Dosagem de IgA sérica total:** 210 mg/dL (VR: 70-400 mg/dL)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da queixa principal:**  \n(1) características da diarreia (frequência, consistência);  \n(2) distensão abdominal ou flatulência;  \n(3) perda de peso.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas associados relevantes:**  \n(1) fadiga ou cansaço;  \n(2) lesões orais (aftas);  \n(3) relação dos sintomas com a ingestão de alimentos específicos (massas, pães).  \n\n**Adequado:** pergunta sobre os três itens.  \n**Parcialmente adequado:** pergunta sobre dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga o histórico médico e familiar:**  \n(1) diagnósticos prévios, como anemia;  \n(2) história familiar de doença celíaca ou outras doenças autoimunes.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico direcionado.**  \n(1) avaliação do estado geral e nutricional (palidez, IMC);  \n(2) exame abdominal.  \n\n**Adequado:** solicita os dois itens.  \n**Inadequado:** solicita um item ou não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais iniciais para investigar a anemia e o estado geral.**  \n\n**Adequado:** solicita hemograma completo e/ou perfil de ferro.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames sorológicos específicos para a principal hipótese diagnóstica.**  \n(1) anticorpo anti-transglutaminase tecidual (Anti-TTG) IgA;  \n(2) dosagem de IgA sérica total.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas o Anti-TTG IgA.  \n**Inadequado:** não solicita nenhum dos exames específicos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta os resultados dos exames e verbaliza a principal hipótese diagnóstica.**  \n\n**Adequado:** correlaciona a anemia microcítica, o anti-TTG IgA elevado e a IgA total normal para formular a hipótese de Doença Celíaca.  \n**Parcialmente adequado:** verbaliza a hipótese de Doença Celíaca, mas não correlaciona com todos os achados.  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre a necessidade de confirmação diagnóstica.**  \n\n**Adequado:** explica que, apesar da forte suspeita, a confirmação do diagnóstico requer uma endoscopia digestiva alta com biópsia do duodeno.  \n**Inadequado:** não menciona a necessidade de confirmação com endoscopia e biópsia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Inicia as orientações terapêuticas fundamentais.**  \n(1) explica que o tratamento principal é a dieta isenta de glúten;  \n(2) orienta a NÃO iniciar a dieta restritiva ANTES da realização da biópsia.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** orienta apenas sobre a dieta sem glúten, mas não sobre o momento de iniciá-la.  \n**Inadequado:** não realiza nenhuma das orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Encaminha a paciente para os serviços especializados necessários.**  \n(1) encaminha para o Gastroenterologista para realização da endoscopia;  \n(2) encaminha para o Nutricionista para orientação detalhada sobre a dieta sem glúten.  \n\n**Adequado:** realiza os dois encaminhamentos.  \n**Parcialmente adequado:** realiza apenas um dos encaminhamentos.  \n**Inadequado:** não realiza nenhum encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Responde às dúvidas da paciente de forma empática e clara.**  \n\n**Adequado:** responde que a suspeita é alta, que não é uma condição \"grave\" no sentido de risco de vida imediato se tratada, mas que exige cuidado por toda a vida, e explica a necessidade dos exames.  \n**Inadequado:** não responde às dúvidas ou responde de forma técnica e sem empatia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

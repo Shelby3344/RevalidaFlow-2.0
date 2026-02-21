@@ -1,0 +1,166 @@
+{
+  "uid": 1713,
+  "hash": "pepe_1713",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Síndrome Metabólica e Risco Cardiovascular (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Local de atuação: atenção primária - ambulatório de Cardiologia.  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico;  \n• Solicitação de Exames Clínicos e Unidade de Radiologia.  \n• Eletrocardiograma.\n\nDescrição do caso:\nVocê é médico(a) em um ambulatório de Cardiologia e recebe um paciente de 43 anos, que procura o serviço após ter aferido uma pressão arterial muito elevada em uma medição casual há uma semana.",
+  "tarefas": "TAREFAS:  \n- realizar a anamnese;  \n- solicitar o exame físico;  \n- solicitar e interpretar exames complementares, caso necessário;  \n- estabelecer a(s) hipótese(s) diagnóstica(s) e diagnóstico sindrômico;  \n- definir o tratamento e as metas terapêuticas.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Roberto, 43 anos, casado, autônomo.  \n\n**QUEIXA PRINCIPAL:** semana passada eu estava numa farmácia e pedi para medir a pressão. Deu 24 por 12. A moça ficou assustada, mas eu não estava sentindo nada, então fui para casa. Agora resolvi procurar um médico para ver isso.  \n\n**SINTOMAS:**  \n• Não sinto nadinha. Nem dor de cabeça, nem tontura, nada. Se não medisse, nem ia saber que a pressão tava alta.  \n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**  \n• **Doenças Prévias:** Que eu saiba, nenhuma.  \n• **Medicações:** Não tomo nenhum remédio.  \n• **Histórico Familiar:** Meu pai tem pressão alta, toma uns remédios. Minha mãe é saudável.  \n\n**HÁBITOS:**  \n• **Tabagismo:** Eu fumei por 20 anos, um maço por dia, mas parei faz 2 anos.  \n• **Etilismo:** Não, não bebo nada de álcool.  \n• **Atividade Física:** Sou bem parado, não faço nenhum exercício.  \n• **Alimentação:** Como de tudo, não tenho frescura não.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho exatamente?*  \n• *O que causa isso que o(a) senhor(a) falou?*  \n• *Como você sabe que é isso? Tem algum critério?*  \n• *Como que vai ser o tratamento?*  \n• *Quais são os números que minha pressão e meus exames precisam atingir para eu ficar bem?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 220x130 mmHg (em ambos os braços, com manguito adequado)  \n• **FC:** 92 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.5°C  \n\n\n**Ectoscopia:** Bom estado geral, corado, hidratado.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdome:** Globoso, flácido, indolor, sem massas ou visceromegalias.  \n\n\n**Membros Inferiores:** Edema discreto (+/4+), simétrico, sem sinais de trombose.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ANTROPOMETRIA",
+      "conteudo": "• **Peso:** 130 kg  \n• **Altura:** 1,80 m  \n• **IMC:** 40,1 kg/m²  \n• **Circunferência Abdominal:** 120 cm",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**BIOQUÍMICA SÉRICA**  \n• **Sódio (Na⁺):** 142 mEq/L (VR: 135-145 mEq/L)  \n• **Potássio (K⁺):** 4,1 mEq/L (VR: 3,5-4,5 mEq/L)  \n• **Ureia:** 38 mg/dL (VR: 30-60 mg/dL)  \n• **Creatinina:** 1,3 mg/dL (VR: 0,6-1,2 mg/dL)  \n• **Glicemia de Jejum (2 amostras):** 130 mg/dL e 134 mg/dL (VR: 70-99 mg/dL)  \n\n\n**PERFIL LIPÍDICO**  \n• **Colesterol Total:** 214 mg/dL (VR limítrofe: 200-239 mg/dL)  \n• **Colesterol HDL:** 45 mg/dL (VR desejável: > 60 mg/dL)  \n• **Colesterol LDL:** 141 mg/dL (VR limítrofe: 130-159 mg/dL)  \n• **Colesterol VLDL:** 28 mg/dL (VR: < 30 mg/dL)  \n• **Triglicerídeos:** 138 mg/dL (VR limítrofe: 150-199 mg/dL)  \n\n\n**AVALIAÇÃO RENAL**  \n• **Excreção Urinária de Albumina:** 260 mg/dia (Microalbuminúria)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga fatores de risco cardiovascular na anamnese:**  \n(1) tabagismo prévio;  \n(2) história familiar de doença cardiovascular;  \n(3) hábitos alimentares;  \n(4) sedentarismo.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita os dados da antropometria.**  \n\n**Adequado:** Solicita dados antropométricos, OU solicita Peso, Altura, IMC e Circunferência Abdominal.  \n**Inadequado:** não solicita os dados antropométricos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames laboratoriais pertinentes ao caso clínico:**  \n(1) Glicemia de jejum;  \n(2) Ureia e Creatinina (ou função renal);  \n(3) Sódio e Potássio (ou eletrólitos);  \n(4) Perfil lipídico (ou Colesterol total e frações);  \n(5) Excreção urinária de albumina (ou microalbuminúria ou exame de urina);  \n(6) Hemograma.  \n\n**Adequado:** solicita cinco ou mais exames.  \n**Parcialmente adequado:** solicita três ou quatro exames.  \n**Inadequado:** solicita dois ou menos exames OU não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta os exames físico e laboratoriais.**  \n(1) identifica o diagnóstico de hipertensão arterial sistêmica (medida isolada > 180x110 mmHg);  \n(2) identifica o diagnóstico de Diabetes Mellitus (duas glicemias de jejum ≥ 126 mg/dL);  \n(3) reconhece a presença de dislipidemia (HDL baixo e/ou LDL limítrofe);  \n(4) identifica a presença de lesão de órgão-alvo (microalbuminúria e creatinina elevada).  \n\n**Adequado:** interpreta e identifica ao menos três achados.  \n**Parcialmente adequado:** interpreta e identifica dois achados.  \n**Inadequado:** não interpreta os achados ou interpreta apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.9",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula o diagnóstico sindrômico de Síndrome Metabólica.**  \n\n**Adequado:** formula o diagnóstico.  \n**Inadequado:** não formula o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Identifica e verbaliza os critérios para o diagnóstico de Síndrome Metabólica:**  \n(1) circunferência abdominal > 102 cm;  \n(2) pressão arterial ≥ 130/85 mmHg;  \n(3) glicemia de jejum ≥ 100 mg/dL (ou diagnóstico prévio de diabetes).  \n(4) presença de dislipidemia (HDL baixo);  \n(5) hipertrigliceridemia (triglicerídeos > 150mg/dL);  \n\n**Adequado:** cita ao menos três critérios presentes.  \n**Parcialmente adequado:** cita dois critérios.  \n**Inadequado:** cita apenas um critério ou nenhum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve a terapia farmacológica inicial para o tratamento de base.**  \n(1) prescreve terapia anti-hipertensiva combinada (ex: IECA/BRA + Diurético);  \n(2) prescreve Metformina para o tratamento do Diabetes Mellitus tipo 2;  \n(3) prescreve uma estatina para o controle da dislipidemia e redução do risco cardiovascular.  \n\n**Adequado:** prescreve as três classes de medicamentos.  \n**Parcialmente adequado:** prescreve duas classes de medicamentos.  \n**Inadequado:** não prescreve a terapia farmacológica ou prescreve apenas uma classe.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre o tratamento não farmacológico.**  \n(1) orienta sobre um plano alimentar saudável (dieta DASH/Mediterrânea);  \n(2) incentiva a prática regular de atividade física (mínimo 120-150 min/semana);  \n\n**Adequado:** fornece as duas orientações.  \n**Parcialmente adequado:** fornece uma orientação.  \n**Inadequado:** não fornece orientação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Estabelece e comunica as metas terapêuticas ao paciente.**  \n(1) Meta de Pressão Arterial: < 140x80 mmHg;  \n(2) Meta Glicêmica: Hemoglobina Glicada < 7%;  \n(3) Meta Lipídica: Colesterol LDL < 100 mg/dL (pelo alto risco cardiovascular).  \n(4) Meta de Peso: redução de 5 a 10% do peso corporal.  \n\n**Adequado:** estabelece ao menos três metas.  \n**Parcialmente adequado:** estabelece duas metas.  \n**Inadequado:** não estabelece as metas terapêuticas ou estabelece apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Esclarece as dúvidas do paciente de forma empática e informativa.**  \n(1) explica o diagnóstico de Síndrome Metabólica e sua causa (resistência à insulina);  \n(2) reforça que o tratamento envolve tanto os remédios quanto as mudanças no estilo de vida;  \n(3) informa as metas do tratamento (pressão, glicemia, colesterol e redução de peso) de forma clara.  \n\n**Adequado:** aborda os três pontos, respondendo diretamente às preocupações do paciente.  \n**Parcialmente adequado:** aborda dois pontos.  \n**Inadequado:** não esclarece as dúvidas do paciente ou aborda apenas um ponto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

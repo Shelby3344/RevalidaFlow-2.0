@@ -1,0 +1,154 @@
+{
+  "uid": 2010,
+  "hash": "pepe_2010",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Violência familiar (física e financeira) + tentativa de suicídio",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde - UBS.  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico;  \n• Equipe Multiprofissional - eMulti.\n\nDescrição do caso:\nVocê compõe uma equipe de Estratégia da Saúde da Família em uma área de alta vulnerabilidade social e atenderá um adolescente desacompanhado de 17 anos de idade, acolhido pela enfermagem.  \n\nA ficha de acolhimento da enfermagem relata: sinais vitais: PA= 130 x 80 mmHg; FC = 110 bpm; temperatura axilar = 36,5 C; SO2 = 98%.  \n\nO adolescente relata dificuldade para dormir ha mais de 1 semana e quer algum medicamento para melhorar o sono. Ele apresenta ferimentos nos braços. Relata ter caído de bicicleta há mais de 1 semana. O adolescente encontra-se emagrecido, agitado e ansioso.",
+  "tarefas": "TAREFAS:  \n- estabelecer o diagnóstico; e  \n- dar seguimento ao cuidado do adolescente.  \n\n\\\nObservações:  \nNão será necessária a realização de exame físico.  \n\nCaso precise de algum formulário específico, basta verbalizar o que deseja.  \n\nConsidere que estão disponíveis neste consultório todos os materiais de registro de saúde, incluídos prontuário de saúde, atestado médico, receituários, impressos dos sistemas de informação, ficha de encaminhamento, ficha de solicitação de exames, entre outros.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Rodrigo, 17 anos.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu preciso de um remédio para dormir. Eu não consigo dormir, é isso.  \n\n**SOBRE HUMOR E SINTOMAS:**  \n• **Tristeza:** Na maior parte do tempo me sinto triste.  \n• **Atividades:** Não sinto mais prazer nas atividades que eu gostava como antes.  \n• **Futuro:** Não vejo uma perspectiva no futuro para mim.  \n• **Cansaço:** Me sinto cansado o tempo todo.  \n• **Sono:** Sempre quando deito não consigo dormir.  \n\n**CONTEXTO SOCIAL E FAMILIAR:**  \n• **Moradia:** Eu morava com o meu pai, agora moro com a minha tia.  \n• **Escolaridade:** Não estudo, larguei porque não conseguia acompanhar a escola.  \n• **Trabalho:** Não trabalho não.  \n• **Renda/Finanças:** Eu recebo bolsa família, mas não tenho acesso ao dinheiro. Meu pai fica com o cartão e eu às vezes até fico sem comida.  \n\n**SOBRE LESÕES NOS BRAÇOS (VIOLÊNCIA):**  \n• **Causa:** Semana passada eu contei pra minha tia que eu caí de bicicleta, mas na verdade o meu pai me bateu.  \n• **Histórico:** Ele me bate desde os 10 anos, mas nunca tive coragem de contar para ninguém. Você é a primeira pessoa que sabe e eu não quero que ninguém mais saiba.  \n\n**SOBRE SUICÍDIO:**  \n• **Pensamento:** Depois que ele me bateu semana passada, fico com um pensamento na cabeça de me matar. Hoje não é tão forte, mas quando aconteceu na semana passada eu pensava o tempo todo.  \n• **Plano:** Eu pensei em me enforcar na hora que a minha tia fosse no mercado.  \n• **Tentativa:** Nunca tive a coragem de tentar.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Como o psicólogo pode me ajudar?*  \n• *Meu pai vai saber que eu vim aqui?*  \n• SOMENTE caso o candidato encaminhe para equipe MULTI, ou Psicóloga, ou CAPS, OU CRAS: *Doutor(a), qual a função do CAPS, da assistência social e da psicologia?* -> LIBERAR o impresso **EQUIPE DA UBS** após a pergunta.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EQUIPE DA UBS",
+      "conteudo": "Caso identifique a necessidade de abordagem multi/interprofissional, incluída a rede de atenção à saúde, esta UBS conta com uma equipe do Núcleo de Apoio à Saúde da Família (NASF), que dispõe de assistente social e psicólogo em tempo integral.  \n\n\nA regional ou o distrito sanitário onde essa UBS se localiza conta com um Centro de Referência da Assistência Social (CRAS), dois Centros de Apoio Psicossocial (CAPS Álcool e Drogas e CAPS Infantil), além de algumas iniciativas públicas e privadas para jovens e adultos em vulnerabilidade social.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta e apresenta-se ao adolescente**  \n\n**Adequado:** Realiza as duas tarefas  \n**Inadequado:** Não realiza as duas tarefas",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Questiona sobre insônia**  \n\n**Adequado:** Questiona  \n**Inadequado:** Não questiona",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona sobre necessidades ampliadas de saúde para além da insônia, entendendo a possibilidade de quadro de violência.**  \n\n**Adequado:** Realiza um questionário ampliado buscando a verdadeira causa da insônia  \n**Inadequado:** Não busca a verdadeira causa da insônia",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza abordagem centrada no paciente, incluindo escuta ativa, e estabelece relação de confiança com o paciente**  \n\n**Adequado:** Realiza escuta ativa e estabelece vinculo (inclina-se para frente, olha nos olhos do paciente e indaga as causas dos problemas ampliados a saúde do paciente)  \n**Parcialmente adequado:** Realiza escuta ativa, mas não avança no estabelecimento de vínculo com o paciente  \n**Inadequado:** Interrompe frequentemente o paciente",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica e notifica a violência física**  \n\n**Adequado:** Identifica e notifica  \n**Parcialmente adequado:** Somente identifica ou notifica  \n**Inadequado:** Não identifica e não notifica",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Identifica e notifica a violência financeira**  \n\n**Adequado:** Identifica e notifica  \n**Parcialmente adequado:** Somente identifica ou notifica  \n**Inadequado:** Não identifica e não notifica",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Busca auxílio com equipe multi/interprofissional (assistência social e psicologia) para realizar os encaminhamentos para a rede de apoio.**  \n\n**Adequado:** Busca o auxílio  \n**Inadequado:** Não busca a ativação da E-MULTI",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica as atribuições da assistente social**  \n\n**Adequado:** Explica  \n**Inadequado:** Não explica",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica as atribuições da psicologia**  \n\n**Adequado:** Explica  \n**Inadequado:** Não explica as atribuições da psicóloga",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explica sobre a rede de apoio (CRAS e CAPS) para acolher o paciente**  \n\n**Adequado:** Explica  \n**Inadequado:** Não explica",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Relata sobre o sigilo do caso para o paciente**  \n\n**Adequado:** Relata  \n**Inadequado:** Não relata",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

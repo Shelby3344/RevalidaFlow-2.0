@@ -1,0 +1,177 @@
+{
+  "uid": 213,
+  "hash": "pepe_213",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Fístula Anorretal",
+  "definicao": "Estação elaborada por:\nNatalia Cedran Bergamini",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Secundária – Ambulatorial/Hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• Setor de radiologia;  \n• Setor de endoscopia e colonoscopia;  \n• Laboratório de análises clínicas;  \n• Leitos de internação e Centro cirúrgico.\n\nDescrição do caso:\nVocê está de plantão em um hospital e atenderá um paciente do sexo masculino de 51 anos com queixas de constipação e dor anal.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida;  \n- Solicitar e interpretar o exame físico;  \n- Solicitar e interpretar exames complementares pertinentes;  \n- Definir a hipótese diagnóstica e diagnósticos diferenciais;  \n- Verbalizar a conduta terapêutica e o encaminhamento;  \n- Propor orientações ao paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \nCleber, 51 anos, solteiro, cozinheiro.  \n\n• **MOTIVO DE CONSULTA:** \"Doutor(a), eu estou com dor na região anal e dificuldade para ir ao banheiro\".  \n\n• **SOBRE A DOR:**   \n• **Início:** há 3 meses, mais vem piorando.   \n• **Localização:** Bem ao lado do ânus.   \n• **Característica:** Uma dor contínua, pulsante que me incomoda muito.   \n• **Intensidade:** Agora está incomodando, um 5/10.  \n• **Fatores de Piora:** Piora quando eu fico muito tempo sentado ou quando vou defecar, as vezes até seguro para não sentir dor.  \n\n• **SINTOMAS ASSOCIADOS:**  \n• **Calor:** fica que sim.  \n• **Edema:** também fica inchado.  \n• **Muco/Pus:** Sai uma Secreção amarelada (pus) com odor forte que molha a cueca;  \n• **Sangramento:** As vezes também sai sangue;  \n• **Febre, vômitos:** nega.  \n\n• **HÁBITO INTESTINAL:** Sou sempre constipado doutor(a), vou ao banheiro de 5 em 5 dias.   \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Que eu saiba não tenho nada.   \n• **Patologias anorretais:** Eu tive um abscesso há 6 meses, mas depois ele estourou e sumiu.  \n• **Cirurgias:** Eu fiz uma cirurgia para tirar uma hemorroida que eu tinha.  \n• **Tabagismo:** não fumo e nem uso drogas.  \n• **Ingesta Hídrica:** Confesso que não bebo muita água.  \n\n**ANTECEDENTES FAMILIARES**:\n• Minha mãe tem diabetes e meu pai faleceu de câncer no cólon.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Como que trata isso? Vou precisar operar?*  \n• *O que eu posso fazer para não ter isso novamente?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Sinais Vitais:** PA 120x85 mmHg, FC 85 bpm, FR 18 irpm, T: 38,0 °C.  \n\n\n• **Geral:** Regular estado geral, hidratado, normocorado, eupneico.  \n\n\n• **Inspeção Perianal:** Orifício fistuloso externo em pele perianal, com saída de secreção purulenta à expressão; hiperemia e discreta induração local. Sinais de irritação crônica na pele.  \n\n\n• **Toque Retal:** Esfíncter com tônus preservado, sem massas intraluminais. Notada área de induração no trajeto fistuloso. Sem sangramento ativo.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "COLONOSCOPIA",
+      "conteudo": "**ATENÇÃO: DIRIJA-SE À CÂMERA E VERBALIZE OS ACHADOS TÉCNICOS DO EXAME**",
+      "imagem": "img_printeds/e213p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "BIÓPSIA",
+      "conteudo": "• **Laudo da Biópsia:** Mucosa colônica com arquitetura glandular preservada, criptas paralelas. Ausência de distorção arquitetural, ulcerações, necrose ou granulomas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identificação e Profissionalismo:**  \n(1) Identifica-se cordialmente ao paciente;  \n(2) Identifica o paciente (nome/idade) e confirma os dados.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não se identifica nem identifica o paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Anamnese (Investiga as características da secreção retal:):**  \n(1) Tempo/Frequência;  \n(2) Volume/Quantidade;  \n(3) Odor;  \n(4) Fatores de melhora/piora.  \n\n**Adequado:** investiga 4 ou mais características.  \n**Parcialmente adequado:** investiga 3 características.  \n**Inadequado:** investiga apenas 1 ou 2.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Anamnese (Sintomas Associados):**  \n(1) Dor anal;  \n(2) Febre;  \n(3) Prurido;  \n(4) Sangramento;  \n(5) Edema/Logose.  \n\n**Adequado:** investiga 4 a 5 sintomas.  \n**Parcialmente adequado:** investiga 3 sintomas.  \n**Inadequado:** investiga apenas 1 ou 2.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investigação de Antecedentes:**  \n(1) Questiona sobre abscesso anorretal prévio;  \n(2) Questiona sobre intervenções/cirurgias anorretais anteriores.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga antecedentes.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Exame Físico (Solicitação e Interpretação):**  \n(1) Solicita exame físico geral (incluindo temperatura);  \n(2) Realiza/Solicita Inspeção anal e Toque retal, interpretando os achados técnicos.  \n\n**Adequado:** solicita e interpreta os 3 componentes (Geral, Inspeção e Toque).  \n**Parcialmente adequado:** solicita apenas 2 componentes.  \n**Inadequado:** não solicita ou não interpreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Propedêutica Complementar:**  \nSolicita Colonoscopia com biópsia (fundamental pela idade, constipação e histórico familiar de CA de cólon) e interpreta os resultados.  \n\n**Adequado:** solicita e interpreta o exame.  \n**Inadequado:** não solicita colonoscopia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Hipótese Diagnóstica:**  \nDefine o diagnóstico principal como: Fístula Anorretal ou Fístula Anal.  \n\n**Adequado:** verbaliza a hipótese completa.  \n**Parcialmente adequado:** verbaliza apenas \"fístula\".  \n**Inadequado:** não dá o diagnóstico ou erra a patologia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza Diagnósticos Diferenciais:**  \n(1) Fissura anal;  \n(2) Abscesso;  \n(3) Hemorroida;  \n(4) Proctite (Doença de Crohn);  \n(5) Doença Pilonidal;  \n(6) Câncer Anorretal.  \n\n**Adequado:** verbaliza 3 ou mais diferenciais.  \n**Parcialmente adequado:** verbaliza 2 diferenciais.  \n**Inadequado:** verbaliza apenas um ou nenhum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Conduta Terapêutica:**  \n(1) Prescreve/Verbaliza analgesia;  \n(2) Indica o tratamento definitivo cirúrgico (Fistulotomia).  \n\n**Adequado:** indica analgesia e cirurgia definitiva.  \n**Inadequado:** não propõe tratamento cirúrgico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Gestão do Cuidado (Encaminhamento):**  \nEncaminha o paciente para avaliação especializada com Proctologista ou Cirurgião Geral.  \n\n**Adequado:** realiza o encaminhamento.  \n**Inadequado:** não encaminha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orientações Gerais:**  \n(1) Dieta rica em fibras;  \n(2) Ingestão hídrica;  \n(3) Evitar papel higiênico/Higiene com água;  \n(4) Evitar esforço evacuatório.  \n\n**Adequado:** oferece 3 ou mais orientações.  \n**Parcialmente adequado:** oferece 2 orientações.  \n**Inadequado:** não orienta o paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Encerramento e Sanar Dúvidas:**  \nQuestiona o paciente se restaram dúvidas sobre o procedimento cirúrgico ou o diagnóstico.  \n\n**Adequado:** questiona ativamente.  \n**Inadequado:** encerra a consulta sem abrir espaço para dúvidas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

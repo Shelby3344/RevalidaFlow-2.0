@@ -1,0 +1,200 @@
+{
+  "uid": 1413,
+  "hash": "pepe_1413",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Acidente Vascular Cerebral Isquêmico (AVCi) Cardioembólico (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária - Sala de Emergência de Hospital.  \nA unidade possui a seguinte infraestrutura:  \n• Leitos de emergência com monitorização contínua;  \n• Tomografia computadorizada, eletrocardiograma e ecocardiograma;  \n• Laboratório de análises clínicas;  \n• Unidade de AVC (Stroke Unit) e UTI.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e atenderá um homem de 72 anos, trazido pela família. O acompanhante relata que, subitamente, o paciente \"ficou com a boca torta e parou de mover o braço e a perna do lado direito\".",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese para investigação;  \n- Solicitar e interpretar exames complementares, caso necessário;  \n- Formular a hipótese diagnóstica;  \n- Definir o plano terapêutico inicial, incluindo o manejo de comorbidades;  \n- Responder as dúvidas da família do paciente.  \n\n\\\nATENÇÃO! A ANAMNESE SERÁ DIRIGIDA AO ACOMPANHANTE DO PACIENTE.  \nCASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Paciente:** Armando, 72 anos, aposentado.  \n• **Acompanhante/Filho:** Fabrício, 40 anos.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), meu pai, de repente, não conseguiu mais mexer o braço e a perna do lado direito. A boca ficou torta também.  \n• **Início dos sintomas:** faz umas 9 horas.  \n• **Sensibilidade:** ele diz que sente, mas não consegue mexer.  \n• **Episódio anterior:** nega.  \n\n**DEMAIS SINTOMAS:**  \n• **Nível de consciência:** ele está mais sonolento, mas atende quando a gente chama.  \n• **Comunicação/Fala:** Está um pouco confuso. Não consegue falar as frases inteiras.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Ele tem pressão alta há muitos anos. O cardiologista também disse que ele tem uma arritmia no coração faz uns dois anos.  \n• **Medicações:** Ele toma Captopril, hidroclorotiazida e a varfarina. Acho que ele toma tudo certinho.  \n• **Cirurgias e internações:** Nunca fez cirurgias.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS (DO FILHO):**  \n• *É um derrame, doutor(a)?*  \n• *Ouvi falar na TV de um remédio que ajuda nisso ai. Vai passar pra ele?*  \n• *A pressão dele está muito alta, não tem que baixar agora? É perigoso, não é?*  \n• *O que essa arritmia que ele tem no coração pode ter a ver com isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 190x100 mmHg  \n• **FC:** 148 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp. axilar:** 36.7°C  \n\n\n**Ectoscopia:** Regular estado geral, eupneico, descorado (+/4+), acianótico.  \n\n\n**Cardiovascular:** Ritmo cardíaco irregular, taquicárdico, 2 tempos, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular presente, sem ruídos adventícios.  \n\n\n**Abdominal:** Abdome plano, flácido, indolor, sem visceromegalias.  \n\n\n**Membros inferiores:** Sem edema.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO NEUROLÓGICO",
+      "conteudo": "• **Nível de consciência:** Consciente, com leve desorientação temporo-espacial.  \n• **Escala de Coma de Glasgow:** 15.  \n• **Pupilas:** Simétricas e fotorreagentes.  \n• **Motricidade:** Hemiplegia completa e proporcionada à direita.  \n• **Sensibilidade:** Preservada.  \n• **Sinais meníngeos:** Ausentes.  \n\n• **Escala de NIHSS:** 18.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Leucócitos:** 12.000/mm³ (VR: 4.500-11.000/mm³)  \n• **Hemoglobina:** 13 g/dL (VR: 13,5-17,5 g/dL)  \n• **Hematócrito:** 39,3% (VR: 41-53%)  \n• **Plaquetas:** 231.000/mm³ (VR: 150.000-350.000/mm³)  \n\n\n• **Glicemia:** 84 mg/dL (VR: 70-100 mg/dL)  \n• **Ureia:** 30 mg/dL (VR: 20-45 mg/dL)  \n• **Creatinina:** 1,2 mg/dL (VR: 0,8-1,4 mg/dL)  \n• **Sódio (Na⁺):** 135 mEq/L (VR: 135-145 mEq/L)  \n• **Potássio (K⁺):** 4,1 mEq/L (VR: 3,5-5,5 mEq/L)  \n\n\n**COAGULOGRAMA**  \n• **INR:** 2,1 (VR: 2,0-3,0)  \n• **Atividade de Protrombina:** 30% (VR: 70-120%)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "TC DE CRÂNIO SC",
+      "conteudo": "**TC DE CRÂNIO SEM CONTRASTE**  \n\n\n• **Laudo:** Ausência de coleções sanguíneas intra ou extra-axiais. Não se observam áreas de hipoatenuação sugestivas de isquemia em fase aguda. Sistema ventricular de dimensões normais.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "ECG 12 DERIVAÇÕES",
+      "conteudo": "**DESCREVA O(S) ACHADO(S) DA IMAGEM**",
+      "imagem": "img_printeds/2014-e13p5.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e inicia a consulta.**  \n\n**Adequado:** cumprimenta o paciente e identifica-se como médico(a).  \n**Inadequado:** não se apresenta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese focada no quadro neurológico agudo.**  \n\n**Adequado:** investiga o tempo de início dos sintomas, comorbidades e uso de medicações.  \n**Inadequado:** não realiza a anamnese focada.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita o exame físico neurológico.**  \n\n**Adequado:** solicita o exame neurológico.  \n**Inadequado:** não solicita o exame neurológico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames laboratoriais.**  \n(1) Hemograma;  \n(2) Glicemia;  \n(3) Uréia e Creatinina;  \n(4) Sódio e Potássio;  \n(5) Coagulograma (TAP/INR).  \n\n**Adequado:** solicita 4 ou 5 dos exames listados.  \n**Parcialmente adequado:** solicita 3 ou 4 dos exames.  \n**Inadequado:** solicita 2 ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita Tomografia Computadorizada de crânio sem contraste.**  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** não solicita o exame ou solicita COM CONTRASTE.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita ECG e interpreta os achados.**  \n\n**Adequado:** solicita o ECG e identifica ao menos dois achados: Fibrilação Atrial, alta resposta ventricular, sobrecarga de VE, Ausência de onda P).  \n**Parcialmente adequado:** solicita o ECG e identifica apenas um dos achados.  \n**Inadequado:** não solicita o ECG ou não identifica os achados corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Justifica a não realização de trombólise.**  \n\n**Adequado:** contraindica pelo tempo de início dos sintomas (> 4,5h) E pelo INR elevado.  \n**Parcialmente adequado:** contraindica, mas justifica por apenas um dos motivos (tempo OU INR).  \n**Inadequado:** indica o trombolítico ou não sabe justificar a contraindicação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.625",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define a conduta em relação à pressão arterial do paciente.**  \n\n**Adequado:** informa que não irá reduzir a pressão arterial de forma abrupta e justifica que a hipertensão é permissiva até 220x120 mmHg neste cenário.  \n**Parcialmente adequado:** informa que não irá reduzir a pressão, mas não justifica corretamente.  \n**Inadequado:** indica o uso de anti-hipertensivo para redução imediata.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.625",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o controle da frequência cardíaca.**  \n**Adequado:** prescreve ou menciona o uso de betabloqueador, bloqueador de canal de cálcio ou digoxina.  \n**Inadequado:** não indica o controle da FC.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a estratégia de controle de ritmo.**  \n\n**Adequado:** menciona o uso de amiodarona como opção para reversão da FA.  \n**Inadequado:** não define a estratégia ou indica cardioversão elétrica imediata.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Define a conduta de anticoagulação.**  \n**Adequado:** indica a manutenção da warfarina ou a troca por heparina (não fracionada ou de baixo peso molecular).  \n**Inadequado:** suspende a anticoagulação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Solicita Ecocardiograma Transesofágico.**  \n**Adequado:** solicita o exame para investigação de fonte embólica.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica os cuidados iniciais e a internação do paciente.**  \n**Adequado:** indica internação em Unidade de AVC ou UTI, com monitorização cardíaca, oximetria e cabeceira elevada.  \n**Parcialmente adequado:** indica apenas a internação, sem especificar o local ou os cuidados.  \n**Inadequado:** não indica a internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.625",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

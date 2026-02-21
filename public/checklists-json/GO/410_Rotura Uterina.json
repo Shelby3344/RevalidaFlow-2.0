@@ -1,0 +1,183 @@
+{
+  "uid": 410,
+  "hash": "pepe_410",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Rotura Uterina",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: centro obstétrico.  \nA unidade apresenta a seguinte infraestrutura:  \n• sala de parto;  \n• laboratório de análises clínicas e banco de sangue;  \n• centro cirúrgico;  \n• unidade de terapia intensiva.\n\nDescrição do caso:\nPaciente de 34 anos, G2P1 (cesárea anterior), com 40 semanas de idade gestacional, em trabalho de parto, apresenta dor abdominal súbita e intensa, seguida de sangramento vaginal.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar auxílio à equipe médica.  \n- Solicitar e interpretar o exame físico.  \n- Verbalizar as hipóteses diagnósticas para o quadro.  \n- Solicitar exames complementares pertinentes.  \n- Estabelecer a conduta terapêutica imediata.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Maria, 34 anos, casada.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), agora me deu uma dor horrível! Minha barriga!  \n\n**SOBRE A DOR:**  \n• **Início:** Agora mesmo. Foi uma pontada, parecia que estava rasgando tudo por dentro.  \n• **Intensidade:** Foi a pior dor da minha vida. Nota 10.  \n• **Evolução:** Agora... parece que a dor forte parou... mas estou me sentindo fraca, tonta.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Contrações:** Eu estava com contração bem forte, mas parou tudo depois dessa dor.  \n• **Sangramento:** Estou sentindo sair sangue...  \n• **Movimentos fetais:** Não estou sentindo o bebê mexer mais...  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** É minha segunda gravidez. G2 P1 A0.  \n• **Parto anterior:** Meu primeiro filho foi cesárea, faz 3 anos.  \n• **IG atual:** 40 semanas.  \n• **Pré-natal:** Fiz tudo certo.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que aconteceu, doutor(a)?*  \n• *Meu bebê vai ficar bem?*  \n• *Pode ser outra coisa?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 90 x 50 mmHg.  \n• **Frequência Cardíaca:** 125 batimentos por minuto.  \n• **Frequência Respiratória:** 26 incursões respiratórias por minuto.  \n• **Saturação de Oxigênio em ar ambiente:** 94%.  \n• **Temperatura Axilar:** 36,8°C.  \n\n\n**EXAME CLÍNICO:**  \nPaciente sonolenta, pálida (+++/4+), sudoreica, taquipneica.  \nAparelho cardiovascular e respiratório sem outras alterações no momento.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME OBSTÉTRICO",
+      "conteudo": "**CARDIOTOCOGRAFIA:**  \n• **Batimentos Cardíacos Fetais (BCF):** 80 batimentos por minuto, sustentada.  \n\n\n**AVALIAÇÃO UTERINA:**  \n• **Palpação Abdominal:** Parada das contrações uterinas. Útero com contorno irregular. **Partes fetais facilmente palpáveis** na cavidade abdominal.  \n\n• **Exame Especular:** Presença de sangramento vaginal ativo, em moderada quantidade, vermelho vivo.  \n\n• **Toque Vaginal:** Colo pérvio. **Apresentação fetal subiu** (não mais palpável no toque).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 9,5 g/dL (VR: 12,0 – 16,0 g/dL)  \n• **Hematócrito:** 28,5 % (VR: 36 – 46%)  \n• **Leucócitos:** 11.200 mm³ (VR: 5.000 – 10.000/mm³)  \n• **Plaquetas:** 210.000 mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n• **Tipagem Sanguínea:** A+  \n• **Coagulograma:** Dentro dos limites da normalidade.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ULTRASSONOGRAFIA OBSTÉTRICA (FAST)",
+      "conteudo": "• **Cavidade Abdominal:** líquido livre na cavidade peritoneal.  \n\n• **Útero:** solução de continuidade em parede anterior.  \n\n• **Feto:** partes fetais intraperitoneais.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor e sintomas associados:**  \n(1) início da dor;  \n(2) intensidade da dor;  \n(3) associação com parada das contrações;  \n(4) presença de sangramento vaginal;  \n(5) percepção dos movimentos fetais.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre fatores de risco para rotura uterina:**  \n(1) cesárea prévia;  \n(2) cirurgia uterina prévia (ex: miomectomia);  \n(3) uso de ocitocina ou misoprostol na indução.  \n\n**Adequado:** pergunta sobre os três itens.  \n**Parcialmente adequado:** pergunta sobre dois itens.  \n**Inadequado:** pergunta sobre um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza a avaliação primária (ABC):**  \n(1) avalia vias aéreas (A);  \n(2) avalia respiração e oferta oxigênio (B); e,  \n(3) avalia circulação (C), identificando o choque (hipotensão e taquicardia).  \n\n**Adequado:** verbaliza as três etapas.  \n**Parcialmente adequado:** verbaliza duas etapas.  \n**Inadequado:** verbaliza uma etapa ou não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico obstétrico completo:**  \n(1) avaliação dos batimentos cardíacos fetais (BCF) / cardiotocografia;  \n(2) palpação abdominal (altura e contorno uterino, tônus); e,  \n(3) toque vaginal (avaliação da apresentação) e/ou exame especular (visualização do sangramento).  \n\n**Adequado:** solicita os três itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um item ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta corretamente os achados clínicos e obstétricos:**  \n(1) bradicardia fetal grave (BCF 80 bpm);  \n(2) subida da apresentação fetal; e,  \n(3) palpação de partes fetais fáceis no abdome (ou útero com contorno irregular).  \n\n**Adequado:** interpreta os três achados.  \n**Parcialmente adequado:** interpreta dois achados.  \n**Inadequado:** interpreta um achado ou não interpreta achado algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita Ultrassonografia Obstétrica (ou pélvica ou FAST) para auxílio diagnóstico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a hipótese diagnóstica principal de Rotura Uterina (OU Ruptura Uterina Consumada).**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza ou verbaliza apenas \"iminência de rotura\".",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Estabelece a conduta imediata para estabilização hemodinâmica materna:**  \n(1) solicita dois acessos venosos periféricos calibrosos (ex: 14G ou 16G);  \n(2) inicia reposição volêmica com cristaloide aquecido; e,  \n(3) solicita reserva de hemoderivados (concentrado de hemácias) OU prova cruzada.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a conduta definitiva para o caso:**  \n(1) laparotomia exploradora de urgência (OU imediata); e,  \n(2) cesariana de emergência.  \n\n**Adequado:** indica as duas condutas (ou apenas Laparotomia, que engloba a cesariana).  \n**Parcialmente adequado:** indica apenas cesariana de emergência (sem mencionar a laparotomia para correção da rotura).  \n**Inadequado:** não indica a abordagem cirúrgica imediata.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita recursos/equipe para o manejo de emergência:**  \n(1) aciona anestesista; e,  \n(2) aciona pediatra/neonatologista para a sala de parto/cirurgia.  \n(3) solicita auxílio da equipe cirúrgica/obstétrica.  \n\n**Adequado:** solicita os três recursos.  \n**Parcialmente adequado:** solicita dois recursos.  \n**Inadequado:** solicita um recurso ou não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Cita diagnósticos diferenciais para o quadro:**  \n(1) descolamento prematuro de placenta (DPP); e,  \n(2) placenta prévia.  \n\n**Adequado:** cita os dois diagnósticos.  \n**Parcialmente adequado:** cita um diagnóstico.  \n**Inadequado:** não cita nenhum diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

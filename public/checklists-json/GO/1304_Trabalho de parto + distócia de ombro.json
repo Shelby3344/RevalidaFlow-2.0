@@ -1,0 +1,210 @@
+{
+  "uid": 1304,
+  "hash": "pepe_1304",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Trabalho de parto + distócia de ombro",
+  "definicao": "Referências:  \nhttps://www.febrasgo.org.br/pt/noticias/item/259-distocia-de-ombro - acesso em 16/07/2025",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: hospitalar - maternidade.  \nA unidade apresenta a seguinte infraestrutura:  \n• raio-X, ultrassonografia e cardiotocógrafo;  \n• materiais de EPI e obstétricos;  \n• centro obstétrico e leitos de enfermaria.\n\nDescrição do caso:\nVocê está de plantão em um hospital maternidade e foi chamado ao centro obstétrico. A enfermeira informa que uma paciente está em trabalho de parto no período expulsivo e solicita sua ajuda.",
+  "tarefas": "TAREFAS:  \n\n- Realizar o parto;  \n- Informar a hipótese diagnóstica;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Responder as dúvidas da enfermeira;  \n- Propor condutas e orientações ao caso;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Enfermeira:** Helena.  \n• **Paciente:**  Laura, 27 anos.  \n\n\n**MOTIVO DE CONSULTA:** Doutor(a), a Laura chegou agora e já está no período expulsivo do parto. As contrações estão bem frequentes, o colo já está dilatado em 10cm e ela sente muita pressão. Precisamos da sua ajuda para conduzir o parto.   \n\n**APRESENTAÇÃO:** o feto já fez a rotação interna e o desprendimento cefálico, a cabeça do bebê já saiu totalmente. *O quê o senhor vai fazer agora?*  \n(o candidato deveria indicar a proteção do períneo, a rotação externa da cabeça do bebê e a tração do polo cefálico para desprender o ombro anterior).  \n\n\n**MANOBRAS DE DESPRENDIMENTO DOS OMBROS:**  \n• Caso o candidato indique somente UMA manobra de desprendimento (apenas McRoberts ou apenas Rubin I), questionar: *Deseja realizar mais alguma manobra?*  \n\n\n**DÚVIDAS:**  \n• *Descobrimos agora que a gestante não fez nenhum pré-natal. Vai precisar fazer algum exame?*  \n• *Agora que o feto saiu, devemos fazer alguma medicação?*  \n• *A paciente já pode comer ou amamentar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "PÓS ROTAÇÃO EXTERNA",
+      "conteudo": "Rotação externa da cabeça (restituição) realizada;  \nTração do polo cefálico realizada.  \n\n\n**ATENÇÃO:**  \nNão progressão para desprendimento biacromial, impactação óssea do diâmetro biacromial fetal.  \n\n\n• **Qual o nome desta complicação? Realize as próximas condutas.**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "AVALIAÇÃO DE EPISIOTOMIA",
+      "conteudo": "Considere realizado.  \n\n**ATENÇÃO:**\nDiâmetro biacromial fetal AINDA impactado.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "PÓS MANOBRAS DISTÓCICAS",
+      "conteudo": "McRoberts - Manobra de elevação dos membros inferiores em direção ao abdome realizada;  \nRubin I - Pressão suprapúbica realiza.  \n\n**ATENÇÃO:**\nSaída total do feto após realização das manobras de desprendimento dos ombros.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. O(a) candidato(a) comunicou-se adequadamente com a enfermeira, demonstrando atenção e respeito, dando orientações claras e objetivas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. O(a) candidato(a) utilizou adequadamente os equipamentos de proteção individual (máscara e gorro).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. O(a) candidato(a) realizou corretamente a colocação da roupa cirúrgica estéril e calçou corretamente as luvas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. O(a) candidato(a) realizou adequadamente as manobras para proteção do períneo no período expulsivo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. O(a) candidato(a) realizou a rotação externa da cabeça para a esquerda (movimento de restituição).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. O(a) candidato(a) realizou adequadamente a tração do polo cefálico, para tentar o desprendimento do ombro anterior.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. O(a) candidato(a) diagnosticou adequadamente a distócia de ombro, informando para a enfermeira.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. O(a) candidato(a) falou sobre a necessidade de avaliar a episiotomia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. O(a) candidato(a) solicitou ajuda da enfermeira para que se realize a manobra de elevação dos membros inferiores em direção ao abdome.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. O(a) candidato(a) solicitou ajuda da enfermeira para que realize a pressão suprapúbica.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. O(a) candidato(a) após a expulsão fetal, solicitou da enfermeira que administre ocitocina por via intramuscular (10UI).**  \n\nConsiderar **Adequado:** apenas se referir a dose.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. O(a) candidato(a) realizou adequadamente a prescrição do pós-parto, contendo, pelo menos, os seguintes itens:**   \n(1) dieta geral ou dieta livre;  \n(2) amamentar sob livre demanda;  \n(3) cuidados gerais e sinais vitais;",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. O(a) candidato(a) solicita VDRL da mãe.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. O(a) candidato(a) solicitou anti-HIV da mãe (ou teste rápido para HIV).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. O(a) candidato(a) solicitou Tipagem Sanguínea do recém-nascido.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

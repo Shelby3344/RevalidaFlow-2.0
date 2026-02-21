@@ -1,0 +1,254 @@
+{
+  "uid": 1404,
+  "hash": "pepe_1404",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Pré-natal e Sífilis na Gestação",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de vacinação;\n\nDescrição do caso:\nVocê irá atender uma gestante de 28 anos, G2P1, em consulta de pré-natal habitual. Ela traz consigo os resultados dos exames laboratoriais solicitados no primeiro trimestre.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao pré-natal;  \n- Realizar o cálculo da idade gestacional (IG) e data provável do parto (DPP);  \n- Solicitar dados específicos do exame físico gestacional/fetal;  \n- Solicitar e interpretar exame(s) complementar(es), se necessário;  \n- Propor condutas e orientações;  \n- esclarecer as dúvidas da paciente.  \n\n\\\nATENÇÃO: Considere a data da consulta atual como 29/11/2016  \nATENÇÃO: Considere que há calendário, calculadora, papel e caneta disponível",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Maria, 28 anos.  \n\n**MOTIVO DE CONSULTA:** • Olá doutor(a), vim para a consulta de pré-natal e trouxe os resultados dos exames que você pediu.  \n\n**DEMAIS QUEIXAS:** No começo eu tive um pouco de enjoo, mas agora já melhorou. Não estou sentindo nada de diferente, sem cólicas, sangramento ou corrimento.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **DUM:** 02/07/2016.  \n• **GPA:** Esta é minha segunda gestação, já tenho um filho de 6 anos.  \n• **Suplementação:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Álcool, tabaco e drogas:** Não, doutor(a), nada.  \n• **Vacinação:** A enfermeira me falou que falta as do tétano e as outras da gravidez.  \n• **IST, DST:** desconheço.  \n\n• **Parceiro fixo:** Sim. Eu só tenho meu marido, estamos juntos há 9 anos.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:** \n• Após o candidatO informar o diagnóstico de SÍFILIS: *Sífilis? O que é isso, doutor(a)? Como eu peguei essa doença? Mas eu nunca senti nada.*  \n• *Meu marido precisa se tratar também? Ele não sente nada.*  \n• Caso o candidato indique o exame de COOMBS INDIRETO: *Porque precisa desse exame?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA GESTANTE",
+      "conteudo": "**Nome:** Maria de Amaral Pereira  \n**DUM:** 02/07/2016  \n**Tipagem Sanguínea:** O Negativo  \n**Alergias:** Nega   \n\n---\n**Acompanhamento Pré-Natal:**  \n| Data | IG (semanas) | Peso (kg) | PA (mmHg) | Altura Uterina (cm) | BCF (bpm) | Edema |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| 25/10/2016 | 16 | 62,5 | 110x70 | 16 | 150 | Ausente |",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 82 bpm  \n• **FR:** 16 irpm  \n• **Peso:** 65 kg  \n\n\n**Ectoscopia:** paciente em bom estado geral, orientada, corada, hidratada, acianótica e anictérica.  \n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n**Respiratório:** murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n**Abdominal:** abdome gravídico, indolor a palpação, RHA preservados.  \n\n**MMII:** ausência de edemas.  \n\n\n**EXAME FÍSICO OBSTÉTRICO**  \n\n\n• **AU:** 21 cm  \n• **BCF:** 142 bpm  \n• **Dinâmica uterina:** ausente.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Tipagem Sanguínea e Fator Rh:**  \n• **Grupo Sanguíneo:** O  \n• **Fator Rh:** Negativo  \n\n\n**HEMOGRAMA:**  \n• **Hemácias:** 4,2 milhões/mm³ (VR: 3,9 a 5,0 milhões/mm³)  \n• **Hemoglobina:** 12,5 g/dl (VR: 12 a 16 g/dl)  \n• **Hematócrito:** 37% (VR: 35 - 47%)  \n• **Plaquetas:** 250.000/mm³ (VR: 150.000 - 450.000/mm³)  \n• **Leucócitos:** 7.800/mm³ (VR: 4.000 - 11.000/mm³)  \n\n\n• **Glicemia em jejum:** 88 mg/dl (VR: < 92 mg/dl)  \n\n\n**URINA SIMPLES**  \n• **Aspecto:** límpido  \n• **Cor:** amarela clara  \n• **pH:** 6,0  \n• **Leucócitos:** 3 por campo  \n• **Hemácias:** 1 por campo  \n\n\n**TESTES RÁPIDOS E SOROLOGIAS**  \n\n• **TR - HIV:** não reagente  \n• **TR - Hepatite B (HBsAg):** não reagente  \n• **TR - Hepatite C:** não reagente  \n• **TR - Sífilis:** **Reagente**  \n\n• **Toxoplasmose IgG:** não reagente  \n• **Toxoplasmose IgM:** não reagente",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e pergunta o nome da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Trata a paciente com respeito, deixando-a falar, sem interrupções, utilizando linguagem acessível (evita jargões, abreviaturas ou termos técnicos).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Calcula corretamente a idade gestacional e registra no cartão da gestante (considerar correto: 21 semanas e 3 dias).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Cálculo da Idade Gestacional:\n\nIdade Gestacional = Data da consulta − DUM.\nExemplo:\n\nData da consulta: 29/11/2016\nDUM: 02/07/2016\n\nIG = 29/11 − 02/07 = 150 dias\nIG = 150 ÷ 7 = 21 semanas e 3 dias"
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Calcula a data provável do parto, informa corretamente a gestante e registra no cartão (considerar correto: 09/04/2017).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Cálculo da Data Provável do Parto:\n\nData Provável do Parto = DUM + 280 dias OU somar 9 meses e 7 dias à DUM (Fórmula de Naegele)\n\nExemplo:\nDUM: 02/07/2016\n\nDPP = 02/07 + 9 meses = 02/04/2017\nDPP = 02/04 + 7 dias = 09/04/2017\nDPP = 09/04/2017"
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre ocorrência de, pelo menos, DOIS dos seguintes sintomas ou intercorrências na gestação atual: queixas urinárias, náuseas, vômitos, sangramento, cólicas, cefaleia e corrimento vaginal.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta, pelo menos, sobre DOIS hábitos de vida: tabagismo, etilismo e drogas ilícitas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita o peso atual e anota no cartão da gestante.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita a pressão arterial e anota no cartão da gestante.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita a pesquisa de edema de membros inferiores e anota no cartão da gestante.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita a ausculta dos batimentos cardiofetais e anota no cartão da gestante.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita a medida da altura uterina e anota no cartão da gestante.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Informa adequadamente que a paciente tem sífilis.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Explica que a transmissão da sífilis é sexual e interroga sobre múltiplos parceiros sexuais.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Solicita VDRL do parceiro da paciente ou indica tratamento do parceiro com 3 doses de Penicilina Benzatina.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Prescreve adequadamente o tratamento com Penicilina Benzatina: 2.400.000 UI em dose única.**  \n\n**OBS.:** Considerar adequado caso o candidato prescreva Penicilina Benzatina: 2.400.000 UI com 3 doses, ou total de 7.200.000 UI.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Solicita Coombs Indireto e explica a indicação (paciente Rh negativo e tem parto anterior).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Prescreve esquema completo de vacina antitetânica (3 doses): 1ª dose imediata e demais doses com intervalo de 30 a 60 dias.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Prescreve suplementação de ferro com sulfato ferroso (1 drágea de 200mg/dia).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Agenda o retorno para 30 dias.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "uid": 1311,
+  "hash": "pepe_1311",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Cetoacidose Diabética (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATUAÇÃO  \nLocal de atuação: Urgência e Emergência - Pronto-Socorro Hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• Sala de emergência com monitores e materiais para suporte avançado de vida;  \n• Laboratório de análises clínicas;  \n• Setor de radiologia com aparelho de radiografia e eletrocardiograma;  \n• Leitos de internação e UTI.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e atenderá um paciente de 20 anos.   \nEle foi trazido ao serviço de emergência por familiares devido a um quadro de náuseas, vômitos, dor abdominal e rebaixamento progressivo do nível de consciência nas últimas 24 horas.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a avaliação inicial do paciente;  \n- Solicitar e interpretar os exames complementares pertinentes ao caso;  \n- Formular a hipótese diagnóstica principal;  \n- Propor a conduta terapêutica inicial para o quadro;  \n- Descrever os critérios clínicos para a resolução desta enfermidade;  \n- Propor a conduta ambulatorial e responder as dúvidas da mãe.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** eu sou Graça, 45 anos.  \n• **Paciente:** Lucas, 20 anos, estudante.  \n\n**QUEIXA PRINCIPAL (FALA DA MÃE):**  \n• Doutor(a), o meu filho não está bem desde ontem. Passou mal a noite toda, e hoje de manhã ele foi ficando cada vez mais quieto, mais sonolento. Está com vômitos e dor na barriga.  \n\n**SOBRE VÔMITOS (FALA DA MÃE):**  \n• **Início:** Começou ontem.  \n• **Quantidade:** Foram várias vezes, perdi a conta.  \n• **Conteúdo:** No começo era comida, depois só um líquido amarelado.  \n\n**SOBRE DOR ABDOMINAL (FALA DA MÃE):**  \n• **Início:** Hoje de manhã.  \n• **Localização:** Ele apontava para a barriga toda.  \n\n**ANTECEDENTES PESSOAIS (FALA DA MÃE):**  \n• **Alergias, cirurgias e internações:** Nega.  \n• **Doenças:** Ele tem diabetes tipo 1 desde os 8 anos.  \n• **Medicações:** Usa insulina. Acho que nesses últimos dias ele não aplicou direito, estava meio rebelde.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS (DA MÃE):**  \n• *O que meu filho tem, doutor(a)?*  \n• *É grave? Ele vai ficar bem?*  \n• *Isso é por causa da diabetes dele?*  \n• *Ele vai precisar ficar internado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 90x50 mmHg  \n• **FC:** 116 bpm  \n• **FR:** 24 irpm  \n• **SatO2:** 95% em ar ambiente  \n• **Temp. axilar:** 36.4°C  \n• **Glicemia capilar:** HI (High)  \n\n\n**Ectoscopia:** Estado geral comprometido, descorado (+/4+), desidratado (3+/4+), taquipneico, acianótico e afebril.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular, taquicárdico, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdominal:** Dor à palpação difusa do abdome, sem massas, visceromegalias ou sinais de irritação peritoneal. Ruídos hidroaéreos presentes.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME NEUROLÓGICO",
+      "conteudo": "\\ \n• **Nível de consciência:** Torporoso.  \n• **Abertura ocular:** Abre os olhos somente com estímulo doloroso.  \n• **Resposta verbal:** Emite apenas sons incompreensíveis quando estimulado.  \n• **Resposta motora:** Localiza o estímulo doloroso.  \n• **Sem rigidez nucal.**  \n\n\n**ATENÇÃO: CALCULE E INFORME E ESCALA DE COMA DE GLASGOW DO PACIENTE**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Glicemia venosa:** 566 mg/dL (VR=70-99 mg/dL)  \n\n\n**GASOMETRIA VENOSA:**  \n• **pH:** 6,9 (VR: 7,35 - 7,45)  \n• **HCO3:** 8 mEq/l (VR: 22 - 25 mEq/l)  \n• **Ânion gap:** -27  \n\n\n**ELETRÓLITOS:**  \n• **Sódio (Na):** 150 mEq/l (VR: 135 - 145 mEq/l)  \n• **Potássio (K):** 2,9 mEq/l (VR: 3,5 - 5 mEq/l)  \n• **Cloro (Cl):** 115 mEq/l (VR: 102 - 110 mEq/l)  \n• **Magnésio (Mg):** 1,4 mg/dl (VR: 1,5 - 2,3 mg/dl)  \n\n\n**PERFIL RENAL:**  \n• **Ureia:** 35 mg/dL (VR < 35 mg/dL)  \n• **Creatinina:** 1,3 mg/dL (VR=0,7-1,3 mg/dL)  \n\n\n**URINA TIPO I (EAS):**  \n• **Glicosúria:** 3+  \n• **Cetonúria:** 2+  \n\n\n**ELETROCARDIOGRAMA:**  \nSem Alterações",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "PÓS INFUSÃO 1LT SF0,9%",
+      "conteudo": "**RESPOSTA APÓS 1 HORA DE ATENDIMENTO E INFUSÃO DE 1000ML DE SOLUÇÃO SALINA 0,9%:**  \n\n• **PA:** 110x65 mmHg  \n• **Glicemia capilar:** 584 mg/dL",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \r\n(1) identifica-se; e,  \r\n(2) cumprimenta a mãe do paciente simulado e pergunta seu nome.  \r\n\r\n**Adequado:** realiza as duas ações.  \r\n**Parcialmente adequado:** realiza uma ação.  \r\n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese direcionada para a queixa atual:**  \n(1) investiga o início e a evolução do rebaixamento do nível de consciência;  \n(2) investiga as características dos vômitos e da dor abdominal;  \n(3) questiona sobre a adesão ao tratamento com insulina nos últimos dias;  \n(4) investiga a presença de poliúria, polidipsia ou polifagia.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita e interpreta o exame físico geral:**  \n(1) verbaliza a necessidade de realizar o exame físico;  \n(2) identifica o comprometimento do estado geral, desidratação e taquipneia.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza a avaliação neurológica e calcula a Escala de Coma de Glasgow:**  \n(1) verbaliza a avaliação da abertura ocular, resposta verbal e resposta motora;  \n(2) calcula corretamente a pontuação na Escala de Coma de Glasgow (9).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais pertinentes ao quadro clínico:**  \n(1) Glicemia venosa;  \n(2) Gasometria venosa OU arterial;  \n(3) Eletrólitos (Sódio, Potássio);  \n(4) Função renal (Ureia, Creatinina);  \n(5) Urina tipo I (EAS).  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita dois ou menos exames ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta os exames laboratoriais e verbaliza os achados que confirmam o diagnóstico:**  \n(1) Hiperglicemia (> 250 mg/dL);  \n(2) Acidose metabólica com ânion-gap aumentado (pH < 7,3 e HCO3 < 18);  \n(3) Presença de cetonúria.  \n\n**Adequado:** verbaliza os três achados.  \n**Parcialmente adequado:** verbaliza dois achados.  \n**Inadequado:** não verbaliza os achados ou verbaliza apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica principal de Cetoacidose Diabética (CAD).**  \n\n**Adequado:** formula a hipótese de Cetoacidose Diabética.  \n**Parcialmente adequado:** formula a hipótese de descompensação do diabetes ou hiperglicemia.  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Inicia a conduta terapêutica inicial com hidratação venosa.**  \n\n**Adequado:** prescreve infusão rápida de Solução Salina 0,9% (1000 a 1500 ml na primeira hora).  \n**Parcialmente adequado:** prescreve hidratação venosa, mas não especifica o volume ou a velocidade de infusão adequados.  \n**Inadequado:** não prescreve hidratação venosa ou prescreve solução inadequada (ex: soro glicosado).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve insulinoterapia endovenosa contínua.**  \n\n**Adequado:** prescreve insulina regular em bomba de infusão contínua na dose de 0,1 U/kg/hora.  \n**Parcialmente adequado:** prescreve insulina regular endovenosa, mas não especifica a dose ou a forma de administração contínua.  \n**Inadequado:** não prescreve insulina ou prescreve por via subcutânea/intramuscular na fase inicial.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a correção do distúrbio eletrolítico (potássio).**  \n(1) identifica a hipocalemia (Potássio < 3,3 mEq/l) como contraindicação para o início da insulina;  \n(2) prescreve a reposição de potássio antes de iniciar a insulinoterapia.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma ou inicia a insulina sem corrigir o potássio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Descreve os critérios para a resolução da cetoacidose diabética:**  \n(1) Glicemia < 200-250 mg/dL;  \n(2) pH > 7,3;  \n(3) Bicarbonato > 15-18 mEq/L;  \n(4) Ânion-gap normalizado.  \n\n**Adequado:** descreve três ou mais critérios.  \n**Parcialmente adequado:** descreve dois critérios.  \n**Inadequado:** não descreve os critérios ou descreve apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a mãe sobre o diagnóstico e a gravidade do quadro.**  \n(1) explica em linguagem clara que o quadro é uma complicação grave do diabetes;  \n(2) informa a necessidade de internação em Unidade de Terapia Intensiva (UTI) para monitorização e tratamento intensivo.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre a insulinoterapia após a alta hospitalar, explicando:**  \n(1) o uso de insulina de ação lenta (glargina, detemir) uma vez ao dia; e,  \n(2) o uso de insulina de ação rápida (lispro, asparte, regular) antes das principais refeições.  \n\n**Adequado:** orienta o uso de insulina de ação lenta e de ação rápida.  \n**Parcialmente adequado:** orienta apenas o uso de um tipo de insulina.  \n**Inadequado:** não orienta o tratamento ou orienta de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

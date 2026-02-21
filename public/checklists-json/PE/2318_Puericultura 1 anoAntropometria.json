@@ -1,0 +1,189 @@
+{
+  "uid": 2318,
+  "hash": "pepe_2318",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Puericultura 1 ano/Antropometria",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: atenção primária à saúde - unidade básica de saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório com recursos necessários à puericultura.\n\nDescrição do caso:\nVocê acabou de finalizar a anamnese e o exame físico de um lactente masculino de 1 ano  \nde idade em um consultório da UBS. Na anamnese, não foram identificadas queixas ou  \ndesconfortos e o exame físico apresenta-se sem alterações clínicas, demonstra  \nsuplementação adequada da criança e imunização completa e correta.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Medir o perímetro cefálico e verificar o comprimento e o peso da criança;  \n- Registrar os resultados obtidos nos gráficos de crescimento (perímetro cefálico,  \ncomprimento, peso e índice de massa corporal - IMC) e mostrar os gráficos, após  \no registro, para a câmera;  \n- Verbalizar, com base nos dados, desde o nascimento da criança, e na avaliação, o  \ndiagnóstico de crescimento, o estado nutricional atual da criança e o padrão da  \ncurva.  \n\nNÃO É NECESSARIO REALIZAR ANAMNESE E EXAME FÍSICO.  \nVOCÊ DEVE APENAS COMPLEMENTAR AS MEDIDAS  \nANTROPOMETRICAS DO CARTÃO DA CRIANÇA",
+  "script_ator": "**NOME DA MÃE**:  \n• Iris, 20 anos.  \n\n**NOME DO FILHO**:  \n• Lucas, 1 ano.  \n\n**MOTIVO DE CONSULTA**:  \n• O Lucas já foi examinado por completo. Falta apenas realizar as medidas dele.  \n\nAssim que o candidato terminar de se apresentar, liberar todos os impressos de GRÁFICOS.  \n\nApós o candidato verbalizar como irá **REALIZAR A VERIFICAÇÃO DOS DADOS ANTROPOMÉTRICOS**, entregue o impresso **DADOS ANTROPOMÉTRICOS**  com os dados para que se possa plotar nos gráficos e fazer interpretação.  \n\nApós o(a) participante realizar as medidas e registrá-las no gráfico:  \n• Dr(a), ele está crescendo direitinho?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "GRÁFICO PERÍMETRO CEFÁLICO",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-2-e8p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "GRÁFICO PESO",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-2-e8p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "GRÁFICO COMPRIMENTO",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-2-e8p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "GRÁFICO IMC",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-2-e8p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "DADOS ANTROPOMÉTRICOS",
+      "conteudo": "**PERÍMETRO CEFÁLICO:** 46cm;  \n**COMPRIMENTO:** 75cm;  \n**PESO:** 10kg;",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) Identifica-se;  \n(2) Cumprimenta a mãe de maneira adequada/cordial;  \n(3) Mantém contato visual;  \n(4) Pergunta o nome da mãe e o nome da criança.  \n\n**Adequado:** Efetua as quatro ações.  \n**Parcialmente adequado:** Efetua duas ou três ações.  \n**Inadequado:** Efetua apenas uma ação, OU não efetua ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Mede o perímetro cefálico do paciente.**  \n\n**Adequado:** Posiciona a fita métrica da proeminência occipital à glabela, sem passar por  \ncima dos olhos do boneco ou pela orelha.  \n**Inadequado:** Mede de maneira diferente da adequada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Mede o comprimento do paciente.**  \n(1) Posiciona o estadiômetro corretamente paralelo à linha da maca;  \n(2) Posiciona a criança com a parte fixa encostada no polo cefálico e com a  \nparte móvel nas pernas e  \n(3) Solicita auxílio da mãe para retificação dos membros inferiores ou para segurar polo  \ncefálico.  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza as ações (1) e (2) e não realiza a (3).  \n**Inadequado:** Não realiza a ação (1), OU não realiza a ação (2).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Mede o peso do paciente.**  \n(1) Cobre a balança com lençol descartável;  \n(2) Retira a fralda do paciente e  \n(3) Posiciona o bebê deitado, OU sentado sobre o centro do prato da balança.  \n\n**Adequado:** Realiza corretamente os três itens.  \n**Parcialmente adequado:** Realiza corretamente dois itens.  \n**Inadequado:** Realiza corretamente um item, OU não realiza  \ncorretamente item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica o perímetro cefálico (PC) do paciente.**  \nO perímetro cefálico deve ser igual a 46 cm, ou seja, estar entre Z  \n0 e +1, com margem de erro de 1 cm a mais ou a menos.  \n\n**Adequado:** Mede corretamente o PC (46 cm) e plota corretamente  \nno gráfico;  \n**Inadequado:** Mede o valor incorretamente, OU não plota no  \ngráfico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Identifica o comprimento do paciente.**  \nO comprimento deve ser igual a 75 cm, ou seja, estar entre Z 0 e  \n+2, com margem de erro de 1 cm a mais ou a menos.  \n\n**Adequado:** Mede corretamente o comprimento (75 cm) e plota  \ncorretamente no gráfico.  \n**Inadequado:** Mede o valor incorretamente, OU não plota no  \ngráfico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pesa o paciente.**  \nO peso deve ser igual a 10.000 g, ou seja, entre Z 0 e +1, com margem de erro de 50g  \npara menos (até 9950g).  \n\n**Adequado:** Pesa corretamente o peso (10.000 g) e plota  \ncorretamente no gráfico.  \n**Inadequado:** Pesa o valor incorretamente, OU não plota no gráfico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Calcula o IMC do paciente.**  \nO IMC deve ser igual a 17,77, OU 17,31, OU 18,26 Kg/m2, ou seja,  \nestar entre Z 0 e +1.  \n\n**Adequado:** Calcula corretamente o IMC e plota corretamente no  \ngráfico.  \n**Inadequado:** Calcula o valor incorretamente, OU não plota no  \ngráfico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Avalia o perímetro cefálico (PC) com base nos gráficos.**  \n(1) Cita o escore atual e (2) Conclui que o padrão de curva foi mantido.  \n\n**Adequado:** Realiza as duas ações.  \n**Parcialmente adequado:** Realiza apenas a ação (2).  \n**Inadequado:** Realiza apenas a ação (1), OU não realiza ação  \nalguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Avalia o comprimento com base nos gráficos.**  \n(1) Cita o escore atual e (2) Conclui que o padrão de curva foi mantido.  \n\n**Adequado:** Realiza as duas ações.  \n**Parcialmente adequado:** Realiza apenas a ação (2).  \n**Inadequado:** Realiza apenas a ação (1), OU não realiza ação  \nalguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Avalia o peso com base nos gráficos.**  \n(1) Cita o escore atual e (2) Conclui que houve queda na curva, mas sem repercussões  \nclínicas.  \n\n**Adequado:** Realiza as duas ações.  \n**Parcialmente adequado:** Realiza apenas a ação (2).  \n**Inadequado:** Realiza apenas a ação (1), OU não realiza ação  \nalguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Avalia IMC com base nos gráficos.**  \n(1) Cita escore atual e  \n(2) Conclui que houve variação fisiológica, esperada para lactentes na transição  \nalimentar, mas sem repercussões clínicas, OU que a curva está normal, dentro do  \nesperado, OU eutrofia.  \n\n**Adequado:** Realiza as duas ações.  \n**Parcialmente adequado:** Realiza apenas a ação (2).  \n**Inadequado:** Realiza apenas a ação (1), OU não realiza ação  \nalguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

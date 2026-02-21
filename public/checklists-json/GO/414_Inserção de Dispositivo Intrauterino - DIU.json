@@ -1,0 +1,204 @@
+{
+  "uid": 414,
+  "hash": "pepe_414",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Inserção de Dispositivo Intrauterino - DIU",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• sala de procedimentos;\n\nDescrição do caso:\nVocê atenderá uma paciente de 29 anos, sem queixas, que compareceu à consulta porque deseja inserir um DIU de cobre como método contraceptivo.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese ginecológica direcionada.  \n- Solicitar os exames pertinentes para a inserção do DIU.  \n- Orientar a paciente sobre o método contraceptivo escolhido.  \n- Verbalizar a técnica e procedimento de inserção do DIU de forma completa.  \n- Orientar os cuidados pós-procedimento.  \n\n\\\nATENÇÃO! A INSERÇÃO DO DIU SERÁ REALIZADA DE MANEIRA VERBAL.  \nVOCÊ DEVE VERBALIZAR CADA ETAPA DA TÉCNICA QUE REALIZAR.  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Soraia, 29 anos, designer, solteira.  \n\n**MOTIVO DE CONSULTA:** Dr(a), quero colocar um DIU. Estou cansada de ter que tomar comprimido todo dia e de depender de camisinha.  \n\n**HISTÓRIA GINECOLÓGICA:**  \n• **Menarca:** aos 12 anos.  \n• **Ciclos menstruais:** regulares, a cada 28 dias.  \n• **Duração do fluxo:** 5 dias, fluxo moderado.  \n• **Dismenorreia:** raramente, quase não tenho cólica.  \n• **Data da última menstruação:** 18 dias atrás.  \n\n• **Papanicolau:** fiz no ano passado, estava normal.  \n• **IST prévia:** nunca tive.  \n\n**RELAÇÃO SEXUAL:**  \n• **Sexarca:** aos 16 anos.  \n• **Parceiros:** não tenho parceiro fixo no momento.  \n• **Uso de preservativo:** uso às vezes, não sempre.  \n\n• **Contraceptivo atual:** tomo anticoncepcional oral, mas esqueço com frequência.  \n• **Corrimento vaginal:** não tenho corrimento anormal.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **Gestações:** nunca engravidei.  \n\n**HÁBITOS:**  \n• **Tabagismo:** não fumo.  \n• **Álcool:** bebo socialmente nos fins de semana.  \n• **Drogas:** nunca usei.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O DIU é realmente eficaz?*  \n• *O DIU tem algum efeito colateral?*  \n• *O DIU protege contra doenças?*  \n• *Tenho que voltar aqui depois?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "TESTE B-HCG",
+      "conteudo": "• **Resultado:** NEGATIVO.  \n• **Valor de Referência:** Negativo (não gestante).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "**EXAME GINECOLÓGICO SEM ALTERAÇÕES**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e mantém postura adequada durante a consulta:**  \n(1) identifica-se e cumprimenta a paciente;  \n(2) dirige-se a ela pelo nome ao menos uma vez;  \n(3) mantém postura empática e acolhedora; e,  \n(4) utiliza linguagem acessível.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese ginecológica direcionada:**  \n(1) data da última menstruação;  \n(2) características do ciclo menstrual (regularidade e fluxo);  \n(3) presença de dismenorreia;  \n(4) vida sexual e número de parceiros;  \n(5) uso de preservativo;  \n(6) uso atual de método contraceptivo; e,  \n(7) presença de corrimento vaginal ou sinais de infecção.  \n\n**Adequado:** investiga cinco ou mais itens.  \n**Parcialmente adequado:** investiga três ou quatro itens.  \n**Inadequado:** investiga dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga antecedentes e contraindicações para inserção do DIU:**  \n(1) antecedentes de Infecções Sexualmente Transmissíveis;  \n(2) antecedentes de Doença Inflamatória Pélvica;  \n(3) história de gestação ectópica;  \n(4) realização de Papanicolau prévio; e,  \n(5) cirurgias ginecológicas prévias.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita Beta-HCG OU Teste Rápido para exclusão de gravidez antes da inserção do DIU.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a necessidade de obtenção do consentimento informado da paciente.**  \n\n**Adequado:** verbaliza ou realiza o consentimento.  \n**Inadequado:** não verbaliza nem realiza o consentimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Informa sobre a eficácia e as características do DIU de cobre:**  \n(1) é um método altamente eficaz (OU índice de Pearl 0,6-0,8% -> 99%);  \n(2) tem duração de até 10 anos;  \n(3) não contém hormônios; e,  \n(4) não protege contra Infecções Sexualmente Transmissíveis.  \n\n**Adequado:** informa três ou mais características.  \n**Parcialmente adequado:** informa duas características.  \n**Inadequado:** informa uma característica ou não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Informa sobre os principais efeitos adversos do DIU de cobre:**  \n(1) aumento do fluxo menstrual;  \n(2) aumento ou aparecimento de cólicas menstruais; e,  \n(3) spotting (sangramento intermenstrual) nos primeiros meses.  \n\n**Adequado:** informa dois ou mais efeitos.  \n**Parcialmente adequado:** informa um efeito.  \n**Inadequado:** não informa efeito algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita os materiais necessários para o procedimento:**  \n(1) espéculo vaginal;  \n(2) pinça de Pozzi;  \n(3) histerômetro;  \n(4) pinça Cheron (para antissepsia);  \n(5) tesoura;  \n(6) gazes estéreis;  \n(7) antisséptico (clorexidina aquosa);  \n(8) luvas estéreis; e,  \n(9) DIU com condutor-guia.  \n\n**Adequado:** solicita seis ou mais materiais.  \n**Parcialmente adequado:** solicita quatro a cinco materiais.  \n**Inadequado:** solicita três materiais ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza os passos de preparação para o procedimento:**  \n(1) explica o procedimento à paciente;  \n(2) posiciona a paciente em posição ginecológica (litotomia);  \n(3) realiza exame pélvico bimanual;  \n(4) realiza higienização das mãos e calça luvas estéreis; e,  \n(5) introduz o espéculo e visualiza o colo uterino.  \n\n**Adequado:** verbaliza quatro ou mais passos.  \n**Parcialmente adequado:** verbaliza dois ou três passos.  \n**Inadequado:** verbaliza um passo ou não verbaliza passo algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza a realização da antissepsia do colo uterino com solução adequada (clorexidina aquosa ou PVPI aquoso).**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza os passos da técnica de inserção do DIU:**  \n(1) pinçamento do lábio anterior do colo uterino com pinça de Pozzi;  \n(2) realização da histerometria para medir a profundidade uterina;  \n(3) ajuste do condutor-guia no comprimento medido pelo histerômetro;  \n(4) introdução do DIU com o condutor-guia até o fundo uterino;  \n(5) liberação das hastes do DIU retraindo o condutor-guia; e,  \n(6) retirada do êmbolo e do condutor-guia.  \n\n**Adequado:** verbaliza cinco ou mais passos.  \n**Parcialmente adequado:** verbaliza três ou quatro passos.  \n**Inadequado:** verbaliza dois passos ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza os passos de finalização do procedimento:**  \n(1) corte do fio do DIU deixando 2 a 3 cm para fora do colo;  \n(2) retirada da pinça de Pozzi;  \n(3) retirada do espéculo.  \n\n**Adequado:** verbaliza dois ou três passos.  \n**Inadequado:** verbaliza um passo ou não verbaliza passo algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta os cuidados pós-procedimento:**  \n(1) uso de preservativo nos primeiros 7 dias;  \n(2) retornar em caso de febre, dor pélvica intensa ou sangramento anormal; e,  \n(3) o DIU não protege contra IST, sendo recomendado o uso de preservativo.  \n\n**Adequado:** orienta os três cuidados.  \n**Parcialmente adequado:** orienta dois cuidados.  \n**Inadequado:** orienta um cuidado ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Solicita a verificação da posição do DIU por ultrassonografia transvaginal.**  \n\n**Adequado:** solicita a ultrassonografia.  \n**Inadequado:** não solicita ou solicita outro exame (raio-x, ultrassom de abdome, tomografia).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Agenda consulta de retorno para revisão em 30 a 45 dias após a inserção.**  \n\n**Adequado:** agenda retorno no prazo adequado (30 a 45 dias).  \n**Parcialmente adequado:** agenda retorno, mas não especifica o prazo correto.  \n**Inadequado:** não agenda retorno.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

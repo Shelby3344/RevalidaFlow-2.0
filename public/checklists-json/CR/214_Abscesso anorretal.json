@@ -1,0 +1,177 @@
+{
+  "uid": 214,
+  "hash": "pepe_214",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Abscesso anorretal",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• setor de radiologia convencional e ultrassonografia;  \n• sala de procedimentos e leitos de observação.\n\nDescrição do caso:\nVocê é médico de plantão em uma unidade de pronto atendimento e atenderá um homem de 35 anos com queixa de dor anal intensa.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Formular e comunicar a hipótese diagnóstica.  \n- Citar diagnósticos diferenciais e possíveis complicações.  \n- Estabelecer a conduta terapêutica adequada.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Thiago, 35 anos, casado, jornalista.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor muito forte no ânus.  \n\n**SOBRE A DOR:**  \n• **Início:** começou há 4 dias.  \n• **Localização:** bem no ânus.  \n• **Irradiação:** não vai pra outro lugar.  \n• **Característica:** fica latejando o tempo todo.  \n• **Intensidade:** 8/10, muito forte.  \n• **Atenuantes/agravantes:** piora bastante quando vou ao banheiro evacuar.  \n• **Episódio anterior:** nunca tive isso antes.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** estou tendo febre há 2 dias, entre 37,6°C e 38°C. Tomo ibuprofeno e abaixa.  \n• **Calafrios:** tenho sentido calafrios sim.  \n• **Sangramento anal:** não está sangrando.  \n• **Secreção ou pus:** não percebi sair nada.  \n• **Alteração do hábito intestinal:** continuo evacuando normal.  \n• **Náuseas, vômitos, distensão abdominal:** nega.  \n• **Perda de peso:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** não tenho doença nenhuma e não uso remédio.  \n• **Alergias:** tenho alergia a dipirona.  \n• **Cirurgias e internações:** nunca operei.  \n\n• **Álcool, tabaco e drogas:** não bebo, não fumo e não uso drogas.  \n• **Alimentação:** como bem equilibrado, gosto de carne, mas no geral como de tudo.  \n• **Atividade física:** faço academia 4 vezes por semana.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Vai precisar de cirurgia?*  \n• *Isso pode virar algo mais grave?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 120 x 80 mmHg.  \n• **Frequência Cardíaca:** 80 batimentos por minuto.  \n• **Frequência Respiratória:** 16 incursões respiratórias por minuto.  \n• **Saturação de O₂:** 99% em ar ambiente.  \n• **Temperatura Axilar:** 38,4°C.  \n\n\n**ECTOSCOPIA:**  \nBom estado geral, corado, hidratado, acianótico, anictérico, alerta e orientado.  \n\n\n**APARELHO CARDIOVASCULAR:**  \nRitmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**APARELHO RESPIRATÓRIO:**  \nMurmúrio vesicular preservado bilateralmente, sem ruídos adventícios.  \n\n\n**EXAME ABDOMINAL:**  \nAbdome plano, flácido, indolor à palpação, sem massas palpáveis, ruídos hidroaéreos presentes, timpânico à percussão.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "INSPEÇÃO DA REGIÃO PERIANAL",
+      "conteudo": "**Olhe para a câmera e descreva a imagem.**",
+      "imagem": "img_printeds/e214p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "TOQUE RETAL",
+      "conteudo": "• Dor intensa ao toque na região perianal.  \n• Ausência de sangue em dedo de luva.  \n• Tônus esfincteriano preservado.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor e sintomas associados:**  \n(1) início ou tempo de evolução;  \n(2) localização;  \n(3) característica ou tipo;  \n(4) intensidade;  \n(5) fatores de melhora ou piora;  \n(6) febre;  \n(7) calafrios;  \n(8) sangramento anal;  \n(9) secreção ou drenagem de pus.  \n\n**Adequado:** pergunta seis ou mais itens.  \n**Parcialmente adequado:** pergunta quatro ou cinco itens.  \n**Inadequado:** pergunta três ou menos, ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga antecedentes pessoais e hábitos relevantes:**  \n(1) comorbidades ou doenças prévias (diabetes, imunossupressão, doença inflamatória intestinal);  \n(2) alergias medicamentosas;  \n(3) cirurgias prévias na região anorretal;  \n(4) hábito intestinal.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico geral e inspeção da região perianal.**  \n\n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica na inspeção perianal os achados compatíveis com abscesso (abaulamento, hiperemia, calor local, ponto de flutuação).**  \n\n**Adequado:** identifica e verbaliza os achados.  \n**Inadequado:** não identifica ou não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita toque retal.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica de abscesso anorretal (ou abscesso perianal).**  \n\n**Adequado:** formula o diagnóstico correto.  \n**Inadequado:** não formula ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Menciona diagnósticos diferenciais:**  \n(1) fístula anal;  \n(2) cisto pilonidal infectado;  \n(3) hemorroida trombosada;  \n(4) doença de Crohn perianal;  \n(5) carcinoma anal.  \n\n**Adequado:** menciona dois ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** menciona um diagnóstico diferencial.  \n**Inadequado:** não menciona diagnóstico diferencial algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Menciona possíveis complicações do quadro:**  \n(1) fístula anal;  \n(2) fasceíte necrotizante (Síndrome de Fournier);  \n(3) sepse;  \n(4) recorrência do abscesso.  \n\n**Adequado:** menciona duas ou mais complicações.  \n**Parcialmente adequado:** menciona uma complicação.  \n**Inadequado:** não menciona complicação alguma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o tratamento específico: drenagem cirúrgica do abscesso.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica medidas de suporte e tratamento complementar:**  \n(1) analgesia (respeitando a alergia a dipirona);  \n(2) antibioticoterapia (em casos selecionados: celulite extensa, imunossupressão, sinais sistêmicos);  \n(3) banhos de assento com água morna;  \n(4) orientação sobre cuidados locais pós-drenagem.  \n\n**Adequado:** indica três ou quatro medidas.  \n**Parcialmente adequado:** indica duas medidas.  \n**Inadequado:** indica uma medida ou não indica medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre necessidade de acompanhamento ambulatorial para avaliação de fístula anal.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

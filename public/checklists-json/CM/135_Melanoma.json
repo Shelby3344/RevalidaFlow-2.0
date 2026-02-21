@@ -1,0 +1,160 @@
+{
+  "uid": 135,
+  "hash": "pepe_135",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Melanoma",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.  \n• Sala de vacinação.  \n• Sala de curativos e pequenos procedimentos.\n\nDescrição do caso:\nVocê está atendendo um paciente de 42 anos, trabalhador da construção civil, que comparece à consulta por insistência da esposa devido a uma \"pinta\" nas costas que mudou de aparência recentemente.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida à queixa.  \n- Solicitar e descrever o exame físico do paciente.  \n- Formular e verbalizar a principal hipótese diagnóstica.  \n- Indicar o(s) exame(s) complementar(es) necessário(s) para confirmação diagnóstica.  \n- Fornecer orientações e responder as dúvidas do paciente.  \n\n\\\nCONSIDERE QUE HÁ REGUA DISPONÍVEL",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Giovani, 42 anos, pedreiro.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), minha esposa marcou essa consulta. Ela disse que tem uma pinta nas minhas costas que está ficando feia.  \n\n**SOBRE A LESÃO:**  \n• **Evolução:** Eu sempre tive uma pintinha, mas nos últimos 6 meses ela cresceu rápido.  \n\n• **Localização:** Fica na parte de cima das costas, do lado direito.  \n\n• **Quantidade:** é uma só.  \n\n• **Cor:** ela era marronzinha clara, mas agora está mais escura.  \n\n• **Prurido:** Às vezes coça um pouco.  \n\n• **Sangramento/Secreção:** Semana passada sangrou quando passei a toalha.  \n\n• **Dor:** não dói.  \n\n• **OUTRAS MANCHAS E VERRUGAS:** Já tirei umas verrugas antes, mas o médico disse que não era nada.  \n\n**FATORES DE RISCO E ANTECEDENTES:**  \n• **Alergias, medicações e doenças:** não tenho nada.  \n• **Exposição solar:** Trabalho no sol, sou pedreiro faz 20 anos.  \n• **Protetor solar:** Nunca usei, acho bobagem.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Doutor(a), isso é câncer?*  \n• *Tem que fazer algum exame?*  \n• *Vou precisar arrancar esse pedaço?*  \n• *Se for câncer, tem perigo de espalhar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**   \n• **PA:** 120x80 mmHg   \n• **FC:** 76 bpm   \n• **FR:** 16 irpm   \n• **SatO2:** 98% em ar ambiente   \n• **Temp. axilar:** 36.5° C   \n\n\n**Ectoscopia:** paciente em bom estado geral, lucido e orientado em tempo e espaço, corado, hidratado, acianótico e anictérico.   \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.   \n\n\n**Respiratório:** tórax sem deformidades, murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.   \n\n\n**Abdominal:** abdome plano e flácido, indolor a palpação superficial e profunda, RHA preservados, timpânico a percussão, sem visceromegalias ou massas palpáveis.   \n\n\n**Linfonodos:** Ausência de linfonodomegalias palpáveis em cadeias cervicais, supraclaviculares ou axilares.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "IMAGEM DA LESÃO",
+      "conteudo": "**ATENÇÃO: DESCREVA AS CARACTERÍSTICAS DA LESÃO DA IMAGEM**",
+      "imagem": "img_printeds/e135p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese da lesão:**  \n(1) tempo de evolução ou crescimento;  \n(2) mudança de cor ou formato;  \n(3) sintomas associados (prurido, sangramento, dor ou ulceração).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga fatores de risco para câncer de pele:**  \n(1) exposição solar (ocupacional ou recreativa);  \n(2) uso de proteção solar;  \n(3) história familiar de melanoma ou câncer de pele;  \n(4) história de queimaduras solares;  \n(5) fototipo (pele clara).  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico da lesão e verbaliza a análise dos critérios ABCDE:**  \n(1) Assimetria (Lesão assimétrica);  \n(2) Bordas irregulares (Bordas irregulares ou festonadas);  \n(3) Cores variadas (policromia: marrom claro, marrom escuro OU preto);  \n(4) Diâmetro (> 6mm, ou 9-10mm);  \n(5) Evolução (História clínica de crescimento recente relatada).  \n\n**Adequado:** solicita o exame e descreve/verbaliza quatro ou cinco critérios do ABCDE.  \n**Parcialmente adequado:** solicita o exame e descreve dois ou três critérios.  \n**Inadequado:** não solicita o exame ou descreve um ou nenhum critério.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame de dermatoscopia:**  \n(1) solicita o exame de dermatoscopia;  \n(2) informa que será agendado na unidade e realizado pela enfermeira.  \n\n**Adequado:** realiza ao menos o item 1.  \n**Inadequado:** não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a hipótese diagnóstica principal: Melanoma (ou Melanoma Extensivo Superficial).**  \n\n**Adequado:** verbaliza melanoma.  \n**Inadequado:** verbaliza \"câncer de pele\" sem especificar, OU verbaliza outro diagnóstico (nevo, carcinoma basocelular).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica o procedimento diagnóstico definitivo:**  \n(1) Biópsia Excisional;  \n(2) Com margens mínimas (1 a 3 mm).  \n\n**Adequado:** indica biópsia excisional com margens de 1 a 3 mm (ou margens exíguas/estreitas).  \n**Parcialmente adequado:** indica apenas \"biópsia\" ou \"retirada da lesão\" sem especificar que deve ser excisional ou sem citar a margem correta.  \n**Inadequado:** indica biópsia incisional (inadequada para lesões pequenas/médias acessíveis) ou indica \"ampliação de margens\" imediata ou cauterização.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica a necessidade da biópsia excisional:**  \nVerbaliza que a peça deve ser retirada inteira para análise histopatológica da espessura do tumor (Índice de Breslow) para definição do estadiamento e tratamento posterior.  \n\n**Adequado:** explica a relação com a espessura/profundidade ou Breslow.  \n**Inadequado:** não explica ou dá explicação incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre o seguimento após o resultado da biópsia:**  \n(1) Se confirmado melanoma, poderá ser necessária ampliação de margens;  \n(2) Se confirmado melanoma, poderá ser necessária a pesquisa de linfonodo sentinela (dependendo da espessura/Breslow).  \n\n**Adequado:** menciona a possibilidade de ampliação de margens E a pesquisa de linfonodo sentinela.  \n**Parcialmente adequado:** menciona apenas um dos itens.  \n**Inadequado:** não menciona os próximos passos ou dá alta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Fornece orientações de prevenção primária:**  \n(1) uso regular de protetor solar (FPS 30 ou mais);  \n(2) uso de barreiras físicas (camisa, chapéu) durante o trabalho;  \n(3) evitar exposição solar nos horários de pico (10h às 16h).  \n\n**Adequado:** fornece as três orientações.  \n**Parcialmente adequado:** fornece uma ou duas orientações.  \n**Inadequado:** não fornece orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza o encaminhamento para especialista (Dermatologista ou Cirurgião Oncológico).**  \n\n**Adequado:** encaminha.  \n**Inadequado:** não encaminha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.65"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

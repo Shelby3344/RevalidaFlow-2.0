@@ -1,0 +1,165 @@
+{
+  "uid": 1613,
+  "hash": "pepe_1613",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Violência Sexual (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• raio-X, ultrassonografia, eletrocardiograma;  \n• laboratório de análises clínicas;  \n• banco de sangue;\n\nDescrição do caso:\nVocê está de plantão no pronto-socorro e receberá uma mulher de 20 anos, que procura o serviço de referência após ter sido vítima de estupro.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese e o acolhimento da paciente;  \n- Orientar sobre os aspectos éticos e legais;  \n- Propor o plano de cuidados para a paciente;  \n- Explicar e prescrever profilaxias e medidas de prevenção de ISTs;  \n- Responder às dúvidas da paciente.  \n\n\\\nATENÇÃO!  \nO EXAME FÍSICO JÁ FOI REALIZADO E NÃO REVELOU TRAUMATISMOS.  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Laila, 20 anos, solteira, estudante.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu... eu fui atacada por um homem. Me falaram para vir direto para o hospital.  \n\n**SOBRE A VIOLÊNCIA:**  \n• **Tempo:** faz umas 4 horas.  \n• **Agressor:** Eu não sei quem era, não conhecia.  \n• **Tipo de violência:** Ele me forçou. Teve penetração na vagina.  \n• **Uso de preservativo:** Ele ele não usou camisinha.  \n• **Agressão física:** Ele não me bateu. Não sinto dor no corpo.  \n• **Estado emocional:** Estou com muito medo, com nojo...  \n\n**CASO O CANDIDATO SOLICITE EXAME FÍSICO:**  \n• Doutor(a), eu já fui examinada quando cheguei, não quero ser tocada de novo.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **GPA:** Nunca engravidei.  \n• **DUM:** Minha última menstruação foi há 2 semanas.  \n• **Contracepção:** Não uso nada.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** Não tenho nenhuma doença e não tomo remédio.  \n• **Vacinação:** Não lembro quando tomei vacina pela última vez.  \n• **Boletim de Ocorrência:** Não fui na delegacia. Não sei se tenho coragem.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Eu posso engravidar?*  \n• *E se eu peguei alguma doença?*  \n• *Pode me falar a dose e como tomar esses medicamentos?*  \n• *Eu sou obrigada a ir na polícia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 90 bpm   \n• **FR:** 18 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.5°C  \n\n\n**Ectoscopia:** Paciente ansiosa, chorosa, mas orientada e colaborativa. Corada, hidratada.  \n\n\n**Exame ginecológico:** Sem sinais de traumatismos agudos em genitália externa ou interna. Ausência de sangramento ativo.  \n\n\n**Restante do exame físico sem alterações.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Acolhimento e Aspectos Éticos:**  \n(1) Apresenta-se, acolhe a paciente sem fazer julgamentos;  \n(2) Garante o sigilo profissional.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Conduz a anamnese para guiar as condutas profiláticas.**  \n(1) investiga o tempo decorrido desde a agressão;  \n(2) questiona sobre as práticas sexuais envolvidas (vaginal, anal, oral);  \n(3) verifica o histórico de vacinação (Hepatite B, HPV) e o status contraceptivo.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Orientações Legais:**  \n(1) Informa sobre a necessidade da notificação compulsória da violência;  \n(2) Encoraja o registro do Boletim de Ocorrência, explicando a importância do Exame de Corpo de Delito, mas respeita a decisão da paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Apoio Psicossocial:**  \n(1) Orienta sobre a importância do acompanhamento por equipe multiprofissional;  \n(2) Encaminha para atendimento psicológico.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames sorológicos basais.**  \n(1) Anti-HIV;  \n(2) Teste Rápido para Sífilis (Treponêmico);  \n(3) Sorologia para Hepatite B (Anti-HBs, HBsAg) e Hepatite C.  \n\n**Adequado:** solicita os três grupos de sorologias.  \n**Parcialmente adequado:** solicita dois grupos.  \n**Inadequado:** não solicita as sorologias ou solicita apenas um grupo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Prevenção de Gravidez (Anticoncepção de Emergência):**  \n(1) Prescreve Levonorgestrel 1,5 mg (ou 2 comprimidos de 0,75 mg);  \n(2) Orienta a administração em dose única, por via oral.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Profilaxia para Hepatite B:**  \n(1) Prescreve a vacina contra Hepatite B (esquema 0, 1 e 6 meses);  \n(2) Prescreve a Imunoglobulina Humana Anti-Hepatite B (HBIG).  \n\n**Adequado:** realiza pelo menos uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Profilaxia para HIV:**  \n(1) Explica a necessidade da Terapia Antirretroviral (TARV) combinada;  \n(2) Orienta o uso por 28 dias.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Profilaxia para Sífilis:**  \n(1) Prescreve Penicilina G Benzatina;  \n(2) Indica a dose de 2,4 milhões UI, via intramuscular, em dose única.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Profilaxia para Gonorreia:**  \n(1) Prescreve Ceftriaxona;  \n(2) Indica a dose de 500 mg, via intramuscular, em dose única.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Profilaxia para Clamídia e Tricomoníase:**  \n(1) Prescreve Azitromicina 1g, via oral, dose única (para Clamídia);  \n(2) Orienta sobre a necessidade de postergar o Metronidazol (profilaxia para Tricomoníase) devido ao uso da anticoncepção de emergência.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Vacina para HPV: Prescreve a necessidade da vacina HPV com 3 doses para este caso**;  \n\n**Adequado:** Prescreve a vacinação com 3 doses.  \n**Inadequado:** não prescreve a vacinação, ou prescreve com a dose incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

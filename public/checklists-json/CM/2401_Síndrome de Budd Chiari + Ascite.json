@@ -1,0 +1,145 @@
+{
+  "uid": 2401,
+  "hash": "pepe_2401",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Síndrome de Budd Chiari + Ascite",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\n\nLocal de atuação: ambulatório de atenção primária à saúde - UBS.  \nA unidade possui a seguinte infraestrutura:  \n• Laboratório de Exames Clínicos e Unidade de Radiologia.\n\nDescrição do caso:\n• Você é médico(a) de uma Unidade Básica de Saúde (UBS).  \n• Vai atender a paciente Eliana, 26 anos de idade, costureira, com queixa de aumento do volume abdominal.",
+  "tarefas": "TAREFAS:  \n\nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir, obedecendo à sequência proposta:  \n- realizar a anamnese;  \n- solicitar o exame físico;  \n- realizar o exame do abdome no manequim (PALPAÇÃO E PERCUSSÃO), nomeando e descrevendo as manobras realizadas;  \n- interpretar os achados do exame físico do abdome;  \n- relacionar os resultados dos exames às hipóteses diagnósticas;  \n- estabelecer hipótese diagnóstica e definir plano de seguimento.    \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Eliana, 26 anos de idade, casada, costureira.  \n\n**MOTIVO DE CONSULTA:** • Eu percebi um inchaço na minha barriga há 3 meses e sinto que está aumentando. No começo pensei que era gravidez, mas tomo anticonceptivo oral e fiz 2 testes de gravidez e deram negativos.  \n\n**SINTOMAS ASSOCIADOS:**  \n• Estou com um desconforto aqui perto das costelas do lado direito.  \n• **Atenuantes/agravantes:** Quando eu tomo dipirona melhora.\n\n**SE PERGUNTADO SE REALIZOU ALGUM ESTUDO OU SE FOI AO MÉDICO:**  \n• Fiz uma ultrassonografia na semana passada, você quer ver?  \n(liberar o IMPRESSO ULTRASSONOGRAFIA DE ABDOME, mesmo se o candidato não perguntar).  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** nega.  \n• **Cirurgias:** nega.  \n• **Medicamentos:** anticonceptivo oral.  \n• **Gestações prévias:** nega.  \n• **Álcool, tabaco e drogas:** nega.  \n\n**ANTECEDENTES FAMILIARES:** • Meu pai tem pressão alta.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**Frequência cardíaca**: 68 bmp. **Pressão arterial**: 115 x 65 mmHg.  \n**Frequência respiratória**: 16 irpm.  \n**Temperatura axilar**: 36,2 ºC.  \n**Saturação de oxigênio**: 97% em ar ambiente.  \n**IMC**: 24 kg/m2.\n\n\nPaciente em bom estado geral, afebril, corada, acianótica, anictérica e hidratada; alerta, orientada no tempo e espaço.  \nAusência de estase jugular (tronco entre 30º e 45º).    \n\n\nAusculta respiratória com murmúrio vesicular presente bilateralmente, sem ruídos adventícios.    \n\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas; ausência de sopros.    \n\n\nExtremidades bem perfundidas, sem edemas.  \n\n\n**Abdome**:  \n\n1. **REALIZE O EXAME DO ABDOME NO MANEQUIM UTILIZANDO TÉCNICAS DE PALPAÇÃO E DE PERCUSSÃO, NOMEANDO E DESCREVENDO AS MANOBRAS.**  \n\n\n2. **VOCÊ RECEBERÁ OS IMPRESSOS ESPECÍFICOS DO EXAME DO ABDOME AO NOMEAR E DESCREVER AS MANOBRAS UTILIZADAS.**    \n\n\n**NÃO É NECESSÁRIO REALIZAR AUSCULTA.**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO DO FÍGADO",
+      "conteudo": "**PERCUSSÃO**: Fígado com bordo superior ao nível do 6° espaço intercostal direito e inferior 2 cm abaixo do rebordo costal direito.    \n\n\n**PALPAÇÃO**: Fígado palpável 2 cm abaixo do rebordo costal direito, bordos regulares e lisos, levemente doloroso à palpação.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO DO BAÇO",
+      "conteudo": "**PERCUSSÃO**: Espaço de Traube maciço.    \n\n\n**PALPAÇÃO**: Baço não palpável.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME FÍSICO DA ASCITE",
+      "conteudo": "• **SEMICÍRCULO DE SKODA**- POSITIVO    \n\n\n• **MACICEZ MÓVEL** - POSITIVO    \n\n\n• **PIPAROTE** - NEGATIVO",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "ULTRASSONOGRAFIA DE ABDOME",
+      "conteudo": "Fígado com padrão ecogênico levemente irregular, com aumento do lobo caudado. Irregularidade e difícil identificação das veias hepáticas. Impossibilidade de visibilização da junção com a veia cava inferior. Baço medindo 15 cm com dilatação da veia esplênica, veia esplênica com calibre de 23 mm (valor normal de 3 a 21 mm).    \n\n\nVisualização de varizes perigástricas.  \n\n\nPresença de ascite.",
+      "imagem": "img_printeds/2024-1-e1p5.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais:**  \n(1) dor;  \n(2) náuseas;  \n(3) vômitos;  \n(4) diarreia OU alterações das fezes OU alterações do hábito intestinal OU mudança no cocô OU presença de sangue vivo ou escuro nas fezes;  \n(5) disúria OU dor ao urinar OU ardência ao urinar OU oligúria;  \n(6) febre OU sudorese OU calafrios;  \n(7) icterícia OU pele amarela OU alterações da pele OU mudança da cor da pele OU prurido;  \n(8) alteração na cor das fezes OU acolita OU fezes/cocô esbranquiçado; e,  \n(9) alteração na cor do xixi OU colúria OU urina escurecida.  \n\n**Adequado:** investiga seis ou mais itens.  \n**Parcialmente adequado:** investiga de um a cinco itens.  \n**Inadequado:** não investiga item algum.  \n\n*(Referência a outros sinais ou sintomas não serão considerados para fins de pontuação).*",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre:**  \n(1) fatores de melhora ou atenuantes; e,  \n(2) fatores de piora ou agravantes.  \n\n**Adequado:** pergunta os dois itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza o exame no fígado:**  \n(1) palpação; e,  \n(2) percussão.  \n\n**Adequado:** realiza os dois itens.  \n**Parcialmente adequado:** realiza apenas um item.  \n**Inadequado:** não realiza item algum.  \n\n**CONSIDERAR TÉCNICA CORRETA DE PALPAÇÃO DO FÍGADO:**  \n(1) Paciente/modelo em decúbito dorsal. Participante no lado direito do paciente/modelo, de frente para o paciente/modelo ou voltado para a direção do tórax do paciente/modelo.  \nPalpar o hipocôndrio direito, flanco direito e epigástrio, partindo do umbigo até o rebordo costal. Em seguida, palpar junto ao rebordo costal direito coordenando com os movimentos respiratórios.  \nPode-se colocar a mão esquerda em loja renal direita do paciente, forçando-a para cima  \n\n*ou*  \n\n(2) Paciente/modelo em decúbito dorsal ou decúbito semi lateral esquerdo. Participante no lado direito do paciente/modelo, voltado para a direção da pelve do paciente/modelo.  \nCom os dedos em garra, o participante palpa o flanco/hipocôndrio direito da altura da cicatriz umbilical até o rebordo costal direito-Manobra de Mathieu.  \n\n**CONSIDERAR TÉCNICA CORRETA DE PERCUSSÃO DO FÍGADO:**  \n(1) Com paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, posicionado de frente ao paciente/modelo ou em direção ao seu tórax.  \nPercute-se hemitórax direito, na direção da linha hemiclavicular, desde a clavícula, passando pelos espaços intercostais inferiores, até identificar a borda superior do fígado pela mudança do som de claro pulmonar para maciço/submaciço. A partir daí, progride-se distal e medialmente até identificação do bordo inferior do fígado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza:**  \n(1) palpação esplênica; e,  \n(2) percussão esplênica.  \n\n**Adequado:** realiza uma técnica de percussão esplênica e realiza uma técnica de palpação esplênica.  \n**Parcialmente adequado:** realiza apenas a palpação esplênica OU realiza apenas a percussão esplênica.  \n**Inadequado:** não realiza a palpação nem realiza a percussão esplênica.  \n\n**CONSIDERAR TÉCNICA CORRETA DE PALPAÇÃO DO BAÇO:**  \n(1) Paciente/modelo em decúbito dorsal. Participante no lado direito do paciente/modelo, voltado para o paciente/modelo ou para a direção do tórax do paciente/modelo.  \nPalpar do hipocôndrio esquerdo e flanco esquerdo, partindo do umbigo até o rebordo costal. Em seguida, palpar junto ao rebordo costal esquerdo coordenando com os movimentos respiratórios.  \nPode-se colocar a mão esquerda em loja renal esquerda do paciente, forçando-a para cima  \n\n*ou*  \n\n(2) Paciente/modelo em decúbito lateral direito, perna direita estendida, coxa esquerda fletida a 90 graus sobre o abdome e braço esquerdo sobre a cabeça, com o ombro esquerdo elevado.  \nParticipante do lado direito do paciente/modelo, posicionado de frente para o paciente/modelo.  \nPosiciona-se a mão esquerda na área de projeção do baço, deslocando-o em direção à maca. Com a mão direita, palpa-se do mesogástrio em direção ao rebordo costal esquerdo, coordenando com a respiração.  \n\n**CONSIDERAR TÉCNICA CORRETA DE PERCUSSÃO DO BAÇO:**  \n(1) Percussão do espaço de Traube, localizado entre 5° e 6° espaço intercostal esquerdo e se estende até a linha axilar anterior, no nível do 9° espaço intercostal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Realiza pesquisa de ascite por pelo menos duas técnicas:**  \n\n**Adequado:** realiza duas técnicas de pesquisa de ascite.  \n**Parcialmente adequado:** realiza apenas uma técnica de pesquisa de ascite.  \n**Inadequado:** não realiza nenhuma técnica de pesquisa de ascite.  \n\n- **Considerar técnica correta:**  \n(1) macicez móvel - Paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, voltado para o paciente/modelo, realiza percussão a partir do mesogástrio em direção aos flancos direito e esquerdo. Após, posiciona o paciente em decúbito lateral (direito e/ou esquerdo) e percute do flanco oposto ao lado do decúbito (o que está posicionado sem contato com a maca), em direção ao flanco em contato com a maca.  \n(2) semicírculo de Skoda - Paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, voltado para o paciente/modelo, realiza percussão a partir do mesogástrio em direção aos flancos direito e esquerdo, fossa ilíaca direita e esquerda, e hipogástrio (não precisa manter essa sequência).  \n(3) piparote - Paciente/modelo em decúbito dorsal, participante do lado direito do paciente/modelo, voltado para o paciente/modelo, solicita que paciente posicione a borda medial da sua mão em mesogástrio. Participante posiciona a palma sua mão no flanco esquerdo do paciente e, com a outra, mão golpeia o flanco direito do paciente/modelo com dedo indicador ou médio.  \n(4) sinal da poça - Paciente/modelo com o tronco fletido para frente (posição genupalmar), percute-se o abdome da região mais distal de hipogástrio de forma ascendente, em direção à região umbilical.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula hipótese diagnóstica de:**  \n(1) ascite;  \n(2) por hipertensão portal.  \n\n**Adequado:** formula o diagnóstico citando os dois itens.  \n**Parcialmente adequado:** formula o diagnóstico citando um item.  \n**Inadequado:** não formula diagnóstico OU formula diagnóstico não citando item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Elabora plano de seguimento da paciente:**  \n(1) solicita pelo menos um exame complementar dentre os seguintes: ultrassonografia/ultrassom com Doppler, ultrassonografia/ultrassom, ultrassonografia/ultrassom de abdome, ressonância magnética, tomografia, provas de função hepática (proteínas/albumina, coagulograma/INR, bilirrubinas), sorologias para hepatites virais, autoanticorpos, AST, ALT, perfil de ferro, dosagem de cobre sérico ou urinário, ceruloplasmina, paracentese, cálculo do GASA; e  \n(2) encaminhamento para seguimento em avaliação terciária com gastroenterologia ou com hepatologista.  \n\n**Adequado:** elabora plano de seguimento contendo o encaminhamento da paciente (2) e solicita pelo menos um dos exames relacionados (1).  \n**Parcialmente adequado:** apenas solicita exame (1) OU apenas encaminha ao especialista (2).  \n**Inadequado:** não encaminha a paciente na forma do item (2) nem solicita algum dos exames listados no item (1).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

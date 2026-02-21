@@ -1,0 +1,206 @@
+{
+  "uid": 209,
+  "hash": "pepe_209",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "ABCDE - Fratura de Pelve instável (em livro aberto)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: terciária - Hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• Equipamentos de suporte avançado de vida;  \n• Radiografia portátil, E-FAST e Tomografia;  \n• Banco de sangue e Centro Cirúrgico.\n\nDescrição do caso:\nVocê é o médico da sala de trauma e recebe um paciente de 28 anos, trazido pelo SAMU após acidente de moto (colisão frontal) há 40 minutos. O paciente queixa-se de dor intensa na região do quadril.",
+  "tarefas": "TAREFAS:  \n- Realizar a avaliação primária (ABCDE) do paciente;  \n- Realizar e verbalizar o exame físico específico da pelve;  \n- Solicitar e interpretar os exames complementares pertinentes;  \n- Definir a conduta terapêutica adequada.  \n- Responder à pergunta do Chefe de Estação.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• liberar o impresso **SINAIS VITAIS - ADMISSÃO** no íncio da estação.  \n• liberar o impresso **AVALIAÇÃO PRIMÁRIA - ABCDE** somente APÓS o candidato concluir toda a avaliação do ABCDE.  \n• liberar o impresso **EXAME FÍSICO DA PELVE** somente APÓS o candidato *REALIZAR E VERBALIZAR* a Palpação ou Compressão Posterior, OU Lateral, OU Sínfise Púbica.  \n\n**DADOS PESSOAIS:**  \n• Lucas, 28 anos, motoboy.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), meu quadril... a dor é insuportável! Parece que estou aberto ao meio.  \n\n**SOBRE O ACIDENTE:**  \n• Eu estava na principal e um carro entrou de vez. Bati de frente.  \n\n**SINAIS E SINTOMAS:**  \n• **Dor:** Muita dor na bacia, nota 10. Não consigo mexer as pernas de tanta dor.  \n• **Tontura:** Estou sentindo tudo rodar, estou ficando fraco.  \n• **Frio:** Estou com muito frio.  \n\n**ANTECEDENTES:**  \n• **Alergias e Doenças:** Nega.  \n• **Medicações:** Nega.  \n• **Última refeição:** comi faz 4 horas.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS - ADMISSÃO",
+      "conteudo": "• **PA:** 85x55 mmHg  \n• **FC:** 115 bpm  \n• **FR:** 23 irpm  \n• **SatO2:** 94% em ar ambiente  \n• **Temp:** 35.9°C  \n• **Glasgow:** 14",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "AVALIAÇÃO PRIMÁRIA - ABCDE",
+      "conteudo": "• **A:** Vias aéreas pérvias, colar cervical bem posicionado. Fala preservada.  \n\n• **B:** Murmúrio vesicular presente e simétrico bilateralmente. Sem enfisema subcutâneo ou crepitações.  \n\n• **C:** Pele pálida, fria e pegajosa. Pulsos radiais filiformes. Enchimento capilar > 3 segundos. Abdome flácido, indolor.  \n\n• **D:** Pupilas isocóricas e fotorreagentes. Movimenta os 4 membros, mas com limitação álgica em MMII.  \n\n• **E:** Escoriações em membros superiores. Presença de hematoma em região perineal/escrotal. Presença de sangue no meato uretral. Toque retal com tônus preservado.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO DA PELVE",
+      "conteudo": "**À MANOBRA DE COMPRESSÃO LATERAL, POSTERIOR E DA SÍNFISE PÚBICA:**  \n\n• Instabilidade do anel pélvico perceptível (crepitação e mobilidade anormal).  \n\n• Dor intensa referida pelo paciente durante a manobra.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 8,5 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Hematócrito:** 26 % (VR: 40 – 50%)  \n• **Leucócitos:** 14.500 mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 160.000 mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**GASOMETRIA ARTERIAL**  \n• **pH:** 7,30 (VR: 7,35 – 7,45)  \n• **Lactato:** 4,5 mmol/L (VR: \\< 2,0 mmol/L)  \n• **HCO3:** 18 mEq/L (VR: 22 – 26 mEq/L)  \n• **BE:** -7 (VR: -3 a +3)  \n\n\n**TIPAGEM SANGUÍNEA:** O Positivo.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "RADIOGRAFIA DE PELVE AP",
+      "conteudo": "**ATENÇÃO**  \n**IDENTIFIQUE O ACHADO DA IMAGEM**",
+      "imagem": "img_printeds/e209p5.jpg"
+    },
+    {
+      "idx": 6,
+      "titulo": "PERGUNTA DO CHEFE DE ESTAÇÃO",
+      "conteudo": "**LEIA E RESPONDA PARA A CÂMERA:**  \n\n\"A sondagem vesical de demora está indicada para este paciente neste momento? Justifique sua resposta.\"",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e a equipe.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza o ABCDE do Trauma (A e B):**  \n(1) Avalia perviedade de vias aéreas com proteção da coluna cervical;  \n(2) Avalia respiração e fornece oxigênio suplementar.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Avalia a Circulação (C) e identifica o choque:**  \n(1) Checa pulso, perfusão e PA, identificando sinais de choque hipovolêmico (hipotensão, taquicardia);  \n(2) Solicita dois acessos venosos calibrosos.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza o exame físico específico da pelve:**  \n(1) Compressão lateral (cristas ilíacas);  \n(2) Compressão posterior (anteroposterior);  \n(3) Compressão da sínfise púbica.  \n\n**Adequado:** verbaliza a realização das três manobras.  \n**Parcialmente adequado:** verbaliza uma ou duas manobras.  \n**Inadequado:** não realiza o exame físico da pelve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Avalia o estado neurológico (D):**  \n(1) avalia as pupilas (fotorreação e/ou simetria);  \n(2) avalia o nível de consciência pela Escala de Coma de Glasgow.  \n\n**Adequado:** avalia os dois itens.  \n**Parcialmente adequado:** avalia apenas um item.  \n**Inadequado:** não avalia item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Realiza a exposição com controle de hipotermia (E):**  \n(1) despe o paciente completamente (ou corta as vestes) para inspeção;  \n(2) previne a hipotermia (cobre o paciente com cobertores ou manta térmica ou desliga o ar condicionado).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Identifica a instabilidade pélvica clínica e indica a contenção:**  \n(1) Verbaliza o achado de instabilidade pélvica no exame físico;  \n(2) Realiza a aplicação do lençol pélvico (ou cinta pélvica) ao nível dos grandes trocânteres.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza a contenção mas posiciona incorretamente (ex: cristas ilíacas) ou apenas identifica sem conter.  \n**Inadequado:** não identifica instabilidade ou não realiza contenção.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve medidas de suporte inicial ao politraumatizado:**  \n(1) Internação (UTI ou Sala de Trauma/Emergência);  \n(2) Jejum oral;  \n(3) Analgesia;  \n(4) Expansão volêmica com cristaloides (Ringer Lactato ou SF 0,9%);  \n(5) Acesso venoso periférico calibroso;  \n(6) Monitorização multiparamétrica;  \n(7) Oxigenoterapia.  \n\n**Adequado:** prescreve cinco ou mais itens.  \n**Parcialmente adequado:** prescreve três ou quatro itens.  \n**Inadequado:** prescreve dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exames laboratoriais básicos para trauma:**  \n(1) Hemograma completo;  \n(2) Eletrólitos (Na, K);  \n(3) Gasometria arterial;  \n(4) Tipagem sanguínea OU prova cruzada;  \n(5) Função renal (Ureia e Creatinina).  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita dois ou três exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita exames de imagem fundamentais na sala de trauma:**  \n(1) Radiografia de Pelve (Bacia) em AP;  \n(2) FAST (Ultrassom focado para trauma).  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas o ITEM 1.  \n**Inadequado:** solicita apenas o ITEM 2, ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Diagnostica a lesão específica:**  \n(1) Interpreta o Raio-X de Pelve e verbaliza a fratura \"Em Livro Aberto\" (ou Compressão Antero-Posterior);  \n(2) Verbaliza o diagnóstico de Fratura de Pelve Instável.  \n\n**Adequado:** interpreta e diagnostica corretamente.  \n**Parcialmente adequado:** apenas descreve a alteração no raio-x sem dar o nome da fratura.  \n**Inadequado:** não diagnostica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Define a conduta cirúrgica/especializada:**  \nSolicita avaliação urgente da Ortopedia/Traumatologia OU indica tratamento cirúrgico de urgência.  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não solicita avaliação especializada ou cirurgia, OU NÃO cita urgência/emergência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Responde à pergunta do Chefe de Estação sobre a sondagem vesical:**  \n(1) Responde que NÃO está indicada (ou está contraindicada) a sondagem vesical de demora neste momento;  \n(2) Justifica devido à presença de sangue no meato uretral e/ou hematoma perineal, sugerindo lesão de uretra.  \n\n**Adequado:** responde não e justifica corretamente.  \n**Parcialmente adequado:** responde não mas não justifica ou justifica incorretamente.  \n**Inadequado:** indica a sondagem vesical.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

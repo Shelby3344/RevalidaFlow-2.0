@@ -1,0 +1,144 @@
+{
+  "uid": 1202,
+  "hash": "pepe_1202",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Inflamação do sítio cirúrgico pós-operatório",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:    \n• Consultório médico;    \n• Sala de estabilização e pequenos procedimentos;  \n• raio-X, ultrassonografia, eletrocardiograma;  \n• laboratório de análises clínicas;  \n• banco de sangue;\n\nDescrição do caso:\nVocê está de plantão e vai atender uma paciente de 27 anos que fez uma cirurgia para colocação de próteses mamárias há 10 dias. A paciente queixa-se de dor na região da sutura e informa que a ferida estava aberta. Trás consigo o receituário médico do cirurgião que realizou a operação.",
+  "tarefas": "- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico, caso necessário;  \n- Informar a hipótese diagnóstica, caso exista;  \n- Responder e esclarecer as dúvidas da paciente;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Débora, 27 anos, arquiteta.  \n\n**QUEIXA PRINCIPAL:**  \nEntão doutor(a), fiz uma cirurgia pra colocar silicone e agora está doendo muito no local dos pontos. E eu também acho que esses pontos estão abertos.  \nVocê não acha que eu posso processar o médico que fez minha cirurgia? Olha como está!  \n\n**SOBRE A DOR:**  \n• **Início:** fiz a cirurgia faz 10 dias, mas desde a alta está doendo.   \n• **Localização:** no local do pontos, no seio direito.  \n• **Irradiação:** nega.  \n• **Característica:** é uma dor em peso, constante.  \n• **Intensidade:** 5/10.  \n• **Atenuantes/agravantes:** estou tomando os remédios que o cirurgião passou. Mas estou tendo que tomar 3x ao dia, senão volta doer.  \n\n**SOBRE A FERIDA:**  \n• **Secreção:** nega.  \n• **Prurido:** nega.  \n• **Calor ou frio:** está quente.  \n• **Edema:** agora tá menos inchada.  \n• **Vermelhidão:** estava bem vermelha.  \n• **Formigamento e sensibilidade:** nega.  \n• **Trauma, choque, batida:** nega.  \n\n**NEGA OUTROS SINTOMAS**  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias e doenças:** nega.  \n• **Cirurgias e internações:** essa mamoplastia foi a primeira cirurgia que fiz.  \n\n• **Álcool, tabaco e drogas:** nega.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meus pais são saudáveis.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *A receita que o médico me passou está certa? Você pode fazer uma receita melhor pra mim?*  \n• *Você vai me dar outra medicação?*  \n• *Eu vou processar esse médico cirurgião. Essa cirurgia não está infeccionada e inflamada?*  \n• *Você pode fazer um laudo pra mim? Isso foi um erro médico*  \n• *E eu gostaria que você fizesse uma nova cirugia, você pode?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RECEITUÁRIO MÉDICO",
+      "conteudo": "PACIENTE: DÉBORA DE OLIVEIRA, 27 ANOS.   \n\n1) Diclofenaco de sódio.........................50mg  \nTomar 01 comprimido de 8/8 horas por 12 dias se dor.  \n\n\n2) Cefalexina..................................500mg  \nTomar 2 comprimidos de 12/12 horas por 12 dias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x80 mmHg  \n• **FC:** 75 bpm  \n• **FR:** 15 irpm  \n• **SatO2:** 97%  \n• **Temp. axilar:** 36.9° C  \n\n\n**Ectoscopia:** paciente em bom estado geral, corado, hidratado, acianótico, anictérico e afebril.  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** sem alterações.  \n\n\n**Abdominal:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "IMAGEM DA FERIDA",
+      "conteudo": "**DESCREVA OS ACHADOS DA IMAGEM**",
+      "imagem": "img_printeds/2012-e2p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Recebe a paciente, cumprimentando-a e identificando-se.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Identifica a paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Mostra-se disponível para ouvir a queixa da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza anamnese sucinta.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga antecedentes patológicos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Descreve o sitio cirúrgico, (avaliando a foto) identificando somente sinais inflamatórios, sem sinais de supuração.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Informa a paciente sobre o real estado da situação (trata-se de uma complicação de natureza inflamatória, sem sinais de infecção).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Mantém a prescrição anterior.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta a paciente quanto à questão ética.**  \n**9.1. a) Tranquiliza-a, solicita que aguarde a resposta ao tratamento instituído e que procure novamente seu cirurgião.**  \n**9.2. b) Explica que não se configura erro médico nessa situação.**  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta apenas um item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.5",
+        "adequado": "3"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

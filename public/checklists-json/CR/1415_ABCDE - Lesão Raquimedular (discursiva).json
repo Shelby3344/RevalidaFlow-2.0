@@ -1,0 +1,166 @@
+{
+  "uid": 1415,
+  "hash": "pepe_1415",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "ABCDE - Lesão Raquimedular (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Sala de Emergência de Hospital.  \nA unidade possui a seguinte infraestrutura:  \n• Sala de trauma equipada para suporte avançado de vida;  \n• Radiografia, ultrassonografia FAST, tomografia e ressonância magnética;  \n• Laboratório de análises clínicas e banco de sangue;  \n• Centro cirúrgico e UTI.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e vai receber um paciente de 20 anos, vítima de queda de motocicleta em alta velocidade. Ele foi trazido pela unidade de suporte avançado, imobilizado em prancha longa e com colar cervical.",
+  "tarefas": "TAREFAS:  \n- A realização da avaliação primária (ABCDE);  \n- A formulação de uma hipótese diagnóstica e a solicitação de exames pertinentes;  \n- A definição do manejo terapêutico específico.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**\n• LIBERAR O IMPRESSO **AVALIAÇÃO FÍSICA (ABCDE)** SOMENTE APÓS O CANDIDATO VERBALIZAR TODO O ABCDE.  \n• Após o candidato indicar Reposição Volêmica, liberar o impresso **RESPOSTA À PROVA VOLÊMICA**.  \n\n**DADOS PESSOAIS:**  \n• Vítor, 20 anos, estudante universitário.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), me ajuda... Eu não sinto minhas pernas. Não consigo mexer nada da cintura para baixo.  \n• Também estou com um pouco de dificuldade para respirar.  \n\n**SOBRE O ACIDENTE:**  \n• Eu estava de moto e um carro me fechou. Para não bater, eu desviei e caí.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias e medicações:** nega.  \n• **Cirurgias e internações:** nega.  \n• **Líquidos e alimentos:** comi faz umas 3 horas.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *Eu vou voltar a andar, doutor(a)?*  \n• *Eu vou ficar paralítico para sempre?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS NA ADMISSÃO",
+      "conteudo": "• **PA:** 90x50 mmHg  \n• **FC:** 62 bpm  \n• **FR:** 26 irpm  \n• **SatO2:** 94% em ar ambiente  \n• **Temp. axilar:** 36.0°C  \n\n• **Glicemia capilar:** 110 mg/dL  \n\n• **Escala de Coma de Glasgow:** 13 (Abertura Ocular: 4, Resposta Verbal: 4, Resposta Motora: 5)",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "AVALIAÇÃO FÍSICA (ABCDE)",
+      "conteudo": "• **A (Vias Aéreas):**   \n• Vias aéreas pérvias, sem corpos estranhos. Colar cervical instalado.  \n\n\n• **B (Respiração):**   \n• Murmúrio vesicular presente e simétrico bilateralmente. Tórax estável, sem deformidades.  \n\n\n• **C (Circulação):**  \n• Pulsos centrais cheios, periféricos filiformes.  \n• Pele fria e pegajosa abaixo do nível da lesão.  \n• Abdome flácido, indolor à palpação.  \n• Pelve estável.  \n• FAST na sala de trauma negativo.  \n\n\n• **D (Neurológico):**  \n• Nível sensitivo em T4 (linha mamilar).  \n• Paraplegia de membros inferiores (Força grau 0/5).  \n• Paresia de membros superiores (Força grau 2/5 para flexão de cotovelos).  \n• Tônus de esfíncter anal diminuído ao toque retal.  \n• Reflexo bulbocavernoso ausente.  \n• Sem priapismo.  \n\n\n• **E (Exposição):**   \n• Sem outras lesões visíveis.  \n\n\n**ATENÇÃO - RESPONDA AO CHEFE DE ESTAÇÃO:**  \n\n**Verbalize o nível supeito da lesão raquimedular**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RESPOSTA À PROVA VOLÊMICA",
+      "conteudo": "**Após infusão de 1000ml de Ringer Lactato aquecido:**  \n• **PA:** 92x55 mmHg  \n• **FC:** 64 bpm  \n• **Status neurológico:** Permanece com os mesmos déficits neurológicos.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Realiza a avaliação primária e o manejo das vias aéreas com proteção da coluna cervical (A)**.  \n\n**Adequado:** avalia a perviedade das vias aéreas e verbaliza a manutenção da imobilização da coluna cervical com o colar, considerando o alto risco de lesão instável.  \n**Inadequado:** não verbaliza a necessidade de manter a proteção da coluna cervical ou tenta remover o colar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a avaliação da respiração e ventilação (B) e inicia a oxigenoterapia.**  \n\n**Adequado:** Oferta oxigênio suplementar em alto fluxo com máscara não reinalante.  \n**Inadequado:** não administra oxigênio suplementar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica o estado de choque na avaliação da circulação (C).**  \n\n**Adequado:** identifica o choque com base na hipotensão (PA 90x50 mmHg), na presença de pulsos periféricos finos e na pele fria/pegajosa.  \n**Inadequado:** não reconhece os sinais de choque hemodinâmico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Indica o nível supeito da lesão raquimedular.**  \n\n**Adequado:** formula a hipótese de lesão cervical ao nível de C5/C6.  \n**Inadequado:** não formula a hipótese ou informa outro nível de lesão.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Inicia a conduta para o manejo do choque.**  \n(1) solicita dois acessos venosos calibrosos;  \n(2) inicia infusão de cristaloides aquecidos;  \n(3) Solicita Acesso Venoso Central;  \n(3) Indica necessidade de vasopressores.  \n\n**Adequado:** indica três ou quatro condutas.  \n**Parcialmente adequado:** indica apenas duas condutas.  \n**Inadequado:** indica apenas uma ou não indica conduta alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Realiza a avaliação neurológica focada (D), identificando o déficit.**  \n\n**Adequado:** realiza a avaliação do nível de consciência (Glasgow), das pupilas e da motricidade/sensibilidade dos quatro membros para determinar o nível da lesão medular.  \n**Inadequado:** não realiza a avaliação neurológica focada ou realiza apenas a escala de coma de Glasgow.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita os exames de imagem prioritários conforme o protocolo ATLS.**  \n(1) Radiografia de tórax, pele e coluna cervical;  \n(2) Tomografia computadorizada de corpo inteiro (\"tomografia de corpo total\" ou \"pan-scan\");  \n(3) Ressonância nuclear magnética.  \n\n**Adequado:** solicita ao menos dois exames de imagens.  \n**Parcialmente adequado:** solicita um exame de imagem.  \n**Inadequado:** não solicita exames de imagem.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica as medidas adjuvanter à avaliação primária.**  \n(1) instalação de monitorização cardíaca contínua;  \n(2) sondagem vesical de demora (após avaliação do meato uretral);  \n(3) sondagem nasogástrica.  \n\n**Adequado:** indica as três medidas.  \n**Parcialmente adequado:** indica duas medidas.  \n**Inadequado:** não indica as medidas ou indica apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Aciona a equipe de neurocirurgia.**  \n\n**Adequado:** solicita a avaliação da equipe de neurocirurgia.  \n**Inadequado:** não aciona a equipe de neurocirurgia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Comunica-se com o paciente de forma empática e honesta.**  \n\n**Adequado:** responde às dúvidas do paciente de forma clara, reconhecendo a gravidade da lesão (\"É uma lesão grave na coluna\") e a incerteza do prognóstico (\"Nossa equipe fará de tudo, mas ainda é cedo para dizer se os movimentos voltarão\"), sem dar falsas esperanças.  \n**Inadequado:** ignora as perguntas do paciente ou dá falsas esperanças (\"Vai ficar tudo bem, você vai voltar a andar\") ou é excessivamente técnico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza a prevenção de hipotermia.**  \n\n**Adequado:** verbaliza a necessidade de manter o paciente aquecido com manta térmica ou outros dispositivos, especialmente devido à perda de termorregulação no choque neurogênico.  \n**Inadequado:** não se preocupa com o controle da temperatura do paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "uid": 114,
+  "hash": "pepe_114",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Asbestose/Pneumoconiose (amianto)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária.  \nTipo de atendimento: ambulatorial - unidade básica de saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• consultório médico;  \n• setor de radiologia com aparelho de radiografia.\n\nDescrição do caso:\nVocê atenderá um homem de 48 anos, trabalhador da construção civil, que procura o serviço com queixa de tosse seca e falta de ar progressiva.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa do paciente.  \n- Solicitar o exame físico específico, caso necessário.  \n- Formular e verbalizar a hipótese diagnóstica.  \n- Solicitar e interpretar os exames complementares.  \n- Estabelecer a conduta terapêutica e as orientações necessárias.  \n- Responder às dúvidas do paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• João, 48 anos, casado, pedreiro.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim aqui porque faz um tempo que ando com uma tosse seca que não passa e uma falta de ar, principalmente quando faço esforço.  \n\n**SOBRE OS SINTOMAS:**  \n• **Falta de ar:** Começou faz uns dois anos, mas nos últimos seis meses piorou muito.  \n• **Tosse:** É uma tosse seca.  \n• **Sintomas associados:** Tenho me sentido muito cansado e perdi um pouco de peso, uns 3 quilos.  \n\n**HISTÓRIA OCUPACIONAL:**  \n• Trabalho como pedreiro desde os 15 anos. Naquela época, a gente mexia muito com telha de amianto, caixa d'água... não usava máscara nem nada.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** Nenhuma doença, não tomo nenhum remédio.  \n• **Alergias e cirurgias:** Nega.  \n• **Hábitos:** Fumo um maço de cigarro por dia há 30 anos.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai também trabalhou em obra e morreu com problema no pulmão, mas nunca soube direito o que era.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso é por causa do meu trabalho?*  \n• *Tem cura? Qual o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 135x85 mmHg  \n• **FC:** 82 bpm  \n• **FR:** 22 irpm  \n• **SatO₂:** 94% em ar ambiente  \n• **Temp. axilar:** 36,5° C  \n• **IMC:** 26 kg/m²  \n\n\n**Ectoscopia:** Bom estado geral, orientado, levemente dispneico ao falar, corado, hidratado, acianótico, anictérico.  \nPresença de baqueteamento digital discreto.  \n\n\n**Respiratório:** Murmúrio vesicular diminuído difusamente, com estertores crepitantes finos bibasais (\"em velcro\") ao final da inspiração. Expansibilidade torácica diminuída.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**Abdome e MMII:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**Laudo:**  \n• Opacidades reticulares finas e irregulares nos lobos inferiores, bilateralmente.  \n• Presença de placas pleurais calcificadas em hemitórax direito.  \n• Espessamento pleural difuso.  \n• Sinal do \"coração peludo\" (contornos cardíacos mal definidos).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características dos sintomas respiratórios:**  \n(1) início e progressão da dispneia;  \n(2) característica da tosse;  \n(3) sintomas constitucionais (fadiga, perda de peso).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a história ocupacional detalhada.**  \n\n**Adequado:** pergunta especificamente sobre a profissão, tempo de serviço e exposição a poeiras, em especial ao amianto/asbesto.  \n**Inadequado:** não investiga a história ocupacional.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre o hábito de tabagismo.**  \n\n**Adequado:** pergunta sobre o tabagismo (início, quantidade).  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico com foco no aparelho respiratório.**  \n\n**Adequado:** solicita o exame físico, especificando a ausculta pulmonar e a inspeção das extremidades.  \n**Inadequado:** não solicita exame físico ou o faz de forma genérica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula a hipótese diagnóstica de pneumoconiose ou asbestose.**  \n\n**Adequado:** verbaliza a hipótese de Asbestose ou, de forma mais ampla, Doença Pulmonar Intersticial relacionada à poeira (Pneumoconiose).  \n**Inadequado:** não formula uma hipótese diagnóstica compatível.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames complementares para a investigação.**  \n(1) radiografia de tórax;  \n(2) provas de atividade inflamatória (PCR e/ou VHS).  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um dos exames.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta corretamente os achados da radiografia de tórax.**  \n\n**Adequado:** correlaciona os achados de opacidades reticulares em bases e as placas pleurais com o diagnóstico de asbestose.  \n**Inadequado:** não interpreta ou interpreta incorretamente os achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta medidas gerais e tratamento de suporte:**  \n(1) Iniciar uso de broncodilatadores (LABA ou SABA) para amenizar sintomas respiratórios.  \n(2) orienta a cessação completa do tabagismo;  \n(3) indica oxigenoterapia domiciliar (se critérios preenchidos - SatO2 < 88% ou PaO2 < 55 mmHg);  \n(4) indica vacinação contra Influenza e Pneumococo;  \n(5) orienta sobre reabilitação pulmonar/fisioterapia respiratória.  \n\n**Adequado:** orienta três ou quatro itens, sendo o item 1 obrigatório.  \n**Parcialmente adequado:** Oriente o item 1, e orienta dois outros itens.  \n**Inadequado:** Não orienta o item 1, ou orienta um item ou não orienta nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre o prognóstico e a necessidade de acompanhamento.**  \n(1) explica que a doença é crônica e progressiva, sem cura;  \n(2) informa sobre o risco aumentado de câncer de pulmão e mesotelioma;  \n(3) enfatiza a necessidade de acompanhamento médico regular (pneumologista).  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza a necessidade de notificação.**  \n(1) Notificação no SINAN;  \n(2) Emissão da Comunicação de Acidente de Trabalho (CAT).  \n\n**Adequado:** verbaliza as duas notificações.  \n**Parcialmente adequado:** verbaliza uma notificação.  \n**Inadequado:** não verbaliza nenhuma notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "uid": 1503,
+  "hash": "pepe_1503",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Puericultura 2 meses - Aleitamento materno",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de observação e medicação;\n\nDescrição do caso:\nVocê é o(a) médico(a) de uma UBS e recebe uma paciente com seu filho de 8 semanas para a primeira consulta de puericultura. A mãe está com queixas relacionadas a amamentação.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese e solicitar exame físico;  \n- Informar a hipótese diagnóstica;  \n- Orientar sobre o aleitamento materno e a técnica de amamentação;  \n- Responder as dúvidas da mãe;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Laura, 24 anos.  \n• **Criança:** Miguel, 8 semanas.  \n\n**MOTIVO DE CONSULTA:** • Doutor(a), eu vim para a consulta de rotina do Miguel. E também queria tirar umas dúvidas sobre o leite.  \n\n**DEMAIS QUEIXAS:** • Eu acho que meu leite é fraco, sabe? Ele mama bastante, mas não parece tão gordinho pra mim.  \n• E também me falaram que amamentar faz o peito cair. É verdade?  \n\n• **Amamentação:**  \nDou só o peito, mas estava pensando em dar um chazinho, porque às vezes ele chora e parece que continua com fome.  \n\n• **Evacuações e urina:**  \nFaz cocô todo dia, é meio amarelinho e mole. E faz bastante xixi, troco a fralda toda hora.  \n\n• **Sono e hábitos:**  \nEle dorme bem, mas acorda umas duas vezes de noite pra mamar. Chupeta ele não pegou, não gostou.  \n\n• **Medicações:**  \nNão toma nenhum remédio, só a vitamina que passaram pra ele na maternidade.  \n\n• **Desenvolvimento:**  \nEle já sorri pra mim quando eu converso e fica me olhando.\n\n• **Cartão da Criança:**  \nSim, está aqui na bolsa.  \n\n• **Técnica de amamentação:**  \nEu sento na poltrona, ajeito ele no meu colo e ele pega só na pontinha do peito, no bico. Às vezes dói um pouco quando ele começa a mamar.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Eu estou fazendo alguma coisa errada na hora de amamentar?*  \n• *Como faço pra evitar queimaduras? tipo no banho ou quando esquento meu leite?*  \n• *Não sei direito também do jeito que ele deve dormir, você sabe me falar?*  \n• *Que eu me lembre é só, tem mais alguma coisa que preciso me preocupar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA CRIANÇA",
+      "conteudo": "**Nome:** Miguel Luiz  \n\n\n**DADOS AO NASCIMENTO**  \n• **Idade gestacional:** 39 semanas  \n• **Via de parto:** Vaginal  \n• **Perímetro Cefálico:** 35 cm  \n• **Peso:** 2.750 g  \n• **Estatura:** 49 cm  \n\n\n**TRIAGEM NEONATAL**  \n• **Teste do Pezinho:** Realizado, sem alterações.  \n• **Teste do Olhinho:** Realizado, reflexo vermelho presente bilateralmente.  \n• **Teste da Orelhinha:** Realizado, sem alterações.  \n• **Teste do Coraçãozinho:** Realizado, sem alterações.  \n\n\n**IMUNIZAÇÕES**  \n• **BCG:** Administrada (dose única)  \n• **Hepatite B:** Administrada (1ª dose)  \n\n• **Pentavalente (DTP/Hib/HB):** Administrada (1ª dose)  \n• **VIP (Poliomielite inativada):** Administrada (1ª dose)  \n• **Pneumocócica 10-valente:** Administrada (1ª dose)  \n• **Rotavírus:** Administrada (1ª dose)  \n\n\n**Tipagem sanguinea:**  O-",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **FC:** 125 bpm  \n• **FR:** 42 irpm  \n• **SatO2:** 98% (em ar ambiente)  \n• **Peso atual:** 5.800 g  \n• **Estatura atual:** 57 cm  \n\n**Ectoscopia:**  \n• Lactente em bom estado geral, corado, hidratado e acianótico.  \n\n\n**Exame Físico Segmentar:**  \n\n• **Aparelho cardiovascular:** Ritmo cardíaco regular em 2 tempos, com bulhas normofonéticas, sem sopros.  \n\n• **Aparelho respiratório:** Murmúrio vesicular fisiológico presente bilateralmente, sem ruídos adventícios ou esforço respiratório.  \n\n• **Abdome:** Plano, flácido, normotenso, indolor à palpação, sem visceromegalias. Ruídos hidroaéreos presentes e normais.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta a mãe, identifica-se de maneira adequada, pede que ela sente-se e ouve com atenção as suas queixas e ao final da consulta despede-se.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Ouve com atenção as suas queixas e se despede ao final da consulta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta se a criança está com algum problema.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta se está em aleitamento materno exclusivo. Pergunta se faz uso de chás ou água.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta como a criança é amamentada (técnica da amamentação).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre vômitos, evacuações e a urina.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre hábitos da criança: sono e uso de chupeta.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita o cartão da criança.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Pergunta sobre medicações já utilizadas ou em uso.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Pergunta sobre o desenvolvimento neuropsicomotor. As perguntas devem ser adequadas para a idade (sorriso social e acompanha com os olhos).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Pede para examinar a criança (O examinador entregará o impresso 1).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Expressa-se com clareza e segurança, esclarecendo o diagnóstico à mãe (erro na técnica de amamentação).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.625"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Explica que o final da mamada é rico em lipídeos, sendo importante para o ganho de peso.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.625"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta que a pega deve ser em toda a aréola.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.625"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta a posição adequada do bebê durante a amamentação (próximo ao corpo).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.625"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Confere o entendimento pela mãe, perguntando se há dúvidas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Explica sobre \"cair\" as mamas não ocorre devido à amamentação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Explica sobre não existir leite fraco.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Explica sobre banhos de sol, prevenção de acidentes, posição para dormir e sobre o sono do bebê (pelo menos dois).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Banho de sol:\nEstudos atuais mostram que não há muitos benefícios comprovados da prática.  \n\nPrevenção de acidentes - alguns exemplos:\n1) manter sempre uma mão segurando o bebê no trocador, se precisar pegar algo  \ndurante a troca de fraldas;  \n2) nunca deixar o bebê sozinho em mesas, camas ou outros móveis, mesmo que seja  \npor pouco tempo.  \n3) testar a temperatura da água antes de colocar o bebê em uma banheira;  \n4) temperatura do leite: pingue uma ou duas gotas na parte interna do seu \npulso. Se a sensação for morna, mas não quente, a temperatura está adequada.\n\nPosição para dormir - prevenção de morte súbita:\n1) colocar o bebê para dormir sempre no berço e  \n2) colocar o bebê para dormir com a barriga para cima (posição supina).  \n\nSono do bebê:\nSão ciclos curtos, com muitos despertares. Variam de 2 a 4 horas \npor vez. Com alternância entre sono leve e profundo.  "
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Agenda retorno em uma semana para verificar ganho de peso.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

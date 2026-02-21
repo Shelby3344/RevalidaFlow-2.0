@@ -1,0 +1,189 @@
+{
+  "uid": 211,
+  "hash": "pepe_211",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Trauma Abdominal Penetrante - Arma Branca",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: terciária - pronto-socorro de hospital.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de trauma equipada;  \n• Laboratório de análises clínicas e banco de sangue;  \n• Raio-X, Ultrassonografia e Tomografia Computadorizada;  \n• Centro cirúrgico e UTI.\n\nDescrição do caso:\nVocê atenderá um homem de 32 anos, trazido por terceiros, vítima de agressão física em flanco direito durante uma discussão no trânsito. O paciente encontra-se vigilante e verbalizando.",
+  "tarefas": "TAREFAS:  \n- Realizar a avaliação inicial do paciente.  \n- Solicitar e interpretar os exames complementares pertinentes.  \n- Estabelecer a hipótese diagnóstica.  \n- Definir a conduta terapêutica e o plano de cuidados.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Pedro, 32 anos, motorista de aplicativo.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu me envolvi numa briga de trânsito e o outro motorista me acertou com uma faca aqui do lado.  \n\n**SOBRE A DOR E O FERIMENTO:**  \n• **Início:** foi há uns 40 minutos.  \n• **Localização:** Dói no local do corte, do lado direito da barriga.  \n• **Intensidade:** A dor é forte, mas estou aguentando.  \n• **Agravantes/Piora:** Piora se eu respiro fundo ou me mexo.  \n• **Sangramento:** Sangrou na hora, mas eu coloquei essa camisa em cima e parece que parou um pouco.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Urina:** Doutor(a), fui no banheiro antes e meu xixi saiu vermelho, parecia sangue puro.  \n• **Tontura/Desmaio:** Não, não senti tontura.  \n• **Dor em outros locais:** Não, só ali onde furou mesmo.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** Sou alérgico a Dipirona e AAS.  \n• **Doenças e Medicações:** Não tenho problema de saúde e não tomo remédio.  \n• **Cirurgias:** Nunca operei.  \n• **Vacinas:** Faz muito tempo que não tomo vacina. A do tétano deve ter uns 15 anos.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Por que meu xixi saiu com sangue? Furou meu rim?*  \n• *Vou precisar de bolsa de sangue?*  \n• *Vou precisar operar?*  \n• *Vou ter que ficar internado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "• **PA:** 130 x 80 mmHg.  \n• **FC:** 92 bpm.  \n• **FR:** 20 irpm.  \n• **SatO²:** 98% em ar ambiente.  \n• **Temp:** 36,8°C.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO/ABCDE",
+      "conteudo": "**Avaliação Primária (ABCDE):**  \n• **A:** Vias aéreas pérvias, sem obstrução.  \n\n• **B:** Murmúrio vesicular presente bilateralmente, expansibilidade preservada.  \n\n• **C:** Normocorado, pulsos cheios e simétricos, sem sangramento ativo externo profuso no momento.  \n\n• **D:** Glasgow 15, pupilas isocóricas e fotorreagentes.  \n\n• **E:** Exposição realizada.  \n\n\n**Avaliação Segmentar:**  \n• **Abdome:** Plano, flácido, ruídos hidroaéreos presentes. Doloroso à palpação profunda em flanco direito. Descompressão brusca negativa. Sem defesa muscular involuntária.  \n\n• **Dorso/Flancos:** Presença de ferimento perfurocortante único, de aproximadamente 2,5 cm de extensão, localizado em flanco direito, sem sangramento ativo no momento.  \n\n• **Demais segmentos:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ULTRASSONOGRAFIA FAST",
+      "conteudo": "**Janela Pericárdica:** Sem líquido livre.  \n\n**Espaço Hepatorrenal (Morrison):** Sem líquido livre.  \n\n**Espaço Esplenorrenal:** Sem líquido livre.  \n\n**Janela Pélvica/Suprapúbica:** Sem líquido livre.  \n\n\nFAST Negativo",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "TC DE ABDOME COM CONTRASTE",
+      "conteudo": "**Rins:**  \n• Laceração cortical em terço superior do rim direito medindo 1,5 cm de profundidade, sem evidência de extensão ao sistema coletor urinário.  \n\n• Hematoma perirrenal contido pela fáscia de Gerota.  \n\n• Ausência de extravasamento de contraste na fase arterial (sem blush arterial).  \n\n• Ausência de extravasamento de contraste na fase tardia/excretora (sem urinoma).  \n\n• Rim esquerdo sem alterações.  \n\n\n**Demais órgãos:** Fígado, baço, pâncreas e alças intestinais sem evidências de lesões traumáticas.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**\n• **Hemácias:** 4,8 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)   \n• **Hemoglobina:** 14,5 g/dl (VR: 14 a 18 mg/dl)   \n• **Hematócrito:** 42% (VR: 39 - 52%)   \n\n• **Plaquetas:** 250.000 mm/3 (150.000 - 400.000 mm/3)   \n\n• **Leucócitos:** 8.500/mm3 (VR: 4.000 - 10.000/mm3)   \n\n\n• **Creatinina (Cr):** 0,9 mg/dL (VR: 0,5 - 1,2 mg/dl)   \n• **Ureia (Ur):** 35 mg/dl (VR: 13 - 43 mg/dl)   \n\n• **Sódio (Na):** 140 mEq/l (VR: 135 - 145 mEq/l)   \n• **Potássio: (K):** 4,2 mEq/l (VR: 3,5 - 5 mEq/l)   \n\n\n**URINA SIMPLES** \n\n• **Aspecto:** turvo (VR: límpido)   \n• **Cor:** vermelha / sanguinolenta (VR: amarela)   \n• **Depósito:** moderado (VR: nulo)   \n• **pH:** 6,0 (VR: 4,5 - 7,8)   \n\n• **Hemoglobina:** ++++ (VR: negativo)   \n\n• **Piócitos:** 3 por campo (VR: < 4 por campo)   \n• **Hemácias:** campos repletos / incontáveis (VR: < 2 por campo)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a avaliação primária (ABCDE), verbalizando a estabilidade hemodinâmica.**  \n\n**Adequado:** realiza a avaliação completa e constata estabilidade.  \n**Parcialmente adequado:** realiza apenas a avaliação primária.  \n**Inadequado:** não realiza a avaliação de forma sistematizada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza o exame físico da região dorsal e flancos (ou solicita o exame do local da lesão), identificando as características da lesão.**  \n\n**Adequado:** verbaliza a necessidade de examinar o dorso/flanco/local para avaliar o ferimento.  \n**Inadequado:** não examina o dorso/flanco.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica a hematúria macroscópica como sinal clínico relevante de lesão do trato urinário.**  \n\n**Adequado:** identifica e valoriza a hematúria.  \n**Inadequado:** não menciona a hematúria.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames laboratoriais básicos:**  \n(1) hemograma;  \n(2) sódio e potássio;  \n(3) ureia e creatinina;  \n(4) urina simples (EAS ou urina tipo I);  \n(5) tipagem sanguínea.  \n\n**Adequado:** solicita três ou mais itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um item ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita Tomografia Computadorizada (TC) de abdome OU pelve com contraste.**  \n\n**Adequado:** solicita TC com contraste.  \n**Parcialmente adequado:** solicita TC sem especificar o uso de contraste OU solicita apenas FAST.  \n**Inadequado:** não solicita exame de imagem ou indica laparotomia imediata sem imagem prévia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta a Tomografia e estabelece o diagnóstico da lesão.**  \n\n**Adequado:** diagnostica \"Trauma Renal\" ou \"Lesão Renal\".  \n**Inadequado:** diagnóstico incorreto ou não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita avaliação/parecer de especialista (Urologista ou Cirurgião Geral/Trauma).**  \n\n**Adequado:** solicita parecer.  \n**Inadequado:** não solicita parecer.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica Conduta Conservadora (Tratamento Não Operatório para o momento), justificando pela estabilidade hemodinâmica e ausência de lesões cirúrgicas na TC.**  \n\n**Adequado:** indica tratamento conservador/não operatório.  \n**Inadequado:** indica cirurgia (laparotomia ou nefrectomia) de imediato.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Prescreve o plano terapêutico hospitalar:**  \n(1) internação para monitorização;  \n(2) repouso no leito;  \n(3) hidratação venosa;  \n(4) controle da dor (analgesia);  \n(5) monitorização de sinais vitais e diurese (controle de hematúria).  \n\n**Adequado:** indica três ou mais itens.  \n**Parcialmente adequado:** indica um ou dois itens.  \n**Inadequado:** não indica plano terapêutico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica profilaxia antitetânica, considerando o histórico vacinal incerto/atrasado.**  \n\n**Adequado:** indica vacina antitetânica (reforço).  \n**Inadequado:** não indica profilaxia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta o paciente sobre o prognóstico e sinais de alarme:**  \n(1) explica que a lesão cicatrizará com repouso e não precisará de transfusão;  \n(2) alerta sobre sinais de piora (dor intensa, febre, tontura/choque, hipotensão, perda de consciência).  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza uma orientação.  \n**Inadequado:** não realiza orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

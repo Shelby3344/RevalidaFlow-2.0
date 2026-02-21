@@ -1,0 +1,149 @@
+{
+  "uid": 2523,
+  "hash": "pepe_2523",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Crise de Asma Grave + Interpretação de Gasometria (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização;  \n• Laboratório de análises clínicas com gasometria;  \n• Leitos de internação e UTI pediátrica.\n\nDescrição do caso:\nVocê acaba de assumir o plantão da Pediatria e precisa reavaliar uma criança de 6 anos que é levado à emergência com quadro de dispneia intensa e chiado no peito, com piora nas últimas horas. Medidas iniciais já foram realizadas e uma gasometria arterial foi coletada.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese suscinta dirigida à queixa principal da mãe.  \n- Ler o prontuário do paciente.  \n- Interpretar o resultado da gasometria arterial.  \n- Formular a hipótese diagnóstica e classificar a gravidade.  \n- Estabelecer a conduta terapêutica para o momento.  \n- Justificar a necessidade ou não de intubação orotraqueal.  \n- Justificar a necessidade ou não de internação hospitalar.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Marcia, 34 anos.  \n• **Criança:** Lucas, 6 anos.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), meu filho não estava conseguindo respirar direito. Ele está com um chiado forte no peito e com muita tosse.  \n\n**SOBRE A CRISE ATUAL:**  \n• **Início:** Começou faz 2 dias com tosse e um chiado. Mas hoje ele piorou muito, está com muita falta de ar, não consegue nem falar direito.  \n• **Medicações, melhora ou piora:** Tentei dar a bombinha de salbutamol, mas não adiantou.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Ele tem asma desde pequeno. As crises são frequentes.  \n• **Medicações de uso contínuo:** Ele tem um corticoide para usar todo dia, mas eu confesso que não dou sempre, uso mais quando ele está com crise.  \n• **Alergias:** Nega.  \n• **Cirurgias e internações:** Já ficou internado por causa da asma outra vez.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ele tem é grave?*  \n• *O que mais pode ser feito para ele melhorar?*  \n\n• *Cite os critérios e a necessidade ou não para Intubação Orotraqueal do paciente.*  \n• *Cite os critérios e a necessidade ou para Internação Hospitalar do paciente.*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "PRONTUÁRIO DO PACIENTE",
+      "conteudo": "**AVALIAÇÃO NA ADMISSÃO:**  \n\n\n• **Paciente:** Lucas, 6 anos.  \n• **Peso:** 24 kg.  \n\n\n**Exame Físico:**  \n• **Estado Geral:** Agitado, não consegue completar frases.  \n• **Sinais Vitais:** Frequência Respiratória (FR): 40 irpm; Saturação de O2: 90% em ar ambiente.  \n• **Aparelho Respiratório:** Taquidispneico, com tiragem intercostal presente. Tempo expiratório prolongado. Sibilos difusos à ausculta pulmonar.  \n\n\n**Conduta Inicial Realizada pela Equipe:**  \n• Administrados 3 ciclos de salbutamol 100 mcg (6 jatos/ciclo) via espaçador, com intervalo de 20 minutos.  \n\n\n**REAVALIAÇÃO APÓS CONDUTA INICIAL**  \n\n\n**Exame Físico (1 hora após admissão):**  \n• **Estado Geral:** Paciente continua agitado e sem conseguir completar frases. Discreta melhora do quadro geral.  \n• **Sinais Vitais:** FR: 36 irpm; Saturação de O2: 91% em ar ambiente.  \n• **Aparelho Respiratório:** Mantém taquidispneia, tiragem intercostal e sibilância difusa.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7,37 (VR: 7,35 - 7,45)  \n• **pO₂:** 80 mmHg (VR: 80 - 100 mmHg)  \n• **pCO₂:** 33 mmHg (VR: 32 - 48 mmHg)  \n• **Bicarbonato (HCO₃):** 22 mEq/L (VR: 20 - 28 mEq/L)  \n• **Saturação de O₂:** 91%  \n\n\n**ATENÇÃO**  \n**INTERPRETE O(S) ACHADO(S) DA GASOMETRIA**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e a criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida:**  \n(1) investiga o início e a evolução dos sintomas atuais (tosse, febre, dispneia);  \n(2) questiona sobre o tratamento de manutenção da asma e a adesão;  \n(3) pergunta sobre internações prévias ou crises graves.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Interpreta os achados do exame físico e classifica a gravidade da crise.**  \n(1) identifica os sinais de gravidade (incapacidade de completar frases, tiragem intercostal, taquidispneia, saturação < 92%);  \n(2) classifica a crise como grave ou severa.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta corretamente a gasometria arterial.**  \n\n**Adequado:** interpreta como alcalose respiratória compensada, com a redução do bicarbonato.  \n**Parcialmente adequado:** interpreta apenas como alcalose respiratória, sem informar a compensação do bicarbonato.  \n**Inadequado:** não interpreta ou interpreta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.62",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "Trata-se de alcalose respiratória compensada, ocasionada pela hiperventilação do paciente.\nPercebe-se que ele apresenta alcalose respiratória, sendo compensada com redução do bicarbonato.\nEvidencia-se pH normal (compensada), com pCO2 abaixo de 35 em razão da frequência respiratória aumentada.\nO bicarbonato está sendo reduzido para compensar o aumento da FR. \n\nFórmula: \nHCO3 esperado = 24 – 2x {[40 – pCO2 atual] / 10}\n\nReferência:\nhttps://download.inep.gov.br/revalida/provas_e_gabaritos/2025_1_PEP_discursiva_definitivo.pdf\n(Questão 3, item 'a)', pág. 7)"
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Indica as medidas terapêuticas após conduta inicial.**  \n(1) oferta de oxigênio suplementar (via cateter nasal ou máscara);  \n(2) administração de corticoide sistêmico (oral ou endovenoso);  \n(3) repetição da administração de broncodilatador de curta ação (Salbutamol);   \n(4) administração de anticolinérgico (Brometo de Ipratrópio);  \n(5) administração de Sulfato de Magnésio EV;  \n(6) administração de Adrenalia subcutânea ou intramuscular;  \n(7) administração de Aminofilina endovenosa.  \n\n**Adequado:** indica quatro ou mais medidas.  \n**Parcialmente adequado:** indica três medidas.  \n**Inadequado:** indica duas ou menos medidas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Justifica a não indicação de intubação orotraqueal (IOT) no momento.**  \n(1) argumenta que o paciente apresentou melhora, mesmo que discreta, com a terapia inicial;  \n(2) argumenta a ausência de sinais de falência respiratória iminente (ex: rebaixamento do nível de consciência, cianose, tórax silencioso, acidose respiratória na gasometria).  \n\n**Adequado:** apresenta os dois argumentos.  \n**Parcialmente adequado:** apresenta um argumento.  \n**Inadequado:** não justifica ou indica a IOT.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita os critérios para internação hospitalar neste caso.**  \n(1) crise de asma grave que não respondeu adequadamente ao tratamento inicial na sala de emergência;  \n(2) persistência do desconforto respiratório (taquidispneia, tiragem);  \n(3) necessidade de oxigenoterapia para manter saturação > 92%.  \n\n**Adequado:** cita os três critérios.  \n**Parcialmente adequado:** cita dois critérios.  \n**Inadequado:** cita um critério ou não cita nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta a mãe sobre a condição atual e o plano terapêutico.**  \n(1) explica de forma clara que se trata de uma crise grave de asma;  \n(2) informa que a criança precisará ficar internada para receber oxigênio, medicações e observação.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Avalia a necessidade de exames complementares adicionais.**  \n\n**Adequado:** solicita a radiografia de tórax para descartar complicações (pneumonia, pneumotórax, atelectasia), após as medidas iniciais não surtirem o efeito desejado.  \n**Inadequado:** não solicita a radiografia de tórax.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Reforça a importância da adesão ao tratamento de manutenção.**  \n\n**Adequado:** aproveita a oportunidade para reforçar à mãe a importância do uso regular e correto do corticoide inalatório (Beclometasona) todos os dias para prevenir novas crises graves.  \n**Inadequado:** não aborda o tratamento de manutenção.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "uid": 512,
+  "hash": "pepe_512",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Obesidade e tratamento com Tirzepatida (Mounjaro)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde.  \nTipo de atendimento: Ambulatorial – Unidade Básica de Saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Balança, fita métrica e estadiômetro;  \n• Acesso a exames laboratoriais básicos e equipe multiprofissional\n\nDescrição do caso:\nVocê está em sua consulta de rotina na UBS e atenderá uma paciente, que agendou consulta especificamente para solicitar uma receita de uma \"injeção nova para emagrecer\" que viu nas redes sociais.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese da paciente.  \n- Solicitar e interpretar o exame físico específico, caso necessário.  \n- Discutir a solicitação da paciente sobre a medicação.  \n- Elaborar um plano terapêutico longitudinal e integral para a obesidade.  \n- Solicitar exames complementares, caso necessário.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Cláudia, 35 anos, casada, auxiliar administrativa.  \n\n**MOTIVO DE CONSULTA:**  \n• \"Doutor(a), Eu vi na internet falando dessa tal de **Tirzepatida**, uma injeção que seca a gordura. Eu quero que o senhor(a) me passe ela pelo SUS ou me dê a receita para eu tentar pegar no postinho.\"  \n\n**HISTÓRICO DA OBESIDADE:**  \n• **Evolução:** Sempre fui \"cheinha\", mas depois da gravidez engordei 20kg.  \n\n• **Tentativas prévias de perder peso:** Já tentei várias dietas e remédios, fiz academia um mês e parei.  \n\n• **Alimentação:** Como muita \"besteira\" (salgado, refrigerante) na rua.  \n\n• **Atv. Física:** Trabalho sentada o dia todo. Não faço exercício.  \n\n• **Auto-percepção:** Sinto vergonha do meu corpo, evito sair de casa. Tenho dores nos joelhos e cansaço.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Que eu saiba, não tenho nada.  \n\n• **Histórico Familiar:** Meus pais são obesos e diabéticos.  \n\n• **Medicações:** Nega.  \n\n**DEMAIS PERGUNTAS:** Não consta no script.  \n\n**DÚVIDAS:**  \n• *Mas essa injeção funciona mesmo?*  \n• *Por que o SUS não dá se é tão boa?*  \n• *Eu corro risco de ficar diabética igual meus pais?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 138x88 mmHg  \n• **FC:** 82 bpm  \n\n• **Glicemia Capilar (HGT):** 115 mg/dL (aleatória)  \n\n\n**Ectoscopia:** Bom estado geral, corada, hidratada. **Acantose nigricans moderada** em região cervical posterior e axilas.  \n\n**Cardiopulmonar:** Sem alterações.  \n\n**Membros:** Edema depressível em tornozelos (+/4+), bilateral.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ANTROPOMETRIA",
+      "conteudo": "• **Peso:** 92 kg  \n• **Altura:** 1,60 m  \n• **Circunferência Abdominal:** 102 cm  \n\n\n**Cálculo do IMC:**  \n\n• **IMC = 35,9 kg/m²**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Acolhimento e Vínculo:**  \n(1) Apresenta-se e cria um ambiente seguro para a paciente;  \n(2) Valida o sofrimento da paciente (\"Imagino como deve ser difícil...\") antes de abordar os aspectos técnicos.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Anamnese da Obesidade (História Clínica):**  \n(1) Investiga a trajetória do peso e os gatilhos para o ganho;  \n(2) Explora as barreiras e sucessos de tratamentos anteriores;  \n(3) Investiga a rotina alimentar e de atividade física de forma não-julgadora.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga um ou dois itens.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Anamnese da Obesidade (Comorbidades e Risco):**  \n(1) Questiona ativamente sobre sintomas sugestivos de SAOS (dores articulares, sonolência diurna);  \n(2) Explora o histórico familiar e o correlaciona com o risco da paciente.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita e Interpreta a Antropometria:**  \n(1) Solicita os dados de peso, altura e circunferência abdominal;  \n(2) Verbaliza o IMC e o classifica corretamente como **Obesidade Grau II**;  \n(3) Identifica a circunferência abdominal como um marcador de risco cardiometabólico elevado.  \n\n**Adequado:** realiza as três ações corretamente.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Gerenciamento de Expectativas (Tirzepatida):**  \n(1) Reconhece a eficácia da medicação, validando a informação da paciente;  \n(2) Informa de forma clara e empática que a medicação **NÃO está disponível no SUS** para essa finalidade;  \n(3) Usa a oportunidade para explicar que a medicação é uma ferramenta, e não a solução isolada, reforçando a necessidade da mudança de hábitos.  \n\n**Adequado:** aborda os três pontos com clareza.  \n**Parcialmente adequado:** aborda dois pontos.  \n**Inadequado:** não aborda ou informa incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Plano Terapêutico Não Farmacológico (MEV):**  \n(1) Orienta sobre o princípio do Guia Alimentar (\"comida de verdade\"), evitando dietas restritivas;  \n(2) Orienta sobre a importância da atividade física, sugerindo opções de baixo impacto (caminhada, hidroginástica) devido às dores articulares.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza uma orientação.  \n**Inadequado:** não realiza orientação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Abordagem Multiprofissional e Longitudinal:**  \n(1) Apresenta a equipe multiprofissional (eMulti/NASF) como parceira no tratamento, oferecendo encaminhamento para Nutricionista e Psicólogo;  \n(2) Oferece a participação em grupos operativos da UBS como uma rede de apoio.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** foca apenas na conduta médica isolada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Rastreamento Metabólico:**  \nSolicita exames essenciais para estadiamento da obesidade e suas comorbidades:\n(1) Glicemia de jejum **E** Hemoglobina Glicada (pela acantose e HGT alterado);  \n(2) Perfil lipídico completo;  \n(3) TSH;  \n(4) TGO/TGP (rastreio de esteatose hepática).  \n\n**Adequado:** solicita 3 ou 4 itens, com destaque para o rastreio de DM2.  \n**Parcialmente adequado:** solicita 2 itens.  \n**Inadequado:** solicita 1 ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Abordagem de Fatores de Risco Cardiovascular:**  \n(1) Identifica a PA como limítrofe/pré-hipertensão;  \n(2) Explica para a paciente a relação entre a gordura abdominal (medida da cintura), a acantose nigricans e o risco futuro de diabetes e hipertensão.  \n\n**Adequado:** verbaliza a correlação de forma educativa.  \n**Inadequado:** não faz a correlação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Pactuação e Retorno:**  \n(1) Pactua com a paciente uma meta inicial realista e alcançável (ex: \"Que tal começarmos com a meta de não ganhar mais peso e incluir uma caminhada de 15 min 3x/semana?\");  \n(2) Agenda ativamente um retorno breve para discutir os exames e os primeiros passos.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não pactua metas ou não agenda retorno.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Manejo Farmacológico no SUS (Opcional/Avançado):**  \nExplica que, após a mudança de estilo de vida e avaliação dos exames, caso haja indicação e falha das medidas iniciais, existem outras estratégias que podem ser discutidas, mas que o foco inicial é a base do tratamento.  \n\n**Adequado:** posiciona-se corretamente, abrindo portas para o futuro sem criar falsas expectativas.  \n**Inadequado:** prescreve ou promete medicações inadequadas para o contexto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Encerramento:**  \nCertifica-se de que a paciente compreendeu que a \"injeção\" não é a única solução e que a equipe estará ao lado dela no processo de emagrecimento, reforçando o vínculo.  \n\n**Adequado:** encerra com empatia, reforçando o vínculo e o plano.  \n**Inadequado:** encerra de forma abrupta ou sem checar a compreensão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

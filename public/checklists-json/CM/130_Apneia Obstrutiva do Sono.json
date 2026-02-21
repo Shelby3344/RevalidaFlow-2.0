@@ -1,0 +1,155 @@
+{
+  "uid": 130,
+  "hash": "pepe_130",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Apneia Obstrutiva do Sono",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: ambulatório de Clínica Médica.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a exames complementares da rede municipal.\n\nDescrição do caso:\nVocê está atendendo Roberto, um homem de 48 anos que trabalha como motorista de aplicativo. Ele comparece à consulta com encaminhamento da UBS, onde queixa-se de cansaço excessivo durante o dia e roncos noturnos que incomodam a esposa.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese sobre a queixa do paciente.  \n- Solicitar o exame físico direcionado.  \n- Aplicar instrumento de rastreio para estratificação de risco da patologia suspeitada.  \n- Solicitar o exame padrão-ouro para diagnóstico, explicando ao paciente como ele é realizado.  \n- Definir o diagnóstico e a classificação de gravidade do caso.  \n- Estabelecer o plano terapêutico e fornecer as orientações ao paciente.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• liberar o impresso **QUESTIONÁRIO STOP-BANG** junto com o impresso **EXAME FÍSICO** (liberar os dois impressos ao mesmo tempo).  \n• SOMENTE liberar o impresso **POLISSONOGRAFIA** caso o candidato solicite este exame em específico OU saiba como o exame é realizado.  \n\n\n**DADOS PESSOAIS:**  \n• Roberto, 48 anos, motorista de aplicativo.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim porque minha esposa não aguenta mais meu ronco. E eu estou ficando muito cansado durante o dia.  \n\n**SOBRE O SONO E SINTOMAS:**  \n• **Ronco:** Sim, ronco muito alto. Minha esposa diz que parece um trator.  \n\n• **Cansaço/Sonolência:** Sinto muito sono de tarde. Sinto que meu sono não descansa.  \n\n• **Apneia observada:** Minha esposa nunca falou que eu paro de respirar, só reclama do barulho mesmo.  \n\n• **Acordar sufocado:** Não, nunca acordei engasgado.  \n\n• **Dor de cabeça:** Às vezes acordo com a cabeça pesada, doendo um pouco.  \n\n• **Urina noturna:** Levanto umas duas vezes pra ir ao banheiro.  \n\n**STOP-BANG (RESPOSTAS ESPECÍFICAS SE PERGUNTADO):**  \n• **S (Snoring/Ronco):** Sim, alto.  \n\n• **T (Tired/Cansado):** Sim, muito cansado durante o dia.  \n\n• **O (Observed/Observado):** Não, ninguém nunca viu eu parar de respirar.  \n\n• **P (Pressure/Pressão):** Sim, tenho pressão alta.  \n\n• **B (BMI/IMC):** (Será verificado no exame físico - IMC 32 - Não pontua >35).  \n\n• **A (Age/Idade):** Tenho 48 anos (Não pontua >50).  \n\n• **N (Neck/Pescoço):** (Será verificado no exame físico - 39cm - Não pontua >40).  \n\n• **G (Gender/Gênero):** Masculino (Sim).  \n\n• **TOTAL ESPERADO:** 4 pontos (Risco Intermediário).  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho hipertensão arterial.  \n\n• **Medicações:** Tomo Losartana 50mg todo dia.  \n\n• **Álcool/Tabaco:** Bebo umas 3 latas de cerveja quase toda noite pra \"relaxar\". Sou ex-fumante, parei faz 5 anos.  \n• **Alimentação:** como de tudo, só não gosto muito de verduras.  \n• **Atv. física:** Não faço exercícios.  \n\n\n**DÚVIDAS:**  \n• *Como é esse exame do sono que o senhor falou?*  \n\n• *O que deu no meu resultado? É grave?*  \n\n• *Como que é o tratamento pra isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 135x85 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp:** 36.5°C  \n\n\n**Antropometria:**  \n• **Peso:** 98 kg  \n• **Altura:** 1,75 m  \n• **IMC:** 32,0 kg/m²  \n• **Circunferência Cervical:** 39 cm  \n\n\n**Oroscopia:**  \n• Mallampati classe III (visibilização apenas do palato mole e base da úvula).  \n• Amígdalas grau I.  \n\n\n**Cardiopulmonar:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "QUESTIONÁRIO STOP-BANG",
+      "conteudo": "**ATENÇÃO - APLIQUE O QUESTIONÁRIO AO PACIENTE E CALCULE O TOTAL DA SUA PONTUAÇÃO**",
+      "imagem": "img_printeds/e130p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "POLISSONOGRAFIA",
+      "conteudo": "**POLISSONOGRAFIA DE NOITE INTEIRA**  \n\n\n**Eficiência do sono:** 82%  \n**Latência do sono:** 10 minutos  \n**Estágios do sono:** Arquitetura preservada, com leve redução de sono REM.  \n\n\n**Eventos Respiratórios:**  \n• **Índice de Apneia-Hipopneia (IAH):** 8,0 eventos/hora.  \n• **Saturação O2 basal:** 96%.  \n• **Saturação O2 mínima:** 88%.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese sobre a qualidade do sono e sintomas diurnos:**  \n(1) presença e intensidade do ronco;  \n(2) sonolência diurna excessiva ou fadiga;  \n(3) sono não reparador ou despertares noturnos (noctúria);  \n(4) cefaleia matinal.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga fatores de risco e hábitos de vida:**  \n(1) consumo de álcool ou sedativos;  \n(2) tabagismo;  \n(3) comorbidades (hipertensão, diabetes, doenças cardiovasculares).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Aplica o questionário STOP-BANG (verbalizando os critérios):**  \n(1) Snoring (Ronco);  \n(2) Tired (Cansado/Sonolência);  \n(3) Observed (Apneia observada);  \n(4) Pressure (Hipertensão);  \n(5) BMI (IMC > 35);  \n(6) Age (Idade > 50);  \n(7) Neck (Circunferência cervical > 40cm);  \n(8) Gender (Gênero masculino).  \n\n**Adequado:** verbaliza/investiga pelo menos 6 critérios do score, E verbaliza 04 pontos para o questionário STOP-BANG.  \n**Parcialmente adequado:** verbaliza/investiga 3 a 5 critérios, E verbaliza 04 pontos para o questionário STOP-BANG..  \n**Inadequado:** verbaliza 2 ou menos critérios, OU não verbaliza 04 pontos para o questionário STOP-BANG.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico direcionado:**  \n(1) Medidas antropométricas (Peso/Altura para IMC);  \n(2) Medida da circunferência cervical (pescoço);  \n(3) Avaliação da orofaringe (Mallampati ou tonsilas).  \n\n**Adequado:** solicita os três itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um item ou não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita Polissonografia e explica como é o exame:**  \n(1) Solicita o exame (estudo do sono);  \n(2) Explica que o paciente dormirá em uma clínica/laboratório monitorizado por sensores que avaliarão a respiração, oxigenação e batimentos cardíacos durante a noite.  \n\n**Adequado:** solicita e explica corretamente.  \n**Parcialmente adequado:** apenas solicita sem explicar.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta o resultado da Polissonografia:**  \nIdentifica o Índice de Apneia-Hipopneia (IAH) de 8 eventos/hora no laudo do exame.  \n\n**Adequado:** identifica corretamente o valor do IAH.  \n**Inadequado:** não identifica o valor do IAH ou interpreta incorretamente o dado numérico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define o diagnóstico e a classificação de gravidade:**  \n(1) Diagnóstico: Apneia Obstrutiva do Sono (AOS) ou Síndrome da Apneia Obstrutiva do Sono (SAOS);  \n(2) Classificação: Grau LEVE.  \n\n**Adequado:** define o diagnóstico correto E classifica o grau corretamente.  \n**Parcialmente adequado:** define apenas o diagnóstico correto (sem classificar ou classificando errado).  \n**Inadequado:** não define o diagnóstico ou erra o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta medidas de higiene do sono e mudanças de estilo de vida (Tratamento conservador):**  \n(1) Perda de peso;  \n(2) Evitar álcool e sedativos antes de dormir;  \n(3) Prática de atividade física regular;  \n(4) Dormir em decúbito lateral/cabeceira elevada.  \n\n**Adequado:** orienta três ou quatro itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o uso de CPAP (Pressão Positiva Contínua nas Vias Aéreas):**  \nJustifica a indicação do CPAP mesmo em apneia leve devido à profissão de risco (motorista) OU presença de sonolência excessiva/comorbidade (HAS).  \n\n**Adequado:** indica o CPAP com a justificativa correta.  \n**Parcialmente adequado:** indica o CPAP sem justificar o motivo (já que é apneia leve).  \n**Inadequado:** não indica CPAP ou indica apenas medidas comportamentais/dispositivo intraoral.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.25",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

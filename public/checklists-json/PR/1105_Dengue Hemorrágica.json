@@ -1,0 +1,199 @@
+{
+  "uid": 1105,
+  "hash": "pepe_1105",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Dengue Hemorrágica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:  \n* Consultório médico;   \n* raio-X, ultrassonografia, eletrocardiograma;  \n* laboratório de análises clínicas;  \n* banco de sangue;  \n\n\n.\n\nDescrição do caso:\n- Você está de plantão em uma UPA e irá atender uma paciente de 40 anos com queixas de mal estar geral, mialgia e vômitos há 4 dias. Procurou a emergência pois começou a ter dores abdominais.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:    \n- Realizar o atendimento da paciente;  \n- Solicitar e interpretar o exame físico;  \n- Solicitar e interpretar exames complementares caso necessário;  \n- Informar hipótese diagnóstica e indicar conduta terapêutica;",
+  "script_ator": "**DADOS PESSOAIS:**  \n- Marta, 40 anos, dona de casa.  \n\n\n**MOTIVO DA CONSULTA:**  \n- Já estava sentindo febre, dor no corpo e mal estar, mas agora vim porque começou dor minha barriga.  \n- Tempo de evolução: há 4 dias, e a dor na barriga há 3 horas.  \n\n\n**FEBRE:**  \n- Intensidade: última vez deu 38°C.  \n- Duração: passa após tomar parecetamol, mas depois volta.  \n- Calafrios e sudorese: nega.  \n\n**VÔMITOS:** 2 vezes, com alimentos.  \n**CEFALEIA:** dói toda a cabeça, fica pulsando.  \n\n\n**DOR ABDOMINAL:**  \n- Local: dói a barriga inteira.  \n- Tempo evolução: há 3 horas.  \n- Intensidade: 6/10;  \n- Característica: em aperto, vai e volta;  \n- Irradiação: não irradia;  \n\n\nNegar: sangramentos, diarreia, desmaio, sonolência, perda de consciência;  \nNegar: dor retro-orbitária, tosse, alteração de urina ou fezes.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n- Medicações: paracetamol para febre.  \n- Alergias, comorbidades e internações: nega.  \n\n\n**HÁBITOS:**  \n- Álcool, tabaco e drogas: nega.  \n\n\n**DADOS EPIDEMIOLÓGICOS:**  \n- Não fiz viagem recente;  \n- Tenho um vizinho com sintomas parecidos;  \n- Não tem água parada em casa ou mosquitos;   \n\n\n**OUTRAS PERGUNTAS:** Não consta no Script.  \n\n\n**DÚVIDAS:**  \n- O que eu tenho?    \n- **Caso o candidato indique internação ou observação:** Porquê? Eu queria ir embora, tenho que cuidar da casa.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n•\t**PA:** 110 x 65mmHg;  \n•\t**FC:** 90bpm;  \n•\t**FR:** 20irpm;  \n•\t**SPO2:** 97% em a.a.;  \n•\t**Temperatura:** 38,5°C.  \n\n\n**EXAME FÍSICO:**  \n•\tEctoscopia: paciente desidratada ++/4+, hipocorada ++/4+, com exantema maculopapular em tronco e MMSS bilateral;  \n•\tCardiovascular: RCR 2T BNF;  \n•\tRespiratório: MV sem ruídos adventícios;  \n•\tAbdominal: Levemente distendido, RHA presentes, com dor abdominal difusa sem sinais de irritação peritoneal e presença de massa palpável no rebordo costal direito indicando possível hepatomegalia;  \n•\tMMII: sem alterações ou edemas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "PROVA DO LAÇO",
+      "conteudo": "**PROVA DO LAÇO: 22 PETÉQUIAS**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "HEMOGRAMA COMPLETO",
+      "conteudo": "**Eritrograma**  \n| Parâmetro | Resultado | Valores de Referência |  \n|-----------|-----------|----------------------|  \n| Hemácias | 4,0 milhões/mm³ | 4,2 - 5,4 milhões/mm³ |  \n| Hemoglobina | 12,0 g/dL | 12 - 16 g/dL (Mulheres) / 13 - 17 g/dL (Homens) |  \n| Hematócrito | 40% | 36 - 47% (Mulheres) / 40 - 52% (Homens) |  \n| VCM (Volume Corpuscular Médio) | 88 fL | 80 - 100 fL |  \n| HCM (Hemoglobina Corpuscular Média) | 30 pg | 27 - 34 pg |  \n| CHCM (Concentração de Hemoglobina Corpuscular Média) | 34 g/dL | 32 - 36 g/dL |  \n\n**Leucograma**  \n| Parâmetro | Resultado | Valores de Referência |  \n|-----------|-----------|----------------------|  \n| Leucócitos totais | 7.500/mm³ | 4.000 - 11.000/mm³ |  \n| Neutrófilos | 60% | 40 - 70% |  \n| Linfócitos | 30% | 20 - 50% |  \n| Monócitos | 6% | 2 - 10% |  \n| Eosinófilos | 3% | 1 - 6% |  \n| Basófilos | 1% | 0 - 2% |  \n\n**Plaquetas**\n| Parâmetro | Resultado | Valores de Referência |  \n|-----------|-----------|----------------------|  \n| Contagem de plaquetas | 135.000/mm³ | 150.000 - 450.000/mm³ |",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. Apresenta-se e cumprimenta a paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. Solicita dados de identificação da paciente (pelo menos nome e idade).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**2.1. Investiga a ocorrência e o inicio dos sintomas (febre, adinamia, mialgia, tontura, cefaleia, dor retro-orbitária, tosse seca, diarreia, dor abdominal e vômitos - pelo menos cinco -).**  \n\n**Adequado:** Investiga no mínimo menos 5 sintomas.  \n**Parcialmente adequado:** Investiga 4 sintomas.  \n**Inadequado:** Investiga 3 ou menos sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**2.2. Investiga características da febre (intensidade, duração, periodicidade, calafrios).**  \n\n**Adequado:** Investiga 4 características.  \n**Parcialmente adequado:** Investiga 3 características.  \n**Inadequado:** Investiga 2 ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**2.3. Investiga evolução da dor abdominal e vômitos.**  \n\n**Adequado:** Investiga a evolução dos dois sintomas.  \n**Parcialmente adequado:** Investiga somente um dos sintomas.  \n**Inadequado:** Não investiga sobre a evolução da dor abdominal e vômitos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**2.4. Investiga outros sinais de alerta para gravidade da febre hemorrágica de dengue (sangramentos, sonolência e irritabilidade, diminuição da diurese, baixa de temperatura, desconforto respiratório - pelo menos três -).**  \n\n**Adequado:** Investiga 3 ou mais sinais.  \n**Inadequado:** Investiga apenas 2 ou menos sinais.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**2.5. Investiga o uso de medicamentos antitérmicos (salicilatos, dipirona).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**2.6. Investiga risco epidemiológico (casos de dengue na vizinhança ou no trabalho).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**3.1. Explica à paciente de modo compreensível a suspeita diagnóstica de dengue hemorrágica.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**3.2. Explica é paciente de modo compreensível os exames solicitados (hemograma com plaquetas).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**3.3. Explica a paciente a necessidade de reposição volêmica/hidratação vigorosa.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**3.4. Explica à paciente a necessidade de observação por 24h.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**4.1. Escuta atentamente a paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**4.2. Interage com respeito à paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

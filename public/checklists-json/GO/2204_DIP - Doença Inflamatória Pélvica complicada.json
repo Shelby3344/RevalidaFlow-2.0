@@ -1,0 +1,234 @@
+{
+  "uid": 2204,
+  "hash": "pepe_2204",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "DIP - Doença Inflamatória Pélvica complicada",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuaçao: Atençao Secundária Hospitalar  \nA unidade possui a seguinte infraestrutura:  \n• consultórios para atendimento;  \n• laboratório de análises clínicas; e  \n• laboratório de imagem (radiologia e ecografia)\n\nDescrição do caso:\nPaciente de 18 anos encontra-se deitada em uma maca, com queixa de dor.",
+  "tarefas": "Nos próximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar anamnese;  \n- solicitar exames pertinentes ao caso;  \n- verbalizar hipótese diagnóstica e pelo menos dois diagnósticos diferenciais;  \n- solicitar exames complementares, caso necessário;  \n- propor à paciente o tratamento a ser realizado;  \n- explicar à paciente pelo menos duas das possíveis complicações da doença; e  \n- dar orientações de seguimento à paciente.  \n\n\nA PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Priscila, 18 anos, estudante  \n\n**MOTIVO DE CONSULTA**:  \n• Dr.(a), estou com muita dor na barriga.  \n\n**SOBRE A DOR**:  \n• **Localização**: abaixo do umbigo.  \n• **Tempo de evolução**: 2 dias.  \n• **Intensidade**: 4/10.  \n• **Irradiação**: sem irradiação.  \n• **Fatores de melhora/piora**: tomei diclofenaco e melhorou, mas voltou a doer. Sem fatores de piora.  \n\n**SINTOMAS ASSOCIADOS**:  \nPercebi tambem que estou com um corrimento vaginal amarelo/esverdeado com cheiro forte.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: nega.  \n• **Cirurgia**: nega.  \n• **Alergias**: até hoje não tive nenhuma.  \n\n**HÁBITOS**:  \n• **Tabagismo**: nega.  \n• **Etilismo**: nega.  \n• **Drogas ilícitas**: nega.  \n\n**ANTECEDENTES GINECOLÓGICOS**:  \n• **Data da última menstruação**: há 8 dias.  \n• **Menarca**: aos 10 anos de idade.  \n• **Sexarca**: aos 14 anos.  \n• **Vida sexual**: múltiplos parceiros. Refere uso irregular de preservativo.  \n• **Papanicolau**: nunca realizado.  \n• **Contracepção**: contraceptivo oral combinado.  \n\n**ANTECEDENTES OBSTÉTRICOS**:  \n• Nega gestações, partos e abortos.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**Dados vitais**  \nPressão arterial: 120 × 80 mmHg  \nTemperatura: 37,5 °C  \nFrequência cardíaca: 90 bpm  \nFrequência respiratória: 12 irpm  \nSaturação periférica de oxigênio (SatO2): 98%  \n\n\nAuscultas cardíaca e pulmonar normais.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO ABDOMINAL",
+      "conteudo": "Abdome levemente distendido, ruídos hidroaéreos hipoativos difusamente e normotimpânicos.  \nPalpação superficial e profunda com dor de média intensidade em todo o abdome difusamente.  \n\n\n**ATENÇÃO:**  \nDirija-se a câmera e indique os demais passos da propedêutica de exame físico  \nabdominal relativos ao caso, verbalizando como deve ser realizado esse procedimento.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "MANOBRA DE DESCOMPRESSÃO BRUSCA",
+      "conteudo": "Ao realizar uma compressão forte seguida de descompressão brusca no lado inferior   \ndireito do abdome, a paciente simulada demonstra dor mais intensa, emitindo um grito.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "Leucorreia amarelada com odor fétido; colo uterino hiperemiado com muco turvo; útero de  \nvolume normal; anexos com dor à mobilização bilateral, mais acentuada à direita; dor difusa  \nao toque vaginal e, principalmente, à mobilização do colo.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "",
+      "imagem": "img_printeds/2022-1-e4p5.jpg"
+    },
+    {
+      "idx": 6,
+      "titulo": "TESTE DE GRAVIDEZ",
+      "conteudo": "BHCG negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "ECOGRAFIA TRANSVAGINAL",
+      "conteudo": "**Útero:**  \n- Posição: anteversoflexão (AVF)  \n- Volume: 80 cm³  \n\n\n**Endométrio:**  \n- Espessura: 5 mm  \n\n\n**Ovário direito:**  \n- Aumentado de tamanho (3,0 cm³)  \n- Presença de áreas hiperecogênicas vascularizadas ocupando todo o parênquima ovariano  \n- Área anecoica cística: ~2 cm × 2 cm × 1,5 cm  \n- Pequena quantidade de líquido livre em fundo de saco  \n\n\n**Ovário esquerdo:**  \n- Volume: 3,5 cm³  \n- Sem alterações morfológicas",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) cumprimenta e  \n(2) se apresenta à paciente simulada.  \n\n**Adequado:** realiza os dois itens.  \n**Parcialmente adequado:** realiza apenas um dos itens.  \n**Inadequado:** não realiza nenhuma dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre:**  \n(1) características da dor;  \n(2) febre; e  \n(3) vômitos.  \n\n**Adequado:** pergunta sobre dois ou três sintomas.  \n**Parcialmente adequado:** pergunta sobre apenas um sintoma.  \n**Inadequado:** não pergunta sobre nenhum sintoma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre anticoncepção.**  \n\n**Adequado:** pergunta sobre anticoncepção.  \n**Inadequado:** não pergunta sobre anticoncepção.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta a data da última menstruação.**  \n\n**Adequado:** pergunta a data da última menstruação.  \n**Inadequado:** não pergunta a data da última menstruação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita teste de gravidez.**  \n\n**Adequado:** solicita teste de gravidez.  \n**Inadequado:** não solicita teste de gravidez.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza corretamente a manobra de descompressão brusca**  \nabdominal (compressão seguida de descompressão).  \n\n**Adequado:** verbaliza a manobra.  \n**Inadequado:** não verbaliza a manobra ou verbaliza  \nincorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Refere a necessidade de realizar exame ginecológico (ou exame**  \nde toque vaginal ou exame especular).  \n\n**Adequado:** refere a necessidade de realizar o exame.  \n**Inadequado:** não refere a necessidade do exame",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza o diagnóstico de doença inflamatória pélvica.**  \n\n**Adequado:** realiza o diagnóstico correto.  \n**Inadequado:** menciona outras hipóteses diagnósticas, ou não realiza o  \ndiagnóstico, ou não identifica como diagnóstico a doença inflamatória pélvica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita os diagnósticos diferenciais mais importantes:**  \n(1) apendicite;  \n(2) gestação ectópica;  \n(3) cisto de ovário roto; e  \n(4) torção ovariana.  \n\n**Adequado:** cita corretamente dois ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** cita corretamente apenas um diagnóstico diferencial.  \n**Inadequado:** cita outros diagnósticos diferenciais ou não cita nenhum  \ndiagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica internação hospitalar (1) e a justifica corretamente,**  \ncitando peritonite e/ou abcesso tubo-ovariano (2).  \n\n**Adequado:** realiza as duas tarefas.  \n**Parcialmente adequado:** realiza apenas a indicação, sem justificar.  \n**Inadequado:** não indica a internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta tratamento com antibiótico endovenoso.**  \n\n**Adequado:** orienta o tratamento com antibiótico endovenoso.  \n**Inadequado:** não orienta o tratamento com antibiótico endovenoso  \nou orienta o tratamento com antibiótico por via oral.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta o tratamento do parceiro sexual.**  \n\n**Adequado:** orienta o tratamento.  \n**Inadequado:** não orienta o tratamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Refere complicações futuras que podem ocorrer com a**  \npaciente:  \n(1) infertilidade;  \n(2) sinequias intrauterinas;  \n(3) dor pélvica crônica;  \n(4) gravidez ectópica e  \n(5) Perihepatite ou Síndrome de Fitz-Hugh Curtis.  \n\n**Adequado:** refere corretamente duas ou mais complicações.  \n**Parcialmente adequado:** refere apenas uma complicação.  \n**Inadequado:** refere outras complicações ou não refere nenhuma complicação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Refere a necessidade de realização de exames para outras**  \nITS/ISTs/DSTs.  \n\n**Adequado:** refere a necessidade de realização de exame(s) para ITS/ISTs/DSTs.  \n**Inadequado:** não refere a necessidade de realização de exame(s).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta, como medida de prevenção, o uso de preservativo e**  \nrefere que a multiplicidade de parceiros é um fator de risco.  \n\n**Adequado:** orienta sobre o uso de preservativos e refere o número de parceiros  \ncomo fator de risco.  \n**Parcialmente adequado:** apenas orienta sobre o uso de preservativos ou  \napenas refere o numero de parceiros como fator de risco.  \n**Inadequado:** não orienta sobre o uso de preservativos e não refere o número de  \nparceiros como fator de risco.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

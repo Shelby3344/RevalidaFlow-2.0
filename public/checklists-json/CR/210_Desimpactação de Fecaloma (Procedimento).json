@@ -1,0 +1,166 @@
+{
+  "uid": 210,
+  "hash": "pepe_210",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Desimpactação de Fecaloma (Procedimento)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária - Unidade de Pronto Atendimento (UPA).  \nA unidade possui a seguinte infraestrutura:  \n• Sala de observação;  \n• Radiologia convencional;  \n• Laboratório de análises clínicas.\n\nDescrição do caso:\nVocê está de plantão na UPA e atenderá uma paciente de 78 anos, diabética, trazida pela filha. A queixa principal é dor abdominal e perda de fezes líquidas há 3 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso;  \n- Realizar o exame físico necessário para o diagnóstico;  \n- Solicitar e interpretar exames complementares pertinentes;  \n- Estabelecer a hipótese diagnóstica e citar diagnósticos diferenciais;  \n- Definir e realizar a conduta terapêutica imediata e orientações de alta.  \n- Responder as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Acompanhante:** Anita, 47 anos.  \n• **Paciente:** Maria, 78 anos, aposentada.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), minha mãe está sofrendo muito. Ela reclama de dor na barriga e está saindo uma \"água suja\" por baixo, tipo uma diarreia, mas ela diz que sente a barriga cheia.  \n\n**SOBRE OS SINTOMAS:**  \n• **Dor:** É uma cólica forte na parte baixa da barriga e uma dor no \"fundo\".  \n\n• **Evacuação:** Faz uns 10 dias que ela não faz cocô de verdade. Só sai esse líquido sujo que suja a fralda, parece que ela não segura.  \n\n• **Sensação:** Ela diz que sente vontade de ir ao banheiro, mas não sai nada.  \n\n• **Náuseas:** Ela está enjoada, quase não comeu nada hoje.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Ela tem diabetes e pressão alta.  \n\n• **Medicamentos:** Usa Metformina, Losartana e às vezes um remedinho pra dormir.  \n\n• **Mobilidade:** Ela anda pouco, fica mais sentada ou deitada.  \n\n• **Alimentação:** Ela gosta mais de massa, pão e café com leite.  \n\n• **Hidratação:** Bebe pouca água, diz que não tem sede.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:** caso o candidato solicite autorização para realizar a desimpactação do fecaloma: *Pode fazer doutor(a).*  \n\n**DÚVIDAS:**  \n• *Doutor(a), por que a barriga dela está dura desse jeito?*  \n• *Isso pode ser um tumor, um câncer?*  \n• *Como vamos resolver isso agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 130x80 mmHg  \n• **FC:** 92 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp:** 36,8°C  \n\n\n**Ectoscopia:** Paciente em regular estado geral, desidratada (+/4+), fácies de desconforto/dor, acianótica, anictérica.  \n\n\n**Exame Abdominal:**  \n• **Inspeção:** Abdome distendido.  \n\n• **Ausculta:** Ruídos hidroaéreos presentes, porém diminuídos.  \n\n• **Percussão:** Timpanismo difuso, com submacicez em flanco esquerdo e hipogástrio.  \n\n• **Palpação:** Abdome doloroso à palpação profunda em fossa ilíaca esquerda e hipogástrio, onde se palpa massa endurecida e moldável.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "TOQUE RETAL",
+      "conteudo": "**Inspeção anal:** Presença de resíduos fecais líquidos e escurecidos na região perianal. Sem hemorroidas trombosadas ou fissuras agudas visíveis.  \n\n\n**Toque retal:** Esfíncter com tônus preservado. Ampola retal preenchida por grande quantidade de fezes endurecidas, tocáveis à introdução do dedo examinador.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RAIO-X DE ABDOME",
+      "conteudo": "**IDENTIFIQUE O SINAL RADIOGRÁFICO DA IMAGEM**",
+      "imagem": "img_printeds/e210p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta a paciente e a acompanhante.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese detalhada sobre o hábito intestinal:**  \n(1) tempo de constipação/última evacuação sólida;  \n(2) características da \"diarreia\" (paradoxal/extravasamento);  \n(3) dor abdominal e tenesmo (vontade sem saída de fezes);  \n(4) fatores de risco (imobilidade, dieta pobre em fibras, baixa ingesta hídrica).  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita o exame físico abdominal**  \n\n**Adequado:** solicita o exame físico abdominal.  \n**Inadequado:** não solicita, ou solicita apenas o exame físico de maneira abrangente e genérica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita e realiza o Toque Retal.**  \n\n**Adequado:** solicita explicitamente a realização do toque retal, fundamental para o diagnóstico.  \n**Inadequado:** não solicita o toque retal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta os achados do exame físico (Toque Retal).**  \n\n**Adequado:** verbaliza a presença de fezes endurecidas/impactadas na ampola retal.  \n**Inadequado:** não verbaliza o achado ou interpreta incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita e interpreta o Raio-X de abdome.**  \n\n**Adequado:** solicita o exame e, após receber a imagem, identifica a imagem sugestiva de fecaloma em reto/sigmoide (aspecto em \"miolo de pão\", OU massa com bolhas no interior/permeio).  \n**Inadequado:** não solicita o exame ou não identifica o fecaloma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza o diagnóstico principal.**  \n\n**Adequado:** Fecaloma ou Impactação Fecal.  \n**Inadequado:** Diagnostica apenas constipação ou apenas gastroenterite/diarreia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita diagnósticos diferenciais importantes para o quadro de massa abdominal/obstrução em idoso.**  \n(1) Neoplasia de cólon/reto (Câncer colorretal);  \n(2) Volvo de sigmoide;  \n(3) Síndrome de Ogilvie (Pseudo-obstrução colônica);  \n(4) Diverticulite aguda (com massa inflamatória).  \n\n**Adequado:** cita dois ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** cita um diagnóstico diferencial.  \n**Inadequado:** não cita diagnósticos diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define a conduta terapêutica imediata:**  \n(1) Remoção manual do fecaloma (quebra do fecaloma/desimpactação digital);  \n(2) Realização de clister/enteroclisma (enema) glicerinado ou fosfatado APÓS a remoção manual.  \n\n**Adequado:** indica a remoção manual seguida de lavagem (enema).  \n**Parcialmente adequado:** indica apenas a lavagem (sem a remoção manual prévia, o que pode ser ineficaz ou doloroso) OU apenas remoção manual.  \n**Inadequado:** prescreve laxantes orais ou fibras nesse momento agudo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza o procedimento de desimpactação de fecaloma:**  \n(1) explica o procedimento e obtém o consentimento informado;  \n(2) posiciona o paciente em posição de Sims (decúbito lateral esquerdo com a perna direita flexionada);  \n(3) realiza higienização das mãos e paramentação;  \n(4) aplica lubrificante anestésico (lidocaína/xilocaína);  \n(5) introduz o dedo indicador, E realiza a quebra do fecaloma com movimentos rotatórios;  \n(6) extrai manualmente os fragmentos fecais;  \n(7) realiza enteroclisma (lavagem intestinal) com solução glicerinada após a desimpactação manual.  \n\n**Adequado:** realiza seis ou sete itens.  \n**Parcialmente adequado:** realiza quatro ou cinco itens.  \n**Inadequado:** realiza três itens ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Fornece orientações de alta para prevenção de recorrência (mudança de estilo de vida).**  \n(1) Aumento da ingesta hídrica;  \n(2) Dieta rica em fibras;  \n(3) Estimular a mobilidade/caminhadas (dentro do possível).  \n\n**Adequado:** fornece as três orientações.  \n**Parcialmente adequado:** fornece uma ou duas orientações.  \n**Inadequado:** não fornece orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

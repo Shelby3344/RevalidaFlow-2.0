@@ -1,0 +1,166 @@
+{
+  "uid": 2113,
+  "hash": "pepe_2113",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Invaginação Intestinal (reaplicação)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENARIO DE ATENDIMENTO \n \nVocê está de plantão na pediatria de uma Unidade de Pronto Atendimento de sua cidade.\n\nDescrição do caso:\nDESCRIÇÃO DO CAS0\n\nVocê está de plantão na pediatria de uma Unidade de Pronto Atendimento de sua cidade. A mãe,  \ncom quem você irá fazer a consulta agora, está preocupada porque a filha Beatriz, uma lactente  \ncom 1 ano de idade, bem nutrida, começou a apresentar irritabilidade e choro forte há cerca de 48  \nhoras. \n\nDADOS E SINAIS VITAIS  \n• Paciente: Beatriz, feminina, branca;  \n• Idade: 1 ano;  \n• Peso: 10 kg;  \n• Eutrófica: temperatura axilar 36,7 C.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- fazer a anamnese dirigida à mãe;  \n- ler os dados e sinais vitais da criança (ao final dessa página);  \n- comentar o exame físico (não será necessário examinar diretamente a criança simulada);  \n- solicitar todos os exames complementares que julgar necessários (se indicados);  \n- formular a hipótese diagnóstica e responder aos questionamentos da mãe da criança  \nsimulada;  \n- propor conduta terapêutica e explicar à mãe (se for o caso).",
+  "script_ator": "**DADOS DA MÃE**:  \n• Gabriela, casada, fisioterapeuta, uma filha.  \n\n**DADOS DA CRIANÇA**:  \n• Beatriz 1 ano de idade.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr(a), minha filha tem dois dias que começou a chorar, ficar irritada, não quer comer e está cada vez pior.  \n\n**SINTOMAS ASSOCIADOS**:  \n• **Náuseas e vômitos**: - Não.  \n• **Hábito intestinal/catarse**: -Há dois dias que não ela vai ao banheiro.  \n• **Alimentação**: - Notei que ela está aceitando menos a comida.  \n• **Dor abdominal**: - Ela fica chorando e com a mão na barriga.  \n\n**ANTECEDENTES PERINATAIS**:  \n• Não dr(a), ela sempre foi saudável.  \n\n**VACINAS**:  \n• Não trouxe o cartão, mas está tudo certinho, Dr(a).  \n\n**ALIMENTAÇÃO**:  \n• Ela toma leite materno e comida.  \n\n**Ao solicitar para realizar o TOQUE RETAL**:  \n• Isso é realmente necessário, Dr(a)? Vai doer?  \n\n**Após ser solicitado, entregue a ULTRASSONOGRAFIA**:  \n• O que minha filha tem, dr(a)?  \n\n**DÚVIDAS**:  \n• Ela tem que fazer alguma cirurgia? Ela vai ficar internada?  \n\n**OUTRAS PERGUNTAS**:  \n• Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "*\n• No exame físico, a criança encontra-se em regular estado geral, nutrida, hidratada, afebril.  \n• Aparente dor à palpação abdominal sem distensão abdominal, mas com pequena massa palpável, móvel e indolor em flanco direito.  \n• Durante o exame, a criança evacua fezes misturadas com sangue.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "TOQUE RETAL",
+      "conteudo": "• Toque retal evidenciando em ponta de dedo da luva a presença, em pequena quantidade, de fezes misturadas com sangue com aspecto de \"geleia de morango\".",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ULTRASSONOGRAFIA",
+      "conteudo": "• As características ultrassonográficas observadas são múltiplas linhas paralelas em cortes longitudinais e múltiplos anéis concêntricos hiperecoicos e hipoecoicos ao redor de centro hiperecoico em cortes transversais, comumente relacionadas às imagens de alvos.  \n• O \"sinal do alvo\" e o sinal do \"pseudorrim\" apresentam uma orla hipoecoica margeando um centro predominantemente hiperecoico, em tomadas transversal e longitudinal, caracterizando uma invaginação intestinal ileocecocólica em flanco direito com sinal de Dance (esvaziamento da fossa ilíaca direita).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Apresenta-se à mãe simulada  \n(2) Pergunta nome da mãe  \n(3) Pergunta nome da criança  \n\n**Adequado:** se realiza 3 itens corretamente.  \n**Parcialmente adequado:** se realiza 1 ou mais itens corretamente.  \n**Inadequado:** se não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta o motivo da consulta ou queixa principal.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre a história da doença atual**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre antecedentes gestacionais:**  \n(1) Gestações prévias, abortos e partos anteriores;  \n(2) Sobre o parto da criança.  \n\n**Adequado:** se realizou os dois itens.  \n**Parcialmente adequado:** pergunta sobre um ou dois itens.  \n**Inadequado:** se realizou um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta**  \n(1) Sobre a amamentação;  \n(2) Doenças prévias;  \n(3) Vacinas.  \n\n**Adequado:** se realiza 3 itens corretamente.  \n**Parcialmente adequado:** se realiza 1 ou mais itens corretamente.  \n**Inadequado:** se não realiza nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre padrão de urina e fezes.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pede para realizar o exame físico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Pede para realizar o toque retal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Formula a hipótese diagnóstica:**  \n(1) Invaginação intestinal  \n(2) Explica para a mãe a doença  \n\n**Adequado:** se realiza dois itens corretamente.  \n**Parcialmente adequado:** se realiza um ou mais itens corretamente.  \n**Inadequado:** se não realiza nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita ultrassonografia para confirmação diagnóstica e explica o porquê.**  \n\n**Adequado:** se solicita corretamente.  \n**Parcialmente adequado:** solicita apenas a ultrassonografia.  \n**Inadequado:** se não solicita ou solicita incorretamente item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Informa a mãe da conduta a ser adotada após a confirmação diagnóstica:**  \ninicialmente a tentativa de redução hidrostática por via retal sob radioscopia  \n(1) e, se não for possível, o tratamento cirúrgico (2).  \n\n**Adequado:** se realiza dois itens corretamente.  \n**Parcialmente adequado:** se realiza um ou mais itens corretamente.  \n**Inadequado:** se não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

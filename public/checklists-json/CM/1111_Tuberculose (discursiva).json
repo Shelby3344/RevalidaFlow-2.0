@@ -1,0 +1,160 @@
+{
+  "uid": 1111,
+  "hash": "pepe_1111",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Tuberculose (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de coleta de exames laboratoriais.\n\nDescrição do caso:\nVocê é um(a) médico(a) atuando em uma Unidade Básica de Saúde (UBS) e atenderá um jovem de 24 anos. Ele procura o serviço com queixa de febre baixa e tosse frequente. O paciente trás uma radiografia realizada em uma Unidade de Emergência há três dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese;  \n- Solicitar exame físico e complementar(es), caso necessário;  \n- Formular a hipótese diagnóstica;  \n- Propor a conduta terapêutica e esclarecer as dúvidas do paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 24 anos, caixa de supermercado.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim aqui porque não estou me sentindo bem. Tenho uma tosse que não passa e quase todo final de dia eu tenho uma febre baixa.  \n\n**SOBRE A TOSSE:**  \n• **Início:** Já faz quase 3 meses que estou assim.  \n• **Expectoração:** Sim, tem catarro.  \n• **Coloração:** é meio amarelo.  \n• **Hemoptise:** quando eu tusso muito forte, parece que sai uns pinguinhos de sangue.  \n\n**SOBRE A FEBRE:**  \n• **Início:** começou quase junto com a tosse, faz uns 3 meses também.  \n• **Aferição:** Não cheguei a medir, mas sinto o corpo quente, principalmente no final da tarde.  \n• **Sudorese e calafrios:** as vezes suo a noite, chego a molhar a roupa de cama.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Apetite:** Tenho comido menos.  \n• **Peso:** emagreci uns 5 quilos nesse tempo.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença e não tomo remédio.  \n• **Cirurgias e internações:** nega.  \n• **Álcool, tabaco e drogas:** Não fumo. Bebo uma cervejinha no final de semana, só.  \n• **Contactantes com sintomas parecidos:** Que eu saiba, não tive contato com ninguém doente.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Como é o tratamento?*  \n• *Esses remédios tem algum efeito colateral?*  \n• *Tem algum jeito de evitar que não passe para os outros?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**VERBALIZE O(S) ACHADO(S) DA IMAGEM**",
+      "imagem": "img_printeds/2011-e11p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS**  \n• **Pressão arterial:** 120 x 80 mmHg  \n• **Frequência cardíaca:** 92 bpm  \n• **Frequência respiratória:** 18 irpm  \n• **Temperatura axilar:** 37,8°C  \n• **Saturação de O₂:** 97% em ar ambiente  \n• **Peso:** 54 kg  \n• **IMC:** 18.5  \n\n\n**ECTOSCOPIA** • Paciente em regular estado geral, emagrecido, hipocorado (+/4+), hidratado, acianótico, anictérico e febril.  \n\n\n**APARELHO RESPIRATÓRIO** • Ausculta pulmonar com roncos e crepitações em ápice do hemitórax esquerdo.  \n\n\n**DEMAIS APARELHOS E SISTEMAS** • Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese da história da doença atual, perguntando sobre as características dos sintomas:**  \n(1) tosse e expectoração;  \n(2) febre;  \n(3) sudorese noturna;  \n(4) perda de peso OU hiporexia.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre antecedentes e fatores de risco relevantes:**  \n(1) comorbidades;  \n(2) hábitos (tabagismo, etilismo);  \n(3) contato com sintomáticos respiratórios.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta corretamente a radiografia de tórax, identificando a cavitação em ápice pulmonar esquerdo.**  \n\n**Adequado:** identifica a cavitação em ápice esquerdo.  \n**Parcialmente adequado:** identifica infiltrado ou alteração em ápice esquerdo, mas não descreve a cavitação.  \n**Inadequado:** não identifica a alteração ou a localiza incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula a hipótese diagnóstica de Tuberculose Pulmonar.**  \n\n**Adequado:** formula a hipótese de Tuberculose ou Tuberculose Pulmonar.  \n**Inadequado:** não formula a hipótese ou formula outra hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita o exame para confirmação diagnóstica.**  \n\n**Adequado:** solicita baciloscopia de escarro (pesquisa de BAAR).  \n**Inadequado:** não solicita ou solicita outro exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica o tratamento com o esquema básico para tuberculose (Rifampicina 600mg, Isoniazida 300mg, Pirazinamida 1600mg e Etambutol 1100mg).**  \n\n**Adequado:** indica o esquema com as 4 drogas e a dose adequada.  \n**Parcialmente adequado:** indica o tratamento com as 4 drogas, mas não indica ou indica incorretamente a dosagem.  \n**Inadequado:** não indica o tratamento ou indica tratamento incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta o paciente sobre pelo menos três possíveis efeitos adversos do tratamento.**  \n(1) manifestações gastrointestinais (náuseas/vômitos);  \n(2) alterações na pele (prurido/exantema);  \n(3) dores articulares;  \n(4) alterações visuais;  \n(5) urina/suor de cor avermelhada.  \n\n**Adequado:** orienta sobre três ou mais efeitos.  \n**Parcialmente adequado:** orienta sobre dois efeitos.  \n**Inadequado:** orienta sobre um ou nenhum efeito.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre as medidas de controle de transmissão.**  \n(1) uso de máscara;  \n(2) isolamento respiratório inicial;  \n(3) ventilação de ambientes.  \n\n**Adequado:** orienta sobre dois ou mais itens.  \n**Parcialmente adequado:** orienta sobre um item.  \n**Inadequado:** não orienta sobre nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza a necessidade de notificação compulsória do caso.**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

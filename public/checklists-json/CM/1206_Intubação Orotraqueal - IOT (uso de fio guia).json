@@ -1,0 +1,211 @@
+{
+  "uid": 1206,
+  "hash": "pepe_1206",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Intubação Orotraqueal - IOT (uso de fio guia)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:    \n• Sala de estabilização e pequenos procedimentos;  \n• raio-X, ultrassonografia, eletrocardiograma;  \n• laboratório e banco de sangue;\n\nDescrição do caso:\nVocê está de plantão em uma UPA e recebe um paciente trazido pelo SAMU que sofreu um acidente de motocicleta. O paciente apresenta rebaixamento do nível de consciência e as demais informações de acordo com sua ficha de atendimento abaixo:  \n\nFICHA DO PACIENTE:  \n\n\nSinais vitais:  \n• PA: 95x55 mmHg  \n• FC: 109 bpm  \n• FR: 17 irpm  \n• SatO2: 88%  \n• Glasgow: O=2, V=2, M=3, total= 7  \n• Pupilas isocóricas e fotoreagentes  \n\nPaciente já despido, sem lesões externas aparentes.  \nSe encontra instável hemodinamicamente e com obstrução aguda de vias aéreas.",
+  "tarefas": "- Realizar atendimento inicial preconizado pelo ATLS;  \n- Adotar a conduta médica necessária;  \n- Demonstrar procedimentos médicos, caso necessário;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Matheus, enfermeiro de plantão  \n\n\n**MOTIVO DA CONSULTA:**  \n• Chegou pelo SAMU agora e fizemos a triagem conforme o senhor(a) leu na ficha do paciente. Segundo o SAMU o acidente foi à 25 minutos;  \n\n\n**DEMAIS PERGUNTAS:**  \n• Não consta no Script    \n\n**INSTRUÇÕES:**  \n• Após o candidato realizar as manobras de liberação das vias aéreas OU verbalizar a manutenção do colar cervical (A do ABCDE), liberar o impresso **LIBERAÇÃO DE VIAS AÉREAS**;  \n• Após o candidato solicitar acesso venoso OU realizar a avaliação circulatória (C do ABCDE), liberar o impresso **ACESSO VENOSO**;  \n\n• Caso o candidato indique a necessidade de Intubação Orotraqueal (B do ABCDE), liberar o impresso **PROCEDIMENTO - IOT**;",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "LIBERAÇÃO VIAS AÉREAS",
+      "conteudo": "Coluna cervical estabilizada e vias aéreas liberadas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ACESSO VENOSO",
+      "conteudo": "Acessos venosos e infusão cristalóide realizada.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "PROCEDIMENTO - IOT",
+      "conteudo": "DESCREVA O PROCEDIMENTO.  \n\n*OBS.: neste procedimento, utilize o fio guia no momento pertinente*",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "FIXAÇÃO DA CÂNULA",
+      "conteudo": "TUDO FIXADO ADEQUADAMENTE.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "CONEXÃO AO VENTILADOR",
+      "conteudo": "PACIENTE CONECTADO AO VENTILADOR.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Estabiliza coluna cervical e libera vias aéreas.**  \n\n**Adequado:** mantém o paciente com colar cervical e realiza ao menos uma manobra de liberação de vias aéreas.  \n**Parcialmente adequado:** verbaliza apenas a manutenção do colar cervical ou apenas a liberação de vias aéreas (ao menos uma manobra).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Em casos de inconsciência, realizar as manobras de elevação do mento (chin-lift) \nou a tração da mandíbula (jaw-thrust) para liberar a via aérea.  "
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Avalia a capacidade ventilatória e circulatória, solicitando dois acessos venosos para infusão de solução salina.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Indica intubação orotraqueal baseada na escala de Glasgow.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza ventilação com máscara e AMBU com oxigênio (O2).**  \n\nObs: considerar **adequado** apenas se a fixação da máscara for feita com base para baixo, com vedação e ventilação adequadas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Monta e verifica laringoscópio.**  \n\nObs: considerar **adequado** apenas se houve montagem do aparelho e checagem do funcionamento da lâmpada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita cânula de tamanho adequado (número 7,5 a 9,0) e verifica balonete.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita o fio guia e posiciona de forma adequada.**  \n\nObs: considerar **adequado** apenas se o fio guia posicionado não exceder o comprimento do tubo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Segura o laringoscópio com a mão não dominante.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Posiciona o laringoscópio no local correto: rima bucal à direita do manequim, afasta a língua e expõe a cavidade orotraqueal adequadamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita o tubo orotraqueal sem desvio do olhar da cavidade orotraqueal do manequim, manuseando o tubo com a mão dominante e o introduzindo sob visão direta de via aérea.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita insuflação do balonete (cuff) após passagem do tubo orotraqueal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realiza a verificação clínica da posição da cânula, auscultando em 3 pontos: epigástrio, pulmão direito (ápice ou base); pulmão esquerdo (ápice ou base).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita material para fixação da cânula.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Solicita que o paciente seja conectado ao respirador.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

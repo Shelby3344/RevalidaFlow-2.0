@@ -1,0 +1,248 @@
+{
+  "uid": 1210,
+  "hash": "pepe_1210",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Abertura de pré-natal",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você é médico(a) de uma UBS.\n\nDescrição do caso:\nDESCRIÇAO DO CASO\n\nVocê é médico(a) de uma UBS e fará a consulta de uma paciente de 28 anos que trás consigo um teste de gravidez feito na farmácia e informa que deu positivo. A paciente deseja saber quando poderá fazer o ultrassom para confirmar o sexo do bebê.",
+  "tarefas": "TAREFAS:  \n\n- Realizar a primeira consulta pré-natal da paciente;  \n- Solicitar exame(s) complementar(es) pertinentes;  \n- Informar sobre a rotina do pré-natal;  \n- Calcular a idade gestacional e a data provável do parto;  \n- Responder as dúvidas da paciente;  \n\n\nATENÇÃO:  \nCONSIDERE QUE HÁ UM CALENDÁRIO E UMA CALCULADORA DISPONÍVEL  \n\nNÃO SERÁ NECESSÁRIO REALIZAR OU SOLICITAR EXAME FÍSICO",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Bruna, 28 anos, casada, assistente administrativa.  \n\n\n**MOTIVO DE CONSULTA:** Fiz um teste de gravidez de farmácia e deu positivo. Gostaria de saber se posso fazer o ultrassom pra confirmar.  \n\n\n**DEMAIS QUEIXAS:** só estou com um pouco de náuseas.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Cirurgias e internações:** nega.  \n• **VACINAÇÃO:** trouxe a caderneta de vacinação, quer ver?  \n• **Álcool, tabaco e drogas:** nega.  \n\n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** faz 21 dias.  \n• **Sexarca:** aos 17 anos.  \n• **Último PAP:** faz uns 10 meses. estava normal.  \n• **IST prévia ou ITU:** nega.  \n\n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** já tenho uma filha de 3 anos.  \n• **Gestação planejada:** sim.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Preciso tomar alguma vacina?*  \n• *A partir de quando posso saber o sexo do bebê?*  \n• *Como funciona a licença maternidade?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTÃO DE VACINAÇÃO",
+      "conteudo": "**ESQUEMA ADULTO**  \n\n\n**Hepatite B (Hb):** três doses.  \n\n**Dupla adulto (dT):** uma dose.  \n\n**Febre Amarela (FA):** uma dose.  \n\n**Tríplice viral (SCR):** duas doses.  \n\n**HPV tetravalente:** uma dose.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "BETA-HCG",
+      "conteudo": "• **Beta-HCG:** 22 mUI/ml (VR: < 5 mUI/ml = não indica gravidez)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. Apresenta-se à paciente como médico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. Solicita a identificação da paciente: nome completo, estado civil, profissão/trabalho, nível de instrução – pelo menos 3.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**2.1. Investiga a história reprodutiva:**  \n(1) número de gestações;  \n(2) número de partos;  \n(3) número de abortamentos;  \n(4) filhos vivos;  \n(5) data da última menstruação;  \n(6) sinais e sintomas de gravidez, etc.  \n\n**Adequado:** investiga aos menos quatro itens.  \n**Parcialmente adequado:** investiga três itens.  \n**Inadequado:** investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**2.2. Investiga a história ginecológica e sexual:**  \n(1) características do ciclo menstrual;  \n(2) início da atividade sexual;  \n(3) parceiros;  \n(4) infecções sexualmente transmissíveis.  \n\n**Adequado:** investiga ao menos três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga apenas um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**2.3. Antecedentes pessoais: Hipertensão arterial, Diabetes, doenças infecciosas e crônicas – pelo menos 2.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**2.4. Antecedentes familiares: Hipertensão arterial, Diabetes, doenças infecciosas e crônicas – pelo menos 2.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**2.5. Investiga se a gravidez é desejada.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**2.6. Investiga a realização de exames de prevenção de câncer de colo e imunização antitetânica.**  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**2.7. Investiga realização e frequência de atividade física e hábitos alimentares.**  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**2.8. Investiga tabagismo, uso de álcool e drogas ilícitas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**3.1. Informa à paciente sobre a rotina do pré-natal: cartão da gestante, sequência de consultas (6 consultas, no mínimo), atividades educativas.**  \n\n**Adequado:** informa os dois itens: que irá fornecer a caderneta da gestante e o número de consultas mínimas.  \n**Parcialmente adequado:** informa apenas um item: que irá fornecer a caderneta da gestante OU apenas o número de consultas mínimas.  \n**Inadequado:** não informa item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**3.2. Orienta sobre vacinação anti-tetânica (completar as 3 doses com dT, o mais precocemente possível).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "O esquema de vacinação completo da dupla adulto (dT) é de três doses. Assim, deve-se completar as 3 doses de acordo \ncom o histórico vacinal (devendo ser reforçada a cada intervalo de dez anos). \n\nSe a gestante não tiver três doses de dT:\n- Se não tomou nenhuma dose antes de engravidar, é necessário administrar duas doses da dupla adulto (dT), com um intervalo \nmínimo de 30 dias entre elas. Depois complementar com a dTpa a partir da 20ª semana de gestação (sempre após 30 dias da última dose de dT).\n\n- Para as que já receberam duas ou mais doses de dT, recomenda-se administrar apenas uma dose de dTpa a partir da 20ª semana de gestação."
+    },
+    {
+      "idx": 13,
+      "descricao": "**3.3. Informa sobre os exames da rotina pré-natal:**  \n(1) Hb/Ht;  \n(2) grupo sanguíneo e fator Rh;  \n(3) VDRL;  \n(4) glicemia em jejum;  \n(5) exame sumário de urina;  \n(6) sorologia anti-HIV;  \n(7) sorologia para hepatite B (HBsAg) e HCV;  \n(8) sorologia para toxoplasmose.  \n\n**Adequado:** indica realizar todos os exames.  \n**Parcialmente adequado:** indica realizar pelo menos sete exames.  \n**Inadequado:** indica realizar seis exames ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**3.4. Informa à paciente sobre confirmação da gravidez (teste imunológico de gravidez), calcula a idade gestacional (3 semanas) e a data prevista para o parto (40 semanas após DUM ou DUM + 7 dias – meses).**  \n\n**Adequado:** solicita o BHC-G, E calcula corretamente a IG e a DPP.  \n**Parcialmente adequado:** solicita o BHCG, E calcula corretamente a IG, OU a DPP.  \n**Inadequado:** não solicita o BHCG, OU solicita o BHCG e calcula a IG E a DPP incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "Cálculo da Idade Gestacional e DPP:\n\n* Idade Gestacional= Data de hoje - DUM.\nExemplo:\n- Data de hoje: 20/07\n- DUM: 29/06\n\nIG= 20/07 - 29/06= 21 dias\nIG= 21 dias÷7= 3 semanas\n\n* Data Provável do Parto= DUM + 280 dias; OU Somar 9 meses e 7 dias à DUM (Fórmula de Naegele). \nExemplo:\n- DUM: 29/06\n\nDPP= 29/06 + 9 meses= 29/03 (do próximo ano)\nDPP= 29/03 + 7 dias= 06/04\nDPP= 06/04 "
+    },
+    {
+      "idx": 15,
+      "descricao": "**3.5. Esclarece sobre a possível realização de Ultrassom, e que, então, há possibilidade de identificar o sexo, a partir da 16º semana de gravidez.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**3.6. Informa à paciente sobre os seus direitos trabalhistas para realizar a rotina do pré-natal e licença maternidade.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**3.7. Orienta a paciente quanto à alimentação e realização de exercícios físicos e atividade sexual.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**4.1. Interação respeitosa e empática com a paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**4.2. Confirma se há entendimento quanto às orientações.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

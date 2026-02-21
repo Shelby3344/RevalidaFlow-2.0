@@ -1,0 +1,149 @@
+{
+  "uid": 503,
+  "hash": "pepe_503",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Preenchimento da Declaração de Óbito",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária - Hospital.  \nContexto:  \n• Você é o(a) médico(a) responsável pelo plantão e está supervisionando um grupo de estudantes de medicina. Um paciente de 75 anos, que estava sob seus cuidados, acaba de falecer. Sua tarefa é descrever e orientar os estudantes sobre o preenchimento correto da Declaração de Óbito com base no histórico do paciente.\n\nDescrição do caso:\nPaciente C.E.S, masculino, 75 anos. Hipertenso há 43 anos, com tratamento irregular. Há 1 ano e meio, desenvolveu dispneia aos esforços e foi diagnosticado com cardiopatia hipertensiva. Há 2 meses, apresentou piora da dispneia, sendo diagnosticado com insuficiência cardíaca congestiva. Deu entrada no pronto-socorro há 8 horas com quadro de edema agudo de pulmão, falecendo após 5 horas de atendimento. Há 1 mês, foi também diagnosticado com câncer de próstata.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Preencher a Declaração de Óbito (verbalizando ou escrevendo na folha fornecida), especificando as causas da morte nas Partes I e II;  \n- Citar três fatores de risco modificáveis para doença cardiovascular.  \n\n\\\nATENÇÃO! ESTA ESTAÇÃO É PROCEDURAL E NÃO ENVOLVE ATENDIMENTO A PACIENTE SIMULADO.",
+  "script_ator": "**ATOR (ESTUDANTE DE MEDICINA):**  \n• Estudante do internato que está acompanhando o Médico(a) participante.  \n\n**FALA INICIAL:**  \n• Doutor(a), nós acompanhamos o caso do Sr. C.E.S. e agora precisamos entender como preencher a declaração de óbito. O senhor(a) poderia nos guiar no preenchimento correto, por favor? Como organizamos as causas da morte no documento?  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS (DO ESTUDANTE):**  \n• *1 - Com base no caso dele, qual doença colocamos na primeira linha (linha 'a') da Parte I?*  \n• *2 - E qual foi a doença que deu origem a tudo isso, a causa básica?*  \n• *3 - O câncer de próstata dele entra nessa sequência da Parte I ou deve ser colocado na Parte II?*  \n• *4 - Pensando no histórico cardiovascular dele, quais fatores de risco modificáveis que ele tinha, que o(a) senhor(a) destacaria como importantes?*  \n\n**Obs. (Entregar ao participante no início da estação a FOLHA DA DECLARAÇÃO DE ÓBITO).**  \n\n**APÓS O TÉRMINO DA ESTAÇÃO LIBERAR O IMPRESSO: RESUMO DA DECLARÃO DE ÓBITO PARA ESTUDO**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FOLHA DA DECLARAÇÃO DE ÓBITO",
+      "conteudo": "**OLHE PARA A CÂMERA E VERBALIZE COMO DEVERÁ SER PREENCHIDA A DECLARAÇÃO DE ÓBITO DO CASO CLÍNICO SIMULADO**",
+      "imagem": "img_printeds/e503p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "RESUMO DA DECLARÃO DE ÓBITO PARA ESTUDO",
+      "conteudo": "**IDENTIFICAÇÃO:**  \n• Paciente C.E.S, masculino, 75 anos.",
+      "imagem": "img_printeds/e503p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se ao estudante e demonstra disposição para orientá-lo.**  \n\n**Adequado:** Realiza as duas ações.  \n**Parcialmente adequado:** Realiza uma ação.  \n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Explica o objetivo da Parte I da Declaração de Óbito.**  \n\n**Adequado:** explica que a Parte I deve conter a cadeia de eventos que levou diretamente à morte, em uma sequência lógica do mais recente (linha a) para o mais antigo (causa básica, na última linha preenchida).  \n**Inadequado:** não consegue explicar a função da Parte I.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Preenche a linha 'a' (causa terminal/imediata da morte).**  \n\n**Adequado:** preenche a linha 'a' com \"Edema Agudo de Pulmão\".  \n**Inadequado:** não preenche a linha 'a' corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Preenche a linha 'b' (causa intermediária).**  \n\n**Adequado:** preenche a linha 'b' com \"Insuficiência Cardíaca Congestiva\".  \n**Inadequado:** não preenche a linha 'b' corretamente ou a deixa em branco.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Preenche a linha 'c' (causa intermediária).**  \n\n**Adequado:** preenche a linha 'c' com \"Cardiopatia Hipertensiva\".  \n**Inadequado:** não preenche a linha 'c' corretamente ou a deixa em branco.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Preenche a linha 'd' (causa básica da morte).**  \n\n**Adequado:** preenche a linha 'd' com \"Hipertensão Arterial Sistêmica\".  \n**Inadequado:** não preenche a linha 'd' corretamente, deixa em branco ou a preenche com a causa imediata.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica o objetivo da Parte II da Declaração de Óbito.**  \n\n**Adequado:** explica que a Parte II é destinada a outras condições significativas que contribuíram para a morte, mas que não fizeram parte da cadeia de eventos diretos descrita na Parte I.  \n**Inadequado:** não consegue explicar a função da Parte II.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Preenche a Parte II da Declaração de Óbito.**  \n\n**Adequado:** preenche a Parte II com \"Câncer de Próstata\".  \n**Inadequado:** não preenche a Parte II ou coloca o câncer na Parte I.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita três fatores de risco modificáveis para doença cardiovascular.**  \n(1) Hipertensão Arterial Sistêmica;  \n(2) Dislipidemia;  \n(3) Diabetes Mellitus;  \n(4) Tabagismo;  \n(5) Sedentarismo;  \n(6) Obesidade.  \n\n**Adequado:** cita três ou mais fatores.  \n**Parcialmente adequado:** cita dois fatores.  \n**Inadequado:** não cita os fatores ou cita apenas um.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Demonstra compreensão da lógica de preenchimento da Declaração de Óbito.**  \n\n**Adequado:** ao final, revisa a sequência preenchida, demonstrando a cadeia causal que vai do evento final (Edema Agudo de Pulmão) até a doença de base que iniciou todo o processo (Hipertensão Arterial Sistêmica).  \n**Inadequado:** não demonstra ter compreendido a lógica do preenchimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

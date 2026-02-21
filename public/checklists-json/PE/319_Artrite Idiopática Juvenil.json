@@ -1,0 +1,177 @@
+{
+  "uid": 319,
+  "hash": "pepe_319",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Artrite Idiopática Juvenil",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• laboratório de análises clínicas;  \n• setor de radiologia convencional.\n\nDescrição do caso:\nVocê é médico de uma UBS e atenderá uma menina de 4 anos, acompanhada pela mãe, com queixa de dor e inchaço no joelho há 2 meses.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da criança.  \n- Solicitar o exame físico específico pertinente ao caso.  \n- Solicitar os exames complementares adequados.  \n- Formular e verbalizar a hipótese diagnóstica principal.  \n- Orientar a conduta terapêutica inicial e o encaminhamento adequado.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Fernanda, 32 anos.  \n• **Criança:** Isabela, 4 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), trouxe a Isabela porque ela está com o joelho inchado e mancando há quase 2 meses.  \n\n**SOBRE A DOR:**  \n• **Início:** começou há quase 2 meses.  \n• **Localização:** é no joelho direito.  \n• **Característica:** ela acorda reclamando de dor, mas depois melhora um pouco.  \n• **Intensidade:** às vezes ela chora de dor, acho que é forte.  \n• **Rigidez matinal:** de manhã ela demora pra conseguir andar direito, fica durinha.  \n• **Atenuantes/agravantes:** melhora quando ela vai brincando durante o dia.  \n\n• **Trauma:** não teve queda nem bateu em nada.  \n• **Episódio anterior:** nunca teve isso antes.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Inchaço:** o joelho está bem inchado.  \n• **Vermelhidão:** está um pouco vermelho sim.  \n• **Febre:** não teve febre.  \n• **Manchas na pele:** nega.  \n• **Fadiga:** ela está mais cansada, não quer brincar como antes.  \n• **Perda de peso:** não percebi.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** não tem nada, é saudável.  \n• **Cirurgias e internações:** nunca ficou internada.  \n• **VACINAÇÃO:** está tudo em dia.  \n\n**ANTECEDENTES PERINATAIS:**  \n• **Semanas de gestação e via parto:** nasceu de 39 semanas, parto normal.  \n• **Pré-natal e intercorrências:** não teve problema nenhum.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Minha irmã tem lúpus.  \n• Minha mãe tem artrite reumatoide.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que minha filha tem, doutor(a)?*  \n• *Isso tem cura? Ela vai ficar com sequelas?*  \n• *Precisa de algum especialista?*  \n• *Ela pode continuar brincando normal?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência Cardíaca:** 98 batimentos por minuto.  \n**Frequência Respiratória:** 22 incursões respiratórias por minuto.  \n**Temperatura Axilar:** 36,8°C.  \n\n**Peso:** 16 kg (~Z-0).  \n**Altura:** 102 cm (Z-0 a Z+1).  \n\n\n**ECTOSCOPIA:**  \nBom estado geral, corada, hidratada, afebril, ativa.  \n\n\n**EXAME ARTICULAR:**  \nJoelho direito com aumento de volume, discreto calor local, sem eritema intenso. Limitação da extensão completa. Dor à mobilização passiva.  \n\nJoelho esquerdo, tornozelos, punhos e demais articulações sem alterações.  \n\n\n**Demais sistemas:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemoglobina:** 11,2 g/dL (VR: 11,5 – 14,5 g/dL)  \n• **Hematócrito:** 34% (VR: 35 – 45%)  \n• **Leucócitos:** 9.800/mm³ (VR: 5.000 – 15.000/mm³)  \n• **Plaquetas:** 420.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**PROVAS INFLAMATÓRIAS:**  \n• **VHS:** 48 mm/h (VR: < 20 mm/h)  \n• **PCR:** 2,8 mg/dL (VR: < 0,5 mg/dL)  \n\n\n**FUNÇÃO RENAL:**  \n• **Creatinina:** 0,4 mg/dL (VR: 0,3 – 0,7 mg/dL)  \n• **Ureia:** 22 mg/dL (VR: 10 – 40 mg/dL)  \n\n\n**FUNÇÃO HEPÁTICA:**  \n• **TGO:** 28 U/L (VR: 15 – 40 U/L)  \n• **TGP:** 22 U/L (VR: 10 – 40 U/L)  \n\n\n**MARCADORES IMUNOLÓGICOS:**  \n• **FAN:** Positivo 1:160 (padrão pontilhado fino)  \n• **Fator Reumatoide:** Negativo",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE JOELHO DIREITO",
+      "conteudo": "**LAUDO:**  \nAumento de partes moles periarticulares. Espaço articular preservado. Ausência de erosões ósseas ou lesões líticas. Superfícies articulares regulares. Sem sinais de fratura ou luxação.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe de maneira cordial;  \n(3) pergunta o nome da mãe e da criança.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor articular:**  \n(1) início ou duração;  \n(2) localização;  \n(3) intensidade;  \n(4) fatores de melhora ou piora;  \n(5) rigidez matinal;  \n(6) evolução ao longo do dia.  \n\n**Adequado:** pergunta quatro ou mais características.  \n**Parcialmente adequado:** pergunta duas ou três características.  \n**Inadequado:** pergunta uma característica ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sinais e sintomas associados:**  \n(1) febre;  \n(2) manchas ou erupções na pele;  \n(3) fadiga ou cansaço;  \n(4) perda de peso;  \n(5) acometimento de outras articulações.  \n\n**Adequado:** pergunta três ou mais sintomas.  \n**Parcialmente adequado:** pergunta dois sintomas.  \n**Inadequado:** pergunta um sintoma ou não pergunta sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga antecedentes relevantes:**  \n(1) trauma prévio;  \n(2) infecções recentes;  \n(3) histórico familiar de doenças autoimunes ou reumatológicas;  \n(4) alergias ou uso de medicações.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico articular, especificando:**  \n(1) inspeção articular;  \n(2) palpação articular;  \n(3) avaliação de amplitude de movimento;  \n(4) pesquisa de sinais flogísticos.  \n\n**Adequado:** solicita três ou mais parâmetros.  \n**Parcialmente adequado:** solicita dois parâmetros.  \n**Inadequado:** solicita um parâmetro ou não solicita parâmetro algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais pertinentes:**  \n(1) hemograma completo;  \n(2) provas de atividade inflamatória (VHS e/ou PCR);  \n(3) função renal (ureia e/ou creatinina);  \n(4) função hepática (TGO e/ou TGP);  \n(5) FAN (fator antinuclear);  \n(6) fator reumatoide.  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita dois ou três exames.  \n**Inadequado:** solicita um exame ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame de imagem da articulação acometida:**  \n\n**Adequado:** solicita radiografia ou ultrassonografia articular.  \n**Inadequado:** não solicita exame de imagem.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Formula a hipótese diagnóstica de Artrite Idiopática Juvenil:**  \n\n**Adequado:** verbaliza Artrite Idiopática Juvenil ou Artrite Reumatoide Juvenil.  \n**Inadequado:** não formula a hipótese diagnóstica ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta início de tratamento sintomático com anti-inflamatório não esteroidal:**  \n\n**Adequado:** orienta uso de AINEs.  \n**Inadequado:** não orienta tratamento sintomático ou prescreve corticoide sistêmico como primeira linha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a necessidade de avaliação oftalmológica periódica:**  \n\n**Adequado:** orienta avaliação com oftalmologista para rastreio de uveíte.  \n**Inadequado:** não orienta avaliação oftalmológica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica encaminhamento para reumatologista pediátrico:**  \n\n**Adequado:** indica encaminhamento para especialista.  \n**Inadequado:** não indica encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre a doença e seu acompanhamento:**  \n(1) explica que é uma doença crônica com possibilidade de controle;  \n(2) orienta necessidade de acompanhamento multidisciplinar;  \n(3) orienta manutenção do seguimento na UBS.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

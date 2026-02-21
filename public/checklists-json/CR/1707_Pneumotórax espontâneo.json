@@ -1,0 +1,232 @@
+{
+  "uid": 1707,
+  "hash": "pepe_1707",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Pneumotórax espontâneo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está em uma Unidade Básica de Saúde.\n\nDescrição do caso:\nVocê está em uma Unidade Básica de Saúde e atende um paciente que retorna após  \n2 dias de uma consulta durante a qual ele se queixou de leve dor torácica direita e  \ndesconforto respiratório súbito, mantendo os mesmos sintomas, porém com um  \npouco mais de intensidade. Traz consigo a radiografia de tórax solicitada pelo médico  \nque o atendeu na consulta anterior.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar o atendimento ao paciente;  \n- definir o diagnóstico;  \n- adotar a conduta médica necessária, verbalizando a(s) técnica(s)  \nprocedimentos e os encaminhamentos que se fizerem necessários.  \n\n\nNão será necessário realizar o exame físico.  \nCaso necessite, no momento adequado, solicite dados do exame fisico ao(à) examinador(a).",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marcos, 36 anos, agricultor.  \n\n\n**QUEIXA PRINCIPAL:** A dor que eu sentia no peito está mais forte e a falta de ar também.  \n\n\n**SOBRE A DOR TORÁCIA:**  \n• **Início:** Começou faz 3 dias, do nada. Mas agora está pior.  \n• **Localização:** do lado direito.  \n• **Irradiação:** não irradia.  \n• **Característica:** tipo uma fisgada quando respiro.  \n• **Intensidade:** 7/10.  \n• **Atenuantes/agravantes:** quando eu puxo ar dói.  \n\n• **Frequência:** primeira vez.  \n• **Trauma/quedas:** nega.  \n\n\n**SOBRE A DISPNEIA:**  \n• **Início:** começou junto com a dor. Isso aconteceu de repente.  \n• **Progressão:** começou leve e veio piorando.  \n• **Atenuantes/agravantes:** até parado está difícil respirar.  \n\n\n**DEMAIS SINTOMAS:**  \n• **Tosse, febre, náuseas, vômitos:** nega.  \n• **Ansiedade, agitação, nervosismo:** nega.  \n• **Cefaleia, perda consciência, astenia:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças, medicações, cirurgias e internações:** nega.  \n• **Álcool:** bebo aos finais de semana.  \n• **Tabaco:** fumo 1 maço de cigarro por dia. Comecei com 17 anos.  \n• **Drogas:** nega.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai tem pressão alta e fuma também.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS E ORIENTAÇÕES:**  \n• Dr(a), o que eu tenho?  \n• Porque eu tive isso?  \n• Pode acontecer isso de novo?  \n\nCaso o candidato indique a necessidade de drenagem ou toracocentese:  \n• Quais os riscos e benefícios desse procedimento?  \n\nCaso o candidato indique necessidade de encaminhamento ou avaliação por especialista, liberar impresso **PERGUNTAS DA REGULAÇÃO**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**RADIOGRAFIA ORTOSTÁTICA DE TÓRAX COM CÚPULA**",
+      "imagem": "img_printeds/2017-e7p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**EXAME TORÁCICO:**  \n- Ausência de frêmito toracovocal  \n- Murmúrio vesicular diminuído à direita  \n\n\n**SINAIS VITAIS:**  \n• **Frequência cardíaca:** 98 bpm  \n• **Frequência respiratória:** 26 irpm  \n• **Pressão arterial:** 110 x 70 mmHg  \n• **Temperatura axilar:** 36,2 °C  \n• **Saturação de oxigênio:** 92%",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "PERGUNTAS DA REGULAÇÃO",
+      "conteudo": "O médico regulador questiona e você deve ler as perguntas e respondê-las para o examinador e o videomaker:  \n\n\n•\tQuais os motivos do encaminhamento?  \n•\tQual(is) especialidade(s) solicitar para a avaliação do caso?  \n\n\nNo que diz respeito ao tipo de transporte, o médico regulador informa que a única Unidade  \nde Suporte Avançado (USA) está empenhada no transporte inter-hospitalar de um paciente grave  \ne deverá ficar ainda mais 4 horas envolvida neste caso. Assim, pergunta também:  \n\n\nNesta situação, qual o tipo de transporte a ser utilizado? Vai transportar pela unidade  \nde suporte básico ou irá esperar o suporte avançado?",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e cumprimento adequadamente o paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza o atendimento, identificando caracteristicas da dor torácica e da dispneia e**  \no tabagismo como fator de risco.  \n\n**Inadequado:** se não identificar os fatores de risco;  \n**Parcialmente adequado:** se identificar 1 ou 2 fatores de risco;  \n**Adequado:** se identificar os 3 fatores de risco.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Faz o diagnóstico de pneumotórax espontâneo.**  \n\n**Inadequado:** se não faz diagnóstico;  \n**Parcialmente adequado:** se diagnosticar apenas pneumotórax;  \n**Adequado:** se diagnosticar pneumotorax espontáneo.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.25",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Explica ao paciente, de forma adequada, os achados da anamnese (dor torácica,**  \ndispneia e tabagismo) e do exame fisico (ausência de murmúrio vesicular à direita),  \ncorrelacionando-os com as alteracoes de radiografia (pneumotorax com mais de 3  \ncm).",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Indica a aspiração do pneumotórax em hemitórax direito.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explica a aspiração devido ao tamanho do pneumotórax e aos sintomas do**  \npaciente: colabamento do pulmão 3cm de distância da parede torácica na linha do  \nhilo pulmonar e quadro clinico moderado.  \n\n**Inadequado:** se não mencionar os fatores;  \n**Parcialmente adequado:** se mencionar apenas 1fator;  \n**Adequado:** se mencionar os 2 fatores.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Detalha a técnica de aspiração de pneumotórax (punção após anestesia local no 4°**  \nou 5° espaçõ intercostal direito entre a linha axilar anterior e média).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Descreve a possibilidade de ser realizada a drenagem de tórax, caso a aspiração**  \ndo pneumotórax não seja efetiva.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Informe o paciente da necessidade de consentimento informado, explicando os**  \nriscos e benefícios do procedimento.  \n\n**Inadequado:** se não solicitar a assinatura e não orientar.  \n**Parcialmente adequado:** se disser apenas que o paciente precisa assinar o termo;  \n**Adequado:** se solicitar assinatura e orientar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explica as prováveis causas pneumotórax espontâneo ao paciente tabagismo,**  \nbolhas congenitas, infecções pulmonares previas.  \n\n**Inadequado:** se não explicar as causas;  \n**Parcialmente adequado:** se explicar apenas 1 causa;  \n**Adequado:** se explicar pelo menos 2 causas.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explica o risco de recorrência e possível indicacao cirurgica, se outro pneumotórax**  \nocorrer do mesmo lado.  \n\n**Inadequado:** se não explicar os fatores;  \n**Parcialmente adequado:** se explicar apenas 1 fator;  \n**Adequado:** se explicar os 2 fatores.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Fornece oxigênio por cateter de O2.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Decide pela necessidade de transferência do paciente para a realização dos**  \nprocedimentos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Faz contato com a Central de Regulação Médica de Urgência.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Justifica ao médico regulador a necessidade de transferência do paciente em**  \nrazão do quadro clinico, achado radiológico e indicação do procedimento.  \n\n**Inadequado:** se não explicar os fatores;  \n**Parcialmente adequado:** se explicar apenas 1fator;  \n**Adequado:** se explicar os 2 fatores.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Solicita ao médico regulador a avaliação da cirurgia geral, cirurgia torácica e/ou da**  \npneumologia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Informa ao médico regulador que o paciente pode ser transportado por**  \nambulância de suporte básico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "uid": 2115,
+  "hash": "pepe_2115",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Rastreio Câncer de Mama (reaplicação)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nVocê trabalha em uma Unidade Básica de Saúde (UBS).\n\nDescrição do caso:\nVocê trabalha em uma Unidade Básica de Saúde (UBS) e conduzirá uma consulta de rotina de  \numa mulher negra com 53 anos de idade, professora universitária, casada, mãe de um casal de  \nfilhos, residente próximo à UBS. Dados colhidos pela técnica de enfermagem na pré-consulta do dia:\n  \n• Motivo da consulta: exames periódicos de saúde;  \n• Peso: 70 kg  \n• Índice de massa corporal: 24,8 kg/m2;  \n• Pressão arterial: 125 X 75 mmHg;  \n• Frequência cardíaca: 62 batimentos por minuto;  \n• Temperatura: 36,2 C;  \n• Classificação de Risco - AZUL. Consulta agendada.",
+  "tarefas": "TAREFAS:  \n\nNos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar o atendimento da paciente, com comunicação clínica adequada;  \n- indicar a realização de exames clínicos e complementares pertinentes ao caso, atentando  \naos preceitos éticos;  \n- verbalizar as condutas e as orientações necessárias à paciente frente às dúvidas  \nelencadas por ela e aos elementos da historia clínica.",
+  "script_ator": "Ingrid, 53 anos, casada  \n\n**Motivo de consulta**:  \nvim para fazer os exames periódicos  \n\n**Menarca**:  \nAos 10 anos  \n\n**Gestações**:  \nTenho dois filhos, fiquei grávida do primeiro com 18 anos e do segundo com 22 anos  \n\n**História pessoal ou familiar de câncer**:  \nNinguem da minha família tem nenhum tipo de câncer  \n\n**Hábitos tóxicos**:  \nBebo uma cerveja somente quando vou em alguma festa nos fins de semana, deixei de fumar a 20 anos e nunca usei nenhum droga  \n\n**Prática de atividade física**:  \nSou bem parada, preciso melhorar esse aspecto da minha vida  \n\n**Terapia de reposição hormonal**:  \nNunca fiz  \n\n**Dúvidas**:  \n**PERGUNTA 1**: Dr(a) pode me explicar sobre o seguimento do Papanicolau em caso de que esteja tudo bem no meu exame?  \n**PERGUNTA 2**: Dr(a) quero saber sobre o seguimento da mamografia.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• Paciente em bom estado geral, hidratada, corada, pele e conjuntiva ocular normais.  \n• Ausculta cardiorrespiratória normal.  \n• Abdome sem visceromegalias ou dor à palpação superficial e profunda. Ruídos hidroaéreos presentes.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME CLÍNICO DAS MAMAS",
+      "conteudo": "• Mamas pêndulas, discretamente assimétricas (diferença quase imperceptível), sem abaulamentos ou retrações da pele. Não notados alterações dos mamilos, mastalgia, nódulo mamário ou descarga papilar.  \n• Linfonodos perimamários e axilares não palpáveis.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "• Vagina sem lesões ou corrimentos patológicos à ectoscopia.  \n• Exame especular: parede vaginal preservada, discretamente ressecada, colo e cérvice uterino sem alterações. Ausência de corrimento vaginal patológico ou sinais de infecções sexualmente transmissíveis.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta a paciente (1),**  \nidentifica-se de maneira cordial (2),  \nidentifica a paciente (3),  \npergunta (4) e  \nouve com atenção o motivo da consulta (5).  \n\n**Adequado:** realiza quatro ou cinco ações.  \n**Parcialmente adequado:** realiza duas ou três das ações.  \n**Inadequado:** realiza uma ou nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Estabelece contato visual e mantém postura empática ao longo da consulta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Nao interrompe a fala do outro desnecessariamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível, evitando termos técnicos de difícil compreensão.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Responde às perguntas da paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre fatores de risco aumentado para neoplasia de mama:**  \nenvelhecimento (idade > 50 anos)  \nI. fatores relacionados à vida reprodutiva da mulher (menarca precoce,  \nnuliparidade ou primeira gravidez após os 30 anos de idade);  \nIl. história pregressa ou familiar de câncer de mama;  \nIII. uso de álcool, tabaco (o tabaco é um fator com limitada evidência de  \naumento do risco de câncer de mama em humanos, mas merece atenção);  \nIV. excesso de peso, sedentarismo;  \nV. exposição à radiação ionizante;  \nVI. terapia de reposição hormonal (estrogênio-progesterona);  \n\n**Adequado:** pesquisa 4 ou mais fatores de risco.  \n**Parcialmente adequado:** pesquisa 2 ou 3 fatores de risco.  \n**Inadequado:** pesquisa 1 ou nenhum dos fatores de risco para neoplasia de mama.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre fatores de risco aumentado para neoplasia de colo uterino:**  \ntabagismo (1),  \nidade (2)  \ninfeção por HPV (3).  \n\n**Adequado:** pesquisa 2 ou mais fatores de risco.  \n**Parcialmente adequado:** pesquisa 1 fator de risco.  \n**Inadequado:** não realiza nenhuma pesquisa de fatores de risco para neoplasia de colo uterino.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a realização de exame físico (Impresso 1).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a realização de exame clínico das mamas (Impresso 2).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a realização de exame ginecológico (Impresso 3).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita a presença de outro profissional de saúde em sala,**  \npreferencialmente do sexo feminino, para a realização do exame  \nclínico das mamas e exame ginecológico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Interpreta adequadamente o resultado do exame clínico da**  \nmama: achados benignos e não sugestivos de neoplasia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Interpreta adequadamente o resultado do exame ginecológico:**  \nachados benignos e nao sugestivos de neoplasia ou de IST.  \n\n**Adequado:** interpreta adequadamente achados benignos não sugestivos de  \nneoplasia ou de IST.  \n**Parcialmente adequado:** menciona apenas um dos achados benignos (achados  \nbenignos e não sugestivos de neoplasia ou de IST).  \n**Inadequado:** não interpreta adequadamente os achados do exame, ou não  \ninterpreta os achados do exame.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Plano de seguimento adequado para Papanicolau:** retorno em 3  \nanos se achados benignos/normais.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Plano de seguimento adequado para Mamografia:** retorno em 2  \nanos se BI-RADS 1.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

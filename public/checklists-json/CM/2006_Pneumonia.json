@@ -1,0 +1,144 @@
+{
+  "uid": 2006,
+  "hash": "pepe_2006",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Pneumonia",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está em um consultório da Atenção Secundária.\n\nDescrição do caso:\nVocê está em um consultório da Atenção Secundária e vai atender um paciente do sexo  \nmasculino com 40 anos de idade.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar anamnese;  \n- analisar, interpretar e verbalizar os resultados dos exames apresentados pelo paciente  \nsimulado;  \n- estabelecer o diagnóstico;  \n- definir se há ou não necessidade de internação hospitalar.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Deivide, 40 anos de idade.  \n\n**MOTIVO DE CONSULTA**:  \n• Tive gripe na semana passada e de ontem pra hoje comecei a sentir calafrios, febre de 38 graus, uma tosse com catarro amarelado e uma dor aqui de lado nas costelas. Tambm me sinto desanimado.  \n\n**OUTROS SINTOMAS PERGUNTADOS**:  \n• Não consta no script.  \n\n**SE PERGUNTADO POR INGESTÃO DE MEDICAMENTOS**:  \n• Tomei 20 gotas de dipirona há 4 horas.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: nega.  \n• **Medicamentos**: nega.  \n• **Alergia**: nega.  \n• **Internação prévia**: nega.  \n\n**QUALQUER OUTRA PERGUNTA REALIZADA**:  \nNão consta no script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "• **FC:** 101 bpm  \n• **FR:** 20 irpm  \n• **PA:** 127 × 83 mmHg  \n• **Temperatura:** 38 °C  \n• **SpO₂:** 95% em ar ambiente",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "HEMOGRAMA",
+      "conteudo": "• **Hemoglobina:** 12 g/dL (VR = 11 a 13 g/dL)  \n• **Hematócrito:** 38% (VR = 37% a 41%)  \n• **Leucócitos:** 14.000/mm³ (VR = 7.000 a 9.000/mm³)  \n• **Neutrófilos:** 70% (VR = 10% a 20%)  \n\n\n**FUNÇÃO RENAL:**  \n• **Ureia:** NORMAL  \n• **Creatinina:** NORMAL",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**INTERPRETE A IMAGEM**",
+      "imagem": "img_printeds/2020-e6p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o paciente e se apresenta.**  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza apenas uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre o uso de medicação, atual ou anterior.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre hospitalização prévia.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre doenças crônicas.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais e radiografia de tórax.**  \n\n**Inadequado:** Não pede exames espontaneamente.  \n**Parcialmente adequado:** Solicita apenas um exame \n(impresso 2 ou 3).  \n**Adequado:** Solicita exames laboratoriais e radiografia de \ntórax.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta o hemograma, que apresenta leucocitose com desvio à**  \nesquerda.  \n\n**Adequado:** interpreta.  \n**Inadequado:** não interpreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta a radiografia de tórax, que demonstra uma imagem com padrão**  \nalveolar ou consolidação em terço inferior do hemitórax direito.  \n\n**Adequado:** interpreta.  \n**Inadequado:** não interpreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Informa ao paciente o diagnóstico de pneumonia.**  \n\n**Adequado:** informa.  \n**Inadequado:** não informa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Informa que o tratamento será ambulatorial.**  \n\n**Adequado:** informa.  \n**Inadequado:** não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

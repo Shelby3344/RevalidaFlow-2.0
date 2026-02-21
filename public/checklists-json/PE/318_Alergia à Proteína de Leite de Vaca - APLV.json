@@ -1,0 +1,171 @@
+{
+  "uid": 318,
+  "hash": "pepe_318",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Alergia à Proteína de Leite de Vaca - APLV",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - Unidade Básica de Saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico padrão.  \n• Sala de enfermagem.\n\nDescrição do caso:\nVocê está em seu consultório na UBS e atenderá uma mãe que traz seu filho de 4 meses de idade. Ela relata que a criança apresenta diarreia e manchas no corpo há cerca de um mês.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese detalhada.  \n- Solicitar e interpretar o exame físico da criança.  \n- Solicitar exames complementares pertinentes.  \n- Verbalizar a hipótese diagnóstica principal e citar diagnósticos diferenciais.  \n- Estabelecer a conduta terapêutica e as orientações de seguimento.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Sônia, 26 anos, caixa de supermercado.  \n• **Criança:** Lucas, 4 meses.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), o Lucas está com uma diarreia que não passa e o corpo todo empipocado.  \n\n**SOBRE A QUEIXA (DIARREIA E PELE):**  \n• **Início:** Começou faz um mês.  \n• **Frequência da diarreia:** Ele faz cocô umas 5 vezes por dia.  \n• **Característica das fezes:** É bem líquida e amarelada.  \n• **Relação com alimentação:** Eu reparei que é SEMPRE que ele mama, passa um pouco e dá a diarreia.  \n\n• **Pele:** Apareceram uns vergões vermelhos na barriga e nas pernas dele. E a boca dele fica inchada às vezes.  \n• **Assadura:** O bumbum dele está muito assado, não sara com nada.  \n\n**SINTOMAS RESPIRATÓRIOS:**  \n• **Rinorreia e tosse:** O nariz dele vive escorrendo e ele tem uma tosse seca sem catarro.  \n\n**ALIMENTAÇÃO:**  \n• **Aleitamento:** Eu tive problema pra amamentar no começo, então agora eu dou peito e leite de fórmula.  \n• **Leite de Fórmula:** Ele toma aquele NAN de 0 a 6 meses.  \n• **Mãe:** Eu como de tudo, adoro queijo, iogurte, tomo leite com café todo dia.  \n\n**ANTECEDENTES:**  \n• **Gestação e Parto:** Nasceu de 39 semanas, parto normal.  \n• **Peso:** Nasceu com 3,200 kg.  \n• **Família:** O pai dele tem rinite e asma.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ele tem, doutor(a)?*  \n• *Vou ter que trocar o leite dele?*  \n• *Essas manchas no corpo vão sair?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **Frequência Cardíaca:** 128 bpm.  \n• **Frequência Respiratória:** 38 irpm.  \n• **Temperatura:** 36,8°C.  \n• **Saturação O2:** 97% em ar ambiente.  \n• **Peso:** 5.800 kg (Ganho ponderal limítrofe).  \n\n\n**Ectoscopia:** Criança ativa, reativa, chorosa à manipulação.  \n\n\n• **Pele:** Presença de placas eritematosas e urticariformes (vergões) disseminadas em abdome e face anterior das coxas.  \n\n\n• **Região perianal:** Eritema intenso com descamação.  \n\n\n• **Face:** Edema leve de lábios e região perioral.  \n\n\n• **Oroscopia/Rinoscopia:** Hiperemia de mucosa nasal com rinorreia hialina. Oroscopia sem lesões.  \n\n\n• **Abdome:** Globoso, distendido, timpânico à percussão, ruídos hidroaéreos aumentados. Indolor à palpação superficial e profunda. Sem visceromegalias.  \n\n\n• **Aparelho Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Tosse seca ocasional durante o exame.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "HEMOGRAMA",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hb:** 11,5 g/dL  \n\n• **Leucócitos:** 8.500/mm³  \n• **Eosinófilos:** 8%  \n\n• **Plaquetas:** 350.000/mm³",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e pergunta o nome da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da queixa gastrointestinal:**  \n(1) tempo de início dos sintomas;  \n(2) frequência das evacuações;  \n(3) aspecto das fezes (cor, consistência, presença de sangue);  \n(4) relação temporal com a alimentação (após mamar).  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga manifestações extra-intestinais (pele e respiratório):**  \n(1) presença de manchas, vergões ou coceira (urticária/dermatite);  \n(2) inchaço em lábios ou olhos (angioedema);  \n(3) sintomas respiratórios (tosse, coriza, chiado);  \n(4) assaduras ou lesões perianais.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga um ou dois itens.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre o histórico alimentar:**  \n(1) qual fórmula está em uso (marca/tipo);  \n(2) se há aleitamento materno associado;  \n(3) dieta da mãe (consumo de leite e derivados).  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta um ou dois itens.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico com foco nos sistemas acometidos:**  \n(1) Pele/Ectoscopia (urticária, dermatite);  \n(2) Abdome (distensão);  \n(3) Região perianal (assaduras);  \n(4) Face/Boca (edema).  \n\n**Adequado:** solicita avaliação de três ou mais áreas.  \n**Parcialmente adequado:** solicita avaliação de uma ou duas áreas.  \n**Inadequado:** não solicita exame físico ou solicita de forma genérica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames complementares para confirmação diagnóstica:**  \n(1) Dosagem de IgE específica para leite de vaca e frações (ou RAST ou ImmunoCAP); OU,  \n(2) Prick Test (teste cutâneo de leitura imediata).  \n\n**Adequado:** solicita um dos exames específicos citados.  \n**Inadequado:** não solicita ou solicita apenas exames inespecíficos (hemograma, fezes).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza o diagnóstico principal:**  \n(1) Alergia à Proteína do Leite de Vaca (APLV);  \n\n**Adequado:** verbaliza diagnóstico.  \n**Inadequado:** não verbaliza ou erra o diagnóstico (ex: Intolerância à Lactose).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita diagnósticos diferenciais (ao menos 2):**  \n(1) Intolerância à lactose;  \n(2) Doença do Refluxo Gastroesofágico (DRGE);  \n(3) Gastroenterite aguda/infecciosa;  \n(4) Cólica do lactente;  \n(5) Doença Celíaca.  \n\n**Adequado:** cita dois ou mais diferenciais.  \n**Parcialmente adequado:** cita apenas um diferencial.  \n**Inadequado:** não cita diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Estabelece a conduta dietética para a criança (Tratamento não medicamentoso):**  \n(1) Suspender a fórmula atual (NAN/Leite de Vaca);  \n(2) Prescrever Fórmula Extensamente Hidrolisada OU Fórmula de Aminoácidos.  \n\n**Adequado:** realiza as duas orientações (suspensão e substituição correta).  \n**Parcialmente adequado:** suspende o leite mas prescreve fórmula inadequada (ex: soja, leite de cabra, sem lactose).  \n**Inadequado:** não orienta a mudança da dieta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a mãe em relação à dieta dela (caso mantenha aleitamento materno misto):**  \n(1) Exclusão de leite de vaca e derivados da dieta materna;  \n(2) Suplementação de Cálcio e Vitamina D para a mãe durante a restrição.  \n\n**Adequado:** orienta a exclusão e a suplementação.  \n**Parcialmente adequado:** orienta apenas a exclusão.  \n**Inadequado:** não orienta sobre a dieta materna.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve tratamento medicamentoso para os sintomas agudos/pele:**  \n(1) Anti-histamínico (ex: hidroxizina, desloratadina) para o prurido/urticária;  \n(2) Hidratante ou corticoide tópico de baixa potência para a dermatite.  \n\n**Adequado:** prescreve ao menos um item sintomático.  \n**Inadequado:** não prescreve sintomáticos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realiza o encaminhamento e orientações finais:**  \n(1) Encaminha ao Gastropediatra ou Alergista;  \n(2) Orienta sobre leitura de rótulos e risco de anafilaxia.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

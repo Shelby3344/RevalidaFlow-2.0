@@ -1,0 +1,178 @@
+{
+  "uid": 205,
+  "hash": "pepe_205",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Dissecção Aguda de Aorta",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Terciária à Saúde - Sala de Emergência Hospitalar.  \nTipo de atendimento: Urgência e Emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização contínua;  \n• Laboratório de análises clínicas e banco de sangue;  \n• Setor de imagem (Raio-X, ECG, Angiotomografia);  \n• Centro cirúrgico e UTI.\n\nDescrição do caso:\nHomem de 60 anos é admitido na emergência com queixa de dor torácica súbita e intensa, irradiada para o dorso, há 30 minutos.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar o exame físico direcionado;  \n- Formular as hipóteses diagnósticas;  \n- Solicitar e interpretar os exames complementares;  \n- Estabelecer a conduta terapêutica imediata.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Ricardo, 60 anos, arquiteto.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor no peito horrível, parece que está rasgando! Começou de repente.  \n\n**SOBRE A DOR:**  \n• **Início:** Faz meia hora, foi súbita, a pior dor da minha vida.  \n• **Localização:** Começou aqui no peito e agora está indo para as costas, entre as escápulas.  \n• **Característica:** É uma dor que rasga, não é aperto.  \n• **Intensidade:** 10/10.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Dormência:** Meus braços estão formigando, o esquerdo parece mais fraco.  \n• **Outros:** Estou suando frio e com náusea.  \n• **Nega:** Febre, tosse ou vômitos.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Eu tenho Síndrome de Marfan, faço acompanhamento.  \n• **Alergias:** Nenhuma.  \n• **Medicações:** Não tomo nenhum remédio de uso contínuo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Eu vou morrer?*  \n• *O que precisa ser feito agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Frequência Cardíaca:** 82 bpm  \n• **Frequência Respiratória:** 22 irpm  \n• **Saturação de Oxigênio:** 95% em ar ambiente  \n• **Temperatura Axilar:** 36,7°C  \n\n\n**PRESSÃO ARTERIAL:**  \n• **Membro Superior Direito (MSD):** 164 x 92 mmHg  \n• **Membro Superior Esquerdo (MSE):** 132 x 84 mmHg  \n\n\nPaciente em regular estado geral, pálido, ansioso e sudoreico.  \n\n• **Ausculta Cardíaca:** Bulhas rítmicas, normofonéticas, com presença de sopro diastólico (regurgitativo) em foco aórtico e aórtico acessório.  \n\n• **Ausculta Pulmonar:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Pulsos:** Pulsos periféricos assimétricos (radial esquerdo diminuído em amplitude comparado ao direito).  \n\n• **Perfusão:** Perfusão periférica em membros superiores lentificada (3 segundos).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ELETROCARDIOGRAMA (ECG)",
+      "conteudo": "**Laudo:** Ritmo sinusal, FC 80 bpm. Sinais de sobrecarga ventricular esquerda (Sokolow-Lyon > 35mm). Sem alterações agudas do segmento ST sugestivas de isquemia miocárdica.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX (AP)",
+      "conteudo": "**Laudo:** Alargamento do mediastino superior. Contorno aórtico proeminente. Áreas pulmonares sem consolidações ou derrames evidentes.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ANGIOTOMOGRAFIA DE TÓRAX",
+      "conteudo": "**Laudo:** Presença de \"flap\" intimal na aorta ascendente, separando lúmen verdadeiro de falso lúmen. O achado é compatível com Dissecção de Aorta tipo A de Stanford.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Troponina I:** 0,02 ng/mL (VR: < 0,04 ng/mL)  \n• **CK-MB:** 2,1 ng/mL (VR: < 5,0 ng/mL)  \n• **Dímero-D:** 1.800 ng/mL (VR: < 500 ng/mL)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, investigando as características da dor torácica:**  \n(1) início (súbito);  \n(2) localização (precordial);  \n(3) irradiação (dorso/interescapular);  \n(4) característica (rasgando/lancinante);  \n(5) intensidade (forte/10).  \n\n**Adequado:** investiga quatro ou mais características.  \n**Parcialmente adequado:** investiga duas ou três características.  \n**Inadequado:** investiga uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga fatores de risco e sintomas associados:**  \n(1) antecedentes (Síndrome de Marfan, Hipertensão Arterial);  \n(2) sintomas neurológicos (síncope, dormência, paresia);  \n(3) sintomas de má perfusão (palidez, sudorese).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita a aferição da pressão arterial nos dois membros superiores.**  \n\n**Adequado:** solicita a aferição bilateral da PA.  \n**Inadequado:** não solicita a aferição bilateral ou solicita em apenas um membro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita a avaliação dos pulsos periféricos e da perfusão.**  \n\n**Adequado:** solicita a palpação de pulsos nos quatro membros (ou pulsos radiais e femorais) E a verificação da perfusão capilar.  \n**Parcialmente adequado:** solicita apenas a avaliação dos pulsos OU apenas da perfusão.  \n**Inadequado:** não solicita nenhum dos dois.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita a ausculta cardíaca.**  \n\n**Adequado:** solicita a ausculta cardíaca (buscando sopro de insuficiência aórtica).  \n**Inadequado:** não solicita a ausculta cardíaca.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a principal hipótese diagnóstica.**  \n\n**Adequado:** verbaliza a hipótese de Dissecção Aguda de Aorta.  \n**Parcialmente adequado:** verbaliza a hipótese de Síndrome Aórtica Aguda.  \n**Inadequado:** não formula a hipótese ou cita apenas IAM ou TEP.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita os exames complementares de imagem e ECG.**  \n(1) Eletrocardiograma (ECG);  \n(2) Radiografia de Tórax;  \n(3) Angiotomografia de Tórax (ou Ecocardiograma Transesofágico).  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica as medidas gerais e de suporte imediatas.**  \n(1) monitorização cardíaca contínua (PA, FC, SatO2);  \n(2) obtenção de dois acessos venosos periféricos calibrosos;  \n(3) analgesia intravenosa (ex: Morfina).  \n\n**Adequado:** indica as três medidas.  \n**Parcialmente adequado:** indica duas medidas.  \n**Inadequado:** indica uma ou nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o controle agressivo da pressão arterial e frequência cardíaca, definindo os alvos terapêuticos.**  \n\n**Adequado:** indica o uso de Beta-bloqueador IV (ex: Metoprolol) E vasodilatador IV (ex: Nitroprussiato de Sódio), E define os alvos (PAS 100-120 mmHg e FC < 60 bpm).  \n**Parcialmente adequado:** indica as medicações (Beta-bloqueador e Vasodilatador), mas não define os alvos.  \n**Inadequado:** não indica as duas classes de medicação ou indica apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica a conduta definitiva.**  \n\n**Adequado:** solicita avaliação urgente da equipe de cirurgia cardíaca ou cirurgia vascular para tratamento cirúrgico imediato.  \n**Inadequado:** não solicita avaliação cirúrgica urgente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

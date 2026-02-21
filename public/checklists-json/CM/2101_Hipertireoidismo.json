@@ -1,0 +1,122 @@
+{
+  "uid": 2101,
+  "hash": "pepe_2101",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Hipertireoidismo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Atendimento ambulatorial na Atençao Primária.\n\nDescrição do caso:\nAtendimento ambulatorial na Atençao Primária de um homem de 35 anos de idade, chamado Fábio,  \nque se queixa de nos últimos tempos sentir-se muito irritado e ansioso. Está sempre incomodado  \ncom o calor, perdeu 15Kg em 3 semanas e seus colegas de trabalho passaram a chamá-lo de \"olho  \nde peixe\" (\"olhos saltados\").",
+  "tarefas": "TAREFAS:  \n\nNos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- dirigir-se à mesa do consultório;  \n- ler o relato da anamnese descrita em folha na mesa do consultório;  \n- comentar o exame físico específico;  \n- responder aos questionamentos do paciente simulado;  \n- estabelecer o diagnóstico e fazer orientação adequada.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Fábio, 35 anos, pedreiro, casado.  \n\n**MOTIVO DE CONSULTA**:  \n• Faz uns 6 meses que me sinto muito irritado e ansioso, tenho calor o tempo todo e perdi 15Kg em 3 semanas. Percebi também que meus olhos estão muito grandes.  \n\n**QUALQUER PERGUNTA QUE FOR REALIZADA SOBRE OS SINTOMAS DO MOTIVO DE CONSULTA**:  \n• Não consta no script.  \n\n**SINTOMAS ASSOCIADOS**:  \n• Negar todos.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: nega.  \n• **Transtornos psiquiátricos**: nega.  \n• **Medicamentos**: nega.  \n• **Alergias**: nega.  \n\n**HÁBITOS**:  \n• **Cigarro**: fumo 1 maço por dia há 3 anos.  \n• **Álcool**: bebo cerveja nos finais de semana.  \n• **Drogas**: nega.  \n\n**DÚVIDAS:**  \n• *Vou precisar de algum exame?*  \n• *Tem algum tratamento pra isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n**PA:** 160 mmHg x 70 mmHg  \n**FC:** 130 bpm  \n**Sat O2:** 95% em ar ambiente  \n\n\nBEG, corado, hidratado, eupneico, afebril, acianótico, anictérico, tremor de extremidades e exoftalmia bilateral.  \n\n\n**Exames de palpação de tireoide:** nota-se bócio difuso.  \n**Aparelho Respiratório:** sem alterações.  \n**Aparelho Cardiovascular:** taquicardia sinusal, sem sopros, sem arritmias.  \n**Abdome:** sem alterações.",
+      "imagem": "img_printeds/2021-e1p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**TSH:** 0,001 mUI/L (VR: 0,34 – 5,60)  \n**T4 livre:** 2,7 ng/dL (VR: 0,54 – 1,24)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ULTRASSOM DE TIREÓIDE",
+      "conteudo": "Lobos tireoidianos tópicos, de morfologia globosa e contornos lobulados. Parênquima com ecogenicidade reduzida e ecotextura difusamente heterogênea.  \nNota-se aumento de suas dimensões que apresenta componente mergulhante.  \nNão há evidências de nódulos na topografia das paratireoides. Estruturas vasculares cervicais preservadas. Ausência de linfonodomegalias cervicais.  \n\n\n**CONCLUSÃO:** **BÓCIO DIFUSO DA TIREOIDE.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se;  \n(2) Cumprimenta o paciente simulado.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** não realiza nenhuma ação ou realiza apenas 1 item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza perguntas pertinentes ao caso:**  \n(1) Uso de medicamentos;  \n(2) Drogas ilícitas;  \n(3) Doenças;  \n(4) Presença de transtornos psiquiátricos (exceto sintomas de ansiedade e de  \nirritabilidade).  \n\n**Adequado:** pergunta os 4 itens.  \n**Parcialmente adequado:** pergunta 2 ou 3 itens.  \n**Inadequado:** pergunta apenas 1 item ou não pergunta nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames laboratoriais de hormônios tireoideanos (validar se solicitar**  \nexplicitamente hormônios tireoideanos, ou TSH e T4 livre).  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita ecografia da glândula tireoide.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Hipótese diagnóstica: Faz o diagnóstico de hipertireoidismo.**  \n\n**Adequado:** faz.  \n**Inadequado:** não faz.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita o tratamento clínico:**  \n\n**Adequado:** cita Betabloqueadores (Propranolol, atenolol, metoprolol) ou  \nbloqueador canal de cálcio (verapamil, ou diltiazem) e tionamidas:  \npropiltiouracil, metimazol (esses se for doença de Graves).  \n**Parcialmente adequado:** cita pelo menos tionamidas: propiltiouracil, metimazol  \n(esses se for doença de Graves).  \n**Inadequado:** não cita nenhum tratamento medicamentoso ou cita tratamento  \ninadequado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

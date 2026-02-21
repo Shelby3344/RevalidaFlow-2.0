@@ -1,0 +1,114 @@
+{
+  "uid": 1708,
+  "hash": "pepe_1708",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Prevenção de acidentes à criança",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está em um consultório da Unidade Básica de Saúde .\n\nDescrição do caso:\nVocê está em um consultório da Unidade Básica de Saúde e atende uma criança do  \nsexo feminino com 2 meses de vida. Em consulta de puericultura, a mãe mostra-se  \nangustiada porque sua filha engasgou com o leite materno. Ela também está  \ninsegura com algumas rotinas do cuidado com a criança.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- explicar e demonstrar como a mãe da criança deve agir em caso de engasgo do  \nbebê;  \n- aconselhar a mãe a prevenir lesões não intencionais na criança, relacionadas a  \nmorte súbita, queimaduras, acidentes automobilísticos e quedas.  \n\n\nNão será necessário realizar o exame físico.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Eloíza, 20 anos.  \n• **Criança:** Valentina, 2 meses.  \n\n\n**QUEIXA PRINCIPAL:** Vim pra tirar umas dúvidas. Não sei se estou dando a atenção certa pra Valentina. Essa semana ela se engasgou com o leite e eu não sabia o que fazer.  \nQueria alguns conselhos sobre os cuidados com ela, porque é minha primeira filha.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• Como eu faço pra desengasgar o bebê?  \n• Como posso prevenir a morte súbita?  \n• E como evitar queimaduras?  \n• Como levar a Valentina no carro?  \n• Sobre quedas, como posso prevenir?",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se, cumprimenta e acolhe a mãe.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Demonstra, explicando por meio de termos que a mãe possa entender, os quatro**  \npassos de desobstrução de vias aéreas:  \nPasso 1 - Posicionar a criança de bruçõs no antebraçõ, apoiando-a na coxa, com a  \ncabeça mais baixa que o tórax/corpo.  \n\nPasso 2 - Aplicar cinco pancadas/golpes/tapas entre as escapulas/no meio das  \ncostas/entre os ombros, com a mão/\"calcanhar da mão\".  \n\nPasso 3 - Colocar o outro antebraçõ nas costas da criança e virá-la, manter a cabeça  \nda crianca em nivel inferior ao torax, sempre apoiando o braco sobre a coxa.  \n\nPasso 4 - Fazer, então, cinco compressões torácicas com dois dedos, sobre o osso  \ncentral do peito (esterno).  \n\n**Inadequado:** se demonstrar e explicar 1 ou nenhum passo;  \n**Parcialmente adequado:** se demonstrar e explicar 2 ou 3 passos;  \n**Adequado:** se demonstrar e explicar os 4 passos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.5",
+        "adequado": "3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Explica que,**  \n(1) caso a criança melhore durante a manobra, a mãe deve pará-la;  \n(2) caso a criança não melhore, a mãe deve repetir os passos até a melhora;  \n(3) caso a criança desmaie, a mãe deve chamar ajuda e iniciar respiração boca a  \nboca nariz e compressões torácicas.  \n\n**Inadequado:** se não explicar nenhuma condição;  \n**Parcialmente adequado:** se explicar apenas 1 ou 2 destas condições;  \n**Adequado:** se explicar as 3 condições.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Orienta corretamente o modo de prevenção de morte súbita:**  \n1) colocar o bebê para dormir sempre no berçõ e  \n2) colocar o bebê para dormir com a barriga para cima (posição supina).  \n\n**Inadequado:** se não fornecer nenhuma orientação;  \n**Parcialmente adequado:** se fornecer apenas 1 orientação;  \n**Adequado:** se fornecer as 2 orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explica corretamente o modo de prevenção de queimaduras:** testar a temperatura  \nda água antes de colocar o bebê em uma banheira.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explica corretamente o modo de prevenção de acidentes automobilisticos com**  \ncriancas com menos de 1 ano de idade: utilizar cadeira de seguranca do tipo bebê  \nconforto, no banco traseiro, voltada para o vidro traseiro do carro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta corretamente sobre a prevenção de quedas:**  \n1) manter sempre uma mão segurando o bebê no trocador, se precisar pegar algo  \ndurante a troca de fraldas;  \n2) nunca deixar o bebê sozinho em mesas, camas ou outros móveis, mesmo que seja  \npor pouco tempo.  \n\n**Inadequado:** se não fornecer nenhuma orientação;  \n**Parcialmente adequado:** se fornecer apenas 1 orientação;  \n**Adequado:** se fornecer as 2 orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Utiliza linguagem adequada, sem termos técnicos, durante toda a orientação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

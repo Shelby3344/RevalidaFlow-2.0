@@ -1,0 +1,177 @@
+{
+  "uid": 2415,
+  "hash": "pepe_2415",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Acidente por animal peçonhento - Lonomia/Lagarta",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: atendimento ambulatorial - unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n* consultório médico e salas de procedimentos e observação.  \n\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.\n\nDescrição do caso:\nVocê é médico(a) em uma UBS em uma cidade de médio porte localizada na região metropolitana de uma grande capital brasileira.  \nVocê atenderá uma mulher com 40 anos de idade com queixa de dor de cabeça, mal estar geral e dor intensa em queimação na pele do braço direito.",
+  "tarefas": "TAREFAS: \n\n*Nos 10 minutos de duração da Estação, você deverá executar as seguintes tarefas:  \n* Realizar a anamnese dirigida à queixa principal da paciente.  \n* Solicitar exame físico do membro afetado.  \n* Verbalizar e explicar o diagnóstico.  \n* Pactuar plano de cuidado com a paciente usando método clínico centrado na pessoa.  \n* Avaliar a necessidade de adoção de outras medidas sanitárias.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Camila, 40 anos, Casada, Cuidadora de idosos.  \n\n**Motivo de consulta:**  \nDoutor(a) Hoje pela manhã, enquanto estava podando árvores no quintal, senti uma dor forte e súbita no braço direito.  \n\n**Sobre a Dor:**  \n• **Tempo de evolução:** A dor começou há aproximadamente cinco horas.  \n• **Localização:** Braço direito.  \n• **Intensidade:** 8/10 na escala de dor, É uma dor intensa.  \n• **Características:** Do tipo queimação.  \n• **Irradiação:** Está se espalhando pelo braço; o local da lesão é sensível ao toque.  \n• **Progressão dos sintomas:** Está piorando com o tempo.  \n• **Fatores de melhora ou piora:** Lavei o local e coloquei gelo, mesmo assim a dor piorou.  \n\n**Fatores Desencadeantes:**  \n• **Contato com planta, produto químico, inseto ou bicho:** Uma lagarta encostou no meu braço.  \n• **Higienização do local:** Logo após o incidente, lavei o local lesionado e coloquei gelo, mesmo assim a dor piorou.  \n• **Uso de medicamentos:** Não ingeri remédios.  \n\n**Sintomas Associados:**  \n• **Mal-estar geral:** Sim  \n• **Dor de cabeça:** Sim  \n• **Náuseas:** Sim  \n• **Vômitos:** Nega  \n• **Outros sintomas:** Não apresento outros sintomas.  \n\n**Antecedentes Pessoais / Patológicos:**  \n• **Comorbidades:** Não tenho problemas de saúde.  \n• **Alergias:** Não consta no Script.  \n• **Cirurgia prévia:** Não consta no Script.  \n\n**Hábitos:**  \n• **Tabagismo:** Nega  \n• **Etilismo:** Nega   \n• **Drogas ilícitas:** Nega  \n\n**DÚVIDAS:**  \n• *Como está o meu braço? O que eu tenho é grave?*  \n• *Como vamos tratar o meu braço?*  \n• *Por que devo ser internada? Estou correndo risco de vida?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Pressão Arterial:** 128 × 95 mmHg.  \n**Frequência Cardíaca:** 98\tbatimentos\tpor\tminuto.  \n**Frequência Respiratória:** 38 incursões respiratórias por minuto.  \nAbdome normotenso e indolor à palpação.  \nAusculta cardíaca e respiratória inalteradas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME DA LESÃO",
+      "conteudo": "**Braço direito:** lesões puntiformes, eritematosas, edemaciada e dolorosas nos pontos de inoculação das cerdas e adenomegalia regional dolorosa. Bolhas e necrose cutânea superficial não visualizadas.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "IMAGEM DA LAGARTA",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e5p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) cumprimenta a paciente simulada;  \n(2) identifica-se; e,  \n(3) dirige-se a ela pelo nome, pelo menos uma vez.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza apenas duas ações.  \n**Inadequado:** realiza apenas uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Demonstra empatia com a paciente:**  \n(1) estabelece contato visual; e,  \n(2) mantém postura atenta e interessada ao longo da consulta.  \n  \n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Escuta ativamente a fala da paciente, sem interrompê-la.**  \n\n**Adequado:** realiza a ação.   \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão.**  \n\n**Adequado:** utiliza linguagem acessível.  \n**Inadequado:** não utiliza linguagem acessível.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta se a paciente teve contato direto com:**  \n(1) animais ou insetos;  \n(2) produtos químicos;  \n(3) plantas alergênicas.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta um ou dois itens.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre as características da dor:**  \n(1) tempo desde o início do quadro;  \n(2) tipo de dor;  \n(3) localização e irradiação;  \n(4) intensidade ou graduação;  \n(5) fatores de melhoria;  \n(6) fatores de agravamento; e,  \n(7) uso de medicamentos.  \n\n**Adequado:** pergunta cinco ou mais características.  \n**Parcialmente adequado:** pergunta três ou quatro características.  \n**Inadequado:** pergunta uma ou duas características ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre as características das manifestações locais:**  \n(1) evolução da lesão cutânea desde o início do quadro; e,  \n(2) linfoadenopatia.  \n\n**Adequada:** pergunta sobre as duas manifestações locais.  \n**Parcialmente adequado:** pergunta sobre uma manifestação local.  \n**Inadequado:** não pergunta manifestação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Pergunta sobre manifestações sistêmicas:**  \n(1) cefaleia;  \n(2) mal-estar;  \n(3) náuseas ou vômito ou dor abdominal; e,  \n(4) gengivorragia ou equimoses espontâneas ou traumáticas ou epistaxe ou hematúria ou hematêmese ou hemoptise.  \n\n**Adequado:** pergunta quatro manifestações.  \n**Parcialmente adequado:** pergunta três manifestações.  \n**Inadequado:** pergunta uma ou duas manifestações ou não pergunta sobre manifestação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza o diagnóstico de acidente com lagarta:**  \n\n**Adequado:** verbaliza.  \n**Parcialmente adequado:** verbaliza acidente com animal peçonhento.  \n**Inadequado:** não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica ou propõe a prescrição de:**  \n(1) analgésico;  \n(2) anti-histamínico sistêmico;  \n(3) infiltração local com anestésico do tipo lidocaína 2% sem vasoconstritor.  \n\n**Adequado:** realiza duas ou mais ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explica à paciente:**  \n(1) Sobre a necessidade de encaminhamento para serviço hospitalar de referência para soroterapia de acidentes por animais peçonhentos;  \n(2) A potencial gravidade ou risco de morte pelo acidente lonômico.  \n\n**Adequado:** explica os dois itens.  \n**Parcialmente adequado:** explica um item.  \n**Inadequado:** não explica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Notifica o caso.**  \n\n**Adequado:** notifica.    \n**Inadequado:** não notifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

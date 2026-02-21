@@ -1,0 +1,193 @@
+{
+  "uid": 412,
+  "hash": "pepe_412",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Candidíase Vulvovaginal Recorrente",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: UBS - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• sala de procedimentos;  \n• acesso a exames de análises clínicas pela rede municipal.\n\nDescrição do caso:\nVocê é médico(a) em uma UBS e atenderá uma paciente de 27 anos com queixa de corrimento vaginal de repetição.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese ginecológica direcionada.  \n- Solicitar e interpretar o exame físico, caso necessário.  \n- Formular e comunicar a hipótese diagnóstica e os diagnósticos diferenciais.  \n- Solicitar exames complementares pertinentes.  \n- Orientar a conduta terapêutica.  \n- Orientar medidas preventivas e esclarecer as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carla, 27 anos, dona de casa, casada.  \n\n**MOTIVO DE CONSULTA:** Dr(a), estou com um corrimento na vagina que está me incomodando muito. Isso já aconteceu várias vezes e eu estou cansada.  \n\n**SOBRE O CORRIMENTO:**  \n• **Tempo de evolução:** dessa vez começou há uns 15 dias.  \n• **Aspecto:** é bem grosso, parece leite coalhado.  \n• **Cor:** bem branquinho.  \n• **Cheiro:** não tem cheiro, não fede.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Prurido:** coça muito, principalmente à noite.  \n• **Dispareunia:** sim, dói na hora quando estou assim.  \n• **Disúria:** dói muito, arde.  \n• **Sangramento vaginal:** não tenho sangramento.  \n\n**EPISÓDIOS ANTERIORES:**  \n• **Recorrência:** já estou cansada de usar creme vaginal e tomar fluconazol. Melhora uns dias e depois volta tudo de novo.  \n• **Quantidade nos últimos 12 meses:** foram muitas vezes, mais de 5 com certeza.  \n• **Tratamento prévio:** sempre me dão fluconazol dose única e creme vaginal por 7 dias.  \n\n**FATORES PREDISPONENTES:**  \n• **Hábitos de higiene:** costumo sair da academia e ir direto para minha aula de inglês, três vezes por semana.  \n• **Produtos íntimos:** uso sabonete íntimo todos os dias.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** há 20 dias.  \n• **Ciclos menstruais:** regulares.  \n• **Menarca:** aos 11 anos.  \n• **Sexarca:** aos 17 anos.  \n• **Parceiro:** tenho parceiro fixo, meu marido.  \n\n• **Papanicolau:** fiz dois exames, com intervalo de um ano, os dois normais. O último foi há 1 ano, estava normal.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS (após receber o diagnóstico):**  \n• *Como eu peguei isso? Foi meu marido que me passou?*  \n• *Por que isso fica voltando?*  \n• *Isso não pode ser outra coisa?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**SINAIS VITAIS:**  \n• **PA:** 112 x 78 mmHg.  \n• **FC:** 76 batimentos por minuto.  \n• **FR:** 14 incursões respiratórias por minuto.  \n• **Temp.:** 36,4°C.  \n• **Sat.O²:** 98% a.a.  \n\n\n**EXAME CLÍNICO:**  \nBom estado geral, corada, hidratada, acianótica, anictérica, afebril.  \n\n\n• **DEMAIS SISTEMAS:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "**INSPEÇÃO DA VULVA:**  \nVulva com hiperemia difusa, edema de pequenos lábios, presença de escoriações por coçadura, presença de placas brancas aderidas à mucosa.  \n\n\n**EXAME ESPECULAR:**  \nParedes vaginais hiperemiadas, com presença de secreção branca, espessa, grumosa, aderida às paredes vaginais, de aspecto \"em leite coalhado\".  \nColo uterino de aspecto normal, sem lesões, orifício externo fechado.",
+      "imagem": "img_printeds/e412p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e mantém postura adequada durante a consulta:**  \n(1) identifica-se e cumprimenta a paciente;  \n(2) dirige-se a ela pelo nome ao menos uma vez;  \n(3) mantém postura empática e acolhedora; e,  \n(4) utiliza linguagem acessível.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características do corrimento vaginal:**  \n(1) tempo de evolução;  \n(2) aspecto e consistência;  \n(3) cor;  \n(4) odor; e,  \n(5) fatores de melhora ou piora.  \n\n**Adequado:** investiga quatro ou mais características.  \n**Parcialmente adequado:** investiga duas ou três características.  \n**Inadequado:** investiga uma característica ou não investiga característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas associados:**  \n(1) prurido vulvovaginal;  \n(2) dispareunia;  \n(3) disúria; e,  \n(4) sangramento vaginal.  \n\n**Adequado:** investiga três ou mais sintomas.  \n**Parcialmente adequado:** investiga dois sintomas.  \n**Inadequado:** investiga um sintoma ou não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga a recorrência do quadro:**  \n(1) pergunta sobre episódios semelhantes prévios; e,  \n(2) pergunta sobre o número de episódios nos últimos 12 meses.  \n\n**Adequado:** investiga os dois itens (é necessário perguntar especificamente sobre os últimos 12 meses).  \n**Parcialmente adequado:** investiga apenas sobre episódios prévios sem especificar o período.  \n**Inadequado:** não investiga sobre recorrência.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga fatores predisponentes para candidíase vulvovaginal:**  \n(1) diabetes mellitus;  \n(2) uso de antibióticos recente;  \n(3) uso de corticoides ou imunossupressores;  \n(4) infecção pelo HIV ou imunodeficiência;  \n(5) uso de contraceptivos orais;  \n(6) hábitos de higiene e vestuário que aumentem umidade local; e,  \n(7) uso de produtos irritantes (sabonetes íntimos, duchas, perfumes).  \n\n**Adequado:** investiga quatro ou mais fatores.  \n**Parcialmente adequado:** investiga dois ou três fatores.  \n**Inadequado:** investiga um fator ou não investiga fator algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga antecedentes ginecológicos:**  \n(1) data da última menstruação;  \n(2) vida sexual e parceria;  \n(3) uso de preservativo; e,  \n(4) data e resultado do último Papanicolau.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame ginecológico e identifica os achados compatíveis com candidíase:**  \n(1) hiperemia vulvar e vaginal;  \n(2) edema de pequenos lábios;  \n(3) secreção branca, espessa, grumosa (aspecto de leite coalhado).  \n\n**Adequado:** solicita e identifica dois ou três achados.  \n**Parcialmente adequado:** solicita e identifica um achado.  \n**Inadequado:** não solicita ou não identifica nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a hipótese diagnóstica de Candidíase Vulvovaginal Recorrente.**  \n\n**Adequado:** verbaliza o diagnóstico completo (candidíase vulvovaginal recorrente).  \n**Inadequado:** verbaliza apenas \"candidíase\" sem mencionar a recorrência ou não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza diagnósticos diferenciais:**  \n(1) vaginose bacteriana;  \n(2) tricomoníase;  \n(3) dermatite de contato ou vulvar;  \n(4) líquen escleroso;  \n(5) vaginite citolítica;  \n(6) vulvodínia; e,  \n(7) herpes genital.  \n\n**Adequado:** verbaliza três ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** verbaliza dois diagnósticos diferenciais.  \n**Inadequado:** verbaliza um diagnóstico ou não verbaliza diagnóstico algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita exames complementares para investigar causas predisponentes:**  \n(1) glicemia de jejum ou hemoglobina glicada; e,  \n(2) teste rápido para HIV ou sorologia.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve o tratamento de indução adequado:**  \n(1) Fluconazol 150 mg, via oral, nos dias 1, 4 e 7; OU  \n(2) Itraconazol 200 mg, via oral, 12/12h, por 1 dia; OU  \n(3) Miconazol ou Clotrimazol creme vaginal por 10 a 14 dias.  \n\n**Adequado:** prescreve corretamente uma das opções de tratamento de indução (medicação, dose e posologia).  \n**Parcialmente adequado:** prescreve a medicação correta, mas com dose ou posologia incompleta.  \n**Inadequado:** não prescreve ou prescreve tratamento inadequado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Prescreve o tratamento de manutenção adequado:**  \n(1) Fluconazol 150 mg, via oral, 1 vez por semana, por 6 meses; OU  \n(2) Miconazol ou Clotrimazol creme vaginal, 2 vezes por semana, por 6 meses; OU  \n(3) Óvulo vaginal de antifúngico, 1 vez por semana, por 6 meses.  \n\n**Adequado:** prescreve corretamente uma das opções de tratamento de manutenção (medicação, dose e duração).  \n**Parcialmente adequado:** prescreve a medicação correta, mas com dose ou duração incompleta.  \n**Inadequado:** não prescreve ou prescreve tratamento inadequado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Informa que a candidíase não é uma Infecção Sexualmente Transmissível e que o parceiro não precisa ser tratado rotineiramente.**  \n\n**Adequado:** informa corretamente.  \n**Inadequado:** não informa ou informa incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta sobre modificação de hábitos que predispõem à candidíase:**  \n(1) trocar a roupa íntima após atividade física, evitando permanecer com roupas úmidas;  \n(2) evitar uso de sabonetes íntimos, duchas vaginais ou produtos perfumados;  \n(3) preferir roupas íntimas de algodão e evitar roupas apertadas;  \n(4) Evitar usar roupas molhadas.  \n\n**Adequado:** orienta duas ou mais medidas.  \n**Parcialmente adequado:** orienta uma medida.  \n**Inadequado:** não orienta medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "uid": 1110,
+  "hash": "pepe_1110",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Puericultura 7 dias/Aleitamento materno",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê está em uma Unidade Básica de Saúde - UBS e atenterá uma mãe com um bebê com 7 dias de vida. A mãe refere que o RN está com diarreia líquida e perdendo peso e não sabe o que fazer.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:    \n- Realizar a anamnese sobre o motivo de consulta;  \n- Indagar sobre condições do RN no momento do parto;  \n- Investigar sobre a amamentação;  \n- Orientar sobre higiene, retornos e vacinação;  \n- Orientar sobre dúvidas da mãe.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Juliana, 25 anos, diarista.    \n• **RN:** Lucas, 1 semana de vida.   \n\n**QUEIXA PRINCIPAL:** O Lucas está tendo muita diarreia. E acho que ele está perdendo peso também.  \n**SOBRE DIARREIA:**  \n• **Início:** há 3 dias.  \n• **Qtd. de evacuações:** 4 vezes por dia.  \n• **Aspecto:** líquida e pastosa, meio branca e amarela. Parece que é todo o leite que ele toma.  \n• **Muco, pus ou sangue:** nega.  \n• **Constipação:** nega.  \n\n\n**OUTROS SINTOMAS:** vejo que ele chora muito. A minha mãe disse que é cólica.  \n\n\n**AMAMENTAÇÃO:** Estou amamentando só no peito, mas ele mama pouco. Acho que ele não está se alimentando direito.  \n• **uso de mamadeira ou chupeta:** por enquanto só estou dando leite no peito mesmo.  \n\n\n**SOBRE O MOMENTO DO PARTO:**  \n• **IG:** 38 semanas.  \n• **Via:** foi parto normal. tive alta no outro dia.  \n• **Choro:** chorou sim.  \n• **Respiração:** respirou bem.  \n• **Tônus:** a médica falou que ele estava bem fortinho.  \n• **Cianose:** no começo tava me roxinho, mas logo depois ficou mais rosado.  \n\n• **VACINAÇÃO:** ele já tomou da BCG e Hepatite B.  \n\n\n**DÚVIDAS:**   \n• *Ele está chorando muito doutor(a)! Será que ele está tendo muitas cólicas?*   \n• *A minha mãe falou pra eu dar chá pro Lucas. Posso dar chá pra melhorar as cólicas?*   \n• *e como eu faço pra dar banho, limpar o umbigo e limpeza na troca de fralda?*  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.   \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• caso o candidato indague sobre o momento do parto, pergunte: *O que você gostaria de saber sobre o parto?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA CRIANÇA",
+      "conteudo": "",
+      "imagem": "img_printeds/2011-e10p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 70x45 mmHg  \n• **FC:** 120 bpm  \n• **FR:** 40 irpm  \n• **SatO2:** 98%  \n• **Temp. axilar:** 36.8° C  \n• **PESO ATUAL:** 2.700g    \n\n\n**Tônus muscular:** Presente, com flexão dos membros.  \n**Reatividade:** Responde bem a estímulos, choro vigoroso.  \n**Coloração da pele:** Rosada, sem palidez ou cianose.  \n**Hidratação:** Mucosas úmidas, sem sinais de desidratação.  \n**Lesões ou manchas:** Presença de manchas mongólicas fisiológicas, sem lesões anormais.  \n\n\n**Umbigo:** Em processo de cicatrização normal, sem sinais de infecção.  \n**Fontanelas:** Anterior e posterior normais, macias e planas.  \n**Boca:** Palato íntegro, sucção eficaz.  \n\n\n**Abdome:** Flácido, sem distensão, sem massas.  \n**Genitais externos:** Normais para idade e sexo.  \n\n\n**Demais exames:** sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. Identifica-se à mãe do RN como médico e a cumprimenta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. Solicita dados de identificação da criança (data de nascimento, nome) e o cartão da criança.**  \n\n**Adequado:** Solicita a identificação e o cartão da criança.  \n**Parcialmente adequado:** solicita apenas a identificação da criança.  \n**Inadequado:** não identifica e não solicita o cartão da criança.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**2.1. Investiga o motivo de consulta e os hábitos intestinais do RN (número e aspecto das evacuações, ocorrência de cólicas).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**2.2. Investiga como ocorreu o parto e as condições da criança ao nascer (idade gestacional, choro ao nascer, respiração, tônus, cianose), buscando confirmar o APGAR descrito na ficha de informações da criança.**  \n\n**Adequado:** questiona sobre os 5 itens: IG, choro, respiração, tônus e cianose.  \n**Parcialmente adequado:** questiona pelo menos 3 itens.  \n**Inadequado:** questiona somente 2 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**2.3. Investiga a adequação do aleitamento materno (produção de leite, qualidade da mamada).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**2.4. Investiga uso de mamadeiras, chupetas, chás, água, formulações infantis (pelo menos 3).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**2.5. Investiga se a criança tornou as vacinas (BCG e Hepatite B).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**3.1. Orienta a mãe sobre aleitamento materno exclusivo, em livre demanda e a tranquiliza sobre, as evacuações líquidas, cólicas e perda de peso do RN.**  \n\n**Adequado:** orienta o aleitamento exclusivo E explica sobre os 3 itens: evacuações, cólicas e a perda de peso.  \n**Parcialmente adequado:** orienta o aleitamento exclusivo E explica pelo menos 2 itens.  \n**Inadequado:** não orienta o aleitamento, ou orienta o aleitamente e explica somente 1 ou nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "As cólicas estão presentes como sintoma no RN geralmente após a segunda ou terceira semana. O motivo das cólicas na primeira semana pode ser outro:  \n - Fome (mais comum); \n - Fralda suja; \n - Frio ou calor; \n - Necessidade de sono; \n - Outros. "
+    },
+    {
+      "idx": 9,
+      "descricao": "**3.2. Orienta sobre os cuidados gerais (banho, queda do umbigo, higiene da região perianal, sono) e sobre retornos, destacando periodicidade e calendário de vacinação.**  \n\n**Adequado:** orienta sobre os 3 itens: cuidados gerais, periodicidade da puericultura e o calendário vacinal.  \n**Parcialmente adequado:** orienta somente sobre dois itens.  \n**Inadequado:** orienta sobre um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**3.3. Pergunta se a mãe tem alguma dúvida sobre o que lhe foi explicado.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**4.1. Comunica-se com linguagem acessível.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**4.2. Escuta atentamente a mãe do RN.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**4.3. Interage com respeito à mãe do RN.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

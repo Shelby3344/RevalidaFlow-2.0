@@ -1,0 +1,194 @@
+{
+  "uid": 146,
+  "hash": "pepe_146",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "EVALI - Lesão Pulmonar Associada ao uso de Cigarro Eletrônico",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• setor de diagnósticos por imagens;  \n• laboratório de análises clínicas;  \n• leitos de internação e unidade de terapia intensiva.\n\nDescrição do caso:\nVocê está de plantão em um hospital e atenderá um paciente com 23 anos que procura atendimento com queixa de falta de ar e tosse há 5 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Formular e verbalizar a hipótese diagnóstica principal e 3 diagnósticos diferenciais.  \n- Estabelecer a conduta terapêutica adequada.  \n- Orientar o paciente sobre os cuidados necessários.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Lucas, 23 anos, estudante universitário.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com muita falta de ar e uma tosse que não passa.  \n\n**SOBRE A DISPNEIA:**  \n• **Início:** começou há uns 5 dias.  \n• **Intensidade:** está bem forte, não consigo nem subir escada.  \n• **Em repouso ou atividade:** agora está ruim até parado.  \n• **Dor torácica:** sinto um desconforto no peito, mais quando respiro fundo.  \n• **Atenuantes/agravantes:** nada melhora, piora quando faço esforço.  \n• **Episódio anterior:** nunca tive isso antes.  \n\n**SOBRE A TOSSE:**  \n• **Início:** veio junto com a falta de ar.  \n• **Expectoração:** às vezes sai um catarro claro.  \n• **Hemoptise:** não, nunca saiu sangue.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** estou com febre há 3 dias, chega a 39°C.  \n• **Náuseas e vômitos:** vomitei umas 2 vezes ontem.  \n• **Perda de peso:** perdi uns 3 quilos essa semana.  \n\n**NEGAR OUTROS SINTOMAS:**  \n• Coriza, dor de garganta ou sintomas gripais.  \n• Edema de membros inferiores.  \n• Palpitações ou desmaios.  \n\n**HÁBITOS:**  \n• **Tabagismo:** uso vape faz uns 2 anos, todo dia.  \n• **Tipo de produto:** uso um líquido que tem nicotina.  \n• **Álcool:** bebo nos fins de semana, umas cervejas.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Vou precisar ficar internado?*  \n• *Posso voltar a usar o vape depois que melhorar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Pressão Arterial:** 100 x 60 mmHg.  \n**Frequência Cardíaca:** 118 batimentos por minuto.  \n**Frequência Respiratória:** 32 incursões respiratórias por minuto.  \n**Saturação de Oxigênio em ar ambiente:** 85%.  \n**Temperatura Axilar:** 39°C.  \n\n\n**EXAME CLÍNICO:**  \nRegular estado geral, agitado, em desconforto respiratório, febril, acianótico, anictérico, alerta e orientado.  \n\n**Respiratório:** Murmúrio vesicular diminuído em ambas as bases pulmonares, com estertores crepitantes difusos bilateralmente. Uso de musculatura acessória presente.  \n\n**Cardiovascular:** Ritmo cardíaco regular, bulhas normofonéticas, sem sopros.  \n\n**Abdominal:** Abdome plano, flácido, ruídos hidroaéreos presentes, indolor à palpação superficial e profunda.  \n\n**Extremidades:** Sem edema, pulsos periféricos presentes e simétricos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME DE IMAGEM",
+      "conteudo": "Infiltrados pulmonares bilaterais difusos com padrão de vidro fosco.",
+      "imagem": "img_printeds/e146p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemácias:** 4,5 milhões/mm³ (VR: 4,3 – 5,8 milhões/mm³)  \n• **Hemoglobina:** 14,2 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Hematócrito:** 42% (VR: 39 – 52%)  \n• **Leucócitos:** 15.340/mm³ (VR: 4.000 – 10.000/mm³)  \n• **Neutrófilos:** 80% (VR: 40 – 70%)  \n• **Bastões:** 3% (VR: 0 – 5%)  \n• **Linfócitos:** 10% (VR: 20 – 50%)  \n• **Plaquetas:** 179.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n• **Proteína C Reativa (PCR):** 85 mg/L (VR: < 10 mg/L)  \n• **Procalcitonina:** 0,08 ng/mL (VR: < 0,1 ng/mL)  \n\n\n**GASOMETRIA ARTERIAL:**  \n• **pH:** 7,30 (VR: 7,35 – 7,45)  \n• **PaCO₂:** 60 mmHg (VR: 35 – 45 mmHg)  \n• **PaO₂:** 52 mmHg (VR: 80 – 100 mmHg)  \n• **HCO₃:** 28 mEq/L (VR: 22 – 26 mEq/L)  \n• **BE:** +3 (VR: -2 a +2)  \n• **SatO₂:** 84% (VR: 95 – 100%)  \n\n\n• **Creatinina:** 0,9 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 32 mg/dL (VR: 10 – 50 mg/dL)  \n\n• **Sódio:** 138 mEq/L (VR: 135 – 145 mEq/L)  \n• **Potássio:** 4,0 mEq/L (VR: 3,5 – 5,0 mEq/L)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "PAINEL VIRAL RESPIRATÓRIO",
+      "conteudo": "• **RT-PCR para SARS-CoV-2 (COVID-19):** Negativo (VR: Negativo)  \n• **RT-PCR para Influenza:** Negativo (VR: Negativo)  \n• **RT-PCR para Vírus Sincicial Respiratório:** Negativo (VR: Negativo)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características dos sintomas respiratórios:**  \n(1) tempo de início da dispneia;  \n(2) intensidade ou gravidade;  \n(3) relação com esforço ou repouso;  \n(4) fatores de melhora;  \n(5) fatores de piora;  \n(6) presença de tosse;  \n(7) características da expectoração.  \n\n**Adequado:** investiga cinco ou mais características.  \n**Parcialmente adequado:** investiga três ou quatro características.  \n**Inadequado:** investiga duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas associados relevantes para o diagnóstico diferencial:**  \n(1) febre ou calafrios;  \n(2) náuseas ou vômitos;  \n(3) diarreia ou dor abdominal;  \n(4) dor torácica;  \n(5) hemoptise;  \n(6) perda de peso;  \n(7) sintomas gripais (coriza, odinofagia).  \n\n**Adequado:** investiga cinco ou mais sintomas.  \n**Parcialmente adequado:** investiga três ou quatro sintomas.  \n**Inadequado:** investiga dois ou menos sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga o uso de cigarro eletrônico ou produtos de vaporização:**  \n(1) uso atual ou recente de vape;  \n(2) tipo de produto utilizado (nicotina, THC, canabidiol);  \n(3) frequência e duração do uso;  \n(4) forma de inalação (tragada profunda ou superficial).  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga antecedentes pessoais e hábitos:**  \n(1) doenças prévias ou comorbidades;  \n(2) medicamentos de uso contínuo;  \n(3) alergias medicamentosas;  \n(4) tabagismo convencional;  \n(5) uso de álcool ou outras substâncias.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dos ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame físico e interpreta os achados:**  \n\n**Adequado:** solicita exame físico E interpreta corretamente os sinais de gravidade (hipoxemia, taquipneia, desconforto respiratório, crepitações bilaterais).  \n**Parcialmente adequado:** solicita exame físico, mas interpreta de forma incompleta.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames complementares pertinentes:**  \n(1) hemograma;  \n(2) marcadores inflamatórios (PCR e/ou procalcitonina);  \n(3) gasometria arterial;  \n(4) radiografia de tórax OU TC de tórax;  \n(5) painel viral respiratório (COVID-19 ou Influenza);  \n(6) função renal e eletrólitos.  \n\n**Adequado:** solicita cinco ou mais exames.  \n**Parcialmente adequado:** solicita três ou quatro exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta corretamente os exames complementares:**  \n(1) identifica leucocitose com neutrofilia;  \n(2) identifica PCR elevada com procalcitonina normal (sugestivo de etiologia não bacteriana);  \n(3) identifica insuficiência respiratória na gasometria (hipoxemia e hipercapnia).  \n\n\n**Adequado:** interpreta corretamente dois ou três achados.  \n**Parcialmente adequado:** interpreta corretamente um achado.  \n**Inadequado:** não interpreta achado algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza a hipótese diagnóstica principal:**  \n(1) EVALI (E-cigarette or Vaping product use-Associated Lung Injury) OU Lesão pulmonar associada ao uso de cigarro eletrônico; E  \n(2) Insuficiência respiratória aguda.  \n\n**Adequado:** verbaliza os dois diagnósticos.  \n**Parcialmente adequado:** verbaliza apenas um dos diagnósticos.  \n**Inadequado:** não verbaliza diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza diagnósticos diferenciais:**  \n(1) pneumonia viral;  \n(2) pneumonia bacteriana;  \n(3) COVID-19;  \n(4) pneumonia eosinofílica aguda;  \n(5) pneumonite por hipersensibilidade.  \n\n**Adequado:** verbaliza três ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** verbaliza dois diagnósticos diferenciais.  \n**Inadequado:** verbaliza um ou não verbaliza diagnóstico diferencial algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Estabelece conduta terapêutica inicial adequada:**  \n(1) oxigenoterapia suplementar ou suporte ventilatório;  \n(2) corticoterapia sistêmica (metilprednisolona ou prednisona);  \n(3) antibioticoterapia empírica até exclusão de infecção bacteriana;  \n(4) monitorização contínua dos sinais vitais;  \n(5) internação hospitalar (enfermaria ou UTI conforme gravidade).  \n\n**Adequado:** indica quatro ou mais condutas.  \n**Parcialmente adequado:** indica duas ou três condutas.  \n**Inadequado:** indica uma conduta ou não indica conduta alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre a cessação do uso de cigarro eletrônico:**  \n\n**Adequado:** orienta que o paciente deve interromper completamente e permanentemente o uso de cigarro eletrônico e produtos de vaporização.  \n**Inadequado:** não orienta sobre a cessação ou orienta de forma incompleta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre o acompanhamento e cuidados após a alta:**  \n(1) acompanhamento ambulatorial para monitorização da função pulmonar;  \n(2) encaminhamento para reabilitação pulmonar;  \n(3) encaminhamento para serviço de apoio à cessação (CAPS-AD, programa de tabagismo ou equipe multidisciplinar);  \n(4) orientação sobre mudanças no estilo de vida (atividade física, alimentação saudável).  \n\n**Adequado:** orienta três ou mais cuidados.  \n**Parcialmente adequado:** orienta dois cuidados.  \n**Inadequado:** orienta um cuidado ou não orienta cuidado algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

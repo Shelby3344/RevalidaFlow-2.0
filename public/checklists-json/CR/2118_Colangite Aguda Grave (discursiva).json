@@ -1,0 +1,166 @@
+{
+  "uid": 2118,
+  "hash": "pepe_2118",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Colangite Aguda Grave (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - Unidade de Pronto Atendimento (UPA).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de estabilização e pequenos procedimentos;  \n• Raio-X, ultrassonografia, eletrocardiograma;  \n• Laboratório de análises clínicas;  \n• Banco de sangue;\n\nDescrição do caso:\nVocê está de plantão numa UPA e receberá uma mulher de 50 anos, trazida por familiares devido a um quadro de confusão mental. A paciente vinha com dores abdominais episódicas há alguns meses e que o quadro piorou nos últimos dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese com o familiar da paciente;  \n- Solicitar e interpretar o exame físico da paciente;  \n- Solicitar e interpretar os exames complementares disponíveis;  \n- Estabelecer a principal hipótese diagnóstica;  \n- Instituir a conduta terapêutica inicial para o caso;  \n- Informar o familiar sobre o seguimento.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Acompanhante:** Filho, Lúcio, 25 anos.  \n• **Paciente:** Vera, 50 anos, casada, do lar.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), nós a trouxemos porque ela ficou muito confusa de madrugada. Não reconhecia e estava reclamando muito de dor na barriga.  \n\n**SOBRE A DOR ABDOMINAL:**  \n• **Início:** Começou há 3 dias.  \n• **Localização:** Ela tem essas dores na barriga, do lado direito.  \n• **Irradiação:** não irradia.  \n• **Característica:** É uma dor que ficou contínua e não passava com nada.  \n• **Episódio anterior/Frequência:** Vêm e vai faz uns 4 meses isso.   \n• **Atenuantes/agravantes:** Antes ela tomava um buscopan e melhorava. Mas nesses últimos 3 dias não adiantou. Agora ela está tomando cetoprofeno, mas também não resolveu.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Icterícia:** Ontem nós vimos que a pele e os olhos dela estavam bem amarelos.  \n• **Febre:** Sim, ontem ela começou com febre alta.  \n• **Náuseas/vômitos:** ela vomitou hoje uma vez.  \n• **Confusão mental:** Essa noite ela piorou, ficou agitada, falando coisas sem sentido.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e Medicações:** Nenhuma que eu saiba.  \n• **Cirurgias:** Nunca operou.  \n• **Álcool e tabaco:** Ela não fuma e bebe só de vez em quando, em festas.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que minha mãe tem? É muito grave?*  \n• *Essa confusão mental é por causa da febre?*  \n• *As pedras na vesícula que ela tem podem ter causado tudo isso?*  \n• *Qual o tratamento? Ela vai precisar de cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "\\\r\n**Sinais vitais:**  \r\n• **PA:** 80x60 mmHg  \r\n• **FC:** 106 bpm  \r\n• **FR:** 22 irpm  \r\n• **SatO2:** 95% em ar ambiente  \r\n• **Temp. axilar:** 39.7° C  \r\n• **IMC:** 32 kg/m²  \r\n\r\n\\\r\n**Ectoscopia:** paciente em regular estado geral, desorientada no tempo e espaço, ictérica (4+/4+).  \r\n\r\n\\\r\n**Cardiovascular:** ritmo cardíaco taquicárdico, regular, em dois tempos, bulhas normofonéticas, sem sopros.  \r\n\r\n\\\r\n**Respiratório:** murmúrio vesicular presente universalmente, sem ruídos adventícios.  \r\n\r\n\\\r\n**Abdominal:** abdome globoso, doloroso à palpação em hipocôndrio direito; Reage com movimentos de defesa à palpação profunda; Ausência de sinais de irritação peritoneal.  \r\n\r\n\\\r\n**Neurológico:** confusão mental, sem sinais de focalização. Escala de Coma de Glasgow 13 (Abertura Ocular 4, Resposta Verbal 4, Resposta Motora 5).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "\\\r\n**HEMOGRAMA**  \r\n• **Hemoglobina:** 12.5 g/dL (VR: 12 - 16 g/dL)  \r\n• **Leucócitos:** 18.500/mm³ (VR: 4.000-11.000/mm³)  \r\n• **Bastões:** 10% (VR: 0-5%)  \r\n• **Plaquetas:** 155.000/mm³ (VR: 150.000-450.000/mm³)  \r\n\r\n\\\r\n• **Proteína C Reativa (PCR):** 350 mg/L (VR: < 5 mg/L)  \r\n\r\n\\\r\n• **Bilirrubinas Totais:** 8.5 mg/dl (VR: 0,2 - 1,1 mg/dl)  \r\n• **Bilirrubina Direta:** 7.0 mg/dl (VR: 0,1 - 0,4 mg/dl)  \r\n• **TGO (AST):** 250 U/l (VR: 15 – 40 U/l)  \r\n• **TGP (ALT):** 310 U/l (VR: 10 – 40 U/l)  \r\n• **Fosfatase Alcalina (FA):** 650 U/l (VR: 30 – 100 U/l)  \r\n• **Gama GT (GGT):** 720 U/l (VR: 8 – 78 U/l)  \r\n\r\n• **Amilase:** 155 U/L (20 - 160 U/L)  \r\n• **Lipase:** 175 U/L (0 - 160 U/L)  \r\n\r\n\\\r\n• **Sódio (Na):** 136 mEq/l (VR: 135 - 145 mEq/l)  \r\n• **Potássio: (K):** 4 mEq/l (VR: 3,5 - 5 mEq/l)  \r\n• **Ureia:** 95 mg/dl (VR: 13 - 43 mg/dl)  \r\n• **Creatinina:** 1.6 mg/dl (VR: 0,7 - 1,3 mg/dl)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME DE IMAGEM",
+      "conteudo": "**ULTRASSONOGRAFIA DE ABDOME SUPERIOR (NO LEITO):**  \n\n\nVesícula biliar com paredes espessadas (5 mm), contendo múltiplos cálculos em seu interior. Coledoco dilatado (1,2 cm de diâmetro), com imagem ecogênica de 0,8 cm em seu interior distal.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o familiar e pergunta o nome da paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese com o familiar.**  \n(1) Pergunta sobre o início e a evolução dos sintomas;  \n(2) Questiona sobre as características da dor abdominal;  \n(3) Investiga a presença de febre e icterícia;  \n(4) Pergunta sobre a alteração do estado mental;  \n(5) Investiga o uso de medicações e antecedentes médicos.  \n\n**Adequado:** realiza quatro ou mais perguntas.  \n**Parcialmente adequado:** realiza duas ou três perguntas.  \n**Inadequado:** realiza uma ou nenhuma pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica os achados clínicos da Pêntade de Reynolds.**  \n(1) Febre;  \n(2) Icterícia;  \n(3) Dor em hipocôndrio direito (Tríade de Charcot);  \n(4) Hipotensão arterial;  \n(5) Alteração do estado mental.  \n\n**Adequado:** identifica os cinco achados, OU mencionando a Pêntade de Reynolds.  \n**Parcialmente adequado:** identifica três ou quatro achados (a Tríade de Charcot).  \n**Inadequado:** não identifica os achados ou identifica dois ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Formula a hipótese diagnóstica completa.**  \n\n**Adequado:** formula a hipótese de Colangite Aguda Grave, ou de Grau III, ou Tóxica.  \n**Parcialmente adequado:** formula a hipótese apenas de Colangite Aguda, sem a classificação de gravidade.  \n**Inadequado:** não formula a hipótese correta (ex: Colecistite, Sepse de foco indefinido).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a etiologia do quadro.**  \n\n**Adequado:** verbaliza a etiologia biliar/por coledocolitíase/por cálculo biliar.  \n**Inadequado:** não verbaliza ou verbaliza outra etiologia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita os exames complementares essenciais para o diagnóstico e avaliação da gravidade:**  \n(1) Hemograma;  \n(2) Função renal (Ur e Cr);  \n(3) Eletrólitos (na e K);  \n(4) TGO/TGP;  \n(5) Bilirrubinas totais e frações;  \n(6) PCR;  \n(7) Lactato;  \n(8) Ultrassonografia de abdome OU vias biliares.  \n\n**Adequado:** solicita seis ou mais exames.  \n**Parcialmente adequado:** solicita de três a cinco exames.  \n**Inadequado:** solicita dois ou menos exames ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta os exames laboratoriais.**  \n(1) reconhece o padrão de colestase (aumento de bilirrubina direta, FA e GGT);  \n(2) identifica os sinais de inflamação/infecção sistêmica (leucocitose com desvio, PCR elevada);  \n(3) identifica os sinais de disfunção orgânica (plaquetopenia, lesão renal aguda).  \n\n**Adequado:** interpreta os três achados.  \n**Parcialmente adequado:** interpreta dois achados.  \n**Inadequado:** não interpreta os achados ou interpreta apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta a ultrassonografia de abdome.**  \n\n**Adequado:** identifica a dilatação das vias biliares e a presença de coledocolitíase como a causa da obstrução, além dos sinais de colecistite crônica calculosa.  \n**Inadequado:** não interpreta o exame ou o faz de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Inicia a conduta terapêutica inicial para o quadro.**  \n(1) Internação hospitalar;  \n(2) Prescreve analgesia endovenosa E Antiemético E Antitérmico;  \n(2) Prescreve hidratação venosa;  \n(3) Prescreve antibioticoterapia de amplo espectro;  \n\n**Adequado:** inicia as quatro medidas.  \n**Parcialmente adequado:** inicia duas ou três medidas.  \n**Inadequado:** não inicia o manejo da sepse ou o faz com apenas uma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define o plano terapêutico definitivo para a causa base.**  \n\n**Adequado:** indica a descompressão da via biliar em caráter de urgência, preferencialmente por via endoscópica (CPRE).  \n**Inadequado:** não indica a descompressão da via biliar ou indica apenas tratamento clínico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Informa sobre o tratamento definitivo da doença de base.**  \n\n**Adequado:** informa sobre a necessidade de realizar a colecistectomia após a resolução do quadro agudo.  \n**Inadequado:** não informa sobre a necessidade de colecistectomia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

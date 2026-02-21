@@ -1,0 +1,166 @@
+{
+  "uid": 2224,
+  "hash": "pepe_2224",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Pielonefrite na Gestação (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência obstétrica.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• setor de ultrassonografia;  \n• leitos de internação.\n\nDescrição do caso:\nGestante de 29 semanas procura o serviço de emergência com queixa de dor lombar e mal-estar há 2 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Solicitar e interpretar exames complementares.  \n- Verbalizar a principal hipótese diagnóstica.  \n- Descrever a conduta adequada para o caso, incluindo a necessidade de internação e o tratamento.  \n- Informar as possíveis complicações relacionadas ao quadro.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Joana, 32 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor forte nas costas há dois dias.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou há 2 dias.  \n• **Localização:** É aqui do lado direito das costas.  \n• **Irradiação:** Não, a dor fica só nesse lugar.  \n• **Característica:** É uma dor que não para, fica doendo o tempo todo.  \n• **Intensidade:** Está bem forte, nota 7 de 10.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Sim, me senti muito quente, com calafrios, mas não cheguei a medir a temperatura.  \n• **Mal-estar:** Estou me sentindo muito cansada, sem energia.  \n• **Sintomas urinários:** Só a cor está mais amarela.  \n• **Náuseas e vômitos:** Não, não vomitei.  \n• **Sintomas obstétricos:** Não tive contrações, nem perda de líquido ou sangramento.  \n\n**ANTECEDENTES PESSOAIS E OBSTÉTRICOS:**  \n• **Doenças e medicações:** Não tenho nenhuma doença, só as vitaminas do pré-natal.  \n• **Infecção recente:** Tive uma infecção de urina há 2 semanas e tomei um antibiótico, Cefalexina, por 7 dias.  \n• **IG:** estou com 29 semanas.  \n• **Pré-natal:** Estou fazendo tudo direitinho, a última consulta foi normal.  \n• **GPA:** Essa é minha segunda gravidez, meu primeiro filho nasceu de parto normal.  \n• **Movimentação fetal:** O bebê está mexendo bem.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho é grave?*  \n• *Isso pode fazer mal para o meu bebê, pode ter complicações?*  \n• *Vou precisar ficar internada?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO E OBSTÉTRICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 100x60 mmHg  \n• **FC:** 100 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98%  \n• **Temp. axilar:** 38.0°C  \n\n\n**Ectoscopia:** paciente em regular estado geral, corada, hidratada, febril.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, taquicárdico, sem sopros.  \n\n\n**Respiratório:** murmúrio vesicular preservado, sem ruídos adventícios.  \n\n\n**Abdominal:** útero gravídico, indolor à palpação. Punho percussão lombar dolorosa à direita.  \n\n\n**Exame Obstétrico:**  \n• **AU:** 28 cm  \n• **BCF:** 148 bpm  \n• **Dinâmica uterina:** ausente.  \n\n\n**Exame especular:** sem perdas líquidas ou sangramentos pelo orifício cervical externo.  \n\n\n**Toque vaginal:** colo uterino grosso, posteriorizado e impérvio.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 3,8 milhões/mm³ (VR: 3,8 - 4,8 milhões/mm³)  \n• **Hemoglobina:** 11,5 g/dl (VR: 12 - 16 mg/dl)  \n• **Hematócrito:** 35% (VR: 36 - 46%)  \n• **Leucócitos:** 16.500/mm³ (VR: 4.500 - 11.000/mm³)  \n• **Neutrófilos:** 75%  \n• **Bastões:** 8% (VR: 0 - 5%)  \n• **Linfócitos:** 15%  \n• **Plaquetas:** 210.000/mm³ (VR: 150.000 - 450.000/mm³)  \n\n\n**PERFIL RENAL**  \n• **Creatinina (Cr):** 0,8 mg/dL (VR: 0,5 - 1,0 mg/dl)  \n• **Ureia (Ur):** 25 mg/dl (VR: 17 - 42 mg/dl)  \n\n\n**URINA SIMPLES**  \n• **Cor:** amarela-turva  \n• **Densidade:** 1020  \n• **pH:** 6,0  \n• **Proteínas:** ausente  \n• **Glicose:** ausente  \n• **Nitrito:** positivo  \n• **Leucócitos:** >100.000/mL  \n• **Hemácias:** 15 por campo  \n• **Bactérias:** numerosas",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ULTRASSOM DE RINS E VIAS URINÁRIAS",
+      "conteudo": "**LAUDO:**  \n• Rim esquerdo e bexiga urinária sem alterações ecográficas.  \n• Rim direito com dimensões aumentadas e aumento da ecogenicidade do parênquima.  \n• Sistema coletor renal direito sem dilatação significativa.  \n• Ausência de imagens sugestivas de cálculos renais ou ureterais.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da dor lombar:**  \n(1) início;  \n(2) localização;  \n(3) irradiação;  \n(4) intensidade.  \n\n**Adequado:** investiga três ou mais características.  \n**Parcialmente adequado:** investiga duas características.  \n**Inadequado:** investiga uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas associados:**  \n(1) febre e/ou calafrios;  \n(2) náuseas e/ou vômitos;  \n(3) sintomas urinários (disúria, polaciúria);  \n(4) sintomas obstétricos (contrações, perda de líquido, sangramento, movimentos fetais).  \n\n**Adequado:** pergunta sobre três ou mais itens.  \n**Parcialmente adequado:** pergunta sobre dois itens.  \n**Inadequado:** pergunta sobre um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre antecedentes patológicos relevantes:**  \n(1) histórico de infecção do trato urinário (ITU) prévia ou recente;  \n(2) tratamento realizado para a ITU recente.  \n\n**Adequado:** pergunta os dois itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico direcionado, verbalizando a necessidade de avaliar:**  \n(1) sinais vitais;  \n(2) punho percussão lombar (sinal de Giordano).  \n\n**Adequado:** solicita os dois itens.  \n**Parcialmente adequado:** solicita apenas um item.  \n**Inadequado:** não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais para investigação:**  \n(1) hemograma completo;  \n(2) exame de urina (urina tipo 1 ou EAS);  \n(3) urocultura com antibiograma;  \n(4) função renal (ureia e creatinina).  \n\n**Adequado:** solicita três ou mais exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame de imagem para avaliação do trato urinário.**  \n\n**Adequado:** solicita ultrassonografia de rins e vias urinárias.  \n**Inadequado:** não solicita o exame ou solicita outro método de imagem.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a principal hipótese diagnóstica: Pielonefrite (aguda) na gestação.**  \n\n**Adequado:** verbaliza a hipótese diagnóstica.  \n**Parcialmente adequado:** verbaliza o diagnóstico de ITU alta ou infecção renal.  \n**Inadequado:** não verbaliza a hipótese ou verbaliza uma hipótese incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Descreve a conduta inicial, indicando:**  \n(1) necessidade de internação hospitalar;  \n(2) hidratação endovenosa;  \n(3) uso de antitérmico.  \n\n**Adequado:** indica os três itens.  \n**Parcialmente adequado:** indica dois itens.  \n**Inadequado:** indica um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o tratamento com antibioticoterapia endovenosa.**  \n\n**Adequado:** indica o uso de antibioticoterapia por via endovenosa (EV).  \n**Inadequado:** não indica antibioticoterapia ou indica a via oral.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Cita três possíveis complicações maternas ou fetais da pielonefrite na gestação:**  \n(1) Sepse;  \n(2) Trabalho de parto prematuro;  \n(3) Insuficiência renal aguda;  \n(4) Abscesso renal;  \n(5) Rotura prematura de membranas;  \n(6) Baixo peso ao nascer.  \n\n**Adequado:** cita três ou mais complicações.  \n**Parcialmente adequado:** cita duas complicações.  \n**Inadequado:** cita uma ou nenhuma complicação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

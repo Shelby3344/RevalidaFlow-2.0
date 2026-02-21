@@ -1,0 +1,226 @@
+{
+  "uid": 1609,
+  "hash": "pepe_1609",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Violência doméstica + Depressão + Risco de suicídio",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você é médico de uma UBS .\n\nDescrição do caso:\nVocê é médico de uma UBS e recebe uma paciente de 27 anos que trouxe exames laboratoriais de rotina solicitados anteriormente. A paciente deseja atendimento pois tem tido dias difíceis e está sem ânimo para realizar suas atividades. Além disso, comparece a UBS usando um cachecol.",
+  "tarefas": "- Avaliar os exames trazidos pela paciente;  \n- Realizar a anamnese sobre o caso;  \n- Indicar conduta, plano terapêutico e orientações.  \n\n\nATENÇÃO: NÃO É NECESSÁRIO REALIZAR EXAME FÍSICO",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Camila, 27 anos, casada há 3 anos e dona de casa.  \n\n\n**QUEIXA PRINCIPAL:** Oi doutor(a), vim trazer aqueles exames de rotina que fiz no mês passado. E também gostaria de algum remédio pra melhorar esse meu cansaço, estou passando por um momento difícil no meu casamento.  \n\n**SOBRE CASAMENTO:** Estamos tentando engravidar e ainda não consegui, então o meu marido fica me culpando por isso. Estamos brigando muito, até nossa relação sexual não está boa. \n\n\n**MAUS TRATOS E AGRESSÕES:**  \n• **Agressão verbal:** está frequente, quase todos os dias assim.  \n• **Agressão física:** quando ele chega em casa bêbado ele me agride.  \n• **Recorrência:** logo depois que nos casamos piorou.  \n• **Início:** começou com xingamentos um ano depois que iniciamos o namoro. Mas agora ele está me batendo quando chega bêbado em casa. \n\n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** foi há 4 dias.  \n• **Fluxo menstrual:** fluxo regular, com poucas cólicas.  \n\n\n**SINTOMAS SEXUAIS:**  \n• **Dispareunia:** as vezes tenho uma dorzinha durante a relação.  \n• **Ressecamento vaginal:** estou sentindo que falta lubrificação.  \n• **Anorgasmia:** nunca consigo chegar ao orgasmo.  \n\n\n**SÍNDROME DEPRESSIVA:**  \n• **Tristeza e interesses:** realmente estou mais triste e sem interesse para nada.  \n• **Cansaço ou fadiga:** todos os dias estou assim.  \n• **Concentração:** não me concentro mais em nenhuma atividade.  \n• **Autoestima:** acho que minha vida está sem sentido algum.  \n• **Culpa ou desvalia:** como não consigo engravidar, não sei se minha vida tem propósito.  \n• **Visão de futuro:** só vejo futuro se conseguir engravidar.  \n• **Padrão de sono:** não durmo direito, preciso de calmante todos os dias.  \n• **Alimentação e apetite:** estou comendo bem menos, até perdi peso.  \n\n\n**SOBRE SUICÍDIO:**  \n• **Pensamento suicída:** as vezes eu penso em fazer isso.  \n• **Intenção suicída:** só da última vez depois que meu marido me bateu.  \n• **Plano suicída:** talvez doutor(a), quando ele sair para trabalhar eu poderia fazer algo.  \n\n• **Meios letais:** não sei doutor(a), lá em casa tem faca.  \n\n• **Tentativa prévia:** nega.  \n• **Patologia psiquiátrica:** nega.  \n• **Dependência de drogas:** nega.  \n• **Histórico familiar:** tive um tio que tentou se matar uma vez.  \n• **Suporte familiar:** vivo sozinha com meu marido, mas meus pais também moram aqui na cidade.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• caso o candidato não questione sobre marcas de agressão, informe a ele que *\"da última vez que brigamos, meu esposo até deixou uma marca aqui no meu pescoço\"*. Neste momento, liberar o impresso **MARCAS DA AGRESSÃO**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAMES ANTERIORES",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,5 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 14,2 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 34% (VR: 39 - 52%)  \n\n• **Plaquetas:** 179.000 mm/3 (150.000 - 400.000 mm/3)  \n\n• **Leucócitos:** 9.340/mm3 (VR: 4.000 - 10.000/mm3)  \n• **Neutrófilos:** 65% (VR: 40 - 70%)  \n\n\n**URINA SIMPLES**  \n*Amostra:*  \n• **Aspecto:** límpido (VR: límpido)  \n• **pH:** 5,7 (VR: 4,5 - 7,8)  \n\n*Exame químico e sedimentoscopia:*  \n• **Proteínas:** negativo (VR: negativo)  \n• **Glicose:** negativo (VR: negativo)  \n• **Nitrito:** não reagente (VR: não reagente)  \n\n• **Hemácias:** 2 por campo (VR: < 2 por campo)  \n• **Flora bacteriana:** ausente (VR: ausente)  \n\n\n**ELETRÓLITOS**  \n• **Sódio (Na):** 141 mEq/l (VR: 135 - 145 mEq/l)  \n• **Potássio: (K):** 4 mEq/l (VR: 3,5 - 5 mEq/l)",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "MARCAS DA AGRESSÃO",
+      "conteudo": "",
+      "imagem": "img_printeds/2016-e9p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se, acolhe e cumprimenta a paciente de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Mantém postura receptiva (expressão facial, direção do olhar, tronco voltado para a paciente sem cruzamento de membros superiores).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta dados pessoais da paciente: nome, idade, profissão, estado civil, filhos.**  \n\n**Adequado:** quatro ou cinco;  \n**Parcialmente adequado:** dois ou três.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Avalia os resultados dos exames solicitados na consulta anterior e explica que estão normais.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga as características dos ciclos menstruais.**  \n\n**Adequado:** se perguntar sobre duração e regularidade das menstruações.  \n**Parcialmente adequado:** se perguntar apenas um aspecto.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga sintomas sexuais:**  \n(1) dispareunia (dor nas relações sexuais),  \n(2) vaginismo (dor à penetração),  \n(3) ressecamento vaginal,  \n(4) anorgasmia (falta de orgasmo),  \n(5) sangramento vaginal pós-coito,  \n(6) dor pélvica.  \n\n**Adequado:** pelo menos quatro;  \n**Parcialmente adequado:** dois ou três.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre dificuldades no relacionamento com o parceiro (por exemplo, falta de intimidade, dificuldades de comunicação, brigas, ameaças e agressões físicas).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Identifica os sinais de agressão física (por exemplo, pede para ver o pescoço, pergunta diretamente sobre as causas das marcas no pescoço, verbaliza a presença das marcas de violência corporal).**  \n\n**Adequado:** identifica.  \n**Parcialmente adequado:** se a identificação **só ocorrer** após a explicitação das lesões pela atriz.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Investiga as características dos maus tratos sofridos:**  \n(1) identifica o agressor,  \n(2) o tipo de agressão,  \n(3) especifica se há abuso sexual,  \n(4) se há recorrência das agressões,  \n(5) e há quanto tempo.  \n\n**Adequado:** pelo menos quatro;  \n**Parcialmente adequado:** dois ou três.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Pergunta sobre outros sintomas da síndrome depressiva:**  \n(1) tristeza a maior parte dos dias, quase todos os dias,  \n(2) perda de interesse por atividades que eram prazerosas,  \n(3) diminuição da energia ou fadiga fácil,  \n(4) redução da capacidade de concentração,  \n(5) redução da autoestima e autoconfiança,  \n(6) ideias de culpa e desvalia,  \n(7) visão pessimista e vazia do futuro,  \n(8) perturbação do sono,  \n(9) perturbação do apetite.  \n\n**Adequado:** pelo menos quatro;  \n**Parcialmente adequado:** dois ou três.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Pergunta se pensa em se matar (ideação suicida) ou se tem intenção de se matar (intencionalidade suicida).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Pergunta se tem planos de como se matar (plano suicida).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Pergunta se tem acesso a meios letais (por exemplo, veneno de rato, acesso a armas, medicamentos).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Investiga fatores de risco/proteção para suicídio:**  \n(1) história de tentativa prévia,  \n(2) qualquer diagnóstico psiquiátrico,  \n(3) abuso/dependência de álcool/drogas,  \n(4) história familiar de suicídio,  \n(5) doença clínica grave ou crônica,  \n(6) baixo suporte social/familiar.  \n\n**Adequado:** pelo menos dois;  \n**Parcialmente adequado:** um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Comunica à paciente necessidade imediata de encaminhamento para emergência psiquiátrica ou internação psiquiátrica (alto risco de suicídio).**  \n\n**Considerar não realizado:** se encaminhar para psiquiatra, psicólogo ou NASF em regime ambulatorial;  \n**Considerar parcialmente adequado:** se encaminhar para internação clínica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "Avaliação do risco de suicídio. Adaptado de: BOTEGA, 2015; MONTENEGRO,\nTAVARES e ARTS, 2012; TAVARES, 2003; SHNEIDMAN, 1993.\n\nBAIXO RISCO:\n* Sem tentativa de suicídio prévia\n* Ideias de suicídio são passageiras e não perturbadoras\n* Não tem planejamento\n* Transtornos mentais, se presentes, com sintomas bem controlados\n* Apresenta foco e insight para mudanças e tolerância a frustração\n* Não apresenta impulsividade\n* Boa adesão ao tratamento\n* Tem rede de apoio funcional\n\nMÉDIO RISCO:\n* Tentativa de suicídio prévia\n* Ideias de suicídio persistentes e percebidas como solução\n* Não tem planejamento concreto ou acesso a métodos potencialmente perigosos\n* Apresenta mínima capacidade de planejar/esperar mudanças e tolerar frustrações\n* Não apresenta impulsividade\n* Deseja e/ou busca tratamento\n* Tem rede de apoio, mesmo que limitada\n* Não abusa/depende de álcool ou drogas\n\nALTO RISCO:\n* Tentativa de suicídio prévia\n* Apresenta afetos intoleráveis\n* Tem planejamento e acesso a métodos\n* Depressão grave\n* Sintomas psicóticos (delírios ou alucinações)\n* Baixa tolerância à frustração\n* Não apresenta foco e insight para mudanças\n* Apresenta impulsividade\n* Não deseja tratamento\n* Tem rede de apoio disfuncional ou inexistente\n* Abuso grave / Dependência de álcool e/ou outras drogas "
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Verbaliza necessidade da presença da família para encaminhamento para emergência psiquiátrica ou internação psiquiátrica.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Pergunta se a paciente tem dúvidas, se gostaria de saber alguma informação ou orientação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

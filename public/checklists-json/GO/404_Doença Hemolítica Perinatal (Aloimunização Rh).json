@@ -1,0 +1,172 @@
+{
+  "uid": 404,
+  "hash": "pepe_404",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Doença Hemolítica Perinatal (Aloimunização Rh)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária.  \nTipo de atendimento: ambulatório de pré-natal de alto risco.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• setor de diagnóstico de imagem;\n\nDescrição do caso:\nVocê atenderá uma gestante de 30 anos, G2P1A0, em consulta de seguimento de pré-natal de alto risco. Ela traz resultados de exames e está preocupada.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar e interpretar o exame físico pertinente.  \n- Interpretar os exames complementares trazidos pela paciente.  \n- Solicitar exames adicionais para investigação do caso, se necessário.  \n- Formular a hipótese diagnóstica e explicar a fisiopatologia à paciente.  \n- Estabelecer a conduta e o plano de seguimento.  \n- Responder às dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Valéria, 30 anos, casada.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim trazer os exames que o(a) senhor(a) pediu na primeira consulta. Estou muito preocupada com o resultado desse exame de sangue.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **Tipagem sanguínea:** Meu sangue é O negativo.  \n\n• **Gestação anterior:** Tive meu primeiro filho há 2 anos. O sangue dele é A positivo, igual ao do meu marido.  \n\n• **Icterícia neonatal:** Ele ficou bem amarelinho depois que nasceu, precisou de banho de luz, mas teve alta normal.  \n\n• **Uso de Imunoglobulina:** Doutor(a), eu não lembro se tomei aquela vacina depois que ele nasceu. Acho que não tomei.  \n\n• **Gestação atual:** Estou com 29 semanas. Sinto o bebê mexer bem. Não tive nenhum sangramento ou problema até agora.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que deu nesse exame de Coombs? O que significa ser \"positivo\"?*  \n• *Isso é grave? O que pode acontecer com o meu bebê?*  \n• *O que vamos fazer agora?*  \n• *Meu bebê está com anemia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTÃO DE PRÉ-NATAL",
+      "conteudo": "• **Paciente:** Valéria M. S.  \n\n• **Idade:** 30 anos.  \n\n• **Gesta:** 2 **Para:** 1 **Aborto:** 0  \n\n• **IG Atual:** 29 semanas (pela DUM e USG 1º Trimestre).  \n\n• **Tipagem Sanguínea (Mãe):** O Negativo.  \n\n• **G1 (Parto anterior):** Parto normal, RN de 3.200g, sexo masculino, **Rh Positivo**. Icterícia neonatal (fototerapia por 2 dias).  \n\n• **Profilaxia Anti-D pós-parto G1:** Não realizado.  \n\n• **Sorologias (atuais):** HIV, VDRL, HBsAg, Toxoplasmose, Rubéola: Não Reagentes/Imune.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 115/75 mmHg  \n• **FC:** 82 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36.6° C  \n\n\n**Ectoscopia:** Bom estado geral, corada, hidratada, acianótica, anictérica.  \n\n\n**Exame Obstétrico:**  \n• **AU:** 29 cm  \n• **BCF:** 145 bpm  \n• **Dinâmica Uterina:** Ausente.  \n• **Movimentação Fetal:** Presente e referida pela mãe.  \n\n\n**Exame Físico Geral:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Hemograma:** Hb 11,5 g/dL; Ht 34%; Leucócitos 7.800/mm³; Plaquetas 220.000/mm³.  \n\n• **Glicemia de Jejum:** 88 mg/dL.  \n\n\n• **Teste de Coombs Indireto:**  \n\n• **Resultado:** POSITIVO  \n• **Titulação:** 1:32",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ULTRASSONOGRAFIA COM DOPPLER",
+      "conteudo": "• **IG pela USG:** 29 semanas e 1 dia.  \n• **Apresentação:** Cefálica.  \n• **BCF:** 148 bpm.  \n• **Líquido Amniótico:** ILA normal.  \n• **Placenta:** Posterior, Grau I.  \n\n\n• **Dopplervelocimetria da Artéria Cerebral Média (ACM):**  \n• **Velocidade do Pico Sistólico (VPS):** 1.6 MoM (Múltiplos da Mediana).  \n• *(Valor de referência: < 1.5 MoM)*  \n\n\n• **Avaliação Morfológica Fetal:** Sinais de hepatoesplenomegalia fetal. Ausência de ascite, derrame pleural ou pericárdico. (Hidropsia fetal ausente no momento).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida ao risco de aloimunização:**  \n(1) investiga a tipagem sanguínea da paciente;  \n(2) investiga a tipagem sanguínea do parceiro E/OU do primeiro filho;  \n(3) questiona sobre o uso da imunoglobulina anti-D no pós-parto da primeira gestação;  \n(4) investiga a história de icterícia neonatal no primeiro filho.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga queixas da gestação atual:**  \n(1) presença de sangramentos vaginais;  \n(2) percepção da movimentação fetal.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta o resultado do Coombs Indireto (Positivo 1:32).**  \n\n**Adequado:** verbaliza que o exame indica que a mãe está sensibilizada (aloimunizada) ou que possui anticorpos contra o fator Rh.  \n**Parcialmente adequado:** verbaliza apenas que o exame está \"alterado\" ou \"positivo\", sem explicar o significado (sensibilização).  \n**Inadequado:** não interpreta o exame ou o interpreta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame complementar correto para avaliação do grau de acometimento fetal.**  \n\n**Adequado:** solicita Ultrassonografia com Dopplervelocimetria (ou Doppler) da Artéria Cerebral Média (ACM).  \n**Parcialmente adequado:** solicita apenas Ultrassonografia Obstétrica (sem Doppler da ACM).  \n**Inadequado:** não solicita o exame ou solicita exames incorretos (ex: Cardiotocografia, Perfil Biofísico Fetal) como primeira linha para este rastreio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta o resultado da Dopplervelocimetria da ACM.**  \n\n**Adequado:** interpreta o valor da Velocidade do Pico Sistólico (VPS) de 1.6 MoM (> 1.5 MoM) como indicativo de anemia fetal moderada ou grave.  \n**Parcialmente adequado:** identifica que o exame está alterado, mas não correlaciona o valor com o diagnóstico de anemia fetal.  \n**Inadequado:** não interpreta o exame ou o interpreta como normal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica principal.**  \n\n**Adequado:** verbaliza o diagnóstico de Anemia Fetal (moderada/grave) secundária à Doença Hemolítica Perinatal (ou Aloimunização Rh).  \n**Parcialmente adequado:** verbaliza apenas \"Doença Hemolítica Perinatal\" ou \"Aloimunização Rh\", sem mencionar a anemia fetal como complicação instalada.  \n**Inadequado:** não formula a hipótese diagnóstica ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica a fisiopatologia básica da doença para a paciente.**  \n\n**Adequado:** explica, em linguagem acessível, que os anticorpos (defesas) do corpo dela (Rh negativo) estão atravessando a placenta e atacando as células do sangue (hemácias) do bebê (Rh positivo), causando a anemia.  \n**Parcialmente adequado:** explica de forma confusa ou muito técnica, ou menciona apenas que \"o sangue deles é incompatível\".  \n**Inadequado:** não explica a fisiopatologia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Estabelece a conduta imediata para confirmação diagnóstica e/ou terapêutica.**  \n\n**Adequado:** indica a necessidade de procedimento invasivo (Cordocentese) para confirmação (dosagem do Hb/Ht fetal) E/OU terapêutica (Transfusão Intrauterina - TIU).  \n**Parcialmente adequado:** indica a interrupção da gestação (cesárea) de imediato, sem cogitar a terapia fetal.  \n**Inadequado:** não indica a cordocentese/TIU ou indica apenas observação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica corticoterapia para maturação pulmonar fetal.**  \n\n**Adequado:** prescreve corticoide (Betametasona ou Dexametasona) devido ao alto risco de prematuridade ou necessidade de intervenção (parto ou TIU).  \n**Inadequado:** não indica a corticoterapia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Responde às dúvidas da paciente sobre a gravidade e o plano.**  \n\n**Adequado:** confirma a gravidade (anemia fetal), mas oferece o plano de ação (procedimento invasivo/transfusão) como forma de tratamento para o bebê ainda dentro do útero.  \n**Parcialmente adequado:** confirma a gravidade, mas é vago sobre o plano de ação.  \n**Inadequado:** não responde às dúvidas ou minimiza a gravidade da situação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

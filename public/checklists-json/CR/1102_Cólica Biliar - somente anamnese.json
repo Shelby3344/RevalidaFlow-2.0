@@ -1,0 +1,279 @@
+{
+  "uid": 1102,
+  "hash": "pepe_1102",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Cólica Biliar - somente anamnese",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.\nTipo de atendimento: urgência e emergência.\nA unidade possui a seguinte infraestrutura:\n· consultórios;\n· sala de estabilização;\n· laboratório de análises clínicas;\n· leitos de internação - enfermaria e terapia intensiva.\n\nDescrição do caso:\n- Paciente do sexo masculino, 58 anos de idade, procura atendimento referindo dor em hipocôndrio direito.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:    \n- Realizar anamnese direcionada a queixa do paciente.  \n\n\nNÃO É NECESSÁRIO REALIZAR EXAME FÍSICO  \nNÃO É NECESSÁRIO ORIENTAÇÕES SOBRE TRATAMENTO",
+  "script_ator": "**DADOS PESSOAIS:**  \n- Antônio, 58 anos, caminhoneiro.  \n\n**MOTIVO DA CONSULTA:**  \n- Doutor(a). Desculpe incomodar, mas tive que vir porque estou com uma dor insuportável.  \n\n\n**Tempo de evolução:** faz duas horas, de repente.  \n**Localização:** no lado direito da barriga. \n**Irradiação:** vai para as costas.  \n**Característica:** Senti umas fisgadas primeiro, e agora está constante, apertando.  \n**Intensidade:** Acho que uns 8, não consigo nem me mexer.   \n**Atenuantes e agravantes:** Tomei buscopan mas não melhorou.  \n**Episódio anterior:** Já tive isso antes quando comia demais. Eu tomava buscopan e parava. Mas agora está mais forte e não está passando.  \n\n\n**SINAIS E SINTOMAS ACOMPANHANTES:**  \n**Vômitos e náuseas:** Cheguei a vomitar duas vezes. Só comida, sem sangue.  \n\n**Constipação, diarreia ou sangramentos:** nega;  \n**Febre, calafrios e icterícia:** nega;  \n**Anorexia, perda peso ou disuria:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n**Comorbidades:** Sou hipertenso e tenho colesterol alto;  \n**Medicações:** Losartana e sinvastatina;  \n**Cirurgias e internações:** nega.  \n\n\n**HÁBITOS SOCIAIS:**  \n- Fumo 10 cigarros por dia há 30 anos e bebo aos finais de semana, não uso drogas;  \n- Alimentação: como em restaurantes na estrada, sempre tem um pouco de gordura e fritura;  \n- Não faço atividade física.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n- Meu pai faleceu de câncer e sei que tinha diabetes.  \n- Minha mãe é hipertensa.  \n\n**OUTRAS PERGUNTAS:** Não consta no Script.  \n\n\n**NÃO HÁ IMPRESSOS NESTA ESTAÇÃO**",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se ao paciente como médico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Solicita a identificação do paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Indaga o respeito do local de origem da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Indaga a respeito do tipo da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga irradiação da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indaga a respeito do tempo de inicio da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indaga a respeito da duração da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indaga a respeito dos fatores agravantes da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indaga a respeito dos fatores atenuantes da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indaga a respeito da ocorrência de febre ou calafrio.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Investiga a respeito da perda de peso ou ocorrência de anorexia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Investiga a ocorrência de náuseas, vômitos ou hematêmese (pelo menos dois).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indaga a respeito da ocorrência de constipação, diarreia ou sangramento retal (pelo menos dois).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Indaga a respeito da ocorrência de icterícia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indaga a respeito da ocorrência de disúria, oligúria, coluria (pelo menos dois).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Indaga a respeito da existência de antecedentes patológicos (hipertensão e diabetes mellitus - pelo menos dois).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Indaga sobre o uso de medicamentos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Indaga a respeito da existência de antecedentes familiares (estado de saúde, causa de óbito no pai e na mãe - pelo menos dois).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Indaga a respeito dos hábitos de vida (alimentação, exercícios físicos, fumo - pelo menos dois).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Indaga a respeito do uso de drogas (álcool, drogas ilícitas - pelo menos dois).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**21. Indaga sobre hospitalizações e/ou cirurgias anteriores.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 22,
+      "descricao": "**22. Valoriza a queixa do paciente e mostra-se compassivo com a dor que ele apresenta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 23,
+      "descricao": "**23. Interage de forma respeitosa e empática com o paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

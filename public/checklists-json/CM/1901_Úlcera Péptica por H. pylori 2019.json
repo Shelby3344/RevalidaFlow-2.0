@@ -1,0 +1,259 @@
+{
+  "uid": 1901,
+  "hash": "pepe_1901",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Úlcera Péptica por H. pylori | 2019",
+  "definicao": "Estação original adaptada  \nPSU-CE 2019 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;\n\nDescrição do caso:\nVocê está em seu consultório na UBS e atenderá a Sra. Francisca, 50 anos. Ela retorna para mostrar resultados de exames solicitados na consulta anterior devido a queixas de dor epigástrica.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso;  \n- Interpretar os exames complementares e explicar o diagnóstico a paciente;  \n- Realizar as orientações pertinentes ao quadro e ao tratamento;  \n- Prescrever o tratamento medicamentoso adequado no impresso próprio, preenchendo o receituário completo.  \n- Responder as dúvidas da paciente.  \n\n\\\nATENÇÃO: O EXAME FÍSICO JÁ FOI REALIZADO E ENCONTRA-SE NORMAL.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** Entregar o impresso **ENDOSCOPIA DIGESTIVA ALTA** logo no início da estação ou quando solicitado.  \n\n\n**DADOS PESSOAIS:**  \n• **Nome:** Francisca, 50 anos, faxineira.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu trouxe o exame da endoscopia que o senhor(a) pediu pra eu fazer.  \n\n\n**SOBRE A DISPEPSIA:**  \n• **Dor:** Sinto uma dor na boca do estômago, uma queimação.  \n\n• **Relação com alimentos:** Piora quando eu fico muito tempo sem comer. Se eu como alguma coisa, dá uma aliviada.  \n\n• **Empachamento/Saciedade:** Às vezes parece que a comida fica parada, me sinto cheio rápido.  \n\n• **Náuseas/Vômitos:** Tenho um pouco de enjoo de vez em quando, mas nunca vomitei.  \n\n• **Perda de peso:** Não, meu peso está normal.  \n\n• **Sangramento/Melena:** Não, nunca vi sangue nem nas fezes, nem no vômito. Meu cocô é cor normal.  \n\n• **Azia:** Tenho bastante azia também.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** Nega.  \n• **Doenças:** Nega.  \n• **Medicações:** Eu tenho tomado Omeprazol pra ver se ajuda, mas não melhora muito.  \n\n\n**HÁBITOS:**  \n• **Tabagismo:** Fumo meio maço por dia.  \n• **Álcool:** Bebo uma cervejinha no fim de semana.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• 1 *O que deu no meu exame, doutor(a)?*  \n\n• 2 *Essa bactéria é perigosa? Pode piorar?*  \n\n• 3 *Como eu faço pra matar essa bactéria?*  \n\n• 4 *Como eu tenho que tomar esses remédios?*  \n\n• 5 *Preciso voltar aqui depois?*  \n\n• 6 *Essa receita vale por quantos dias? Ela é receita normal?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "ENDOSCOPIA DIGESTIVA ALTA",
+      "conteudo": "**Esôfago:** Calibre, distensibilidade e mucosa normais. Linha Z na transição esofagogástrica coincidente com o pinçamento diafragmático.  \n\n\n**Estômago:** Lago mucoso claro. Pregas mucosas longitudinais, paralelas e distensíveis à insuflação.  \n• Presença de lesão ulcerada em pequena curvatura de corpo gástrico, medindo aproximadamente 1,0 cm, com bordas edemaciadas e fundo recoberto por fibrina (Classificação de Sakita A1).  \n• Teste da Urease: **POSITIVO**.  \n\n\n**Duodeno:** Bulbo e segunda porção sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RECEITUÁRIO",
+      "conteudo": "**Realize a prescrição do tratamento (posologia completa).**",
+      "imagem": "img_printeds/e1901p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identificou o(a) paciente? (considerar nome, idade, naturalidade, procedência, escolaridade, raça ou religião). NO MÍNIMO NOME E IDADE.**  \n\n**Adequado:** Identifica o paciente (nome e idade).  \n**Inadequado:** Não identifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.05",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Passou a tratar o(a) paciente pelo nome ou de forma respeitosa (senhor ou senhora)?**  \n\n**Adequado:** Trata pelo nome ou de forma respeitosa.  \n**Inadequado:** Não trata pelo nome ou de forma respeitosa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.05",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Perguntou o motivo da consulta com pergunta aberta? Aceitar afirmações do tipo “o que lhe trouxe aqui?”; “como posso ajuda-lo?”; “como posso lhe ser útil?”**  \n\n**Adequado:** Realiza a pergunta aberta.  \n**Inadequado:** Não realiza a pergunta aberta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.05",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investigou o tipo de dispepsia perguntado sobre os sintomas conforme diretriz? (pelo menos 3 dos abaixo):**  \n(1) Dor;  \n(2) Empachamento;  \n(3) Saciedade precoce;  \n(4) Náuseas ou vômitos;  \n(5) Sangramento digestivo ou melena;  \n(6) Relação com alimentos;  \n(7) Perda de peso;  \n(8) Refluxo ou \"azia/queimação\".  \n\n**Adequado:** Investiga 3 ou mais sintomas.  \n**Parcialmente adequado:** Investiga 1 ou 2 sintomas.  \n**Inadequado:** Não investiga sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Após checar os exames, informou o resultado dos exames com linguagem clara e acessível. NÃO USOU TERMINOLOGIA TÉCNICA/MÉDICA.**  \n\n**Adequado:** Informa o resultado com linguagem clara.  \n**Inadequado:** Usa terminologia técnica ou não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Informou ao(à) paciente que seria indicado fazer tratamento da bactéria/infecção?**  \n\n**Adequado:** Informa a indicação do tratamento.  \n**Inadequado:** Não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Informou riscos associados ao H. pylori? (pelo menos 2 dos abaixo):**  \n(1) Câncer;  \n(2) Deficiência de vitamina B12;  \n(3) Anemia ferropriva;  \n(4) Linfoma MALT;  \n(5) Úlcera gástrica;  \n(6) Plaquetopenia.  \n\n**Adequado:** Informa 2 ou mais riscos.  \n**Parcialmente adequado:** Informa 1 risco.  \n**Inadequado:** Não informa riscos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Perguntou se já fez tratamento prévio ou já foi diagnosticado anteriormente com a bactéria H. pylori?**  \n\n**Adequado:** Pergunta sobre histórico prévio.  \n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Perguntou por alergias?**  \n\n**Adequado:** Pergunta por alergias.  \n**Inadequado:** Não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Receita - Consta todos os itens:**  \n(1) Nome completo FRANCISCO CHAGAS DA SILVA;  \n(2) Duas vias (carbonada).  \n\n**Adequado:** Constam os dois itens.  \n**Parcialmente adequado:** Consta apenas um item.  \n**Inadequado:** Não constam os itens ou está ilegível.  \n\n*NÃO PONTUAR SE ILEGÍVEL OU COM ABREVIAÇÕES.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Receita - Consta todos os itens:**  \n(1) Assinatura;  \n(2) Data.  \n\n**Adequado:** Constam os dois itens.  \n**Parcialmente adequado:** Consta apenas um item.  \n**Inadequado:** Não constam os itens.  \n\n*NÃO PONTUAR SE DATA ILEGÍVEL.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Receita - Escolheu antibiótico/IBP adequado (primeira linha)?**  \n(1) Terapia tripla (todos os 3): Amoxicilina, Claritromicina, IBP (Omeprazol ou Pantoprazol ou Esomeprazol ou Lanzoprazol ou Rabeprazol ou Dexlansoprazol);  \n**OU**  \n(2) Terapia quádrupla (todos os 4): Amoxicilina, Claritromicina, Metronidazol ou Tinidazol, IBP (Omeprazol ou Pantoprazol ou Esomeprazol ou Lanzoprazol ou Rabeprazol ou Dexlansoprazol).  \n\n**Adequado:** Escolhe o esquema adequado (triplo ou quádruplo).  \n**Inadequado:** Escolhe esquema inadequado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Receita - Prescreveu a dose adequada das medicações? (todas as doses corretas):**  \n(1) Terapia tripla (todos os 3):\nAmoxicilina 1g 12/12h,\nClaritromicina 500mg 12/12h,\nIBP (Omeprazol 20mg ou 40mg 12/12h, ou Pantoprazol 20mg ou 40mg 12/12h, ou Esomeprazol 20mg ou 40mg 12/12h, ou Lanzoprazol 30mg ou 60mg 12/12h, ou Rabeprazol 20mg ou 40mg 12/12h, ou Dexlansoprazol 60mg 12/12h).  \n\n**OU**  \n\n(2) Terapia quádrupla (todos os 4):\nAmoxicilina 1g 12/12h,\nClaritromicina 500mg 12/12h,\nMetronidazol ou Tinidazol 500mg 12/12h,\nIBP (Omeprazol 20mg ou 40mg 12/12h, ou Pantoprazol 20mg ou 40mg 12/12h, ou Esomeprazol 20mg ou 40mg 12/12h, ou Lanzoprazol 30mg ou 60mg 12/12h, ou Rabeprazol 20mg ou 40mg 12/12h, ou Dexlansoprazol 60mg 12/12h).  \n\n**Adequado:** Prescreve todas as doses corretas.  \n**Inadequado:** Erra alguma dose.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Receita - Tempo de tratamento e número de comprimidos adequados? (para tratamento durante 14 dias).**  \n\n**Adequado:** Prescreve tempo e quantidade corretos (14 dias).  \n**Inadequado:** Prescreve tempo ou quantidade incorretos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Informou validade correta da receita? (10 dias).**  \n\n**Adequado:** Informa 10 dias.  \n**Inadequado:** Não informa ou informa outro prazo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Certificou-se do entendimento? (Pediu para parafrasear ou para paciente explicar como tomará as medicações). NÃO PONTUAR SE PERGUNTAR SOMENTE “ENTENDEU?”.**  \n\n**Adequado:** Certifica-se corretamente (parafraseio).  \n**Inadequado:** Pergunta apenas se entendeu ou não pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Orientou necessidade de controle erradicação pelo método correto?**  \n(1) endoscopia com biopsia para pesquisa de H. pylori, ou;  \n(2) pesquisa com antígeno fecal, ou;  \n(3) teste respiratório com carbono marcado.  \n\n**Adequado:** Orienta um dos métodos corretos.  \n**Inadequado:** Orienta método incorreto ou não orienta.  \n\n*INCORRETO SE PEDIR SOMENTE ENDOSCOPIA OU ENDOSCOPIA COM TESTE DA UREASE.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Orientou necessidade de controle erradicação após o tempo correto?**  \n4 semanas ou mais após o término do tratamento.  \n\n**Adequado:** Orienta o tempo correto.  \n**Inadequado:** Não orienta ou orienta tempo incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Perguntou se paciente tinha alguma dúvida ou gostaria de fazer alguma pergunta/colocação?**  \n\n**Adequado:** Pergunta.  \n**Inadequado:** Não pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Registrou atendimento em impresso adequado?**  \n\n**Adequado:** Registra.  \n**Inadequado:** Não registra.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

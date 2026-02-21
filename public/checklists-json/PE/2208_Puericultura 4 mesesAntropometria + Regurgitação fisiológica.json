@@ -1,0 +1,156 @@
+{
+  "uid": 2208,
+  "hash": "pepe_2208",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Puericultura 4 meses/Antropometria + Regurgitação fisiológica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Atençao Primária.  \nA unidade possui a seguinte infraestrutura:  \n• consultórios para atendimento;  \n• sala de pequenas cirurgias;  \n• laboratório de análises clínicas; e  \n• sala para observação clínica.\n\nDescrição do caso:\n• Mãe leva sua filha de 4 meses e 14 dias para consulta eletiva de puericultura.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- ler a ficha da paciente, apresentada a seguir;  \n- realizar a anamnese dirigida à mãe;  \n- solicitar qualquer exame físico e/ou complementar que considere pertinente ao caso  \nclínico;  \n- explicar os achados do exame físico;  \n- analisar o desenvolvimento da criança;  \n- explicar à mãe o diagnóstico clínico da criança; e  \n- explicar à mãe se há a necessidade de terapêutica.  \n\n\nFICHA DA PACIENTE  \n- Nome: Alícia.  \n- Idade: 4 meses e 14 dias.  \n- Peso: 6.800 gramas.  \n- Comprimento: 63,5 cm.  \n- Perímetro cefálico: 41 cm.  \n- Temperatura: 36,3 C.  \n\n\nA CRIANÇA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS DA MÃE**:  \n• Patricia, 31 anos, casada, manicure  \n\n**DADOS DA CRIANÇA**:  \n• Alícia, 4 meses e 14 dias.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr(a). eu trouxe minha filha para a consulta agendada, queria saber se está tudo bem com ela.  \n\n**QUEIXAS OU VÔMITOS**:  \n• Doutor (a), depois que ela termina de mamar, ela vômita muito.  \n• **Início**: -Sempre aconteceu, porém piorou no ultimo mês.  \n• **Característica**: -Somente leite  \n• **Episódios**: - Após alimentar-se.  \n\n**PERDA DE PESO**: - Não.  \n\n**ALIMENTAÇÃO**:  \n• Seio materno.  \n\n**DIURESE E CATARSE**:  \n• Sem alterações.  \n\n**VACINAS**:  \n• Tudo certo Dr(a).  \n\n**MEDICAÇÕES E CIRURGIA**:  \n• Nega  \n\n**ANTECEDENTES PERINATAIS E PATOLÓGICOS**:  \n• Ela nunca teve nenhum problema, sempre foi muito saudavel Dr (a).  \n\n**DÚVIDAS**:  \n• **Pergunta 1**: - Ela está bem, Dr (a)?  \n• **Pergunta 2**: - Ela têm que tomar algum remédio?  \n\n**OUTRAS PERGUNTAS**:  \n• Não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA CRIANÇA",
+      "conteudo": "",
+      "imagem": "img_printeds/2022-1-e8p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "GRÁFICO PERÍMETRO CEFÁLICO",
+      "conteudo": "**ATENÇÃO: DIRIJA-SE À CÂMERA!** \nA PARTIR DA ANÁLISE DO GRÁFICO, VERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA, O SEGUINTE DADO DE ALÍCIA:  \n- Escore Z do Perímetro Cefálico",
+      "imagem": "img_printeds/2022-1-e8p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "GRÁFICO DE PESO",
+      "conteudo": "**ATENÇÃO: DIRIJA-SE À CÂMERA!** \nA PARTIR DA ANÁLISE DO GRÁFICO, VERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA, O SEGUINTE DADO DE ALÍCIA:  \n- Escore Z do Peso",
+      "imagem": "img_printeds/2022-1-e8p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "GRÁFICO DE COMPRIMENTO",
+      "conteudo": "**ATENÇÃO: DIRIJA-SE À CÂMERA!** \nA PARTIR DA ANÁLISE DO GRÁFICO, VERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA, O SEGUINTE DADO DE ALÍCIA:  \n- Escore Z do Peso",
+      "imagem": "img_printeds/2022-1-e8p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "- **Estado geral:**  \n  Paciente em bom estado geral, sorrindo durante o exame, corada, hidratada, acianótica, anictérica, afebril, eupneica, sem linfonodomegalia.  \n\n- **Sistema respiratório:**  \n  Ausculta: murmúrios vesiculares presentes bilateralmente, sem ruídos adventícios  \n  Frequência respiratória: 24 irpm  \n\n- **Sistema cardiovascular:**  \n  Ausculta: bulhas rítmicas, normofonéticas, em dois tempos, sem sopros  \n  Frequência cardíaca: 98 bpm  \n\n- **Abdome:**  \n  Plano, flácido, inocente, sem visceromegalias; ruídos hidroaéreos presentes  \n\n- **Otoscopia/Oroscopia:**  \n  Sem alterações  \n\n- **Genitália:**  \n  Sem alterações  \n\n- **Sistema neurológico:**  \n  Fontanela anterior: 2 cm, plana e normotensa  \n  Boa atividade ao exame  \n  No colo da mãe, já firma o pescoço e se interessa pelo ambiente",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \nIdentifica-se e cumprimenta a mãe de maneira adequada e cordial.  \n\n**Adequado:** demonstra cordialidade; faz contato visual.  \n**Inadequado:** identifica-se, mas não cumprimenta a mãe, ou vice-versa; evita  \ncontato visual com a mãe; não demonstra empatia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Solicita a Caderneta de Saúde da Criança.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza anamnese.**  \n(1)Pergunta detalhes sobre a queixa principal.  \n(2)Pergunta sobre outras queixas.  \n(3)Pergunta sobre antecedentes perinatais.  \n(4)Pergunta sobre a alimentação.  \n(5)Pergunta sobre o desenvolvimento neuromotor.  \n(6)Pergunta sobre o sono.  \n(7)Pergunta sobre evacuações e urina.  \n(8)Pergunta sobre medicações ou vitaminas.  \n(9)Pergunta sobre imunização.  \n(10)Pergunta sobre os Testes do Pezinho e do Coraçãozinho, e/ou da Orelhinha  \ne/ou do Olhinho.  \n(11)Pergunta sobre antecedentes familiares.  \n(12)Investiga condições sociais/moradia.  \n(13)Pergunta sobre prevenção de acidentes.  \n\n**Adequado:** investiga de 8 a 13 elementos, sendo a exploração da  \nqueixa principal obrigatória  \n**Parcialmente adequado:** investiga de 5 a 7 elementos apenas, sendo a  \nexploração da queixa principal obrigatória.  \n**Inadequado:** Investiga até 4 elementos ou não pergunta sobre a  \nqueixa principal.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita e analisa o exame físico corretamente.**  \n\n**Adequado:** solicita o exame físico e interpreta que a criança se encontra  \nclinicamente bem, sem sinais de alarme.  \n**Inadequado:** não solicita o exame físico, ou solicita e ou interpreta  \nde forma errada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Esclarece à mãe sobre os dados antropométricos da criança:**  \n(1) Peso;  \n(2) Comprimento;  \n(3) Perímetro cefálico; e classifica todos de acordo com o Escore Z (Z Score)  \ncorreto.  \n\n**Adequado:** esclarece à mãe sobre os 3 dados antropométricos, classificando -  \nos corretamente de acordo com o Escore Z.  \n**Parcialmente adequado:** esclarece à mãe sobre apenas 1 ou 2 dados  \nantropométricos e os classifica de acordo com o Escore Z correto.  \n**Inadequado:** não esclarece à mae sobre os dados antropométricos ou os  \nclassifica incorretamente no Escore Z.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a suplementação de ferro.**  \n\n**Adequado:** menciona a necessidade de suplementação de ferro.  \n**Inadequado:** não menciona a necessidade de suplementar de ferro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica a suplementação de vitamina D.**  \n\n**Adequado:** menciona a necessidade de suplementação de vitamina D.  \n**Inadequado:** não menciona a necessidade de suplementação de vitamina D.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Sobre a queixa principal da genitora:**  \n(1) Reconhece as regurgitações do lactente como evento fisiológico: refluxo  \ngastroesofágico fisiológico, refluxo funcional, regurgitador feliz, bebê  \nregurgitador, vômitos inocentes, bebê golfador de ocorrência natural no  \ndesenvolvimento da criança, sem maiores repercussões;  \n(2) Esclarece à mãe o diagnóstico.  \n\n**Adequado:** realiza os dois itens.  \n**Parcialmente adequado:** realiza o item 1, mas não esclarece o item 2.  \n**Inadequado:** não realiza o item 1, ou fornece outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre a propedêutica/terapêutica para as regurgitações**  \napresentadas:  \n(1) atitudes conservadoras (postura, esperar o bebê arrotar antes de deitar);  \n(2) desnecessário medicação ou exame propedêutico.  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta apenas o item 1.  \n**Inadequado:** orienta apenas o item 2 ou orienta errado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

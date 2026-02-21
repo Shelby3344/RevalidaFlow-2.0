@@ -1,0 +1,237 @@
+{
+  "uid": 2008,
+  "hash": "pepe_2008",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Anemia Falciforme + Crise álgica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está em um pronto-socorro.\n\nDescrição do caso:\nVocê está em um pronto-socorro e realizará o atendimento junto à mãe de um escolar com 7  \nanos de idade. O menino foi trazido no colo de sua mãe, pois estava com dor na perna, e no  \nmomento, encontra-se no leito de observacao. A mae refere que seu filho tem anemia falciforme.  \nNa noite anterior, a dor piorou, apesar de o menino estar em uso de 2 remédios para dor e estar  \naplicando compressas mornas na perna. A criança não para de chorar e pede remédio para dor.  \nNa triagem, a dor foi graduada entre 6 e 7, pela Escala Analógica de Dor.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar anamnese dirigida para a queixa relatada pela mãe;  \n- explicar para a mãe o diagnóstico do evento agudo;  \n- orientar a mãe sobre o plano de cuidados do paciente.",
+  "script_ator": "**DADOS DA MÃE**:  \n• Aline, 28 anos.  \n\n**DADOS DA CRIANÇA**:  \n• Joaquim, 7 anos.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr(a), estou muito preocupada com meu filho. Ele tem anemia falciforme e, desde de ontem, está com dor. Mesmo tomando todos os remedios que o outro medico passou, ele continua chorando muito.  \n\n**SOBRE ANEMIA FALCIFORME**:  \n• **Diagnóstico**: Há dois anos.  \n• **Crises**: Apresentou duas crises anteriores, uma há seis meses e a outra, há três meses. Nas duas vezes, tivemos que vir à emergência.  \n• **Acompanhamento**: Faz acompanhamento com hematologista desde o diagnóstico.  \n• **Hemoglobina basal e hemotransfusão**: Não consta no script.  \n• **Esplenectomia**: Não foi realizado.  \n\n**AO CONFIRMAR O DIAGNÓSTICO**:  \n• Isso e grave? Ele vai ficar internado?  \n\n**OUTRAS PERGUNTAS**:  \n• Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RECEITUÁRIO",
+      "conteudo": "",
+      "imagem": "img_printeds/2020-e8p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Exame físico geral:**  \n\n\nCriança em regular estado geral, com fácies de dor, hipocorada (+2/4+), hidratada, com enchimento capilar normal.  \n\n\n**Sinais vitais:**  \n- **FC:** 110 bpm  \n- **FR:** 24 irpm  \n- **PA:** 100 × 60 mmHg  \n- **SatO₂:** 96% (ar ambiente)  \n\n\n**Exame físico segmentar:**  \n- **Aparelho cardiovascular:** bulhas rítmicas e normofonéticas, sem sopro.  \n- **Aparelho respiratório:** eupneica. Murmúrio vesicular fisiológico, sem ruídos adventícios.  \n- **Abdome:** plano, normotenso, sem visceromegalias, não doloroso à palpação, sem sinais de irritação peritoneal, ruídos hidroaéreos presentes e normais.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1 Identifica-se e cumprimenta a paciente simulada de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2 Realiza abordagem da dor, perguntando:**  \n(a) quando começou;  \n(b) o que foi feito para melhorar.  \n\n**Adequado:** se pergunta corretamente os 2 itens.  \n**Parcialmente adequado:** se pergunta corretamente 1 item.  \n**Inadequado:** se não pergunta nenhum item ou pergunta incorretamente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**1.3 Pergunta se o paciente teve febre**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**1.4 Pergunta se o paciente teve outros sintomas**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**1.5 Pergunta desde quando o paciente tem o diagnóstico de anemia**  \nfalciforme.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**1.6 Pergunta se o paciente faz acompanhamento com especialista**  \n(hematologista).",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**1.8 Pergunta se o paciente teve outras crises.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**1.8 Pergunta sobre frequência das crises**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**1.9 Pergunta se o paciente precisou de atendimento de emergência por conta**  \ndas crises.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**1.10 Pergunta se o paciente tem alergia a algum medicamento.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**1.11 Pergunta sobre o nível de hemoglobina basal.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**1.12 Pergunta se o paciente já recebeu hemotransfusão.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**1.13 Pergunta se o paciente foi esplenectomizado.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**2.1 Informa à paciente simulada que o diagnóstico é de crise álgica ou de dor**  \nou crise vaso-oclusiva, devido à anemia falciforme.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**3.1 Informa a paciente simulada sobre:**  \n(a) a necessidade de internação ou observaçao por 6h hospitalar com  \notimização da analgesia; e  \n(b) o motivo da internação ou da observação (o paciente não melhorou com o  \ntratamento domiciliar).  \n\n**Adequado:** Indica a internacao e informa o motivo.  \n**Parcialmente adequado:** Indica a internacao e nao informa o motivo.  \n**Inadequado:** Não indica internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**3.2 Orienta a paciente simulada sobre a necessidade de hidratação oral ou**  \nvenosa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**3.3 Informa que administrará as seguintes medicações:** dipirona e diclofenaco  \n(via parenteral), associado à codeína (via oral) ou morfina (via endovenosa).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**3.4 Pergunta se a paciente simulada possui alguma dúvida.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

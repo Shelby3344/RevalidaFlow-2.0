@@ -1,0 +1,177 @@
+{
+  "uid": 101,
+  "hash": "pepe_101",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Acidente por animal peçonhento - Abelha + Anafilaxia",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de estabilização e pequenos procedimentos;  \n• raio-X, ultrassonografia, eletrocardiograma;  \n• laboratório de análises clínicas;  \n• banco de sangue;\n\nDescrição do caso:\nVocê é médico de uma UPA e atenderá um homem de 58 anos com queixa de dor aguda intensa, prurido e edema endurecido na pele.",
+  "tarefas": "- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico, caso necessário;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a hipótese diagnóstica;  \n- Responder as dúvidas do paciente;  \n- Propor condutas e orientações ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Pedro, 58 anos, jardineiro.  \n\n\n**QUEIXA PRINCIPAL:** Doutor hoje quando estava trabalhando, aí do nada comecei a sentir umas picadas nas costas.  \n\n\n**FATOR DESENCADEANTE:**  \n• eu trabalho com poda de plantas e corte de grama. Quando eu estava podando umas flores eu senti essas picadas e saí correndo. E ouvi como se fosse um enxame de abelhas.  \n• **Tipo de abelha:**  não sei qual é o tipo de abelha.  \n\n**SOBRE A DOR:**  \n• **Início:** faz uns 30 minutos.  \n• **Localização:** por toda as costas.  \n• **Irradiação:** não irradia.  \n• **Característica:** como se fosse ferroadas, está ardendo.  \n• **Intensidade:** 9/10.  \n\n\n**LESÕES DE PELE:**  \n• **Quantidade:** acho que mais de 10.  \n• **Edemas:** sinto que está inchado, não consigo apoiar as costas que dói. E acho que minha cara ta ficando inchada também.  \n• **Eritema:** não sei, não consigo ver.  \n• **Prurido:** estou sentindo muito, mas não consigo coçar porque é nas costas.  \n• **Presença de ferrões:** não consegui ver.  \n\n\n**DEMAIS SINTOMAS:**  \n**Dispneia:** estou com um pouco de falta de ar.  \n**Edema de glote:** nega.  \n**Dificultade de fala:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** alergia a benzetacil.  \n• **Doenças e medicações:** nega.  \n• **VACINAÇÃO:** faz tempo que não tomo.  \n\n• **Álcool, tabaco e drogas:** nega.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Doutor(a), essa alergia é grave?*  \n• SOMENTE caso o candidato indique a retirada dos ferrões: *Como você vai retirar os ferrões?*  \n• *Pode ter complicações?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 125x80 mmHg  \n• **FC:** 90 bpm  \n• **FR:** 20 irpm  \n• **SatO2:** 95%  \n• **Temp. axilar:** 36.9° C  \n\n\n**Ectoscopia geral:** paciente orientado, corado, com face edemaciada +/4+, hidratado, acianótico e anictérico.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** apresenta respiração bucal, com inspiração curta e superficial. Murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n\n**Abdominal:** abdome plano e flácido, indolor a palpação, RHA preservados, timpânico a percussão, sem massa palpável.  \n\n\n**MMII:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DAS LESÕES",
+      "conteudo": "Presença de eritemas circulares e edemaciados, dispersos em toda região dorsal.  \n\n\nIdentifica-se alguns ferrões presentes na pele.",
+      "imagem": "img_printeds/e101p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,9 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 14,0 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 41% (VR: 39 - 52%)  \n\n• **Plaquetas:** 199.000 mm/3 (150.000 - 400.000 mm/3)  \n\n• **Leucócitos:** 9.890/mm3 (VR: 4.000 - 10.000/mm3)  \n• **Neutrófilos:** 55% (VR: 40 - 70%)  \n• **Linfócitos:** 25% (VR: 20 - 50%)  \n• **Eosinófilos:** 11% (VR: 0 - 6%)  \n• **Monócitos:** 4% (VR: 4 - 8%)  \n\n\n• **Creatinina (Cr):** 1,2 mg/dL (VR: 0,5 - 1,2 mg/dl)  \n• **Ureia (Ur):** 40 mg/dl (VR: 13 - 43 mg/dl)  \n\n\n**URINA SIMPLES**  \n• **Aspecto:** límpido (VR: límpido)  \n• **pH:** 5,7 (VR: 4,5 - 7,8)  \n\n• **Proteínas:** negativo (VR: negativo)  \n• **Corpos cetônicos:** negativo (VR: negativo)  \n• **Hemoglobina:** negativo (VR: negativo)  \n\n• **Piócitos:** 3 por campo (VR: < 4 por campo)  \n• **Hemácias:** 2 por campo (VR: < 2 por campo)  \n\n\n• **TGO:** 36 U/l (VR: 15 – 40 U/l)  \n• **TGP:** 34 U/l (VR: 10 – 40 U/l)  \n\n• **Bilirrubinas totais:** 0,8 mg/dl (VR: 0,2 - 1,1 mg/dl)  \n• **Bilirrubina indireta:** 0,4 mg/dl (VR: 0,1 - 0,7 mg/dl)  \n• **Bilirrubina direta:** 0,4 mg/dl (VR: 0,1 - 0,4 mg/dl)  \n\n\n• **Lactato:** 12 mg/dL (VR: 5 - 20 mg/dL)  \n• **CPK:** 138 U/L (VR: 38 - 174 U/L)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se como médico e solicita o nome e profissão do paciente**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Questiona sobre o quadro agudo:**  \n(1) Dor local: tempo de início, localização e característica (pelo menos 2);  \n(2) Lesões de pele: quantidade de picadas, edema, eritema/rubor e prurido (pelo menos 2);\n(3) Presença de ferrões na pele.  \n\n**Adequado:** Investiga os três itens.  \n**Parcialmente adequado:** Investiga dois itens.  \n**Inadequado:** Investiga apenas um item, OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona sobre sinais de gravidade:**  \n\n(1) edema de laringe ou glote;  \n(2) Dispneia;  \n(3) hipotensão;  \n(4) náuseas e vômitos;  \n(4) sangramentos: hemoptise ou hepistaxe ou gengivorragia ou hematúria;  \n(5) sonolência ou torpor ou vertigem ou síncope/desmaio.  \n\n**Adequado:** Investiga ao menos quatro itens.  \n**Parcialmente adequado:** Investiga três itens.  \n**Inadequado:** Investiga apenas dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza alterações do exame físico e complementares compatíveis com anafilaxia:**  \n(1) Dispneia;  \n(2) Edema de face; e  \n(3) urticária/prurido.  \n(4) Eosinofilia.  \n\n**Adequado:** descreve as quatro alterações.  \n**Parcialmente adequado:** descreve o item (1) e mais dois itens OU descreve apenas o item (1).  \n**Inadequado:** não descreve o item (1).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais.**  \n(1) Hemograma;  \n(2) Lactato ou DHL ou LDH;  \n(3) CPK OU CKMB OU CK OU creatinoquinase;  \n(4) TGO e TGP;  \n(5) Bilurrubinas total e frações;  \n(6) Urina Simples;  \n(7) Ureia e Creatinina.  \n\n**Adequado:** solicita cinco ou mais itens.  \n**Parcialmente adequado:** solicita quatro itens.  \n**Inadequado:** solicita apenas três ou menos itens.  \n\n*Observação: considerar apenas os 7 primeiros exames citados.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Identifica o quadro como acidente por abelha e anafilaxia:**  \n\n**Adequado:** identifica como acidente por abelha e anafilaxia.  \n**Parcialmente adequado:** identifica como acidente por animal peçonhento, sem especificar abelha e/ou anafilaxia.  \n**Inadequado:** não identifica.  \n\nOBS: será Parcialmente adequado caso identifique como *acidente por animal peçonhento*, sem especificar *abelha*.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Encaminha o paciente para internação hospitalar.**  \n\n**Adequado:** indica internação.  \n**Inadequado:** não indica internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Condutas iniciais:**  \n(1) Adrenalina IM ou subcutânea;  \n(2) Oxigenioterapia;  \n(3) Analgesia EV (dipirona, morfina);  \n(4) Corticóide EV (hidrocortisona);  \n(5) Anti-histamínico IM (prometazina);  \n\n**Adequado:** indica quatro ou cinco itens.  \n**Parcialmente adequado:** indica três itens.  \n**Inadequado:** indica apenas dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "O uso de adrenalina é o ponto chave do tratamento, usado para reverter o quadro agudo :\n- Urticária generalizada  \n- Edema de glote ou laringe\n- Choque\n- Hipotensão\n- Broncoespasmo\n\nEm conjunto, caso exista broncoespasmo, sibilos e dispneia está indicado o uso de broncodilatador inalatório. "
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza retirada dos ferrões:** utiliza técnica para \"raspar\" a pele para remoção dos ferrões.  \n\n**Adequado:** retira os ferrões com a técnica adequada.  \n**Inadequado:** retira os ferrões com pinça ou agulha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": "A remoção dos ferrões da pele deve ser realizada através de \"raspagem\".  \nNão deve ser feito com pinça ou agulha, pois pode levar à inoculação de mais veneno.  "
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explica sobre as complicações:**  \n(1) Choque anafilático;  \n(2) Edema de glote/laringa;  \n(3) Insuficiência respiratória;  \n(4) Insuficiência renal aguda;  \n(5) Rabdomiólise;  \n(6) hemólise intravascular;  \n(7) Coma.  \n\n**Adequado:** explica três ou mais itens.  \n**Parcialmente adequado:** explica dois itens.  \n**Inadequado:** explica um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre prevenção nos locais onde possa existir colmeias ou enxame de abelhas:**  \n(1) Remoção das colônias de abelhas de locais públicos ou residências por profissionais treinados e equipados;  \n(2) aproximar-se de colmeias somente com os equipamentos adequados (macacão, luvas, máscara, botas, fumigador, etc.);  \n(3) Evitar barulhos, pois desencadeiam o ataque de abelhas;  \n(4) Evitar Perfumes, desodorantes e odores fortes próximo de colmeias;  \n(5) Não usar cores escuras (principalmente preta e azul-marinho) durante o trabalho em jardinagem ou demais locais que possa haver colmeias;  \n(6) Atenção com sons de motores de aparelhos de jardinagem. Estes sons exercem extrema irritação em abelhas.  \n\n**Adequado:** cita três ou mais itens.  \n**Parcialmente adequado:** cita dois itens.  \n**Inadequado:** cita apenas um item, OU não cita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realiza notificação ao SINAN.**  \n\n**Adequado:** notifica.  \n**Inadequado:** não notifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

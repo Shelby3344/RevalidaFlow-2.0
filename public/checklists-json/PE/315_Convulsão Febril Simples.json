@@ -1,0 +1,143 @@
+{
+  "uid": 315,
+  "hash": "pepe_315",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Convulsão Febril Simples",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária - pronto-socorro pediátrico.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultórios médicos;  \n• Sala de observação;  \n• Laboratório e Raio-X.\n\nDescrição do caso:\nVocê está de plantão no pronto-socorro e atenderá um menino de 3 anos. Eles relatam que a criança apresentou um \"ataque\" em casa, associado à febre.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao episódio.  \n- Solicitar o exame físico específico, caso necessário.  \n- Verbalizar a hipótese diagnóstica.  \n- Orientar os pais sobre o prognóstico e a necessidade de exames complementares.  \n- Realizar a prescrição médica.  \n- Responder as dúvidas e orientar sinais de alerta.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Júlia, 28 anos.  \n• **Criança:** Pedro, 3 anos  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), O Pedro teve um ataque em casa. Ele se tremeu todo e revirou os olhos. Eu achei que meu filho ia morrer!  \n\n**SOBRE A CRISE:**  \n• **Início:** Foi faz uns 40 minutos, logo antes da gente vir pra cá.  \n• **Duração:** Foi rápido, acho que durou uns 2 minutos no máximo.  \n• **Características:** Ele ficou durinho e se batendo, braços e pernas. Os olhos viraram para trás.  \n• **Sialorreia:** Saiu um pouco de baba sim.  \n• **Recuperação:** Depois que parou, ele ficou molinho e dormiu. Acordou faz uns 10 minutos, meio confuso.  \n• **Recorrência:** Não teve mais nenhuma vez.  \n\n**SOBRE A FEBRE E SINTOMAS ASSOCIADOS:**  \n• **Febre:** Medi em casa e deu 38,9ºC.  \n• **Sintomas gripais:** Está com o nariz escorrendo e tossindo um pouco, gripado desde ontem.  \n\n• **Outros:** Não teve vômito, não teve diarreia, nem mancha na pele.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Crises anteriores:** Nunca teve isso antes. É a primeira vez.  \n• **Doenças e internações:** É saudável, nunca internou.  \n• **Vacinação:** A caderneta está toda em dia.  \n• **Nascimento:** Nasceu de parto normal, tempo certo, tudo bem.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Eu nunca tive, mas uma prima dele teve isso quando era pequena, dizem que foi por causa de febre também.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Doutor(a), isso é epilepsia? Ele vai ter isso pra sempre?*  \n• *Precisa fazer tomografia ou exame da cabeça ou algum outro exame?*  \n• *O que eu faço se der de novo?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **FC:** 110 bpm.  \n• **FR:** 22 irpm.  \n• **Saturação O2:** 98% em ar ambiente.  \n• **Temperatura Axilar:** 38,2ºC.  \n• **Peso:** 12 kg.  \n\n\n**Ectoscopia:**  \n• Bom estado geral, corado, hidratado, acianótico. Ativo, reativo, interagindo com o examinador.  \n\n\n**Neurológico:**  \n• Vigil, orientado, pupilas isocóricas e fotorreagentes.  \n• Sem déficits motores focais.  \n• Ausência de sinais de irritação meníngea (Rigidez de nuca ausente, Brudzinski e Kerning negativos).  \n\n\n**Oroscopia/Otoscopia:**  \n• Hiperemia de pilares amigdalianos, sem placas de pus. Membranas timpânicas íntegras e brilhantes.  \n\n\n**Respiratório:**  \n• Murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Coriza hialina presente.  \n\n\n**Demais sistemas:** Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e a criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese da crise convulsiva:**  \n(1) duração do episódio (menor que 15 minutos);  \n(2) características (generalizada tônico-clônica);  \n(3) recuperação da consciência (estado pós-ictal curto/retorno ao basal).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a etiologia da febre e exclui sinais de infecção do Sistema Nervoso Central (SNC):**  \n(1) sintomas respiratórios ou foco infeccioso aparente (IVAS);  \n(2) rigidez de nuca ou sinais meníngeos (na anamnese ou exame físico);  \n(3) alteração do nível de consciência persistente.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico, com ênfase na avaliação neurológica.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza o diagnóstico de Convulsão Febril Simples (ou Crise Febril Simples).**  \n\n**Adequado:** verbaliza o diagnóstico completo.  \n**Parcialmente adequado:** verbaliza apenas \"convulsão\" ou \"crise convulsiva\".  \n**Inadequado:** não verbaliza ou erra o diagnóstico (ex: epilepsia, meningite, convulsão febril complexa/complicada).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Tranquiliza a mãe explicando a natureza benigna do quadro.**  \n(1) explica que não é epilepsia;  \n(2) informa que não deixa sequelas neurológicas;  \n(3) explica que há chance de recorrência em novos episódios de febre.  \n\n**Adequado:** explica os três pontos.  \n**Parcialmente adequado:** explica dois pontos.  \n**Inadequado:** explica um ponto ou não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Define a conduta em relação aos exames complementares:**  \n(1) afirma que NÃO há necessidade de exames de imagem (TC ou RM) ou neurofisiológicos (EEG);  \n(2) afirma que NÃO há indicação de punção lombar (líquor) no momento.  \n\n**Adequado:** verbaliza as duas condutas (negativas).  \n**Parcialmente adequado:** verbaliza uma conduta.  \n**Inadequado:** solicita exames desnecessários ou não aborda o tema.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza a prescrição de antitérmicos para controle da febre e conforto.**  \n(1) Dipirona (gotas ou xarope) OU Paracetamol OU Ibuprofeno;  \n\n**Adequado:** prescreve a medicação correta.  \n**Inadequado:** não prescreve ou prescreve anticonvulsivante contínuo (ex: fenobarbital).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Não prescreve anticonvulsivante profilático contínuo (fenobarbital, ácido valproico, etc).**  \n\n**Adequado:** não prescreve.  \n**Inadequado:** prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sinais de alarme e retorno:**  \n(1) crises com duração maior que 5 minutos;  \n(2) recorrência da crise em menos de 24 horas;  \n(3) sonolência excessiva ou irritabilidade;  \n(4) vômitos persistentes ou rigidez de nuca.  \n\n**Adequado:** orienta três ou mais sinais.  \n**Parcialmente adequado:** orienta dois sinais.  \n**Inadequado:** orienta um sinal ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "uid": 1506,
+  "hash": "pepe_1506",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Pielonefrite aguda + ITU Recorrente",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de coleta de exames;  \n• Laboratório de análises clínicas conveniado.\n\nDescrição do caso:\nVocê é médico(a) de uma UBS e recebe uma paciente com queixa de dor ao urinar e em região lombar há 3 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a principal hipótese diagnóstica;  \n- Propor a conduta terapêutica apropriada;  \n- Responder as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Joana, 25 anos, secretária.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor para urinar e também começou a doer as costas. Minha urina está saindo bem amarela. Volta e meia eu tenho isso e acabo vindo aqui pra pegar um remédio e um atestado.  \n\n**SOBRE QUEIXA URINÁRIA:**  \n• **Início:** Começou faz uns 7 dias, bem de leve e foi aumentando.  \n• **Dor ou ardência:** Sim, está ardendo pra fazer xixi.  \n• **Polaciuria, oliguria ou nocturia:** Estou urinando menos que o normal.  \n• **Coloração ou sangue:** A cor está amarela, bem forte. \n• **Sangramento:** nega.  \n\n• **Episódio anterior:** Consultei no postinho 3 vezes no último ano pelo mesmo motivo. Parece que isso acontece comigo a cada 3 meses. Eu tomava o remédio e melhorava, mas dessa vez está pior porque começou a doer as costas.  \n\n**SOBRE DOR:**  \n• **Início:** faz uns 3 dias.  \n• **Localização:** Nas costas, dos dois lados.  \n• **Intensidade:** A dor pra urinar é um 5 de 10. A das costas está mais forte.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Sim, medi em casa e deu 38,5°C.  \n• **Sudorese ou calafrios:** nega.  \n• **Vômitos:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença e nem alergia.  \n• **Álcool, tabaco e drogas:** bebo bem pouco, mais final de semana.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **Parceria fixa:** tenho meu namorado somente.  \n• **Relação sexual:** Sinto dor durante a relação.  \n• **Anticoncepção e preservativo:** Tomo pílula anticoncepcional.  \n• **Corrimento, secura, secreção, sangramento:** Nega.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** nunca engravidei.  \n\n**DÚVIDAS:**  \n• *O que eu tenho? É alguma infecção sexual?*  \n• *Preciso fazer algum outro exame?*  \n• *Não tem como previnir isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 125x80 mmHg  \n• **FC:** 90 bpm  \n• **FR:** 18 irpm  \n• **Temp. axilar:** 38,8° C  \n\n\n**Ectoscopia:**  \n• Paciente em regular estado geral, prostada, lúcida e orientada, corada, hidratada, com fácies de dor.  \n\n**Cardiovascular:**  \n• Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n**Respiratório:**  \n• Murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n**Abdominal:**  \n• Abdome plano, flácido, com ruídos hidroaéreos presentes. Doloroso à palpação profunda de hipogástrio, sem sinais de irritação peritoneal.  \n\n• Punho-percussão lombar positiva bilateralmente (Sinal de Giordano positivo).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "URINA SIMPLES",
+      "conteudo": "*Amostra:*  \n• **Aspecto:** turvo (VR: límpido)  \n• **Cor:** amarela-escura (VR: não se aplica)  \n• **Densidade:** 1030 (VR: 1015 - 1025)  \n• **pH:** 6,8 (VR: 4,5 - 7,8)  \n\n\n*Exame químico:*  \n• **Proteínas:** traços (VR: negativo)  \n• **Hemoglobina:** negativo (VR: negativo)  \n• **Nitrito:** reagente (VR: não reagente)  \n\n*Sedimentoscopia:*  \n• **Piócitos:** > 50 por campo (VR: < 4 por campo)  \n• **Hemácias:** 8 por campo (VR: < 2 por campo)  \n• **Cilindros leucocitários:** presentes (VR: ausentes)  \n• **Flora bacteriana:** numerosa (VR: ausente)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "UROCULTURA E ANTIBIOGRAMA",
+      "conteudo": "**Resultado da Cultura:**  \n• **Contagem de colônias:** > 100.000 UFC/mL  \n• **Agente Isolado:** *Escherichia coli*  \n\n\n**Antibiograma (TSA):**  \n• Sensível à Ceftriaxona.  \n\n\n**ATENÇÃO**\n**Caso o candidato recomende antibióticoterapia,**  \n**deve ser indicado corretamente o antibiótico, a dosagem, a via de administração e o tempo de tratamento.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta a paciente e apresenta-se como médico, tratando a paciente pelo nome.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga o tempo de ocorrência da 1ª infecção urinária e se houve cura.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga o número e intervalo de episódios de infecção do trato urinário (ITU) recorrentes.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga a ocorrência de febre, calafrios, dor suprapúbica, dor lombar, hematúria (pelo menos dois).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga a relação da ITU com coito/dispareunia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga história ginecológica e obstétrica: partos, abortos, leucorreia, fluxo menstrual, prevenção de câncer de útero (pelo menos três).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga a realização de exames prévios para esclarecimento da ITU - RX de abdome, ultrassonografia abdominal, urografia, uretrocistografia miccional (pelo menos duas).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita, interpreta e verbaliza corretamente os achados do sedimento urinário e urocultura com antibiograma.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica à paciente, de modo correto e compreensivo, o quadro de ITU recorrente.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explica à paciente a não associação da ITU recorrente ao coito.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica o tratamento adequado para o germe identificado e antibiograma (ceftriaxona 1 a 2g/ dia, IM ou IV por 14 dias).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica e verbaliza a profilaxia contínua com um dos seguintes medicamentos: nitrofurantoína, cefalexina, sulfametoxazol-trimetoprima; ciprofloxacina, norfloxacino; ácido pipemídico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica acompanhamento trimestral através da realização de urocultura com antibiograma.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

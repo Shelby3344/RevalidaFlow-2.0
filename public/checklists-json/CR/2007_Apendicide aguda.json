@@ -1,0 +1,211 @@
+{
+  "uid": 2007,
+  "hash": "pepe_2007",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Apendicide aguda",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está de plantão em um pronto-socorro de hospital secundário de  \nurgência..  \n\nObservação  \nO hospital secundário tem a seguinte estrutura:  \n• possui setor de radiologia convencional e ultrassonografia;  \n• não possui tomografia computadorizada nem ressonância nuclear magnética;  \n• possui laboratório de análises clínicas;  \n• possui centro cirúrgico e leitos de internação (enfermaria e unidade de terapia  \nintensiva);  \n• não possui banco de sangue.\n\nDescrição do caso:\nVocê está de plantão em um pronto-socorro de hospital secundário de  \nurgência e vai atender uma paciente de 22 anos, sexo feminino, com dor forte  \nem andar inferior do abdome, com piora progressiva, iniciada há 2 dias. Ela  \nrelata distensão abdominal, anorexia, náuseas e vômitos em pequena  \nquantidade no início do quadro.",
+  "tarefas": "*Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar o atendimento da paciente, explicando cada achado para ela;  \n- definir o diagnóstico;  \n- adotar a conduta terapêutica necessária;  \n- demonstrar a realização de procedimentos médicos, caso necessário.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Janaina, 22 anos, casada, estudante.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr (a), estou com muita dor na barriga.  \n\n**SOBRE O MOTIVO DE CONSULTA**:  \n**Início**: começou há 3 dias.  \n**Localização**: sinto que agora dói mais aqui perto da região do umbigo.  \n**Característica**: é tipo uma cólica bem forte.  \n**Irradiação**: vai para a região inferior do lado direito da barriga.  \n**Intensidade**: 7/10.  \n**Frequência/Episódios anteriores**: nunca tive isso. É a primeira vez.  \n**Fatores agravantes e atenuantes**: tomei analgésicos, mas a dor não cede.  \n**Catarse e eliminação de gases**: estou eliminando gases, mas sinto minha barriga inchada.  \n\n**SINAIS E SÍNTOMAS ACOMPANHANTES**:  \n**Anorexia**: sim.  \n**Náuseas**: sim.  \n**Vômitos**: sim, vomitei algumas vezes com resto de alimentos.  \n**Febre**: acho que estou com febre sim, mas não medi minha temperatura porque não tenho termômetro em casa.  \n**Calafrios**: nega.  \n**Corrimento vaginal**: nega.  \n**Alteração do hábito intestinal**: estou com um pouco de diarreia estes dias.  \n**Alteração da característica da urina**: nega.  \n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS**:  \n**Comorbidades**: nega.  \n**Alergias**: nega.  \n**Cirurgia prévia**: nega.  \n\n**ANTECEDENTES GINECOLÓGICOS**:  \n**Atividade sexual**: sou ativa com um único parceiro.  \n**Última relação sexual**: há 2 semanas.  \n**Uso de anticoncepção/preservativo**: sim, uso camisinha em todas as relações sexuais.  \n**História prévia de infecção sexualmente transmissível**: nega.  \n\n**HÁBITOS**:  \n**Tabaguismo**: nega.  \n**Consumo de bebidas alcoólicas**: nega.  \n**Dieta**: variada.  \n**Atividade física**: faço natação 2 vezes na semana e jogo vôlei também.  \n\n\n**ORIENTAÇÕES:**  \nApós o candidato solicitar o Exame físico: *\"Dr(a), verbalize a técnica semiológica de descompressão brusca para este caso.\"*  \n\n**INDAGAR QUANDO O CANDIDATO VERBALIZAR O DIAGNÓSTICO**:  \n1. Tem certeza que é isso? Não pode ser outra coisa?  \n2. Dr. (a), o que é o apêndice e qual a função dele? É mesmo necessário tirá-lo?  \n\n**INDAGAR QUANDO O CANDIDATO VERBALIZAR O TRATAMENTO**:  \n1. Qual é a via de acesso para a retirada do apêndice? Vão ter que abrir minha barriga?  \n2. Dr (a) eu vou ter que tomar antibiótico? Qual antibiótico ?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "• **PA:** 100 × 60 mmHg  \n• **FC:** 110 bpm  \n• **FR:** 20 irpm  \n• **Temperatura:** 38,2 °C  \n• **Escore de coma de Glasgow:** 15",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "• **Exame externo:** pequenos e grandes lábios sem alterações, pelos bem implantados, ausência de lesões na vulva. Ausência de alterações na região perineal.  \n\n\n• **Toque vaginal:** ausência de dor à mobilização do colo uterino e fundo de saco de Douglas.  \n\n\n• **Exame especular:** secreção vaginal normal e sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES BIOQUÍMICOS",
+      "conteudo": "**Hemograma:**  \n- **Hb:** 13,2 g/dL (VR: 12-16)  \n- **Ht:** 45,1% (VR: 35-45)  \n- **Leucócitos:** 17.110/mm³ (VR: 4.500-11.000)  \n  - Neutrófilos segmentados: 68,1%  \n  - Bastões: 11,5%  \n  - Linfócitos: 8,1%  \n  - Monócitos: 7,4%  \n- **Plaquetas:** 251.000/mm³ (VR: 150.000-450.000)  \n\n\n**Outros exames:**  \n- **PCR:** 76,22 mg/L (VR: 5 mg/L)  \n- **Ureia:** 21 mg/dL (VR: 15-45)  \n- **Creatinina:** 1,08 mg/dL (VR: 0,6-1,2)  \n- **Na:** 135 mEq/L (VR: 135-145)  \n- **K:** 3,4 mEq/L (VR: 3,5-4,5)  \n- **β-HCG:** negativo",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ULTRASSOM ABDOMINAL",
+      "conteudo": "**ULTRASSONOGRAFIA ABDOMINAL**  \n\n\nApêndice cecal de dimensões aumentadas e espessadas, não compressível.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**EXAME FÍSICO ABDOMINAL**  \n\n\n- Dor à palpação superficial e profunda, com descompressão brusca positiva (Blumberg).\n\n\nRestante do exame físico sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se adequadamente para a paciente.**  \n\n**Adequado:** Identifica-se.  \n**Inadequado:** Não se identifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, perguntando sobre sinais de risco para**  \nanexite/salpingite (corrimento vaginal, vida sexual ativa, história prévia de  \ninfecção sexualmente transmissível).  \n\n**Adequado:** Pergunta corretamente todas as possibilidades.  \n**Parcialmente adequado:** Pergunta somente um dos itens.  \n**Inadequado:** Não pergunta sobre os assuntos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza anamnese, perguntando sobre possibilidade de gestação/gravidez**  \nectópica/rota (data da última menstruação, uso de anticoncepção, atividade  \nsexual recente).  \n\n**Adequado:** Pergunta corretamente todas as possibilidades.  \n**Parcialmente adequado:** Pergunta somente um dos itens.  \n**Inadequado:** Não pergunta sobre os assuntos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Exame físico com dor à palpação superficial e profunda, com**  \ndescompressão brusca positiva (Blumberg).  \n**Adequado:** Realiza o exame adequadamente.  \n**Inadequado:** Não realiza o exame adequadamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explica adequadamente hipóteses diagnósticas para a paciente simulada**  \n(anexite/salpingite aguda versus apendicite aguda; torção/ruptura de cisto  \novariano).  \n\n**Adequado:** Explica adequadamente as hipóteses mencionadas.  \n**Inadequado:** Não explica as hipóteses mencionadas.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita a realização de exame ginecológico (especular e toque vaginal).**  \n\n**Adequado:** Solicita o exame.  \n**Inadequado:** Não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita os exames complementares (bioquímicos e de imagem) como plano**  \ndiagnóstico.  \n\n**Adequado:** Solicita pelo menos dois exames (ß-HCG e/ou hemograma e/ou  \nultrassonografia).  \n**Parcialmente adequado:** Solicita somente um exame (B-HCG, hemograma ou  \nultrassonografia).  \n**Inadequado:** Não solicita ß-HCG, hemograma nem ultrassonografia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta de maneira adequada os exames bioquímicos.**  \n\n**Adequado:** Interpreta Hemograma com leucocitose, com desvio à esquerda, e  \nPCR aumentados.  \n**Parcialmente adequado:** Interpreta o Hemograma como normal ou o PCR como  \nnormal.  \n**Inadequado:** Interpreta todos os exames como normais ou não interpreta  \nnenhum exame, por não os ter solicitado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Interpreta de maneira adequada o ultrassom, definindo o diagnóstico de**  \napendicite aguda.  \n\n**Adequado:** Define o diagnóstico a partir do ultrassom.  \n**Inadequado:** Não define o diagnóstico a partir do ultrassom.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita autorização (termo de consentimento informado) à paciente**  \nsimulada para internação e realização de procedimento cirúrgico de  \nemergência (apendicectomia).  \n\n**Adequado:** Solicita a autorização.  \n**Inadequado:** Não solicita a autorização.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Inicia medidas de suporte adequadamente (jejum, repouso no leito,**  \nhidratação endovenosa, analgesia).  \n\n**Adequado:** Orienta pelo menos três medidas.  \n**Parcialmente adequado:** Orienta uma ou duas medidas.  \n**Inadequado:** Não orienta nenhuma dessas medidas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Responde adequadamente sobre o apêndice, sua localização e sua função.**  \n\n**Adequado:** Responde corretamente as três perguntas.  \n**Parcialmente adequado:** Responde corretamente até duas perguntas.  \n**Inadequado:** Não responde corretamente nenhuma pergunta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Esclarece se a via de acesso pode ser laparoscópica e/ou aberta.**  \n\n**Adequado:** Esclarece que o acesso pode ser feito por qualquer uma das duas  \nvias, com preferência pelo vídeo, se possível.  \n**Parcialmente adequado:** Define somente uma via: aberta ou por vídeo.  \n**Inadequado:** Não esclarece.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Responde sobre o uso de antibiótico para cobertura de gram-negativo**  \n(aminoglicosídeo ou cefalosporina de 2.a ou 3.a geração e anaeróbio  \n(metronidazol ou clindamicina).  \n\n**Adequado:** Responde corretamente sobre os antibióticos e os tipos.  \n**Parcialmente adequado:** Responde, de forma incompleta ou parcialmente  \ncorreta, sobre os antibióticos e os tipos.  \n**Inadequado:** Não responde sobre os antibióticos e os tipos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "uid": 520,
+  "hash": "pepe_520",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Violência contra a Pessoa Idosa (Abordagem Integral na APS)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde (APS).  \nTipo de atendimento: Ambulatorial – Unidade Básica de Saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Equipe multiprofissional (eMulti/NASF);\n\nDescrição do caso:\nVocê está em seu atendimento de rotina na UBS, e atenderá uma paciente de 78 anos. Ela veio à UBS acompanhada do neto que a deixou na porta e ficou aguardando na recepção de forma impaciente. A paciente parece reticente e evita contato visual.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese focada na saúde integral;  \n- Identificar possíveis sinais de alerta e Solicitar o exame físico direcionado;  \n- Realizar as condutas médicas, legais e sociais pertinentes ao caso;  \n- Pactuar o seguimento longitudinal.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Dalva, 78 anos, viúva, do lar.  \n\n**HISTÓRIA DA MOLESTIA ATUAL (HMA):**  \n• **Queixa:** Doutor(a), Eu vim só pra renovar a receita da minha Losartana, mais eu também queria uma pomada para um machucado no meu braço porque eu caí no banheiro.  \n\n**SOBRE O MACHUCADO:**\n• **Início:** Há 5 dias.  \n• **Localização:** No braço esquerdo.  \n• **Intensidade Dor:** 2/10.  \n• **Irradiação:** Não irradia.  \n\n• **O REAL Motivo da Lesão do Braço:** \"Vou te falar a verdade Doutor(a)... O meu neto, Ele me apertou com força porque eu demorei para achar o cartão do banco\".\n\n\n**DINÂMICA FAMILIAR:**  \n• **Estrutura Familiar:** Lá em casa, Só mora eu e o meu neto Júnior de 35 anos.  \n• **Violência Financeira:** Ele fica com o cartão da aposentadoria. \"Ele diz que guarda pra mim, mas nunca sobra dinheiro nem pra eu comprar as minhas coisinhas\".  \n• **Violência Psicológica:** \"Ele grita muito, diz que eu sou um peso, que eu devia morrer logo\".  \n• **Negligência:** \"Às vezes ele sai de casa e me deixa sem comida\".  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS/OBJEÇÕES:**  \n• Caso o candidato indique notificação ou contato com orgão Policial/MP: *Doutor(a), pelo amor de Deus, não chame a polícia, ele vai ficar com muita raiva de mim.*  \n• *Eu não tenho pra onde ir, a casa é minha, mas ele tomou conta de tudo.*  \n• Caso o candidato recomende que se faça B.O.: *Eu não quero fazer nenhuma queixa.*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **PA:** 160x90 mmHg  \n• **FC:** 92 bpm  \n• **FR:** 18 irpm  \n• **Peso:** 58 kg (Perda de 4 kg em 2 meses)  \n• **Glicemia Capilar:** 98 mg/dL  \n\n\n• **Ectoscopia:** Paciente emagrecida, higiene oral precária. Mucosas hipocoradas (+/4+).  \n\n• **Pele/Membros Superiores:** Presença de equimose em região de terço médio do braço esquerdo, face interna, compatível com preensão digital. Presença de equimose amarelada em antebraço direito.  \n\n• **Cardiovascular/Respiratório:** Sem alterações dignas de nota, exceto níveis pressóricos elevados.  \n\n• **Demais sistemas:** sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Acolhimento e Garantia de Privacidade:**  \n(1) Apresenta-se cordialmente;  \n(2) Solicita o nome e idade da paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** permite a entrada do acompanhante ou não se preocupa com a privacidade.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Anamnese (Rastreamento de Violência):**  \n(1) Pergunta ativamente sobre a relação com o cuidador/neto;  \n(2) Investiga a dinâmica financeira (quem administra a aposentadoria/dinheiro).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Anamnese (Investigação da Lesão/Trauma):**  \n(1) Questiona a origem da lesão física observada ou relatada;  \n(2) Confronta delicadamente a história de \"queda acidental\" se houver inconsistência (ex: \"Dona Dalva, esse machucado parece ser estranho, alguém lhe machucou?\").  \n\n**Adequado:** investiga a lesão e aprofunda a causa.  \n**Parcialmente adequado:** aceita a primeira resposta (\"queda\") sem questionar.  \n**Inadequado:** ignora a lesão.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Exame Físico Geral e Específico:**  \n(1) Solicita avaliação do estado nutricional/higiene (sinais de negligência);  \n(2) Descreve/Solicita avaliação das lesões de pele (fase das equimoses para avaliar recorrência).  \n\n**Adequado:** realiza avaliação geral e das lesões.  \n**Parcialmente adequado:** avalia apenas um ponto.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identificação dos Tipos de Violência:**  \nVerbaliza ou registra em prontuário a suspeita/confirmação dos tipos de violência identificados:\n(1) Física;  \n(2) Psicológica;  \n(3) Patrimonial/Financeira;  \n(4) Negligência.  \n\n**Adequado:** identifica pelo menos 3 tipos presentes no caso.  \n**Parcialmente adequado:** identifica 1 ou 2 tipos.  \n**Inadequado:** não tipifica a violência.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Avaliação de Risco Iminente:**  \nQuestiona se a paciente se sente segura para voltar para casa hoje e avalia o risco de vida ou de novas agressões imediatas.  \n\n**Adequado:** avalia o risco de retorno ao lar.  \n**Inadequado:** não avalia a segurança imediata.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Notificação Compulsória:**  \nInforma que realizará a **Notificação Compulsória de Violência Interpessoal/Autoprovocada** (Ficha SINAN),  \nexplicando que é um dever legal do médico diante da *suspeita* ou confirmação, e que não equivale a uma denúncia policial (B.O).  \n\n**Adequado:** realiza/verbaliza a notificação no SINAN.  \n**Inadequado:** não notifica ou confunde com B.O.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Acionamento da Rede de Proteção (Social/Legal):**  \n(1) Indica encaminhamento/contato com o **CREAS** (Centro de Referência Especializado de Assistência Social) ou Serviço Social;  \n(2) Verbaliza a necessidade de comunicação ao **Ministério Público** ou **Conselho Municipal da Pessoa Idosa** ou **Delegacia do Idoso**, conforme gravidade e fluxo local.  \n\n**Adequado:** aciona dois órgãos da rede.  \n**Parcialmente adequado:** aciona apenas um órgão.  \n**Inadequado:** não aciona a rede de proteção.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Manejo Clínico das Comorbidades:**  \n(1) Renova a receita (motivo da consulta);  \n(2) Não realiza ajuste agressivo da PA no momento (entende que a elevação é reacional ao estresse) e orienta sobre a perda de peso/nutrição.  \n\n**Adequado:** atende a demanda clínica e contextualiza a PA.  \n**Parcialmente adequado:** apenas renova receita.  \n**Inadequado:** não fornece a medicação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Plano de Segurança e Abordagem Familiar:**  \n(1) Discute uma estratégia de segurança com a paciente (Rede de Apoio: vizinho de confiança, outro familiar, evitar confronto direto hoje);  \n(2) Agenda visita domiciliar da equipe (Médico/Enfermeiro + ACS) ou Assistente Social para avaliação *in loco* do ambiente, sem expor a idosa ao agressor.  \n\n**Adequado:** planeja segurança e visita domiciliar.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não estabelece plano de segurança.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Acompanhamento Longitudinal (Retorno):**  \nAgenda retorno na UBS para reavaliação clínica e social, garantindo o vínculo e monitoramento da situação.  \n\n**Adequado:** agenda retorno breve.  \n**Inadequado:** dá alta ou retorno longo (ex: 3 meses).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Competência Cultural/Ética:**  \nRespeita a autonomia da paciente (se ela não quiser fazer B.O policial no momento), mas reforça que a notificação sanitária e o acionamento da rede de proteção social são obrigatórios para o profissional.  \n\n**Adequado:** equilibra dever legal com acolhimento ético.  \n**Inadequado:** força a paciente a ir à delegacia ou omite socorro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

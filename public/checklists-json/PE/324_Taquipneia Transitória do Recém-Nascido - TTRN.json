@@ -1,0 +1,161 @@
+{
+  "uid": 324,
+  "hash": "pepe_324",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Taquipneia Transitória do Recém-Nascido - TTRN",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - maternidade.  \nTipo de atendimento: internação neonatal.  \nA unidade apresenta a seguinte infraestrutura:  \n• alojamento conjunto;  \n• UTI neonatal;  \n• laboratório de análises clínicas;  \n• setor de radiologia.\n\nDescrição do caso:\nVocê está de plantão em uma maternidade e é chamado pela enfermaria para avaliar um recém-nascido de 15 horas de vida que apresenta respiração rápida.",
+  "tarefas": "TAREFAS:  \n- Ler a ficha do RN e realizar a anamnese sobre o quadro.  \n- Solicitar e interpretar o exame físico do recém-nascido.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Formular e verbalizar a hipótese diagnóstica e os diagnósticos diferenciais.  \n- Orientar a conduta terapêutica adequada.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Janaina, 32 anos.  \n• **Criança:** Lucas, 15 horas de vida.  \n\n**MOTIVO DE CONSULTA:** Dr(a), estou preocupada com a respiração do meu filho. Ele nasceu bem, mas o pessoal da enfermaria me disseram que está respirando rápido demais.  \n\n**SOBRE A QUEIXA:**  \n• **Início:** ahá umas 2 horas.  \n• **Amamentação:** está mamando bem, mas às vezes para de mamar pra respirar.  \n• **Cianose:** não ficou roxinho.  \n• **Gemência:** não percebi nenhum barulho estranho.  \n\n**ANTECEDENTES PERINATAIS:**  \n• **Pré-natal:** fiz todas as consultas, estava tudo normal.  \n• **Doenças maternas:** tenho diabetes, mas controlo com insulina há anos.  \n\n• **Idade gestacional:** 37 semanas.  \n• **Tipo de parto:** foi cesárea marcada, não tive contração.  \n• **Intercorrências:** ele nasceu bem, chorou logo. Mas me falaram que tinha um líquido meio esverdeado.  \n• **Reanimação:** não precisou.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que é isso, doutor(a)?*  \n• Após o candidato verbalizar o diagnóstico: *Será que isso é pneumonia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FICHA DO RECÉM-NASCIDO",
+      "conteudo": "• **Peso ao nascer:** 3.700 g.  \n• **Idade gestacional:** 37 semanas.  \n• **Tipo de parto:** Cesariana eletiva, sem trabalho de parto prévio.  \n• **Apgar:** 8/9.  \n• **Reanimação neonatal:** não necessária.  \n• **Líquido amniótico:** meconial 1+/4+.  \n\n• **Pré-natal:** realizado sem intercorrências. Mãe diabética em uso de insulinoterapia.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Frequência Respiratória:** 72 incursões respiratórias por minuto.  \n• **Frequência Cardíaca:** 142 batimentos por minuto.  \n• **Temperatura Axilar:** 36,6°C.  \n• **Saturação de Oxigênio em ar ambiente:** 93%.  \n\n\n**EXAME CLÍNICO:**  \n• **Estado geral:** ativo, reativo, corado.  \n\n• **Ausculta pulmonar:** murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Ausência de gemência, retrações intercostais e batimento de asa nasal.  \n\n• **Ausculta cardíaca:** ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n• **Abdome:** flácido, indolor à palpação, sem visceromegalias.  \n\n• **Pele:** sem cianose, sem icterícia.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**Descreva os achados radiológicos.**",
+      "imagem": "img_printeds/e324p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemoglobina:** 17,5 g/dL (VR: 14,0 – 20,0 g/dL)  \n• **Hematócrito:** 52% (VR: 42 – 60%)  \n• **Leucócitos:** 12.500/mm³ (VR: 9.000 – 20.000/mm³)  \n• **Plaquetas:** 245.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**GASOMETRIA ARTERIAL:**  \n• **pH:** 7,31 (VR: 7,35 – 7,45)  \n• **PaCO2:** 48 mmHg (VR: 35 – 45 mmHg)  \n• **PaO2:** 58 mmHg (VR: 60 – 80 mmHg)  \n• **HCO3:** 22 mEq/L (VR: 22 – 26 mEq/L)  \n• **BE:** -3 (VR: -2 a +2)  \n\n\n• **Glicemia capilar:** 68 mg/dL (VR: 40 – 100 mg/dL)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe de maneira cordial;  \n(3) mantém contato visual durante a apresentação; e,  \n(4) pergunta o nome da mãe e o nome da criança.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre antecedentes pré-natais e perinatais:**  \n(1) realização e qualidade do pré-natal;  \n(2) intercorrências gestacionais ou doenças maternas;  \n(3) tipo de parto;  \n(4) presença de trabalho de parto prévio;  \n(5) idade gestacional ao nascimento;  \n(6) necessidade de reanimação neonatal; e,  \n(7) aceitação da amamentação.  \n\n**Adequado:** pergunta seis ou mais itens.  \n**Parcialmente adequado:** pergunta cinco itens.  \n**Inadequado:** pergunta quatro itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico completo do recém-nascido.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita radiografia de tórax e descreve os achados compatíveis com TTRN:**  \n(1) hiperinsuflação pulmonar;  \n(2) espessamento peribrônquico ou estrias peri-hilares;  \n(3) cissura interlobar espessada ou visível; e,  \n(4) derrame pleural discreto ou líquido em cissuras.  \n\n\n**Adequado:** solicita e descreve dois ou mais achados.  \n**Parcialmente adequado:** solicita e descreve um achado.  \n**Inadequado:** não solicita OU não descreve nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a hipótese diagnóstica de Taquipneia Transitória do Recém-Nascido (TTRN) OU Síndrome do Pulmão Úmido.**  \n\n**Adequado:** verbaliza corretamente.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Cita diagnósticos diferenciais para o quadro:**  \n(1) Síndrome do Desconforto Respiratório OU Doença da Membrana Hialina;  \n(2) Pneumonia neonatal;  \n(3) Sepse neonatal;  \n(4) Síndrome de Aspiração Meconial;  \n(5) Cardiopatia congênita; e,  \n(6) Hipertensão Pulmonar Persistente.  \n\n**Adequado:** cita três ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** cita dois diagnósticos diferenciais.  \n**Inadequado:** cita um diagnóstico ou não cita diagnóstico algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica à mãe que a condição é benigna e autolimitada, com melhora esperada em 24 a 72 horas.**  \n\n**Adequado:** explica corretamente.  \n**Inadequado:** não explica ou explica de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica à mãe por que o quadro não aparenta ser pneumonia, citando:**  \n(1) ausência de febre;  \n(2) ausência de sinais sistêmicos de infecção;  \n(3) radiografia sem consolidação ou infiltrado;  \n(4) radiografia sem broncograma aéreo; e,  \n(5) radiografia sem opacidade em vidro fosco.  \n\n**Adequado:** explica três ou mais itens.  \n**Parcialmente adequado:** explica dois itens.  \n**Inadequado:** explica um item ou não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a conduta terapêutica adequada:**  \n(1) internação em UTI neonatal;  \n(2) oxigenoterapia suplementar (hood, CPAP ou cateter nasal);  \n(3) manutenção ou controle da temperatura; e,  \n(4) suporte nutricional por sonda orogástrica ou nasogástrica se necessário.  \n\n**Adequado:** indica três ou mais condutas.  \n**Parcialmente adequado:** indica duas condutas.  \n**Inadequado:** indica uma conduta ou não indica conduta alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Cita fatores de risco relacionados à TTRN:**  \n(1) parto cesáreo eletivo;  \n(2) ausência de trabalho de parto prévio;  \n(3) diabetes mellitus materno;  \n(4) prematuridade ou prematuridade tardia (34-36 semanas);  \n(5) sexo masculino;  \n(6) macrossomia fetal;  \n(7) asfixia perinatal; e,  \n(8) parto precipitado.  \n\n**Adequado:** cita dois ou mais fatores de risco.  \n**Inadequado:** cita um fator de risco ou não cita fator algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

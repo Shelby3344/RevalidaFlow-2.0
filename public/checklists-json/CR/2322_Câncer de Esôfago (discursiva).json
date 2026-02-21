@@ -1,0 +1,149 @@
+{
+  "uid": 2322,
+  "hash": "pepe_2322",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Câncer de Esôfago (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• banco de sangue.  \n• centro cirúrgico.\n\nDescrição do caso:\nVocê está em atendimento no ambulatório e receberá um paciente de 59 anos, apresenta queixa de dificuldade para engolir há 3 meses e emagrecimento. O paciente traz consigo o laudo de uma endoscopia digestiva alta realizada há um mês.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Interpretar o resultado da endoscopia digestiva alta fornecida.  \n- Formular e verbalizar a principal hipótese diagnóstica.  \n- Explicitar o exame necessário para a confirmação do diagnóstico.  \n- Citar as possíveis condutas terapêuticas para o caso.  \n\n\\\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mário, 59 anos, aposentado.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim aqui porque estou com muita dificuldade para engolir e está piorando isso. Eu emagreci muito por causa disso.  \n\n**SOBRE A DIFICULDADE PARA ENGOLIR:**  \n• **Início:** Começou há uns 3 meses, bem devagar.  \n• **Progressão/evolução:** No começo era só para comida mais seca, como pão e carne. Agora, até para beber água está difícil, parece que entala.  \n• **Dor e rouquidão:** Também dói um pouco para engolir, e minha voz anda meio rouca ultimamente.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Emagrecimento:** Perdi muito peso, uns 12 quilos nesses 3 meses. As roupas estão todas largas.  \n• **Outros:** Nega dor para engolir, azia ou retorno da comida.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, cirurgias e internações:** Nega.  \n• **Doenças e medicações:** Tenho pressão alta e refluxo, mas tomo os remédios só de vez em quando, quando lembro.  \n• **Tabagismo:** Eu fumo desde rapaz, quase um maço por dia.  \n• **Etilismo:** Gosto de tomar minha cachacinha as vezes, umas duas ou três doses.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai faleceu de infarto.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso que o exame mostrou é grave?*  \n• *Qual o próximo passo? O que precisa ser feito?*  \n• *E pra eu comer melhor, tem como dar um jeito?*  \n• *Vou precisar de cirurgia?*  \n• *E porque aconteceu isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 140x90 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.6°C  \n\n\n**Ectoscopia:**  \n• Regular estado geral, emagrecido, descorado (++/4+), hidratado, anictérico.  \n\n\n**Linfonodos:**  \n• Ausência de linfonodomegalias palpáveis em cadeias cervicais ou supraclaviculares.  \n\n\n**Cardiovascular, Respiratório e Abdome:**  \n• Sem alterações significativas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ENDOSCOPIA DIGESTIVA ALTA",
+      "conteudo": "**DATA DO EXAME:** há 29 dias.  \n\n\n**LAUDO:**  \n• **Esôfago:** A partir de 34 cm da arcada dentária superior, observa-se lesão ulceroinfiltrativa, friável, ocupando cerca de 75% da circunferência do lúmen e estendendo-se por aproximadamente 5 cm. A lesão dificultou a progressão do aparelho.  \n• **Estômago e Duodeno:** Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Caracteriza a disfagia, perguntando sobre:**  \n(1) início;  \n(2) progressão (de sólidos para líquidos); e,  \n(3) sintomas associados (odinofagia, regurgitação).  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas constitucionais e de alarme:**  \n(1) perda de peso;  \n(2) anorexia (perda de apetite).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga os principais fatores de risco, perguntando sobre:**  \n(1) histórico de Doença do Refluxo Gastroesofágico (DRGE);  \n(2) tabagismo;  \n(3) etilismo.  \n\n**Adequado:** investiga dois ou mais itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a principal hipótese diagnóstica de câncer de esôfago (OU neoplasia de esôfago).**  \n\n**Adequado:** verbaliza a hipótese diagnóstica.  \n**Inadequado:** não verbaliza a hipótese ou verbaliza outra.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza que o exame necessário para a confirmação diagnóstica é a biópsia da lesão.**  \n\n**Adequado:** verbaliza a necessidade de biópsia da lesão.  \n**Inadequado:** não verbaliza a necessidade de biópsia ou indica outro exame como confirmatório.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica a relação entre os fatores de risco e a doença.**  \n\n**Adequado:** explica ao paciente que o tabagismo, o etilismo e o refluxo crônico são os principais fatores que aumentam o risco de desenvolver o câncer de esôfago.  \n**Inadequado:** não consegue explicar a relação causal.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita quatro possíveis condutas terapêuticas para o Câncer de Esôfago.**  \n(1) Cirurgia (esofagectomia);  \n(2) Quimioterapia;  \n(3) Radioterapia;  \n(4) Cuidados paliativos (ex: colocação de prótese esofágica para alívio da disfagia).  \n\n**Adequado:** cita três ou quatro condutas.  \n**Parcialmente adequado:** cita duas condutas.  \n**Inadequado:** não cita as condutas ou cita apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita condutas para suporte nutricional, considerando a disfagia do paciente:**  \n(1) gastrostomia;  \n(2) jejunostomia;  \n(3) sonda nasoenteral.  \n\n**Adequado:** cita uma ou mais condutas.  \n**Inadequado:** não cita nenhuma conduta de suporte nutricional.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta o encaminhamento para seguimento com especialista (cirurgião oncológico/torácico OU oncologista).**  \n\n**Adequado:** orienta o encaminhamento.  \n**Inadequado:** não orienta o encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

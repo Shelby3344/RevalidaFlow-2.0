@@ -1,0 +1,133 @@
+{
+  "uid": 2503,
+  "hash": "pepe_2503",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Transtorno do Espectro Autista - TEA",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade possui a seguinte infraestrutura:  \n• consultórios;  \n• sala de emergência;  \n• farmácia;  \n• sala de vacinação.\n\nDescrição do caso:\nVocê é um médico atuando no consultório de uma unidade básica de saúde (UBS) e atenderá a mãe de um menino de 3 anos e 3 meses. A mãe traz consigo um encaminhamento da escola do filho e procura obter ajuda. A criança se encontra fora do consultório, com o pai.",
+  "tarefas": "TAREFAS:  \n- ler a carta da escola sobre o comportamento da criança;  \n- realizar anamnese direcionada à queixa da mãe;  \n- solicitar exame físico relacionado à queixa principal da mãe;  \n- formular e verbalizar a principal hipótese diagnóstica, com base na história clínica e no exame físico;  \n- indicar a conduta adequada, conforme a hipótese diagnóstica.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA MÃE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Suely, 42 anos, dona de casa.  \nMãe do Gabriel, de 3 anos e 3 meses.  \n\n**MOTIVO DE CONSULTA:** Oi doutor(a). Eu vim porque recebi essa carta da escola do Gabriel... (entregar a carta). \n\n**SOBRE O COMPORTAMENTO:**  \n• **Interação e brincadeiras:** Ele gosta de brincar sozinho, sempre do mesmo jeito e os mesmos brinquedos. Ele também fica se balançando, movimento de vai e vem, sabe?  \n• **Fala:** demorou para falar e agora está falando algumas palavras soltas;  \n• **Sensibilidade:** Ele se irrita muito com barulho. Se eu ligo o liquidificador, ele tapa os ouvidos.  \n• **Toque a contato:** Abraço e muito toque ele também não gosta.  \n• **Rotina e crises:** Qualquer coisa que sai da rotina dele, ele grita e às vezes bate na gente. O que acalma ele é o celular, vendo os mesmos desenhos o dia todo.  \n• **Movimentos:** Ele tem umas manias... anda na ponta dos pés e fica balançando as mãos, principalmente quando está feliz ou agitado.  \n\n**HÁBITOS E DESENVOLVIMENTO:**  \n• **Alimentação:** Ele é bem chatinho pra comer. Coisa pastosa, tipo purê, ele não come de jeito nenhum. Só gosta de comida mais seca, crocante, e geralmente da mesma cor.  \n• **Sono:** Ele acorda várias vezes à noite, custa a dormir e acaba dormindo na nossa cama.  \n• **Desfralde:** ainda usa fralda de dia e para dormir, mas faz cocô e xixi normalmente;\n\n**ANTECEDENTES PERINATAIS:**  \n• **Amamentação:** mamou até os 9 meses e começoua a comer com 6 meses.  \n• **Desenvolvimento:** firmou a cabeça com 4 meses; começou sentar sozinho com 9 meses; engatinhou com 1 ano; andou com 1 ano e meio.  \n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**  \n• **Alergia, doenças e medicações:** Só uns resfriados normais. Não toma nenhum remédio.  \n• **Família:** Em casa a gente se dá bem. O pai dele é muito amoroso. Eu também tenho mais dois filhos de outro casamento e percebi que o Gabriel era um pouquinho diferente dos irmãos quando tinha essa idade.  \nEu tenho um sobrinho, primo dele, que também é assim, tem umas coisas bem parecidas com as do Gabriel.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTA DA ESCOLA",
+      "conteudo": "Prezados pais,  \n\nTemos observado que o Gabriel tem tido um comportamento que tem nos chamado a atenção. Ele não gosta de participar de atividades e brincadeiras realizadas em grupo. Já ficou agressivo algumas vezes com os colegas.  \n\nSugerimos, portanto, que vocês o levem para uma consulta com o médico, para que ele seja avaliado.  \n\nEstamos à disposição para qualquer esclarecimento.  \n\nAtenciosamente,  \nA Direção",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "CADERNETA DE SAÚDE DA CRIANÇA",
+      "conteudo": "• **Tipo de parto:** normal.  \n• **Idade gestacional:** 33 semanas.  \n• **Peso ao nascer:** 1 kg e 700 gramas.  \n• **Complicações ao nascer:** ficou 2 semanas internado para ganhar peso.  \n• **Aleitamento materno ao nascer:** sim, e mamou no peito quando recebeu alta também.  \n• **Icterícia (ficou amarelo) ao nascimento:** não.  \n• **Número de consultas de pré-natal:** 7 consultas.  \n• **Complicações como hipertensão na gestação ou diabetes na gestação:** não.  \n• **Medicação na gestação:** vitaminas (ácido fólico e ferro).  \n• **Uso de substâncias como álcool, tabagismo, drogas:** não.  \n• **Vacinação:** completa para a idade.  \n• **Escalas e gráficos de desenvolvimento:** não preenchidos.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Nome:** Gabriel da Silva  \n**Idade:** 3 anos e 3 meses  \n\n\n**Resultado do exame físico**  \nObservada marcha na ponta dos pés. Agitação ao toque. Não responde a perguntas quando chamado pelo nome.  \nDemais aparelhos e sistemas sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se;  \n(2) Cumprimenta a mãe de maneira adequada/cordial;  \n(3) Mantém contato visual durante sua apresentação;  \n(4) Pergunta o nome da mãe e o nome da criança.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre a queixa principal:**  \n(1) pergunta o motivo da consulta;  \n(2) deixa a mãe explicar sem interrompê-la.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre outras doenças, problemas de saúde e uso de medicamentos:**  \n(1) outras doenças / doenças preexistentes/ comorbidades/ \ndoenças de base/ patologias/ intercorrências no pré-natal \nou no parto, prematuridade, baixo peso ao nascer e \nexposição a certas medicações durante o pré-natal;  \n(2) medicação de uso contínuo e/ou suplementos ou vitaminas.  \n\n**Adequado:** pergunta sobre os dois itens.  \n**Parcialmente adequado:** pergunta apenas sobre um item.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre os marcos de desenvolvimento psicomotor:**  \n(1) idade em que firmou a cabeça;  \n(2) idade em que sentou;  \n(3) idade em que andou;  \n(4) idade em que falou e(ou) dificuldades da fala atual.  \n\n**Adequado:** pergunta sobre os quatro itens.  \n**Parcialmente adequado:** pergunta sobre três itens.  \n**Inadequado:** pergunta sobre dois ou menos itens ou não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.25",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre hábitos e comportamentos sociais:**  \n(1) interação ou relacionamento com os pais/irmãos/colegas/amigos/ crianças/ outras pessoas; dificuldade de olhar nos olhos/ retraimento social/introspecção/ dificuldade de comunicação não verbal;  \n(2) utilização dos brinquedos;  \n(3) estereotipias (abana as mãos, anda na ponta dos pés)/ \nflapping, presença de movimentos repetitivos, atípicos ou \ndiferentes/ hiperfoco/ necessidade de rotinas ou padrões \nritualizados de comportamento verbal ou não verbal/ \ncomportamento restritivo/ hiperatividade;  \n(4) sensibilidades excessivas sonoras e táteis/ irritabilidade com \no som/ irritabilidade ao toque ou ao ser abraçado e/ou \nbeijado;  \n(5) agressividade ou agitação/ irritabilidade excessiva;  \n(6) padrão de sono/ presença de sono reparador;  \n(7) exposição às telas/ tempo de telas;  \n(8) alimentação / seletividade alimentar.  \n\n**Adequado:** pergunta sobre quatro ou mais itens.  \n**Parcialmente adequado:** pergunta sobre dois ou três itens.  \n**Inadequado:** pergunta apenas sobre um item ou não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.25",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame físico da criança ou pede para a criança entrar no consultório (a qualquer momento) ou solicita permissão para examinar a criança.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica: transtorno do espectro de autista (TEA) ou autismo ou Espectro Autista.**  \n\n**Adequado:** formula a hipótese de TEA ou autismo.  \n**Parcialmente adequado:** formula a hipótese de transtorno do neurodesenvolvimento.  \n**Inadequado:** não formula nenhuma hipótese ou formula outras.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Encaminha para especialista ou para centro especializado:**  \nneurologista, neuropediatra, psiquiatra, fonoaudiólogo, \npsicólogo/terapeuta, terapeuta ocupacional, fisioterapeuta, \nassistente social, psicopedagogo, ou nutricionista (especialistas); \nE-multi/NASF; CAPS; centros especializados de reabilitação; \ninstituições não governamentais especializadas, como AACD, \nAPAE (centros especializados).  \n\n**Adequado:** encaminha para especialista ou centro especializado.  \n**Inadequado:** não encaminha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

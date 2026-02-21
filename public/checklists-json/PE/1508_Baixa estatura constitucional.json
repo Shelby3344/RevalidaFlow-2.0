@@ -1,0 +1,210 @@
+{
+  "uid": 1508,
+  "hash": "pepe_1508",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Baixa estatura constitucional",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê está em atendimento em uma Unidade Básica de Saúde (UBS) e atenderá uma mãe que traz seu filho de 8 anos para consulta. A principal queixa da mãe é que ela considera o filho \"muito pequeno\" para a idade, em comparação com os colegas da escola.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese focada na queixa da mãe;  \n- Analisar as curvas de crescimento da criança;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Comunicar a hipótese diagnósita;  \n- Responder as dúvidas da mãe.",
+  "script_ator": "CASO O CANDIDATO SOLICITE A CADERNETA DA CRIANÇA OU CARTÃO DE VACINAS, LIBERAR OS IMPRESSOS **CURVA DE CRESCIMENTO**.  \n\n**DADOS PESSOAIS:**  \n• **Mãe:** Lúcia, 32 anos.  \n• **Criança:** Rian, 8 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu trouxe o Rian porque estou achando ele muito pequeno para a idade dele. Os amiguinhos da escola são todos mais altos, e eu fico preocupada.  \n\n**Quando percebeu a baixa estatura:** Já faz um ano que estou reparando nisso.  \n\n**ANTECEDENTES PERINATAIS:**  \n• **Gestação:** Foi uma gravidez tranquila, não tive nenhum problema.  \n• **Condições do parto:** Ele nasceu de parto normal, com 39 semanas.  \n• **Peso e comprimento ao nascer:** Nasceu com 2,8kg e 47cm.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Ele nunca teve nenhuma doença grave e não toma nenhum remédio.  \n• **Amamentação:** Mamou no peito até 8 meses.  \n• **Alimentação:** Hoje ele come de tudo, é bom de garfo.  \n• **Desenvolvimento:** Ele sempre foi saudável, nunca me deu trabalho.  \n• **VACINAÇÃO:** está em dia.  \n\n**ANTECEDENTES FAMILIARES:**  \n• **Estatura da mãe:** Eu tenho 1,58m.  \n• **Estatura do pai:** O pai dele tem 1,70m.  \n\n**DÚVIDAS:**  \n• *Então, doutor(a), o crescimento dele é normal?*  \n• *Será que não é bom fazer algum exame para descobrir se tá crescendo normal?*  \n• *Existe algum remédio ou vitamina para ele crescer mais?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 105x70 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 20 irpm  \n• **SatO₂:** 98% (em ar ambiente)  \n• **Temp. axilar:** 36,7° C  \n\n\n• **Peso atual:** 26.9 kg\n• **Estatura atual:**  116 cm\n\n\n**Exame Físico Geral:**  \n• **Ectoscopia:** Bom estado geral, ativo, cooperativo, corado, hidratado, acianótico. Proporções corporais mantidas.  \n\n• **Cardiovascular:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.  \n\n• **Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Abdome:** Plano, flácido, indolor à palpação, sem visceromegalias.  \n\n• **Avaliação puberal:** Genitais e pelos pubianos em estágio de Tanner 1.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "CURVA CRESCIMENTO 2-5 ANOS",
+      "conteudo": "**VERBALIZE A VELOCIDADE MÉDIA DE CRESCIMENTO ANUAL**",
+      "imagem": "img_printeds/2015-e8p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "CURVA CRESCIMENTO 5-10 ANOS",
+      "conteudo": "**VERBALIZE A VELOCIDADE MÉDIA DE CRESCIMENTO ANUAL**",
+      "imagem": "img_printeds/2015-e8p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se, acolhe e cumprimenta a mãe de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Ouve com atenção a queixa da mãe não interrompendo a sua fala desnecessariamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Demonstra atitude de acolhimento através da postura corporal, contato visual e linguagem não-verbal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Comunica-se com clareza, evitando o uso de jargão médico e usando vocabulário que a mãe possa entender.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta o motivo da consulta e como percebeu o problema.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga risco gestacional, peso e comprimento ao nascer.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Avalia histórico alimentar no primeiro ano de vida.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Questiona antecedentes de doenças pregressas da mãe.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Pergunta a altura dos pais.**  \n\n**OBS.:** a estatura alvo da criança é de 170,5cm (158 + 170 + 13 = 341/2 = 170,5)",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Pergunta sobre o uso de medicamentos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita o cartão da criança (ou as medidas de estaturas anteriores plotadas em um gráfico de estatura por idade).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Analisa a curva de crescimento.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Reconhece indicadores na história clínica que corroboram o diagnóstico de baixa estatura constitucional (dados do crescimento e desenvolvimento em percentis inferiores ao escore Z-3 desde o primeiro ano de vida, histórico negativo de doenças concorrentes, histórico alimentar adequado, baixa estatura dos pais).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Explica à mãe que a criança provavelmente tem baixa estatura constitucional, mas que para afastar outros diagnósticos é necessário realizar uma radiografia para avaliar a idade óssea.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta à mãe que a criança não deverá tomar qualquer medicamento e que deverá retornar com o resultado do exame solicitado.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "uid": 1801,
+  "hash": "pepe_1801",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Síncope / Bloqueio Atrioventricular | 2018",
+  "definicao": "Estação original adaptada  \nPSU-CE 2018 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - pronto atendimento.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• sala de eletrocardiograma;  \n• laboratório de análises clínicas.\n\nDescrição do caso:\nVocê está no plantão de um pronto atendimento e atenderá um paciente de 68 anos que deu entrada com queixa de desmaio. O paciente encontra-se acordado, orientado e estável hemodinamicamente.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese completa e detalhada sobre o ocorrido;  \n- Solicitar e Realizar o(s) exame(s) físico(s) específico(s);  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Verbalizar o diagnóstico ao paciente;  \n- Definir a conduta para o caso.  \n\nATENÇÃO! CONSIDERE QUE HÁ ESTETOSCÓPIO DISPONÍVEL",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**\n• Caso o candidato solicite Exame Físico: liberar o impresso **SOLICITAÇÃO EXAME FÍSICO**;  \n• Liberar o impresso **EXAME FÍSICO** após o candidato concluir a Ausculta Cardíaca e Pulmonar;  \n\n• Caso o candidato solicite Exame Físico Neurológico: *Qual exame físico neurológico você deseja?*;  \n• Liberar o impresso **EXAME NEUROLÓGICO** após a solicitação específica do candidato;  \n\n\n**DADOS PESSOAIS:**  \n• **Nome:** Carlos, 68 anos, aposentado.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim porque desmaiei em casa hoje de manhã. Eu estava me sentindo muito bem, mas aconteceu isso de repente. Eu estava na cozinha, terminando de tomar café.  \n\n\n**SOBRE O DESMAIO:**  \n• **Início:** Depois do café eu levantei da cadeira para colocar a xícara na pia.  \n\n• **Alteração visual:** minha vista escureceu um pouco.  \n\n• **Tontura:** Senti uma tontura rápida.  \n\n• **Arritmia/palpitação::** deu uma sensação estranha no peito, uma batedeira falhada.  \n\n• **Trauma/queda:** minha esposa falou que caí devagar, mas não bati a cabeça forte.  \n\n• **Palidez:** Minha esposa disse que eu fiquei pálido antes de desmaiar.  \n\n• **Convulsão/agitação:** não me debati, nem fiz xixi na roupa nem nada.  \n\n• **Recuperação/pós síncope:** Foi rápido. Acho que fiquei apagado nem um minuto. Só acordei meio zonzo.  \n\n\n**SINTOMAS ATUAIS:**  \n• Agora estou bem, só um pouco preocupado.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Tenho pressão alta e colesterol.  \n• **Medicações:** Tomo Atenolol 50mg e Sinvastatina.  \n• **Episódios prévios:** Nunca desmaiei antes.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai faleceu do coração, mas era bem idoso.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que causou isso, doutor(a)?*  \n• *É perigoso?*  \n• *Vou precisar ficar internado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SOLICITAÇÃO EXAME FÍSICO",
+      "conteudo": "**Solicite ao chefe de estação** Quais sinais vitais e exame(s) físico(s) você deseja;  \n\n\nE:  \n\n\n- **Realize e verbalize as etapas da AUSCULTA CARDÍACA e PULMONAR no paciente.**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA (deitado):** 130 x 80 mmHg.  \n• **PA (em pé):** 126 x 78 mmHg.  \n• **FC:** 48 bpm (irregular).  \n• **FR:** 16 irpm.  \n• **SatO2:** 96% em ar ambiente.  \n\n• **Glicemia Capilar:** 98 mg/dL.  \n\n\n**Exame Cardíaco:** Ritmo cardíaco irregular, bradicárdico, bulhas normofonéticas, sem sopros.  \n\n\n**Exame Pulmonar:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME NEUROLÓGICO",
+      "conteudo": "**PARES CRANIANOS**  \n\n• **Reflexo Pupilar:** Pupilas isocóricas e fotorreagentes.  \n• **Movimentação Ocular Extrínseca:** Movimentação preservada em todas as direções do olhar conjugado, sem nistagmo ou diplopia.  \n• **Motricidade Facial:** Mímica facial preservada e simétrica; fechamento ocular e sorriso sem desvios; ausência de apagamento de sulco nasolabial.  \n\n\n**FORÇA MUSCULAR**  \n\n• **Membros Superiores:** Força grau V (escala de MRC).  \n• **Membros Inferiores:** Força grau V (escala de MRC).  \n• **Manobra de Mingazzini:** membros inferiores mantidos em elevação.  \n• **Manobra de Braços Estendidos:** sem pronação ou queda dos membros superiores.  \n\n\n**REFLEXOS**  \n\n• **Reflexo Bicipital:** Presente e simétrico (++/4+).  \n• **Reflexo Patelar:** Presente e simétrico (++/4+).  \n• **Reflexo Aquileu:** Presente e simétrico (++/4+).  \n\n\n**COORDENAÇÃO E EQUILÍBRIO**  \n• **Prova Index-Naso (Index-Nariz):** Realizada com precisão bilateralmente, sem dismetria ou tremor intencional.  \n• **Teste de Romberg:** equilíbrio estático com os pés juntos e olhos fechados, sem oscilações.  \n• **Avaliação da Marcha:** sustentação e amplitude de passadas normais; ausência de lateralização.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ELETROCARDIOGRAMA",
+      "conteudo": "**INFORME A ALTERAÇÃO DA IMAGEM**",
+      "imagem": "img_printeds/e1801p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identificou-se:**  \n(1) Identifica-se como médico;  \n(2) Diz o seu nome;  \n(3) Pergunta o nome do paciente;  \n(4) Pergunta a idade do paciente.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Não interrompeu paciente nos primeiros 8 segundos da queixa principal e HDA?**  \n\n**Adequado:** permite a fala inicial livre do paciente por pelo menos 8 segundos.  \n**Inadequado:** interrompe o paciente precocemente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Perguntou se o desmaio ocorreu em:**  \n(1) posição (supina ou ortostase);  \n(2) manobra de Valsalva (tosse, riso, deglutição, defecação ou ao urinar);  \n(3) exercício/esforço físico.  \n\n**Adequado:** perguntou pelo menos um item.  \n**Inadequado:** não perguntou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Perguntou em quanto tempo recobrou o nível de consciência?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Perguntou se, imediatamente antes do episódio de desmaio, sentiu ou percebeu:**  \n(1) dor torácica;  \n(2) dispneia;  \n(3) palpitação;  \n(4) tontura;  \n(5) sudorese;  \n(6) palidez;  \n(7) náuseas/vômitos;  \n(8) aura (\"estrelinhas\" ou visão borrada);  \n(9) escurecimento visual;  \n(10) disestesias (dormência ou formigamento).  \n\n**Adequado:** perguntou pelo menos três itens.  \n**Parcialmente adequado:** perguntou dois itens.  \n**Inadequado:** perguntou um item ou não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Perguntou se durante o desmaio, apresentou ou alguém relatou:**  \n(1) tremores;  \n(2) perda de urina;  \n(3) perda de fezes;  \n(4) salivação/ficou babando;  \n(5) mordedura da língua;  \n(6) trauma na cabeça.  \n\n**Adequado:** perguntou pelo menos três itens.  \n**Parcialmente adequado:** perguntou dois itens.  \n**Inadequado:** perguntou um item ou não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Perguntou se após o desmaio, apresentou ou alguém relatou:**  \n(1) pensamento lento;  \n(2) confusão mental;  \n(3) sonolência;  \n(4) tonturas;  \n(5) sudorese;  \n(6) palpitações/aceleração/batedeira no coração.  \n\n**Adequado:** perguntou pelo menos dois itens.  \n**Parcialmente adequado:** perguntou um item.  \n**Inadequado:** não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Perguntou sobre medicações previamente em uso?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Perguntou se é portador de:**  \n(1) hipertensão arterial/pressão alta;  \n(2) diabetes mellitus;  \n(3) doença coronariana/infarto/angina;  \n(4) arritmia;  \n(5) insuficiência cardíaca (falta de ar aos esforços/coração crescido);  \n(6) convulsões/epilepsia;  \n(7) sequela de AVC.  \n\n**Adequado:** perguntou pelo menos três itens.  \n**Parcialmente adequado:** perguntou dois itens.  \n**Inadequado:** perguntou um item ou não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Perguntou por episódio pessoal prévio de síncope?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Perguntou por casos semelhantes na família?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Lavou ou higienizou mãos com álcool antes de examinar o paciente?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Mediu/*solicitou* frequência de pulso e pressão arterial?**  \n(1) Frequência de pulso;  \n(2) Pressão arterial.  \n\n**Adequado:** realiza as duas tarefas.  \n**Parcialmente adequado:** realiza uma tarefa.  \n**Inadequado:** não realiza tarefa alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Investigou hipotensão postural medindo/*solicitando* pressão arterial com paciente em pé?**  \n\n**Adequado:** investiga.  \n**Inadequado:** não investiga.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Realizou ausculta cardíaca (em pelo menos dois focos) e respiratória (bilateralmente) retirando vestimenta ou por baixo da roupa?**  \n(1) Ausculta cardíaca em pelo menos dois focos;  \n(2) Ausculta respiratória bilateral.  \n\n**Adequado:** realiza as duas tarefas corretamente.  \n**Parcialmente adequado:** realiza uma tarefa.  \n**Inadequado:** não realiza tarefa alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Etapas para realização da ausculta cardíaca e pulmonar:\n\n**Ausculta cardíaca:**\n1. higieniza as mãos e/ou o estetoscópio;\n2. mantém o paciente em decúbito dorsal ou sentado;\n3. posiciona-se ao lado direito do paciente;\n4. posiciona o diafragma do estetoscópio diretamente sobre a pele (abaixo da roupa ou com tórax exposto);\n5. ausculta os focos cardíacos: pulmonar, aórtico, mitral e tricúspide.\n\n\n**Ausculta Pulmonar:**\n1. higieniza as mãos e/ou o estetoscópio;\n2. mantém o paciente sentado, e posiciona-se atrás do paciente (ou aborda o dorso adequadamente);\n3. solicita que o paciente retire ou eleve a camisa para expor o dorso;\n4. solicita que o paciente respire pausada e profundamente (ou com a boca aberta) durante a ausculta;\n5. realiza a ausculta dorsal com o diafragma em pelo menos 6 campos, iniciando pelos ápices em direção às bases, comparando os hemitóraxes (simetria, ausculta em \"Z\")."
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. *Solicitou* exame físico neurológico específico:**  \n(1) pares cranianos;  \n(2) força muscular;  \n(3) reflexos;  \n(4) coordenação/equilíbrio.  \n\n**Adequado:** solicita pelo menos dois exames.  \n**Parcialmente adequado:** solicita um exame.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Solicitou eletrocardiograma/ECG?**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Informou ao paciente que a causa provável do desmaio é uma arritmia (bradicardia) do tipo bloqueio (atrioventricular) de segundo grau MOBITZ 1?**  \n\n\n**Adequado:** informa corretamente: Bloqueio AV de 2º grau Mobitz 1, OU apenas Bloqueio de 2º grau.  \n**Inadequado:** informa incorretamente ou não informa.  \n\n*OBS.: NÃO pontuar se falar bloqueio de primeiro grau, bloqueio de terceiro grau, bloqueio total ou bloqueio de segundo grau MOBITZ 2.*",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "**Bloqueio Atrioventricular de 2º grau tipo 1:**\n\n- Aumento progressivo do intervalo PR, até que a condução AV fique bloqueada e um batimento sinusal não consiga ser conduzido.\n\n- O intervalo PR após a onda P bloqueada é mais curto do que o intervalo PR que antecede o bloqueio."
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Informou necessidade de internação hospitalar ou avaliação imediata com especialista (cardiologista)?**  \n\n**Adequado:** informa.  \n**Inadequado:** não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

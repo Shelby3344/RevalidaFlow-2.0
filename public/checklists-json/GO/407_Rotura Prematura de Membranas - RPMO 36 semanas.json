@@ -1,0 +1,161 @@
+{
+  "uid": 407,
+  "hash": "pepe_407",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Rotura Prematura de Membranas - RPMO 36 semanas",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Nível secundário/terciário - Maternidade.  \nTipo de atendimento: Urgência e Emergência Obstétrica.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultórios e sala de admissão;  \n• Laboratório de análises clínicas;  \n• Centro obstétrico e sala de parto;  \n• Unidade de internação.\n\nDescrição do caso:\nPaciente de 30 anos, com 36 semanas de gestação, procura a emergência obstétrica com queixa de perda de líquido via vaginal há 2 horas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar o exame físico pertinente.  \n- Formular as hipóteses diagnósticas.  \n- Solicitar os exames complementares necessários.  \n- Estabelecer a conduta e orientar a paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Juliana, 30 anos, casada, professora.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), acho que minha bolsa estourou. Eu estava em casa e senti um monte de líquido escorrendo pelas pernas.  \n\n**SOBRE A PERDA DE LÍQUIDO:**  \n• **Início:** Faz umas 2 horas.  \n• **Cor/Cheiro:** É um líquido claro, meio amarelado, sem cheiro forte. Não parece xixi.  \n• **Volume:** Foi bastante no começo, e continua saindo aos pouquinhos.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Contrações/Dor:** Não, não estou sentindo dor nem contração.  \n• **Febre/Calafrios:** Não, me sinto bem.  \n• **Sangramento:** Não, não vi sangue.  \n• **Movimentos fetais:** Sim, o bebê está mexendo normal.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** É minha segunda gravidez. G2 P1 A0.  \n• **Parto anterior:** Tive um parto normal há 3 anos.  \n• **IG:** Estou com 36 semanas.  \n• **Pré-natal:** Fiz tudo certinho, estava tudo bem. No meu último exame, deu que eu tenho aquela bactéria, o Estreptococo B.  \n• **Alergia:** Não tenho alergia a nenhum remédio.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças, medicações:** Nego.  \n\n**DEMAIS PERGUNTAS:**  \n• não consta no Script.  \n\n**DÚVIDAS:**  \n• *Minha bolsa estourou mesmo, doutor(a)?*  \n• *O bebê está bem?*  \n• *E agora? O que vamos fazer?*  \n• *Eu vou ter que ficar internada?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 85 bpm  \n• **FR:** 18 irpm  \n• **Temp. axilar:** 36.8° C  \n\n\n**Ectoscopia:** Paciente em bom estado geral, corada, hidratada, afebril, acianótica, anictérica.  \n\n\n**Aparelho Cardiovascular:** Ritmo cardíaco regular, bulhas normofonéticas, sem sopros.  \n\n\n**Aparelho Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO OBSTÉTRICO",
+      "conteudo": "• **Altura Uterina (AU):** 34 cm  \n• **Batimentos Cardíacos Fetais (BCF):** 140 bpm  \n• **Dinâmica Uterina (DU):** Ausente.  \n\n\n• **Exame Especular (estéril):** Visualização de saída de líquido claro em moderada quantidade através do orifício cervical externo, que se acentua com manobra de Valsalva. Ausência de sangramento ou prolapso de cordão.  \n\n\n• **Toque Vaginal:** NÃO REALIZADO.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TESTE DE CRISTALIZAÇÃO (FERN TEST)",
+      "conteudo": "**Resultado:** Positivo.  \n• Visualização de imagem em \"folha de samambaia\" à microscopia da secreção vaginal.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 12,5 g/dL (VR: 11,0 – 14,0 g/dL)  \n• **Leucócitos:** 8.500/mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 220.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**Proteína C Reativa (PCR):** 3 mg/L (VR: < 5 mg/L)  \n\n\n**Resultado Swab GBS (35 semanas):** Positivo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese sobre o quadro atual:**  \n(1) características da perda de líquido (início, cor, odor, quantidade);  \n(2) presença de contrações uterinas ou dor;  \n(3) presença de febre ou calafrios;  \n(4) presença de sangramento vaginal;  \n(5) percepção dos movimentos fetais.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre o antecedente de rastreio de Streptococo do Grupo B (GBS) ou se tem alergia à penicilina.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico adequado (Padrão-Ouro):**  \n(1) solicita exame especular estéril (para visualização da saída de líquido); e,  \n(2) verbaliza a contraindicação do toque vaginal (ou não o solicita).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma (ou solicita toque vaginal).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames para avaliação de infecção materna:**  \n(1) Hemograma completo;  \n(2) Proteína C Reativa (PCR).  \n\n**Adequado:** solicita os dois itens.  \n**Parcialmente adequado:** solicita um item.  \n**Inadequado:** não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita avaliação da vitalidade fetal.**  \n\n**Adequado:** solicita Cardiotocografia (ou PBF, ou USG com Doppler).  \n**Inadequado:** não solicita avaliação da vitalidade fetal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza o diagnóstico e a ausência de complicações infecciosas.**  \n\n**Adequado:** verbaliza o diagnóstico de Rotura Prematura de Membranas (RPMO) E descarta ativamente a corioamnionite (baseado na ausência de febre, taquicardia, etc.).  \n**Parcialmente adequado:** verbaliza apenas o diagnóstico de RPMO (ou \"bolsa rota\").  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a conduta de interrupção da gestação.**  \n\n**Adequado:** indica a indução do parto (ou interrupção da gestação) devido à idade gestacional (36 semanas).  \n**Inadequado:** não indica a interrupção ou opta por conduta expectante.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a antibioticoprofilaxia para GBS (Estreptococo do Grupo B).**  \n\n**Adequado:** indica o uso de antibiótico (Penicilina ou Ampicilina) devido ao GBS positivo.  \n**Inadequado:** não indica antibioticoprofilaxia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Contraindica o uso de corticoide para maturação pulmonar.**  \n\n**Adequado:** não indica corticoide (Betametasona/Dexametasona), pois a gestação tem 36 semanas.  \n**Inadequado:** indica o uso de corticoide.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

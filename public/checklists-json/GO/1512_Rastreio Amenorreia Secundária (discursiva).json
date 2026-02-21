@@ -1,0 +1,149 @@
+{
+  "uid": 1512,
+  "hash": "pepe_1512",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Rastreio Amenorreia Secundária (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas.\n\nDescrição do caso:\nVocê atenderá uma mulher de 32 anos de idade que comparece à consulta na UBS com queixa de não menstruar há 5 meses.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar o exame físico específico, caso necessário;  \n- Formular e verbalizar as hipóteses diagnósticas para o quadro;  \n- Solicitar os exames complementares importantes para a avaliação inicial;  \n- Responder às dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Fabiana, 32 anos, casada, vendedora.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), vim aqui porque minha menstruação não desce e eu estou ficando preocupada.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** Faz 5 meses.  \n• **Ciclos anteriores:** sempre foi certinho, a cada 28 ou 30 dias. Vinha todo mês.  \n• **GPA:** Tive dois partos normais, o último foi há 3 anos.  \n• **Anticoncepção:** Não uso nada, meu marido fez vasectomia.  \n• **IST ou ITU prévia:** Nunca tive.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Sintomas de gravidez (náuseas, vômitos, sensibilidade mamária):** Não, não senti nada disso.  \n• **Galactorreia (saída de leite):** Não.  \n• **Fogachos:** Não.  \n• **Secura vaginal ou diminuição da libido:** Nega.  \n• **Hirsutismo ou Acne:** Não percebi aumento de pelos nem de espinhas.  \n• **Cefaleia ou alterações visuais:** Nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença e não tomo nenhum remédio.  \n• **Cirurgias e internações:** Nunca operei, só internei para os partos.  \n• **Alteração de peso:** Nega.  \n\n**HÁBITOS DE VIDA:**  \n• **Atividade física:** Faço academia 4 vezes por semana.  \n• **Alimentação:** Como de tudo, só muita gordura que procuro evitar.  \n• **Sono e Estresse:** Acho que está tudo normal, só estou preocupada com essa falta da menstruação.  \n• **Álcool e tabaco:** Não bebo e não fumo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato solicite exame físico: *Qual exame físico você quer?*  \n\n**DÚVIDAS:**  \n• *O que eu posso ter, doutor(a)?*  \n• *Isso é grave?*  \n• *Quais exames preciso fazer?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 68 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36.5° C  \n\n• **Peso:** 55 kg  \n• **Altura:** 1,68 m  \n• **IMC:** 19,5 kg/m²  \n\n\n**Ectoscopia:** paciente em bom estado geral, orientada, corada, hidratada, acianótica e anictérica.  \n\n\n**Tireoide:** não palpável, sem nódulos.  \n\n\n**Pele e fâneros:** sem acne, hirsutismo ou acantose nigricans.  \n\n\n**Mamas:** simétricas, sem nódulos ou massas palpáveis. Expressão mamilar negativa para galactorreia.  \n\n\n**Abdome:** plano, flácido, indolor, sem massas ou visceromegalias palpáveis.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO GINECOLÓGICO",
+      "conteudo": "• **Inspeção vulvar:** trofismo vaginal preservado, sem lesões.  \n\n\n• **Exame especular:** paredes vaginais normocoradas, conteúdo vaginal fisiológico, colo uterino epitelizado, sem lesões.  \n\n\n• **Toque vaginal:** útero em anteversoflexão, tamanho normal, móvel, indolor. Anexos não palpáveis e indolores.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga dados relevantes da anamnese sobre a queixa atual:**  \n(1) sintomas de gravidez (náuseas, vômitos, sensibilidade mamária);  \n(2) sintomas de hipoestrogenismo (fogachos, secura vaginal, diminuição da libido);  \n(3) sintomas de hiperandrogenismo (hirsutismo, acne);  \n(4) galactorreia;  \n(5) sintomas neurológicos (cefaleia, alterações visuais).  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga fatores de risco e antecedentes relevantes:**  \n(1) uso de medicamentos (psicotrópicos, contraceptivos);  \n(2) alteração de peso (ganho ou perda);  \n(3) prática de atividade física extenuante;  \n(4) presença de estresse psicológico;  \n(5) método contraceptivo utilizado.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico específico a serem pesquisados:**  \n(1) IMC;  \n(2) Tireoide;  \n(3) Mamário/galactorreia (expressão mamilar);  \n(4) Hiperandrogenismo (acne, hirsutismo);  \n(5) toque vaginal e exame specular.  \n\n**Adequado:** verbaliza quatro ou mais exames.  \n**Parcialmente adequado:** verbaliza dois ou três exames.  \n**Inadequado:** verbaliza um exame ou não verbaliza achado algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula hipóteses diagnósticas para o quadro:**  \n(1) Gravidez;  \n(2) Amenorreia Hipotalâmica Funcional (relacionada a estresse/exercício/baixo peso);  \n(3) Hiperprolactinemia (ou Prolactinoma);  \n(4) Síndrome dos Ovários Policísticos (SOP);  \n(5) Falência Ovariana Prematura (FOP);  \n(6) Doença tireoidiana (hipotireoidismo).  \n\n**Adequado:** cita três ou mais hipóteses diagnósticas.  \n**Parcialmente adequado:** cita duas hipóteses diagnósticas.  \n**Inadequado:** cita uma ou nenhuma hipótese diagnóstica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita Beta-hCG (ou teste de gravidez) como exame inicial prioritário.**  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** não solicita o exame ou não o prioriza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames para investigação da etiologia da amenorreia:**  \n(1) dosagem de TSH (ou função tireoidiana);  \n(2) dosagem de Prolactina.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita dosagens hormonais para avaliação do eixo hipotálamo-hipófise-ovariano:**  \n(1) dosagem de FSH;  \n(2) dosagem de LH.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita Ultrassonografia transvaginal (ou pélvica).**  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Marca retorno para avaliação dos exames solicitados.**  \n\n**Adequado:** solicita retorno.  \n**Inadequado:** não solicita retorno.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

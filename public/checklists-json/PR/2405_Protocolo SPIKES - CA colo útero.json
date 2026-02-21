@@ -1,0 +1,180 @@
+{
+  "uid": 2405,
+  "hash": "pepe_2405",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Protocolo SPIKES - CA colo útero",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Local de atuação: atenção primária à saúde.  \nA unidade básica de saúde (UBS) possui a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\n• Você irá atender Antônia, de 42 anos, que veio à consulta na unidade básica de saúde (UBS) trazendo o RESULTADO DA BIÓPSIA CERVICAL.  \n• O resultado do exame mostra ADENOCARCINOMA INVASIVO. A paciente está apreensiva, querendo saber, do(a) médico(a), qual é o resultado do exame.",
+  "tarefas": "TAREFAS:  \n\nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Utilizar habilidades profissionais para comunicação do diagnóstico à paciente;  \n- Orientar a paciente sobre o prognóstico e o seguimento.    \n\n\nNÃO SERÁ NECESSÁRIO REALIZAR ANAMNESE E NEM EXAME FÍSICO NESTA ESTAÇÃO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Antônia, 42 anos, manicure, casada.  \n\n**MOTIVO DE CONSULTA:**  \nQuero saber o resultado da biópsia de colo de útero  \n\n**RESPOSTAS POSSÍVEIS:**  \n• **ACOMPANHANTES:** *Vim desacompanhada à consulta e não me importo em receber a notícia dessa forma*  \n• **SOBRE SEU ESTADO DE SAÚDE:** *Sei que há algo de errado com minha saúde, pois percebo, ocasionalmente, a ocorrência de sangramentos vaginais não relacionados à menstruação*  \n• **DIAGNÓSTICO PRESUNTIVO:** *Temo estar com câncer*  \n• **DESEJO DE SABER O RESULTADO:** *Desejo saber tudo sobre a minha condição de saúde*  \n• **ENTENDIMENTO:** *Sim, eu entendi tudo*  \n\n**PERGUNTA DA PACIENTE:**  \n• *Qual será a conduta adequada?*",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) cumprimenta a paciente simulada;  \n(2) identifica-se;  \n(3) dirige-se a ela pelo nome, pelo menos uma vez.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza apenas duas ações.  \n**Inadequado:** realiza apenas uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Conecta-se à paciente:**  \n(1) estabelece contato visual; e,  \n(2) mantém postura empática e interessada ao longo da consulta.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma das ações.  \n**Inadequado:** não realiza qualquer uma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Escuta ativamente a fala da paciente simulada sem interrompê-la.**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível com a paciente simulada, evitando termos técnicos de difícil compreensão:**  \n\n**Adequado:** utiliza linguagem acessível.  \n**Inadequado:** não utiliza linguagem acessível.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta se a paciente gostaria da presença de alguém durante o atendimento:**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta o que a paciente sabe sobre sua condição de saúde (OU situação de saúde OU sobre sua doença OU sobre seu diagnóstico OU sobre o resultado do seu exame):**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta se a paciente quer saber sobre detalhes da doença (OU o quanto quer saber sobre a doença OU quais detalhes sobre a doença quer saber OU se quer informações adicionais da doença OU se quer saber mais sobre seu estado de saúde):**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Informa que irá falar de más notícias, fazendo um preâmbulo para minimizar o impacto da transmissão da má notícia, ex.: \"lamento lhe dizer, mas vou lhe dar uma notícia difícil\"; \"sinto muito, mas não trago boas notícias\":**  \n\n**Adequado:** informa de maneira empática.  \n**Inadequado:** não informa de maneira empática.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Informa o resultado da biópsia de maneira adequada, com linguagem acessível:**  \n\n**Adequado:** informa.  \n**Inadequado:** não informa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Manifesta compreensão dos sentimentos da paciente após ela receber o diagnóstico de câncer de colo de útero:**  \n\n**Adequado:** manifesta compreensão.  \n**Inadequado:** não manifesta compreensão.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Trata a situação de maneira sensível:**  \n(1) oferece conforto à paciente e valida seu sofrimento;  \n(2) inspira esperança na paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Informa à paciente sobre a necessidade de encaminhamento para especialista focal (oncologista, em ambulatório/hospital):**  \n\n**Adequado:** informa à paciente.  \n**Inadequado:** não informa à paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Evita erros ao longo de sua comunicação, tais como:**  \n(1) minimizar a gravidade da situação;  \n(2) apresentar/enfatizar/valorizar o \"lado bom\";  \n(3) não informar que é câncer ou dizer que não sabe se é câncer;  \n(4) adiar a verbalização do diagnóstico para outra consulta ou delegá-la para outro(a) profissional.  \n\n**Adequado:** evita os quatro erros.  \n**Inadequado:** comete qualquer um dos quatro erros.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Encerra a consulta de forma empática e responsável:**  \n(1) coloca-se à disposição para sanar dúvidas;  \n(2) oferta seguimento na UBS.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

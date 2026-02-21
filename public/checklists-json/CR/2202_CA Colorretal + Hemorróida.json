@@ -1,0 +1,195 @@
+{
+  "uid": 2202,
+  "hash": "pepe_2202",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "CA Colorretal + Hemorróida",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuaçao: Atençao Terciaria: ambulatorial e hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• setor de radiologia com radiologia convencional, tomografia computadorizada e  \nressonância magnética;  \n• setor de endoscopia;  \n• laboratório de análises clínicas;  \n• leitos de internação de alta complexidade;  \n• centro cirúrgico; e  \n• Unidade de Terapia Intensiva (UTI).\n\nDescrição do caso:\nDESCRIÇAO DO CASO  \n\n• Paciente de 55 anos encaminhado de uma cidade pequena do interior, com  \nqueixa de sangramento retal vivo ha 6 meses.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar anamnese do paciente;  \n- solicitar e interpretar o exame físico;  \n- solicitar e interpretar exames complementares que considere pertinentes ao caso  \nclínico;  \n- definir a(s) hipótese(s) diagnóstica(s) e sua(s) etiologia(s);  \n- solicitar os exames para complementação diagnóstica; e  \n- verbalizar a conduta terapêutica necessária.  \n\n\nO PACIENTE SIMULADO NÃO DEVE SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Jonas, 55 anos, casado, empreendedor.  \n\n**MOTIVO DE CONSULTA**:  \n• Estou fazendo cocô com sangue.  \n\n**SOBRE O MOTIVO DE CONSULTA**:  \n• **Aspecto/cor**: vermelho vivo.  \n• **Intensidade**: moderada.  \n• **Frequência**: todos os dias.  \n• **Duração**: há uns 6 meses.  \n\n**SINAIS E SINTOMAS ACOMPANHANETES**:  \n• **Diarreia**: nega.  \n• **Constipação**: estou um pouco constipado, nunca fui assim.  \n• **Dor abdominal e característica/tipo**: sim, tipo cólica.  \n• **Distensão abdominal**: sim.  \n• **Tenesmo**: sim.  \n• **Perda de peso não intencional**: perdi uns 7 kg nesses últimos 6 meses.  \n• **Astenia e anorexia**: sim, estou bem cansado e sem fome.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Comorbidades**: hipertensão arterial.  \n• **Uso de medicamentos**: losartana 25 mg 12/12 horas.  \n• **Alergias**: nega.  \n• **Cirurgias**: nega.  \n\n**ANTECEDENTES FAMILIARES**:  \n• Minha mãe faleceu com câncer de estômago.  \n• Meu pai teve um AVC.  \n\n**HÁBITOS**:  \n• **Tabagismo**: fumo 1 maço por dia desde os 20 anos.  \n• **Etilismo**: bebo nos finais de semana, whisky.  \n• **Uso de drogas**: nega.  \n• **Dieta**: como muita carne vermelha.  \n• **Atividade física**: sedentário.  \n\n**DÚVIDAS**:  \n1) Dr (a), como vai ser o meu tratamento?  \n2) É grave? Eu vou morrer?  \n3) Como que eu peguei isso?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "• **Pressão arterial:** 110 × 80 mmHg.  \n• **Frequência cardíaca:** 98 bpm.  \n• **Frequência respiratória:** 12 irpm.  \n• **Temperatura:** 37,1 °C.  \n\n\n**REGULAR ESTADO GERAL, HIDRATADO, HIPOCORADO (++/++++), EUTRÓFICO, ACIANÓTICO, ANICTÉRICO, AFEBRIL. SEM LINFONODOMEGALIAS.**  \n\n\n**ABDOME:** PLANO, SEM DOR À PALPAÇÃO SUPERFICIAL E PROFUNDA EM TODO O ABDOME. RUÍDOS HIDROAÉREOS NORMAIS. SEM VISCEROMEGALIAS.  \n\n\n**APARELHO RESPIRATÓRIO E CARDIOVASCULAR SEM ANORMALIDADES.**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME PROCTOLÓGICO",
+      "conteudo": "**• INSPEÇÃO ESTÁTICA:**  \nPresença de plicoma anal posterior.  \n\n\n**• INSPEÇÃO DINÂMICA:**  \nVisualização de dois mamilos hemorroidários:  \n- Quadrante posterior direito (5h)  \n- Posição lateral esquerda (9h)  \nQue se exteriorizam aos esforços, com redução espontânea.  \n\n\n**• TOQUE RETAL:**  \n- Esfíncter normotônico  \n- Mucosa retal normal  \n- Sem tumorações palpáveis  \n- Próstata de tamanho e consistência normais  \n- Sangue vermelho-vivo no dedo da luva ao término do exame  \n\n\n**• ANUSCOPIA:**  \n- Presença dos mamilos hemorroidários descritos  \n- Mucosa retal de aspecto normal  \n- Restos de sangue vermelho-vivo na luz do reto",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 9,0 mg/dL *(VR: 12 – 16 mg/dL)*  \n• **Hematócrito:** 27% *(VR: 35 – 45%)*  \n• **Leucócitos:** 5.110 *(VR: 4.500 – 11.000)*  \n• **Plaquetas:** 251.000 *(VR: 150.000 – 450.000)*  \n\n\n• Demais exames laboratoriais são normais.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "COLONOSCOPIA",
+      "conteudo": "**CONCLUSÃO DO EXAME:**  \n- Reto sem alterações  \n- Presença de lesão polipoide séssil e ulcerada, com sinais de sangramento recente, localizada no sigmoide, medindo 3 cm no maior diâmetro  \n- Restante do exame sem alterações até o íleo terminal  \n- Colhidas biópsias da lesão",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "BIÓPSIA",
+      "conteudo": "**RESULTADO DE BIÓPSIA:**  \nAdenocarcinoma bem diferenciado do sigmoide.",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "EXAMES DE ESTADIAMENTO",
+      "conteudo": "**• Tomografia computadorizada de abdome total:**  \n- Lesão polipoide na parede anterior do sigmoide  \n- Sinais de invasão da parede até a serosa  \n- Linfonodos regionais sem alterações  \n- Demais órgãos sem alterações  \n\n\n**• Tomografia de tórax:**  \n- Sem alterações  \n\n\n**• Ressonância magnética de pelve:**  \n- Lesão polipoide na parede anterior do sigmoide  \n- Sinais de invasão até a serosa  \n- Linfonodos regionais sem alterações  \n- Demais órgãos sem alterações  \n\n\n**• CEA (antígeno carcinoembriogênico):** 1,2 ng/mL *(normal até 5,5 ng/mL)*",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e identifica adequadamente o paciente.**  \n\n**Adequado:** realiza todos os comandos.  \n**Parcialmente adequado:** realiza somente um comando.  \n**Inadequado:** não realiza nenhum dos comandos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características do sangramento: (1) aspecto; (2)**  \nintensidade; (3) frequência; (4) duração.  \n\n**Adequado:** pergunta sobre todas as características.  \n**Parcialmente adequado:** pergunta apenas duas ou três características.  \n**Inadequado:** pergunta apenas uma ou não pergunta nenhuma das  \ncaracterísticas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza anamnese, perguntando sobre sintomas associados digestivos: (1)**  \nritmo intestinal OU diarreia E constipação; (2) dor tipo cólica; (3) distensão  \nabdominal; (4) tenesmo; e consumptivos:(5) perda de peso; (6) astenia; (7)  \nanorexia.  \n\n**Adequado:** pergunta sobre todas as possibilidades (4 sintomas digestivos e 3  \nsintomas consumptivos).  \n**Parcialmente adequado:** pergunta apenas dois ou três sintomas digestivos e  \napenas dois sintomas consumptivos.  \n**Inadequado:** não pergunta nenhum dos itens ou somente um dos sintomas  \nconsumptivos e/ou um dos sintomas digestivos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita a realização do exame físico: (1) exame físico geral; e (2) exame**  \nproctológico.  \n\n**Adequado:** solicita a realização dos dois exames.  \n**Parcialmente adequado:** solicita a realização de apenas um dos exames.  \n**Inadequado:** não solicita a realização de nenhum dos exames físicos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames complementares laboratoriais como plano diagnóstico**  \n(especifica pelo menos o hemograma).  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita a colonoscopia ou a retossigmoidoscopia.**  \n\n**Adequado:** solicita a colonoscopia  \n**Parcialmente adequado:** solicita a retossigmoidoscopia.  \n**Inadequado:** não solicita colonoscopia nem retossigmoidoscopia",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita o resultado da biópsia.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza as hipóteses diagnósticas associadas ao paciente em questão: (1)**  \ncâncer colorretal/ adenocarcinoma de cólon; e (2) doença hemorroidária.  \n\n**Adequado:** verbaliza as duas hipóteses diagnósticas.  \n**Parcialmente adequado:** dá somente o diagnóstico de câncer.  \n**Inadequado:** não dá o diagnóstico de câncer ou dá somente o diagnóstico de  \ndoença hemorroidária.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita os exames de estadiamento/imagem: (1) TC de tórax; (2) TC de**  \nabdome total, ou TC de abdome superior e TC de pelve, ou TC de abdome  \nsuperior e RM de pelve; (3) CEA.  \n\n**Adequado:** solicita os três itens corretamente.  \n**Parcialmente adequado:** solicita apenas 1 exame de imagem, com ou sem o  \nCEA.  \n**Inadequado:** não solicita nenhum item de imagem, ou só solicita o CEA, ou  \nsolicita apenas o PET TC .- PET TC não faz parte de exames de rotina para  \nestadiamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explica sobre a potencial gravidade do quadro.**  \n\n**Adequado:** explica.  \n**Inadequado:** não explica",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica tratamento do câncer colorretal.**  \n\n**Adequado:** informa possibilidade de cirurgia/encaminhamento do paciente ao cirurgião  \n**Inadequado:** não indica nenhum tratamento adequado ou  \nsomente indica tratamento para a doença hemorroidária.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica que, após a cirurgia, o paciente poderá precisar de tratamento complementar (adjuvante).**    \n\n**Adequado:** fala sobre a possibilidade de quimioterapia.  \n**Inadequado:** não fala sobre o assunto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "uid": 2203,
+  "hash": "pepe_2203",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Apendicite aguda",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Atenção Secundária: ambulatorial e hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• laboratório; e  \n• setor de radiologia convencional.\n\nDescrição do caso:\n• Paciente de 11 anos, com queixa de dor abdominal.  \n• Considere que a mãe da paciente está na sala durante toda a consulta, ouvindo  \ntodas as explicações.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- ler a ficha da paciente, apresentada a seguir;  \n- fazer a anamnese dirigida à paciente;  \n- solicitar qualquer exame físico e/ou complementar que deseje;  \n- comentar o exame físico (não será necessário examinar diretamente a paciente);  \n- estabelecer o diagnóstico inicial e responder aos questionamentos da paciente;  \n- solicitar exames complementares de laboratório e de imagem, se necessário;  \n- interpretar os exames apresentados e verbalizar seus achados;  \n- confirmar a hipótese diagnóstica; e  \n- encaminhar a paciente de acordo com a conduta terapêutica indicada.  \n\n\nFICHA DA PACIENTE  \n- Idade: 11 anos  \n- Paciente eutrófica  \n- Temperatura axilar: 38 ℃  \n- Pressão arterial: 130 × 70 mmHg  \n- Peso atual: 52 kg  \n- Altura: 1,55 m  \n- Mãe presente na sala, acompanhando a paciente durante toda a consulta.  \n\n\nA PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS DA MÃE**:  \n• Lucia, 37 anos, professora.  \n\n**DADOS DA CRIANÇA**:  \n• Beatriz, 11 anos.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr(a), eu comecei a sentir uma dor que parecia no estômago ontem à noite. Hoje eu acordei com a dor bem aqui no lado direito, e, agora à tarde, piorou muito.  \n• Dr(a), o outro médico solicitou alguns exames, você gostaria de vê-los?  \n\n**SOBRE A DOR**:  \n**Aparição**:  \n• Há dois dias.  \n**Localização**:  \n• No canto direito da barriga.  \n**Intensidade**:  \n• 9/10  \n**Irradiação**:  \n• Irradia da boca do estômago para o lado direito.  \n**Medicamento**:  \n• Nega.  \n\n**VÔMITOS**:  \n**Quantidade**:  \n• Dois episódios.  \n**Características**:  \n• Alimentícios.  \n\n**DIARREIA**:  \n• Apenas um 1 episódio.  \n\n**FEBRE**:  \n• Me senti meio quente, mas não verifiquei a temperatura.  \n\n**ALIMENTAÇÃO**:  \n• Não consigo comer nada.  \n\n**SINTOMAS URINÁRIOS**:  \n• Não consta no script.  \n\n**MENARCA**:  \n• Nao consta no script.  \n\n**ANTECENDETES PESSOAIS E FAMILIARES**:  \n• Nega.  \n\n**Após receber o EXAME FÍSICO**:  \n• Dr(a), o que você acha que minha filha tem?  \n\n**Após CONFIRMAR O DIAGNÓSTICO**:  \n• **Pergunta 1**: O que é isso, dr(a)? Não pode ser outra coisa?  \n• **Pergunta 2**: Isso é grave? Tem que fazer cirurgia?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• Bom estado geral, corada, eupneica, hidratada.  \n• Febril, temperatura axilar de 38 °C, temperatura retal de 38,5 °C.  \n• Ausculta cardíaca normal, com frequência cardíaca de 90 bpm.  \n• Pulmões limpos, ventilando bem, sem sibilos, roncos ou estertores; eupneica.  \n• Abdome plano, flácido, doloroso à palpação superficial e profunda em fossa ilíaca  \ndireita. Sinais de irritação peritoneal à manobra de Blumberg em fossa ilíaca direita.  \n• Sem visceromegalias. Ruídos hidroaéreos normais.  \n• Períneo sem particularidades.  \n• Membros sem particularidades.  \n• Exame neurológico sucinto normal.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RADIOGRAFIA ABD EM PÉ",
+      "conteudo": "**RADIOGRAFIA SIMPLES DE ABDOME EM PÉ**  \n\n\n**ATENÇÃO:**   \n**DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS TÉCNICOS DA RADIOGRAFIA**",
+      "imagem": "img_printeds/2022-1-e3p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA ABD DEITADO",
+      "conteudo": "**RADIOGRAFIA SIMPLES DE ABDOME DEITADO**  \n\n\n**ATENÇÃO:**   \n**DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS TÉCNICOS DA RADIOGRAFIA**",
+      "imagem": "img_printeds/2022-1-e3p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**ATENÇÃO:**   \n**DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS TÉCNICOS DA RADIOGRAFIA**",
+      "imagem": "img_printeds/2022-1-e3p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAMES DE URINA",
+      "conteudo": "**ATENÇÃO:**   \n**DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS TÉCNICOS DA RADIOGRAFIA**",
+      "imagem": "img_printeds/2022-1-e3p5.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.Apresentação:**  \n(1)Apresenta-se à paciente simulada  \n(2) pergunta o seu nome  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma das ações.  \n**Inadequado:** não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, perguntando sobre:**  \n(1) Motivo da consulta;  \n(2) Outros sinais e sintomas relacionados à queixa principal;  \n(3) Sintomas digestivos; (4) sintomas urinários; (5)menarca; (6)alimentação;  \n(7) Doenças anteriores; (8) histórico familiar.  \n\n**Adequado:** investiga 6 ou mais elementos, sendo a exploração da queixa  \nprincipal obrigatória.  \n**Parcialmente adequado:** investiga de 4 a 5 elementos apenas sendo a  \nexploração da queixa principal obrigatória.  \n**Inadequado:** investiga menos de 4 elementos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita e interpreta o exame físico geral:**  \n\n**Adequado:** se solicita e interpreta item adequadamente.  \n**Inadequado:** se não solicita ou não interpreta item adequadamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Analisa a radiografia:**  \n(1) Níveis líquidos em fossa ilíaca direita;  \n(2) Borramento da borda do músculo psoas;  \n(3) Distensão de alças intestinais;  \n(4) Escoliose antálgica; (5) presença de alças sentinelas.  \n\n**Adequado:** cita todos os itens.  \n**Parcialmente adequado:** cita de 3 a 4 itens apenas.  \n**Inadequado:** cita até 2 itens apenas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita e interpreta o hemograma**  \n\n**Adequado:** solicita hemograma e o interpreta como de padrão infeccioso  \n(leucocitose com desvio a esquerda ou as custas de  \nsegmentados ou formas jovens).  \n**Parcialmente adequado:** solicita o hemograma, mas não o interpreta.  \n**Inadequado:** não solicita hemograma ou o solicita, mas interpreta que está tudo  \nnormal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita e interpreta o exame de urina:**  \n\n**Adequado:** solicita e interpreta o exame de urina como normal.  \n**Parcialmente adequado:** solicita o exame de urina, mas não o interpreta.  \n**Inadequado:** não solicita o exame de urina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Após análise de exames complementares, confirma diagnóstico.**  \n\n**Adequado:** Confirma o diagnóstico de apendicite aguda.  \n**Inadequado:** Não confirma o diagnóstico ou formula outro  \ndiagnóstico qualquer",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8.Proposta terapêutica:**  \n(1) Explica o que é a apendicite aguda  \n(2) Verbaliza que a paciente deve ser encaminhada para um cirurgião pediátrico,  \nindicando cirurgia de urgência.  \n\n**Adequado:** realiza os dois itens corretamente.  \n**Parcialmente adequado:** realiza apenas um dos itens corretamente.  \n**Inadequado:** não realiza nenhum dos itens corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

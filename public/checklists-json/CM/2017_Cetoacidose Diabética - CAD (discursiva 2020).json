@@ -1,0 +1,182 @@
+{
+  "uid": 2017,
+  "hash": "pepe_2017",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Cetoacidose Diabética - CAD (discursiva 2020)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - Unidade de Emergência.  \nA unidade possui a seguinte infraestrutura:  \n• Leitos de emergência;  \n• Laboratório de análises clínicas;  \n• Acesso a exames de imagem.\n\nDescrição do caso:\nVocê está de plantão na Unidade de Emergência e receberá uma paciente de 22 anos, trazida por familiares com quadro de taquipneia e dor abdominal difusa. Familiares relatam que a paciente tem se mostrado deprimida.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese para investigar a queixa atual e o fator precipitante;  \n- Solicitar e interpretar exame físico, caso julgue necessário;  \n- Formular a hipótese diagnóstica e solicitar os exames que a confirmem;  \n- Identificar o fator desencadeante do quadro atual;  \n- Iniciar a conduta terapêutica para o caso;  \n- Responder as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Laura, 22 anos, estudante universitária.  \n\n**QUEIXA PRINCIPAL:**  \n• Minha barriga dói... dói tudo... e não consigo respirar direito... estou muito cansada.  \n\n**HISTÓRIA DA DOENÇA ATUAL:**  \n• **Início dos sintomas:** A dor começou ontem e foi piorando, é na barriga toda.  \n• **Poliuria/Polidipsia:** Estou fazendo muito xixi e com muita sede.  \n• **Disuria:** Está ardendo um pouco para fazer xixi, mas não toda hora.  \n• **Astenia/inapetência:** Estou muito cansada, só quero ficar deitada pra ver se melhora.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças Prévias:** Tenho diabetes tipo 1 desde os 12 anos.  \n• **Medicação/Adesão ao Tratamento:** Ah, doutor(a)... eu ando meio triste, terminei meu noivado... às vezes esqueço de aplicar a insulina, não tenho me cuidado muito bem.  \n• **Alimentação:** Tenho comido menos de um mês pra cá, mas não faço dieta.  \n• **Atividade física:** não estou fazendo nada atualmente.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho? É muito grave?*  \n• *Essa dor na barriga é por causa da diabetes?*  \n• *O que deu nos meus exames?*  \n• *Vou precisar ficar internada?*  \n• *Como você sabe que resolveu isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 100x70 mmHg  \n• **FC:** 121 bpm  \n• **FR:** 32 irpm  \n• **SatO2:** 99% em ar ambiente  \n• **Temp. axilar:** 36.8°C  \n\n\n**Ectoscopia:** Paciente sonolenta, com hálito adocicado, desidratada (2+/4+), corada, acianótica, anictérica e afebril.  \n\n\n**Cardiovascular:** Ritmo cardíaco taquicárdico, regular, em dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular universalmente audível, sem ruídos adventícios. Taquipneia (Respiração de Kussmaul).  \n\n\n**Abdominal:** Abdome plano, flácido, com ruídos hidroaéreos presentes, doloroso difusamente à palpação profunda, sem sinais de irritação peritoneal, sem massas ou visceromegalias.  \n\n\n**Neurológico:** Sonolenta, respondendo a estímulos verbais. Glasgow 14.  \n\n\n**Membros:** Perfusão periférica normal, sem edema.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Glicemia capilar:** 257 mg/dL  \n\n\n**Gasometria Venosa:**  \n• **pH:** 7,25 (VR: 7,32 - 7,42)  \n• **pCO₂:** 28 mmHg (VR: 41 - 51 mmHg)  \n• **HCO₃⁻:** 12 mEq/L (VR: 22 - 26 mEq/L)  \n• **Ânion-gap:** 20 mEq/L (VR: 8 - 12 mEq/L)  \n\n\n**Eletrólitos:**  \n• **Sódio (Na⁺):** 137 mEq/L (VR: 135 - 145 mEq/L)  \n• **Potássio sérico (K⁺):** 3,5 mEq/L (VR: 3,5 a 5,2 mEq/L).  \n\n\n**Urina Tipo I (EAS):**  \n• **Glicosúria:** ++++/4+  \n• **Cetonúria:** +++/4+  \n• **Nitrito e Esterase Leucocitária:** Negativos.  \n• **Sedimentoscopia:** Ausência de piúria.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta a paciente simulada e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, investigando ativamente sobre o quadro atual.**  \n\n**Adequado:** pergunta sobre o início dos sintomas, queixas associadas (poliúria, polidipsia), e estado de consciência.  \n**Parcialmente adequado:** pergunta apenas sobre um ou dois dos itens.  \n**Inadequado:** não pergunta sobre os itens mencionados.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga o histórico médico da paciente e o fator precipitante.**  \n\n**Adequado:** pergunta sobre comorbidades, uso de medicações e adesão ao tratamento.  \n**Parcialmente adequado:** pergunta apenas sobre comorbidades ou apenas sobre o uso de medicações/adesão.  \n**Inadequado:** não pergunta sobre os itens mencionados.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta os achados do exame físico.**  \n(1) reconhece os sinais de desidratação (taquicardia, hipotensão);  \n(2) identifica a respiração de Kussmaul como um sinal de acidose metabólica;  \n(3) identifica o hálito cetônico.  \n\n**Adequado:** interpreta os três achados.  \n**Parcialmente adequado:** interpreta dois achados.  \n**Inadequado:** não interpreta os achados ou interpreta apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames laboratoriais para confirmar e estadiar a CAD.**  \n(1) Glicemia sérica;  \n(2) Gasometria (arterial ou venosa);  \n(3) Eletrólitos (Sódio, Potássio);  \n(4) Urina tipo I (EAS).  \n\n**Adequado:** solicita os quatro exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** não solicita os exames ou solicita dois ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Cita os achados dos exames que confirmam a hipótese diagnóstica:**  \n(1) Glicemia > 250 mg/dL;  \n(2) Gasometria com acidose metabólica (pH < 7,3 ou HCO3 < 15);  \n(3) Presença de cetonúria ou cetonemia.  \n\n**Adequado:** cita os três achados.  \n**Parcialmente adequado:** cita apenas dois dos achados.  \n**Inadequado:** cita apenas um ou nenhum dos achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a principal hipótese diagnóstica para o caso.**  \n\n**Adequado:** verbaliza o diagnóstico de Cetoacidose Diabética (CAD).  \n**Inadequado:** não verbaliza ou verbaliza outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Identifica e verbaliza o fator que desencadeou o quadro clínico atual.**  \n\n**Adequado:** verbaliza que o quadro foi desencadeado pela inadequada insulinização ou uso irregular/omissão da insulina.  \n**Inadequado:** atribui o quadro a outra causa (ex: infecção urinária, estado emocional) ou não identifica o fator.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define a primeira conduta: hidratação venosa.**  \n\n**Adequado:** prescreve a infusão rápida de Solução Salina 0,9% (1000 a 1500 ml na primeira hora), explicando que a hidratação é o passo inicial mais importante.  \n**Inadequado:** não inicia a hidratação ou o faz com volumes insuficientes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a segunda conduta: insulinoterapia.**  \n\n**Adequado:** prescreve insulina regular em bomba de infusão contínua na dose de 0,1 U/kg/hora, após a confirmação do potássio sérico ≥ 3,3 mEq/L.  \n**Parcialmente adequado:** prescreve insulina, mas em via ou dose incorreta, ou não verifica o potássio antes de iniciar.  \n**Inadequado:** não prescreve a insulinoterapia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Define a terceira conduta: manejo do potássio.**  \n\n**Adequado:** reconhece que o potássio sérico de 3,5 mEq/L, apesar de normal, representa um déficit corporal total e indica o início da reposição de potássio junto com a hidratação e a insulina.  \n**Inadequado:** não indica a reposição de potássio ou o faz de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Justifica a necessidade de internação hospitalar.**  \n\n**Adequado:** justifica a internação pela gravidade da cetoacidose diabética, que exige monitorização contínua dos sinais vitais, glicemia e eletrólitos, preferencialmente em leito de terapia intensiva ou de emergência.  \n**Inadequado:** não indica a internação ou não consegue justificar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Verbaliza os critérios laboratoriais para a resolução do quadro de cetoacidose diabética:**  \n(1) Glicemia < 200 mg/dL;  \n(2) pH arterial ou venoso > 7,3;  \n(3) Bicarbonato ≥ 18 mEq/L.  \n\n**Adequado:** verbaliza os três critérios.  \n**Parcialmente adequado:** verbaliza dois critérios.  \n**Inadequado:** verbaliza apenas um ou nenhum dos critérios.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

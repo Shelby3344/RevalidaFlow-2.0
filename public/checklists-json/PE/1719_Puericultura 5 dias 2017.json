@@ -1,0 +1,253 @@
+{
+  "uid": 1719,
+  "hash": "pepe_1719",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Puericultura 5 dias | 2017",
+  "definicao": "Estação original adaptada  \nPSU-CE 2017 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê está na UBS e irá atender uma mãe e seu recém-nascido de 5 dias de vida para a primeira consulta de rotina. O parto foi vaginal, hospitalar, sem intercorrências.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida;  \n- Avaliar a amamentação e fornecer orientações sobre aleitamento;  \n- Fornecer orientações de cuidados gerais, higiene, sono e sinais de alerta;  \n- Orientar sobre as triagens neonatais, rede de apoio e seguimento;  \n\n\\\nO EXAME FÍSICO DO RECÉM-NASCIDO JÁ FOI REALIZADO E ENCONTRA-SE NORMAL.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Camila, 24 anos.  \n• **Bebê:** Mateus, 5 dias de vida.  \n\n\n**MOTIVO DE CONSULTA:** Vim para a primeira consulta dele, para ver se está tudo bem.  \n\n\n**SOBRE O BEBÊ:**  \n• **Xixi e Cocô:** Ele faz bastante xixi. O cocô era preto e grudento, agora está ficando mais amarelado.  \n\n• **Sono:** Ele dorme bem, mas eu tenho medo de ele afogar, então coloco ele de barriga para baixo ou de lado.  \n\n• **Umbigo:** Estou limpando, mas tenho medo de machucar. Minha mãe disse para colocar uma moeda e faixa, mas eu não coloquei nada ainda.  \n\n\n**SOBRE AMAMENTAÇÃO:**  \n• **Leite:** Estou dando só o peito mesmo.  \n• **Pega:** Coloco o queixo dele no meu peito e ta sugando bem.  \n• **Colostro:** Nos dois primeiros dias o leite parecia mais grosso, mas agora ta parecido com o de vaca.  \n\n\n• **CADERNETA DA CRIANÇA:** Eu trouxe o resumo de alta, serve?\n\n\n**ANTECEDENTES MATERNOS:**  \n• **Pré-natal:** Fiz tudo certinho. Meus exames deram todos normais.  \n\n• **Parto:** Foi normal, nasceu com 3,200 kg. Tivemos alta com 48h.  \n\n• **Apoio:** Moro com meu marido. Minha mãe mora perto e ajuda.  \n\n\n**DÚVIDAS:**  \n• *Posso dar água ou chá se estiver muito calor?*  \n\n• *Quando tenho que fazer aquele teste do pezinho?*  \n\n• *Quais vacinas ele tem que tomar agora?*  \n\n• *Se ele ficar doente, o que eu vou sentir de diferente nele?*  \n\n• *Posso levar ele no carro no meu colo?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RESUMO DE ALTA",
+      "conteudo": "**Mãe:** Camila da Silva  \n• **Tipagem Sanguínea:** O Positivo  \n• **VDRL (Admissão):** Não Reagente  \n• **Anti-HIV (Teste Rápido):** Não Reagente  \n\n\n**Recém-Nascido:** Mateus  \n• **PN:** 3.200g | **Comp:** 49cm | **PC:** 34cm  \n• **Apgar:** 9/10  \n• **Tipagem Sanguínea:** O Positivo  \n• **Vacinas na Maternidade:** BCG e Hepatite B aplicadas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. O médico identificou-se pelo nome**  \n\n**Adequado:** identifica-se pelo nome.  \n**Inadequado:** não se identifica pelo nome.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Cumprimentou a paciente**  \n\n**Adequado:** cumprimenta a paciente.  \n**Inadequado:** não cumprimenta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Perguntou o nome da paciente e trata-a com cordialidade**  \n\n**Adequado:** pergunta o nome E trata com cordialidade.  \n**Inadequado:** não pergunta o nome OU não trata com cordialidade.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Perguntou como a paciente se sente/está**  \n\n**Adequado:** pergunta como a paciente se sente.  \n**Inadequado:** não pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Checou o VDRL, Anti HIV e tipagem sanguinea maternos**  \n(1) Verifica resultado do VDRL;  \n(2) Verifica resultado do Anti-HIV;  \n(3) Verifica a tipagem sanguínea materna.  \n\n**Adequado:** checou os três exames.  \n**Parcialmente adequado:** checou um ou dois exames.  \n**Inadequado:** não checou os exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Checou a amamentação (pega, colostro, etc)**  \n(1) Pergunta ou verifica a pega/posicionamento;  \n(2) Pergunta sobre a sucção ou saída de leite (colostro).  \n\n**Adequado:** checou os dois itens.  \n**Parcialmente adequado:** checou apenas um item.  \n**Inadequado:** não checou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Ressaltou as vantagens do aleitamento materno e o tempo que o bebê deve mamar exclusivo**  \n(1) Explica ao menos uma vantagem do aleitamento (imunidade, vínculo, nutricional);  \n(2) Orienta exclusividade até os 6 meses (sem água, chás ou outros alimentos).  \n\n**Adequado:** realizou as duas orientações.  \n**Parcialmente adequado:** realizou apenas uma orientação.  \n**Inadequado:** não orientou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Questionou se o bebê eliminou mecônio e diurese**  \n(1) Pergunta sobre a eliminação de mecônio (ou fezes);  \n(2) Pergunta sobre a diurese (ou xixi).  \n\n**Adequado:** questionou os dois itens.  \n**Parcialmente adequado:** questionou apenas um item.  \n**Inadequado:** não questionou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orientou sobre as vacinas**  \n(1) Checa ou orienta sobre a BCG;  \n(2) Checa ou orienta sobre a Hepatite B.  \n\n**Adequado:** orientou sobre as duas vacinas.  \n**Parcialmente adequado:** orientou sobre apenas uma vacina.  \n**Inadequado:** não orientou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orientou sobre a posição de dormir**  \n(1) Orienta dormir em decúbito dorsal (barriga para cima);  \n(2) Explica que previne a morte súbita.  \n\n**Adequado:** orientou a posição correta e a justificativa.  \n**Parcialmente adequado:** orientou apenas a posição.  \n**Inadequado:** não orientou ou orientou posição incorreta (lado/bruços).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orientou sobre a higiene do RN (troca de fraldas, banho, etc)**  \n(1) Orienta sobre a troca de fraldas (limpeza, frequência);  \n(2) Orienta sobre o banho (temperatura, produtos, técnica).  \n\n**Adequado:** orientou sobre os dois itens.  \n**Parcialmente adequado:** orientou sobre apenas um item.  \n**Inadequado:** não orientou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orientou cuidados com o coto umbilical (uso de álcool a 70%, não colocar corpo estranho e não abafar o umbigo)**  \n(1) Orienta limpeza com álcool 70%;  \n(2) Orienta a não colocar faixas, moedas ou outros corpos estranhos;  \n(3) Orienta a manter seco/não abafar (deixar fralda abaixo do coto).  \n\n**Adequado:** orientou os três cuidados.  \n**Parcialmente adequado:** orientou um ou dois cuidados.  \n**Inadequado:** não orientou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orientou sobre os sinais de alerta que merecem retorno ao sistema de saúde (recusa ao peito, cianose, dispneia, icterícia, febre)**  \n(1) Recusa alimentar / recusa ao peito;  \n(2) Dificuldade respiratória (dispneia) OU cianose;  \n(3) Icterícia (amarelão);  \n(4) Febre (ou hipotermia).  \n\n**Adequado:** orientou quatro ou mais sinais.  \n**Parcialmente adequado:** orientou dois ou três sinais.  \n**Inadequado:** orientou um ou nenhum sinal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Mencionou sobre os testes de triagem (coração, orelhinha e olhinho)**  \n(1) Teste do coraçãozinho (oximetria);  \n(2) Teste da orelhinha (emissões otoacústicas);  \n(3) Teste do olhinho (reflexo vermelho);  \n(4) Explica a importância/realização destes exames.  \n\n**Adequado:** mencionou os quatro itens.  \n**Parcialmente adequado:** mencionou dois ou três itens.  \n**Inadequado:** mencionou um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Solicitou o teste do pezinho para ser realizado no posto de sáude após o 3-5° dia de vida**  \n(1) Solicita o teste do pezinho;  \n(2) Orienta o período correto (após 3º a 5º dia de vida).  \n\n**Adequado:** solicitou e orientou o prazo corretamente.  \n**Parcialmente adequado:** apenas solicitou sem prazo ou prazo incorreto.  \n**Inadequado:** não solicitou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Checou sobre a rede social materna**  \n(1) Pergunta com quem a mãe mora;  \n(2) Pergunta se ela tem ajuda/apoio para os cuidados com o bebê.  \n\n**Adequado:** checou os dois itens.  \n**Parcialmente adequado:** checou apenas um item.  \n**Inadequado:** não checou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Orientou sobre o transporte neonatal seguro**  \n(1) Orienta uso de bebê-conforto;  \n(2) Orienta fixação no banco traseiro de costas para o movimento.  \n\n**Adequado:** orientou os dois itens.  \n**Parcialmente adequado:** orientou apenas o uso do dispositivo.  \n**Inadequado:** não orientou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Agendou o retorno e esclareceu à mãe**  \n\n**Adequado:** agendou o retorno em 30 dias e comunicou à mãe.  \n**Inadequado:** não agendou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Perguntou se havia dúvidas e colocou-se à disposição**  \n\n**Adequado:** perguntou se há dúvidas e colocou-se à disposição.  \n**Inadequado:** não perguntou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Despediu-se, encerrando o atendimento**  \n\n**Adequado:** despediu-se.  \n**Inadequado:** não se despediu.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

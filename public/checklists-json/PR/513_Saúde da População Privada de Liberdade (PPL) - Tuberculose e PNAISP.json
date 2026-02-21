@@ -1,0 +1,177 @@
+{
+  "uid": 513,
+  "hash": "pepe_513",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Saúde da População Privada de Liberdade (PPL) - Tuberculose e PNAISP",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Primária Prisional (eAPP).  \nLocal: Unidade de saúde em um Centro de Detenção Provisória.  \nA unidade possui consultório, coleta de exames e farmácia básica.\n\nDescrição do caso:\nVocê é médico(a) da eAPP e atenderá um homem, privado de liberdade, encaminhado pela enfermagem por tosse persistente. Um agente penitenciário está na porta do consultório para segurança.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da Estação, você deverá:  \n- Realizar anamnese focada na queixa e no contexto prisional.  \n- Solicitar exame físico direcionado.  \n- Formular hipótese e solicitar exames para diagnóstico e rastreio de coinfecções.  \n- Estabelecer o plano terapêutico e as ações de vigilância em saúde (PNAISP).",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marcos, 32 anos, solteiro.  \n\n**MOTIVO DE CONSULTA:**  \n• \"Doutor(a), não aguento mais tossir. Faz quase um mês. O pessoal da cela já tá reclamando.\"  \n\n**SOBRE OS SINTOMAS:**  \n• **Tosse:** Há 4 semanas, com catarro de manhã. Sem sangue.  \n• **Sintomas associados:** \"Tô tendo febre todo fim de tarde, suo muito à noite e emagreci bastante.\"  \n\n**CONTEXTO PRISIONAL E SOCIAL:**  \n• **Cela:** \"A cela é pra 12, mas tem mais de 30. É úmida, sem sol. Tem mais gente tossindo lá.\"  \n• **Tempo de reclusão:** 8 meses.  \n• **Hábitos:** Fumo muito. Usava crack antes de ser preso.  \n• **ISTs:** \"Nunca fiz exame de HIV, sífilis... nada disso.\"  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS (Seja direto):**  \n• *\"O que eu tenho?\"*  \n• *\"Vou pra solitária?\"*  \n• *\"Tem cura isso aqui dentro?\"*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 92 bpm  \n• **FR:** 22 irpm  \n• **SatO2:** 95% em ar ambiente  \n• **Temp. axilar:** 37,8°C  \n• **Peso:** 58 kg (paciente refere que pesava 65 kg há 2 meses)  \n\n\n**Ectoscopia:** Emagrecido, hipocorado (+/4+), acianótico. Presença de linfonodomegalia cervical e supraclavicular à direita, móvel e indolor.  \n\n\n**Aparelho Respiratório:** Murmúrio vesicular diminuído em ápice pulmonar direito, com estertores crepitantes pós-tussígenos nesta região. Restante do campo pulmonar limpo.  \n\n\n**Aparelho Cardiovascular:** RCR, 2T, BNF, sem sopros.  \n\n\n**Abdome:** Plano, flácido, indolor.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**VERBALIZE O ACHADO DA IMAGEM**",
+      "imagem": "img_printeds/e513p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "TESTE TUBERCULOSE (TRM-TB)",
+      "conteudo": "**Material:** Escarro.  \n**Resultado:** *Mycobacterium tuberculosis* **DETECTADO**.  \n**Resistência à Rifampicina:** **NÃO DETECTADA**.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Vínculo e Sigilo em Ambiente Hostil**  \n(1) Garante o sigilo da consulta.  \n(2) Acolhe o paciente de forma respeitosa, sem estigmas.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Anamnese Dirigida (Sintomático Respiratório)**  \n(1) Caracteriza a tosse (tempo ≥ 3 semanas).  \n(2) Investiga ativamente os \"sintomas B\" (febre vespertina, sudorese noturna, perda de peso).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investigação Epidemiológica (PNAISP)**  \n(1) Questiona sobre as condições da cela (superlotação, ventilação).  \n(2) Pergunta sobre outros sintomáticos na cela e sobre hábitos (tabagismo, uso de drogas).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Exame Físico e Hipótese Diagnóstica**  \n(1) Solicita ausculta pulmonar e palpação de linfonodos.  \n(2) Verbaliza a hipótese principal de **Tuberculose Pulmonar**.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicitação de Exames para TB**  \n(1) Solicita **Teste Rápido Molecular (TRM-TB)** ou Baciloscopia de Escarro (BAAR).  \n(2) Solicita **Radiografia de Tórax**.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita um exame.  \n**Inadequado:** não solicita os exames.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Rastreio de Coinfecções (Protocolo PPL)**  \n(1) Solicita teste rápido (ou sorologia) para **HIV**.  \n(2) Solicita teste rápido (ou sorologia) para **Sífilis e Hepatites Virais (B e C)**.  \n\n**Adequado:** solicita os dois grupos de exames.  \n**Parcialmente adequado:** solicita um grupo.  \n**Inadequado:** não solicita rastreio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Confirmação Diagnóstica e Tratamento**  \n(1) Interpreta os exames e confirma o diagnóstico de Tuberculose Pulmonar.  \n(2) Prescreve o esquema básico **RIPE** (Rifampicina, Isoniazida, Pirazinamida, Etambutol).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Implementação do Tratamento Diretamente Observado (TDO)**  \n(1) Explica que o tratamento será supervisionado pela equipe de saúde (TDO).  \n\n**Adequado:** orienta sobre o TDO.  \n**Inadequado:** não menciona o TDO.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Ações de Vigilância em Saúde (Contactantes)**  \n(1) Determina a busca ativa de sintomáticos respiratórios na cela do paciente.  \n\n**Adequado:** define a busca ativa nos contactantes.  \n**Inadequado:** não aborda os contactantes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Notificação Compulsória**  \n(1) Verbaliza a necessidade de notificar o caso no **SINAN**.  \n\n**Adequado:** menciona a notificação no SINAN.  \n**Inadequado:** não menciona a notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Manejo do Isolamento Respiratório**  \n(1) Orienta sobre a necessidade de isolamento respiratório inicial (15 dias).  \n(2) Esclarece que o isolamento é terapêutico (enfermaria/cela separada), não punitivo (\"solitária\").  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não orienta ou orienta de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Educação em Saúde e Vínculo Final**  \n(1) Responde às dúvidas do paciente, afirmando que a doença tem cura e que ele será acompanhado.  \n\n**Adequado:** responde às dúvidas e reforça o cuidado.  \n**Inadequado:** não responde ou encerra de forma abrupta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

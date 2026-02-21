@@ -1,0 +1,144 @@
+{
+  "uid": 2330,
+  "hash": "pepe_2330",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "IAM - Infarto Agudo do Miocárdio + ERG de Framingham (discursiva)",
+  "definicao": "Referências:\n\nhttps://linhasdecuidado.saude.gov.br/portal/obesidade-no-adulto/unidade-de-atencao-primaria/planejamento-terapeutico/escore-risco-global-framingham/",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: Unidade Básica de Saúde - UBS.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• eletrocardiograma;  \n• sala de aplicação de medicamentos;  \n• ambulância de suporte básico para transporte.\n\nDescrição do caso:\nVocê é o médico de uma UBS e atenderá um homem de 56 anos com queixa de dor precordial há 6 horas, com irradiação para o pescoço e braço esquerdo.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Solicitar e interpretar o exame físico, caso necessário.  \n- Solicitar e Interpretar o eletrocardiograma.  \n- Calcular o Escore de Risco Global (ERG) de Framingham do paciente.  \n- Verbalizar a principal hipótese diagnóstica.  \n- Indicar as principais medidas de abordagem imediata para o caso.  \n- Responder as dúvidas do paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 56 anos, contador.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com uma dor no peito muito forte e não passa de jeito nenhum.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou faz 6 horas, de repente.  \n• **Localização:** É bem no meio do peito.  \n• **Irradiação:** A dor sobe para o meu pescoço e vai para o ombro e o braço esquerdo.  \n• **Característica:** É uma dor em aperto, parece que tem um peso em cima.  \n• **Intensidade:** É muito forte, nota 9 de 10.  \n• **Atenuantes/agravantes:** Não melhora com nada. Ficar parado ou me mexer não muda a dor.  \n\n**SINTOMAS ASSOCIADOS:**  \n• Estou com um pouco de falta de ar e suando frio.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho pressão alta.  \n• **Medicações:** Tomo hidroclorotiazida e losartana todo dia, certinho.  \n• **Alergias:** Não tenho alergia a nada que eu saiba.  \n• **Tabagismo:** Fumo desde os 26 anos, um maço por dia.  \n• **Etilismo e outras drogas:** nega.  \n\n• **Histórico Familiar:** Meu pai morreu do coração, teve um infarto com 60 anos.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Qual o tratamento agora?*  \n• *Vai precisar de cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO E HISTÓRICO RECENTE",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 160x100 mmHg  \n• **FC:** 105 bpm  \n• **FR:** 22 irpm  \n• **SatO2:** 86% em ar ambiente  \n• **Temp. axilar:** 36.8°C  \n\n\n**Ectoscopia:** Regular estado geral, ansioso, pálido, sudoreico.  \n\n**Ausculta Cardíaca:** Ritmo cardíaco regular, taquicárdico, em 2 tempos, sem sopros.  \n\n**Ausculta Pulmonar:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n**Restante do exame físico:** sem alterações.  \n\n\n\n**(PRONTUÁRIO DO PACIENTE)**  \n**EXAMES LABORATORIAIS REALIZADOS HÁ 5 DIAS:**  \n\n\n**HEMOGRAMA**  \n• **Hemácias:** 4,5 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 14,2 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 42% (VR: 39 - 52%)  \n\n• **Plaquetas:** 179.000 mm/3 (150.000 - 400.000 mm/3)  \n• **Leucócitos:** 9.340/mm3 (VR: 4.000 - 10.000/mm3)  \n\n\n**PERFIL RENAL**\n• **Creatinina (Cr):** 0,8 mg/dL (VR: 0,5 - 1,2 mg/dl)  \n• **Ureia (Ur):** 32 mg/dl (VR: 13 - 43 mg/dl)  \n\n\n• **Glicemia pós prandial:** 137 mg/dl (VR: 70 - 140 mg/dl)  \n\n\n**PERFIL LIPÍDICO**  \n• **Colesterol total:** 277 mg/dl (<200 mg/dl)  \n• **Colesterol LDL:** 180 mg/dl (< 130 mg/dl)  \n• **Colesterol HDL:** 47 mg/dl (>40 mg/dl)  \n• **Triglicerídeos:** 250 mg/dl (< 150 mg/dl)",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ELETROCARDIOGRAMA (ECG)",
+      "conteudo": "**VERBALIZE A(S) ALTERAÇÃO(ÕES) NO ECG**",
+      "imagem": "img_printeds/2023-2-e30p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "ERG DE FRAMINGHAM",
+      "conteudo": "**ATENÇÃO**  \n**CALCULE E INFORME A PONTUAÇÃO PARA ESTE PACIENTE**",
+      "imagem": "img_printeds/2023-2-e30p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor torácica:**  \n(1) início;  \n(2) localização;  \n(3) irradiação;  \n(4) característica/tipo;  \n(5) intensidade.  \n\n**Adequado:** pergunta quatro ou mais características.  \n**Parcialmente adequado:** pergunta duas ou três características.  \n**Inadequado:** pergunta uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga os fatores de risco cardiovascular do paciente:**  \n(1) hipertensão arterial sistêmica;  \n(2) tabagismo;  \n(3) história familiar.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta corretamente o Eletrocardiograma.**  \n\n**Adequado:** descreve o supradesnivelamento do segmento ST nas derivações de V1 a V4.  \n**Parcialmente adequado:** descreve supradesnivelamento de ST sem especificar as derivações.  \n**Inadequado:** não descreve o supradesnivelamento de ST ou interpreta o exame como normal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Calcula o Escore de Risco de Framingham para eventos coronarianos em 10 anos, e verbaliza o valor total de 22 pontos.**  \n\n**Adequado:** Verbaliza o valor de 22 pontos.  \n**Inadequado:** Não verbaliza o valor de 22 pontos ou verbaliza qualquer outro valor.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a hipótese diagnóstica mais provável.**  \n\n**Adequado:** verbaliza Infarto Agudo do Miocárdio com supradesnivelamento do segmento ST (IAMCSST) de parede anterior.  \n**Parcialmente adequado:** verbaliza Infarto Agudo do Miocárdio (IAM) ou Síndrome Coronariana Aguda (SCA) sem especificar.  \n**Inadequado:** não verbaliza a hipótese ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica as medidas de suporte, monitorização e tratamento inicial para o paciente:**  \n(1) Indica o fornecimento de oxigênioterapia;  \n(2) Prescreve Ácido Acetilsalicílico (AAS) na dose de 300 mg;  \n(3) Prescreve nitrato (sublingual);  \n(4) Menciona morfina (se a dor não ceder ao nitrato);  \n(5) Indica Betabloqueador;  \n(6) Indica Anticoagulação (Heparina);  \n(7) Indica Clopidogrel;  \n(8) Solicita a monitorização cardiaca;  \n\n**Adequado:** indica ao menos sete das medidas listadas.  \n**Parcialmente adequado:** indica de cinco ou seis das medidas listadas.  \n**Inadequado:** indica quatro ou menos das medidas listadas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.25",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica o transporte seguro e imediato para serviço de emergência hospitalar.**  \n\n**Adequado:** indica transporte em ambulância com suporte avançado OU suporte básico com acompanhamento médico.  \n**Inadequado:** não indica o transporte ou indica transporte por meios próprios.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta a estratégia de reperfusão.**  \n\n**Adequado:** verbaliza que o paciente é candidato à terapia de reperfusão (angioplastia ou fibrinolítico) e que a escolha dependerá da avaliação do especialista (cardiologista, angiologista, cirurgião vascular, radiologista invervencionista).  \n**Inadequado:** não menciona a necessidade de reperfusão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

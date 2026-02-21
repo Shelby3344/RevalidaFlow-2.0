@@ -1,0 +1,231 @@
+{
+  "uid": 1409,
+  "hash": "pepe_1409",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Anticoncepção Oral Combinada",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde - Unidade Básica de Saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê atenderá na UBS uma paciente de 26 anos, nuligesta, que retorna para saber o resultado de seu exame citopatológico de colo uterino e buscar orientação sobre métodos contraceptivos.",
+  "tarefas": "TAREFAS:  \n- Comunicar o resultado do exame citopatológico à paciente;  \n- Realizar a anamnese dirigida ao caso e investigar as contraindicações para anticoncepção hormonal;  \n- Orientar sobre o uso do método anticoncepcional escolhido pela paciente;  \n- Esclarecer as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Alberta, 26 anos, personal trainer.  \n\n**MOTIVO DE CONSULTA:** • Olá, eu voltei para trazer o resultado do meu Papanicolau. Também queria aproveitar para conversar sobre um método para evitar gravidez. Eu não uso nada e queria começar a usar.  \n\n**DEMAIS QUEIXAS:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** nega.  \n• **Álcool, tabaco e drogas:** Não bebo e nem fumo.  \n• **Alimentação:** como bastante salada, peixe e frutas.  \n• **Atividade física:** Sim, faço academia 4 vezes na semana.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **DUM:** na minha tabelinha diz que falta 3 dias pra descer.  \n• **Menarca:** foi aos 13 anos.  \n• **Sexarca:** aos 17 anos.  \n• **Ciclos menstruais:** é bem certinha, vem todo mês.  \n• **GPA:** nunca engravidei.  \n• **IST/DST:** nega.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai e minha mãe não tem doenças que eu conheço.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Quando o(a) candidato(a) sugerir a pílula combinada: \"*Acho que vou querer essa pilula combinada. Como eu começo a tomar?*\"  \n\n**DÚVIDAS:**  \n• *E se eu menstruar, tenho que parar de tomar ou então fazer alguma pausa depois que acaba a cartela?*  \n• *E se eu esquecer de tomar um dia, o que eu faço?*  \n• *Essa pílula tem algum efeito colateral?*  \n• *Preciso usar camisinha mesmo tomando a pílula?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME CITOPATOLÓGICO",
+      "conteudo": "**IDENTIFICAÇÃO DA PACIENTE:**  \n• **Nome:** Alberta dos Anjos.  \n• **Idade:** 26 anos.  \n\n\n**INFORMAÇÕES CLÍNICAS:**  \n• **Material:** Esfregaço cérvico-vaginal (Convencional)  \n• **Data da Última Menstruação (DUM):** Há 15 dias  \n\n\n**AVALIAÇÃO DA AMOSTRA:**  \n• **Adequabilidade:** Satisfatória para avaliação.  \n• **Células da Junção Escamo-Colunar (JEC):** Presentes.  \n\n\n**ACHADOS MICROSCÓPICOS:**  \n• **Microbiologia:** Flora de bacilos de Doderlein.  \n• **Alterações celulares benignas reativas ou reparativas:** Inflamação.  \n• **Células epiteliais:** Escamosas e glandulares sem atipias.  \n\n\n**AVALIAÇÃO:**  \n• Não indicativo para lesão intraepitelial ou malignidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e pergunta o nome da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Trata a paciente com respeito, deixando-a falar, sem interrupções, utilizando linguagem acessível (evita jargões, abreviaturas ou termos técnicos).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Explica o resultado do exame citopatológico corretamente (exame normal) e que o exame deverá ser repetido anualmente.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta se tem hipertensão arterial ou outra doença crônica.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre os ciclos menstruais (regularidade/frequência e intensidade), incluindo a data da última menstruação.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre antecedentes pessoais ou familiares de tromboembolismo venoso/embolia pulmonar.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre tabagismo e uso de medicamentos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Responde que a paciente pode usar a pílula hormonal combinada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta que no 1º mês de uso, a paciente deve ingerir o 1º comprimido no 1º dia do ciclo menstrual ou, no máximo, até o 5º dia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta que a paciente deve ingerir um comprimido por dia até o término da cartela, preferencialmente no mesmo horário.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta fazer pausa de sete dias, após o término da cartela, e iniciar nova cartela no oitavo dia, independente do ciclo menstrual.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta que mesmo não ocorrendo a menstruação no intervalo entre as cartelas, a usuária deve iniciar nova cartela e procurar o serviço de saúde para descartar gravidez.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta que se esquecer de tomar uma pílula, deve tomar imediatamente a pílula esquecida e, a pílula regular, no horário habitual. Continuar o restante da cartela regularmente, uma a cada dia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta que se esquecer de tomar duas ou mais pílulas, deve tomar imediatamente uma pílula, continuar a cartela e usar método de barreira ou evitar relações sexuais durante sete dias.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta que podem ocorrer náuseas e vômitos, especialmente durante os primeiros meses de uso.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Orienta que pode ocorrer sangramento leve entre as menstruações (spotting).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Orienta que não deve suspender o uso da pílula, mesmo que aconteçam efeitos indesejados (observar tomada com alimentação).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Pergunta se a paciente tinha mais alguma dúvida e orienta retorno com 30 dias.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

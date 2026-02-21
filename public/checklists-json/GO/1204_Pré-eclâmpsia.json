@@ -1,0 +1,149 @@
+{
+  "uid": 1204,
+  "hash": "pepe_1204",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Pré-eclâmpsia",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:    \n• Consultório médico;  \n• Sala de pequenos procedimentos;  \n• raio-X e eletrocardiograma;  \n• laboratório de análises clínicas;  \n• banco de sangue;  \n• o local não possui atendimento obstétrico especializado.\n\nDescrição do caso:\nVocê é médico e irá atender uma paciente de 37 anos, gestante de 35 semanas, com queixa de cansaço, mal-estar e cefaleia.",
+  "tarefas": "TAREFAS: \n \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico, caso necessário;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a hipótese diagnóstica com base em achados do exame físico e complementares, caso exista;  \n- Propor condutas e orientações ao caso;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Laura, 37 anos, garçonete.  \n\n\n**QUEIXA PRINCIPAL:** Estou me sentindo muito cansada, e uma dor de cabeça que não passa.  \n\n\n**SOBRE CEFALEIA:**  \n• **Início:** começou faz duas horas.  \n• **Localização:** mais atrás da cabeça.  \n• **Irradiação:** não.  \n• **Característica:** está pulsando.  \n• **Intensidade:** 6/10.  \n• **Atenuantes/agravantes:** não tomei nada, vim direto pra cá.\n\n• **Episódio anterior:** desse jeito é a primeira vez.  \n• **Duração:** não parou desde que acordei.  \n• **Trauma:** nega.  \n\n\n**DEMAIS QUEIXAS:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** nega.  \n• **Doenças:** tenho pressão alta.  \n• **Medicações:** agora estou tomando Metildopa.  \n• **Cirurgias e internações:** nega.  \n\n\n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **CADERNETA DA GESTANTE:** não trouxe, vim do trabalho.  \n• **GPA:** segunda gestação, tive um aborto 2 anos atrás.  \n• **IG:** 35 semanas.  \n• **Pré-natal e intercorrências:** estou fazendo o pré-natal de alto risco por causa da hipertensão.  \n• **NEGAR Queixas:** náuseas, vômitos, sangramento, corrimento vaginal, epigastralgia, disuria, escotomas.  \n• **VACINAÇÃO:** tomei todas da gestação.  \n• **Contrações uterinas:** não estou sentindo.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *Como o você sabe que é isso?*  \n• *Isso é grave?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 150x100 mmHg  \n• **FC:** 90 bpm  \n• **FR:** 17 irpm  \n• **SatO2:** 97%  \n• **Temp. axilar:** 36.7° C  \n\n\n**Ectoscopia:** paciente com face álgica, orientada, ansiosa, corada com rubor em face, hidratada e acianótica.  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** sem alterações.  \n\n\n**Abdominal:** abdome gravídico, com presença de linha nigra, dinâmica uterina ausente, sem alterações.  \n\n\n**MMII:** presença de edema em ambos os membros +++/4+.  \n\n\n**EXAME FÍSICO OBSTÉTRICO**  \n\n**Estática fetal:** Situação (longitudinal); Posição (esquerda); Apresentação (cefálica); Insinuação (não insinuado).  \n**Exame especular:** sem alterações.  \n**Toque vaginal:** colo fechado.  \n**AU:** 33 cm.  \n**BCF:** 145 bpm.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES COMPLEMENTARES",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,9 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 15,2 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 36% (VR: 39 - 52%)  \n\n• **Plaquetas:** 122.000 mm/3 (150.000 - 400.000 mm/3)  \n\n• **Leucócitos:** 8.380/mm3 (VR: 4.000 - 10.000/mm3)  \n• **Neutrófilos:** 62% (VR: 40 - 70%)  \n\n\n• **Ureia (Ur):** 41 mg/dl (VR: 13 - 43 mg/dl)  \n• **Creatinina (Cr):** 1,2 mg/dL (VR: 0,5 - 1,1 mg/dl)  \n• **Proteinúria em fita:** ++/4+",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Recebeu a paciente, cumprimentando-a e identificando-se como médico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese demonstrando atenção com a paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica a cefaleia como queixa relacionada à pré-eclâmpsia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica o edema de membros inferiores como sinal relacionados com a pré-eclâmpsia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica a hipertensão arterial como achado relacionado com a pré-eclâmpsia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta corretamente os exames complementares, destacando o comprometimento renal incipiente e a plaqueotopenia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Informa a suspeita do diagnóstico de pré-eclâmpsia.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica adequadamente à paciente a sua condição, explicando que e trata de uma patologia do último trimestre.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Encaminha a paciente para atendimento em serviço com emergência obstétrica.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Demonstra empatia com a situação da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "uid": 1106,
+  "hash": "pepe_1106",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Hipertensão Arterial - HAS",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n* Consultório médico.  \n* Sala de medicação.\n\nDescrição do caso:\n- Homem de 60 anos, ex-tabagista, nega comorbidades, procura atendimento preocupado e agora deseja cuidar da saúde. Informa que um amigo da mesma idade faleceu recentemente.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:    \n- Realizar a anamnese do paciente;  \n- Solicitar e interpretar exame físico;  \n- Indicar exames complementares caso necessário;  \n- Realizar conduta e orientações necessárias.",
+  "script_ator": "**DADOS PESSOAIS:**  \n- Amadeu, 60 anos, comerciante.  \n\n\n**MOTIVO DA CONSULTA:**  \n- Doutor eu vim para saber se está tudo certo comigo. Um amigo meu que tinha minha idade morreu do nada essa semana. Queria saber como está minha saúde.  \n\n**SINAIS E SINTOMAS:** Não sinto nada doutor, só quero fazer um check-up geral.  \n\n\n**ANTECEDENTES PESSOAIS:**\n- **Alergias, medicações, comorbidades, internações:** nega.  \n- **Exames e avaliação da próstata:** nega.  \n- **Vacinação:** Não consta no script.  \n\n\n**HÁBITOS:**  \n- **Tabaco:** Parei de fumar há 15 anos.   \n- **Álcool:** Bebo pouco aos finais de semana.  \n- **Drogas:** nega.  \n\n- **Sono:** durmo umas 6 horas por dia, mas acho que deveria dormir mais um pouco.  \n- **Relação sexual:** sou casado há 35 anos com minha esposa.  \n- **Atividade física:** somente um futebolzinho na quarta-feira.    \n- **Alimentação:** como de tudo, só verduras que não gosto muito.  \n\n\n**ANTECEDENTES FAMILIARES:** Meu pai é hipertenso.  \n\n\n**OUTRAS PERGUNTAS:** Não consta no Script.  \n**Caso o candidato solicite algum exame complementar**: Considere solicitado.  \n\n\n**DÚVIDAS:**  \n- Está tudo certo? Preciso fazer algum exame?  \n- E aqueles exames do coração e da esteira não preciso fazer?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \nPA: 140x90mmHg;  \nFC: 73bpm;  \nFR: 17irpm;  \nSatO2: 97% em a.a.;  \nTemperatura: 36.9°C.  \n\n\n**Antropométricos:**  \nPeso: 80kg  \nIMC: 24.5kg/m²  \n\n\n**Estado geral:**  \nBom estado geral, afebril, acianótico, anictérico, alerta e orientado no tempo e espaço.  \nSem demais alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. Apresenta-se ao paciente como médico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2.1. Solicitar dados de identificação do paciente (nome completo, idade, estado civil e profissão).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3.1. Pergunta o motivo da consulta.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**3.2. Investiga antecedentes pessoais.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**3.3. Investiga antecedentes familiares.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**3.4. Investiga hábitos alimentares.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**3.5. Investiga realização e frequência de atividade física.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**3.6. Investiga tabagismo.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**3.7. Investiga uso de álcool.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**3.8. Investiga uso de drogas ilícitas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**3.9. Investiga atividade sexual**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**3.10. Investiga qualidade do sono.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**3.11. Investiga realização de PSA ou consulta a urologista l toque retal para avaliação da próstata.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**4.1 Informa o paciente sobre a necessidade de reavaliação da medida de pressão arterial em outra consulta, mesmo na ausência de sintomas para a confirmação do diagnóstico de hipertensão arterial.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**4.2. Solicita dosagem da glicemia de jejum para rastrearnento de diabetes.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**4.3. Solicita o perfil lipídico (colesterol e frações, triglicerídeos) para rastreamento do risco cardiovascular.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**4.4. Solicita dosagem da creatinina sérica e do exame sumário de urina (urina tipo 1) para rastreamento de doenças do rim.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**4.5. Não solicita exames desnecessários: monitorização ambulatorial de pressão arterial (MAPA), ecocardiograma, teste ergornétrico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**4.6. Recomenda ou solicita e realização de pesquisa de sangue oculto nas fezes ou de colononoscopia para rastreamento de câncer de intestino.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**5.1. Comunica-se com linguagem acessível.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**5.2. Escuta atentamente o paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 22,
+      "descricao": "**5.3. Interage com respeito ao paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

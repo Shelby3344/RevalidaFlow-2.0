@@ -1,0 +1,177 @@
+{
+  "uid": 2312,
+  "hash": "pepe_2312",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Pancreatite aguda litiásica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: atenção terciária à saúde - emergência geral.  \nA unidade possui a seguinte infraestrutura:  \n• Setor de diagnóstico por imagem;  \n• Laboratório de análises clínicas;  \n• Banco de sangue;  \n• Leitos de internação; e  \n• Centro cirúrgico e unidade de tratamento intensivo.\n\nDescrição do caso:\nVocê está de plantão na emergência de uma unidade de atenção terciária e irá atender  \numa paciente de 30 anos de idade, que apresenta dor abdominal.  \n\n\nATENÇÃO!  \nCASO JULGUE NECESSARIO REALIZAR EXAME FISICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO  \nDURANTE O ATENDIMENTO.",
+  "tarefas": "Nos 10 minutos de duração da estação, voce devera executar as tarefas a seguir:  \n- Realizar anamnese da paciente;  \n- Solicitar o exame físico;  \n- Solicitar e interpretar os exames laboratoriais e outros exames complementares  \npertinentes ao caso;  \n- Verbalizar a hipótese diagnóstica definitiva do caso, explicando como  \nchegou a ela;  \n- Verbalizar a conduta terapêutica necessária.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Me chamo Ana, tenho 30 anos de idade, sou casada e professora.  \n\n**MOTIVO DE CONSULTA**:  \n• Estou com dor de barriga Dr (a).  \n\n**CARACTERÍSTICAS DA DOR**:  \n**Tempo de evolução**: na noite passada.  \n**Intensidade**: 10/10, não consegui nem dormir de tanta dor.  \n**Localização**: está localizada na boca do estômago.  \n**Irradiação**: irradia para as costas.  \n**Fatores de melhora e piora**: piora quando eu como e não existem fatores de melhora.  \n**Progressão**: a dor só está piorando ao passar do tempo.  \n**Primeiro episódio**: nunca tive isso antes.  \n\n**SINAIS E SINTOMAS ACOMPANHANTES**:  \n**Vômitos**: quando a dor piora, eu chego a vomitar, já vomitei três vezes, o vômito é amarelado, sem restos de comida.  \n**Distensão abdominal**: eu percebi que a minha barriga está mais inchada do que o normal.  \n**Anorexia**: estou com pouco apetite.  \n**Catarse**: costumo ir regularmente ao banheiro, não tive alterações nas fezes, hoje ainda não defequei.  \n**Febre**: nao tive febre.  \n**Icterícia**: não percebi coloração amarelada na minha pele, nem nos meus olhos.  \n**Diurese/Colúria**: meu xixi está mais amarelado, mas não tenho outros sintomas urinários.  \n\n**ANTECEDENTES PESSOAIS**:  \n**Comorbidades e Alergias**: não tenho alergias medicamentosas ou doenças pré-existentes.  \n**Cirurgias**: somente duas cesarianas.  \n**Bebe/Tabagismo/Drogas**: bebo socialmente aos finais de semana, não fumo e nem uso drogas.  \n**Alimentação**: eu como super bem, bastante frutas e verduras e bebo bastante água.  \n**Atividade física**: não pratico atividade física.  \n\n**ANTECEDENTES FAMILIARES**:  \n• Desconheço antecedentes familiares.  \n\nApós os questionamentos esperados do(a) participante, ele(a) poderia receber os seguintes impressos, caso tenha feito os pedidos adequadamente:  \n1. Ao solicitar o exame físico, ele(a) receberia o **IMPRESSO - EXAME FÍSICO**;  \n2. Ao indicar a realização de exames laboratoriais, após fazer a solicitação completa, independentemente de quais ou de quantos exames fossem pedidos, ele(a) receberia o **IMPRESSO - EXAMES LABORATORIAIS**;  \n3. Ao solicitar um ultrassom, ou uma ultrassonografia, ou uma ecografia de abdome, receberia o **IMPRESSO - ULTRASSOM DE ABDOME TOTAL**;  \n\nNo decorrer do atendimento, caso o(a) participante tenha feito a anamnese adequada, a paciente simulada perguntaria:  \n• Qual é o diagnóstico?  \n• Vou precisar realizar exames?  \n• Qual é o tratamento?  \n• Eu preciso mesmo ficar internada? Eu tenho dois filhos sozinhos em casa, não posso ficar internada.  \n• Vou precisar operar? Não quero ter que passar por uma cirurgia.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência cardíaca:** 104 batimentos por minuto.  \n**Pressão arterial:** 110 × 70 mmHg.  \n**Frequência respiratória:** 20 incursões respiratórias por minuto.  \n**Temperatura axilar:** 37,1 °C.  \n**Saturação de oxigênio:** 97% em ar ambiente.  \n**Índice de massa corpórea (IMC):** 29 Kg/m2.    \n\n\nRegular estado geral, afebril, acianótica, ictérica (+2/+4), desidratada (+2/+4), alerta e orientada no tempo e no espaço.    \n\n\n**Abdome:** semigloboso, pouco distendido, dor à palpação superficial e profunda em todo abdome superior, sem dor à descompressão brusca. Ruídos hidroaéreos diminuídos.    \n\n\n**Aparelhos respiratório e cardiovascular:** sem anormalidades.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ULTRASSOM DE ABDOME TOTAL",
+      "conteudo": "**Fígado:** com textura e dimensões normais.  \n\n\n**Vesícula biliar:** com paredes finas, contendo múltiplos cálculos em seu interior de, aproximadamente, 4 mm, promovendo sombra acústica posterior.  \n\n\n**Vias biliares intra-hepáticas:** com calibre normal; hepatocolédoco de 8 mm de diâmetro.  \n\n\n**Pâncreas:** não foi bem visualizado devido à interposição de gases.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-2-e2p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Apresenta-se; e  \n(2) Cumprimenta e identifica adequadamente a paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor:**  \n(1) Localização;  \n(2) Tempo de Início;  \n(3) Intensidade;  \n(4) Tipo da dor  \n(5) Progressão;  \n(6) Irradiação; e  \n(7) Fatores desencadeante, de melhora ou de piora da dor.  \n\n**Adequado:** pergunta de cinco a sete características.  \n**Parcialmente adequado:** pergunta três ou quatro características.  \n**Inadequado:** pergunta duas ou menos características OU não  \npergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza anamnese, perguntando por sintomas associados ao diagnóstico:**  \n(1) Eliminação de flatos e fezes/mudança do hábito intestinal/diarreia E constipação;  \n(2) Febre;  \n(3) Icterícia/pele amarelada;  \n(4) Colúria/urina escura/alteração na cor;  \n(5) Acolia/fezes brancas/claras/alteração na cor; e  \n(6) Náuseas ou vômitos.  \n\n**Adequado:** pergunta cinco ou seis itens.  \n**Parcialmente adequado:** pergunta três ou quatro itens.  \n**Inadequado:** pergunta um ou dois itens OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta por sintomas:**  \n(1) Urinários; e  \n(2) Ginecológicos.  \n\n**Adequado:** pergunta os dois itens;  \n**Parcialmente adequado:** pergunta um item;  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames laboratoriais:**  \n(1) Hemograma;  \n(2) PCR ou VHS;  \n(3) Bilirrubina total e frações OU bilirrubina total e bilirrubinas direta e indireta (Obs .: se solicitar apenas bilirrubinas de forma genérica, não pontuar);  \n(4) TGO e TGP (ou só TGO ou só TGP);  \n(5) Fosfatase alcalina;  \n(6) GAMA-GT;  \n(7) Ureia;  \n(8) Creatinina; e  \n(9) Glicemia.  \n\n**Adequado:** solicita oito ou nove exames.  \n**Parcialmente adequado:** solicita seis ou sete exames.  \n**Inadequado:** solicita cinco ou menos exames OU não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita os exames laboratoriais:**  \n(1) Amilase; e  \n(2) Lipase.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita somente um exame.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita ultrassom de abdome (OU ultrassonografia de abdome OU ecografia de abdome).**  \n\n**Adequado:** solicita ultrassom de abdome como primeira opção de  \nexame de imagem.  \n**Parcialmente adequado:** solicita, mas não como primeira opção de  \nexame de imagem  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza hipótese diagnóstica de pancreatite aguda biliar/litiásica/calculosa/por cálculos biliares.**  \n\n**Adequado:** verbaliza o diagnóstico completo.  \n**Parcialmente adequado:** verbaliza o diagnóstico somente de  \npancreatite aguda, sem citar a etiologia biliar.  \n**Inadequado:** não verbaliza o diagnóstico de pancreatite aguda.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza os critérios clínico-laboratoriais utilizados para elaborar o diagnóstico de pancreatite:**  \n(1) característica da dor em faixa/barra em abdome superior; e  \n(2) aumento de amilase e lipase.  \n\n**Adequado:** verbaliza os dois itens  \n**Parcialmente adequado:** verbaliza um item  \n**Inadequado:** não verbaliza item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o tratamento clínico:**  \n(1) internação hospitalar/sinônimos para internação hospitalar;  \n(2) dieta zero/jejum;  \n(3) hidratação intravenosa/parenteral; e  \n(4) analgesia intravenosa/parenteral; (5) terapia antiemética intravenosa/parenteral.  \n\n**Adequado:** indica o item (1) mais três ou quatro itens.  \n**Parcialmente adequado:** indica o item (1) mais dois outros itens.  \n**Inadequado:** indica o item (1) e mais um item OU não indica o item (1)",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a necessidade da colecistectomia/retirada da vesícula.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica que a colecistectomia deve ser realizada:**  \n(1) após a melhora clínica da pancreatite/sinônimos; e  \n(2) durante a internação atual, caso não apresente complicações OU antes da alta hospitalar, caso não apresente complicações.  \n\n**Adequado:** explica os dois itens.  \n**Parcialmente adequado:** explica apenas um item.  \n**Inadequado:** não explica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

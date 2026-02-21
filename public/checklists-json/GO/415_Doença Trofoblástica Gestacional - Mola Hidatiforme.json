@@ -1,0 +1,232 @@
+{
+  "uid": 415,
+  "hash": "pepe_415",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Doença Trofoblástica Gestacional - Mola Hidatiforme",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: ambulatorial - consultório de obstetrícia.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• sala de procedimentos;  \n• laboratório de análises clínicas;  \n• aparelho de ultrassonografia;  \n• equipe multidisciplinar.\n\nDescrição do caso:\nVocê atenderá uma paciente de 28 anos que compareceu à consulta após descobrir que está grávida há 2 dias por meio de teste de farmácia.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese obstétrica direcionada.  \n- Solicitar e interpretar os exames pertinentes ao caso.  \n- Formular e comunicar a hipótese diagnóstica à paciente.  \n- Orientar as condutas terapêuticas e o seguimento adequado.  \n- Responder aos questionamentos da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Elisa, 28 anos, microempreendedora, casada.  \n\n**MOTIVO DE CONSULTA:** Dr(a), estou grávida! Descobri há 2 dias com teste de farmácia. Fiz 6 testes para ter certeza. Estou muito feliz! Estava tentando há 11 meses com meu marido, quase íamos fazer inseminação artificial.  \n\n**SINTOMAS ATUAIS:**  \n• **Náuseas e vômitos:** estou com muita náusea e vômito, não consigo comer quase nada.  \n• **Tontura:** sinto muita tontura, parece que vou desmaiar.  \n• **Mastalgia:** meus seios estão bem doloridos.  \n• **Sangramento vaginal:** não tive sangramento.  \n• **Dor abdominal:** não tenho dor na barriga.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** há 40 dias.  \n• **Ciclos menstruais:** sempre regulares, de 28 em 28 dias, fico menstruada por 5 dias.  \n• **Menarca:** aos 10 anos.  \n• **Sexarca:** aos 16 anos.  \n• **Parceiro:** tenho parceiro fixo, meu marido.  \n• **Preservativo:** não usamos.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **G4P0A3:** tive 2 abortos espontâneos, nunca tive filho.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** não tenho nenhuma doença.  \n• **Medicações:** não tomo nenhum remédio.  \n• **Alergias:** não tenho alergia.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS (após receber o diagnóstico):**  \n• *Vai precisar fazer algum exame?*  \n• *O que eu tenho? Isso é um câncer?*  \n• *Qual é o próximo passo agora?*  \n• Se o candidato mencionar anticoncepção: *Posso usar DIU?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 138 x 92 mmHg.  \n• **Frequência Cardíaca:** 102 batimentos por minuto.  \n• **Frequência Respiratória:** 20 incursões respiratórias por minuto.  \n• **Temperatura Axilar:** 37,0°C.  \n• **Saturação de Oxigênio em ar ambiente:** 97%.  \n\n\n**DADOS ANTROPOMÉTRICOS:**  \n• **Peso:** 52 kg / **Altura:** 1,65 m / **IMC:** 19,1 kg/m².  \n\n\n**EXAME CLÍNICO:**  \nRegular estado geral, corada, hidratada, anictérica, afebril, ansiosa.  \n\n• **Ausculta cardíaca:** ritmo cardíaco regular, taquicárdico, bulhas normofonéticas, sem sopros.  \n\n• **Ausculta pulmonar:** murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Tireoide:** não palpável.  \n\n• **Abdome:** plano, normotenso, ruídos hidroaéreos presentes, indolor à palpação.  \n\n• **Extremidades:** sem edemas.  \n\n\n**EXAME OBSTÉTRICO:**  \n• **Altura uterina:** 14 cm.  \n\n• **BCF:** inaudíveis ao sonar.  \n\n\n**EXAME ESPECULAR:**  \nColo uterino de aspecto normal, orifício externo fechado, ausência de sangramento ativo no momento do exame.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**BETA-HCG QUANTITATIVO:**  \n• **Resultado:** 215.000 mUI/mL  \n• **Valor de Referência:** < 5 mUI/mL (não gestante)  \n\n\n**TIPAGEM SANGUÍNEA:** AB positivo.  \n\n\n**HEMOGRAMA:**  \n• **Hemoglobina:** 11,8 g/dL (VR: 12,0 – 16,0 g/dL)  \n• **Hematócrito:** 36% (VR: 36 – 46%)  \n• **Leucócitos:** 8.200/mm³ (VR: 4.000 – 10.000/mm³)  \n• **Plaquetas:** 195.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n• **Glicemia em jejum:** 86 mg/dL (VR: 70 – 99 mg/dL)  \n\n• **TSH:** 0,08 mUI/L (VR: 0,4 – 4,0 mUI/L) - DIMINUÍDO  \n• **T4 livre:** 2,1 ng/dL (VR: 0,7 – 1,8 ng/dL) - AUMENTADO  \n\n• **HIV:** Não reagente.  \n• **VDRL:** Não reagente.  \n• **Hepatite B (HBsAg):** Não reagente.  \n• **Hepatite C (Anti-HCV):** Não reagente.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ULTRASSONOGRAFIA TRANSVAGINAL",
+      "conteudo": "**VERBALIZE O DIAGNÓSTICO DA IMAGEM**",
+      "imagem": "img_printeds/e415p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e acolhe adequadamente a paciente:**  \n(1) identifica-se e cumprimenta a paciente;  \n(2) dirige-se a ela pelo nome ao menos uma vez;  \n(3) pergunta o motivo da consulta; e,  \n(4) mantém postura empática durante toda a consulta.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga a história obstétrica:**  \n(1) número de gestações;  \n(2) número de partos; e,  \n(3) número de abortos.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga dados do ciclo menstrual:**  \n(1) data da última menstruação; e,  \n(2) regularidade dos ciclos menstruais.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga sinais e sintomas da gestação atual:**  \n(1) náuseas;  \n(2) vômitos;  \n(3) sangramento vaginal;  \n(4) dor abdominal; e,  \n(5) mastalgia ou outros sintomas.  \n\n**Adequado:** investiga quatro ou mais sintomas.  \n**Parcialmente adequado:** investiga dois ou três sintomas.  \n**Inadequado:** investiga um sintoma ou não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico de forma adequada:**  \n(1) solicita permissão à paciente para realizar o exame;  \n(2) verbaliza a necessidade de calçar luvas; e,  \n(3) solicita a presença de um acompanhante ou auxiliar na sala.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame físico geral e obstétrico, identificando as alterações:**  \n(1) taquicardia;  \n(2) hipertensão arterial;  \n(3) altura uterina maior que o esperado para a idade gestacional; e,  \n(4) batimentos cardíacos fetais inaudíveis.  \n\n**Adequado:** solicita e identifica três ou mais alterações.  \n**Parcialmente adequado:** solicita e identifica duas alterações.  \n**Inadequado:** não solicita ou identifica uma alteração ou nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita dosagem de Beta-HCG quantitativo sérico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames laboratoriais pertinentes para avaliação inicial:**  \n(1) tipagem sanguínea;  \n(2) hemograma;  \n(3) função tireoidiana (TSH, T4 livre);  \n(4) glicemia; e,  \n(5) sorologias (HIV, sífilis, hepatites).  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita dois ou três exames.  \n**Inadequado:** solicita um exame ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita ultrassonografia pélvica ou transvaginal.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Interpreta corretamente os exames laboratoriais:**  \n(1) Beta-HCG muito elevado para a idade gestacional; e,  \n(2) TSH diminuído (hipertireoidismo secundário).  \n\n**Adequado:** interpreta os dois achados.  \n**Parcialmente adequado:** interpreta apenas um achado.  \n**Inadequado:** não interpreta ou interpreta incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Identifica e verbaliza os achados ultrassonográficos:**  \nImagem em \"flocos de neve\" ou \"cachos de uva\".  \n\n**Adequado:** identifica um dos achados.  \n**Inadequado:** não identifica achado algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza a hipótese diagnóstica de Doença Trofoblástica Gestacional (ou Mola Hidatiforme).**  \n\n**Adequado:** verbaliza o diagnóstico corretamente.  \n**Parcialmente adequado:** verbaliza diagnóstico de doença gestacional sem especificar.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Comunica o diagnóstico à paciente de forma empática e acolhedora:**  \n(1) explica que não se trata de uma gestação viável;  \n(2) esclarece que não é um câncer, mas uma doença que necessita de tratamento e acompanhamento; e,  \n(3) oferece suporte emocional e acolhe as dúvidas da paciente.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Indica a conduta terapêutica adequada:**  \n(1) esvaziamento uterino (Curetagem, OU aspiração: AMIU ou vácuo-aspiração elétrica); e,  \n(2) envio do material para análise histopatológica.  \n\n**Adequado:** indica as duas condutas.  \n**Parcialmente adequado:** indica apenas uma conduta.  \n**Inadequado:** não indica conduta alguma ou indica conduta inadequada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta sobre o seguimento pós-molar:**  \n(1) controle semanal de Beta-HCG até três dosagens negativas consecutivas;  \n(2) após negativação, controle mensal por 6 meses; e,  \n(3) importância de não engravidar durante todo o período de seguimento.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Orienta sobre anticoncepção durante o seguimento:**  \n(1) prescreve anticoncepcional hormonal oral ou injetável; e,  \n(2) contraindica o uso de DIU durante o período de seguimento.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza apenas uma orientação.  \n**Inadequado:** não realiza orientação alguma ou orienta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Solicita avaliação ou acompanhamento por Ginecologista ou equipe multidisciplinar (psicologia e/ou serviço social).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

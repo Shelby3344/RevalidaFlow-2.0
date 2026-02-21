@@ -1,0 +1,138 @@
+{
+  "uid": 2012,
+  "hash": "pepe_2012",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Cetoacidose Diabética - CAD (reaplicação)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está na sala de emergência do Pronto-Socorro.\n\nDescrição do caso:\nVocê está na sala de emergência do Pronto-Socorro e realizará o atendimento de um menino  \ncom 6 anos de idade, previamente hígido, acompanhado da mãe. Ela relatou que, há um dia, a  \ncriança começou a ficar sonolenta e apresentou vários episódios de vômito. Nega febre. A mãe  \nainda informou que, ha 3 semanas, a criança apresenta poliúria, polidipsia e perda ponderai (3  \nkg). Durante o atendimento inicial, observa-se que a criança está prostrada, sonolenta, com hálito  \ncetônico, hipocorada e desidratada. Glicemia capilar: 420 mg/dl.",
+  "tarefas": "Nos próximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- informar o provável diagnóstico;  \n- informar as alterações encontradas nos exames laboratoriais;  \n- informar a classificação da doença, de acordo com a gravidade;  \n- orientar em relação aos cuidados iniciais do paciente.  \n\nATENÇÃO\nVoce nao precisa realizar a anamnese.",
+  "script_ator": "**DADOS DA MÃE**:  \n• Talita, 32 anos.  \n\n**DADOS DA CRIANÇA**:  \n• Marcos 6 anos de idade.  \n\n**APÓS ACOLHIMENTO**:  \n• Dr(a), O que meu filho tem?  \n\n**RESPOSTA A TODAS AS PERGUNTAS DA ANMENESE**:  \n• Não consta no SCRIPT.  \n\n**DÚVIDAS**:  \n• **Pergunta 1**: - Isso é grave?  \n• **Pergunta 2**: - Existe algum tipo de classificação para isso?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "AVALIAÇÃO INICIAL",
+      "conteudo": "### **Exame físico geral:**  \n- Criança prostrada, sonolenta  \n- Hálito cetônico  \n- Hipocorada (+1/4+)  \n- Desidratada (+2/4+)  \n- Enchimento capilar lento (2 segundos)  \n\n### **Sinais vitais:**  \n- **FC:** 130 bpm (taquicardia)  \n- **FR:** 34 irpm (taquipneia)  \n- **PA:** 85 × 60 mmHg (hipotensão)  \n- **SatO₂:** 96% (ar ambiente)  \n- **Peso atual:** 20 kg  \n\n### **Exame físico segmentar:**  \n- **Aparelho cardiovascular:**  \n  - Taquicárdica  \n  - Bulhas rítmicas e normofonéticas, sem sopro  \n- **Aparelho respiratório:**  \n  - Taquidispneica com retração subdiafragmática  \n  - Murmúrio vesicular fisiológico, sem ruídos adventícios  \n- **Abdome:**  \n  - Plano, normotenso  \n  - Sem visceromegalias ou dor à palpação  \n  - Sem sinais de irritação peritoneal  \n  - Ruídos hidroaéreos normais  \n\n### **Glicemia capilar:**  \n- 420 mg/dL",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma:** normal  \n\n**Glicemia:** 450 mg/dl (valor de referência: 60 a 99 g/dl)  \n\n\n**Eletrólitos:**  \n- Sódio: 135 mEq/L (valor de referência: 132 a 145 mEq/L)  \n- Potássio: 3,0 mEq/L (valor de referência: 3,5 a 5,1 mEq/L)  \n- Cálcio iônico: 1,0 mmol/L (valor de referência: 1,15 a 1,29 mmol/L)  \n- Magnésio: 1,5 mEq/L (valor de referência: 1,4 a 1,72 mEq/L)  \n- Cloreto: 100 mEq/L (valor de referência: 96 a 107 mEq/L)  \n- Fósforo: 4,5 mEq/L (valor de referência: 3,2 a 5,5 mEq/L)  \n\n\n**Gasometria arterial:**  \n- pH: 7,19 (valor de referência: 7,35 a 7,45)  \n- pO2: 98 mmHg (valor de referência: 80 a 100 mmHg)  \n- pCO2: 22 mmHg (valor de referência: 35 a 45 mmHg)  \n- HCO3: 9 mEq/L (valor de referência: 22 a 26 mEq/L)  \n- BE (base excess): -13 (valor de referência: -3,0 a +3,0)  \n- Sat O2: 99% (valor de referência: 95% a 99%)  \n\n**Função renal:** normal  \n\n\n**Urina de rotina:**  \n- pH: 6,0 (valor de referência: 6,5 e 7,5)  \n- Densidade: 1.035 (valor de referência: 1.005 a 1.030)  \n- Glicose presente (+++)  \n- Corpos cetônicos presentes (+++)  \n- Ausência de: proteínas, bilirrubina, urobilinogênio, hemácias e nitrito  \n- Leucócitos: 2.000 células/ml (valores de referência: < 10.000 células/ml)  \n- Células epiteliais raras  \n- Flora bacteriana normal\n\n\n**VERBALIZE AS ALTERAÇÕES ENCONTRADAS NOS EXAMES LABORATORIAIS.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1 Informa que o diagnóstico provável é de cetoacidose diabética.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2.1 Solicita exames complementares:** gasometria, glicemia sérica, eletrólitos,  \nfunção renal, EAS e hemograma.  \n\n**Adequado:** Se solicita todos os exames complementares indicados.  \n**Parcialmente adequado:** Solicita 2 dos 3 exames: gasometria, eletrólitos e EAS.  \n**Inadequado:** Não solicita ou solicita apenas 1 dos exames listados abaixo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**2.2 Informa que as alterações encontradas nos resultados dos exames**  \nlaboratoriais são compatíveis com o quadro: cetoacidose diabética  \na) Hiperglicemia,  \nb) Alterações hidroeletrolíticas;  \nc) Alterações ácido-básicas; e  \nd) Glicosúria/cetonuria.  \n\n**Adequado:** informa todas as alterações.  \n**Parcialmente adequado:** informa de 2 a 3 alterações.  \n**Inadequado:** não informa as alterações ou informa apenas 1.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**2.3 Informa que a classificação da gravidade da cetoacidose diabética é**  \nmoderada (pH entre 7,1 e 7,2 ou bicarbonato entre 5 e 10 mmol).  \n\n**Adequado:** se informa.  \n**Inadequado:** se não informa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**3.1 Indica a monitorização continua dos sinais vitais.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**3.2 Indica o balanço hídrico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**3.3 Indica a glicemia capilar de 1/1 hora.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**3.4 Indica terapia hidroeletrolítica adequada:** expansão (ressuscitação)  \nfluídica, com a infusão de solução isotônica (NaCl (0,9% ou Ringer Lactato) 400  \nmL (20 mL/ Kg) em 1 hora.  \n\n**Adequado:** se esclarece corretamente os 2 itens.  \n**Parcialmente adequado:** indica a expansão (ressuscitação) fluídica, sem  \nexplicar: o tipo de solução, ou o volume, ou o tempo de infusão.  \n**Inadequado:** se não indica a expansão (ressuscitação) fluída.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**3.5 Indica a insulinoterapia adequada (regular, endovenosa e em bomba de**  \ninfusão contínua).  \n\n**Adequado:** se indica corretamente.  \n**Parcialmente adequado:** se indica via de administração incorreta.  \n**Inadequado:** se não insulina regular ou indica via cutânea.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

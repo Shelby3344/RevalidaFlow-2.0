@@ -1,0 +1,171 @@
+{
+  "uid": 1211,
+  "hash": "pepe_1211",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Faringite/Faringoamigdalite Estreptocócica (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde - (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de observação e medicação;\n\nDescrição do caso:\nVocê atenderá uma criança de 8 anos, acompanhada pela mãe, que apresenta dor de garganta e mal-estar geral. A mãe relata que a filha já teve isso anteriormente.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar e interpretar exame físico, caso necessário;  \n- Formular a hipótese diagnóstica;  \n- Propor a conduta terapêutica, incluindo medicamento, dose e via de administração;  \n- Responder e orientar a mãe sobre as possíveis complicações.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Joana, 30 anos, casada.  \n• **Crinça:** Sofia, 8 anos.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), minha filha está com dor de garganta, não quer comer direito e está bem caidinha.  \n\n**SOBRE ODINOFAGIA:**  \n• **Início:** Começou há uns dois dias.  \n• **Rouquidão:** a voz dela ta saindo mais grossa.  \n• **Dificuldade engolir:** até água ela não consegue beber direito.  \n• **Edema:** nega.  \n• **Atenuante/agravante:** não dei xarope nem nada.  \n\n• **Episódio anterior:** ela já teve isso antes. É só mudar o clima que já ataca. Estou com medo que seja algo mais grave.  \n\n**DEMAIS SINTOMAS:**  \n• **Febre:** Ela está com febre bem alta desde ontem. Eu dei dipirona em gotas, mas a febre volta  \n• **Astenia:** ela está mais quietinha sim faz uns 2 dias.  \n• **Náuseas ou vômitos:** nega.  \n• **Diarreia ou constipação:** nega.  \n• **Tosse ou coriza:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nada. Tirando essa dor de garganta que aparece, o resto está tudo bem.  \n• **Contactantes com sintomas parecidos:** da escola não falaram nada.  \n• **VACINAÇÃO:** eu não trouxe a carteirinha, mas as vacinas estão tudo em dia.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que minha filha tem?*  \n• *Qual o tratamento?*  \n• *Quais as complicações dessa doença?*  \n• *Prcesia tomar alguma coisa pra não acontecer essas complicações?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 90x55 mmHg  \n• **FC:** 102 bpm  \n• **FR:** 20 irpm  \n• **SatO2:** 97 %  \n• **Temperatura axilar:** 39,0°C  \n• **Peso:** 29 kg  \n\n\n**Ectoscopia:** Criança em regular estado geral, hipoativa, corada, hidratada e acianótica.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Pele:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "OROSCOPIA",
+      "conteudo": "VERBALIZE OS ACHADOS DA IMAGEM!",
+      "imagem": "img_printeds/2012-e11p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e a criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida, questionando sobre:**  \n(1) início e características da dor de garganta;  \n(2) presença de febre;  \n(3) sintomas associados (astenia, recusa alimentar);  \n(4) episódios anteriores.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico geral.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita oroscopia.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Descreve os achados da oroscopia:**  \n(1) hiperemia de orofaringe;  \n(2) hipertrofia de amígdalas;  \n(3) presença de placas esbranquiçadas (exsudato);  \n(4) petéquias no palato.  \n\n**Adequado:** descreve três ou mais achados.  \n**Parcialmente adequado:** descreve dois achados.  \n**Inadequado:** descreve um ou nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula a hipótese diagnóstica de Faringoamigdalite Estreptocócica.**  \n\n**Adequado:** formula a hipótese como Faringoamigdalite Estreptocócica OU Amigdalite Estreptocócica OU Faringite Estreptocócica OU Faringoamigdalite Bacteriana OU Faringoamigdalite purulenta.  \n**Inadequado:** não formula a hipótese OU formula como Faringite Viral OU outra hipótese incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Prescreve o tratamento antibiótico com Penicilina G Benzatina na dose de 1.200.000 UI por via intramuscular.**  \n\n**Adequado:** prescreve o antibiótico, a dose e a via de administração corretas.  \n**Parcialmente adequado:** prescreve o antibiótico correto, mas erra a dose OU a via.  \n**Inadequado:** prescreve um antibiótico inadequado OU não prescreve o tratamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Informa a mãe sobre as possíveis complicações imunológicas (Febre Reumática e Glomerulonefrite Pós-Estreptocócica).**  \n\n**Adequado:** informa sobre as duas complicações.  \n**Parcialmente adequado:** informa sobre apenas uma complicação.  \n**Inadequado:** não informa sobre as complicações.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita ao menos dois critérios maiores de Jones para o diagnóstico de Febre Reumática (cardite, artrite, coréia de Sydenham, eritema marginado, nódulos subcutâneos).**  \n\n**Adequado:** cita dois ou mais critérios maiores.  \n**Parcialmente adequado:** cita um critério maior.  \n**Inadequado:** não cita nenhum critério maior.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Cita a tríade clássica para o diagnóstico de Glomerulonefrite Pós-Estreptocócica (GNDA/GNPE): edema, hematúria e hipertensão.**  \n\n**Adequado:** cita a tríade completa.  \n**Parcialmente adequado:** cita dois dos três componentes da tríade.  \n**Inadequado:** cita um ou nenhum componente da tríade.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Responde corretamente sobre a indicação de profilaxia secundária.**  \n\n**Adequado:** informa que a profilaxia secundária não está indicada neste momento, apenas para pacientes com diagnóstico confirmado de febre reumática.  \n**Inadequado:** informa que a profilaxia está indicada ou fornece informação incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Pergunta se a mãe tem mais alguma dúvida.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

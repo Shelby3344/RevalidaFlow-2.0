@@ -1,0 +1,155 @@
+{
+  "uid": 1711,
+  "hash": "pepe_1711",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Endocardite infecciosa (reaplicação)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você se encontra em um consultório de uma UPA.\n\nDescrição do caso:\nVocê se encontra em um consultório de uma UPA e vai realizar o atendimento de  \num homem com 30 anos de idade que procura atendimento com queixa de sensação  \nfebril, calafrios e mal estar geral.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n· Realizar a anamnese e o atendimento do paciente;  \n· Solicitar e verbalizar alterações em exames complementares, se necessário;  \n· Apresentar o provável diagnóstico;  \n· Adotar a conduta médica necessária.  \n\n\nCaso necessite, no momento adequado, solicite dados do exame físico ao(a) examinador(a).",
+  "script_ator": "**DADOS PESSOAIS:**  \n- Juliano, 30 anos, mecânico.  \n\n\n**QUEIXA PRINCIPAL:**  febre calafrios e mal estar\n- Dr(a), está me dando muita febre nesses últimos dias.  \n\n**CARACTERÍSTICAS DA FEBRE:**  \n- **Início:** Faz uns 4 ou 5 dias.  \n- **Frequência:** todos os dias.  \n- **Período:** desde cedo já começa, acordo com a roupa molhada.  \n- **Atenuantes/Agravantes:** Tomo dipirona, mas depois de um tempo a febre aparece de novo.  \n- **Sudorese/calafrios:** sim, tenho os dois também. Junto com a febre.  \n\n\n**SINTOMAS ASSOCIADOS:**  \n- **Cansaço ou astenia:** estou um pouco mais cansado sim nestes últimos dias.  \n- **Perda de peso ou apetite**: estou comendo menos também.  \n- **Urina e fezes:** está normal.  \n- **Vômitos, náuseas, cefaleia, sangramentos, dor no corpo:** nega.  \n- **Icterícia, lesões de pele**: nega.  \n- **Viagem recente:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n- **Alergias, medicações, doenças, cirurgias e internações:** nega.  \n- **Vacinas:** Não me lembro as que tomei.  \n\n\n**HÁBITOS:**  \n- **Álcool:** bebo cerveja.  \n- **Tabaco:** fumo 10 cigarros por dia.  \n- **Drogas:** Dr(a), vou te falar a verdade... estou tentando parar mas não consigo. Eu uso drogas sim.  \n- **Caso perguntar qual tipo de droga:** Usava só cocaína, mas de uns tempos pra cá comecei misturar cocaína com heroína na agulha.  \n- **Atividade física:** Não faço nada.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**INSTRUÇÕES:**  \n- **Caso o candidato solicite HEMOCULTURA, informar:** \"Considere solicitado\".",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**EXAME FÍSICO DO PACIENTE**  \n\n\n· Paciente em regular estado geral, corado, hidratado e anictérico.  \n\n\n· Peso = 58 kg  \n· Altura = 1,73 mt  \n· IMC = 19.37 kg/m2  \n\n\n· FC = 108 bpm  \n· FR = 19 irpm  \n· PA = 128 x 85 mmHg  \n· SatO2 = 97% em ar embiente  \n· Temperatura axilar = 38,2 C  \n\n\n· Ausculta cardíaca observa-se presença de sopro em foco tricúspide;  \n· Ausculta pulmonar sem alterações.  \n· Exame abdominal normal.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES COMPLEMENTARES",
+      "conteudo": "**Hemograma:**  \n· Hb: 13,2 mg/dL (VR: 12-16)  \n· Ht: 45,1% (VR: 35 - 45)  \n· Leucócitos: 17.110 (VR 4.500 - 11.000)  \n· Neutrófilos segmentados: 68,1%  \n· Bastões: 11,5%  \n· Linfócitos: 8,1%  \n· Monócitos: 7,4%  \n· Plaquetas: 251.000 (VR: 150.000 - 450.000)  \n\n\n**PCR:** 78mg/L (normal: <5mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ECOCARDIOGRAMA",
+      "conteudo": "**ECOCARDIOGRAMA TRANSESOFÁGICO**  \n\n\n**Laudo:**  Possível vegetação afetando o folheto tricúspide anterior.",
+      "imagem": "img_printeds/2017-e11p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o(a) paciente e identifica-se.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre o valor da temperatura do paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre o uso de drogas ilícitas injetáveis.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica que o sopro é localizado na válvula tricúspide.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a identificação de leucocitose com desvio à esquerda (ou células jovens ou bastonetes).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza que o aumento da proteína C reativa indica infecção.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Comunica:**  \n(a) a hipótese diagnóstica de endocardite bacteriana ou infecciosa;  \n(b) a possível relação da endocardite com uso de drogas injetáveis;  \n\n**Inadequado:** não verbaliza nenhum dos itens;  \n**Parcialmente adequado:** verbaliza apenas 1 item;  \n**Adequado:** verbaliza ambas as condutas.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita hemoculturas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita ecocardiografia (pode ser transtorácica ou transesofágica) para confirmar lesão na válvula tricúspide.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza a necessidade de:**  \n(a) internação hospitalar;  \n(b) uso de antibiótico intravenoso;  \n\n**Inadequado:** não verbaliza nenhuma conduta;  \n**Parcialmente adequado:** verbaliza apenas 1 conduta;  \n**Adequado:** verbaliza ambas as condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.25",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

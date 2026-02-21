@@ -1,0 +1,160 @@
+{
+  "uid": 112,
+  "hash": "pepe_112",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Crise de Glaucoma Agudo de Ângulo Fechado",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - pronto atendimento.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de emergência com materiais para atendimento;  \n• laboratório de análises clínicas;  \n• farmácia hospitalar.  \n• Não há oftalmologista de plantão no local.\n\nDescrição do caso:\nVocê é médico(a) e está de plantão no pronto atendimento e atenderá um paciente de 65 anos, trazido pela filha com queixa de dor intensa no olho direito e visão turva.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Solicitar o exame físico específico pertinente ao caso.  \n- Interpretar os achados do exame físico.  \n- Formular a principal hipótese diagnóstica e um diagnóstico diferencial.  \n- Estabelecer a conduta terapêutica inicial de urgência.  \n- Orientar o paciente e a acompanhante sobre os próximos passos.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mário, 65 anos, aposentado.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), meu olho direito está doendo demais, parece que vai explodir. E não estou enxergando direito com ele.  \n\n**SOBRE A DOR OCULAR E VISÃO:**  \n• **Início:** Começou de repente, faz umas 3 horas.  \n• **Localização:** É só no olho direito, uma dor muito forte aqui dentro.  \n• **Intensidade:** É a pior dor que já senti, nota 10.  \n• **Visão:** Minha vista ficou embaçada nesse olho, e quando olho para as luzes, vejo uns círculos coloridos em volta.  \n• **Episódio anterior:** Nunca tive isso antes.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Cefaleia:** Estou com dor de cabeça forte, só do lado direito.  \n• **Náuseas/Vômitos:** Sinto muito enjoo, cheguei a vomitar uma vez em casa.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho depressão faz alguns anos.  \n• **Medicações:** Comecei a tomar Amitriptilina faz uns 10 dias, que o médico do postinho passou.  \n• **Alergias:** Nega.  \n• **Cirurgias oculares:** Nunca operei os olhos.  \n• **Uso de óculos:** Uso óculos para perto.  \n• **Álcool, tabaco, drogas:** Nego.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Minha irmã e minha mãe tiveram catarata, mas ela disse que é diferente, que não dói.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS (FILHA):**  \n• *O que eu tenho?*  \n• *O que pode ter causado isso?*  \n• *Não poderia ser outra coisa?*  \n• *O que precisa ser feito agora? Eu posso ficar cego?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 150x90 mmHg  \n• **FC:** 95 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 97% em ar ambiente  \n• **Temp. axilar:** 36.8°C  \n\n\n**Ectoscopia:** Paciente em regular estado geral, ansioso, pálido (+/4+), sudoreico. Orientado.  \n\n**Cardiovascular e Respiratório:** Sem alterações.  \n\n**Abdome:** Levemente doloroso à palpação em epigástrio, sem sinais de irritação peritoneal.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME OFTALMOLÓGICO",
+      "conteudo": "• **Acuidade Visual:**  \n  • Olho Direito (OD): Conta dedos a 1 metro.  \n  • Olho Esquerdo (OE): 20/30 com correção.  \n\n• **Biomicroscopia (OD):**  \n  • Hiperemia conjuntival intensa (+++/4+), predominantemente ciliar (injeção pericerática).  \n  • Córnea com edema difuso (++/4+), dificultando visualização de detalhes da íris e pupila.  \n  • Câmara anterior rasa.  \n  • Pupila em média midríase (aprox. 5mm), fixa (não fotorreagente).  \n\n• **Tonometria de aplanação (OD):** 48 mmHg (VR: 10-21 mmHg).  \n• **Tonometria de aplanação (OE):** 14 mmHg.  \n\n• **Palpação digital dos globos oculares:** OD pétreo (\"duro como pedra\"), OE normotenso.  \n\n• **Fundoscopia (OD):** Dificultada pelo edema de córnea. Disco óptico parece normal.  \n• **Fundoscopia (OE):** Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e a acompanhante.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da dor ocular e dos sintomas visuais:**  \n(1) início e duração;  \n(2) intensidade da dor;  \n(3) unilateralidade;  \n(4) tipo de turvação visual;  \n(5) presença de halos coloridos;  \n(5) Lesão física ou Trauma.  \n\n**Adequado:** investiga quatro ou mais características.  \n**Parcialmente adequado:** investiga duas ou três características.  \n**Inadequado:** investiga uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas sistêmicos associados:**  \n(1) cefaleia;  \n(2) náuseas;  \n(3) vômitos;  \n(4) Confusão mental;  \n(5) Perda de consciência.  \n\n**Adequado:** pergunta sobre três ou mais sintomas.  \n**Parcialmente adequado:** pergunta sobre dois sintomas.  \n**Inadequado:** pergunta sobre um ou nenhum sintoma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga fatores precipitantes e antecedentes relevantes:**  \n(1) uso de medicações recentes (especialmente anticolinérgicos, antidepressivos tricíclicos);  \n(2) história pessoal ou familiar de glaucoma;  \n(3) história familiar de outras patologias oftalmológicas.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico oftalmológico direcionado, verbalizando a necessidade de avaliar:**  \n(1) acuidade visual;  \n(2) aspecto da conjuntiva e córnea;  \n(3) profundidade da câmara anterior;  \n(4) tamanho e reatividade pupilar;  \n(5) pressão intraocular (PIO).  \n\n**Adequado:** solicita dois ou mais itens.  \n**Parcialmente adequado:** solicita um item.  \n**Inadequado:** Não solicita item algum ou solicita apenas exame oftalmológico (ou exame dos olhos).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta corretamente os achados do exame oftalmológico:**  \n(1) baixa acuidade visual no olho afetado;  \n(2) hiperemia ciliar;  \n(3) edema de córnea;  \n(4) câmara anterior rasa;  \n(5) pupila em média midríase fixa;  \n(6) PIO elevada.  \n\n**Adequado:** interpreta quatro ou mais achados.  \n**Parcialmente adequado:** interpreta três achados.  \n**Inadequado:** interpreta dois ou menos achados.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica principal e um diagnóstico diferencial relevante:**  \n(1) hipótese principal: Crise Aguda de Glaucoma de Ângulo Fechado (ou Glaucoma Agudo Primário);  \n(2) diagnóstico diferencial: Uveíte anterior aguda OU Ceratite.  \n\n**Adequado:** formula a hipótese principal e um diagnóstico diferencial relevante.  \n**Parcialmente adequado:** formula apenas a hipótese principal correta.  \n**Inadequado:** não formula a hipótese principal correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica o tratamento sistêmico inicial de urgência para redução da PIO:**  \n(1) Manitol;  \n(2) Acetazolamida.  \n\n**Adequado:** indica pelo menos o item 1.  \n**Inadequado:** não indica nenhum dos medicamentos sistêmicos ou indica apenas o item 2.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o tratamento tópico inicial de urgência:**  \n(1) Pilocarpina;  \n(2) Betabloqueador (ex: Timolol);  \n(3) Corticosteroide tópico (ex: Prednisolona).  \n\n**Adequado:** indica ao menos um dos tipos de colírio.  \n**Inadequado:** não indica nenhum tipo de colírio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica medidas adjuvantes para manejo dos sintomas e da crise:**  \n(1) analgésicos sistêmicos;  \n(2) antieméticos;  \n(3) manter o paciente em decúbito dorsal.  \n\n**Adequado:** indica duas ou três medidas.  \n**Parcialmente adequado:** indica uma medida.  \n**Inadequado:** não indica nenhuma medida adjuvante.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre a necessidade de avaliação oftalmológica urgente.**  \n\n**Adequado:** explica a gravidade do quadro e a necessidade de encaminhamento imediato para um serviço de oftalmologia para avaliação.  \n**Inadequado:** não orienta sobre a urgência ou o encaminhamento ao oftalmologista.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

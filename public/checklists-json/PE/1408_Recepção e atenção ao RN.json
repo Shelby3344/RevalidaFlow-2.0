@@ -1,0 +1,160 @@
+{
+  "uid": 1408,
+  "hash": "pepe_1408",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Recepção e atenção ao RN",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Local de atuação: sala de parto - maternidade hospitalar.  \nA unidade hospitalar possui a seguinte infraestrutura:  \n• Mesa de avaliação com fonte de calor;  \n• Materiais e equipamentos para recepção e reanimação neonatal;  \n• Equipamentos para ventilação e monitorização.\n\nDescrição do caso:\nVocê é o(a) médico(a) na sala de parto e irá prestar os primeiros cuidados a um recém-nascido a termo, de parto vaginal, que acaba de nascer e foi colocado no colo da mãe.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da Estação, você deverá executar as seguintes tarefas, verbalizando todos os procedimentos para o examinador:  \n- Avaliar a vitalidade do recém-nascido;  \n- Justificar a necessidade ou não de reanimação;  \n- Prestar os cuidados iniciais ao RN;  \n- Calcular o escore de APGAR do primeiro e do quinto minuto do RN.",
+  "script_ator": "**DADOS PESSOAIS:**   \nSou a Glória, enfermeira obstétrica e estou auxiliando na recepção do RN.  \n\n• **Gestante:** Laura, 29 anos.  \n• **Recém-nascido:** Benício.  \n\n**MOTIVO DO ATENDIMENTO:** a expulsão do parto acabou de acontecer e colocamos o RN no colo da mãe. Também já clampeamos o cordão. Qual os próximos passos?  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n**Após o candidado questionar:** • Gestação >34 semanas?  • Está respirando ou chorando?  • Tem tônus ou flexão de membros?  \n• *Ele nasceu bem, chorou forte logo em seguida e ficou com o corpinho durinho, flexionado os braços e pernas.* LIBERAR O IMPRESSO **AVALIAÇÃO INICIAL DO RN.**  \n\n• LIBERAR O IMPRESSO **APGAR 1° E 5° MINUTO** APÓS SOLICITAÇÃO DO CANDIDATO, OU QUANDO O CANDIDATO SOLICITAR REAVALIAÇÃO DO RN.  \n\n**OUTRAS PERGUNTAS:** não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "AVALIAÇÃO INICIAL DO RN",
+      "conteudo": "Recém nascido no colo da mãe.  \n\n\n**Avaliação de vitalidade:**  \n• **Gestação:** 38 semanas e 4 dias.  \n• **Respiração:** Presente, choro vigoroso.  \n• **Tônus muscular:** Em flexão.  \n• **Líquido amniótico:** Claro e ausência de mecônio.  \n\n• **Identifica-se presença em excesso de secreção em boca e narinas.**  \n\n\n**ATENÇÃO, RESPONDA AS PERGUNTAS:** \n• **O RECÉM NASCIDO NECESSITA DE REANIMAÇÃO? JUSTIFIQUE**  \n\n• **QUAL O PRÓXIMO PASSO? VERBALIZE AS ETAPAS AO EXAMINADOR**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "APGAR 1° E 5° MINUTO",
+      "conteudo": "**1° MINUTO:**  \n• **Cor:** Corpo rosado, extremidades cianóticas  \n• **Frequência Cardíaca:** 125 bpm  \n• **Irritabilidade Reflexa:** Choro vigoroso  \n• **Tônus Muscular:** Movimentos ativos, boa flexão  \n• **Respiração:** Choro forte e regular  \n\n\n**5° MINUTO:**  \n• **Cor:** coloração rosada em todo o corpo  \n• **Frequência Cardíaca:** 129 bpm  \n• **Irritabilidade Reflexa:** Choro vigoroso  \n• **Tônus Muscular:** Movimentos ativos, boa flexão  \n• **Respiração:** Choro forte e regular, 51 irpm  \n\n\n**ATENÇÃO**  \n**CALCULE E INFORME AO EXAMINADOR O ESCORE DE APGAR NO 1° E 5° MINUTO**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta a mãe, identifica-se de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Informa ao examinador que o RN não necessita de reanimação e justifica, mencionando o padrão respiratório, a saturação de O2 e a frequência cardíaca (pelo menos dois destes).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Leva o RN à mesa de reanimação, explicando esse procedimento à mãe.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Coloca o RN sob fonte de calor radiante (foco de luz).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Posiciona a cabeça do RN com uma leve extensão do pescoço.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Aspira o excesso de secreção da boca e do nariz com a sonda traqueal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Seca o RN e verifica novamente a posição de cabeça.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Avalia a frequência cardíaca e a respiração.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza as manobras na sequência correta (acima descrita) e descreve cada uma delas ao examinador.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Avalia corretamente o Apgar de 1 minuto.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Avalia corretamente o Apgar de 5 minutos.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

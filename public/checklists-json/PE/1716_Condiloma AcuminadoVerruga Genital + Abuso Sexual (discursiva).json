@@ -1,0 +1,160 @@
+{
+  "uid": 1716,
+  "hash": "pepe_1716",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Condiloma Acuminado/Verruga Genital + Abuso Sexual (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de observação e medicação;\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma mãe que traz seu filho de 5 anos de idade com queixa de \"umas feridinhas\" na região perianal, que surgiram há algumas semanas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar e Interpretar exame físico, caso necessário;  \n- Informar a(s) hipótese(s) diagnóstica(s) do quadro;  \n- Propor a conduta adequada;  \n- Responder às dúvidas da mãe.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Joana, 28 anos, divorciada, diarista.  \n• **Criança:** Pedro, 5 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu trouxe o Pedro porque apareceram umas feridinhas no bumbum dele faz umas semanas e não somem. Outra coisa que eu notei é no comportamento dele. Ele está mais apegado a mim.  \n\n**SOBRE AS LESÕES:**  \n• **Início:** Faz quase um mês que eu notei a primeira.  \n• **Localização:** É bem em volta do bumbum dele, do ânus.  \n• **Aspecto:** Parecem umas bolinhas, umas bolinhas ásperas.  \n• **Coloração:** Elas estão um pouco vermelhas.  \n• **Sintomas:** Ele não reclama de dor nem de coceira.  \n\n**COMPORTAMENTO E CONTEXTO SOCIAL:**  \n• **Comportamento:** Eu tenho achado ele meio quieto, mais assustado. Fica mais agarrado em mim, não quer sair do meu colo, principalmente quando o vizinho está por perto. Ele não era assim.  \n• **Rotina:** Eu trabalho o dia todo fora. O Pedro fica na casa do nosso vizinho, que é aposentado e fica em casa cuidando dele.  \n• **Escola:** Ele ainda não vai pra escolinha.  \n• **Pai:** Eu sou separada do pai dele, não temos muito contato.  \n• **Consultas:** Faz muito tempo que não trago ele pra consulta, acho que uns 3 anos. Eu só trouxe pra vacinar mesmo.  \n• **Vacinação:** Estão em dia.  \n\n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que o meu filho tem, doutor(a)?*  \n• *Como você sabe? Como ele pegou isso?*  \n• *Qual o tratamento? Tem que operar?*  \n• *O que eu devo fazer agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 95x60 mmHg  \n• **FC:** 100 bpm  \n• **FR:** 22 irpm  \n• **SatO2:** 96%  \n• **Temp. axilar:** 36.8°C  \n\n\n**Ectoscopia:**  \n• Criança em bom estado geral, corada, hidratada, acianótica, anictérica.  \n• Apresenta-se quieto, com olhar assustado, agarrado à mãe durante a consulta.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n\n**Abdominal:** abdome plano e flácido, indolor a palpação, sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "IMAGEM REGIÃO PERIANAL",
+      "conteudo": "**DESCREVA O(S) ACHADO(S) ENCONTRADO(S) NA IMAGEM!**",
+      "imagem": "img_printeds/2017-e16p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e a criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, investigando o contexto social e familiar da criança.**  \n(1) Rotina da criança OU cuidador responsável;  \n(2) Frequência escolar;  \n(3) Relação com o pai;  \n(4) Mudanças no comportamento (isolamento, agressividade, medo, etc).  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Descreve os achados da Imagem do Exame da região perianal.**  \n\n**Adequado:** descreve as lesões como múltiplas, papulares ou verrucosas, ou com aspecto condilomatoso ou \"em couve-flor\", localizadas na região perianal.  \n**Inadequado:** não descreve as lesões ou o faz de forma genérica (\"verruguinhas\").",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Formula as duas hipóteses diagnósticas principais.**  \n(1) Condiloma acuminado, OU infecção por HPV, OU Verruga Genital;  \n(2) Violência/abuso sexual.  \n\n**Adequado:** cita as duas hipóteses.  \n**Parcialmente adequado:** cita apenas uma hipótese.  \n**Inadequado:** não cita nenhuma das hipóteses ou cita hipóteses incorretas.  \n\nOBS.: Não pontuar caso o candidato diagnostique apenas como \"Verruga\", ou outro tipo de verruga que não seja \"genital\".",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Justifica as hipóteses diagnósticas com base em dados do caso.**  \n(1) Lesão verrucosa perianal (compatível com DST);  \n(2) História social (criança fica aos cuidados de terceiro);  \n(3) Comportamento da criança (arredio/assustado).  \n\n**Adequado:** cita os três dados.  \n**Parcialmente adequado:** cita dois dados.  \n**Inadequado:** cita um ou nenhum dado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Comunica à mãe a suspeita de abuso sexual de forma empática e cuidadosa.**  \n\n**Adequado:** comunica a suspeita de forma clara, empática e acolhedora.  \n**Inadequado:** não comunica a suspeita ou o faz de maneira inadequada/julgadora.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita a investigação de outras Infecções Sexualmente Transmissíveis (ISTs).**  \n\n**Adequado:** solicita sorologias para outras ISTs (HIV, sífilis, hepatites), explicando que é uma medida de precaução necessária em todos os casos de suspeita de abuso.  \n**Inadequado:** não solicita a investigação de outras ISTs.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta a necessidade de profilaxia para HIV.**  \n\n**Adequado:** orienta a profilaxia para HIV.  \n**Inadequado:** não orienta a profilaxia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre o tratamento da lesão (condiloma acuminado).**  \n\n**Adequado:** orienta sobre as opções de tratamento para o condiloma: Imiquimode, OU podofilotoxina, OU crioterapia, OU eletrocauterização, OU encaminhamento ao especialista.  \n**Inadequado:** não orienta o tratamento da lesão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a notificação compulsória e o acionamento da rede de proteção.**  \n(1) verbaliza o preenchimento da Ficha de Notificação Compulsória (SINAN);  \n(2) verbaliza o acionamento imediato do Conselho Tutelar.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Elabora um plano de cuidado integral para a criança.**  \n(1) encaminha a criança para avaliação e acompanhamento psicológico especializado;  \n(2) articula o cuidado com a equipe da UBS (enfermagem, ACS, NASF) para acompanhamento longitudinal e integral.  \n\n**Adequado:** elabora um plano com os dois componentes.  \n**Parcialmente adequado:** elabora um plano com apenas um dos componentes.  \n**Inadequado:** não elabora um plano de cuidado integral.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

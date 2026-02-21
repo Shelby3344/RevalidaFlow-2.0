@@ -1,0 +1,256 @@
+{
+  "uid": 526,
+  "hash": "pepe_526",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Coinfecção Tuberculose e HIV",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: internação hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• setor de diagnósticos por imagens;  \n• leitos de internação.\n\nDescrição do caso:\nVocê está de plantão noturno na enfermaria de um hospital secundário e é chamado pela equipe de enfermagem para avaliação de um paciente internado há 3 dias com tosse persistente. O paciente foi internado para investigação diagnóstica.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar e interpretar o exame físico do paciente.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Formular e verbalizar a hipótese diagnóstica ao paciente, utilizando técnicas de comunicação adequada.  \n- Orientar a conduta terapêutica e as medidas de controle adequadas.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Otávio, 34 anos, marceneiro.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com essa tosse há um bom tempo. Me internaram pra investigar, mas ainda não descobriram nada.  \n\n**SOBRE A TOSSE:**  \n• **Início:** faz uns 4 meses.  \n• **Horário:** é o dia todo, mas piora à noite.  \n• **Característica:** é uma tosse seca, sem catarro.  \n• **Sangue:** não, nunca veio sangue.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Perda de peso:** emagreci uns 10 quilos nesses 4 meses. Também perdi a vontade de comer.  \n• **Febre:** minha temperatura fica sempre um pouco aumentada, principalmente à noite.  \n• **Sudorese noturna:** acordo com a camisa toda molhada de suor.  \n• **Falta de ar:** não tenho falta de ar.  \n\n**NEGAR:**  \n• Azia ou queimação no estômago.  \n• Náuseas ou vômitos.  \n• Uso de xarope ou remédio pra tosse.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** não tenho doença nenhuma e não uso remédio.  \n• **Alergias:** não tenho alergia.  \n• **Cirurgias e internações:** nunca internei antes dessa vez.  \n\n• **Álcool:** bebo uma dose de pinga todo dia no almoço.  \n• **Tabaco e drogas:** não fumo e não uso droga.  \n\n**FATORES EPIDEMIOLÓGICOS:**  \n• **Contato com tuberculose:** não que eu saiba.  \n• **Viagens recentes:** não viajei nos últimos anos.  \n• **Práticas sexuais:** tenho relação sem camisinha com parceiros diferentes, sou homossexual e não gostaria de falar sobre isso.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Isso é grave, doutor(a)?*  \n• *Quando vou poder ter alta?*  \n• *Esses remédios fazem mal pro fígado ou rim?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 120 x 80 mmHg.  \n• **Frequência Cardíaca:** 92 batimentos por minuto.  \n• **Frequência Respiratória:** 18 incursões respiratórias por minuto.  \n• **Saturação de Oxigênio em ar ambiente:** 95%.  \n• **Temperatura Axilar:** 37,4°C.  \n\n\n• **Peso:** 58 kg / **Altura:** 1,75 m / **IMC:** 18,9 kg/m².  \n\n\n**EXAME CLÍNICO:**  \n• Regular estado geral, emagrecido, orientado, hidratado, hipocorado +/4+, acianótico, anictérico, febrícula.  \n\n• **Ausculta cardíaca:** ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n• **Ausculta pulmonar:** murmúrio vesicular reduzido em terço superior do hemitórax direito, sem ruídos adventícios.  \n\n• **Abdome:** plano, flácido, indolor à palpação, sem visceromegalias.  \n\n• **Membros inferiores:** sem edema, pulsos periféricos presentes e simétricos.  \n\n• **Linfonodos:** adenomegalia cervical posterior bilateral, móvel, indolor.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**Descreva o(s) achado(s) da imagem.**",
+      "imagem": "img_printeds/e526p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "BACILOSCOPIA DE ESCARRO",
+      "conteudo": "• **Amostra:** escarro.  \n• **Pesquisa de Bacilo Álcool-Ácido Resistente (BAAR):** POSITIVA (2+).  \n• **Valor de Referência:** negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "TESTE RÁPIDO MOLECULAR (TRM-TB)",
+      "conteudo": "• **Amostra:** escarro.  \n• **Resultado para Mycobacterium tuberculosis:** DETECTADO.  \n• **Resistência à Rifampicina:** NÃO DETECTADA.  \n• **Valor de Referência:** não detectado.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "TESTES RÁPIDOS DE TRIAGEM",
+      "conteudo": "• **Anti-HIV:** REAGENTE (VR: não reagente).  \n• **Anti-HBs:** não reagente (VR: não reagente).  \n• **HBsAg:** não reagente (VR: não reagente).  \n• **Anti-HCV:** não reagente (VR: não reagente).  \n• **Teste Rápido para Sífilis:** não reagente (VR: não reagente).",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemoglobina:** 10,8 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Hematócrito:** 33% (VR: 39 – 50%)  \n• **Leucócitos:** 3.800/mm³ (VR: 4.000 – 10.000/mm³)  \n• **Linfócitos:** 12% (VR: 20 – 50%)  \n• **Plaquetas:** 165.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**BIOQUÍMICA:**  \n• **Glicemia em jejum:** 94 mg/dL (VR: 70 – 99 mg/dL)  \n• **Ureia:** 28 mg/dL (VR: 10 – 50 mg/dL)  \n• **Creatinina:** 0,9 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **TGO:** 22 U/L (VR: 15 – 40 U/L)  \n• **TGP:** 18 U/L (VR: 10 – 40 U/L)",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "TESTE CONFIRMATÓRIO PARA HIV",
+      "conteudo": "• **Imunoensaio de 4ª geração (Ag/Ac):** REAGENTE.  \n• **Carga Viral HIV-1:** 85.000 cópias/mL.  \n• **Contagem de Linfócitos T CD4+:** 180 células/mm³ (VR: 500 – 1.500 células/mm³).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) cumprimenta o paciente de maneira cordial; e,  \n(2) identifica-se ao paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre características da tosse e sintomas constitucionais:**  \n(1) tempo de evolução;  \n(2) horário de predomínio;  \n(3) presença de expectoração ou hemoptise;  \n(4) febre ou febrícula;  \n(5) sudorese noturna;  \n(6) perda de peso;  \n(7) inapetência; e,  \n(8) dispneia.  \n\n**Adequado:** investiga seis ou mais itens.  \n**Parcialmente adequado:** investiga quatro ou cinco itens.  \n**Inadequado:** investiga três itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre antecedentes pessoais e fatores de risco:**  \n(1) comorbidades;  \n(2) uso de medicações;  \n(3) alergias;  \n(4) tabagismo;  \n(5) etilismo;  \n(6) uso de drogas ilícitas;  \n(7) contato com paciente com tuberculose; e,  \n(8) práticas sexuais de risco.  \n\n**Adequado:** investiga seis ou mais itens.  \n**Parcialmente adequado:** investiga quatro ou cinco itens.  \n**Inadequado:** investiga três itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico e identifica as alterações:**  \n(1) regular estado geral ou emagrecido;  \n(2) redução do murmúrio vesicular em ápice pulmonar direito; e,  \n(3) adenomegalia cervical.  \n\n**Adequado:** solicita e identifica duas ou mais alterações.  \n**Parcialmente adequado:** solicita e identifica uma alteração.  \n**Inadequado:** não solicita ou não identifica alteração alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita radiografia de tórax e descreve os achados compatíveis com tuberculose pulmonar:**  \n(1) lesão cavitária ou caverna em lobo superior direito; e,  \n(2) infiltrado ou opacidade em campos superiores.  \n\n**Adequado:** solicita e descreve os dois achados.  \n**Parcialmente adequado:** solicita e descreve um achado.  \n**Inadequado:** não solicita ou não descreve achado algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames para confirmação diagnóstica de tuberculose:**  \n(1) baciloscopia de escarro (duas amostras); OU  \n(2) Teste Rápido Molecular para Tuberculose (TRM-TB); OU  \n(3) cultura para micobactérias.  \n\n**Adequado:** solicita ao menos um dos exames, verbalizando duas amostras em caso de baciloscopia.  \n**Inadequado:** não solicita exame algum ou solicita baciloscopia sem mencionar as duas amostras.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita testes rápidos ou sorologias para Infecções Sexualmente Transmissíveis:**  \n(1) HIV;  \n(2) Hepatite B;  \n(3) Hepatite C; e,  \n(4) Sífilis.  \n\n**Adequado:** solicita os quatro exames.  \n**Parcialmente adequado:** solicita três exames, obrigatoriamente incluindo HIV.  \n**Inadequado:** solicita dois exames ou menos, ou não solicita HIV.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames laboratoriais para avaliação inicial e monitorização do tratamento:**  \n(1) hemograma;  \n(2) função renal (ureia e creatinina);  \n(3) função hepática (TGO e TGP); e,  \n(4) glicemia.  \n\n**Adequado:** solicita os quatro exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita dois exames ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Comunica o diagnóstico de HIV ao paciente utilizando técnicas de comunicação adequadas:**  \n(1) garante ambiente adequado e privacidade;  \n(2) pergunta o que o paciente sabe ou deseja saber sobre sua condição;  \n(3) comunica o resultado de forma clara e empática; e,  \n(4) oferece tempo para o paciente processar a informação.  \n\n**Adequado:** realiza duas ou mais ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza o diagnóstico de tuberculose pulmonar associada à infecção pelo HIV.**  \n\n**Adequado:** verbaliza os dois diagnósticos.  \n**Parcialmente adequado:** verbaliza apenas um dos diagnósticos.  \n**Inadequado:** não verbaliza diagnóstico algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica isolamento respiratório para aerossóis.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Prescreve o tratamento para tuberculose com o esquema básico (RIPE):**  \n(1) fase intensiva: 2 meses de Rifampicina, Isoniazida, Pirazinamida e Etambutol; e,  \n(2) fase de manutenção: 4 meses de Rifampicina e Isoniazida.  \n\n**Adequado:** verbaliza as duas fases corretamente.  \n**Parcialmente adequado:** verbaliza o esquema RIPE sem especificar a duração das fases.  \n**Inadequado:** não verbaliza o tratamento ou verbaliza esquema incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre o momento de início da terapia antirretroviral (TARV):**  \n\n**Adequado:** orienta que a TARV deve ser iniciada entre 2 e 8 semanas após o início do tratamento para tuberculose.  \n**Parcialmente adequado:** orienta início da TARV, mas não especifica o momento adequado.  \n**Inadequado:** não orienta sobre a TARV ou orienta início imediato junto com o tratamento da TB.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta sobre efeitos adversos do tratamento e restrições:**  \n(1) evitar consumo de álcool pelo risco de hepatotoxicidade;  \n(2) possíveis efeitos gastrointestinais (náuseas, vômitos, dor abdominal); e,  \n(3) coloração alaranjada da urina e secreções pela Rifampicina.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Verbaliza a necessidade de notificação compulsória dos casos de tuberculose e HIV.**  \n\n**Adequado:** verbaliza a notificação das duas condições.  \n**Parcialmente adequado:** verbaliza a notificação de apenas uma das condições.  \n**Inadequado:** não verbaliza a necessidade de notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Orienta sobre a investigação dos contactantes.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Orienta sobre o acompanhamento ambulatorial após a alta:**  \n(1) continuidade do tratamento da tuberculose; e,  \n(2) encaminhamento para serviço especializado em HIV/AIDS.  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

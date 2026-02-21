@@ -1,4 +1,5 @@
-// Dados das estações PEPE
+// Dados das estações PEPE - Gerado automaticamente
+// Total: 405 estações
 export interface PepeStation {
   station_id: number;
   station_area: string;
@@ -8,331 +9,2538 @@ export interface PepeStation {
 }
 
 export const pepeStationsData: PepeStation[] = [
-  { station_id: 212, station_area: "Cirurgia", station_name: "Pancreatite Crônica" },
-  { station_id: 521, station_area: "M. da Família e Comunidade", station_name: "Artrite Psoríaca" },
-  { station_id: 319, station_area: "Pediatria", station_name: "Artrite Idiopática Juvenil" },
-  { station_id: 1701, station_area: "Clínica Médica", station_name: "Doença do Refluxo Gastroesofágico • DRGE" },
-  { station_id: 143, station_area: "Clínica Médica", station_name: "Angioedema Hereditário" },
-  { station_id: 1111, station_area: "Clínica Médica", station_name: "Tuberculose", is_discursive: true },
-  { station_id: 520, station_area: "M. da Família e Comunidade", station_name: "Violência contra a Pessoa Idosa (Abordagem Integral na APS)" },
-  { station_id: 213, station_area: "Cirurgia", station_name: "Fístula Anorretal" },
-  { station_id: 144, station_area: "Clínica Médica", station_name: "Diabetes Insipidus" },
-  { station_id: 2211, station_area: "Clínica Médica", station_name: "Síndrome de Wolff-Parkinson-White (arritmia)" },
-  { station_id: 2312, station_area: "Cirurgia", station_name: "Pancreatite aguda litiásica" },
-  { station_id: 1601, station_area: "Clínica Médica", station_name: "Protocolo SPIKES - HIV" },
-  { station_id: 318, station_area: "Pediatria", station_name: "Alergia à Proteína de Leite de Vaca - APLV" },
-  { station_id: 320, station_area: "Pediatria", station_name: "Anemia Ferropriva" },
-  { station_id: 2309, station_area: "Ginecologia e Obstetrícia", station_name: "Diabetes gestacional" },
-  { station_id: 1207, station_area: "Cirurgia", station_name: "Protocolo SPIKES - CA próstata" },
-  { station_id: 139, station_area: "Clínica Médica", station_name: "Edema Agudo de Pulmão - EAP (Cardiogênico)" },
-  { station_id: 2320, station_area: "M. da Família e Comunidade", station_name: "Obesidade" },
-  { station_id: 2316, station_area: "Clínica Médica", station_name: "AVCi - Acidente Vascular Cerebral Isquêmico" },
-  { station_id: 140, station_area: "Clínica Médica", station_name: "Pneumonia por Mycoplasma pneumoniae (Germe Atípico)" },
-  { station_id: 305, station_area: "Pediatria", station_name: "Intoxicação por Chumbo (Saturnismo) na criança" },
-  { station_id: 321, station_area: "Pediatria", station_name: "Doença da Arranhadura do Gato" },
-  { station_id: 141, station_area: "Clínica Médica", station_name: "Anemia Hemolítica Autoimune - AHAI" },
-  { station_id: 142, station_area: "Clínica Médica", station_name: "Doença Ulcerosa Péptica por H. Pylori" },
-  { station_id: 2310, station_area: "M. da Família e Comunidade", station_name: "Síndrome de Burnout" },
-  { station_id: 2010, station_area: "M. da Família e Comunidade", station_name: "Violência familiar (física e financeira) + tentativa de suicídio" },
-  { station_id: 1603, station_area: "Pediatria", station_name: "Protocolo SPIKES - Síndrome de Down" },
-  { station_id: 322, station_area: "Pediatria", station_name: "Cólica do Lactente" },
-  { station_id: 2319, station_area: "Ginecologia e Obstetrícia", station_name: "Exame físico Obstétrico/Manobras de Leopold" },
-  { station_id: 2306, station_area: "Clínica Médica", station_name: "Hipertensão Arterial Sistêmica - HAS não controlada" },
-  { station_id: 2212, station_area: "Cirurgia", station_name: "Hiperplasia Prostática Benigna - HPB + Prostatite aguda" },
-  { station_id: 1602, station_area: "Cirurgia", station_name: "Sutura" },
-  { station_id: 1503, station_area: "Pediatria", station_name: "Puericultura 2 meses - Aleitamento materno" },
-  { station_id: 1406, station_area: "Clínica Médica", station_name: "Hipotireoidismo" },
-  { station_id: 323, station_area: "Pediatria", station_name: "Síndrome de Aspiração Meconial - SAM" },
-  { station_id: 2216, station_area: "Clínica Médica", station_name: "Anemia Megaloblástica" },
-  { station_id: 2214, station_area: "Ginecologia e Obstetrícia", station_name: "Gestação + aborto legal" },
-  { station_id: 2202, station_area: "Cirurgia", station_name: "CA Colorretal + Hemorróida" },
-  { station_id: 1310, station_area: "M. da Família e Comunidade", station_name: "Implantação de ESF/PSF" },
-  { station_id: 324, station_area: "Pediatria", station_name: "Taquipneia Transitória do Recém-Nascido - TTRN" },
-  { station_id: 2307, station_area: "Cirurgia", station_name: "Torção testicular" },
-  { station_id: 2201, station_area: "Clínica Médica", station_name: "Retocolite Ulcerativa" },
-  { station_id: 2219, station_area: "Ginecologia e Obstetrícia", station_name: "Sífilis Primária/Recente" },
-  { station_id: 325, station_area: "Pediatria", station_name: "Herpangina / Doença Mão-Pé-Boca" },
-  { station_id: 2305, station_area: "M. da Família e Comunidade", station_name: "Saúde indígena e desnutrição" },
-  { station_id: 2009, station_area: "Ginecologia e Obstetrícia", station_name: "Lipotimia" },
-  { station_id: 2209, station_area: "Ginecologia e Obstetrícia", station_name: "Desprendimento Prematuro de Placenta - DPP + sofrimento fetal" },
-  { station_id: 1609, station_area: "Ginecologia e Obstetrícia", station_name: "Violência doméstica + Depressão + Risco de suicídio" },
-  { station_id: 326, station_area: "Pediatria", station_name: "Laringotraqueíte Viral Aguda (Crupe)" },
-  { station_id: 1506, station_area: "Clínica Médica", station_name: "Pielonefrite aguda + ITU Recorrente" },
-  { station_id: 412, station_area: "Ginecologia e Obstetrícia", station_name: "Candidíase Vulvovaginal Recorrente" },
-  { station_id: 2104, station_area: "Ginecologia e Obstetrícia", station_name: "Anticoncepção/DIU + Papanicolau" },
-  { station_id: 2102, station_area: "Cirurgia", station_name: "Obstrução Intestinal Alta" },
-  { station_id: 1308, station_area: "Pediatria", station_name: "Icteria do leite materno" },
-  { station_id: 413, station_area: "Ginecologia e Obstetrícia", station_name: "Inserção de Implante Subdérmico de Etonogestrel (Implanon®)" },
-  { station_id: 118, station_area: "Clínica Médica", station_name: "Miastenia Gravis - Crise Miastênica" },
-  { station_id: 2114, station_area: "Ginecologia e Obstetrícia", station_name: "Candidíase (reaplicação)" },
-  { station_id: 2107, station_area: "Cirurgia", station_name: "ABCDE - Pneumotórax Hipertensivo" },
-  { station_id: 2106, station_area: "Clínica Médica", station_name: "Cirrose Hepática + Ascite" },
-  { station_id: 2110, station_area: "M. da Família e Comunidade", station_name: "Dengue grupo B" },
-  { station_id: 311, station_area: "Pediatria", station_name: "Meningite Viral" },
-  { station_id: 2302, station_area: "Cirurgia", station_name: "Infecção do sítio cirúrgico + Endocardite infecciosa" },
-  { station_id: 2006, station_area: "Clínica Médica", station_name: "Pneumonia" },
-  { station_id: 2002, station_area: "Cirurgia", station_name: "ABCDE - Fratura de tíbia exposta" },
-  { station_id: 1306, station_area: "Clínica Médica", station_name: "Pneumonia Adquirida na Comunidade - PAC não complicada" },
-  { station_id: 1209, station_area: "Ginecologia e Obstetrícia", station_name: "Gravidez ectópica rota + Declaração de óbito" },
-  { station_id: 2218, station_area: "Pediatria", station_name: "Hidrocele comunicante" },
-  { station_id: 414, station_area: "Ginecologia e Obstetrícia", station_name: "Inserção de Dispositivo Intrauterino - DIU" },
-  { station_id: 2013, station_area: "M. da Família e Comunidade", station_name: "Puerpério + Baby Blues (reaplicação)" },
-  { station_id: 1711, station_area: "Clínica Médica", station_name: "Endocardite infecciosa (reaplicação)" },
-  { station_id: 1302, station_area: "Cirurgia", station_name: "Atendimento ao queimado" },
-  { station_id: 415, station_area: "Ginecologia e Obstetrícia", station_name: "Doença Trofoblástica Gestacional - Mola Hidatiforme" },
-  { station_id: 2217, station_area: "Cirurgia", station_name: "Colecistite aguda litiásica" },
-  { station_id: 2113, station_area: "Pediatria", station_name: "Invaginação Intestinal (reaplicação)" },
-  { station_id: 416, station_area: "Ginecologia e Obstetrícia", station_name: "Nódulo Mamário Suspeito - BI-RADS 4" },
-  { station_id: 1704, station_area: "Ginecologia e Obstetrícia", station_name: "Eclâmpsia" },
-  { station_id: 1608, station_area: "Pediatria", station_name: "Asma + uso do dispositivo inalatório" },
-  { station_id: 2311, station_area: "Clínica Médica", station_name: "Farmacodermia/urticária" },
-  { station_id: 1710, station_area: "M. da Família e Comunidade", station_name: "Atenção domiciliar e cuidados Pós IAM" },
-  { station_id: 1705, station_area: "M. da Família e Comunidade", station_name: "Lesão por Esforço Repetitivo • LER/DORT + Transtorno de Ansiedade" },
-  { station_id: 1109, station_area: "Ginecologia e Obstetrícia", station_name: "DIP - Doença Inflamatória Pélvica" },
-  { station_id: 1707, station_area: "Cirurgia", station_name: "Pneumotórax espontâneo" },
-  { station_id: 1702, station_area: "Cirurgia", station_name: "Trauma abdominal + Sutura" },
-  { station_id: 1101, station_area: "Clínica Médica", station_name: "Intubação Orotraqueal - IOT" },
-  { station_id: 2501, station_area: "Clínica Médica", station_name: "Lombalgia inflamatória/Espondilite Anquilosante" },
-  { station_id: 2203, station_area: "Pediatria", station_name: "Apendicite aguda" },
-  { station_id: 1105, station_area: "M. da Família e Comunidade", station_name: "Dengue Hemorrágica" },
-  { station_id: 1103, station_area: "Pediatria", station_name: "Recepção e Atenção ao Recém Nascido - RN" },
-  { station_id: 2208, station_area: "Pediatria", station_name: "Puericultura 4 meses/Antropometria + Regurgitação fisiológica" },
-  { station_id: 2115, station_area: "M. da Família e Comunidade", station_name: "Rastreio Câncer de Mama (reaplicação)" },
-  { station_id: 1604, station_area: "Ginecologia e Obstetrícia", station_name: "Dengue na gestação" },
-  { station_id: 2112, station_area: "Cirurgia", station_name: "Nefrolitíase + ITU (reaplicação)" },
-  { station_id: 2413, station_area: "Pediatria", station_name: "Criptorquidia e Fimose fisiológica" },
-  { station_id: 1501, station_area: "Clínica Médica", station_name: "Diabetes Melittus tipo 2 - DM2 + uso de insulina" },
-  { station_id: 1304, station_area: "Ginecologia e Obstetrícia", station_name: "Trabalho de parto + distócia de ombro" },
-  { station_id: 2111, station_area: "Clínica Médica", station_name: "Doença Pulmonar Obstrutiva Crônica - DPOC (reaplicação)" },
-  { station_id: 201, station_area: "Cirurgia", station_name: "xABCDE - Amputação Traumática Transtibial" },
-  { station_id: 2505, station_area: "M. da Família e Comunidade", station_name: "Osteoporose/Osteopenia" },
-  { station_id: 1303, station_area: "Pediatria", station_name: "Meningite bacteriana meningocócica" },
-  { station_id: 1110, station_area: "M. da Família e Comunidade", station_name: "Puericultura 7 dias/Aleitamento materno" },
-  { station_id: 102, station_area: "Clínica Médica", station_name: "Morte Encefálica" },
-  { station_id: 2109, station_area: "Ginecologia e Obstetrícia", station_name: "Ameaça de aborto" },
-  { station_id: 1607, station_area: "Cirurgia", station_name: "Abdome agudo perfurativo + Manejo de choque séptico" },
-  { station_id: 2105, station_area: "M. da Família e Comunidade", station_name: "Infarto Agudo do Miocárdio - IAM CSST" },
-  { station_id: 1206, station_area: "Clínica Médica", station_name: "Intubação Orotraqueal - IOT (uso de fio guia)" },
-  { station_id: 1204, station_area: "Ginecologia e Obstetrícia", station_name: "Pré-eclâmpsia" },
-  { station_id: 1104, station_area: "Ginecologia e Obstetrícia", station_name: "Pré Natal 3ºT + Leopold + Informações sobre o parto" },
-  { station_id: 303, station_area: "Pediatria", station_name: "Bronquiolite Viral Aguda" },
-  { station_id: 1208, station_area: "Pediatria", station_name: "Criptorquia unilateral" },
-  { station_id: 1203, station_area: "Pediatria", station_name: "Puericultura 3 meses/Antropometria + aleitamento" },
-  { station_id: 1205, station_area: "M. da Família e Comunidade", station_name: "Orientação ao ACS sobre violência" },
-  { station_id: 1211, station_area: "Pediatria", station_name: "Faringite/Faringoamigdalite Estreptocócica", is_discursive: true },
-  { station_id: 1301, station_area: "Clínica Médica", station_name: "TEP - Tromboembolistmo pulmonar" },
-  { station_id: 2204, station_area: "Ginecologia e Obstetrícia", station_name: "DIP - Doença Inflamatória Pélvica complicada" },
-  { station_id: 1210, station_area: "M. da Família e Comunidade", station_name: "Abertura de pré-natal" },
-  { station_id: 1305, station_area: "M. da Família e Comunidade", station_name: "Visita domiciliar + Obesidade" },
-  { station_id: 2012, station_area: "Pediatria", station_name: "Cetoacidose Diabética - CAD (reaplicação)" },
-  { station_id: 2315, station_area: "M. da Família e Comunidade", station_name: "Atendimento à mulher homossexual + papanicolau" },
-  { station_id: 502, station_area: "M. da Família e Comunidade", station_name: "Triagem para Abuso de Álcool no Adolescente" },
-  { station_id: 2108, station_area: "Pediatria", station_name: "Puericultura 3 meses/Amamentação + Vacinação" },
-  { station_id: 2011, station_area: "Clínica Médica", station_name: "Doença do Refluxo Gastroesofágico - DRGE + Dispepsia (reaplicação)" },
-  { station_id: 2415, station_area: "M. da Família e Comunidade", station_name: "Acidente por animal peçonhento - Lonomia/Lagarta" },
-  { station_id: 2003, station_area: "Pediatria", station_name: "Coqueluche" },
-  { station_id: 2118, station_area: "Cirurgia", station_name: "Colangite Aguda Grave", is_discursive: true },
-  { station_id: 2417, station_area: "Cirurgia", station_name: "ABCDE - Trauma de baço/esplênico" },
-  { station_id: 2008, station_area: "Pediatria", station_name: "Anemia Falciforme + Crise álgica" },
-  { station_id: 1405, station_area: "M. da Família e Comunidade", station_name: "Tabagismo e DPOC" },
-  { station_id: 1307, station_area: "Cirurgia", station_name: "Sutura" },
-  { station_id: 2004, station_area: "Ginecologia e Obstetrícia", station_name: "Sangramento Uterino Anormal - SUA + Exame especular" },
-  { station_id: 1309, station_area: "Ginecologia e Obstetrícia", station_name: "Infertilidade conjugal" },
-  { station_id: 1108, station_area: "Pediatria", station_name: "Desenvolvimento e Obesidade infantil" },
-  { station_id: 2001, station_area: "Clínica Médica", station_name: "Leucemia aguda" },
-  { station_id: 501, station_area: "M. da Família e Comunidade", station_name: "Acidente por animal peçonhento - Água-Viva/Caravelas" },
-  { station_id: 2318, station_area: "Pediatria", station_name: "Puericultura 1 ano/Antropometria" },
-  { station_id: 2317, station_area: "Cirurgia", station_name: "Sutura" },
-  { station_id: 2308, station_area: "Pediatria", station_name: "Ingesta de corpo estranho" },
-  { station_id: 2314, station_area: "Ginecologia e Obstetrícia", station_name: "Exame de mamas + nódulo mamário" },
-  { station_id: 405, station_area: "Ginecologia e Obstetrícia", station_name: "Gestação Gemelar" },
-  { station_id: 2213, station_area: "Pediatria", station_name: "Febre sem sinais localizados" },
-  { station_id: 2220, station_area: "M. da Família e Comunidade", station_name: "MCCP + Calendário vacinal infantil" },
-  { station_id: 2210, station_area: "M. da Família e Comunidade", station_name: "Tabagismo" },
-  { station_id: 2207, station_area: "Cirurgia", station_name: "ABCDE - atendimento ao queimado" },
-  { station_id: 1712, station_area: "Clínica Médica", station_name: "Hepatites Virais (reaplicação)" },
-  { station_id: 1409, station_area: "Ginecologia e Obstetrícia", station_name: "Anticoncepção Oral Combinada" },
-  { station_id: 2007, station_area: "Cirurgia", station_name: "Apendicide aguda" },
-  { station_id: 1102, station_area: "Cirurgia", station_name: "Cólica Biliar - somente anamnese" },
-  { station_id: 1112, station_area: "Cirurgia", station_name: "Apendicite aguda", is_discursive: true },
-  { station_id: 1610, station_area: "M. da Família e Comunidade", station_name: "Tuberculose pulmonar" },
-  { station_id: 1107, station_area: "Cirurgia", station_name: "Sutura" },
-  { station_id: 1106, station_area: "Clínica Médica", station_name: "Hipertensão Arterial - HAS" },
-  { station_id: 2507, station_area: "Cirurgia", station_name: "Ureterolitíase" },
-  { station_id: 2412, station_area: "Cirurgia", station_name: "Oclusão/Obstrução Arterial Aguda" },
-  { station_id: 1709, station_area: "Ginecologia e Obstetrícia", station_name: "Anticoncepção pós parto" },
-  { station_id: 1606, station_area: "Clínica Médica", station_name: "Enxaqueca/migrânea" },
-  { station_id: 1605, station_area: "M. da Família e Comunidade", station_name: "Princípios da ESF - Estratégia de Saúde da Família" },
-  { station_id: 2403, station_area: "Pediatria", station_name: "Estenose Hipertrófica de Piloro" },
-  { station_id: 2509, station_area: "Ginecologia e Obstetrícia", station_name: "Miomatose uterina" },
-  { station_id: 1708, station_area: "Pediatria", station_name: "Prevenção de acidentes à criança" },
-  { station_id: 1703, station_area: "Pediatria", station_name: "Puericultura 45 dias/Antropometria" },
-  { station_id: 2409, station_area: "Ginecologia e Obstetrícia", station_name: "Climatério" },
-  { station_id: 1706, station_area: "Clínica Médica", station_name: "Hipertensão com lesão de órgão alvo e Retinopatia Hipertensiva" },
-  { station_id: 2313, station_area: "Pediatria", station_name: "Acidente por animal peçonhento - Escorpião Amarelo" },
-  { station_id: 2506, station_area: "Clínica Médica", station_name: "Paralisía de Bell" },
-  { station_id: 308, station_area: "Pediatria", station_name: "Púrpura de Henoch-Schönlein (Vasculite por IgA)" },
-  { station_id: 101, station_area: "Clínica Médica", station_name: "Acidente por animal peçonhento - Abelha + Anafilaxia" },
-  { station_id: 1515, station_area: "M. da Família e Comunidade", station_name: "Construção e Interpretação de Genograma", is_discursive: true },
-  { station_id: 2206, station_area: "Clínica Médica", station_name: "Artrite Gotosa" },
-  { station_id: 2304, station_area: "Ginecologia e Obstetrícia", station_name: "Papanicolau" },
-  { station_id: 1715, station_area: "Ginecologia e Obstetrícia", station_name: "Sífilis Latente na Gestação", is_discursive: true },
-  { station_id: 2016, station_area: "M. da Família e Comunidade", station_name: "Avaliação Geriátrica Ampla e Polifarmácia", is_discursive: true },
-  { station_id: 2017, station_area: "Clínica Médica", station_name: "Cetoacidose Diabética - CAD", is_discursive: true },
-  { station_id: 2215, station_area: "M. da Família e Comunidade", station_name: "Herpes-zóster" },
-  { station_id: 1502, station_area: "Cirurgia", station_name: "ABCDE - Pneumotórax Hipertensivo" },
-  { station_id: 110, station_area: "Clínica Médica", station_name: "Síndrome de Guillain Barré" },
-  { station_id: 111, station_area: "Clínica Médica", station_name: "Morte Encefálica - Realização do Exame Clínico" },
-  { station_id: 518, station_area: "M. da Família e Comunidade", station_name: "Febre do Oropouche (Maruim)" },
-  { station_id: 123, station_area: "Clínica Médica", station_name: "Doença de Crohn" },
-  { station_id: 120, station_area: "Clínica Médica", station_name: "Intoxicação por Organofosforados (Defensivo Agrícola)" },
-  { station_id: 121, station_area: "Clínica Médica", station_name: "Intoxicação por Paracetamol" },
-  { station_id: 205, station_area: "Cirurgia", station_name: "Dissecção Aguda de Aorta" },
-  { station_id: 126, station_area: "Clínica Médica", station_name: "Cirrose Hepática Descompensada (Hipertensão Portal)" },
-  { station_id: 127, station_area: "Clínica Médica", station_name: "Silicose" },
-  { station_id: 2005, station_area: "M. da Família e Comunidade", station_name: "Tuberculose" },
-  { station_id: 1504, station_area: "Ginecologia e Obstetrícia", station_name: "Ameaça de aborto" },
-  { station_id: 119, station_area: "Clínica Médica", station_name: "Intoxicação por Carbamato (Chumbinho)" },
-  { station_id: 509, station_area: "M. da Família e Comunidade", station_name: "Malária por Plasmodium vivax" },
-  { station_id: 2303, station_area: "Pediatria", station_name: "Puericultura 3 meses/Antropometria + Amamentação" },
-  { station_id: 137, station_area: "Clínica Médica", station_name: "Acromegalia/Gigantismo" },
-  { station_id: 117, station_area: "Clínica Médica", station_name: "DPOC - Doença Pulmonar Obstrutiva Crônica, Exacerbação" },
-  { station_id: 103, station_area: "Clínica Médica", station_name: "Acidente por animal peçonhento - Ofídico/Botrópico (cobra Jararaca)" },
-  { station_id: 402, station_area: "Ginecologia e Obstetrícia", station_name: "Sífilis Primária na Gestação" },
-  { station_id: 1505, station_area: "M. da Família e Comunidade", station_name: "Hanseníase" },
-  { station_id: 1507, station_area: "Cirurgia", station_name: "Úlcera péptica perfurada - Abdome Agudo Perfurativo" },
-  { station_id: 1508, station_area: "Pediatria", station_name: "Baixa estatura constitucional" },
-  { station_id: 1509, station_area: "Ginecologia e Obstetrícia", station_name: "Violência sexual + aborto legal" },
-  { station_id: 1201, station_area: "Clínica Médica", station_name: "Infarto Agudo do Miocárdio - IAM CSST de parede anterior" },
-  { station_id: 208, station_area: "Cirurgia", station_name: "Diverticulite Aguda Complicada - Hinchey IV" },
-  { station_id: 105, station_area: "Clínica Médica", station_name: "Acidente por animal peçonhento - Quilópodes (Lacraia)" },
-  { station_id: 138, station_area: "Clínica Médica", station_name: "Amiloidose Hereditária por Transtirretina (ATTR)" },
-  { station_id: 316, station_area: "Pediatria", station_name: "Doença de Fabry" },
-  { station_id: 317, station_area: "Pediatria", station_name: "Testemunha de Jeová - Choque Hemorrágico e Aspectos Éticos" },
-  { station_id: 1113, station_area: "Pediatria", station_name: "Hipotireodismo congênito", is_discursive: true },
-  { station_id: 1510, station_area: "M. da Família e Comunidade", station_name: "Tabagismo + rastreios no idoso" },
-  { station_id: 206, station_area: "Cirurgia", station_name: "Diverticulite Aguda não complicada - Hinchey Ia" },
-  { station_id: 2504, station_area: "Ginecologia e Obstetrícia", station_name: "Dengue na gestação" },
-  { station_id: 519, station_area: "M. da Família e Comunidade", station_name: "Transtorno do Jogo (Ludopatia) e Sofrimento Mental na APS" },
-  { station_id: 207, station_area: "Cirurgia", station_name: "Diverticulite Aguda Complicada - Hinchey II" },
-  { station_id: 309, station_area: "Pediatria", station_name: "Diarreia com Desidratação Grave - plano C" },
-  { station_id: 112, station_area: "Clínica Médica", station_name: "Crise de Glaucoma Agudo de Ângulo Fechado" },
-  { station_id: 202, station_area: "Cirurgia", station_name: "Passagem de Caso Clínico - Fratura Exposta" },
-  { station_id: 2418, station_area: "Pediatria", station_name: "Puericultura 3 anos/HAS" },
-  { station_id: 2406, station_area: "Clínica Médica", station_name: "Asma + uso do dispositivo inalatório" },
-  { station_id: 301, station_area: "Pediatria", station_name: "Sarampo" },
-  { station_id: 2420, station_area: "M. da Família e Comunidade", station_name: "DIP - Doença Inflamatória Pélvica" },
-  { station_id: 310, station_area: "Pediatria", station_name: "Doença de Hirschsprung (Megacólon Congênito)" },
-  { station_id: 1401, station_area: "Clínica Médica", station_name: "Lombalgia mecânica" },
-  { station_id: 1402, station_area: "Cirurgia", station_name: "Celulite" },
-  { station_id: 1403, station_area: "Pediatria", station_name: "Escarlatina" },
-  { station_id: 128, station_area: "Clínica Médica", station_name: "Artrite Séptica/Infecciosa" },
-  { station_id: 2407, station_area: "Cirurgia", station_name: "ABCDE - Atendimento ao queimado" },
-  { station_id: 312, station_area: "Pediatria", station_name: "Reanimação Neonatal - RN ≥34 semanas" },
-  { station_id: 2401, station_area: "Clínica Médica", station_name: "Síndrome de Budd Chiari + Ascite" },
-  { station_id: 313, station_area: "Pediatria", station_name: "Vítima de Afogamento - Grau 3" },
-  { station_id: 1407, station_area: "Cirurgia", station_name: "ABCDE - Fratura de tíbia não complicada" },
-  { station_id: 129, station_area: "Clínica Médica", station_name: "Síndrome DRESS Aguda" },
-  { station_id: 404, station_area: "Ginecologia e Obstetrícia", station_name: "Doença Hemolítica Perinatal (Aloimunização Rh)" },
-  { station_id: 2510, station_area: "M. da Família e Comunidade", station_name: "Insônia primária" },
-  { station_id: 1114, station_area: "Ginecologia e Obstetrícia", station_name: "Pré Eclâmpsia Grave + Síndrome HELLP", is_discursive: true },
-  { station_id: 1115, station_area: "M. da Família e Comunidade", station_name: "Promoção da Atividade Física", is_discursive: true },
-  { station_id: 1212, station_area: "Ginecologia e Obstetrícia", station_name: "Gravidez Ectópica íntegra", is_discursive: true },
-  { station_id: 406, station_area: "Ginecologia e Obstetrícia", station_name: "Colestase da Gravidez" },
-  { station_id: 407, station_area: "Ginecologia e Obstetrícia", station_name: "Rotura Prematura de Membranas - RPMO 36 semanas" },
-  { station_id: 408, station_area: "Ginecologia e Obstetrícia", station_name: "Rotura Prematura de Membranas - RPMO 33 semanas" },
-  { station_id: 510, station_area: "M. da Família e Comunidade", station_name: "Dengue Grupo C" },
-  { station_id: 1408, station_area: "Pediatria", station_name: "Recepção e atenção ao RN" },
-  { station_id: 130, station_area: "Clínica Médica", station_name: "Apneia Obstrutiva do Sono" },
-  { station_id: 2205, station_area: "M. da Família e Comunidade", station_name: "Leishmaniose Tegumentar" },
-  { station_id: 209, station_area: "Cirurgia", station_name: "ABCDE - Fratura de Pelve instável (em livro aberto)" },
-  { station_id: 1202, station_area: "Cirurgia", station_name: "Inflamação do sítio cirúrgico pós-operatório" },
-  { station_id: 314, station_area: "Pediatria", station_name: "Hérnia Inguinal Indireta" },
-  { station_id: 409, station_area: "Ginecologia e Obstetrícia", station_name: "Ingurgitamento mamário" },
-  { station_id: 410, station_area: "Ginecologia e Obstetrícia", station_name: "Rotura Uterina" },
-  { station_id: 511, station_area: "M. da Família e Comunidade", station_name: "Obstrução de Vias Aéreas por Corpo Estranho - OVACE (Desengasgo)" },
-  { station_id: 1311, station_area: "Clínica Médica", station_name: "Cetoacidose Diabética", is_discursive: true },
-  { station_id: 2103, station_area: "Pediatria", station_name: "Icterícia Neonatal" },
-  { station_id: 1410, station_area: "M. da Família e Comunidade", station_name: "Tuberculose" },
-  { station_id: 1213, station_area: "Pediatria", station_name: "Obesidade infantil", is_discursive: true },
-  { station_id: 1214, station_area: "Clínica Médica", station_name: "Pneumonia Adquirida na Comunidade - PAC", is_discursive: true },
-  { station_id: 109, station_area: "Clínica Médica", station_name: "Acidente por animal peçonhento - Ofídico/Crotálico (cobra Cascavel)" },
-  { station_id: 1312, station_area: "Ginecologia e Obstetrícia", station_name: "Pré-eclâmpsia Grave com Síndrome HELLP", is_discursive: true },
-  { station_id: 1313, station_area: "Pediatria", station_name: "Icterícia Neonatal por Incompatibilidade ABO", is_discursive: true },
-  { station_id: 2503, station_area: "Pediatria", station_name: "Transtorno do Espectro Autista - TEA" },
-  { station_id: 2411, station_area: "Clínica Médica", station_name: "Dengue grupo A" },
-  { station_id: 1315, station_area: "Cirurgia", station_name: "Mordedura Animal/profilaxia de raiva e tétano - cão", is_discursive: true },
-  { station_id: 2416, station_area: "Clínica Médica", station_name: "Escala de NIHSS - AVC" },
-  { station_id: 2410, station_area: "M. da Família e Comunidade", station_name: "Orientação ao uso de insulina" },
-  { station_id: 2508, station_area: "Pediatria", station_name: "Acidente por animal peçonhento - Abelha + Anafilaxia" },
-  { station_id: 2414, station_area: "Ginecologia e Obstetrícia", station_name: "Placenta prévia total" },
-  { station_id: 2402, station_area: "Cirurgia", station_name: "Pneumotórax Hipertensivo" },
-  { station_id: 2404, station_area: "Ginecologia e Obstetrícia", station_name: "Síndrome HELLP" },
-  { station_id: 2408, station_area: "Pediatria", station_name: "Celulite periorbitária" },
-  { station_id: 1611, station_area: "Clínica Médica", station_name: "Síndrome Metabólica", is_discursive: true },
-  { station_id: 1612, station_area: "Cirurgia", station_name: "xABCDE - Fratura de fêmur", is_discursive: true },
-  { station_id: 1412, station_area: "M. da Família e Comunidade", station_name: "Rastreamento de Diabetes Mellitus tipo 2", is_discursive: true },
-  { station_id: 1215, station_area: "M. da Família e Comunidade", station_name: "Lombalgia Mecânica Crônica", is_discursive: true },
-  { station_id: 1413, station_area: "Clínica Médica", station_name: "Acidente Vascular Cerebral Isquêmico (AVCi) Cardioembólico", is_discursive: true },
-  { station_id: 1411, station_area: "Pediatria", station_name: "Doença da Membrana Hialina", is_discursive: true },
-  { station_id: 104, station_area: "Clínica Médica", station_name: "Transtorno Depressivo Maior" },
-  { station_id: 1314, station_area: "M. da Família e Comunidade", station_name: "Doenças Negligenciadas e Prevenção da Dengue", is_discursive: true },
-  { station_id: 1414, station_area: "Ginecologia e Obstetrícia", station_name: "Hemorragia pós-parto", is_discursive: true },
-  { station_id: 1415, station_area: "Cirurgia", station_name: "ABCDE - Lesão Raquimedular", is_discursive: true },
-  { station_id: 1511, station_area: "Clínica Médica", station_name: "Lúpus Eritematoso Sistêmico - LES", is_discursive: true },
-  { station_id: 1512, station_area: "Ginecologia e Obstetrícia", station_name: "Rastreio Amenorreia Secundária", is_discursive: true },
-  { station_id: 1513, station_area: "Clínica Médica", station_name: "Tuberculose não tratada + Derrame pleural", is_discursive: true },
-  { station_id: 1514, station_area: "Pediatria", station_name: "Violência Sexual Infantil", is_discursive: true },
-  { station_id: 1716, station_area: "Pediatria", station_name: "Condiloma Acuminado/Verruga Genital + Abuso Sexual", is_discursive: true },
-  { station_id: 1613, station_area: "Ginecologia e Obstetrícia", station_name: "Violência Sexual", is_discursive: true },
-  { station_id: 1614, station_area: "Pediatria", station_name: "Obesidade Infantil", is_discursive: true },
-  { station_id: 1615, station_area: "M. da Família e Comunidade", station_name: "Prevenção Quaternária e Rastreamento Racional", is_discursive: true },
-  { station_id: 1717, station_area: "M. da Família e Comunidade", station_name: "Territorialização e Planejamento em Saúde", is_discursive: true },
-  { station_id: 2014, station_area: "Pediatria", station_name: "Síndrome Nefrítica Pós-Infecciosa - GNPE/GNDA", is_discursive: true },
-  { station_id: 2015, station_area: "Cirurgia", station_name: "ABCDE - Uso do POCUS no Atendimento ao Politrauma", is_discursive: true },
-  { station_id: 1713, station_area: "M. da Família e Comunidade", station_name: "Síndrome Metabólica e Risco Cardiovascular", is_discursive: true },
-  { station_id: 1714, station_area: "Clínica Médica", station_name: "Morte Encefálica e Doação de Órgãos", is_discursive: true },
-  { station_id: 2405, station_area: "M. da Família e Comunidade", station_name: "Protocolo SPIKES - CA colo útero" },
-  { station_id: 2018, station_area: "Ginecologia e Obstetrícia", station_name: "Protocolo SPIKES - Malformação fetal", is_discursive: true },
-  { station_id: 2116, station_area: "Cirurgia", station_name: "xABCDE - Conceitos da avaliação primária - Foco em A e B", is_discursive: true },
-  { station_id: 2117, station_area: "Ginecologia e Obstetrícia", station_name: "Violência Sexual", is_discursive: true },
-  { station_id: 2119, station_area: "M. da Família e Comunidade", station_name: "Registro Clínico Orientado por Problemas - Método SOAP", is_discursive: true },
-  { station_id: 2120, station_area: "Pediatria", station_name: "PAC - Pneumonia Adquirida na Comunidade Grave", is_discursive: true },
-  { station_id: 2101, station_area: "Clínica Médica", station_name: "Hipertireoidismo" },
-  { station_id: 512, station_area: "M. da Família e Comunidade", station_name: "Obesidade e tratamento com Tirzepatida (Mounjaro)" },
-  { station_id: 513, station_area: "M. da Família e Comunidade", station_name: "Saúde da População Privada de Liberdade (PPL) - Tuberculose e PNAISP" },
-  { station_id: 107, station_area: "Clínica Médica", station_name: "Intoxicação por Metanol" },
-  { station_id: 514, station_area: "M. da Família e Comunidade", station_name: "Saúde da População Cigana/Romani" },
-  { station_id: 401, station_area: "Ginecologia e Obstetrícia", station_name: "Infecção pelo HTLV na Gestação" },
-  { station_id: 504, station_area: "M. da Família e Comunidade", station_name: "Gastroenterocolite Aguda (GECA) e Prescrição Medicamentosa" },
-  { station_id: 2221, station_area: "Clínica Médica", station_name: "Hipoglicemia", is_discursive: true },
-  { station_id: 2222, station_area: "Cirurgia", station_name: "Segurança do Paciente Cirúrgico", is_discursive: true },
-  { station_id: 2223, station_area: "Pediatria", station_name: "Glomerulonefrite Difusa Aguda - GNDA", is_discursive: true },
+  {
+    "station_id": 101,
+    "station_area": "Clínica Médica",
+    "station_name": "Acidente por animal peçonhento - Abelha + Anafilaxia",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 102,
+    "station_area": "Clínica Médica",
+    "station_name": "Morte Encefálica",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 103,
+    "station_area": "Clínica Médica",
+    "station_name": "Acidente por animal peçonhento - Ofídico/Botrópico (cobra Jararaca)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 104,
+    "station_area": "Clínica Médica",
+    "station_name": "Transtorno Depressivo Maior",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 105,
+    "station_area": "Clínica Médica",
+    "station_name": "Acidente por animal peçonhento - Quilópodes (Lacraia)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 106,
+    "station_area": "Clínica Médica",
+    "station_name": "Protocolo SPIKES - Declaração de Óbito",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 107,
+    "station_area": "Clínica Médica",
+    "station_name": "Intoxicação por Metanol",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 108,
+    "station_area": "Clínica Médica",
+    "station_name": "Acidente por animal peçonhento - Aranha-Marrom (Loxosceles)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 109,
+    "station_area": "Clínica Médica",
+    "station_name": "Acidente por animal peçonhento - Ofídico/Crotálico (cobra Cascavel)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 110,
+    "station_area": "Clínica Médica",
+    "station_name": "Síndrome de Guillain Barré",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 111,
+    "station_area": "Clínica Médica",
+    "station_name": "Morte Encefálica - Realização do Exame Clínico",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 112,
+    "station_area": "Clínica Médica",
+    "station_name": "Crise de Glaucoma Agudo de Ângulo Fechado",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 113,
+    "station_area": "Clínica Médica",
+    "station_name": "Artrite Reumatóide",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 114,
+    "station_area": "Clínica Médica",
+    "station_name": "Asbestose/Pneumoconiose (amianto)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 115,
+    "station_area": "Clínica Médica",
+    "station_name": "Doença Celíaca (Intolerância ao Glúten)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 116,
+    "station_area": "Clínica Médica",
+    "station_name": "Doença de Chagas Aguda",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 117,
+    "station_area": "Clínica Médica",
+    "station_name": "DPOC - Doença Pulmonar Obstrutiva Crônica, Exacerbação",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 118,
+    "station_area": "Clínica Médica",
+    "station_name": "Miastenia Gravis - Crise Miastênica",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 119,
+    "station_area": "Clínica Médica",
+    "station_name": "Intoxicação por Carbamato (Chumbinho)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 120,
+    "station_area": "Clínica Médica",
+    "station_name": "Intoxicação por Organofosforados (Defensivo Agrícola)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 121,
+    "station_area": "Clínica Médica",
+    "station_name": "Intoxicação por Paracetamol",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 122,
+    "station_area": "Clínica Médica",
+    "station_name": "Transtorno Psicótico Agudo",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 123,
+    "station_area": "Clínica Médica",
+    "station_name": "Doença de Crohn",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 124,
+    "station_area": "Clínica Médica",
+    "station_name": "Cefaleia Secundária - Linfoma Cerebral por HIV",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 125,
+    "station_area": "Clínica Médica",
+    "station_name": "Erisipela e Sepse",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 126,
+    "station_area": "Clínica Médica",
+    "station_name": "Cirrose Hepática Descompensada (Hipertensão Portal)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 127,
+    "station_area": "Clínica Médica",
+    "station_name": "Silicose",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 128,
+    "station_area": "Clínica Médica",
+    "station_name": "Artrite Séptica/Infecciosa",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 129,
+    "station_area": "Clínica Médica",
+    "station_name": "Síndrome DRESS Aguda",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 130,
+    "station_area": "Clínica Médica",
+    "station_name": "Apneia Obstrutiva do Sono",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 131,
+    "station_area": "Clínica Médica",
+    "station_name": "Cefaleia em Salvas (Cluster Headache)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 132,
+    "station_area": "Clínica Médica",
+    "station_name": "Colite Pseudomembranosa (Clostridioides difficile)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 133,
+    "station_area": "Clínica Médica",
+    "station_name": "Insuficiência Cardíaca Descompensada (Perfil B)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 134,
+    "station_area": "Clínica Médica",
+    "station_name": "Insuficiência Cardíaca (ICFEr) - NYHA II",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 135,
+    "station_area": "Clínica Médica",
+    "station_name": "Melanoma",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 136,
+    "station_area": "Clínica Médica",
+    "station_name": "Doença de Parkinson - Estágio 1",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 137,
+    "station_area": "Clínica Médica",
+    "station_name": "Acromegalia/Gigantismo",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 138,
+    "station_area": "Clínica Médica",
+    "station_name": "Amiloidose Hereditária por Transtirretina (ATTR)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 139,
+    "station_area": "Clínica Médica",
+    "station_name": "Edema Agudo de Pulmão - EAP (Cardiogênico)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 140,
+    "station_area": "Clínica Médica",
+    "station_name": "Pneumonia por Mycoplasma pneumoniae (Germe Atípico)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 141,
+    "station_area": "Clínica Médica",
+    "station_name": "Anemia Hemolítica Autoimune - AHAI",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 142,
+    "station_area": "Clínica Médica",
+    "station_name": "Doença Ulcerosa Péptica por H. Pylori",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 143,
+    "station_area": "Clínica Médica",
+    "station_name": "Angioedema Hereditário",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 144,
+    "station_area": "Clínica Médica",
+    "station_name": "Diabetes Insipidus",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 145,
+    "station_area": "Clínica Médica",
+    "station_name": "Cefaleia Tensional",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 146,
+    "station_area": "Clínica Médica",
+    "station_name": "EVALI - Lesão Pulmonar Associada ao uso de Cigarro Eletrônico",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 201,
+    "station_area": "Cirurgia",
+    "station_name": "xABCDE - Amputação Traumática Transtibial",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 202,
+    "station_area": "Cirurgia",
+    "station_name": "Passagem de Caso Clínico - Fratura Exposta",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 203,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Traumatismo Cranioencefálico Grave (TCE Grave)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 204,
+    "station_area": "Cirurgia",
+    "station_name": "Doença de Chagas Crônica (Megacólon Chagásico)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 205,
+    "station_area": "Cirurgia",
+    "station_name": "Dissecção Aguda de Aorta",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 206,
+    "station_area": "Cirurgia",
+    "station_name": "Diverticulite Aguda não complicada - Hinchey Ia",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 207,
+    "station_area": "Cirurgia",
+    "station_name": "Diverticulite Aguda Complicada - Hinchey II",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 208,
+    "station_area": "Cirurgia",
+    "station_name": "Diverticulite Aguda Complicada - Hinchey IV",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 209,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Fratura de Pelve instável (em livro aberto)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 210,
+    "station_area": "Cirurgia",
+    "station_name": "Desimpactação de Fecaloma (Procedimento)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 211,
+    "station_area": "Cirurgia",
+    "station_name": "Trauma Abdominal Penetrante - Arma Branca",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 212,
+    "station_area": "Cirurgia",
+    "station_name": "Pancreatite Crônica",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 213,
+    "station_area": "Cirurgia",
+    "station_name": "Fístula Anorretal",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 214,
+    "station_area": "Cirurgia",
+    "station_name": "Abscesso anorretal",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 215,
+    "station_area": "Cirurgia",
+    "station_name": "Obesidade e Cirurgia Bariátrica",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 216,
+    "station_area": "Cirurgia",
+    "station_name": "Câncer de Próstata",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 217,
+    "station_area": "Cirurgia",
+    "station_name": "Síndrome de Fournier - Fasciíte Necrosante Perineal",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 218,
+    "station_area": "Cirurgia",
+    "station_name": "Hérnia Inguinal Encarcerada",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 219,
+    "station_area": "Cirurgia",
+    "station_name": "Isquemia Mesentérica Aguda - Abdome Agudo Vascular",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 220,
+    "station_area": "Cirurgia",
+    "station_name": "Volvo de Sigmoide - Abdome Agudo Obstrutivo Baixo",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 301,
+    "station_area": "Pediatria",
+    "station_name": "Sarampo",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 302,
+    "station_area": "Pediatria",
+    "station_name": "Tungíase (Bicho-de-Pé)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 303,
+    "station_area": "Pediatria",
+    "station_name": "Bronquiolite Viral Aguda",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 304,
+    "station_area": "Pediatria",
+    "station_name": "Diarreia com Desidratação - plano B",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 305,
+    "station_area": "Pediatria",
+    "station_name": "Intoxicação por Chumbo (Saturnismo) na criança",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 306,
+    "station_area": "Pediatria",
+    "station_name": "PAC Leve - Pneumonia na infância",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 307,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 2 meses - Síndrome de Down",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 308,
+    "station_area": "Pediatria",
+    "station_name": "Púrpura de Henoch-Schönlein (Vasculite por IgA)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 309,
+    "station_area": "Pediatria",
+    "station_name": "Diarreia com Desidratação Grave - plano C",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 310,
+    "station_area": "Pediatria",
+    "station_name": "Doença de Hirschsprung (Megacólon Congênito)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 311,
+    "station_area": "Pediatria",
+    "station_name": "Meningite Viral",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 312,
+    "station_area": "Pediatria",
+    "station_name": "Reanimação Neonatal - RN ≥34 semanas",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 313,
+    "station_area": "Pediatria",
+    "station_name": "Vítima de Afogamento - Grau 3",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 314,
+    "station_area": "Pediatria",
+    "station_name": "Hérnia Inguinal Indireta",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 315,
+    "station_area": "Pediatria",
+    "station_name": "Convulsão Febril Simples",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 316,
+    "station_area": "Pediatria",
+    "station_name": "Doença de Fabry",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 317,
+    "station_area": "Pediatria",
+    "station_name": "Testemunha de Jeová - Choque Hemorrágico e Aspectos Éticos",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 318,
+    "station_area": "Pediatria",
+    "station_name": "Alergia à Proteína de Leite de Vaca - APLV",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 319,
+    "station_area": "Pediatria",
+    "station_name": "Artrite Idiopática Juvenil",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 320,
+    "station_area": "Pediatria",
+    "station_name": "Anemia Ferropriva",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 321,
+    "station_area": "Pediatria",
+    "station_name": "Doença da Arranhadura do Gato",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 322,
+    "station_area": "Pediatria",
+    "station_name": "Cólica do Lactente",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 323,
+    "station_area": "Pediatria",
+    "station_name": "Síndrome de Aspiração Meconial - SAM",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 324,
+    "station_area": "Pediatria",
+    "station_name": "Taquipneia Transitória do Recém-Nascido - TTRN",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 325,
+    "station_area": "Pediatria",
+    "station_name": "Herpangina / Doença Mão-Pé-Boca",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 326,
+    "station_area": "Pediatria",
+    "station_name": "Laringotraqueíte Viral Aguda (Crupe)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 327,
+    "station_area": "Pediatria",
+    "station_name": "Eritema Infeccioso - Exantemática",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 401,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Infecção pelo HTLV na Gestação",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 402,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Sífilis Primária na Gestação",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 403,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Toxoplasmose Aguda na Gestação",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 404,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Doença Hemolítica Perinatal (Aloimunização Rh)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 405,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Gestação Gemelar",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 406,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Colestase da Gravidez",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 407,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Rotura Prematura de Membranas - RPMO 36 semanas",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 408,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Rotura Prematura de Membranas - RPMO 33 semanas",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 409,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Ingurgitamento mamário",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 410,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Rotura Uterina",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 411,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Síndrome do Anticorpo Antifosfolipídeo (SAF)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 412,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Candidíase Vulvovaginal Recorrente",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 413,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Inserção de Implante Subdérmico de Etonogestrel (Implanon®)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 414,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Inserção de Dispositivo Intrauterino - DIU",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 415,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Doença Trofoblástica Gestacional - Mola Hidatiforme",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 416,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Nódulo Mamário Suspeito - BI-RADS 4",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 501,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Acidente por animal peçonhento - Água-Viva/Caravelas",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 502,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Triagem para Abuso de Álcool no Adolescente",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 503,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Preenchimento da Declaração de Óbito",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 504,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Gastroenterocolite Aguda (GECA) e Prescrição Medicamentosa",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 505,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Febre Maculosa",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 506,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Fibromialgia",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 507,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Profilaxia de Febre Amarela",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 508,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Rastreio na Atenção Primária - Mulher 50 anos",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 509,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Malária por Plasmodium vivax",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 510,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Dengue Grupo C",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 511,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Obstrução de Vias Aéreas por Corpo Estranho - OVACE (Desengasgo)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 512,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Obesidade e tratamento com Tirzepatida (Mounjaro)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 513,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Saúde da População Privada de Liberdade (PPL) - Tuberculose e PNAISP",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 514,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Saúde da População Cigana/Romani",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 515,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Saúde da População Ribeirinha - Malária na Gestação",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 516,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Esporotricose",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 517,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Atualização Vacinal no Adulto",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 518,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Febre do Oropouche (Maruim)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 519,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Transtorno do Jogo (Ludopatia) e Sofrimento Mental na APS",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 520,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Violência contra a Pessoa Idosa (Abordagem Integral na APS)",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 521,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Artrite Psoríaca",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 522,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Álcoolismo e Síndrome de Abstinência",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 523,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Esquizofrenia",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 524,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Lavagem Auricular para Remoção de Cerume",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 525,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Sífilis Secundária e Coinfecção pelo HIV",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 526,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Coinfecção Tuberculose e HIV",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 527,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Hanseníase Paucibacilar",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 528,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Hanseníase Multibacilar",
+    "station_edition": "🗲 PEPList"
+  },
+  {
+    "station_id": 1101,
+    "station_area": "Clínica Médica",
+    "station_name": "Intubação Orotraqueal - IOT",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1102,
+    "station_area": "Cirurgia",
+    "station_name": "Cólica Biliar - somente anamnese",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1103,
+    "station_area": "Pediatria",
+    "station_name": "Recepção e Atenção ao Recém Nascido - RN",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1104,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Pré Natal 3ºT + Leopold + Informações sobre o parto",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1105,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Dengue Hemorrágica",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1106,
+    "station_area": "Clínica Médica",
+    "station_name": "Hipertensão Arterial - HAS",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1107,
+    "station_area": "Cirurgia",
+    "station_name": "Sutura",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1108,
+    "station_area": "Pediatria",
+    "station_name": "Desenvolvimento e Obesidade infantil",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1109,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "DIP - Doença Inflamatória Pélvica",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1110,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Puericultura 7 dias/Aleitamento materno",
+    "station_edition": "INEP 2011"
+  },
+  {
+    "station_id": 1111,
+    "station_area": "Clínica Médica",
+    "station_name": "Tuberculose (discursiva)",
+    "station_edition": "INEP 2011",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1112,
+    "station_area": "Cirurgia",
+    "station_name": "Apendicite aguda (discursiva)",
+    "station_edition": "INEP 2011",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1113,
+    "station_area": "Pediatria",
+    "station_name": "Hipotireodismo congênito (discursiva)",
+    "station_edition": "INEP 2011",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1114,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Pré Eclâmpsia Grave + Síndrome HELLP (discursiva)",
+    "station_edition": "INEP 2011",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1115,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Promoção da Atividade Física (discursiva)",
+    "station_edition": "INEP 2011",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1201,
+    "station_area": "Clínica Médica",
+    "station_name": "Infarto Agudo do Miocárdio - IAM CSST de parede anterior",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1202,
+    "station_area": "Cirurgia",
+    "station_name": "Inflamação do sítio cirúrgico pós-operatório",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1203,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 3 meses/Antropometria + aleitamento",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1204,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Pré-eclâmpsia",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1205,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Orientação ao ACS sobre violência",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1206,
+    "station_area": "Clínica Médica",
+    "station_name": "Intubação Orotraqueal - IOT (uso de fio guia)",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1207,
+    "station_area": "Cirurgia",
+    "station_name": "Protocolo SPIKES - CA próstata",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1208,
+    "station_area": "Pediatria",
+    "station_name": "Criptorquia unilateral",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1209,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Gravidez ectópica rota + Declaração de óbito",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1210,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Abertura de pré-natal",
+    "station_edition": "INEP 2012"
+  },
+  {
+    "station_id": 1211,
+    "station_area": "Pediatria",
+    "station_name": "Faringite/Faringoamigdalite Estreptocócica (discursiva)",
+    "station_edition": "INEP 2012",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1212,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Gravidez Ectópica íntegra (discursiva)",
+    "station_edition": "INEP 2012",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1213,
+    "station_area": "Pediatria",
+    "station_name": "Obesidade infantil (discursiva)",
+    "station_edition": "INEP 2012",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1214,
+    "station_area": "Clínica Médica",
+    "station_name": "Pneumonia Adquirida na Comunidade - PAC (discursiva)",
+    "station_edition": "INEP 2012",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1215,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Lombalgia Mecânica Crônica (discursiva)",
+    "station_edition": "INEP 2012",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1301,
+    "station_area": "Clínica Médica",
+    "station_name": "TEP - Tromboembolistmo pulmonar",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1302,
+    "station_area": "Cirurgia",
+    "station_name": "Atendimento ao queimado",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1303,
+    "station_area": "Pediatria",
+    "station_name": "Meningite bacteriana meningocócica",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1304,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Trabalho de parto + distócia de ombro",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1305,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Visita domiciliar + Obesidade",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1306,
+    "station_area": "Clínica Médica",
+    "station_name": "Pneumonia Adquirida na Comunidade - PAC não complicada",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1307,
+    "station_area": "Cirurgia",
+    "station_name": "Sutura",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1308,
+    "station_area": "Pediatria",
+    "station_name": "Icteria do leite materno",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1309,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Infertilidade conjugal",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1310,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Implantação de ESF/PSF",
+    "station_edition": "INEP 2013"
+  },
+  {
+    "station_id": 1311,
+    "station_area": "Clínica Médica",
+    "station_name": "Cetoacidose Diabética (discursiva)",
+    "station_edition": "INEP 2013",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1312,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Pré-eclâmpsia Grave com Síndrome HELLP (discursiva)",
+    "station_edition": "INEP 2013",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1313,
+    "station_area": "Pediatria",
+    "station_name": "Icterícia Neonatal por Incompatibilidade ABO (discursiva)",
+    "station_edition": "INEP 2013",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1314,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Doenças Negligenciadas e Prevenção da Dengue (discursiva)",
+    "station_edition": "INEP 2013",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1315,
+    "station_area": "Cirurgia",
+    "station_name": "Mordedura Animal/profilaxia de raiva e tétano - cão (discursiva)",
+    "station_edition": "INEP 2013",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1401,
+    "station_area": "Clínica Médica",
+    "station_name": "Lombalgia mecânica",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1402,
+    "station_area": "Cirurgia",
+    "station_name": "Celulite",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1403,
+    "station_area": "Pediatria",
+    "station_name": "Escarlatina",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1404,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Pré-natal e Sífilis na Gestação",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1405,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Tabagismo e DPOC",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1406,
+    "station_area": "Clínica Médica",
+    "station_name": "Hipotireoidismo",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1407,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Fratura de tíbia não complicada",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1408,
+    "station_area": "Pediatria",
+    "station_name": "Recepção e atenção ao RN",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1409,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Anticoncepção Oral Combinada",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1410,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Tuberculose",
+    "station_edition": "INEP 2014"
+  },
+  {
+    "station_id": 1411,
+    "station_area": "Pediatria",
+    "station_name": "Doença da Membrana Hialina (discursiva)",
+    "station_edition": "INEP 2014",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1412,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Rastreamento de Diabetes Mellitus tipo 2 (discursiva)",
+    "station_edition": "INEP 2014",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1413,
+    "station_area": "Clínica Médica",
+    "station_name": "Acidente Vascular Cerebral Isquêmico (AVCi) Cardioembólico (discursiva)",
+    "station_edition": "INEP 2014",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1414,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Hemorragia pós-parto (discursiva)",
+    "station_edition": "INEP 2014",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1415,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Lesão Raquimedular (discursiva)",
+    "station_edition": "INEP 2014",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1501,
+    "station_area": "Clínica Médica",
+    "station_name": "Diabetes Melittus tipo 2 - DM2 + uso de insulina",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1502,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Pneumotórax Hipertensivo",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1503,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 2 meses - Aleitamento materno",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1504,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Ameaça de aborto",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1505,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Hanseníase",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1506,
+    "station_area": "Clínica Médica",
+    "station_name": "Pielonefrite aguda + ITU Recorrente",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1507,
+    "station_area": "Cirurgia",
+    "station_name": "Úlcera péptica perfurada - Abdome Agudo Perfurativo",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1508,
+    "station_area": "Pediatria",
+    "station_name": "Baixa estatura constitucional",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1509,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Violência sexual + aborto legal",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1510,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Tabagismo + rastreios no idoso",
+    "station_edition": "INEP 2015"
+  },
+  {
+    "station_id": 1511,
+    "station_area": "Clínica Médica",
+    "station_name": "Lúpus Eritematoso Sistêmico - LES (discursiva)",
+    "station_edition": "INEP 2015",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1512,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Rastreio Amenorreia Secundária (discursiva)",
+    "station_edition": "INEP 2015",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1513,
+    "station_area": "Clínica Médica",
+    "station_name": "Tuberculose não tratada + Derrame pleural (discursiva)",
+    "station_edition": "INEP 2015",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1514,
+    "station_area": "Pediatria",
+    "station_name": "Violência Sexual Infantil (discursiva)",
+    "station_edition": "INEP 2015",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1515,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Construção e Interpretação de Genograma (discursiva)",
+    "station_edition": "INEP 2015",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1601,
+    "station_area": "Clínica Médica",
+    "station_name": "Protocolo SPIKES - HIV",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1602,
+    "station_area": "Cirurgia",
+    "station_name": "Sutura",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1603,
+    "station_area": "Pediatria",
+    "station_name": "Protocolo SPIKES - Síndrome de Down",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1604,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Dengue na gestação",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1605,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Princípios da ESF - Estratégia de Saúde da Família",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1606,
+    "station_area": "Clínica Médica",
+    "station_name": "Enxaqueca/migrânea",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1607,
+    "station_area": "Cirurgia",
+    "station_name": "Abdome agudo perfurativo + Manejo de choque séptico",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1608,
+    "station_area": "Pediatria",
+    "station_name": "Asma + uso do dispositivo inalatório",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1609,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Violência doméstica + Depressão + Risco de suicídio",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1610,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Tuberculose pulmonar",
+    "station_edition": "INEP 2016"
+  },
+  {
+    "station_id": 1611,
+    "station_area": "Clínica Médica",
+    "station_name": "Síndrome Metabólica (discursiva)",
+    "station_edition": "INEP 2016",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1612,
+    "station_area": "Cirurgia",
+    "station_name": "xABCDE - Fratura de fêmur (discursiva)",
+    "station_edition": "INEP 2016",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1613,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Violência Sexual (discursiva)",
+    "station_edition": "INEP 2016",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1614,
+    "station_area": "Pediatria",
+    "station_name": "Obesidade Infantil (discursiva)",
+    "station_edition": "INEP 2016",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1615,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Prevenção Quaternária e Rastreamento Racional (discursiva)",
+    "station_edition": "INEP 2016",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1701,
+    "station_area": "Clínica Médica",
+    "station_name": "Doença do Refluxo Gastroesofágico • DRGE",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1702,
+    "station_area": "Cirurgia",
+    "station_name": "Trauma abdominal + Sutura",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1703,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 45 dias/Antropometria",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1704,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Eclâmpsia",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1705,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Lesão por Esforço Repetitivo • LER/DORT + Transtorno de Ansiedade",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1706,
+    "station_area": "Clínica Médica",
+    "station_name": "Hipertensão com lesão de órgão alvo e Retinopatia Hipertensiva",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1707,
+    "station_area": "Cirurgia",
+    "station_name": "Pneumotórax espontâneo",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1708,
+    "station_area": "Pediatria",
+    "station_name": "Prevenção de acidentes à criança",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1709,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Anticoncepção pós parto",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1710,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Atenção domiciliar e cuidados Pós IAM",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1711,
+    "station_area": "Clínica Médica",
+    "station_name": "Endocardite infecciosa (reaplicação)",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1712,
+    "station_area": "Clínica Médica",
+    "station_name": "Hepatites Virais (reaplicação)",
+    "station_edition": "INEP 2017"
+  },
+  {
+    "station_id": 1713,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Síndrome Metabólica e Risco Cardiovascular (discursiva)",
+    "station_edition": "INEP 2017",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1714,
+    "station_area": "Clínica Médica",
+    "station_name": "Morte Encefálica e Doação de Órgãos (discursiva)",
+    "station_edition": "INEP 2017",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1715,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Sífilis Latente na Gestação (discursiva)",
+    "station_edition": "INEP 2017",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1716,
+    "station_area": "Pediatria",
+    "station_name": "Condiloma Acuminado/Verruga Genital + Abuso Sexual (discursiva)",
+    "station_edition": "INEP 2017",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1717,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Territorialização e Planejamento em Saúde (discursiva)",
+    "station_edition": "INEP 2017",
+    "is_discursive": true
+  },
+  {
+    "station_id": 1718,
+    "station_area": "Clínica Médica",
+    "station_name": "Angina Estável / Doença Arterial Coronariana | 2017",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1719,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 5 dias | 2017",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1720,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Contracepção Hormonal | 2017",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1801,
+    "station_area": "Clínica Médica",
+    "station_name": "Síncope / Bloqueio Atrioventricular | 2018",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1802,
+    "station_area": "Pediatria",
+    "station_name": "Asma - Controle na Adolescência | 2018",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1803,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Dor Pélvica Aguda (investigação) | 2018",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1901,
+    "station_area": "Clínica Médica",
+    "station_name": "Úlcera Péptica por H. pylori | 2019",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1902,
+    "station_area": "Cirurgia",
+    "station_name": "Diverticulite Aguda Complicada (Fístula Colovesical) | 2019",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1903,
+    "station_area": "Pediatria",
+    "station_name": "Anticoncepção na Adolescência | 2019",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1904,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Anamnese Ginecológica (Dor Pélvica) | 2019",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 1905,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Protocolo SPIKES - Câncer de Colo de Útero | 2019",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 2001,
+    "station_area": "Clínica Médica",
+    "station_name": "Leucemia aguda",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2002,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Fratura de tíbia exposta",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2003,
+    "station_area": "Pediatria",
+    "station_name": "Coqueluche",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2004,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Sangramento Uterino Anormal - SUA + Exame especular",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2005,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Tuberculose",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2006,
+    "station_area": "Clínica Médica",
+    "station_name": "Pneumonia",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2007,
+    "station_area": "Cirurgia",
+    "station_name": "Apendicide aguda",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2008,
+    "station_area": "Pediatria",
+    "station_name": "Anemia Falciforme + Crise álgica",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2009,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Lipotimia",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2010,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Violência familiar (física e financeira) + tentativa de suicídio",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2011,
+    "station_area": "Clínica Médica",
+    "station_name": "Doença do Refluxo Gastroesofágico - DRGE + Dispepsia (reaplicação)",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2012,
+    "station_area": "Pediatria",
+    "station_name": "Cetoacidose Diabética - CAD (reaplicação)",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2013,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Puerpério + Baby Blues (reaplicação)",
+    "station_edition": "INEP 2020"
+  },
+  {
+    "station_id": 2014,
+    "station_area": "Pediatria",
+    "station_name": "Síndrome Nefrítica Pós-Infecciosa - GNPE/GNDA (discursiva)",
+    "station_edition": "INEP 2020",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2015,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Uso do POCUS no Atendimento ao Politrauma (discursiva)",
+    "station_edition": "INEP 2020",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2016,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Avaliação Geriátrica Ampla e Polifarmácia (discursiva)",
+    "station_edition": "INEP 2020",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2017,
+    "station_area": "Clínica Médica",
+    "station_name": "Cetoacidose Diabética - CAD (discursiva 2020)",
+    "station_edition": "INEP 2020",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2018,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Protocolo SPIKES - Malformação fetal (discursiva)",
+    "station_edition": "INEP 2020",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2019,
+    "station_area": "Clínica Médica",
+    "station_name": "Meningite em Imunossuprimido | 2020",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 2020,
+    "station_area": "Clínica Médica",
+    "station_name": "Manejo de Sepse e Choque Séptico | 2020",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 2021,
+    "station_area": "Cirurgia",
+    "station_name": "Polipose Adenomatosa Familiar (PAF) - Rastreio | 2020",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 2022,
+    "station_area": "Pediatria",
+    "station_name": "Baixa Estatura na Adolescência | 2020",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 2023,
+    "station_area": "Pediatria",
+    "station_name": "Rinite Alérgica no Adolescente | 2020",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 2024,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Sangramento na Pós-Menopausa e Comunicação de Más Notícias | 2020",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 2025,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Sangramento Uterino Anormal (SUA) - Spotting/Escape | 2020",
+    "station_edition": "PSU-CE/UFC"
+  },
+  {
+    "station_id": 2101,
+    "station_area": "Clínica Médica",
+    "station_name": "Hipertireoidismo",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2102,
+    "station_area": "Cirurgia",
+    "station_name": "Obstrução Intestinal Alta",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2103,
+    "station_area": "Pediatria",
+    "station_name": "Icterícia Neonatal",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2104,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Anticoncepção/DIU + Papanicolau",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2105,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Infarto Agudo do Miocárdio - IAM CSST",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2106,
+    "station_area": "Clínica Médica",
+    "station_name": "Cirrose Hepática + Ascite",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2107,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Pneumotórax Hipertensivo",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2108,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 3 meses/Amamentação + Vacinação",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2109,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Ameaça de aborto",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2110,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Dengue grupo B",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2111,
+    "station_area": "Clínica Médica",
+    "station_name": "Doença Pulmonar Obstrutiva Crônica - DPOC (reaplicação)",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2112,
+    "station_area": "Cirurgia",
+    "station_name": "Nefrolitíase + ITU (reaplicação)",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2113,
+    "station_area": "Pediatria",
+    "station_name": "Invaginação Intestinal (reaplicação)",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2114,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Candidíase (reaplicação)",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2115,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Rastreio Câncer de Mama (reaplicação)",
+    "station_edition": "INEP 2021"
+  },
+  {
+    "station_id": 2116,
+    "station_area": "Cirurgia",
+    "station_name": "xABCDE - Conceitos da avaliação primária - Foco em A e B (discursiva)",
+    "station_edition": "INEP 2021",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2117,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Violência Sexual (discursiva 2021)",
+    "station_edition": "INEP 2021",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2118,
+    "station_area": "Cirurgia",
+    "station_name": "Colangite Aguda Grave (discursiva)",
+    "station_edition": "INEP 2021",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2119,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Registro Clínico Orientado por Problemas - Método SOAP (discursiva)",
+    "station_edition": "INEP 2021",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2120,
+    "station_area": "Pediatria",
+    "station_name": "PAC - Pneumonia Adquirida na Comunidade Grave (discursiva)",
+    "station_edition": "INEP 2021",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2201,
+    "station_area": "Clínica Médica",
+    "station_name": "Retocolite Ulcerativa",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2202,
+    "station_area": "Cirurgia",
+    "station_name": "CA Colorretal + Hemorróida",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2203,
+    "station_area": "Pediatria",
+    "station_name": "Apendicite aguda",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2204,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "DIP - Doença Inflamatória Pélvica complicada",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2205,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Leishmaniose Tegumentar",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2206,
+    "station_area": "Clínica Médica",
+    "station_name": "Artrite Gotosa",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2207,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - atendimento ao queimado",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2208,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 4 meses/Antropometria + Regurgitação fisiológica",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2209,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Desprendimento Prematuro de Placenta - DPP + sofrimento fetal",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2210,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Tabagismo",
+    "station_edition": "INEP 2022/1"
+  },
+  {
+    "station_id": 2211,
+    "station_area": "Clínica Médica",
+    "station_name": "Síndrome de Wolff-Parkinson-White (arritmia)",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2212,
+    "station_area": "Cirurgia",
+    "station_name": "Hiperplasia Prostática Benigna - HPB + Prostatite aguda",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2213,
+    "station_area": "Pediatria",
+    "station_name": "Febre sem sinais localizados",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2214,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Gestação + aborto legal",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2215,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Herpes-zóster",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2216,
+    "station_area": "Clínica Médica",
+    "station_name": "Anemia Megaloblástica",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2217,
+    "station_area": "Cirurgia",
+    "station_name": "Colecistite aguda litiásica",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2218,
+    "station_area": "Pediatria",
+    "station_name": "Hidrocele comunicante",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2219,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Sífilis Primária/Recente",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2220,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "MCCP + Calendário vacinal infantil",
+    "station_edition": "INEP 2022/2"
+  },
+  {
+    "station_id": 2221,
+    "station_area": "Clínica Médica",
+    "station_name": "Hipoglicemia (discursiva)",
+    "station_edition": "INEP 2022/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2222,
+    "station_area": "Cirurgia",
+    "station_name": "Segurança do Paciente Cirúrgico (discursiva)",
+    "station_edition": "INEP 2022/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2223,
+    "station_area": "Pediatria",
+    "station_name": "Glomerulonefrite Difusa Aguda - GNDA (discursiva)",
+    "station_edition": "INEP 2022/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2224,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Pielonefrite na Gestação (discursiva)",
+    "station_edition": "INEP 2022/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2225,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Lesão por Esforço Repetitivo - LER/DORT (discursiva)",
+    "station_edition": "INEP 2022/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2226,
+    "station_area": "Clínica Médica",
+    "station_name": "Morte Encefálica - Eutanásia e Distanásia (discursiva)",
+    "station_edition": "INEP 2022/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2227,
+    "station_area": "Cirurgia",
+    "station_name": "Rastreamento de Câncer Colorretal (discursiva)",
+    "station_edition": "INEP 2022/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2228,
+    "station_area": "Pediatria",
+    "station_name": "Anemia Ferropriva (discursiva)",
+    "station_edition": "INEP 2022/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2229,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Partograma - Parada Secundária da Dilatação (discursiva)",
+    "station_edition": "INEP 2022/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2230,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Rastreamento e Prevenção Quaternária (discursiva)",
+    "station_edition": "INEP 2022/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2301,
+    "station_area": "Clínica Médica",
+    "station_name": "Asma laboral",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2302,
+    "station_area": "Cirurgia",
+    "station_name": "Infecção do sítio cirúrgico + Endocardite infecciosa",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2303,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 3 meses/Antropometria + Amamentação",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2304,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Papanicolau",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2305,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Saúde indígena e desnutrição",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2306,
+    "station_area": "Clínica Médica",
+    "station_name": "Hipertensão Arterial Sistêmica - HAS não controlada",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2307,
+    "station_area": "Cirurgia",
+    "station_name": "Torção testicular",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2308,
+    "station_area": "Pediatria",
+    "station_name": "Ingesta de corpo estranho",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2309,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Diabetes gestacional",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2310,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Síndrome de Burnout",
+    "station_edition": "INEP 2023/1"
+  },
+  {
+    "station_id": 2311,
+    "station_area": "Clínica Médica",
+    "station_name": "Farmacodermia/urticária",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2312,
+    "station_area": "Cirurgia",
+    "station_name": "Pancreatite aguda litiásica",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2313,
+    "station_area": "Pediatria",
+    "station_name": "Acidente por animal peçonhento - Escorpião Amarelo",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2314,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Exame de mamas + nódulo mamário",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2315,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Atendimento à mulher homossexual + papanicolau",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2316,
+    "station_area": "Clínica Médica",
+    "station_name": "AVCi - Acidente Vascular Cerebral Isquêmico",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2317,
+    "station_area": "Cirurgia",
+    "station_name": "Sutura",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2318,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 1 ano/Antropometria",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2319,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Exame físico Obstétrico/Manobras de Leopold",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2320,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Obesidade",
+    "station_edition": "INEP 2023/2"
+  },
+  {
+    "station_id": 2321,
+    "station_area": "Clínica Médica",
+    "station_name": "Esôfago de Barret (discursiva)",
+    "station_edition": "INEP 2023/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2322,
+    "station_area": "Cirurgia",
+    "station_name": "Câncer de Esôfago (discursiva)",
+    "station_edition": "INEP 2023/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2323,
+    "station_area": "Pediatria",
+    "station_name": "Candidíase Mamária + Trauma Mamilar + Técnica de Amamentação (discursiva)",
+    "station_edition": "INEP 2023/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2324,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Vaginose Bacteriana (discursiva)",
+    "station_edition": "INEP 2023/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2325,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Uretrite / Corrimento Uretral / Gonorreia (discursiva)",
+    "station_edition": "INEP 2023/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2326,
+    "station_area": "Clínica Médica",
+    "station_name": "Oclusão Arterial Aguda MMSS + Fibrilação Atrial (discursiva)",
+    "station_edition": "INEP 2023/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2327,
+    "station_area": "Cirurgia",
+    "station_name": "Neoplasia de Pâncreas (discursiva)",
+    "station_edition": "INEP 2023/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2328,
+    "station_area": "Pediatria",
+    "station_name": "Crise de Asma Grave (discursiva)",
+    "station_edition": "INEP 2023/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2329,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "SOP - Síndrome dos Ovários Policísticos (discursiva)",
+    "station_edition": "INEP 2023/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2330,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "IAM - Infarto Agudo do Miocárdio + ERG de Framingham (discursiva)",
+    "station_edition": "INEP 2023/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2401,
+    "station_area": "Clínica Médica",
+    "station_name": "Síndrome de Budd Chiari + Ascite",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2402,
+    "station_area": "Cirurgia",
+    "station_name": "Pneumotórax Hipertensivo",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2403,
+    "station_area": "Pediatria",
+    "station_name": "Estenose Hipertrófica de Piloro",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2404,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Síndrome HELLP",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2405,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Protocolo SPIKES - CA colo útero",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2406,
+    "station_area": "Clínica Médica",
+    "station_name": "Asma + uso do dispositivo inalatório",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2407,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Atendimento ao queimado",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2408,
+    "station_area": "Pediatria",
+    "station_name": "Celulite periorbitária",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2409,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Climatério",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2410,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Orientação ao uso de insulina",
+    "station_edition": "INEP 2024/1"
+  },
+  {
+    "station_id": 2411,
+    "station_area": "Clínica Médica",
+    "station_name": "Dengue grupo A",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2412,
+    "station_area": "Cirurgia",
+    "station_name": "Oclusão\\Obstrução Arterial Aguda",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2413,
+    "station_area": "Pediatria",
+    "station_name": "Criptorquidia e Fimose fisiológica",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2414,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Placenta prévia total",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2415,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Acidente por animal peçonhento - Lonomia/Lagarta",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2416,
+    "station_area": "Clínica Médica",
+    "station_name": "Escala de NIHSS - AVC",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2417,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Trauma de baço/esplênico",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2418,
+    "station_area": "Pediatria",
+    "station_name": "Puericultura 3 anos/HAS",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2419,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Violência Sexual",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2420,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "DIP - Doença Inflamatória Pélvica",
+    "station_edition": "INEP 2024/2"
+  },
+  {
+    "station_id": 2421,
+    "station_area": "Clínica Médica",
+    "station_name": "Doença/Mal de Alzheimer (discursiva)",
+    "station_edition": "INEP 2024/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2422,
+    "station_area": "Cirurgia",
+    "station_name": "Pós-operatório de Tireoidectomia (discursiva)",
+    "station_edition": "INEP 2024/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2423,
+    "station_area": "Pediatria",
+    "station_name": "Crise de Asma Grave (discursiva 2024)",
+    "station_edition": "INEP 2024/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2424,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Trabalho de parto - Fase Latente (discursiva)",
+    "station_edition": "INEP 2024/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2425,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Febre Chikungunya (discursiva)",
+    "station_edition": "INEP 2024/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2426,
+    "station_area": "Clínica Médica",
+    "station_name": "TEP - Tromboembolismo Pulmonar (discursiva)",
+    "station_edition": "INEP 2024/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2427,
+    "station_area": "Cirurgia",
+    "station_name": "ABCDE - Tamponamento Cardíaco (discursiva)",
+    "station_edition": "INEP 2024/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2428,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Gestação e Anticoncepção na adolescência (discursiva)",
+    "station_edition": "INEP 2024/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2429,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Partograma - Parto Eutócico (discursiva)",
+    "station_edition": "INEP 2024/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2430,
+    "station_area": "Pediatria",
+    "station_name": "Meningite Bacteriana com Meningococcemia (discursiva)",
+    "station_edition": "INEP 2024/2",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2501,
+    "station_area": "Clínica Médica",
+    "station_name": "Lombalgia inflamatória/Espondilite Anquilosante",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2502,
+    "station_area": "Cirurgia",
+    "station_name": "Úlcera péptica perfurada - Abdome Agudo Perfurativo",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2503,
+    "station_area": "Pediatria",
+    "station_name": "Transtorno do Espectro Autista - TEA",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2504,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Dengue na gestação",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2505,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Osteoporose/Osteopenia",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2506,
+    "station_area": "Clínica Médica",
+    "station_name": "Paralisía de Bell",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2507,
+    "station_area": "Cirurgia",
+    "station_name": "Ureterolitíase",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2508,
+    "station_area": "Pediatria",
+    "station_name": "Acidente por animal peçonhento - Abelha + Anafilaxia",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2509,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Miomatose uterina",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2510,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Insônia primária",
+    "station_edition": "INEP 2025/1"
+  },
+  {
+    "station_id": 2521,
+    "station_area": "Clínica Médica",
+    "station_name": "Hepatites Virais Crônicas (discursiva)",
+    "station_edition": "INEP 2025/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2522,
+    "station_area": "Cirurgia",
+    "station_name": "Doença Hemorroidária - Interna Grau III (discursiva)",
+    "station_edition": "INEP 2025/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2523,
+    "station_area": "Pediatria",
+    "station_name": "Crise de Asma Grave + Interpretação de Gasometria (discursiva)",
+    "station_edition": "INEP 2025/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2524,
+    "station_area": "Ginecologia e Obstetrícia",
+    "station_name": "Anticoncepção em Paciente de Alto Risco (discursiva)",
+    "station_edition": "INEP 2025/1",
+    "is_discursive": true
+  },
+  {
+    "station_id": 2525,
+    "station_area": "M. da Família e Comunidade",
+    "station_name": "Prevenção de ISTs (PEP e PrEP) + Contracepção (discursiva)",
+    "station_edition": "INEP 2025/1",
+    "is_discursive": true
+  }
 ];
 
-// Áreas disponíveis
 export const stationAreas = [
-  "Cirurgia",
-  "Clínica Médica",
-  "Ginecologia e Obstetrícia",
-  "M. da Família e Comunidade",
-  "Pediatria",
+  'Clínica Médica',
+  'Cirurgia',
+  'Ginecologia e Obstetrícia',
+  'Pediatria',
+  'M. da Família e Comunidade',
 ];
 
-// Cores por área
 export const areaColors: Record<string, string> = {
-  "Cirurgia": "from-red-500 to-rose-600",
-  "Clínica Médica": "from-blue-500 to-cyan-600",
-  "Ginecologia e Obstetrícia": "from-fuchsia-500 to-pink-600",
-  "M. da Família e Comunidade": "from-emerald-500 to-teal-600",
-  "Pediatria": "from-amber-500 to-orange-600",
+  'Clínica Médica': 'bg-blue-500',
+  'Cirurgia': 'bg-orange-500',
+  'Ginecologia e Obstetrícia': 'bg-pink-500',
+  'Pediatria': 'bg-green-500',
+  'M. da Família e Comunidade': 'bg-purple-500',
 };
 
-// Siglas por área
 export const areaSiglas: Record<string, string> = {
-  "Cirurgia": "CR",
-  "Clínica Médica": "CM",
-  "Ginecologia e Obstetrícia": "GO",
-  "M. da Família e Comunidade": "MF",
-  "Pediatria": "PD",
+  'Clínica Médica': 'CM',
+  'Cirurgia': 'CR',
+  'Ginecologia e Obstetrícia': 'GO',
+  'Pediatria': 'PE',
+  'M. da Família e Comunidade': 'PR',
 };

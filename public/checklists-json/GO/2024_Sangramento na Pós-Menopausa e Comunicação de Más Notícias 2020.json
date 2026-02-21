@@ -1,0 +1,253 @@
+{
+  "uid": 2024,
+  "hash": "pepe_2024",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Sangramento na Pós-Menopausa e Comunicação de Más Notícias | 2020",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - ambulatório de ginecologia.  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê atenderá uma paciente que veio mostrar o resultado de exame de ultrassom transvaginal realizado anteriormente. A paciente apresentou um episódio de sangramento vaginal moderado há 1 mês (a paciente já está na menopausa há 10 anos).",
+  "tarefas": "TAREFAS:  \n- Analisar o resultado do exame complementar;  \n- Comunicar o resultado à paciente utilizando técnicas de comunicação adequadas;  \n- Explicar as possibilidades diagnósticas (benignas e malignas);  \n- Definir e explicar a conduta médica a ser tomada a seguir.  \n\n\\\nATENÇÃO! NÃO É NECESSÁRIO REALIZAR O EXAME FÍSICO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Sônia, 62 anos, aposentada.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Vim trazer o ultrassom que o outro médico pediu na última consulta por causa de um sangramento.  \n\n\n**ANTECEDENTES:**  \n• **GPA:** duas gestações, dois partos. nunca tive aborto.  \n• **Ginecológicos:** entrei na menopausa aos 52 anos. Nunca fiz reposição hormonal.  \n• **Pessoais:** tenho Hipertensão e tomo Losartana.  \n\n\n**DÚVIDAS:**  \n• *Doutor(a), isso é câncer? Seja sincero(a) comigo.*  \n• *Mas tem cura?*  \n• *O que vamos fazer agora? Vou precisar operar?*  \n• *Tem mais algum exame pra fazer?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "ULTRASSONOGRAFIA TRANSVAGINAL",
+      "conteudo": "**Útero:** Em anteversoflexão, centrado, com contornos regulares e dimensões preservadas.  \nVolume uterino: 60 cm³.  \nMiométrio com ecotextura homogênea.  \n\n\n**Endométrio:** Espessado, medindo 18 mm de espessura, heterogêneo, com vascularização presente ao Doppler.  \n\n\n**Anexos:** Ovários não visibilizados (atróficos). Ausência de massas ou coleções anexiais.  \nFundo de saco de Douglas livre.  \n\n\n**Conclusão:** Espessamento endometrial importante. A critério clínico.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Fez anúncio breve, informando a presença de um espessamento endometrial no ultrassom**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Fez escuta ativa (contato visual, gestos demonstrando interesse e respeito)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Informou o resultado com linguagem clara e acessível, pausada e compreensível**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Demonstrou tranquilidade ao informar o resultado**   \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Fez o silêncio necessário para os questionamentos da paciente**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explicou sobre a necessidade de avaliar o espessamento endometrial para se ter o diagnóstico**  \n\n**Adequado:** explica.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Deu explicação curta com as informações necessárias sobre a possibilidade de ser um câncer endometrial**  \n\n**Adequado:** explica a possibilidade.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explicou também sobre a possibilidade de ser uma hiperplasia endometrial benigna**  \n\n**Adequado:** explica a possibilidade.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Tranquilizou a paciente, quando ela se preocupou com a possibilidade de um diagnóstico de malignidade**  \n\n**Adequado:** tranquiliza a paciente.  \n**Inadequado:** não tranquiliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Não tentou dourar a pílula (mostrando somente o lado bom ou diminuindo o problema).**  \n\n**Adequado:** mantém postura realista.  \n**Inadequado:** minimiza excessivamente o problema.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Quando a paciente perguntou se era um câncer, não evitou ou adiou a explicação do resultado,**   \n\n**Adequado:** responde diretamente (que há suspeita/possibilidade).  \n**Inadequado:** evita ou adia a resposta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Informou sobre a conduta e o tratamento com linguagem clara e acessível, pausada e compreensível**  \n\n**Adequado:** informa.  \n**Inadequado:** não informa ou usa linguagem técnica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Foi claro quanto a possibilidade de ser um câncer e a necessidade de prosseguir com novos exames para o diagnóstico imediato**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Não interrompeu a fala e a reação da paciente.**  \n\n**Adequado:** respeita a fala da paciente.  \n**Inadequado:** interrompe a paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Manteve as esperanças da paciente, falando sobre as possibilidades de tratamento e cura, mesmo sendo um câncer**   \n\n**Adequado:** aborda o prognóstico/tratamento com esperança.  \n**Inadequado:** não aborda ou é pessimista.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Perguntou se a paciente tem dúvidas**   \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Colocou-se a disposição para posteriores dúvidas ou marcou um retorno**   \n\n**Adequado:** coloca-se à disposição.  \n**Inadequado:** não se coloca à disposição.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Anunciou o fechamento da consulta**   \n\n**Adequado:** anuncia.  \n**Inadequado:** não anuncia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Concluiu de forma adequada encaminhando a paciente para a realização de uma histeroscopia com biópsia**  \n\n**Adequado:** indica histeroscopia com biópsia.  \n**Inadequado:** não indica ou indica outro procedimento (ex: curetagem, hiterectomia).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Despediu-se de forma adequada**  \n\n**Adequado:** despede-se.  \n**Inadequado:** não se despede.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

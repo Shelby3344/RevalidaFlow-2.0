@@ -1,0 +1,127 @@
+{
+  "uid": 2413,
+  "hash": "pepe_2413",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Criptorquidia e Fimose fisiológica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento:  ambulatorial - unidade básica de saúde.  \nA unidade possui consultórios.\n\nDescrição do caso:\nVocê está no consultório de unidade básica de saúde e vai atender um menino com 6 meses de idade, levado pela mãe à consulta de rotina.",
+  "tarefas": "* Realizar a anamnese direcionada ao relato da mãe do paciente.  \n* Interpretar o exame físico e explicar à mãe os diagnósticos e as diferentes formas de apresentação anatomopatológicas relativos ao relato materno.  \n* Interpretar o exame físico e explicar à mãe o diagnóstico e conduta quanto à fimose.  \n* Elencar as possíveis complicações para a(s) condição(ões) encontrada(s) no paciente.  \n* Estabelecer a conduta adequada para o caso e justificar seu encaminhamento.  \n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Maria, 22 anos.  \n• **Criança:** Eduardo, 6 meses.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu trouxe o Eduardo para a consulta de rotina.  \n\n**DEMAIS QUEIXAS:**  \n**Criptorquidia:** nas outras consultas, me falaram para aguardar até os seis meses de idade, que os testículos dele desceriam sozinhos.  \n**Fimose:** me disseram que era normal o pipi dele ser fechadinho e que com o tempo isso ia se resolver.  \n• Fora isso, ele está ótimo e se desenvolvendo bem.  \n\n**PUERICULTURA:**  \n• **Semanas de gestação e via parto:** Ele nasceu com 37 semanas, de parto normal e correu tudo bem.  \n• **Pré-natal e intercorrências:** Minha gestação foi bem tranquila.  \n• **VACINAÇÃO:** Está com todas as vacinas em dia.  \n• **Amamentação:** Eu amamentei só no peito até os seis meses.  \n• **Choro, sono, vômito ou febre:** Ele só teve dois resfriados bem levinhos desde que nasceu, mas sarou rápido.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Meu filho vai precisar fazer algum tratamento?*  \n• *Que problemas de saúde isso poderia trazer pra ele no futuro?*  \n• *O que eu posso fazer sobre a ausência dos testículos?*  \n• *Se precisar de um especialista, a partir de agora todas as consultas dele serão com esse médico?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE SAÚDE DA CRIANÇA",
+      "conteudo": "• **Nome:** Eduardo Mateus.  \n• **Sexo**: Masculino.  \n• **Via de Parto:** vaginal / **Idade Gestacional:** 37 semanas e 5 dias.  \n• **Peso de nascimento:** 3.000 gramas.  \n• **Comprimento ao nascer:** 49 centímetros.  \n• **Perímetro cefálico ao nascer:** 34,5 centímetros.  \n• **Apgar:** 9/10.  \n• **Tipo Sanguíneo mãe:** A+ / Tipo Sanguíneo recém-nascido: A+  \n• **Vacinação:** atualizada até os 6 meses segundo Programa Nacional de Vacinação.  \n• **Suplementação:** uso regular de vitamina D e Sulfato Ferroso.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Nome:** Eduardo Mateus.  \n**Idade:** 6 meses.  \n\nDados antropométricos adequados para a idade e sexo.  \n\nBom estado geral, eupneico, hidratado e afebril.  \n\nExame Físico segmentar sem alterações, exceto bolsa escrotal vazia e testículos impalpáveis.  \n\nPrepúcio recobrindo a glande, não redutível, sem estenose prepucial.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) Identifica-se;  \n(2) Cumprimenta a mãe de maneira adequada/cordial;  \n(3) Mantém contato visual durante sua apresentação;  \n(4) Pergunta o nome da mãe e o nome da criança.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Sobre o diagnóstico da distopia testicular e/ou criptorquidia:**  \n\n**Adequado:** Dá o diagnóstico de testículo não palpável ou criptorquidia ou ausência testicular na bolsa escrotal, não descenso E explica a possível posição intra abdominal ou inguinal.  \n**Parcialmente adequado:** Dá o diagnóstico de testículo não palpável ou criptorquidia ou ausência testicular na bolsa escrotal, não descenso testicular, MAS não explica a posição do testículo.  \n**Inadequado:** Não dá o diagnóstico de testículo não palpável ou criptorquidia ou ausência testicular na bolsa escrotal, não descenso testicular ou apenas cita que a bolsa escrotal está vazia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Cita possíveis complicações da criptorquidia:**  \n(1) infertilidade;  \n(2) torção testicular;  \n(3) atrofia testicular / diminuição do volume testicular;  \n(4) malignidade (câncer) / tumor / neoplasia;  \n(5) persistência do conduto peritoneovaginal que pode gerar hidrocele, hidrocele comunicante, hérnia inguinal, hérnia inguinal indireta;  \n(6) insuficiência de produção de andrógenos, déficit na produção de testosterona, atraso puberal, disfunção hormonal e necessidade de reposição hormonal.  \n\n**Adequado:** cita duas ou mais complicações.  \n**Parcialmente adequado:** cita uma complicação.  \n**Inadequado:** não cita complicação alguma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Indicação de exame de imagem: ultrassonografia abdominal / ultrassonografia de região inguino-escrotal / tomografia de abdome / ressonância magnética de abdome:**  \n\n**Adequado:** não indica.  \n**Inadequado:** indica.  \n\n\\\n***Obs.:** não é indicada a realização de exames de imagem do tipo ultrassonografia, tomografia ou ressonância magnética antes do encaminhamento para avaliação com cirurgião pediatra.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Elenca possíveis complicações / fatores de risco que possam indicar tratamento intervencionista para Fimose:**  \n(1) infecção do trato urinário / pielonefrite;  \n(2) balanite / balanopostite / inflamação peniana;  \n(3) malformação do trato urinário associada.  \n(4) parafimose/ estrangulamento de glande;  \n(5) obstrução ao fluxo urinário causada pela presença de um prepúcio punctiforme e obstrutivo/ balonamento;  \n(6) não resolução espontânea da fimose após os 3 anos de idade.  \n\n**Adequado:** elenca 3 complicações.  \n**Parcialmente adequado:** elenca 1 ou 2 complicações.  \n**Inadequado:** não elenca complicações.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Sobre a conduta para fimose fisiológica e a impossibilidade de exposição da glande:**  \n\n**Adequado:** orienta apenas sobre cuidados locais de higiene.  \n**Inadequado:** orienta a realização de “massagens” ou uso de pomada ou redução do prepúcio ou ainda o tratamento cirúrgico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Sobre a conduta a ser adotada para criptorquidia:**  \n(1) Explica a mãe sobre o diagnóstico.  \n(2) Encaminha para atendimento especializado (cirurgia pediátrica, endocrinologia pediátrica ou geneticista ou urologia pediátrica).  \n\n**Adequada:** executa duas condutas.  \n**Parcialmente adequada:** executa apenas uma conduta.  \n**Inadequado:** não executa conduta alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica manutenção do seguimento na UBS: marcação de retorno, retornar com o médico na unidade, segue com consultas de puericultura.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

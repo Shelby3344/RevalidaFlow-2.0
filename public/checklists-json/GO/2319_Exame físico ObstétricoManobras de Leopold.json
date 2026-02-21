@@ -1,0 +1,209 @@
+{
+  "uid": 2319,
+  "hash": "pepe_2319",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Exame físico Obstétrico/Manobras de Leopold",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: atenção primária à saúde - unidade básica de saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório com os recursos necessários ao atendimento ginecológico e obstétrico.  \nNão dispõem de ultrassonografia.  \n• Não há paciente simulada nesta estação.\n\nDescrição do caso:\nUma mulher de 33 anos de idade, gestante, comparece à UBS para uma consulta de pré-  \nnatal sem nenhuma queixa. Ela está com 34 semanas + 3 dias de gestação e sua consulta  \nanterior havia sido com 30 semanas + 2 dias gestacionais. Neste momento, a paciente já  \nfoi entrevistada clinicamente e, em sua anamnese, não há nada digno de nota, exceto que  \nessa é a primeira gestação, planejada, e que ela não possui morbidades. A paciente fez  \ntodas as consultas de pré-natal e realizou todos os exames solicitados até o momento,  \ncom resultados normais.",
+  "tarefas": "TAREFAS:  \n\nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar o exame físico obstétrico completo desta paciente.  \nObs.: O exame físico geral já foi feito e o resultado está sem alterações.  \n- Verbalizar e explicar, de forma nítida, completa e técnica, todos os movimentos,  \netapas, finalidades e achados do exame obstetrico-ginecológico.  \n\nATENÇÃO!  \nVOCÊ DEVERA USAR O MANEQUIM PARA FAZER TODAS  \nAS SIMULAÇÕES E TAMBÉM DEVERÁ DESCREVER,  \nVERBALIZAR, DA FORMA MAIS COMPLETA POSSÍVEL,  \nTUDO O QUE ESTA SENDO FEITO PARA A CÂMERA.",
+  "script_ator": "Liberar o impresso **ESTÁTICA FETAL** *somente* após o candidato verbalizar os quatro tempos das Manobras de Leopold.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "ESTÁTICA FETAL",
+      "conteudo": "Verbalize a estática fetal completa.",
+      "imagem": "img_printeds/2023-2-e9p1.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Realiza palpação obstétrica.**  \nO(a) participante inicia o exame físico obstétrico, obrigatoriamente, pela palpação do  \nabdome (ou seja, o começo do exame físico não é com ausculta, toque vaginal ou outro  \nparâmetro que não seja palpação do abdome).  \n\n**Adequado:** inicia o exame físico pela palpação do abdome.  \n**Inadequado:** não inicia pela palpação do abdome ou não faz a palpação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza o primeiro tempo da manobra de Leopold,**  \nO(a) participante usa as duas mãos e posiciona-as no fundo uterino.  \n\n**Adequado:** faz a manobra conforme descrita.  \n**Inadequado:** não faz a manobra conforme descrita",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Explica o primeiro tempo da manobra de Leopold.**  \n(1) Verbaliza que a palpação do fundo uterino corresponde ao primeiro tempo da  \nmanobra; e  \n(2) Explica que a primeira manobra serve para avaliar a situação fetal.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza somente uma das duas ações.  \n**Inadequado:** não realiza ação alguma.  \n\n*Obs: é importante nomear as manobras na ordem correta, mas é opcional citar Leopold.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza que a situação do feto é longitudinal**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza o segundo tempo da manobra de Leopold.**  \nO(a) participante desliza as mãos pelo abdome do fundo uterino até o polo fetal inferior.  \n\n**Adequado:** realiza a ação  \n**Inadequado:** não realiza a ação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explica o segundo tempo da manobra de Leopold.**  \n(1) Verbaliza que o deslizar das mãos em direção ao polo inferior do útero corresponde à  \nsegunda manobra; e  \n(2) Indica que a segunda manobra serve para a avaliação da posição fetal.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza somente uma dasduas ações.  \n**Inadequado:** não realiza ação alguma.  \n\n*Obs .: é importante nomear as manobras na ordem correta, mas é opcional citar Leopold.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a posição fetal: dorso à esquerda.**  \n\n**Adequado:** verbaliza dorso à esquerda.  \n**Inadequado:** não verbaliza dorso à esquerda",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza o terceiro tempo da manobra de Leopold.**  \n\nO(a) participante usa uma das mãos e a coloca em formato de C no polo inferior do  \nútero utilizando a ponta do indicador e o polegar.  \n\n**Adequado:** realiza a açāo.  \n**Inadequado:** não realiza a açāo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica o terceiro tempo da manobra de Leopold.**  \n(1) Verbaliza que a avaliação do polo cefálico (ou pélvico) corresponde à terceira  \nmanobra de Leopold; e  \n(2) Verbaliza que a terceira manobra de Leopold serve para avaliar a apresentação fetal.  \n\n**Adequado:** verbaliza os dois pontos.  \n**Parcialmente adequado:** verbaliza apenas um ponto.  \n**Inadequado:** não verbaliza ponto algum  \n\n*Obs .: é importante nomear as manobras na ordem correta, mas é opcional citar Leopold.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. verbaliza a apresentação fetal: cefálica**  \n\n**Adequado:** verbaliza a apresentação fetal cefálica.  \n**Inadequado:** não verbaliza a apresentação fetal cefálica",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza o quarto tempo da manobra de Leopold.**  \n(1) Usa as duas mãos;  \n(2) Posiciona as mãos no polo uterino inferior; e  \n(3) Posiciona-se com a cabeça virada para o polo uterino inferior - ficando de costas  \npara a o rosto da paciente.  \n\n**Adequado:** realiza as três ações.  \n**Inadequado:** realiza duas OU realiza uma OU não realiza ação alguma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica o quarto tempo da manobra de Leopold.**  \nO(a) participante reconhece a altura ou a mobilidade do polo cefálico (ou pélvico) e  \nrealiza as seguintes ações:  \n(1) Verbaliza que a colocação das mãos sobre o polo cefálico inferior, tracionando-o para  \ncima e em posição contrária à paciente, corresponde ao quarto tempo da manobra de  \nLeopold; e  \n(2) Verbaliza que o quarto tempo da manobra de Leopold serve para avaliar a altura  \nfetal.  \n\n**Adequado:** verbaliza os dois pontos.  \n**Parcialmente adequado:** verbaliza apenas um ponto.  \n**Inadequado:** não verbaliza qualquer ponto.  \n\n*Obs .: é importante nomear as manobras na ordem correta, mas é opcional citar Leopold.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Mede a altura uterina:**  \nO(a) participante reconhece a altura ou a mobilidade do polo cefálico (ou pélvico) e  \nrealiza as seguintes ações:  \n(1) fixa a extremidade inicial da fita métrica, flexível e não extensível, na borda superior  \nda sínfise púbica com uma das mãos.  \n(2) Posiciona a fita métrica no fundo do útero, delimitado pela margem cubital da outra  \nmāo.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza uma ação OU não realiza ação alguma OU mede incorretamente a  \naltura uterina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Ausculta dos batimentos cardíacos fetais:** O(a) participante posiciona a ponta de  \nausculta do sonar sobre o dorso fetal (no quadrante inferior à esquerda do abdome da  \nmãe).  \n\n**Adequado:** realiza a manobra corretamente.  \n**Parcialmente adequado:** posiciona o sonar à esquerda do abdome da mãe, mas não no  \nquadrante inferior.  \n**Inadequado:** não realiza a manobra corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Explica a ausculta dos batimentos cardíacos fetais.**  \n(1) Verbaliza que usará o sonar para auscultar os batimentos cardíacos fetais; e  \n(2) Explica que irá posicionar o sonar sobre o dorso fetal (OU sobre o quadrante inferior  \nesquerdo do abdome materno).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma das ações.  \n**Inadequado:** não realiza ação alguma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Verbaliza a necessidade de fazer o toque vaginal**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

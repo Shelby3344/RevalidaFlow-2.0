@@ -1,0 +1,149 @@
+{
+  "uid": 2229,
+  "hash": "pepe_2229",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Partograma - Parada Secundária da Dilatação (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - Centro Obstétrico.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de parto equipada;  \n• Acesso a métodos não farmacológicos para alívio da dor;  \n• Laboratório de análises clínicas.\n\nDescrição do caso:\nVocê está de plantão no centro obstétrico e irá assumir o cuidado de uma secundigesta de 28 anos, sem comorbidades, e que está em trabalho de parto ativo.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Interpretar o partograma fornecido.  \n- Solicitar e interpretar exame físico específico, caso necessário.  \n- Verbalizar o diagnóstico sobre o quadro.  \n- Descrever as medidas terapêuticas adequadas.  \n- Responder às dúvidas da paciente.  \n\n\\\nO TOQUE NA PACIENTE SIMULADA NÃO É PERMITIDO.",
+  "script_ator": "**ORIENTAÇÕES:** liberar o impresso **PARTOGRAMA** ao iniciar a estação.  \n\n**DADOS PESSOAIS:**  \n• Juliana, 28 anos, professora.  \n\n**MOTIVO DE CONSULTA:** • Doutor(a), eu estou muito cansada... parece que não está evoluindo. As dores estão vindo, mas sinto que não estão fortes o suficiente.  \n\n**SOBRE O TRABALHO DE PARTO:**  \n• **Início:** Minha bolsa não estourou em casa, vim para o hospital quando as contrações ficaram fortes, faz 5 horas.  \n• **Contrações:** Elas vêm a cada 5 ou 6 minutos, mas duram pouco, uns 20 segundos só.  \n• **Dor:** Estou com bastante dor das contrações, elas vêm uma atrás da outra e são bem fortes.  \n• **Movimentos Fetais:** Sim, sinto meu bebê mexer normalmente.  \n• **Jejum e Hidratação:** Não como nada desde que cheguei, só bebi um pouco de água.  \n• **Posição e Deambulação:** Eu tentei caminhar um pouco no começo, mas agora estou mais deitada, de tão cansada.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** Tive um parto normal há 2 anos, foi tudo bem.  \n• **IG atual:** 38 semanas.  \n• **Pré-natal:** Fiz tudo certinho, não tive nenhum problema.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Está tudo bem com o meu bebê?*  \n• *Por que não está dilatando mais?*  \n• *Vou precisar de uma cesárea?*  \n• *O que pode ser feito pra ajudar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "PARTOGRAMA",
+      "conteudo": "**VERBALIZE E INTERPRETE O PARTOGRAMA**",
+      "imagem": "img_printeds/2022-2-e29p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 120x75 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 99% em ar ambiente  \n• **Temp. axilar:** 36.7°C  \n\n\n**EXAME OBSTÉTRICO ATUAL:**  \n**Toque vaginal:** Colo 70% apagado, 5cm de dilatação, bolsa íntegra, apresentação cefálica em plano 0 de De Lee.  \n**BCF:** 140 bpm.  \n**Dinâmica Uterina:** 3 contrações em 10 minutos, com duração de 40 segundos.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida sobre o trabalho de parto.**  \n(1) pergunta sobre a percepção da dor e das contrações;  \n(2) pergunta sobre o bem-estar materno (cansaço, desejo de se alimentar/hidratar);  \n(3) pergunta sobre a percepção dos movimentos fetais.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a reavaliação clínica da paciente.**  \n\n**Adequado:** verbaliza a necessidade de reavaliar a dinâmica uterina, a dilatação cervical e a vitalidade fetal.  \n**Inadequado:** não solicita avaliação física da paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta corretamente a evolução da dilatação cervical no partograma.**  \n\n**Adequado:** identifica que a dilatação progrediu até 6 cm e estacionou por 2 horas consecutivas, tocando a linha de ação.  \n**Parcialmente adequado:** identifica que a dilatação estacionou, mas não especifica o período de 2 horas ou a chegada na linha de ação.  \n**Inadequado:** não identifica a parada na evolução da dilatação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.62",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta corretamente os Batimentos Cardíacos Fetais (BCF) no partograma.**  \n\n**Adequado:** verbaliza que a frequência cardíaca fetal se manteve dentro dos limites da normalidade (entre 110 e 160 bpm) durante todo o período, indicando bem-estar fetal.  \n**Parcialmente adequado:** verbaliza que o BCF está normal, mas não cita os parâmetros de referência.  \n**Inadequado:** não interpreta o traçado do BCF ou interpreta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico da distocia funcional.**  \n\n**Adequado:** verbaliza o diagnóstico de Parada Secundária da Dilatação, OU Distocia Funcional, OU Discinesia Uterina.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza um diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Propõe medidas não farmacológicas para correção da distocia.**  \n(1) Amniotomia (ruptura artificial das membranas);  \n(2) estimular a deambulação;  \n(3) incentivar mudanças de posição (bola suíça, decúbito lateral, quatro apoios);  \n(4) oferecer banho de imersão ou aspersão;  \n(5) oferecer massagens relaxantes.\n\n**Adequado:** propõe três ou mais medidas.  \n**Parcialmente adequado:** propõe duas medidas.  \n**Inadequado:** propõe uma ou não propõe medidas não farmacológicas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.63",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a conduta farmacológica para correção da distocia, considerando o cenário.**  \n\n**Adequado:** indica o uso de ocitocina para correção da parada de dilatação.  \n**Inadequado:** não indica ocitocina ou indica uma conduta inadequada (ex: misoprostol, cesárea imediata).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Aborda o manejo da dor com a paciente.**  \n\n**Adequado:** oferece e explica as opções de analgesia disponíveis, tanto não farmacológicas (já citadas) quanto farmacológicas (analgesia de parto).  \n**Parcialmente adequado:** menciona a possibilidade de analgesia, mas não detalha as opções.  \n**Inadequado:** não aborda o manejo da dor.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.38",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define os critérios para a indicação de via de parto operatória (cesárea).**  \n\n**Adequado:** explica que a cesárea será indicada em caso de falha das medidas de correção da distócia (ausência de progressão mesmo com a otimização das contrações) ou em caso de sofrimento fetal agudo.  \n**Inadequado:** indica a cesárea imediatamente ou não sabe definir os critérios para sua indicação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "uid": 2119,
+  "hash": "pepe_2119",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Registro Clínico Orientado por Problemas - Método SOAP (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária - Unidade de Saúde da Família (USF).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico para atendimento;  \n• Prontuário Eletrônico do Cidadão;  \n• Equipe de Núcleo Ampliado de Saúde da Família (NASF).\n\nDescrição do caso:\nVocê está em atendimento na USF e receberá um homem de 33 anos, que procura o serviço por demanda espontânea com queixa de cefaleia. Sua principal tarefa, além de conduzir a consulta, é registrar o atendimento de forma estruturada no prontuário eletrônico, utilizando o método SOAP.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese e solicitar o exame físico do paciente;  \n- Formular as hipóteses diagnósticas, o plano terapêutico e seguimento;  \n- Preencher o prontuário do paciente, organizando-os corretamente nos campos SOAP;  \n- Responder as dúvidas do paciente.  \n\n\\\nCONSIDERE QUE HÁ PAPEL E CANETA DISPONÍVEL  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Liberar o impresso **PRONTUÁRIO ELETRÔNICO** no ínício da estação.  \n\n• O impresso **PRONTUÁRIO PREENCHIDO** deve ser liberado somente ao concluir a estação -> para comparação do prontuário elaborado pelo médico candidato.  \n\n**DADOS PESSOAIS:**  \n• João, 33 anos, casado, mecânico.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), boa tarde. Eu vim aqui porque estou com uma dor de cabeça que não passa. Começou faz uns 5 dias, dói a cabeça toda e fica latejando.  \n\n**SOBRE CEFALEIA:**  \n• **Início:** faz 5 dias.  \n• **Localização:** na cabeça toda.  \n• **Característica:** fica pulsando.  \n• **Atenuantes/agravantes:** melhora quando tomo dipirona. Agora mesmo a dor está bem melhor. Eu acho que a dor tem a ver com o estresse lá no trabalho e em casa.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Desmaios, convulsões ou febre:** não, nada disso.  \n• **Piora súbita da dor:** não, ela continua igual.  \n• **Sintomas respiratórios:** também não.  \n\n**CONDIÇÕES PSICOLÓGICAS:**  \n• **Estresse ou irritação:** sim, estou com uns problemas em casa, com a minha esposa.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Álcool e tabaco:** não bebo e não fumo.  \n• **VACINAÇÃO:** as últimas foi na época da Covid, está tudo certo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Na verdade tem mais uma coisa... minha esposa anda reclamando que na 'hora H' eu não duro mais que 5 minutos*.  \n• *Isso é um problema mesmo, doutor(a)? Ou é coisa da minha cabeça?*   \n• *Tem tratamento para isso?*   \n• *Essa dor de cabeça pode ter a ver com esse outro problema?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 122x78 mmHg  \n• **FC:** 86 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36.2°C  \n• **SatO2:** 99% em ar ambiente  \n\n\n**Exame Físico Segmentar:** Sem alterarções.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "PRONTUÁRIO ELETRÔNICO",
+      "conteudo": "",
+      "imagem": "img_printeds/2021-e19p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "PRONTUÁRIO PREENCHIDO",
+      "conteudo": "**MODELO DE EXEMPLO/CONFERRÊNCIA:**",
+      "imagem": "img_printeds/2021-e19p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta o paciente simulado e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando as características da cefaleia e os fatores psicossociais.**  \n(1) caracteriza a dor (tipo, localização, intensidade, fatores de melhora/piora);  \n(2) investiga a presença de sinais de alarme para cefaleias secundárias;  \n(3) explora os fatores de estresse relacionados ao trabalho e à família.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Registra as informações da anamnese no campo \"S\" (Subjetivo) do prontuário.**  \n\n**Adequado:** registra de forma clara e organizada a queixa principal, a história da doença atual e os antecedentes do paciente no campo \"S\".  \n**Inadequado:** não registra as informações ou as registra no campo incorreto.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Registra os dados do exame físico no campo \"O\" (Objetivo) do prontuário.**  \n\n**Adequado:** registra os sinais vitais e os achados do exame físico de forma objetiva e sistemática no campo \"O\".  \n**Inadequado:** não registra os dados ou os registra no campo incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula e registra as hipóteses diagnósticas no campo \"A\" (Avaliação) do prontuário.**  \n\n**Adequado:** formula a hipótese principal de Cefaleia Tensional, com base na associação com o estresse e ausência de sinais de alarme, e a registra no campo \"A\".  \n**Inadequado:** não formula uma hipótese coerente ou não a registra no campo \"A\".",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Integra a nova queixa (disfunção sexual) à avaliação e ao registro.**  \n\n**Adequado:** correlaciona a queixa de ejaculação precoce com o quadro de estresse, formula a hipótese de disfunção sexual secundária à ansiedade e a registra também no campo \"A\" do prontuário.  \n**Inadequado:** ignora a nova queixa ou não a registra no prontuário.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Elabora e registra um plano de cuidado coerente no campo \"P\" (Plano) do prontuário.**  \n(1) Plano Diagnóstico: solicita exames de rotina, se necessário;  \n(2) Plano Terapêutico: prescreve sintomáticos para a cefaleia e orienta sobre manejo do estresse;  \n(3) Plano Educacional: explica ao paciente a natureza de seus problemas e a importância do seguimento.  \n\n**Adequado:** elabora um plano contemplando os três componentes e o registra no campo \"P\".  \n**Parcialmente adequado:** elabora um plano com dois componentes.  \n**Inadequado:** não elabora um plano ou o faz com apenas um componente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Demonstra habilidade no uso do Registro Clínico Orientado por Problemas (Método SOAP).**  \n\n**Adequado:** preenche todos os quatro campos (S, O, A, P) de forma correta, demonstrando compreensão da lógica do método.  \n**Parcialmente adequado:** preenche os campos, mas mistura informações (ex: coloca a hipótese no campo \"S\").  \n**Inadequado:** não consegue utilizar o método SOAP para organizar o registro.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o encaminhamento para psicoterapia.**  \n\n**Adequado:** indica o encaminhamento ao psicólogo/psicoterapia.  \n**Inadequado:** não indica o acompanhamento psicológico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Estabelece um plano de seguimento e vínculo com a paciente:**  \n(1) Agenda uma consulta de retorno para reavaliação;  \n(2) Coloca-se à disposição para dúvidas;  \n(3) Reforça a importância do acompanhamento contínuo na UBS.  \n\n**Adequado:** realiza duas ou três ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

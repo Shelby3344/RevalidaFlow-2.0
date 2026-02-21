@@ -1,0 +1,169 @@
+{
+  "uid": 1505,
+  "hash": "pepe_1505",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Hanseníase",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO:  \nNível de atenção: atenção primária à saúde.  \nLocal de atuação: auditório municipal.\n\nDescrição do caso:\nVocê é o(a) médico(a) da equipe de saúde da família de uma Unidade Básica de Saúde. Em resposta à ocorrência de novos casos de hanseníase na região, a Secretaria Municipal de Saúde convidou-o(a) para uma entrevista no auditório municipal, com o objetivo de esclarecer as principais dúvidas sobre a doença e combater o estigma associado a ela.",
+  "tarefas": "TAREFAS:  \n- Responder as perguntas da entrevistadora sobre a transmissão, sinais e sintomas comuns da hanseníase;  \n- Explicar a importância do diagnóstico, do tratamento e as possíveis complicações;  \n- Abordar os aspectos sociais sobre a hanseníase;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Ana, 35 anos, entrevistadora.  \n\n**MOTIVO DE CONSULTA:** Olá, sejam bem vindos! Estamos aqui hoje com o(a) Doutor(a) para conversarmos sobre a Hanseníase, um assunto muito importante para a nossa comunidade.  \n\nDoutor(a), seja bem-vindo(a).  \n\nAgradecemos sua presença. Quando você quiser, só informar que iniciaremos as perguntas.  \n\n**PERGUNTAS:**  \n• 1 - *Doutor(a), para começar, o que exatamente é a hanseníase? Ouvimos algumas pessoas usarem o termo 'lepra', qual a relação entre esses nomes?*  \n\n• 2 - *Como essa doença é transmitida de uma pessoa para outra?*  \n\n• 3 - *E quais os primeiros sinais e sintomas que as pessoas devem ficar atentas em casa para desconfiar da hanseníase?*  \n\n• 4 - *Se a pessoa não procurar um médico e não tratar, o que pode acontecer? Quais são as complicações da hanseníase?*  \n\n• 5 - *Falando nisso, qual a importância de descobrir a doença logo no início? É fácil para os médicos darem esse diagnóstico?*  \n\n• 6 - *Doutor(a), a hanseníase tem cura? Como funciona o tratamento?*  \n\n• 7 - *Antigamente, as pessoas com essa doença eram isoladas. Depois que a pessoa começa a se tratar, ela ainda precisa ficar separada da família e dos amigos?*  \n\n• 8 - *Então, se alguém em casa perceber alguma mancha ou sintoma suspeito, o que essa pessoa deve fazer? Onde ela deve procurar ajuda?*  \n\n• 9 - *Para finalizar, sabemos que ainda existe muito preconceito. A pessoa que recebe o diagnóstico tem direito de manter isso em segredo? E qual a sua mensagem para a comunidade sobre como lidar com quem está doente?*",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Fala de forma clara e com linguagem simples, acessível ao público leigo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Define hanseníase e relação com o termo \"lepra\".**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Apresenta as formas de transmissão da doença.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Apresenta a importância do diagnóstico precoce na prevenção das complicações e da transmissão da doença.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Reconhece a dificuldade que pode existir no diagnóstico, enfatizando a necessidade de treinamento dos profissionais.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explica a não necessidade de isolamento dos doentes após o início do tratamento e justifica.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica os sinais e sintomas mais comuns.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica as complicações mais comuns.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica que há tratamento eficaz.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta as pessoas com sintomas suspeitos a procurar atendimento médico na atenção básica para avaliar a necessidade de realizar exame complementar diagnóstico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Informa que, se tratada precocemente, a doença pode não deixar mutilações ou outras consequências.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica corretamente que o paciente tem direito ao sigilo de seu diagnóstico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Explica que a comunidade não deve discriminar as pessoas contaminadas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

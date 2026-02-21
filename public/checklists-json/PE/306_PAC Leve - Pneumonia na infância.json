@@ -1,0 +1,177 @@
+{
+  "uid": 306,
+  "hash": "pepe_306",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "PAC Leve - Pneumonia na infância",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - Unidade de Pronto Atendimento (UPA).  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultórios;  \n• Sala de observação;  \n• Laboratório de análises clínicas;  \n• Setor de radiologia com aparelho de radiografia.\n\nDescrição do caso:\nVocê atenderá um Lactente de 11 meses que é trazido à UPA pela mãe com queixa de tosse produtiva há 3 dias, febre há 24 horas e \"cansaço\".",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida à mãe.  \n- Soliticar e interpretar o exame físico.  \n- Explicar o diagnóstico e os critérios utilizados.  \n- Definir o tratamento e a conduta adequada ao quadro.  \n- Orientar a mãe sobre os cuidados e os sinais de alarme.  \n\n\\\nATENÇÃO! O EXAME FÍSICO JÁ FOI REALIZADO.  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Gabriela, 28 anos.  \n• **Criança:** Miguel, 11 meses.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), trouxe o Miguel porque ele está com tosse há 3 dias. De ontem pra cá, ele teve febre e estou achando ele mais \"cansadinho\".  \n\n**SOBRE OS SINTOMAS:**  \n• **Febre:** Sim, medi em casa, deu 38,5°C ontem à noite. Dei paracetamol e baixou, mas hoje voltou.  \n• **Tosse:** Está com um catarro verde.  \n• **\"Cansadinho\":** Estou achando que ele está respirando mais rápido que o normal.  \n• **Dieta:** Ele está mamando um pouco menos, mas ainda está aceitando.  \n• **Sinais de Alarme:** Nega prostração intensa, vômitos que não param ou diarreia.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Não tem nenhuma doença. Nasceu saudável.  \n• **Vacinação:** A carteirinha está em dia.  \n• **Alergias:** Não tem alergia a nenhum remédio.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ele tem, doutor(a)? É grave?*  \n• *Ele vai precisar ficar internado?*  \n• *Como vai ser o tratamento?*  \n• *E se ele piorar? O que eu tenho que olhar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **FC:** 130 bpm  \n• **PA:** 86x44 mmHg  \n• **FR:** 56 irpm  \n• **TAX:** 36,6 °C  \n• **SatO₂:** 96% em ar ambiente  \n• **Peso:** 8,5 Kg  \n• **Comprimento:** 72 cm  \n\n\n• **Estado Geral:** Lactente reativo, anictérico, acianótico, hidratado, hipocorado (+/4+).  \n\n• **Perfusão:** Perfusão periférica de 2 segundos, pulsos normopalpáveis e simétricos.  \n\n\n• **ACV:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.  \n\n• **AR:** Murmúrio vesicular universalmente audível, com estertores crepitantes em base direita. Ausência de tiragem intercostal, subcostal ou de fúrcula.  \n\n• **Abdome:** Flácido, indolor à palpação, sem massas ou visceromegalias.  \n\n• **Membros:** Sem edema.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Leucócitos:** 16.500/mm³ (VR: 5.000 - 14.500/mm³)  \n• **Neutrófilos:** 75% (VR: 25 - 60%)  \n• **Linfócitos:** 20% (VR: 25 - 50%)  \n• **Hemoglobina:** 11,5 g/dL (VR: 11,0 - 14,0 g/dL)  \n• **Plaquetas:** 300.000/mm³ (VR: 150.000 - 450.000/mm³)  \n\n\n**BIOQUÍMICA**  \n• **Proteína C Reativa (PCR):** 45 mg/L (VR: < 5 mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**IDENTIFIQUE O(S) ACHADO(S) DA IMAGEM**",
+      "imagem": "img_printeds/e306p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e pergunta o nome da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida (sintomas principais):**  \n(1) investiga características da tosse e febre;  \n(2) questiona sobre o padrão respiratório (cansaço/desconforto);  \n(3) verifica a aceitação de líquidos/dieta; e,  \n(4) avalia o estado geral (sonolência, irritabilidade).  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza anamnese dirigida (contexto e fatores de risco):**  \n(1) pergunta sobre comorbidades (asma, cardiopatia);  \n(2) verifica o estado vacinal;  \n(3) investiga tabagismo passivo.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta corretamente os achados do exame físico:**  \n(1) identifica a **taquipneia** (FR: 56 irpm); e,  \n(2) identifica os **estertores crepitantes** na ausculta.  \n\n**Adequado:** identifica os dois achados.  \n**Parcialcialmente adequado:** identifica apenas um achado.  \n**Inadequado:** não identifica nenhum dos achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta o exame de imagem:**  \n\n**Adequado:** verbaliza o achado de consolidação/infiltrado em base direita no Raio-X, explicando que *confirma* o diagnóstico clínico.  \n**Inadequado:** não interpreta o exame ou o faz de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Diagnóstico e Justificativa Clínica:**  \n\n**Adequado:** verbaliza o diagnóstico de Pneumonia E explica à mãe que o diagnóstico é clínico, baseado na febre, tosse e, principalmente, nos achados do exame (respiração rápida/taquipneia e ausculta com estertores).  \n**Parcialmente adequado:** verbaliza o diagnóstico de pneumonia, mas falha em explicar que a base do diagnóstico é clínica (taquipneia + ausculta).  \n**Inadequado:** não verbaliza o diagnóstico de pneumonia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Definição da Conduta (Local de Tratamento):**  \n\n**Adequado:** justifica o tratamento domiciliar (ambulatorial) pela ausência de critérios de internação (bom estado geral, SatO₂ 96%, ausência de desconforto respiratório/tiragem e boa aceitação de líquidos).  \n**Inadequado:** indica a internação hospitalar sem justificativa clínica para tal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Tratamento (Fármaco):**  \n\n**Adequado:** prescreve Amoxicilina OU Ampicilina.  \n**Inadequado:** prescreve antibiótico inadequado para PAC leve em pediatria.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Tratamento (Dose e Posologia):**  \n\n**Adequado:** indica Amoxicilina 50 mg/kg/dia, dividida em 3 doses (ou 8/8h), por 7 dias. OU indica Ampicilina 100 mg/kg/dia, dividia em 3 doses (ou 8/8h), por 7-10 dias.  \n**Parcialmente adequado:** indica o fármaco e a posologia, mas erra a dose (mg/kg/dia).  \n**Inadequado:** não especifica dose ou posologia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orientações (Sintomáticos e Cuidados Gerais):**  \n(1) orienta manter o uso de antitérmico (paracetamol/dipirona) se febre ou dor;  \n(2) orienta aumentar a oferta de líquidos (hidratação).  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orientação de Sinais de Alarme (Critérios de Piora/Internação):**  \n(1) piora do cansaço respiratório (respiração muito rápida, afundando as costelas/tiragem);  \n(2) cianose (boca ou ponta dos dedos arroxeadas);  \n(3) recusa persistente de líquidos ou vômitos que impeçam a medicação;  \n(4) sonolência excessiva ou irritabilidade persistente.  \n\n**Adequado:** orienta três ou quatro sinais de alarme.  \n**Parcialmente adequado:** orienta dois sinais de alarme.  \n**Inadequado:** orienta um ou nenhum sinal de alarme.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Seguimento:**  \n\n**Adequado:** orienta retorno em 48-72 horas para reavaliação clínica, ou antes, se apresentar sinais de alarme.  \n**Inadequado:** não agenda retorno ou reavaliação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

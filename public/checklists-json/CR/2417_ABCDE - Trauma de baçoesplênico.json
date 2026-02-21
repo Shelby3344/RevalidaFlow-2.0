@@ -1,0 +1,189 @@
+{
+  "uid": 2417,
+  "hash": "pepe_2417",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "ABCDE - Trauma de baço/esplênico",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: terciária. \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n* Unidade\tde\timagem\t(ultrassonografia/FAST). Tomografia\testá em\tmanutenção.  \n* Laboratório de análises clínicas.  \n* Centro cirúrgico.  \n* Unidade de terapia intensiva.\n\nDescrição do caso:\nVocê é o médico de plantão na emergência\tde um hospital terciário e irá atender um paciente com\t22\tanos de\tidade\tcom\tdor\tabdominal,\tem\tquadrante\tsuperior\tesquerdo\t(QSE).",
+  "tarefas": "* Realizar ANAMNESE e EXAME FÍSICO \tdo\tpaciente,\tverbalizando\tas\talterações.  \n* Estabelecer\te\tcomunicar\thipótese\tdiagnóstica\tinicial.  \n* Solicitar\te\tinterpretar EXAMES LABORATORIAIS \t(no\tmáximo\tQUATRO\texames).  \n* Solicitar\te interpretar\toutros EXAMES COMPLEMENTARES disponíveis na unidade, pertinentes\tao\tcaso.  \n* Estabelecer\te comunicar\ta(s) hipótese(s)\tdiagnóstica(s)\tdefinitiva(s)\te propor tratamento\tinicial\te\tdefinitivo.  \n\n\nATENÇÃO! VOCÊ PODERÁ TOCAR O PACIENTE SOMENTE PARA REALIZAR O EXAME FÍSICO DE ABDOME.",
+  "script_ator": "***LIBERAR O IMPRESSO - TELA DO MONITOR NO INÍCIO DA ESTAÇÃO***  \n\n**DADOS PESSOAIS:**  \n• **Nome:** Paulo, 22 anos, pedreiro.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor forte na barriga e meio fraco.  \n\n**SOBRE A DOR:**\n• **Início:** Foi há 2 dias.  \n• **Localização:** É mais aqui em cima, do lado esquerdo da barriga.  \n• **Característica:** É uma dor que não para, fica doendo o tempo todo.  \n• **Intensidade:** deve estar um 8 de 10.  \n• **Irradiação:** agora dói toda a barriga.  \n• **Atenuantes/agravantes:** Piora quando eu respiro fundo ou tento me mexer. Ficar parado alivia um pouco.  \n\n• **Evolução:** A dor começou fraca, mas de ontem pra hoje piorou muito.  \n• **Trauma:** uma pia de concreto caiu em cima da minha barriga.  \n\n**SINTOMAS ASSOCIADOS:**\n• **Tontura:** Sim, estou me sentindo meio tonto.  \n• **Fraqueza:** estou mais fraco, sem forças.  \n• **Alteração de consciência/desmaio:** nega.  \n• **Extremidades frias:** Acho que minhas mãos e pés estão mais gelados.  \n• **Urina:** Tenho ido pouco no banheiro, parece que estou fazendo menos xixi.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, cirurgias e internações:** nega.  \n• **Doenças e medicações:** nega.  \n• **Álcool, tabaco e drogas:** nega.  \n\n**DEMAIS PERGUNTAS:**  não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "TELA DE MONITOR",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e7p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "Estado geral regular, orientado\tno tempo e espaço, palidez de mucosas, sem cianose, enchimento capilar lentificado,\tpulso\trápido,\tmas\tpálpavel.  \n\n\n**Sistema Cardiovascular** :\tsem\talterações.  \n**Sistema Respiratório:** murmúrio vesicular presente, pouco diminuído na base esquerda.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME ABDOMINAL",
+      "conteudo": "**Inspeção:** \tleve\tdistensão\tabdominal.  \n**Palpação:** \tdor\t difusa\t em\t todo\t o\t abdome,\t mais\t intensa\t no\t QSE.\t Sem\t sinais\t de\t irritação peritoneal.  \n**Percussão:** \tmacicez\tem\tQSE.  \n**Ausculta:** \truídos\tintestinais\tpresentes\te\tnormoativos.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• Hemoglobina: 8,7 g/dL (VR: 12,0 - 16,0 g/dL)  \n• Hematócrito: 25% (VR: 36,0 - 46,0 %)  \n• Leucograma: sem alterações (VR: 4.000 - 11.000/mm³)  \n\n• Amilase: 76 U/L (VR: 60 - 180 U/L)  \n• Lipase: 30 U/L (VR: 0 - 160 U/L)  \n\n\n**GASOMETRIA ARTERIAL**  \n• pH: 7,36 (VR: 7,35 - 7,45)  \n• PaCO2: 30 mmHg (VR: 35 - 45 mmHg)  \n• PaO2: 80 mmHg (VR: 80 - 100 mmHg)  \n• HCO3: 19 mEq/l (VR: 22 - 26 mEq/l)  \n\n• Lactato: 2 mg/dL (VR: -3 - 3 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAME DE IMAGEM",
+      "conteudo": "**LAUDO DE ULTRASSONOGRAFIA FAST**  \n\n**Quadrante Superior Direito:**  \n* Líquido\t livre\t na\t cavidade\tperitoneal,\testendendo-se\tao\t flanco.\t Não\t há\t evidência\tde\thematoma\thepático.  \n\n**Quadrante Superior Esquerdo:**  \n* Líquido\t próximo\t à\t loja\t esplênica,\tcom\t hematoma\tsubcapsular\tvisível.\t A\t cápsula\t esplênica está espessada e irregular.  \n\n**Quadrante Inferior Direito e Inferior Esquerdo:**  \n* Grande\tquantidade\tde\tlíquido\tlivre\tna\tcavidade\tpélvica.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se e cumprimenta o paciente simulado  \n(2) pergunta algum dado de identificação (idade, estado civil, profissão)  \n\n  \n**Adequado:** realiza as duas ações  \n**Parcialmente adequado:** realiza uma ação  \n**Inadequado:** não realiza ação alguma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre características da dor:**  \n(1) início ou duração  \n(2) tipo  \n(3) irradiação  \n(4) intensidade  \n(5) fatores de piora e/ou melhora  \n\n  \n**Adequado:** investiga quatro ou mais características  \n**Parcialmente adequado:** investiga três características  \n**Inadequado:** investiga duas ou menos características ou não investiga nenhuma",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre os sintomas associados ao quadro clínico (choque hipovolêmico):**  \n(1) tontura  \n(2) fraqueza  \n(3) alterações do nível de consciência (desmaio, confusão mental, agitação)  \n(4) extremidades frias (pele úmida e fria)  \n(5) sede  \n(6) oligúria (diminuição da diurese)  \n(7) falta de ar ou dispneia  \n\n  \n**Adequado:** investiga cinco ou mais achados  \n**Parcialmente adequado:** investiga quatro achados  \n**Inadequado:** investiga três ou menos achados ou não investiga nenhum",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico**  \n**Adequado:** solicita  \n**Inadequado:** não solicita",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza o exame físico abdominal, testando e identificando as seguintes alterações:**  \n(1) dor à palpação difusa  \n(2) dor mais intensa em Quadrante Superior Esquerdo  \n(3) ausência de dor à descompressão brusca ou sem sinais de irritação peritoneal  \n\n  \n**Adequado:** identifica as três alterações  \n**Parcialmente adequado:** identifica duas alterações  \n**Inadequado:** identifica uma ou nenhuma das alterações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula o diagnóstico clínico como choque hipovolêmico/ abdome agudo hemorrágico secundário a trauma abdominal fechado OU contuso.**  \n**Adequado:** verbaliza que há choque hipovolêmico / abdome agudo hemorrágico secundário a trauma abdominal fechado OU contuso  \n**Parcialmente adequado:** verbaliza somente o choque hipovolêmico OU somente o trauma abdominal fechado OU contuso  \n**Inadequado:** não verbaliza nenhum dos itens",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Baseado nos achados clínicos e de exame físico, inicia o tratamento do choque hipovolêmico.**  \n**Adequado:** indica reposição volêmica com soro fisiológico ou ringer OU solução cristaloide  \n**Parcialmente adequado:** indica o tratamento, mas não especifica como deverá ser feita a reposição  \n**Inadequado:** não indica o tratamento do choque hipovolêmico ou indica reposição de sangue e hemoderivados de imediato",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames laboratoriais:**  \n(1) Hematócrito e hemoglobina OU hemograma completo OU hemograma  \n(2) Gasometria arterial  \n(3) Lactato  \n(4) Tipagem sanguínea  \n\n  \n**Adequado:** solicita os três ou mais exames acima  \n**Parcialmente adequado:** solicita dois exames  \n**Inadequado:** solicita um ou não solicita exame algum  \n\nObs: o(a) participante só irá pontuar caso cite os exames listados ANTES de receber o impresso. Só serão considerados os seis primeiros exames citados pelo participante ANTES de receber o impresso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita a ultrassonografia de abdome ou FAST.**  \n**Adequado:** solicita  \n**Inadequado:** não solicita",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Formula diagnóstico final de trauma esplênico (de baço) ou lesão esplênica (do baço).**  \n**Adequado:** formula  \n**Inadequado:** não formula",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita prova cruzada OU reserva de sangue OU transfusão sanguínea.**  \n**Adequado:** solicita  \n**Inadequado:** não solicita",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica o tratamento cirúrgico de urgência OU laparotomia exploradora de urgência OU esplenectomia de urgência OU encaminhamento urgente para o cirurgião.**  \n**Adequado:** indica  \n**Inadequado:** não indica ou indica o tratamento cirúrgico sem especificar sua urgência  \n\nObs: só será considerado correto se for enfatizada a urgência do caso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

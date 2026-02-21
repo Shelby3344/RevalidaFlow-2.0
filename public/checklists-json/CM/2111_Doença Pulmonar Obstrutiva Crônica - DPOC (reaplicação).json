@@ -1,0 +1,155 @@
+{
+  "uid": 2111,
+  "hash": "pepe_2111",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Doença Pulmonar Obstrutiva Crônica - DPOC (reaplicação)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Atendimento ambulatorial em uma Unidade Básica de Saúde.\n\nDescrição do caso:\nAtendimento ambulatorial em uma Unidade Básica de Saúde onde realizará o atendimento de um  \npaciente com 60 anos de idade, aposentado (ex-comerciante), que se queixa de tosse há 6  \nmeses.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar a anamnese do paciente;  \n- interpretar adequadamente os exames pertinentes ao caso;  \n- estabelecer hipótese diagnóstica do caso clínico;  \n- responder aos questionamentos do paciente simulado;  \n- realizar o manejo do caso clínico exposto.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Emanuel, 60 anos de idade, ex-comerciante.  \n\n**MOTIVO DE CONSULTA**:  \n• Venho porque estou tossindo muito já faz uns 6 meses.  \n\n**CARACTERÍSTICAS DA TOSSE**:  \n• **Presença de secreção**: sim, sempre tem um pouco secreção.  \n• **Frequência**: tenho tosse praticamente todos os dias, de dia e de noite.  \n\n**SINTOMAS ACOMPANHANTES**:  \n• **Falta de ar**: sim, sinto falta de ar há muitos anos.  \n• Negar qualquer outro sintoma perguntado.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: que eu saiba nenhuma.  \n• **Internação prévia**: nega.  \n• **Cirurgias**: nega.  \n• **Medicamentos**: nega.  \n• **Alergias**: nega.  \n\n**HÁBITOS**:  \n• **Álcool**: tomo cerveja e vinho.  \n• **Cigarro**: fumo desde os 20 anos de idade. Antigamente eu fumava meio maço por dia e hoje em dia fumo 2 maços.  \n• **Drogas**: nega.  \n• **Urina, fezes e peso corporal**: nega alterações.  \n• **Sono**: durmo pouco porque sempre acordo com vontade de tossir.  \n\n**SE PERGUNTADO POR CONTATOS ESTREITOS COM SINTOMAS SIMILARES**:  \n• Nega.  \n\n**ANTECEDENTES FAMILIARES**:  \n• Não sei doutor (a), acho que meus pai não tinham problemas de saúde.  \n\n**Se o candidato mencionar a hipótese de câncer/ tumor de pulmão, perguntar**:  \n• Preciso fazer algum exame pra confirmar?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• Regular estado geral, corado, hidratado, dispneico, acianótico e afebril  \n• **Pressão arterial:** 110 × 60 mmHg  \n• **Frequência cardíaca:** 100 batimentos por minuto  \n• **Frequência respiratória:** 26 incursões respiratórias por minuto  \n• **Sat O₂:** 91% em ar ambiente  \n\n\n• **Exame cardiológico:** ritmo cardíaco regular em 2 tempos, bulhas taquicárdicas e sem sopros  \n• **Exame do aparelho respiratório:** murmúrio vesicular diminuído globalmente, sem ruídos adventícios  \n• **Abdome:** plano, normotenso, indolor e sem visceromegalias  \n• **Extremidades:** sem edemas",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ESPIROMETRIA E TMR-TB",
+      "conteudo": "**Teste Molecular Rápido de Tuberculose:** Negativo  \n\n\\  \n**Espirometria:**",
+      "imagem": "img_printeds/2021-e11p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "",
+      "imagem": "img_printeds/2021-e11p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \nApresenta-se (1) e identifica adequadamente o paciente (2).  \n\n**Adequado:** realiza os 2 comandos.  \n**Parcialmente adequado:** realiza somente 1 comando.  \n**Inadequado:** não realiza nenhum dos comandos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, com perguntas referentes a:**  \n(1) Tosse (intensidade, produtiva ou seca, associação a tabaco);  \n(2) Dispneia;  \n(3) Febre;  \n(4) Antecedente de asma;  \n(5) Alergias.  \n\n**Adequado:** se pergunta 4 ou 5 itens.  \n**Parcialmente adequado:** se pergunta 2 a 3 itens.  \n**Inadequado:** se pergunta apenas 1 item ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico (1) e cita achados anormais (2).**  \n\n**Adequado:** realiza os 2 comandos.  \n**Inadequado:** realiza apenas 1 comando ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita Radiografia de tórax.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta a espirometria (1) e estabelece o diagnóstico de DPOC (Doença Pulmonar Obstrutiva Crônica) (2).**   \n\nAdequado: realiza os 2 itens.  \nParcialmente adequado: realiza somente 1 item.  \nInadequado: não realiza nenhum dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Estabelece uma hipótese diagnóstica associada de tumor pulmonar.**  \n\n**Adequado:** estabelece.  \n**Inadequado:** não estabelece.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta terapêutica para DPOC:** cessação do tabagismo (1) e  \nbroncodilatadores (2).  \n\n**Adequado:** realiza os 2 itens.  \n**Parcialmente adequado:** realiza somente 1 item.   \n**Inadequado:** não realiza nenhum dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Encaminha o paciente para serviço de referência**  \n(oncologia ou pneumologia) para estabelecer o diagnóstico de tumor/câncer  \nde pulmão.  \n\n**Adequado:** encaminha.  \n**Inadequado:** não encaminha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Esclarece que o diagnóstico definitivo se dá por meio de biopsia.**  \n\n**Adequado:** esclarece.  \n**Inadequado:** não esclarece.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Oferece ao paciente oportunidade de esclarecer todas as dúvidas.**  \n\n**Adequado:** pergunta se tem dúvidas.  \n**Inadequado:** não pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "uid": 124,
+  "hash": "pepe_124",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Cefaleia Secundária - Linfoma Cerebral por HIV",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Secundária à Saúde - Pronto Atendimento.  \nTipo de atendimento: Urgência e Emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de emergência;  \n• laboratório de análises clínicas;  \n• serviço de imagem (Tomografia Computadorizada e Ressonância Magnética).\n\nDescrição do caso:\nHomem de 55 anos é trazido ao pronto atendimento por cefaleia intensa há 2 horas. Relata também fraqueza no braço direito.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro atual;  \n- Solicitar e interpretar o exame físico;  \n- Solicitar e interpretar exames complementares pertinentes ao caso;  \n- Formular a hipótese diagnóstica;  \n- Estabelecer o plano terapêutico inicial.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 55 anos, contador.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), minha cabeça está explodindo. Começou faz umas 2 horas, uma dor terrível.  \n\n**SOBRE A DOR:**  \n• **Início:** Essa dor forte tem 2 horas, mas já faz uns 2 meses que sinto uma dor mais fraca, que vinha piorando.  \n• **Localização:** Lado esquerdo, aqui na têmpora.  \n• **Intensidade:** Agora é 10/10. A que eu sentia antes era um 4 ou 5.  \n• **Característica:** É uma dor constante, pesada.  \n• **Medicações:** Só tomava dipirona para a dor de cabeça, mas hoje não adiantou.  \n\n• **Trauma:** Não bati a cabeça.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Fraqueza:** Meu braço direito está esquisito, estou com dificuldade para mexer, parece fraco.  \n• **Náuseas/Vômitos:** Estou muito enjoado.  \n• **Febre:** nega.  \n• **Convulsão:** Não tive convulsão.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças:** Não sei de nenhuma doença.  \n• **Vida sexual/parceiros:** Sou casado, mas tive outras parceiras antes. Não uso preservativo há muito tempo...  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *É algo grave? Por que meu braço está fraco?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 135 x 85 mmHg  \n• **Frequência Cardíaca:** 92 bpm  \n• **Frequência Respiratória:** 18 irpm  \n• **Saturação de Oxigênio:** 98% em ar ambiente  \n• **Temperatura Axilar:** 36,9°C  \n\n\n**EXAME CLÍNICO:**  \nPaciente em bom estado geral, orientado em tempo e espaço, corado, hidratado, acianótico, anictérico.  \n\nAparelho cardiovascular: Ritmo cardíaco regular, 2 tempos, sem sopros.  \n\nAparelho respiratório: Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\nAbdome: Plano, flácido, indolor, sem visceromegalias.  \n\n\n**EXAME NEUROLÓGICO:**  \n\n\n• **Pupilas:** isocóricas e fotorreagentes.  \n\n• **Força muscular:** Grau 4/5 em membro superior direito. Demais membros com força Grau 5/5.  \n\n• **Sensibilidade:** preservada.  \n\n• **Sinais de irritação meníngea (Kernig e Brudzinski):** negativos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 14,5 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Leucócitos:** 7.800 mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 220.000 mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**FUNÇÃO RENAL**  \n• **Creatinina:** 0,9 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 38 mg/dL (VR: 10 – 50 mg/dL)  \n\n\n**MARCADORES INFLAMATÓRIOS**  \n• **Proteína C Reativa (PCR):** 22 mg/L (VR: < 5 mg/L)  \n\n\n**SOROLOGIAS**  \n• **Teste Rápido HIV (1 e 2):** REAGENTE  \n• **VDRL:** Não Reagente",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TC DE CRÂNIO (COM CONTRASTE)",
+      "conteudo": "**Laudo:** Evidencia-se lesão expansiva única, de contornos algo irregulares, localizada em região periventricular temporal esquerda, medindo 3,5 cm em seu maior diâmetro. A lesão apresenta realce anelar discreto pelo meio de contraste e está associada a edema vasogênico adjacente  \n\nNão há sinais de hemorragia aguda.",
+      "imagem": "img_printeds/e124p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, investigando as características da cefaleia:**  \n(1) início (agudo vs. progressivo);  \n(2) localização e irradiação;  \n(3) intensidade;  \n(4) tipo/qualidade da dor;  \n(5) fatores de melhora ou piora.  \n\n**Adequado:** investiga quatro ou mais características.  \n**Parcialmente adequado:** investiga duas ou três características.  \n**Inadequado:** investiga uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas associados e \"red flags\" para cefaleia secundária:**  \n(1) febre;  \n(2) déficits neurológicos focais (fraqueza, alteração de fala);  \n(3) convulsões;  \n(4) trauma craniano recente;  \n(5) náuseas ou vômitos.  \n\n**Adequado:** investiga três ou mais sintomas.  \n**Parcialmente adequado:** investiga dois sintomas.  \n**Inadequado:** investiga um ou nenhum sintoma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico neurológico focado.**  \n\n**Adequado:** solicita o exame físico neurológico (incluindo força muscular, sensibilidade e reflexos).  \n**Inadequado:** não solicita o exame físico neurológico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame de neuroimagem (Tomografia ou Ressonância de Crânio).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais para investigação etiológica:**  \n(1) sorologia para HIV (ou Teste Rápido);  \n(2) marcadores inflamatórios (PCR ou VHS);  \n(3) hemograma.  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta o resultado do exame de imagem (TC de Crânio).**  \n\n**Adequado:** identifica a presença de lesão expansiva (ou massa, ou tumoração) cerebral única, com realce anelar e edema.  \n**Inadequado:** não identifica a lesão ou a descreve incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Formula a hipótese diagnóstica principal e o principal diagnóstico diferencial, correlacionando com o status de HIV.**  \n\n**Adequado:** formula a hipótese de Linfoma Primário do SNC E/OU Neurotoxoplasmose, justificando pela lesão cerebral em paciente com HIV.  \n**Parcialmente adequado:** menciona apenas uma das hipóteses (Linfoma ou Toxoplasmose) OU menciona apenas \"lesão cerebral por HIV\" sem especificar.  \n**Inadequado:** não formula uma hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a conduta inicial para manejo do edema cerebral e HIC (Hipertensão Intracraniana).**  \n\n**Adequado:** indica o uso de corticoide (ex: Dexametasona).  \n**Inadequado:** não indica corticoide.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a conduta para confirmação diagnóstica e manejo da doença de base.**  \n(1) solicita avaliação da infectologia e/ou neurocirurgia;  \n(2) indica a internação hospitalar.  \n\n**Adequado:** indica as duas condutas.  \n**Parcialmente adequado:** indica uma conduta.  \n**Inadequado:** não indica nenhuma conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Informa ao paciente sobre a gravidade e os próximos passos.**  \n\n**Adequado:** explica ao paciente, de forma empática, que foi encontrada uma lesão no cérebro e que exames adicionais são necessários, e que o resultado do teste de HIV requer acompanhamento.  \n**Inadequado:** não comunica os achados ou o faz de forma inadequada/não empática.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

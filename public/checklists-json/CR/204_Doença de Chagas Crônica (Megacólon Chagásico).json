@@ -1,0 +1,183 @@
+{
+  "uid": 204,
+  "hash": "pepe_204",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Doença de Chagas Crônica (Megacólon Chagásico)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - unidade de pronto atendimento (UPA).  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização;  \n• Acesso a laboratório de análises clínicas e radiografia.\n\nDescrição do caso:\nVocê atenderá um homem de 50 anos, que procura o serviço de atendimento com queixa de dor abdominal e constipação intestinal há vários dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada.  \n- Solicitar o exame físico específico, caso necessário.  \n- Formular e verbalizar a hipótese diagnóstica principal.  \n- Solicitar e interpretar os exames complementares para a investigação.  \n- Estabelecer a conduta terapêutica inicial e as orientações necessárias.  \n- Responder às dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• José, 50 anos, casado, lavrador aposentado.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com a barriga muito inchada e doendo. Faz 10 dias que não consigo evacuar direito.  \n\n**SOBRE OS SINTOMAS:**  \n• **Constipação:** Eu sempre tive o intestino preso, mas nunca tanto tempo. A dor está aumentando também.  \n• **Sintomas associados:** Estou sem apetite e Cheguei a vomitar uma vez hoje de manhã.  \n• **Esforço evacuatório:** Eu tento fazer força, mas não sai nada. Parece que tem uma coisa trancando.  \n\n**HISTÓRIA EPIDEMIOLÓGICA:**  \n• **Moradia:** Hoje eu moro na cidade, mas eu nasci na Bahia e já morei em casa de barro.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** Tenho pressão alta, tomo Losartana.  \n• **Alergias e cirurgias:** Nega.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai morreu do coração, diziam que o coração dele era grande.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Essa dor é perigosa? Vou precisar de cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 150x95 mmHg  \n• **FC:** 105 bpm  \n• **FR:** 22 irpm  \n• **Temp. axilar:** 37,2°C  \n\n\n**Ectoscopia:** Regular estado geral, ansioso, desidratado (+/4+), hipocorado (+/4+).  \n\n\n**Aparelho Respiratório:** Murmúrio vesicular presente e simétrico, sem ruídos adventícios.  \n\n\n**Aparelho Cardiovascular:** Ritmo cardíaco regular, taquicárdico, em dois tempos, sem sopros.  \n\n\n**Abdome:** Abdome acentuadamente distendido, timpânico à percussão de forma difusa. Ruídos hidroaéreos diminuídos. Doloroso à palpação profunda, sem sinais de irritação peritoneal. Palpa-se massa de consistência endurecida, móvel, em fossa ilíaca esquerda.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 12,1 g/dL (VR: 13,5 – 17,5 g/dL)  \n• **Hematócrito:** 48% (VR: 40 – 52%)  \n• **Leucócitos:** 11.200/mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 220.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**BIOQUÍMICA**  \n• **Ureia:** 55 mg/dL (VR: 10 – 50 mg/dL)  \n• **Creatinina:** 1,5 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Sódio:** 132 mEq/L (VR: 135 – 145 mEq/L)  \n• **Potássio:** 3,3 mEq/L (VR: 3,5 – 5,1 mEq/L)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE ABDOME",
+      "conteudo": "**Laudo:**  \n• Acentuada distensão do cólon, especialmente do sigmoide e reto, com grande quantidade de conteúdo fecal impactado (fecaloma).  \n• Ausência de pneumoperitônio ou níveis hidroaéreos característicos de obstrução de delgado.  \n• Alças de delgado de calibre preservado.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "SOROLOGIA DOENÇA DE CHAGAS",
+      "conteudo": "• **ELISA para *T. cruzi*:** Reagente.  \n• **Imunofluorescência Indireta (IFI) para *T. cruzi*:** Reagente.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da constipação e da dor abdominal.**  \n(1) tempo de evolução da constipação crônica e do episódio agudo;  \n(2) características da dor;  \n(3) sintomas associados como náuseas e vômitos.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a anamnese epidemiológica para Doença de Chagas.**  \n\n**Adequado:** pergunta sobre a procedência (área endêmica) e/ou tipo de moradia.  \n**Inadequado:** não investiga o histórico epidemiológico.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico com foco no sistema digestivo.**  \n\n**Adequado:** solicita a avaliação do abdome.  \n**Inadequado:** não solicita o exame abdominal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame de imagem fundamental para a avaliação inicial.**  \n\n**Adequado:** solicita radiografia de abdome.  \n**Inadequado:** não solicita a radiografia de abdome.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta os achados da radiografia e formula a hipótese sindrômica.**  \n\n**Adequado:** identifica a distensão colônica e o fecaloma, formulando a hipótese de Megacólon.  \n**Inadequado:** não interpreta o exame ou não formula a hipótese de Megacólon.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita o exame para confirmação da etiologia.**  \n\n**Adequado:** solicita sorologia para Doença de Chagas.  \n**Inadequado:** não solicita a sorologia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza o diagnóstico etiológico e sindrômico completo.**  \n\n**Adequado:** verbaliza o diagnóstico de Megacólon Chagásico descompensado por fecaloma.  \n**Parcialmente adequado:** verbaliza apenas \"Megacólon\" ou \"Doença de Chagas\".  \n**Inadequado:** não formula o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Inicia a conduta clínica de suporte imediato.**  \n(1) indica jejum;  \n(2) indica hidratação venosa;  \n(3) indica passagem de sonda nasogástrica.  \n\n**Adequado:** indica as três medidas.  \n**Parcialmente adequado:** indica duas medidas.  \n**Inadequado:** indica uma ou nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a conduta para a desimpactação do fecaloma.**  \n\n**Adequado:** indica a realização de clister ou lavagem intestinal para desimpactação manual ou endoscópica.  \n**Inadequado:** não indica a conduta de desimpactação ou indica cirurgia como primeira opção.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre o seguimento do caso.**  \n(1) explica que a condição é crônica e necessita de acompanhamento;  \n(2) encaminha para avaliação com Cirurgião Geral ou Coloproctologista.  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta sobre o seguimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza a necessidade de notificação do caso ao SINAN.**  \n\n**Adequado:** informa que a Doença de Chagas Crônica é um agravo de notificação compulsória.  \n**Inadequado:** não menciona a necessidade de notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

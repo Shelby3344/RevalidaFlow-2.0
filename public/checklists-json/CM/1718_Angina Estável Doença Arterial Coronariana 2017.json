@@ -1,0 +1,188 @@
+{
+  "uid": 1718,
+  "hash": "pepe_1718",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Angina Estável / Doença Arterial Coronariana | 2017",
+  "definicao": "Estação original adaptada  \nPSU-CE 2017 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - ambulatório de especialidades (Cardiologia ou Clínica Médica).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a resultados de exames laboratoriais.\n\nDescrição do caso:\nVocê está atendendo um paciente de 59 anos, que comparece à consulta ambulatorial trazendo resultados de exames solicitados na consulta anterior (check-up). Ele ainda relata episódios de desconforto no peito.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese completa do paciente;  \n- Comunicar os diagnósticos ao paciente;  \n- Definir a conduta terapêutica e de seguimento;  \n- Fornecer as orientações necessárias ao paciente.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar os impressos **EXAMES LABORATORIAIS** e **ECOCARDIOGRAMA** no início da estação.  \n\n\n**DADOS PESSOAIS:**  \n• Roberto, 58 anos, representante comercial.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim trazer os exames que o senhor pediu, mas queria falar de uma dorzinha chata que estou sentindo no peito ultimamente.  \n\n\n**SOBRE A DOR:**  \n• **Início:** Antes de fazer esses exames eu já tava sentindo, mas parece que agora está mais frequênte.  \n• **Localização:** É bem no meio do peito.  \n• **Característica:** Parece um aperto, um peso.  \n• **Intensidade:** É forte quando vem, incomoda bastante.  \n• **Duração:** Dura uns 5 minutos e passa.  \n• **Irradiação:** Às vezes parece que vai para o meu braço esquerdo.  \n• **Fatores de melhora:** Se eu paro e descanso um pouco, a dor some.  \n\n\n**ANTECEDENTES PESSOAIS E FATORES DE RISCO:**  \n• **Doenças:** Tenho pressão alta faz tempo.  \n• **Tabagismo:** Fumo um maço por dia há 30 anos.  \n• **Sedentarismo:** Não faço exercício nenhum, minha vida é muito corrida.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai morreu do coração novo, com 50 anos.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor?*  \n• *Porque eu tô tendo isso?*  \n• *O que eu tenho que fazer agora?*  \n• *Vou ter que tomar algum remédio?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 140x85 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp. axilar:** 36.5° C  \n\n• **IMC:** 31 kg/m²  \n• **Circunferência Abdominal:** 106 cm  \n\n\n**Ectoscopia:** paciente em bom estado geral, orientado, corado, hidratado, acianótico e anictérico.  \n\n\n**Exame segmentar:** sem alterações significativas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,8 milhões/mm³ (VR: 4,3 a 5,8 milhões/mm³)  \n• **Hemoglobina:** 14,5 g/dl (VR: 14 a 18 g/dl)  \n• **Hematócrito:** 42% (VR: 39 - 52%)  \n\n• **Plaquetas:** 250.000/mm³ (VR: 150.000 - 400.000/mm³)  \n• **Leucócitos:** 7.500/mm³ (VR: 4.000 - 10.000/mm³)  \n\n\n• **Glicemia de jejum:** 148 mg/dL (VR: 70 a 99 mg/dL)  \n• **Hemoglobina Glicada (HbA1c):** 7,8% (VR: < 5,7%)  \n\n• **Creatinina:** 1,0 mg/dL (VR: 0,7 a 1,3 mg/dL)  \n• **Ureia:** 35 mg/dL (VR: 10 a 50 mg/dL)  \n\n\n• **Colesterol Total:** 260 mg/dL (VR: < 190 mg/dL)  \n• **HDL Colesterol:** 32 mg/dL (VR: > 40 mg/dL)  \n• **LDL Colesterol:** 185 mg/dL (VR: < 130 mg/dL)  \n• **Triglicerídeos:** 215 mg/dL (VR: < 150 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ECOCARDIOGRAMA",
+      "conteudo": "**ECOCARDIOGRAMA DE ESTRESSE COM DOBUTAMINA**\n\n\n**Dados de Repouso:**  \n• **Ventrículo Esquerdo:** Dilatado com disfunção sistólica grave.  \n• **Fração de Ejeção (Simpson):** 34% (VR: > 55%).  \n• **Motilidade Parietal:** Acinesia dos segmentos: septal médio, septal apical, anterior médio e apical. Hipocinesia difusa nos demais segmentos.  \n\n\n**Protocolo de Estresse (Dobutamina):**  \n• **Fase de Baixa Dose (5-10 mcg/kg/min):** Observou-se piora da contratilidade (dismotilidade) em segmentos da parede inferior e lateral (mais de 2 segmentos acometidos).  \n• **Frequência Cardíaca no momento da isquemia:** 108 bpm (< 120 bpm).  \n\n\n**Conclusão:**  \n1. Disfunção ventricular esquerda grave em repouso (FEVE: 34%).  \n2. Teste positivo para isquemia miocárdica induzida por estresse farmacológico em baixa carga e baixa frequência cardíaca.  \n3. Disfunção ventricular grave e isquemia em territórios coronarianos com baixa dose de dobutamina.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identificou-se para o paciente ?**  \n(1) nome ou profissão  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Perguntou pelo menos 3 itens da identificação do paciente ?**  \n(1) nome;  \n(2) idade;  \n(3) naturalidade;  \n(4) procedência;  \n(5) profissão;  \n(6) escolaridade;  \n(7) raça;  \n(8) religião.  \n\n**Adequado:** pergunta três ou mais itens.  \n**Parcialmente adequado:** pergunta um ou dois itens.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.05",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Passou a tratar paciente pelo nome ou de forma cortês durante a consulta ?**  \n\n**Adequado:** trata pelo nome ou de forma cortês.  \n**Inadequado:** não trata pelo nome ou não é cortês.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.05",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Perguntou pelo menos 3 características da dor ?**  \n(1) localização;  \n(2) tipo de dor;  \n(3) intensidade;  \n(4) duração;  \n(5) irradiação.  \n\n**Adequado:** pergunta três ou mais características.  \n**Parcialmente adequado:** pergunta uma ou duas características.  \n**Inadequado:** não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Perguntou por algum fator que favorece surgimento ou a piora da dor torácica E por algum fator que alivia essa dor ?**  \n(1) piora com esforço ou emoção;  \n(2) melhora com repouso ou nitrato.  \n\n**Adequado:** pergunta sobre os dois fatores (piora e melhora).  \n**Parcialmente adequado:** pergunta apenas sobre um dos fatores.  \n**Inadequado:** não pergunta fator algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Perguntou pelo menos 3 fatores de risco maiores para coronariopatia ou os identificou através dos exames do paciente ?**  \n(1) história familiar de doença coronariana precoce;  \n(2) hipertensão;  \n(3) dislipidemia;  \n(4) diabetes;  \n(5) tabagismo;  \n(6) sedentarismo.  \n\n**Adequado:** pergunta ou identifica três ou mais fatores.  \n**Parcialmente adequado:** pergunta ou identifica um ou dois fatores.  \n**Inadequado:** não pergunta e não identifica fator algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Comunicou ao paciente os diagnósticos dislipidemia E diabetes mellitus evidenciados nos exames laboratoriais ?**  \n(1) dislipidemia;  \n(2) diabetes mellitus.  \n\n**Adequado:** comunica os dois diagnósticos.  \n**Parcialmente adequado:** comunica apenas um diagnóstico.  \n**Inadequado:** não comunica diagnóstico algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explicou em linguagem acessível ao paciente e não somente falou o nome do diagnóstico de Angina ou doença coronariana ?**  \n\n**Adequado:** explica em linguagem acessível.  \n**Inadequado:** não explica ou usa apenas termos técnicos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Aconselhou paciente a abandonar tabagismo ?**  \n\n**Adequado:** aconselha.  \n**Inadequado:** não aconselha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicitou ou indicou o cateterismo cardíaco E solicitou o consentimento verbal para realização do mesmo ?**  \n(1) solicitou ou indicou o cateterismo cardíaco;  \n(2) solicitou o consentimento verbal para realização do mesmo.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreveu medicamentos específicos E explicou verbalmente item a item ?**  \n(1) ácido acetilsalicílico (ou Clopidogrel);  \n(2) estatinas;  \n(3) beta-bloqueador (ou Nitrato, ou Bloqueador de Canais de Cálcio, ou IECA).  \n\n**Adequado:** prescreve e explica os três itens.  \n**Parcialmente adequado:** prescreve e explica um ou dois itens.  \n**Inadequado:** não prescreve ou não explica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Certificou-se do entendimento pedindo para paciente explicar como tomará as medicações ou pedindo para parafrasear ?**  \n\n**Adequado:** certifica-se do entendimento.  \n**Inadequado:** não se certifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orientou paciente a procurar serviço de emergência caso haja surgimento ou piora de sintomatologia ?**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "uid": 514,
+  "hash": "pepe_514",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Saúde da População Cigana/Romani",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde (APS).  \nTipo de atendimento: Ambulatorial – Unidade Básica de Saúde (UBS).  \nA unidade possui consultório, acesso a exames básicos e farmácia.\n\nDescrição do caso:\nVocê está na UBS e a recepção informa sobre uma paciente com dificuldade de cadastro por não ter comprovante de residência fixo. Ela se queixa de \"tontura e cabeça pesada\".",
+  "tarefas": "TAREFAS:  \n- Realizar o acolhimento, resolvendo a questão administrativa do cadastro;  \n- Realizar a anamnese dirigida à queixa da paciente;  \n- Solicitar o exame físico, caso necessário;  \n- Formular as hipóteses diagnósticas;  \n- Elaborar o plano terapêutico e de seguimento, considerando as especificidades culturais;  \n- Orientar sobre a demanda familiar trazida pela paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Soraia, 48 anos.  \n• Sou cigana, chegamos na cidade semana passada.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), lá na frente não queriam deixar eu entrar porque eu não tenho conta de luz. Eu moro no acampamento. Mas eu vim mesmo por causa de tontura e uma quentura no rosto que estou sentindo. Minha cabeça parece que vai explodir de tão pesada.  \n\n**SOBRE OS SINTOMAS:**  \n• **Início:** Começou tem uns 3 dias.  \n• **Sintomas associados:** Tenho um zumbido no ouvido também.  \n• **Sede e urina:** Estou bebendo muita água e levantando toda hora de noite para fazer xixi.  \n• **Peso:** As roupas estão ficando largas, acho que emagreci.  \n\n**ANTECEDENTES PESSOAIS E HÁBITOS:**  \n• **Doenças:** Minha mãe falava que eu tinha o \"sangue doce\", igual a ela, mas eu nunca fui atrás disso.  \n• **Medicações:** Eu tomo meus chás. Pata-de-vaca e quebra-pedra são muito bons.  \n• **Alimentação:** A gente come o que tem, geralmente carne gorda, arroz, batata e sal pra dar gosto.  \n• **Tabagismo:** Fumo meu cachimbo de palha todo dia.  \n\n**DÚVIDAS E OBJEÇÕES:**  \n• *Mas doutor(a), eu preciso mesmo de remédio de farmácia? Meus chás não resolvem?*  \n• *E se a gente for embora daqui um mês? Como eu faço pra pegar esses remédios em outra cidade?*  \n• *Ah, meu neto de 2 anos está comigo. Ele perdeu o cartão de vacina na mudança. Ele pode vacinar sem o cartão?*  \n\n**DEMAIS PERGUNTAS:** não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **PA:** 158x98 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 18 irpm  \n• **Temp:** 36,6ºC  \n• **HGT (Glicemia Capilar):** 276 mg/dL (ao acaso)  \n\n\n• **Peso:** 82 kg  \n• **Altura:** 1,60 m  \n• **IMC:** 32 kg/m²  \n\n\n**EXAME FÍSICO SEGMENTAR**  \n\n• **Cardiovascular:** Ritmo regular em 2 tempos, bulhas normofonéticas, sem sopros.  \n\n• **Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Membros Inferiores:** Pulsos periféricos presentes e simétricos, sensibilidade tátil preservada. Sem edema.  \n\n• **Fundo de olho:** Não realizado.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Garante o acesso ao atendimento na UBS:**  \n(1) orienta que a falta de comprovante de residência não impede o cadastro no SUS;  \n(2) informa que o cadastro pode ser feito declarando residência em acampamento/nômade ou usando o endereço da UBS como referência.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza apenas uma orientação.  \n**Inadequado:** não garante o acesso ou não resolve o impasse administrativo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a anamnese direcionada aos sintomas metabólicos:**  \n(1) investiga sintomas de crise hipertensiva (cefaleia, tontura, zumbido ou alterações visuais);  \n(2) investiga sintomas de hiperglicemia (poliúria, polidipsia, polifagia ou perda de peso).  \n\n**Adequado:** investiga os dois grupos de sintomas.  \n**Parcialmente adequado:** investiga apenas um grupo de sintomas.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga hábitos de vida e antecedentes:**  \n(1) questiona sobre alimentação e tabagismo;  \n(2) questiona sobre uso de tratamentos tradicionais (chás, ervas) ou crenças de saúde.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico e/ou sinais vitais:**  \n(1) pressão arterial;  \n(2) glicemia capilar (HGT).  \n\n**Adequado:** solicita os dois parâmetros.  \n**Parcialmente adequado:** solicita apenas um parâmetro.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza as hipóteses diagnósticas:**  \n(1) Hipertensão Arterial Sistêmica (HAS);  \n(2) Diabetes Mellitus tipo 2 (DM2);  \n(3) Obesidade (Grau I).  \n\n**Adequado:** verbaliza as três hipóteses.  \n**Parcialmente adequado:** verbaliza duas hipóteses.  \n**Inadequado:** verbaliza uma ou nenhuma hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames complementares para confirmação e estadiamento:**  \n(1) glicemia de jejum e/ou hemoglobina glicada (HbA1c);  \n(2) função renal (creatinina/ureia) e/ou EAS (urina tipo 1);  \n(3) perfil lipídico (colesterol total e frações, triglicerídeos).  \n\n**Adequado:** solicita os três grupos de exames.  \n**Parcialmente adequado:** solicita dois grupos de exames.  \n**Inadequado:** solicita um grupo ou não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Propõe o plano terapêutico inicial medicamentoso:**  \n(1) prescreve anti-hipertensivo (ex: IECA, BRA ou Tiazídico);  \n(2) prescreve hipoglicemiante oral (ex: Metformina).  \n\n**Adequado:** prescreve para ambas as condições.  \n**Parcialmente adequado:** prescreve para apenas uma condição.  \n**Inadequado:** não prescreve ou prescreve incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza abordagem com competência cultural sobre o tratamento:**  \n(1) valida o uso dos chás/ervas, não proibindo seu uso (desde que não tóxicos);  \n(2) negocia a inclusão do tratamento medicamentoso alopático junto aos costumes da paciente, explicando os riscos da não adesão.  \n\n**Adequado:** realiza as duas ações (respeito e negociação).  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** proíbe os chás ou impõe o tratamento sem negociação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Garante a longitudinalidade do cuidado para população itinerante:**  \n(1) orienta a paciente a portar sempre o Cartão Nacional de Saúde (CNS/Cartão SUS);  \n(2) explica que com o cartão e as receitas ela pode retirar medicamentos e ser atendida em qualquer cidade do território nacional.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza apenas uma orientação.  \n**Inadequado:** não aborda a questão da itinerância.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre a vacinação do neto:**  \n(1) garante que a vacinação será realizada mesmo sem o cartão anterior;  \n(2) informa que um novo cartão será emitido na unidade.  \n\n**Adequado:** realiza a orientação e garante a vacinação.  \n**Inadequado:** nega a vacinação ou coloca barreiras.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza a necessidade de registrar o quesito raça/cor/etnia como \"Cigana\" ou \"Romani\" no prontuário da paciente.**  \n\n**Adequado:** verbaliza o registro.  \n**Inadequado:** não verbaliza.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

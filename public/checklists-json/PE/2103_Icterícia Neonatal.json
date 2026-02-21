@@ -1,0 +1,216 @@
+{
+  "uid": 2103,
+  "hash": "pepe_2103",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Icterícia Neonatal",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está de plantão no alojamento conjunto de um hospital secundário.\n\nDescrição do caso:\nVocê está de plantão no alojamento conjunto de um hospital secundário e está passando visita nos  \nbebês recém-nascidos.  \nA mãe do recém-nascido do qual você irá fazer a consulta agora esta preocupada, pois notou que  \nseu bebê está mais quietinho e com a pele diferente.",
+  "tarefas": "*Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- fazer a anamnese dirigida à mãe;  \n- ler a ficha do bebê afixada na mesa;  \n- comentar o exame físico (não será necessário examinar diretamente o bebê simulado);  \n- solicitar todos os exames complementares que julgar necessário (se indicados);  \n- responder aos questionamentos da mãe do bebê simulado;  \n- propor conduta clínica ao bebê simulado (se indicada);  \n- orientar a mãe quanto aos cuidados gerais do recém-nascido.",
+  "script_ator": "**DADOS DA MÃE**:  \n• Célia, 33 anos, casada, 1 filho.  \n\n**DADOS DA CRIANÇA**:  \n• Francisco, 12 horas de vida.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr(a), meu filho nasceu tem 12 horas, e eu estou muito preocupada, porque ele está meio amarelinho.  \n\n**ANTECEDENTES MATERNOS**:  \n• **Gesta**: 2, Parto 1, Aborto 1.  \n• Eu fiz o prenatal completo com seis consultas, tomei as vacinas, fiz ultrassom, dr (a).  \n\n**PERGUNTAS SOBRE IMUNOGLOBULINA**:  \n• Nunca me aplicaram nada.  \n\n**GRUPO SANGUINEO PATERNO E MATERNO**:  \n• Do pai dele é tipo A+  \n• O meu é tipo O-  \n\n**DÚVIDAS**:  \n• - O que é isso? Por que acontece isso?  \n• - Tem alguma complicação? Ele vai ficar bem?  \n\n**OUTRAS PERGUNTAS**:  \n• Não consta no SCRIPT",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FICHA DO RECÉM-NASCIDO",
+      "conteudo": "**Francisco – RN de Célia**  \n**Via de parto:** Vaginal  \n**Idade gestacional:** 40 semanas  \n**APGAR:** 1° minuto: 9 / 5° minuto: 10  \n**Peso de Nascimento:** 3410 g  \n**Comprimento:** 51 cm  \n**PC:** 34,5 cm",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "TIPAGEM SANGUÍNEA DO RN",
+      "conteudo": "**SISTEMA ABO:** A  \n**FATOR RH:** POSITIVO",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "BEG, corado, hidratado, eupneico, afebril, acianótico.  \n**AR:** murmúrio vesicular, sem ruídos adventícios.  \n**ACV:** ritmo cardíaco regular, em 2 tempos, bulhas normofonéticas, sem sopros audíveis.  \n**ABD:** semigloboso, ruídos hidroaéreos presentes, timpânico, normotenso, sem massas ou visceromegalias palpáveis.  \n**Neuro:** reflexos primitivos do recém-nascido presentes e simétricos.  \n**Pele:** icterícia +3/+4, estendendo-se até os joelhos e cotovelos.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**BILIRRUBINA TOTAL:** 15 (VR: 3,4 – 11,5mg/dL)  \n**BILIRRUBINA INDIRETA:** 14,7 (VR: 3 – 11mg/dL)  \n**BILIRRUBINA DIRETA:** 0,3 (VR < 0,3mg/dL)  \n**COOMBS DIRETO:** POSITIVO (VR: NEGATIVO)  \n**HEMATÓCRITO:** 50% (44 a 62%)  \n**RETICULÓCITOS:** 0,8% (< 2,1%)  \n**DHL:** 239 (224 – 600)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \nApresenta-se à mãe simulada, pergunta o nome da mãe ou do bebê.  \n\n**Adequado:** se apresenta e pergunta o nome da mãe e/ou do bebê ou de  \nambos.  \n**Inadequado:** não se apresenta nem pergunta quaisquer itens acima.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Questiona antecedentes gestacionais (gestações prévias, abortos e partos**  \nanteriores).",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona**  \n(1) Via de parto  \n(2) Amamentação.  \n\n**Adequado:** pergunta de ambos os itens.  \n**Parcialmente adequado:** pergunta apenas sobre um dos itens.  \n**Inadequado:** não pergunta sobre via de parto nem sobre amamentação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta a tipagem sanguínea da mãe.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta se a mãe fez imunoglobulina anti-D após a gestação anterior.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Realiza o exame físico do RN.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Dá o diagnóstico de Icterícia.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita tipagem sanguínea do RN.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exames laboratoriais (Bilirrubinas totais e frações, Coombs direto,**  \nHematócrito/hemograma, reticulócitos, DHL).  \n\n**Adequado:** solicita 3 ou mais exames que estão contidos no impresso 3, sendo 1  \ndeles obrigatoriamente Bilirrubinas totais e  \nfrações.  \n**Parcialmente adequado:** solicita 2 exames que estão contidos no impresso 3,  \nsendo 1 deles obrigatoriamente Bilirrubinas totais e  \nfrações.  \n**Inadequado:** não solicita exames OU solicita apenas Bilirrubinas,  \nOU solicita exames sem ter Bilirrubinas nas opções.  \n\nObs .: só serão pontuados neste item os exames solicitados antes da entrega do  \nimpresso 3. Caso o(a) participante cite que gostaria de pedir mais algum exame  \napós a entrega do impresso,  \nnão será atribuída pontuação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Institui Fototerapia com fotoproteção ocular.**  \n\n**Adequado:** institui fototerapia com proteção ocular.  \n**Parcialmente adequado:** cita fototerapia, mas sem fotoproteção ocular.  \n**Inadequado:** não institui tratamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explica para mãe o fator de risco para desenvolvimento da Icterícia (apesar**  \nde ser um RN termo e com peso adequado, apresenta incompatibilidade  \nsanguínea ABO e do fator Rh, após gestação prévia).  \n\n**Adequado:** cita as duas incompatibilidades.  \n**Parcialmente adequado:** cita incompatibilidade apenas de um dos fatores: ABO  \nou Rh.  \n**Inadequado:** não explica estes fatores.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Cita a recoleta de bilirrubinas após um tempo de fototerapia para avaliar a**  \nsuspensão do tratamento e a alta hospitalar",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Explica à mãe os fatores de risco para desenvolvimento de Kernicterus**  \n(nível alto de Bilirrubinas por tempo prolongado em pacientes sem  \nterapêutica).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Cita os demais cuidados/medidas a serem feitos com o RN (testes de**  \ntriagem neonatais, vacinação na primeira semana de vida, cuidados com o  \ncoto umbilical, incentivo ao aleitamento materno);  \n\n**Adequado:** cita três ou mais das medidas dos cuidados gerais com o RN.  \n**Parcialmente adequado:** cita duas das medidas dos cuidados gerais com o RN.  \n**Inadequado:** cita apenas uma ou não cita nenhuma das medidas dos cuidados  \ngerais com o RN.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Mantém postura acolhedora com a mãe e pergunta se tem alguma outra**  \ndúvida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

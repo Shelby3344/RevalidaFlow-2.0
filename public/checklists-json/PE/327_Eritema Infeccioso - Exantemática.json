@@ -1,0 +1,160 @@
+{
+  "uid": 327,
+  "hash": "pepe_327",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Eritema Infeccioso - Exantemática",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de observação;  \n• laboratório de análises clínicas.\n\nDescrição do caso:\nVocê atenderá uma criança de 8 anos levada pela mãe à consulta por apresentar manchas vermelhas no rosto há 2 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico do paciente.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Formular e verbalizar a hipótese diagnóstica principal e os diagnósticos diferenciais.  \n- Orientar a mãe sobre a condição, o tratamento e a evolução esperada.  \n- Estabelecer a conduta terapêutica adequada.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Patrícia, 35 anos.  \n• **Criança:** Laura, 8 anos.  \n\n**MOTIVO DE CONSULTA:** Doutora, a Laura está com as bochechas muito vermelhas, parece que ficou muito tempo no sol.  \n\n**SOBRE O EXANTEMA:**  \n• **Início:** há 2 dias.  \n• **Progressão:** ontem também apareceram manchas nos braços e nas pernas.  \n• **Aspecto atual:** as manchas parecem ter uns buraquinhos no meio, tipo uma renda.  \n• **Prurido:** coça um pouquinho às vezes.  \n\n**SINTOMAS PRÉVIOS:**  \n• **Febre:** uns 5 dias antes das manchas teve febre baixa.  \n• **Coriza:** teve nariz escorrendo sim.  \n• **Estado geral:** ficou bem, foi pra escola normal.  \n\n**NEGAR OUTROS SINTOMAS:**  \n• Dor de garganta, tosse, vômitos, diarreia.  \n• Manchas que não somem quando aperta, sangramento.  \n• Palidez intensa, cansaço extremo.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Vacinação:** está com as vacinas em dia.  \n\n**HISTÓRIA EPIDEMIOLÓGICA:**  \n• **Escola:** teve outras crianças com manchas parecidas nas últimas semanas.  \n• **Contato com gestantes:** minha cunhada está grávida de 4 meses e visitou a gente ontem.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que a Laura tem?*  \n• *Ela pode ir pra escola?*  \n• *Minha cunhada grávida corre risco?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência Cardíaca:** 88 batimentos por minuto.  \n**Frequência Respiratória:** 18 incursões respiratórias por minuto.  \n**Temperatura Axilar:** 36,8°C.  \n\n\n**EXAME CLÍNICO:**  \nBom estado geral, ativa, corada, hidratada, afebril, acianótica, anictérica.  \n\n\n**DEMAIS SISTEMAS:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DAS LESÕES",
+      "conteudo": "**VERBALIZE OS ACHADOS DAS LESÕES**",
+      "imagem": "img_printeds/e327p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe e pergunta seu nome;  \n(3) pergunta o nome da criança.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características do exantema e sintomas prodrômicos:**  \n(1) tempo de início do exantema;  \n(2) local de início e progressão;  \n(3) aspecto das lesões (rendilhado, face esbofeteada);  \n(4) presença de prurido;  \n(5) febre prévia ao exantema;  \n(6) sintomas de resfriado (coriza, cefaleia) antes das manchas.  \n\n**Adequado:** investiga cinco ou mais itens.  \n**Parcialmente adequado:** investiga três ou quatro itens.  \n**Inadequado:** investiga dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga antecedentes, sinais de alarme e contactantes de risco:**  \n(1) história de anemia crônica (falciforme, talassemia);  \n(2) palidez intensa ou sinais de anemia;  \n(3) artralgia ou artrite;  \n(4) contato com gestantes;  \n(5) casos semelhantes na escola ou comunidade.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico e identifica os achados característicos:**  \n\n\n**Adequado:** identifica os quatro achados (face esbofeteada, palidez perioral, exantema rendilhado em membros, bom estado geral/afebril).  \n**Parcialmente adequado:** identifica dois ou três achados.  \n**Inadequado:** identifica um achado ou não identifica achado algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a hipótese diagnóstica de Eritema Infeccioso:**  \n\n**Adequado:** verbaliza Eritema Infeccioso OU Quinta Doença OU Parvovirose B19.  \n**Parcialmente adequado:** verbaliza doença exantemática viral sem especificar.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza diagnósticos diferenciais:**  \n(1) Rubéola;  \n(2) Escarlatina;  \n(3) Lúpus eritematoso sistêmico;  \n(4) Reação alérgica ou farmacodermia;  \n(5) Exantema súbito.  \n\n**Adequado:** verbaliza três ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** verbaliza dois diagnósticos diferenciais.  \n**Inadequado:** verbaliza um ou não verbaliza diagnóstico diferencial algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta que o diagnóstico é clínico e dispensa exames em casos típicos:**  \n\n**Adequado:** orienta que o diagnóstico é clínico e exames são reservados para complicações, gestantes contactantes ou pacientes de risco (ex: crise aplástica em falcêmicos).  \n**Inadequado:** não orienta ou solicita exames desnecessários sem justificativa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre a evolução da doença e prescreve tratamento de suporte:**  \n(1) explica que é doença viral benigna e autolimitada;  \n(2) orienta que o exantema pode reaparecer com sol, calor ou estresse;  \n(3) prescreve analgésicos/antitérmicos se necessário (dipirona ou paracetamol);  \n(4) orienta hidratação adequada.  \n\n**Adequado:** orienta três ou mais itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre transmissibilidade e retorno escolar:**  \n\n**Adequado:** orienta que a criança NÃO é mais contagiosa na fase do exantema e pode frequentar a escola (o contágio ocorre na fase prodrômica).  \n**Inadequado:** não orienta ou orienta afastamento escolar desnecessário.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre o risco para a gestante contactante:**  \n(1) explica que o parvovírus B19 pode causar complicações fetais (hidropsia fetal);  \n(2) orienta que a gestante procure seu obstetra para avaliação e sorologia.  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre sinais de alarme para retorno:**  \n(1) palidez intensa ou cansaço extremo (sinal de crise aplástica);  \n(2) sangramentos ou petéquias;  \n(3) dor articular intensa ou persistente;  \n(4) febre alta ou prostração.  \n\n**Adequado:** orienta três ou mais sinais de alarme.  \n**Parcialmente adequado:** orienta dois sinais de alarme.  \n**Inadequado:** orienta um sinal ou não orienta sinal de alarme algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

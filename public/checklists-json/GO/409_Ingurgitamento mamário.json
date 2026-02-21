@@ -1,0 +1,143 @@
+{
+  "uid": 409,
+  "hash": "pepe_409",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Ingurgitamento mamário",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nPuérpera, 3 dias pós-parto, procura atendimento na UBS com queixa de dor nas mamas e mal-estar.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal.  \n- Solicitar o exame físico pertinente ao caso.  \n- Formular a hipótese diagnóstica.  \n- Estabelecer o plano terapêutico e orientar a paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Bárbara, 28 anos, casada.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), meu peito está doendo muito e está duro, parece pedra.  \n\n**SOBRE A DOR E MAMAS:**  \n• **Início:** Começou ontem, mas hoje piorou muito.  \n• **Localização:** As duas mamas, mas a direita dói mais.  \n• **Característica:** É uma dor que pesa, e sinto a mama muito quente.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Mal-estar:** Estou com um mal-estar geral, parece que vou gripar.  \n• **Febre:** Medi a temperatura em casa e deu 38,1°C.  \n\n**AMAMENTAÇÃO:**  \n• **Dificuldade:** Meu bebê está mamando, mas ele parece nervoso, chora muito no peito.  \n• **Pega:** Ele não consegue pegar direito, minha aréola está muito dura e esticada.  \n• **Frequência:** No hospital me disseram para dar o peito de 3 em 3 horas, estou tentando fazer isso.  \n\n**ANTECEDENTES:**  \n• **Parto:** Meu parto foi há 3 dias, foi normal.  \n• **GPA:** É meu primeiro filho.  \n• **Outros:** Nega alergias ou uso de outras medicações.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que é isso? É grave?*  \n• *É normal o leite empedrar assim?*  \n• *Eu preciso parar de amamentar?*  \n• *O que eu faço para melhorar essa dor?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 120 x 80 mmHg  \n• **Frequência Cardíaca:** 92 batimentos por minuto  \n• **Frequência Respiratória:** 18 incursões respiratórias por minuto  \n• **Temperatura Axilar:** 38,2°C  \n\n\n**EXAME DAS MAMAS:**  \n• **Inspeção:** Mamas bilateralmente aumentadas de volume, simétricas, com hiperemia (vermelhidão) difusa.  \n• **Palpação:** Mamas tensas, quentes, e com múltiplos nódulos palpáveis e dolorosos (ingurgitadas).  \n• **Aréolas:** Tensão areolar presente, dificultando a compressão manual.  \n• **Mamilos:** Presença de fissuras pequenas em ambos os mamilos.  \n• **Expressão:** Saída de leite à expressão manual, com aspecto normal (sem presença de pus).  \n\n\n**Exame físico geral, cardiovascular, respiratório e abdominal:** sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da queixa principal:**  \n(1) início da dor/desconforto;  \n(2) localização (uni ou bilateral);  \n(3) presença de febre;  \n(4) presença de mal-estar.  \n\n**Adequado:** pergunta sobre três ou quatro itens.  \n**Parcialmente adequado:** pergunta sobre dois itens.  \n**Inadequado:** pergunta sobre um item ou não pergunta sobre nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a história da amamentação:**  \n(1) frequência das mamadas (livre demanda ou horários fixos);  \n(2) dificuldades na pega do bebê;  \n(3) técnica de amamentação utilizada;  \n(4) uso de bicos artificiais (chupetas ou mamadeiras).  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico das mamas.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a hipótese diagnóstica de Ingurgitamento Mamário.**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza ou verbaliza apenas mastite.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico diferencial de Mastite ou Abscesso Mamário.**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre a técnica correta de amamentação E/OU a amamentação em livre demanda.**  \n\n**Adequado:** orienta sobre a técnica E/OU a livre demanda.  \n**Inadequado:** não orienta nenhum dos dois.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta o manejo não farmacológico para alívio:**  \n(1) realização de massagem delicada nas mamas;  \n(2) ordenha manual de alívio (apenas para aliviar a tensão) ANTES da mamada, para amaciar a aréola.  \n\n**Adequado:** orienta as duas condutas.  \n**Parcialmente adequado:** orienta apenas uma conduta.  \n**Inadequado:** não orienta nenhuma das condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve medicação sintomática (analgésico E/OU anti-inflamatório não esteroidal).**  \n\n**Adequado:** prescreve (Paracetamol OU Ibuprofeno).  \n**Inadequado:** não prescreve ou prescreve medicação contraindicada na amamentação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a manutenção da amamentação (NÃO interromper o aleitamento).**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta ou orienta a suspensão da amamentação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

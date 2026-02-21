@@ -1,0 +1,116 @@
+{
+  "uid": 2106,
+  "hash": "pepe_2106",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Cirrose Hepática + Ascite",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Atendimento ambulatorial de Atencao Primaria.\n\nDescrição do caso:\nAtendimento ambulatorial de Atencao Primaria de um homem de 40 anos de idade, solteiro,  \npedreiro, natural e procedente de São Paulo, que procura serviço médico devido a aumento do  \nvolume abdominal e edema de membros inferiores, percebido há 15 dias.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar anamnese do paciente;  \n- solicitar exame físico;  \n- responder aos questionamentos do paciente simulado;  \n- estabelecer o diagnóstico e fazer orientação adequada.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Pedro, 40 anos de idade, solteiro, pedreiro.  \n\n**MOTIVO DE CONSULTA**:  \n• Faz 15 dias mais ou menos que percebi minha barriga muito distendida e as pernas estão muito inchadas.  \n\n**SINAIS E SINTOMAS ASSOCIADOS (RESPONDER CONFORME PERGUNTADO)**:  \n• **Icterícia/ pele amarelada**: as vezes minha pele e meus olhos ficam meio amarelados.  \n• **Sangramentos**: fui internado há 2 anos porque estava vomitando sangue.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: nega.  \n• **Medicamentos**: nega.  \n\n**HÁBITOS**:  \n• **Álcool**: bebo desde os 15 anos de idade, todos os dias, cachaça e cerveja.  \n• **Cigarro**: nega.  \n• **Drogas ilícitas**: nega.  \n• **Alimentação**: como muita carne, embutidos, coisas salgadas.  \n\n**Ao receber algum diagnóstico/ proposta terapêutica, perguntar**:  \n• Como terá que ser minha alimentação daqui pra frente?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "Regular estado geral, corado, hidratado, eupneico, afebril, acianótico, ictérico 3+/4+  \n**PA:** 130 mmHg x 80 mmHg  \n**FC:** 80 bpm  \n**Sat O2:** 98% ar ambiente  \n\n\n**AR:** murmúrio vesicular fisiológico sem ruídos adventícios  \n**ACV:** batimentos cardíacos em ritmo regular sem sopros  \n\n\n**Abdome:**  \n- Globoso, tenso  \n- Não foi possível palpar vísceras  \n- Espaço de Traube ocupado  \n- Circulação colateral visível nos flancos  \n- Aranhas vasculares em tronco e abdome  \n- **Sinal do Piparote positivo**  \n\n\n**Extremidades:**  \n- **Edema de membros inferiores 4+** até altura dos joelhos",
+      "imagem": "img_printeds/2021-e6p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma:**  \n**Hemoglobina:** 12 (VR: 13,5 – 17,5g/dL)  \n**Hematócrito:** 38 (VR: 41 – 53%)  \n**Leucócitos:** 4.000 (VR: 4.500 – 11.000/mm³)  \n**Plaquetas:** 90.000 (VR: 150.000 – 450.000)  \n\n\n**TGO:** 150 (VR: 15 – 40 U/L)  \n**TGP:** 120 (VR: 10 – 40 U/L)  \n**FA:** 100 (VR: 30 – 100 U/L)  \n**GGT:** 600 (VR: 8 – 78 U/L)  \n**Bilirrubinas totais:** 4 (BI: 2 BD: 2) BT (VR: 0,1 – 1,0mg/dL)  \n**Albumina sérica:** 3,0 (VR: 3,5 – 5,5 g/dL)  \n**TAP:** 60%  \n**INR:** 1,3 (VR: 0,9 e 1,1)  \n**Ureia:** 90 (VR: 16 – 40 mg/dL)  \n**Creatinina:** 1,0 (VR: 0,6 – 1,2 mg/dL)  \n**Na:** 135 (VR: 135 – 146 mEq/L)  \n**K:** 3,0 (VR: 3,5 – 5,0 mEq/L)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se;  \n(2) Cumprimenta o paciente simulado.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese perguntando fatores concomitantes para hepatopatia:**  \n(1) Icterícia ou pele amarelada;  \n(2) Hemorragia;  \n(3) Alteração no sono;  \n(4) Febre;  \n(5) Dor;  \n(6) Volume de diurese;  \n(7) Aspecto da urina;  \n(8) Coloração de fezes.  \n\n**Adequado:** cita mais que três itens.  \n**Parcialmente adequado:** cita três itens.  \n**Inadequado:** não cita nenhum item ou até dois itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico geral.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta exames laboratoriais:** aumento de taxas hepáticas, aumento de  \nbilirrubinas mista corroborando com icterícia. Plaquetopenia, hipertensão  \nportal.  \n\n**Adequado:** interpreta.  \n**Inadequado:** não interpreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza o diagnóstico de cirrose hepática descompensada com ascite.**  \n\n**Adequado:** diagnostica.  \n**Inadequado:** não diagnostica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita:** (1) paracentese diagnóstica e de alívio e (2) encaminha ao serviço  \nde referência.  \n\n**Adequado:** solicita o procedimento e encaminha ao serviço de referência.  \n**Inadequado:** não solicita e não encaminha ao serviço de referência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Proposta terapêutica:** dieta hipossódica e diuréticos (espironolactona e  \nfurosemida).  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

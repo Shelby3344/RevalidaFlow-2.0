@@ -1,0 +1,171 @@
+{
+  "uid": 515,
+  "hash": "pepe_515",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Saúde da População Ribeirinha - Malária na Gestação",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde (APS).  \nTipo de atendimento: Unidade Básica de Saúde Fluvial (UBSF).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico e sala de enfermagem;  \n• Laboratório para microscopia e testes rápidos;  \n• Farmácia básica com dispensação de medicamentos.\n\nDescrição do caso:\nVocê está em atendimento em uma UBS Fluvial na região Amazônica e atenderá uma gestante de 26 anos, residente em comunidade ribeirinha isolada. Ela refere febre intermitente e calafrios há três dias.",
+  "tarefas": "TAREFAS:  \n- Realizar anamnese direcionada à queixa e ao contexto epidemiológico;  \n- Solicitar exame físico direcionado;  \n- Solicitar exames complementares pertinentes ao caso;  \n- Formular o diagnóstico completo;  \n- Estabelecer o plano terapêutico e de seguimento, considerando as especificidades locais.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Maria, 26 anos, ribeirinha.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim no barco porque estou com uma tremedeira forte e febre faz uns 3 dias. Começa sempre no final da tarde.  \n\n**SINTOMAS ASSOCIADOS:**  \n• Sinto o corpo todo doer, uma fraqueza que não aguento levantar da rede e dor de cabeça.  \n• Sinto o bebê mexer, mas estou preocupada.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **DUM:** Não lembro a data certa. Acho que estou de uns 6 meses.  \n• **Pré-natal:** É a primeira vez que consulto. O barco da saúde demorou para passar na minha comunidade.  \n• **Gestações:** É o meu terceiro filho.  \n\n**EPIDEMIOLOGIA E HÁBITOS:**  \n• **Malária:** Já tive maleita umas duas vezes antes de engravidar.  \n• **Prevenção:** Lá em casa tem muito carapanã. O mosquiteiro rasgou e não temos repelente.  \n• **Água:** Bebemos água do rio mesmo, não temos filtro.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Isso é maleita de novo, doutor(a)?*  \n• *O remédio não vai fazer mal para a criança na minha barriga?*  \n• *Como vou fazer o tratamento se o barco vai embora amanhã?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 94x62 mmHg  \n• **FC:** 108 bpm  \n• **FR:** 22 irpm  \n• **Temp:** 38,2ºC  \n• **Saturação O2:** 96%  \n\n\n**Ectoscopia:** Regular estado geral, hipocorada (2+/4+), ictérica (1+/4+), acianótica.  \n\n\n**Abdome/Obstétrico:**  \n• **Inspeção:** Abdome globoso, compatível com gestação.  \n• **Palpação:** Fígado palpável a 3 cm do rebordo costal direito, doloroso. Baço palpável a 2 cm do rebordo costal esquerdo.  \n• **Altura Uterina:** 24 cm.  \n• **BCF:** 144 bpm, rítmico.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES COMPLEMENTARES",
+      "conteudo": "**GOTA ESPESSA / ESFREGAÇO DELGADO:**  \n• **Resultado:** POSITIVO para *Plasmodium vivax*. Parasitemia moderada (++).  \n\n\n**HEMOGRAMA:**  \n• **Hemoglobina:** 8,2 g/dL (VR: 11,5-15,5 g/dL)  \n• **Hematócrito:** 25% (VR: 35-45%)  \n• **Leucócitos:** 4.500/mm³  \n• **Plaquetas:** 95.000/mm³  \n\n\n**TESTES RÁPIDOS (TRIAGEM):**  \n• **HIV, Sífilis, Hepatite B e C:** Não Reagentes.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese obstétrica e epidemiológica:**  \n(1) investiga idade gestacional ou DUM;  \n(2) pergunta sobre episódios anteriores de malária;  \n(3) investiga uso de medidas de proteção (mosquiteiro, repelente).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico direcionado:**  \n(1) avaliação de mucosas (corada/ictérica);  \n(2) palpação abdominal (visceromegalias);  \n(3) exame obstétrico (AU e BCF).  \n\n**Adequado:** solicita os três itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um item ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames diagnósticos fundamentais:**  \n(1) gota espessa (ou esfregaço delgado ou teste rápido para malária);  \n(2) hemograma (ou hemoglobina/hematócrito).  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita os exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza o diagnóstico completo:**  \n(1) Malária por *Plasmodium vivax* em gestante;  \n(2) Anemia.  \n\n**Adequado:** verbaliza os dois diagnósticos.  \n**Parcialmente adequado:** verbaliza apenas malária.  \n**Inadequado:** não verbaliza diagnósticos corretos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Prescreve o tratamento específico para a fase aguda:**  \n(1) Cloroquina por 3 dias (D1, D2, D3);  \n(2) Verbaliza a dose total de 25mg/kg (ou esquema 4-3-3 comprimidos).  \n\n**Adequado:** prescreve a medicação e a duração corretas.  \n**Parcialmente adequado:** prescreve a medicação sem especificar duração ou dose.  \n**Inadequado:** prescreve medicação incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a contraindicação de Primaquina na gestação.**  \n\n**Adequado:** verbaliza a contraindicação.  \n**Inadequado:** prescreve primaquina ou não menciona a restrição.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve o esquema de prevenção de recaídas (quimioprofilaxia supressiva):**  \nCloroquina semanal (5mg/kg) até o parto.  \n\n**Adequado:** indica cloroquina semanal.  \n**Inadequado:** não indica ou indica esquema errado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Trata a anemia ferropriva:**  \nPrescreve Sulfato Ferroso e Ácido Fólico.  \n\n**Adequado:** prescreve as duas medicações.  \n**Parcialmente adequado:** prescreve apenas uma medicação.  \n**Inadequado:** não trata a anemia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a notificação compulsória do caso (SINAN/SIVEP-Malária).**  \n\n**Adequado:** notifica.  \n**Inadequado:** não notifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Fornece orientações de educação em saúde e prevenção:**  \n(1) uso de mosquiteiros impregnados ou roupas longas;  \n(2) cuidados com a água de consumo (fervura ou hipoclorito).  \n\n**Adequado:** fornece as duas orientações.  \n**Parcialmente adequado:** fornece uma orientação.  \n**Inadequado:** não fornece orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Estabelece plano de cuidado longitudinal adaptado à realidade ribeirinha:**  \n(1) aciona o Agente Comunitário de Saúde (ACS) ou microscopista local para supervisão;  \n(2) agenda retorno ou visita domiciliar conforme a logística fluvial.  \n\n**Adequado:** estabelece plano viável considerando o ACS ou a logística.  \n**Inadequado:** apenas pede para retornar à UBSF sem considerar a barreira geográfica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

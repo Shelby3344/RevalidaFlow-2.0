@@ -1,0 +1,127 @@
+{
+  "uid": 2001,
+  "hash": "pepe_2001",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Leucemia aguda",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você fará atendimento ambulatorial, em hospital de Atenção Secundária.\n\nDescrição do caso:\nVocê fará atendimento ambulatorial, em hospital de Atenção Secundária, de um jovem  \ncom 30 anos de idade, previamente hígido, com queixas de cansaço, fraqueza, febre e  \nsangramento gengival há 10 dias.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- ler o impresso 1 (relato do caso clínico presente sobre a mesa do  \nconsultório);  \n- receber o paciente;  \n- realizar exame físico específico, conforme orientação do impresso 1;  \n- responder aos questionamentos do paciente simulado.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Marcelo, 30 anos de idade.  \n\n**MOTIVO DE CONSULTA**:  \n• Estou me sentindo cansado, fraco, tenho tido febre, e há 10 dias comecei a ter sangramento na gengiva.  \n\n**CARACTERÍSTICAS DO CANSAÇO/ FRAQUEZA**:  \n• Não consta no script.  \n\n**CARACTERÍSTICAS DA FEBRE**:  \n• Não consta no script.  \n\n**CARACTERÍSTICAS DO SANGRAMENTO GENGIVAL**:  \n• **Tempo de evolução**: 10 dias.  \n• **Outras características**: não consta no script.  \n\n**ANTECEDENTES PESSOAIS**:  \n• Não consta no script.  \n\n**QUANDO O CANDIDATO TERMINAR A DESCRIÇÃO DO EXAME FÍSICO, PERGUNTAR**:  \n• Eu fiz um exame, você pode olhar por favor? (liberar o **IMPRESSO 2**).  \n• Em seguida, perguntar: o que eu tenho doutor? Pode ser sincero!  \n\n**SE O CANDIDATO DER ALGUM DIAGNÓSTICO, PERGUNTAR**:  \n• Eu preciso fazer algum exame pra confirmar isso?  \n\n**SE O CANDIDATO INDICAR ALGUM EXAME PARA CONFIRMAR, PERGUNTAR**:  \n• Como é feito esse exame?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RELATO DO CASO CLÍNICO",
+      "conteudo": "• Homem, 30 anos, previamente hígido, procura atendimento hospitalar por cansaço, fraqueza, febre e sangramento gengival há 10 dias.  \n• No momento, apresenta-se em regular estado geral, descorado, anictérico, taquicárdico e febril (38 °C).  \n• Na pele, equimoses nos membros inferiores.  \n• Presença de linfonodos axilares e inguinais com cerca de 2 cm de diâmetro e levemente dolorosos à palpação.  \n• O abdômen é plano, com ruídos hidroaéreos presentes, normotenso e indolor à palpação. Fígado palpável a 3 cm abaixo do rebordo costal direito, superfície lisa, bordo rombo, consistência macia e com hepatimetria de 12 cm de extensão. Baço palpável.  \n• Demais aspectos do exame físico sem alterações.  \n\n**ATENÇÃO:**  \nNesse momento, dirija-se ao paciente simulado e demonstre a técnica semiológica de palpação do fígado, apesar de não haver necessariamente hepatomegalia nesse paciente simulado.  \nA seguir, demonstre duas técnicas semiológicas de palpação do baço no paciente simulado, apesar de não haver necessariamente esplenomegalia nesse paciente simulado.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ESFREGAÇO DE SANGUE PERIFÉRICO",
+      "conteudo": "**IMAGEM DO ESFREGAÇO DE SANGUE PERIFÉRICO**",
+      "imagem": "img_printeds/2020-e1p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o paciente simulado.**  \n\n**Adequado:** cumprimenta.  \n**Inadequado:** não cumprimenta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Verbaliza corretamente o exame abdominal:**  \nPosiciona o paciente simulado com os braços ao longo do corpo e ergue a  \ncamiseta para o exame abdominal.  \n\nObservação: é necessária a verbalização dos 2 procedimentos para a obtenção  \ndo ponto.  \n\n**Adequado:** verbaliza os 2 procedimentos.  \n**Inadequado:** verbaliza 1 ou nenhum dos procedimentos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verbaliza a palpação do fígado:**  \nPalpação bimanual: posiciona a mão no gradeado costal direito e palpa com a  \noutra mão, o bordo hepático, solicitando que o paciente simulado inspire  \nprofundamente em decúbito dorsal.  \n\n**Adequado:** verbaliza corretamente a técnica.  \n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza a palpação bimanual do baço:**  \nFixa o gradeado costal esquerdo com uma mão e palpa com a outra, com o  \npaciente simulado em decúbito dorsal e em inspiração profunda.  \n\n**Adequado:** verbaliza corretamente a execução.  \n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza outra técnica de palpação bimanual do baço:**  \nPalpação bimanual do baço em decúbito lateral direito, coloca o braço esquerdo  \ndele atrás da cabeça, flexiona a perna esquerda dele e solicita inspiração  \nprofunda.  \n\n**Adequado:** verbaliza corretamente.  \n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Hipótese diagnóstica:** faz o diagnóstico de leucemia aguda ou leucose  \naguda.  \n\n**Adequado:** realiza.  \n**Inadequado:** não realiza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicitação de procedimento:**  \nSolicita aspirado de medula e/ou biopsia de medula óssea e/ou  \nimunofenotipagem (citometria de fluxo) de sangue periférico.  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orientação sobre o procedimento ao paciente simulado:**  \nExplica que o aspirado e a biopsia de medula óssea são feitas no osso/na  \nmedula óssea (sem necessidade de especificar o local) e/ou que a  \nimunofenotipagem (citometria de fluxo) é feita com coleta de sangue periférico.  \n\n**Adequado:** explica adequadamente.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

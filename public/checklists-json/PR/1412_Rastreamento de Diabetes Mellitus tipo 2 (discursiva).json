@@ -1,0 +1,132 @@
+{
+  "uid": 1412,
+  "hash": "pepe_1412",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Rastreamento de Diabetes Mellitus tipo 2 (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Unidade Básica de Saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico;  \n• Solicitação de exames laboratoriais pela rede municipal.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá um homem de 52 anos, funcionário público. Ele realizou um teste de glicemia capilar casual em uma feira de saúde e foi recomendado a procura da UBS para uma avaliação.",
+  "tarefas": "TAREFAS:  \n- Investigar fatores de risco para Diabetes Mellitus;  \n- Solicitar exames complementares, caso necessário;  \n- Formular sua principal hipótese diagnóstica;  \n- Iniciar a abordagem terapêutica.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marcelo, 52 anos, casado, funcionário público.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a). Eu vim aqui porque fiz aquele teste de furar o dedo numa feira de saúde no bairro, e o resultado deu 144 mg/dl.  \n• A moça disse que estava um pouco alto e me orientou a procurar o posto.  \n\n• **Sobre o teste:** Foi depois do almoço, eu tinha comido um pastel na feira fazia pouco tempo.  \n\n**SINTOMAS ASSOCIADOS:**  \n**Poliuria, polidipsia, perda de peso:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias e doenças:** Que eu saiba, não tenho nenhuma.  \n• **Alimentação:** Como de tudo, não faço dieta. Gosto de churrasco, feijoada, essas coisas.  \n• **Atividade física:** Sou bem parado, a única coisa que faço é jogar um futebol com os amigos no domingo.  \n• **Tabagismo:** Fumo há uns 25 anos, quase um maço por dia.  \n• **Etilismo:** Tomo uma latinha de cerveja todo dia depois que chego do trabalho.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Fiquei preocupado porque meu pai tem diabetes tipo 2 e hoje em dia ele usa insulina.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato solicite exame físico: *O quê você deseja do exame físico?*  \n\n**DÚVIDAS:**\n• *Doutor(a), esse resultado de 144 mg/dl já significa que eu tenho diabetes? O que eu preciso fazer agora?*  \n• *Você não vai me passar algum remédio?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 145x92 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 97% em ar ambiente  \n• **Temp. axilar:** 36.6°C  \n\n\n**Antropometria:**  \n• **Peso:** 95 kg  \n• **Altura:** 1,75 m  \n• **IMC:** 31,02 kg/m²  \n• **Circunferência Abdominal:** 105 cm  \n\n\n**Ectoscopia:** Bom estado geral, corado, hidratado. Ausência de acantose nigricans.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** Murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos adventícios.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e inicia a consulta.**  \n(1) Cumprimenta o paciente;  \n(2) Identifica-se como médico(a).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga e verbaliza os fatores que justificam o rastreamento para DM2 neste paciente.**  \n(1) História familiar;  \n(2) Sedentarismo;  \n(3) Idade superior a 45 anos;  \n(4) Risco cardiovascular moderado (considerando tabagismo e/ou etilismo).  \n\n**Adequado:** investiga e verbaliza três ou quatro fatores.  \n**Parcialmente adequado:** investiga e verbaliza dois fatores.  \n**Inadequado:** investiga e verbaliza um fator ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico para avaliação de risco metabólico.**  \n(1) Aferição da Pressão Arterial;  \n(2) Peso, Altura ou IMC;  \n(3) Medida da Circunferência Abdominal.  \n\n**Adequado:** solicita ou verbaliza os três itens.  \n**Parcialmente adequado:** solicita ou verbaliza dois itens.  \n**Inadequado:** solicita ou verbaliza um item ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames laboratoriais para confirmação diagnóstica:**  \n(1) Glicemia de jejum;  \n(2) Hemoglobina Glicada (HbA1c);  \n(3) Lipidograma completo (Triglicerídeos, HDL, LDL);  \n(4) Ureia e Creatinina (função renal);  \n(5) Hemograma completo.  \n\n**Adequado:** solicita quatro ou cinco exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Comunica a suspeita diagnóstica e os próximos passos.**  \n(1) Não confirma o diagnóstico de diabetes;  \n(2) Explica que são necessários os exames para confirmar ou descartar a doença;  \n(3) Informa que a pressão arterial também será investigada a partir de novas medições.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou nenhuma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Orienta sobre mudanças no estilo de vida (MEV).**  \n(1) Estimula a prática de atividade física regular;  \n(2) Orienta sobre uma dieta balanceada (frutas, verduras e carnes magras).  \n\n**Adequado:** orienta sobre os dois itens.  \n**Parcialmente adequado:** orienta sobre um item.  \n**Inadequado:** não orienta sobre nenhum dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre a cessação de hábitos de risco.**  \n(1) Orienta e estimula a cessar o tabagismo;  \n(2) Orienta a reduzir o consumo de bebidas alcoólicas.  \n\n**Adequado:** orienta sobre os dois itens.  \n**Parcialmente adequado:** orienta sobre um item.  \n**Inadequado:** não orienta sobre nenhum dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta e esclarece sobre o uso de medicamentos.**  \n(1) Informa que, no momento, não há indicação de iniciar tratamento medicamentoso;  \n(2) Reforça que a conduta recomendada é baseada exclusivamente nas mudanças de estilo de vida (MEV).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza nenhuma ação OU indica o uso de medicamentos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define o plano de seguimento com o paciente.**  \n**Adequado:** agenda retorno para reavaliação e apresentação dos resultados dos exames.  \n**Inadequado:** não estabelece um plano de retorno.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

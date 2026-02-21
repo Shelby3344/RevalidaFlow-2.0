@@ -1,0 +1,166 @@
+{
+  "uid": 2120,
+  "hash": "pepe_2120",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "PAC - Pneumonia Adquirida na Comunidade Grave (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - Pronto Atendimento Pediátrico.  \nA unidade possui a seguinte infraestrutura:  \n• Consultório de emergência pediátrica;  \n• Leitos de observação e sala de medicação;  \n• Laboratório de análises clínicas e radiografia.\n\nDescrição do caso:\nVocê está de plantão no pronto atendimento e receberá um paciente de 5 anos, previamente hígido, trazido ao serviço com história de febre, coriza e tosse persistente.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese.  \n- Solicitar e interpretar o exame físico direcionado.  \n- Verbalizar a principal hipótese diagnóstica e o agente etiológico mais provável.  \n- Solicitar os exames complementares pertinentes.  \n- Propor a conduta terapêutica inicial.  \n- Orientar a mãe sobre o quadro clínico e a conduta a ser tomada.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Emília, 29 anos, casada, nutricionista.  \n• **Criança:** Gabriel, 5 anos.  \n\n**QUEIXA PRINCIPAL:**Doutor(a), eu trouxe meu filho porque ele está com febre e uma tosse muito forte. Hoje parece que ele está mais cansadinho para respirar.  \n\n**SOBRE A FEBRE:**  \n• **Início:** Faz uns 3 dias que começou.  \n• **Aferição:** Sim, eu medi. O máximo que chegou foi 38,7°C.  \n• **Medicação:** Eu dei paracetamol, mas logo depois ela volta.  \n\n**SOBRE A TOSSE:**  \n• **Início:** Começou junto com a febre.  \n• **Característica:** É uma tosse que parece bem cheia. Piora muito quando ele vai dormir.  \n• **Cor/Expectoração:** É meio amarelo, e ele não consegue cuspir o catarro.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Coriza:** O nariz dele está escorrendo uma aguinha clara.  \n• **Apetite:** Ele não está querendo comer nada, está muito chatinho pra comer.  \n• **Disposição:** Ele está bem caidinho, só quer ficar deitado no sofá.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Gestação e parto:** Foram tranquilos, sem nenhum problema.  \n• **Doenças prévias:** nunca teve nada sério, só uns resfriados de vez em quando.  \n• **VACINAÇÃO:** A carteirinha de vacinação dele está toda em dia.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que meu filho tem? É só uma gripe forte?*  \n• *Ele vai precisar ficar internado?*  \n• *Qual o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "\\\r\n**Sinais Vitais:**  \r\n• **PA:** 95x60 mmHg  \r\n• **FC:** 115 bpm  \r\n• **FR:** 46 irpm  \r\n• **Temp. axilar:** 38.5°C  \r\n• **SatO2:** 94% (em ar ambiente)  \r\n\r\n\\\r\n**Ectoscopia:** Regular estado geral, corado, hidratado, acianótico, anictérico. Apresenta esforço respiratório, com tiragem intercostal.  \r\n\r\n\\\r\n**Aparelho respiratório:** Murmúrio vesicular abolido na base esquerda. Presença de estertores finos, difusos e homogêneos, com predomínio em hemitórax esquerdo.  \r\n\r\n\\\r\n**Aparelho cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \r\n\r\n\\\r\n**Abdome:** Abdome flácido, indolor à palpação, sem massas ou visceromegalias.  \r\n\r\n\\\r\n**Oroscopia e Otoscopia:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "Em andamento.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**OLHE PARA A CÂMERA E VERBALIZE O(S) ACHADO(S) NA IMAGEM!**",
+      "imagem": "img_printeds/2021-e20p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e seu acompanhante e pergunta seus nomes.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese da história da doença atual, investigando sobre:**  \n(1) início e evolução da febre;  \n(2) padrão e característica da tosse;  \n(3) sintomas associados (coriza, prostração, recusa alimentar);  \n(4) uso de medicações prévias.  \n\n**Adequado:** pergunta sobre os quatro itens.  \n**Parcialmente adequado:** pergunta sobre dois ou três itens.  \n**Inadequado:** pergunta sobre um item ou não pergunta sobre item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita e Interpreta os achados do exame físico do aparelho respiratório.**  \n(1) identifica os sinais de esforço respiratório (taquipneia E tiragens);  \n(2) reconhece os sinais de consolidação pulmonar na ausculta (murmúrio vesicular abolido E estertores);  \n\n**Adequado:** interpreta os dois achados.  \n**Parcialmente adequado:** interpreta um achado.  \n**Inadequado:** não interpreta os achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza a principal hipótese diagnóstica, citando:**  \n(1) Pneumonia adquirida na comunidade; e  \n(2) a presença de sinais de gravidade (ou derrame pleural), ou classifica como Grave.  \n\n**Adequado:** verbaliza os dois itens.  \n**Parcialmente adequado:** verbaliza apenas um item.  \n**Inadequado:** não verbaliza item algum ou verbaliza outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Cita o agente etiológico mais comum para a faixa etária.**  \n\n**Adequado:** cita o Streptococcus pneumoniae (Pneumococo) como o principal agente bacteriano causador de PAC em crianças maiores de 2 meses.  \n**Inadequado:** não cita o agente ou cita um agente incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames complementares para avaliação do caso:**  \n(1) hemograma completo;  \n(2) hemocultura;  \n(3) provas de atividade inflamatória (PCR ou VHS);  \n(4) radiografia de tórax.  \n\n**Adequado:** solicita os quatro exames.  \n**Parcialmente adequado:** solicita dois ou três exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbalizar os achados da radiografia de tórax.**  \n\n**Adequado:** Verbaliza a presença da consolidação em lobo inferior esquerdo, OU derrame pleural.  \n**Inadequado:** não descreve os achados ou os descreve incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a internação hospitalar para o paciente.**  \n\n**Adequado:** indica a internação hospitalar.  \n**Inadequado:** não indica a internação hospitalar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve a antibioticoterapia inicial para a PAC com sinais de gravidade.**  \n\n**Adequado:** prescreve o tratamento para paciente internado: Penicilina Cristalina, OU Ampicilina, OU Ceftriaxona+Oxacilina por via endovenosa.  \n**Parcialmente adequado:** prescreve Amoxicilina endovenosa, OU apenas Ceftriaxona, OU associa um macrolídeo (Azitromicina) sem necessidade inicial.  \n**Inadequado:** não prescreve antibiótico, prescreve por via oral ou prescreve uma classe incorreta como primeira linha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica as medidas de suporte ao paciente.**  \n(1) oferta de oxigênio suplementar para manter SatO2 > 94%;  \n(2) hidratação venosa, se necessário;  \n(3) antitérmicos para a febre.  \n\n**Adequado:** indica as três medidas.  \n**Parcialmente adequado:** indica duas medidas.  \n**Inadequado:** não indica as medidas ou indica apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Esclarece as dúvidas da mãe de forma empática e informativa.**  \n(1) explica que o quadro não é uma gripe, mas sim uma pneumonia, uma infecção mais séria nos pulmões;  \n(2) informa sobre a necessidade de internação devido aos sinais de gravidade, para que a criança receba medicação na veia e oxigênio;  \n\n**Adequado:** Aborda os dois pontos.  \n**Parcialmente adequado:** Aborda um ponto.  \n**Inadequado:** não aborda nenhum ponto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "uid": 1306,
+  "hash": "pepe_1306",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Pneumonia Adquirida na Comunidade - PAC não complicada",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:    \n• Consultório médico;    \n• raio-X, ultrassonografia, eletrocardiograma;  \n• laboratório de análises clínicas;\n\nDescrição do caso:\nVocê está de plantão em uma UPA e vai atender um homem queixando-se de dispneia, dor torácica, tosse e febre há 4 dias.",
+  "tarefas": "TAREFAS:  \n\n- Realizar a anamnese;  \n- Solicitar e interpretar exame físico e complementares, caso necessário;  \n- Informar a principal hipótese diagnóstica;  \n- Propor condutas sobre o caso;  \n- Responder as dúvidas do paciente;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Guilherme, 40 anos, gerente administrativo.  \n\n\n**MOTIVO DE CONSULTA:** Dr(a), faz 4 dias que to com tosse e falta de ar. E agora também estou com dor no peito e febre.  \n\n\n**SOBRE DOR TORÁCICA:**  \n• **Início:** começou ontem.  \n• **Localização:** mais do lado direito do peito.  \n• **Característica:** é uma dor aguda, rápida.  \n• **Intensidade:** 5/10.  \n• **Atenuantes/agravantes:** quando eu tusso piora.  \n\n• **Evolução:** começou leve e tá piorando.  \n\n\n**SOBRE DISPNEIA:**  \n• **Início:** começou junto com a dor no peito.  \n• **Duração:** está quase todo dia assim.  \n• **Atenuantes/agravantes:** eu tomei um xarope, mas não resolveu muito.  \n\n\n**SOBRE TOSSE:**  \n• **Expectoração:** começou faz 4 dias. Era seca, mas agora tem catarro.  \n• **Coloração:** amarelado.   \n• **Quantidade:** está cada vez com mais catarro.  \n• **Sangue ou pus:** nega.  \n\n\n**SOBRE FEBRE:**  \n• **Início:** começou faz dois dias.  \n• **Aferição:** passou um pouco de 38°C.  \n• **Medicação:** estou tomando dipirona. Mas logo volta.  \n• **Sudorese e calafrios:** nega.  \n\n\n**DEMAIS SINTOMAS:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** só a dipirona pra febre e o xarope pra tosse.  \n• **Cirurgias e internações:** nega.  \n\n• **Álcool, tabaco e drogas:** eu fumo desde os 20 anos. um maço por dia.  \n• **Atividade física:** não pratico.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *Vou precisar ficar internado? Porquê?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 80 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 96%  \n• **Temp. axilar:** 37.9° C  \n\n\n**Ectoscopia:** paciente em bom estado geral, orientado, corado, hidratado, acianótico e anictérico.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** estertores pulmonares leve à direita e aumento do frêmito toracovocal.  \n\n\n**Abdominal:** abdome plano e flácido, indolor a palpação, RHA preservados, timpânico a percussão, sem massa palpável.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemoglobina:** 12 g/dL (valor de referência = 11 a 13 g/dL)  \n• **Hematócrito:** 38% (valor de referência = 37% a 41%)  \n• **Leucócitos:** 16 mil/mm3 (valor de referência = 8 a 11 mil/mm3)  \n• **Neutrófilos:** 80% (valor de referência = 30% a 60%)  \n\n\n• **Proteína C reativa (PCR):** 11 mg/L (VR: < 3 mg/L)  \n• **Volume de hemossedimentação (VHS):** 20 mm/hr (VR: < 17 mm/hr)  \n\n\n• **Sódio (Na):** 138 mEq/l (VR: 135 - 145 mEq/l)  \n• **Potássio: (K):** 4 mEq/l (VR: 3,5 - 5 mEq/l)  \n• **Creatinina (Cr):** 0,8 mg/dL (VR: 0,5 - 1,2 mg/dl)  \n• **Ureia (Ur):** 37 mg/dl (VR: 13 - 43 mg/dl)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RAIO-X TÓRAX",
+      "conteudo": "**ATENÇÃO:** Identifique e verbalize as características da imagem.",
+      "imagem": "img_printeds/2013-e6p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. O(a) candidato(a) cumprimentou o paciente e apresentou-se como médico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.125"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. O(a) candidato(a) investigou queixa principal e tempo de início do quadro clínico.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.625"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**1.3. O(a) candidato(a) investiga a ocorrência e características da dor torácica (pelo menos duas das seguintes: início, duração, intensidade, localização, tipo de dor, fatores de alívio e exacerbação).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**1.4. O(a) candidato(a) investigou características da dispneia (pelo menos duas das seguintes: início, duração, intensidade, fatores de alívio e exacerbação).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**1.5. O(a) candidato(a) investigou características da tosse (pelo menos duas das seguintes: início, duração, intensidade, fatores de alívio e exacerbação, produtiva ou improdutiva).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**1.6. O(a) candidato(a) investigou ocorrência de febre (pelo menos dois dos seguintes: dia e hora da instalação, se verificado com termômetro, associação com calafrios ou sudorese, existência de fatores de alívio).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**1.7. O(a) candidato(a) investigou a ocorrência de expectoração e suas características (pelo menos dois dos seguintes: coloração, presença de sangue, quantidade, consistência).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**1.8. O(a) candidato(a) indicou realização de exame físico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**1.9. O(a) candidato(a) investigou pelo menos três dos seguintes: profissão, estado civil, ritmo de trabalho, ambiente doméstico e de trabalho – ar condicionado, carpete, ventilação, iluminação solar.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**1.10. O(a) candidato(a) investigou estilo de vida (álcool, tabaco, exercícios físicos, dieta) – pelo menos três.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**1.11. O(a) candidato(a) investigou ocorrência de doenças concomitantes – pelo menos diabetes mellitus e cardiopatia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**2.1. O(a) candidato(a) identificou a presença de condensação na base do pulmão D.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**3.1. O(a) candidato(a) formulou o diagnóstico de pneumonia lobar, de origem comunitária.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**3.2. O(a) candidato(a) comunicou o diagnóstico ao paciente de modo claro e buscando tranquilizá-lo.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**4.1. O(a) candidato(a) indicou corretamente a antibioticoterapia.**  \n\n**Adequado:** indica Azitromicina, OU Claritromicina, OU Doxaciclina.  \n**Inadequado:** indica mais de um antibiótico, OU indica Amorixiclina + Clavulanato (o paciente não fez uso de antibiótico prévio e não tem comorbidades).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**4.2. O(a) candidato(a) explicou que, por tratar-se de pneumonia não complicada, de origem comunitária, não há necessidade de internação.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**4.3. O(a) candidato(a) indicou uso de medicação sintomática em caso de febre, cefaleia, dor no corpo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.875"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**5.1. O(a) candidato(a) demonstrou empatia durante o atendimento (escuta atenta, linguagem acessível ao paciente).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.125"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

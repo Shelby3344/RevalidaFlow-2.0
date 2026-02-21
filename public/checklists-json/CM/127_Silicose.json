@@ -1,0 +1,166 @@
+{
+  "uid": 127,
+  "hash": "pepe_127",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Silicose",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - unidade de pronto atendimento (UPA).  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização;  \n• Acesso a laboratório de análises clínicas e radiografia.\n\nDescrição do caso:\nVocê atenderá um homem de 40 anos, que procura o serviço com queixa de tosse seca e falta de ar progressiva.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese do paciente.  \n- Solicitar o exame físico específico, caso necessário.  \n- Formular e verbalizar a hipótese diagnóstica principal.  \n- Solicitar e interpretar os exames complementares.  \n- Estabelecer a conduta terapêutica inicial e as orientações necessárias.  \n- Responder às dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Roberto, 40 anos, casado, marmorista.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim aqui porque essa falta de ar está acabando comigo. E tem essa tosse seca que não me larga.  \n\n**SOBRE OS SINTOMAS:**  \n• **Falta de ar (Dispneia):** Começou faz uns três anos, mas agora até para andar rápido eu fico cansado. Piorou muito no último ano.  \n• **Tosse:** É uma tosse seca, principalmente de manhã.  \n• **Astenia/Fraqueza:** Sinto um cansaço constante, sem ânimo. Às vezes, tenho uma dor no peito quando respiro fundo.  \n\n**HISTÓRIA OCUPACIONAL:**  \n• Trabalho cortando e polindo mármore e granito desde os 14 anos de idade.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** Nunca tive doença nenhuma. Não tomo remédio.  \n• **Alergias e cirurgias:** Nega.  \n• **Hábitos:** Fumo desde os 15 anos, mais ou menos um maço por dia.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai e um tio, que também trabalhavam cortando pedra, morreram com \"problema de pulmão\".  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso tem a ver com o meu trabalho?*  \n• *Vou poder voltar a trabalhar?*  \n• *Tem algum tratamento que cura isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130x85 mmHg  \n• **FC:** 92 bpm  \n• **FR:** 24 irpm  \n• **SatO₂:** 92% em ar ambiente  \n• **Temp. axilar:** 36,9°C  \n\n\n**Ectoscopia:** Regular estado geral, lúcido, orientado, dispneico a pequenos esforços. Presença de baqueteamento digital.  \n\n\n**Aparelho Respiratório:**  \n• **Inspeção:** Expansibilidade torácica diminuída bilateralmente.  \n\n• **Ausculta:** Murmúrio vesicular presente, mas diminuído globalmente. Presença de estertores crepitantes finos bibasais, que não se alteram com a tosse.  \n\n\n**Aparelho Cardiovascular:** Bulhas rítmicas normofonéticas, sem sopros.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 16,5 g/dL (VR: 13,5 – 17,5 g/dL)  \n• **Leucócitos:** 9.200/mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 320.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**PROVAS DE ATIVIDADE INFLAMATÓRIA**  \n• **Velocidade de Hemossedimentação (VHS):** 35 mm/h (VR: < 15 mm/h)  \n• **Proteína C Reativa (PCR):** 15 mg/L (VR: < 5 mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**Laudo:**  \n• Presença de múltiplas pequenas opacidades nodulares arredondadas, difusas em ambos os pulmões, com predomínio nos terços superiores e médios.  \n• Sinais de fibrose confluente em lobos superiores.  \n• Linfonodomegalia hilar bilateral com calcificações periféricas (\"em casca de ovo\").",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da dispneia e da tosse.**  \n(1) início e progressão da falta de ar;  \n(2) relação da dispneia com o esforço;  \n(3) características da tosse.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a anamnese ocupacional detalhada.**  \n\n**Adequado:** pergunta sobre a profissão, tempo de exposição, tipo de poeira (pedra, mármore, sílica) e uso de equipamentos de proteção.  \n**Inadequado:** não investiga a história ocupacional ou o faz de forma superficial.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre o hábito de tabagismo e histórico familiar.**  \n\n**Adequado:** pergunta sobre o tabagismo e se há casos de doença pulmonar na família.  \n**Parcialmente adequado:** pergunta sobre apenas um dos itens.  \n**Inadequado:** não pergunta sobre nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico com foco no aparelho respiratório.**  \n\n**Adequado:** solicita a avaliação do padrão respiratório.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita radiografia de tórax.**  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta os achados da radiografia de tórax e verbaliza a principal hipótese diagnóstica.**  \n\n**Adequado:** correlaciona as opacidades nodulares em lobos superiores e as calcificações \"em casca de ovo\" para formular a hipótese de Silicose.  \n**Parcialmente adequado:** identifica os achados radiológicos, mas formula a hipótese de pneumoconiose de forma genérica.  \n**Inadequado:** não interpreta corretamente o exame ou não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Inicia as medidas de suporte respiratório.**  \n\n**Adequado:** indica a administração de oxigênio suplementar para corrigir a hipoxemia (manter SatO₂ > 90%).  \n**Inadequado:** não indica oxigenoterapia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Fornece orientações cruciais ao paciente.**  \n(1) aconselha enfaticamente a cessação do tabagismo;  \n(2) orienta o afastamento completo e definitivo da exposição à poeira de sílica.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza apenas uma das orientações.  \n**Inadequado:** não realiza nenhuma das orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre o manejo e prognóstico da doença.**  \n(1) explica que a silicose não tem cura, mas o tratamento visa o controle dos sintomas;  \n(2) encaminha para avaliação especializada com Pneumologista;  \n(3) orienta sobre a importância da vacinação contra influenza e pneumococo.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Aborda os aspectos trabalhistas da doença.**  \n\n**Adequado:** informa o paciente sobre a necessidade de notificar ao SINAN, de abrir uma Comunicação de Acidente de Trabalho (CAT), e o encaminha para avaliação do INSS.  \n**Inadequado:** não aborda a questão dos direitos trabalhistas e previdenciários.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

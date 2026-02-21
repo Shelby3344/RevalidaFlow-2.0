@@ -1,0 +1,188 @@
+{
+  "uid": 123,
+  "hash": "pepe_123",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Doença de Crohn",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Secundária - Ambulatório de Especialidades.  \nTipo de atendimento: Ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultórios;  \n• Laboratório de análises clínicas;  \n• Acesso a exames de imagem e endoscopia (via regulação).\n\nDescrição do caso:\nVocê atenderá um paciente de 28 anos, que procura o ambulatório com queixa de dor abdominal e diarreia crônica há 4 meses.",
+  "tarefas": "TAREFAS:  \n- realizar anamnese sobre o caso;  \n- solicitar e interpretar o exame físico do paciente;  \n- solicitar e interpretar exames complementares, caso necessário;  \n- Formular a hipótese diagnóstica principal e dois diagnósticos diferenciais.  \n- orientar sobre o tratamento e conduta.  \n- responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Rafael, 28 anos, designer gráfico.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com uma dor na barriga e diarreia que não passa.  \n\n**SOBRE A DOR ABDOMINAL:**  \n• **Início:** Começou há uns 4 meses, vai e volta.  \n• **Localização:** É mais aqui do lado direito da barriga (aponta para a fossa ilíaca direita).  \n• **Característica:** É tipo uma cólica forte.  \n• **Agravantes:** Piora um tempo depois que eu como.  \n\n**SOBRE A DIARREIA:**  \n• **Frequência:** Umas 4 ou 5 vezes por dia.  \n• **Aspecto:** Às vezes é só pastosa, às vezes bem líquida.  \n• **Sangue/Muco:** Raramente vi um pouco de sangue, mas não é sempre.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Emagrecimento:** Sim, perdi uns 5 quilos nesse tempo.  \n• **Febre:** Às vezes me sinto quente no fim do dia, mas não cheguei a medir.  \n• **Artralgia:** Sinto dor nas juntas, principalmente nos joelhos, que também vai e volta.  \n• **Úlceras orais:** Aparecem umas aftas na minha boca de vez em quando.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias e Doenças:** Não tenho nenhuma doença que eu saiba.  \n• **Medicações:** Só tomo Paracetamol quando a dor aperta.  \n• **Cirurgias:** Nunca operei.  \n\n**HÁBITOS DE VIDA:**  \n• **Tabagismo:** Eu fumo uns 10 cigarros por dia.  \n• **Etilismo:** Bebo cerveja nos fins de semana.  \n• **Histórico Familiar:** Minha mãe tem pressão alta, mas que eu saiba, ninguém na família tem problema de intestino.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu posso ter, doutor(a)?*  \n• *Isso é grave?*  \n• *Qual exame vou ter que fazer agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 120x75 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 18 irpm  \n• **Temp. axilar:** 37,4°C  \n\n\n**Ectoscopia:** Paciente em regular estado geral, hipocorado (+/4+), emagrecido, hidratado.  \n\n\n**Cavidade Oral:** Presença de duas úlceras aftosas em mucosa jugal.  \n\n\n**Aparelho Cardiovascular:** Ritmo cardíaco regular, bulhas normofonéticas, sem sopros.  \n\n\n**Aparelho Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdome:** Ruídos hidroaéreos presentes. Abdome flácido, com dor à palpação de fossa ilíaca direita, onde se palpa uma massa mal definida, móvel e dolorosa. Sem visceromegalias. Timpânico.  \n\n\n**Articular:** Sem sinais flogísticos ou deformidades articulares no momento do exame.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 10,8 g/dL (VR: 13,5 – 17,5 g/dL)  \n• **Hematócrito:** 33,0 % (VR: 39 – 50%)  \n• **Leucócitos:** 9.500 /mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 480.000 /mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**BIOQUÍMICA**  \n• **Proteína C Reativa (PCR):** 45 mg/L (VR: < 5 mg/L)  \n• **Velocidade de Hemossedimentação (VHS):** 50 mm/h (VR: < 15 mm/h)  \n• **Albumina:** 3,1 g/dL (VR: 3,5 – 5,5 g/dL)  \n• **Ureia:** 30 mg/dL (VR: 13 – 43 mg/dL)  \n• **Creatinina:** 0,9 mg/dL (VR: 0,7 – 1,3 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "FEZES E MARCADORES",
+      "conteudo": "**EXAME DE FEZES**  \n• **Parasitológico de Fezes:** Negativo.  \n• **Coprocultura:** Negativa.  \n\n\n**MARCADORES INFLAMATÓRIOS E SOROLÓGICOS**  \n• **Calprotectina Fecal:** 350 mcg/g (VR: < 50 mcg/g)  \n• **ASCA (Anti-Saccharomyces cerevisiae):** Reagente (Positivo).  \n• **p-ANCA (Anticorpo Anticitoplasma de Neutrófilo):** Não Reagente (Negativo).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor abdominal e da diarreia:**  \n(1) dor abdominal (localização, característica, fator de piora);  \n(2) diarreia (início, frequência, aspecto);  \n(3) presença de sangue ou muco nas fezes.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas sistêmicos e manifestações extraintestinais:**  \n(1) febre;  \n(2) perda de peso;  \n(3) dor articular (artralgia);  \n(4) aftas orais.  \n\n**Adequado:** pergunta três ou mais itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre fatores de risco relevantes:**  \n(1) tabagismo;  \n(2) histórico familiar de doença inflamatória intestinal.  \n\n**Adequado:** pergunta os dois itens.  \n**Parcialmente adequado:** pergunta um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais gerais para avaliação inflamatória e nutricional:**  \n(1) Hemograma;  \n(2) PCR e/ou VHS;  \n(3) Albumina.  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um exame ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames para diagnóstico diferencial de colite:**  \n(1) Parasitológico de fezes;  \n(2) Coprocultura;  \n(3) Calprotectina fecal.  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um exame ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita marcadores sorológicos para Doença Inflamatória Intestinal:**  \n(1) ASCA;  \n(2) p-ANCA.  \n\n**Adequado:** solicita os dois marcadores.  \n**Parcialmente adequado:** solicita um marcador.  \n**Inadequado:** não solicita marcador algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Interpreta corretamente os resultados dos exames complementares:**  \n(1) anemia e trombocitose;  \n(2) provas inflamatórias (PCR, VHS, Calprotectina) elevadas;  \n(3) hipoalbuminemia.  \n\n**Adequado:** interpreta os três achados.  \n**Parcialmente adequado:** interpreta dois achados.  \n**Inadequado:** interpreta um achado ou não interpreta achado algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Formula a hipótese diagnóstica principal (Doença de Crohn), correlacionando os achados:**  \n\n**Adequado:** formula a hipótese de Doença de Crohn, correlacionando os sintomas (diarreia crônica, dor em RIF, emagrecimento, artralgia) com os achados (ASCA+, p-ANCA-, Calprotectina elevada, anemia).  \n**Parcialmente adequado:** formula a hipótese de Doença de Crohn, mas não correlaciona com os achados laboratoriais ou clínicos.  \n**Inadequado:** não formula a hipótese ou formula outra hipótese principal.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Cita dois diagnósticos diferenciais pertinentes:**  \n(1) Retocolite Ulcerativa (RCU);  \n(2) Tuberculose intestinal;  \n(3) Colite infecciosa;  \n(4) Síndrome do Intestino Irritável (SII).  \n\n**Adequado:** cita dois diagnósticos diferenciais da lista.  \n**Parcialmente adequado:** cita um diagnóstico diferencial da lista.  \n**Inadequado:** não cita diagnósticos diferenciais pertinentes.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica o exame padrão-ouro para confirmação diagnóstica:**  \n\n**Adequado:** indica a realização de Ileocolonoscopia com biópsias.  \n**Parcialmente adequado:** indica apenas \"Endoscopia\" ou \"Colonoscopia\" (sem especificar ileo e biópsias).  \n**Inadequado:** não indica o exame ou indica outro (ex: Tomografia, Trânsito Intestinal) como padrão-ouro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta a conduta inicial e o seguimento:**  \n(1) encaminha ao Gastroenterologista;  \n(2) orienta fortemente a cessação do tabagismo, explicando a relação com a doença.  \n\n**Adequado:** orienta as duas condutas.  \n**Parcialmente adequado:** orienta uma conduta.  \n**Inadequado:** não orienta conduta alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

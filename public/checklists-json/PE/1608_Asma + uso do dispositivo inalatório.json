@@ -1,0 +1,149 @@
+{
+  "uid": 1608,
+  "hash": "pepe_1608",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Asma + uso do dispositivo inalatório",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você é o médico da UPA.\n\nDescrição do caso:\nVocê é o médico da UPA e recebe uma criança do sexo masculino, 7 anos, acompanhado de sua mãe, referindo que seu filho está com falta de ar há 30 minutos.",
+  "tarefas": "- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a hipótese diagnóstica, caso exista;  \n- Responder as dúvidas da paciente e dar instruções sobre o caso;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mãe: Clarice, 29 anos.\n• Criança: Enzo, 7 anos.\n\n\n**QUEIXA PRINCIPAL:** então doutor(a), o Enzo está com muita falta de ar.\n\n**SOBRE DISPNEIA:**  \n• **Início:** começou faz 30 minutos.  \n• **Em repouso ou atividade:** Ele acabou de chegar da educação física.  \n• **Atenuantes/agravantes:** Quando ele brinca na rua ou faz educação física piora, mas aí ele fica quietinho e depois de um tempo volta ao normal.  \n• **Episódio anterior:** aconteceu umas 2 vezes nesse mês.  \n• **Sibilos:** o peito dele fica chiando quando acontece isso.  \n\n\n**NEGA OUTROS SINTOMAS**  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** nega.  \n• **Comorbidades:** outro médico disse que ele tem asma.  \n• **Medicações:** falaram pra ele usar uma bombinha quando tiver falta de ar.  \n• **Cirurgias e internações:** nega.  \n• **VACINAÇÃO:** não troxe, mas está tudo em dia.  \n\n• **Atividade física:** ele faz educação física na escola.\n\n\n**ANTECEDENTES FAMILIARES:**  \n• O pai dele tinha asma quando criança.\n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Isso não é pneumonia?*  \n• *Eu acho que não estamos usando de maneira correta a bombinha, você poderia me explicar como usar?*  \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ**  \nCaso o candidato solicite à mãe que diga como seu filho está usando o dispositivo:  \n• \"Ele tira a tampa e coloca na boca aquela saída do spray;\"  \n• \"e depois aperta pra sair o jato;\"  \n• \"Aí depois lava com água a boca e guarda.\"",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**    \n• **PA:** 110x80 mmHg  \n• **FC:** 95 bpm  \n• **FR:** 32 irpm  \n• **SatO2:** 92% em a.a., e 96% após o uso do dispositivo inalatório. \n• **Temp. axilar:** 36.6° C  \n\n\n**Ectoscopia:** paciente em regular estado geral, corado, hidratado, acianótico e anictérico.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** sibilos difusos, apresentando esforço inspiratório e tiragem intercostal.  \n\n\n**Rinoscopia, Oroscopia e Otoscopia:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**DESCREVA OS ACHADOS DA IMAGEM**",
+      "imagem": "img_printeds/2016-e8p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se, cumprimenta e acolhe a mãe de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Mantém postura receptiva (contato visual com a paciente padronizada; tronco voltado para a mãe, sem cruzamento de membros superiores).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita informações sobre a evolução do quadro clínico da criança.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Descreve os achados radiológicos para o avaliador.**  \n\n**Adequado:** se o candidato descreve a hiperinsuflação e retificação de cúpulas diafragmáticas e arcos costais.  \n**Parcialmente adequado:** se o candidato descreve apenas um ou dois desses achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explica, em linguagem clara, sem utilizar termos técnicos, o diagnóstico para a mãe (alterações compatíveis com asma, sem pneumonia).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Confirma se a mãe compreendeu a explicação fornecida sobre a radiografia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta qual é a dúvida da mãe sobre o uso da \"bombinha\".**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Pergunta como a mãe está administrando o salbutamol OU solicita que a mãe demonstre como administra o salbutamol com o espaçador.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Demonstra como se encaixa o bocal do Inalador Pressurizado Dosimetrado (IPD) no espaçador.  \nExplica que é para agitar o medicamento, antes ou depois de encaixado.**  \n\n**Adequado:** se o candidato encaixa as três peças e explica que é para agitar o medicamento.  \n**Parcialmente adequado:** se o candidato encaixa as três peças e não explica que é para agitar o medicamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Demonstra (em si mesmo ou na mãe) como aplicar o medicamento:**  \n• Na posição sentada, colocar a máscara ajustada ao rosto, cobrindo boca e nariz.  \n• Acionar um jato de cada vez, deixando a máscara por 10 a 30 segundos ou 5 a 10 irpm.  \n• Afastar a máscara do rosto e aguardar 15 a 30 segundos para acionar o próximo jato, seguindo o mesmo processo.  \n\n**Adequado:** realizar os três passos.  \n**Parcialmente adequado:** realiza dois passos.  \n**Inadequado:** realiza apenas um passo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

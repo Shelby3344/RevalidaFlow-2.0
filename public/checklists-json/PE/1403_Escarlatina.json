@@ -1,0 +1,277 @@
+{
+  "uid": 1403,
+  "hash": "pepe_1403",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Escarlatina",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Laboratório de análises clínicas;\n\nDescrição do caso:\nVocê está em uma UBS e atende uma mãe com seu filho de 6 anos de idade. A mãe informa que a criança está com febre alta e manchas vermelhas pelo corpo.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese sobre o caso;  \n- Solicitar e interpretar o exame físico;  \n- Informar a hipótese diagnóstica;  \n- Propor a conduta terapêutica e dar orientações;  \n- Responder as dúvidas da mãe.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Joana, 32 anos.  \n• **Criança:** Lucas, 7 anos.  \n\n**MOTIVO DE CONSULTA:** • oi Doutor(a), trouxe o Lucas porque ele está com uma febre muito alta e cheio de manchas vermelhas.  \n\n**SOBRE EXANTEMAS:**  \n• **Início:** As manchinhas apareceram ontem, um dia depois que a febre começou.  \n• **Localização:** Começou no pescoço e no peito, e agora parece que está se espalhando no corpo inteiro.  \n• **Aspecto:** é um monte de bolinha, fica parecendo uma lixa.  \n• **Secreção, prurido ou dor:** nega.  \n\n**SOBRE FEBRE:**  \n• **Início:** A febre começou há 2 dias.  \n• **Aferição:** Está bem alta, chegou a 39°C em casa.  \n• **Medicação:** Eu dei dipirona, a febre baixa um pouco, mas logo volta a subir.  \n• **Sudorese ou calafrios:** nega.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Odinofagia ou otalgia:** Ele também está reclamando de dor de garganta.  \n• **Cefaleia e vômitos:** nega.  \n• **Diarreia:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias e medicações:** nega.  \n• **Doenças:** Ele teve uma dor de garganta faz uns 10 dias, mas tinha melhorado.  \n• **Pessoa próxima com sintoma parecido:** não que eu saiba. Ele vai na escola, talvez lá tenha alguém.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que o meu filho tem?*  \n• *Como é o tratamento?*  \n• *Essas manchas na pele vão sumir?*  \n• *Depois de começar a tratar, ele pode passar a doença pra alguém?*  \n• *Preciso ficar atenta a algum sinal de piora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 95x60 mmHg  \n• **FC:** 135 bpm  \n• **FR:** 28 irpm  \n• **Temp. axilar:** 39.2° C  \n\n**Ectoscopia:** Criança em regular estado geral, prostrada, corada, hidratada, acianótica e anictérica.  \n\n\n**Oroscopia:** Hiperemia de orofaringe e amígdalas, com pontos de exsudato purulento.  \n\n\n**Palpação cervical:** Linfonodos cervicais anteriores palpáveis.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n\n**Abdominal:** abdome plano e flácido, indolor a palpação, RHA preservados, timpânico a percussão, sem massa palpável.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA PELE 1",
+      "conteudo": "**IDENTIFIQUE OS ACHADOS DA IMAGEM**",
+      "imagem": "img_printeds/2014-e3p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "ECTOSCOPIA PELE 2",
+      "conteudo": "**IDENTIFIQUE OS ACHADOS DA IMAGEM**",
+      "imagem": "img_printeds/2014-e3p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "ECTOSCOPIA PELE 3",
+      "conteudo": "**IDENTIFIQUE OS ACHADOS DA IMAGEM**",
+      "imagem": "img_printeds/2014-e3p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "OROSCOPIA",
+      "conteudo": "**IDENTIFIQUE OS ACHADOS DA IMAGEM**",
+      "imagem": "img_printeds/2014-e3p5.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta a mãe, identifica-se de maneira adequada, convida-a a sentar-se e ouve com atenção as suas queixas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga de modo adequado o início do quadro, a cronologia de sintomas e sinais.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a ocorrência de febre, sua intensidade e características.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga o uso de alguma medicação, em especial o uso de antitérmico.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga o tempo de aparecimento das lesões exantemáticas, sua evolução e se o aspecto das lesões se modifica.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga a ocorrência de cefaleia e vômitos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga a ocorrência de casos semelhantes na família ou na escola.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Salienta a presença de gânglios cervicais descritos no Impresso 1.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Descreve o eritema micropapular presente no tórax e membros superiores, como visto no Impresso 2.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Descreve o eritema presente na dobra do cotovelo (sinal de Pastia), mostrado no Impresso 3.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Assinala o eritema de bochechas e a palidez da região perioral mostrados no Impresso 4.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Assinala a hipertrofia e hiperemia de papilas linguais, mostrados no Impresso 5.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Expressa-se com clareza e segurança esclarecendo à mãe que a criança tem escarlatina ou uma infecção estreptocócica.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Prescreve uso de antibiótico (amoxicilina - 40 mg/kg VO de 8/8 horas durante 10 dias).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Prescreve antitérmicos em caso de ocorrência de febre - temperatura igual ou superior a 37,8°C.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Explica a evolução esperada das lesões cutâneas, com regressão e descamação da pele e a melhora progressiva das alterações da língua.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Programa nova consulta da criança após 48 horas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Explica que não há risco de contágio.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Orienta para observar ocorrência de sinais de alerta - artralgia ou sinais inflamatórios de articulações, dispneia, taquicardia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Confere o entendimento pela mãe, perguntando se ela ainda tem alguma dúvida.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "uid": 128,
+  "hash": "pepe_128",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Artrite Séptica/Infecciosa",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Unidade de Pronto Atendimento (UPA).  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de atendimento e procedimentos;  \n• Laboratório de análises clínicas;  \n• Setor de radiologia (Raio-X);\n\nDescrição do caso:\nVocê está de plantão na UPA e atenderá um paciente de 45 anos, mecânico, que procura atendimento com queixa de dor intensa e inchaço no joelho direito há 3 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal;  \n- Solicitar o exame físico direcionado;  \n- Solicitar os exames complementares pertinentes ao caso;  \n- Verbalizar a hipótese diagnóstica principal;  \n- Estabelecer a conduta terapêutica adequada.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Bento, 45 anos, mecânico.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), meu joelho direito está doendo demais, não consigo nem pisar no chão.  \n\n**SOBRE A DOR E SINTOMAS LOCAIS:**  \n• **Início:** Começou a incomodar faz uns 3 ou 4 dias, mas de ontem pra hoje ficou insuportável.  \n• **Localização:** É no joelho direito todo.  \n• **Intensidade:** 9 de 10. É uma dor que lateja.  \n• **Sinais inflamatórios:** Ele está muito inchado, vermelho e quente.  \n• **Mobilidade:** Não consigo dobrar e nem esticar a perna, dói muito se mexe.  \n\n**Trauma ou procedimentos:** Eu machuquei esse joelho jogando bola. Fui na farmácia e apliquei uma injeção, acho que era corticoide. Melhorou, mas agora começou a ficar assim.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Sim, tive febre ontem à noite e hoje cedo. Chegou a 38,5°C.  \n• **Calafrios:** Tive calafrios também.  \n• **Mal-estar:** Estou me sentindo meio fraco, sem apetite.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Nega.  \n• **Alergias:** Nega.  \n• **Outras articulações:** As outras juntas estão normais.  \n• **DSTs:** Nega corrimento ou feridas nas partes íntimas.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *É infecção, doutor(a)?*  \n• *Vou precisar operar o joelho?*  \n• *Vou ter que ficar internado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130 x 80 mmHg  \n• **FC:** 102 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 38,8° C  \n\n\n**Estado Geral:** Regular estado geral, febril, fácies de dor, hidratado e corado.  \n\n\n**Exame do Joelho Direito:**  \n• Edema importante;  \n• Hiperemia e calor local;  \n• Dor intensa à palpação difusa e à mobilização passiva e ativa;  \n• Limitação importante da amplitude de movimento (bloqueio articular).  \n• Sinal da tecla positivo.  \n\n\n**Demais articulações e sistemas:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 13,5 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Leucócitos:** 16.800/mm³ (VR: 4.000 – 10.000/mm³)  \n• **Bastões:** 8% (VR: 0 – 5%)  \n• **Segmentados:** 75% (VR: 40 – 70%)  \n• **Plaquetas:** 350.000/mm³  \n\n\n**PROVAS INFLAMATÓRIAS**  \n• **PCR:** 125 mg/L (VR: \\< 5 mg/L)  \n• **VHS:** 65 mm/h (VR: \\< 15 mm/h)  \n\n\n**BIOQUÍMICA**  \n• **Ácido Úrico:** 5,2 mg/dL (VR: 3,4 – 7,0 mg/dL)  \n• **Creatinina:** 0,9 mg/dL  \n\n\n**HEMOCULTURAS (2 amostras):** Coletadas, em andamento.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ANÁLISE LÍQUIDO SINOVIAL",
+      "conteudo": "**Macroscopia:** Aspecto turvo/purulento, cor amarelada, viscosidade diminuída.  \n\n\n**Citometria:**  \n• **Leucócitos:** 85.000 células/mm³ (VR: \\< 200)  \n• **Polimorfonucleares:** 92% (VR: \\< 25%)  \n\n\n**Bioquímica:**  \n• **Glicose:** 30 mg/dL  \n• **Proteínas totais:** Aumentadas  \n\n\n**Microbiologia:**  \n• **Gram:** Cocos Gram-positivos em cachos.  \n\n• **Cultura:** Em andamento.  \n• **Pesquisa de cristais:** Negativa.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RAIO-X DE JOELHO",
+      "conteudo": "Aumento de partes moles e derrame articular. Ausência de fraturas ou lesões ósseas líticas agudas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese da dor e sintomas locais:**  \n(1) início e duração;  \n(2) intensidade;  \n(3) características inflamatórias (calor, rubor, edema);  \n(4) limitação de movimento.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga fatores de risco e porta de entrada:**  \n(1) trauma recente;  \n(2) procedimentos invasivos no joelho (infiltração/injeção);  \n(3) febre ou sintomas sistêmicos;  \n(4) comorbidades (diabetes, imunossupressão);  \n(5) ISTs/DSTs.  \n\n**Adequado:** investiga quatro ou cinco itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico direcionado.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais séricos:**  \n(1) Hemograma;  \n(2) PCR e/ou VHS;  \n(3) Hemocultura.  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita e interpreta a artrocentese (análise do líquido sinovial):**  \n(1) Solicita artrocentese diagnóstica;  \n(2) Interpreta o líquido como séptico/purulento ou identifica a presença de bactérias (cocos gram-positivos).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** apenas solicita, sem interpretar corretamente.  \n**Inadequado:** não solicita o procedimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza o diagnóstico de Artrite Séptica (ou Infecciosa).**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto (ex: gota, artrite reumatoide, artrite gonocóccica -> gram-negativo).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica internação hospitalar.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica (tratamento ambulatorial) ou dá alta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve antibioticoterapia empírica endovenosa adequada para S. aureus:**  \n(1) Oxacilina;  \n(2) OU Cefalosporina de 1ª geração (Cefalotina/Cefazolina);  \n(3) OU Vancomicina (se suspeita de MRSA ou alergia).  \n\n**Adequado:** indica uma das opções corretas por via endovenosa.  \n**Inadequado:** não indica, ou indica via oral, ou indica antibiótico sem cobertura para Gram-positivos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica drenagem da articulação (lavagem articular cirúrgica ou artroscópica ou artrocentese de alívio seriada).**  \n\n**Adequado:** indica a drenagem.  \n**Inadequado:** não indica a drenagem.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

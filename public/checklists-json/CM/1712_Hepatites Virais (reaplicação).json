@@ -1,0 +1,149 @@
+{
+  "uid": 1712,
+  "hash": "pepe_1712",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Hepatites Virais (reaplicação)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você é medico de uma Unidade Básica de Saúde – UBS.\n\nDescrição do caso:\nVocê é medico de uma Unidade Básica de Saúde – UBS e irá realizar o atendimento  \nde uma paciente de 32 anos, sem comorbidades, que procura atendimento  \npreocupada por ter diversos casos suspeitos de hepatite em sua vizinhança",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n· Realizar o atendimento da paciente;  \n· Solicitar e interpretar exames complementares, se necessário;  \n· Informar o diagnóstico à paciente;  \n· Orientar sobre possíveis complicações e adotar a conduta médica necessária.  \n\n\nCaso necessite, no momento adequado, solicite dados do exame físico ao(a) examinador(a).",
+  "script_ator": "**DADOS PESSOAIS:**  \n- Luíza, 32 anos, professora.  \n\n\n**QUEIXA PRINCIPAL:**  \n- Dr(a), estou preocupada porque está aparecendo muitos casos de Hepatite no meu bairro. Queria saber se também posso estar doente.  \n\n\n**SINTOMAS ASSOCIADOS:**  \n- Não estou sentindo nada, só vim porque o bairro está tendo muita gente com hepatite.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n- Alergias, medicações, doenças e internações: nega.  \n- Vacinas: Sempre tomei todas as vacinas.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n- Meu marido e minha filha não estão com nenhum sintoma.  \n- Meu pai tem hipertensão.  \n\n\n**FATORES AMBIENTAIS:**  \n- Na minha casa tem água encanada e esgoto.  \n\n\n**HÁBITOS:**  \n- Doação de sangue: Faço doação 2 vezes por ano.  \n- Álcool, drogas e tabaco: bebo socialmente. Não fumo e nem uso drogas.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n**SOMENTE SE O CANDIDATO VERBALIZAR SOBRE HEPATITE 'C':**  \n- Se eu tiver Hepatite C e não tratar, pode ter alguma complicação?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "· frequência cardíaca = 78 bpm;  \n· frequência respiratória = 15 ipm;  \n· pressão arterial = 120 x 80 mmHg;  \n· temperatura axilar = 36,5 C;  \n· saturação de oxigênio = 98%.  \n\n\nPaciente em bom estado geral, corada, hidratada, acianótica, anictérica, afebril.  \nExame físico cardiovascular, respiratório e abdominal sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "SOROLOGIAS",
+      "conteudo": "· Anti-VHA IgM: (-)  \n· Anti-VHA IgG: (+)  \n· HBsAg: (-)  \n· Anti-HBc IgM: (-)  \n· Anti-HBc IgG: (+)  \n\n\nPCR do HCV-RNA: em andamento",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o(a) paciente e identifica-se adequadamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta se fez vacina contra:**  \n(1) hepatite A;  \n(2) hepatite B.  \n\n**Inadequado:** nao perguntou sobre nenhuma vacina;  \n**Parcialmente adequado:** perguntou sobre uma das vacinas;  \n**Adequado:** perguntou sobre ambas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta se já fez transfusão de sangue.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre uso de drogas ilícitas injetáveis.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Esclarece que o exame físico é normal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Sobre a hepatite A, esclarece que:**  \n(1) o paciente teve contato com hepatite A;  \n(2) está imunizado contra a hepatite A;  \n\n**Inadequado:** nao esclarece nenhum item;  \n**Parcialmente adequado:** esclarece um item;  \n**Adequado:** esclarece os dois itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Sobre a hepatite B, esclarece que:**  \n(1) o paciente teve contato com hepatite B;  \n(2) está imunizado contra a hepatite B;  \n\n**Inadequado:** nao esclarece nenhum item;  \n**Parcialmente adequado:** esclarece um item;  \n**Adequado:** esclarece os dois itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita teste confirmatório para hepatite C na forma da técnica de biologia molecular (PCR do HCV-RNA).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta a necessidade de encaminhamento para tratamento, caso se confirme a presença do vírus hepatite C.**  \n\n**Inadequado:** orienta o tratamento SEM teste confirmatório;  \n**Adequado:** orienta o tratamento se teste PCR do HCV-RNA for positivo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Esclarece que existe o risco de pacientes com hepatite crônica viral C evoluírem para cirrose.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

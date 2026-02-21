@@ -1,0 +1,155 @@
+{
+  "uid": 2016,
+  "hash": "pepe_2016",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Avaliação Geriátrica Ampla e Polifarmácia (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária - Visita Domiciliar.\n\nDescrição do caso:\n• Você é o(a) médico(a) da Equipe de Saúde da Família e foi solicitado(a) pelo Agente Comunitário de Saúde para realizar uma visita domiciliar a uma paciente idosa com dificuldades de locomoção.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese dirigida à filha da paciente;  \n- Identificar as síndromes geriátricas presentes;  \n- Formular os principais diagnósticos diferenciais para as queixas da paciente;  \n- Avaliar a prescrição atual da paciente;  \n- Orientar a filha sobre medidas de prevenção de quedas no domicílio.  \n- Propor um novo plano de cuidado, incluindo manejo não farmacológico.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Filha:** Lúcia, 45 anos.  \n• **Paciente:** Maria, 75 anos, aposentada.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), o agente de saúde pediu pra você vir aqui em casa. Minha mãe não anda bem. Ela está muito esquecida e desanimada.  \n\n**SOBRE O ESTADO MENTAL E COGNITIVO:**  \n• **Humor:** Ela passa o dia no quarto, não quer conversar com ninguém e não tem mais vontade de fazer as coisas que gostava, como costurar e ver novela.  \n• **Cognição:** Ela está muito esquecida. Pergunta a mesma coisa várias vezes e às vezes não lembra o nome de gente da família. Parece que a cabeça dela não funciona mais direito.  \n• **Mobilidade e Quedas:** Ela anda bem devagarzinho, se arrastando e se segurando nos móveis. Esses dias ela quase caiu.  \n• **Tontura:** Ela vive reclamando de tontura, principalmente quando levanta da cama ou da cadeira.  \n\n**MEDICAMENTOS EM USO:**  \n• Doutor(a), ela toma um monte de remédios pra pressão e pro açúcar. Mas também dou outros remédios pra ela.  \n• Às vezes, quando ela fica muito agitada ou com dor, eu dou um remedinho meu pra ela. Dou um Diazepam pra acalmar ou Amitriptilina pra animar um pouco.  \n• Pra dor nas juntas ela toma Diclofenaco quase todo dia.  \n• E pra tontura ela toma um que se chama Flunarizina.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Ela tem pressão alta e diabetes há mais de 20 anos.  \n• **Alergias, cirurgias e internações:** que eu saiba, não tem.  \n\n• **Álcool, tabaco e drogas:** não bebe e nem fuma.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que a minha mãe tem? é começo de Alzheimer?*  \n• *Essa quantidade de remédio é normal? Tem algum que ela não deveria tomar?*  \n• *Essa tontura dela pode ser por causa dos remédios?*  \n• *E os meus remédios, posso continar dando pra ela as vezes?*  \n• *O que a gente pode fazer para evitar que ela caia em casa?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 140x80 mmHg (sentada)  \n• **FC:** 82 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 95% em ar ambiente  \n• **Temp. axilar:** 36.4°C  \n\n• **Glicemia Capilar:** 66 mg/dL  \n\n\n**Ectoscopia:** Bom estado geral, corada, hidratada.  \n\n\n**Marcha:** Lenta e hesitante, com necessidade de apoio.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdome:** Plano, flácido, indolor, sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "AVALIAÇÃO COGNITIVA",
+      "conteudo": "**MINI-MENTAL SIMPLIFICADO**  \n\n\n• Apresenta dificuldade de evocação e atenção.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "MEDICAMENTOS EM USO",
+      "conteudo": "• hidroclorotiazida 25 mg/dia  \n• losartana 50 mg (12/12h)  \n• anlodipino 5 mg (12/12h)  \n• enalapril 20 mg (12/12h)  \n• clonidina 0,150 mg (12/12h)  \n• metformina 850 mg (3x/dia)  \n• insulina NPH 22 UI (manhã) e 22 UI (noite)  \n• sinvastatina 20 mg (noite)  \n• diclofenaco 50 mg (uso frequente para dor)  \n• flunarizina 10 mg (para tontura)  \n• diazepam 5 mg (uso compartilhado com a filha)  \n• amitriptilina 25 mg (uso compartilhado com a filha)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta a paciente simulada e sua filha, e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese direcionada, investigando as queixas e o uso de medicamentos.**  \n(1) investiga os sintomas de humor, cognição e mobilidade;  \n(2) questiona sobre todos os medicamentos em uso, incluindo os não prescritos;  \n(3) explora a queixa de tontura e sua relação com os medicamentos e a glicemia.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica as principais síndromes geriátricas presentes no caso.**  \n(1) Iatrogenia OU Polifarmácia;  \n(2) Instabilidade postural e risco de quedas;  \n(3) Imobilidade;  \n(4) Incapacidade/Comprometimento cognitivo-funcional.  \n\n**Adequado:** identifica três ou mais síndromes.  \n**Parcialmente adequado:** identifica duas síndromes.  \n**Inadequado:** não identifica as síndromes ou identifica apenas uma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Formula as hipóteses diagnósticas de:**  \n(1) Episódio Depressivo Maior, OU depressão; e,  \n(2) Demência.  \n\n**Adequado:** verbaliza as duas hipóteses.  \n**Parcialmente adequado:** verbaliza apenas uma hipótese.  \n**Inadequado:** não verbaliza nenhuma hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza qual a associação de anti-hipertensivos em uso pela paciente que deve ser evitada.**  \n\n**Adequado:** verbaliza a associação de Inibidor da ECA (Enalapril) com Bloqueador do Receptor de Angiotensina (Losartana).  \n**Inadequado:** não verbaliza a associação ou cita outra.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Avalia a prescrição da paciente e identifica interações medicamentosas de risco.**  \n\n**Adequado:** identifica pelo menos uma interação de risco, como a associação de múltiplos anti-hipertensivos com medicamentos sedativos (benzodiazepínicos, tricíclicos), aumentando o risco de hipotensão e quedas.  \n**Inadequado:** não identifica interações medicamentosas de risco.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Identifica os medicamentos potencialmente inapropriados para idosos (Critérios de Beers).**  \n(1) Diazepam (benzodiazepínico de longa ação);  \n(2) Amitriptilina (antidepressivo tricíclico);  \n(3) Clonidina;  \n(4) Flunarizina;  \n(5) Diclofenaco em uso crônico.  \n\n**Adequado:** identifica três ou mais medicamentos inapropriados.  \n**Parcialmente adequado:** identifica dois medicamentos inapropriados.  \n**Inadequado:** não identifica os medicamentos ou identifica apenas um.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Propõe um plano de desprescrição inicial.**  \n\n**Adequado:** propõe a suspensão imediata dos medicamentos não prescritos (Diazepam, Amitriptilina, Diclofenaco, Flunarizina) e a revisão/otimização da terapia anti-hipertensiva (ex: suspender a Clonidina).  \n**Inadequado:** não propõe a desprescrição ou o faz de forma insegura.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta a filha sobre os riscos do compartilhamento de medicamentos.**  \n\n**Adequado:** orienta a filha de forma empática, sem culpabilização, explicando que medicamentos seguros para uma pessoa podem ser perigosos para outra, especialmente em idosos.  \n**Inadequado:** não orienta a filha sobre os riscos ou o faz de forma punitiva.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a paciente e a filha sobre medidas de prevenção de quedas, citando fatores de risco ambientais e comportamentais:**  \n(1) Ambientes mal iluminados;  \n(2) Pisos escorregadios;  \n(3) Uso de sandálias/calçados inadequados;  \n(4) Móveis fora do lugar, instáveis ou deslizantes;  \n(5) Objetos no chão;  \n(6) Cordas e fios elétricos no piso;  \n(7) Tapetes;  \n(8) Roupas compridas ou se arrastando pelo chão;  \n(9) Degraus com altura e largura irregulares e mal sinalizados;  \n(10) Cadeira e sanitário baixos;  \n(11) Sapatos desamarrados e saltos escorregadios;  \n(12) Uso de escadas ou objetos para alcance difícil;  \n(13) Entulhos;  \n(14) Bichos de estimação.  \n\n**Adequado:** cita seis ou mais orientações pertinentes.  \n**Parcialmente adequado:** cita de três a cinco orientações.  \n**Inadequado:** cita duas ou menos orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

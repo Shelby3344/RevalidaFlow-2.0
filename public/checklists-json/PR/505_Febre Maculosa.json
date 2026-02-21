@@ -1,0 +1,143 @@
+{
+  "uid": 505,
+  "hash": "pepe_505",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Febre Maculosa",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde - Unidade Básica de Saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório para atendimento de demanda espontânea.  \n• Acesso a solicitações de exames laboratoriais e farmácia básica.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá um paciente de 25 anos, com queixa de febre alta e dor no corpo.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese focada na queixa atual e no histórico epidemiológico do paciente;  \n- Realizar o exame físico direcionado;  \n- Formular uma hipótese diagnóstica principal e dois diagnósticos diferenciais;  \n- Comunicar ao paciente sua suspeita, a conduta inicial e os sinais de alerta.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• João da Silva, 25 anos, solteiro, estudante.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), eu estou muito mal.   \n• Estou há dois dias com uma febre muito alta e uma dor no corpo que parece que fui atropelado.   \n• E hoje apareceram umas manchas no meu corpo.  \n\n• **FEBRE E SINTOMAS GERAIS:**   \n• É uma febre alta, chegou a 39,5°C em casa.   \n• Não melhora com remédio.   \n• A dor no corpo é insuportável, principalmente nas pernas.   \n• Minha cabeça dói muito, na testa e atrás dos olhos.  \n• Vomitei duas vezes hoje, estou muito enjoado e perdi a fome.  \n\n• **EXANTEMA:**   \n• Hoje de manhã notei umas pintinhas vermelhas nos meus pulsos e tornozelos.   \n• Agora parece que está nas palmas das mãos e nas solas dos pés também. Elas não coçam.  \n\n**HISTÓRICO EPIDEMIOLÓGICO:**  \n• **VIAGEM:**   \n• Eu fui acampar com uns amigos, no último fim de semana, há 4 dias.  \n\n• **CONTATO COM ANIMAIS/VETORES:**   \n• Tinha muito bicho lá, sim. Vimos cavalos e um monte de capivaras perto da água.   \n• Não reparei se fui picado, não procurei no corpo. Mas um amigo meu tirou um carrapato da perna dele.\n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que o(a) senhor(a) acha que eu tenho?*  \n• *Essa viagem para o acampamento tem a ver com isso?*  \n• *Qual é o tratamento? Preciso fazer algum exame?*  \n• *Preciso ficar internado ou posso tratar em casa?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 100x60 mmHg  \n• **FC:** 110 bpm  \n• **FR:** 22 irpm  \n• **Temp. axilar:** 39,2°C  \n• **SatO2:** 97% em ar ambiente  \n\n\n**EXAME FÍSICO SEGMENTAR**  \n\n\n**Ectoscopia:**  \n• Regular estado geral, prostrado, hipocorado (+/4+), febril ao toque.  \n\n**Pele:**  \n• Exantema maculopapular não pruriginoso, com início em extremidades (punhos, tornozelos), acometendo palmas e plantas.  \n\n**Oroscopia:**  \n• Hiperemia de orofaringe sem exsudato.  \n\n**Cardiovascular:**  \n• Bulhas rítmicas, taquicárdicas, 2 tempos, sem sopros.  \n\n**Respiratório:**  \n• Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n**Abdome:**  \n• Levemente doloroso à palpação difusa, sem visceromegalias. Manobra de Giordano negativa.  \n\n**Neurológico:**  \n• Glasgow 15, sem sinais de irritação meníngea.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta o paciente simulado e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando o vínculo epidemiológico.**  \n\n**Adequado:** investiga ativamente o histórico de viagens recentes para áreas rurais, matas ou cachoeiras, e questiona sobre o contato com carrapatos ou animais como capivaras e cavalos.  \n**Inadequado:** não investiga o histórico epidemiológico.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga as características do quadro clínico.**  \n(1) caracteriza o pródromo (febre alta, cefaleia, mialgia intensa);  \n(2) investiga as características do exantema (início em extremidades, progressão centrípeta, acometimento palmo-plantar).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta os achados do exame físico.**  \n\n**Adequado:** correlaciona a presença de febre alta, prostração e exantema maculopapular com acometimento de palmas e plantas como o quadro clássico da doença, e identifica os sinais de alerta (hipotensão, taquicardia).  \n**Inadequado:** não consegue interpretar os achados do exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula uma hipótese diagnóstica principal e dois diagnósticos diferenciais.**  \n(1) Hipótese Principal: Febre Maculosa;  \n(2) Diagnósticos Diferenciais: Dengue e Leptospirose.  \n\n**Adequado:** formula a hipótese principal correta e cita os dois diagnósticos diferenciais.  \n**Parcialmente adequado:** formula a hipótese principal correta, mas cita apenas um ou nenhum diagnóstico diferencial.  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Justifica a hipótese principal.**  \n\n**Adequado:** justifica a suspeita de Febre Maculosa pela combinação do quadro clínico (febre, cefaleia, mialgia, exantema centrípeto) com o forte vínculo epidemiológico (acampamento em área de risco).  \n**Inadequado:** não consegue justificar a hipótese ou o faz de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Prescreve a antibioticoterapia imediata.**  \n\n**Adequado:** prescreve o tratamento de primeira escolha, a Doxiciclina, por via oral, explicando que o tratamento deve ser iniciado imediatamente com base na suspeita clínica, sem aguardar confirmação laboratorial.  \n**Inadequado:** não prescreve o antibiótico, prescreve um antibiótico incorreto ou aguarda a confirmação por exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define a necessidade de internação e encaminhamento hospitalar.**  \n\n**Adequado:** indica o encaminhamento para um serviço hospitalar para internação, justificando pela gravidade potencial da doença e pela presença de sinais de alerta (hipotensão, taquicardia, prostração).  \n**Inadequado:** não indica o encaminhamento ou sugere tratamento ambulatorial.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita os exames complementares para confirmação e acompanhamento.**  \n(1) Sorologia por Reação de Imunofluorescência Indireta (RIFI) para Febre Maculosa (duas amostras);  \n(2) Hemograma completo;  \n(3) Função renal e hepática.  \n\n**Adequado:** solicita os três grupos de exames.  \n**Parcialmente adequado:** solicita dois grupos de exames.  \n**Inadequado:** não solicita os exames ou solicita apenas um grupo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a notificação compulsória do agravo.**  \n\n**Adequado:** verbaliza a necessidade de realizar a notificação compulsória imediata do caso suspeito de Febre Maculosa no SINAN.  \n**Inadequado:** não realiza a notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

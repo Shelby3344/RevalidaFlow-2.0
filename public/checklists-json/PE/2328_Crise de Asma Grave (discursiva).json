@@ -1,0 +1,177 @@
+{
+  "uid": 2328,
+  "hash": "pepe_2328",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Crise de Asma Grave (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - pronto-socorro hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização e acesso a oxigênio;  \n• Laboratório de análises clínicas;  \n• Setor de radiologia;  \n• Leitos para internação em enfermaria e UTI pediátrica.\n\nDescrição do caso:\nVocê atenderá uma paciente de 7 anos, asmática conhecida, trazida pela mãe ao pronto-socorro com queixa de tosse e dificuldade respiratória, iniciada há 2 horas após inalação de fumaça.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar e interpretar exame físico, caso necessário.  \n- Solicitar e interpretar exame(s) complementar(es), caso necessário.  \n- Diagnosticar e Classificar a gravidade, e justificar com base nos achados clínicos;  \n- Indicar a conduta terapêutica imediata e sequencial.  \n- Estabelecer a conduta final para a paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Daniela  \n• **Criança:** Laura, 7 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), minha filha está com uma tosse muito forte! Ela não consegue respirar direito.  \n\n**SOBRE TOSSE E DISPNEIA:**  \n• **Início e Gatilho:** Começou faz umas 2 horas, depois que ela respirou a fumaça de um pneu queimando na rua.  \n• **Expectoração:** É uma tosse seca.  \n• **Em repouso ou atividade:** agora, está direto desde que começou.  \n• **Sibilos:** ela está com muito chiado. Não era bom fazer um raio-x agora pra ver isso?  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Dor torácica:** ela está reclamando de dor no peito quando puxa o ar.  \n• **Sonolência ou hipotensão:** ela ficou bem agitada no começo, mas agora está sonolenta. Não está conseguindo falar frases completas, só palavras  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Ela é asmática desde um aninho.  \n• **Tratamento de Manutenção:** Ela usa a bombinha de Beclometasona todo dia, de manhã e de noite. Eu tento dar certinho, mas às vezes na correria a gente esquece uma dose ou outra.  \n• **Crises anteriores:** Já internou várias vezes por causa da asma, uma vez precisou ir pra UTI.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que está acontecendo com ela? É grave?*  \n• *O que vai ser feito agora para ela melhorar?*  \n• *Vai precisar internar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "AVALIAÇÃO INICIAL",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 156 bpm  \n• **FR:** 60 irpm  \n• **Temp. axilar:** 36.8°C  \n• **SatO2:** 88%  \n• **Pico de Fluxo Expiratório (PFE):** 45% do previsto.  \n\n\n**Nível de Consciência e Comportamento:**  \n• Agitada, alternando com sonolência. Adota posição sentada com inclinação do tronco para frente.  \n\n\n**Padrão de Fala:**  \n• Incapaz de formular frases completas, pronuncia apenas palavras isoladas.  \n\n\n**Aparelho Respiratório:**  \n• **Inspeção:** Uso de musculatura acessória com tiragem intercostal e subcostal acentuada. Batimento de aletas nasais.  \n• **Ausculta:** Murmúrio vesicular difusamente diminuído, com sibilos bilaterais (inspiratórios e expiratórios).  \n\n\n**Aparelho Cardiovascular:**  \n• Taquicardia sinusal, sem outras alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "REAVALIAÇÃO APÓS MEDIDAS INICIAIS",
+      "conteudo": "Após o primeiro ciclo de broncodilatadores, oxigenioterapia, Corticoide Sistêmico e Brometo de Ipratrópio:  \n\n\n• Paciente mantém dispneia importante.  \n• **Saturação de O₂:** 89% (com O₂ suplementar).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES COMPLEMENTARES",
+      "conteudo": "**GASOMETRIA ARTERIAL:**  \n• **pH:** 7,28 (VR: 7,35 - 7,45)  \n• **PaCO₂:** 55 mmHg (VR: 35 - 45 mmHg)  \n• **PaO₂:** 60 mmHg (VR: 80 - 100 mmHg)  \n• **HCO₃:** 24 mEq/L (VR: 22 - 26 mEq/L)  \n• **SatO₂:** 90%  \n\n\n**RAIO-X DE TÓRAX:**  \n• **Laudo:** Sinais de hiperinsuflação pulmonar. Ausência de consolidações, pneumotórax ou outras alterações agudas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e a criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida à gravidade da crise:**  \n(1) pergunta sobre o gatilho e o tempo de início dos sintomas;  \n(2) investiga o histórico de doenças e internações prévias;  \n(3) pergunta sobre a medicação de uso contínuo.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga ou investiga apenas um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica e verbaliza os sinais de gravidade ao exame físico:**  \n(1) alteração do nível de consciência (agitação/sonolência);  \n(2) incapacidade de falar frases completas;  \n(3) uso de musculatura acessória (tiragens/batimento de aleta nasal);  \n(4) taquicardia ou taquipneia;  \n(5) hipoxemia (saturação < 90%).  \n\n**Adequado:** identifica quatro ou mais sinais.  \n**Parcialmente adequado:** identifica dois ou três sinais.  \n**Inadequado:** não identifica ou identifica apenas um sinal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Diagnostica e classifica a crise asmática como grave ou muito grave.**  \n\n**Adequado:** Diagnostica como Crise de Asma/Asmática e Verbaliza a classificação de crise grave ou muito grave.  \n**Inadequado:** não classifica ou classifica como leve/moderada.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Indica oxigenioterapia suplementar imediata.**  \n\n**Adequado:** indica o uso de oxigênio para manter a saturação > 94%.  \n**Inadequado:** não indica oxigênio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a terapia broncodilatadora de resgate imediato:**  \n(1) beta-2-agonista de curta duração (ex: Salbutamol); e,  \n(2) anticolinérgico de curta duração (ex: Brometo de Ipratrópio).  \n\n**Adequado:** indica as duas classes de medicamentos.  \n**Parcialmente adequado:** indica apenas uma das classes.  \n**Inadequado:** não indica nenhuma das medicações ou indica outra classe.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica o uso de corticoide sistêmico.**  \n\n**Adequado:** indica o uso de corticoide por via oral ou endovenosa (ex: Prednisona/Prednisolona).  \n**Inadequado:** não indica corticoide sistêmico ou indica apenas corticoide inalatório para a crise.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a necessidade de reavaliação clínica após o tratamento inicial.**  \n\n**Adequado:** verbaliza que a paciente deve ser reavaliada após o primeiro ciclo de broncodilatação (em 20 minutos).  \n**Inadequado:** não indica a necessidade de reavaliação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica terapia adjuvante após constatar a má resposta inicial.**  \n\n**Adequado:** indica a administração de Sulfato de Magnésio endovenoso.  \n**Inadequado:** não indica o Sulfato de Magnésio ou mantém apenas as condutas anteriores.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Justifica o momento correto para solicitar exames complementares.**  \n\n**Adequado:** justifica que exames como radiografia ou gasometria não devem ser solicitados no momento inicial, mas sim após a reavaliação em caso de má resposta ao tratamento.  \n**Parcialmente adequado:** solicita os exames no momento inicial, sem priorizar a terapia.  \n**Inadequado:** não menciona exames ou os descarta completamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica a conduta final com base na evolução do caso.**  \n\n**Adequado:** reavalia a paciente e, diante da má resposta à terapia inicial, indica a internação hospitalar, preferencialmente em leito de emergência ou UTI Pediátrica.  \n**Inadequado:** não reavalia a paciente após a primeira hora ou indica alta hospitalar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Reforça a importância do tratamento de manutenção.**  \n\n**Adequado:** aproveita a oportunidade para reforçar a importância do uso regular e correto do corticoide inalatório (Beclometasona) todos os dias para prevenir novas crises graves.  \n**Inadequado:** não aborda o tratamento de manutenção.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

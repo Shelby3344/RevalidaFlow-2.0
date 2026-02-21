@@ -1,0 +1,155 @@
+{
+  "uid": 105,
+  "hash": "pepe_105",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Acidente por animal peçonhento - Quilópodes (Lacraia)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - Unidade de Pronto Atendimento (UPA).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório para atendimento de urgência.  \n• Sala de observação/medicação.  \n• Farmácia Hospitalar.\n\nDescrição do caso:\nVocê está de plantão na UPA e receberá uma paciente de 21 anos, do sexo feminino, que procura o serviço com queixa de dor intensa no pé esquerdo após ter sido picada por um animal enquanto tomava banho.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese e o exame físico da paciente;  \n- Formular a hipótese diagnóstica;  \n- Elaborar o plano terapêutico, incluindo a prescrição medicamentosa e orientações gerais;  \n- Verbalizar caso haja necessidade de notificação compulsória do agravo.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Lays, 21 anos, solteira, estudante.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), me ajuda, Um bicho me picou no pé esquerdo enquanto eu tomava banho, faz mais ou menos uma hora. Está doendo demais, uma dor que queima e não para!  \n\n**HISTÓRIA DA DOENÇA ATUAL:**  \n• **Sobre o Acidente:** Eu estava no box do banheiro, fui pegar o sabonete e senti a picada no peito do pé esquerdo.  \n• **Sintomas Locais:** A dor é a pior que já senti, nota 10 de 10, parece que está queimando e latejando. Meu pé está bem inchado e vermelho. Tem duas marquinhas, dois furinhos onde o bicho picou.  \n• **Sintomas Sistêmicos:** Estou com febre, medi em casa e deu 38,2°C. Também estou muito enjoada, quase vomitei no caminho para cá. Não sinto falta de ar, nem coração disparado, nem tonta.  \n• **Medidas em Casa:** Eu só lavei com água e sabão e vim correndo para cá.  \n• **Identificação do Animal:** Eu consegui tirar uma foto antes de matar, você quer olhar?  \n\n**ANTECEDENTES:**  \n• **Doenças e Alergias:** Não tenho nenhuma doença nem alergia.  \n• **Vacinação:** Minha vacina de tétano está em dia, tomei o reforço ano passado.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• As informações sobre os detalhes dos sintomas e os antecedentes só devem ser informadas se o(a) participante perguntar diretamente.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *Esse bicho é muito venenoso? Vou precisar tomar soro?*  \n• *O que o(a) senhor(a) vai fazer para aliviar essa dor insuportável?*  \n• *Preciso tomar algum antibiótico para não infeccionar?*  \n• *O que eu faço com o pé em casa? Coloco gelo? Faço compressa quente?*  \n• *Vai ficar alguma marca ou cicatriz no meu pé?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FOTO DO ANIMAL",
+      "conteudo": "**OLHE PARA A CÂMERA E DESCREVA O ANIMAL APRESENTADO NA IMAGEM!**",
+      "imagem": "img_printeds/e105p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 125x80 mmHg  \n• **FC:** 105 bpm  \n• **FR:** 20 irpm  \n• **Temp. axilar:** 38,2°C  \n• **SatO2:** 98% em ar ambiente  \n\n\n**Ectoscopia e Estado Geral:**  \n• Bom estado geral, ansiosa, com fácies de dor.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME LOCAL (PÉ ESQUERDO)",
+      "conteudo": "• **Inspeção:** Edema (+++/4+) e eritema no dorso do pé. Presença de dois pontos de inoculação com halo eritematoso. Ausência de necrose, bolhas ou secreção purulenta.  \n• **Palpação:** Dor intensa à palpação local.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta a paciente simulada e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando as características do acidente.**  \n(1) caracteriza os sintomas locais (dor, edema, eritema);  \n(2) investiga a presença de sintomas sistêmicos (febre, náuseas);  \n(3) questiona sobre a identificação do animal e as medidas de primeiros socorros.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.45",
+        "adequado": "0.85"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica o animal causador do acidente.**  \n\n**Adequado:** identifica o animal como um quilópode (lacraia ou centopeia) com base na descrição e/ou na imagem; Artrópode com corpo segmentado e achatado, com múltiplos pares de pernas e com um par de forcípulas peçonhentas.  \n**Inadequado:** não consegue identificar o animal ou o identifica incorretamente (ex: escorpião, aranha).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.85"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Formula a hipótese diagnóstica.**  \n\n**Adequado:** formula a hipótese de Acidente por Quilópode, Lacraia ou Centopeia (quilopodismo).  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.85"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Define a conduta em relação à soroterapia.**  \n\n**Adequado:** informa à paciente que, para acidentes por lacraia, não existe soro antiveneno específico, e que o tratamento é focado no alívio dos sintomas.  \n**Inadequado:** indica a administração de soro (ex: antiaracnídico, antiescorpiônico).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Elabora o plano terapêutico para o manejo da dor.**  \n(1) prescreve analgesia sistêmica (analgésicos comuns ou opioides, a depender da intensidade da dor);  \n(2) indica a infiltração de anestésico local (ex: Lidocaína) sem vasoconstritor no local da picada para alívio da dor intensa.  \n\n**Adequado:** elabora um plano com os dois componentes.  \n**Parcialmente adequado:** elabora um plano com apenas um dos componentes.  \n**Inadequado:** não elabora um plano para o manejo da dor.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.45"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Define a conduta em relação ao uso de antibióticos.**  \n\n**Adequado:** explica que a antibioticoprofilaxia não é indicada de rotina, devendo ser reservada apenas para casos com sinais claros de infecção secundária.  \n**Inadequado:** prescreve antibiótico de rotina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.85"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre as medidas de cuidado local.**  \n(1) realizar a limpeza do local com água e sabão;  \n(2) aplicar compressas frias ou gelo no local para alívio da dor e do edema.  \n\n**Adequado:** orienta sobre as duas medidas.  \n**Parcialmente adequado:** orienta sobre apenas uma das medidas.  \n**Inadequado:** não orienta sobre os cuidados locais ou indica medidas incorretas (ex: compressas quentes).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.55",
+        "adequado": "1.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define a conduta em relação à profilaxia do tétano.**  \n\n**Adequado:** reconhece que a vacinação da paciente está em dia e, portanto, não há necessidade de reforço ou de soro/imunoglobulina.  \n**Inadequado:** indica a administração de vacina e/ou soro/imunoglobulina desnecessariamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.85"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza a necessidade de notificação compulsória do agravo.**  \n\n**Adequado:** verbaliza a necessidade de preencher a ficha de notificação do SINAN para acidente por animal peçonhento.  \n**Inadequado:** não realiza a notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

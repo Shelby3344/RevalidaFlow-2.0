@@ -1,0 +1,183 @@
+{
+  "uid": 305,
+  "hash": "pepe_305",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Intoxicação por Chumbo (Saturnismo) na criança",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas e serviço de radiologia na rede municipal.\n\nDescrição do caso:\nVocê é médico(a) em uma UBS e atenderá um menino de 4 anos, trazido pela mãe com queixa de irritabilidade e dor abdominal há alguns meses.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal e fator desencadeante.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Formular e comunicar a hipótese diagnóstica à mãe.  \n- Propor o plano terapêutico inicial e as orientações necessárias.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Clarice, 35 anos, do lar.  \n• **Criança:** Vitor, 4 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), o Vitor anda muito irritado ultimamente, chorando por tudo. E também tem reclamado de dor de barriga.  \n\n**SOBRE OS SINTOMAS:**  \n• **Início:** Faz uns 3 meses que ele está assim, mas parece que piorou no último mês.  \n• **Dor abdominal:** É uma dor na barriga toda, tipo uma cólica que vai e volta. Não tem relação com a comida.  \n• **Irritabilidade:** Ele está muito choroso, não quer brincar direito, parece sempre cansado.  \n• **Outros sintomas:** Notei que ele está meio desajeitado, caindo mais que o normal. E o intestino dele está mais preso.  \n• **Alimentação:** O apetite dele diminuiu um pouco, está mais seletivo. E Tem uma coisa que me preocupa. Eu já peguei ele várias vezes colocando pedacinhos de tinta da parede na boca.  \n\n**FATORES AMBIENTAIS E DESENCADEANTES:**  \n• **Moradia:** Nós moramos em uma casa bem antiga e a pintura está descascando em vários cômodos. \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Vacinação:** A caderneta está em dia.  \n• **Nascimento:** Nasceu de parto normal, no tempo certo.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Somos todos saudáveis, que eu saiba.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que meu filho tem, doutor(a)?*  \n• *Isso é grave? O que causou essa doença?*  \n• *Como vai ser o tratamento dele?*  \n• *O que eu posso fazer em casa para ajudar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 95x65 mmHg  \n• **FC:** 105 bpm  \n• **FR:** 22 irpm  \n• **Temp. axilar:** 36.8° C  \n• **IMC:** 15.5 kg/m² (Percentil 50)  \n\n\n**Ectoscopia:** Regular estado geral, hipocorado (+/4+), irritadiço durante o exame.  \n\n\n**Oroscopia:** Presença de uma linha azulada fina na margem gengival (Linha de Burton).  \n\n\n**Abdominal:** Abdome flácido, levemente doloroso à palpação difusa, sem visceromegalias. Ruídos hidroaéreos presentes.  \n\n\n**Neurológico:** Criança com dificuldade de concentração, um pouco apática. Marcha atáxica leve. Força e reflexos preservados.  \n\n\n**Cardiovascular e Respiratório:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 3,8 milhões/mm³ (VR: 4,0 a 5,2 milhões/mm³)  \n• **Hemoglobina:** 9,5 g/dL (VR: 11,5 a 13,5 g/dL)  \n• **Hematócrito:** 29% (VR: 34 - 40%)  \n• **VCM:** 72 fL (VR: 75 a 87 fL)  \n• **HCM:** 24 pg (VR: 26 - 32 pg)  \n• **CHCM:** 30 g/dl (VR: 32 - 36 g/dl)  \n• **RDW:** 16% (VR: 11 - 14%)  \n\n• **Plaquetas:** 250.000 mm/3 (150.000 - 450.000 mm/3)  \n• **Leucócitos:** 7.500/mm3 (VR: 5.000 - 12.000/mm3)  \n \n**Observação do esfregaço:** Anisocitose, hipocromia e presença de pontilhado basófilo grosseiro.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RAIO-X DE JOELHOS",
+      "conteudo": "**VERBALIZE O ACHADO DA IMAGEM**",
+      "imagem": "img_printeds/e305p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "Fe e Pb SÉRICO",
+      "conteudo": "• **Chumbo (Plumbemia):** 65 µg/dL (VR: \\< 5 µg/dL)  \n• **Ferro Sérico:** 40 µg/dL (VR: 50 - 120 µg/dL)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe e a criança de forma cordial.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características dos sintomas atuais:**  \n(1) dor abdominal;  \n(2) irritabilidade ou alteração de comportamento;  \n(3) constipação;  \n(4) alteração motora ou regressão do desenvolvimento.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga ativamente a exposição ambiental a fontes de chumbo:**  \n(1) pergunta sobre as condições de moradia (casa antiga, pintura descascando);  \n(2) questiona sobre os hábitos alimentares (ou ingestão de substâncias não alimentares, como tinta).  \n\n**Adequado:** pergunta sobre os dois itens.  \n**Parcialmente adequado:** pergunta sobre um item.  \n**Inadequado:** não pergunta sobre nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico completo, verbalizando os principais sistemas a serem avaliados.**  \n\n**Adequado:** solicita o exame físico e verbaliza a necessidade de avaliação neurológica e abdominal.  \n**Inadequado:** não solicita exame físico ou não especifica os sistemas-alvo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames laboratoriais essenciais para o diagnóstico:**  \n(1) dosagem de chumbo no sangue (plumbemia);  \n(2) hemograma completo.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um dos exames.  \n**Inadequado:** não solicita nenhum dos exames essenciais.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame de imagem para investigação complementar.**  \n\n**Adequado:** solicita radiografia de ossos longos.  \n**Inadequado:** não solicita o exame ou solicita outro exame de imagem.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta corretamente os resultados dos exames:**  \n(1) identifica a anemia microcítica e hipocrômica no hemograma;  \n(2) reconhece o nível de chumbo sanguíneo como muito elevado;  \n(3) associa as linhas densas na radiografia à deposição de chumbo.  \n\n**Adequado:** interpreta os três achados.  \n**Parcialmente adequado:** interpreta dois achados.  \n**Inadequado:** interpreta um ou nenhum achado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Formula e comunica o diagnóstico de Intoxicação por Chumbo ou Saturnismo.**  \n\n**Adequado:** verbaliza o diagnóstico corretamente.  \n**Inadequado:** não verbaliza o diagnóstico ou o faz de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Inicia o plano de manejo imediato:**  \n(1) verbaliza a necessidade de notificação compulsória do caso;  \n(2) orienta a remoção imediata da fonte de exposição (afastamento do ambiente contaminado).  \n\n**Adequado:** indica as duas condutas.  \n**Parcialmente adequado:** indica apenas uma das condutas.  \n**Inadequado:** não indica nenhuma das condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre o tratamento específico:**  \n(1) informa a necessidade de internação hospitalar para o tratamento;  \n(2) explica sobre a terapia de quelação, o uso de medicamentos para remover o chumbo do corpo (DMSA, Ácido Etilenodiamino Tetra-acético ou Dimercaprol).  \n\n**Adequado:** orienta sobre os dois itens.  \n**Parcialmente adequado:** orienta sobre apenas um item.  \n**Inadequado:** não orienta sobre o tratamento específico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre medidas de suporte e prevenção secundária:**  \n(1) orienta a suplementação de ferro e cálcio;  \n(2) enfatiza a importância de uma limpeza rigorosa do ambiente para remover poeira e lascas de tinta.  \n\n**Adequado:** orienta as duas medidas.  \n**Parcialmente adequado:** orienta apenas uma medida.  \n**Inadequado:** não fornece orientações de suporte.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Agenda o seguimento e o rastreio familiar.**  \n\n**Adequado:** agenda retorno para acompanhamento dos níveis de chumbo e orienta que outras crianças da casa também devem ser avaliadas.  \n**Inadequado:** não estabelece um plano de seguimento ou não menciona a avaliação de outros contactantes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

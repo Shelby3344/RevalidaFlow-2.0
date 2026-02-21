@@ -1,0 +1,259 @@
+{
+  "uid": 1803,
+  "hash": "pepe_1803",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Dor Pélvica Aguda (investigação) | 2018",
+  "definicao": "Estação original adaptada  \nPSU-CE 2018 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.  \n• Sala de exames ginecológicos.\n\nDescrição do caso:\nVocê é médico(a) e está atendendo na UBS e receberá uma paciente de 24 anos, que comparece à consulta com queixa de dor no \"pé da barriga\" há 3 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese completa da paciente;  \n- Solicitar exame físico e complementar(es), se indicado;  \n- Verbalizar as hipóteses diagnósticas ou seus diagnósticos diferenciais;  \n- Indicar a conduta investigativa adequada ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Eva, 24 anos, vendedora de loja.  \n\n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor chata na barriga, bem na parte de baixo.  \n\n\n**SOBRE A DOR:**  \n• **Início:** faz uns 3 dias.  \n• **Localização:** Bem no baixo ventre, dos dois lados.  \n• **Tipo:** É uma dor tipo cólica, mas constante.  \n• **Intensidade:** É moderada, incomoda bastante. Nota 6 ou 7.  \n• **Irradiação:** Não, fica só ali embaixo mesmo.  \n• **Duração:** Começou há 3 dias e não parou.  \n\n\n**FATORES DE MELHORA E PIORA:**  \n• **Melhora:** Eu tomei Buscopan em casa e melhorou um pouco, mas depois a dor voltou.  \n• **Piora:** Ontem tentei ter relação com meu namorado e a dor piorou muito, tive que parar. Doeu lá no fundo.  \n\n\n• **Febre, diarreia ou vômitos:** nega.  \n\n\n**SINTOMAS ASSOCIADOS:**  \n• **Corrimento:** Notei que está saindo um corrimento amarelado, um pouco diferente do normal.  \n• **Prurido:** Não coça.  \n• **Odor/Cheiro:** Não tem cheiro ruim forte, só um cheiro diferente.  \n• **Disuria:** Pra fazer xixi está normal, não dói.  \n\n\n**HISTÓRICO GINECOLÓGICO E SEXUAL:**  \n• **Menstruação/DUM:** Está pra chegar, faz umas 3 semanas a última. Ela vem todo mês, dura uns 6 dias, fluxo normal.  \n• **Menarca:** foi aos 12 anos.  \n• **Sexarca:** Comecei com 16 anos.  \n• **Parceria fixa:** Tenho namorado há 4 meses. Antes tive outros 2 parceiros.  \n• **Contracepção:** Não tomo pílula, a gente usa camisinha às vezes, mas nem sempre.  \n• **Preservativo:** Como eu disse, às vezes a gente esquece de usar.  \n\n\n**SOBRE O PARCEIRO:**  \n• **Se perguntado sobre sintomas no parceiro:** ele comentou semana passada que estava sentindo uma ardência pra fazer xixi e saindo uma \"sujeira\" do pênis. Mas ele não foi no médico ainda.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que pode ser isso, doutor(a)?*  \n• *E não pode ser outra coisa?*  \n• *Vou precisar fazer algum exame?*  \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato solicite a necessidade do exame ginecológico: *Tudo bem doutor(a), pode fazer*.  \n• Caso o candidato solicite Ultrassom transvaginal ou pélvico: *Considere solicitado*.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 37,2° C  \n\n\n**Exame Abdominal:**  \n• **Inspeção:** abdome plano.  \n• **Ausculta:** ruídos hidroaéreos presentes.  \n• **Palpação:** flácido, doloroso à palpação profunda em hipogástrio e fossas ilíacas. Descompressão brusca negativa.  \n\n\n• **Demais segmnetos:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO GINECOLÓGICO",
+      "conteudo": "• **Exame especular:** presença de conteúdo vaginal mucopurulento, em moderada quantidade, saindo pelo orifício externo do colo uterino. Paredes vaginais íntegras.  \n\n\n• **Toque vaginal:** colo doloroso à mobilização. Útero e anexos dolorosos à palpação e mobilização. Ausência de massas palpáveis.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identificou-se para o paciente ?**  \n(nome ou profissão)  \n\n**Adequado:** identifica-se.  \n**Inadequado:** não se identifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Perguntou pelo menos 3 itens da identificação do paciente ?**  \n(1) nome;  \n(2) idade;  \n(3) naturalidade;  \n(4) procedência;  \n(5) profissão;  \n(6) escolaridade;  \n(7) raça;  \n(8) religião.  \n\n**Adequado:** pergunta 3 ou mais itens.  \n**Inadequado:** pergunta 2 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Passou a tratar o paciente pelo nome ?**  \n\n**Adequado:** trata pelo nome.  \n**Inadequado:** não trata pelo nome.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Não interrompeu o paciente nos primeiros 8 segundos da queixa principal e HDA ?**  \n\n**Adequado:** não interrompe.  \n**Inadequado:** interrompe.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Perguntou pelo menos 3 características da dor ?**  \n(1) localização;  \n(2) tipo de dor;  \n(3) intensidade;  \n(4) duração;  \n(5) irradiação.  \n\n**Adequado:** pergunta 3 ou mais características.  \n**Parcialmente adequado:** pergunta 2 características.  \n**Inadequado:** pergunta 1 ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Perguntou por fatores de piora E de alívio da dor?**  \n(1) fatores de melhora (ex: uso de analgésicos/buscopan);  \n(2) fatores de piora (ex: relação sexual/dispareunia de profundidade).  \n\n**Adequado:** pergunta os dois fatores (piora e alívio).  \n**Parcialmente adequado:** pergunta apenas um fator.  \n**Inadequado:** não pergunta fatores.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Perguntou se a dor tem relação com o ciclo menstrual?**  \n(ou questionou o dia da última menstruação)  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Questionou pelo menos 3 sintomas genitais (corrimento, prurido, odor, dor ou sangramento na relação sexual)**  \n(1) corrimento;  \n(2) prurido;  \n(3) odor;  \n(4) dor na relação sexual (dispareunia);  \n(5) sangramento na relação sexual (sinusorragia).  \n\n**Adequado:** questiona 3 ou mais sintomas.  \n**Parcialmente adequado:** questiona 2 sintomas.  \n**Inadequado:** questiona 1 ou nenhum sintoma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Questionou pelo menos 2 sintomas urinários (polaciúria, disúria, alteração da cor da urina)**  \n(1) polaciúria;  \n(2) disúria;  \n(3) alteração da cor da urina.  \n\n**Adequado:** questiona 2 ou mais sintomas.  \n**Parcialmente adequado:** questiona 1 sintoma.  \n**Inadequado:** não questiona sintomas urinários.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Questionou sobre hábito intestinal (constipação ou diarreia)**  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Perguntou pelo menos 2 sintomas de apendicite**  \n(1) náuseas;  \n(2) vômitos;  \n(3) inapetência;  \n(4) febre.  \n\n**Adequado:** pergunta 2 ou mais sintomas.  \n**Parcialmente adequado:** pergunta 1 sintoma.  \n**Inadequado:** não pergunta sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Perguntou pelo menos 3 itens sobre a menstruação**  \n(1) menarca;  \n(2) intensidade (fluxo);  \n(3) duração;  \n(4) intervalo (ciclo).  \n\n**Adequado:** pergunta 3 ou mais itens.  \n**Parcialmente adequado:** pergunta 2 itens.  \n**Inadequado:** pergunta 1 ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Interrogou pelo menos 2 itens sobre a vida sexual**  \n(1) início (sexarca);  \n(2) número de parceiros;  \n(3) vida sexual ativa (parceiro atual);  \n(4) uso de contracepção.  \n\n**Adequado:** interroga 2 ou mais itens.  \n**Parcialmente adequado:** interroga 1 item.  \n**Inadequado:** não interroga itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Interrogou se o parceiro tem corrimento uretral**  \n\n**Adequado:** interroga.  \n**Inadequado:** não interroga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Questionou sobre uso de preservativo**  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Explicou em linguagem acessível ao paciente sobre possíveis diagnósticos, citando pelo menos 3 das seguintes hipóteses: gravidez ectópica, DIP, cisto de ovário torcido, apendicite, constipação,**  \n(1) gravidez ectópica;  \n(2) DIP (Doença Inflamatória Pélvica);  \n(3) cisto de ovário torcido;  \n(4) apendicite;  \n(5) constipação.  \n\n**Adequado:** cita e explica 3 ou mais hipóteses.  \n**Parcialmente adequado:** cita 2 hipóteses.  \n**Inadequado:** cita 1 ou nenhuma hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Explicou sobre a necessidade OU solicitou consentimento para realização do exame ginecológico**  \n\n**Adequado:** explica ou solicita consentimento.  \n**Inadequado:** não explica nem solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Falou sobre a necessidade de realização de ultrassonografia transvaginal**  \n\n**Adequado:** falou sobre a necessidade.  \n**Inadequado:** não falou.  \n\n*OBS.: também aceitar ultrassonografia pélvica*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Certificou-se de ter colhido toda a história da paciente, questionando se ela gostaria de acrescentar mais alguma informação**  \n\n**Adequado:** certificou-se.  \n**Inadequado:** não se certificou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Durante a consulta manteve contato visual com a paciente a maior parte do tempo, não ficando de cabeça baixa nem fazendo anotações.**  \n\n**Adequado:** manteve contato visual.  \n**Inadequado:** não manteve contato visual.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

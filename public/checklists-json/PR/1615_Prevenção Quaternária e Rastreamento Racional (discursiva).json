@@ -1,0 +1,143 @@
+{
+  "uid": 1615,
+  "hash": "pepe_1615",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Prevenção Quaternária e Rastreamento Racional (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma mulher de 25 anos, que procura o serviço para uma consulta de rotina. Ela não apresenta queixas, mas solicita a realização de uma \"bateria completa de exames\".",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Conduzir a anamnese para entender as motivações da paciente;  \n- Aplicar as orientações sobre os benefícios e os riscos do rastreamento indiscriminado;  \n- Indicar o exame de rastreamento pertinente para a idade e sexo da paciente.  \n- Definir a conduta médica adequada para o caso.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mariana, 25 anos, casada, assistente administrativa.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), Eu me sinto bem mas queria fazer um check-up completo. Pra ver se está tudo certo mesmo. Pensei num teste de esforço, ultrassom de tudo, tomografia da cabeça...  \n\n**MOTIVO DE REALIZAR OS EXAMES:**  \n• Vi na internet que são exames importantes para checar a saúde. Queria ter certeza de que estou 100% saudável.  \n\n**QUEIXAS ATUAIS:**  \n• A única coisa que sinto às vezes é uma dor de cabeça, mas é só quando fico muito tempo sem comer. Tomo um analgésico e melhora.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** Não tenho nenhuma doença, só tomo analgésico para a dor de cabeça.  \n• **Exames anteriores:** Fiz exames de sangue e urina há 3 meses e estava tudo normal.  \n• **Cirurgias e internações:** Nunca precisei.  \n• **Vacinação:** Minhas vacinas estão em dia.  \n\n• **GINECOLÓGICOS:** Minha menstruação é regular. Uso camisinha em todas as relações.  \n• **Papanicolau:** nunca fiz.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Mas por que não posso fazer todos esses exames? Mal não vai fazer, não é?*  \n• *E se eu tiver alguma doença silenciosa e o exame não for feito para descobrir?*  \n• *Então, para o meu caso, qual exame o(a) senhor(a) acha que é realmente necessário?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 75 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp. axilar:** 36.4°C  \n\n\n**Ectoscopia:** bom estado geral, corada, hidratada, acianótica, anictérica.  \n\n\n**Exame Físico Geral e Segmentar:**  \n• Exame físico completo dentro dos limites da normalidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta a paciente de forma cordial.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga a percepção e os motivos da paciente para a solicitação dos exames, perguntando:**  \n(1) por que ela deseja fazer esses exames específicos;  \n(2) como ela acha que os exames poderão contribuir para sua saúde;  \n\n**Adequado:** investiga os dois itens.  \n**Inadequado:** investiga um item, OU aceita o pedido de exames.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga o histórico de saúde e os fatores de risco da paciente.**  \n(1) questiona sobre hábitos de vida (alimentação, atividade física, tabagismo, etilismo);  \n(2) verifica o histórico familiar de doenças relevantes (câncer, doenças cardiovasculares);  \n(3) pergunta sobre o histórico vacinal e a realização de exames preventivos prévios (Papanicolau).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Explica o conceito de Prevenção Quaternária.**  \n\n**Adequado:** explica que a Prevenção Quaternária visa proteger o paciente de intervenções médicas desnecessárias (exames, tratamentos) que podem causar mais danos do que benefícios.  \n**Inadequado:** não explica o conceito ou o faz utilizando jargões técnicos de difícil compreensão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Orienta sobre os riscos do rastreamento indiscriminado (excesso de exames).**  \n(1) menciona o risco de resultados falso-positivos, que geram ansiedade e levam a mais exames invasivos;  \n(2) explica sobre a exposição desnecessária à radiação (no caso de tomografias);  \n(3) aborda o risco de \"sobrediagnóstico\" (diagnosticar condições que nunca causariam sintomas ou problemas).  \n\n**Adequado:** orienta sobre três ou mais riscos.  \n**Parcialmente adequado:** orienta sobre dois riscos.  \n**Inadequado:** não orienta sobre os riscos ou menciona apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Define a conduta apropriada para o caso, baseada na estratificação de risco.**  \n\n**Adequado:** conclui que, por ser uma paciente jovem, assintomática e de baixo risco, um \"check-up completo\" com exames de imagem e testes de esforço não está indicado.  \n**Inadequado:** concorda em solicitar a bateria de exames pedida pela paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Propõe conduta adequada para a cefaleia:**  \n(1) orienta o fracionamento da alimentação (comer em intervalos menores);  \n(2) sugere a criação de um diário de dor para melhor caracterizar a cefaleia, caso persista.  \n\n**Adequado:** propõe as duas condutas.  \n**Parcialmente adequado:** propõe uma conduta.  \n**Inadequado:** não propõe conduta alguma para a cefaleia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica o exame de rastreamento ginecológico apropriado para a idade.**  \n\n**Adequado:** orienta a realização do exame de Papanicolau, informando que é o exame preventivo recomendado para mulheres na sua faixa etária e com vida sexual ativa.  \n**Inadequado:** não menciona o Papanicolau como o exame de rastreamento prioritário.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Fornece orientações sobre promoção da saúde e manutenção de hábitos saudáveis.**  \n\n**Adequado:** aproveita a consulta para reforçar a importância de manter uma alimentação balanceada, praticar atividade física regularmente e cuidar da saúde mental como as melhores formas de prevenção.  \n**Inadequado:** foca apenas na questão dos exames, sem abordar a promoção da saúde.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Estabelece um plano de seguimento e fortalece o vínculo com a paciente.**  \n\n**Adequado:** agenda o retorno para mostrar o resultado do Papanicolau e se coloca à disposição para consultas regulares, reforçando que o acompanhamento com o médico.  \n**Inadequado:** não estabelece um plano de retorno ou não valoriza o acompanhamento longitudinal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

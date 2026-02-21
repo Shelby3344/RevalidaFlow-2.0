@@ -1,0 +1,132 @@
+{
+  "uid": 310,
+  "hash": "pepe_310",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Doença de Hirschsprung (Megacólon Congênito)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária.  \nTipo de atendimento: ambulatorial - unidade básica de saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de triagem e procedimentos básicos.\n\nDescrição do caso:\nVocê é o médico da Unidade Básica de Saúde e atenderá um recém-nascido de 10 dias de vida, trazido pela mãe, com queixa de distensão abdominal e dificuldade para evacuar.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa da mãe;  \n- Solicitar e interpretar o exame físico direcionado;  \n- Formular a hipótese diagnóstica principal;  \n- Explicar a fisiopatologia básica da doença para a mãe;  \n- Definir o plano de investigação diagnóstica e a conduta terapêutica inicial.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Flávia, 28 anos.  \n• **Paciente:** Gabriel, 10 dias de vida.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), meu bebê está com a barriguinha muito inchada e dura. Ele chora muito e não consegue fazer cocô direito.  \n\n**HISTÓRIA DA MOLESTIA ATUAL:**  \n• **Evacuação:** Ele fica fazendo muita força mas não sai nada. Quando sai, é só um pouquinho.  \n• **Início:** Desde que nasceu. Ele demorou muito para fazer o primeiro cocô na maternidade.  \n\n• **Eliminação de Mecônio:** As enfermeiras falaram que ele só fez o primeiro cocô preto no terceiro dia de vida.  \n• **Vômitos:** Hoje de manhã ele vomitou duas vezes.\n• **Aspecto vômitos:** Era um vômito verde escuro.  \n• **Gases:** Ele solta poucos gases.  \n\n**ANTECEDENTES PERINATAIS:**  \n• **Gestação:** Fiz o pré-natal tudo certo, sem problemas. Nasceu de parto normal, com 39 semanas.  \n• **Peso:** Nasceu com 3.200g.  \n• **Teste do Pezinho:** Coletei, mas ainda não peguei o resultado.  \n• **Alimentação:** Só leite do peito.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Eu tenho um primo que teve que operar a barriga quando era bebê porque o intestino era preso, mas não sei o nome do problema.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ele tem, doutor(a)? É gases?*  \n• *Pode piorar? Tem algum sintoma que devo me preocupar?*  \n• *Tem algum exame pra saber se é isso mesmo?*  \n• *Vai precisar operar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **FC:** 148 bpm  \n• **FR:** 42 irpm  \n• **Temp. axilar:** 36.8°C  \n• **Saturação O2:** 98% em ar ambiente  \n• **Peso:** 3.150g  \n\n\n**Ectoscopia:** Recém-nascido irritado, choroso, corado, hidratado. Face de dor à palpação abdominal.  \n\n\n**Abdomen:**  \n• **Inspeção:** Distensão abdominal importante, visível.  \n\n• **Ausculta:** Ruídos hidroaéreos presentes, porém diminuídos.  \n\n• **Palpação:** Abdomen tenso, timpânico à percussão. Presença de massa fecal palpável em fossa ilíaca esquerda.  \n\n\n**Exame da Região Perianal:**  \n• Ânus anatomicamente tópico.  \n\n• Tônus esfincteriano aumentado (hipertonia).  \n\n• Ampola retal vazia.  \n\n\n• **Toque retal:** Saída explosiva de fezes líquidas e gases fétidos após a retirada do dedo examinador.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe e pergunta o nome do bebê.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga a história evacuatória detalhada:**  \n(1) questiona sobre o tempo de eliminação do mecônio (atraso na eliminação > 48h);  \n(2) pergunta sobre o aspecto dos vômitos (biliosos/esverdeados);  \n(3) investiga o padrão de distensão abdominal.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita e interpreta o exame físico abdominal e retal:**  \n(1) solicita o exame físico;  \n(2) identifica a distensão abdominal;  \n(3) identifica a hipertonia esfincteriana OU a ampola retal vazia OU a saída explosiva de fezes após o toque.  \n\n**Adequado:** realiza a solicitação e verbaliza os dois achados (2 e 3).  \n**Parcialmente adequado:** solicita o exame mas verbaliza apenas um dos achados.  \n**Inadequado:** não solicita o exame ou não verbaliza os achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Formula a hipótese diagnóstica:**  \n\n**Adequado:** verbaliza Doença de Hirschsprung OU Megacólon Congênito OU Aganglionose Intestinal Congênita.  \n**Inadequado:** verbaliza apenas constipação funcional ou obstrução intestinal inespecífica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explica a fisiopatologia à mãe de forma acessível:**  \n(1) explica que faltam células nervosas (gânglios) em uma parte do intestino;  \n(2) esclarece que essa falta impede o relaxamento do intestino, causando obstrução à passagem das fezes.  \n\n**Adequado:** explica os dois conceitos.  \n**Parcialmente adequado:** explica apenas um conceito.  \n**Inadequado:** não explica ou utiliza termos técnicos incompreensíveis sem \"tradução\" para a mãe.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame de imagem inicial para triagem:**  \n\n**Adequado:** solicita Enema Opaco (ou clister opaco) OU Radiografia simples de abdome (para avaliar distensão de alças).  \n**Inadequado:** não solicita exame de imagem ou solicita colonoscopia direta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica o exame padrão-ouro para confirmação diagnóstica:**  \n\n**Adequado:** indica a Biópsia Retal (por sucção ou cirúrgica) para pesquisa de células ganglionares.  \n**Inadequado:** não indica a biópsia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre o risco de complicações graves:**  \n\n**Adequado:** alerta sobre o risco de Enterocolite (febre, diarreia explosiva, piora da distensão) e a necessidade de procurar emergência imediatamente se ocorrer.  \n**Inadequado:** não orienta sobre sinais de alarme/enterocolite.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define a conduta e o encaminhamento:**  \n(1) encaminha para o Cirurgião Pediátrico (ou gastropediatra) para avaliação especializada;  \n(2) orienta que o tratamento definitivo é cirúrgico (ressecção do segmento agangliônico).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não encaminha e não orienta sobre a cirurgia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

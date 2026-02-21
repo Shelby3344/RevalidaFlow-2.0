@@ -1,0 +1,270 @@
+{
+  "uid": 1502,
+  "hash": "pepe_1502",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "ABCDE - Pneumotórax Hipertensivo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de estabilização e pequenos procedimentos;  \n• raio-X, ultrassonografia, eletrocardiograma;  \n• laboratório de análises clínicas;  \n• banco de sangue;\n\nDescrição do caso:\nVocê está de plantão em uma Unidade de Pronto Atendimento (UPA) e atenderá um paciente do sexo masculino, vítima de colisão de carro contra um muro. Ele chega à emergência trazido pelo resgate, apresentando dor torácica e dispneia.",
+  "tarefas": "TAREFAS:  \n- Realizar a avaliação primária (ABCDE) do paciente politraumatizado, verbalizando os achados e as condutas em cada etapa do atendimento;  \n- Definir a conduta diagnóstica;  \n- Adotar a conduta terapêutica apropriada;  \n- Demonstrar a realização de procedimento(s) médico(s), caso necessário.  \n\n\\\nATENÇÃO!  \n- CONSIDERE QUE O PACIENTE ESTÁ DEITADO EM PRANCHA RÍGIDA COM COLAR CERVICAL;  \n- OS PROCEDIMENTOS DEVERÃO SER DEMONSTRADOS EM MANEQUIM E VERBALIZADOS EM DETALHE;  \n- HÁ NA ESTAÇÃO TODOS OS MATERIAIS NECESSÁRIOS AO ATENDIMENTO DO PACIENTE.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 32 anos, motorista de aplicativo.  \n\n**MOTIVO DE CONSULTA:** uma moto me fechou e pra eu não bater nela eu desviei e bati num muro. Estava sem cinto na hora.  \n\n**SINTOMAS ASSOCIADOS:** • Estou com muita dor no peito e falta de ar. Não consigo respirar direito.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença, não tomo remédio.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato informe a necessidade de colocar máscara de O₂ ou de realizar oxigenoterapia: *Considere realizado.*  \n• Caso o candidato indique acesso venoso ou hidratação: *Qual o calibre do cateter, Tipo de veia, Tipo de soro e Volume a ser infundido?*  \n• Caso o candidato questione sobre sangramento ativo: *não está com nenhum sangramento ativo e não possui lesões externas aparentes.*  \n• Caso o candidato solicite EXAME FÍSICO: *realize a avaliação clínica da paciente conforme o ABCDE.* -> Após o candidato concluir a avaliação, liberar o impresso **EXAME FÍSICO**  \n\n• Caso o candidato indique a realização de descompressão torácica (toracocentese): *Verbalize o procedimento, indicando o cateter correto e o local da punção.*  \n• Caso o candidato indique a realização de drenagem de tórax: *Verbalize o procedimento, indicando o dreno correto, como o procedimento deve ser feito e o local da drenagem.*  \n\n**DÚVIDAS:**  \n• *Vou precisar ir pra um hospital?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais (admissão):**  \n• **PA:** 110x70 mmHg  \n• **FC:** 105 bpm  \n• **FR:** 28 irpm  \n• **SatO2:** 88% (em ar ambiente)  \n\n\n**Avaliação Primária (ABCDE):**  \n• **A (Vias Aéreas e Coluna Cervical):** Vias aéreas pérvias, paciente consciente com dificuldade respiratória. Em prancha rígida com colar cervical. Presença de turgência jugular à esquerda.  \n• **B (Respiração e Ventilação):** Expansibilidade torácica diminuída à esquerda. Murmúrio vesicular abolido à esquerda. Frêmito tóraco-vocal diminuído à esquerda. Timpanismo à percussão em hemitórax esquerdo.  \n• **C (Circulação e Controle de Hemorragia):** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas. Abdome doloroso à palpação, sem sinais de irritação peritoneal, ruídos hidroaéreos presentes. Pelve estável.  \n• **D (Avaliação Neurológica):** Escala de Coma de Glasgow 15 (Abertura ocular: 4; Resposta verbal: 5; Resposta motora: 6). Pupilas isocóricas e fotorreagentes.  \n• **E (Exposição e Controle do Ambiente):** Escoriações leves em membros superiores e inferiores.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "REAVALIAÇÃO DO QUADRO",
+      "conteudo": "**REAVALIAÇÃO DO QUADRO APÓS DRENAGEM DE TÓRAX EM SELO D'ÁGUA**  \n\n\n• **Saturação de O₂:**  \n  - **Após O₂ com máscara (pré-procedimento):** 89%  \n  - **Após toracocentese de alívio e drenagem em selo d'água:** 95%",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Verbalizou a necessidade de paramentação (pelo menos, luva de procedimento).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Tentou estabelecer contato verbal e táctil e reconheceu que o paciente está consciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Indicou e realizou a colocação de máscara com reservatório conectada à rede de oxigênio a 12 L/minuto.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Fez a avaliação adequada da ventilação do paciente, notando a necessidade de intervenção.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Indicou e verbalizou o procedimento de punção no 2º espaço intercostal na linha hemiclavicular, com material adequado (seringa com soro conectada ao abocath).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indicou, descreveu e verbalizou adequadamente a sequência de passos da drenagem pleural:**\n**6.1. paramentação completa (gorro, máscara, luva e opa/capote cirúrgico).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**6.2. antissepsia e colocação de campos estéreis.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**6.3. anestesia local.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**6.4. incisão no sentido das costelas (+ 3 cm) abrindo pele e subcutâneo no 4º a 5º espaço intercostal na linha axilar média.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**6.5. abertura da pleura e exploração digital.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**6.6. inserção do dreno no sentido superior e posterior.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**6.7. instalação da extensão em selo d'água.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**6.8. fixação do dreno e curativo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**7. Solicitou a monitorização não invasiva do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**8. Notou a instabilidade hemodinâmica do paciente.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**9. Pesquisou/Verbalizou a ausência de hemorragia externa.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**10. Indicou a necessidade de 2 acessos vasculares com abocath e indicou a infusão de 1 litro de ringer lactato ou soro fisiológico aquecido.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**11. Fez a reavaliação do quadro hemodinâmico do paciente e notou a estabilização dos sinais vitais.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**12. Realizou a avaliação neurológica, verbalizou o escore de Glasgow = 15, e mencionou pupilas isocóricas e fotorreagentes.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**13. Fez/verbalizou a necessidade de exposição completa do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**14. Indicou a necessidade de encaminhar rapidamente o paciente através da Central de Regulação de Urgência.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

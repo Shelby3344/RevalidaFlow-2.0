@@ -1,0 +1,161 @@
+{
+  "uid": 308,
+  "hash": "pepe_308",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Púrpura de Henoch-Schönlein (Vasculite por IgA)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - ambulatório de pediatria.  \nA unidade apresenta a seguinte infraestrutura:  \n• Salas de atendimento;  \n• Laboratório de análises clínicas;  \n• Setor de diagnóstico por imagem;  \n• Leitos de internação.\n\nDescrição do caso:\nVocê atenderá uma criança de 6 anos, trazida pela mãe, com queixa de manchas roxas nas pernas e dor na barriga há dois dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida à queixa da criança.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar os exames complementares pertinentes.  \n- Formular a hipótese diagnóstica principal e os diagnósticos diferenciais.  \n- Elaborar o plano terapêutico e as orientações à família.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Roberta, 30 anos.  \n• **Criança:** Maria, 6 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), vim trazer a Maria porque ela está com umas manchas roxas nas pernas e reclamando de dor na barriga.  \n\n**SOBRE AS MANCHAS:**  \n• **Início:** Faz uns dois dias.  \n• **Localização:** Começou nas pernas e agora tem um pouco no bumbum também.  \n• **Prurido:** Ela não reclama de coceira.  \n\n**SOBRE A DOR ABDOMINAL:**  \n• **Início:** Começou junto com as manchas.  \n• **Localização:** Ela aponta para o meio da barriga, perto do umbigo.  \n• **Característica:** É uma cólica que vai e volta.  \n• **Intensidade:** Está incomodando bastante, ela chora às vezes.  \n\n**SOBRE A DOR ARTICULAR:**  \n• Ela também está reclamando de dor nos joelhos e nos tornozelos. Fica mancando.  \n• Não está inchado nem vermelho, é só a dor mesmo.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Infecção prévia:** Ela teve um resfriado forte semana passada, com dor de garganta, mas já tinha melhorado.  \n• **Fezes:** Hoje ela fez cocô e eu notei que tinha um pouco de muco, talvez umas linhas de sangue.  \n• **Febre:** Está com uma febre baixa desde ontem.  \n• **Náuseas ou vômitos:** Nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Cirurgias e internações:** Nega.  \n• **Vacinação:** Está em dia.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ela tem, doutor(a)?*  \n• *Essas manchas são graves?*  \n• *O que causou isso?*  \n• *Como é o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Frequência Cardíaca:** 92 bpm.  \n• **Frequência Respiratória:** 24 irpm.  \n• **Temperatura Axilar:** 37,8°C.  \n• **Saturação de Oxigênio:** 99% em ar ambiente.  \n\n\n**EXAME CLÍNICO:**  \n• **Estado geral:** Bom estado geral, corada, hidratada, alerta e cooperativa.  \n\n• **Abdome:** Levemente doloroso à palpação difusa, sem sinais de irritação peritoneal. Ruídos hidroaéreos presentes.  \n\n• **Músculo-esquelético:** Dor à mobilização passiva dos joelhos e tornozelos, sem edema, calor ou eritema evidentes.  \n\n• **Neurológico:** Sem alterações.  \n\n• **Cardiovascular e Respiratório:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 11,5 g/dL (VR: 11,0-14,0 g/dL)  \n• **Leucócitos:** 12.500/mm³ (VR: 5.000-10.000/mm³)  \n• **Plaquetas:** 250.000/mm³ (VR: 150.000-450.000/mm³)  \n\n\n**COAGULOGRAMA**  \n• **TAP (INR):** 1,0 (VR: 0,8-1,2)  \n• **TTPA:** 30 segundos (VR: 25-35 segundos)  \n\n\n• **PCR:** 1,5 mg/dL (VR: < 0,5 mg/dL)  \n• **FAN:** Negativo.  \n\n\n• **Ureia:** 22 mg/dL (VR: 15-40 mg/dL)  \n• **Creatinina:** 0,5 mg/dL (VR: 0,3-0,7 mg/dL)  \n\n\n• **Pesquisa de Sangue Oculto nas Fezes:** Positivo.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "URINA TIPO 1 / EAS",
+      "conteudo": "• **Cor:** Amarelo claro  \n• **Aspecto:** Límpido  \n• **Densidade:** 1.015  \n• **pH:** 6,0  \n\n\n• **Glicose:** Ausente  \n• **Proteínas:** Ausente  \n• **Cetonas:** Ausente  \n• **Bilirrubina:** Ausente  \n• **Nitrito:** Negativo  \n• **Hemoglobina:** Positivo (+)  \n\n\n**SEDIMENTOSCOPIA:**  \n• **Leucócitos:** 0-3 por campo (VR: < 5 por campo)  \n• **Hemácias:** 10 por campo (VR: < 2 por campo)  \n• **Cilindros:** Ausentes  \n• **Cristais:** Ausentes",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ECTOSCOPIA DAS LESÕES",
+      "conteudo": "",
+      "imagem": "img_printeds/e308p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) pergunta o nome da mãe e o nome da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as queixas principais (tétrade clássica):**  \n(1) lesões de pele (manchas, aspecto, localização);  \n(2) dor abdominal (características, intensidade);  \n(3) dor articular (artralgia, localização);  \n(4) sintomas urinários (cor da urina, hematúria).  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga o histórico recente (fatores desencadeantes):**  \n(1) infecção de vias aéreas recente (OU dor de garganta OU resfriado);  \n(2) vacinação recente;  \n(3) uso de medicamentos.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames complementares pertinentes para avaliação inicial e diferencial:**  \n(1) Hemograma;  \n(2) PCR (OU VHS);  \n(3) Ureia e Creatinina (OU função renal);  \n(4) Urina tipo 1 (EAS);  \n(5) Coagulograma (OU TAP/TTPA);  \n(6) Pesquisa de sangue oculto nas fezes.  \n\n**Adequado:** solicita cinco ou mais exames.  \n**Parcialmente adequado:** solicita três ou quatro exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula a hipótese diagnóstica principal.**  \n\n**Adequado:** verbaliza o diagnóstico de Púrpura de Henoch-Schönlein (OU Vasculite por IgA).  \n**Inadequado:** não verbaliza a hipótese ou formula outra hipótese principal.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza diagnósticos diferenciais para o quadro:**  \n(1) Lúpus Eritematoso Sistêmico (LES);  \n(2) Artrite Idiopática Juvenil (AIJ);  \n(3) Púrpura Trombocitopênica Imune (PTI);  \n(4) Leucemia;  \n(5) Meningococcemia.  \n\n**Adequado:** verbaliza dois ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** verbaliza um diagnóstico diferencial.  \n**Inadequado:** não verbaliza nenhum diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica o prognóstico da doença à mãe:**  \n(1) informa que geralmente é uma doença benigna;  \n(2) informa que a doença costuma ser autolimitada (resolve sozinha).  \n\n**Adequado:** informa os dois itens.  \n**Parcialmente adequado:** informa um item.  \n**Inadequado:** não informa nenhum dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica o tratamento inicial de suporte (ambulatorial):**  \n(1) orienta repouso;  \n(2) orienta hidratação oral;  \n(3) prescreve analgésico OU anti-inflamatório não esteroidal (AINE), como Paracetamol ou Ibuprofeno.  \n\n**Adequado:** indica os três itens.  \n**Parcialmente adequado:** indica dois itens.  \n**Inadequado:** indica um item OU não indica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta os pais sobre os sinais de alarme para retorno imediato (sinais de complicações):**  \n(1) dor abdominal intensa, persistente ou que não melhora;  \n(2) vômitos persistentes;  \n(3) sangue vivo nas fezes;  \n(4) inchaço (edema) ou diminuição do volume urinário.  \n\n**Adequado:** orienta três ou mais sinais.  \n**Parcialmente adequado:** orienta dois sinais.  \n**Inadequado:** orienta um sinal OU não orienta sinal algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre o acompanhamento (seguimento) do paciente:**  \n(1) verbaliza a necessidade de retorno para reavaliação clínica;  \n(2) informa a necessidade de monitorar a urina (com exame de urina tipo 1) periodicamente, mesmo após a melhora dos sintomas, para avaliar acometimento renal.  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

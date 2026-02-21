@@ -1,0 +1,200 @@
+{
+  "uid": 2004,
+  "hash": "pepe_2004",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Sangramento Uterino Anormal - SUA + Exame especular",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está de plantão em uma Unidade de Pronto Atendimento.\n\nDescrição do caso:\nVocê está de plantão em uma Unidade de Pronto Atendimento e deverá conduzir o atendimento  \nde paciente com quadro de sangramento vaginal.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar o atendimento da paciente e analisar, verbalmente, as possíveis causas do  \nsangramento;  \n- realizar exame ginecológico no manequim e verbalizar achados;  \n- solicitar, se necessário, exames complementares, verbalmente;  \n- prescrever, verbalmente, o tratamento inicial a ser realizado na própria unidade de  \natendimento e o tratamento de manutenção a ser feito após o atendimento;  \n- solicitar, se necessário, exames a serem agendados posteriormente e programar o  \nacompanhamento medico eletivo.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Alice, 32 anos, do lar, casada.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr eu vim hoje pois estou com sangramento vaginal, começou a sangrar muito .. estou assustada  \n\n**CARACTERÍSTICAS DO SANGRAMENTO**:  \n• **Tempo de inicio**: 4 meses  \n• **Evolução**: começou sangrando vez ou outra, agora sangra sempre.  \n• **Quantidade**: as vezes é escasa, outras abundante. Mas agora esta muito, chega estou toda melada. ta sangrando muito Dr.  \n• **Coágulos**: não, nunca cheguei a reparar coágulos.  \n• **Sinussorágia**: Dr, eu quase não estou mais me realacionando com meu esposo pelo sangramento.  \n\n**SINTOMAS ASSOCIADOS**:  \n• **DOR**: sim dr, as vezes sinto uma dor tipo cólica em baixo ventre ... agora mesmo está muito intensa  \n• **FEBRE**: não, não tive episódios de febre.  \n• **FRAQUEZA**: agora estou sim me sentindo mais fraca.  \n• **PERDA DE PESO**: não, mantive normal.  \n\n**ANTECEDENTES PATOLÓGICOS**:  \n• **Doença**: nega antecedentes.  \n• **Medicamentos**: nega uso de medicamentos.  \n\n**ANTECEDENTES GINECOLÓGICOS**:  \n• **Vida sexual**: relações sexuais ativa, em menor frequência, com parceiro unico.  \n• **Método contraceptivo**: usa anticoncepcional oral combinado de maneira irregular.  \n\n**ATENÇÃO**: o impresso do exame especular só será entregue se o candidato verbalizar o passo a passo da introdução do espéculo.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**PA:** 90 × 60 mmHg  \n**Pulso:** 98 bpm  \n**FR:** 15 irpm  \n**Temperatura axilar:** 36,5 °C  \n**Mucosas descoradas:** ++/4",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME ESPECULAR",
+      "conteudo": "Presença de sangramento uterino evidenciado ao exame especular, com fluxo moderado e coloração vermelha.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "HEMOGRAMA",
+      "conteudo": "**EXAME LABORATORIAL HEMOGRAMA**  \n\n\n**Hematócrito:** 26,6% (VR = 42% a 50%)  \n**Hemoglobina:** 9,2 g/dL (VR = 12 a 14,5 g/dL)  \n**Leucócitos:** 5.080/mm³ (VR = 4.000 a 11.000/mm³)  \n**Plaquetas:** 196.000/mm³ (VR = 172.000 a 450.000/mm³)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "BETA-hCG",
+      "conteudo": "**EXAME LABORATORIAL – BETA-hCG**  \n\n\n**Dosagem de beta-hCG:** menor que 5 mUI/mL  \n(VR: menor que 5 mUI/mL)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "ECOGRAFIA",
+      "conteudo": "Esta Unidade de Pronto Atendimento não dispõe de exames de ecografia (ultrassonografia) ginecológica.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e pergunta o nome da paciente.**  \n\n**Adequado:** realiza os dois itens.  \n**Parcialmente adequado:** realiza apenas um dos itens.  \n**Inadequado:** não realiza nenhuma dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese.**  \n\n**Adequado:** Realiza anamnese.  \n**Inadequado:** Não realiza anamnese.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Analisa as causas do sangramento uterino anormal.**  \n\n**Adequado:** Cita pelo menos 5 causas do sistema PALM-COEIN.  \nNeste item não será atribuída pontuação à causa \"gestação\".  \n**Parcialmente adequado:** Cita 4 causas do sistema PALM-COEIN.  \n**Inadequado:** Cita menos de 4 causas do sistema PALM-COEIN.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza exame ginecológico com espéculo e identifica o colo uterino e a origem do sangramento.**  \n\n**Adequado:** Introduz o espéculo em posição diagonal, girando para horizontal,  \nabre o espéculo, expõe o colo uterino e identifica que o sangramento provém do  \ncolo. Retira o espéculo fazendo o movimento contrário.  \n**Parcialmente adequado:** Introduz e/ou retira o espéculo em posição horizontal  \nou aberto, mas não identifica que o sangramento provém do colo uterino.  \n**Inadequado:** não realiza o exame ginecológico ou não identifica que o  \nsangramento provém do colo uterino.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza toque vaginal.**  \n\n**Adequado:** Realiza.  \n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita Beta-hCG.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita hemograma.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve anti-inflamatório.**  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve ácido tranexâmico.**  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Prescreve hidratação venosa.**  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve reposição de ferro.**  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Solicita ecografia transvaginal.**  \n\n**Adequado:** solicita ecografia transvaginal e nenhum outro exame de imagem da  \npelve.  \n**Inadequado:** não solicita ecografia transvaginal ou também solicita outro  \nexame de imagem da pelve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Não interna a paciente e a referencia ao ginecologista.**  \n\n**Adequado:** cumpre com as duas ações.  \n**Inadequado:** não cumpre ou cumpre apenas uma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "uid": 217,
+  "hash": "pepe_217",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Síndrome de Fournier - Fasciíte Necrosante Perineal",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas e banco de sangue;  \n• setor de diagnóstico por imagens;  \n• centro cirúrgico;  \n• unidade de terapia intensiva.\n\nDescrição do caso:\nVocê é médico de plantão na emergência de um hospital terciário e atenderá um homem de 52 anos, diabético, com queixa de dor intensa na região genital.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Solicitar e interpretar os exames complementares necessários.  \n- Formular e comunicar a hipótese diagnóstica.  \n- Estabelecer a conduta terapêutica adequada.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Roberto, 52 anos, casado, caminhoneiro.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor muito forte na região íntima, está piorando rápido.  \n\n**SOBRE A DOR:**  \n• **Início:** há uns 3 dias com um incômodo, mas nas últimas 24 horas piorou muito.  \n• **Localização:** no escroto e virilha.  \n• **Irradiação:** está subindo para a barriga.  \n• **Característica:** latejante, que queima.  \n• **Intensidade:** 7/10.  \n• **Atenuantes/agravantes:** nada alivia, qualquer toque piora demais.  \n• **Episódio anterior:** nunca tive isso antes.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** estou com febre alta há 2 dias, passa de 39°C.  \n• **Edema:** a região está muito inchada e vermelha.  \n• **Alteração da pele:** a pele está escurecendo e saindo um líquido com cheiro muito ruim.  \n• **Crepitação:** quando aperta, faz um barulho estranho, como se tivesse ar embaixo da pele.  \n• **Náuseas e vômitos:** estou enjoado e vomitei duas vezes.  \n• **Fraqueza:** estou me sentindo muito fraco e tonto.  \n\n**FATORES PREDISPONENTES:**  \n• **Evento inicial:** há uma semana tive um furúnculo na virilha que estourou sozinho, achei que ia melhorar.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** tenho diabetes há 10 anos.  \n• **Medicações:** metformina, mas tomo de vez em quando.  \n• **Alergias:** nega.  \n• **Cirurgias:** fiz uma cirurgia de hemorroida há 5 anos.  \n\n• **Álcool:** bebo cerveja todo fim de semana.  \n• **Tabaco:** fumo um maço por dia há 30 anos.  \n• **Drogas:** nega.  \n• **Alimentação:** como muita gordura e fritura, não faço dieta.  \n• **Atividade física:** não faço nada, fico muito tempo sentado no caminhão.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)? É grave?*  \n• *Vou precisar de cirurgia?*  \n• *Posso perder alguma parte do corpo?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 95 x 60 mmHg.  \n• **Frequência Cardíaca:** 125 batimentos por minuto.  \n• **Frequência Respiratória:** 24 incursões respiratórias por minuto.  \n• **Saturação de O₂:** 94% em ar ambiente.  \n• **Temperatura Axilar:** 39,2°C.  \n\n\n**ECTOSCOPIA:**  \nMau estado geral, fácies de sofrimento, descorado 2+/4+, desidratado 2+/4+, sudoreico.  \n\n\n**APARELHO CARDIOVASCULAR:**  \nRitmo cardíaco regular, bulhas hipofonéticas, sem sopros.  \n\n\n**APARELHO RESPIRATÓRIO:**  \nMurmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**EXAME ABDOMINAL:**  \nAbdome levemente distendido, doloroso à palpação em hipogastro e fossas ilíacas, ruídos hidroaéreos diminuídos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME DA REGIÃO PERINEAL",
+      "conteudo": "• **Inspeção:** edema e eritema de bolsa escrotal estendendo-se para períneo. Presença de necrose cutânea com coloração enegrecida. Drenagem de secreção purulenta fétida.  \n\n• **Palpação:** crepitação subcutânea palpável em região escrotal e perineal. Dor intensa à palpação superficial.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TOQUE RETAL",
+      "conteudo": "• Dor intensa à palpação da região perianal.  \n• Flutuação em fossa isquiorretal direita.  \n• Ausência de massas retais.  \n• Tônus esfincteriano preservado.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemácias:** 4,0 milhões/mm³ (VR: 4,3 - 5,8 milhões/mm³)  \n• **Hemoglobina:** 11,8 g/dL (VR: 13 - 17 g/dL)  \n• **Hematócrito:** 35% (VR: 39 - 52%)  \n• **Plaquetas:** 98.000/mm³ (VR: 150.000 - 400.000/mm³)  \n\n\n• **Leucócitos:** 24.500/mm³ (VR: 4.000 - 10.000/mm³)  \n• **Bastões:** 15% (VR: 0 - 5%)  \n• **Neutrófilos:** 75% (VR: 40 - 70%)  \n• **Linfócitos:** 8% (VR: 20 - 50%)  \n\n\n**BIOQUÍMICA:**  \n• **Glicemia:** 220 mg/dL (VR: 70 - 110 mg/dL)  \n• **Creatinina:** 1,4 mg/dL (VR: 0,7 - 1,3 mg/dL)  \n• **Ureia:** 95 mg/dL (VR: 10 - 50 mg/dL)  \n• **Sódio:** 135 mEq/L (VR: 135 - 145 mEq/L)  \n• **Potássio:** 4,5 mEq/L (VR: 3,5 - 5,0 mEq/L)  \n\n• **PCR:** 285 mg/L (VR: < 5 mg/L)  \n• **CPK:** 890 U/L (VR: 38 - 174 U/L)  \n\n\n**FUNÇÃO HEPÁTICA:**  \n• **TGO:** 78 U/L (VR: 15 - 40 U/L)  \n• **TGP:** 65 U/L (VR: 10 - 40 U/L)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7,28 (VR: 7,35 - 7,45)  \n• **pCO₂:** 30 mmHg (VR: 35 - 45 mmHg)  \n• **pO₂:** 75 mmHg (VR: 80 - 100 mmHg)  \n• **HCO₃:** 14 mEq/L (VR: 22 - 26 mEq/L)  \n• **BE:** -10 (VR: -2 a +2)  \n\n• **Lactato:** 5,8 mmol/L (VR: 0,5 - 2,0 mmol/L)",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "TC DE PELVE E PERÍNEO",
+      "conteudo": "**LAUDO:**  \n• Espessamento e densificação dos planos gordurosos do períneo, escroto e região inguinal bilateral.  \n• Presença de gás dissecando os planos fasciais da região perineal, escrotal e parede abdominal inferior.  \n• Coleção líquida com gás de permeio em topografia de fossa isquiorretal direita.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor e sintomas locais:**  \n(1) início ou tempo de evolução;  \n(2) localização;  \n(3) intensidade;  \n(4) progressão ou evolução;  \n(5) edema ou inchaço na região;  \n(6) alteração da cor da pele (escurecimento, necrose);  \n(7) secreção ou drenagem de pus;  \n(8) odor fétido.  \n\n**Adequado:** pergunta cinco ou mais itens.  \n**Parcialmente adequado:** pergunta três ou quatro itens.  \n**Inadequado:** pergunta dois ou menos, ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas sistêmicos:**  \n(1) febre;  \n(2) calafrios;  \n(3) sudorese;  \n(4) náuseas ou vômitos;  \n(5) fraqueza ou mal-estar;  \n(6) confusão mental ou alteração do nível de consciência.  \n\n**Adequado:** pergunta quatro ou mais itens.  \n**Parcialmente adequado:** pergunta dois ou três itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga fatores predisponentes e antecedentes relevantes:**  \n(1) diabetes mellitus;  \n(2) imunossupressão;  \n(3) etilismo;  \n(4) infecção ou lesão prévia na região (furúnculo, abscesso, fissura);  \n(5) cirurgias prévias na região anorretal ou urogenital;  \n(6) obesidade.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico geral e identifica sinais de instabilidade hemodinâmica ou sepse:**  \n\n**Adequado:** solicita e identifica três ou mais sinais (hipotensão, taquicardia, taquipneia, febre, sudorese).  \n**Parcialmente adequado:** solicita e identifica dois sinais.  \n**Inadequado:** não solicita ou identifica apenas um sinal ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame da região perineal/genital e identifica os achados:**  \n\n\n**Adequado:** solicita e identifica quatro ou cinco achados (edema/eritema, necrose, crepitação, secreção fétida, bolhas).  \n**Parcialmente adequado:** solicita e identifica dois ou três achados.  \n**Inadequado:** não solicita ou identifica apenas um achado ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames laboratoriais:**  \n(1) hemograma completo;  \n(2) função renal (ureia e creatinina);  \n(3) eletrólitos (sódio, potássio);  \n(4) glicemia;  \n(5) PCR;  \n(6) coagulograma;  \n(7) gasometria arterial com lactato.  \n\n**Adequado:** solicita cinco ou mais exames.  \n**Parcialmente adequado:** solicita três ou quatro exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exame de imagem (tomografia computadorizada de pelve/períneo ou ultrassonografia de partes moles).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Formula a hipótese diagnóstica de Síndrome de Fournier (ou fasciíte necrosante perineal ou gangrena de Fournier).**  \n\n**Adequado:** formula o diagnóstico correto.  \n**Inadequado:** não formula ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica internação hospitalar em unidade de terapia intensiva.**  \n\n**Adequado:** indica internação em UTI.  \n**Parcialmente adequado:** indica internação hospitalar sem especificar UTI.  \n**Inadequado:** não indica internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica medidas de ressuscitação e suporte clínico:**  \n(1) acesso venoso calibroso;  \n(2) reposição volêmica;  \n(3) oxigenioterapia;  \n(4) controle glicêmico;  \n(5) sondagem vesical de demora;  \n(6) monitorização contínua.  \n\n**Adequado:** indica quatro ou mais medidas.  \n**Parcialmente adequado:** indica duas ou três medidas.  \n**Inadequado:** indica uma medida ou não indica medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica antibioticoterapia de amplo espectro cobrindo:**  \n(1) gram-positivos;  \n(2) gram-negativos;  \n(3) anaeróbios.  \n\n**Adequado:** indica cobertura para os três grupos.  \n**Parcialmente adequado:** indica cobertura para dois grupos.  \n**Inadequado:** indica cobertura para um grupo ou não indica antibioticoterapia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica tratamento cirúrgico de urgência (debridamento cirúrgico extenso).**  \n\n**Adequado:** indica com ênfase na urgência.  \n**Inadequado:** não indica ou indica sem especificar a urgência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta sobre prognóstico e possíveis complicações:**  \n(1) gravidade do quadro;  \n(2) necessidade de múltiplas reabordagens cirúrgicas;  \n(3) risco de choque séptico;  \n(4) possibilidade de colostomia;  \n(5) reconstrução cirúrgica posterior.  \n\n**Adequado:** orienta três ou mais itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

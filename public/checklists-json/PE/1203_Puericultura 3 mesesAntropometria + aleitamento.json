@@ -1,0 +1,183 @@
+{
+  "uid": 1203,
+  "hash": "pepe_1203",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Puericultura 3 meses/Antropometria + aleitamento",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de observação e medicação;\n\nDescrição do caso:\nVocê é o(a) médico(a) de uma UBS e recebe uma paciente com seu filho de 3 meses para mais uma consulta de puericultura. A mãe acredita estar com dificuldades em amamentar a criança.",
+  "tarefas": "TAREFAS:  \n\n- Realizar a anamnese e solicitar exame físico;  \n- Registrar e interpretar as medidas nos gráficos de crescimento;  \n- Informar sobre vantagens do aleitamento materno;  \n- Responder as dúvidas da paciente;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Luciana, 24 anos.  \n• **Criança:** Murilo, 3 meses.  \n\n\n**QUEIXA PRINCIPAL:** Eu trouxe o Murilo para a consulta marcada. Queria saber se está tudo certo com ele.  \n\n• **Amamentação:** talvez meu leite seja fraco ou não deve ser suficiente. Ele chora muito, quer mamar quase que de hora em hora.  \n\n• **Choro:** depois que ele mama aí para de chorar.  \n\n**DEMAIS QUEIXAS:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Suplementação:** Vitamina D.  \n• **Vacinação:** eu trouxe o cartão, o senhor(a) quer ver?  \n(*liberar* os IMPRESSOS **CADERNETA DA CRIANÇA**, **GRÁFICO COMPRIMENTO** e **GRÁFICO PESO**)  \n\n\n**ANTECEDENTES PERINATAIS:**  \n• **Semanas de gestação:** 40.  \n• **Pré-natal:** foi sem problemas, com 6 consultas.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Na farmácia me ofereceram um leite NAN, queria saber se posso dar pra reforçar*  \n• *O leite do peito tem vantagem comparado ao NAN?*  \n• *meu filho está crescendo normalmente?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA CRIANÇA",
+      "conteudo": "**DADOS DO RECÉM-NASCIDO**  \n\n**IG:** 39s+6d  \n**Peso ao nascer:** 3.150g  \n**Comprimento ao nascer:** 50.5cm  \n**P. Cefálico ao nascer:** 35cm  \n**Apgar 1°min:** 9  \n**Apgar 5°min:** 10  \n**T.Sanguinea:** O-  \n\n\n**REGISTRO DAS VACINAS DO CALENDÁRIO BÁSICO**  \n\n**Ao nascer:** BCG/ID, Hepatite B  \n**2 meses:** VIP (Pólio), PN10 (Pneumocócia 10), VORH (Rotavírus)",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "GRÁFICO COMPRIMENTO",
+      "conteudo": "",
+      "imagem": "img_printeds/2012-e3p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "GRÁFICO PESO",
+      "conteudo": "",
+      "imagem": "img_printeds/2012-e3p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** percentil 90  \n• **FC:** 120 bpm  \n• **FR:** 43 irpm  \n• **SatO2:** 97%  \n• **Temp. axilar:** 36.7° C  \n\n\n• **Comprimento:** 63cm  \n• **Peso:** 6.750g  \n\n• **Neurológico:** reflexos de Moro, Sucção e Preensão plantar presentes.  \n\n• Restante do exame físico sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta a mãe e identifica-se de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Solicita o cartão da criança.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Estabelece clima harmônico na consulta, interagindo efetivamente com a mãe do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Ouve com atenção a queixa da mãe do paciente, sem interrupções desnecessárias.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica nos dados apresentados o bom ganho ponderal do bebê.**  \n(1) Comprimento adequado para Idade;  \n(2) Comprimento no Z-Score entre 0 e +2;  \n(3) Peso Adequado para Idade;  \n(4) Peso no Z-Score entre 0 e +2;  \n\n**Adequado:** identifica todos os itens.  \n**Parcialmente adequado:** identifica três itens.  \n**Inadequado:** identifica apenas dois ou menos itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.25",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Identifica o atraso vacinal da tetravalente.**  \n\nOBS.: em 2011/2012, a segunda dose para Hepatite B era oferecida com 30 dias de vida. A partir de 2013 ela foi combinada com a DTP+Hib, passando de tetravalente para pentavalente. Considerar **adequado** caso o candidato Informe atraso da *pentavalente*",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Usa efetivamente linguagem não verbal (postura, gestual, atitude).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Demonstra conhecimento sobre as vantagens do aleitamento natural:**  \n(1) Características nutricionais do leite materno (proteínas, lipídeos, ferro);  \n(2) Fatores de proteção imunológica (IgA secretora);  \n(3) Menor risco de contaminação;  \n(4) Maior digestibilidade (menor tempo de esvaziamento gástrico);  \n(5) Maior vínculo afetivo mãe-filho.  \n\n**Adequado:** informa sobre quatro ou cinco itens.  \n**Parcialmente adequado:** informa sobre três itens.  \n**Inadequado:** informa apenas dois ou um item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.5",
+        "adequado": "3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Presta atenção às inquietações do paciente, demonstrando empatia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a mãe corretamente quanto a correção do calendário vacinal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Confere entendimento, perguntando se há dúvidas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Demonstra interesse em auxiliar a mãe do paciente em sua situação de saúde.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

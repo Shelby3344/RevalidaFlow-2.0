@@ -1,0 +1,160 @@
+{
+  "uid": 2422,
+  "hash": "pepe_2422",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Pós-operatório de Tireoidectomia (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: ambulatório de cirurgia.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas.\n\nDescrição do caso:\nVocê está em atendimento no ambulatório e receberá uma paciente de 37 anos, em retorno 45 dias após a realização de uma tireoidectomia total, com queixa de rouquidão e formigamentos.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Realizar exame físico específico ao quadro.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Formular e verbalizar as hipóteses diagnósticas.  \n- Orientar a conduta terapêutica adequada.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Joana, 37 anos, casada, professora.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu vim para a consulta de retorno depois da cirurgia da tireoide, mas não estou me sentindo nada bem.  \n\n• **SOBRE A CIRURGIA:** Eu operei porque tinha um nódulo grande, o médico achou melhor tirar tudo.\n\n**SINTOMAS ASSOCIADOS:**  \n• **Voz:** Minha voz está rouca e fraca desde que eu operei. Não melhorou nada.  \n• **Parestesias:** Sinto muito formigamento nas mãos, nos pés e principalmente ao redor da boca. Começa do nada.  \n• **Câimbras:** Tenho tido umas câimbras horríveis nas mãos e nos pés, chega a entortar os dedos.  \n• **Queda de cabelo:** Meu cabelo está caindo muito.  \n• **Pele:** minha pele está seca, começou depois da cirurgia.  \n• **Fraqueza e astenia:** Me sinto muito cansada, sem energia pra nada.  \n• **Peso:** Eu engordei uns 4 quilos mesmo comendo pouco e meu intestino está preso também.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Cirurgias:** Fiz a retirada da tireoide há 45 dias.  \n• **Medicações:** Me deram alta só com o hormônio (Levotiroxina) 25 mcg. Eu tomo todo dia de manhã, certinho.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)? É tudo por causa da cirurgia?*  \n• *Minha voz vai voltar ao normal?*  \n• *Esses formigamentos e câimbras vão passar?*  \n• *Qual o tratamento que preciso fazer?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 58 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.1°C  \n• **IMC:** 26 kg/m²  \n\n\n**Ectoscopia:** Paciente em bom estado geral, lúcida e orientada. Pele seca, cabelos quebradiços e com rarefação difusa.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular, bradicárdico, bulhas hipofonéticas.  \n\n\n**Pescoço:** Cicatriz cirúrgica de tireoidectomia sem sinais flogísticos.  \n\n\n**ATENÇÃO**  \n**REALIZE, VERBALIZANDO AS ETAPAS, DUAS MANOBRAS E PROCEDIMENTOS SEMIOLÓGICOS PARA INVESTIGAÇÃO DE HIPOCALCEMIA**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Leucócitos:** 10.000/mm³ (VR: 4.000 a 10.000/mm³)  \n• **Bastões:** 4% (VR: 0% a 5%)  \n• **Segmentados:** 63% (VR: 40% a 60%)  \n\n\n**BIOQUÍMICA**  \n• **Cálcio total:** 5,2 mg/dL (VR: 8,5 a 10,5 mg/dL)  \n• **Cálcio iônico:** 3,1 mg/dL (VR: 4,5 a 5,5 mg/dL)  \n• **Albumina:** 4 g/dL (VR: 3,5 a 5,5 g/dL)  \n• **Fósforo:** 0,6 mg/dL (VR: 2,5 a 4,3 mg/dL)  \n• **Magnésio:** 2,1 mg/dL (VR: 1,5 a 2,3 mg/dL)  \n\n\n**HORMÔNIOS**  \n• **PTH (Paratormônio):** 0,5 pg/ml (VR: 12 a 68 pg/ml)  \n• **TSH:** 80 mU/l (VR: 0,4 a 4,5 mU/l)  \n• **T4 livre:** 0,2 ng/dL (VR: 0,8 a 1,8 ng/dL)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida às complicações pós-tireoidectomia:**  \n(1) sintomas de hipotireoidismo (cansaço, ganho de peso, pele seca, queda de cabelo, constipação, etc);  \n(2) sintomas de hipocalcemia (parestesias, câimbras, tetania);  \n(3) alteração vocal (rouquidão).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a manobra semiológica para pesquisa do Sinal de Trousseau:**  \n(1) coloca-se o manguito do esfigmomanômetro no braço do paciente;  \n(2) insufla o manguito em 20 mmHg acima da pressão arterial sistólica do paciente;  \n(3) informa que manterá o manguito insuflado por 3 minutos; e,  \n(4) observa se há contrações involuntárias (espasmo carpopodal) nas mãos e antebraço.  \n\n**Adequado:** realiza a manobra, seguindo todas as etapas.  \n**Parcialmente adequado:** realiza a manobra, seguindo duas ou três etapas.  \n**Inadequado:** não realiza ou segue apenas uma etapa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza a manobra semiológica para pesquisa do Sinal de Chvostek:**  \n(1) descreve a localização do trajeto do nervo facial na região pré-auricular (0.5 a 1.0cm abaixo do processo zigomático/malar; e 2.5 a 3.5cm anterior ao lobo auricular);  \n(2) descreve a percussão sobre o local e a observação de contrações periorais (desvio da rima labial para o lado percutido).  \n\n**Adequado:** realiza a manobra, seguindo as duas etapas.  \n**Parcialmente adequado:** realiza a manobra, seguindo apenas uma etapa.  \n**Inadequado:** não realiza a manobra.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais pertinentes para a investigação.**  \n(1) TSH e T4 livre;  \n(2) Cálcio (total e/ou iônico);  \n(3) PTH.  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta os exames e verbaliza o diagnóstico de Hipotireoidismo primário.**  \n\n**Adequado:** verbaliza o diagnóstico, correlacionando com os níveis de TSH elevado e T4 livre baixo.  \n**Inadequado:** não verbaliza o diagnóstico de hipotireoidismo ou o faz de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta os exames e verbaliza o diagnóstico de Hipoparatireoidismo.**  \n\n**Adequado:** verbaliza o diagnóstico, correlacionando com os níveis de PTH e cálcio baixos.  \n**Inadequado:** não verbaliza o diagnóstico de hipoparatireoidismo ou o faz de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a causa da alteração vocal (rouquidão) da paciente.**  \n\n**Adequado:** verbaliza que a causa é a lesão do nervo laríngeo recorrente OU do nervo laríngeo superior ou inferior.  \n**Parcialmente adequado:** verbaliza que a causa é uma lesão de nervo, sem especificar qual.  \n**Inadequado:** não verbaliza a causa ou atribui a outra etiologia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o tratamento correto para o Hipotireoidismo.**  \n\n**Adequado:** indica a reposição com Levotiroxina (T4).  \n**Inadequado:** não indica o tratamento ou indica tratamento incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o tratamento correto para o Hipoparatireoidismo/Hipocalcemia.**  \n\n**Adequado:** indica a reposição de Cálcio E Vitamina D (ou Calcitriol).  \n**Parcialmente adequado:** indica apenas a reposição de Cálcio OU apenas de Vitamina D.  \n**Inadequado:** não indica o tratamento ou indica tratamento incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Define a conduta para a lesão do nervo laríngeo recorrente.**  \n\n**Adequado:** encaminha a paciente para avaliação com a Otorrinolaringologia (realização de uma laringoscopia e fonoterapia).  \n**Inadequado:** não define a conduta para a rouquidão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

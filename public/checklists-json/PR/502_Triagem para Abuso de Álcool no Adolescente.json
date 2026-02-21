@@ -1,0 +1,149 @@
+{
+  "uid": 502,
+  "hash": "pepe_502",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Triagem para Abuso de Álcool no Adolescente",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária - Unidade Básica de Saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório para atendimento.  \n• Acesso ao prontuário eletrônico do paciente (e-SUS).\n\nDescrição do caso:\nVocê é o(a) Médico(a) de Família e Comunidade e atenderá um adolescente de 16 anos que procura a UBS para solicitar um atestado médico. No prontuário e-SUS, constam múltiplos atendimentos, incluindo profilaxia pós-exposição ao HIV e necessidade de triagem para abuso de álcool, alertando para uma avaliação mais aprofundada.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese do adolescente, abordando os comportamentos de risco;  \n- Aplicar um instrumento de triagem para abuso de álcool;  \n- Identificar os problemas de saúde e os riscos aos quais o adolescente está se expondo;  \n- Elaborar e comunicar um plano de cuidado inicial, realizando orientações e aconselhamento.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Enzo, 16 anos, estudante.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), eu vim aqui porque faltei na prova de matemática e preciso de um atestado. Falei na escola que estava com COVID.  \n\n**HISTÓRIA:**  \n• **Motivo Real da Ausência:** Não, não estou com tosse nem febre. É que eu fui numa festa ontem, bebi demais e não consegui ir para a prova hoje. Se eu não levar o atestado, a diretora não deixa eu fazer a segunda chamada.  \n\n**SE QUESTIONADO SOBRE O CONSUMO DE ÁLCOOL (QUESTIONÁRIO CAGE):**  \n• **Frequência:** \"Ah, eu tenho saído bastante, umas 3 ou 4 vezes por semana.\"  \n• **Quantidade:** \"Bebo bastante, não sei dizer quanto.\"  \n• **Críticas:** \"Sim, meus amigos às vezes falam que eu exagero.\"  \n• **Culpa:** \"Não, não me sinto culpado. É só pra me divertir.\"  \n• **Tentativa de parar/diminuir:** \"Não, nunca tentei.\"  \n• **Beber pela manhã:** \"Não, ressaca eu aguento.\"  \n\n• **Comportamentos de Risco:** Às vezes eu pego o carro do meu pai na volta, mas é pertinho de casa.   \n• **Relações Sexuais:** Também esqueço de usar camisinha às vezes quando bebo.  \n• **Contexto Psicossocial:** Minhas notas caíram um pouco este bimestre. Meus pais vivem brigando e trabalham muito, quase não ficam em casa. Eles não sabem que eu bebo tanto.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *E aí, doutor(a), o senhor(a) vai me dar o atestado?*  \n• *Esse tanto que eu bebo é mesmo um problema? Todo mundo da minha idade bebe.*  \n• *O que pode acontecer se eu continuar dirigindo depois de beber?*  \n• *O que o(a) senhor(a) acha que eu deveria fazer?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 115x70 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36.4°C  \n• **SatO2:** 99% em ar ambiente  \n\n\n**Ectoscopia:**  \n• Bom estado geral, corado, hidratado, acianótico e anictérico.  \n\n\n**Cardiovascular:**  \n• Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:**  \n• Murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos adventícios.  \n\n\n**Abdominal:**  \n• Abdome plano, flácido, indolor à palpação, ruídos hidroaéreos presentes, sem visceromegalias.  \n\n\n**Membros:**  \n• Sem edemas ou outras alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "QUESTIONÁRIO CAGE",
+      "conteudo": "• **Cut down:** Você já sentiu que deveria diminuir a quantidade de bebida?  \n• **Annoyed:** As pessoas já te irritaram ao criticar o seu modo de beber?  \n• **Guilty:** Você já se sentiu culpado(a) pela maneira como costuma beber?  \n• **Eye-opener:** Você já precisou beber pela manhã ou para aliviar a ressaca?",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta o paciente simulado e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese direcionada, abordando o motivo real da consulta e o contexto psicossocial.**  \n\n**Adequado:** acolhe o pedido do atestado, mas investiga o motivo real da falta, estabelecendo um vínculo de confiança que permite ao adolescente revelar o consumo de álcool e o contexto psicossocial (ambiente familiar, queda no rendimento escolar).  \n**Inadequado:** foca apenas na queixa do atestado, sem investigar a história subjacente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Aplica o instrumento de triagem para abuso de álcool (CAGE).**  \n\n**Adequado:** aplica as quatro perguntas do CAGE de forma clara e não julgadora.  \n**Parcialmente adequado:** aplica apenas duas ou três perguntas do CAGE.  \n**Inadequado:** não aplica o instrumento de triagem.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta o resultado do CAGE.**  \n\n**Adequado:** interpreta o resultado do CAGE como positivo para suspeita de abuso de álcool (≥ 1 ponto para adolescentes) com base na resposta afirmativa do paciente à pergunta \"Annoyed\".  \n**Inadequado:** não interpreta o resultado do CAGE ou o interpreta como negativo.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica os comportamentos de risco associados ao consumo de álcool.**  \n(1) dirigir após beber;  \n(2) ter relações sexuais sem preservativo.  \n\n**Adequado:** identifica os dois comportamentos de risco.  \n**Parcialmente adequado:** identifica apenas um dos comportamentos de risco.  \n**Inadequado:** não identifica os comportamentos de risco.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Define a conduta em relação à solicitação do atestado médico.**  \n\n**Adequado:** nega o fornecimento do atestado falso, explicando de forma empática os motivos éticos e legais, e se oferece para redigir uma declaração de comparecimento à consulta.  \n**Inadequado:** fornece o atestado médico falso ou nega de forma punitiva.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Realiza aconselhamento breve sobre os riscos do consumo de álcool e dos comportamentos associados.**  \n\n**Adequado:** explica de forma clara os riscos do consumo de álcool (acidentes de trânsito, ISTs, problemas escolares e familiares), vinculando-os diretamente aos comportamentos relatados pelo paciente.  \n**Inadequado:** não realiza o aconselhamento ou o faz de forma genérica (\"beber faz mal\").",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Elabora um plano de cuidado inicial com o paciente (Entrevista Motivacional).**  \n(1) avalia a prontidão do paciente para a mudança (\"O que você pensa sobre tudo isso?\");  \n(2) oferece ajuda e se coloca à disposição para conversar mais sobre o assunto;  \n(3) agenda uma nova consulta em breve para dar continuidade à abordagem.  \n\n**Adequado:** elabora um plano com os três componentes.  \n**Parcialmente adequado:** elabora um plano com dois componentes.  \n**Inadequado:** não elabora um plano ou o faz com apenas um componente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.8",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Oferece articulação com outros pontos da rede de cuidado.**  \n\n**Adequado:** menciona a possibilidade de apoio de outros profissionais, como psicólogos do NASF ou serviços do CAPS-AD, caso seja do interesse do paciente no futuro.  \n**Inadequado:** não menciona outras opções de cuidado na rede.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Esclarece as dúvidas do paciente de forma empática e informativa.**  \n(1) nega o atestado, mas oferece uma alternativa e explica o porquê;  \n(2) valida a percepção do paciente, mas explica que o padrão de consumo dele já traz riscos;  \n(3) detalha as consequências de dirigir alcoolizado;  \n(4) propõe um plano de ação conjunto, começando com uma nova conversa.  \n\n**Adequado:** Aborda os quatro pontos.  \n**Parcialmente adequado:** Aborda dois ou três pontos.  \n**Inadequado:** Aborda um ou nenhum ponto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.8",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

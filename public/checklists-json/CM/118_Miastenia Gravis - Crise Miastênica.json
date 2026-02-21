@@ -1,0 +1,194 @@
+{
+  "uid": 118,
+  "hash": "pepe_118",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Miastenia Gravis - Crise Miastênica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitores e material para via aérea avançada;  \n• Laboratório de análises clínicas 24 horas;  \n• Setor de radiologia com Raio-X e Tomografia Computadorizada;  \n• Unidade de Terapia Intensiva (UTI).\n\nDescrição do caso:\nVocê atenderá uma mulher de 32 anos, com diagnóstico prévio de Miastenia Gravis, que procura a emergência com queixa de fraqueza generalizada e dificuldade para respirar.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese focada no quadro;  \n- Solicitar e interpretar o exame físico específico;  \n- Solicitar os exames complementares pertinentes;  \n- Formular a hipótese diagnóstica principal;  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Rosana, 32 anos, casada, advogada.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu não estou conseguindo respirar direito e também estou muito fraca.  \n\n**SOBRE O QUADRO ATUAL:**  \n• Começou há 3 dias, com uma ardência forte para fazer xixi e febre.  \n• Fui no postinho ontem e a médica me deu um antibiótico... acho que o nome era ciprofloxacino.  \n• Tomei o primeiro comprimido ontem à noite e hoje acordei muito pior.  \n\n**SOBRE DISPNEIA (FALTA DE AR):**  \n• **Início:** A falta de ar começou hoje de manhã.  \n• **Progressão:** Foi piorando rápido, difícil puxar o ar.  \n• **Em repouso ou atividade:** até parada está difícil.  \n• **Atenuantes/agravantes:** Piora se eu tento deitar. Não melhora com nada.  \n• **Episódio anterior:** Nunca tive falta de ar assim.  \n\n**SOBRE FRAQUEZA (ASTENIA):**  \n• **Início:** A fraqueza começou a piorar faz uns 3 dias, mas hoje está horrível.  \n• **Localização:** Minha pálpebra do olho caiu, não consigo nem levantar o braço ou a cabeça direito.  \n• **Progressão:** Foi aumentando muito rápido desde hoje de manhã.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Voz e deglutição:** Minha voz está saindo pelo nariz... e estou engasgando com a saliva.  \n• **Visão:** Estou vendo tudo dobrado.  \n• **Febre:** Tive febre ontem, hoje não medi.  \n• **Sintomas Urinários:** Ainda sinto arder para fazer xixi.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho Miastenia Gravis, trato há 2 anos. E anteontem tive uma infecção de urina, tomei ciprofloxacino.  \n• **Medicações:** Eu uso Mestinon (Piridostigmina) 60mg de 6 em 6 horas e Prednisona 10mg por dia.  \n• **Alergias:** Nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Eu vou morrer? O que está acontecendo?*  \n• *Foi o remédio que eu tomei?*  \n• *O que vocês vão fazer agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Pressão Arterial:** 130x80 mmHg  \n• **Frequência Cardíaca:** 115 bpm  \n• **Frequência Respiratória:** 32 irpm  \n• **Saturação de Oxigênio:** 89% (em ar ambiente)  \n• **Temperatura Axilar:** 38,1°C  \n• **Glicemia Capilar:** 105 mg/dL  \n\n\n• **Geral:** Paciente em regular estado geral, pálida (+/4+), sudoreica, ansiosa, sentada na maca com esforço respiratório evidente. Uso de musculatura acessória (tiragem intercostal e retração de fúrcula).  \n\n\n• **Respiratório:** Murmúrio vesicular diminuído globalmente, especialmente em bases.  \n\n\n• **Cardiovascular:** Ritmo cardíaco regular, taquicárdico, 2 tempos, sem sopros.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO NEUROLÓGICO",
+      "conteudo": "• **Neurológico/Ocular:** Ptose palpebral bilateral, pior à direita, que se acentua ao solicitar que a paciente olhe para cima por 30 segundos. Diplopia referida. Pupilas isocóricas e fotorreagentes.  \n\n\n• **Neurológico/Bulbar:** Voz anasalada e disártrica. Dificuldade em engolir a própria saliva (sialorreia).  \n\n\n• **Neurológico/Motor:** Fraqueza muscular generalizada. Incapacidade de elevar a cabeça do leito (fraqueza cervical). Força muscular grau 3/5 em membros superiores e 2/5 em membros inferiores.  \n\n\n• **Reflexos:** Reflexos tendíneos profundos preservados e simétricos. Sensibilidade preservada.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7,28 (VR: 7,35 - 7,45)  \n• **PaCO₂:** 68 mmHg (VR: 35 - 45 mmHg)  \n• **PaO₂:** 55 mmHg (VR: 80 - 100 mmHg)  \n• **HCO₃:** 25 mEq/L (VR: 22 - 26 mEq/L)  \n• **BE:** -1,0 mEq/L (VR: -2 a +2)  \n• **SatO₂:** 88%",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Leucócitos:** 14.500/mm³ (VR: 4.000 - 11.000/mm³)  \n• **Neutrófilos:** 75% (com desvio à esquerda)  \n• **Linfócitos:** 18%  \n• **Hemoglobina:** 12,5 g/dL (VR: 12,0 - 16,0 g/dL)  \n• **Plaquetas:** 220.000/mm³ (VR: 150.000 - 450.000/mm³)  \n\n\n• **Ureia:** 30 mg/dL (VR: 13 - 43 mg/dL)  \n• **Creatinina:** 0,8 mg/dL (VR: 0,6 - 1,2 mg/dL)  \n\n\n**URINA TIPO I (EAS):**  \n\n• **Aspecto:** Turvo  \n• **Cor:** Amarelo-escuro  \n• **Densidade:** 1.025  \n• **pH:** 6,5  \n• **Leucócitos:** 30 por campo  \n• **Hemácias:** 10 por campo  \n• **Nitrito:** Positivo",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se à paciente, identifica-se de maneira cordial e pergunta seu nome.**  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga o fator precipitante da crise.**  \n(1) pergunta sobre infecções recentes;  \n(2) pergunta sobre o uso de medicamentos.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga os sintomas de gravidade (bulbares).**  \n(1) dificuldade para engolir (disfagia);  \n(2) dificuldade para falar (disartria);  \n(3) alteração na voz (voz anasalada).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Avalia a gravidade da insuficiência respiratória e solicita exames laboratoriais.**  \n(1) Identifica o uso de musculatura acessória ou tiragem;  \n(2) solicita gasometria arterial;  \n(3) solicita Hemograma, OU Urina Simples, OU Ureia e Creatinina.  \n\n**Adequado:** avalia os três itens.  \n**Parcialmente adequado:** avalia dois itens.  \n**Inadequado:** avalia um item ou não avalia item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita teste clínico para fatigabilidade muscular.**  \n\n**Adequado:** solicita o \"teste do gelo\" (ice pack test) OU solicita que a paciente sustente o olhar para cima (teste de Simpson).  \n**Inadequado:** não realiza nenhum teste clínico de fatigabilidade.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Avalia a força muscular global e cervical.**  \n\n**Adequado:** testa a força dos membros e a capacidade da paciente de elevar a cabeça.  \n**Inadequado:** não avalia a força muscular global ou cervical.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica principal.**  \n\n**Adequado:** verbaliza o diagnóstico de Crise Miastênica.  \n**Parcialmente adequado:** verbaliza o diagnóstico de Insuficiência Respiratória ou Piora da Miastenia, sem especificar a crise.  \n**Inadequado:** não formula a hipótese ou formula outra.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a conduta imediata para suporte de via aérea e ventilatório.**  \n\n**Adequado:** indica suporte ventilatório imediato (Ventilação Não Invasiva - VNI ou Intubação Orotraqueal) com base na hipoxemia, hipercapnia e fadiga muscular.  \n**Inadequado:** indica apenas oxigênio por cateter nasal ou máscara simples, sem suporte ventilatório.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a internação em Unidade de Terapia Intensiva (UTI).**  \n\n**Adequado:** indica a internação em UTI para monitorização e suporte ventilatório.  \n**Inadequado:** não indica a internação em UTI.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Identifica o fator desencadeante.**  \n\n**Adequado:** correlaciona a crise ao uso do antibiótico (Ciprofloxacino), que é contraindicado na Miastenia Gravis, precipitado por uma infecção (ITU).  \n**Parcialmente adequado:** identifica apenas a infecção (ITU) como causa OU apenas o antibiótico.  \n**Inadequado:** não identifica o fator precipitante.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica o tratamento específico para a Crise Miastênica.**  \n\n**Adequado:** indica o uso de Imunoglobulina Humana Endovenosa (IVIG) OU Plasmaférese.  \n**Inadequado:** não indica nenhum dos dois tratamentos ou indica apenas corticoide em dose alta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica a conduta em relação à medicação de base (Piridostigmina/Mestinon).**  \n\n**Adequado:** verbaliza a suspensão temporária da Piridostigmina para diferenciar de uma crise colinérgica (que também causa fraqueza).  \n**Inadequado:** não menciona a suspensão ou orienta a manutenção/aumento da dose.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica o tratamento para a infecção (ITU).**  \n\n**Adequado:** indica a troca do antibiótico (ciprofloxacino) por uma opção segura para Miastenia Gravis (ex: Ceftriaxona, Bactrim).  \n**Inadequado:** não indica a troca do antibiótico ou mantém o ciprofloxacino.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

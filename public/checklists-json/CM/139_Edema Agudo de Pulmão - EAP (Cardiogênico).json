@@ -1,0 +1,194 @@
+{
+  "uid": 139,
+  "hash": "pepe_139",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Edema Agudo de Pulmão - EAP (Cardiogênico)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - pronto-socorro hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• sala de emergência equipada (monitor multiparamétrico, rede de gases, carrinho de parada);  \n• serviço de radiologia e laboratório de análises clínicas 24h;  \n• unidade de terapia intensiva (UTI).\n\nDescrição do caso:\nVocê é o médico plantonista e vai atender um paciente de 65 anos, trazido pelo SAMU com quadro de intensa dispneia e desconforto respiratório.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada e exame físico pertinente;  \n- Solicitar exames complementares, caso necessário;  \n- Verbalizar a principal hipótese diagnóstica e citar 2 diagnósticos diferenciais;  \n- Instituir o tratamento adequado;  \n- Definir o destino do paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar o impresso **MONITOR MULTIPARAMÉTRICO** no início da estação.  \n\n\n**DADOS PESSOAIS:**  \n• José, 65 anos, aposentado.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), está faltando ar... parece que estou me afogando...  \n\n**SOBRE A DISPNEIA:**  \n• **Início:** Começou de repente, faz uns 40 minutos.  \n• **Intensidade:** Muito forte, sinto que vou morrer.  \n• **Piora:** Não consigo deitar de jeito nenhum, tenho que ficar sentado.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Tosse:** Sim... tosse seca... às vezes sai uma espuma rosa.  \n• **Dor no peito:** Sinto um aperto, mas é mais a falta de ar mesmo.  \n• **Sudorese:** Estou suando frio.  \n• **Urina:** Tenho ido pouco ao banheiro hoje, quase não fiz xixi.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho pressão alta e coração grande.  \n• **Medicações:** Tomo enalapril e furosemida.  \n• **Adesão aos medicamentos:** essa semana acabou o remédio e eu fiquei sem tomar uns 3 dias. E ontem comi um churrasco.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Vou precisar ir para a UTI?*  \n• *Isso é por causa do sal que eu comi?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "MONITOR MULTIPARAMÉTRICO",
+      "conteudo": "• **Frequência Cardíaca:** 125 bpm  \n• **Pressão Arterial:** 210 x 110 mmHg  \n• **Frequência Respiratória:** 32 irpm  \n• **Saturação O₂:** 86% em ar ambiente",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Geral:** Paciente ansioso, agitado, cianose de extremidades, sudorese profusa, pele fria e úmida. Uso de musculatura acessória para respirar.  \n\n\n**Respiratório:** Murmúrio vesicular presente, com estertores crepitantes difusos até ápices e sibilos esparsos bilateralmente.  \n\n\n**Cardíaco:** Ritmo regular, taquicárdico, B3 presente (ritmo de galope). Hiperfonese de B2. Turgência jugular patológica presente a 45º.  \n\n\n**Extremidades:** Edema de membros inferiores 2+/4+ (mole, depressível, indolor).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**VERBALIZE O(S) ACHADO(S) DA IMAGEM**",
+      "imagem": "img_printeds/e139p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7.28  \n• **PaCO2:** 50 mmHg  \n• **PaO2:** 55 mmHg  \n• **HCO3:** 22 mEq/L  \n• **BE:** -2  \n• **SatO2:** 86%",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se;  \n(2) Cumprimenta o paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Posicionamento do Paciente:**  \n(1) Mantém o paciente sentado (posição de Fowler ou semi-fowler);  \n(2) Verbaliza a elevação da cabeceira OU manter as pernas pendentes.  \n\n**Adequado:** realiza o posicionamento correto.  \n**Inadequado:** mantém o paciente em decúbito dorsal ou não verbaliza o posicionamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Monitorização e Suporte Inicial:**  \n(1) Solicita monitorização cardíaca contínua, oximetria de pulso e PANI (pressão não invasiva);  \n(2) Solicita acesso venoso periférico.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Anamnese direcionada e Exame Físico:**  \n(1) Pergunta sobre antecedentes (HAS, IC, IAM prévio) ou fator desencadeante (má adesão, dieta);  \n(2) Ausculta pulmonar (identifica estertores/crepitações) e cardíaca (identifica B3 ou taquicardia).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Estabelece a Hipótese Diagnóstica:**  \n\n**Adequado:** Edema Agudo de Pulmão (EAP) Cardiogênico (ou Hipertensivo).  \n**Inadequado:** Apenas \"Insuficiência Cardíaca\" ou diagnósticos errados.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Cita Diagnósticos Diferenciais (conforme solicitado nas tarefas):**  \n(1) Tromboembolismo Pulmonar (TEP);  \n(2) Exacerbação de Asma ou DPOC;  \n(3) Pneumonia;  \n(4) Pneumotórax;  \n(5) Síndrome do Desconforto Respiratório Agudo (SDRA) / EAP não-cardiogênico.  \n\n**Adequado:** cita dois ou mais diagnósticos diferenciais da lista.  \n**Parcialmente adequado:** cita apenas um diagnóstico.  \n**Inadequado:** não cita diferenciais ou cita incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames complementares essenciais:**  \n(1) Eletrocardiograma (ECG);  \n(2) Raio-X de Tórax;  \n(3) Gasometria Arterial;  \n(4) Marcadores de necrose miocárdica (Troponina);\n(5) BNP/Pró-BNP.  \n\n**Adequado:** solicita três ou mais itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta o Raio-X de Tórax:**  \n(1) Identifica infiltrado alveolar difuso / congestão pulmonar OU sinal da asa de borboleta;  \n(2) Identifica cardiomegalia OU aumento da área cardíaca.  \n\n**Adequado:** identifica os dois achados.  \n**Parcialmente adequado:** identifica apenas um achado.  \n**Inadequado:** não identifica achado algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica Oxigenioterapia:**  \n\n**Adequado:** Indica oxigenoterapia suplementar visando SatO2 > 90%.  \n**Inadequado:** Não indica oxigênio ou indica IOT.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica Sonda Vesical de Demora (SVD):**  \n\n**Adequado:** Solicita cateterismo vesical de demora para controle rigoroso de diurese.  \n**Inadequado:** Não solicita SVD.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve Diurético de Alça:**  \n(1) Furosemida;  \n(2) Via Endovenosa (EV).  \n\n**Adequado:** Prescreve furosemida EV.  \n**Inadequado:** Prescreve via oral ou não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Prescreve Vasodilatador (devido à PA elevada):**  \n(1) Nitroglicerina (Tridil) OU Nitroprussiato de Sódio;  \n(2) Via Endovenosa em bomba de infusão contínua OU Dinitrato de Isossorbida Sublingual (como medida inicial).  \n\n**Adequado:** Prescreve vasodilatador (nitrato) endovenoso ou sublingual.  \n**Inadequado:** Não prescreve vasodilatador.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Define destino do paciente:**  \n\n**Adequado:** Indica internação em Unidade de Terapia Intensiva (UTI).  \n**Inadequado:** Indica enfermaria ou alta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

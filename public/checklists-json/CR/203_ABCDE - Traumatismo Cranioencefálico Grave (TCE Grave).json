@@ -1,0 +1,229 @@
+{
+  "uid": 203,
+  "hash": "pepe_203",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "ABCDE - Traumatismo Cranioencefálico Grave (TCE Grave)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Terciária - Emergência Geral.  \nTipo de atendimento: Urgência.  \nA unidade possui a seguinte infraestrutura:  \n• Setor de radiologia convencional e ultrassonografia;  \n• Tomografia computadorizada;  \n• Laboratório de análises clínicas e banco de sangue;  \n• Leitos de internação e centro cirúrgico.\n\nDescrição do caso:\nHomem de 34 anos é trazido pelo SAMU à sala de emergência após colisão automobilística (carro vs. poste) ocorrida há cerca de 30 minutos. Paciente encontrado no local com rebaixamento do nível de consciência.",
+  "tarefas": "TAREFAS:  \n- Realizar o atendimento inicial sistematizado ao politraumatizado (ATLS).  \n- Verbalizar os achados clínicos e as condutas necessárias em cada etapa do atendimento.  \n- Solicitar exames complementares pertinentes, descrevendo os achados relevantes.  \n- Estabelecer e comunicar a(s) hipótese(s) diagnóstica(s).  \n- Propor a conduta terapêutica inicial e definitiva.  \n\n\\\nATENÇÃO!  \nA HISTÓRIA DO TRAUMA DEVERÁ SER OBTIDA COM A EQUIPE DO SAMU.  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO.  \nVERBALIZE TODAS AS SUAS AÇÕES E SOLICITAÇÕES.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Roberto, médico do SAMU responsável pelo atendimento inicial.  \n\n**HISTÓRICO - LER TODO PARA O CANDIDATO:**  \n• Atendemos esta vítima de acidente, ele era o motorista e foi encontrado preso às ferragens.  \n\n• Apresentava rebaixamento do nível de consciência no local (Glasgow estimado em 8).  \n\n• Recebeu colar cervical e foi imobilizado em prancha rígida.  \n\n• Sinais vitais na cena instáveis, mas não havia sangramentos externos evidentes.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Após ler todo o histórico para o candidato, informar: *Agora o paciente já está disponível para o início do seu atendimento.*  \n\n• Liberar a sequência dos impressos do ABCDE conforme o candidato concluir a avaliação de cada letra (Conclui o \"A\", libera o \"A\"... conclui o \"B\", libera o \"B\", e assim em diante).",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS ATUAIS",
+      "conteudo": "• **Saturação de Oxigênio:** 96% (com O2 suplementar).  \n\n• **Frequência Respiratória:** 10 irpm.  \n\n• **Frequência Cardíaca:** 48 bpm.  \n\n• **Pulsos:** Amplos e simétricos.  \n\n• **Pressão Arterial:** 188 x 98 mmHg.  \n\n• **Temperatura:** 36,6 ℃.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "AVALIAÇÃO A (VIA AÉREA)",
+      "conteudo": "• Vias aéreas pérvias, sem secreções ou corpos estranhos visíveis.  \n• Paciente com colar cervical e imobilizado em prancha rígida.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "AVALIAÇÃO B (RESPIRAÇÃO)",
+      "conteudo": "• **Inspeção Torácica:** Movimentos respiratórios superficiais e lentos, simétricos.  \n\n• **Ausculta Torácica:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Palpação Torácica:** Estável, sem crepitações ou dor à palpação.  \n\n• **Percussão Torácica:** Som claro pulmonar bilateralmente.  \n\n• **Ausculta cardíaca:** Ritmo regular, bradicárdico, bulhas normofonéticas.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "AVALIAÇÃO C (CIRCULAÇÃO)",
+      "conteudo": "• Sem sinais de sangramento externo ativo.  \n\n• **Inspeção Abdominal:** Abdome plano, sem escoriações ou hematomas.  \n\n• **Ausculta Abdominal:** Ruídos hidroaéreos presentes.  \n\n• **Palpação Abdominal:** Flácido, indolor à palpação superficial e profunda.  \n\n• **Percussão Abdominal:** Timpânico.  \n\n• **Pelve:** Estável à compressão.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "AVALIAÇÃO D (DISFUNÇÃO NEUROLÓGICA)",
+      "conteudo": "**ESCALA DE COMA DE GLASGOW:**  \n• **Abertura ocular:** À pressão.  \n• **Resposta verbal:** Sons incompreensíveis.  \n• **Melhor resposta motora:** Flexão anormal (decorticação).  \n\n\n**AVALIAÇÃO PUPILAR:**  \n• Pupilas anisocóricas (direita > esquerda), com reflexo fotomotor direito lento e esquerdo normal.  \n\n\n**ATENÇÃO**  \n**INFORME A ESCALA DE COMA DE GLASGOW DO PACIENTE**",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "AVALIAÇÃO E (EXPOSIÇÃO E CONTROLE DE HIPOTERMIA)",
+      "conteudo": "• Escoriações leves em tronco anterior e membros superiores.  \n• Sem outras lesões externas aparentes após exposição completa.  \n• Paciente coberto com manta térmica.",
+      "imagem": null
+    },
+    {
+      "idx": 7,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,4 milhões/mm³ (VR: 4,3 a 5,8 milhões/mm³)  \n• **Hemoglobina:** 13,2 g/dL (VR: 12 a 16 mg/dL)  \n• **Hematócrito:** 38,5% (VR: 35-47%)  \n• **Plaquetas:** 240.000 /mm³ (VR: 150.000-400.000 /mm³)  \n• **Leucócitos:** 5.700 /mm³ (VR: 4.000-10.000 /mm³)  \n• **Neutrófilos:** 65% (VR: 40-70%)  \n• **Bastões:** 3% (VR: 0-5%)  \n• **Linfócitos:** 25% (VR: 20-50%)  \n• **Basófilos:** 1% (VR: 0-2%)  \n• **Eosinófilos:** 2% (VR: 0-6%)  \n• **Monócitos:** 4% (VR: 4-8%)  \n\n\n• **Glicemia sérica:** 115 mg/dL  \n\n• **Creatinina:** 0,75 mg/dL (VR: 0,7-1,1 mg/dL)  \n• **Ureia:** 20 mg/dL (VR: < 40 mg/dL)  \n\n• **Sódio:** 137 mEq/L (VR: 135-145 mEq/L)  \n• **Potássio:** 4,1 mEq/L (VR: 3,5-5 mEq/L)  \n\n• **Coagulograma:** dentro dos parâmetros de normalidade.  \n\n• **Tipagem sanguínea:** O negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 8,
+      "titulo": "TC DE CRÂNIO (SEM CONTRASTE)",
+      "conteudo": "**VERBALIZE O ACHADO PRINCIPAL.**",
+      "imagem": "img_printeds/e203p8.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se à equipe do SAMU;  \n(2) direciona o interrogatório sobre o caso ao médico responsável do SAMU.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Exame físico inicial e paramentação:**  \n(1) verbaliza a higienização;  \n(2) verbaliza a paramentação adequada (luvas, máscara, óculos, gorro, avental - pelo menos 2).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita monitorização dos parâmetros vitais do paciente.**  \n\n**Adequado:** solicita monitorização contínua (cardioscopia, oximetria de pulso, pressão arterial não invasiva - pelo menos 2).  \n**Inadequado:** não solicita monitorização.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Avaliação e manejo da via aérea (A):**  \n(1) verifica a permeabilidade da via aérea;  \n(2) verbaliza a necessidade de manter o colar cervical e a imobilização;  \n(3) solicita suplementação de O2 com 10-15 L/min em máscara não reinalante.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Avaliação da respiração (B):**  \n(1) solicita o exame físico do aparelho respiratório.  \n\n**Adequado:** verbaliza a realização do exame completo.  \n**Inadequado:** não verbaliza a realização do exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Avaliação da circulação e controle de hemorragia (C):**  \n(1) realiza o exame físico abdominal;  \n(2) busca focos de sangramento ativo (FAST/POCUS);  \n(3) solicita a colocação de dois acessos venosos periféricos de grosso calibre (ex: 14G ou 16G) OU infusão de cristalóides;  \n(4) avalia estabilidade da pelve.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames complementares laboratoriais:**  \n(1) Hemograma;  \n(2) Glicemia;  \n(3) Eletrólitos (sódio, potássio);  \n(4) Função renal (ureia e creatinina);  \n(5) Tipagem sanguínea e Fator Rh;  \n(6) Coagulograma.  \n\n**Adequado:** solicita quatro ou mais exames laboratoriais.  \n**Parcialmente adequado:** solicita três exames laboratoriais.  \n**Inadequado:** solicita dois ou menos exames laboratoriais.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Avaliação neurológica (D):**  \n(1) avalia o paciente pela Escala de Coma de Glasgow e resposta pupilar;  \n(2) verbaliza o Glasgow = 7;  \n(3) indica Intubação Orotraqueal (IOT) imediata devido ao Glasgow ≤ 8.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Identifica as alterações nos sinais vitais sugestivas de Hipertensão Intracraniana (HIC) - Tríade de Cushing:**  \n(1) Bradicardia;  \n(2) Hipertensão arterial;  \n(3) Alteração do padrão respiratório (bradipneia).  \n\n**Adequado:** verbaliza as três alterações.  \n**Parcialmente adequado:** verbaliza duas alterações.  \n**Inadequado:** verbaliza uma ou nenhuma alteração.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita exame complementar de imagem e interpreta o achado:**  \n(1) solicita Tomografia Computadorizada de Crânio sem contraste;  \n(2) identifica o Hematoma Epidural.  \n\n**Adequado:** realiza ambas as ações.  \n**Parcialmente adequado:** realiza somente uma ação.  \n**Inadequado:** não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza os diagnósticos principais:**  \n(1) Traumatismo Cranioencefálico (TCE) Grave;  \n(2) Hipertensão Intracraniana (HIC) / Tríade de Cushing;  \n(3) Hematoma Epidural.  \n\n**Adequado:** verbaliza os três diagnósticos (ou pelo menos os itens 1 e 2).  \n**Parcialmente adequado:** verbaliza apenas um diagnóstico.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica condutas iniciais para manejo da HIC:**  \n(1) manter a cabeceira elevada a 30-45°;  \n(2) manter normocapnia (ou solicitar capnografia após IOT);  \n(3) manter normotermia;  \n(4) considerar Manitol ou Solução Salina Hipertônica.  \n\n**Adequado:** indica três ou quatro condutas.  \n**Parcialmente adequado:** indica duas condutas.  \n**Inadequado:** indica uma ou nenhuma conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Avaliação secundária e exposição (E):**  \n(1) realiza a exposição completa do paciente (retira roupas e adornos);  \n(2) realiza controle de hipotermia (manta térmica, aquecer fluidos).  \n\n**Adequado:** realiza ambas as tarefas de forma completa.  \n**Parcialmente adequado:** realiza apenas uma tarefa.  \n**Inadequado:** não realiza as ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Aciona o neurocirurgião de plantão com urgência.**  \n\n**Adequado:** verbaliza o acionamento.  \n**Inadequado:** não aciona.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

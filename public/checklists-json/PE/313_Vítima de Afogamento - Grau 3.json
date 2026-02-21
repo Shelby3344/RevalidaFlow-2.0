@@ -1,0 +1,172 @@
+{
+  "uid": 313,
+  "hash": "pepe_313",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Vítima de Afogamento - Grau 3",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização;  \n• Laboratório de análises clínicas;  \n• Setor de radiologia;  \n• UTI Pediátrica.\n\nDescrição do caso:\nVocê está de plantão na emergência pediátrica e atenderá uma criança de 5 anos, trazida pela mãe após ser retirada da piscina de casa inconsciente.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Iniciar o atendimento e avaliação primária da vítima.  \n- Verbalizar a hipótese diagnóstica e a classificação de gravidade.  \n- Solicitar os exames complementares pertinentes, caso necessário.  \n- Estabelecer o plano terapêutico inicial.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Elvira, 30 anos.  \n• **Criança:** Raí, 5 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), meu filho caiu na piscina e eu não ví! Tirei ele desacordado da piscina!  \n\n**SOBRE O AFOGAMENTO:**  \n• **Tempo de submersão:** Eu entrei pra pegar uma toalha e quando voltei, ele estava boiando. Acho que foram uns 2 ou 3 minutos, não sei!  \n• **Resgate:** Eu pulei e tirei ele. Ele estava mole, roxo. Meu vizinho veio, apertou o peito dele... e ele cuspiu água e começou a tossir muito.  \n\n**SINTOMAS ATUAIS:**  \n• **Tosse:** Ele está tossindo muito, uma espuma rosa saindo da boca.  \n• **Respiração:** E está respirando rápido, com dificuldade.  \n• **Vômitos:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Vacinação:** Está em dia.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Ele vai ficar bem, doutor(a)?*  \n• *O que vai acontecer agora?*  \n• *Essa espuma é normal?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "• **Paciente:** Raí, 5 anos (Peso: 20 kg)  \n\n\n• **Frequência Cardíaca (FC):** 140 bpm  \n• **Frequência Respiratória (FR):** 38 irpm  \n• **Pressão Arterial (PA):** 90x60 mmHg  \n• **Saturação de O₂ (SatO₂):** 88% (em ar ambiente)  \n• **Temperatura Axilar:** 35.8°C  \n• **Glicemia Capilar:** 95 mg/dL",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO - ABCDE",
+      "conteudo": "• **Geral:** Paciente sonolento, responde a estímulos verbais. Pálido, com cianose de extremidades.  \n\n\n• **A (Vias Aéreas):** Vias aéreas pérvias, com presença de espuma rósea (serossanguinolenta).  \n\n• **B (Respiração):** Esforço respiratório intenso, com uso de musculatura acessória (tiragem intercostal e subcostal).  \n\n• **Ausculta Pulmonar:** Murmúrio vesicular presente bilateralmente, com estertores crepitantes difusos (em bases e terço médio).  \n\n• **C (Circulação):** Pulsos periféricos presentes, porém finos e rápidos. Tempo de enchimento capilar de 3 segundos.  \n\n• **D (Neurológico):** Glasgow 13 (Ocular 4, Verbal 4, Motor 5). Pupilas isocóricas e fotorreagentes.  \n\n• **E (Exposição):** Pele fria ao toque, sem outras lesões evidentes.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7,20 (VR: 7,35 - 7,45)  \n• **PaO₂:** 55 mmHg (VR: 80 - 100 mmHg)  \n• **PaCO₂:** 50 mmHg (VR: 35 - 45 mmHg)  \n• **HCO₃:** 18 mEq/L (VR: 22 - 26 mEq/L)  \n• **BE (Excesso de Base):** -6 mEq/L (VR: -2 a +2)  \n• **SatO₂:** 87% (VR: 95 - 100%)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "Infiltrado alveolar difuso bilateral, peri-hilar e em bases.",
+      "imagem": "img_printeds/e313p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e pergunta o nome da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida:**  \n(1) investiga o tempo estimado de submersão;  \n(2) investiga as manobras de resgate realizadas no local.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a avaliação primária do paciente (ABCDE).**  \n\n**Adequado:** verbaliza a avaliação da sequência ABCDE.  \n**Inadequado:** não verbaliza a sequência ABCDE.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica os achados críticos do exame físico respiratório.**  \n(1) presença de espuma rósea nas vias aéreas;  \n(2) esforço respiratório (tiragem);  \n(3) ausculta com estertores crepitantes difusos.  \n\n**Adequado:** identifica os três achados.  \n**Parcialmente adequado:** identifica dois achados.  \n**Inadequado:** identifica um ou nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a hipótese diagnóstica principal (Afogamento).**  \n\n**Adequado:** verbaliza o diagnóstico de afogamento.  \n**Inadequado:** não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Classifica a gravidade do afogamento.**  \n\n**Adequado:** classifica o afogamento como Grau 3.  \n**Inadequado:** não classifica ou classifica incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita os exames complementares prioritários.**  \n(1) Gasometria Arterial;  \n(2) Radiografia de Tórax.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a conduta de suporte ventilatório imediato.**  \n\n**Adequado:** indica oxigenoterapia em alto fluxo E ventilação não invasiva (VNI/CPAP), OU indica intubação orotraqueal.  \n**Parcialmente adequado:** indica apenas oxigenoterapia em alto fluxo máscara não reinalante.  \n**Inadequado:** não indica suporte ventilatório.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica as medidas gerais de suporte.**  \n(1) monitorização cardíaca, oximetria e PA contínua;  \n(2) aquecimento do paciente (retirar roupas molhadas, usar manta térmica).  \n\n**Adequado:** indica as duas medidas.  \n**Parcialmente adequado:** indica uma medida.  \n**Inadequado:** não indica nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a conduta de internação.**  \n\n**Adequado:** indica internação em Unidade de Terapia Intensiva (UTI) Pediátrica.  \n**Inadequado:** indica apenas observação em enfermaria ou liberação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a mãe sobre o diagnóstico, a gravidade e a conduta.**  \n\n**Adequado:** explica à mãe que o quadro é grave (Grau 3), que se trata de um edema pulmonar pelo afogamento e que ele precisará de suporte respiratório na UTI.  \n**Parcialmente adequado:** explica o diagnóstico, mas não aborda a gravidade ou a necessidade de UTI.  \n**Inadequado:** não orienta a mãe.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

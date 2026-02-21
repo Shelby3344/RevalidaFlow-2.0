@@ -1,0 +1,276 @@
+{
+  "uid": 1504,
+  "hash": "pepe_1504",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Ameaça de aborto",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de estabilização e pequenos procedimentos;  \n• raio-X, eletrocardiograma;  \n• laboratório de análises clínicas;\n\nDescrição do caso:\nVocê está de plantão no pronto socorro de uma Unidade de Pronto Atendimento (UPA) e atenderá uma paciente que chega com queixa de dor abdominal em cólica e sangramento vaginal de pequena quantidade, iniciados hoje.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar o exame físico, caso necessário;  \n- Comunicar a hipótese diagnóstica à paciente;  \n- Propor a conduta adequada e orientações para o caso;  \n- Esclarecer as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Mariana, 28 anos, vendedora.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma cólica forte e um sangramento estranho que começou hoje.  \n\n**SOBRE DOR:**  \n• **Início:** Começou hoje de manhã.  \n• **Localização:** É aqui no pé da barriga.  \n• **Característica:** É uma cólica, vai e volta.  \n• **Intensidade:** Está um 6 de 10.  \n• **Atenuantes/agravantes:** Não tomei nada pra dor. Piora quando eu me mexo.  \n\n**SOBRE SANGRAMENTO:**  \n• **Início:** Começou junto com a dor.  \n• **Quantidade e cor:** É pouco, um sangue bem vermelho.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Náuseas/vômitos:** Tenho sentido enjoo de manhã já faz algumas semanas.  \n• **Sonolência:** Estou com mais sono que o normal.  \n• **Febre:** Não tive febre.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **GPA:** nunca engravidei.  \n• **DUM:** minha menstruação está atrasada acho que faz uns 2 meses. Será que minha menstruação está vindo agora? não sentia essa cólica forte antes.  \n• **Relação sexual:** Tenho parceiro fixo, meu namorado.  \n• **Anticoncepção:** não tomo nenhum hormônio. Mas uso camisinha as vezes.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Cirurgias e internações:** Nega.  \n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n\n• SOMENTE Após receber o diagnóstico de gravidez ou ameaça de aborto: *Então era por isso que minha menstruação atrasou! E de quantas semanas doutor(a)? Tem como saber?*  \n***Informar a DUM:*** *Olhando aqui na minha tabelinha faz 3 meses que está atrasada.*  \n\n• *Tenho que tomar algum remédio?*  \n• *Preciso fazer algum exame?*  \n• *Essa dor pode piorar e eu vou ter que internar?*  \n• *Posso ter relação sexual?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 82 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36,6° C  \n\n**Ectoscopia:**  \n• Paciente em bom estado geral, lúcida e orientada, corada, hidratada, acianótica, anictérica, com fácies de dor.  \n\n**Cardiovascular:**  \n• Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n**Respiratório:**  \n• Murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n**Abdominal:**  \n• Abdome plano, flácido, ruídos hidroaéreos presentes, doloroso à palpação profunda de hipogástrio, sem sinais de irritação peritoneal.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO GINECOLÓGICO",
+      "conteudo": "• **Inspeção vulvar:** Sem alterações.  \n\n• **Exame especular:** Presença de pequena e discreta quantidade de sangue vivo com saída através do orifício cervical; paredes vaginais íntegras; colo uterino sem lesões aparentes, com orifício externo fechado.  \n\n• **Toque vaginal:** Útero com volume aumentado, colo uterino grosso, posterior e fechado; anexos não palpáveis e indolores.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Beta-HCG quantitativo:** 90.000 mUI/ml (VR: > 25 mUI/ml = resultado positivo para gravidez)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se para a paciente e pergunta o nome da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Ouve com atenção a queixa da paciente e não interrompe a sua fala.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Demonstra atitude de acolhimento às queixas da paciente através da postura corporal, contato visual e linguagem não verbal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Perguntou sobre estado civil (ou companheiro) e antecedentes reprodutivos (se já teve filhos ou aborto) - considerar adequado se perguntar as duas informações.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explora adequadamente a queixa de dor abdominal - considerar adequado se perguntar, no mínimo, tempo de início e intensidade da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explora adequadamente a queixa de sangramento vaginal - considerar adequado se perguntar, no mínimo, tempo de início e intensidade do sangramento.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Perguntou sobre ocorrência de febre.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Perguntou a data da última menstruação.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Perguntou sobre sintomas de gravidez (náuseas, vômitos, sonolência, aumento de sensibilidade ou inchaço na mama) - considerar adequado se perguntar, no mínimo, dois sintomas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Faz menção à necessidade de obter dados do exame geral ou sinais vitais (temperatura, pulso e pressão arterial).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explica à paciente que precisa realizar o exame do abdome e solicita ao avaliador.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica à paciente que precisa realizar o exame ginecológico e solicita ao avaliador.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Informa à paciente o diagnóstico correto: ameaça de abortamento (ou ameaça de aborto) - considerar inadequado se falar que está abortando (abortamento incompleto) ou que já abortou (abortamento completo).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Confirma à paciente que ela está grávida (considerar adequado se justificar pelo exame clínico ou se solicitar beta-hCG).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Informou corretamente a idade gestacional calculada pela data da última menstruação - considerar adequado \"12 semanas\" e inadequado se falar aproximadamente 3 meses ou entre 11 e 13 semanas.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Explicou as possibilidades de evolução do quadro: regredir ou evoluir para abortamento - considerar adequado somente se falar as duas possibilidades.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Explicou que não requer internação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Prescreveu analgésico ou antiespasmódico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Recomendou repouso físico relativo e abstinência sexual durante o período de sangramento - considerar adequado somente se falar as duas recomendações.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Orienta sobre os sinais de agravamento do quadro - considerar adequado se falar ao menos dois dos seguintes: febre, piora do sangramento, piora da dor.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**21. Verbaliza a necessidade da paciente realizar seguimento ambulatorial e realizar ultrassonografia em nível ambulatorial - considerar adequado se falar as duas recomendações.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

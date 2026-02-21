@@ -1,0 +1,165 @@
+{
+  "uid": 1501,
+  "hash": "pepe_1501",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Diabetes Melittus tipo 2 - DM2 + uso de insulina",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• sala de vacinação.\n\nDescrição do caso:\nVocê atenderá um paciente com 67 anos de idade, diagnosticado com Diabetes Mellitus tipo 2 há 10 anos. Ele retorna para consulta de acompanhamento com exames laboratoriais.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Orientar e propor a conduta terapêutica;  \n- Responder as dúvidas do paciente.  \n\n\\\nATENÇÃO  \nNÃO É NECESSÁRIO REALIZAR EXAME FÍSICO",
+  "script_ator": "**DADOS PESSOAIS:**  \n• João Batista, 58 anos, eletricista.  \n\n**MOTIVO DE CONSULTA:** • Doutor(a), eu trouxe os exames da diabetes que me mandaram fazer na semana passada.  \n\n• **Motivo de fazer os exames:** é pro controle da minha glicose.  \n\n**QUEIXAS:**  \n• **Polaciúria:** tenho ido muito no banheiro fazer xixi, principalmente de noite.  \n• **Polidipsia:** sinto uma sede que não passa, bebo água o dia todo.  \n• **Perda de peso:** emagreci uns 2 quilos no último mês, mesmo comendo a mesma coisa de sempre.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias e doenças** Tenho diabetes faz 10 anos.  \n• **Medicações:** estou tomando dois... a metformina 2.500mg ao dia, mais a glibenclamida 15mg por dia também.  \n• **Alimentação:** Eu tento comer certo, mas gosto de um doce de vez em quando.  \n• **Atividade física:** Faço uma caminhada umas duas vezes na semana, mas às vezes falto.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• Caso o candidato indique o uso de insulina: *Como que eu guardo e uso essa insulina?*  \n• *Vou ter que mudar minha alimentação?*  \n• *Preciso voltar aqui de novo?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n\n• **Hemácias:** 4,8 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 15,1 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 45% (VR: 39 - 52%)  \n\n• **Plaquetas:** 250.000 mm/3 (150.000 - 400.000 mm/3)  \n\n• **Leucócitos:** 8.500/mm3 (VR: 4.000 - 10.000/mm3)  \n• **Neutrófilos:** 60% (VR: 40 - 70%)  \n• **Linfócitos:** 28% (VR: 20 - 50%)  \n\n\n**PERFIL GLICÊMICO**  \n\n• **Glicemia em jejum:** 264 mg/dl (VR: 60 - 99 mg/dl)  \n• **HbA1c:** 10,2% (VR: < 5,7%)  \n\n\n**URINA SIMPLES**  \n\n*Amostra:*  \n• **Volume:** 40 ml  \n• **Aspecto:** límpido (VR: límpido)  \n• **Cor:** amarela (VR: não se aplica)  \n• **pH:** 6,3 (VR: 4,5 - 7,8)  \n\n*Exame químico:*  \n• **Proteínas:** negativo (VR: negativo)  \n• **Corpos cetônicos:** negativo (VR: negativo)  \n• **Glicose:** positivo (+++/4+) (VR: negativo)  \n• **Bilirrubina:** negativo (VR: negativo)  \n• **Urobilinogênio:** normal (VR: normal [< 1 mg/dL])  \n• **Hemoglobina:** negativo (VR: negativo)  \n• **Nitrito:** não reagente (VR: não reagente)  \n\n*Sedimentoscopia:*  \n• **Piócitos:** 4 por campo (VR: < 4 por campo)  \n• **Hemácias:** 2 por campo (VR: < 2 por campo)  \n• **Cristais:** ausentes (VR: ausentes)  \n• **Flora bacteriana:** discreta (VR: ausente)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se, acolhe e cumprimenta o paciente de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Ouve com atenção a queixa do paciente e não interrompe sua fala desnecessariamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Coleta adequadamente a história.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre a dieta e hábitos de vida do paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre o tratamento realizado para o diabetes mellitus.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Identifica a perda ponderal como evidência do não controle do diabetes mellitus.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Identifica polidipsia e poliúria como evidências de mau controle do diabetes mellitus.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Avalia o tratamento que o paciente está atualmente recebendo, reconhecendo que o paciente recebe hipoglicemiantes em doses máximas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza corretamente a prescrição da insulina: - Iniciar insulina NPH em dose plena, (0.1 a 0.2 U/Kg/dia) suspendendo o uso de glibenclamida.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explica adequadamente ao paciente o modo de utilização correta da insulina - pelo menos dois dos seguintes: conservação, locais de aplicação e seu rodízio.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explica adequadamente o tratamento não medicamentoso (dieta) ao paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Agenda retorno do paciente em dois dias para controle da dose de insulina.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

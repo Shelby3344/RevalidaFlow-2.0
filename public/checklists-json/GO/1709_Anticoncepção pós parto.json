@@ -1,0 +1,270 @@
+{
+  "uid": 1709,
+  "hash": "pepe_1709",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Anticoncepção pós parto",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você é o(a) médico(a) da Estratégia Saúde da Família .\n\nDescrição do caso:\nVocê é o(a) médico(a) da Estratégia Saúde da Família e vai atender uma paciente de  \n28 anos de idade, casada, primípara, no 2.° mês pós-parto, que se consulta para  \norientação de anticoncepção.",
+  "tarefas": "Nos próximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar a anamnese direcionada para orientação contraceptiva;  \n- orientar a paciente sobre métodos contraceptivos.  \n\n\nNão será necessário realizar o exame físico.  \nCaso necessite, no momento adequado, solicite dados do exame fisico e exames complementares ao(à) examinador(a).",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Claudia, 28 anos, casada.  \n\n\n**QUEIXA PRINCIPAL:** Faz dois meses que tive meu bebê, e agora gostaria de saber como não engravidar. Vou esperar mais um pouco pra ter outro filho.  \n\n\n**DEMAIS QUEIXAS:** não tenho queixas.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, medicações, cirurgias e internações:** nega.  \n• **Hipertensão:** nega.  \n• **Cardiopatias:** nega.  \n• **Diabetes:** nega.  \n• **Neoplasias:** nega.  \n• **Histórico pessoal ou familiar de TVP:** nega.  \n• **Histórico pessoal ou familiar de TEP:** nega.  \n\n\n• **Álcool, tabaco e drogas:** nega.  \n• **Atividade física:** não estou fazendo nada agora.  \n• **Alimentação:** como de tudo, não faço dieta.  \n• **Amamentação:** estou amamentando sim, só leite exclusivo.  \n\n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **Anticoncepção:** não estou usando nada.  \n• **DUM:** ainda não menstruei depois do parto.  \n• **Relação sexual pós parto:** só 2 vezes após o parto. A primeira depois de 45 dias.  \n• **Último PAP:** há 1 ano. estava tudo certo.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS E ORIENTAÇÕES:**  \n• Quais tipos de anticoncepcional posso usar?  \n\nCaso o candidato recomende a *pílula a base de progesterona*, informe que decidirá por ela como seu método de anticoncepção e questione:  \n• Quando posso começar a usar?  \n• Quais sintomas posso ter ao usar essa pílula?  \n• Devo parar de usar a pílula se aparecer os sintomas ou se menstruar?  \n• Se eu esquecer de tomar, como fazer?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**EXAME FÍSICO GERAL E GINECOLÓGICO**  \n\n\nNormais",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "TESTE DE GRAVIDEZ",
+      "conteudo": "Teste de gravidez: negativo",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e pergunta o nome da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta se a paciente está (1) amamentando e se é (2) amamentação exclusiva.**  \n\n**Inadequado:** se não perguntar nem (1) nem (2);  \n**Parcialmente adequado:** se perguntar só (1) ou (2);  \n**Adequado:** se perguntar (1) e (2).",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta se a paciente já menstruou.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta se já teve relação sexual após o parto.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta se usou algum método contraceptivo.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta se tem (1) hipertensão arterial e (2) alguma outra doença crônica**  \n(cardiopatia, diabetes, neoplasia ... ).  \n\n**Inadequado:** se não perguntar nem (1) nem (2);  \n**Parcialmente adequado:** se perguntar só (1) ou (2);  \n**Adequado:** se perguntar (1) e (2).",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta se toma alguma medicação.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Pergunta sobre antecedentes (1) pessoais (2) familiares de trombose venosa profunda ou tromboembolismo venoso ou embolia pulmonar.**    \n\n**Inadequado:** se não perguntar nem (1) nem (2);  \n**Parcialmente adequado:** se perguntar só (1) ou (2):  \n**Adequado:** se perguntar (1) e (2).",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Pergunta se a paciente fuma.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta que o marido pode usar camisinha.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta que pode usar DIU.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta que pode usar anticoncepção injetável.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta que pode usar a pílula hormonal continua a base de progesterona.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Explica que a paciente deve fazer o teste de gravidez antes de receber a prescrição do contraceptivo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Pergunta quando realizou a citologia oncótica.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Orienta que a paciente pode começãr a tomar a pílula a partir de hoje.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Orienta que deve ingerir um comprimido por dia, continuamente, preferencialmente no mesmo horário.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Orienta que, mesmo que ocorra a menstruação, deve manter o uso do contraceptivo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Caso esquecer-se de tomar:**  \n(1) tomar a pílula esquecida imediatamente:  \n(2) tomar a pílula seguinte no horario habitual e de tomar duas ou mais pílulas, e deve:  \n(4) tomar uma pílula imediatamente e  \n(5) usar método de barreira ou evitar relações sexuais durante sete dias.  \n\n**Inadequado:** se orientar sobre 1 item ou nenhum;  \n**Parcialmente adequado:** se orientar sobre 2 ou 3 itens:  \n**Adequado:** se orientar sobre 4 ou 5 itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Orienta que pode ocorrer (1) mastalgia, (2) diminuição da libido, (3) acne.**  \n\n**Inadequado:** se orientar sobre 1 item ou nenhum;  \n**Parcialmente adequado:** se orientar sobre 2 itens;  \n**Adequado:** se orientar sobre 3 itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.235",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**21. Orienta para que não suspenda o uso da pílula, mesmo que aconteçãm os efeitos indesejados.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

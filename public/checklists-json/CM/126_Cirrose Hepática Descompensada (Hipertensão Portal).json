@@ -1,0 +1,178 @@
+{
+  "uid": 126,
+  "hash": "pepe_126",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Cirrose Hepática Descompensada (Hipertensão Portal)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde (UBS).  \nTipo de atendimento: Ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultórios;  \n• Laboratório de análises clínicas (referenciado);  \n• Acesso a exames de imagem (referenciado).\n\nDescrição do caso:\nHomem de 48 anos, usuário de drogas injetáveis, procura a UBS por aumento do volume abdominal há 3 meses e olhos amarelados.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro atual;  \n- Solicitar e interpretar o exame físico abdominal, verbalizando os passos da propedêutica;  \n- Formular as hipóteses diagnósticas para o caso;  \n- Solicitar os exames complementares pertinentes;  \n- Estabelecer a conduta inicial e o plano de acompanhamento.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar o impresso **EXAME FÍSICO** somente após o candidato concluir a verbalização de todo o exame. (questionar *concluiu seu exame?*).  \n\n**DADOS PESSOAIS:**  \n• João, 48 anos, desempregado.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), vim aqui porque minha barriga está inchada faz uns 3 meses. Parece que tem líquido dentro. E meu olho está amarelado.  \n\n**SOBRE OS SINTOMAS:**  \n• **Inchaço (Ascite):** A barriga foi crescendo devagar.  \n• **Icterícia:** Meus olhos estão amarelos faz uns 10 dias.  \n• **Outros sintomas:** Sinto um cansaço, uma fraqueza.  \n\n**NEGAR SINAIS DE ALARME:**  \n• **Dor abdominal:** Não, não sinto dor na barriga.  \n• **Febre:** Não tive febre.  \n• **Sangramento:** Não vomitei sangue nem vi sangue nas fezes.  \n• **Confusão mental:** Não.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Que eu saiba, nenhuma.  \n• **Medicações:** Não tomo remédio.  \n• **Alergias:** Nega.  \n• **Álcool:** Bebo cerveja fim de semana, socialmente.  \n• **Drogas:** Já usei droga injetável há uns 10 anos, dividia seringa às vezes. Vou te confessar que hoje eu ainda uso drogas, cocaína somente.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso é grave? Tem tratamento?*  \n• *Esse inchaço na barriga é por quê?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 95 x 55 mmHg  \n• **Frequência Cardíaca:** 108 bpm  \n• **Frequência Respiratória:** 19 irpm  \n• **Saturação de Oxigênio:** 98% em ar ambiente  \n• **Temperatura Axilar:** 36,8°C  \n\n\n**EXAME CLÍNICO:**  \nBom estado geral, orientado, eupneico. Ictérico (2+/4+).  \n\nAparelho cardiovascular: Ritmo cardíaco regular, 2 tempos, sem sopros.  \n\nAparelho respiratório: Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**EXAME FÍSICO ABDOMINAL:**  \n\n• **Inspeção:** Abdome semi-globoso, sugestivo de ascite. Presença de circulação colateral visível (padrão \"Caput Medusae\"). Cicatriz umbilical protusa.  \n\n• **Ausculta:** Ruídos hidroaéreos presentes e normoativos.  \n\n• **Percussão:** Hepatimetria reduzida. Espaço de Traube ocupado (maciço). Sinais de macicez móvel e semicírculos de Skoda positivos.  \n\n• **Palpação:** Fígado não palpável. Baço palpável a 3 cm do rebordo costal esquerdo (esplenomegalia). Sinal de Piparote negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "INSPEÇÃO ABDOMINAL",
+      "conteudo": "**IDENTIFIQUE O ACHADO DA IMAGEM**",
+      "imagem": "img_printeds/e126p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 10,2 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Leucócitos:** 3.800 mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 98.000 mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**FUNÇÃO HEPÁTICA E RENAL**  \n• **Glicemia:** 90 mg/dL (VR: 70 – 99 mg/dL)  \n• **AST (TGO):** 90 U/L (VR: < 40 U/L)  \n• **ALT (TGP):** 50 U/L (VR: < 40 U/L)  \n• **Bilirrubina Total:** 2,8 mg/dL (VR: < 1,2 mg/dL)  \n• **Bilirrubina Direta:** 2,0 mg/dL (VR: < 0,4 mg/dL)  \n• **Albumina:** 2,5 g/dL (VR: 3,5 – 5,5 g/dL)  \n• **RNI:** 1,6 (VR: 0,8 – 1,2)  \n• **Creatinina:** 0,8 mg/dL (VR: 0,7 – 1,3 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ULTRASSONOGRAFIA DE ABDOME TOTAL",
+      "conteudo": "**Laudo:** Fígado com dimensões reduzidas, contornos nodulares e ecotextura heterogênea. Esplenomegalia (16 cm). Presença de ascite em moderada quantidade.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "ANÁLISE DO LÍQUIDO ASCÍTICO (PARACENTESE)",
+      "conteudo": "• **Aspecto:** Amarelo-citrino, límpido.  \n• **GASA (Gradiente Albumina Soro-Ascite):** 1,7  \n• **Contagem Celular:** 80 leucócitos/mm³ (15% neutrófilos) (VR: < 250 neutrófilos/mm³)  \n• **Cultura:** Negativa.  \n• **Citologia Oncótica:** Negativa.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, investigando os fatores de risco e sintomas de descompensação:**  \n(1) investiga o uso de drogas injetáveis e/ou álcool;  \n(2) questiona sobre a icterícia;  \n(3) questiona sobre o aumento do volume abdominal (ascite).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga \"sinais de alarme\" para complicações agudas:**  \n(1) febre;  \n(2) dor abdominal;  \n(3) hemorragia digestiva (hematêmese ou melena);  \n(4) alteração do nível de consciência.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza a realização da inspeção e ausculta abdominal.**  \n\n**Adequado:** verbaliza que realizaria a inspeção (buscando ascite, circulação colateral) e a ausculta.  \n**Inadequado:** não verbaliza a realização da inspeção ou da ausculta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a realização da percussão abdominal.**  \n\n**Adequado:** verbaliza a realização da percussão (para avaliar hepatimetria, espaço de Traube e pesquisar macicez móvel / semicírculos de Skoda).  \n**Inadequado:** não verbaliza a realização da percussão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a realização da palpação abdominal.**  \n\n**Adequado:** verbaliza a realização da palpação hepática e esplênica (buscando hepatoesplenomegalia).  \n**Inadequado:** não verbaliza a realização da palpação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica principal.**  \n\n**Adequado:** verbaliza o diagnóstico de Cirrose Hepática Descompensada (ou Hepatopatia Crônica) com Hipertensão Portal, possivelmente secundária à Hepatite (pelo uso de drogas injetáveis).  \n**Parcialmente adequado:** verbaliza apenas Cirrose Hepática ou apenas Hipertensão Portal.  \n**Inadequado:** não verbaliza a hipótese ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita diagnósticos diferenciais para a ascite:**  \n(1) Trombose de veia porta;  \n(2) Síndrome de Budd-Chiari;  \n(3) Cirrose alcoólica;  \n(4) Insuficiência Cardíaca Congestiva (ICC).  \n\n**Adequado:** cita dois ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** cita um diagnóstico diferencial.  \n**Inadequado:** não cita diagnósticos diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exames laboratoriais (sanguíneos) pertinentes:**  \n(1) hemograma completo;  \n(2) função hepática (AST, ALT, Bilirrubinas, Albumina, RNI);  \n(3) função renal (Ureia, Creatinina);  \n(4) sorologias (Hepatite C, Hepatite B, HIV).  \n\n**Adequado:** solicita quatro ou mais itens.  \n**Parcialmente adequado:** solicita três itens.  \n**Inadequado:** solicita dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita exames complementares (imagem e procedimento) pertinentes.**  \n(1) Ultrassonografia de abdome (ou USG com Doppler de sistema porta);  \n(2) Paracentese diagnóstica (com análise do líquido, incluindo GASA e celularidade).  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Estabelece a conduta terapêutica inicial para a ascite.**  \n\n**Adequado:** orienta restrição de sódio (dieta hipossódica) E o início de diuréticos (Espironolactona, podendo associar Furosemida).  \n**Parcialmente adequado:** orienta apenas a restrição de sódio OU apenas os diuréticos.  \n**Inadequado:** não orienta nenhuma das condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

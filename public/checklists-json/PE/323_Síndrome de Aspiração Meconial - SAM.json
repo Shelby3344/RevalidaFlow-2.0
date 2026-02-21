@@ -1,0 +1,189 @@
+{
+  "uid": 323,
+  "hash": "pepe_323",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Síndrome de Aspiração Meconial - SAM",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - maternidade.  \nTipo de atendimento: sala de parto.  \nA unidade apresenta a seguinte infraestrutura:  \n• sala de parto equipada;  \n• UTI neonatal;  \n• laboratório de análises clínicas;  \n• setor de radiologia;  \n• ecocardiografia.\n\nDescrição do caso:\nVocê está de plantão em uma maternidade e é chamado para avaliar um recém-nascido pós-termo que nasceu há 2 horas e está na incubadora.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar e interpretar o exame físico do recém-nascido.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Formular e verbalizar a hipótese diagnóstica e os diagnósticos diferenciais.  \n- Orientar a conduta terapêutica adequada.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar o impresso **FICHA DO RECÉM-NASCIDO** no início da estação.  \n\n\n**DADOS PESSOAIS:**  \n• **Mãe:** Fernanda, 28 anos, auxiliar administrativa.  \n• **Criança:** Pedro, 2 horas de vida.  \n\n**MOTIVO DE CONSULTA:** Dr(a), me chamaram porque meu filho está com dificuldade pra respirar. Ele nasceu faz pouco tempo e me disseram que estava sujo.  \n\n**SOBRE A QUEIXA:**  \n• **Início:** logo depois que nasceu ele já estava assim.  \n• **Respiração:** está respirando muito rápido e fazendo um barulho estranho.  \n• **Coloração:** ele ficou meio roxinho no comecinho, mas melhorou um pouco.  \n• **Amamentação:** ainda não consegui amamentar, ele está na incubadora.  \n\n**ANTECEDENTES PERINATAIS:**  \n• **Pré-natal:** fiz todas as consultas, mas nas últimas semanas o médico disse que o líquido estava diminuindo.  \n• **Idade gestacional:** 42 semanas, passou do tempo.  \n\n• **Tipo de parto:** foi parto normal.  \n• **Trabalho de parto:** sim, foram muitas horas, quase 18 horas.  \n\n• **Líquido amniótico:** me falaram que tinha um líquido verde e grosso.  \n\n• **Condição ao nascer:** ele nasceu molinho, não chorou direito. Precisaram fazer umas manobras nele.  \n\n• **Doenças maternas:** tenho pressão alta, tomo remédio certinho.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ele tem, doutor(a)?*  \n• *Por quanto tempo ele vai precisar ficar internado?*  \n• *Vai precisar tomar algum remédio?*  \n• *Isso aconteceu por minha culpa?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FICHA DO RECÉM-NASCIDO",
+      "conteudo": "• **Peso ao nascer:** 3.850 g.  \n• **Idade gestacional:** 42 semanas (pós-termo).  \n• **Tipo de parto:** Vaginal, trabalho de parto prolongado (18 horas).  \n• **Apgar:** 4/6/7.  \n\n\n• **Reanimação neonatal:** necessária - VPP com máscara e aspiração traqueal.  \n• **Líquido amniótico:** meconial 3+/4+.  \n\n\n• **Pré-natal:** realizado com 8 consultas. Oligodramnia nas últimas semanas.  \n\n• **Doenças maternas:** Hipertensão arterial crônica em uso de metildopa.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Frequência Respiratória:** 78 incursões respiratórias por minuto.  \n• **Frequência Cardíaca:** 168 batimentos por minuto.  \n• **Temperatura Axilar:** 36,2°C.  \n• **Saturação de Oxigênio em ar ambiente:** 82%.  \n\n\n**EXAME CLÍNICO:**  \n• **Estado geral:** hipoativo, irritado ao manuseio.  \n\n• **Inspeção:** impregnação meconial em pele e unhas, aumento do diâmetro anteroposterior do tórax.  \n\n• **Ausculta pulmonar:** murmúrio vesicular presente bilateralmente, com roncos difusos e estertores grosseiros. Presença de tiragem intercostal, batimento de asa nasal e gemência expiratória.  \n\n• **Ausculta cardíaca:** ritmo cardíaco regular, taquicárdico, bulhas normofonéticas, sem sopros audíveis.  \n\n• **Abdome:** escavado, sem visceromegalias.  \n\n• **Extremidades:** cianose de extremidades, pulsos periféricos palpáveis.  \n\n• **Neurológico:** hipotonia global, reflexos primitivos diminuídos.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ADIOGRAFIA DE TÓRAX",
+      "conteudo": "**RADIOGRAFIA DE TÓRAX**  \n\n\n**Descreva os achados radiológicos.**",
+      "imagem": "img_printeds/e323p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemoglobina:** 18,2 g/dL (VR: 14,0 – 20,0 g/dL)  \n• **Hematócrito:** 55% (VR: 42 – 60%)  \n• **Leucócitos:** 24.800/mm³ (VR: 9.000 – 30.000/mm³)  \n• **Bastões:** 12% (VR: 0 – 5%)  \n• **Plaquetas:** 198.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**GASOMETRIA ARTERIAL:**  \n• **pH:** 7,22 (VR: 7,35 – 7,45)  \n• **PaCO2:** 58 mmHg (VR: 35 – 45 mmHg)  \n• **PaO2:** 42 mmHg (VR: 60 – 80 mmHg)  \n• **HCO3:** 18 mEq/L (VR: 22 – 26 mEq/L)  \n• **BE:** -8 (VR: -2 a +2)  \n\n• **Lactato:** 6,2 mmol/L (VR: < 2,0 mmol/L)  \n\n\n• **Glicemia capilar:** 52 mg/dL (VR: 40 – 100 mg/dL)  \n• **Cálcio iônico:** 1,08 mmol/L (VR: 1,10 – 1,30 mmol/L)  \n• **PCR:** 18 mg/L (VR: < 5 mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "ECOCARDIOGRAMA",
+      "conteudo": "• Estrutura cardíaca sem malformações aparentes.  \n\n• Sinais de hipertensão pulmonar com shunt direita-esquerda pelo forame oval.  \n\n• Pressão sistólica de artéria pulmonar estimada em 55 mmHg.  \n\n• Função ventricular preservada.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe de maneira cordial;  \n(3) mantém contato visual durante a apresentação; e,  \n(4) pergunta o nome da mãe e o nome da criança.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre antecedentes pré-natais e perinatais:**  \n(1) realização e qualidade do pré-natal;  \n(2) idade gestacional ao nascimento;  \n(3) tipo de parto e duração do trabalho de parto;  \n(4) aspecto do líquido amniótico;  \n(5) condições de nascimento e necessidade de reanimação;  \n(6) doenças maternas ou intercorrências gestacionais; e,  \n(7) volume de líquido amniótico.  \n\n**Adequado:** pergunta seis ou mais itens.  \n**Parcialmente adequado:** pergunta quatro ou cinco itens.  \n**Inadequado:** pergunta três itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico do recém-nascido.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita radiografia de tórax e descreve os achados compatíveis com Síndrome de Aspiração Meconial:**  \n(1) infiltrado alveolar grosseiro difuso ou aspecto granular grosseiro;  \n(2) hiperinsuflação pulmonar ou achatamento diafragmático;  \n(3) áreas de atelectasia; e,  \n(4) pneumotórax ou pneumomediastino.  \n\n**Adequado:** solicita e descreve três ou mais achados.  \n**Parcialmente adequado:** solicita e descreve dois achados.  \n**Inadequado:** não solicita OU descreve um achado ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais pertinentes ao caso:**  \n(1) hemograma completo;  \n(2) gasometria arterial;  \n(3) glicemia;  \n(4) eletrólitos (cálcio, sódio, potássio); e,  \n(5) hemocultura.  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita dois exames ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a hipótese diagnóstica de Síndrome de Aspiração Meconial (SAM).**  \n\n**Adequado:** verbaliza corretamente.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita diagnósticos diferenciais para o quadro:**  \n(1) Síndrome do Desconforto Respiratório OU Doença da Membrana Hialina;  \n(2) Pneumonia neonatal OU Sepse neonatal;  \n(3) Taquipneia Transitória do Recém-Nascido;  \n(4) Hipertensão Pulmonar Persistente do Recém-Nascido; e,  \n(5) Cardiopatia congênita cianótica.  \n\n**Adequado:** cita três ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** cita dois diagnósticos diferenciais.  \n**Inadequado:** cita um diagnóstico ou não cita diagnóstico algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita fatores de risco relacionados à Síndrome de Aspiração Meconial:**  \n(1) pós-maturidade ou gestação pós-termo;  \n(2) sofrimento fetal agudo ou crônico;  \n(3) oligodramnia;  \n(4) trabalho de parto prolongado;  \n(5) hipertensão arterial materna ou pré-eclâmpsia;  \n(6) insuficiência placentária; e,  \n(7) restrição de crescimento intrauterino.  \n\n**Adequado:** cita três ou mais fatores de risco.  \n**Parcialmente adequado:** cita dois fatores de risco.  \n**Inadequado:** cita um fator de risco ou não cita fator algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita ecocardiograma para avaliação de hipertensão pulmonar.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a conduta terapêutica inicial adequada:**  \n(1) internação em UTI neonatal;  \n(2) suporte ventilatório (oxigenoterapia, CPAP ou ventilação mecânica);  \n(3) manutenção da termorregulação;  \n(4) suporte nutricional com jejum inicial e hidratação venosa; e,  \n(5) antibioticoterapia empírica.  \n\n**Adequado:** indica quatro ou mais condutas.  \n**Parcialmente adequado:** indica três condutas.  \n**Inadequado:** indica duas condutas ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica antibioticoterapia empírica com esquema adequado para sepse neonatal precoce:**  \n(1) Ampicilina; e,  \n(2) Gentamicina OU Amicacina.  \n\n**Adequado:** indica os dois antimicrobianos.  \n**Parcialmente adequado:** indica apenas um antimicrobiano adequado.  \n**Inadequado:** não indica ou indica esquema inadequado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a mãe sobre a gravidade do quadro e o prognóstico:**  \n(1) explica que é uma condição grave que necessita de cuidados intensivos;  \n(2) explica que a melhora costuma ocorrer em 5 a 7 dias na ausência de complicações; e,  \n(3) orienta sobre possíveis complicações como hipertensão pulmonar ou pneumotórax.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

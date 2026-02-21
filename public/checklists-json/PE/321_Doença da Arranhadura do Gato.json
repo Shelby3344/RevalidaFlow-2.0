@@ -1,0 +1,205 @@
+{
+  "uid": 321,
+  "hash": "pepe_321",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Doença da Arranhadura do Gato",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: urgência e emergência - unidade de pronto atendimento.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• setor de radiologia convencional;  \n• laboratório de análises clínicas.\n\nDescrição do caso:\nVocê é médico de uma UPA e atenderá uma menina de 9 anos, acompanhada pela mãe, com queixa de febre, alteração ocular e caroços doloridos.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso.  \n- Solicitar o exame físico pertinente.  \n- Solicitar e interpretar os exames complementares adequados.  \n- Formular e verbalizar a hipótese diagnóstica.  \n- Orientar a conduta terapêutica e medidas preventivas.  \n- Citar possíveis complicações da doença.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Juliana, 38 anos, comerciante.  \n• **Criança:** Clarissa, 9 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), minha filha está com febre, alteração no olho e uns caroços doloridos no pescoço e na axila.  \n\n**SOBRE A FEBRE:**  \n• **Início:** começou há 2 dias.  \n• **Aferição:** medi em casa e estava 38,7°C.  \n• **Sudorese:** sim, a camiseta dela estava molhada.  \n\n\n**SOBRE A ALTERAÇÃO OCULAR:**  \n• **Início:** começou há 1 dia.  \n• **Característica:** está meio inchado, parece que está um pouco pra fora.  \n• **Vermelhidão:** sim, está bem vermelho e irritado.  \n• **Secreção:** não tem secreção.  \n• **Coceira:** sim, está coçando bastante.  \n\n**SOBRE OS CAROÇOS:**  \n• **Início:** apareceram há 2 dias.  \n• **Quantidade:** percebi uns 3, no pescoço e na axila do lado esquerdo.  \n• **Dor:** sim, ela reclama de muita dor quando toca.  \n• **Crescimento:** parecem estar do mesmo tamanho.  \n• **Secreção:** não tem secreção saindo.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Náuseas ou vômitos:** não teve.  \n• **Evacuações:** normais.  \n• **Irritabilidade:** está mais chatinha nos últimos dias.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **VACINAÇÃO:** está tudo em dia.  \n\n**CONDIÇÕES DE MORADIA:**  \n• **Animais de estimação:** sim, temos um cachorro, uns passarinhos e 3 gatos.  \n\n**ALIMENTAÇÃO:**  \n• Come bem, com frutas, verduras e legumes.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Como ela pegou essa doença?*  \n• *Precisa fazer exames?*  \n• *Existe algum tratamento específico?*  \n• *O que eu faço com os meus animais?* (perguntar apenas se o candidato acertar o diagnóstico)",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência Cardíaca:** 102 batimentos por minuto.  \n**Frequência Respiratória:** 16 incursões respiratórias por minuto.  \n**Temperatura Axilar:** 38,2°C.  \n**Pressão Arterial:** 110 x 70 mmHg.  \n\n\n**ECTOSCOPIA:**  \nRegular estado geral, febril, normocorada, hidratada, acianótica, anictérica.  \n\n\n**PELE:**  \nSem exantemas ou lesões cutâneas visíveis. Escoriação cicatrizada em antebraço esquerdo.  \n\n\n**EXAME OCULAR:**  \nOlho esquerdo com hiperemia conjuntival, edema palpebral, presença de granuloma conjuntival. Olho direito sem alterações.  \n\n\n**LINFADENOMEGALIA:**  \n• Linfonodo pré-auricular esquerdo: 1,7 cm, móvel, doloroso, consistência firme.  \n• Linfonodo cervical posterior esquerdo: 2,9 cm, móvel, doloroso, consistência firme.  \n• Linfonodo axilar esquerdo: 3,5 cm, móvel, doloroso, consistência firme.  \n• Demais cadeias linfonodais sem alterações.  \n\n\n**DEMAIS SISTEMAS:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DAS LESÕES",
+      "conteudo": "**VERBALIZE O ACHADO DA IMAGEM**",
+      "imagem": "img_printeds/e321p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemácias:** 4,5 milhões/mm³ (VR: 4,0 – 5,2 milhões/mm³)  \n• **Hemoglobina:** 12,8 g/dL (VR: 11,5 – 14,5 g/dL)  \n• **Hematócrito:** 38% (VR: 35 – 45%)  \n• **VCM:** 84 fL (VR: 80 – 100 fL)  \n• **HCM:** 28 pg (VR: 26 – 33 pg)  \n• **Plaquetas:** 195.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n• **Leucócitos:** 13.510/mm³ (VR: 5.000 – 11.000/mm³)  \n• **Neutrófilos:** 75% (VR: 40 – 70%)  \n• **Bastões:** 7% (VR: 0 – 5%)  \n• **Linfócitos:** 15% (VR: 20 – 50%)  \n• **Monócitos:** 3% (VR: 2 – 8%)  \n\n\n• **PCR:** 4,2 mg/dL (VR: < 0,5 mg/dL)  \n• **VHS:** 42 mm/h (VR: < 20 mm/h)  \n\n• **TGO:** 32 U/L (VR: 15 – 40 U/L)  \n• **TGP:** 28 U/L (VR: 10 – 40 U/L)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "SOROLOGIA PARA BARTONELLA HENSELAE",
+      "conteudo": "• **IgM para Bartonella henselae:** Reagente  \n• **IgG para Bartonella henselae:** Reagente",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe de maneira cordial;  \n(3) mantém contato visual;  \n(4) pergunta o nome da mãe e da criança.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da febre:**  \n(1) início;  \n(2) temperatura aferida;  \n(3) predileção de horário;  \n(4) sudorese ou calafrios;  \n(5) uso de medicação antipirética.  \n\n**Adequado:** pergunta quatro ou mais características.  \n**Parcialmente adequado:** pergunta duas ou três características.  \n**Inadequado:** pergunta uma característica ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre as características da alteração ocular:**  \n(1) início;  \n(2) lateralidade;  \n(3) presença de vermelhidão ou edema;  \n(4) presença de secreção;  \n(5) prurido ou irritação;  \n(6) uso de medicação tópica.  \n\n**Adequado:** pergunta quatro ou mais características.  \n**Parcialmente adequado:** pergunta duas ou três características.  \n**Inadequado:** pergunta uma característica ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre as características da linfadenomegalia:**  \n(1) início;  \n(2) localização e quantidade;  \n(3) dor;  \n(4) consistência;  \n(5) mobilidade;  \n(6) presença de secreção ou fistulização.  \n\n**Adequado:** pergunta quatro ou mais características.  \n**Parcialmente adequado:** pergunta duas ou três características.  \n**Inadequado:** pergunta uma característica ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.37",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga sintomas associados:**  \n(1) náuseas ou vômitos;  \n(2) manchas ou lesões de pele;  \n(3) dor abdominal;  \n(4) alterações urinárias;  \n(5) irritabilidade ou prostração;  \n(6) artralgia ou mialgia.  \n\n**Adequado:** investiga quatro ou mais sintomas.  \n**Parcialmente adequado:** investiga dois ou três sintomas.  \n**Inadequado:** investiga um sintoma ou não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga fatores epidemiológicos e antecedentes:**  \n(1) contato com animais, especialmente gatos;  \n(2) arranhadura ou mordedura por animais;  \n(3) condições de moradia;  \n(4) vacinação da criança;  \n(5) antecedentes patológicos e alergias.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.37",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame físico completo incluindo ectoscopia das lesões.**  \n\n**Adequado:** solicita exame físico completo e ectoscopia das lesões.  \n**Parcialmente adequado:** solicita apenas exame físico geral ou apenas ectoscopia.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza os achados relevantes do exame físico:**  \n(1) linfadenomegalia regional (pré-auricular, cervical e axilar esquerdas);  \n(2) síndrome oculoglandular de Parinaud ou conjuntivite granulomatosa.  \n\n**Adequado:** verbaliza os dois achados.  \n**Parcialmente adequado:** verbaliza apenas um achado.  \n**Inadequado:** não verbaliza achado algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita hemograma e interpreta corretamente:**  \n\n**Adequado:** solicita hemograma e verbaliza leucocitose com desvio à esquerda.  \n**Parcialmente adequado:** solicita hemograma, mas não interpreta corretamente.  \n**Inadequado:** não solicita hemograma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita sorologia para Bartonella henselae.**  \n\n**Adequado:** solicita sorologia para Bartonella henselae.  \n**Inadequado:** não solicita sorologia específica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza o diagnóstico de Doença da Arranhadura do Gato:**  \n\n**Adequado:** verbaliza o diagnóstico corretamente.  \n**Inadequado:** não verbaliza o diagnóstico ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a conduta terapêutica:**  \n(1) orienta que a condição geralmente é autolimitada;  \n(2) prescreve analgésicos e antitérmicos para alívio sintomático;  \n(3) prescreve antibioticoterapia adequada via oral (azitromicina ou sulfametoxazol-trimetoprima ou ciprofloxacino ou claritromicina).  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Cita possíveis complicações da doença:**  \n(1) envolvimento hepatoesplênico;  \n(2) envolvimento neurológico (encefalopatia, meningite asséptica);  \n(3) endocardite;  \n(4) osteomielite;  \n(5) sepse em imunodeprimidos.  \n\n**Adequado:** cita duas ou mais complicações.  \n**Parcialmente adequado:** cita uma complicação.  \n**Inadequado:** não cita complicação alguma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta medidas de prevenção:**  \n(1) evitar arranhões e mordidas de gatos;  \n(2) lavar imediatamente qualquer ferimento com água e sabão;  \n(3) controle de pulgas nos animais;  \n(4) higiene das mãos após contato com animais;  \n(5) levar os gatos ao veterinário.  \n\n**Adequado:** orienta três ou mais medidas.  \n**Parcialmente adequado:** orienta duas medidas.  \n**Inadequado:** orienta uma medida ou não orienta medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

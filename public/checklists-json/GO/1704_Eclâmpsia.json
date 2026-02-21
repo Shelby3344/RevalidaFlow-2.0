@@ -1,0 +1,177 @@
+{
+  "uid": 1704,
+  "hash": "pepe_1704",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Eclâmpsia",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está de plantão em um pronto-socorro.\n\nDescrição do caso:\nVocê está de plantão em um pronto-socorro de um município de 10.000 habitantes.  \nA maternidade mais próxima fica a 20 km. Você vai atender uma gestante, com  \n37 semanas de gestação, com queixa de dor de cabeça.",
+  "tarefas": "Nos próximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar a anamnese direcionada para a queixa;  \n- verbalizar a hipótese diagnóstica;  \n- adotar a conduta médica imediata e, em seguida, verbalizar a continuidade da  \nconduta passo a passo;  \n- verbalizar o tratamento medicamentoso indicado para o caso neste momento e  \ntomar as demais medidas necessarias.  \n\n\nNão será necessária a realização de exame físico.  \nCaso necessite, no momento adequado, solicite dados do exame físico ao(a) examinador(a).",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Paula, 31 anos, engenheira.  \n\n**QUEIXA PRINCIPAL:** Estou sentindo muita dor de cabeça.  \n\n\n**SOBRE A CEFALEIA:**  \n• **Início:** há 2 horas.  \n• **Localização:** a cabeça toda.  \n• **Irradiação:** não irradia.  \n• **Característica:** em aperto.  \n• **Intensidade:** 8/10. Começou leve e está aumentado.  \n• **Atenuantes/Agravantes:** nada melhora, não tomei nada.  \n\n\n**SINTOMAS ASSOCIADOS:**  \n• **Alteração visual:** comecei a ver uns pontos pretos e flashes também.  \n• **Epigastralgia:** Aqui no estômago está doendo agora.  \n\n\n**DEMAIS QUEIXAS:** Estou me sentindo muito mal Dr(a). Acho que vou desmaiar. (A paciente desmaia).  \n• Doutor(a), aqui é a Técnica Maria, a paciente está convulsionando! O que devemos fazer?  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS E ORIENTAÇÕES:**  \nApós o candidato verbalizar a conduta medicamentosa, perguntar:  \n• Doutor o que a paciente teve?  \n• O que vamos fazer agora?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA GESTANTE",
+      "conteudo": "",
+      "imagem": "img_printeds/2017-e4p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "PA: 150 x 100 mmHg  \n\n\nDemais informações da paciente normais para 37 semanas de gestação.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME OBSTÉTRICO",
+      "conteudo": "**EXAME FÍSICO OBSTÉTRICO**  \n\n\nAusculta dos batimentos cardíacos fetais = 140 bpm.  \n\n\nSem contrações uterinas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e pergunta o nome da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta outros sintomas de iminência de eclâmpsia:**  \n(1) escotomas e/ou  \n(2) fosfenas e/ou  \n(3) epigastralgia.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita dados referentes ao (à):**  \n(1) cartão pré-natal;  \n(2) exame físico - pressão arterial;  \n(3) ausculta de batimentos fetais.  \n\n**Inadequado:** se solicitar de 0 a 1 item;  \n**Parcialmente adequado:** se solicitar 2 itens;  \n**Adequado:** se solicitar os 3 itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Contém a paciente para não se machucar.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Lateraliza a cabeça da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita acesso venoso.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita colocação da cânula de Guedel.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicitar catéter de O2.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Tratamento com sulfato de magnésio:**  \n- Esquema Pritchard: 4g de sulfato de magnésio, endovenoso;  \n5g de sulfato de magnésio, intramuscular, em cada nádega;  \n- ou Esquema de Zuspan: 4g de sulfato de magnésio, endovenoso;  \n- ou Esquema de Sibai: 6g de sulfato de magnésio, endovenoso;  \n\n**Inadequado:** se mencionar somente o nome do esquema e não descreve-lo e/ou se associar diazepam;  \n**Parcialmente adequado:** se acertar a medicação;  \n**Adequado:** se acertar a medicação, a dose e a via de administração.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.5",
+        "adequado": "3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a administração do sulfato de magnésio de forma lenta (10 a 20');**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Fala que o diagnóstico é de ECLÂMPSIA.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Encaminha a paciente, logo após o tratamento da dose de ataque do sulfato de magnésio para serviço de referência.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "uid": 413,
+  "hash": "pepe_413",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Inserção de Implante Subdérmico de Etonogestrel (Implanon®)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• sala de procedimentos;\n\nDescrição do caso:\nVocê é médico(a) em uma UBS e atenderá uma paciente de 32 anos, sem queixas, que comparece à consulta porque deseja inserir um implante subdérmico como método contraceptivo.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese ginecológica direcionada.  \n- Solicitar os exames pertinentes antes da inserção do implante.  \n- Orientar a paciente sobre o método contraceptivo escolhido.  \n- Verbalizar a técnica de inserção do implante de forma completa.  \n- Orientar os cuidados pós-procedimento.  \n\n\\\nATENÇÃO! A INSERÇÃO DO IMPLANTE SERÁ REALIZADA DE MANEIRA VERBAL.  \nVOCÊ DEVE VERBALIZAR CADA ETAPA DA TÉCNICA QUE REALIZAR.  \nCONSIDERE O EXAME FÍSICO REALIZADO E DENTRO DA NORMALIDADE.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marina, 32 anos, advogada, casada.  \n\n**MOTIVO DE CONSULTA:** Dr(a), quero colocar aquele implante no braço. Gostaria de usar ele porque parece ser muito prático e não preciso ficar tomando comprimido.  \n\n**MENSTRUAÇÃO:**  \n• **Menarca:** aos 11 anos.  \n• **Ciclos menstruais:** regulares, a cada 30 dias.  \n• **Duração do fluxo:** 4 dias, fluxo moderado.  \n• **Dismenorreia:** tenho cólica leve no primeiro dia.  \n• **Data da última menstruação:** há 3 dias, ainda estou menstruada.  \n\n• **Papanicolau:** fiz há 6 meses, normal.  \n• **IST prévia:** nunca tive.  \n\n**RELAÇÃO SEXUAL:**  \n• **Sexarca:** aos 17 anos.  \n• **Parceiro:** tenho parceiro fixo, meu marido.  \n• **Uso de preservativo:** não usamos, porque estou tentando engravidar há 1 ano, mas agora desistimos por enquanto.  \n• **Contraceptivo atual:** estou sem nenhum método no momento.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **Gestações:** tive 1 filho, parto normal, há 5 anos. Não tive aborto (G1P1A0).  \n• **Amamentação:** amamentei por 1 ano.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Trombose:** nunca tive trombose.  \n• **Câncer de mama:** não tenho e ninguém na família teve.  \n\n**HÁBITOS:**  \n• **Tabagismo:** não fumo.  \n• **Álcool:** bebo uma taça de vinho às vezes.  \n• **Drogas:** nunca usei.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Por quanto tempo o implante funciona?*  \n• *O implante pode causar algum efeito colateral?*  \n• *Depois que tirar, demora para engravidar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "TESTE BETA-HCG",
+      "conteudo": "• **Resultado:** NEGATIVO.  \n• **Valor de Referência:** Negativo (não gestante).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "VERIFICAÇÃO PÓS-PROCEDIMENTO",
+      "conteudo": "Implante palpável bilateralmente sob a pele da face interna do braço esquerdo.  \n\nAmbas as extremidades do dispositivo são identificáveis à palpação.  \n\nAusência de sangramento ativo no local de inserção.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e mantém postura adequada durante a consulta:**  \n(1) identifica-se e cumprimenta a paciente;  \n(2) dirige-se a ela pelo nome ao menos uma vez;  \n(3) mantém postura empática e acolhedora; e,  \n(4) utiliza linguagem acessível.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese ginecológica direcionada:**  \n(1) data da última menstruação;  \n(2) características do ciclo menstrual (regularidade e fluxo);  \n(3) presença de dismenorreia;  \n(4) vida sexual e parceria atual;  \n(5) uso atual de método contraceptivo; e,  \n(6) antecedentes obstétricos (gestações, partos, amamentação).  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga três itens.  \n**Inadequado:** investiga dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga contraindicações para o uso do implante de etonogestrel:**  \n(1) história de trombose venosa ou arterial;  \n(2) câncer de mama atual ou prévio;  \n(3) doença hepática ativa;  \n(4) sangramento genital de origem desconhecida;  \n(5) alergia aos componentes do implante;  \n(6) cefaleia com aura;  \n(7) Gravidez.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita Beta-HCG ou Teste Rápido para exclusão de gravidez antes da inserção do implante.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Informa sobre a eficácia e as características do implante subdérmico:**  \n(1) é um método altamente eficaz (índice de Pearl inferior a 0,1%);  \n(2) tem duração de 3 anos;  \n(3) contém apenas progestagênio, sendo indicado para quem tem contraindicação ao estrogênio; e,  \n(4) não protege contra Infecções Sexualmente Transmissíveis.  \n\n**Adequado:** informa três ou mais características.  \n**Parcialmente adequado:** informa duas características.  \n**Inadequado:** informa uma característica ou não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Informa sobre os principais efeitos adversos do implante:**  \n(1) alteração do padrão de sangramento menstrual (sangramento irregular, spotting ou amenorreia);  \n(2) cefaleia;  \n(3) acne;  \n(4) alteração de peso; e,  \n(5) alterações de humor.  \n\n**Adequado:** informa três ou mais efeitos.  \n**Parcialmente adequado:** informa dois efeitos.  \n**Inadequado:** informa um efeito ou não informa efeito algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Informa sobre o retorno da fertilidade após a remoção do implante:**  \n\n**Adequado:** informa que a ovulação retorna em 3 a 4 semanas após a remoção.  \n**Inadequado:** não informa ou informa incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita os materiais necessários para o procedimento:**  \n(1) implante subdérmico com aplicador;  \n(2) luvas estéreis;  \n(3) gazes estéreis;  \n(4) antisséptico (clorexidina ou álcool 70%);  \n(5) anestésico local (lidocaína 1% sem vasoconstritor);  \n(6) seringa e agulha para anestesia; e,  \n(7) curativo e atadura compressiva.  \n\n**Adequado:** solicita quatro ou mais materiais.  \n**Parcialmente adequado:** solicita três materiais.  \n**Inadequado:** solicita dos materiais ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza o posicionamento correto da paciente e a identificação do local de inserção:**  \n(1) paciente em decúbito dorsal com braço não dominante flexionado e voltado para fora;  \n(2) identificação da face interna do braço, 8 a 10 cm acima do epicôndilo medial do úmero; e,  \n(3) marcação do ponto de inserção e do ponto de orientação (4 a 5 cm acima).  \n\n**Adequado:** verbaliza dois ou três passos.  \n**Parcialmente adequado:** verbaliza um passo.  \n**Inadequado:** não verbaliza passo algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza a preparação do local de inserção:**  \n(1) realiza antissepsia do local com solução adequada; e,  \n(2) realiza anestesia local com lidocaína 1% no trajeto subdérmico.  \n\n**Adequado:** verbaliza os dois passos.  \n**Inadequado:** verbaliza um passo ou não verbaliza passo algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza os passos da técnica de inserção do implante:**  \n(1) remove a capa protetora do aplicador sem tocar no deslizante roxo;  \n(2) distende a pele ao redor do local de inserção;  \n(3) perfura a pele com a agulha em ângulo inferior a 30 graus;  \n(4) posiciona o aplicador horizontalmente, elevando a pele com a ponta da agulha;  \n(5) insere a agulha em toda sua extensão, mantendo-a no plano subdérmico; e,  \n(6) empurra o deslizante roxo para trás até o final, liberando o implante e recolhendo a agulha.  \n\n**Adequado:** verbaliza três ou mais passos.  \n**Parcialmente adequado:** verbaliza dois passos.  \n**Inadequado:** verbaliza um passo ou não verbaliza passo algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza a verificação do implante após a inserção:**  \n(1) verifica se a agulha está retraída no aplicador;  \n(2) palpa o implante no braço da paciente, identificando ambas as extremidades; e,  \n(3) solicita que a paciente também palpe o implante para confirmação.  \n\n**Adequado:** verbaliza dois ou três passos.  \n**Parcialmente adequado:** verbaliza um passo.  \n**Inadequado:** não verbaliza passo algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta os cuidados pós-procedimento:**  \n(1) manter curativo compressivo por 24 horas e curativo oclusivo por 3 a 5 dias;  \n(2) uso de preservativo nos primeiros 7 dias após a inserção;  \n(3) retornar em caso de dor, secreção, inchaço no local ou febre; e,  \n(4) o implante não protege contra IST, sendo recomendado o uso de preservativo.  \n\n**Adequado:** orienta três ou mais cuidados.  \n**Parcialmente adequado:** orienta dois cuidados.  \n**Inadequado:** orienta um cuidado ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

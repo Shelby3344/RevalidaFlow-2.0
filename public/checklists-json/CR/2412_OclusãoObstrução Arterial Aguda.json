@@ -1,0 +1,189 @@
+{
+  "uid": 2412,
+  "hash": "pepe_2412",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Oclusão\\Obstrução Arterial Aguda",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \n\nA unidade apresenta a seguinte infraestrutura:  \n* ultrassonografia, eletrocardiograma;  \n* laboratório de análises clínicas;  \n* centro cirúrgico.  \n\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.\n\nDescrição do caso:\nVocê vai atender um homem com 50 anos de idade que procura o serviço de emergência por apresentar dor na perna esquerda.",
+  "tarefas": "Nos 10 minutos de duração da Estação, você deverá executar as seguintes tarefas:  \n* Realizar a anamnese;  \n* Solicitar e interpretar os exames físicos geral e específico;  \n* Solicitar e interpretar os exames laboratoriais específicos;  \n* Solicitar e interpretar os exames complementares específicos;  \n* Identificar a causa do problema;  \n* Orientar a conduta inicial mais indicada ao quadro clínico.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Antônio, 50 anos, porteiro.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com uma dor muito forte na minha perna esquerda.  \n\n**SOBRE DOR:**  \n• **Início:** Começou de repente, faz umas 2 horas.  \n• **Localização:** A perna esquerda inteira.  \n• **Característica:** Parece que está apertando e queimando ao mesmo tempo.  \n• **Intensidade:** É a pior dor que já senti na vida, nota 10.  \n• **Atenuantes/agravantes:** Piora quando eu levanto a perna. Nada melhora a dor.  \n• **Episódio anterior:** Nunca senti isso antes.  \n• **Trauma:** Não, não machuquei a perna.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Alteração de cor:** Minha perna está mais branca, pálida.  \n• **Alteração de temperatura:** Sinto ela mais fria.  \n• **Formigamento e sensibilidade:** Sinto um pouco de formigamento. Dói quando toca.  \n• **Alteração de mobilidade:** Consigo mexer o pé.  \n• **Palpitações:** Ontem eu senti meu coração bater esquisito.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Tenho pressão alta e uma tal de fibrilação atrial, mas não tomo nenhum remédio.  \n• **Cirurgias e internações:** Nunca fiz cirurgia nem fiquei internado.  \n• **Álcool, tabaco e drogas:** Não bebo e não fumo.  \n• **Alimentação:** Como comida normal.  \n• **Atividade física:** Não faço exercício.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que isso significa? O que eu tenho doutor?*  \n• *O que causou esse problema? O que precisa ser feito agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**IMPRESSO – EXAME FÍSICO GERAL**  \n\n\n**SINAIS VITAIS:**  \n* Pressão Arterial: 160 x 90 mmHg.  \n* Frequência Cardíaca: 110 batimentos por minuto.  \n* Frequência Respiratória: 20 incursões respiratórias por minuto.  \n* Saturação de Oz: 96% em ar ambiente.  \n* Temperatura axilar: 37°C.  \n* IMC: 24 kg/m².  \n\n\n**EXAME CLÍNICO:**  \n* Exame Geral: regular estado geral, corado, hidratado, afebril, anictérico, acianótico.  \n* Exame de Tórax: murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Ritmo cardíaco irregular, sem sopros.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME DE MEMBROS INFERIORES",
+      "conteudo": "* Membro inferior esquerdo: pálido, frio ao toque, com diminuição do turgor cutâneo. Ausência de pulsos palpáveis nas artérias femoral, poplítea e pediosa. Sensibilidade tátil e dolorosa preservada. Força muscular diminuída no pé (4/5).  \n* Membro inferior direito: sem alterações. Pulsos arteriais palpáveis.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Hemoglobina (Hb):** 13,5 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Hematócrito (Hct):** 40,2 % (VR: 40 – 50%)  \n• **Leucócitos:** 10.500 mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 240.000 mm³ (VR: 150.000 – 450.000/mm³)  \n\n• **Tempo de Protrombina (TP):** 13,2 segundos (VR: 11 – 14,5 segundos)  \n• **INR (Razão Normalizada Internacional):** 1,1 (VR: 0,8 – 1,2)  \n• **Tempo de Tromboplastina Parcial Ativada (TTPA):** 32,5 segundos (VR: 25 – 35 segundos)  \n• **Fibrinogênio:** 450 mg/dL (VR: 200 – 400 mg/dL)  \n\n• **Creatinina:** 1,1 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 38 mg/dL (VR: 10 – 40 mg/dL)  \n\n• **CPK (Creatina Fosfoquinase):** 230 U/L (VR: 30 – 200 U/L)  \n• **LDH (Lactato Desidrogenase):** 280 U/L (VR: 100 – 190 U/L)  \n• **Glicose:** 105 mg/mL (VR: 70 – 99 mg/dL)  \n• **Dímero D:** 250 ng/mL (VR: <500 ng/mL)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ECG",
+      "conteudo": "**LAUDO:**  \n* Ausência de ondas P. Complexos QRS normais, com intervalos R-R irregulares, sem padrão rítmico previsível.  \n* Frequência ventricular de 120 batimentos por minuto.  \n* Não há evidência de bloqueio de ramo ou outras anormalidades significativas nos complexos QRS.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAME DE IMAGEM",
+      "conteudo": "**IMPRESSO – EXAME DE IMAGEM**  \n\n\n**ULTRASSOM DOPPLER DE MEMBROS INFERIORES:**  \n* Artéria Femoral Comum (Esquerda): artéria com paredes lisas e presença de obstrução no seu terço distal.  \n* Artéria femoral Profunda (Esquerda): com fluxo lentificado.  \n* Artéria Femoral Superficial, poplítea, tibial anterior e posterior (Esquerda): ausência de fluxo ao Doppler.  \n* Artérias do Membro Inferior Direito: fluxo normal em todas as artérias examinadas.  \n\n\n**IMPRESSÃO DIAGNÓSTICA:**  \n* Ausência de fluxo distal na perna esquerda. Membro inferior direito sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se; e,  \n(2) pergunta o nome e cumprimenta o paciente simulado.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta características da dor.**  \n(1) início e/ou duração;  \n(2) tipo / característica;  \n(3) localização e irradiação;  \n(4) intensidade;  \n(5) fatores agravantes / de piora;  \n(6) fatores atenuantes /de melhora;  \n(7) episódios prévios de dor no membro acometido.  \n\n**Adequado:** pergunta as cinco ou mais características.  \n**Parcialmente adequado:** pergunta três ou quatro características.  \n**Inadequado:** pergunta uma ou duas características OU não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona a presença dos seguintes sintomas associados no MIE:**  \n(1) palidez OU alteração da cor do membro;  \n(2) frialdade (poiquilotermia) ou alteração de temperatura;  \n(3) parestesia / formigamento/ alteração da sensibilidade;  \n(4) alteração de mobilidade OU dificuldade para caminhar;  \n(5) edema.  \n\n**Adequado:** investiga quatro ou mais sintomas.  \n**Parcialmente adequado:** investiga dois ou três sintomas.  \n**Inadequado:** investiga apenas um sintoma OU não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre antecedentes e queixas prévias:**  \n(1) palpitações OU doenças cardíacas;  \n(2) histórico de trauma e/ou lesão em pele;  \n(3) histórico de claudicação;  \n(4) doenças prévias (comorbidades) e uso de medicamentos;  \n(5) hábitos de vida (uso de drogas lícitas e ilícitas, atividade física).  \n\n**Adequado:** investiga quatro ou mais antecedentes.  \n**Parcialmente adequado:** investiga três antecedentes.  \n**Inadequado:** investiga dois ou menos OU não investiga antecedente algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza hipótese diagnóstica de oclusão/obstrução ou interrupção arterial aguda.**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita os exames laboratoriais:**  \n(1) hemograma completo;  \n(2) coagulograma completo ou fatores de coagulação;  \n(3) função renal (creatinina e ureia);  \n(4) marcadores de lesão celular (CPK e/ou mioglobina).  \n\n**Adequado:** solicita três exames ou mais.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um exame OU não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita ECG e/ou ecocardiograma.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita algum dos seguintes exames de imagem de MI:**  \n(1) arteriografia;  \n(2) angiotomografia;  \n(3) USG Doppler;  \n(4) angiorressonância magnética.  \n\n**Adequado:** solicita qualquer um dos exames listados.  \n**Inadequado:** não solicita nenhum dos exames citados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Identifica corretamente a causa (etiologia) como sendo secundária a embolia de origem cardíaca (Fibrilação atrial).**  \n**Adequado:** identifica como sendo secundária a embolia de origem cardíaca (Fibrilação atrial).  \n**Parcialmente adequado:** identifica como sendo por uma embolia arterial (sem especificar o coração/Fibrilação atrial) OU devido Fibrilação atrial (sem especificar a embolia).  \n**Inadequado:** não identifica a causa (etiologia) ou identifica de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o uso imediato de terapia anticoagulante / anticoagulação:**  \n(1) com heparina;  \n(2) por via endovenosa;  \n(3) com início imediato após o diagnóstico.  \n\n**Adequado:** indica os três itens.  \n**Parcialmente adequado:** indica dois itens, obrigatoriamente incluindo o item 1.  \n**Inadequado:** indica somente 1 item ou não indica nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta o manejo adequado do membro afetado:**  \n(1) evitar a elevação do membro (manter em declive) OU manter repouso;  \n(2) proteção térmica do membro (“aquecer” o membro com faixa e algodão ortopédico); e  \n(3) controle da dor.  \n\n**Adequado:** orienta os três manejos.  \n**Parcialmente adequado:** orienta dois manejos.  \n**Inadequado:** orienta apenas um manejo OU não orienta manejo algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta encaminhamento imediato OU urgente para cirurgia vascular / angiologista ou para intervenção endovascular / hemodinâmica.**  \n\n**Adequado:** orienta o encaminhamento.  \n**Inadequado:** não orienta o encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

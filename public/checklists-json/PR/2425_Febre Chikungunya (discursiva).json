@@ -1,0 +1,188 @@
+{
+  "uid": 2425,
+  "hash": "pepe_2425",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Febre Chikungunya (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - UBS.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de observação.  \n• Farmácia.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma mulher de 28 anos, com um quadro agudo de febre alta, dor de cabeça e náuseas, com 3 dias de evolução.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Solicitar e/ou realizar os exames físicos necessários à avaliação do caso.  \n- Formular a principal hipótese diagnóstica e dois diagnósticos diferenciais.  \n- Propor o plano terapêutico e de seguimento adequados.  \n- Orientar sobre as ações de vigilância em saúde.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Olívia, 28 anos, trabalhadora rural.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma febre e dor de cabeça. Mas o pior de tudo é a dor nas juntas. Não estou aguentando, mal consigo me mexer.  \n\n**SOBRE A DOR ARTICULAR:**  \n• **Início:** Começou junto com a febre, faz 3 dias.  \n• **Localização:** Dói mais nas mãos, nos punhos, nos tornozelos e nos joelhos.  \n• **Característica:** É uma dor que vai e vem, mas quando vem é muito forte. Às vezes incha um pouco.  \n• **Intensidade:** Nota 9 de 10. Me impede de trabalhar e até de fazer as coisas em casa.  \n• **Atenuantes/agravantes:** Piora com o movimento. Ficar parada alivia um pouco, mas não passa.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Medi em casa e deu 39°C.  \n• **Lesões de pele:** Umas manchas vermelhas que apareceram no tronco e nos braços. Coçam bastante.  \n• **Mal-estar geral:** Estou muito cansada, sem força pra nada (astenia).  \n• **Náuseas:** Sinto um enjoo, mas não cheguei a vomitar.  \n\n**NEGAR SINAIS DE ALARME:**  \n• Dor abdominal, vômitos persistentes, sangramento de gengiva ou nariz, tontura ao ficar de pé.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Álcool, tabaco e drogas:** Nega.  \n\n**FATORES AMBIENTAIS:**  \n• **Mosquitos:** Na região onde moro e trabalho tem muito mosquito.  \n• **Pessoa próxima com sintoma parecido:** Alguns vizinhos tiveram algo parecido sim.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *O que eu posso tomar para essa dor insuportável?*  \n• *Vou precisar fazer exame de sangue?*  \n• *Essa dor demora muito pra passar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 95 bpm  \n• **FR:** 18 irpm  \n• **Temp. axilar:** 38.7°C  \n• **SatO2:** 98% em ar ambiente  \n\n\n**Ectoscopia:** Regular estado geral, febril, corada, hidratada, anictérica.  \n\n• **Pele:** Exantema maculopapular pruriginoso em tronco e membros superiores.  \n\n• **Exames cardiovascular, respiratório e abdominal:** Sem alterações.  \n\n• **Articular:** Edema e dor à mobilização passiva de punhos e tornozelos. Ausência de calor ou rubor local.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "PROVA DO LAÇO",
+      "conteudo": "**Resultado:** Negativa (menos de 20 petéquias).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TESTE NS1",
+      "conteudo": "Teste Rápido NS1  \n\n**Resultado:** não reagente.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Caracteriza a dor articular da paciente:**  \n(1) intensidade;  \n(2) localização (grandes e/ou pequenas articulações);  \n(3) fator limitante (impede atividades diárias).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre os sintomas gerais associados:**  \n(1) febre;  \n(2) cefaleia;  \n(3) exantema e/ou prurido;  \n(4) náuseas e/ou vômitos.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga diagnósticos diferenciais e sinais de alarme:**  \n(1) sangramentos (gengivorragia, epistaxe);  \n(2) dor abdominal;  \n(3) contato com água de enchente ou urina de ratos (leptospirose);  \n(4) conjuntivite (Zika).  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita e/ou realiza o exame físico direcionado:**  \n(1) avaliação de pele e anexos (exantema);  \n(2) avaliação do sistema osteoarticular (artrite);  \n(3) realização da prova do laço.  \n\n**Adequado:** realiza os três itens.  \n**Parcialmente adequado:** realiza dois itens.  \n**Inadequado:** realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a principal hipótese diagnóstica.**  \n\n**Adequado:** verbaliza o diagnóstico de Febre de Chikungunya.  \n**Parcialmente adequado:** verbaliza o diagnóstico de arbovirose.  \n**Inadequado:** não verbaliza ou verbaliza outra hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita diagnósticos diferenciais para o caso.**  \n\n**Adequado:** cita pelo menos dois diagnósticos diferenciais pertinentes (ex: Dengue, Zika, Febre Reumática, Leptospirose, Malária, Febre Maculosa, Artrite Séptica, Febre Oropouche).  \n**Parcialmente adequado:** cita um diagnóstico diferencial pertinente.  \n**Inadequado:** não cita diagnósticos diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames complementares pertinentes.**  \n\n**Adequado:** solicita hemograma e Teste Rápido NS1 (para diagnóstico diferencial).  \n**Parcialmente adequado:** solicita apenas um dos exames.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta o tratamento sintomático adequado.**  \n(1) indica hidratação oral;  \n(2) prescreve analgésico e/ou antitérmico (paracetamol ou dipirona);  \n(3) orienta repouso.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Contraindica o uso de medicamentos que podem agravar o quadro.**  \n\n**Adequado:** contraindica o uso de anti-inflamatórios não esteroidais (AINEs) e de ácido acetilsalicílico (AAS).  \n**Parcialmente adequado:** contraindica o uso de apenas um dos dois (AINEs ou AAS).  \n**Inadequado:** não contraindica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a paciente sobre os sinais de alarme e a necessidade de retorno.**  \n\n**Adequado:** orienta a paciente a retornar ao serviço de saúde caso apresente dor abdominal intensa, vômitos persistentes, sangramentos ou tonturas.  \n**Parcialmente adequado:** cita apenas um ou dois sinais de alarme.  \n**Inadequado:** não orienta sobre os sinais de alarme.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Descreve duas ações de vigilância em saúde a serem implementadas.**  \n(1) Notificação compulsória do caso suspeito no SINAN;  \n(2) Comunicação à vigilância epidemiológica municipal para investigação do surto e ações de controle vetorial no território.  \n\n**Adequado:** descreve as duas ações.  \n**Parcialmente adequado:** descreve apenas uma ação.  \n**Inadequado:** não descreve nenhuma ação de vigilância.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre a evolução da doença e a possibilidade de cronificação.**  \n\n**Adequado:** informa que a dor articular pode persistir por meses ou até anos após a fase aguda, caracterizando a fase crônica da Chikungunya, e que isso exigirá acompanhamento e tratamento específicos.  \n**Inadequado:** não orienta sobre a possibilidade de cronificação da artralgia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

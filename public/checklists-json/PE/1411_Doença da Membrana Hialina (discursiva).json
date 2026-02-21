@@ -1,0 +1,172 @@
+{
+  "uid": 1411,
+  "hash": "pepe_1411",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Doença da Membrana Hialina (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Hospitalar - Centro Obstétrico.  \nA unidade possui a seguinte infraestrutura:  \n• Mesa de avaliação com fonte de calor;  \n• Materiais e equipamentos para recepção e reanimação neonatal;  \n• Equipamentos para ventilação e monitorização.  \n• Utrassonografia e raio-x;  \n• Exames laboratoriais;\n\nDescrição do caso:\nVocê está de plantão em uma maternidade de referência é chamado(a) à sala de parto para recepcionar um recém-nascido (RN) de 28 semanas de idade gestacional, nascido de parto cesárea de emergência. O RN nasceu com extremo baixo peso e em apneia.",
+  "tarefas": "TAREFAS:  \n- Realizar a recepção e atendimento do RN;  \n- Investigar e identificar possíveis causas para o quadro atual;  \n- Formular hipóteses diagnósticas;  \n- Definir a conduta de estabilização e solicitar os exames iniciais, caso necessário.  \n\n\\\nATENÇÃO!  \nVERBALIZE TODAS AS SUAS AÇÕES E SOLICITAÇÕES À EQUIPE DE ENFERMAGEM PRESENTE.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Islany, enfermeira da maternidade.\n\n**APRESENTAÇÃO DO CASO:** • Doutor(a), acabamos de levar para a mesa de reanimação este RN de 28 semanas.  \n\n**Caso o candidato questione se é >34 semanas, está chorando ou está respirando:**  \n• **Responsividade:** Ele nasceu flácido, cianótico e não está chorando. Já aquecemos, posicionamos a cabeça e aspiramos as vias aéreas, mas ele não respondeu! O que fazer agora Doutor(a)?  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **Pré-natal e intercorrências:** Ela chegou com febre na emergência, falando que estava com corrimento vaginal já fazia 2 dias e que não fez pré-natal.  \n• **GPA:** disse que é a primeira gravidez.  \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• **Caso o participante solicite Sinais Vitais:** liberar o impresso **AVALIAÇÃO INICIAL DO RN**  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Qual o diagnóstico?*  \n• *Tem algum fator de risco pra ter tido isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "AVALIAÇÃO INICIAL DO RN",
+      "conteudo": "**Avaliação Geral:**  \n• **Recém Nascido:** Sexo Masculino  \n• **Idade Gestacional:** 28 semanas.  \n• **Choro:** Ausente.  \n• **Resposta aos passos iniciais (aquecer, posicionar, aspirar):** Sem melhora.  \n\n\n**Sinais vitais:**  \n• **FC:** 80 bpm  \n• **Respiração:** Irregular, com períodos de apneia.  \n• **Tônus Muscular:** Flácido.  \n• **Cor:** Cianose generalizada.  \n\n\n**Antecedentes obstétricos:**  \n• Ausência de pré-natal.  \n• Mãe febril, primigesta.  \n• Bolsa rota há 48 horas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "REAVALIAÇÃO PÓS VPP",
+      "conteudo": "**APÓS 30 SEGUNDOS DE VPP:**  \n\n\n**Sinais vitais:**  \n• **FC:** 130 bpm  \n• **Respiração:** 60 irpm (com esforço)  \n• **SatO2:** 90%  \n• **Tônus Muscular:** Flexão de extremidades.  \n• **Cor:** Cianose em mãos e pés.  \n\n\n**Avaliação Respiratória:**  \n• Esforço respiratório com gemência e retrações subcostais e intercostais moderadas.  \n• Murmúrio vesicular diminuído bilateralmente.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 3,8 milhões/mm³ (VR: 4,0 a 6,0 milhões/mm³)  \n• **Hemoglobina:** 14,5 g/dl (VR: 14 a 20 g/dl)  \n• **Hematócrito:** 43% (VR: 45 - 65%)  \n\n• **Plaquetas:** 160.000 mm/³ (VR: 150.000 - 450.000 mm/³)  \n• **Leucócitos:** 9.200/mm³ (VR: 5.000 - 25.000/mm³)  \n\n• **Proteína C reativa (PCR):** 35 mg/L (VR: < 5 mg/L)  \n\n\n**GASOMETRIA ARTERIAL**  \n• **pH:** 7,36 (VR: 7,35 - 7,45)  \n• **PaCO₂:** 55 mmHg (VR: 35 - 45 mmHg)  \n• **PaO₂:** 45 mmHg (VR: 50 - 70 mmHg)  \n• **HCO₃:** 18 mEq/l (VR: 16 - 22 mEq/l)  \n• **SatO₂:** 89% (VR: > 90%)  \n\n\n• **Hemocultura:** em andamento.  \n• **Urocultura:** em andamento.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**VERBALIZE O(S) ACHADO(S) DA IMAGEM**",
+      "imagem": "img_printeds/2014-e11p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se à equipe.**  \n\n**Adequado:** apresenta-se como o(a) médico(a) responsável.  \n**Inadequado:** começa a dar ordens sem se apresentar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Indica a conduta imediata na sala de parto após os passos iniciais não serem efetivos.**  \n\n**Adequado:** indica o início imediato da Ventilação com Pressão Positiva - VPP.  \n**Inadequado:** não indica VPP, indica outra medida (ex: oxigênio inalatório, intubação imediata sem VPP prévia).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica os principais fatores de risco perinatais com base na história materna.**  \n(1) Prematuridade;  \n(2) Sinais de infecção materna;  \n(3) Bolsa rota prolongada;  \n(4) Oxigênio em alta concentração;  \n\n**Adequado:** identifica três ou quatro fatores de risco.  \n**Parcialmente adequado:** identifica dois fatores de risco.  \n**Inadequado:** não identifica os fatores ou identifica apenas um.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Formula as principais hipóteses diagnósticas para o quadro do RN.**  \n(1) Doença da Membrana Hialina (DMH) ou Síndrome do Desconforto Respiratório (SDR);  \n(2) Pneumonia Congênita, OU Pneumonia por Streptococcus grupo B.  \n\n**Adequado:** formula as duas hipóteses.  \n**Parcialmente adequado:** formula apenas uma das hipóteses.  \n**Inadequado:** não formula as hipóteses corretas.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita radiografia de tórax.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta a radiografia de tórax.**  \n\n**Adequado:** verbaliza padrão em vidro fosco OU infiltrado difuso OU consolidação difusa OU broncograma aéreo.  \n**Inadequado:** não verbaliza os achados corretos ou verbaliza outros achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita hemocultura e urocultura.**  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames laboratoriais.**  \n(1) Hemograma;  \n(2) PCR;  \n(3) Eletrólitos (Na, K, Mg, Ca);  \n(4) Gasometria arterial;  \n(5) Glicose/Glicemia.  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita dois ou três exames.  \n**Inadequado:** solicita um exame ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica internação.**  \n**Adequado:** indica internação em Unidade de Terapia Intensiva (UTI) Neonatal.  \n**Parcialmente adequado:** indica apenas internação hospitalar, sem especificar a UTI.  \n**Inadequado:** não indica internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a terapia específica para a Doença da Membrana Hialina (DMH/SDR).**  \n**Adequado:** indica a administração de surfactante pulmonar exógeno por via endotraqueal.  \n**Inadequado:** não indica o uso de surfactante.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica a terapêutica inicial para a suspeita de Sepse Neonatal Precoce.**  \n**Adequado:** prescreve o início imediato de antibioticoterapia empírica de amplo espectro (ex: Ampicilina e Gentamicina).  \n**Inadequado:** não prescreve antibióticos ou aguarda o resultado da hemocultura para iniciar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

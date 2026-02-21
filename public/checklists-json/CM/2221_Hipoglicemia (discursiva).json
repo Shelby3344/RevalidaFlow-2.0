@@ -1,0 +1,149 @@
+{
+  "uid": 2221,
+  "hash": "pepe_2221",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Hipoglicemia (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de estabilização;  \n• laboratório de análises clínicas;  \n• leitos de internação.\n\nDescrição do caso:\nVocê está de plantaão em uma UPA e atenderá um homem de 65 anos, diabético, é trazido por familiares ao pronto atendimento devido a um quadro de confusão mental de início súbito.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese com o familiar do paciente.  \n- Solicitar o exame físico.  \n- Formular a principal hipótese diagnóstica e justificá-la.  \n- Solicitar o exame complementar a ser realizado imediatamente.  \n- Descrever a conduta terapêutica imediata para o caso, com sua dose e via de administração.  \n- Indicar as condutas após a estabilização inicial do paciente.  \n- Responder as dúvidas do familiar do paciente.  \n\n\\\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Paciente:** Roberto, 65 anos, aposentado.  \n• **Acompanhante:** Lúcia, filha.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), meu pai ficou confuso de repente. Ele não está falando coisa com coisa e parece que não está entendendo o que a gente fala.  \n\n**SOBRE O QUADRO ATUAL:**  \n• **Início:** Começou hoje de manhã, faz mais ou menos uma hora.  \n• **Sintomas iniciais:** Antes de ficar confuso, ele reclamou de suor frio e tontura.  \n• **Progressão:** Foi muito rápido. Depois da tontura, ele começou a ter uns tremores nas mãos.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Ele tem diabetes há 20 anos e também tem um problema no rim que começou a tratar faz um mês.  \n• **Medicações:** Começou a usar insulina faz 2 meses. Ele aplica duas vezes por dia, mas eu não sei a dose certa.  \n• **Atividade física:** Ele começou a fazer caminhadas ontem, para tentar controlar o açúcar.  \n• **Alimentação:** Ele também diminuiu a quantidade de comida por conta própria, com a mesma intenção.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que está acontecendo com ele, doutor(a)?*  \n• *Porque ele teve isso?*  \n• *Qual tratamento?*  \n• *Tem como evitar isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130x90 mmHg  \n• **FC:** 110 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 97% (com O2 suplementar)  \n• **Temp. axilar:** 36.4°C  \n\n\n**Ectoscopia:**  \n• Paciente confuso, desorientado no tempo e espaço, sudoreico, com tremores finos de extremidades.  \n\n\n**Neurológico:**  \n• Escala de Coma de Glasgow: 13 (Abertura Ocular: 4, Resposta Verbal: 4 - confuso, Resposta Motora: 5 - localiza dor).  \n• Sem sinais de irritação meníngea ou déficits neurológicos focais.  \n\n\n**Cardiovascular:**  \n• Ritmo cardíaco taquicárdico, regular, em dois tempos, bulhas normofonéticas.  \n\n\n**Respiratório e Abdominal:**  \n• Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "GLICEMIA CAPILAR",
+      "conteudo": "**HGT (Hemoglicoteste)**\n• **Resultado:** 39 mg/dL",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o familiar e pergunta o nome do paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre o quadro atual e fatores associados:**  \n(1) tempo de início dos sintomas;  \n(2) sintomas associados (sudorese, tontura, tremores);  \n(3) mudanças recentes no estilo de vida (início de atividade física);  \n(4) mudanças recentes na dieta (redução da ingesta alimentar).  \n\n**Adequado:** pergunta três ou quatro itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre os antecedentes patológicos do paciente:**  \n(1) tempo de diagnóstico do diabetes;  \n(2) uso de insulina (início recente, frequência);  \n(3) comorbidades (doença renal).  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico do paciente.**  \n\n**Adequado:** solicita o exame físico.  \n**Inadequado:** não solicita o exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame complementar a ser realizado imediatamente.**  \n\n**Adequado:** solicita glicemia capilar (ou HGT, ou dextro).  \n**Inadequado:** não solicita o exame ou solicita outro exame como prioritário.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a principal hipótese diagnóstica.**  \n\n**Adequado:** verbaliza o diagnóstico de Hipoglicemia ou Hipoglicemia Grave.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Justifica a hipótese diagnóstica com base nos dados clínicos.**  \n(1) cita os fatores de risco (uso de insulina, exercício recente, baixa ingesta); e,  \n(2) cita os sintomas neuroglicopênicos (confusão mental) e adrenérgicos (sudorese, tremores, taquicardia).  \n\n**Adequado:** justifica citando os dois itens.  \n**Parcialmente adequado:** justifica citando apenas um item.  \n**Inadequado:** não justifica ou o faz de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Descreve a conduta medicamentosa imediata.**  \n(1) indica o uso de Glicose;  \n(2) especifica a concentração (50% ou 25%);  \n(3) especifica o volume (50 ml para G50% ou 100 ml para G25%); e,  \n(4) especifica a via de administração (endovenosa/intravenosa).  \n\n**Adequado:** descreve os quatro itens corretamente.  \n**Parcialmente adequado:** descreve três itens corretamente.  \n**Inadequado:** descreve dois ou menos itens ou indica conduta incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a conduta após a medida inicial.**  \n\n**Adequado:** indica a necessidade de reavaliar a glicemia capilar e o nível de consciência do paciente após a infusão de glicose.  \n**Inadequado:** não indica a necessidade de reavaliação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta o familiar sobre a causa do evento e a prevenção.**  \n(1) explica que a queda do açúcar no sangue causou os sintomas;  \n(2) orienta sobre a importância de ajustar a alimentação em relação aos exercícios e ao uso de insulina.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

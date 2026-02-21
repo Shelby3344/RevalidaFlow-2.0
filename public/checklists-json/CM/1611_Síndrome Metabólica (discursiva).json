@@ -1,0 +1,144 @@
+{
+  "uid": 1611,
+  "hash": "pepe_1611",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Síndrome Metabólica (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATUAÇÃO  \nLocal de atuação: ambulatório de atenção primária à saúde - UBS.  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê é médico(a) de uma Unidade Básica de Saúde (UBS). Vai atender um paciente de 55 anos, assintomático, que procura o serviço para realizar exames de rotina por estar preocupado com sua saúde.",
+  "tarefas": "TAREFAS:  \n- Realizar anamnese direcionada;  \n- Realizar exame físico específico, caso necessário;  \n- Solicitar exames laboratoriais pertinentes, caso necessário;  \n- Formular a hipótese diagnóstica principal;  \n- Responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 55 anos, casado, bancário.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim fazer uns exames de rotina. Tenho relaxado um pouco com a saúde nos últimos anos, ganhei peso, e queria ver se está tudo bem.  \n\n**SINTOMAS ASSOCIADOS:**  \n• Não sinto nada, estou bem.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Cirurgias e internações:** Nega.  \n• **Álcool, tabaco e drogas:** Eu não fumo, mas bebo cerveja todo fim de semana.  \n• **Alimentação:** Eu como de tudo, sem restrição nenhuma. Gosto de um churrasco, uma feijoada...  \n• **Atividade Física:** Sou totalmente sedentário. O trabalho no banco é o dia todo sentado.  \n• **Ganho de peso:** Engordei um pouco nos últimos anos.  \n\n**ANTECEDENTES FAMILIARES:**  \n• **Mãe:** Minha mãe tem diabetes, daquelas de idade.  \n• **Pai:** Meu pai, coitado, infartou novo, com uns 60 anos.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Quais são os riscos para a minha saúde?*  \n• *O que eu preciso fazer para melhorar?*  \n• *Qual remédio vou ter que tomar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 140x90 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.6°C  \n\n\n**Ectoscopia:** Normocorado, hidratado, eupneico.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdominal:** Fígado palpável a 2 cm do rebordo costal direito, de consistência macia, borda romba e superfície lisa, indolor.  \n\n\n**Membros Inferiores:** Sem edemas, pulsos distais presentes e simétricos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "CIRCUNFERÊNCIA ABDOMINAL",
+      "conteudo": "• **Circunferência abdominal:** 105 cm (VR: < 102 cm para homens)  \n• **IMC:** 35 kg/m²  \n\n\n**ATENÇÃO!, verbalize e descreva como realizar a medida de circunferência abdominal no paciente**  \n**Considere que há fita métrica corporal disponível**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,5 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 14,2 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 42% (VR: 39 - 52%)  \n\n• **Plaquetas:** 179.000 mm/3 (150.000 - 400.000 mm/3)  \n\n• **Leucócitos:** 9.340/mm3 (VR: 4.000 - 10.000/mm3)  \n\n\n**PERFIL GLICÊMICO**  \n• **Glicemia em jejum:** 110 mg/dl (VR: 60 - 99 mg/dl)  \n• **HbA1c:** 6,0% (VR: < 5,7%)  \n\n\n**PERFIL LIPÍDICO**  \n• **Colesterol total:** 230 mg/dl (<200 mg/dl)  \n• **Colesterol LDL:** 150 mg/dl (< 130 mg/dl)  \n• **Colesterol HDL:** 35 mg/dl (>40 mg/dl)  \n• **Triglicéridos:** 180 mg/dl (< 150 mg/dl)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre os hábitos de vida do paciente:**  \n(1) tabagismo;  \n(2) etilismo;  \n(3) hábitos alimentares;  \n(4) prática de atividade física.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre os antecedentes familiares:**  \n(1) diabetes melito;  \n(2) doença cardiovascular (infarto agudo do miocárdio, AVC).  \n\n**Adequado:** pergunta os dois itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza a medida da circunferência abdominal.**  \n(1) Posiciona o paciente em pé, com o abdômen descoberto.  \n(2) Localiza o ponto médio entre a última costela e a crista ilíaca.  \n(3) Posiciona a fita métrica no ponto correto paralela ao chão.  \n(4) Ajusta a fita de forma que fique justa à pele, mas sem a comprimir.  \n(5) Realiza a leitura da medida ao final de uma expiração normal.  \n\n**Adequado:** realiza quatro ou cinco passos.  \n**Parcialmente adequado:** realiza três passos.  \n**Inadequado:** realiza um ou dois passos ou não realiza passo algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais para confirmação diagnóstica e avaliação de risco:**  \n(1) Glicemia de jejum;  \n(2) Glicemia glicada (HbA1c);  \n(3) Colesterol total;\n(4) Colesterol HDL e LDL;  \n(5) Triglicerídeos;  \n(6) Transaminases (TGO/TGP).  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula a hipótese diagnóstica de Síndrome Metabólica.**  \n\n**Adequado:** verbaliza o diagnóstico de Síndrome Metabólica.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre mudanças no estilo de vida:**  \n(1) perda de peso;  \n(2) dieta com restrição calórica e de gorduras;  \n(3) prática regular de atividade física;  \n(4) redução da ingestão de sal;  \n(5) redução da ingestão de álcool.  \n\n**Adequado:** orienta quatro ou mais itens.  \n**Parcialmente adequado:** orienta dois ou três itens.  \n**Inadequado:** orienta um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica ao paciente os riscos à saúde associados à Síndrome Metabólica:**  \n(1) risco aumentado de doença cardiovascular (infarto, AVC);  \n(2) risco aumentado de desenvolver diabetes mellitus tipo 2.  \n\n**Adequado:** explica os dois riscos.  \n**Parcialmente adequado:** explica apenas um risco.  \n**Inadequado:** não explica nenhum risco.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Contra indica o tratamento farmacológico neste momento.**  \n\n**Adequado:** não indica tratamento farmacológico.  \n**Inadequado:** indica tratamento farmacológico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

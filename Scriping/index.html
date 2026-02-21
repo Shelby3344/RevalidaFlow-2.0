@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEPList Reválida - Checklists</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      background: #0d1b2a;
+      color: #e0e0e0;
+      min-height: 100vh;
+    }
+
+    /* ===== SIDEBAR ===== */
+    .sidebar {
+      position: fixed;
+      left: 0; top: 0; bottom: 0;
+      width: 220px;
+      background: #0a1628;
+      border-right: 1px solid #1a2d45;
+      padding: 20px 0;
+      z-index: 100;
+      overflow-y: auto;
+    }
+    .sidebar-logo {
+      text-align: center;
+      padding: 10px 20px 25px;
+      border-bottom: 1px solid #1a2d45;
+      margin-bottom: 10px;
+    }
+    .sidebar-logo h1 {
+      font-size: 22px;
+      color: #4fc3f7;
+      font-weight: 700;
+    }
+    .sidebar-logo h1 span { color: #ff9800; }
+    .sidebar-logo small {
+      display: block;
+      color: #90caf9;
+      font-size: 11px;
+      letter-spacing: 2px;
+    }
+    .sidebar-nav a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 20px;
+      color: #90a4ae;
+      text-decoration: none;
+      font-size: 14px;
+      transition: all 0.2s;
+      border-left: 3px solid transparent;
+    }
+    .sidebar-nav a:hover { background: #112240; color: #e0e0e0; }
+    .sidebar-nav a.active {
+      background: #112240;
+      color: #4fc3f7;
+      border-left-color: #4fc3f7;
+      font-weight: 600;
+    }
+    .sidebar-nav a .icon { font-size: 18px; width: 24px; text-align: center; }
+    .sidebar-nav a .badge {
+      background: #4fc3f7;
+      color: #0a1628;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 700;
+      margin-left: auto;
+    }
+
+    /* ===== MAIN ===== */
+    .main {
+      margin-left: 220px;
+      padding: 0;
+    }
+
+    /* ===== TOP BAR ===== */
+    .topbar {
+      background: #0f1f36;
+      border-bottom: 1px solid #1a2d45;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .topbar-title {
+      font-size: 16px;
+      color: #b0bec5;
+    }
+    .topbar-search {
+      flex: 1;
+      max-width: 400px;
+    }
+    .topbar-search input {
+      width: 100%;
+      background: #1a2d45;
+      border: 1px solid #2a3f5f;
+      border-radius: 8px;
+      padding: 10px 15px;
+      color: #e0e0e0;
+      font-size: 14px;
+      outline: none;
+    }
+    .topbar-search input:focus { border-color: #4fc3f7; }
+    .topbar-search input::placeholder { color: #546e7a; }
+
+    /* ===== CONTENT ===== */
+    .content {
+      padding: 25px 30px;
+    }
+    .content-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .content-header h2 {
+      font-size: 18px;
+      color: #e0e0e0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .content-header h2 .count {
+      background: #1a2d45;
+      color: #4fc3f7;
+      padding: 2px 10px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    /* Filters */
+    .filters {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .filter-select {
+      background: #1a2d45;
+      border: 1px solid #2a3f5f;
+      border-radius: 8px;
+      padding: 8px 15px;
+      color: #b0bec5;
+      font-size: 13px;
+      outline: none;
+      cursor: pointer;
+      min-width: 160px;
+    }
+    .filter-select:focus { border-color: #4fc3f7; }
+    .filter-input {
+      background: #1a2d45;
+      border: 1px solid #2a3f5f;
+      border-radius: 8px;
+      padding: 8px 15px;
+      color: #e0e0e0;
+      font-size: 13px;
+      outline: none;
+      min-width: 220px;
+    }
+    .filter-input:focus { border-color: #4fc3f7; }
+
+    /* ===== TABLE ===== */
+    .checklist-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .checklist-table thead th {
+      text-align: left;
+      padding: 12px 15px;
+      color: #78909c;
+      font-size: 13px;
+      font-weight: 600;
+      border-bottom: 1px solid #1a2d45;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .checklist-table tbody tr {
+      border-bottom: 1px solid #111d30;
+      transition: background 0.15s;
+      cursor: pointer;
+    }
+    .checklist-table tbody tr:hover {
+      background: #112240;
+    }
+    .checklist-table td {
+      padding: 12px 15px;
+      font-size: 14px;
+    }
+    .td-cod {
+      color: #78909c;
+      font-weight: 600;
+      width: 70px;
+      text-align: right;
+    }
+    .td-area { width: 60px; text-align: center; }
+    .td-station { }
+    .td-action { width: 120px; text-align: center; }
+
+    /* Area badges */
+    .area-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      min-width: 42px;
+      text-align: center;
+    }
+    .area-cir { background: #e65100; color: #fff; }
+    .area-cm { background: #ff8f00; color: #fff; }
+    .area-ped { background: #2e7d32; color: #fff; }
+    .area-go { background: #c62828; color: #fff; }
+    .area-mfc { background: #00838f; color: #fff; }
+
+    .station-name {
+      color: #4fc3f7;
+      font-weight: 500;
+    }
+    .station-name .edition {
+      color: #78909c;
+      font-weight: 400;
+    }
+
+    .btn-ver {
+      background: #1a2d45;
+      border: 1px solid #2a3f5f;
+      color: #b0bec5;
+      padding: 6px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-ver:hover {
+      background: #2a3f5f;
+      color: #fff;
+    }
+
+    /* ===== MODAL ===== */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 200;
+      overflow-y: auto;
+      padding: 30px;
+    }
+    .modal-overlay.active { display: block; }
+
+    .modal {
+      background: #0d1b2a;
+      border: 1px solid #1a2d45;
+      border-radius: 12px;
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 25px;
+      border-bottom: 1px solid #1a2d45;
+      background: #0f1f36;
+      border-radius: 12px 12px 0 0;
+    }
+    .modal-header h3 {
+      font-size: 16px;
+      color: #b0bec5;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .modal-header h3 .icon { font-size: 20px; }
+    .modal-close {
+      background: none;
+      border: none;
+      color: #78909c;
+      font-size: 28px;
+      cursor: pointer;
+      padding: 5px;
+      line-height: 1;
+      transition: color 0.2s;
+    }
+    .modal-close:hover { color: #e0e0e0; }
+
+    .modal-body {
+      padding: 0 25px 25px;
+    }
+
+    /* Station header inside modal */
+    .station-banner {
+      background: linear-gradient(135deg, #112240 0%, #1a2d45 100%);
+      border: 1px solid #2a3f5f;
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin: 20px 0;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .station-banner .area-badge { font-size: 13px; padding: 6px 14px; }
+    .station-banner .station-info h4 {
+      color: #ff9800;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .station-banner .station-info .meta {
+      color: #4fc3f7;
+      font-size: 13px;
+      margin-top: 4px;
+    }
+    .station-banner .station-info .meta span {
+      margin-right: 15px;
+    }
+
+    /* Sections inside modal */
+    .section-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #e0e0e0;
+      text-transform: uppercase;
+      padding: 15px 0 10px;
+      border-bottom: 2px solid #1a2d45;
+      margin-top: 25px;
+      margin-bottom: 0;
+      letter-spacing: 0.5px;
+    }
+
+    .section-card {
+      background: #0f1f36;
+      border: 1px solid #1a2d45;
+      border-left: 4px solid #2a3f5f;
+      border-radius: 0 8px 8px 0;
+      padding: 20px 22px;
+      margin: 15px 0;
+      line-height: 1.7;
+      font-size: 14px;
+      color: #cfd8dc;
+    }
+    .section-card.scene { border-left-color: #4fc3f7; }
+    .section-card.description { border-left-color: #66bb6a; }
+    .section-card.tasks { border-left-color: #ffa726; }
+    .section-card.script { border-left-color: #ab47bc; }
+    .section-card.printed { border-left-color: #42a5f5; }
+    .section-card.printed-exam { border-left-color: #ef5350; }
+
+    .section-card strong, .section-card b { color: #e0e0e0; }
+    .section-card em, .section-card i { color: #90a4ae; font-style: italic; }
+
+    .section-card img {
+      max-width: 100%;
+      max-height: 500px;
+      border-radius: 8px;
+      margin: 15px 0;
+      border: 1px solid #2a3f5f;
+    }
+
+    /* ===== QUESTIONS / CHECKLIST ===== */
+    .questions-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0 10px;
+    }
+    .questions-header .labels {
+      display: flex;
+      gap: 10px;
+      font-size: 12px;
+      color: #78909c;
+      font-weight: 600;
+    }
+    .questions-header .labels span {
+      width: 70px;
+      text-align: center;
+    }
+
+    .question-card {
+      background: #0f1f36;
+      border: 1px solid #1a2d45;
+      border-left: 4px solid #1565c0;
+      border-radius: 0 8px 8px 0;
+      padding: 18px 22px;
+      margin: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .question-card .q-content {
+      flex: 1;
+      line-height: 1.7;
+      font-size: 14px;
+      color: #cfd8dc;
+    }
+    .question-card .q-content strong { color: #e0e0e0; }
+    .question-card .q-scores {
+      display: flex;
+      gap: 8px;
+      flex-shrink: 0;
+      align-items: flex-start;
+      padding-top: 5px;
+    }
+    .score-box {
+      width: 62px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #1565c0;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #4fc3f7;
+      background: #0d1b2a;
+    }
+    .score-box.na {
+      color: #546e7a;
+      border-color: #2a3f5f;
+    }
+
+    /* Pagination / bottom */
+    .table-footer {
+      padding: 15px;
+      text-align: center;
+      color: #546e7a;
+      font-size: 13px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .sidebar { display: none; }
+      .main { margin-left: 0; }
+      .modal-overlay { padding: 10px; }
+      .question-card { flex-direction: column; }
+      .question-card .q-scores { justify-content: flex-end; width: 100%; }
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #0a1628; }
+    ::-webkit-scrollbar-thumb { background: #1a2d45; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #2a3f5f; }
+
+    /* Loading */
+    .loading {
+      text-align: center;
+      padding: 60px;
+      color: #546e7a;
+      font-size: 16px;
+    }
+    .loading .spinner {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border: 3px solid #1a2d45;
+      border-top-color: #4fc3f7;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-bottom: 15px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <h1>PEP<span>List</span></h1>
+      <small>Reválida</small>
+    </div>
+    <div class="sidebar-nav">
+      <a href="#" class="active">
+        <span class="icon">✅</span> Checklists
+        <span class="badge" id="sidebarCount">0</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <div class="main">
+    <!-- TOPBAR -->
+    <div class="topbar">
+      <span class="topbar-title">📋 Checklists disponíveis</span>
+      <div class="topbar-search">
+        <input type="text" id="searchInput" placeholder="🔍 Buscar por nome da estação...">
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+      <div class="content-header">
+        <h2>
+          ☑️ Checklists disponíveis - <span class="count" id="totalCount">0</span>
+        </h2>
+      </div>
+
+      <!-- Filters -->
+      <div class="filters">
+        <select class="filter-select" id="filterArea">
+          <option value="">Todas áreas</option>
+          <option value="Cirurgia">Cirurgia</option>
+          <option value="Clínica Médica">Clínica Médica</option>
+          <option value="Ginecologia e Obstetrícia">Ginecologia e Obstetrícia</option>
+          <option value="M. da Família e Comunidade">M. da Família e Comunidade</option>
+          <option value="Pediatria">Pediatria</option>
+        </select>
+        <select class="filter-select" id="filterEdition">
+          <option value="">Todas edições</option>
+        </select>
+        <input type="text" class="filter-input" id="filterName" placeholder="⚙ Nome da estação">
+      </div>
+
+      <!-- TABLE -->
+      <table class="checklist-table">
+        <thead>
+          <tr>
+            <th>Cod</th>
+            <th>Área</th>
+            <th>Estação</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr>
+            <td colspan="4">
+              <div class="loading">
+                <div class="spinner"></div><br>
+                Carregando checklists...
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="table-footer" id="tableFooter"></div>
+    </div>
+  </div>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h3><span class="icon">⚙️</span> Visualizar estação</h3>
+        <button class="modal-close" id="modalClose">✕</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ===== GLOBALS =====
+    let allData = [];
+    let filteredData = [];
+
+    // ===== AREA HELPERS =====
+    function getAreaCode(area) {
+      const map = {
+        'Cirurgia': 'CIR',
+        'Clínica Médica': 'CM',
+        'Pediatria': 'PED',
+        'Ginecologia e Obstetrícia': 'GO',
+        'M. da Família e Comunidade': 'MFC',
+      };
+      return map[area] || area;
+    }
+    function getAreaClass(area) {
+      const map = {
+        'Cirurgia': 'area-cir',
+        'Clínica Médica': 'area-cm',
+        'Pediatria': 'area-ped',
+        'Ginecologia e Obstetrícia': 'area-go',
+        'M. da Família e Comunidade': 'area-mfc',
+      };
+      return map[area] || 'area-cm';
+    }
+
+    // ===== SIMPLE MARKDOWN PARSER =====
+    function md(text) {
+      if (!text) return '';
+      let html = text
+        // Escape HTML
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        // Bold: **text** or __text__
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/__(.+?)__/g, '<strong>$1</strong>')
+        // Italic: *text* or _text_
+        .replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>')
+        // Line breaks
+        .replace(/\\\n/g, '<br>')
+        .replace(/  \n/g, '<br>')
+        .replace(/\n\n/g, '</p><p>')
+        .replace(/\n/g, '<br>')
+        // Bullet points
+        .replace(/• /g, '&bull; ')
+        .replace(/\* /g, '&bull; ');
+
+      return '<p>' + html + '</p>';
+    }
+
+    // ===== IMAGE URL BUILDER =====
+    const IMG_BASE = 'https://storage.googleapis.com/flutterflow-prod-hosting/builds/W0O9Hpo7q2K52cAGr0p5/';
+
+    function buildImgUrl(imgPath) {
+      if (!imgPath) return null;
+      if (imgPath.startsWith('http')) return imgPath;
+      return IMG_BASE + imgPath;
+    }
+
+    // ===== LOAD DATA =====
+    async function loadData() {
+      try {
+        const resp = await fetch('checklists_completos.json');
+        allData = await resp.json();
+        filteredData = [...allData];
+
+        // Populate edition filter
+        const editions = new Set();
+        allData.forEach(c => {
+          const ed = c.info_basica.station_edition;
+          if (ed) editions.add(ed);
+        });
+        const filterEdition = document.getElementById('filterEdition');
+        [...editions].sort().forEach(ed => {
+          const opt = document.createElement('option');
+          opt.value = ed;
+          opt.textContent = ed;
+          filterEdition.appendChild(opt);
+        });
+
+        renderTable();
+      } catch (e) {
+        document.getElementById('tableBody').innerHTML =
+          `<tr><td colspan="4" style="text-align:center;padding:40px;color:#ef5350;">
+            Erro ao carregar dados: ${e.message}<br>
+            Verifique se o arquivo <b>checklists_completos.json</b> está na mesma pasta.
+          </td></tr>`;
+      }
+    }
+
+    // ===== RENDER TABLE =====
+    function renderTable() {
+      const tbody = document.getElementById('tableBody');
+      const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+      const areaFilter = document.getElementById('filterArea').value;
+      const editionFilter = document.getElementById('filterEdition').value;
+      const nameFilter = document.getElementById('filterName').value.toLowerCase();
+
+      filteredData = allData.filter(c => {
+        const info = c.info_basica;
+        const name = (info.station_name || '').toLowerCase();
+        const area = info.station_area || '';
+        const edition = info.station_edition || '';
+        const cod = String(info.station_id);
+
+        if (searchTerm && !name.includes(searchTerm) && !cod.includes(searchTerm)) return false;
+        if (areaFilter && area !== areaFilter) return false;
+        if (editionFilter && edition !== editionFilter) return false;
+        if (nameFilter && !name.includes(nameFilter)) return false;
+        return true;
+      });
+
+      document.getElementById('totalCount').textContent = filteredData.length;
+      document.getElementById('sidebarCount').textContent = allData.length;
+
+      if (filteredData.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="4" style="text-align:center;padding:40px;color:#546e7a;">
+          Nenhum resultado encontrado.
+        </td></tr>`;
+        return;
+      }
+
+      let html = '';
+      filteredData.forEach((c, idx) => {
+        const info = c.info_basica;
+        const area = info.station_area || '';
+        const edition = info.station_edition || '';
+        const displayName = info.station_name + (edition ? ' | ' + edition : '');
+
+        html += `
+          <tr onclick="openModal(${idx})">
+            <td class="td-cod">${info.station_id}</td>
+            <td class="td-area">
+              <span class="area-badge ${getAreaClass(area)}">${getAreaCode(area)}</span>
+            </td>
+            <td class="td-station">
+              <span class="station-name">${escHtml(displayName)}</span>
+            </td>
+            <td class="td-action">
+              <button class="btn-ver" onclick="event.stopPropagation(); openModal(${idx})">Ver Estação</button>
+            </td>
+          </tr>`;
+      });
+
+      tbody.innerHTML = html;
+      document.getElementById('tableFooter').textContent =
+        `Mostrando ${filteredData.length} de ${allData.length} checklists`;
+    }
+
+    function escHtml(str) {
+      return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    // ===== OPEN MODAL =====
+    function openModal(idx) {
+      const c = filteredData[idx];
+      const info = c.info_basica;
+      const detail = c.detalhes;
+      const printeds = c.conteudo_impresso;
+      const questions = c.questoes_checklist;
+
+      const area = detail.area || info.station_area || '';
+      const name = detail.name || info.station_name || '';
+      const edition = detail.edition || info.station_edition || '';
+      const specialties = (detail.specialties || []).join(', ');
+      const cod = detail.cod || info.station_id;
+
+      let html = '';
+
+      // Station banner
+      html += `
+        <div class="station-banner">
+          <span class="area-badge ${getAreaClass(area)}">${getAreaCode(area)}</span>
+          <div class="station-info">
+            <h4>${escHtml(name)} | ${escHtml(edition)}</h4>
+            <div class="meta">
+              <span>${cod}</span>
+              ${specialties ? `<span style="color:#4fc3f7;">${escHtml(specialties)}</span>` : ''}
+            </div>
+          </div>
+        </div>`;
+
+      // INSTRUÇÕES AO PARTICIPANTE
+      if (detail.scene || detail.description || detail.tasks) {
+        html += `<h3 class="section-title">INSTRUÇÕES AO PARTICIPANTE</h3>`;
+
+        if (detail.scene) {
+          html += `<div class="section-card scene">${md(detail.scene)}</div>`;
+        }
+        if (detail.description) {
+          html += `<div class="section-card description">${md(detail.description)}</div>`;
+        }
+        if (detail.tasks) {
+          html += `<div class="section-card tasks">${md(detail.tasks)}</div>`;
+        }
+      }
+
+      // SCRIPT DO ATOR
+      if (detail.script) {
+        html += `<h3 class="section-title">SCRIPT DO ATOR</h3>`;
+        html += `<div class="section-card script">${md(detail.script)}</div>`;
+      }
+
+      // IMPRESSOS (Exame Físico, Exames Laboratoriais, TC, etc.)
+      if (printeds && printeds.length > 0) {
+        printeds.forEach(p => {
+          const pName = p.name || 'IMPRESSO';
+          html += `<h3 class="section-title">IMPRESSO - ${escHtml(pName)}</h3>`;
+          html += `<div class="section-card printed">`;
+          if (p.description) {
+            html += md(p.description);
+          }
+          if (p.img) {
+            const imgUrl = buildImgUrl(p.img);
+            html += `<img src="${imgUrl}" alt="${escHtml(pName)}" loading="lazy"
+                      onerror="this.style.display='none'; this.insertAdjacentHTML('afterend', '<p style=color:#ef5350>⚠️ Imagem não disponível: ${escHtml(p.img)}</p>')">`;
+          }
+          html += `</div>`;
+        });
+      }
+
+      // ITENS DE DESEMPENHO AVALIADOS (Questões/Checklist)
+      if (questions && questions.length > 0) {
+        html += `<h3 class="section-title">ITENS DE DESEMPENHO AVALIADOS</h3>`;
+
+        // Header labels
+        html += `
+          <div class="questions-header">
+            <div></div>
+            <div class="labels">
+              <span>Inadequado</span>
+              <span>Parc. Adeq.</span>
+              <span>Adequado</span>
+            </div>
+          </div>`;
+
+        questions.forEach(q => {
+          const scores = q.scores || [0, 0, 0];
+          const s0 = scores[0] !== null && scores[0] !== undefined ? scores[0] : '- - -';
+          const s1 = scores[1] !== null && scores[1] !== undefined ? scores[1] : '- - -';
+          const s2 = scores[2] !== null && scores[2] !== undefined ? scores[2] : '- - -';
+
+          html += `
+            <div class="question-card">
+              <div class="q-content">
+                ${md(q.description || '')}
+              </div>
+              <div class="q-scores">
+                <div class="score-box${s0 === '- - -' ? ' na' : ''}">${s0}</div>
+                <div class="score-box${s1 === '- - -' ? ' na' : ''}">${s1}</div>
+                <div class="score-box${s2 === '- - -' ? ' na' : ''}">${s2}</div>
+              </div>
+            </div>`;
+        });
+      }
+
+      // Notes / Resume
+      if (detail.notes) {
+        html += `<h3 class="section-title">NOTAS</h3>`;
+        html += `<div class="section-card">${md(detail.notes)}</div>`;
+      }
+      if (detail.resume) {
+        html += `<h3 class="section-title">RESUMO</h3>`;
+        html += `<div class="section-card">${md(detail.resume)}</div>`;
+      }
+
+      document.getElementById('modalBody').innerHTML = html;
+      document.getElementById('modalOverlay').classList.add('active');
+      document.getElementById('modalOverlay').scrollTop = 0;
+      document.body.style.overflow = 'hidden';
+    }
+
+    // ===== CLOSE MODAL =====
+    function closeModal() {
+      document.getElementById('modalOverlay').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    // ===== EVENTS =====
+    document.getElementById('modalClose').addEventListener('click', closeModal);
+    document.getElementById('modalOverlay').addEventListener('click', function(e) {
+      if (e.target === this) closeModal();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    document.getElementById('searchInput').addEventListener('input', renderTable);
+    document.getElementById('filterArea').addEventListener('change', renderTable);
+    document.getElementById('filterEdition').addEventListener('change', renderTable);
+    document.getElementById('filterName').addEventListener('input', renderTable);
+
+    // ===== INIT =====
+    loadData();
+  </script>
+</body>
+</html>

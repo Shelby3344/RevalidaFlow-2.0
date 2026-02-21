@@ -1,0 +1,189 @@
+{
+  "uid": 2306,
+  "hash": "pepe_2306",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Hipertensão Arterial Sistêmica - HAS não controlada",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Atenção Primária: Unidade Básica de Saúde.  \nA unidade possui a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• eletrocardiograma.\n\nDescrição do caso:\n• Homem, preto, hipertenso, em tratamento com enalapril 20 mg/dia e  \nhidroclorotiazida 25 mg/dia, retorna com queixa de pressão elevada.  \n• Na consulta anterior, foram solicitados exames complementares, mas o paciente  \nnão retornou na data agendada.",
+  "tarefas": "Nos 10 minutos de duração da estaçao, você deverá executar as tarefas a  \nseguir:  \n1. realizar anamnese do paciente;  \n2. solicitar e interpretar exame físico e aferir a pressão arterial do paciente;  \n3. solicitar e interpretar os exames pertinentes ao caso;  \n4. estabelecer e comunicar hipóteses diagnósticas;  \n5. propor conduta para o paciente.  \n\nATENÇÃO!  \nCASO JULGUE NECESSÁRIO REALIZAR  \nEXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERA SER TOCADO  \nDURANTE O ATENDIMENTO.  \n\n\n\n\n\nATENÇAO! VOCE DEVERA REALIZAR AS TAREFAS  \nNA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• João, 47 anos, operador de caixa de supermercado.  \n\n**MOTIVO DE CONSULTA**:  \n• Comecei a ter muita tosse, pensei que poderia ser uma virose, mas a tosse não passou.  \n\n**CARACTERÍSTICAS DA TOSSE**:  \n• **Tempo de evolução**: algumas semanas.  \n• **Secreção**: não, é uma tosse bem seca.  \n\n**OUTROS SINTOMAS**:  \n• Não consta no script.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: tenho pressão alta há 6 meses. Até trouxe umas medidas da pressão arterial que o médico pediu pra eu fazer em casa e anotar os valores, você pode olhar? ( se nesse momento o candidato solicitar, liberar o **IMPRESSO 5**).  \n• **Cirurgias**: nega.  \n• **Medicamentos**: enalapril e hidroclorotiazida.  \n• **Alergias**: desconhece.  \n\n**HÁBITOS**:  \n• **Cigarro**: nega.  \n• **Drogas**: nega.  \n• **Álcool**: cerveja nos fins de semana.  \n• **Alimentação**: acho que não é muito boa, como muito salgadinho, doces e refrigerantes.  \n• **Atividade física**: não faço por falta de tempo.  \n• **Sono**: durmo umas 5 horas por noite.  \n\n**ANTECEDENTES FAMILIARES**:  \n• **Mãe**: diabética e hipertensa.  \n• **Pai**: hipertenso e teve um infarto do coração.  \n• **Irmã mais velha**: diabética e hipertensa.  \n\n**O PACIENTE SIMULADO, CASO O (A) PARTICIPANTE FAÇA A ANAMNESE ADEQUADA, PERGUNTARÁ AO (À) PARTICIPANTE**:  \n• Se o (a) participante quer olhar o exame que ele trouxe;  \n• Se ele (a) pode explicar o MRPA (medida residencial da pressão arterial) para ele;  \n• O significado da alteração em seu eletrocardiograma;  \n• O que ele tem;  \n• Se existe algo mais que ele possa fazer.  \n\nQuando o candidato solicitar exames de laboratório, liberar os **IMPRESSOS 2 e 3**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**1ª Aferição Pressão arterial (MSD):** 176 × 108 mmHg.  \n**2ª Aferição Pressão arterial (MSE):** 174 × 100 mmHg.  \n**3ª Aferição Pressão arterial (MSD):** 170 × 100 mmHg.  \n**Frequência cardíaca:** 88 batimentos por minuto.  \n**Frequência respiratória:** 19 incursões respiratórias por minuto.  \n**Temperatura axilar:** 36,3 °C.  \n**Saturação de oxigênio:** 98% em ar ambiente.  \n**IMC:** 29,40 kg/m2.  \n**Circunferência abdominal:** 117 cm.  \n**Peso:** 88 kg.  \n**Altura:** 1,73 m.  \n\n\nPaciente em bom estado geral, afebril, acianótico, anictérico e hidratado; alerta, orientado no tempo e no espaço. Sem edemas.  \n\n\n**Aparelho respiratório:** sem alterações.  \n**Aparelho cardiovascular:** sem alterações.  \n**Abdome:** sem alterações.  \n**Extremidades:** ausência de edemas.  \n\n\n**ATENÇÃO: NESSE MOMENTO, VOCÊ DEVE DEMONSTRAR A TÉCNICA DE AFERIR PRESSÃO ARTERIAL DO PACIENTE COM ESFIGMOMANÔMETRO E ESTETOSCÓPIO NO MEMBRO SUPERIOR DO PACIENTE SIMULADO.**  \n\n\nO MANGUITO É ADEQUADO A CIRCUNFERÊNCIA DO BRAÇO DO PACIENTE. REALIZE A AFERIÇÃO EM UM ÚNICO MEMBRO SUPERIOR.  \n\n\nO OBJETIVO É AVALIAR A EXECUÇÃO DA TÉCNICA DE AFERIÇÃO. VOCÊ NÃO DEVE CONSIDERAR O RESULTADO DA MEDIDA DE PRESSÃO ARTERIAL AFERIDA NESSE MOMENTO, E SIM A DO IMPRESSO DO PACIENTE.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS 1",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-1-e6p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS 2",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-1-e6p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "ELETROCARDIOGRAMA",
+      "conteudo": "Ritmo Sinusal.\nFrequência Cardíaca: 75 batimentos por minuto.\nAlterações da repolarização ventricular secundárias à sobrecarga ventricular esquerda.",
+      "imagem": "img_printeds/2023-1-e6p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "MRPA - MEDIDA RESIDENCIAL DE PRESSÃO ARTERIAL",
+      "conteudo": "**1º Dia**  \n• **Manhã (em jejum):** 178 × 104 mmHg, 172 × 100 mmHg, 170 × 102 mmHg.  \n• **Antes do jantar:** 168 × 110 mmHg, 170 × 100 mmHg, 166 × 104 mmHg.  \n\n\n**2º Dia**  \n• **Manhã (em jejum):** 182 × 110 mmHg, 180 × 108 mmHg, 180 × 104 mmHg.  \n• **Antes do jantar:** 178 × 94 mmHg, 176 × 92 mmHg, 174 × 90 mmHg.  \n\n\n**3º Dia**  \n• **Manhã (em jejum):** 166 × 98 mmHg, 168 × 96 mmHg, 164 × 94 mmHg.  \n• **Antes do jantar:** 176 × 102 mmHg, 172 × 98 mmHg, 168 × 96 mmHg.  \n\n\n**4º Dia**  \n• **Manhã (em jejum):** 174 × 108 mmHg, 174 × 106 mmHg, 172 × 106 mmHg.  \n• **Antes do jantar:** 170 × 100 mmHg, 168 × 102 mmHg, 166 × 98 mmHg.  \n\n\n**5º Dia**  \n• **Manhã (em jejum):** 180 × 100 mmHg, 178 × 100 mmHg, 176 × 98 mmHg.  \n• **Antes do jantar:** 172 × 98 mmHg, 174 × 96 mmHg, 174 × 94 mmHg.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se e cumprimenta o paciente simulado;  \n(2) Pergunta algum dado de identificação (nome, idade, estado  \ncivil, profissão e/ou naturalidade).  \n\n**Adequado:** realiza os dois procedimentos.  \n**Parcialmente adequado:** realiza um dos procedimentos.  \n**Inadequado:** não realiza procedimento algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sintomas relacionados à queixa principal:**  \n(1) Dor torácica;  \n(2) Febre;  \n(3) Expectoração;  \n(4) Dispneia;  \n(5) Sintomas relacionados a DRGE (pirose, epigastralgia);  \n(6) Manifestações de vias aéreas superiores (coriza, secreção  \npós-nasal).  \n\n**Adequado:** investiga de cinco a seis itens listados.  \n**Parcialmente adequado:** investiga de três a quatro itens listados.  \n**Inadequado:** investiga um ou dois itens OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre desencadeantes, agravantes e atenuantes da HAS e síndrome  \nmetabólica:**  \n(1) Consumo de bebida alcoólica;  \n(2) Tabagismo;  \n(3) Qualidade do sono;  \n(4) Atividade física;  \n(5) Alimentação.  \n\n**Adequado:** investiga quatro ou cinco dos itens listados.  \n**Parcialmente adequado:** investiga até três itens.  \n**Inadequado:** investiga um ou dois itens OU não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico geral.**  \n\n**Adequado:** solicita exame físico.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza adequadamente a técnica de aferição da pressão arterial:**  \n(1) Posicionamento apropriado do paciente (sentado, pernas  \ndescruzadas e pés apoiados no chão);  \n(2) Posicionamento apropriado do manguito;  \n(3) Mensuração da pressão arterial sistólica pelo método  \npalpatório;  \n(4) Mensuração da pressão arterial pelo método auscultatório  \n(sistólica e diastólica).  \n\n**Adequado:** verbaliza adequadamente as quatro etapas.  \n**Parcialmente adequado:** verbaliza duas ou três ações.  \n**Inadequado:** verbaliza uma etapa ou não verbaliza etapa alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.625",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais:**  \n(1) Hemograma;  \n(2) Lipidograma;  \n(3) Glicose;  \n(4) Creatinina;  \n(4) Na;  \n(6) K.  \n\n**Adequado:** solicita quatro ou mais dos exames listados.  \n**Parcialmente adequado:** solicita dois ou três dos exames listados.  \n**Inadequado:** solicita um exame OU não solicita exame algum.  \n\nOBSERVAÇÃO: O candidato só irá pontuar caso ele cite os exames listados ANTES de  \nreceber o impresso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita e analisa o eletrocardiograma.**  \n\n**Adequado:** solicita e associa as alterações do ECG à hipertensão.  \n**Parcialmente adequado:** solicita, mas não associa corretamente os achados.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta o exame MRPA, identificando HAS sem controle.**  \n\n**Adequado:** interpreta os achados identificando HAS sem controle.  \n**Inadequado:** não interpreta os achados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Formula hipóteses diagnósticas:**  \n(1) Tosse associada ao uso de Enalapril;  \n(2) Confirma o diagnóstico de hipertensão  \ndescompensada.  \n\n**Adequado:** formula as duas hipóteses.  \n**Parcialmente adequado:** formula uma das hipóteses.  \n**Inadequado:** não formula hipótese alguma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orientação sobre mudanças de estilo de vida (MEV):**  \n(1) Redução do peso;  \n(2) Redução do sódio na dieta;  \n(3) Redução da ingesta de álcool;  \n(4) Atividade física regular.  \n\n**Adequado:** orienta as quatro medidas listadas.  \n**Parcialmente adequado:** orienta duas ou três das medidas listadas.  \n**Inadequado:** orienta uma medida listada OU não orienta medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Conduta medicamentosa:**  \n(1) Prescreve combinação de anti-hipertensivos, preferencialmente bloqueador receptor  \n(Losartana, Valsartana, Irbesartana, Candesartana, Olmesartana, Telmisartana,  \nangiotensina) + bloqueador de canal de cálcio (Anlodipino, Felodipino, Nifedipino,  \nNitrendipino, Manidipino, Lacidipino, Lercanidipino, Levanlodipino);  \n(2) Suspende enalapril.  \n\n**Adequado:** executa as duas condutas listadas.  \n**Parcialmente adequado:** executa uma conduta listada.  \n**Inadequado:** não executa conduta listada alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Execução das tarefas na ordem determinada.**  \n\n**Adequado:** executa as etapas na ordem determinada.  \n**Inadequado:** não executa as etapas na ordem determinada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

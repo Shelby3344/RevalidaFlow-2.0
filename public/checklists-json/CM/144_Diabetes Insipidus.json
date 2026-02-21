@@ -1,0 +1,200 @@
+{
+  "uid": 144,
+  "hash": "pepe_144",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Diabetes Insipidus",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: ambulatorial - ambulatório de especialidades.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• setor de radiologia com aparelho de ressonância magnética e tomografia computadorizada.\n\nDescrição do caso:\nVocê atenderá um homem de 28 anos com queixa de sede excessiva e aumento do volume urinário há 3 semanas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Solicitar exame físico pertinente ao caso.  \n- Solicitar exames complementares adequados ao quadro clínico.  \n- Formular e verbalizar a hipótese diagnóstica.  \n- Estabelecer a conduta terapêutica e orientar o paciente sobre o seguimento.  \n- Responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Ricardo, 28 anos, solteiro, analista de sistemas.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma sede muito forte e urinando demais há umas 3 semanas.  \n\n**SOBRE A POLIÚRIA:**  \n• **Início:** começou faz umas 3 semanas.  \n• **Volume:** estou urinando muito, acho que uns 5 a 6 litros por dia.  \n• **Frequência:** vou ao banheiro a cada 1 ou 2 horas.  \n• **Noctúria:** acordo umas 4 vezes por noite para urinar.  \n• **Aspecto:** a urina está bem clarinha, quase transparente.  \n• **Ardência ou sangue:** não, nada disso.  \n\n**SOBRE A SEDE:**  \n• **Intensidade:** é uma sede muito forte, nunca senti nada igual.  \n• **Quantidade de água:** estou tomando mais de 4 litros de água por dia.  \n• **Preferência por água gelada:** sim, prefiro água bem gelada.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Fraqueza ou cansaço:** estou me sentindo mais cansado.  \n• **Cefaleia:** tenho tido dor de cabeça às vezes.  \n• **Perda de peso:** perdi uns 2 quilos nessas semanas.  \n• **Alteração visual:** não percebi nada.  \n• **Febre:** não.  \n\n**NEGAR OUTROS SINTOMAS:**  \n• Aumento do apetite.  \n• Formigamentos nas mãos ou pés.  \n• Dor abdominal, náuseas ou vômitos.  \n• Alteração nas fezes.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** não tenho nada, não uso nenhum remédio.  \n• **Cirurgias e internações:** fiz uma cirurgia na hipófise há 2 meses para retirar um tumor benigno.  \n• **Álcool, tabaco e drogas:** não fumo e nem uso drogas. Bebo socialmente nos fins de semana.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Minha mãe tem diabetes e pressão alta.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso tem a ver com a cirurgia que eu fiz?*  \n• *Vou precisar tomar remédio?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**FC:** 88 bpm.  \n**FR:** 16 irpm.  \n**PA:** 110 x 70 mmHg.  \n**SatO²:** 98%.  \n**Temp.:** 36,5°C.  \n\n\n**Peso:** 72 kg.  \n**Altura:** 1,75 m.  \n**IMC:** 23,5 kg/m².  \n\n\n**EXAME CLÍNICO:**  \nRegular estado geral, mucosas levemente descoradas e secas, turgor cutâneo diminuído.  \n\n\n**Exames cardiovascular, respiratório, abdominal e neurológico:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemoglobina:** 14,8 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Hematócrito:** 45% (VR: 38 – 50%)  \n• **Leucócitos:** 7.200/mm³ (VR: 4.000 – 10.000/mm³)  \n• **Plaquetas:** 245.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**BIOQUÍMICA:**  \n• **Glicemia de jejum:** 92 mg/dL (VR: 70 – 99 mg/dL)  \n• **Sódio:** 148 mEq/L (VR: 135 – 145 mEq/L)  \n• **Potássio:** 3,8 mEq/L (VR: 3,5 – 5,0 mEq/L)  \n• **Cálcio:** 9,5 mg/dL (VR: 8,5 – 10,5 mg/dL)  \n• **Creatinina:** 1,0 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 38 mg/dL (VR: 10 – 50 mg/dL)  \n\n\n• **Osmolaridade sérica:** 298 mOsm/kg (VR: 275 – 295 mOsm/kg)  \n• **Osmolaridade urinária:** 180 mOsm/kg (VR: 300 – 900 mOsm/kg)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "URINA DE 24 HORAS",
+      "conteudo": "• **Volume urinário:** 5.800 mL/24h (VR: 800 – 2.000 mL/24h)  \n• **Densidade:** 1.002 (VR: 1.010 – 1.025)  \n• **Glicose:** ausente  \n• **Proteínas:** ausente",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "TESTE DE RESTRIÇÃO HÍDRICA COM DDAVP",
+      "conteudo": "**Resultados após restrição hídrica:**  \n• Osmolaridade sérica: 302 mOsm/kg  \n• Osmolaridade urinária: 195 mOsm/kg  \n• Sódio plasmático: 150 mEq/L  \n\n\n**Resultados 2 horas após administração de DDAVP 10 mcg intranasal:**  \n• Osmolaridade urinária: 520 mOsm/kg (aumento de 166%)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "RM DE SELA TÚRCICA (CRÂNIO)",
+      "conteudo": "**LAUDO:**  \nAlterações pós-operatórias na região selar, com ausência do hipersinal habitual da neurohipófise em T1.  \nEspessamento da haste hipofisária.  \nSem evidência de lesão residual ou recidiva tumoral.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da poliúria:**  \n(1) início dos sintomas;  \n(2) volume urinário estimado;  \n(3) frequência miccional;  \n(4) noctúria;  \n(5) aspecto da urina;  \n(6) presença de ardência ou sangue na urina.  \n\n**Adequado:** pergunta quatro ou mais características.  \n**Parcialmente adequado:** pergunta duas ou três características.  \n**Inadequado:** pergunta uma característica ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre as características da sede:**  \n(1) intensidade;  \n(2) quantidade de líquidos ingeridos por dia;  \n(3) preferência por líquidos gelados.  \n\n**Adequado:** pergunta dois ou três itens.  \n**Inadequado:** não apenas um ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre sintomas associados relevantes:**  \n(1) fraqueza ou fadiga;  \n(2) cefaleia;  \n(3) alterações visuais;  \n(4) perda de peso;  \n(5) febre.  \n\n**Adequado:** pergunta três ou mais sintomas.  \n**Parcialmente adequado:** pergunta dois sintomas.  \n**Inadequado:** pergunta um sintoma ou não pergunta sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre antecedentes pessoais:**  \n(1) cirurgias prévias, especialmente neurocirurgias;  \n(2) trauma craniano;  \n(3) uso de medicações (especialmente lítio);  \n(4) doenças crônicas.  \n\n**Adequado:** pergunta três ou mais itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais iniciais:**  \n(1) glicemia;  \n(2) sódio sérico;  \n(3) potássio sérico;  \n(4) cálcio sérico;  \n(5) função renal (creatinina e ureia);  \n(6) osmolaridade sérica;  \n(7) osmolaridade urinária.  \n\n**Adequado:** solicita cinco ou mais exames.  \n**Parcialmente adequado:** solicita três ou quatro exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita urina de 24 horas para quantificar o volume urinário.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita teste de restrição hídrica (prova de Dashe) com administração de DDAVP.**  \n\n**Adequado:** solicita o teste adequadamente (restrição hídrica, ou DDAVP, ou prova de Dashe).  \n**Inadequado:** não solicita o teste.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita ressonância magnética de crânio ou sela túrcica.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza a hipótese diagnóstica de Diabetes Insipidus (Central ou Diabetes Insipidus Neurogênico ou Diabetes Insipidus Hipotalâmico).**  \n\n**Adequado:** verbaliza o diagnóstico de Diabetes Insipidus.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Relaciona corretamente a etiologia ao antecedente cirúrgico (pós-operatório de neurocirurgia hipofisária).**  \n\n**Adequado:** relaciona.  \n**Inadequado:** não relaciona.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Prescreve Desmopressina (DDAVP) intranasal ou via oral como tratamento.**  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve ou prescreve medicação inadequada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre o seguimento:**  \n(1) acompanhamento regular com endocrinologista;  \n(2) monitorização do débito urinário e sintomas;  \n(3) retorno para reavaliação.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta um ou dois itens.  \n**Inadequado:** não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "uid": 1603,
+  "hash": "pepe_1603",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Protocolo SPIKES - Síndrome de Down",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "UNIDADE BASICA DE SAÚDE.(UBS).\n\nDescrição do caso:\nVocê é o médico de uma UBS e recebe mãe com seu bebê de 6 meses, solicitando algumas informações sobre as características do seu filho.",
+  "tarefas": "TAREFAS:  \n\nNos próximos 10 minutos, deverão ser realizadas as seguintes tarefas: \n- Realizar a anamnese voltada ao caso;  \n- Caracterizar o perfil fenotípico do paciente;  \n- Utilizar habilidades profissionais para comunicação da suspeita diagnóstica;  \n- Fornecer orientações à paciente sobre o caso;  \n- Esclarecer dúvidas.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Helena, 30 anos.  \n• **Criança:** Jonas, 6 meses.  \n\n\n**QUEIXA PRINCIPAL:** estou percebendo que o Jonas é diferente dos outros bebês. Parece que ele tem algumas diferenças físicas.  \n• **Início:** Percebi desde o nascimento, mas achei que era normal. Mas depois percebi que tinha diferença das outras crianças.  \n\n\n**CARACTERÍSTICAS FÍSICAS:**  \n• **Olhos:** vejo que são mais puxados.  \n• **Língua:** a lingua dele é bem maior que das outras crianças dessa idade.   \n• **Pregas das mãos e pés:** A palma da mão dele e a planta dos pés é mais retinha, mais plana.  \n• **Tônus muscular:** acho ele mais molinho, ele não aperta meus dedos com força.  \n\n**DEMAIS QUEIXAS:** nega.  \n\n\n**ANTECEDENTES PERI-NATAIS:**  \n• **Alergias, doenças, medicações, cirurgias e internações:** nega.  \n• **GPA:** foi a primeira gestação.  \n• **Semanas de gestação:** 38 semanas, e ele nasceu com 3kg e 49cm.  \n• **Pré-natais:** não lembro quantos fiz, mas ocorreu tudo bem. Não trouxe a caderneta da gestante.  \n• **Amamentação:** só leite desde o nascimento.  \n\n\n**ANTECEDENTES FAMILIARES:** eu e meu marido não temos problemas de saúde.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• Caso o candidato questione sobre o que você sabe ou deseja saber sobre a condição: *\"Não sei nada, e gostaria de saber tudo.\"*  \n• Após o candidato verbalizar o diagnóstico: *\"Como sabe que é isso?\"*  \n• Precisa fazer algum exame?   \n• Como que ocorreu para ele ter essa condição?   \n• E como cuidar dele a partir de agora?  \n• Ele poderá ir na creche e na escola?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• PA: 80/50 mmHg  \n• FC: 110 bpm  \n• FR: 35 irpm  \n• Sat.02: 99%  \n• Temp: 36.7\" C  \n\n**Estado Geral:** Bom estado geral, perfil facial achatado, hipoativo, corado, hidratado, acianótico e afebril.  \n\n\n**Características físicas:**  \nCabelos finos, olhos com pregas epicânticas, nariz pequeno, prega palmar simiesca.  \n\n\n**Cardiovascular:** Rítmo cardíaco regular em dois tempos, com bulhas normofonéticas, sem sopros.  \n**Respiratorio:** Murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adjacentes.  \n**Abdominal:** Abdome plano, flácido, indolor a palpação, RHA presentes e sem visceromegalias.  \n**Membros inferiores:** Sem alterações.  \n\n\n**ATENÇÃO: VERBALIZE AS CARACTERÍSTICAS FENOTÍPICAS DA CRIANÇA**",
+      "imagem": "img_printeds/2016-e3p1.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se, cumprimenta e acolhe a mãe de maneira adequada.**  \n\n**Parcialmente adequado:** se realizar pelo menos um;  \n**Adequado:** se realizar os três.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Mantém postura receptiva (contato visual com a paciente padronizada; tronco voltado para a mãe, sem cruzamento de membros superiores).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verifica qual a percepção/compreensão prévia da mãe acerca das características físicas do bebê.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Fornece informações iniciais de forma breve e, em linguagem simples, sobre a suspeita de Síndrome de Down.**  \n\n**Parcialmente adequado:** comunica suspeita de Síndrome de Down, com linguagem muito técnica, ou excesso de informações;  \n**Inadequado:** se não comunicar suspeita de Síndrome de Down.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Faz breve silêncio após dar a notícia (dando tempo para a mãe refletir).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta o que a mãe sabe sobre a Síndrome de Down.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta o que a mãe quer saber sobre a Síndrome de Down.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica, usando termos que a mãe possa entender, que o diagnóstico baseou-se nos seguintes achados: epicanto, macroglossia, diminuição do tônus muscular e prega palmar única.**  \n\n**Adequado:** todos os quatro sinais;  \n**Parcialmente adequado:** dois ou três sinais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Responde ao questionamento sobre como isso ocorreu explicando que essa síndrome é uma doença genética.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Reconhece a emoção, demonstrando isso de forma verbal ou não verbal (por exemplo, \"percebo que você está triste\" ou aproxima-se da mãe, faz contato visual ou físico).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Legitima a emoção (por exemplo, \"nessa situação, geralmente, as pessoas se sentem assim\").**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Pergunta quais são as principais preocupações da mãe.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Compartilha perspectivas para o cuidado, explicando que:**  \n- há possibilidade de promover desenvolvimento com o estímulo precoce e a socialização;  \n- o cuidado será compartilhado entre a família e a equipe multiprofissional;  \n- é importante que ela frequente a escola como todas as outras crianças quando crescer.  \n\n**Adequado:** pelo menos duas perspectivas.  \n**Parcialmente adequado:** uma perspectiva.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Encaminha ou providencia agendamento com pediatra e/ou geneticista.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Estabelece parceria (afirma que a mãe poderá continuar a contar com ele(a) para acompanhamento e esclarecimentos futuros).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Sugere a presença do companheiro ou de pessoa em quem confie para acompanhá-la na próxima consulta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Verifica a compreensão da mãe sobre as informações recebidas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Verifica condições da mãe para sair da consulta (se ela está bem para ir pra casa e se precisa de alguma ajuda).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

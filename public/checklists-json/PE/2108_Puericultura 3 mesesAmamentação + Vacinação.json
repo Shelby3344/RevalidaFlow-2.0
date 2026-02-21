@@ -1,0 +1,216 @@
+{
+  "uid": 2108,
+  "hash": "pepe_2108",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Puericultura 3 meses/Amamentação + Vacinação",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está em uma Unidade Básica de Saúde .\n\nDescrição do caso:\nVocê está em uma Unidade Básica de Saúde e irá fazer uma consulta de puericultura em um  \nbebê de 3 meses e 11 dias de vida, trazido para consulta pela mãe, que se encontra sem queixas  \nno momento.",
+  "tarefas": "Nos próximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar o atendimento do bebê  \n- fazer a classificação do bebê ao nascimento e no dia da consulta, quanto ao  \ndesenvolvimento neuropsicomotor e pondero-estatural  \n- propor conduta clínica ao bebê  \n- orientar a mãe sobre a rotina para o bebê",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Bianca, 25 anos.  \n• **Criança:** Matheus, 3 meses.  \n\n\n**MOTIVO DE CONSULTA:** Dr(a), trouxe o Matheus para consulta de rotina.  \n\n\n**DEMAIS QUEIXAS:**  \nEle nasceu bem pequeno, mas acho que agora está crescendo bem. Não estou com queixa nenhuma.  \n\n\n**ANTECEDENTES PERINATAIS:**  \n• **GPA:** minha primeira gestação.  \n• **Semanas de gestação e via parto:** ele nasceu de 34 semanas, foi de cesárea.  \n• **Pré-natal e intercorrências:** Fiz 5 consultas e ocorreu tudo bem no pré-natal, mas estourou a bolsa antes do tempo.  \n• **Testes de triagem:** estava tudo certo.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, medicamentos, doenças e internações:** nega.  \n• **Amamentação:** estou dando leite no peito pra ele e às vezes também dou um pouco de suco natural, mas só isso.  \n• **VACINAÇÃO:** ele tomou aquelas no hospital.  \n• **Suplementação ou vitaminas:** nega.  \n• **Choro, sono, vômito ou febre:** nega.  \n\n**REDE DE APOIO:**  \n• **Licença maternidade:** agora estou de licença, volto a trabalhar daqui 1 mês.  \n• **Auxílio para cuidados com o RN:** sou casada, meu marido e minha mãe me ajudam.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Como está o crescimento do meu bebê?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "DADOS PERINATAIS",
+      "conteudo": "**Via de parto:** Cesáreo  \n**Idade gestacional:** 34 semanas e 1 dia  \n**Escore de Apgar:** 1° minuto: 5 / 5° minuto: 8  \n\n\n**Dados Antropométricos:**  \n• **Peso de Nascimento:** 2000 g  \n• **Comprimento:** 43 cm  \n• **PC:** 31,5 cm  \n• **Tipagem sanguínea mãe:** A positivo  \n• **Tipagem sanguínea RN:** A positivo  \n• **Coombs Direto:** negativo  \n\n\n**Testes de triagem neonatais:**  \n• **Triagem auditiva neonatal:** normal  \n• **Teste do reflexo vermelho:** normal  \n• **Teste do coraçãozinho:** MSD 98% / MID: 96%  \n• **Teste do pezinho:** normal",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "BEG, corado, hidratado, eupneico, afebril, acianótico, anictérico.  \n**AR:** murmúrio vesicular, sem ruídos adventícios.  \n**ACV:** ritmo cardíaco regular, em 2 tempos, bulhas normofonéticas, sem sopros audíveis.  \n**ABD:** semigloboso, ruídos hidroaéreos presentes, timpânico, normotenso, sem massas ou visceromegalias palpáveis.  \n**Neuro:** reflexos primitivos do recém-nascido presentes e simétricos.  \n**Pele:** sem alterações.  \n\n\n**Antropometria:**  \n• **Peso:** 3500 g  \n• **Altura:** 58 cm  \n• **PC:** 38 cm",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "GRÁFICO DE PESO",
+      "conteudo": "",
+      "imagem": "img_printeds/2021-e8p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "GRÁFICO PC+COMPRIMENTO",
+      "conteudo": "",
+      "imagem": "img_printeds/2021-e8p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se à mãe simulada, pergunta nome da mãe ou nome do bebê.**  \n\n**Adequado:** apresenta-se e pergunta o nome da mãe e/ou do bebê ou de ambos  \n**Inadequado:** não se apresenta nem pergunta o nome da mãe ou do bebê.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Questiona quanto a antecedentes gestacionais (gestações prévias, abortos e partos anteriores).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona quanto às consultas pré-natais e intercorrências gestacionais (uso de medicamentos, sangramentos, vacinação, exames, patologias):**  \n\n**Adequado:** pergunta sobre as consultas pré-natais e 3 ou mais intercorrências.  \n**Parcialmente Adequado:** pergunta sobre as consultas pré-natais e 2 intercorrências.  \n**Inadequado:** pergunta sobre as consultas pré-natais e apenas 1 intercorrência ou não pergunta sobre as consultas pré-natais nem sobre as intercorrências.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta a via de parto.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta quanto à estrutura familiar / rede de apoio.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta quanto à ocupação materna / tempo de licença gestacional.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta quanto à amamentação e faz o diagnóstico alimentar (erro alimentar, com ingesta de bebida açucarada).**  \n\n**Adequado:** questiona quanto à amamentação e identifica erro alimentar.  \n**Parcialmente Adequado:** pergunta da amamentação, mas não identifica erro alimentar.  \n**Inadequado:** não pergunta da amamentação e não identifica quanto ao erro alimentar.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Dá a classificação do bebê ao nascimento (RN pré-termo tardio, baixo peso) e no dia da consulta.**  \n\n**OBSERVAÇÃO: CONSIDERAR ADEQUADO APENAS SE CLASSIFICAÇÃO COMPLETA.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Classifica o desenvolvimento neuropsicomotor como adequado para idade corrigida.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica suplementações de Ferro e Vitamina D.**  \n\n**Adequado:** indica as 2 suplementações.  \n**Parcialmente Adequado:** indica suplementação somente de vitamina D ou somente de Ferro.  \n**Inadequado:** não indica suplementação de vitamina D nem de Ferro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Identifica atraso vacinal e indica vacinação conforme o PNI (Rotavírus Humano, VIP, Penta, Pneumo 10, Meningo C):**  \n\n**Adequado:** nomeia as 5 vacinas corretas a serem aplicadas.  \n**Parcialmente Adequado:** cita entre 3 e 4 vacinas corretas a serem aplicadas;  \n**Inadequado:** não indica qualquer vacina, indica vacinas incorretas ou nomeia até 2 corretas.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realiza o exame físico do bebê.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Usa o gráfico pondero-estatural e identifica peso abaixo do esperado para idade, com comprimento e PC adequados.**  \n\n**OBSERVAÇÃO: CONSIDERAR ADEQUADO SOMENTE SE CLASSIFICAÇÃO COMPLETA.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta retorno para consulta de seguimento adequado de puericultura e reforça o aleitamento materno exclusivo.**  \n\n**OBSERVAÇÃO: É NECESSÁRIO REALIZAR AMBAS AS ORIENTAÇÕES.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Mantém postura acolhedora com a mãe e pergunta se tem alguma outra dúvida.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

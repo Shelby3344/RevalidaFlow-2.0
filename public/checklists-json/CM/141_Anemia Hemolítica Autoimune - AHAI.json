@@ -1,0 +1,155 @@
+{
+  "uid": 141,
+  "hash": "pepe_141",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Anemia Hemolítica Autoimune - AHAI",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Urgência e Emergência.  \nTipo de atendimento: UPA - Unidade de Pronto Atendimento.  \n• Consultório médico;  \n• Exames laboratoriais;  \n• Exames de imagem.\n\nDescrição do caso:\nPaciente do sexo feminino, 58 anos, procura o serviço com queixa de fraqueza progressiva e coloração amarelada na pele há cerca de 10 dias. Nega febre ou sangramentos evidentes.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese sobre o caso.  \n- Realizar o exame físico direcionado.  \n- Solicitar os exames complementares pertinentes para investigação diagnóstica.  \n- Estabelecer a principal hipótese diagnóstica e citar diagnósticos diferenciais.  \n- Propor a conduta terapêutica e o direcionamento da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Regina, 58 anos, professora.  \n\n**MOTIVO DE CONSULTA** Estou me sentindo muito fraca, parece que a energia acabou. Notei que estou amarela, principalmente nos olhos.  \n\n• **Início:** Começou há umas duas semanas, mas piorou bem nos últimos 10 dias.  \n• **Dispneia:** Sinto um cansaço forte quando ando rápido ou subo a escada de casa.  \n• **Urina:** Minha urina está bem escura, parece cor de coca-cola às vezes.  \n• **Fezes:** As fezes estão normais.  \n• **Febre, perda de peso, sudorese, vômitos:** Nega.  \n• **Sangramentos:** Nega manchas roxas, sangramento no nariz ou gengiva.  \n\n**HISTÓRICO PESSOAL:**  \n• **Doenças:** Tem pressão alta e hipotireoidismo.  \n• **Medicamentos:** Losartana 50mg/dia e Levotiroxina 75mcg/dia.  \n• **Transfusões:** Nega.  \n• **História familiar:** Ninguém na família tem problemas de sangue que eu saiba.  \n\n**HÁBITOS DE VIDA:**  \n• Nega tabagismo ou etilismo.  \n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *Não pode ser outra coisa?*  \n• *Vou ter que tomar algum remédio?*  \n• *Isso pode complicar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110 x 70 mmHg  \n• **FC:** 108 bpm  \n• **FR:** 20 irpm  \n• **SatO2:** 95% em ar ambiente  \n• **Temp:** 36,8ºC  \n\n\n**Geral:**  \n• Paciente em regular estado geral, lúcida e orientada.  \n• Mucosas descoradas (+++/4+) e ictéricas (++/4+).  \n• Afebril ao toque, acianótica.  \n\n\n**Cardiovascular:**  \n• Ritmo cardíaco regular em 2 tempos, taquicárdico.  \n\n\n**Respiratório:**  \n• Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdominal:**  \n• Abdome flácido, indolor à palpação.  \n• Baço palpável a 3 cm do rebordo costal esquerdo.  \n• Fígado não palpável.  \n• Ruídos hidroaéreos presentes.  \n\n\n**Extremidades:**  \n• Sem edemas, pulsos cheios e simétricos.  \n• Perfusão capilar preservada.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma:**  \n• **Hemoglobina:** 7,2 g/dL (VR: 12-16)  \n• **Hematócrito:** 22% (VR: 36-46)  \n• **VCM:** 102 fL (VR: 80-100)  \n• **HCM:** 30 pg (VR: 27-32)  \n• **CHCM:** 33 g/dL (VR: 32-36)  \n\n• **Leucócitos:** 11.500/mm³ (VR: 4.000-11.000)  \n• **Plaquetas:** 210.000/mm³ (VR: 150.000-400.000)  \n\n\n**Reticulócitos:** 6,5% (VR: 0,5-2,0%)  \n\n\n• **Bilirrubina Total:** 4,2 mg/dL  \n• **Bilirrubina Indireta:** 3,5 mg/dL (Aumentada)  \n• **Bilirrubina Direta:** 0,7 mg/dL  \n\n• **LDH (Desidrogenase Lática):** 1.450 U/L (VR: < 480)  \n• **Haptoglobina:** < 10 mg/dL (VR: 30-200)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "COOMBS DIRETO",
+      "conteudo": "• **Coombs Direto:** POSITIVO (IgG ++++, C3d +)  \n\n\n• **Pesquisa de Anticorpos Irregulares (PAI):** Positivo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se ao paciente; e,  \n(2) Cumprimenta e confirma o nome da paciente.  \n\n**Adequado:** Realiza os dois itens.  \n**Parcialmente adequado:** Realiza apenas um item.  \n**Inadequado:** Não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese dos sintomas atuais:**  \n(1) Caracteriza a fraqueza/astenia e seu tempo de evolução;  \n(2) Questiona sobre alterações na cor da urina (colúria) ou fezes;  \n(3) Investiga sintomas de anemia (dispneia, palpitações); e,  \n(4) Pergunta sobre a presença de sangramentos (gengivorragia, epistaxe, hematomas).  \n\n**Adequado:** Investiga três ou mais itens.  \n**Parcialmente adequado:** Investiga dois itens.  \n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a anamnese pregressa e medicamentosa:**  \n(1) Questiona sobre comorbidades prévias;  \n(2) Questiona sobre uso de medicações contínuas ou recentes; e,  \n(3) Pergunta sobre infecções recentes ou história familiar de doenças hematológicas.  \n\n**Adequado:** Investiga os três itens.  \n**Parcialmente adequado:** Investiga um ou dois itens.  \n**Inadequado:** Não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza o exame físico direcionado:**  \n(1) Avalia mucosas (cor e hidratação) e escleras (icterícia);  \n(2) Ausculta cardíaca e pulmonar; e,  \n(3) Palpação abdominal (busca por esplenomegalia/hepatomegalia).  \n\n**Adequado:** Realiza os três itens.  \n**Parcialmente adequado:** Realiza um ou dois itens.  \n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames complementares para confirmação de hemólise:**  \n(1) Hemograma;  \n(2) Reticulócitos;  \n(3) Marcadores de hemólise: Bilirrubinas (fração indireta) OU LDH (Lactato Desidrogenase) OU Haptoglobina; e,  \n(4) Coombs Direto (Teste da Antiglobulina Direta).  \n\n**Adequado:** Solicita três ou quatro grupos de exames.  \n**Parcialmente adequado:** Solicita dois grupos.  \n**Inadequado:** Solicita um ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Estabelece a hipótese diagnóstica principal:**  \nVerbaliza o diagnóstico de **Anemia Hemolítica Autoimune (AHAI)** ou **Anemia Hemolítica Autoimune por Anticorpos Quentes** (baseado no Coombs IgG positivo e clínica).  \n\n**Adequado:** Verbaliza o diagnóstico correto completo.  \n**Parcialmente adequado:** Verbaliza apenas Anemia Hemolítica sem especificar Autoimune.  \n**Inadequado:** Não verbaliza ou erra o diagnóstico (ex: Anemia Ferropriva, Hepatite).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita diagnósticos diferenciais para o quadro:**  \n(1) Esferocitose Hereditária;  \n(2) Deficiência de G6PD;  \n(3) Hemoglobinúria Paroxística Noturna (HPN);  \n(4) Anemia Falciforme / Hemoglobinopatias;  \n(5) Síndrome Hemolítico-Urêmica (SHU) ou Púrpura Trombocitopênica Trombótica (PTT).  \n\n**Adequado:** Cita dois ou mais diferenciais da lista.  \n**Parcialmente adequado:** Cita apenas um diferencial.  \n**Inadequado:** Não cita diferenciais ou cita condições não hemolíticas.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define a conduta terapêutica medicamentosa inicial:**  \n(1) Prescreve Corticosteroides (Prednisona); e,  \n(2) Prescreve suplementação com Ácido Fólico.  \n\n**Adequado:** Prescreve os dois medicamentos.  \n**Parcialmente adequado:** Prescreve apenas o corticoide.  \n**Inadequado:** Não prescreve ou prescreve ferro/antibióticos incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita as possíveis complicações do quadro:**  \n(1) Crise megaloblástica;  \n(2) Anemia Fulminante; ou,  \n(3) Insuficiência Cardíaca.  \n\n**Adequado:** Cita um ou mais itens.  \n**Inadequado:** Não cita itens.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define o plano de cuidados e acompanhamento:**  \n(1) Indica internação hospitalar para estabilização (devido à Hb baixa e sintomas) OU encaminhamento ao Hematologista; e,  \n(2) Orienta sobre sinais de alarme (piora da falta de ar, síncope, sangramentos).  \n\n**Adequado:** Realiza as duas ações.  \n**Parcialmente adequado:** Realiza apenas uma ação.  \n**Inadequado:** Não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

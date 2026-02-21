@@ -1,0 +1,161 @@
+{
+  "uid": 140,
+  "hash": "pepe_140",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Pneumonia por Mycoplasma pneumoniae (Germe Atípico)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Secundária.  \nTipo de atendimento: UPA - Unidade Pronto Atendimento.  \nA unidade dispõe de:  \n• Laboratório de análises clínicas;  \n• Raios-X digital;  \n• Farmácia básica.\n\nDescrição do caso:\nPaciente de 24 anos procura atendimento médico com queixa de tosse seca persistente e \"mal-estar\" há cerca de 12 dias, com piora da disposição nas últimas 24 horas. Nega comorbidades prévias conhecidas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso.  \n- Realizar/Solicitar o exame físico necessário.  \n- Solicitar os exames complementares pertinentes.  \n- Verbalizar a principal hipótese diagnóstica etiológica, justificando com os achados clínicos.  \n- Prescrever o tratamento medicamentoso e fornecer orientações de alta.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Gabriela, 24 anos, estudante.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma tosse seca que não passa há mais de uma semana junto com uma dor de garganta. E hoje meu ouvido começou a doer.  \n\n**SOBRE A TOSSE:**  \n• **Início:** há uns 12 dias como se fosse um resfriado, com nariz escorrendo e dor de garganta.  \n• **Característica:** É uma tosse seca, que piora à noite.  \n• **Evolução:** A dor de garganta melhorou, mas a tosse continuou.  \n• **Medicamentos:** Tomei xarope para tosse e paracetamol, sem melhorar muito.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Tive febre baixa de 37.8°C nos primeiros dias e ontem à noite.  \n• **Cefaleia:** bem leve.  \n• **Otalgia:** desde hoje cedo uma dor forte no ouvido direito.  \n\n**ANTECEDENTES PESSOAIS:**  \n• Nega doenças crônicas, alergias ou cirurgias.  \n• Nega tabagismo ou etilismo.  \n• Mora em república estudantil.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp. axilar:** 37.6° C  \n\n\n**Ectoscopia:** Bom estado geral, corado, hidratado, acianótico, anictérico. Sem linfonodomegalias palpáveis.  \n\n\n**Oroscopia:** Hiperemia leve de pilares amigdalianos, sem exsudato.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, com discretos sibilos expiratórios e crepitações finas esparsas em base esquerda. Sem tiragem ou esforço respiratório evidente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "OTOSCOPIA",
+      "conteudo": "**Otoscopia direita:**  \n*Membrana timpânica íntegra, com presença de bolhas sero-hemorrágicas sobre a superfície timpânica. Hiperemia difusa.*  \n\n\n**Otoscopia (Ouvido Esquerdo):** Sem alterações.",
+      "imagem": "img_printeds/e140p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA COMPLETO:**  \n• **Hemoglobina:** 12,8 g/dL  \n• **Hematócrito:** 39%  \n• **Leucócitos:** 10.500/mm³ (Neutrófilos 65%, Linfócitos 28%, Monócitos 5%, Eosinófilos 2%)  \n• **Plaquetas:** 250.000/mm³  \n\n\n**PCR (Proteína C Reativa):** 18 mg/L (VR: < 5 mg/L)  \n\n**Teste rápido para COVID-19:** Negativo.  \n\n**Pesquisa de Crioaglutininas (Frio):** Positiva (título 1:64).",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**DESCREVA O(S) ACHADO(S) DA IMAGEM.**",
+      "imagem": "img_printeds/e140p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Apresenta-se ao paciente; e,  \n(2) Confirma a identidade do paciente (nome e idade).  \n\n**Adequado:** Realiza as duas ações.  \n**Parcialmente adequado:** Realiza apenas uma das ações.  \n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Anamnese (Caracterização do quadro):**  \n(1) Investiga características da tosse (tempo, aspecto, expectoração);  \n(2) Questiona sobre febre e sintomas sistêmicos (cefaleia, mialgia, fadiga);  \n(3) Questiona sobre sintomas de vias aéreas superiores ou otalgia (ouvido);  \n(4) Investiga contato com pessoas doentes ou ambiente de convívio (escola, república, trabalho).  \n\n**Adequado:** Investiga três ou quatro itens.  \n**Parcialmente adequado:** Investiga dois itens.  \n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita Exame Físico Geral:**  \n\n**Adequado:** Solicita exame físico geral.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Exame Físico Específico (Otoscopia):**  \nSolicita otoscopia para investigação da queixa de otalgia, identificando a alteração na membrana timpânica (Miringite).  \n\n**Adequado:** Solicita/Realiza otoscopia.  \n**Inadequado:** Não solicita/realiza otoscopia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicitação de Exames Complementares:**  \nSolicita Radiografia de Tórax (PA e Perfil se possível) E Hemograma completo.  \n\n**Adequado:** Solicita Raio-X e Hemograma.  \n**Parcialmente adequado:** Solicita apenas um dos dois.  \n**Inadequado:** Não solicita exames ou solicita exames desnecessários (ex: TC de tórax de imediato sem indicação de gravidade).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta o exame de imagem (Radiografia de Tórax):**  \n\n**Adequado:** descreve a presença de infiltrado (OU consolidação OU opacidade) em lobo inferior esquerdo.  \n**Inadequado:** não descreve o achado ou descreve localização errada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Diagnóstico Etiológico:**  \nVerbaliza o diagnóstico de Pneumonia Adquirida na Comunidade (PAC) por germe atípico, citando *Mycoplasma pneumoniae* como agente provável.  \n\n**Adequado:** Diagnostica Pneumonia por *Mycoplasma pneumoniae* ou Pneumonia Atípica.  \n**Parcialmente adequado:** Diagnostica apenas \"Pneumonia\".  \n**Inadequado:** Diagnostica pneumonia bacteriana típica, viral inespecífica ou erra o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Justificativa do Diagnóstico:**  \nJustifica a etiologia por *Mycoplasma* baseando-se em:  \n(1) Dissociação clínico-radiológica (paciente bem x raio-x com infiltrado);  \n(2) Presença de Miringite Bolhosa (sinal específico);  \n(3) Quadro insidioso/arrastado em paciente jovem;  \n(4) Tosse seca predominante.  \n\n**Adequado:** Cita a Miringite Bolhosa E mais um outro critério.  \n**Parcialmente adequado:** Cita apenas critérios inespecíficos (idade, tosse) sem citar a Miringite.  \n**Inadequado:** Não justifica ou justifica erroneamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Conduta Terapêutica (Antibioticoterapia):**  \nPrescreve tratamento com Macrolídeo -> Azitromicina OU Claritromicina.  \n\n**Adequado:** Prescreve macrolídeo (Azitromicina ou Claritromicina) OU Doxiciclina.  \n**Inadequado:** Prescreve Beta-lactâmico isolado (Amoxicilina, Ceftriaxona) ou não prescreve antibiótico.  \n\n*OBS: Doxiciclina também é aceitável, mas macrolídeo é primeira escolha clássica para Mycoplasma.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Tratamento sintomático e Orientações:**  \n(1) Prescreve analgésico/antitérmico para dor e febre;  \n(2) Orienta hidratação abundante;  \n(3) Orienta retorno em 48-72h se não houver melhora ou imediato se sinais de alarme (falta de ar, confusão mental);  \n(4) Explica que não é necessária internação (baixo risco/CURB-65 zero).  \n\n**Adequado:** Realiza três ou quatro itens.  \n**Parcialmente adequado:** Realiza dois itens.  \n**Inadequado:** Realiza um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

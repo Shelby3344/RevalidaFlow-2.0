@@ -1,0 +1,221 @@
+{
+  "uid": 1507,
+  "hash": "pepe_1507",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Úlcera péptica perfurada - Abdome Agudo Perfurativo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospital secundário.  \nA unidade apresenta a seguinte infraestrutura:  \n• Setor de radiologia convencional e ultrassonografia;  \n• Laboratório de análises clínicas;  \n• Centro cirúrgico;  \n• leitos de internação.\n\nDescrição do caso:\nVocê está de plantão no PS e atenderá um paciente do sexo masculino com queixa de dor súbita e de forte intensidade na \"boca do estômago\".",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar o exame semiológico voltado à queixa do paciente;  \n- Solicitar e interpretar exame(s) complementar(es), caso necessário;  \n- Formular a principal hipótese diagnóstica;  \n- Instituir a conduta terapêutica inicial;  \n- Esclarecer as dúvidas do paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 45 anos, trabalhador da construção civil.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor muito forte na boca do estômago. Começou do nada agorinha.  \n\n**SOBRE DOR:**  \n• **Início:** Começou de repente, faz umas 3 horas, e só vem piorando.  \n• **Localização:** Começou na boca do estômago, mas agora está doendo a barriga toda.  \n• **Irradiação:** Não.  \n• **Característica:** É tipo uma facada, não para de doer.  \n• **Intensidade:** Agora deve estar uns 8 de 10.  \n• **Atenuantes/agravantes:** Piorou depois que tomei o remédio.  \n*caso o candidato solicite o nome do remédio:* **é um pra minha dor nas costas, não sei o nome**.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Fezes:** Fui no banheiro ontem normal, mas hoje ainda não fui.  \n• **Vômitos:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença. Lembrei o nome do remédio: é o diclofenaco.  \n• **Álcool, tabaco e drogas:** Bebo cachaça umas 3 vezes na semana. Não fumo.  \n• **Alimentação:** Não tenho uma alimentação muito regrada, como bastante fritura e tomo bastante café.  \n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *Deu alguma coisa alterada no meu exame?*  \n• *Vou ter que ser operado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais**  \n• **PA:** 90x60 mmHg  \n• **FC:** 102 bpm  \n• **FR:** 20 irpm  \n• **SatO₂:** 95% (em ar ambiente)  \n• **Temperatura axilar:** 38,2° C  \n\n• **Ectoscopia:** Paciente em regular estado geral, pálido ++/4+, sudoreico, com fácies de dor intensa.  \n\n• **Aparelho cardiovascular:** Ritmo cardíaco regular em 2 tempos, taquicárdico, com bulhas normofonéticas.  \n\n• **Aparelho respiratório:** Murmúrios vesiculares universalmente audíveis, sem ruídos adventícios.  \n\n• **Abdome:**  \n  - **Inspeção:** Levemente distendido, imóvel à respiração.  \n  - **Ausculta:** Ruídos hidroaéreos diminuídos.  \n  - **Percussão:** Timpanismo em hipocôndrio direito.  \n  - **Palpação:** Abdome em tábua, doloroso à palpação superficial e profunda. Descompressão brusca dolorosa difusamente.  \n\n• **Toque retal:** Tônus esfincteriano preservado, ampola retal com fezes de aspecto habitual.  \n\n• **Membros inferiores:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma:**  \n• **Hemoglobina (Hb):** 10,8 g/dL (VR: 12-16 g/dL)  \n• **Hematócrito (Ht):** 31% (VR: 35-45%)  \n• **Leucócitos:** 12.500/mm³ (VR: 4.500-11.000/mm³)  \n• **Plaquetas:** 159.000/mm³ (VR: 150.000-450.000/mm³)  \n\n\n• **Sódio (Na):** 133 mEq/l (VR: 135 - 145 mEq/l)  \n• **Potássio (K):** 3,6 mEq/l (VR: 3,5 - 5 mEq/l)  \n• **Ureia (Ur):** 35 mg/dl (VR: 13 - 43 mg/dl)  \n• **Creatinina (Cr):** 1,1 mg/dL (VR: 0,5 - 1,2 mg/dl)  \n\n\n**Marcadores Inflamatórios:**  \n• **Proteína C Reativa (PCR):** 68,22 mg/L (VR: < 5 mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME DE IMAGEM",
+      "conteudo": "**IDENTIFIQUE O(S) ACHADO(S) NA IMAGEM**",
+      "imagem": "img_printeds/2015-e7p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Acolhe o paciente adequadamente. Cumprimenta-o, identifica-se de maneira cordial e trata o paciente pelo nome.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Colhe história de maneira objetiva e encadeada. Evita perguntas desnecessárias.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a intensidade da dor (forte).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga o tipo da dor (contínua).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga a localização da dor (em todo o abdome).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga a duração da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga os fatores de melhora e piora da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza a ausculta abdominal antes da palpação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Identifica a rigidez abdominal à palpação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Pesquisa e reconhece sinais de irritação peritoneal. (Blumberg e/ou Rovsing).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita radiografia de tórax e abdome em posição ortostática.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Identifica o pneumoperitôneo na radiografia de tórax.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica verbalmente analgesia endovenosa.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Indica verbalmente soroterapia de reparação com cristaloide.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indica verbalmente antibioticoterapia adequada com cobertura para gram-negativos e anaeróbios.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Indica encaminhamento para cirurgia de emergência.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

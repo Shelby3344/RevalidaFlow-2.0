@@ -1,0 +1,177 @@
+{
+  "uid": 518,
+  "hash": "pepe_518",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Febre do Oropouche (Maruim)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Unidade de Pronto Atendimento - UPA.  \nLocalização: Urgência e Emergência.  \nA unidade possui:  \n• Sala de atendimento;  \n• Laboratório de análises clínicas;  \n• Sala de observação/hidratação.\n\nDescrição do caso:\nVocê está de plantão na UPA de um município da região Norte do Brasil e atenderá um paciente de 28 anos, sexo masculino, que chega com queixa de febre súbita e cefaleia intensa.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese sobre o caso.  \n- Solicitar o exame físico direcionado.  \n- Formular a principal hipótese diagnóstica.  \n- Solicitar exames complementares pertinentes, caso necessário.  \n- Indicar a conduta adequada e responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Railson, 28 anos, pescador e guia turístico.  \n\n**MOTIVO DE CONSULTA:**  \n• \"Doutor(a), parece que fui atropelado. Começou ontem de repente. Uma febre alta, tremedeira de frio e uma dor de cabeça que parece que meus olhos vão pular para fora.\"  \n\n**SOBRE OS SINTOMAS:**  \n• **Início:** Faz 24 horas.  \n• **Cefaleia:** Intensa, dói a cabeça toda e atrás dos olhos.  \n• **Mialgia/Artralgia:** Dor no corpo todo, principalmente nas costas e nas juntas.  \n\n• **Náuses/Vômitos:** Tive náusea e vomitei duas vezes hoje cedo.  \n• **Diarreia:** Fezes um pouco moles.  \n\n• **Fotofobia:** A luz me incomoda muito.  \n• **Sangramentos:** Nega sangramento gengival, nasal ou urinário.  \n\n**HISTÓRIA EPIDEMIOLÓGICA:**  \n• **Local de trabalho/Lazer:** Trabalho como guia com passeios no rio e mata fechada.  \n• **Mosquitos/Insetos:** Acho que fui picado por muitos \"maruins\" nesses últimos dias.  \n• **Contactantes:** A minha esposa tava assim semana passada, ficou ruim uns dias, e melhorou e depois.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Nega.  \n• **Medicações:** Não usa.  \n• **Alergias:** Nega.  \n• **Hábitos:** Nega Bebida/Tabagismo/Drogas.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *Doutor(a) o que eu tenho?, isso é Dengue?*  \n• *Eu vou precisar ficar internado?*  \n• *Essa doença é aquela que dá recaída? Isso vai acontecer comigo também?*  \n• *Doutor(a) e como eu faço para não pegar essa doença novamente?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110 x 70 mmHg  \n• **FC:** 102 bpm  \n• **FR:** 20 irpm  \n• **Temp:** 38,8ºC  \n• **SatO2:** 96% (ar ambiente)  \n\n\n**Ectoscopia:** Paciente em regular estado geral, fácies de dor, hidratado, corado, anictérico. Exantema discreto em tronco.  \n\n\n**Cabeça e Pescoço:** Fotofobia presente. Rigidez de nuca ausente. Oroscopia sem alterações.  \n\n\n**Cardiorrespiratório:** Murmúrio vesicular universalmente audível, sem ruídos adventícios. Ritmo cardíaco regular, 2 tempos, sem sopros.  \n\n\n**Abdome:** Flácido, indolor à palpação, sem visceromegalias. Ruídos hidroaéreos presentes.  \n\n\n**Pele/Extremidades:** Prova do Laço negativa. Pulsos cheios e simétricos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "HEMOGRAMA",
+      "conteudo": "• **Hemoglobina:** 14,5 g/dL  \n• **Hematócrito:** 43%  \n• **Leucócitos:** 3.200/mm³  \n• **Plaquetas:** 135.000/mm³",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TESTES RÁPIDOS",
+      "conteudo": "• **Dengue NS1:** Não Reagente  \n• **Dengue IgM/IgG:** Não Reagente  \n• **Chikungunya:** Não Reagente  \n• **Zika:** Não Reagente  \n• **COVID-19 Ag:** Não Reagente",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação e Acolhimento:**  \n(1) Identifica-se e cumprimenta o paciente;  \n(2) Estabelece comunicação empática diante da dor do paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Anamnese Clínica (Sintomas):**  \n(1) Caracteriza a febre (início súbito) e a cefaleia/fotofobia;  \n(2) Investiga sinais de alarme para arboviroses (sangramentos, dor abdominal intensa, tontura/lipotimia).  \n\n**Adequado:** investiga os dois grupos de sintomas.  \n**Parcialmente adequado:** investiga apenas um grupo.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Anamnese Epidemiológica (Crucial para Oropouche):**  \n(1) Pergunta sobre deslocamento para áreas de mata, rios ou áreas rurais;  \n(2) Questiona especificamente sobre picadas de insetos pequenos (\"maruim\" ou \"mosquito-pólvora\" / *Culicoides paraensis*).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** pergunta apenas sobre \"mosquitos\" em geral sem especificar ambiente silvestre/rural.  \n**Inadequado:** não realiza investigação epidemiológica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicitação de Exame Físico:**  \n(1) Solicita sinais vitais e avaliação geral (hidratação);  \n(2) Solicita avaliação abdominal e pesquisa de sinais meníngeos (devido à cefaleia intensa/fotofobia) ou prova do laço.  \n\n**Adequado:** solicita avaliação geral e específica.  \n**Parcialmente adequado:** solicita apenas sinais vitais.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Hipótese Diagnóstica:**  \nVerbaliza a hipótese de **Febre do Oropouche** (diante da clínica de arbovirose com testes para Dengue/Zika/Chikungunya negativos e epidemiologia positiva para maruim).  \n\n**Adequado:** verbaliza Febre do Oropouche.  \n**Parcialmente adequado:** verbaliza apenas \"Arbovirose indeterminada\".  \n**Inadequado:** mantém diagnóstico de Dengue mesmo com testes negativos ou não formula hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicitação de Exames Específicos (Diagnóstico Etiológico):**  \nSolicita biologia molecular (**RT-PCR** para Oropouche) ou isolamento viral (fase aguda/viremia - até o 5º dia).  \n\n**Adequado:** solicita RT-PCR/biologia molecular.  \n**Parcialmente adequado:** solicita apenas \"sorologia\".  \n**Inadequado:** não solicita exames confirmatórios.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Conduta Terapêutica (Medicamentosa):**  \nPrescreve analgésicos e antitérmicos (Dipirona ou Paracetamol) e **contraindica** o uso de salicilatos (AAS) e AINEs.  \n\n**Adequado:** prescreve sintomáticos e contraindica AAS/AINEs.  \n**Parcialmente adequado:** prescreve sintomáticos mas não faz a ressalva dos AINEs.  \n**Inadequado:** prescreve antibióticos ou AAS.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Conduta Terapêutica (Suporte):**  \nIndica hidratação oral vigorosa e repouso.  \n\n**Adequado:** indica hidratação e repouso.  \n**Inadequado:** não orienta hidratação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Notificação:**  \nRealiza a notificação do caso ao SINAN.  \n\n**Adequado:** verbaliza a notificação.  \n**Inadequado:** não notifica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orientação sobre História Natural (Recidiva):**  \nExplica ao paciente sobre a possibilidade de **recidiva** dos sintomas (retorno da febre e dor) após 1 a 2 semanas da melhora inicial (fenômeno comum na Febre do Oropouche), tranquilizando-o que isso faz parte do ciclo da doença.  \n\n**Adequado:** orienta sobre a possibilidade de recidiva.  \n**Inadequado:** não menciona a possibilidade de retorno dos sintomas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orientação de Prevenção (Controle Vetorial):**  \nOrienta medidas de proteção individual focadas no vetor específico (*Culicoides*): uso de roupas de mangas longas e repelentes, evitar horários de pico do vetor (crepúsculo) e limpeza de quintais.  \n\n**Adequado:** orienta proteção e manejo ambiental.  \n**Inadequado:** orienta apenas \"não deixar água parada\".",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Longitudinalidade e Sinais de Alerta:**  \n(1) Orienta retorno imediato em caso de sinais de alarme (vômitos persistentes, dor abdominal, sangramentos) ou sinais de meningite (rigidez de nuca, alteração de consciência);  \n(2) Garante o seguimento ambulatorial na Atenção Primária para monitorar a fase de convalescença e astenia pós-viral.  \n\n**Adequado:** define critérios de retorno urgentes e seguimento na APS.  \n**Inadequado:** dá alta sem critérios de retorno.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

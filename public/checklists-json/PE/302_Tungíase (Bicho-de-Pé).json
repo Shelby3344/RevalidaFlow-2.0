@@ -1,0 +1,143 @@
+{
+  "uid": 302,
+  "hash": "pepe_302",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Tungíase (Bicho-de-Pé)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde - Unidade Básica de Saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório para atendimento.  \n• Sala de pequenos procedimentos/curativos.  \n• Acesso a farmácia básica e sala de vacinas.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá a mãe, e um menino de 5 anos com queixa de \"feridinhas\" nos pés que coçam e doem muito, dificultando o uso de calçados.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese focada na queixa atual e no histórico epidemiológico;  \n- Realizar o exame físico direcionado para as lesões nos pés;  \n- Formular uma hipótese diagnóstica principal e um diagnóstico diferencial;  \n- Comunicar o diagnóstico à mãe e elaborar o plano terapêutico completo, incluindo procedimento, profilaxias e orientações de prevenção.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO (MANEQUIM OU ATOR) NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Criança:** Caíque, 5 anos.  \n• **Mãe:** Daiana, 26 anos, casada.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), eu trouxe o Caíque por causa dessas feridinhas no pé dele, inflamaram e ele reclama de dor o tempo todo.   \n\n• **SOBRE AS LESÕES:**  \n• Início: há cerca de uma semana, mas agora elas aumentaram.\n• Parece uma bolinha com um ponto preto no meio. Começou com uma, mas agora já tem umas três.  \n• Elas estão muito inchadas e vermelhas em volta. Depois que eu tentei mexer, uma delas começou a sair uma coisa amarela.  \n\n• **SINTOMAS ASSOCIADOS:**  \n• Ele coça sem parar, principalmente à noite.  \n• A dor é o que mais incomoda, ele mal consegue firmar o pé no chão.  \n\n• **TRATAMENTO EM CASA:**  \n• Eu tentei tirar com uma agulha que tenho em casa, mas ele gritou de dor e começou a sangrar. Acho que ficou pior.  \n\n**HISTÓRICO EPIDEMIOLÓGICO:**  \n• **VIAGEM:**  \n• Ele passou as férias, há duas semanas, no sítio dos avós.  \n\n• **EXPOSIÇÃO:**  \n• Lá, ele brincou muito descalço no quintal, que é de terra e tem um chiqueiro e um galinheiro perto da casa.  \n\n**ANTECEDENTES:**  \n• **VACINAÇÃO:**  \n• Eu acho que as vacinas estão em dia, mas não tenho certeza. A carteirinha dele ficou em casa.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que é isso, doutor(a)?*  \n• *Qual o tratamento? Vai precisar cortar?*  \n• *Eu fiz mal em tentar tirar em casa?*  \n• *Ele vai precisar tomar alguma vacina?*  \n• *Como eu faço para isso não acontecer de novo?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 100x65 mmHg  \n• **FC:** 90 bpm  \n• **FR:** 20 irpm  \n• **Temp. axilar:** 37,1°C  \n• **SatO2:** 99% em ar ambiente  \n\n\n**EXAME FÍSICO SEGMENTAR**  \n\n\n**Exame dos Pés (Bilateral):**  \n• **Inspeção:** Múltiplas lesões papulares em diferentes estágios, localizadas predominantemente na região plantar, espaços interdigitais e área subungueal.  \n\n• **Lesões Iniciais:** Pápulas de cor esbranquiçada com ponto central escuro.  \n\n• **Lesões Tardias/Inflamadas:** Nódulos eritematosos e edemaciados, com calor e dor intensa à palpação. Uma das lesões apresenta secreção purulenta discreta.  \n\n\n**Linfonodos:**  \n• Ausência de linfonodomegalia inguinal palpável.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta o paciente simulado e sua mãe, e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando o vínculo epidemiológico.**  \n\n**Adequado:** investiga ativamente o histórico de frequência a locais de risco (sítio, área rural) e questiona sobre o hábito de andar descalço em solo de areia ou terra.  \n**Inadequado:** não investiga o histórico epidemiológico.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a história da doença atual e os antecedentes relevantes.**  \n(1) caracteriza a evolução das lesões e os sintomas associados (dor, prurido);  \n(2) questiona sobre manipulações caseiras das lesões;  \n(3) verifica o estado vacinal da criança, com foco na profilaxia para tétano.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta os achados do exame físico.**  \n\n**Adequado:** identifica as lesões características da tungíase (pápula com ponto escuro central) e reconhece os sinais de infecção bacteriana secundária (eritema, edema, secreção purulenta).  \n**Inadequado:** não consegue interpretar os achados do exame físico ou não identifica a infecção secundária.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula a hipótese diagnóstica principal e um diferencial.**  \n(1) Hipótese Principal: Tungíase com infecção bacteriana secundária (impetiginização);  \n(2) Diagnóstico Diferencial: Miíase ou Escabiose.  \n\n**Adequado:** formula a hipótese principal correta e cita um diagnóstico diferencial.  \n**Parcialmente adequado:** formula apenas a hipótese principal de Tungíase, sem mencionar a infecção secundária.  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Descreve a conduta para a remoção do parasita.**  \n\n**Adequado:** descreve a remoção cirúrgica das pulgas com técnica asséptica, utilizando agulha estéril, e explica a importância de remover o parasita por inteiro para evitar reações inflamatórias.  \n**Inadequado:** não indica a remoção ou sugere apenas tratamento medicamentoso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Define a conduta para a infecção bacteriana secundária.**  \n\n**Adequado:** prescreve antibioticoterapia (tópica ou sistêmica, a depender da extensão) para tratar a infecção secundária.  \n**Inadequado:** não indica o tratamento para a infecção bacteriana.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define a conduta em relação à profilaxia do tétano.**  \n\n**Adequado:** indica a administração da vacina antitetânica (reforço) e, se necessário, da imunoglobulina, pois se trata de um ferimento contaminado em criança com estado vacinal incerto.  \n**Inadequado:** não indica a profilaxia para o tétano.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta a mãe sobre os riscos da manipulação caseira.**  \n\n**Adequado:** orienta a mãe, sem culpabilização, que a tentativa de remoção em casa com material não estéril aumenta o risco de infecções e de o parasita não ser removido completamente.  \n**Inadequado:** não orienta sobre os riscos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Fornece orientações sobre a prevenção de novos episódios.**  \n(1) orienta o uso constante de calçados fechados em áreas de risco;  \n(2) explica a importância de manter limpos os ambientes frequentados por animais (cães, porcos, galinhas).  \n\n**Adequado:** fornece as duas orientações.  \n**Parcialmente adequado:** fornece apenas uma das orientações.  \n**Inadequado:** não fornece orientações de prevenção.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

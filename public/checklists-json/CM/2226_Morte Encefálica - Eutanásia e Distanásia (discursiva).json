@@ -1,0 +1,121 @@
+{
+  "uid": 2226,
+  "hash": "pepe_2226",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Morte Encefálica - Eutanásia e Distanásia (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: unidade de terapia intensiva (UTI).  \nA unidade apresenta a seguinte infraestrutura:  \n• leitos de UTI com monitorização completa;  \n• ventiladores mecânicos;  \n• acesso a exames laboratoriais e de imagem.\n\nDescrição do caso:\nVocê é o(a) médico(a) responsável por uma paciente de 34 anos internada na UTI com quadro de coma profundo e irresponsivo após hemorragia cerebral grave. A mãe da paciente está presente e deseja conversar sobre o quadro clínico.",
+  "tarefas": "TAREFAS:  \n- Ler o Resumo do Caso e acolher a mãe da paciente.  \n- Comunicar a suspeita clínica de morte encefálica.  \n- Explicar o protocolo para confirmação diagnóstica.  \n- Abordar as questões e os dilemas éticos levantados pela mãe e esposo a respeito da continuidade do tratamento.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Helena, 60 anos.  \n• **Paciente:** Vanessa, 34 anos.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu queria saber como minha filha está. O médico de ontem disse que o quadro era muito grave, mas o coração dela ainda está batendo, então ainda há esperança, certo?  \n\n**SOBRE O OCORRIDO/SOLICITAÇÃO DO ESPOSO:**  \n• Ela teve uma dor de cabeça, começou a convulsionar e depois desmaiou. Foi tudo muito rápido. Ontem o outro médico falou com o marido dela, e o meu genro disse que minha filha sempre falou que não queria viver ligada em aparelhos. Em respeito ao desejo dela, ele pediu para desligar tudo e deixar ela descansar em paz.  \n\n**DÚVIDAS:**  \n• *Eu quero que façam de tudo por ela. Enquanto há vida, há esperança, não é mesmo?*  \n• *O que significa essa tal de \"morte encefálica\"? Ela não está só em coma?*  \n• *Esses exames que vocês querem fazer são para tentar salvar ela?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RESUMO DO CASO",
+      "conteudo": "**Paciente:** Vanessa, 34 anos.  \n\n\n**História da Doença Atual:**  \n• Internada na UTI após hemorragia subaracnóidea por ruptura de aneurisma cerebral, submetida a tratamento neurocirúrgico.  \n• Evoluiu com hipertensão intracraniana refratária.  \n\n\n**EXAME FÍSICO ATUAL (UTI)**  \n\n\n**Sinais Vitais:**  \n• **PA:** 125x75 mmHg (em uso de droga vasoativa).  \n• **FC:** 88 bpm.  \n• **FR:** 14 ipm (controlada pelo ventilador mecânico).  \n• **SatO2:** 99% (com FiO2 de 50%).  \n• **Temp. axilar:** 36.7°C.  \n\n\n**EXAME NEUROLÓGICO:**  \n• **Nível de Consciência:** Escala de Coma de Glasgow 3 (R. Ocular 1, R. Verbal 1, R. Motora 1).  \n• **Pupilas:** Midriáticas, fixas, sem fotorreação bilateral.  \n• **Reflexos de Tronco:** Ausência de reflexo córneo-palpebral, oculocefálico (olhos de boneca) e oculovestibular (prova calórica).  \n• **Reflexo de Tosse:** Ausente à estimulação do tubo orotraqueal.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se de forma clara e cordial; e,  \n(2) acolhe a mãe, oferecendo um lugar tranquilo.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Comunicação - Explicação da Suspeita Diagnóstica:**  \n(1) verbaliza, em linguagem acessível, a suspeita clínica de morte encefálica; e,  \n(2) diferencia coma (função cerebral diminuída, mas presente) de morte encefálica (parada definitiva e irreversível de todas as funções do cérebro).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma ou usa jargões técnicos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Descrição do Protocolo - Exames Clínicos:**  \n(1) verbaliza a necessidade de realizar dois exames clínicos neurológicos detalhados; e,  \n(2) informa que os exames serão feitos por dois médicos diferentes, com intervalo de tempo, para confirmar a ausência de todos os reflexos do cérebro.  \n(3) os médicos não podem ser envolvidos com a equipe de transplante de órgãos;  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza ao menos uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Descrição do Protocolo - Teste de Apneia:**  \n(1) verbaliza a necessidade de realizar o \"teste de apneia\"; e,  \n(2) explica que o teste serve para confirmar que o cérebro não é mais capaz de controlar a respiração sozinho.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Cita exames complementares que podem ser utilizados para o diagnóstico de ME.**  \n(1) Angiografia Cerebral;  \n(2) Eletroencefalograma (EEG);  \n(3) Doppler Transcraniano;  \n(4) Cintilografia Cerebral.  \n\n**Adequado:** cita três ou mais exames.  \n**Parcialmente adequado:** cita dois exames.  \n**Inadequado:** não cita os exames ou cita apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Conceitua a prática solicitada pela mãe de \"fazer de tudo\" (Distanásia).**  \n\n**Adequado:** conceitua a prática como Distanásia ou Obstinação Terapêutica, explicando que consiste em utilizar tratamentos que apenas prolongam o processo de morrer, sem trazer benefícios ou chance de cura, o que também é vedado pelo Código de Ética Médica.  \n**Inadequado:** não consegue conceituar a prática ou a considera como a conduta correta a ser seguida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Conduta Ética - Resposta sobre o Marido (Eutanásia):**  \n(1) explica que a solicitação do marido (desligar os aparelhos para abreviar a vida antes da confirmação da ME) não pode ser atendida; e,  \n(2) esclarece que essa prática é considerada eutanásia e é ilegal no Brasil.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Comunicação - Encerramento e Suporte:**  \n(1) pergunta se a mãe tem mais alguma dúvida; e,  \n(2) oferece suporte da equipe multiprofissional (psicologia, serviço social) e se coloca à disposição para futuras conversas.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "uid": 2223,
+  "hash": "pepe_2223",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Glomerulonefrite Difusa Aguda - GNDA (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - Unidade de Pronto Atendimento (UPA).  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• leitos de observação e internação de curta duração;  \n• farmácia.\n\nDescrição do caso:\nVocê está de plantão na UPA e receberá uma escolar de 7 anos, trazida pela mãe com queixa de \"olhos inchados\" e urina escura.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar os exames laboratoriais pertinentes.  \n- Verbalizar a principal hipótese diagnóstica e justificá-la.  \n- Orientar a mãe sobre a condição e instituir o tratamento adequado.  \n- Explicar a evolução esperada do quadro para casos não complicados.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Sandra, 35 anos.  \n• **Criança:** Beatriz, 7 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu trouxe a Beatriz porque desde ontem ela acordou com os olhos bem inchados, e eu reparei que a cor do xixi dela está muito escura.  \n\n**SOBRE O QUADRO ATUAL:**  \n• **Edema:** O inchaço é mais nos olhos mesmo.  \n• **Urina:** A cor parece bem marrom. E ela está indo bem menos ao banheiro que o normal.  \n• **Cefaleia:** Ela está reclamando de dor de cabeça desde que acordou hoje.  \n• **Outros sintomas:** Ela está mais indisposta, sem vontade de brincar e comendo pouco.  \n\n**NEGAR OUTROS SINTOMAS:**  \n• Lesões de pele, dor nas juntas, dor na barriga, vômitos.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Infecções recentes:** Há umas duas semanas, ela teve uma dor de garganta bem forte. Deu febre alta por uns 4 dias, eu só dei remédio pra febre e melhorou.  \n• **Doenças e medicações:** Ela é saudável, não toma nenhum remédio.  \n• **Alergias:** Nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que a minha filha tem, doutor(a)?*  \n• *Essa dor de garganta que ela teve tem a ver com isso?*  \n• *É grave? Demora pra desaparecer esses sintomas?*  \n• *Como é o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 125x85 mmHg (Percentil > 95 para idade)  \n• **FC:** 95 bpm  \n• **FR:** 20 irpm  \n• **Temp. axilar:** 36.8° C  \n• **SatO₂:** 98% em ar ambiente  \n\n\n**Ectoscopia:** Regular estado geral, corada, hidratada, afebril, acianótica e anictérica. Presença de edema periorbital discreto (++/+4).  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** Murmúrio vesicular preservado em ambos os campos pulmonares, sem ruídos adventícios.  \n\n\n**Abdominal:** Abdome plano, flácido, indolor à palpação, sem visceromegalias.  \n\n\n**Membros:** Sem edema de membros inferiores.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 10,8 g/dL (VR: 11,5 - 13,5 g/dL)  \n• **Hematócrito:** 32% (VR: 34 - 40%)  \n• **Leucócitos:** 8.500/mm³ (VR: 5.000 - 14.500/mm³)  \n• **Plaquetas:** 280.000/mm³ (VR: 150.000 - 450.000/mm³)  \n\n\n**PERFIL RENAL**  \n• **Ureia:** 60 mg/dL (VR: 15 - 40 mg/dL)  \n• **Creatinina:** 1,1 mg/dL (VR: 0,5 - 1,0 mg/dL)  \n\n\n• **ASO (Antiestreptolisina O):** 520 UI/mL (VR: < 200 UI/mL)  \n• **Complemento C3:** 45 mg/dL (VR: 90 - 180 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "URINA SIMPLES",
+      "conteudo": "**URINA SIMPLES (TIPO I)**  \n*Amostra:*  \n• **Aspecto:** turvo  \n• **Cor:** avermelhada/acastanhada  \n\n*Exame químico:*  \n• **Proteínas:** +++/4+  \n• **Hemoglobina:** +++/4+  \n• **Densidade:** 1028  \n• **pH:** 5,0  \n\n*Sedimentoscopia:*  \n• **Hemácias:** > 100 por campo  \n• **Leucócitos:** 8 por campo  \n• **Cilindros hemáticos:** presentes",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e a paciente, perguntando seus nomes.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga a história da doença atual:**  \n(1) caracteriza o edema (localização, início);  \n(2) caracteriza as alterações urinárias (oligúria, hematúria);  \n(3) pergunta sobre sintomas associados (cefaleia, inapetência, indisposição).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga o antecedente de infecção estreptocócica.**  \n\n**Adequado:** pergunta ativamente sobre infecção de garganta (ou de pele) nas últimas semanas (10 a 20 dias).  \n**Inadequado:** não pergunta sobre infecções recentes.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita e interpreta os achados do exame físico.**  \n(1) solicita o exame físico;  \n(2) identifica a presença do edema periorbital;  \n(3) identifica a hipertensão arterial.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais essenciais para o diagnóstico.**  \n(1) Urina tipo I (ou sumário de urina);  \n(2) Ureia e Creatinina;  \n(3) Dosagem de Complemento C3.  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame para confirmar a etiologia estreptocócica.**  \n\n**Adequado:** solicita a dosagem de Antiestreptolisina O (ASO/ASLO).  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a principal hipótese diagnóstica: Glomerulonefrite Difusa Aguda Pós-Estreptocócica (GNDA-PE).**  \n\n**Adequado:** verbaliza a hipótese diagnóstica completa.  \n**Parcialmente adequado:** verbaliza apenas \"Glomerulonefrite\" ou \"Síndrome Nefrítica\".  \n**Inadequado:** não verbaliza a hipótese ou verbaliza uma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Justifica a hipótese diagnóstica correlacionando os achados clínicos e laboratoriais.**  \n(1) história de infecção de vias aéreas recente;  \n(2) presença de síndrome nefrítica (edema, hipertensão e hematúria);  \n(3) consumo do complemento C3.  \n\n**Adequado:** justifica utilizando os três pontos.  \n**Parcialmente adequado:** justifica utilizando dois pontos.  \n**Inadequado:** justifica utilizando um ou nenhum ponto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta as medidas gerais de tratamento.**  \n(1) repouso relativo;  \n(2) restrição hídrica;  \n(3) restrição de sódio (sal).  \n\n**Adequado:** orienta as três medidas.  \n**Parcialmente adequado:** orienta duas medidas.  \n**Inadequado:** orienta uma ou nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o tratamento medicamentoso adequado para o caso.**  \n(1) prescreve antibiótico para erradicação do estreptococo (Penicilina ou Eritromicina);  \n(2) prescreve diurético de alça (Furosemida) para manejo da hipertensão/hipervolemia.  \n\n**Adequado:** indica as duas classes de medicamentos.  \n**Parcialmente adequado:** indica apenas uma das classes.  \n**Inadequado:** não indica nenhuma das medicações ou indica medicações incorretas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a mãe sobre a evolução esperada do quadro (prognóstico).**  \n(1) informa que a melhora do edema e da pressão ocorre em cerca de 1 a 2 semanas;  \n(2) informa que a urina escura (hematúria macroscópica) melhora em 1 a 2 semanas, mas pequenas quantidades de sangue (hematúria microscópica) podem persistir por mais tempo.  \n\n**Adequado:** orienta sobre os dois pontos.  \n**Parcialmente adequado:** orienta sobre um ponto.  \n**Inadequado:** não orienta sobre a evolução.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

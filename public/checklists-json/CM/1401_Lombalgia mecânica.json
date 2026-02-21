@@ -1,0 +1,248 @@
+{
+  "uid": 1401,
+  "hash": "pepe_1401",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Lombalgia mecânica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;\n\nDescrição do caso:\nVocê atenderá um paciente de 45 anos, trabalhador da construção civil, que se queixa de dor intensa que começou após dias de trabalho pesado.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico direcionado à queixa do paciente;  \n- Informar a principal hipótese diagnóstica;  \n- Propor condutas, orientações e responder dúvidas pertinentes ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• João, 45 anos, trabalhador da construção civil.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor muito forte na parte de baixo das costas.  \n\n**SOBRE DOR:**  \n• **Início:** faz uns 3 dias, depois de uns dias de trabalho muito pesado.  \n• **Localização:** É bem no meio, na parte de baixo das costas.  \n• **Irradiação:** Não, a dor fica só aí mesmo, não vai para as pernas.  \n• **Característica:** É uma dor que parece que está travando, um peso.  \n• **Intensidade:** Hoje está um 8 de 10.  \n• **Atenuantes/agravantes:** Piora quando eu tento me abaixar ou levantar. Ficar deitado de lado melhora um pouco.  \n• **Medicação para dor:**  Tomei um relaxante muscular que tinha em casa, mas não adiantou muito.  \n\n• **Episódio anterior:** Já tive outras vezes, mas nunca tão forte assim.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença que eu saiba.  \n• **Atividade física:** Não faço nenhum exercício, meu trabalho já é muito pesado.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Não precisa fazer um raio-x para ver o que é?*  \n• *Vou precisar de atestado?*  \n• *O que eu posso fazer para essa dor melhorar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 82 bpm  \n• **FR:** 17 irpm  \n• **SatO2:** 98%  \n• **Temp. axilar:** 36.7° C  \n• **IMC:** 26.0 kg/m²  \n\n\n**Ectoscopia:** paciente em bom estado geral, apresentando fáscie álgica, orientado, corado, hidratado, acianótico e anictérico.  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** sem alterações.  \n\n\n**Abdominal:** sem alterações.  \n\n\n**Neurológico:** Força e sensibilidade preservadas em tronco e MMII.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO LOMBAR",
+      "conteudo": "• **Inspeção:** Ausência de desvios ou deformidades na coluna vertebral.  \n\n• **Palpação:** Dor à palpação da musculatura paravertebral lombar, com contratura muscular. Apófises espinhosas sem dor à palpação.  \n\n• **Punho-percussão:** negativa.  \n\n• **Movimentos da coluna lombar:** Dor e limitação à flexão e extensão da coluna.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e indaga o nome do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Trata o paciente com respeito, deixando-o falar, sem interrupções, utilizando linguagem acessível (evita jargões, abreviaturas ou termos técnicos).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga adequadamente o tempo e modo de aparecimento da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Indaga a profissão do paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga a prática de exercícios físicos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga fatores desencadeantes da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga irradiação da dor, em especial para membros inferiores.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Investiga o uso de medicamentos e melhora ou não da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Investiga a ocorrência de episódios anteriores semelhantes e de outras patologias (doenças reumatológicas, hérnia de disco, patologias da coluna vertebral).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Informa ao paciente a necessidade de realização de exame físico e solicita a ele que retire a camisa.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza inspeção e palpação das apófises espinhosas e da musculatura paravertebral.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realiza punho-percussão lombar.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Pesquisa os movimentos da coluna, pelo menos flexão e extensão.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Expressa-se com clareza e segurança, esclarecendo ao paciente que se trata de uma lombalgia mecânica, provavelmente desencadeada por contratura ou distensão da musculatura em volta da coluna.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Explica que não é necessária a realização de exames complementares.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Prescreve o uso de miorelaxante associado, ou não, a anti-inflamatório não hormonal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Salienta a importância da postura e recomenda a prática de atividades físicas e/ou fisioterápicas sob supervisão.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Explica ao paciente que o quadro não justifica a concessão de atestado médico para afastamento do trabalho e fornece declaração de comparecimento à consulta médica.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Com exceção dos pacientes que apresentem uma etiologia mais especifica (infecções, doenças reumatológicas,  \nfraturas e neoplasias), o tratamento para a lombalgia se dá inicialmente de forma conservadora:  \n\n• Repouso relativo (não precisa ficar acamado mas também não deve realizar atividade física habitual);  \n• Fisioterapia analgésica;  \n• Analgesia e uso de anti-inflamatórios por tempo limitado.  \n\nAtenção! Não usar colete de apoio lombar porque causa atrofia da musculatura que suporta a coluna lombar.  \nNum primeiro momento o colete até promove alívio da dor, mas a médio prazo a tendência é a dor piorar devido  \na atrofia muscular.  "
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Confere o entendimento pelo paciente, perguntando se ele ainda tem alguma dúvida.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

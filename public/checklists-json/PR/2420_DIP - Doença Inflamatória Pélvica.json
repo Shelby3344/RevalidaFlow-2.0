@@ -1,0 +1,187 @@
+{
+  "uid": 2420,
+  "hash": "pepe_2420",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "DIP - Doença Inflamatória Pélvica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• ambulatórios para atendimento de consultas marcadas e de acolhimento do dia;  \n• sala para observação, coleta de exames e administração de medicamentos orais ou parenterais.  \n\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.\n\nDescrição do caso:\nVocê recebe uma paciente de 21 anos de idade para uma consulta de acolhimento devido à dor no hipogastro há uma semana.",
+  "tarefas": "TAREFAS:  \n\n- Realizar a anamnese direcionada a queixa principal da paciente.  \n- Interpretar os dados do exame físico.  \n- Relacionar os achados clínicos às hipóteses diagnósticas.  \n- Explicar o diagnóstico e responder às perguntas da paciente.  \n- Indicar o tratamento incluindo medicamentos, orientar coleta de exames e medidas preventivas cabíveis.  \n\n\nA prescrição, pedidos de exames e orientações devem ser feitas apenas de forma verbal.  \nFale de maneira clara, audível e olhando para a câmera.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Luísa, 21 anos, casada.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com uma dor forte aqui no pé da barriga e um corrimento com cheiro ruim.  \n\n**SOBRE A DOR:**  \n• **Início:** Faz uma semana.  \n• **Localização:** Na parte de baixo da barriga.  \n• **Característica:** É tipo uma cólica, mas que não para.  \n• **Intensidade:** Está bem forte, um 8, por aí.  \n• **Atenuantes/agravantes:** Não tem nada que melhore ou piore.  \n\n**SOBRE CORRIMENTO:**  \n• **Início:** Começou junto com a dor, faz uma semana.  \n• **Aspecto e cor:** É bastante, e meio esverdeado.  \n• **Cheiro:** Tem um cheiro forte.  \n• **Prurido:** Não coça.  \n• **Sangramento:** nega.  \n\n**RELAÇÃO SEXUAL:**  \n• **Dispareunia e sangramento:** Sim, dói bastante na hora da relação.  \n\n**SINTOMAS GERAIS:**  \n• **Nega:** febre, mal-estar, dores no corpo, dor lombar, náuseas ou vômitos.  \n• **Urina e fezes:** está normal.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **DUM:** Faz umas 2 semanas.  \n• **Anticoncepção e preservativo:** Não uso nenhum.  \n• **Histórico de IST:** Nunca tive.  \n• **Sangramento fora do período menstrual:** Nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Cirurgias e internações:** Nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Então Doutor(a), o que é que eu tenho?*  \n• *Esse problema é sexualmente transmissível?*  \n• *Será que meu marido poderia estar me traindo?*  \n• *Que procedimentos, exames ou remédios preciso tomar para resolver?*  \n• *Doutor(a), eu vou ter que ir para o hospital?*  \n• *Devo ter algum outro cuidado?*  \n• *Doutor(a), na loja onde trabalho fico o dia inteiro de pé. Será que preciso de atestado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Pressão Arterial:** 120 × 70 mmHg.  \n\n**Temperatura Axilar:** 36,7 OC.  \n\nPaciente em bom estado geral. Mucosas coradas e úmidas.  \n\nAbdome flácido sem defesa, mas com dor a palpação na fossa ilíaca esquerda.  \n\n**Exame pélvico:** exame especular com secreção vaginal abundante e esverdeada e colo friável eritema com secreção no orifício cervical.  \n\n**Toque vaginal:** dor a palpação do anexo esquerdo e dor à mobilização do colo.  \n\nDemais aspectos do exame físico estão normais.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Posturas gerais com a paciente:**  \n(1) apresenta-se;  \n(2) cumprimenta a paciente (dirige-se a ela pelo nome, pelo menos 1 vez);  \n(3) mantém postura empática e interessada (escuta ativamente a fala da paciente, sem interrompê-la);  \n(4) comunica-se adequadamente (usa linguagem clara e acessível, evitando termos de difícil compreensão).  \n\n**Adequado:** realiza as quatro ações descritas.  \n**Parcialmente adequado:** realiza pelo menos duas ações.  \n**Inadequado:** realiza menos de duas ou não realiza nenhuma das ações descritas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Avaliação do risco de suicídio. Adaptado de: BOTEGA, 2015; MONTENEGRO,\nTAVARES e ARTS, 2012; TAVARES, 2003; SHNEIDMAN, 1993.\n\nBAIXO RISCO:\n* Sem tentativa de suicídio prévia\n* Ideias de suicídio são passageiras e não perturbadoras\n* Não tem planejamento\n* Transtornos mentais, se presentes, com sintomas bem controlados\n* Apresenta foco e insight para mudanças e tolerância a frustração\n* Não apresenta impulsividade\n* Boa adesão ao tratamento\n* Tem rede de apoio funcional\n\nMÉDIO RISCO:\n* Tentativa de suicídio prévia\n* Ideias de suicídio persistentes e percebidas como solução\n* Não tem planejamento concreto ou acesso a métodos potencialmente perigosos\n* Apresenta mínima capacidade de planejar/esperar mudanças e tolerar frustrações\n* Não apresenta impulsividade\n* Deseja e/ou busca tratamento\n* Tem rede de apoio, mesmo que limitada\n* Não abusa/depende de álcool ou drogas\n\nALTO RISCO:\n* Tentativa de suicídio prévia\n* Apresenta afetos intoleráveis\n* Tem planejamento e acesso a métodos\n* Depressão grave\n* Sintomas psicóticos (delírios ou alucinações)\n* Baixa tolerância à frustração\n* Não apresenta foco e insight para mudanças\n* Apresenta impulsividade\n* Não deseja tratamento\n* Tem rede de apoio disfuncional ou inexistente\n* Abuso grave / Dependência de álcool e/ou outras drogas"
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre sintomas gerais:**  \n(1) febre;  \n(2) mal-estar;  \n(3) dores no corpo;  \n(4) dor lombar;  \n(5) náuseas ou vômitos.  \n\n**Adequado:** pergunta pelo menos dois sintomas.  \n**Parcialmente adequado:** pergunta pelo menos um sintoma geral.  \n**Inadequado:** não pergunta sobre sintomas gerais.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas urinários:**  \n(1) disúria;  \n(2) polaciúria;  \n(3) noctúria;  \n(4) mal odor na urina;  \n(5) hematúria.  \n\n**Adequado:** pergunta sobre pelo menos três sintomas.  \n**Parcialmente adequado:** pergunta sobre pelo menos dois sintomas.  \n**Inadequado:** pergunta sobre apenas um ou não pergunta sobre nenhum desses sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre características da dor:**  \n(1) intensidade;  \n(2) local;  \n(3) característica da dor (tipo);  \n(4) irradiação;  \n(5) tempo de instalação dos sintomas;  \n(6) progressão dos sintomas;  \n(7) fatores de melhora;  \n(8) fatores de piora.  \n\n**Adequado:** pergunta sobre pelo menos seis dessas características.  \n**Parcialmente adequado:** pergunta sobre pelo menos quatro dessas características.  \n**Inadequado:** pergunta apenas três ou menos do que três dentre essas características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Questiona sobre a vida sexual e ciclo menstrual:**  \n(1) início das relações sexuais;  \n(2) dor nas relações sexuais;  \n(3) uso de preservativo durante a atividade sexual;  \n(4) uso de anticoncepcionais;  \n(5) data da última menstruação;  \n(6) comportamento sexual (parcerias múltiplas e/ou novas parcerias);  \n(7) histórico de infecções sexualmente transmissíveis (ISTs).  \n\n**Adequado:** questiona sobre pelo menos seis desses itens.  \n**Parcialmente adequado:** questiona sobre apenas cinco desses itens.  \n**Inadequado:** questiona apenas quatro ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Questiona sobre a presença de:**  \n(1) leucorreia;  \n(2) sangramento vaginal;  \n(3) aspecto da secreção vaginal;  \n(4) odor da secreção vaginal.  \n\n**Adequado:** questiona sobre os quatro itens.  \n**Parcialmente adequado:** questiona apenas sobre três desses itens.  \n**Inadequado:** questiona sobre até dois ou não questiona nenhum desses itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza o diagnóstico de doença inflamatória pélvica:**  \n\n**Adequado:** verbaliza o diagnóstico completo.  \n**Inadequado:** verbaliza o diagnóstico incompleto ou não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Responde/Explica a paciente sobre o contágio sexual:**  \n(1) responde/explica que a infecção pode ou não ser uma doença sexualmente transmissível;  \n(2) explica que o momento da contaminação para algumas bactérias não pode ser precisado;  \n(3) acolhe as dúvidas da paciente e estimula o diálogo entre a paciente e o companheiro, sem julgamentos.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza apenas duas dessas ações.  \n**Inadequado:** realiza uma ou não realiza nenhuma dessas ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indicações/recomendações:**  \n(1) tratamento ambulatorial;  \n(2) recomenda repouso;  \n(3) recomenda abstinência sexual;  \n(4) fornece atestado;  \n(5) marca retorno.  \n\n**Adequado:** realiza pelo menos três ações.  \n**Parcialmente inadequado:** realiza pelo menos duas ações.  \n**Inadequado:** realiza uma ou menos ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta o tratamento indicando as medicações:**  \n(1) Ceftriaxone ou cefotaxima ou levofloxacino;  \n(2) Metronidazol;  \n(3) Doxaciclina ou Azitromicina.  \n\n**Adequado:** indica os três medicamentos (um de cada grupo).  \n**Parcialmente adequado:** indica apenas duas medicações corretas.  \n**Inadequado:** indica apenas uma medicação ou esquemas inadequados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Recomenda analgésicos ou anti-inflamatórios via oral.**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Recomenda o tratamento do parceiro com antibióticos.**  \n\n**Adequado:** recomenda.  \n**Inadequado:** não recomenda.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita exames para IST, ou teste rápido, para:**  \n(1) HIV;  \n(2) Sífilis;  \n(3) Hepatite B;  \n(4) Hepatite C.  \n\n**Adequado:** solicita os quatro exames.  \n**Parcialmente adequado:** solicita pelo menos três exames.  \n**Inadequado:** não solicita exames para IST, ou teste rápido.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Recomenda o uso de preservativos nas relações sexuais.**  \n\n**Adequado:** recomenda.  \n**Inadequado:** não recomenda.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

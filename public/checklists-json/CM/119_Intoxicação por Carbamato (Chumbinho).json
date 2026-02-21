@@ -1,0 +1,166 @@
+{
+  "uid": 119,
+  "hash": "pepe_119",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Intoxicação por Carbamato (Chumbinho)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência;  \n• Laboratório de análises clínicas;  \n• Eletrocardiograma;  \n• Unidade de Terapia Intensiva (UTI).\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e atenderá um paciente de 22 anos, trazido pela mãe por rebaixamento do nível de consciência e dificuldade respiratória.",
+  "tarefas": "TAREFAS:  \n- Realizar o atendimento inicial e avaliação primária do paciente.  \n- Realizar a anamnese com a acompanhante.  \n- Solicitar e Interpretar os dados do exame físico e dos exames complementares.  \n- Formular a hipótese diagnóstica.  \n- Estabelecer a conduta terapêutica.  \n- Definir o destino do paciente.  \n\n\\\nATENÇÃO! A ANAMNESE DEVERÁ SER DIRIGA À ACOMPANHANTE DO PACIENTE.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Acompanhante:** Sônia, 45 anos (mãe).  \n• **Paciente:** Lucas, 22 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), Eu achei o Lucas caído no quarto vomitando muito e babando, com essa embalagem de \"chumbinho\" do lado! Acho que ele tentou se matar!  \n\n• **Início:** Eu não sei direito, acho que faz mais ou menos 1 hora que ele tomou isso.  \n• **Vômitos:** Ele vomitou demais, várias vezes seguidas.  \n\n**SOBRE DISPNEIA:**  \n• **Início:** Logo depois ele começou a ficar com muita falta de ar.  \n• **Sibilos:** O peito parece que está chiando, fazendo barulho.  \n\n**ALTERAÇÃO NEUROLÓGICA:**  \n• **Sonolência ou hipotensão:** Ele mal consegue responder, tá muito sonolento.  \n• **Sialorreia ou liberação de esfincter:** E tá babando muito, escorrendo saliva.  \n• **Alteração visual:** Notei que o olho dele ficou com a pupila bem pequenininha.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** Ele estava tratando depressão, mas não sei dizer os remédios que usava.  \n• **Alergias:** Nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS DA MÃE:**  \n• *Ele vai morrer, doutor(a)?*  \n• *O que vocês vão fazer com ele? Esse veneno tem cura?*  \n• *Eu vi na internet esse remédio Pralidoxima. É isso que vai ser usado no Lucas?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 90 x 60 mmHg  \n• **Frequência Cardíaca:** 50 bpm  \n• **Frequência Respiratória:** 28 irpm (superficial)  \n• **Saturação de Oxigênio:** 88% em ar ambiente  \n• **Temperatura Axilar:** 36.2°C  \n• **Glicemia Capilar:** 130 mg/dL  \n\n\n• **Geral:** Paciente sonolento, respondendo apenas a estímulos dolorosos (Glasgow 10: Ocular 2, Verbal 3, Motor 5). Sudorese fria e sialorreia intensa (\"babando\").  \n\n• **Pupilas:** Miose puntiforme bilateral.  \n\n• **Respiratório:** Respiração ruidosa. Ausculta pulmonar com roncos e sibilos difusos (broncorreia e broncoespasmo intensos).  \n\n• **Cardiovascular:** Bulhas rítmicas hipofonéticas, bradicárdicas.  \n\n• **Abdominal:** Ruídos hidroaéreos aumentados, peristaltismo visível.  \n\n• **Neuromuscular:** Fasciculações musculares generalizadas (pálpebras, braços, tórax).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**GASOMETRIA ARTERIAL:**  \n• **pH:** 7,25 (VR: 7,35 - 7,45)  \n• **pCO2:** 55 mmHg (VR: 35 - 45 mmHg)  \n• **pO2:** 60 mmHg (VR: 80 - 100 mmHg)  \n• **HCO3:** 20 mEq/L (VR: 22 - 26 mEq/L)  \n• **BE:** -4.0 mEq/L (VR: -2 a +2)  \n• **Lactato:** 3.0 mmol/L (VR: < 2.0 mmol/L)  \n\n\n**HEMOGRAMA:**  \n• **Leucócitos:** 12.500/mm³ (VR: 4.000 - 11.000/mm³)  \n• **Hemoglobina:** 14.0 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Plaquetas:** 220.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**BIOQUÍMICA:**  \n• **Creatinina:** 1.0 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Sódio:** 138 mEq/L (VR: 135 – 145 mEq/L)  \n• **Potássio:** 4.1 mEq/L (VR: 3,5 – 5,0 mEq/L)  \n• **Amilase:** 150 U/L (VR: < 100 U/L)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ELETROCARDIOGRAMA (ECG)",
+      "conteudo": "**LAUDO:**  \n• Ritmo sinusal, bradicardia sinusal.  \n• Frequência Cardíaca: 52 bpm.  \n• Intervalo PR no limite superior da normalidade (200 ms).  \n• Sem outras alterações agudas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a acompanhante e se dirige ao paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a avaliação primária e identifica as alterações críticas.**  \n(1) Vias aéreas (A) comprometidas por secreções (sialorreia);  \n(2) Respiração (B) ineficaz (SatO2 88%, FR 28, broncoespasmo/broncorreia);  \n(3) Circulação (C) instável (Hipotensão e Bradicardia);  \n(4) Neurológico (D) rebaixado (Glasgow 10) e com miose puntiforme.  \n\n**Adequado:** identifica quatro ou mais alterações nos sistemas.  \n**Parcialmente adequado:** identifica duas ou três alterações.  \n**Inadequado:** identifica uma ou nenhuma alteração.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Indica as medidas de suporte ventilatório e hemodinâmico imediatas.**  \n(1) oferta de oxigênio em alto fluxo (máscara não reinalante);  \n(2) instalação de monitorização cardíaca, oximetria e PA;  \n(3) obtenção de dois acessos venosos calibrosos;  \n(4) verbaliza a aspiração de vias aéreas.  \n\n**Adequado:** indica as quatro medidas.  \n**Parcialmente adequado:** indica três medidas.  \n**Inadequado:** indica duas ou menos medidas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza anamnese dirigida à acompanhante.**  \n(1) pergunta qual foi a substância ingerida (agente tóxico);  \n(2) pergunta o tempo decorrido desde a ingestão;  \n(3) pergunta sobre a quantidade ingerida (se possível).  \n\n**Adequado:** investiga ao menos dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a hipótese diagnóstica da síndrome toxicológica.**  \n\n**Adequado:** verbaliza Síndrome Colinérgica (ou Intoxicação por Carbamato / Chumbinho / Organofosforado).  \n**Inadequado:** não verbaliza a síndrome ou verbaliza outra síndrome (ex: anticolinérgica, sedativa).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames complementares para avaliação de complicações.**  \n(1) Gasometria arterial;  \n(2) Eletrocardiograma (ECG);  \n(3) Eletrólitos (Sódio, Potássio);  \n(4) Função renal (Ureia, Creatinina).  \n\n**Adequado:** solicita três ou quatro exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica a conduta de descontaminação gastrointestinal.**  \n\n**Adequado:** indica lavagem gástrica OU Carvão Ativado 1g/kg (ou 50g), via sonda nasogástrica.  \n**Inadequado:** não indica nenhuma medida de descontaminação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica o antídoto de primeira linha e a via de administração.**  \n\n**Adequado:** indica Atropina por via endovenosa (EV).  \n**Parcialmente adequado:** indica Atropina, mas por outra via (ex: intramuscular).  \n**Inadequado:** não indica Atropina ou indica outro antídoto como primeira linha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza corretamente os parâmetros de atropinização (objetivo do tratamento com atropina).**  \n(1) secagem das secreções (pulmões limpos, pele seca, redução da sialorreia);  \n(2) melhora da frequência cardíaca (FC > 80 bpm);  \n(3) melhora da pressão arterial.  \n\n**Adequado:** verbaliza os três parâmetros.  \n**Parcialmente adequado:** verbaliza dois parâmetros.  \n**Inadequado:** verbaliza um parâmetro ou utiliza a midríase (dilatação da pupila) como parâmetro principal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Discute o uso de Pralidoxima (Oxime).**  \n\n**Adequado:** não indica Pralidoxima, justificando que a intoxicação é por carbamato (\"chumbinho\"), onde ela não é recomendada ou é controversa.  \n**Inadequado:** indica o uso de Pralidoxima.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica o destino do paciente após a estabilização.**  \n\n**Adequado:** indica internação em Unidade de Terapia Intensiva (UTI) para monitorização contínua e eventual ventilação mecânica.  \n**Inadequado:** indica alta hospitalar, internação em enfermaria ou observação em sala de emergência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

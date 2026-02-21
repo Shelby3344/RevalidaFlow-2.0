@@ -1,0 +1,281 @@
+{
+  "uid": 1510,
+  "hash": "pepe_1510",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Tabagismo + rastreios no idoso",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê é médico(a) e atenderá um paciente de 65 anos, que procura a UBS com queixa de tosse e falta de ar. O paciente também gostaria de uma avaliação completa de seu estado de saúde.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese do paciente;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Dar orientações e responder as dúvidas pertinentes.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Ramiro, 65 anos, aposentado.  \n\n**MOTIVO DE CONSULTA:** eu vim aqui porque estou com uma tosse e uma falta de ar. E também queria aproveitar para ver como está a minha saúde no geral. Tirar uma chapa do pulmão e fazer uns exames.  \n\n**SOBRE TOSSE:**  \n• **Início:** já faz uns três, quatro meses que estou assim.  \n• **Frequência:** de um mês pra cá é quase todo dia.  \n• **Expectoração:** É uma tosse seca, não sai nada.  \n• **Predileção de horário:** Piora mais de manhã, quando eu acordo.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Dispneia:** Sinto um pouco de falta de ar quando ando mais rápido ou subo uma ladeira.  \n• **Hipotensão, fraqueza e astenia:** nega.  \n• **Febre e calafrios:** nega.  \n• **Hemoptise:** nega.  \n• **Náusea a vômitos:** nega.  \n• **Disuria, polaciuria, escape:** nega.  \n• **Diarreia ou constipação:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Que eu saiba não tenho nenhuma doença e não tomo nenhum remédio.  \n• **Álcool, tabaco e drogas:** Eu fumo desde os 25 anos, mais ou menos um maço por dia. Nunca tentei parar. Bebo uma cervejinha nos finais de semana.  \n• **Alimentação:** Gosto de um churrasco com a família, como de tudo.  \n• **Atividade física:** Não faço nenhuma atividade física.  \n\n**DÚVIDAS:**  \n• *O(A) Senhor(a) vai pedir algum exame?*  \n• *E sobre a próstata? Ouvi dizer que é comum dar problema na minha idade. Precisa fazer algum exame pra próstata?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 140x85 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 20 irpm  \n• **SatO₂:** 94% (em ar ambiente)  \n• **Temp. axilar:** 36,5° C  \n\n• **IMC:** 31.5 kg/m²  \n• **Circ. Abdominal:** 98 cm  \n\n\n**Ectoscopia:**  \n• Bom estado geral, orientado, corado, hidratado, acianótico. Eupneico em repouso, porém com dispneia leve ao falar.  \n\n**Aparelho Cardiovascular:**  \n• Ritmo cardíaco regular em 2 tempos, com bulhas normofonéticas e ausência de sopros.  \n\n**Aparelho Respiratório:**  \n• Uso discreto de musculatura acessória, murmúrio vesicular diminuído, com roncos difusos em ambos hemitórax. Sem sibilos ou crepitações.  \n\n**Abdome:**  \n• Abdome globoso, flácido, indolor a palpação, sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 140x85 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 20 irpm  \n• **SatO₂:** 94% (em ar ambiente)  \n• **Temp. axilar:** 36,5° C  \n\n• **IMC:** 31.5 kg/m²  \n• **Circ. Abdominal:** 98 cm  \n\n\n**Ectoscopia:**  \n• Bom estado geral, orientado, corado, hidratado, acianótico. Eupneico em repouso, porém com dispneia leve ao falar.  \n\n**Aparelho Cardiovascular:**  \n• Ritmo cardíaco regular em 2 tempos, com bulhas normofonéticas e ausência de sopros.  \n\n**Aparelho Respiratório:**  \n• Uso discreto de musculatura acessória, murmúrio vesicular diminuído, com roncos difusos em ambos hemitórax. Sem sibilos ou crepitações.  \n\n**Abdome:**  \n• Abdome globoso, flácido, indolor a palpação, sem visceromegalias.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o paciente, identifica-se de maneira cordial e faz a identificação do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Estabelece contato visual e mantém a postura de empatia ao longo da consulta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta e ouve com atenção o motivo da consulta apresentado pelo paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Não interrompe a fala do paciente desnecessariamente e usa linguagem acessível, evitando termos técnicos de difícil compreensão.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga adequadamente a queixa de tosse (frequência; se produtiva ou seca; tempo de duração) - pelo menos dois.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga a ocorrência de outros sintomas associados à tosse (dispneia, rouquidão, hemoptoicos) - pelo menos dois.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga sintomas gerais (perda de apetite, perda de peso, ocorrência de febre e/ou calafrios) - pelo menos dois.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Investiga sobre tabagismo (número de cigarros por dia e há quanto tempo).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Investiga atividade física e hábitos alimentares.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Investiga uso de bebidas alcoólicas e de outras drogas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Pergunta sobre doenças prévias e vacinações.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Pergunta sobre doenças na família: diabetes, hipertensão arterial, câncer, tuberculose pulmonar - pelo menos dois.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita radiografia do tórax.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Solicita dosagem de glicemia de jejum.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Solicita perfil lipídico sérico ou colesterol total + HDL + triglicerídeos.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Solicita hemograma ou hemograma completo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Não solicita exames desnecessários; qualquer outro, exceto marcadores sorológicos para hepatites.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Discute indicações de rastreamento de câncer de próstata e não indica nenhum exame para este fim.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Orienta dieta saudável: no mínimo expondo o risco de dieta rica em gorduras e carne vermelha.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Orienta prática de atividade física: atividade aeróbica, início gradual e aumento progressivo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**21. Aborda o tabagismo oferecendo qualquer tipo de intervenção e pergunta se o paciente deseja parar de fumar.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 22,
+      "descricao": "**22. Orienta marcar retorno.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

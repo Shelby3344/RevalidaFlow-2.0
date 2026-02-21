@@ -1,0 +1,199 @@
+{
+  "uid": 215,
+  "hash": "pepe_215",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Obesidade e Cirurgia Bariátrica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• acesso a laboratório de análises clínicas;\n\nDescrição do caso:\nPaciente com 42 anos comparece à consulta de retorno para avaliação de obesidade e discussão de opções terapêuticas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar os exames pertinentes ao caso.  \n- Avaliar a indicação de tratamento cirúrgico para obesidade.  \n- Orientar o paciente sobre o procedimento cirúrgico, incluindo tipo de cirurgia, disponibilidade no SUS e complicações.  \n- Orientar sobre os cuidados pós-operatórios e o seguimento necessário.  \n- Responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Roberto, 42 anos, casado, caminhoneiro.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), vim para o retorno da obesidade. Já tentei de tudo e não consigo emagrecer.  \n\n**SOBRE O TRATAMENTO PRÉVIO:**  \n• **Mudança de estilo de vida:** acompanhei com nutricionista por 2 anos. Segui a dieta no começo, mas não consegui manter.  \n• **Atividade física:** Tentei fazer caminhada, mas trabalhando é difícil. Parei depois de 6 meses.  \n• **Medicamentos:** Usei Semaglutida por 1 ano. Perdi uns 8 quilos e voltei a engordar depois que parei.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Apneia do sono:** Minha esposa reclama que ronco muito e paro de respirar dormindo. Já fiz o exame do sono.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Pressão alta e diabetes há 5 anos.  \n• **Medicações:** Losartana 50mg e Metformina 850mg duas vezes ao dia.  \n\n• **Álcool, tabaco e drogas:** Bebo cerveja só em churrasco.  \n• **Alimentação:** Tento controlar, mas como muita besteira na estrada. Fast food, refrigerante.  \n• **Atividade física:** Não faço nada no momento.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Minha mãe tem diabetes e pressão alta.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• 1 *Será que eu tenho indicação pra fazer a bariátrica?*  \n• 2 *Qual é o tipo de cirurgia mais comum?*  \n• 3 *Essa cirurgia é feita pelo SUS?*  \n• 4 *Quais são os riscos e complicações?*  \n• 5 *Vai mudar a alimentação depois da cirurgia?*  \n• 6 *Vou precisar tomar vitaminas?*  \n• 7 *Posso voltar a engordar depois da cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**DADOS ANTROPOMÉTRICOS:**  \n**Peso:** 138 kg.  \n**Altura:** 1,70 m.  \n**IMC:** 47,7 kg/m²  \n**Circunferência abdominal:** 142 cm.  \n\n\n**SINAIS VITAIS:**  \n**Pressão Arterial:** 148 x 92 mmHg.  \n**Frequência Cardíaca:** 88 batimentos por minuto.  \n**Frequência Respiratória:** 20 incursões respiratórias por minuto.  \n**Saturação de Oxigênio em ar ambiente:** 94%.  \n**Temperatura Axilar:** 36,5°C.  \n\n\n**EXAME CLÍNICO:**  \nRegular estado geral, corado, hidratado, afebril, acianótico, anictérico.  \nAcantose nigricans em região cervical e axilar.  \n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n**Abdominal:** Abdome globoso às custas de panículo adiposo, indolor à palpação, sem visceromegalias.  \n\n**Membros inferiores:** Edema discreto em tornozelos (+/4+), pulsos pedioso e tibial posterior presentes e simétricos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemoglobina:** 14,2 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Hematócrito:** 43% (VR: 38 – 50%)  \n• **Leucócitos:** 7.800/mm³ (VR: 4.000 – 10.000/mm³)  \n• **Plaquetas:** 245.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n• **Glicemia de jejum:** 142 mg/dL (VR: < 100 mg/dL)  \n• **Hemoglobina glicada (HbA1c):** 7,8% (VR: < 5,7%)  \n\n• **Colesterol total:** 228 mg/dL (VR: < 200 mg/dL)  \n• **LDL:** 148 mg/dL (VR: < 130 mg/dL)  \n• **HDL:** 34 mg/dL (VR: > 40 mg/dL)  \n• **Triglicerídeos:** 312 mg/dL (VR: < 150 mg/dL)  \n\n• **Creatinina:** 1,0 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 38 mg/dL (VR: 10 – 50 mg/dL)  \n\n• **TGO:** 48 U/L (VR: 15 – 40 U/L)  \n• **TGP:** 62 U/L (VR: 10 – 40 U/L)  \n\n• **TSH:** 2,8 mU/L (VR: 0,4 – 4,5 mU/L)  \n• **T4 livre:** 1,1 ng/dL (VR: 0,7 – 1,8 ng/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "USG ABDOMINAL E POLISSONOGRAFIA",
+      "conteudo": "**Ultrassom de abdome total:**  \nEsteatose hepática moderada a grave.  \n\n\n**Polissonografia:**  \nApneia Obstrutiva do Sono de grau grave.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga o histórico de tratamentos prévios para obesidade:**  \n(1) acompanhamento nutricional prévio;  \n(2) tentativa de mudança de estilo de vida (dieta e exercício);  \n(3) uso de medicamentos para obesidade;  \n(4) tempo de acompanhamento e adesão ao tratamento.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga comorbidades associadas à obesidade:**  \n(1) hipertensão arterial;  \n(2) diabetes mellitus;  \n(3) dislipidemia;  \n(4) apneia do sono;  \n(5) doenças articulares;  \n(6) esteatose hepática.  \n\n**Adequado:** investiga quatro ou mais comorbidades.  \n**Parcialmente adequado:** investiga duas ou três comorbidades.  \n**Inadequado:** investiga uma comorbidade ou não investiga comorbidade alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Classifica o grau de obesidade:**  \n\n**Adequado:** classifica como Obesidade Grau III (ou mórbida).  \n**Inadequado:** não classifica o grau de obesidade ou classifica incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais pertinentes:**  \n(1) hemograma;  \n(2) glicemia de jejum e/ou hemoglobina glicada;  \n(3) perfil lipídico;  \n(4) função hepática (TGO/TGP);  \n(5) função renal (creatinina/ureia);  \n(6) função tireoidiana (TSH).  \n\n**Adequado:** solicita cinco ou mais exames.  \n**Parcialmente adequado:** solicita três ou quatro exames.  \n**Inadequado:** solicita dois ou menos exames ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames complementares para avaliação de comorbidades:**  \n(1) polissonografia;  \n(2) ultrassonografia de abdome.  \n\n**Adequado:** solicita ao menos um exame.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza corretamente a indicação de cirurgia bariátrica para o caso:**  \n(1) menciona que o paciente tem IMC ≥ 40 kg/m²; OU  \n(2) menciona que o paciente tem IMC ≥ 35 kg/m² com comorbidades (diabetes, hipertensão, apneia do sono); E  \n(3) menciona a falha do tratamento clínico prévio (mudança de estilo de vida e medicamentos).  \n\n**Adequado:** verbaliza ao menos dois critérios de indicação.  \n**Parcialmente adequado:** verbaliza apenas um dos critérios.  \n**Inadequado:** não verbaliza os critérios ou verbaliza de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre o tipo de cirurgia bariátrica mais realizado:**  \n\n\n**Adequado:** orienta corretamente sobre pelo menos um dos procedimentos.  \n**Inadequado:** não orienta ou orienta de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Informa sobre a disponibilidade da cirurgia bariátrica pelo SUS:**  \n\n**Adequado:** informa que a cirurgia está disponível pelo SUS para pacientes que preenchem os critérios.  \n**Inadequado:** não informa ou informa incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre as possíveis complicações da cirurgia bariátrica:**  \n(1) complicações precoces: sangramento, infecção, fístula, tromboembolismo;  \n(2) complicações tardias: deficiências nutricionais (ferro, vitamina B12, cálcio, vitamina D), dumping, hérnia incisional;  \n(3) necessidade de reoperação.  \n\n**Adequado:** orienta pelo menos sobre duas complicações.  \n**Parcialmente adequado:** orienta apenas sobre uma complicação.  \n**Inadequado:** não orienta sobre complicações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre os cuidados alimentares no pós-operatório:**  \n(1) dieta líquida inicial com progressão gradual;  \n(2) fracionamento das refeições (pequenas porções, várias vezes ao dia);  \n(3) mastigação adequada;  \n(4) evitar bebidas gaseificadas e alimentos ricos em açúcar.  \n\n**Adequado:** orienta três ou mais cuidados.  \n**Parcialmente adequado:** orienta dois cuidados.  \n**Inadequado:** orienta um cuidado ou não orienta cuidado algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre a necessidade de suplementação vitamínica e mineral permanente:**  \n(1) suplementação de vitamina B12;  \n(2) suplementação de ferro;  \n(3) suplementação de cálcio e vitamina D;  \n(4) polivitamínico.  \n\n**Adequado:** orienta sobre a necessidade de suplementação, citando pelo menos dois nutrientes.  \n**Parcialmente adequado:** orienta sobre suplementação de forma genérica, sem especificar.  \n**Inadequado:** não orienta sobre suplementação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre a prática de atividade física no pós-operatório:**  \n\n**Adequado:** orienta que a atividade física regular é fundamental para manutenção da perda de peso e deve ser iniciada gradualmente após recuperação cirúrgica.  \n**Inadequado:** não orienta sobre atividade física.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta sobre o acompanhamento multidisciplinar no pós-operatório:**  \n(1) acompanhamento médico regular;  \n(2) acompanhamento nutricional;  \n(3) acompanhamento psicológico;  \n(4) exames laboratoriais periódicos.  \n\n**Adequado:** orienta sobre acompanhamento multidisciplinar, citando pelo menos dois profissionais ou componentes.  \n**Parcialmente adequado:** orienta sobre acompanhamento, citando um componente.  \n**Inadequado:** não orienta sobre o acompanhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

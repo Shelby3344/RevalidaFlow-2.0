@@ -1,0 +1,149 @@
+{
+  "uid": 2423,
+  "hash": "pepe_2423",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Crise de Asma Grave (discursiva 2024)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência pediátrica.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização;  \n• Laboratório de análises clínicas;  \n• Unidade de Terapia Intensiva (UTI) pediátrica.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e receberá uma paciente de 6 anos, trazida pela mãe com queixa de sibilância e desconforto respiratório há 3 dias, com piora progressiva apesar do uso de medicação em casa.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal.  \n- Interpretar os dados do exame físico e exames complementares.  \n- Formular a hipótese diagnóstica e sua classificação.  \n- Justificar a classificação de gravidade.  \n- Instituir a conduta terapêutica imediata e o plano de seguimento.  \n- Orientar a mãe sobre os fatores de risco.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Joana, 32 anos.  \n• **Criança:** Luana, 6 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), minha filha está com muita falta de ar e um chiado forte no peito.  \n\n**SOBRE A CRISE ATUAL:**  \n• **Início:** Começou há 3 dias com uma tosse e um chiado leve, mas de ontem pra hoje piorou muito. Ela está cansada até para falar.  \n• **Febre:** Não teve febre.  \n• **Medicações em casa:** Há dois dias comecei a dar um xarope e a bombinha de salbutamol de 6 em 6 horas, que o médico passou da outra vez, mas não está adiantando.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Ela tem essas crises de chiado desde mais nova. Já foi internada uma vez no ano passado por causa disso.  \n• **Alergias:** Ela tem rinite, e espirra muito com poeira e cheiro forte.  \n\n**FATORES AMBIENTAIS:**  \n• **Exposição:** A gente mora perto de uma avenida bem movimentada. Em casa temos um cachorro.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Por que o remédio não está funcionando dessa vez?*  \n• *O que vai ser feito pra ela melhorar?*  \n• *Ela vai precisar internar?*  \n• *Por que isso sempre acontece com ela?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO INICIAL",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Frequência Cardíaca:** 130 bpm.  \n• **Frequência Respiratória:** 40 irpm.  \n• **Pressão Arterial:** 110 x 60 mmHg.  \n• **Saturação de O2 em ar ambiente:** 92% em ar ambiente.  \n\n\n**EXAME CLÍNICO:**  \n• **Geral:** Criança ativa, reativa, mas com fala entrecortada.  \n• **Respiratório:** Presença de tiragem intercostal e de fúrcula. Ausculta pulmonar com sibilos difusos, inspiratórios e expiratórios.  \n• **Cardiovascular:** Taquicardia, sem outras alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "REAVALIAÇÃO APÓS 1 HORA DE TRATAMENTO INICIAL",
+      "conteudo": "*(Já ofertado Salbutamol, Ipratrópio e Metilprednisolona EV)*  \n\n\n**Sinais Vitais:**  \n• **PA:** 118x60 mmHg  \n• **FC:** 130 bpm  \n• **FR:** 44 irpm  \n• **Temp. axilar:** 36.8°C  \n• **SatO2:** 89% (ar ambiente)  \n\n\n**Exame Físico:**  \n• **Nível de Consciência:** Agitação alternada com leve sonolência.  \n• **Padrão de Fala:** Incapaz de falar frases completas (pronuncia apenas palavras).  \n• **Aparelho Respiratório:** Uso de musculatura acessória (tiragem intercostal e de fúrcula acentuadas). Murmúrio vesicular difusamente diminuído, com sibilos bilaterais.  \n\n\n**GASOMETRIA ARTERIAL**  \n\n• **pH:** 7,33 (VR: 7,35 - 7,45)  \n• **PaO2:** 55 mmHg (VR: 80 - 100 mmHg)  \n• **PaCO2:** 40 mmHg (VR: 35 - 45 mmHg)  \n• **HCO3:** 22 mEq/l (VR: 22 - 26 mEq/l)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e a criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida, investigando fatores de risco para exacerbação.**  \n(1) infecções virais;  \n(2) exposição a alérgenos (poeira, animais, poluição);  \n(3) má adesão ao tratamento ou técnica inadequada;  \n(4) histórico de internação prévia ou exacerbação grave.  \n\n**Adequado:** investiga três ou quatro fatores.  \n**Parcialmente adequado:** investiga dois fatores.  \n**Inadequado:** investiga um ou nenhum fator.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verbaliza o diagnóstico e a classificação de gravidade da crise.**  \n\n**Adequado:** verbaliza o diagnóstico de crise asmática grave.  \n**Parcialmente adequado:** verbaliza apenas crise asmática, sem classificar a gravidade.  \n**Inadequado:** não verbaliza o diagnóstico de asma ou classifica incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Justifica a classificação de gravidade com base nos achados clínicos e laboratoriais.**  \n(1) Frequência respiratória > 30 irpm;  \n(2) Frequência cardíaca > 120 bpm;  \n(3) Saturação de O2 < 90% (em ar ambiente);  \n(4) Uso de musculatura acessória (tiragem intercostal e de fúrcula);  \n(5) PaO2 < 60 mmHg.  \n\n**Adequado:** cita quatro ou mais achados.  \n**Parcialmente adequado:** cita dois ou três achados.  \n**Inadequado:** cita um ou nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Indica a conduta terapêutica inicial na sala de emergência.**  \n(1) ofertar oxigênio suplementar para manter SatO2 entre 94-98%;  \n(2) administrar beta-2 agonista de curta ação (Salbutamol) em doses repetidas;  \n(3) administrar corticosteroide sistêmico;  \n(4) Intubação orotraqueal.  \n\n**Adequado:** indica três ou quatro condutas.  \n**Parcialmente adequado:** indica duas condutas.  \n**Inadequado:** indica uma ou nenhuma conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita e Interpreta a reavaliação clínica e os achados da gasometria.**  \n\n**Adequado:** identifica a piora do quadro clínico (piora da taquicardia, taquipneia, rebaixamento do sensório) e reconhece a PaCO2 normal como um sinal de fadiga muscular e iminência de falência respiratória.  \n**Inadequado:** não identifica a piora do quadro ou interpreta a gasometria como normal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Após a reavaliação, indica a internação em Unidade de Terapia Intensiva (UTI).**  \n\n**Adequado:** indica a internação em UTI, justificando pela não resposta ao tratamento inicial e piora dos parâmetros (hipoxemia refratária).  \n**Parcialmente adequado:** indica apenas internação hospitalar, sem especificar UTI.  \n**Inadequado:** não indica internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a administração de sulfato de magnésio intravenoso.**  \n\n**Adequado:** indica a administração de sulfato de magnésio IV como terapia adjuvante para a crise grave refratária.  \n**Inadequado:** não indica o sulfato de magnésio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita radiografia de tórax para investigar complicações.**  \n\n**Adequado:** Não solicita, OU solicita o exame, E justifica a busca por complicações como pneumonia ou pneumotórax, dada a gravidade do quadro.  \n**Inadequado:** solicita sem justificar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a mãe sobre os fatores de risco que podem ter contribuído para a crise.**  \n(1) infecções virais;  \n(2) exposição a alérgenos como poeira e pelos de animais;  \n(3) exposição a poluentes atmosféricos;  \n(4) má adesão ou técnica incorreta no uso da medicação de controle.  \n\n**Adequado:** orienta sobre três ou mais fatores.  \n**Parcialmente adequado:** orienta sobre dois fatores.  \n**Inadequado:** orienta sobre um ou nenhum fator.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

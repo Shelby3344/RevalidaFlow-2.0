@@ -1,0 +1,165 @@
+{
+  "uid": 519,
+  "hash": "pepe_519",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Transtorno do Jogo (Ludopatia) e Sofrimento Mental na APS",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde (APS).  \nTipo de atendimento: Ambulatorial – Unidade Básica de Saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Equipe multiprofissional (eMulti).\n\nDescrição do caso:\nVocê está em seu atendimento de rotina na UBS, e atenderá um paciente de 42 anos, que vem à consulta com queixa de \"insônia e batedeira no peito\" há 2 meses. Ele refere que sua vida \"virou de cabeça para baixo\".",
+  "tarefas": "TAREFAS:  \n- Realizar o acolhimento e a anamnese direcionada.  \n- Identificar o fator desencadeante ao quadro.  \n- Investigar critérios diagnósticos para a patologia.  \n- Avaliar riscos imediatos à vida do paciente.  \n- Elaborar um Projeto Terapêutico, focado no cuidado integral e longitudinal.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Ricardo, 42 anos, casado, Motorista de Aplicativo.  \n\n**MOTIVO DE CONSULTA** Doutor(a), Não durmo há semanas, meu coração anda acelerado e tenho estado muito irritado.  \n\n• **Início:** Começou faz uns 4 meses.  \n• **Fator desencadeante:** Eu acabei com tudo. Comecei a apostar nesses aplicativos de BETs. No começo ganhava um trocado, mas depois... perdi o dinheiro do aluguel, peguei empréstimo no banco e agora estou devendo agiota.  \n\n• **Compulsão:** \n• Sinto uma necessidade incontrolável de apostar para tentar recuperar o que eu perdi.  \n• Minto para a esposa dizendo que o carro quebrou para justificar a falta de dinheiro.  \n\n• **Tentativas de parada:** \n• Tento parar, fico inquieto e irritado, e volto a jogar.  \n\n**HISTÓRICO PESSOAL E HÁBITOS:**  \n• **Comorbidades:** Nega.  \n• **Àlcool e tabaco:** Eu bebia só final de semana, mas agora to bebendo todo dia.  \n• **Histórico Familiar:** Meu Pai tinha problemas com álcool.  \n\n**RISCO DE SUICÍDIO:**  \n• \"Doutor(a), sinceramente... ontem eu pensei que se eu jogasse o carro da ponte, o seguro pagaria minha família e resolveria tudo isso. Eu não vejo saída\".\n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS/OBJEÇÕES:**  \n• *Isso tem um diagnóstico?*  \n\n• *Existe algum remédio para tratar isso?*  \n\n• *O senhor vai contar para a minha Esposa? Eu tenho medo dela me largar.*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 140x90 mmHg  \n• **FC:** 103 bpm  \n• **FR:** 18 irpm  \n• **Temp:** 36,5ºC  \n\n\n• **Ectoscopia:** Paciente em bom estado geral, higiene preservada, fácies de ansiedade/tristeza. Olheiras profundas.  \n\n• **Cardiovascular:** Ritmo cardíaco regular, 2 tempos, taquicárdico, sem sopros.  \n\n• **Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Neurológico:** Vigil, orientado, sem déficits focais. Tremor fino de extremidades.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Acolhimento e Anamnese Inicial:**  \n(1) Apresenta-se cordialmente e escuta a queixa inicial (insônia/ansiedade) com empatia;  \n(2) Investiga ativamente os fatores estressores ou gatilhos para o quadro (financeiro, familiar, laboral).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Identificação do Transtorno do Jogo (Ludopatia):**  \n(1) Identifica o comportamento de apostas como problema central;  \n(2) Questiona sobre a evolução do comportamento (necessidade de apostar quantias maiores, \"perseguição\" da perda/tentativa de recuperar o dinheiro perdido).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Critérios de Dependência e Abstinência:**  \n(1) Pergunta sobre irritabilidade ou inquietação ao tentar reduzir ou parar de jogar;  \n(2) Pergunta sobre mentiras para familiares ou terapeutas para encobrir a extensão do envolvimento com o jogo.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Avaliação de Comorbidades (Álcool e Outras Substâncias):**  \nInvestiga o uso de álcool, tabaco ou outras drogas, ou se houve aumento do consumo associado ao período de jogo.  \n\n**Adequado:** investiga uso de substâncias.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Avaliação de Risco de Suicídio (Item de Segurança):**  \nRealiza a avaliação de risco de suicídio de forma direta: pergunta sobre ideação, planejamento e intenção (\"Você já pensou que não valia a pena viver e/ou pensou em auto-extermínio?\").  \n\n**Adequado:** pergunta sobre ideação suicida diretamente.  \n**Inadequado:** não pergunta ou usa eufemismos vagos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Exame Físico e Sinais Vitais:**  \nSolicita o exame físico, notando a taquicardia e a hipertensão leve (provavelmente reacional à ansiedade) e descarta causas orgânicas agudas.  \n\n**Adequado:** solicita exame físico.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Diagnóstico:**  \nVerbaliza a hipótese diagnóstica de **Transtorno do Jogo (Ludopatia)** associado a sintomas ansiosos/depressivos.  \n\n**Adequado:** verbaliza o diagnóstico correto.  \n**Inadequado:** verbaliza apenas \"Ansiedade\" ou \"Insônia\".",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Plano Terapêutico - Matriciamento/Rede de Apoio:**  \n(1) Indica encaminhamento ao CAPS (Centro de Atenção Psicossocial), ou Psicologia;  \n(2) Explica que o tratamento é multiprofissional (psicologia, psiquiatria).  \n\n**Adequado:** articula o cuidado com a rede especializada (CAPS).  \n**Inadequado:** tenta tratar apenas na UBS sem suporte ou apenas prescreve medicação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Abordagem Farmacológica (Sintomática):**  \nSe optar por medicar, prescreve antidepressivo (ISRS) para o quadro de base ou sintomático leve para insônia por curto período, evitando benzodiazepínicos devido ao histórico de compulsão/álcool.  \n\n**Adequado:** prescreve ISRS ou opta por não medicar e focar na terapia cognitivo comportamental.  \n**Inadequado:** prescreve benzodiazepínicos ou não aborda a questão medicamentosa quando solicitada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Abordagem Social e Financeira:**  \nOrienta sobre a necessidade de reorganização financeira, sugerindo que uma pessoa de confiança assuma temporariamente o controle das finanças/cartões para evitar novas apostas.  \n\n**Adequado:** orienta sobre controle financeiro externo.  \n**Inadequado:** não aborda a questão prática do dinheiro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Abordagem Familiar (Ética e Sigilo):**  \n(1) Responde à dúvida do paciente garantindo o sigilo médico (não contará à esposa);  \n(2) Encoraja o paciente a compartilhar o problema com a família para obter suporte.  \n\n**Adequado:** garante sigilo E estimula a abertura com a família.  \n**Parcialmente adequado:** apenas garante sigilo.  \n**Inadequado:** ameaça contar à família ou proíbe o paciente de contar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Seguimento Longitudinal (Prevenção de Recaída):**  \nAgenda retorno breve na UBS (semanal ou quinzenal) para vínculo e monitoramento (\"Redução de Danos\"), independente do acompanhamento no CAPS.  \n\n**Adequado:** garante o retorno na APS.  \n**Inadequado:** encaminha e dá alta (\"passar o caso\").",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

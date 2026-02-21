@@ -1,0 +1,149 @@
+{
+  "uid": 506,
+  "hash": "pepe_506",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Fibromialgia",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde - Unidade Básica de Saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório para atendimento.  \n• Acesso a solicitações de exames laboratoriais.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma paciente de 42 anos, com queixa crônica de dor difusa pelo corpo e fadiga intensa. Ela relata já ter passado por diversos serviços de saúde sem um diagnóstico conclusivo, o que a deixa frustrada e desesperançosa.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese completa com a paciente, para investigar a etiologia do quadro;  \n- Realizar o exame físico direcionado, caso haja necessidade;  \n- Formular uma hipótese diagnóstica principal e duas hipóteses diferenciais;  \n- Solicitar os exames pertinentes para a investigação, caso haja necessidade;  \n- fornecer orientações medicamentosa e não medicamentosa.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mariana Costa, 42 anos, casada, secretária (atualmente afastada do trabalho).  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), Sinto dor no corpo todo e um cansaço que não me deixa fazer nada. Já passei em vários médicos e ninguém descobre o que eu tenho.  \n\n• **SOBRE A DOR:**  \n• Começou há quase um ano, mas piorou muito nos últimos seis meses.  \n• É uma dor que anda pelo corpo. Dói nos ombros, no pescoço, nas costas, nos braços, nas pernas... em todo lugar.  \n\n• **SINTOMAS ASSOCIADOS:**  \n• **Fadiga e Sono:**  \n• Eu acordo mais cansada do que quando fui dormir. É um cansaço extremo.  \n• Meu sono é péssimo, acordo várias vezes à noite e nunca sinto que descansei.  \n\n• **Humor e Cognição:**  \n• Ando muito desanimada, sem vontade de fazer as coisas que eu gostava.  \n• Minha memória está horrível, esqueço das coisas, me sinto 'lenta'.  \n\n• **Outros:**  \n• Tenho dores de cabeça frequentes, uma sensação de inchaço nas mãos de manhã, e meu intestino vive desregulado.  \n\n• **TRATAMENTOS PRÉVIOS:**  \n• Já tomei tudo que é anti-inflamatório e analgésico, mas não adiantou nada.  \n\n**IMPACTO PSICOSSOCIAL:**  \n• **TRABALHO:**  \n• Eu tive que me afastar do trabalho há 3 meses. Não estava conseguindo me concentrar. Estou muito preocupada com isso.  \n\n• **VIDA SOCIAL E FAMILIAR:**  \n• Eu não saio mais de casa. Meu marido tenta me ajudar, mas acho que nem ele acredita mais em mim, acha que é coisa da minha cabeça.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que o(a) senhor(a) acha que eu tenho?*  \n• *Tem algum exame específico para essa minha doença?*  \n• *Tem tratamento para isso?*  \n• *O que eu posso fazer para começar a me sentir melhor?*   \n• *Eu vou poder voltar a trabalhar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36,5°C  \n• **SatO2:** 99% em ar ambiente  \n\n\n**Exame Físico Segmentar:**  \n• **Ectoscopia e Estado Geral:** Bom estado geral, lúcida, orientada, porém apática, com fácies de dor.  \n• **Exame Neurológico:** Força, reflexos e sensibilidade preservados e simétricos.  \n• **Exame Articular:** Ausência de sinais inflamatórios (sem edema, calor ou eritema) nas articulações. Mobilidade articular ampla.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "PESQUISA DE PONTOS DOLOROSOS (TENDER POINTS)",
+      "conteudo": "• **Metodologia:** Palpação digital com aproximadamente 4 kg de pressão.  \n\n• **Resultado:** Paciente refere dor intensa em 14 de 18 pontos clássicos.   \n\n• **incluindo:**  \n• Inserção dos músculos suboccipitais.  \n• Trapézio (ponto médio da borda superior).  \n• Segunda articulação costocondral.  \n• Epicôndilo lateral.  \n• Glúteo (quadrante supero-externo).  \n• Trocânter maior.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta a paciente simulada e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando os critérios para Fibromialgia.**  \n(1) caracteriza a dor como difusa, crônica (> 3 meses) e explora sua localização;  \n(2) investiga ativamente os sintomas associados: fadiga, sono não reparador e alterações cognitivas (\"fibro fog\").  \n\n**Adequado:** investiga os dois grupos de critérios.  \n**Parcialmente adequado:** investiga apenas um dos grupos.  \n**Inadequado:** não investiga nenhum dos grupos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga o impacto biopsicossocial da doença.**  \n\n**Adequado:** investiga como os sintomas afetam a vida da paciente, questionando sobre o trabalho, as relações familiares e sociais, e o impacto no humor e na saúde mental.  \n**Inadequado:** não investiga o impacto biopsicossocial.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza o exame físico direcionado.**  \n\n**Adequado:** verbaliza a necessidade de realizar um exame físico completo para excluir outras doenças, focando no exame articular (procurando sinais inflamatórios) e na pesquisa dos pontos dolorosos (\"tender points\").  \n**Inadequado:** não verbaliza o exame físico ou não menciona a pesquisa de sinais inflamatórios e pontos dolorosos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula uma hipótese diagnóstica principal e duas hipóteses diferenciais.**  \n(1) Hipótese Principal: Fibromialgia;  \n(2) Diagnósticos Diferenciais: Hipotireoidismo, Polimialgia Reumática, Doenças Reumáticas autoimunes em fase inicial.  \n\n**Adequado:** formula a hipótese principal correta e cita os dois diagnósticos diferenciais.  \n**Parcialmente adequado:** formula a hipótese principal correta, mas cita apenas um ou nenhum diagnóstico diferencial.  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita os exames pertinentes para a investigação do diagnóstico diferencial.**  \n(1) Hemograma completo;  \n(2) Provas de atividade inflamatória (VHS e PCR);  \n(3) TSH e T4 livre.  \n\n**Adequado:** solicita os três grupos de exames.  \n**Parcialmente adequado:** solicita dois grupos de exames.  \n**Inadequado:** não solicita os exames ou solicita apenas um grupo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Comunica a hipótese diagnóstica à paciente.**  \n\n**Adequado:** comunica a hipótese de Fibromialgia, validando o sofrimento da paciente e afirmando que se trata de uma doença real, e não \"psicológica\", explicando que é um problema na forma como o corpo processa a dor.  \n**Inadequado:** não comunica a hipótese, utiliza termos técnicos ou minimiza as queixas da paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre a abordagem não farmacológica como pilar do tratamento.**  \n(1) Educação: explica o conceito de sensibilização central e a natureza da doença;  \n(2) Atividade Física: recomenda a prática de exercícios físicos de baixo impacto de forma regular e progressiva (ex: caminhada, hidroginástica);  \n(3) Terapia Psicológica: indica a importância da terapia cognitivo-comportamental (TCC) ou outras formas de psicoterapia.  \n\n**Adequado:** orienta sobre os três pilares.  \n**Parcialmente adequado:** orienta sobre dois pilares.  \n**Inadequado:** não orienta sobre a abordagem não farmacológica ou orienta sobre apenas um pilar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.8",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Considera a abordagem farmacológica para controle dos sintomas.**  \n\n**Adequado:** menciona o uso de medicamentos moduladores da dor, como os antidepressivos tricíclicos (Amitriptilina em dose baixa) ou duais (Duloxetina), ou anticonvulsivantes (Pregabalina), como adjuvantes ao tratamento não farmacológico.  \n**Inadequado:** não menciona opções farmacológicas ou prescreve apenas analgésicos/AINEs, que são ineficazes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Aborda as questões familiares e trabalhistas.**  \n\n**Adequado:** acolhe as preocupações da paciente, sugere uma consulta conjunta com o marido para explicar o diagnóstico e se oferece para elaborar um relatório médico detalhado para a avaliação do afastamento no INSS.  \n**Inadequado:** não aborda as preocupações psicossociais da paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

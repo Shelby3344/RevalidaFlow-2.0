@@ -1,0 +1,171 @@
+{
+  "uid": 507,
+  "hash": "pepe_507",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Profilaxia de Febre Amarela",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de vacinação.\n\nDescrição do caso:\nVocê atenderá uma paciente de 25 anos que procura a UBS para orientações. Ela informa que viajará com a família para uma região da África com incidência de febre amarela em 5 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada da paciente.  \n- Explicar os riscos da viagem e o plano profilático.  \n- Orientar sobre o tempo de imunização e as medidas de proteção.  \n- Responder às dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Camila, 25 anos, casada, administradora.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim aqui porque vou viajar com meu marido e meu filho para a África, e me falaram que eu precisava tomar a vacina de febre amarela. Minha viagem é daqui a 5 dias.  \n• E eu ainda amamento meu filho. Ele vai viajar com a gente.  \n\n**ANTECEDENTES PESSOAIS E VACINAIS:**  \n• **Vacinação prévia:** Não, nunca tomei a vacina da febre amarela.  \n• **Queixas atuais/Febre:** Não, me sinto ótima.  \n• **Comorbidades:** Sou saudável.  \n• **Medicações:** Não tomo nenhum remédio de uso contínuo.  \n• **Transplantes:** Não, nunca fiz.  \n• **Alergias:** Não tenho alergia a nada que eu saiba.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **Gestação:** Não, não estou grávida.  \n• **Amamentação:** Sim, amamento meu filho de 7 meses em livre demanda.  \n• **Lactente:** Meu filho vai viajar junto sim.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Doutor(a), então eu posso tomar a vacina?*  \n• *E o meu filho, ele pode tomar também?*  \n• *Tem algum risco por eu estar amamentando?*  \n• *Se eu vacinar, a partir de quando começa a ter proteção da vacina?*  \n• *Você sabe quais sinais podem ser da febre amarela?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTEIRA DE VACINAÇÃO (PACIENTE)",
+      "conteudo": "**Nome:** Camila R., 25 anos  \n\n• **Hepatite B:** 3 doses  \n• **dT (Dupla Adulto):** Reforço há 2 anos.  \n• **Tríplice Viral:** 2 doses.  \n• **COVID-19:** 3 doses.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "CARTEIRA DE VACINAÇÃO (CRIANÇA)",
+      "conteudo": "**Nome:** Léo R., 7 meses  \n\n• **BCG:** 1 dose  \n• **Hepatite B:** 1 dose ao nascer  \n• **Rotavírus:** 2 doses  \n• **Penta (DTP/Hib/HepB):** 3 doses  \n• **VIP (Poliomielite):** 3 doses  \n• **Pneumo 10:** 2 doses  \n• **Meningo C:** 2 doses",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga o histórico vacinal da paciente:**  \n\n**Adequado:** pergunta se a paciente possui vacinação prévia para febre amarela.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga contraindicações gerais para a vacina:**  \n(1) pergunta sobre a presença de síndrome febril atual;  \n(2) questiona sobre comorbidades imunossupressoras (HIV, neoplasias);  \n(3) pergunta sobre uso de medicação imunossupressora (corticoides, quimio, radioterapia).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga contraindicações específicas (histórico alérgico e gestação):**  \n(1) questiona sobre história de anafilaxia a ovo de galinha ou gelatina bovina;  \n(2) pergunta sobre a possibilidade de gestação atual.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga sobre o lactente:**  \n(1) pergunta se a paciente está amamentando;  \n(2) pergunta a idade do lactente;  \n(3) pergunta se o lactente irá viajar junto.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a vacinação contra febre amarela para a paciente.**  \n\n**Adequado:** indica a vacinação, considerando o alto risco de exposição (viagem em 5 dias) e a ausência de contraindicações.  \n**Inadequado:** não indica a vacinação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre o tempo de imunização:**  \n\n**Adequado:** orienta que a vacina confere imunidade somente após 10 dias da aplicação.  \n**Inadequado:** não orienta sobre o tempo de imunização.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre as medidas de proteção individual (mecânicas e químicas) necessárias durante a janela de 10 dias:**  \n(1) orienta o uso de roupas compridas, de cores claras, e sapatos fechados;  \n(2) orienta o uso de mosquiteiros e permanência em ambientes com telas ou ar-condicionado;  \n(3) orienta o uso de repelentes corporais e ambientais.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Estabelece a conduta correta em relação à amamentação:**  \n(1) orienta a suspensão da amamentação por 10 dias após a aplicação da vacina;  \n(2) orienta sobre a manutenção da produção de leite (ex: ordenha e descarte do leite) para evitar o desmame.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza apenas uma orientação.  \n**Inadequado:** não realiza nenhuma orientação ou mantém a amamentação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Estabelece a conduta correta em relação ao lactente:**  \n(1) contraindica a vacinação do lactente (pois tem 7 meses, e a vacina é recomendada a partir dos 9 meses);  \n(2) orienta sobre a rigidez das medidas de proteção individual para a criança (uso de mosquiteiros, roupas protetoras, telas).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza nenhuma ação ou indica a vacinação da criança.  \n\n\\\n*OBS.: Considerar adequado caso o candidato informe que nessa situação de área endêmica, a vacinação pode ser realizada a partir dos 6 meses.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "No calendário vacinal do Ministério da Saúde, orienta-se o uso em crianças acima de 9 meses (em situação de epidemia acima de 6 meses).  "
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre os principais eventos adversos da vacina:**  \n(1) manifestações locais (dor, eritema);  \n(2) manifestações sistêmicas leves (febre, mialgia, cefaleia);  \n(3) reações de hipersensibilidade (anafilaxia).  \n\n**Adequado:** orienta sobre os três grupos de eventos.  \n**Parcialmente adequado:** orienta sobre dois grupos de eventos.  \n**Inadequado:** orienta sobre um ou nenhum grupo de eventos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre os sintomas sugestivos de febre amarela (sinais de alarme):**  \n\n**Adequado:** orienta a procurar serviço médico se apresentar sintomas como febre súbita, cefaleia intensa, icterícia, náuseas/vômitos ou sangramentos.  \n**Parcialmente adequado:** orienta sobre apenas dois sintomas.  \n**Inadequado:** orienta sobre um ou nenhum sintoma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

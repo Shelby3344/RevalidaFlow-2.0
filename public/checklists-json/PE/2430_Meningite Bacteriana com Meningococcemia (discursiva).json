@@ -1,0 +1,166 @@
+{
+  "uid": 2430,
+  "hash": "pepe_2430",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Meningite Bacteriana com Meningococcemia (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: Unidade Básica de Saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de observação e medicamentos;  \n• suporte para transporte.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá a mãe de um pré-escolar de 3 anos, previamente hígido, com queixa de febre, cefaleia e vômitos há 1 dia.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso.  \n- Solicitar e interpretar o exame físico, caso necessário.  \n- Formular a principal hipótese diagnóstica completa com base nos critérios clínico-epidemiológicos.  \n- Instituir as condutas imediatas na UBS.  \n- Orientar sobre as medidas de vigilância em saúde recomendadas para o caso.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Sandra, 34 anos.  \n• **Criança:** Miguel, 3 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu trouxe o Miguel porque desde ontem ele está com uma febre, dor de cabeça e vomitando em jato. Também apareceu umas manchas vermelhas no corpo  \n\n**SOBRE OS SINTOMAS:**  \n• **Febre:** Começou ontem, medi em casa e deu 38,5 °C. Dei antitérmico, mas a febre volta.  \n• **Cefaleia:** Ele chora muito e aponta para a cabeça, parece que dói muito.  \n• **Vômitos:** Vomitou umas 3 vezes, o vômito sai forte, em jato.  \n• **Estado geral:** Ele está muito caidinho, sonolento, e quando acorda fica muito irritado e choroso.  \n• **Exantemas:** Começaram hoje. São umas pintinhas vermelhas e umas manchas maiores, roxas.  \n\n**NEGAR OUTROS SINTOMAS:**  \n• Diarreia.  \n• Tosse, coriza ou outros sintomas respiratórios.  \n• Dor de ouvido ou de garganta.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Histórico:** Sempre foi uma criança saudável.  \n• **Vacinação:** Eu acho que está em dia, mas não tenho certeza. A carteirinha ficou em casa na pressa.  \n\n**CONTEXTO FAMILIAR E EPIDEMIOLÓGICO:**  \n• **Irmãos:** Tenho outros dois filhos, um de 6 meses e outro de 5 anos.  \n• **Creche:** Os três frequentam a mesma creche aqui no bairro.  \n• **Moradia:** Moramos em uma área com clima mais seco e frio.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que meu filho tem, doutor(a)? É grave?*  \n• *O que são essas manchinhas no corpo dele?*  \n• *Ele vai precisar ir para o hospital?*  \n• *Meus outros filhos e as crianças da creche correm algum risco?*  \n• *O que precisa ser feito?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 85x50 mmHg  \n• **FC:** 130 bpm  \n• **FR:** 38 irpm  \n• **Temp. axilar:** 38,5°C  \n• **SatO2:** 96% em ar ambiente  \n\n\n**EXAME CLÍNICO:**  \n• **Estado geral:** Regular estado geral, sonolento, irritado ao manuseio, desidratado (2+/4+), com fácies de dor.  \n\n\n• **Pele:** Presença de petéquias em tronco e extremidades.  \n\n\n• **Otoscopia e Oroscopia:** Sem alterações.  \n\n\n• **Ausculta Cardíaca e Respiratória:** Sem alterações.  \n\n\n• **Abdome:** Flácido, indolor à palpação.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME NEUROLÓGICO",
+      "conteudo": "• **Nível de Consciência:** Sonolento, mas desperta ao estímulo. Choro intenso.  \n\n\n• **Sinais Meníngeos:** sinais de irritação meníngea presentes (rigidez de nuca, Kerning e Brudzinski positivos).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "IMAGEM DAS LESÕES",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e30p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e pergunta o nome da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida, investigando:**  \n(1) questiona sobre a febre, cefaleia e vômitos;  \n(2) alteração do estado geral (sonolência, irritabilidade);  \n(3) sintomas respiratórios ou gastrointestinais;  \n(4) contexto epidemiológico (creche, familiares).  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico e investiga a presença de sinais de irritação meníngea.**  \n\n**Adequado:** solicita o exame físico e verbaliza a necessidade de pesquisar rigidez de nuca com os sinais de Kerning e Brudzinski.  \n**Inadequado:** não solicita a pesquisa de sinais meníngeos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Formula a principal hipótese diagnóstica.**  \n\n**Adequado:** verbaliza o diagnóstico de meningite bacteriana ou doença meningocócica.  \n**Parcialmente adequado:** verbaliza apenas meningite ou meningoencefalite, sem especificar a etiologia provável.  \n**Inadequado:** não formula a hipótese ou formula uma hipótese incorreta (meningite viral).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Define a hipótese diagnóstica como Meningococcemia, devido à associação de síndrome meníngea com as lesões purpúricas.**  \n\n**Adequado:** define o quadro como meningococcemia.  \n**Inadequado:** não classifica como meningococcemia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a coleta de exames complementares iniciais pertinentes.**  \n(1) hemograma;  \n(3) punção lombar para análise do LCR.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita um exame.  \n**Inadequado:** não solicita exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Inicia as medidas de suporte imediato na UBS.**  \n(1) observação clínica ou monitorização constante;  \n(2) reposição hídrica;  \n(3) antitérmico e/ou analgésico.  \n\n**Adequado:** indica as três medidas.  \n**Parcialmente adequado:** indica duas medidas.  \n**Inadequado:** indica uma medida ou não indica nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a terapia medicamentosa específica inicial.**  \n(1) antibioticoterapia endovenosa (primeira dose na UBS);  \n(2) corticoide sistêmico (dexametasona).  \n(3) controle para evitar hipoglicemia (glicose EV 10% ou 50%).\n\n**Adequado:** indica duas ou três terapias.  \n**Parcialmente adequado:** indica apenas a antibioticoterapia.  \n**Inadequado:** não indica antibioticoterapia ou indica via incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define a conduta de encaminhamento.**  \n\n**Adequado:** solicita transferência imediata e segura para serviço hospitalar de referência ou Internação Imediata.  \n**Inadequado:** não indica a transferência ou não a caracteriza como imediata.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre as medidas de vigilância em saúde.**  \n(1) notificação compulsória imediata ao SINAN;  \n(2) isolamento respiratório para gotículas.  \n(3) utilização de máscara cirúrgica por parte de profissionais de saúde envolvidos na assistência ao paciente.  \n(4) Atualização vacinal de contactantes não vacinados.  \n\n**Adequado:** orienta duas ou mais medidas.  \n**Parcialmente adequado:** orienta uma medida.  \n**Inadequado:** não orienta nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre a conduta com os comunicantes (familiares e creche).**  \n(1) indica a necessidade de quimioprofilaxia para os contatos próximos (familiares que moram na mesma casa e contatos da creche);  \n(2) orienta a comunicação à creche para monitoramento de novos casos.  \n\n**Adequado:** orienta as duas condutas.  \n**Parcialmente adequado:** orienta uma conduta.  \n**Inadequado:** não orienta nenhuma conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

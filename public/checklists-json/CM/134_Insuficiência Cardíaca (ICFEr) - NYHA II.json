@@ -1,0 +1,166 @@
+{
+  "uid": 134,
+  "hash": "pepe_134",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Insuficiência Cardíaca (ICFEr) - NYHA II",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Primária à Saúde (UBS).  \nTipo de atendimento: Consulta de acompanhamento/rotina.  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a exames laboratoriais e de imagem.\n\nDescrição do caso:\nVocê está em seu consultório na Unidade Básica de Saúde e atenderá o Sr. Alberto, de 64 anos. Ele é hipertenso e teve um infarto há 2 anos. Comparece à consulta para renovação de receitas e refere que tem se sentido \"mais cansado\" ultimamente.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese focada na queixa atual;  \n- Solicitar e interpretar o exame físico, caso necessário;  \n- Solicitar exames complementares pertinentes ao acompanhamento;  \n- Verbalizar o diagnóstico completo (Síndrome, Etiologia, Estágio e Classe Funcional), utilizando a escala de NYHA disponibilizada;  \n- Elaborar o plano terapêutico medicamentoso e não medicamentoso.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar o impresso **CLASSIFICAÇÃO DE NYHA** junto com o **ECOCARDIOGRAMA TRANSTORÁCICO** quando solicitado pelo candidato.  \n\n**DADOS PESSOAIS:**  \n• Alberto, 64 anos, motorista aposentado.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim pegar a receita dos remédios de pressão. Mas queria comentar que estou sentindo um cansaço que não tinha antes. Eu também trouxe um exame do coração que fiz no mês passado.  \n\n**SOBRE O CANSAÇO (DISPNEIA/FADIGA):**  \n• **Início:** Percebi essa piora faz uns 2 meses.  \n• **Característica:** É uma falta de ar, um peso no peito.  \n• **Agravante/piora:** Aparece quando eu faço coisas do dia a dia. Tipo quando vou na padaria ou quando tento varrer o quintal. Tenho que parar para respirar.  \n• **Atenuante/melhora:** Sentado ou deitado vendo TV eu fico ótimo, não sinto nada.  \n• **Evolução/Progressão:** Antes eu fazia tudo isso normal.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Ortopneia/Despertar noturno:** Não acordo com falta de ar.  \n• **Edema:** Meu tornozelo fica um pouco inchado no fim do dia, a meia marca a pele. Mas de manhã desincha.  \n• **Dor precordial:** Não sinto dor no peito.  \n• **Palpitações/Síncope:** Nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Tenho pressão alta há 15 anos. Tive um infarto há 2 anos.  \n• **Medicações em uso:** Enalapril 10mg (1 cedo e 1 a noite), Carvedilol 6,25mg (1 cedo e 1 a noite) e AAS 100mg (almoço). Tomo tudo certinho.  \n• **Internações:** Só a do infarto.  \n\n**HÁBITOS DE VIDA:**  \n• **Alimentação:** Gosto de comida bem temperada, uso sal. Não consigo comer sem sal.  \n• **Líquidos:** Bebo bastante água e suco.  \n• **Atividade física:** Parei de caminhar porque canso.  \n• **Tabagismo/Etilismo:** Parei de fumar quando infartei. Bebo uma cerveja no fim de semana.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Doutor(a), esse cansaço é porque eu estou ficando velho?*  \n• *O que deu nesse exame do coração que eu trouxe?*  \n• *Preciso mudar meus remédios?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 135x85 mmHg  \n• **FC:** 72 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp:** 36,7°C  \n\n\n• **Peso:** 78 kg  \n• **Altura:** 1,62 mt  \n• **IMC:** 29.8 kg/m²  \n\n\n**Ectoscopia:** Bom estado geral, corado, hidratado, acianótico, anictérico. Discreta turgência jugular a 45º.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular, 2 tempos. Bulhas normofonéticas. Presença de B3 (terceira bulha) em foco mitral. Ictus cordis desviado para a esquerda, difuso.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente. Estertores crepitantes finos em bases pulmonares.  \n\n\n**Abdome:** Hepatometria de 13cm (leve hepatomegalia), indolor.  \n\n\n**Extremidades:** Edema de membros inferiores +/4+, mole, depressível, frio e indolor. Pulsos periféricos presentes e simétricos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ECOCARDIOGRAMA TRANSTORÁCICO",
+      "conteudo": "**Resultado:**  \n• Ventrículo Esquerdo com diâmetros aumentados (DDi: 68mm).  \n\n• **Fração de Ejeção (Simpson): 38%**.  \n• Disfunção diastólica grau II.  \n• Átrio esquerdo com volume aumentado.  \n• Valvas com morfologia e mobilidade preservadas. Insuficiência mitral funcional leve.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "CLASSIFICAÇÃO DE NYHA",
+      "conteudo": "*fonte: www.heart.org, maio/2025*",
+      "imagem": "img_printeds/e134p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese caracterizando a classe funcional:**  \n(1) investiga dispneia aos esforços habituais;  \n(2) investiga dispneia em repouso (ou ortopneia/dispneia paroxística noturna);  \n(3) questiona sobre a limitação para atividades do cotidiano.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sinais e sintomas de congestão:**  \n(1) edema de membros inferiores;  \n(2) ganho de peso recente;  \n(3) tosse ou chiado no peito.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita e verbaliza a interpretação dos achados do exame físico:**  \n(1) Presença de B3 (ou ictus desviado);  \n(2) Estertores pulmonares;  \n(3) Edema de membros inferiores (ou turgência jugular/refluxo hepatojugular).  \n\n**Adequado:** interpreta verbalizando os três achados.  \n**Parcialmente adequado:** interpreta verbalizando dois achados.  \n**Inadequado:** interpreta um ou nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita e interpreta o Ecocardiograma:**  \n(1) Solicita o exame;  \n(2) Identifica a Fração de Ejeção Reduzida (FE ≤ 40% ou 38%).  \n\n**Adequado:** solicita e interpreta corretamente a FE reduzida.  \n**Parcialmente adequado:** apenas solicita sem interpretar ou interpreta incorretamente.  \n**Inadequado:** não solicita.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula o diagnóstico completo:**  \n(1) Insuficiência Cardíaca;  \n(2) Com Fração de Ejeção Reduzida (ICFEr);  \n(3) Classe Funcional NYHA II (sintomas a médios esforços/habituais).  \n\n**Adequado:** verbaliza os três componentes do diagnóstico.  \n**Parcialmente adequado:** verbaliza dois componentes.  \n**Inadequado:** verbaliza apenas \"Insuficiência Cardíaca\" ou erra a classificação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta medidas não farmacológicas:**  \n(1) Restrição de sal na dieta (< 7g/dia ou < 2g sódio);  \n(2) Controle da ingestão hídrica;  \n(3) Monitoramento diário do peso.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Atualiza o calendário vacinal do paciente:**  \n(1) Vacina contra Influenza (anual);  \n(2) Vacina contra Pneumococo.  \n\n**Adequado:** indica as duas vacinas.  \n**Parcialmente adequado:** indica uma vacina.  \n**Inadequado:** não indica vacinação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Otimiza o tratamento medicamentoso (Terapia Quádrupla) - Parte 1:**  \n(1) Mantém (ou ajusta dose) do IECA (Enalapril) OU troca por BRA/Sacubitril-Valsartana;  \n(2) Mantém (ou ajusta dose) do Betabloqueador (Carvedilol).  \n\n**Adequado:** cita a manutenção/ajuste das duas classes de drogas.  \n**Parcialmente adequado:** cita apenas uma.  \n**Inadequado:** suspende as medicações sem motivo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Otimiza o tratamento medicamentoso (Terapia Quádrupla) - Parte 2:**  \n(1) Adiciona Espironolactona (Antagonista Mineralocorticoide);  \n(2) Adiciona Inibidor de SGLT2 (Dapagliflozina ou Empagliflozina).  \n\n**Adequado:** adiciona as duas classes medicamentosas.  \n**Parcialmente adequado:** adiciona apenas uma classe.  \n**Inadequado:** não adiciona novas classes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve diurético de alça para alívio sintomático:**  \nPrescreve Furosemida devido aos sinais de congestão (edema/estertores).  \n\n**Adequado:** prescreve Furosemida.  \n**Inadequado:** não prescreve diurético de alça apesar dos sinais de congestão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

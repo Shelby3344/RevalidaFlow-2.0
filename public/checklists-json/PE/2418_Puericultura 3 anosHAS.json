@@ -1,0 +1,185 @@
+{
+  "uid": 2418,
+  "hash": "pepe_2418",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Puericultura 3 anos/HAS",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n* Consultório médico.\n\nDescrição do caso:\nVocê é um médico que está atendendo no consultório de uma UBS e vai receber uma\nmenina com 3 anos e 4 meses de idade, numa consulta de rotina, acompanhada pela mãe.",
+  "tarefas": "TAREFAS: \n\nNos 10 minutos de duração da Estação, você deverá executar as seguintes tarefas, sempre se dirigindo à mãe:  \n\n* Realizar anamnese voltada para o controle da pressão arterial da criança.\n* Realizar a técnica da aferição da pressão arterial em membro superior da criança e verbalizar cada um dos passos que você executar.\n* Analisar e interpretar valores obtidos de pressão arterial da criança.\n* Classificar a pressão arterial de acordo com valores obtidos.\n* Definir conduta clínica adequada a partir dos valores obtidos.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Carla, 22 anos, casada.  \n• **Criança:** Laura, 3 anos e 4 meses.  \n\n**MOTIVO DE CONSULTA:** oi Dr(a), eu trouxe a Laura para a consulta de rotina.  \n\n**SINTOMAS GERAIS:** ela não tem se queixado de nada.  \n**Febre, dor, cansaço, vômito, diarreia:** nega.  \n**Irritação, tontura, manchas na pele, edemas:** nega.  \n\n\n**Caso o candidato questione sobre peso e estatura:** *A enfermeira já mediu e pesou ela, está tudo anotado na caderneta. Falta só ver a pressão.*  \n\n**ANTECEDENTES PERINATAIS:**  \n• **Semanas de gestação e via parto:** nasceu no tempo certo.  \n• **Peso ao nascimento:** com peso normal.  \n• **Pré-natal e intercorrências:** não precisou ficar internada nem nada.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Alimentação:** come de tudo.  \n• **Atividade física:** brinca bastante em casa.  \n\n**SOBRE AFERIÇÃO DA PA:**  \n• Ela fez xixi antes de entrar aqui na sala.  \n• Depois ficou quietinha no meu colo, não ficou pulando nem correndo.  \n• Ela pegou no sono e eu coloquei ela ali na maca, ela pode ficar deitada mesmo?  \n\n**DEMAIS PERGUNTAS:** não consta no Script.\n\n**DÚVIDAS:**  \n• *Como está a pressão dela?*  \n• *Deu alguma alteração?*  \n• *Precisa fazer alguma coisa, doutor?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE SAÚDE DA CRIANÇA 1",
+      "conteudo": "**Laura, 3 anos e 4 meses / Peso: 14,5 Kg / Comprimento: 98 cm**",
+      "imagem": "img_printeds/2024-2-e8p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "CADERNETA DE SAÚDE DA CRIANÇA 2",
+      "conteudo": "**Laura, 3 anos e 4 meses / Peso: 14,5 Kg / Comprimento: 98 cm**",
+      "imagem": "img_printeds/2024-2-e8p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "Laura, 3 anos 4 meses.  \n\nExame físico geral e exame segmentar sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "CIRCUNFERÊNCIA DO BRAÇO",
+      "conteudo": "Considere a circunferência do braço: 18 centímetros.",
+      "imagem": "img_printeds/2024-2-e8p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "BRAÇADEIRA E MANGUITO 1",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e8p5.jpg"
+    },
+    {
+      "idx": 6,
+      "titulo": "BRAÇADEIRA E MANGUITO 2",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e8p6.jpg"
+    },
+    {
+      "idx": 7,
+      "titulo": "PRESSÃO ARTERIAL AFERIDA",
+      "conteudo": "Laura, 3 anos 4 meses.  \n\n\nPressão arterial (membro superior direito):  \nEm 1ª aferição, 110 x 68 mmHg.  \nEm 2 ª aferição, 108 x 66 mmHg.  \nEm 3 ª aferição, 110 x 68 mmHg.  \n\nA pressão arterial média (3 aferições): 109 x 67 mmHg.",
+      "imagem": null
+    },
+    {
+      "idx": 8,
+      "titulo": "TABELA DE PRESSÕES",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e8p8.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se  \n(2) cumprimenta a mãe de maneira adequada/cordial  \n(3) mantém contato visual durante sua apresentação com a mãe  \n(4) pergunta o nome da mãe e o nome da criança  \n\n  \n**Adequado:** realiza as quatro ações  \n**Parcialmente adequado:** realiza duas ou três ações  \n**Inadequado:** realiza uma ação OU não realiza ação alguma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre o motivo da consulta e as queixas principais como:**  \n(1) dor  \n(2) febre / calafrio / sudorese  \n(3) diarreia  \n(4) vômito / náuseas  \n(5) cansaço / fadiga, astenia, fraqueza  \n(6) cefaleia  \n(7) convulsão  \n(8) manchas na pele  \n(9) alterações na urina (disuria, polaciuria, hematúria, nictúria, noctúria)  \n(10) tontura  \n(11) alteração no crescimento  \n(12) irritabilidade  \n(13) sonolência  \n(14) palpitações  \n(15) edema  \n\n  \n**Adequado:** pergunta três queixas  \n**Parcialmente adequado:** pergunta duas queixas  \n**Inadequado:** pergunta uma queixa OU não pergunta queixa alguma",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona sobre os fatores de risco para hipertensão na infância, como:**  \n(1) prematuridade / idade gestacional abaixo de 32 semanas  \n(2) baixo peso ao nascer  \n(3) internação na Unidade de Terapia Intensiva Neonatal (UTIN)  \n(4) problema cardíaco / doença cardiovascular  \n(5) problema renal / alteração urinária / fatores relacionados a glomerulonefrite pós estreptocócica  \n(6) outras doença(s) crônica(s) / diabetes mellitus / câncer  \n(7) doenças renais familiares  \n(8) hipertensão juvenil de algum membro da família  \n(9) uso de medicação atual e continuamente  \n(10) sobrepeso / obesidade  \n(11) doenças genéticas: neurofibromatose ou síndrome de Turner ou síndrome de Williams ou coarctação de aorta  \n(12) padrão de sono / apneia do sono  \n(13) hábitos alimentares inadequados ou não saudáveis  \n(14) falta da realização de atividade física; sedentarismo  \n\n  \n**Adequado:** verbaliza quatro fatores  \n**Parcialmente adequado:** verbaliza dois ou três fatores  \n**Inadequado:** verbaliza um fator OU não verbaliza fator algum",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre a condição da paciente antes de medição da PA:**  \n(1) ficou sentada e/ou tranquila antes do exame  \n(2) esvaziou a bexiga antes da consulta  \n(3) correu, pulou ou fez alguma atividade física na última hora  \n\n  \n**Adequado:** verbaliza duas condições  \n**Parcialmente adequado:** verbaliza uma condição  \n**Inadequado:** não verbaliza sobre as condições ou verbaliza alguma outra condição",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explica o exame para a mãe da criança simulada.**  \n**Adequado:** Explica  \n**Inadequado:** Não explica",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Posicionamento / preparo da paciente:**  \n(1) verbaliza que o braço deve ficar ao nível do coração  \n(2) verbaliza que a palma da mão deverá ficar voltada para cima  \n(3) retira a camiseta ou solicita que a mãe retire a camiseta ou ergue a manga de modo que não garroteia o membro ou verbaliza que a camiseta deve ser retirada  \n(4) verbaliza que a medida é preferencialmente no braço direito  \n(5) verbaliza que o paciente deve estar deitado ou sentado, com pernas descruzadas, pés apoiados no chão, dorso recostado na cadeira e relaxado  \n\n  \n**Adequado:** realiza três ações  \n**Parcialmente adequado:** realiza duas ações corretamente  \n**Inadequado:** não realiza ação alguma ou realiza apenas uma",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Escolha do tamanho do manguito:**  \n(1) Mede e/ou verbaliza a distância do acrômio ao olécrano  \n(2) Identifica e/ou descreve o ponto médio da distância entre o acrômio e o olécrano  \n(3) Mede e/ou verbaliza a circunferência do braço nesse ponto médio  \n(4) Seleciona o manguito correto (manguito n.º 2 - largura de 8 a 10 cm)  \n\n  \n**Adequado:** realiza quatro ações corretamente  \n**Parcialmente adequado:** realiza duas a três ações corretamente  \n**Inadequado:** realiza uma ou nenhuma ação corretamente  \n\nObs: não é necessário verbalizar os termos acrômio e olecrano. Pode ser verbalizado do ombro ao cotovelo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza e/ou faz o posicionamento inicial do esfigmomanômetro e do estetoscópio para aferição da pressão:**  \n(1) verbaliza e/ou coloca o esfigmomanômetro/manguito corretamente no braço (posição do velcro e direção do manguito) 2 a 3 cm acima da fossa cubital  \n(2) verbaliza e/ou posiciona a campanula ou o diafragma do estetoscópio sobre fossa anticubital / cubital ipsilateral; ou sobre a artéria braquial  \n\n  \n**Adequado:** realiza os dois procedimentos  \n**Inadequado:** realiza um ou nenhum",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Interpreta os valores pressóricos obtidos como alterados / elevados para a idade da criança.**  \n**Adequado:** Interpreta como pressão alterada / elevada ou hipertensão estágio 1  \n**Inadequado:** não interpreta ou interpreta incorretamente",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Conduta final:**  \n(1) não fecha o diagnóstico de hipertensão ainda  \n(2) orienta medidas não farmacológicas (peso, dieta, atividade física)  \n(3) solicita retorno para nova medida de pressões em 1 a 2 semanas  \n\n  \n**Adequado:** realiza as três ações  \n**Parcialmente adequado:** realiza duas ações  \n**Inadequado:** realiza uma ou nenhuma ação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

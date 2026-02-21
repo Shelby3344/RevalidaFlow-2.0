@@ -1,0 +1,155 @@
+{
+  "uid": 316,
+  "hash": "pepe_316",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Doença de Fabry",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - ambulatório de Clínica Médica.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas.\n\nDescrição do caso:\nVocê atenderá um paciente de 16 anos, sexo masculino, encaminhado da atenção primária por quadro de dor crônica em extremidades e lesões cutâneas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar e interpretar o exame físico;  \n- Solicitar exames complementares;  \n- Formular a hipótese diagnóstica;  \n- Citar diagnósticos diferenciais para o quadro;  \n- Propor a conduta terapêutica específica e orientações de suporte.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Paciente:** Lucas, 16 anos, estudante.  \n• **Acompanhante:** Cláudia (mãe), 42 anos.  \n\n**MOTIVO DE CONSULTA:**  \n• **Lucas:** Doutor(a), vim porque o médico do posto achou melhor investigar. Eu sinto muita queimação nas mãos e nos pés desde pequeno.  \n\n**SOBRE A DOR (ACROPARESTESIA):**  \n• **Início:** Desde os 9 anos.  \n• **Característica:** É uma dor tipo formigamento e queima muito.  \n• **Fatores de Piora:** Piora quando faço exercício, quando está calor ou quando tenho febre.  \n• **Fatores de Melhora:** Colocar a mão na água gelada ajuda um pouco.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Suor:** Eu quase não suo, mas fico muito vermelho com o calor.  \n• **Lesões de Pele:** Tenho umas bolinhas vermelhas na região da cueca, no umbigo.  \n• **Diarreia:** Tenho diarreia com frequência depois de comer.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Nenhuma diagnosticada.  \n• **Medicações:** Uso analgésicos comuns pra essas dores, mas resolve pouco.  \n\n**ANTECEDENTES FAMILIARES:** Minha mãe tem um córnea com uma mancha. Meu tio faleceu jovem, fazia hemodiálise. E meu avô teve um derrame muito novo.   \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho é genético?*  \n• *Vou ficar igual ao meu tio que morreu dos rins?*  \n• *Existe remédio para curar ou tratar isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **Temp:** 36,5°C  \n\n\n**Ectoscopia:** Bom estado geral, corado, hidratado.\n\n\n**Pele:** Presença de múltiplas pápulas puntiformes, de coloração vermelho-violácea (angioqueratomas), não pruriginosas, localizadas em região periumbilical e inguinal.  \n\n\n**Oftalmológico:** Córnea verticillata observada à lâmpada de fenda.  \n\n\n**Neurológico:** Sensibilidade preservada, mas refere disestesia (dor ao toque leve) em palmas das mãos e plantas dos pés.  \n\n\n**Demais sistemas:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Urina Tipo 1:**  \n• Densidade: 1018  \n• pH: 6.0  \n• Proteínas: ++/4+  \n• Sedimento: Raros cilindros hialinos.  \n\n\n**Creatinina:** 0,8 mg/dL (VR: 0,7 a 1,2)  \n**Ureia:** 32 mg/dL (VR: 10 a 50)  \n**Albuminúria:** 150 mg/g de creatinina.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "DOSAGEM ENZIMÁTICA",
+      "conteudo": "**ATIVIDADE DA ALFA-GALACTOSIDASE A (Leucócitos)**  \n\n\n**Resultado:** 0,8 nmol/h/mg (VR: 10,0 a 38,0 nmol/h/mg)**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente e a mãe.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese investigando a tríade clássica de sintomas na infância/adolescência:**  \n(1) dor em extremidades (acroparestesia);  \n(2) hipoidrose/anidrose (intolerância ao calor);  \n(3) lesões de pele (angioqueratomas).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre antecedentes familiares sugestivos de herança ligada ao X:**  \n(1) história de doença renal crônica precoce em familiares homens (tio materno);  \n(2) história de AVC ou doença cardíaca precoce na família.  \n\n**Adequado:** pergunta sobre os dois itens.  \n**Parcialmente adequado:** pergunta sobre um item.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames laboratoriais iniciais para avaliação de lesão de órgão-alvo:**  \n(1) creatinina e ureia (função renal);  \n(2) proteinúria ou albuminúria (urina 1 ou microalbuminúria);  \n\n**Adequado:** solicita função renal ou avaliação urinária.  \n**Inadequado:** não solicita avaliação renal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames específicos para confirmação diagnóstica:**  \n(1) Dosagem da atividade da enzima Alfa-Galactosidase A;  \n(2) Teste genético / Análise molecular do gene GLA.  \n\n**Adequado:** solicita um dos exames.  \n**Inadequado:** não solicita exame confirmatório específico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Cita diagnósticos diferenciais para o quadro de dor em extremidades na infância/adolescência:**  \n(1) Febre Reumática;  \n(2) Artrite Idiopática Juvenil (ou Artrite Reumatoide);  \n(3) Dores do Crescimento;  \n(4) Eritromelalgia;  \n(5) Fibromialgia;  \n(6) Lúpus Eritematoso Sistêmico (ou Vasculites).  \n\n**Adequado:** cita dois ou mais diagnósticos da lista.  \n**Parcialmente adequado:** cita apenas um diagnóstico.  \n**Inadequado:** não cita diagnósticos diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula o diagnóstico definitivo:**  \nDoença de Fabry (ou Doença de Anderson-Fabry).  \n\n**Adequado:** verbaliza o diagnóstico correto.  \n**Inadequado:** não verbaliza ou erra o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre a terapêutica específica:**  \nIndica Terapia de Reposição Enzimática (TRE) com alfagalsidase alfa ou beta.  \n\n**Adequado:** indica reposição enzimática.  \n**Inadequado:** não indica tratamento específico.  \n\n*OBS.: Considerar adequado caso indique apenas Terapia de Reposição Enzimática, ou TRE.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta medidas de suporte e aconselhamento:**  \n(1) Manejo da dor (analgésicos, evitar desencadeantes como calor excessivo);  \n(2) Aconselhamento genético para a família (rastreio da mãe e irmãos).  \n\n**Adequado:** realiza ao menos uma orientação.  \n**Inadequado:** não realiza orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita retorno ou encaminhamento ao especialista:**  \n(1) Marca retorno para acompanhamento do tratamento;  \n(2) Encaminha ao especialita/reumatologista/pediatra.  \n\n**Adequado:** verbaliza ao menos um dos itens.  \n**Inadequado:** não verbaliza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

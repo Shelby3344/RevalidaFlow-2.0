@@ -1,0 +1,288 @@
+{
+  "uid": 1607,
+  "hash": "pepe_1607",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Abdome agudo perfurativo + Manejo de choque séptico",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• raio-X e eletrocardiograma;  \n• laboratório de análises clínicas;  \n• banco de sangue;  \n• centro cirúrgico de média complexidade;  \n• leitos de internação.\n\nDescrição do caso:\nVocê está de plantão em um Hospital secundário e atenderá um paciente de 56 anos com queixa de dor abdominal difusa intensa de início súbito.",
+  "tarefas": "TAREFAS:  \n\nNos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exames físico e complementares, caso necessário;  \n- Informar a hipótese diagnóstica;  \n- Responder as dúvidas do paciente;  \n- Propor condutas e orientações ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Ednaldo, 56 anos, comerciante. \n\n\n**QUEIXA PRINCIPAL:** Dr(a), estou com uma dor na barriga horrível, está muito forte! \n\n\n**SOBRE DOR:**   \n• **Início:** há 3 horas. Começou do nada.  \n• **Localização:** dói mais na boca do estômago.  \n• **Irradiação:** agora está doendo a barriga toda.  \n• **Característica:** é tipo uma facada.  \n• **Intensidade:** 8/10.  \n• **Atenuantes/agravantes:** nada melhora. Não tomei nada.  \n\n• **Episódio anterior:** é a primeira vez.  \n• **Trauma:** nega. \n\n\n**SINTOMAS ASSOCIADOS:**  \n• **VÔMITOS:** eu vomitei 2 vezes, só líquido, estava meio escuro.  \n• **FEZES:** ontem fui ao banheiro, mas hoje ainda não.  \n\n\n**NEGA OUTROS SINTOMAS** \n\n\n**ANTECEDENTES PESSOAIS:**   \n• **Alergias e comorbidades:** nega.   \n• **Medicações:** as vezes quando tenho dor nas costas eu tomo ibuprofeno.   \n• **Cirurgias e internações:** nega.  \n• **VACINAÇÃO:** faz tempo que não tomo vacina.  \n\n• **Álcool, tabaco e drogas:** fumo 10 cigarros por dia há 25 anos e bebo aos finais de semana.  \n• **Alimentação:** Gosto de fazer feijoada, dobradinha e um churrasco também. No trabalho tomo muito café.  \n• **Atividade física:** não faço nada.  \n\n\n**ANTECEDENTES FAMILIARES:**   \n• Meu pai era hipertenso, teve um AVC uma vez.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.   \n\n\n**DÚVIDAS:**  \n• *O que eu tenho?*    \n• *Isso é câncer?*     \n• *Vou precisar de cirurgia?*    \n• *Como é feita a anestasia da cirurgia?*   \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato indique Hidratação Venosa, Acesso Venoso ou Reposição Volêmica, libere o impresso **ABORDAGEM HEMODINÂMICA**   \n• Após o candidato Verbalizar a quantidade de reposição volêmica, liberar o impresso **PÓS REPOSIÇÃO VOLÊMICA**   \n• Caso o candidato indique antibioticoterapia, questionar *Qual o antibiótico?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 95 x 60 mmHg;  \n• **FC:** 112 bpm;  \n• **FR:** 22 irpm;  \n• **SatO2:** 97% em a.a.; \n• **Temp. axilar:** 36.7° C  \n\n\n**Ectoscopia:** regular estado geral, face álgica e palidez cutânea, mucosas hipocoradas +/4+ e sudoreico.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n\n**Abdominal:** Inspeção: levemente distendido, Ausculta: RHA diminuídos, Palpação: doloroso difusamente, apresentando defesa muscular, palpação profunda com descompressão brusca dolorosa, e Percussão: timpanismo em hipocôndrio direito.  \n\n\n**Toque retal:** Tônus preservado com presença de fezes em ampola retal.  \n\n\n**MMII:** sem lesões ou edemas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma:**  \n• **Hemoglobina:** 9 g/dL (VR: 11 a 13 g/dL)  \n• **Hematócrito:** 32% (VR: 37% a 41%)  \n\n• **Leucócitos:** 15 mil/mm3 (VR: 7 a 9 mil/mm3)  \n• **Neutrófilos:** 80% (VR: 10% a 20%)  \n\n• **Plaquetas:** 105.000 (VR: 150.000-450.000)  \n\n\n• **Ureia:** 49 mg/dl (VR: 19 a 43mg/dl)  \n• **Creatinina:** 7mg/dl (VR: ≤ 1,2mg/dl)  \n• **Lactato:** 4,1 mg/dl (VR: 2mg/dl)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**DESCREVA OS ACHADOS DA IMAGEM**",
+      "imagem": "img_printeds/2016-e7p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "ABORDAGEM HEMODINÂMICA",
+      "conteudo": "PACIENTE SE ENCONTRA COM ACESSO VENOSO CENTRAL EM VEIA SUBCLÁVIA DIREITA.  \n\n\n**Realize as seguintes abordagens:**  \n• Cite duas possíveis complicações deste procedimento;  \n\n• Verifique o posicionamento correto do cateter;  \n\n• Indique a reposição volêmica adequada para o paciente.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "PÓS REPOSIÇÃO VOLÊMICA",
+      "conteudo": "**Não houve melhora com a reposição volêmica.**    \n\n\n**Realize a seguinte abordagem:**  \n• Qual próxima medida a ser adotada?",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se adequadamente para o paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Avalia os exames bioquímicos e verbaliza leucocitose com desvio à esquerda, insuficiência renal aguda e má perfusão tecidual (hiperlactatemia), compatível com choque séptico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Avalia a radiografia de tórax e verbaliza os achados: cúpulas constatando a presença de pneumoperitôneo, compatível com abdome agudo perfurativo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza uma rápida anamnese e exame físico abdominal identificando o quadro clínico compatível com abdome agudo perfurativo.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explica ao paciente a necessidade de laparotomia exploradora e não de videolaparoscopia devido ao estado hemodinâmico e à peritonite difusa.**    \n\n**Adequado:** indica a laparatomia e os motivos.  \n**Parcialmente adequado:** apenas indica a laparotomia, sem explicar os motivos.  \n**Inadequado:** não indica a laparotomia e não explica os motivos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explica ao paciente que seu quadro é mais compatível com doença péptica perfurada e que não deve ser câncer, mas que isto será melhor observado depois da cirurgia.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verifica o posicionamento correto do cateter venoso central, sem complicações torácicas e indica a instalação de medida da PVC.**   \n\n**Adequado:** realiza as 3 ações.   \n**Parcialmente adequado:** realiza 2 ações.   \n**Inadequado:** realiza 1 ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica/prescreve reposição volêmica com RL ou SF de 30 mL/kg em bolus.**   \n\n**Adequado:** prescreve a reposição volêmica e indica o volume corretamente.  \n**Inadequado:** prescreve a reposição volêmica, mas não indica o volume ou indica incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Com a não melhora hemodinâmica, indica o uso de vasopressores (noradrenalina e/ou dopamina).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza a necessidade de coleta de duas hemoculturas antes do início da antibioticoterapia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza a prescrição constando os seguintes itens: (11.1 a 11.8)**  \n**11.1. Jejum.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**11.2. Hidratação EV com cristalóide.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**11.3. Antibiótico para Gram negativo (ceftriaxona ou ciprofloxacina ou meropenem/imipenem).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**11.4. Antibiótico para anaeróbio — metronidazol —, exceto se uso de meropenem/imipenem no item acima, o que deve ser verbalizado.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**11.5. Uso de analgésico opioide.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**11.6. Uso de sonda gástrica em drenagem.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**11.7. Sondagem vesical em drenagem com anotação de diurese.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**11.8. Anotação dos sinais vitais.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**11.9. Cuidados gerais.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**12. Explica a necessidade de anestesia geral para a cirurgia e explica rapidamente o procedimento (necessidade de tirar a consciência, intubação traqueal etc).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**13. Tranquiliza o paciente e pergunta se ele ainda tem alguma dúvida.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

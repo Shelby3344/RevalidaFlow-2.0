@@ -1,0 +1,183 @@
+{
+  "uid": 2504,
+  "hash": "pepe_2504",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Dengue na gestação",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório ginecológico.\n\nDescrição do caso:\nVocê é um médico atuando em uma unidade básica de saúde (UBS) e atenderá uma paciente chamada Vera, de 25 anos, secundigesta, com idade gestacional de 15 semanas e 2 dias. Ela comparece à consulta com relato de febre há cerca de 5 dias e dor no corpo todo.",
+  "tarefas": "TAREFAS:  \n- realizar anamnese relacionada à queixa principal da paciente;  \n- solicitar os exames pertinentes ao caso;  \n- formular e verbalizar a hipótese diagnóstica;  \n- classificar o quadro quanto à gravidade;  \n- indicar a conduta adequada.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Vera, 25 anos, balconista.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu vim porque faz uns 5 dias que estou com uma febre que vai e volta, e uma dor no corpo terrível.  \n\n**SOBRE OS SINTOMAS:**  \n• **Mialgia/artralgia:** Dói o corpo inteiro. Parece nos músculos e dói também nas juntas um pouco.  \n• **Cefaleia:** sinto uma dor de cabeça forte, bem atrás do olho.  \n• **Febre:** Começou faz 5 dias, vem e volta. Não medi. \n• **Exantemas:** apareceram ontem umas manchas vermelha em mim.  \n• **Mal-estar:** Estou muito cansada, fraca e sem força pra nada.  \n• **Medicação:** Eu não tomei nenhum remédio. Fiquei com medo de fazer mal pro bebê.  \n• **Episódio anterior:** nega.  \n\n**OUTROS SINTOMAS:**  \n**Sangramentos, vertigem, síncope, conjuntivite, dor abdominal, vômitos, tosse, coriza:** nega.  \n\n• **ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** é minha segunda gravidez. Já tenho um filho.  \n• **IG:** agora estou com 15 semanas e 2 dias.  \n\n**ANTECEDENTES E CONTEXTO:**  \n• **Alergias, doenças e medicações:** só o sulfato ferroso que me passaram no pré-natal.  \n• **Epidemiologia:** Lá onde eu moro, tem mais gente. Vários vizinhos estão assim.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *É grave? Eu vou precisar ficar internada?*  \n• *O que eu posso tomar para aliviar essa dor e a febre sem prejudicar a gravidez?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTÃO DE PRÉ NATAL",
+      "conteudo": "**CARTÃO DA GESTANTE**  \n• **NOME:** VERA  \n• **IDADE:** 25 ANOS  \n• **GESTAÇÕES:** G2 PV1 A0  \n\n\n• **EXAME DE PRÉ-NATAL:** NORMAIS/NÃO REAGENTES  \n• **ANTECEDENTES CLÍNICOS OBST.:** GESTAÇÃO ANTERIOR SEM INTERCORRÊNCIA  \n• **ABO:** O+  \n• **VACINAS:** ATUALIZADAS  \n• **MEDICAÇÃO EM USO:** SULFATO FERROSO",
+      "imagem": "img_printeds/2025-1-e4p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Paciente:** Vera  \n\n\nPaciente normocorada, hidratada, anictérica e acianótica.  \n• **Temperatura axilar:** 39,2°C.  \n• **Pressão arterial:** 110 mmHg x 70 mmHg.  \n• **Frequência cardíaca:** 98 batimentos por minuto.  \n• **Saturação de O2:** 98% de oxigênio em ar ambiente.  \n• **Abdome:** altura uterina de 15 cm; BCF de 154 BPM.  \n• **Exame ginecológico:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "PROVA DO LAÇO",
+      "conteudo": "Presença de 25 petéquias.",
+      "imagem": "img_printeds/2025-1-e4p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "TESTE DO ANTÍGENO NS1",
+      "conteudo": "**Paciente:** Vera  \n\n\n**Resultado do teste do antígeno NS1:** POSITIVO.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) cumprimenta a paciente e(ou) fala o seu nome;  \n(2) pergunta o motivo da consulta ou a queixa principal da paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre os seguintes sintomas e sinais:**  \n(1) dores articulares;  \n(2) hiperemia ocular;  \n(3) olho com secreção (conjuntivite);  \n(4) cefaleia;  \n(5) adinamia;  \n(6) mialgias;  \n(7) dor retro-orbitária;  \n(8) anorexia;  \n(9) sensação de desmaio;  \n(10) sangramento da gengiva;  \n(11) dor abdominal forte;  \n(12) diarreia;  \n(13) vômitos;  \n(14) sintomas gripais (coriza, tosse, dor de garganta).  \n\n**Adequado:** pergunta sobre sete ou mais itens.  \n**Parcialmente adequado:** pergunta sobre quatro a seis itens.  \n**Inadequado:** pergunta sobre três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre medicações em uso.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita hemograma.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita teste de antígeno NS1 para dengue.**  \n\n**Adequado:** solicita teste do antígeno NS1 para dengue, teste NS1 ou teste do antígeno NS1 ou teste rápido NS1.  \n**Parcialmente adequado:** solicita apenas teste de antígeno.  \n**Inadequado:** não solicita ou solicita teste rápido, sorologia, IgM ou outros testes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula o diagnóstico: dengue.**  \n\n**Adequado:** formula o diagnóstico de dengue.  \n**Parcialmente adequado:** formula o diagnóstico de arbovirose.  \n**Inadequado:** não define dengue nem arbovirose.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Classifica como dengue - grupo B.**  \n\n**Adequado:** classifica.  \n**Inadequado:** não classifica corretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica as seguintes condutas terapêuticas:**  \n(1) paracetamol ou dipirona;  \n(2) reidratação oral ou hidratação oral.  \n\n**Adequado:** indica os dois itens.  \n**Parcialmente adequado:** indica apenas o item (2).  \n**Inadequado:** não indica o item (2) OU não indica medicamento algum OU indica uso de AINE/AAS.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica realização de hemograma diariamente, até 48 h após fim da febre.**  \n\n**Adequado:** indica realização de hemograma diariamente, até 48 h após fim da febre.  \n**Parcialmente adequado:** indica realização de hemograma sem especificar a frequência OU indica a realização de hematócrito e \nplaquetas diariamente até 48h após o fim da febre (sem citar o \ntermo hemograma).  \n**Inadequado:** não indica realização de hemograma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta os sinais de alarme:**  \n(1) dor abdominal intensa (referida ou à palpação) contínua;  \n(2) vômitos persistentes;  \n(3) acúmulo de líquidos (ascite, derrame pleural, derrame pericárdico);  \n(4) hipotensão postural e(ou) lipotimia;  \n(5) hepatomegalia > 2 cm abaixo do rebordo costal;  \n(6) sangramento de mucosa;  \n(7) letargia e(ou) irritabilidade;  \n(8) aumento progressivo do hematócrito.  \n\n**Adequado:** cita 4 ou mais sinais de alarme.  \n**Parcialmente adequado:** cita apenas 2 ou 3 sinais de alarme.  \n**Inadequado:** cita apenas 1 ou nenhum sinal de alarme.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Menciona que fará a notificação do caso ao SINAN.**  \n\n**Adequado:** menciona.  \n**Inadequado:** não menciona ou menciona que notificará para outro que não seja o SINAN.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "uid": 129,
+  "hash": "pepe_129",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Síndrome DRESS Aguda",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• unidade de imagem (radiografia, tomografia);  \n• leitos de internação e UTI.\n\nDescrição do caso:\nPaciente de 60 anos procura o serviço de emergência com queixa de febre e manchas vermelhas pelo corpo, iniciadas há 3 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar exames complementares pertinentes.  \n- Formular a hipótese diagnóstica e os diagnósticos diferenciais.  \n- Estabelecer a conduta terapêutica inicial.  \n- Orientar o paciente sobre o quadro e os próximos passos.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Paciente:** Mário, 60 anos, aposentado.  \n• **Acompanhante:** Lúcia, 58 anos, esposa.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), meu marido não está bem. Ele está com febre alta e o corpo todo cheio de manchas vermelhas.  \n\n**SOBRE AS MANCHAS:**  \n• **Início:** Começou há uns 3 dias.  \n• **Localização:** primeiro no rosto e no peito, e agora se espalhou.  \n• **Aparência:** São manchas vermelhas, que parecem estar se juntando.  \n• **Edema:** O rosto dele também está bem inchado, principalmente em volta dos olhos.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Sim, febre alta, quase 39°C em casa.  \n• **Mal-estar:** Ele está muito caído, sonolento, só quer ficar deitado.  \n• **Gânglios:** Notei uns caroços no pescoço dele, que ele não tinha.  \n\n**NEGAR OUTROS SINTOMAS:**  \n• Dor de garganta, bolhas na boca ou nos olhos.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Ele tem gota (ácido úrico alto) e pressão alta.  \n• **Medicações:** Da pressão ele toma Losartana. E o médico do postinho começou um remédio novo para a gota há umas 4 semanas. Acho que o nome é Alopurinol.   \n• **Alergias:** Ele nega alergias.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ele tem, doutor(a)?*  \n• *Isso é grave? O que causou isso?*  \n• *Qual o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 110 x 70 mmHg  \n• **Frequência Cardíaca:** 110 bpm  \n• **Frequência Respiratória:** 21 irpm  \n• **Temperatura Axilar:** 38,8°C  \n• **Saturação de O₂:** 96% em ar ambiente.  \n\n\n**EXAME CLÍNICO:**  \n• Paciente em regular estado geral, sonolento, febril.  \n\n• **Pele:** Eritema maculopapular confluente, acometendo mais de 50% da superfície corporal (face, tronco e membros). Edema facial e periorbitário presente.  \n\n• **Linfonodos:** Linfonodos cervicais palpáveis, móveis, com cerca de 1,5 cm.  \n\n• **Abdome:** Fígado palpável a 3 cm do rebordo costal direito, doloroso à palpação.  \n\n• **Mucosas:** Leve hiperemia oral, sem bolhas ou enantema.  \n\n• **Aparelho Respiratório e Cardiovascular:** sem alterações significativas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 13,0 g/dL (VR: 13,5 – 17,5 g/dL)  \n• **Leucócitos:** 18.500 mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 210.000 mm³ (VR: 150.000 – 450.000/mm³)  \n• **Eosinófilos:** 2.220/mm³ (12%) (VR: até 500/mm³ ou < 5%)  \n• **Linfócitos Atípicos:** 5% (VR: Ausentes)  \n\n\n**FUNÇÃO HEPÁTICA:**  \n• **TGO (AST):** 250 U/L (VR: < 40 U/L)  \n• **TGP (ALT):** 310 U/L (VR: < 41 U/L)  \n• **Bilirrubinas Totais:** 1,8 mg/dL (VR: < 1,2 mg/dL)  \n\n\n**FUNÇÃO RENAL:**  \n• **Ureia:** 70 mg/dL (VR: 10 – 50 mg/dL)  \n• **Creatinina:** 1,6 mg/dL (VR: 0,7 – 1,3 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**Laudo:** Sem opacidades parenquimatosas ou derrames pleurais evidentes. Hilos pulmonares levemente congestos. Área cardíaca normal.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a acompanhante e pergunta o nome dela e do paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida:**  \n(1) investiga as características da erupção cutânea;  \n(2) pergunta sobre sintomas sistêmicos (febre, mal-estar, linfonodos).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga o histórico de medicamentos:**  \n(1) pergunta sobre doenças, cirurgias ou comorbidades;  \n(2) pergunta sobre medicações de uso contínuo;  \n(3) pergunta sobre alergias prévias.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico completo.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta os achados do exame físico:**  \n(1) erupção maculopapular > 50% SC;  \n(2) edema facial;  \n(3) linfadenopatia;  \n(4) hepatomegalia dolorosa.  \n\n**Adequado:** identifica três ou quatro achados.  \n**Parcialmente adequado:** identifica dois achados.  \n**Inadequado:** identifica um ou nenhum achado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais pertinentes:**  \n(1) Hemograma;  \n(2) TGO/TGP (função hepática);  \n(3) Ureia/Creatinina (função renal).  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta os achados laboratoriais:**  \n(1) Eosinofilia (ou aumento de eosinófilos);  \n(2) Leucocitose com linfócitos atípicos;  \n(3) Aumento de transaminases (lesão hepática);  \n(4) Piora da função renal (lesão renal).  \n\n**Adequado:** identifica os quatro achados.  \n**Parcialmente adequado:** identifica três achados.  \n**Inadequado:** identifica dois ou menos achados.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Formula a hipótese diagnóstica principal:**  \n\n**Adequado:** verbaliza Síndrome DRESS (ou Reação Medicamentosa com Eosinofilia e Sintomas Sistêmicos).  \n**Parcialmente adequado:** verbaliza Farmacodermia grave ou Síndrome de Hipersensibilidade a Drogas.  \n**Inadequado:** não formula a hipótese ou cita apenas \"alergia\".",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Identifica o provável agente causador:**  \n\n**Adequado:** correlaciona o início do Alopurinol (há 4 semanas) com o quadro atual.  \n**Inadequado:** não identifica o Alopurinol como causa provável.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Estabelece a conduta imediata:**  \n(1) suspender imediatamente o Alopurinol;  \n(2) indicar internação hospitalar para monitoramento e tratamento.  \n\n**Adequado:** indica as duas condutas.  \n**Parcialmente adequado:** indica apenas uma conduta.  \n**Inadequado:** não indica nenhuma das condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica o tratamento farmacológico específico:**  \n\n**Adequado:** indica o uso de corticoide sistêmico (ex: Prednisona oral ou Metilprednisolona EV).  \n**Inadequado:** não indica corticoide sistêmico (indica apenas sintomáticos ou corticoide tópico).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a acompanhante:**  \n(1) explica a gravidade do quadro e a provável causa (reação ao Alopurinol);  \n(2) orienta a evitar permanentemente o Alopurinol e informar esse antecedente em futuros atendimentos.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza apenas uma orientação.  \n**Inadequado:** não realiza nenhuma orientação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

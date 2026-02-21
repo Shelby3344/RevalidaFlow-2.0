@@ -1,0 +1,154 @@
+{
+  "uid": 2424,
+  "hash": "pepe_2424",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Trabalho de parto - Fase Latente (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - Maternidade.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório de Ginecologia e Obstetrícia;  \n• Centro obstétrico;  \n• Laboratório de análises clínicas.\n\nDescrição do caso:\nVocê está de plantão no pronto atendimento obstétrico e receberá uma mulher de 26 anos, primigesta, com 40 semanas de gestação, que procura o serviço com queixa de contrações. A paciente não tem comorbidades e realizou o pré-natal sem intercorrências.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida à queixa da paciente;  \n- Solicitar e interpretar o exame físico, caso necessário;  \n- Verbalizar o diagnóstico da paciente;  \n- Indicar a conduta adequada para o caso;  \n- Orientar a paciente sobre métodos não farmacológicos de alívio da dor e sinais de alerta.  \n- Responder as dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Amanda, 26 anos, casada, do lar.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), acho que entrei em trabalho de parto, estou com contrações.  \n\n**SOBRE AS CONTRAÇÕES:**  \n• **Início:** Começaram há umas 5 horas, mas estão fracas.  \n• **Frequência:** Estão irregulares, às vezes vêm duas em 10 minutos, às vezes demora mais.  \n• **Duração:** São curtinhas, acho que menos de 30 segundos.  \n• **Intensidade:** A dor é moderada, como uma cólica mais forte.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Perda de líquido ou sangue:** Não, não perdi líquido e nem tive sangramento.  \n• **Movimentos do bebê:** Sim, ele está mexendo normal.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** É minha primeira gestação.  \n• **IG:** Estou com 40 semanas.  \n• **Pré-natal:** Meu pré-natal foi todo normal, de baixo risco. Todos os exames deram bons.  \n• **Plano de Parto:** Eu gostaria muito de ter um parto normal, se possível sem anestesia. Meu marido está comigo, ele vai me acompanhar.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença e não tomo nenhum remédio.  \n\n**CONTEXTO PESSOAL:**  \n• Estou tranquila, mas um pouco ansiosa. Moro aqui perto do hospital e meu marido me trouxe de carro.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Eu já estou no trabalho de parto e vou ficar internada?*  \n• *É normal sentir essa dor? O que eu posso fazer para aliviar um pouco?*  \n• *Tem algum sinal de alerta que eu devo me atentar?*  \n• *E questão de comida e bebida? posso comer e beber normal?*  \n• *Ainda é possível ter o parto normal que eu quero?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 82 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 99% em ar ambiente  \n• **Temp. axilar:** 36.6°C  \n\n\n**EXAME GERAL:**  \n• Bom estado geral, contactuante, corada, hidratada e afebril.  \n\n\n**EXAME OBSTÉTRICO ESPECÍFICO:**  \n\n\n• **Altura Uterina:** 34 cm.  \n• **Dinâmica Uterina:** 2 contrações de 25 segundos em 10 minutos, de intensidade moderada.  \n• **Ausculta Fetal:** Batimentos Cardíacos Fetais (BCF) de 135 bpm, sem desacelerações.  \n\n\n• **Toque Vaginal:**  \n• **Colo Uterino:** Posição média, com 2 cm de dilatação e esvaecimento de 50%.  \n• **Apresentação Fetal:** Cefálica, em plano -3 de DeLee.  \n• **Membranas:** Bolsa íntegra.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida à queixa principal.**  \n(1) pergunta sobre o início, frequência, duração e intensidade das contrações;  \n(2) pergunta sobre perda de líquido amniótico;  \n(3) pergunta sobre sangramento vaginal;  \n(4) pergunta sobre a movimentação fetal.  \n\n**Adequado:** pergunta os quatro itens.  \n**Parcialmente adequado:** pergunta dois ou três itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre os antecedentes obstétricos e pré-natais.**  \n(1) número de gestações (Gesta/Para);  \n(2) idade gestacional;  \n(3) intercorrências no pré-natal.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico geral e obstétrico da paciente.**  \n\n**Adequado:** solicita os dois exames.  \n**Inadequado:** solicita apenas um ou não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza o diagnóstico e justifica.**  \n(1) verbaliza o diagnóstico de Trabalho de Parto em Fase Latente (ou pródromos);  \n(2) justifica com base na dilatação cervical ser inferior a 4-6 cm E/OU as contrações serem irregulares/curtas.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma ou diagnostica fase ativa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a conduta para o caso e justifica.**  \n(1) indica que a internação não é necessária no momento;  \n(2) justifica que a paciente está na fase latente do trabalho de parto e apresenta quadro clínico tranquilizador.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma ou indica a internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre métodos não farmacológicos para alívio da dor.**  \n(1) deambulação / movimentação livre;  \n(2) banho morno (aspersão ou imersão);  \n(3) massagens;  \n(4) técnicas de respiração e relaxamento;  \n(5) uso da bola de parto.  \n\n**Adequado:** orienta três ou mais métodos.  \n**Parcialmente adequado:** orienta dois métodos.  \n**Inadequado:** orienta um método ou não orienta nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre os sinais de alerta para retorno à maternidade.**  \n(1) aumento da frequência e intensidade das contrações (3 ou mais em 10 minutos);  \n(2) perda de líquido pela vagina (ruptura da bolsa);  \n(3) sangramento vaginal;  \n(4) redução da movimentação fetal.  \n\n**Adequado:** orienta três ou quatro sinais.  \n**Parcialmente adequado:** orienta dois sinais.  \n**Inadequado:** orienta um sinal ou não orienta nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre a importância da alimentação e hidratação na fase latente.**  \n\n**Adequado:** orienta a paciente a se manter hidratada e a consumir alimentos leves em casa para garantir energia para o trabalho de parto.  \n**Inadequado:** orienta manter jejum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Acolhe o plano de parto da paciente e reforça a possibilidade do parto normal.**  \n\n**Adequado:** valida o desejo da paciente pelo parto normal, explicando que a evolução até o momento é fisiológica e favorável a esse desfecho, e que a equipe irá apoiá-la.  \n**Inadequado:** não valoriza o plano de parto da paciente ou sugere uma cesárea sem indicação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Demonstra postura empática e acolhedora.**  \n(1) responde às dúvidas da paciente de forma clara;  \n(2) tranquiliza a paciente sobre a normalidade da fase atual do trabalho de parto.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

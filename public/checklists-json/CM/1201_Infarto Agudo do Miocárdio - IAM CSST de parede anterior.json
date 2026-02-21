@@ -1,0 +1,243 @@
+{
+  "uid": 1201,
+  "hash": "pepe_1201",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Infarto Agudo do Miocárdio - IAM CSST de parede anterior",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:    \n• Consultório médico;    \n• Sala de estabilização e pequenos procedimentos;  \n• raio-X, ultrassonografia, eletrocardiograma;  \n• laboratório de análises clínicas;  \n• banco de sangue;\n\nDescrição do caso:\nVocê está de plantão em uma UPA e comparece ao atendimento um homem queixando-se de dor precordial que irradia para o braço esquerdo. O paciente afirma que já teve dor semelhante e medicava-se com antiácidos.",
+  "tarefas": "- Realizar a anamnese sobre o caso;  \n- Solicitar exame físico, caso necessário;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a hipótese diagnóstica e responder as dúvidas do paciente;  \n- Propor as condutas pertinentes.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Osvaldo, 58 anos.  \n• Casado, contador.  \n**QUEIXA PRINCIPAL:** hoje estou com uma dor no peito muito forte. \n**SOBRE TORÁCICA:**  \n• **Início:** começou faz uns 40 minutos.  \n• **Localização:** bem no meio do peito.  \n• **Irradiação:** ela passa pro pescoço.  \n• **Característica:** em aperto, como se estivesse rasgando.  \n• **Intensidade:** olha acho que é uns 9.  \n• **Episódio anterior:** já tive antes parecida, mas era bem mais fraca e eu tomava um antiácido e logo passava.  \n• **Duração:** ela começou fraca e veio aumentando.  \n• **Sudorese:** acho que comecei a suar mais.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** tenho pressão alta. Uso as vezes um remédio que dá um pouco de tosse.  \n\n• **Álcool, tabaco e drogas:** bebo nos finais de semana.  \n• **Alimentação:** quase sempre como numa lanchonete. E também não faço dieta.  \n• **Atividade física:** não faço nada.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *Como é o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 160x95 mmHg  \n• **FC:** 95 bpm  \n• **FR:** 22 irpm  \n• **SatO2:** 91%  \n• **Temp. axilar:** 36.6° C  \n• **IMC:** 30.5 kg/m²  \n\n\n**Ectoscopia:** paciente em regular estado geral, ansioso, sudoreico e pele fria.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n\n**Abdominal:** abdome plano e flácido, indolor a palpação, RHA preservados, timpânico a percussão, sem massa palpável.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemácias:** 4,85 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 16,2 g/dl (VR: 14 a 18 mg/dl)  \n\n• **Plaquetas:** 199.000 mm/3 (150.000 - 400.000 mm/3)  \n\n• **Leucócitos:** 9.640/mm3 (VR: 4.000 - 10.000/mm3)  \n• **Neutrófilos:** 60% (VR: 40 - 70%)  \n\n\n• **Glicemia em jejum:** 96 mg/dl (VR: 60 - 99 mg/dl)  \n\n• **Sódio (Na):** 141 mEq/l (VR: 135 - 145 mEq/l)  \n• **Potássio: (K):** 4,4 mEq/l (VR: 3,5 - 5 mEq/l)  \n\n• **Colesterol LDL:** 195 mg/dl (< 130 mg/dl)  \n• **Colesterol HDL:** 40 mg/dl (> 40 mg/dl)  \n• **Triglicéridos:** 240 mg/dl (< 150 mg/dl)  \n\n• **Troponina I:** 0,12 ng/ml (VR: < 0,04 ng/ml)  \n• **CK-MB:** 5,9 ng/ml (VR: < 5 ng/ml)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ECG 12 DERIVAÇÕES",
+      "conteudo": "**VERBALIZE TODAS AS ALTERAÇÕES ENCONTRADAS**",
+      "imagem": "img_printeds/2012-e1p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. Cumprimenta o paciente e apresenta-se como medico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. Investiga localização, tempo de início, intensidade, irradiação da dor.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**1.3. Investiga sintomas que acompanham a dor (náuseas, sudorese, cabeça vazia) - pelo menos 2.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**1.4. Investiga a evolução da dor (melhora? piora?).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**1.5. Investiga a profissão, estado civil, ritmo de trabalho, estresse - pelo menos três.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**1.6. Investiga estilo de vida (álcool, tabaco, exercícios físicos, dieta) - pelo menos três.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**1.7. Investiga avaliação médica, resultados de exames (pelo menos dois: glicemia, colesterol, triglicérides).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**1.8. Investiga antecedentes pessoais (problemas de saúde, episódios anteriores semelhantes de dor) - ambos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**1.9. Investiga antecedentes familiares de doenças coronariana ou cardiovascular.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**Interpretação das alterações do eletrocardiograma apresentado (item 2.1 ao 2.4):**  \n**2.1. Elevação de ST em V1-V6, I e AVL.**  \n\n**Adequado:** caso interprete ao menos 4 derivações de SST elevadas.  \n**Parcialmente adequado:** caso interprete 3 derivações de SST elevadas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.375"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**2.2. Elevação de ST mais acentuadas em V2-V4.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.375"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**2.3. Ondas q em V1-V2.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.375"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**2.4. Altura da onda R reduzida em V3-V4.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.375"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**3.1. Formula o diagnóstico de infarto do miocárdio, de parede anterior (extenso).**  \n\n**Adequado:** caso diagnostique como IAM de parede anterior.  \n**Parcialmente adequado:** caso diagnostique como IAM, sem informar parede anterior ou informar erroneamente o local afetado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**3.2. Comunica o diagnóstico ao paciente de modo claro e buscando tranquilizá-lo.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**4.1. Informa o uso de aspirina e ativador de plasminogênio ou outros fibrinolíticos como medida primordial.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**4.2. Indica a necessidade de avaliação por cardiologista intervencionista ou cateterismo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**4.3. Indica outras medidas terapêuticas (pelo menos quatro):**  \n(1) sedação com sulfato de morfina 2-4g EV;  \n(2) perfusão venosa;  \n(3) oxigenoterapia sob cateter;  \n(4) nitritos por via sublingual;  \n(5) betabloqueador em função da PA;  \n(6) captopril;  \n(7) monitorização;  \n(8) oximetria de pulso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

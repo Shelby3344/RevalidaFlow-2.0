@@ -1,0 +1,165 @@
+{
+  "uid": 511,
+  "hash": "pepe_511",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Obstrução de Vias Aéreas por Corpo Estranho - OVACE (Desengasgo)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção primária.  \nTipo de atendimento: entrevista em podcast.  \nO estúdio de podcast (\"SaúdeCast\") possui câmeras, microfones e uma mesa.  \nSobre a mesa, estão disponíveis manequins lactente, criança e adulto para demonstrações.\n\nDescrição do caso:\nVocê é o(a) médico(a) convidado(a) do episódio de hoje do podcast \"SaúdeCast\", que é transmitido ao vivo pelo YouTube. O tema é \"Engasgo: o que fazer nos primeiros socorros para salvar uma vida\".",
+  "tarefas": "TAREFAS:  \n- Participar da entrevista, respondendo às perguntas do apresentador.  \n- Orientar o público sobre a identificação e o manejo da OVACE.  \n- Demonstrar as técnicas de desobstrução (verbalizando os passos) nos manequins disponíveis.  \n- Discutir as principais medidas de prevenção.  \n- Utilizar linguagem clara e acessível para o público leigo.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** Liberar o impresso **MANEQUINS DISPONÍVEIS** no início da estação.  \n\n**DADOS PESSOAIS:**  \n• Carlos, apresentador do podcast.  \n\n**MOTIVO DE CONSULTA:** Fala, pessoal! Bem-vindos a mais um 'SaúdeCast'. Hoje o papo é sério e pode salvar uma vida. Estamos aqui com o(a) Doutor(a) *\"Nome do(a) Candidato(a)\"*... seja bem vindo(a).  \n\n**DÚVIDAS:**  \n• *Doutor(a), pra começar, como eu sei que um engasgo é sério? Qual a diferença entre aquela 'engasgadinha' que a gente só tosse, e a hora que eu preciso me desesperar?*  \n\n• *E aquela história de bater nas costas? É pra fazer ou não é?*  \n\n• *E engasgo com líquido, tipo leite no bebê ou até um adulto com água, o que eu faço?*  \n\n• *Para quem está assistindo a gente em vídeo, temos uns manequins aqui. Se for um bebê pequeno, qual é o procedimento correto?*  \n\n• *E no adulto? É aquela manobra famosa que a gente vê em filme? O(A) senhor(a) pode demonstrar nesse boneco aqui?*  \n\n• *Se for uma criança maior, de uns 4 ou 5 anos, a manobra é a mesma do adulto?*  \n\n• *Doutor(a), o que os pais precisam ficar de olho pra evitar o engasgo em criança pequena?*  \n\n• *E para idosos? Tem algum cuidado especial?*  \n\n• *Pra fechar: quando eu paro de tentar e ligo direto para o SAMU (192)?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "MANEQUINS DISPONÍVEIS",
+      "conteudo": "",
+      "imagem": "img_printeds/e511p1.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o apresentador e o público.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Responde sobre a gravidade do engasgo (diferenciação):**  \n(1) explica a obstrução leve (paciente tosse, emite sons, respira); e,  \n(2) explica a obstrução grave (paciente NÃO tosse, NÃO emite sons, cianose, sinal universal de asfixia).  \n\n**Adequado:** diferencia os dois tipos de obstrução.  \n**Parcialmente adequado:** menciona apenas um tipo ou não diferencia claramente.  \n**Inadequado:** não responde ou responde incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Responde sobre o que NÃO fazer (tosse eficaz):**  \n\n**Adequado:** orienta a bater levemente, sem força excessiva nas costas se a pessoa estiver tossindo com força (obstrução leve), devendo estimular a tosse.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Responde sobre a conduta em engasgo por líquidos:**  \n\n**Adequado:** explica que em engasgos por líquidos, as manobras de desobstrução (como Heimlich ou tapas nas costas) não são indicadas.  \n**Inadequado:** não responde ou indica as manobras de desobstrução.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Demonstra ou verbaliza detalhadamente a manobra para lactentes < 1 ano:**  \n(1) posiciona o bebê de bruços (ventre para baixo) sobre o antebraço, com a cabeça mais baixa que o tronco;  \n(2) aplica 5 golpes firmes na região interescapular (entre as escápulas);  \n(3) vira o bebê (posição supina/barriga para cima) e aplica 5 compressões torácicas (com dois dedos no esterno).  \n\n**Adequado:** demonstra ou descreve os três passos corretamente.  \n**Parcialmente adequado:** demonstra ou descreve dois passos corretamente.  \n**Inadequado:** demonstra ou descreve apenas um passo ou a manobra incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Demonstra (ou verbaliza detalhadamente) a Manobra de Heimlich em adultos:**  \n(1) posiciona-se atrás da vítima;  \n(2) posiciona as mãos (punho fechado com a outra mão sobreposta) na região epigástrica (entre o umbigo e o apêndice xifoide);  \n(3) realiza compressões abdominais rápidas para dentro e para cima (movimento em \"J\").  \n\n**Adequado:** demonstra ou descreve os três passos corretamente.  \n**Parcialmente adequado:** demonstra ou descreve dois passos corretamente.  \n**Inadequado:** demonstra ou descreve apenas um passo ou a manobra incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Responde sobre a manobra em crianças (> 1 ano):**  \n\n**Adequado:** explica que se utiliza a Manobra de Heimlich (compressões abdominais), similar ao adulto, mas adaptando a força e a altura ao tamanho da criança.  \n**Inadequado:** não explica ou indica a mesma manobra do lactente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Menciona a conduta em caso de perda de consciência:**  \n\n**Adequado:** explica que, se a vítima desmaiar (perder a consciência) durante as manobras, deve-se deitá-la e iniciar imediatamente a Reanimação Cardiopulmonar (RCP).  \n**Inadequado:** não menciona a RCP em caso de perda de consciência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita medidas de prevenção para crianças:**  \n(1) evitar alimentos pequenos, redondos ou duros (ex: uvas inteiras, amendoim, pipoca) para menores de 4 anos;  \n(2) cortar alimentos em pedaços pequenos;  \n(3) supervisionar a alimentação;  \n(4) manter objetos pequenos (brinquedos, moedas, baterias) fora do alcance.  \n\n**Adequado:** cita três ou mais medidas.  \n**Parcialmente adequado:** cita duas medidas.  \n**Inadequado:** cita uma ou nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Cita medidas de prevenção para idosos:**  \n(1) comer devagar e mastigar bem os alimentos;  \n(2) ter cuidado especial com próteses dentárias (dentaduras) mal ajustadas;  \n(3) cortar os alimentos em pedaços pequenos.  \n\n**Adequado:** cita duas ou mais medidas.  \n**Parcialmente adequado:** cita uma medida.  \n**Inadequado:** não cita medidas para este grupo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Responde sobre quando acionar o serviço de emergência (SAMU 192):**  \n\n**Adequado:** orienta a chamar o SAMU imediatamente em qualquer caso de obstrução grave (vítima não respira, não fala ou fica cianótica) ou se a vítima perder a consciência.  \n**Parcialmente adequado:** orienta chamar o SAMU, mas não especifica a gravidade.  \n**Inadequado:** não orienta acionar o SAMU.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Comunicação:**  \n(1) utiliza linguagem clara e acessível ao público leigo durante toda a entrevista;  \n(2) evita o uso de jargões médicos complexos.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** utiliza jargões ou linguagem técnica de difícil compreensão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

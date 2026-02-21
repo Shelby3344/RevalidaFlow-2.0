@@ -1,0 +1,253 @@
+{
+  "uid": 1720,
+  "hash": "pepe_1720",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Contracepção Hormonal | 2017",
+  "definicao": "Estação original adaptada  \nPSU-CE 2017 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;\n\nDescrição do caso:\nVocê está em atendimento no consultório da UBS e atenderá uma mulher que deseja iniciar um método contraceptivo.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida;  \n- Identificar fatores de risco e critérios de elegibilidade;  \n- Orientar a paciente sobre as opções contraceptivas adequadas;  \n- Recomendar e prescrever o método escolhido;  \n- Realizar o aconselhamento contraceptivo e responder as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Claudia, 38 anos, vendedora.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim porque quero começar a tomar remédio para não engravidar. Minha vizinha toma um anticoncepcional ótimo, o \"Ciclo 21\", e eu queria tomar esse também.  \n\n\n**ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS:**  \n• **Gestações:** Tenho 3 filhos. O último nasceu há 4 anos.  \n• **Partos:** Todos normais.  \n• **Ciclos menstruais:** Minha menstruação é bem certinha, vem todo mês, dura uns 5 dias.  \n• **Data da Última Menstruação (DUM):** Foi há 5 dias, acabou hoje.  \n• **Preservativo:** tomei pílula quando era mais nova. Ultimamente a gente usa camisinha, mas as vezes esquecemos.  \n\n\n**ANTECEDENTES PESSOAIS E HÁBITOS (CRUCIAL):**  \n• **Tabagismo:** Fumo sim, doutor(a). Fumo um maço (20 cigarros) por dia, desde os 20 anos.  \n• **Hipertensão:** Não, minha pressão é boa.  \n• **Diabetes:** Não tenho.  \n• **Tromboembolismo:** Nunca tive problema de circulação ou trombose.  \n• **Doenças:** Não tenho nenhum problema de saúde, só o cigarro mesmo.  \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Se o médico oferecer a pílula combinada (que a paciente pediu - clico 21): *Ah, que bom, doutor. Então vou tomar essa mesmo.* (Isso indica erro do candidato).  \n\n• Se o médico negar a pílula combinada: *Mas por que, doutor? Minha vizinha toma e não sente nada.*  \n\n• Se o médico oferecer DIU, Injetável trimestral ou Implante: *Se o senhor acha melhor e mais seguro, eu aceito.*  \n\n• Se o médico falar de laqueadura: *Eu já pensei nisso, mas queria algo pra agora.*  \n\n\n**DÚVIDAS:**  \n• *Eu posso tomar a pílula normal?*  \n• *Esses outros remédios engordam?*  \n• *Como eu uso isso que você me passou?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 120 x 80 mmHg.  \n• **FC:** 78 bpm.  \n• **IMC:** 24 kg/m².  \n\n\n**Exame Físico Geral:**  \n• Paciente em bom estado geral, corada, hidratada, eupneica.  \n\n• Ausência de varizes ou sinais de TVP em membros inferiores.  \n\n\n**Exame Físico Ginecológico:**  \n• Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimentou a paciente ao entrar na sala?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Interrogou a idade da paciente?**  \n\n**Adequado:** pergunta a idade.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questionou a paridade da paciente?**  \n\n**Adequado:** pergunta sobre número de gestações/filhos.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interrogou sobre ciclos menstruais?**  \n\n**Adequado:** pergunta sobre a regularidade ou data da última menstruação.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interrogou sobre métodos contraceptivos já utilizados?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interrogou sobre o uso de preservativo?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Perguntou se a paciente é hipertensa?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Questionou se paciente tem diabetes mellitus?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Questionou sobre antecedentes de tromboembolismo?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Questionou tabagismo?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explicou corretamente o risco de manter contraceptivo hormonal combinado ? (tabagismo, idade)**  \n(1) Tabagismo;  \n(2) Idade.  \n\n**Adequado:** explica associando os dois fatores (idade > 35 anos E tabagismo).  \n**Parcialmente adequado:** cita apenas um dos fatores.  \n**Inadequado:** não explica o risco.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Ofereceu mais de uma opção de contracepção segura (DIU de Cobre, Preservativo, Diafragma, Laqueadura)?**  \n\n**Adequado:** oferece uma opção.  \n**Inadequado:** oferece nenhuma opção.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Ofereceu pelo menos uma opção de contracepção com progesterona ? (implante, injetável, DIU, oral)**  \n(1) Implante;  \n(2) Injetável trimestral (apenas progestágeno);  \n(3) DIU (Cobre ou Hormonal/Mirena);  \n(4) Oral (minipílula/desogestrel).  \n\n**Adequado:** oferece pelo menos uma dessas opções citadas.  \n**Inadequado:** não oferece nenhuma dessas opções.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. NÃO ofereceu nenhuma contracepção combinada ? (oral, injetável, anel vaginal, transdérmico)**  \n(1) Oral combinada;  \n(2) Injetável mensal (combinada);  \n(3) Anel vaginal;  \n(4) Adesivo transdérmico.  \n\n**Adequado:** NÃO oferece nenhum dos métodos listados (respeita o critério de elegibilidade 3/4 da OMS).  \n**Inadequado:** oferece qualquer um dos métodos listados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Conversou sobre laqueadura tubária e vasectomia ?**  \n\n**Adequado:** aborda os métodos definitivos.  \n**Inadequado:** não aborda.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Orientou corretamente o uso da opção escolhida ?**  \n\n**Adequado:** orienta a posologia ou modo de uso do método escolhido.  \n**Inadequado:** não orienta ou orienta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Falou sobre efeitos colaterais ou risco no uso dessa opção ?**  \n\n**Adequado:** cita efeitos colaterais (ex: alteração do padrão de sangramento/escapes, cólicas, cefaleia).  \n**Inadequado:** não cita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Perguntou se a paciente tinha dúvida ou pediu para a paciente repetir as orientações ?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Manteve o contato visual com a paciente e a escutou sem interromper ou atropelar sua fala ?**  \n\n**Adequado:** mantém contato visual e escuta ativa.  \n**Inadequado:** não mantém.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Administrou adequadamente o tempo da consulta ?**  \n\n**Adequado:** conclui a consulta dentro do tempo.  \n**Inadequado:** não conclui.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

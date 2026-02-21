@@ -1,0 +1,199 @@
+{
+  "uid": 1101,
+  "hash": "pepe_1101",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Intubação Orotraqueal - IOT",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Unidade de Pronto Atendimento - UPA.  \nTipo de atendimento: urgência e emergência.  \nLocal de atuação: A unidade apresenta a seguinte infraestrutura:  \n• Sala vermelha;  \n• Instrumentos e Materiais para procedimentos de urgência e emergência;\n\nDescrição do caso:\n• Você está de plantão em uma Unidade de Pronto Atendimento (UPA) e atenderá um paciento do sexo masculino, encontrado em via pública desacordado e com odor a bebida, socorrido pelo Corpo de Bombeiros.    \n• Ao exame físico o paciente encontra-se inconsciente, Escala de Coma de Glasgow: 6, normotenso e os demais sinais vitais dentro da normalidade avaliados pela enfermagem.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- Realizar o atendimento inicial do paciente;  \n- Adotar a conduta médica necessária;  \n- Demonstrar a realização de procedimentos médicos, caso necessário.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marcos, enfermeiro de plantão    \n\n**MOTIVO DA CONSULTA:**  \n• Chegou pelo Corpo de Bombeiros a 5 minutos e **não sabemos a quanto tempo está desacordado**;    \n\n**SINAIS VITAIS:**  \n• Os sinais vitais estão normais, mas o **Glasgow:** 6 e ele continua inconsciente.    \n\n**DEMAIS PERGUNTAS:**  \n• Não consta no Script    \n\n**INSTRUÇÕES:**  \n**Caso o candidato indique necessidade de IOT:**  \n• Liberar **IMPRESSO - PROCEDIMENTO**    \n\n**Ao solicitar ou indicar uso de luvas:** \"- **Qual número?**\"    \n\n**Ao verbalidar Ventilação com máscara e **AMBU:** \"- **Considere realizado.**\"    \n\n**Caso o candidato solicite laringoscópio e/ou lâmina:** \"- **Qual número?**\"    \n\n**Caso o candidato solicite tubo/cânula:** \"- **Qual número?**\"    \n\n**Caso o candidato solicite seringa:** \"- **Quantos ML?** **O que será feito com a seringa?**\"    \n\n**Caso o candidato responda que realizará a checagem do **Cuff/balonete:** \"- **Considere realizado.**\"    \n\n**Caso o candidato indique ou solicite material para fixação da cânula:**  \n• Liberar **IMPRESSO - FIXAÇÃO DA CÂNULA**    \n\n**Caso o candidato indique ou solicite que paciente seja conectado ao ventilador:**  \n• Liberar **IMPRESSO - CONEXÃO AO VENTILADOR**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "PROCEDIMENTO",
+      "conteudo": "**DESCREVA O PROCEDIMENTO**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "FIXAÇÃO DA CÂNULA",
+      "conteudo": "**TUBO FIXADO ADEQUADAMENTE**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "CONEXÃO AO VENTILADOR",
+      "conteudo": "**PACIENTE CONECTADO AO VENTILADOR**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Indica intubação orotraqueal (caso o candidato assim proceda, entregue-lhe o cartão 1);**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza ventilação com máscara e AMBU com oxigénio (02).**  \n\n*Obs: Considerar adequado apenas se a fixação da máscara for feita com a base para baixo, com vedação e ventilação adequadas.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Monta e checa laringoscópio.**  \n\n*Obs: Considerar adequado apenas se houve montagem do aparelho e checagem do funcionamento da lâmpada.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita cânula de tamanho adequado (número 7,5 a 9,0).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Checa o balonete (cuff) da cânula.**  \n\n*Obs: Considerar se o balonote (cuff) foi insuflado a esvaziado.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Segura o laringoscópio com a mão não dominante.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Posiciona o laringoscópio no local correto: rima bucal à direita do manequim, afasta a língua e expõe adequadamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita o tubo orotraqueal sem desvio do olhar da cavidade orotraqueal do manequim, manuseando o tubo com a mao dominante e o introduzindo sob visão direta da via aérea.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita insuflação do balonete (cuff) após passagem do tubo orotraqueal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a checagern clinica da posição da cânula, auscultando em 3 pontos: epigástrio; pulmão direito (ápice ou base); pulmão esquerdo (ápice ou base).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Evidencia-se a expansão de ambos pulmões mediante ventilação com AMBU.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Solicita material para fixação da cânula (caso o candidato assim proceda entregue-lhe o cartão 2).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita que o paciente seja conectado a um respirador (caso o candidato assim proceda entregue-lhe o cartão 3).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Interage respeitosamente com o(a) enfermeiro(a).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

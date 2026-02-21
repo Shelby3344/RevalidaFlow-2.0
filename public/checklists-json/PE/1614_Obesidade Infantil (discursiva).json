@@ -1,0 +1,138 @@
+{
+  "uid": 1614,
+  "hash": "pepe_1614",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Obesidade Infantil (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;\n\nDescrição do caso:\nVocê atenderá em consulta de retorno um menino de 9 anos e 6 meses de idade, acompanhado pela mãe. A mãe informa que na consulta anterior foram solicitados alguns exames de sangue, mas ainda não foram realizados.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Calcular e classificar o Índice de Massa Corporal (IMC) da criança;  \n- Informar o diagnóstico nutricional e justificá-lo;  \n- Fornecer orientações específicas para a criança e a família;  \n- Elaborar o plano terapêutico.  \n\n\\\nATENÇÃO! A ANAMNESE SERÁ REALIZADA COM A MÃE.  \nCONSIDERE QUE HÁ CALCULADORA DISPONÍVEL",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Mônica, 28 anos, solteira.  \n• **Criança:** Lucas, 9 anos e 6 meses.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), eu trouxe o Lucas para a consulta de retorno que o senhor(a) marcou.  \n\n**DEMAIS QUEIXAS:**  \n• Ele não está sentindo nada, está tudo bem. Na outra consulta o(a) senhor(a) pediu uns exames de sangue, mas a gente ainda não conseguiu fazer.  \n\n\n**HÁBITOS:**  \n• **Alimentação:** Doutor(a), pra ser sincera, eu não sei muito bem o que ele come. Eu trabalho o dia todo, e de tarde ele fica com a minha mãe. Mas acho que ele come bem.  \n• **Atividade Física:** Ele não gosta muito de sair de casa. Passa a maior parte do tempo no videogame ou na TV.  \n• **Rotina:** Ele estuda de manhã e à tarde fica na avó até eu chegar do trabalho.  \n• **Sono:** Ele dorme bem.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tem nenhuma doença e não toma nenhum remédio.  \n• **Cirurgias e internações:** Nunca precisou ficar internado.  \n• **Vacinas:** isso está tudo certo.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu marido e eu estamos um pouco acima do peso.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS (DA MÃE):**  \n• *Ele está acima do peso, doutor(a)?*  \n• *Eu preciso cortar tudo o que ele gosta de comer?*  \n• *Que tipo de exercício ele pode fazer?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Idade:** 9 anos e 6 meses  \n• **Altura:** 1,30 m  \n• **Peso:** 43 kg  \n\n\n**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 85 bpm  \n• **FR:** 20 irpm  \n• **SatO2:** 96% em ar ambiente  \n\n\n• **Sinais vitais e exame físico segmentar normais.**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "GRÁFICO - IMC",
+      "conteudo": "**CALCULE O IMC E CLASSIFIQUE-O NO GRÁFICO ABAIXO.**  \n**considere que há calculadora disponível**",
+      "imagem": "img_printeds/2016-e14p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e a criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando os hábitos de vida e o contexto familiar.**  \n(1) investiga a rotina alimentar da criança;  \n(2) questiona sobre o tempo de tela (videogame, televisão) e a prática de atividades físicas;  \n(3) explora a dinâmica familiar e o papel dos diferentes cuidadores (mãe, avó) na rotina da criança.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Calcula o Índice de Massa Corporal (IMC) e o classifica corretamente no gráfico.**  \n\n**Adequado:** calcula o IMC (25,4 kg/m²) e o classifica no gráfico (escore Z \\> +2, acima do percentil 97).  \n**Parcialmente adequado:** calcula o IMC corretamente, mas não o classifica OU classifica incorretamente.  \n**Inadequado:** não calcula o IMC ou o calcula incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza o diagnóstico nutricional e justifica com base no IMC e sua classificação no gráfico.**  \n\n**Adequado:** verbaliza o diagnóstico de obesidade e justifica pelo resultado do IMC e o escore Z.  \n**Parcialmente adequado:** verbaliza o diagnóstico de obesidade, mas não justifica.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza um diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais para investigação de comorbidades associadas à obesidade.**  \n(1) Glicemia de jejum e/ou Hemoglobina Glicada;  \n(2) Perfil lipídico completo (Colesterol Total, HDL, LDL, Triglicerídeos);  \n(3) Transaminases (TGO/TGP) para investigação de esteatose hepática.  \n\n**Adequado:** solicita os três grupos de exames.  \n**Parcialmente adequado:** solicita dois grupos de exames.  \n**Inadequado:** não solicita os exames ou solicita apenas um grupo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Fornece orientações dietéticas para a família:**  \n(1) aumentar o consumo de frutas, vegetais e cereais;  \n(2) limitar o consumo de alimentos ricos em gordura e açúcar;  \n(3) evitar o consumo de refrigerantes e sucos industrializados;  \n(4) estabelecer horários para as refeições, a serem feitas em local tranquilo e sem telas.  \n(5) envolver toda a família, inclusive a avó, na mudança de hábitos;  \n\n**Adequado:** fornece três ou mais orientações.  \n**Parcialmente adequado:** fornece duas orientações.  \n**Inadequado:** fornece uma ou nenhuma orientação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre a prática de atividade física e a redução do sedentarismo.**  \n(1) recomenda a redução do tempo de tela para no máximo 2 horas por dia;  \n(2) sugere a inclusão de atividades físicas prazerosas na rotina (caminhar, andar de bicicleta, dançar), visando pelo menos 60 minutos diários.  \n\n**Adequado:** orienta sobre os dois itens.  \n**Parcialmente adequado:** orienta sobre apenas um item.  \n**Inadequado:** não realiza as orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Esclarece os riscos associados à obesidade infantil não tratada.**  \n(1) risco aumentado de Diabetes Mellitus tipo 2 e Hipertensão Arterial;  \n(2) risco de Doenças Cardiovasculares na vida adulta;  \n(3) risco de problemas psicossociais (bullying, baixa autoestima).  \n\n**Adequado:** esclarece sobre três ou mais riscos.  \n**Parcialmente adequado:** esclarece sobre dois riscos.  \n**Inadequado:** não esclarece os riscos ou menciona apenas um.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define o plano de seguimento na Unidade Básica de Saúde.**  \n**Adequado:** agenda o retorno para avaliação dos exames e reforça a importância do acompanhamento regular (consultas de puericultura) com a equipe multiprofissional (médico, enfermeiro, nutricionista) para monitorar o peso e apoiar a família.  \n**Inadequado:** não estabelece um plano de retorno claro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

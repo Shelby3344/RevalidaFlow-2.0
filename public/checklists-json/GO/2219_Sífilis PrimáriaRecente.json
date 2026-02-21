@@ -1,0 +1,166 @@
+{
+  "uid": 2219,
+  "hash": "pepe_2219",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Sífilis Primária/Recente",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO    \n\nLocal de atuação: Unidade de Atenção Primária.  \nA unidade possui a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• sala de medicação.  \n\n\n\n\n.\n\nDescrição do caso:\n• Mulher de 28 anos comparece à Unidade Básica de Saúde (UBS), com queixa  \nginecológica.",
+  "tarefas": "*Nos próximos 10 minutos, você deverá executar as tarefas a seguir:  \n- realizar anamnese da paciente (atenção: é necessário concluir a anamnese  \nantes de prosseguir com as demais tarefas).  \n- solicitar, se necessário, exames complementares relacionados à queixa principal  \nda paciente.  \n- citar a principal hipótese diagnóstica e os possíveis diagnósticos diferenciais.  \n- indicar o tratamento.  \n- fornecer orientações gerais e específicas, com base na principal hipótese  \ndiagnóstica.  \n- esclarecer as dúvidas da paciente.  \n\nATENÇÃO!  \nA PACIENTE SIMULADA  \nNÃO DEVERA SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Jenifer, tenho 28 anos sou estudante e estou solteira.  \n\n**MOTIVO DE CONSULTA**:  \n• Apareceu uma ferida nas minhas partes íntimas.  \n\n**SOBRE A FERIDA**:  \n• **Tempo de evolução**: 10 dias.  \n• **Dor**: não sente dor espontânea nem quando toca a lesão.  \n• **Quantidade de lesões**: apenas uma.  \n• **Secreção**: não tem secreção.  \n• **Prurido ou ardência**: nega.  \n\n**SINTOMAS ASSOCIADOS**:  \n• Negar qualquer outro sintoma perguntado.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Uso de medicamentos**: nega.  \n• **Alergias**: nega.  \n\n**HÁBITOS**:  \n• **Álcool, cigarro e drogas**: não consta no script.  \n\n**ANTECEDENTES GINECOLÓGICOS**:  \n• **Menarca e sexarca**: não consta no script.  \n• **Vida sexual**: ativa, com vários parceiros.  \n• **Preservativo**: Uso irregular de preservativo.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS**  \n**Pressão arterial:** 120 × 70 mmHg.  \n**Frequência cardíaca:** 70 batimentos por minuto.  \n**Frequência respiratória:** 15 incursões respiratórias por minuto.  \n**Temperatura axilar:** 36,5 ºC.  \n**Saturação do oxigênio:** 98% em ar ambiente.  \n\n\nMucosas coradas.  \n\n\n**Aparelho cardiovascular:** sem alterações.  \n\n\n**Aparelho respiratório:** sem alterações.  \n\n\n**Abdome:** sem alterações.  \n\n\n**Mamas:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "**Exame vulvar:**  \nPresença de úlcera única, de aproximadamente 2 cm, localizada em grande lábio esquerdo e indolor à palpação.  \n\n\n**Exame especular:**  \nColo normoepitelizado sem lesões; secreção vaginal sem alterações.  \n\n\n**Toque vaginal:**  \nAnexos livres, útero em anteroversoflexão móvel, indolor.",
+      "imagem": "img_printeds/2022-2-e9p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "SOROLOGIA PARA SÍFILIS",
+      "conteudo": "Teste treponêmico: FTAbs positivo.  \n(Referência: negativo)  \n\n\nVDRL: 1:64  \n(Referência: NÃO REAGENTE)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se e  \n(2) cumprimenta a paciente simulada.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza uma ação ou não realizaação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da úlcera:**  \n(1) dor;  \n(2) quantidade de lesões;  \n(3) tempo da lesão;  \n(4) prurido ou ardência;  \n(5) secreção;  \n(6) presença de linfonodos associados.  \n\n**Adequado:** pergunta sobre três ou mais itens.  \n**Parcialmente adequado:** pergunta sobre dois itens.  \n**Inadequado:** não pergunta ou pergunta apenas sobre um item.  \n\nAtenção: O(A) participante só pontuará seas perguntas forem feitas durante a  \nanamnese inicial.  \n\nO(A) participante não pontuará caso já tenha recebido os impressos relativos ao  \nexame físico/ginecológico.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona sobre consultas ginecológicas anteriores. (realização de**  \n\"preventivo\", \"papanicolau\", colpocitologia oncótica ou USTV anterior).  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico/ginecológico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame para sífilis (treponêmico ou não treponêmico).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita outros exames para infecções sexualmente transmissíveis:**  \n(1) HIV;  \n(2) clamídia;  \n(3) hepatite B;  \n(4) hepatite C;  \n(5) herpes;  \n(6) gonorreia;  \n(7)HTLV.  \n\n**Adequado:** solicita pelo menos quatro itens.  \n**Parcialmente adequado:** solicita três itens.  \n**Inadequado:** solicita dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita os principais diagnósticos diferenciais como:**  \n(1) donovanose;  \n(2) cancro mole;  \n(3) herpes genital;  \n(4) linfogranuloma venéreo;  \n(5) doença de Behçet;  \n(6) úlcera pós-infecciosa (Lipschutz).  \n\n**Adequado:** cita dois ou mais itens.  \n**Parcialmente adequado:** cita um item.  \n**Inadequado:** não cita item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Estabelece o diagnóstico de sífilis recente/sífilis primária.**  \n\n**Adequado:** estabelece o diagnóstico de sífilis recente/sífilis primária.  \n**Parcialmente adequado:** estabelece apenas o diagnóstico de sífilis, sem  \nespecificar sífilis recente/sífilis primária.  \n**Inadequado:** não estabelece o diagnóstico ou cita fase incorreta da sífilis  \n(tardia/latente/secundária/terciária).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve penicilina benzatina: 2,4 milhõesUI em dose única via**  \nintramuscular (1,2 milhões Ul em cadaglúteo).  \n\n**Adequado:** prescreve o medicamento com dose e via de administração  \ncorretas.  \n**Parcialmente adequado:** prescreve o medicamento adequado, mas sem  \nmencionar a dose adequada ou com a dose e/ou via de administração  \nincorretas.  \n**Inadequado:** não prescreve o medicamento adequado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Informa a necessidade de tratamento das parcerias sexuais.**  \n\n**Adequado:** informa.  \n**Inadequado:** não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Notifica o caso de sífilis.**  \n\n**Adequado:** notifica.  \n**Inadequado:** não notifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "uid": 510,
+  "hash": "pepe_510",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Dengue Grupo C",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - UPA.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• sala de estabilização e leitos de observação;  \n• setor de radiologia (Raio-X).\n\nDescrição do caso:\nPaciente de 30 anos, previamente hígido, procura a UPA com febre há 5 dias. Refere que, após a febre baixar, iniciou quadro de dor abdominal intensa e vômitos.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar/realizar o exame físico.  \n- Solicitar exames complementares pertinentes.  \n- Verbalizar a hipótese diagnóstica e a classificação de gravidade.  \n- Estabelecer a conduta terapêutica e responder as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Roberto, 30 anos, contador.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com febre e dor no corpo há 5 dias, mas hoje a febre melhorou e comecei a passar muito mal.  \n• Estou com uma dor forte na barriga e vomitando sem parar.  \n\n**SINTOMAS CLÁSSICOS:**  \n• **Febre:** Sim, tive febre alta, de 39°C, nos últimos 4 dias. Mas hoje ela baixou.  \n• **Cefaleia:** Tive muita dor de cabeça, parecia que era atrás do olho.  \n• **Mialgia/Artralgia:** Meu corpo estava todo quebrado, doía tudo.  \n\n**SINAIS DE ALARME:**  \n• **Dor abdominal:** É uma dor forte, que não passa, na barriga inteira.  \n• **Vômitos:** Vomitei umas 5 ou 6 vezes hoje, não para nada no estômago.  \n• **Lipotimia:** Sim, estou me sentindo fraco, meio tonto quando levanto.  \n• **Sangramentos:** Percebi que minha gengiva sangrou um pouco quando escovei os dentes hoje.  \n\n**NEGAR SINAIS DE GRAVIDADE (GRUPO D):**  \n• Falta de ar, confusão mental, sangue vivo no vômito ou nas fezes.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega. Sou saudável.  \n• **Cirurgias e internações:** Nunca.  \n• **Álcool, tabaco e drogas:** Não fumo, bebo cerveja só no fim de semana.  \n\n**HISTÓRIA EPIDEMIOLÓGICA:**  \n• **Contato com Animais/Insetos:** Sim, tem muito mosquito no meu bairro.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Isso é grave, doutor(a)?*  \n• *Vou precisar ficar internado?*  \n• *O que o senhor(a) vai fazer agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 100x70 mmHg (Sentado); 85x60 mmHg (Em pé)  \n• **FC:** 110 bpm  \n• **FR:** 22 irpm  \n• **SatO2:** 96% em ar ambiente  \n• **Temp. axilar:** 37,1°C  \n\n\n**Ectoscopia:** Regular estado geral, hipocorado (+/4+), letárgico, prostrado. Hidratação limítrofe (mucosas secas +/4+).  \n\n\n**Cardiovascular:** Ritmo cardíaco regular, taquicárdico, bulhas normofonéticas.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdominal:** Abdome tenso, doloroso à palpação difusa, sem visceromegalias. Ruídos hidroaéreos diminuídos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 5,9 milhões/mm³ (VR: 4,3 a 5,8 milhões/mm³)  \n• **Hemoglobina:** 17,0 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 54% (VR: 39 - 52%)  \n• **Leucócitos:** 3.500/mm³ (VR: 4.000 - 10.000/mm³)  \n• **Plaquetas:** 90.000 mm/³ (VR: 150.000 - 400.000 mm/³)  \n\n\n**PERFIL HEPÁTICO**  \n• **TGO:** 150 U/l (VR: 15 – 40 U/l)  \n• **TGP:** 120 U/l (VR: 10 – 40 U/l)  \n\n\n**SOROLOGIA (TESTE RÁPIDO)**  \n• **Antígeno NS1:** Positivo.  \n• **IgM:** Não reagente.  \n• **IgG:** Não reagente.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "PROVA DO LAÇO",
+      "conteudo": "**Prova do Laço:** Positiva (25 petéquias no quadrado de 2,5 cm).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre os sintomas clássicos da dengue (fase febril):**  \n(1) febre;  \n(2) cefaleia retro-orbitária;  \n(3) mialgia ou artralgia (dor no corpo/juntas).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre os sinais de alarme:**  \n(1) dor abdominal (intensa e contínua);  \n(2) vômitos persistentes;  \n(3) sangramentos (gengivorragia, epistaxe);  \n(4) lipotimia, tontura ou hipotensão postural.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita ou realiza a Prova do Laço.**  \n\n**Adequado:** solicita ou verbaliza a realização.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita Hemograma completo.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames de função hepática (TGO/TGP).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame confirmatório (NS1 OU Igg/Igm).**  \n\n**Adequado:** solicita (NS1, Igg/Igm ou teste rápido).  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta os achados laboratoriais, identificando a plaquetopenia.**  \n\n**Adequado:** verbaliza a plaquetopenia (ou plaquetas < 100.000/mm³).  \n**Inadequado:** não identifica a plaquetopenia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Interpreta os achados laboratoriais, identificando a hemoconcentração.**  \n\n**Adequado:** verbaliza o aumento do hematócrito (ou hemoconcentração).  \n**Inadequado:** não identifica o aumento do hematócrito.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza o diagnóstico e a classificação de gravidade correta.**  \n\n**Adequado:** verbaliza o diagnóstico de Dengue com Sinais de Alarme (ou Grupo C).  \n**Parcialmente adequado:** verbaliza apenas Dengue Grave (sem especificar Grupo C ou D) ou Dengue Grupo B (ignora os sinais de alarme).  \n**Inadequado:** não verbaliza o diagnóstico ou classifica como Grupo A ou D.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica a conduta de hidratação imediata (Fase de Expansão).**  \n\n**Adequado:** indica hidratação venosa (EV).  \n**Inadequado:** indica hidratação oral ou não indica a expansão volêmica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica a conduta de internação.**  \n\n**Adequado:** verbaliza a necessidade de internação hospitalar (em leito de observação ou enfermaria) para hidratação venosa e monitoramento.  \n**Inadequado:** não indica internação (ex: libera para casa).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Prescreve sintomáticos, antieméticos E orienta sobre riscos:**  \n(1) indica analgésico/antitérmico (Paracetamol ou Dipirona);  \n(2) indica antiemético (Ondansetrona ou Metoclopramida); e,  \n(3) contraindica AINEs (ibuprofeno, diclofenado, nimesulida) ou AAS.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.38",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Verbaliza a notificação do caso.**  \n\n**Adequado:** verbaliza a notificação ao SINAN (Sistema de Informação de Agravos de Notificação).  \n**Parcialmente adequado:** verbaliza apenas \"notificar o caso\" (sem especificar o SINAN).  \n**Inadequado:** não verbaliza a notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

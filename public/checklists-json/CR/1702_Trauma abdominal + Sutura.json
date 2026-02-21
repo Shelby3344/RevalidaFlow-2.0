@@ -1,0 +1,210 @@
+{
+  "uid": 1702,
+  "hash": "pepe_1702",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Trauma abdominal + Sutura",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está de plantão em uma Unidade de Pronto Atendimento (UPA)\n\n\nObservação: O aparelho de raios X da UPA está danificado\n\nDescrição do caso:\nVocê está de plantão em uma Unidade de Pronto Atendimento (UPA) e vai atender  \num paciente com ferimento por arma branca (FAB) na parede abdominal anterior  \napós briga em bar há cerca de 40 minutos. O objeto não está alojado no corpo do  \npaciente, que se queixa apenas de dor no local do ferimento. Não tem antecedentes  \npatológicos familiares ou pessoais. Os sinais vitais estão dentro dos limites da  \nnormalidade.",
+  "tarefas": "TAREFAS:  \n\nNos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar o atendimento do paciente;  \n- adotar a conduta médica necessária;  \n- demonstrar a realização de procedimentos médicos, caso necessário.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Ricardo, 32 anos, vendedor.  \n\n**QUEIXA PRINCIPAL:**  \n• Eu estava num bar com uns amigos e acabei tendo uma briga. Um cara me acertou com uma garrafa de cerveja.  \n• **Início:** faz uns 40 minutos.  \n• **Localização:** aqui do lado direito debaixo das costelas.  \n• **Dor:** está doendo sim, como se fosse rasgando.  \n• **Sangramento:** no começo sangrou bastante, mas agora parou um pouco.  \n\n**SINTOMAS ASSOCIADOS:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças, medicações, cirurgias e internações:** nega.  \n• **Vacinação:** faz muito tempo que não tomo vacina.  \n\n• **Álcool, tabaco e drogas:** Bebo as vezes e não fumo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• Vou precisar fazer cirurgia?  \n• Preciso tomar algum remédio?  \n\n**ORIENTAÇÕES:**  \n• Caso o candidato solicite o exame de exploração digital, liberar o IMPRESSO **EXAME FÍSICO**.  \n• Após o candidato iniciar a sutura dos pontos, liberar o IMPRESSO **PROCEDIMENTO**.  \n• Após o candidato responder a dúvida sobre realização de cirurgia, liberar o impresso **RESPOSTAS AO MÉDICO REGULADOR**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Frequência cardíaca:** 98 bpm  \n• **Frequência respiratória:** 17 ipm  \n• **Pressão arterial:** 110 x 70 mmHg  \n• **Temperatura axilar:** 36,5 ºC  \n• **Saturação de oxigênio:** 96%  \n\n\n**EXAME ABDOMINAL:**  \n• **Aspecto:** Plano e normotenso  \n• **Ausculta:** Ruídos hidroaéreos presentes  \n• **Palpação:** exploração digital com peritônio íntegro, sem sinais de irritação.  \n• **Ferimento:** Corto-contuso de 3 cm no hipocôndrio direito (parede abdominal anterior)  \n• **Demais sistemas:** Sem alterações  \n\n\n**ATENÇÃO: EXPLIQUE A TÉCNICA DE EXPLORAÇÃO DIGITAL DO FERIMENTO**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "PROCEDIMENTO",
+      "conteudo": "**Considere o procedimento de sutura realizado.**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RESPOSTA AO REGULADOR",
+      "conteudo": "**RESPOSTAS AO(A) MÉDICO(A) REGULADOR(A):**  \n\nNUMA HIPÓTESE DE NECESSIDADE DE ENCAMINHAMENTO DESTE PACIENTE,\nO(A) médico(a) regulador(a) questiona e você deve ler as perguntas e respondê-las para o(a)examinador(a) e o(a) videomaker:  \n\n\n**• Quais os motivos do encaminhamento?**  \n**• Qual(ais) especialidade(s) deve(m) ser solicitada(s) para a avaliação do caso?**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se adequadamente para o paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese identificando o estado de vacinação do paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Indica e explica a realização do procedimento de exploração digital de forma adequada ao paciente.**  \n\n**Inadequado:** se não realizar o procedimento de exploração digital;  \n**Parcialmente adequado:** se não explicar a necessidade ou a técnica do procedimento ao paciente;  \n**Adequado:** se realizar e explicar o procedimento de exploração digital.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Coloca primeiramente o gorro e a máscara adequadamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Coloca as luvas de procedimento (ou estéreis).**  \n\n**Inadequado:** se inverter a ordem de realização dos itens 4 e 5.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Simula a antissepsia das bordas da lesão com clorexidina alcoólico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Simula a realização da anestesia local nas bordas íntegras do ferimento.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza a troca de luvas com colocação obrigatória de luvas estéreis.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explora digitalmente o ferimento com luva estéril, identifica e verbaliza a integridade do peritônio.**  \n\n*Se o participante verbalizar que houve violação peritoneal considerar*  \n**INADEQUADO** *os itens a seguir de 10 a 15.*",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a realização de sutura do ferimento.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta o paciente a respeito da conduta não operatória e da necessidade de observação clínica por curto período (cerca de 6 horas).**  \n\n**Inadequado:** se não orientou o paciente;  \n**Parcialmente adequado:** se não faz a orientação acima de forma integral;  \n**Adequado:** se faz orientação completa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": "O encaminhamento de um paciente com perfuração por arma branca (PAB) depende da presença de sinais de peritonite, choque ou evisceração. Nestes casos o paciente deve ser encaminhado diretamente para laparotomia. Caso contrário, a lesão deve ser explorada na sala de emergência e, se ainda houver dúvida sobre a penetração em cavidade, o paciente deve ser encaminhado para avaliação de um cirurgião geral sobre a necessidade de laparotomia. "
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta o paciente acerca da retirada dos pontos entre o 5° e o 7° dia após procedimento.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta o paciente acerca da necessidade de reforçõ da vacina antitetânica.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Explica ao paciente que não é necessário o uso de antibióticos.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta o paciente acerca das situações de retorno ao serviçõ de saúde: piora da dor, alterações do hábito intestinal, febre ou queda/piora do estado geral.**    \n\n**Inadequado:** se não orientar o paciente;  \n**Parcialmente adequado:** se fornecer apenas uma ou duas das orientações mencionadas;  \n**Adequada:** se fornecer três ou quatro das orientações mencionadas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "uid": 2019,
+  "hash": "pepe_2019",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Meningite em Imunossuprimido | 2020",
+  "definicao": "Estação original adaptada  \nPSU-CE 2020 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - urgência e emergência.  \nTipo de atendimento: Unidade de Pronto Atendimento (UPA) - Eixo Amarelo.  \nA unidade possui a seguinte infraestrutura:  \n• Sala de observação e procedimentos;  \n• Laboratório;  \n• Exames de imagem;  \n• Farmácia e suporte de urgência.\n\nDescrição do caso:\nVocê está de plantção no eixo amarelo de uma Unidade de Pronto Atendimento (UPA) e atenderá um(a) paciente de 45 anos que comparece com queixa de cefaleia.",
+  "tarefas": "TAREFAS:  \n- Realizar anamnese dirigida à queixa;  \n- Solicitar exame físico dirigido ao quadro;  \n- Informar a principal hipótese diagnóstica;  \n- Realizar a prescrição e solicitação de exames que considere pertinentes.  \n- Responder as dúvidas do paciente.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** Caso o candidato solicite Exame Neurológico: *O que você quer solicitar do Exame Neurológico?*  \n\n\n**DADOS PESSOAIS:**  \n• **Nome:** Carlos, 45 anos.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com uma dor de cabeça muito forte, parece que minha cabeça vai explodir.  \n\n\n**SOBRE A CEFALEIA:**  \n• **Início:** Começou hoje cedo e foi piorando rápido.  \n• **Localização:** É na cabeça toda, mas dói mais na nuca.  \n• **Intensidade:** Muito forte, insuportável.  \n• **Fatores de piora:** A luz me incomoda muito.  \n\n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Sim, estou sentindo meu corpo quente e tive calafrios.  \n• **Náuseas/Vômitos:** Sim, estou enjoado(a) e cheguei a vomitar antes de vir.  \n• **Convulsão/Desmaio/Síncope:** Antes de vir pra cá, eu desmaiei e minha esposa disse que eu me debati todo.  \n\n\n**HISTÓRICO PATOLÓGICO:**  \n• **Alergias:** Não tenho alergia a nada.  \n• **Comorbidades:** Eu tenho pressão alta e também HIV.  \n• **Tratamento:** Tomo os remédios, mas às vezes esqueço.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *É grave doutor? Vou precisar ficar internado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **PA:** 130x80 mmHg  \n• **FC:** 92 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 38.5°C  \n\n\n**Exame Cardíaco:** Ritmo regular, 2 tempos, sem sopros.  \n\n**Exame Pulmonar:** Murmúrio vesicular presente, sem ruídos adventícios.  \n\n**Abdome:** Flácido, indolor, sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO NEUROLÓGICO",
+      "conteudo": "**Pupilas:** isocóricas e fotorreagentes.  \n\n\n**Motricidade:** força muscular preservada (Grau V) em membros superiores e inferiores, bilateralmente. Tônus preservado.  \n\n\n**Rigidez de nuca:**  \n• **Sinal de Kernig:** presente (positivo).  \n• **Sinal de Brudzinski:** presente (positivo).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. No início da consulta cumprimentou o(a) paciente e apresentou-se (nome ou profissão)?**  \n(1) Cumprimenta o paciente; e,  \n(2) Apresenta-se (nome ou profissão).  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** não realiza as duas ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Identificou o(a) paciente? (considerar nome, idade, naturalidade, procedência, escolaridade, raça ou religião). NO MÍNIMO NOME E IDADE**  \n(1) Nome;  \n(2) Idade;  \n(3) Naturalidade;  \n(4) Procedência;  \n(5) Escolaridade;  \n(6) Raça;  \n(7) Religião.  \n\n**Adequado:** pergunta no mínimo nome e idade.  \n**Inadequado:** não pergunta nome e idade.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona o motivo da consulta de (pergunta aberta)?**  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Questiona sobre a ocorrência de febre?**  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Questiona sobre a ocorrência de náuseas e/ou vômitos?**  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Tenta caracterizar a cefaleia?**  \n(1) Localização;  \n(2) Irradiação;  \n(3) Qualidade;  \n(4) Intensidade;  \n(5) Temporalidade;  \n(6) Fatores de melhora e piora;  \n(7) Fatores associados.  \n\n**Adequado:** caracteriza 3 ou mais itens.  \n**Parcialmente adequado:** caracteriza 1 ou 2 itens.  \n**Inadequado:** não caracteriza item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.45"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Questiona sobre convulsões?**  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Questiona sobre outros sintomas neurológicos?**  \n(1) Plegias;  \n(2) Parestesias;  \n(3) Alteração visual;  \n(4) Afasias;  \n(5) Incontinências.  \n\n**Adequado:** questiona pelo menos 1 item.  \n**Inadequado:** não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Lava as mãos ou usa álcool gel antes de examinar o paciente?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. EF: Realiza avaliação de força muscular? (precisa testar membros superiores e inferiores bilateralmente)**  \n(1) Membros superiores;  \n(2) Membros inferiores;  \n(3) Bilateralmente.  \n\n**Adequado:** realiza a avaliação completa.  \n**Inadequado:** não realiza ou realiza incompleta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. EF: avalia presença de meningismo? (aceitar se fizer Kernig, Lasegue ou Brudzinski)**  \n(1) Kernig;  \n(2) Lasegue;  \n(3) Brudzinski.  \n\n\n**Adequado:** realiza pelo menos uma das manobras.  \n**Inadequado:** não realiza manobra alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. EF: avalia pupilas com lanternas? (aceitar se colocar feixe de luz em pupilas)**  \n\n**Adequado:** avalia.  \n**Inadequado:** não avalia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Informa ao paciente a suspeita de meningite?**  \n\n**Adequado:** informa.  \n**Inadequado:** não informa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Questiona sobre alergias a iodo ou medicamentos?**  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Questiona sobre outras doenças ou condições de saúde do paciente utilizando linguagem adequada (não usando termos técnicos/jargões)?**  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Solicita ou informa a necessidade de coleta de liquor?**  \n\n**Adequado:** solicita/informa.  \n**Inadequado:** não solicita/informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Solicita TC de crânio (com ou sem contraste) ou RM de encéfalo?**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Prescreve ceftriaxona 2g EV 12/12h OU cefotaxima 2g EV 4/4h OU cefepime 2g EV 8/8h?**  \n(1) Ceftriaxona 2g EV 12/12h;  \n(2) Cefotaxima 2g EV 4/4h;  \n(3) Cefepime 2g EV 8/8h.  \n\n**Adequado:** prescreve uma das opções corretamente.  \n**Inadequado:** não prescreve ou prescreve incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Prescreve ampicilina EV?**  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Prescreve 1ª dose de dexametasona 4mg EV?**  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**21. Solicita / coloca o paciente em isolamento respiratório?**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 22,
+      "descricao": "**22. Explica ao paciente a necessidade de internação?**  \n\n**Adequado:** explica.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

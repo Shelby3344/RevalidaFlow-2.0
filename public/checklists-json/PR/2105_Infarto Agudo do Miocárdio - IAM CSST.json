@@ -1,0 +1,193 @@
+{
+  "uid": 2105,
+  "hash": "pepe_2105",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Infarto Agudo do Miocárdio - IAM CSST",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Unidade Básica de Saúde (UBS) - Sala de medicação/observação  \nConsidere que tudo o que você precisa para realizar  \neste atendimento está disponível na sala de medicação/observação, incluindo-se:  \n• DEA;  \n• aparelho de ECG;  \n• esfigmomanômetro, termômetro, aparelho de aferição de glicemia;  \n• carrinho de parada: considere incluídas todas as medicações e dispositivos padronizados  \npara atendimento de casos de urgência/emergência em Unidades de Saúde do SUS.\n\nDescrição do caso:\nVocê é o(a) único(a) médico(a) na UBS neste momento e é chamado(a) para atender uma pessoa  \nque está passando mal e foi colocada na sala de medicação/observação.  \n\nVocê irá atender sozinho(a) este paciente. \n\nNa cidade em que você atua, há um Hospital Regional, de grande porte, com serviços de  \ncardioneurointervenção cirúrgica, distante a 30 minutos de ambulância da UBS. O Serviço Médico  \nde Emergência desta cidade atende pelo número 192 (SAMU).",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar o atendimento do paciente;  \n- investigar a etiologia provável da condição clínica atual;  \n- indicar e interpretar o(s) exame(s) complementar(es), se houver;  \n- descrever a conduta necessária, indicações e contraindicações, e as orientações ao  \npaciente;  \n- avaliar a classificação de gravidade do caso, eventual necessidade de remoção, medidas  \npara realização de transporte seguro (se houver).",
+  "script_ator": "José, Idade 49 anos, Operador de maquina, Casado.  \n\n**FRASE INICIAL**: Doutor, estou muito nervoso, posso acender um cigarro la fora rapidinho?\". Como distração.  \n**Motivo de consulta**:  \nDoutor, estou com muita dor, muita dor.  \n\n**Local da dor**:  \nDor no peito  \n**Tempo de evolução da dor**:  \ncomeçou após andar 5 quadras, tem 40 minutos  \n**Irradiação**:  \nnão irradia,  \n**Característica da dor**:  \né uma dor que esmaga e aperta,  \n**Intensidade da dor**:  \n9/10,  \n**Uso de medicação**:  \ntomei um analgésico mas não melhorou  \n**Agravantes**:  \npiora com esforço ao caminhar.  \n\n**Sintomas acompanhantes**:  \nSinto um pouco de falta de ar. (Inquieto com face de dor e desespero.)  \n\n**ANTECEDENTES PESSOAIS E FAMILIARES**  \n**Situação vacinal**:  \nVacinas em dia, incluindo a de Covid 19.  \n**Prática de atividade física**:  \nSou sedentário, não pratico exercício físico.  \n**Hábitos tóxicos**:  \nFumo 1 carteira de cigarro por dia já tem uns 20 anos e bebo cerveja socialmente.  \n**Doenças crônicas**:  \nTenho hipertensao arterial, descobri tem uns 10 anos e tambem Diabetes  \n**Uso crônico de medicação**:  \nTomo losartana quando eu me lembro e metformina 2 comprimidos de  \n**Antecedentes familiares de infarto**:  \nMeu pai faleceu de infarto do coração.  \n\n**Perguntar em algum momento**: O que diz meus exames?  \n\n**Ao receber o diagnóstico, perguntar**: isso é grave? O que eu preciso fazer? Você vai me internar? Eu tenho que ir com meu carro?  \nDr(a) não quero ir sozinho na ambulância, você pode ir comigo?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Peso:** 90 kg  \n**Índice de Massa Corporal:** 31 kg/m²  \n\n\nEstado geral regular, fácies de dor e leve dispneia. Corado, hidratado, acianótico e afebril.  \n\n\n**AC:** ritmo cardíaco regular em 02 tempos, bulhas normofonéticas, sem sopros ou turgência jugular.  \n**AR:** murmúrio vesicular fisiológico. Sem ruídos adventícios.  \n**AGI:** abdome semigloboso por adiposidade, flácido, normotimpânico, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes. Sem visceromegalias. Reflexo hepato-jugular negativo.  \n**Extremidades:** tempo de enchimento capilar 2’’. Pulsos tibial e radial presentes, cheios e simétricos. Sinal do cacifo +/4+.  \n\n\n**SINAIS VITAIS**  \n\n\n**Pressão arterial nos dois MMSS:** 150 mmHg × 89 mmHg  \n**FR:** 24 irpm  \n**FC:** 99 bpm  \n**TAX:** 36,5 ºC  \n**SPO2:** 95% em ar ambiente  \n**GLICEMIA:** 130 mg/dL – pós-prandial.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ELETROCARDIOGRAMA (ECG)",
+      "conteudo": "**ECG 12 DERIVAÇÕES:** RODADO A N=25MM/S, EM PAPEL MILIMETRADO.",
+      "imagem": "img_printeds/2021-e5p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o paciente (1),**  \nse identifica de maneira cordial (2)  \nidentifica o paciente (3) e  \npergunta o motivo da consulta (4).  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza apenas uma ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Estabelece contato visual (1),**  \nmantém a postura de empatia ao longo da consulta (2),  \nevita \"culpabilizar\" o paciente pelo seu quadro atual (3) e  \nusa linguagem acessível evitando termos técnicos de difícil compreensão (4).  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza apenas uma ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Responde às perguntas trazidas pelo paciente (1),**  \nsem interrompê-lo desnecessariamente (2).  \n\n**Adequado:** executa corretamente as duas ações.  \n**Parcialmente adequado:** executa corretamente apenas uma das ações.  \n**Inadequado:** não realiza corretamente nenhuma das ações",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga as características anginosas da dor torácica:**  \nPadrão anginoso (1),  \nFatores de piora (2),  \nFatores de melhora (3),  \nLocalização (4),  \nDuração da dor (5).  \n\n**Adequado:** investiga quatro ou cinco dos principais elementos da angina típica.  \n**Parcialmente adequado:** investiga dois ou três dos cinco principais elementos  \nda angina típica.  \n**Inadequado:** investiga apenas uma ou não investiga nenhuma das  \ncaracterísticas anginosas da dor torácica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre uso de tabaco, álcool e outras drogas.**  \n\n**Adequado:** pergunta sobre o uso de ao menos duas drogas.  \n**Parcialmente adequado:** pergunta sobre o uso de apenas uma droga.  \n**Inadequado:** não aborda no atendimento o uso de drogas",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre:**  \nhábitos alimentares (1) e  \nprática de atividade física (2).  \n\n**Adequado:** pergunta sobre os dois hábitos.  \n**Parcialmente adequado:** pergunta sobre apenas um hábito.  \n**Inadequado:** não pergunta sobre nenhum dos hábitos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre:**  \ndoenças ou condições prévias (ex .: HAS, dislipidemia, AVC e AIT prévios, doença  \narterial periférica, diabetes e tabagismo) (1) e  \nestado vacinal (2).  \n\n**Adequado:** realiza as duas perguntas.  \n**Parcialmente adequado:** realiza apenas uma das duas perguntas.  \n**Inadequado:** não realiza nenhuma pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Pergunta sobre doenças na família (ex .: histórico familiar de doença**  \ncoronariana precoce).  \n\n**Adequado:** Pergunta  \n**Inadequado:** Não pergunta",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a realização de exame físico e/ou Sinais Vitais - Impresso 1**  \n\n**Adequado:** Indica  \n**Inadequado:** Não indica",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a realização de ECG de repouso 12 derivações (Impresso 2) e faz a**  \nsua correta interpretação.  \n\n**Adequado:** indica o ECG e cita: angina típica ou IAM com Supra ST, ou IAMST,  \nou Supradesnivelamento de ST em V1 a V4 (parede anterior) com imagem  \nespelho em D2, D3 e AVF (parede inferior).  \n**Parcialmente adequado:** indica o ECG, mas interpreta somente como IAM ou  \nangina.  \n**Inadequado:** não indica o ECG ou indica e interpreta errado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica as medicações adequadamente:**  \n1. ácido acetilsalicílico;  \n2. dinitrato de isossorbida;  \n3. morfina, se a dor for refratária ao uso do nitrato;  \n4. não indica suplementação de oxigênio pela SPO2AA> 92%;  \n5. outras medicações: betabloqueador, estatina, IECA, clopidogrel, heparina.  \n\n**Adequado:** cita os quatro primeiros itens.  \n**Parcialmente adequado:** indica pelo menos dois dos quatro primeiros itens.  \n**Inadequado:** cita apenas um ou não cita nenhum dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica:**  \nnecessidade de monitorização contínua (1) e  \nacesso venoso periférico (2).  \n\n**Adequado:** indica as duas ações.  \n**Parcialmente adequado:** indica apenas uma das ações.  \n**Inadequado:** não indica nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica:**  \nnecessidade de remoção segura por uma ambulância gratuita com DEA e  \nprofissionais de saúde treinados para outro servico com suporte cardiológico  \npara Angioplastia ou Trombólise (1),  \ninforma a necessidade de contato prévio com o hospital de referência (2) e  \nnão afasta a possibilidade de que o(a) participante possa ir junto na ambulância  \npara realizar a remoção (3).  \n\n**Adequado:** indica corretamente as três ações.  \n**Parcialmente adequado:** indica ao menos uma das ações.  \n**Inadequado:** não indica nenhuma das ações. Ou indica 2 e/ou 3, porém indica  \ntransporte inseguro (liberar paciente para ir por meios próprios, com ou sem o  \nacompanhamento do(a)  \nparticipante).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Busca acalmar o paciente, explica os próximos passos e como se espera a**  \nevolução das condutas propostas.  \n\n**Adequado:** Realiza a tarefa adequadamente  \n**Inadequado:** Não realiza a tarefa adequadamente",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

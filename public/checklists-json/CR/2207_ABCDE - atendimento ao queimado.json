@@ -1,0 +1,178 @@
+{
+  "uid": 2207,
+  "hash": "pepe_2207",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "ABCDE - atendimento ao queimado",
+  "definicao": "Referência:\r\nAtualização na reposição volêmica do paciente queimado\r\nColtro PS. Atualização na reposição volêmica do paciente queimado. Rev Bras Queimaduras2025;24(1):2-3\r\nhttps://www.rbqueimaduras.com.br/export-pdf/591/v24n1a02.pdf",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Atenção Secundária: ambulatorial e hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• setor de radiologia convencional e ultrassonografia;  \n• laboratório de análises clínicas;  \n• banco de sangue;  \n• laringoscópio;  \n• oxímetro;  \n• unidade ventilatória manual autoinflável (ambu);  \n• leitos de internação; e  \n• centro cirúrgico.\n\nDescrição do caso:\n• Paciente, previamente hígida, de 20 anos, trazida pelos bombeiros, vítima de  \nqueimaduras decorrentes de incêndio.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar o atendimento da paciente, verbalizando-se os achados e as condutas;  \n- solicitar a realização de exames que julgar necessários;  \n- definir a extensão da superfície corporal queimada; e  \n- adotar a conduta terapêutica necessária.  \n\n\nA PACIENTE SIMULADA NAO DEVE SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Maria, 20 anos, solteira, vendedora.  \n\n**DETALHES DO ACIDENTE**:  \n• **Local**: estava na festa de aniversário da minha sobrinha, quando começaram uns efeitos especiais do show e o local começou a pegar fogo.  \n• **Tempo de exposição**: demorei uns 20 minutos até reunir meus filhos e sair do local.  \n• **Inalação de fumaça**: sim, inalei bastante fumaça.  \n• **Agente**: fogo normal.  \n• **Lesões adicionais**: não caí nem bati a cabeça.  \n\n**CADERNETA DE VACINAS OU VACINA ANTITETÂNICA**:  \n• Não trouxe e não sei se tomei.  \n\n**Qualquer pergunta adicional**: NÃO CONSTA NO SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "**• Pressão arterial:** 90 × 60 mmHg.  \n**• Frequência cardíaca:** 112 bpm.  \n**• Frequência respiratória:** 40 irpm.  \n**• Temperatura:** 36,1 °C.  \n**• Saturação arterial de oxigênio (O2):** 82%.  \n**• Peso:** 50 kg.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO PULMONAR",
+      "conteudo": "• Desidratada ++/4+, corada, acianótica, afebril.  \n\n\n• Queimadura de vibrissas nasais, hiperemia e edema de orofaringe.  \n\n\n• Abdome e aparelho cardiovascular:  Sem anormalidades.  \n\n\n• Aparelho respiratório:  \n- Paciente taquipneica  \n- Murmúrio vesicular diminuído globalmente  \n- Sem ruídos adventícios",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "SUPERFÍCIE CORPORAL QUEIMADA",
+      "conteudo": "**SUPERFÍCIE CORPORAL QUEIMADA – REGRA DOS 9**  \n\n\n**ATENÇÃO: DIRIJA-SE À CÂMERA!**  \n\n\n**VERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA,**  \n**A RESPOSTA DA PERGUNTA A SEGUIR:**  \n\n\n**- QUAL A SUPERFÍCIE CORPORAL QUEIMADA?**",
+      "imagem": "img_printeds/2022-1-e7p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "CÁLCULO DA REPOSIÇÃO VOLÊMICA",
+      "conteudo": "**- Peso da paciente:** 50 kg.  \n\n\n**ATENÇÃO: DIRIJA-SE À CÂMERA!**  \n\n\n**VERBALIZE, DE FORMA CLARA, OLHANDO PARA A CÂMERA,**  \n**AS RESPOSTAS DAS PERGUNTAS A SEGUIR:**  \n\n\n**- Qual o tipo de líquido a ser infundido?**  \n**- Qual o volume indicado para reposição volêmica nas primeiras 8 h?**  \n**- Qual o volume indicado para reposição volêmica nas 16 horas seguintes?**",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "QUESTIONAMENTO DO CHEFE DE EQUIPE",
+      "conteudo": "**- Considere que o Chefe de Equipe faz o seguinte questionamento:**  \n\n\n***A PACIENTE DEVERÁ SER TRANSFERIDA?***  \n\n\n**ATENÇÃO: DIRIJA-SE À CÂMERA!**  \n**VERBALIZE E JUSTIFIQUE, DE FORMA CLARA, OLHANDO PARA A CÂMERA, A RESPOSTA DA PERGUNTA.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e identifica adequadamente a paciente.**  \n\n**Adequado:** realiza os dois comandos.  \n**Parcialmente adequado:** realiza somente um comando.  \n**Inadequado:** não realiza nenhum dos comandos",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características do acidente: (1) local; (2)**  \ntempo de exposição; (3) inalação de fumaça; e (4) agente.  \n\n**Adequado:** pergunta sobre todos os itens.  \n**Parcialmente adequado:** pergunta sobre apenas dois ou três  \nitens.  \n**Inadequado:** pergunta apenas sobre um item ou não pergunta  \nnenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita a realização de exame dos sinais vitais, indicando: (1)**  \nPA; (2) FC; (3) FR; e (4) oximetria/saturação de 02.  \n\n**Adequado:** solicita a necessidade de realização do exame dos  \nsinais vitais, indicando todos os itens.  \n**Parcialmente adequado:** solicita a necessidade de realização do  \nexame, indicando apenas dois ou três itens.  \n**Inadequado:** solicita a necessidade de realização do exame,  \nindicando apenas um item, ou não solicita a necessidade do  \nexame",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Indica oxigenoterapia.**  \n\n**Adequado:** indica a oxigenoterapia.  \n**Inadequado:** não indica oxigenoterapia",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita a realização do exame físico do aparelho respiratório,**  \ndescrevendo pelo menos a inspeção ou ausculta pulmonar.  \n\n**Adequado:** solicita o exame adequadamente.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a entubação orotraqueal.**  \n\n**Adequado:** faz a indicação.  \n**Inadequado:** não faz a indicação",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a necessidade de realização do exame físico para**  \navaliar a superfície corporal queimada.  \n\n**Adequado:** verbaliza a necessidade de realização do exame  \nfísico, citando a retirada de toda a vestimenta e acessórios.  \n**Parcialmente adequado:** somente verbaliza a realização do  \nexame, sem citar a retirada da vestimenta.  \n**Inadequado:** não verbaliza a necessidade do exame físico para  \navaliar a superfície corporal queimada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Calcula corretamente a superfície corporal queimada, segundo**  \na regra dos 9 (37%) e verbaliza esse resultado.  \n\n**Adequado:** calcula corretamente a área queimada, verbalizando  \no resultado.  \n**Inadequado:** não calcula corretamente a área queimada ou não  \nverbaliza o resultado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve corretamente a reposição volêmica de acordo com a fórmula de Parkland.**  \n\n**Adequado:** 1.850 mL nas primeiras 8 horas e 1.850 mL nas 16 horas seguintes.  \n**Inadequado:** não prescreve corretamente.  \n\n*OBS: Também considerar adequado caso o candidato verbalize 3.700 mL em 16 horas, sem divisão de intervalos.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "Até a 10ª edição do ATLS (2018), para pacientes adultos com\nqueimaduras térmicas, a recomendação era realizar essa reposição\nde volume nas primeiras 24 horas, com base na fórmula: 2 ml x\nPeso (kg) x SCQ (%), sendo que metade desse volume deveria ser\nadministrado nas primeiras 8 horas após o trauma, e a outra metade\nnas próximas 16 horas.\n\nNa 11ª edição do ATLS (2025), para queimaduras térmicas de \npacientes adultos, a recomendação é realizar a reposição de volume \ncom base na mesma fórmula: 2ml x Peso (kg) x SCQ (%), porém agora \nnas primeiras 16 horas após o trauma (sem divisão de intervalos), \ne não mais nas primeiras 24 horas."
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica cobertura da área queimada com curativo oclusivo.**  \n\n**Adequado:** indica corretamente a cobertura da área queimada.  \n**Inadequado:** não indica a cobertura da área queimada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza a necessidade de transferência da paciente**  \nsimulada para centro de referência.  \n\n**Adequado:** verbaliza a necessidade de transferência.  \n**Inadequado:** não verbaliza a necessidade de transferência",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

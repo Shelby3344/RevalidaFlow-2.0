@@ -1,0 +1,166 @@
+{
+  "uid": 2209,
+  "hash": "pepe_2209",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Desprendimento Prematuro de Placenta - DPP + sofrimento fetal",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Atenção Secundária Hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• consultórios para atendimento; e  \n• laboratório de análises clínicas.\n\nDescrição do caso:\nUma gestante de 35 anos, visivelmente pálida, comparece para atendimento no pronto  \nsocorro de uma maternidade, apresentando queixa de dor e desejando avaliação.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar anamnese;  \n- solicitar os exames que julgar necessários;  \n- responder aos questionamentos da paciente simulada;  \n- citar hipótese diagnóstica;  \n- realizar as condutas necessárias; e  \n- estabelecer a orientação final à paciente simulada.  \n\n\nA PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "Simone, 35 anos, casada, trabalha em um ginásio  \n\n**Motivo de consulta**:  \nDr(a). eu estou com muita dor na barriga e sangramento vaginal.  \nTudo começou há duas horas, estava fazendo o almoço quando começou.  \n\n**Característica do sangue**:  \nÉ um sangue vermelho escuro  \n\n**ANTECEDENTES PESSOAIS, FAMILIARES E GESTACIONAIS**:  \n**Comorbidades**:  \nÀs vezes, minha pressão fica alta, mas estou tomando remédio para isso direitinho e tomo vitaminas, mas não lembro o nome das medicações  \n**Idade gestacional**:  \nEstou com 8 meses de gestação, fiz uma ultrassonografia na semana passada que indica 32 semanas de idade gestacional, com o bebê na posição de nascer  \n**Gestas, partos e abortos prévios**:  \nG2P1A0  \n**Intercorrências na primeira gestação**:  \nOcorreu tudo bem  \n\n**Caso o candidato pergunte se a paciente está acompanhada**: Estou sozinha, meu marido me deixou aqui e foi ficar com a nossa outra filha em casa  \n\n**Perguntas**: O que eu tenho, doutor(a), meu filho corre perigo?  \nQuais outras possíveis causas desse sangramento?  \nEu posso ir em casa rapidinho? Acho melhor eu ir pessoalmente avisar meu marido",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**Dados vitais**  \n• Pressão arterial: 90 × 60 mmHg  \n• Temperatura: 36 °C  \n• Frequência cardíaca: 100 bpm  \n• Frequência respiratória: 20 irpm  \n• Saturação periférica de oxigênio (SatO2): 98%",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME OBSTÉTRICO ABDOMINAL",
+      "conteudo": "• Altura uterina de 32 cm, feto com apresentação cefálica, posição longitudinal, dorso à direita, útero hipertônico.  \n• Batimentos cardíacos fetais: 85 batimentos por minuto.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "• Exame especular: presença de grande quantidade de sangue em interior de canal vaginal.  \n• Toque vaginal: sangramento vermelho-escuro em dedo de luva, com coágulos em grande quantidade, colo uterino posterior, pérvio para 2 cm.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \ncumprimenta e se apresenta à paciente simulada.  \n\n**Adequado:** cumprimenta a paciente simulada e se apresenta.  \n**Parcialmente adequado:** realiza apenas uma das atividades.  \n**Inadequado:** não realiza nenhuma das duas atividades",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre os sintomas de dor e sangramento, como:**  \n(1) início e duração;  \n(2) características da dor; e  \n(3) aspecto do sangramento.  \n\n**Adequado:** pergunta sobre dois ou mais sintomas.  \n**Parcialmente adequado:** pergunta sobre apenas um dos sintomas.  \n**Inadequado:** não pergunta sobre as características dos sintomas de dor e  \nsangramento",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre os movimentos fetais.**  \n\n**Adequado:** pergunta sobre os movimentos fetais.  \n**Inadequado:** não pergunta sobre os movimentos fetais.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre o tempo de gestação (ou data da última menstruação ou**  \nidade gestacional).  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o cartão de pré-natal ou cartão da gestante**  \n\n**Adequado:** solicita o cartão de pré-natal ou cartão da gestante.  \n**Inadequado:** não solicita o cartão de pré-natal ou cartão da gestante.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a necessidade de realizar o exame obstétrico abdominal.**  \n\n**Adequado:** indica a necessidade de exame obstétrico abdominal.  \n**Inadequado:** não indica o exame obstétrico abdominal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica a necessidade de realizar exame ginecológico (ou toque vaginal ou**  \nexame especular).  \n\n**Adequado:** indica a necessidade de realizar o exame.  \n**Inadequado:** não indica a realização do exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita descolamento prematuro de placenta (ou desprendimento prematuro**  \nda placenta) e sofrimento fetal agudo (ou sofrimento fetal) como  \ndiagnósticos.  \n\n**Adequado:** cita os dois diagnósticos.  \n**Parcialmente adequado:** cita apenas um dos diagnósticos.  \n**Inadequado:** não cita nenhum dos diagnósticos",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita diagnósticos diferenciais, como:**  \n(1) placenta prévia;  \n(2) ruptura de seio marginal;  \n(3) rotura de vasa prévia;  \n(4) Rotura uterina  \n\n**Adequado:** cita dois ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** cita até um diagnóstico diferencial.  \n**Inadequado:** não cita nenhum dos diagnósticos diferenciais uterina.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a necessidade imediata de interrupção da gravidez (cesariana de**  \nurgência).  \n\n**Adequado:** indica a interrupção da gravidez (cesariana de urgência).  \n**Inadequado:** não indica interrupção da gravidez (cesariana de urgência).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a mãe sobre o:**  \n(1) risco fetal e  \n(2) a necessidade de internação na UTI neonatal.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza apenas uma orientação.  \n**Inadequado:** não orienta a paciente ou a orienta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

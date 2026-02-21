@@ -1,0 +1,155 @@
+{
+  "uid": 2506,
+  "hash": "pepe_2506",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Paralisía de Bell",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária.  \nTipo de atendimento: demanda espontânea - unidade básica de saúde da família (UBSF).  \nA unidade possui a seguinte infraestrutura:  \n• consultórios.\n\nDescrição do caso:\nVocê é um médico atuando em uma UBSF e atenderá um paciente que se queixa de sentir o rosto diferente e não conseguir fechar o olho direito completamente, há cerca de 4 horas.",
+  "tarefas": "TAREFAS:  \n- realizar anamnese direcionada à queixa do paciente;  \n- realizar exame físico direcionado à queixa do paciente;  \n- solicitar demais exames pertinentes ao caso;  \n- formular o diagnóstico específico mais provável;  \n- estabelecer a conduta adequada;  \n- explicar o prognóstico ao paciente.  \n\n\\\nATENÇÃO! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.  \nNO CASO DO EXAME FÍSICO, VOCÊ DEVERÁ DESCREVER PARA O PACIENTE AS MANOBRAS A SEREM EXECUTADAS.  \nO PACIENTE SIMULADO NÃO REAGIRÁ E, AO FINAL, VOCÊ RECEBERÁ O RESULTADO DESSE EXAME.",
+  "script_ator": "**DADOS PESSOAIS:**  \nCarlos, 30 anos, administrador.  \n\n**MOTIVO DE CONSULTA:** • Doutor(a), eu acordei hoje e senti meu rosto estranho. Não consigo fechar direito o meu olho.  \n• Quando eu me olhei no espelho, vi que minha boca estava meio torta.  \n\n**SOBRE A PARALISIA:**  \n• **Início:** Começou faz umas 4 horas, quando eu acordei.  \n• **Localização:** meu olho direito que está travado, e minha boca do lado esquerdo está torta.  \n• **Evolução:** parece que está piorando.  \n• **Episódio anterior:** Nunca senti isso antes.  \n• **Trauma ou infecções:** nega.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Olhos:**  Meu olho direito está mais seco.  \n• **Disartria:** Tenho um pouco de dificuldade pra falar umas palavras com \"P\" e \"B\".  \n• **fraqueza, perda de força e sensibilidade:** nega.  \n• **Parestesia ou formigamento:** nega.  \n• **Falha na audição:** nega.  \n• **Cefaleia, febre, vômitos:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença, sempre fui saudável e não tomo nenhum remédio.  \n• **Alimentação:** Como de tudo, sem exageros, e sempre fui magro.  \n• **Atividade física:** Jogo futebol com meus amigos uma ou duas vezes na semana.  \n• **Álcool e tabaco:** Não fumo e não bebo.  \n• **Sono e Estresse:** tenho dormido um pouco mais tarde, preocupado com o trabalho por causa do fechamento do orçamento anual da empresa.  \n\n**ANTECEDENTES FAMILIARES:** \n• Que eu saiba, ninguém na minha família tem alguma doença importante.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso vai melhorar?*  \n• *Como é o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME DA FACE",
+      "conteudo": "Demais pares cranianos sem alterações.",
+      "imagem": "img_printeds/2025-1-e6p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME NEUROLÓGICO GERAL",
+      "conteudo": "• Pupilas isocóricas e fotorreagentes.  \n• Movimentação livre dos quatro membros. Força muscular 5/5 nos membros superiores (bíceps, tríceps) e membros inferiores (quadríceps, posterior da coxa, panturilha e tibial anterior).  \n• Reflexos tendinosos 2/2 (bíceps, tríceps, patelar e aquileu).  \n• Sem alterações à manobra de Romberg.  \n• Marcha normal.  \n\n\n**Observação:** essa avaliação não contempla o exame dos pares cranianos.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "OTOSCOPIA",
+      "conteudo": "",
+      "imagem": "img_printeds/2025-1-e6p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) cumprimenta o paciente;  \n(2) identifica-se e pergunta o nome do paciente;  \n(3) pergunta o motivo da consulta ou a queixa principal do paciente.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza apenas uma ou duas ações.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pesquisa a existência de outros sinais ou sintomas relacionados à queixa principal:**  \n(1) perda de força em outros segmentos;  \n(2) parestesias;  \n(3) alterações auditivas;  \n(4) cefaleia;  \n(5) febre/náuseas/vômitos;  \n(6) alterações visuais/oculares;  \n(7) sialorreia.  \n\n**Adequado:** investiga a existência de quatro ou mais itens.  \n**Parcialmente adequado:** investiga a existência de apenas dois  ou três itens.  \n**Inadequado:** investiga a existência de apenas um item ou não investiga a existência de item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pesquisa sobre antecedentes:**  \n(1) lesão ou trauma recente;  \n(2) eventos similares prévios;  \n(3) infecção recente.  \n\n**Adequado:** pesquisa a existência dos três itens.  \n**Parcialmente adequado:** pesquisa a existência de apenas dois itens.  \n**Inadequado:** pesquisa a existência de apenas um item ou não pesquisa a existência de item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre os hábitos de vida:**  \n(1) atividade física;  \n(2) hábitos alimentares;  \n(3) tabagismo;  \n(4) etilismo;  \n(5) estresse;  \n(6) sono;  \n(7) drogas ilícitas.  \n\n**Adequado:** pergunta sobre três ou mais itens.  \n**Parcialmente adequado:** pergunta sobre apenas dois itens.  \n**Inadequado:** pergunta sobre apenas um item ou não pergunta sobre item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza o exame neurológico do VII par craniano:** Solicita ao paciente:  \n(1) fechar os olhos ou franzir a testa ou realizar manobras que avaliem a motricidade da porção superior da face;  \n(2) soprar ou sorrir ou mostrar os dentes ou assoviar ou realizar manobras que avaliem a motricidade da porção inferior da face.  \n\n**Adequado:** solicita a realização dos dois itens.  \n**Parcialmente adequado:** solicita a realização de apenas um dos itens.  \n**Inadequado:** não solicita a realização de item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita a realização do exame neurológico / exame do \nsistema nervoso / exame neurológico geral.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita a realização da otoscopia.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Formula a hipótese diagnóstica específica mais provável.**  \n\n**Adequado:** paralisia facial periférica (ou paralisia do VII par ou paralisia de Bell).  \n**Parcialmente adequado:** paralisia facial (sem especificação).  \n**Inadequado:** paralisia facial central ou diagnóstico diferente de paralisia facial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.25",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta o paciente a respeito da conduta terapêutica:**  \n(1) prescreve corticoide oral;  \n(2) prescreve colírio lubrificante;  \n(3) orienta oclusão ocular noturna;  \n(4) orienta necessidade de reavaliação.  \n\n**Adequado:** orienta todos os itens.  \n**Parcialmente adequado:** orienta dois ou três itens.  \n**Inadequado:** orienta um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta o paciente sobre o prognóstico.**  \n\n**Adequado:** informa que a maior probabilidade é de reversão do quadro.  \n**Inadequado:** informa a certeza de reversibilidade ou de irreversibilidade total do quadro ou não informa sobre o prognóstico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "uid": 2022,
+  "hash": "pepe_2022",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Baixa Estatura na Adolescência | 2020",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Balança antropométrica e estadiômetro;  \n• Gráficos de crescimento da OMS.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma adolescente de 14 anos, acompanhada da mãe, para uma consulta de rotina. A paciente traz uma queixa específica sobre seu crescimento.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida à queixa e a abordagem integral da adolescente;  \n- Solicitar o exame físico específico e os dados antropométricos;  \n- Analisar e atualizar os dados de crescimento nos gráficos disponíveis;  \n- Realizar o cálculo de estatura alvo da adolescente;  \n- Fornecer orientações e plano terapêutico/seguimento.  \n\n\\\nCONSIDERE QUE HÁ PAPEL, CANETA E CALCULADORA DISPONÍVEL",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Beatriz, 14 anos, estudante.  \n• **Acompanhante:** Cláudia (mãe).  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim porque acho que sou muito baixinha. Todas as minhas amigas da escola já são mais altas que eu. Eu sou a menor da turma.  \n\n\n**SOBRE O CRESCIMENTO:**  \n• **Percepção:** Sempre fui a menorzinha da sala, mas agora que todo mundo cresceu, está me incomodando mais.  \n• **Medidas anteriores:** Não me lembro\n\n\n**ABORDAGEM INTEGRAL:**  \n• **Escola:** Estou no 9º ano. gosto de ir pra escola.  \n• **Amigos:** Tenho um grupo de amigas, a gente sai pra passear no shopping as vezes.  \n• **Sono:** Durmo bem, umas 8 horas por noite.  \n• **Sexualidade:** não tenho namorado e nunca tive relação.  \n• **Vacinas:** Minha mãe cuida disso, acho que tomei a do HPV e a da meningite ano passado.  \n\n\n**HÁBITOS DE VIDA:**  \n• **Alimentação:** Como bastante arroz, feijão, carne e salada no almoço e jantar. De vez em quando como lanche ou pizza no fim de semana.  \n• **Atividade Física:** Faço educação física na escola duas vezes por semana. Não faço outro esporte.  \n\n\n**HISTÓRIA PATOLÓGICA PREGRESSA:**  \n• **Doenças:** Não tenho nenhuma doença.  \n• **Alergias:** Não tenho alergia a nada.  \n• **Cirurgias/Internações:** Nunca operei.  \n\n\n**HISTÓRIA GINECOLÓGICA:**  \n• **Menarca:** Minha menstruação desceu pela primeira vez faz uns 6 meses.  \n• **Ciclo:** Ela vem todo mês, dura uns 4 dias.  \n\n\n**ESTATURA DOS PAIS:**  \n• **Mãe:** Minha mãe tem 1,55m.  \n• **Pai:** Meu pai tem 1,68m.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Eu vou crescer mais?*  \n• *Vou ficar anã?*  \n• *Tem algum remédio ou vitamina pra eu tomar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 100 x 70 mmHg.  \n• **FC:** 75 bpm.  \n• **FR:** 15 irpm.  \n• **SatO2:** 99% em ar ambiente.  \n• **Temp:** 36,9 ºC.  \n\n\n**DADOS ANTROPOMÉTRICOS**  \n**Peso:** 44 kg  \n**Estatura:** 151 cm  \n**IMC:** 19,3 kg/m²  \n\n\n**Ectoscopia:** Bom estado geral, corada, hidratada, acianótica, anictérica.  \n\n**Oroscopia:** Sem alterações.  \n\n**Otoscopia:** Membranas timpânicas íntegras e brilhantes bilateralmente.  \n\n**Ausculta Cardíaca:** Ritmo regular 2 tempos, bulhas normofonéticas, sem sopros.  \n\n**Ausculta Pulmonar:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Estadiamento Puberal (Tanner):**  \n• Mamas: M4 (Projeção da aréola e papila formando montículo secundário acima do corpo da mama).  \n\n• Pelos Pubianos: P4 (Pelos do tipo adulto, mas não cobrem a face interna das coxas).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "GRÁFICO DE ESTATURA",
+      "conteudo": "",
+      "imagem": "img_printeds/e2022p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "GRÁFICO DE IMC",
+      "conteudo": "",
+      "imagem": "img_printeds/e2022p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentou-se ao paciente ou cumprimentou-o? (nome ou profissão)**  \n(1) Apresenta-se ou cumprimenta.  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Identificou o paciente? (considerar nome, idade, naturalidade, procedência, escolaridade, raça ou religião) No mínimo nome e idade**  \n(1) Pergunta o nome;  \n(2) Pergunta a idade.  \n\n**Adequado:** pergunta no mínimo nome e idade.  \n**Inadequado:** não pergunta os itens mínimos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Determinou o motivo da consulta, encorajando o paciente para contar sua história?**  \n\n**Adequado:** determina o motivo e encoraja.  \n**Inadequado:** não determina o motivo.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realizou “escuta atenta”, utilizando linguagem verbal e não-verbal? (considerar pelo menos 2 desses itens: manteve contato visual, postura corporal, gestos encorajadores, Encorajamentos mínimos-“Hum, hum”; “sim”; “e então”; “fale mais sobre isso”, não interrompeu o paciente, evitou fazer anotações, olhar o relógio, repetidamente durante a fala do paciente)**  \n(1) manteve contato visual;  \n(2) postura corporal adequada;  \n(3) gestos encorajadores;  \n(4) encorajamentos mínimos;  \n(5) não interrompeu o paciente;  \n(6) Evitou olhar o relógio;  \n(7) Evitou fazer anotação.  \n\n**Adequado:** realiza pelo menos dois itens.  \n**Inadequado:** realiza apenas um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realizou abordagem integral do adolescente?**  \n(1) vacinas;  \n(2) escolaridade;  \n(3) sono;  \n(4) sexualidade;  \n(5) relacionamentos com amigos.  \n\n**Adequado:** pergunta sobre pelo menos dois itens.  \n**Inadequado:** pergunta sobre um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Perguntou sobre a rotina de alimentação e atividade física?**  \n(1) alimentação;  \n(2) atividade física.  \n\n**Adequado:** pergunta sobre os dois itens.  \n**Parcialmente adequado:** pergunta sobre um item.  \n**Inadequado:** não pergunta sobre item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Perguntou sobre o ciclo menstrual da adolescente?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Perguntou sobre história patológica pregressa?**  \n(1) patologias crônicas;  \n(2) alergias;  \n(3) cirurgias ou internações prévias.  \n\n**Adequado:** pergunta sobre pelo menos dois itens.  \n**Inadequado:** pergunta sobre um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Perguntou a estatura dos pais?**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Calculou estatura alvo do adolescente?**  \n\n**Adequado:** realiza o cálculo corretamente ou verbaliza a intenção de calcular usando a fórmula (Pai - 13 + Mãe)/2.  \n**Inadequado:** não calcula.  \n\n*OBS.: O alvo de estatura para esta paciente é de 155 cm.*",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Perguntou o ultimo peso e altura da adolescente? (avaliação da velocidade de crescimento)**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Lavou ou higienizou mãos com álcool antes de examiná-la?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Realizou/Solicitou o exame físico - ausculta cardíaca, pulmonar, exame de orofaringe, otoscopia? (pelo menos 01)**  \n(1) ausculta cardíaca;  \n(2) ausculta pulmonar;  \n(3) exame de orofaringe;  \n(4) otoscopia.  \n\n**Adequado:** realiza ou solicita pelo menos um dos exames.  \n**Inadequado:** não realiza ou solicita nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Avaliou o peso e estatura na balança antropométrica?**  \n\n**Adequado:** realiza/solicita a avaliação antropométrica.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Avaliou os parâmetros antropométricos nos gráficos de crescimento? (no mínimo estatura/idade)**  \n\n**Adequado:** plota ou avalia os dados no gráfico de Estatura x Idade.  \n**Inadequado:** não avalia no gráfico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Realizou um resumo das informações colhidas e informou o paciente sobre a normalidade dos achados do exame, usando uma linguagem acessível?**  \n\n**Adequado:** realiza o resumo E informa sobre a normalidade.  \n**Inadequado:** não realiza o resumo ou não informa sobre a normalidade.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Orientou sobre alimentação saudável?**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Orientou sobre a prática de atividade física?**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Checou a compreensão do paciente?**  \n\n**Adequado:** checa a compreensão.  \n**Inadequado:** não checa a compreensão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Orientou sobre o retorno para uma nova avaliação.**  \n\n**Adequado:** orienta o retorno.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

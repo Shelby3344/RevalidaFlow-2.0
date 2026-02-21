@@ -1,0 +1,155 @@
+{
+  "uid": 108,
+  "hash": "pepe_108",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Acidente por animal peçonhento - Aranha-Marrom (Loxosceles)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - Unidade de Pronto Atendimento (UPA).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório para atendimento de urgência.  \n• Leitos de observação, laboratório de análises clínicas e farmácia completa.\n\nDescrição do caso:\nVocê está de plantão na UPA e receberá um adolescente de 16 anos, acompanhado pelo pai, com queixa de uma lesão roxa e muito dolorosa na coxa, com dois dias de evolução.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese focada na evolução da lesão e no histórico epidemiológico;  \n- Realizar o exame físico direcionado, caso necessário;  \n- Formular uma hipótese diagnóstica principal e dois diagnósticos diferenciais;  \n- Comunicar sua suspeita, classificar a gravidade do quadro e propor o plano de manejo inicial, incluindo o tratamento específico.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Paciente:** Pedro, 16 anos, estudante.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), apareceu essa mancha roxa na minha coxa e está doendo muito. Estou muito assustado, não sei o que é.  \n\n• **INÍCIO E EVOLUÇÃO DA LESÃO:**  \n• Começou há dois dias. Eu senti uma queimação leve na hora, nem dei bola. Mas depois de umas horas, a dor começou a aumentar muito.  \n• Ontem, a área ficou inchada e apareceu uma mancha roxa.  \n• Hoje, a dor é insuportável, nota 10/10, e a mancha roxa cresceu.  \n\n• **SINTOMAS SISTÊMICOS:**  \n• Estou me sentindo mal, com febre, dor de cabeça e calafrios.  \n• Meu xixi também está mais escuro, meio cor de Coca-Cola.  \n\n**HISTÓRICO EPIDEMIOLÓGICO:**  \n• **VIAGEM:**  \n• Eu acabei de voltar das férias no sítio dos meus avós, cheguei há 3 dias. Fica numa área rural aqui no Sul.  \n\n• **CONTATO COM ANIMAIS:**  \n• Lá eu ajudei a limpar um porão antigo, cheio de tranqueiras e teias de aranha. Eu estava de bermuda.   \n• Não lembro de ter sido picado, mais eu vi algumas aranhas pequenas, até tirei foto de uma quer olhar?.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que pode ser isso?*  \n• *É grave? Por que o xixi está escuro?*  \n• *Qual o tratamento?*  \n• *Precisa ficar internado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FOTO DA ARANHA",
+      "conteudo": "**OLHE PARA A CÂMERA E DESCREVA A ARANHA APRESENTADA NA IMAGEM!**",
+      "imagem": "img_printeds/e108p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "• **PA:** 110x70 mmHg  \n• **FC:** 105 bpm  \n• **FR:** 18 irpm  \n• **Temp. axilar:** 38,1°C  \n• **SatO2:** 98% em ar ambiente",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO SEGMENTAR",
+      "conteudo": "**Ectoscopia e Estado Geral:**  \n• Regular estado geral, prostrado, ansioso, hipocorado (+/4+).  \n\n\n**Pele (Face anterolateral da coxa direita):**  \n• **Inspeção:** Placa marmórea de aproximadamente 8 cm de diâmetro, com áreas pálidas (isquemia) entremeadas com áreas violáceas (cianose). Centro da lesão com área de necrose escura e endurecida. Halo de eritema e edema significativo ao redor da placa.  \n• **Palpação:** Dor intensa à palpação local.  \n\n\n**Demais Sistemas:**  \n• Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta o paciente simulado e seu pai, e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando o vínculo epidemiológico e a clínica.**  \n(1) investiga o histórico epidemiológico (atividades em área rural, contato com aranhas);  \n(2) caracteriza a evolução da lesão (picada pouco dolorosa com piora tardia);  \n(3) questiona ativamente sobre a presença de urina escura (hematúria/hemoglobinúria).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica e descreve o animal causador do acidente.**  \n\n**Adequado:** identifica a aranha como sendo do gênero Loxosceles (aranha-marrom), com base na imagem (Aracnídeo de coloração marrom avermelhada, com corpo de 1 a 2 cm e 4 pares de patas, destacando-se por ter uma mancha em formato de violino no corpo.) e na epidemiologia.  \n**Inadequado:** não consegue identificar o animal ou o identifica incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta os achados do exame físico.**  \n\n**Adequado:** reconhece a lesão cutânea como a \"placa marmórea\" característica do loxoscelismo e correlaciona os sintomas sistêmicos (febre, prostração) com a gravidade do envenenamento.  \n**Inadequado:** não consegue interpretar os achados ou não reconhece a lesão característica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula uma hipótese diagnóstica principal e dois diagnósticos diferenciais.**  \n(1) Hipótese Principal: Loxoscelismo (acidente por aranha-marrom);  \n(2) Diagnósticos Diferenciais: Picada de outra aranha (ex: Phoneutria), celulite/erisipela, fasceíte necrosante.  \n\n**Adequado:** formula a hipótese principal correta e cita os dois diagnósticos diferenciais.  \n**Parcialmente adequado:** formula a hipótese principal correta, mas cita apenas um ou nenhum diagnóstico diferencial.  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Classifica a forma clínica e a gravidade do acidente.**  \n\n**Adequado:** classifica o quadro como Loxoscelismo na forma Cutâneo-Visceral (hemolítica), que é sempre considerada GRAVE, justificando pela presença de manifestações sistêmicas (febre, mal-estar) e, principalmente, pela urina escura.  \n**Inadequado:** não classifica a forma clínica como cutâneo-visceral ou classifica o caso como leve/moderado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita os exames laboratoriais para avaliar a repercussão sistêmica.**  \n(1) Hemograma completo (avaliar anemia e plaquetas);  \n(2) Urina tipo I (confirmar hematúria/hemoglobinúria);  \n(3) Função renal (Ureia e Creatinina);  \n(4) Bilirrubinas, LDH e Coagulograma (avaliar hemólise).  \n\n**Adequado:** solicita três ou mais grupos de exames.  \n**Parcialmente adequado:** solicita dois grupos de exames.  \n**Inadequado:** não solicita os exames ou solicita apenas um grupo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve a soroterapia específica.**  \n\n**Adequado:** prescreve o Soro Antiaracnídico ou Anti-loxoscélico, na dose recomendada para casos graves (10 ampolas), por via endovenosa.  \n**Inadequado:** não prescreve o soro, prescreve a dose para caso leve/moderado ou o tipo de soro incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Elabora o plano de manejo de suporte.**  \n(1) Internação hospitalar para monitorização;  \n(2) Hidratação venosa vigorosa (para proteção renal);  \n(3) Analgesia;  \n(4) Corticoterapia sistêmica (Prednisona) para a reação inflamatória.  \n\n**Adequado:** elabora um plano com quatro ou mais componentes.  \n**Parcialmente adequado:** elabora um plano com dois ou três componentes.  \n**Inadequado:** não elabora um plano ou o faz com apenas um componente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a notificação compulsória do agravo.**  \n\n**Adequado:** verbaliza a necessidade de preencher a ficha de notificação do SINAN para acidente por animal peçonhento.  \n**Inadequado:** não realiza a notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

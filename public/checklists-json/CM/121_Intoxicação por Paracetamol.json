@@ -1,0 +1,183 @@
+{
+  "uid": 121,
+  "hash": "pepe_121",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Intoxicação por Paracetamol",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nTipo de atendimento: sala de emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• unidade de terapia intensiva (UTI);\n\nDescrição do caso:\nVocê está de plantão na emergência e atenderá uma adolescente de 17 anos, trazida pela mãe após ingestão de múltiplos comprimidos há cerca de 24 horas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese da paciente;  \n- Solicitar o exame físico;  \n- Solicitar e interpretar os exames complementares pertinentes;  \n- Formular a hipótese diagnóstica;  \n- Instituir o tratamento, incluindo o antídoto específico;  \n- Definir o encaminhamento e a conduta subsequente.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar o impresso **NOMOGRAMA DE RUMACK-MATTHEW** somente após finalizar a estação.  \n\n**DADOS PESSOAIS:**  \n• Juliana, 17 anos, estudante.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), tomei um monte de comprimidos ontem à noite. Eu briguei com o meu namorado.  \n\n**SOBRE A INGESTÃO:**  \n• **Início:** Foi ontem, depois da briga.  \n• **Tipo:** era paracetamol.  \n• **Quantidade:** acho que umas 3 caixas.  \n\n**SINTOMAS INICIAIS:**  \n• **Vômitos:** Eu vomitei muito ontem, umas 3 vezes. Hoje só vomitei uma vez de manhã.  \n• **Sonolência/Letargia:** Eu me senti muito sonolenta, meio lerda, mas hoje já não sinto nada.  \n• **Sudorese:** Eu também suei bastante, fiquei suando frio. Hoje já estou bem.  \n• **Dor:** Só estou com um incômodo chato aqui, do lado direito da barriga.  \n\n**CONTEXTO PSICOSSOCIAL:**  \n• Eu e o namorado terminamos, eu não queria mais, só queria que a dor parasse.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nada. Só uso anticoncepcional oral.  \n• **Álcool, tabaco e drogas:** Não uso nada disso.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Vou ter que ficar internada?*  \n• *O que esses comprimidos fazem de tão ruim?*  \n• *Tem algum remédio pra cortar o efeito disso?*  \n• *Essa dor na barriga é por causa do remédio?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 95 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 37.1°C  \n\n\n**Ectoscopia:** Paciente ativa e reativa. Levemente hipocorada (+/4+), anictérica. Colaborativa.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdominal:** Ruídos hidroaéreos presentes. Abdome flácido, com dor à palpação profunda de hipocôndrio direito. Fígado palpável a 2 cm do rebordo costal direito, borda lisa.  \n\n\n**Neurológico:** Glasgow 15, sem déficits focais. Pupilas isocóricas e fotorreagentes.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 13,5 g/dL (VR: 12,0-16,0 g/dL)  \n• **Leucócitos:** 8.800/mm³ (VR: 4.000-11.000/mm³)  \n• **Plaquetas:** 210.000/mm³ (VR: 150.000-450.000/mm³)  \n\n\n**FUNÇÃO HEPÁTICA**  \n• **TGO (AST):** 1250 U/L (VR: < 40 U/L)  \n• **TGP (ALT):** 1580 U/L (VR: < 40 U/L)  \n• **Bilirrubina Total:** 2.1 mg/dL (VR: 0,2 - 1,2 mg/dL)  \n\n\n**COAGULOGRAMA**  \n• **INR:** 1.4 (VR: 0,8 - 1,2)  \n• **TTPA:** 32 segundos (VR: 25 - 35 segundos)  \n\n\n**OUTROS**  \n• **Ureia:** 38 mg/dL (VR: 15 - 45 mg/dL)  \n• **Creatinina:** 1.0 mg/dL (VR: 0,6 - 1,2 mg/dL)  \n• **Glicemia:** 78 mg/dL (VR: 70 - 99 mg/dL)  \n• **Gasometria Venosa:** pH 7.35, pCO2 42, HCO3 20 mEq/L",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "NÍVEL SÉRICO DE ACETAMINOFENO",
+      "conteudo": "• **Amostra coletada 24 horas após a ingestão:** 8.3 mcg/mL.  \n\n\n**(Valor de referência do nomograma de Rumack-Matthew em 24h: 5 mcg/mL)**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "NOMOGRAMA DE RUMACK-MATTHEW",
+      "conteudo": "AVALIAÇÃO DA TOXICIDADE PELO PARACETAMOL",
+      "imagem": "img_printeds/e121p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se (como médico/a); e,  \n(2) cumprimenta a paciente e/ou a acompanhante.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese da intoxicação:**  \n(1) pergunta a substância ingerida (qual remédio);  \n(2) pergunta a dose ou quantidade (quantos comprimidos/caixas); e,  \n(3) pergunta o tempo decorrido (quando tomou).  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas associados (Estágios 1 e 2):**  \n(1) náuseas e/ou vômitos;  \n(2) dor abdominal (ou dor em hipocôndrio direito);  \n(3) letargia ou sonolência.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga o contexto psicossocial:**  \n(1) pergunta sobre o motivo da ingestão (se foi tentativa de suicídio);  \n(2) pergunta sobre ideação suicida prévia ou atual.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais para avaliação hepática e renal:**  \n(1) TGO (AST) e TGP (ALT) (ou enzimas hepáticas);  \n(2) Coagulograma (ou INR/TAP);  \n(3) Ureia e Creatinina (ou função renal);  \n(4) Bilirrubinas.  \n\n**Adequado:** solicita três ou quatro itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um item ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita Nível Sérico de Paracetamol (ou Acetaminofeno).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "O nomograma de Rumack-Matthew, é um nomograma de toxicidade do paracetamol. \n\nEle representa graficamente a concentração sérica de paracetamol em função do tempo decorrido desde a ingestão,\na fim de prever a possível toxicidade hepática e permitir que o médico decida se deve prosseguir com o tratamento com N-acetilcisteína (NAC).\n\nÉ um gráfico logarítmico que começa 4 horas após a ingestão."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta corretamente os exames (Print 2 e 3):**  \n(1) identifica o nível sérico como tóxico (acima do nomograma); e,  \n(2) identifica a lesão hepática (TGO/TGP muito elevadas).  \n\n**Adequado:** interpreta os dois itens.  \n**Parcialmente adequado:** interpreta um item.  \n**Inadequado:** não interpreta item algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza o diagnóstico de Intoxicação por Paracetamol (ou Acetaminofeno) com Hepatotoxicidade (ou Insuficiência Hepática Aguda).**  \n\n**Adequado:** verbaliza o diagnóstico e a complicação hepática.  \n**Parcialmente adequado:** verbaliza apenas \"Intoxicação por Paracetamol\".  \n**Inadequado:** não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o antídoto (N-Acetilcisteína / NAC).**  \n\n**Adequado:** indica o antídoto.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica internação em Unidade de Terapia Intensiva (UTI).**  \n\n**Adequado:** indica internação em UTI.  \n**Inadequado:** não indica internação ou indica internação em enfermaria.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Solicita avaliação da Psiquiatria e/ou Psicologia.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

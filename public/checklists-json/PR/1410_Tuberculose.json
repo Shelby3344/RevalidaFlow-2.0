@@ -1,0 +1,199 @@
+{
+  "uid": 1410,
+  "hash": "pepe_1410",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Tuberculose",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde - Unidade Básica de Saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Exames laboratoriais em unidade de referência;  \n• Farmácia para dispensação de medicamentos.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma paciente de 35 anos, apresentando tosse produtiva e febre vespertina há mais de um mês.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a hipótese diagnóstica de acordo com o(s) achado(s) no(s) exame(s) complementar(es);  \n- Propor condutas e orientações ao caso;  \n- Responder as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mariana, 35 anos, auxiliar de limpeza.  \n\n**MOTIVO DE CONSULTA:** eu vim aqui porque já faz mais de um mês que estou com uma tosse que não passa. E quase todo final de tarde me dá uma febre, sabe?  \n\n**SOBRE TOSSE:**  \n• **Expectoração:** Sim, a tosse tem um pouquinho de catarro.  \n• **Coloração:** É um catarro meio amarelado, bem fraquinho.  \n• **Predileção de horário:** mais comum de manhã.  \n\n**SOBRE FEBRE:**  \n• **Início:** A febre começou quase junto com a tosse, há umas 3 semanas.  \n• **Predileção de horário:** É mais pro final da tarde, começo da noite.  \n• **Sudorese:** Sim, eu suo um pouco de noite às vezes.  \n\n**DEMAIS QUEIXAS:**  \n• **Anorexia ou perda de apetite:** Não tenho tido muita fome, estou comendo menos.  \n• **Astenia, fadiga ou fraqueza:** Estou me sentindo mais fraca também.  \n\n**ANTECEDENTES PESSOAIS**  \n• **Alergias, doenças e medicações:** nega.  \n• **Pessoas próximas com sintomas parecidos:**  tem meu irmão que tá assim também.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Como eu peguei isso?*  \n• *Como é o tratamento?*  \n• *Como eu tomo esses remédios?*  \n• *Vou precisar fazer mais algum exame?*  \n• *E quem mora comigo, precisa vir aqui no posto também?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 95 bpm  \n• **FR:** 21 irpm  \n• **SatO2:** 95% (em ar ambiente)  \n• **Temp. axilar:** 37.9° C  \n• **IMC:** 18.5 kg/m²  \n\n\n**Ectoscopia:** paciente emagrecida, hipocorada (+/4+), orientada, acianótica e anictérica.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, taquicárdico, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** murmúrio vesicular diminuído em ápice pulmonar direito, com presença de estertores crepitantes. Restante da ausculta pulmonar sem alterações.  \n\n\n**Abdominal:** abdome plano e flácido, indolor a palpação, RHA preservados, timpânico a percussão, sem massa palpável.  \n\n\n**MMII:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Baciloscopia de Escarro (Pesquisa de BAAR):**  \n• **Amostra 1:** Positiva (++) para bacilos álcool-ácido resistentes (BAAR).  \n• **Amostra 2:** Positiva (++) para bacilos álcool-ácido resistentes (BAAR).",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME DE IMAGEM",
+      "conteudo": "**IDENTIFIQUE O ACHADO DA IMAGEM**",
+      "imagem": "img_printeds/2014-e10p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se adequadamente à paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Interage adequadamente com a paciente, respondendo com linguagem simples e clara às suas perguntas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Explica o significado do resultado positivo na pesquisa de BK.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Esclarece que a imagem presente no RX da paciente é típica de tuberculose.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explica a natureza infecciosa da tuberculose pulmonar, vias de transmissão e de disseminação da doença.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Prescreve corretamente o tratamento inicial:**  \nesquema terapêutico RHZE:  \nRifampicina 600 mg/dia (4 comp. de 150 mg);  \nIsoniazida (Hidrazida) - 300 mg/dia (4 comp. de 75 mg);  \nPirazinamida - 1600 mg/dia (4 comp. de 400 mg);  \nEtambutol - 1100 mg/dia (4 comp. de 275 mg).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica a duração do tratamento: esquema completo, por 2 meses e Rifampicina e isoniazida (RH), por 4 meses.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Reforça a necessidade de perseverar e não abandonar o tratamento.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica que os remédios serão dispensados na UBS/SUS.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita sorologia para HIV e explica ao paciente que é a associação mais frequente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Investiga comunicantes: pelo menos moradores do mesmo domicílio e colegas de trabalho.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Solicita que os contactantes compareçam à UBS para avaliação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita retorno ou explica que a paciente terá acompanhamento regular.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Indica a necessidade de fazer a notificação compulsória.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

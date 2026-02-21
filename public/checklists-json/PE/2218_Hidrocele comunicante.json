@@ -1,0 +1,144 @@
+{
+  "uid": 2218,
+  "hash": "pepe_2218",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Hidrocele comunicante",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Unidade de Atenção Secundária: Ambulatorial e Hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• setor de radiologia convencional, ultrassonografia;  \n• laboratório de análises clínicas.\n\nDescrição do caso:\n• Lactente, do sexo masculino, com 6 meses, trazido para consulta de rotina de  \npuericultura por sua mãe.",
+  "tarefas": "Nos proximos 10 minutos, você devera executar as tarefas a seguir:  \n1. ler a ficha do lactente afixada sobre a mesa.  \n2. fazer a anamnese dirigida à mãe, em relação à queixa principal.  \n3. interpretar os achados do exame físico.  \n4. estabelecer e explicar à mãe a hipótese diagnóstica e o diagnóstico diferencial.  \n5. orientar quanto à conduta adequada.  \n\n\nATENÇÃO:  \nVOCÊ DEVERÁ, OBRIGATORIAMENTE,  \nREALIZAR AS TAREFAS NA SEQUENCIA DESCRITA ACIMA.\nMAE E BEBE SIMULADOS NÃO DEVERÃO SER  \nTOCADOS DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS DA MÃE**:  \n• Marisa, desempregada, casada.  \n\n**DADOS DA CRIANÇA**:  \n• Renato, 6 meses.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr(a), notei que o Renato está apresentando aumento do volume do escroto há alguns meses.  \n\n**MOTIVO DE CONSULTA**:  \n• **Dor ou choro à palpação**: -Não.  \n• **Variação do volume**: - Sim.  \n• **Dificuldade para evacuar**: -Não.  \n• **Mudança de cor local**: -Não.  \n• **Náuseas ou vômitos**: - Não.  \n\n**ANTECEDENTES PERINATAIS (PRÉ NATAL / PARTO / PÓS NATAL)**:  \n• Todos os dados constam na Ficha dele.  \n\n**ALIMENTAÇÃO**:  \n• Ele está mamando bem.  \n\n**CATARSE E DIURESE**:  \n• Sem alterações.  \n\n**ALERGIA**:  \n• Nega.  \n\n**USO DE MEDICAÇÕES**:  \n• Nega.  \n\n**DÚVIDAS**:  \n• **Pergunta 1**: -Pode ser outra coisa?  \n• **Pergunta 2**: - Você não vai pedir nenhum exame?  \n• **Pergunta 3**: -Estou com medo, porque o filho da minha vizinha está com a mesma coisa e eles tiveram que fazer cirurgia de hérnia.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FICHA DO LACTENTE",
+      "conteudo": "**Paciente:** Renato.  \n**Idade:** 6 meses.  \n**Peso atual:** 8 kg.  \n**Comprimento:** 70 cm.  \n**Aleitamento materno:** exclusivo.  \n\n\n**DADOS NEONATAIS**  \nNascido de parto normal, a termo, sem intercorrências.  \n**Idade gestacional:** 40 semanas.  \n**Peso ao nascimento:** 3 500 g.  \n**Comprimento ao nascimento:** 51 cm.  \n**Perímetro cefálico ao nascimento:** 34,5 cm.  \n**Teste de triagem neonatal:** normal.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "Bom estado geral, corado, eupneico, hidratado e afebril.  \n\n\n**Peso e desenvolvimento ponderoestatural:** compatível com a idade. Presença de reflexos próprios para a idade.  \n\n\n**Pulmões:** limpos, ventilando bem, sem sibilos, roncos ou estertores.  \n\n\n**Abdome:** plano, flácido e indolor, sem visceromegalias. Ruídos hidroaéreos normais.  \n\n\n**Região inguinal:** sem abaulamentos ou tumorações. Fimose fisiológica.  \n\n\n**Períneo:** importante aumento de volume da bolsa escrotal (2,5 vezes o volume normal), bilateralmente, de aspecto cístico, sem sinais flogísticos e indolor.  \n\n\n**Membros:** sem particularidades.  \n\n\n**Exame neurológico:** normal.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TRANSILUMINAÇÃO",
+      "conteudo": "",
+      "imagem": "img_printeds/2022-2-e8p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se;  \n(2) Cumprimenta a mãe de maneira adequada/cordial;  \n(3) Mantém contato visual;  \n(4) Pergunta o nome da mãe e da criança.  \n\n**Adequado:** realiza os quatro itens.  \n**Parcialmente adequado:** realiza dois ou três itens.  \n**Inadequado:** realiza um item ou não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese; pergunta sobre:**  \n(1) Alteração do volume da bolsa escrotal;  \n(2) Se o aumento é intermitente (aumenta e diminui);  \n(3) Se notou aumento de volume também na região inguinal;  \n(4) Se o bebê tem dor ou chora durante a manipulação  \nda região inguinoescrotal;  \n(5) Se existem fatores de melhora e piora para a alteração do volume da bolsa  \nescrotal.  \n\n**Adequado:** pergunta os cinco itens.  \n**Parcialmente adequado:** pergunta três ou quatro itens.  \n**Inadequado:** pergunta um, dois ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Interpreta o achado do exame físico: aumento de volume cístico da bolsa**  \nescrotal, sem alterações na região inguinal.  \n\n**Adequado:** interpreta.  \n**Inadequado:** não interpreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Indica e interpreta a transiluminação da bolsa escrotal positiva com**  \npresença de líquido na bolsa escrotal.  \n\n**Adequado:** indica e interpreta.  \n**Inadequado:** não indica e/ou interpreta de forma errada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza o diagnóstico de hidrocele comunicante.**  \n\n**Adequado:** realiza o diagnóstico de hidrocele comunicante.  \n**Parcialmente adequado:** realiza o diagnóstico de hidrocele, sem especificar o  \ntipo (comunicante ou septada).  \n**Inadequado:** não realiza o diagnóstico de hidrocele ou diagnostica  \nincorretamente como hidrocele septada.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Exames complementares.**  \n\n**Adequado:** não solicita exames complementares para definir o diagnóstico de  \nhidrocele.  \n**Inadequado:** solicita qualquer tipo de exame laboratorial ou de imagem para  \ndefinir o diagnóstico de hidrocele.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica para a mãe a fisiopatologia do conduto peritônio vaginal permeável.**  \n\n**Adequado:** explica corretamente o mecanismo de persistênciae de passagem  \nde líquido para a bolsa.  \n**Inadequado:** não explica corretamente a fisiopatologia da persistência ou  \nsimplesmente diz que a bolsa está cheia de líquido.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Proposta terapêutica**  \n\n**Adequado:** encaminha o bebê ao cirurgião ou urologista pediátrico para definir  \na melhor conduta e momento cirúrgico.  \n**Inadequado:** não encaminha o bebê ao cirurgião e/ou indica cirurgia de  \nurgência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza adequadamente a sequência das tarefas, conforme solicitado nas**  \norientações ao (à)participante.  \n\n**Adequado:** realiza.  \n**Inadequado:** não realiza",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

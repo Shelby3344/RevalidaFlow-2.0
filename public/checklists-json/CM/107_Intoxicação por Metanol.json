@@ -1,0 +1,149 @@
+{
+  "uid": 107,
+  "hash": "pepe_107",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Intoxicação por Metanol",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - Sala de Emergência.  \nA unidade possui a seguinte infraestrutura:  \n• Leitos de emergência com monitorização contínua.  \n• Laboratório de análises clínicas 24 horas.  \n• Acesso a tomografia computadorizada.  \n• Unidade de Terapia Intensiva (UTI) e serviço de hemodiálise.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e receberá uma paciente de 20 anos, trazida por uma amiga, com quadro de cefaleia, letargia, dor abdominal e turvação visual.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese com a paciente e sua acompanhante para investigar a etiologia do quadro;  \n- Realizar o exame físico e interpretar os achados;  \n- Formular a principal hipótese diagnóstica;  \n- Solicitar e interpretar os exames laboratoriais, caso haja necessidade;  \n- Definir o plano terapêutico imediato, incluindo a prescrição medicamentosa e a indicação do tratamento definitivo.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Paciente:** Júlia, 20 anos, solteira, estudante universitária.  \n• **Acompanhante:** Beatriz, amiga.  \n\n**QUEIXA PRINCIPAL (PACIENTE FALA COM DIFICULDADE):**  \n• Doutor(a)... minha cabeça está explodindo... minha barriga dói... e eu não estou enxergando direito, está tudo embaçado, como se estivesse nevando, me ajuda!  \n\n**HISTÓRIA DA DOENÇA ATUAL (AMIGA FORNECE AS INFORMAÇÕES SE QUESTIONADA):**  \n• **Cronologia dos Sintomas:** Bebemos ontem à noite. Ela acordou hoje de manhã, umas 12 horas depois do evento, já se sentindo muito mal, com dor de cabeça e vomitando. Mas a visão foi piorando ao longo do dia, e a respiração dela ficou mais rápida e funda. Por isso eu a trouxe.  \n• **Exposição:** A gente foi numa festa com a galera ontem à noite, na casa de um desconhecido. Tinha umas bebidas destiladas artesanais, parecia com cachaça e vodka, mas não tinha rótulo. A Júlia bebeu bastante.  \n• **Outros Afetados:** Sim, que eu estou sabendo um outro amigo nosso que também bebeu passou mal e foi para outro hospital, deve ter mais pessoas assim também.  \n\n**ANTECEDENTES (AMIGA RESPONDE, SE QUESTIONADA):**  \n• **Doenças Prévias e Medicações:** Não, a Júlia é saudável, não toma nenhum remédio.  \n• **Alergias:** Não tem nenhuma alergia que eu saiba.  \n\n**ORIENTAÇÕES AOS ATORES:**  \n• A paciente (Júlia) responde de forma lenta e com dificuldade, focando nas queixas de dor e visão. A amiga (Beatriz) é a principal informante.  \n• As informações sobre a cronologia e outros afetados só devem ser informadas se o(a) participante perguntar.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS (DA AMIGA):**  \n• *O que está acontecendo com ela? Foi a bebida?*  \n• *Ela vai voltar a enxergar? Pode ficar cega?*  \n• *Qual é o tratamento para ela?*  \n• *Ela pode ficar com alguma sequela?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 90x50 mmHg  \n• **FC:** 120 bpm  \n• **FR:** 28 irpm  \n• **Temp. axilar:** 36,8°C  \n• **SatO2:** 95% em ar ambiente  \n\n\n**Exame Físico Segmentar:**  \n• **Ectoscopia e Estado Geral:** Letárgica, desorientada, respondendo a estímulos verbais.  \n• **Neurológico:**  \n• **Nível de Consciência:** Glasgow 13 (Abertura Ocular: 4, Resposta Verbal: 4, Resposta Motora: 5).  \n• **Pupilas:** Midriáticas e hiporreativas à luz.  \n• **Fundoscopia:** Hiperemia do disco óptico e papiledema bilateral.  \n• **Abdome:** Dor difusa à palpação profunda, sem sinais de irritação peritoneal.  \n• **Cardiopulmonar:** Sem alterações significativas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma:**  \n• **Leucócitos:** 14.500 /mm³ (VR: 5.000 a 10.000 /mm³).  \n• **Hemoglobina:** 15,5 g/dL (VR: 13,5 a 17,5 g/dL).  \n• **Hematócrito:** 46% (VR: 41 a 53%).  \n• **Plaquetas:** 220.000 /mm³ (VR: 150.000 a 450.000 /mm³).  \n\n\n**Bioquímica:**  \n• **Glicose:** 90 mg/dL (VR: 70-99 mg/dL)  \n• **Sódio (Na+):** 140 mEq/L (VR: 135-145 mEq/L)  \n• **Potássio (K+):** 4,0 mEq/L (VR: 3,5-5,0 mEq/L)  \n• **Cloro (Cl-):** 102 mEq/L (VR: 98-106 mEq/L)  \n• **Ureia:** 28 mg/dL (VR: 15-45 mg/dL)  \n• **Osmolaridade Sérica (medida):** 350 mOsm/kg H2O (VR: 275-295 mOsm/kg H2O).  \n• **Gap Osmolar (calculado):** 55 mOsm/kg H2O (VR: < 10 mOsm/kg H2O) - Elevado.  \n\n\n**Gasometria Arterial:**  \n• **pH:** 7,10 (VR: 7,35-7,45)  \n• **pCO2:** 20 mmHg (VR: 35-45 mmHg)  \n• **HCO3:** 8 mEq/L (VR: 22-26 mEq/L)  \n• **Ânion-Gap (calculado):** 30 mEq/L (VR: 8-12 mEq/L).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta a paciente simulada e sua amiga, e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando a exposição tóxica.**  \n\n**Adequado:** investiga ativamente o histórico de ingestão de álcool, focando em bebidas de origem desconhecida ou artesanal, e questiona sobre a presença de outros indivíduos com sintomas semelhantes.  \n**Inadequado:** não investiga a exposição a substâncias tóxicas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.85"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Interpreta os achados do exame físico.**  \n\n**Adequado:** correlaciona a depressão do sistema nervoso central, a taquipneia compensatória, a dor abdominal e, principalmente, os achados oftalmológicos (visão \"em nevasca\", pupilas midriáticas, papiledema) com a principal hipótese diagnóstica.  \n**Inadequado:** não consegue interpretar os achados ou não valoriza os sinais oftalmológicos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta os exames laboratoriais (gasometria e bioquímica).**  \n\n**Adequado:** identifica a presença de uma Acidose Metabólica Grave com Ânion-Gap e Gap Osmolar ambos muito elevados, reconhecendo este como o achado laboratorial clássico da intoxicação por álcoois tóxicos.  \n**Inadequado:** não consegue interpretar a gasometria ou não reconhece a importância do Gap Osmolar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula a principal hipótese diagnóstica.**  \n\n**Adequado:** formula a hipótese de Intoxicação Exógena por Álcool Tóxico, mais especificamente Metanol, dada a combinação de acidose metabólica com duplo gap elevado e as manifestações visuais graves.  \n**Inadequado:** não formula a hipótese correta (ex: Cetoacidose, Sepse).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Define a conduta de suporte inicial.**  \n(1) Internação em UTI com Monitorização cardíaca e oximetria contínuas;  \n(2) Obtenção de acesso venoso calibroso e reposição volêmica;  \n(3) Correção da acidose metabólica com Bicarbonato de Sódio endovenoso.  \n\n**Adequado:** define as três condutas.  \n**Parcialmente adequado:** define duas condutas.  \n**Inadequado:** não define as condutas ou define apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.55",
+        "adequado": "1.05"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Prescreve o antídoto específico (terapia de inibição enzimática).**  \n\n**Adequado:** prescreve o antídoto de primeira escolha, o Fomepizol, OU, na sua indisponibilidade, o Etanol endovenoso, explicando que o objetivo é inibir a enzima álcool-desidrogenase para impedir a formação de metabólitos tóxicos.  \n**Inadequado:** não prescreve o antídoto ou prescreve um antídoto incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define a conduta de tratamento definitivo para a remoção do tóxico.**  \n\n**Adequado:** indica a Hemodiálise em caráter de urgência, justificando pela presença de acidose metabólica grave, alterações visuais e Gap Osmolar elevado.  \n**Inadequado:** não indica a hemodiálise.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Aciona os serviços de apoio e vigilância.**  \n(1) Aciona o Centro de Informação e Assistência Toxicológica (CIATox) para auxílio no manejo;  \n(2) Comunica a Vigilância Epidemiológica sobre um possível surto de intoxicação por metanol.  \n\n**Adequado:** aciona os dois serviços.  \n**Parcialmente adequado:** aciona apenas um dos serviços.  \n**Inadequado:** não aciona nenhum serviço.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.45",
+        "adequado": "0.85"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Esclarece as dúvidas da amiga de forma empática e informativa.**  \n(1) explica que o quadro foi provavelmente causado pela bebida artesanal (intoxicação por Metanol);  \n(2) informa que a perda visual é uma complicação grave e que o tratamento visa revertê-la, mas há risco de sequelas permanentes;  \n(3) detalha o plano terapêutico (antídoto e hemodiálise) de forma simples;  \n(4) tranquiliza a amiga, afirmando que a equipe está agindo rápido com o tratamento correto.  \n\n**Adequado:** Aborda os quatro pontos.  \n**Parcialmente adequado:** Aborda dois ou três pontos.  \n**Inadequado:** Aborda um ou nenhum ponto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.45"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

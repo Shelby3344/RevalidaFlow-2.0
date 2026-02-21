@@ -1,0 +1,161 @@
+{
+  "uid": 403,
+  "hash": "pepe_403",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Toxoplasmose Aguda na Gestação",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas.\n\nDescrição do caso:\nVocê atenderá uma gestante de 22 anos, com 14 semanas de idade gestacional, que retorna à consulta de pré-natal trazendo resultados dos exames solicitados na primeira consulta.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso.  \n- Interpretar os exames realizados anteriormente da paciente.  \n- Formular e verbalizar a hipótese diagnóstica.  \n- Solicitar exames complementares caso haja necessidade.  \n- Estabelecer a conduta terapêutica inicial e o plano de seguimento.  \n- Responder às dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Ana, 22 anos, casada, professora.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim trazer meus primeiros exames do pré-natal. Eu olhei e vi que dois resultados deram \"reagente\".  \n\n**QUEIXAS ATUAIS:**  \n• Agora estou bem, mas há três semanas tive uma gripe forte. Deu febre, dor no corpo e umas inguas no pescoço.  \n\n**HÁBITOS DE VIDA E FATORES DE RISCO:**  \n• **Animais de estimação:** Tenho dois gatos em casa.  \n• **Alimentação:** Gosto de comer salada, kibe e sushi de vez em quando. Também gosto de carne mal passada.  \n• **Hobbies:** Tenho uma hortinha em casa, gosto de mexer na terra.  \n\n**ANTECEDENTES PESSOAIS E OBSTÉTRICOS:**  \n• **GPA:** Primeira gestação (G1P0A0).  \n• **Doenças e Medicações:** Nenhuma, só as vitaminas do pré-natal.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que significa IgG e IgM reagentes?*  \n• *Meu bebê corre perigo? O que pode acontecer com ele?*  \n• *Tem como saber se eu peguei a doença antes ou depois de engravidar?*  \n• *Já tem algum remédio que eu precise tomar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTÃO DA GESTANTE",
+      "conteudo": "• **NOME:** Ana da Silva  \n• **IDADE:** 22 ANOS  \n\n• **GPA:** G1 P0 A0  \n• **DUM:** (11 semanas atrás)  \n• **IG pela DUM:** 14 semanas  \n• **EXAMES PRÉ-NATAIS:** Realizados na primeira consulta.  \n• **ANTECEDENTES CLÍNICOS:** Hígida.  \n\n• **ABO/Rh:** A+  \n• **VACINAS:** Em dia.  \n• **MEDICAÇÃO EM USO:** Ácido fólico, Sulfato ferroso.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "SOROLOGIAS",
+      "conteudo": "**Paciente:** Ana da Silva  \n**Idade:** 22 anos  \n**Data da Coleta:** (1 semana atrás)  \n\n\n• **HIV (Teste Rápido):** Não Reagente  \n• **VDRL:** Não Reagente  \n• **HBsAg:** Não Reagente  \n\n\n**TOXOPLASMOSE:**  \n• **IgG:** Reagente (Índice: 3.5; VR: > 1.0)  \n• **IgM:** Reagente (Índice: 2.8; VR: > 0.8)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 115x70 mmHg  \n• **FC:** 78 bpm  \n• **AU:** 14 cm  \n• **BCF:** 152 bpm  \n\n\n**Exame físico geral:** Afebril, corada, hidratada. Palpam-se pequenos linfonodos móveis e indolores em cadeia cervical posterior.  \n\n**Exame obstétrico:** Compatível com a idade gestacional.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "TESTE DE AVIDEZ DE IGG TOXOPLASMOSE",
+      "conteudo": "• **Resultado:** Baixa Avidez de IgG (Índice de Avidez: 15%;).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Interpreta corretamente o resultado sorológico inicial.**  \n\n**Adequado:** explica que IgG e IgM reagentes indicam uma infecção, mas que é necessário determinar se ela é recente (ocorrida durante a gestação) ou antiga.  \n**Parcialmente adequado:** informa apenas que a paciente tem ou teve a infecção, sem discutir a temporalidade.  \n**Inadequado:** não interpreta ou interpreta incorretamente os exames.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a ocorrência de sintomas compatíveis com a fase aguda da toxoplasmose.**  \n\n**Adequado:** pergunta sobre a ocorrência de quadro gripal, febre, linfonodomegalia ou mialgia nas últimas semanas ou meses.  \n**Inadequado:** não investiga a presença de sintomas prévios.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame complementar para determinar o tempo da infecção.**  \n\n**Adequado:** solicita o Teste de Avidez de IgG para Toxoplasmose.  \n**Inadequado:** não solicita o teste de avidez ou solicita outro exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta o resultado do Teste de Avidez.**  \n\n**Adequado:** verbaliza que a baixa avidez confirma que a infecção é recente e provavelmente ocorreu durante a gestação.  \n**Inadequado:** não interpreta ou interpreta incorretamente o resultado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explica os riscos da toxoplasmose congênita para o feto.**  \n\n**Adequado:** menciona a possibilidade de complicações como a tríade de Sabin (coriorretinite, calcificações intracranianas, hidrocefalia) e o risco de sequelas neurológicas e visuais.  \n**Parcialmente adequado:** menciona apenas que \"pode passar para o bebê e causar problemas\", de forma genérica.  \n**Inadequado:** não explica os riscos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Inicia a conduta terapêutica para a gestante.**  \n\n**Adequado:** prescreve Espiramicina e explica que o objetivo é reduzir o risco de transmissão vertical (da mãe para o feto).  \n**Inadequado:** não inicia a Espiramicina ou prescreve outro esquema terapêutico para esta fase.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre o próximo passo na investigação fetal.**  \n\n**Adequado:** explica a necessidade de encaminhar a paciente para um serviço de pré-natal de alto risco para avaliar a indicação de amniocentese (PCR no líquido amniótico) para confirmar ou descartar a infecção fetal.  \n**Inadequado:** não menciona a amniocentese ou o encaminhamento para alto risco.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Fornece orientações de prevenção para evitar reinfecção ou outras doenças.**  \n(1) orienta a cozinhar bem as carnes;  \n(2) orienta a higienizar frutas e vegetais;  \n(3) orienta a usar luvas para jardinagem e para limpar a caixa de areia do gato.  \n\n**Adequado:** fornece duas ou três orientações.  \n**Parcialmente adequado:** fornece uma orientação.  \n**Inadequado:** não fornece nenhuma orientação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a notificação compulsória do caso ao SINAN.**  \n\n**Adequado:** verbaliza que a Toxoplasmose Aguda na Gestação é um agravo de notificação compulsória ao SINAN.  \n**Inadequado:** não menciona a necessidade de notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

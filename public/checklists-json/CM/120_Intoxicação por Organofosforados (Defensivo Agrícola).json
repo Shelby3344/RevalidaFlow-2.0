@@ -1,0 +1,199 @@
+{
+  "uid": 120,
+  "hash": "pepe_120",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Intoxicação por Organofosforados (Defensivo Agrícola)",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - Sala de Emergência.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• sala de estabilização;  \n• serviço de diagnóstico por imagem (Raio-X, ECG).\n\nDescrição do caso:\nVocê está na UPA e atenderá um paciente agricultor, chega à emergência com queixa de visão turva e dificuldade respiratória, iniciadas há 1 hora.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Verbalizar a hipótese diagnóstica principal e diagnósticos diferenciais.  \n- Estabelecer a conduta terapêutica.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Romeu, 48 anos, agricultor, casado.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), minha vista ficou embaçada e estou com falta de ar. Começou faz 1 hora.  \n\n**HISTÓRIA DA DOENÇA ATUAL:**  \n• **Exposição:** Eu estava aplicando um veneno novo nas laranjeiras, acho que apliquei a manhã toda.  \n• **EPI:** Eu estava sem máscara e sem luva.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Sialorreia e Sudorese:** Estou suando frio e babando muito, não consigo controlar.  \n• **Lacrimejamento:** Meus olhos não param de lacrimejar.  \n• **Dor abdominal:** Estou com uma cólica forte na barriga.  \n\n**NEGAR:**  \n• Dor de cabeça.  \n• Tontura.  \n• Convulsão ou tremores.  \n• Diarreia ou incontinência urinária.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** Nega.  \n• **Doenças:** Tenho diabetes tipo 2.  \n• **Medicações:** Tomo metformina todo dia.  \n• **Cirurgias e internações:** Nunca precisei.  \n• **Álcool, tabaco e drogas:** Nego.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Minha mãe tem pressão alta.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *É grave, doutor(a)?*  \n• *O que causou isso?*  \n• *Vou precisar ficar internado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **FC:** 110 batimentos por minuto (bpm).  \n• **FR:** 26 incursões respiratórias por minuto (irpm).  \n• **PA:** 88 x 55 mmHg.  \n• **SatO₂:** 92% em ar ambiente.  \n• **Tax:** 36,5°C.  \n• **Glicemia capilar:** 90 mg/dL.  \n\n\n• **Estado Geral:** Paciente em regular estado geral, desorientado, com sudorese intensa.  \n\n• **Escala de Coma de Glasgow:** 14 (Ocular 4, Verbal 5, Motor 5).  \n\n• **Cabeça e Pescoço:** Pupilas puntiformes (mióticas) e fotorreagentes. Sialorreia intensa. Lacrimejamento bilateral.  \n\n• **Aparelho Respiratório:** Murmúrio vesicular presente, mas com roncos e sibilos difusos bilateralmente. Tiragem intercostal leve.  \n\n• **Aparelho Cardiovascular:** Ritmo cardíaco regular, taquicárdico, 2 tempos, bulhas normofonéticas.  \n\n• **Abdome:** Ruídos hidroaéreos aumentados, flácido, levemente doloroso à palpação difusa, sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 14,5 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Hematócrito:** 42% (VR: 38 – 50%)  \n• **Leucócitos:** 13.500 mm³ (VR: 5.000 – 10.000/mm³)  \n• **Plaquetas:** 210.000 mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**BIOQUÍMICA**  \n• **Creatinina:** 1,1 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 40 mg/dL (VR: 10 – 50 mg/dL)  \n• **Sódio:** 132 mEq/L (VR: 135 – 145 mEq/L)  \n• **Potássio:** 4,1 mEq/L (VR: 3,5 – 5,0 mEq/L)  \n• **TGO (AST):** 55 U/L (VR: < 40 U/L)  \n• **TGP (ALT):** 60 U/L (VR: < 40 U/L)  \n\n\n**GASOMETRIA ARTERIAL**  \n• **pH:** 7,22 (VR: 7.35-7.45)  \n• **pCO₂:** 55 mmHg (VR: 35-45 mmHg)  \n• **HCO₃⁻:** 15 mEq/L (VR: 22-26 mEq/L)  \n• **SatO₂:** 92%",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ELETROCARDIOGRAMA (ECG)",
+      "conteudo": "**LAUDO:** Taquicardia sinusal. Frequência cardíaca de 110 bpm. Ausência de alterações agudas do segmento ST ou ondas T patológicas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida sobre a exposição:**  \n(1) pergunta sobre o início dos sintomas;  \n(2) investiga o fator desencadeante (exposição a \"veneno\" ou agrotóxico);  \n(3) questiona o tempo de exposição.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre o uso de Equipamento de Proteção Individual (EPI).**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga sintomas da síndrome colinérgica muscarínica:**  \n(1) sialorreia (salivação excessiva) OU lacrimejamento;  \n(2) sudorese;  \n(3) sintomas respiratórios (broncoespasmo, falta de ar);  \n(4) sintomas gastrointestinais (náuseas, vômitos, cólica, diarreia);  \n(5) alterações visuais (visão turva, miose);  \n(6) incontinência urinária.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga sintomas da síndrome colinérgica nicotínica ou de SNC:**  \n(1) tremores ou fasciculações;  \n(2) fraqueza muscular;  \n(3) confusão mental ou alteração de consciência;  \n(4) cefaleia;  \n(5) convulsões.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre antecedentes pessoais:**  \n(1) comorbidades (doenças prévias);  \n(2) uso de medicações contínuas;  \n(3) alergias.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta um ou dois itens.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames laboratoriais pertinentes:**  \n(1) gasometria arterial;  \n(2) eletrólitos (sódio, potássio);  \n(3) função renal (ureia, creatinina);  \n(4) hemograma;  \n(5) glicemia.  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita Eletrocardiograma (ECG).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza a hipótese diagnóstica:**  \n\n**Adequado:** verbaliza Intoxicação Exógena por Organofosforado (ou Carbamato) OU Síndrome Colinérgica.  \n**Parcialmente adequado:** verbaliza apenas \"Intoxicação Exógena\" (sem especificar a síndrome ou classe).  \n**Inadequado:** não verbaliza a hipótese ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica medidas de suporte inicial (ABC):**  \n(1) monitorização cardíaca, oximetria e pressão arterial contínua;  \n(2) oferta de oxigênio suplementar (máscara ou cateter);  \n(3) obtenção de dois acessos venosos periféricos calibrosos.  \n\n**Adequado:** indica os três itens.  \n**Parcialmente adequado:** indica dois itens.  \n**Inadequado:** indica um item ou não indica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica medidas de descontaminação.**  \n\n**Adequado:** orienta a retirada de todas as vestes do paciente E lavagem da pele com água e sabão.  \n**Inadequado:** não orienta a descontaminação ou orienta apenas uma das medidas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica o antídoto específico para a síndrome colinérgica.**  \n\n**Adequado:** indica o uso de Atropina (endovenosa).  \n**Inadequado:** não indica Atropina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta sobre o destino do paciente e notificação:**  \n(1) indica internação em Unidade de Terapia Intensiva (UTI) ou Sala de Emergência para monitoramento;  \n(2) verbaliza a necessidade de notificação compulsória (SINAN).  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta apenas um item.  \n**Inadequado:** não orienta nenhum dos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

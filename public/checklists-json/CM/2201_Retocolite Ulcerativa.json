@@ -1,0 +1,139 @@
+{
+  "uid": 2201,
+  "hash": "pepe_2201",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Retocolite Ulcerativa",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Atenção Terciária: ambulatorial e hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• consultórios;  \n• setor de endoscopia; e  \n• laboratório de análise clínica.\n\nDescrição do caso:\n• Paciente de 60 anos com queixa de diarreia há três meses e dor abdominal.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar anamnese da paciente;  \n- solicitar qualquer exame físico e/ou complementar que seja pertinente ao caso;  \n- decidir sobre investigaçao complementar;  \n- formular hipóteses diagnósticas; e  \n- elaborar plano terapêutico.  \n\n\nA PACIENTE SIMULADA NÃO DEVE SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Fátima, 60 anos de idade.  \n\n**MOTIVO DE CONSULTA**:  \n• Estou tendo muita diarreia e dor de barriga.  \n\n**CARACTERÍSTICAS DA DIARREIA**:  \n• **Tempo de evolução**: 3 meses.  \n• **Frequência das evacuações**: várias vezes ao dia.  \n• **Consistência das fezes**: na maioria das vezes é liquida ou pastosa.  \n• **Presença de sangue**: algumas vezes sim.  \n• **Presença de pus**: que eu tenha visto não.  \n• **Presença de alimentos não digeridos**: não.  \n\n**CARACTERÍSTICAS DA DOR ABDOMINAL**:  \n• **Tempo de evolução**: 3 meses.  \n• **Localização**: no meio da barriga.  \n• **Intensidade**: dor forte (7/10).  \n• **Tipo de dor**: cólicas.  \n• **Irradiação**: não.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: nega.  \n• **Cirurgias**: nega  \n• **Medicamentos**: nega.  \n• **Alergias**: nega.  \n\n**HÁBITOS**:  \n• **Álcool**: nega.  \n• **Cigarro**: 1 maço por dia desde os 35 anos de idade.  \n• **Drogas**: nega.  \n• **Alimentação**: como um pouco de tudo.  \n• **Urina**: nega alterações.  \n• **Sono**: durmo umas 6 horas por noite.  \n• **Peso corporal**: sinto que diminuiu bastante meu peso, sem ter mudado a dieta.  \n\n**SE PERGUNTADO POR ACESSO A SANEAMENTO BÁSICO OU ÁGUA POTÁVEL**:  \n• Responder que sim.  \n\n**ANTECEDENTES FAMILIARES**:  \n• Minha mãe faleceu de acidente de carro mas tinha um problema no intestino. Não sei dizer o que era.  \n• Meu pai é diabético.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais**  \n• **Pressão arterial:** 115 × 70 mmHg  \n• **Frequência cardíaca:** 76 bpm  \n• **Frequência respiratória:** 14 irpm  \n• **Temperatura:** 36,5 °C  \n• **Peso atual:** 55 kg  \n\n\nPaciente em bom estado geral, afebril, acianótica, anictérica, hidratada. Mucosas hipocoradas.  \n\n\n**Ausculta respiratória:**  \nMurmúrio vesicular presente em ambos os hemitórax, sem ruídos adventícios.  \n\n\n**Ausculta cardíaca:**  \nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas. Ausência de sopros.  \n\n\n**Abdome:**  \nFlácido, normotenso, ruídos hidroaéreos normoativos; dor à palpação profunda em fossa ilíaca e flanco esquerdos, sem dor à descompressão e sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "",
+      "imagem": "img_printeds/2022-1-e1p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "COLONOSCOPIA",
+      "conteudo": "LAUDO: a partir do reto, observa-se intensa hiperemia da mucosa, com friabilidade ao  \ntoque do aparelho. O aspecto estende-se aos cólons sigmoide e descendente, em que se  \nobservam erosões, com fibrina central, não confluentes, sem áreas de mucosa poupadas.  \nRestantes dos segmentos sem alterações endoscópicas, incluído o íleo terminal (foi colhido  \nmaterial para estudo histopatológico de todos os segmentos do cólon e do íleo).  \n\n\n**Conclusão: Colite esquerda em atividade endoscópica moderada.**",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "BIÓPSIA",
+      "conteudo": "Presença de processo inflamatório na mucosa, com irregularidade da superfície vilosa, com   \ndiscreta distorção da arquitetura das criptas; criptas encurtadas e aumento do número de  \nlinfócitos e plasmócitos (plasmocitose basal) na lâmina própria. Sem ulcerações. Depleção  \nde mucina e metaplasia de células de Paneth.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Apresenta-se e (2) cumprimenta a paciente simulada.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, perguntando sobre as características da diarreia:**  \n(1) Frequência da diarreia;  \n(2) Número de evacuações por dia;  \n(3) Consistência das fezes;  \n(4) Presença de muco;  \n(5) Presença de sangue;  \n(6) Despertar noturno;  \n(7) Presença de alimentos não digeridos.  \n\n**Adequado:** pergunta cinco ou mais características.  \n**Parcialmente adequado:** pergunta apenas três ou quatro características.  \n**Inadequado:** não pergunta ou pergunta apenas duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta manifestações clínicas associadas ao quadro:**  \n(1) Febre;  \n(2) Perda de peso;  \n(3) Anorexia (perda de apetite);  \n(4) Artralgia;  \n(5) Dor abdominal;  \n(6) Distensão abdominal;  \n(7) Fadiga (fraqueza, cansaço ou indisposição);  \n(8) Sinais sugestivos de anemia.  \n\n**Adequado:** pergunta cinco ou mais características.  \n**Parcialmente adequado:** pergunta apenas três ou quatro características.  \n**Inadequado:** não pergunta ou pergunta apenas duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames laboratoriais.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita colonoscopia (endoscopia digestiva baixa) e o resultado da biópsia.**  \n\n**Adequado:** solicita a colonoscopia (endoscopia digestiva baixa) e a biópsia.  \n**Parcialmente adequado:** solicita apenas a colonoscopia (endoscopia digestiva  \nbaixa).  \n**Inadequado:** não solicita nenhum dos dois.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.5",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Estabelece o diagnóstico de retocolite ulcerativa (RCUI).**  \n\n**Adequado:** estabelece o diagnóstico de RCUI.  \n**Parcialmente adequado:** não estabelece o diagnóstico de RCUI, mas estabelece  \no diagnóstico de doença de Crohn ou doença inflamatória intestinal.  \n**Inadequado:** lista qualquer outro diagnóstico que não seja RCUI, doença de  \nCrohn ou doença inflamatória intestinal.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve tratamento específico para retocolite ulcerativa de intensidade**  \nleve a moderada.  \n\n**Adequado:** propõe somente derivados do 5-ASA (mesalazina ou sulfasalazina)  \nOU propõe derivados do 5-ASA (mesalazina ou sulfasalazina) com corticoide via  \noral.  \n**Inadequado:** não propõe o tratamento adequado conforme os esquemas  \nmencionados ou propõe só o corticoide via oral.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

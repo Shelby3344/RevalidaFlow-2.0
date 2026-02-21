@@ -1,0 +1,188 @@
+{
+  "uid": 2325,
+  "hash": "pepe_2325",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Uretrite / Corrimento Uretral / Gonorreia (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala para coleta de exames e administração de medicamentos.\n\nDescrição do caso:\nVocê é médico(a) em uma UBS e atenderá um paciente de 22 anos procura o serviço com queixa de secreção no pênis e ardência ao urinar.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Formular e verbalizar a hipótese diagnóstica.  \n- Identificar agentes etiológicos mais prováveis para o quadro;  \n- Definir a conduta terapêutica de primeira escolha;  \n- Orientar sobre medidas preventivas e responder dúvidas.  \n- Esclarecer sobre a persistência dos sintomas por mais de 7 dias.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Bruno, 22 anos, solteiro, estudante universitário.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com um corrimento no meu pênis e está ardendo pra fazer xixi. Começou faz uns 3 dias.  \n\n**SOBRE O CORRIMENTO:**  \n• **Início:** começou faz uns 3 dias.  \n• **Aspecto:** É um corrimento amarelado, não é muito, mas suja a cueca.  \n• **Odor:** Tem um cheiro forte, sim.  \n• **Prurido:** Sinto uma coceira na ponta do pênis também.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Disúria:** Dói, uma ardência, quando vou urinar.  \n• **Febre, sudorese, calafrios, vômitos:** nega.  \n• **Mialgia, artralgia:** nega.  \n\n**HISTÓRIA SEXUAL:**  \n• **Parcerias:** Eu não tenho namorada fixa. Tive três parceiras novas no último mês.  \n• **Última Relação:** A última vez foi há uma semana.  \n• **Uso de Preservativo:** Eu uso camisinha às vezes, mas admito que nem sempre.  \n• **Tipo de Relação:** Sexo vaginal e oral.  \n• **IST prévia:** Não, nunca tive nada disso antes.  \n• **Parceira com sintomas:** Que eu saiba, nenhuma delas tem nada.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, Comorbidades e medicações:** Sou saudável, não tomo nenhum remédio.  \n• **Vacinação:** Acho que tomei as vacinas da infância, mas não tenho certeza sobre as mais recentes.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• 1 - *O que eu tenho, doutor(a)?*  \n• 2 - *O tratamento é com injeção ou comprimido?*  \n• 3 - *Algum vírus que causa isso?*  \n• 4 - *Eu preciso avisar minhas parceiras? O que eu falo para elas?*  \n• 5 - *Tem alguma vacina que eu preciso tomar?*  \n• 6 - *Se não melhorar em 7 dias, pode ser outra coisa?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 76 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 99% em ar ambiente  \n• **Temp. axilar:** 36.7°C  \n\n\n**Ectoscopia:** Paciente em bom estado geral, corado, hidratado, acianótico, anictérico e afebril.  \n\n\n**Cardiorespiratório:** sem alterações.  \n\n\n**Abdominal:** sem alterações.  \n\n\n**Neurológico:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO GENITAL",
+      "conteudo": "• **Inspeção:** Meato uretral hiperemiado. Presença de secreção purulenta de cor amarelada extrusada à expressão da uretra.  \nAusência de lesões cutâneas, vesículas ou úlceras em glande ou prepúcio.  \n\n• **Palpação:** Ausência de linfonodomegalia inguinal. Testículos sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TESTES RÁPIDOS",
+      "conteudo": "**TESTES REALIZADOS NA UBS**  \n\n\n• **HIV:** Não reagente.  \n• **Sífilis:** Não reagente.  \n• **Hepatite B (HBsAg):** Não reagente.  \n• **Hepatite C (Anti-HCV):** Não reagente.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga a história da doença atual:**  \n(1) aspecto do corrimento;  \n(2) prurido uretral;  \n(3) sintomas sistêmicos (febre, calafrios);  \n(4) presença de lesão genital.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a história sexual do paciente:**  \n(1) número de parcerias sexuais nos últimos meses;  \n(2) tipo de sexo (oral, vaginal, anal);  \n(3) uso de preservativo (camisinha);  \n(4) se a(s) parceria(s) apresenta(m) sintomas.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico da genitália.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a hipótese diagnóstica de Uretrite ou Síndrome do Corrimento Uretral ou Gonorréia.**  \n\n**Adequado:** verbaliza uma das hipóteses.  \n**Inadequado:** não verbaliza ou verbaliza outra hipótese.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica o tratamento sindrômico de primeira linha para uretrite não complicada:**  \n(1) Ceftriaxona 500mg, via intramuscular, em dose única; E,  \n(2) Azitromicina 1g (ou 2 comprimidos de 500mg), via oral, em dose única.  \n\n**Adequado:** indica o tratamento combinado com os dois antibióticos, doses e vias corretas.  \n**Parcialmente adequado:** indica apenas um dos medicamentos corretamente ou erra a dose/via de um deles.  \n**Inadequado:** não indica os medicamentos ou indica um esquema incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta o tratamento da(s) parceria(s) sexual(is).**  \n\n**Adequado:** orienta a necessidade de tratar a(s) parceria(s) sexual(is) dos últimos 2 ou 3 meses, mesmo que assintomáticas.  \n**Inadequado:** não orienta o tratamento da(s) parceria(s).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Fornece orientações gerais ao paciente:**  \n(1) manter abstinência sexual por 7 dias após o tratamento (dele e da parceria);  \n(2) orienta sobre o uso correto e consistente de preservativos.  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre a testagem para outras Infecções Sexualmente Transmissíveis (IST):**  \n(1) HIV;  \n(2) Sífilis;  \n(3) Hepatite B; e,  \n(4) Hepatite C.  \n\n**Adequado:** oferece testagem para três ou quatro ISTs.  \n**Parcialmente adequado:** oferece testagem para duas ISTs.  \n**Inadequado:** oferece testagem para uma ou nenhuma IST.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Investiga ou orienta sobre a situação vacinal:**  \n(1) Hepatite B;  \n(2) HPV.  \n\n**Adequado:** aborda as duas vacinas.  \n**Parcialmente adequado:** aborda uma vacina.  \n**Inadequado:** não aborda nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Identifica os dois principais agentes etiológicos de uretrites.**  \n(1) *Neisseria gonorrhoeae* (gonococo);  \n(2) *Chlamydia trachomatis* (clamídia).  \n\n**Adequado:** cita os dois agentes.  \n**Parcialmente adequado:** cita apenas um dos agentes.  \n**Inadequado:** não cita os agentes etiológicos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre o manejo em caso de persistência dos sintomas após 7 dias.**  \n\n**Adequado:** orienta o paciente a retornar à unidade para reavaliação, mencionando a possibilidade de outros agentes como *Mycoplasma* ou *Trichomonas*.  \n**Parcialmente adequado:** orienta apenas o retorno para reavaliação, sem mencionar possíveis causas.  \n**Inadequado:** não orienta sobre o que fazer se os sintomas persistirem.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Verbaliza a necessidade de notificação do caso no SINAN.**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "uid": 113,
+  "hash": "pepe_113",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Artrite Reumatóide",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção primária à saúde.  \nTipo de atendimento: Ambulatorial – Unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas e radiografia.\n\nDescrição do caso:\nVocê atenderá uma mulher de 45 anos com queixa de dor e inchaço nas articulações das mãos e pés há alguns meses.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Solicitar o exame físico específico, caso necessário.  \n- Formular hipóteses diagnósticas e solicitar exames complementares.  \n- Interpretar os resultados dos exames e verbalizar o diagnóstico mais provável.  \n- Estabelecer a conduta terapêutica inicial e as orientações necessárias.  \n- Responder às dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Lúcia, 48 anos, casada, artesã.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim porque estou com uma dor e um inchaço nas juntas das mãos e dos pés que não melhora.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou há uns 6 meses, mas agora está pior.  \n• **Localização:** É nas juntas dos dedos das mãos, nos punhos. E é dos dois lados igual.  \n• **Característica:** as juntas ficam inchadas e quentes.  \n• **Rigidez matinal:** eu acordo toda travada. Leva mais de uma hora para conseguir mexer as mãos direito.  \n• **Atenuantes/agravantes:** A dor melhora um pouco quando eu começo a me movimentar, mas piora se fico muito tempo parada.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Gerais:** Tenho me sentido muito cansada, um desânimo.  \n• **Peso:** Perdi um pouco de peso também, sem querer.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** Nunca tive nada. Só tomo um analgésico de vez em quando para essa dor, mas não adianta muito.  \n• **Alergias, cirurgias:** Nega.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Minha mãe sempre reclamou de \"reumatismo\", mas nunca soube direito o que era.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso é grave? Vai me impedir de trabalhar?*  \n• *Qual é o tratamento para isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 125x80 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 37,1°C  \n\n\n**Ectoscopia:** Bom estado geral, corada, hidratada, acianótica, anictérica. Leve palidez ++/4+.  \n\nAusculta cardíaca e pulmonar sem alterações.  \n\nAbdome sem alterações.  \n\nPresença de nódulos subcutâneos indolores na superfície extensora de ambos os cotovelos (~1 cm).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO ARTICULAR",
+      "conteudo": "• **Mãos e Punhos:** Edema, calor e dor à palpação das articulações metacarpofalangeanas (MCF) e interfalangeanas proximais (IFP) de ambas as mãos, bilateralmente e de forma simétrica.  \nLimitação da amplitude de movimento devido à dor e edema. Desvio ulnar discreto dos dedos da mão direita. Articulações interfalangeanas distais (IFD) sem alterações. Punhos com edema e dor à mobilização.  \n\n• **Pés:** Dor à palpação das articulações metatarsofalangeanas (MTF) bilateralmente.  \n\n• **Outras articulações:** Joelhos e ombros sem sinais inflamatórios no momento.  \n\n• **Coluna:** Mobilidade preservada, sem dor à palpação.  \n\n• **Teste de Phalen e Tinel:** Negativos.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 10,9 g/dL (VR: 12,0 – 16,0 g/dL)  \n• **VCM:** 88 fL (VR: 80 – 100 fL)  \n• **Leucócitos:** 7.800/mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 350.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**PROVAS DE ATIVIDADE INFLAMATÓRIA**  \n• **Velocidade de Hemossedimentação (VHS):** 45 mm/h (VR: < 20 mm/h)  \n\n• **Proteína C Reativa (PCR):** 25 mg/L (VR: < 5 mg/L)  \n\n\n**AUTOANTICORPOS**  \n• **Fator Reumatoide (FR):** Positivo (120 UI/mL; VR: < 15 UI/mL)  \n\n• **Anticorpo anti-peptídeo citrulinado cíclico (Anti-CCP):** Positivo (340 U/mL; VR: < 20 U/mL)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RADIOGRAFIA DE MÃOS E PUNHOS",
+      "conteudo": "**Laudo:**  \n• Aumento de partes moles periarticulares, compatível com sinovite.  \n• Discreta osteopenia justarticular em punhos e articulações metacarpofalangeanas.  \n• Ausência de erosões ósseas ou redução significativa dos espaços articulares.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor articular:**  \n(1) início e duração;  \n(2) localização e simetria;  \n(3) rigidez matinal (duração superior a 1 hora);  \n(4) fatores de melhora (atividade) e piora (repouso).  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a presença de sintomas sistêmicos associados.**  \n(1) fadiga/cansaço;  \n(2) febre;  \n(3) perda de peso.  \n\n**Adequado:** investiga os três sintomas.  \n**Parcialmente adequado:** investiga dois sintomas.  \n**Inadequado:** investiga um sintoma ou não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre o histórico familiar de doenças reumatológicas.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico com foco no sistema articular.**  \n\n**Adequado:** solicita o exame físico, especificando a avaliação das articulações.  \n**Inadequado:** não solicita exame físico ou o faz de forma genérica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais para investigação diagnóstica.**  \n(1) provas de atividade inflamatória (VHS e/ou PCR);  \n(2) autoanticorpos (Fator Reumatoide e/ou Anti-CCP).  \n\n**Adequado:** solicita os dois grupos de exames.  \n**Parcialmente adequado:** solicita apenas um grupo de exames.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame de imagem pertinente ao quadro.**  \n\n**Adequado:** solicita radiografia de mãos e punhos.  \n**Inadequado:** não solicita o exame ou solicita outro exame de imagem como primeira escolha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a principal hipótese diagnóstica.**  \n\n**Adequado:** verbaliza o diagnóstico de Artrite Reumatoide.  \n**Inadequado:** não verbaliza ou verbaliza outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Correlaciona os achados clínicos, laboratoriais e de imagem com o diagnóstico.**  \n\n**Adequado:** justifica o diagnóstico citando a poliartrite simétrica, a rigidez matinal prolongada, a elevação de VHS/PCR e a positividade do FR e Anti-CCP.  \n**Parcialmente adequado:** justifica o diagnóstico citando apenas os achados clínicos ou apenas os laboratoriais.  \n**Inadequado:** não correlaciona os achados com o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre medidas não farmacológicas iniciais.**  \n\n**Adequado:** orienta sobre a importância de fisioterapia e/ou terapia ocupacional para manutenção da função articular.  \n**Inadequado:** não fornece orientações não farmacológicas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Esboça o plano terapêutico farmacológico.**  \n(1) menciona o uso de AINEs ou corticoides em baixa dose para controle sintomático inicial;  \n(2) explica a necessidade de iniciar uma Droga Modificadora do Curso da Doença (DMARD), como o Metotrexato.  \n\n**Adequado:** menciona os dois pontos.  \n**Parcialmente adequado:** menciona apenas um dos pontos.  \n**Inadequado:** não menciona o plano farmacológico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a necessidade de encaminhamento ao especialista.**  \n\n**Adequado:** explica a importância do acompanhamento com um Reumatologista para manejo da doença.  \n**Inadequado:** não orienta o encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

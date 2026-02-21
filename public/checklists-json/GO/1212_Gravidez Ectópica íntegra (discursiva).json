@@ -1,0 +1,183 @@
+{
+  "uid": 1212,
+  "hash": "pepe_1212",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Gravidez Ectópica íntegra (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO:  \nNível de atenção: Unidade de Pronto Atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de estabilização e pequenos procedimentos;  \n• Ultrassonografia e eletrocardiograma;  \n• Laboratório de análises clínicas;  \n• Banco de sangue;\n\nDescrição do caso:\nDESCRIÇÃO DO CASO:  \nVocê está de plantão em uma UPA e atenderá uma mulher de 24 anos com queixa de sangramento vaginal e dor em baixo ventre.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico, caso necessário;  \n- Solicitar e interpretar o(s) exame(s) complementar(es) pertinente(s);  \n- Informar a hipótese diagnóstica principal e seus diagnósticos diferenciais;  \n- Propor as condutas pertinentes ao caso;  \n- Orientar e responder as dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \nTallani, 24 anos, Solteira, Estudante universitária.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com um sangramento estranho e uma dor na parte de baixo da barriga faz uns dias.   \n\n**SOBRE SANGRAMENTO:**  \n• **Início:** Começou há 5 dias.  \n• **Evolução:** começou com pouco e vem aumentando.  \n• **Quantidade:** É em pequena quantidade.   \n• **Aspecto e cor:** tipo uma borra de café.  \n\n**SOBRE DOR:**  \n• **Início:** Faz uns 5 dias.  \n• **Localização:** É no baixo ventre.  \n• **Irradiação:** Não irradia.  \n• **Característica:** É uma dor contínua, tipo cólica.  \n• **Intensidade:** Era leve 3 de 10, mas nas últimas 12 horas aumentou pra uma dor moderada 6 de 10.  \n• **Atenuantes/Agravantes:** nada melhora ou piora.  \n\n• **Episódio anterior:** Nega.  \n\n**SINTOMAS ASSOCIADOS:**  \n• Sinto meus seios doloridos e tenho tido uns enjoos de manhã, faz umas duas semanas.  \n• **Febre, cefaleia ou vômitos:** nega.  \n• **Urina e fezes:** estão normais.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** Não tenho certeza, mas acho que está atrasada umas três semanas.  \n• **Sexarca:** Tive minha primeira relação com 16 anos.  \n• **Parceiros**: Tive cinco parceiros até hoje.  \n• **Anticoncepção e preservativo**: Uso camisinha, mas às vezes esqueço.  \n• **Corrimento ou secreção:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias e medicações:** nega.  \n• **Cirurgias e internações:** fiz uma cirurgia de apendicite há 4 anos, estava supurada.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)? É grave?*  \n• *O que pode acontecer comigo?*  \n• *Vou precisar de cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 80 bpm  \n• **FR:** 18 irpm  \n• **SAT:** 97 %  \n• **Temp. axilar:** 36.8° C  \n\n\n**Ectoscopia:** consciente, orientada, corada, hidratada.  \n\n\n**Cardiopulmonar:** Sem alterações.  \n\n\n**Abdome:** plano, com ruídos hidroaéreos preservados, dor à palpação profunda em fossa ilíaca direita, descompressão brusca negativa. Cicatriz de apendicectomia.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "• **Inspeção vulvar:** Sem alterações.  \n• **Exame especular:** pequena quantidade de sangue no canal vaginal, colo uterino fechado.  \n• **Toque vaginal:** útero ligeiramente aumentado de volume, dor à palpação em região anexial direita, onde se palpa massa de aproximadamente 2,0 cm. Ausência de abaulamentos em fundo de saco.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Beta-HCG quantitativo:** *1.800 mUI/ml (VR: < 5 mUI/ml = não indica gravidez)*",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ULTRASSOM TRANSVAGINAL",
+      "conteudo": "Útero em anteversoflexão, contornos regulares, textura miometrial homogênea.  \n\nCavidade uterina vazia, sem saco gestacional visível. Ovário esquerdo de aspecto normal.  \n\nNa região anexial direita, visualiza-se imagem complexa, medindo 2,1 cm, sugestiva de gestação ectópica.  \n\nAusência de líquido livre na pelve.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Anamnese: Investiga as características do sangramento e da dor.**  \n(1) Pergunta sobre o início, quantidade e aspecto do sangramento;  \n(2) Pergunta sobre a localização, tipo, intensidade e evolução da dor;  \n(3) Pergunta sobre sintomas associados como náuseas e mastalgia.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Anamnese: Investiga a história ginecológica e sexual.**  \n(1) Pergunta sobre a data da última menstruação e regularidade do ciclo;  \n(2) Pergunta sobre o método contraceptivo e a regularidade do uso;  \n(3) Pergunta sobre história de cirurgias pélvicas/abdominais prévias.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico.**  \n(1) Solicita exame físico geral;  \n(2) Solicita exame físico abdominal;  \n(3) Solicita exame ginecológico (especular e toque vaginal).  \n\n**Adequado:** solicita as três avaliações.  \n**Parcialmente adequado:** solicita duas avaliações.  \n**Inadequado:** solicita uma ou nenhuma avaliação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Exames complementares: Solicita o exame de Beta-HCG (qualitativo ou quantitativo).**  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Exames complementares: Solicita o Ultrassom transvaginal.**  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Hipótese diagnóstica: Formula a principal hipótese diagnóstica.**  \n\n**Adequado:** formula a hipótese de prenhez/gravidez ectópica íntegra/não rota.  \n**Parcialmente adequado:** formula a hipótese apenas como prenhez/gravidez ectópica, sem especificar a integridade.  \n**Inadequado:** não formula a hipótese OU formula como prenhez/gravidez ectópica rota OU outra hipótese incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Hipótese diagnóstica: Cita os diagnósticos diferenciais para o quadro:**  \n(1) Ameaça de abortamento;  \n(2) Doença inflamatória pélvica;  \n(3) Torção de ovário;  \n(4) Endometrioma;  \n(5) Mola Hidatiforme;  \n(6) Corpo lúteo hemorrágico.  \n\n**Adequado:** cita ao menos dois diagnósticos diferenciais.  \n**Parcialmente adequado:** cita apenas um diagnóstico diferencial.  \n**Inadequado:** não cita nenhum diagnóstico diferencial.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orientação: Cita as possíveis complicações da gravidez ectópica:**  \n(1) Gravidez ectópica rota;  \n(2) Recidiva;  \n(3) infertilidade;  \n(4) choque hipovolêmico;  \n(5) peritonite;  \n(6) morte materna.**  \n\n**Adequado:** cita duas ou mais complicações.  \n**Parcialmente adequado:** cita apenas uma complicação.  \n**Inadequado:** não cita nenhuma complicação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Conduta: Encaminha a paciente para avaliação com especialista (Ginecologista/Obstetra).**  \n\n**Adequado:** encaminha para o especialista.  \n**Inadequado:** não encaminha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orientação: Explica a condição para a paciente.**  \nExplica em linguagem clara o que é uma gravidez ectópica;  \n\n**Adequado:** explica.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Conduta: Discute as opções de tratamento.**  \nExplica a possibilidade de tratamento expectante, medicamentoso (Metotrexato) ou cirúrgico, a depender do caso.  \n\n**Adequado:** explica as possibilidades de tratamento.  \n**Inadequado:** não explica as possibilidades de tratamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

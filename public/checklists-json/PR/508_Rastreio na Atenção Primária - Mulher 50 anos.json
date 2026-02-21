@@ -1,0 +1,199 @@
+{
+  "uid": 508,
+  "hash": "pepe_508",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Rastreio na Atenção Primária - Mulher 50 anos",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a exames laboratoriais pela rede municipal.\n\nDescrição do caso:\nVocê é médico(a) em uma UBS e atenderá uma paciente de 50 anos, hipertensa, que comparece para uma consulta de rotina. Ela traz exames realizados há um ano.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese da paciente.  \n- Solicitar e Interpretar os dados do exame físico e os exames complementares.  \n- Cálcular e classificar o IMC da paciente.  \n- Indicar os exames de rastreamento adequados.  \n- Propor um plano de cuidado e orientar o seguimento.  \n- Responder às dúvidas da paciente.  \n\n\\\nCONSIDERE QUE HÁ CALCULADORA DISPONÍVEL",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Maria, 50 anos, casada, auxiliar de escritório.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim para aquela consulta de rotina da pressão. Estou me sentindo bem, não tenho nenhuma queixa.  \n\n**SOBRE A DOENÇA (HAS):**  \n• **Medicação:** Eu tomo Losartana, 50mg de manhã e 50mg à noite.  \n• **Adesão:** Tomo certinho, não esqueço.  \n• **Outras doenças:** Não, que eu saiba, só a pressão alta mesmo.  \n• **Eventos prévios:** Nunca tive infarto nem derrame.  \n\n**HÁBITOS DE VIDA:**  \n• **Atividade física:** Faço uma caminhada só no fim de semana, quando dá.  \n• **Alimentação:** Eu tento comer bem, mas gosto de um arroz e feijão caprichado. Sal... eu uso normal. Não sou de comer muita fritura.  \n• **Substâncias:** Não fumo. Beber? E as vezes uma cervejinha no sábado.  \n\n**HISTÓRICO FAMILIAR:**  \n• Minha mãe tem pressão alta e diabetes. Meu pai teve um infarto com 60 anos.  \n\n**RASTREAMENTOS PRÉVIOS:**  \n• **Exames de sangue:** Eu trouxe esses exames que fiz no ano passado, o médico disse que estavam bons. (Entregar Impresso 2).  \n• **Papanicolau:** Fiz no ano passado, deu normal. Na verdade os últimos 3 deram normais.  \n• **Mamografia:** Acho que nunca fiz.  \n• **Vacinas:** Minha carteira está em dia.  \n\n**VIDA SEXUAL:**  \n• Tenho meu marido, é meu único parceiro. A gente não usa camisinha.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *E aí, doutor(a)? Estou bem?*  \n• *Preciso fazer mais algum exame esse ano?*  \n• *O que eu posso fazer para melhorar, além do remédio?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **Pressão Arterial:** 130 x 82 mmHg  \n• **Frequência Cardíaca (FC):** 78 bpm  \n• **Frequência Respiratória (FR):** 16 irpm  \n• **Saturação de O2 (SatO2):** 99% em ar ambiente  \n• **Temperatura:** 36,5°C  \n\n\n**Antropometria:**  \n• **Peso:** 70 kg  \n• **Altura:** 1,60 m  \n• **Circunferência Abdominal:** 90 cm  \n\n\n**Ectoscopia:** Bom estado geral, corada, hidratada, acianótica, anictérica e afebril.  \n\n\n**Aparelho Cardiovascular:** Ritmos cardíacos regulares, bulhas normofonéticas em dois tempos, sem sopros.  \n\n\n**Aparelho Respiratório:** Murmúrios vesiculares audíveis globalmente, sem ruídos adventícios.  \n\n\n**Abdome:** Plano, ruídos hidroaéreos presentes, normotimpânico, depressível, indolor, sem visceromegalias.  \n\n\n**Membros:** Ausência de edema de extremidades, perfusão periférica preservada.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "*(Realizados há 1 ano)*  \n\n\n• **Creatinina:** 0,9 mg/dL (VR: 0,5 - 1,2 mg/dl)  \n• **Glicemia de jejum:** 94 mg/dL (VR: 60 - 99 mg/dl)  \n• **Potássio plasmático:** 4,2 mEq/L (VR: 3,5 - 5,0 mEq/L)  \n• **Ácido úrico:** 5,1 mg/dL (VR: 2,4 - 5,7 mg/dL)  \n\n\n• **Urina tipo 1 (EAS):** Sem alterações.  \n\n\n• **Eletrocardiograma (ECG):** Ritmo sinusal, sem sinais de sobrecarga ventricular ou atrial, ausência de sinais de isquemia.  \n\n\n• **Fundo de olho:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME CLÍNICO DAS MAMAS",
+      "conteudo": "• **Inspeção estática e dinâmica:** Mamas simétricas, ausência de retração e/ou abaulamentos.  \n• **Palpação:** Ausência de nódulos, massas ou outras alterações à palpação das mamas, bilateralmente.  \n• **Descarga papilar:** Negativa.  \n• **Linfonodos:** Ausência de linfonodos palpáveis em região axilar e supraclavicular, bilateralmente.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese sobre a queixa principal e tratamento:**  \n(1) pergunta se a paciente apresenta alguma queixa atual;  \n(2) pergunta quais medicações a paciente faz uso; e,  \n(3) questiona se a paciente está fazendo uso adequado (adesão) das medicações prescritas.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga comorbidades e eventos prévios:**  \n(1) questiona a presença de outras comorbidades; e,  \n(2) questiona a presença de eventos cardiovasculares prévios (IAM, AVC).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga hábitos de vida e fatores de risco:**  \n(1) questiona se a paciente faz atividade física regular;  \n(2) questiona o hábito alimentar da paciente; e,  \n(3) pergunta sobre uso de substâncias psicoativas (tabaco, álcool).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga antecedentes familiares:**  \n\n**Adequado:** pergunta sobre os antecedentes familiares (comorbidades crônicas, eventos cardiovasculares, neoplasias).  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga histórico preventivo:**  \n(1) questiona se a carteira de vacinação da paciente está em dia; e,  \n(2) questiona sobre a vida sexual da paciente e uso de preservativos.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Calcula o IMC e verbaliza corretamente a classificação:**  \n\n**Adequado:** calcula o IMC (27,34 kg/m²) E classifica corretamente como Sobrepeso (IMC entre 25-29,9).  \n**Parcialmente adequado:** calcula o IMC corretamente, mas não classifica OU classifica incorretamente.  \n**Inadequado:** não calcula o IMC ou o calcula incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza o rastreamento de câncer de mama e colo de útero:**  \n(1) verbaliza a realização do exame clínico das mamas (ECM);  \n(2) solicita mamografia; e,  \n(3) questiona o último Papanicolau E não solicita novo exame (considerando o resultado normal há 1 ano).  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita rastreamento para câncer colorretal:**  \n\n**Adequado:** solicita pesquisa de sangue oculto nas fezes.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza rastreamento (outros):**  \n(1) não solicita densitometria óssea (prevenção quaternária); e,  \n(2) solicita rastreamento para ISTs (Sífilis, HIV, Hepatites B/C) após orientar a paciente.  \n\n**Adequado:** realiza as duas ações (não solicita DEXA e solicita ISTs com orientação).  \n**Parcialmente adequado:** realiza apenas uma ação, OU solicita ISTs sem orientar.  \n**Inadequado:** solicita DEXA e não solicita ISTs.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita exames de rotina para hipertensão e rastreio cardiovascular:**  \n(1) Glicemia de jejum;  \n(2) Perfil lipídico (Colesterol total e frações, Triglicerídeos);  \n(3) Creatinina (e Ureia);  \n(4) Potássio; e,  \n(5) EAS (Urina tipo 1).  \n\n**Adequado:** solicita quatro ou mais grupos de exames.  \n**Parcialmente adequado:** solicita três grupos de exames.  \n**Inadequado:** solicita dois ou menos grupos de exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta atividade física regular:**  \n\n**Adequado:** orienta atividade física (Mínimo 30 min/dia, 5-7 vezes/semana, combinando aeróbicos e resistidos).  \n**Inadequado:** não orienta atividade física ou o faz de forma vaga (ex: \"tem que se exercitar\").",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre alimentação saudável:**  \n(1) orienta dieta rica em verduras, legumes e frutas;  \n(2) recomenda baixo teor de sal (5g/dia);  \n(3) recomenda baixo teor de gorduras e alimentos industrializados.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta sobre a dieta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Elabora plano de seguimento:**  \n(1) reforça a importância da adesão ao tratamento (farmacológico e não farmacológico);  \n(2) orienta o uso de preservativo (prevenção de IST);  \n(3) encaminha à nutricionista (NASF) para acompanhamento do sobrepeso; e,  \n(4) questiona sobre dúvidas e agenda o retorno para avaliação dos exames.  \n\n**Adequado:** realiza três ou quatro ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

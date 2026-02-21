@@ -1,0 +1,144 @@
+{
+  "uid": 1215,
+  "hash": "pepe_1215",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Lombalgia Mecânica Crônica (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Ambulatorial – Unidade Básica de Saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de observação e medicação;\n\nDescrição do caso:\nVocê atenderá uma de paciente de 47 anos, costureira, com queixa de dor lombar de longa data, relatando que a dor tem impactado suas atividades de trabalho..",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar e interpretar exame(s) físico(s) e complementar(es), caso necessário;  \n- Formular a hipótese diagnóstica;  \n- Abordar as condutas farmacológicas e não farmacológicas;  \n- Responder às dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Marilene, 47 anos, Casada, Costureira.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), Eu vim aqui por causa de uma dor nas costas que está me incomodando já faz um bom tempo.  \n\n**SOBRE A DOR:**  \n• **Início:** Faz uns 2 anos já.  \n• **Localização:** É aqui na parte de baixo das costas, no lombo.  \n• **Intensidade:** Agora está moderada 5/10, mas tem dias que é bem forte 9/10.  \n• **Característica:** É uma dor que cansa, queima às vezes.  \n• **Irradiação:** Não, a dor não irradia.  \n• **Melhora/Piora:** Melhora quando tomo uns remédios, o ibuprofeno e às vezes um tal de tramadol.  \n• **Frequência:** Ela vai e volta, tem dias que to bem e em outros ela ataca.  \n• **Trauma:** Não, nunca bati as costas nem tive acidente.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Estado emocional:** Ando muito tensa, estressada... às vezes dá vontade de chorar por qualquer coisa.  \n• **Sono/Trabalho:** O que mais incomoda é que essa dor está atrapalhando meu sono e meu serviço.  \n• **Outros:** Nega febre, perda de peso ou outros sintomas.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho um problema de queimação no estômago e também tenho diabetes tipo 2.  \n• **Medicações em uso:** Uso ibuprofeno com frequência e tramadol de vez em quando para a dor.  \n• **Alergias, cirurgias e internações:** Nega.  \n• **Alimentação:** Como de tudo um pouco.  \n• **Atividade Física:** Sou Sedentária.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Poderia ser outra coisa?*  \n• *Nessas outras coisas, o que teria de alterado nos exames?*  \n• *Posso continuar tomando ibuprofeno?*  \n• *O que eu posso fazer para essa dor melhorar sem ter que tomar remédio?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130x85 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 98%  \n• **Temp. axilar:** 36.5° C  \n• **IMC:** 28 kg/m²  \n\n\n**Ectoscopia:** Paciente em bom estado geral, lúcida, orientada, corada, hidratada. Apresenta-se tensa e chorosa durante a consulta.  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** sem alterações.  \n\n\n**Abdominal:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME LOCOMOTOR",
+      "conteudo": "**Coluna Lombar:**  \n• **Inspeção:** Pequeno desvio da coluna para a esquerda.  \n• **Palpação:** Dor à palpação da musculatura paravertebral bilateralmente.  \n• **Mobilidade:** Preservada.  \n\n\n**Exame Neurológico:**  \n• Força, sensibilidade e reflexos em membros inferiores: **Normais.**  \n• Manobra de elevação de membro inferior em extensão (Lasègue): **Negativo** *(V.R: Negativo)*.  \n\n\n**Outros achados:**  \n• Encurtamento dos músculos ísquio-tibiais.  \n• Tensão e pontos dolorosos em músculos do trapézio e elevador da escápula.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES DE IMAGEM",
+      "conteudo": "**EXAMES DE IMAGEM:**  \n\n\n• **Radiografia da coluna lombo sacra:** Osteófitos marginais e pinçamento do espaço L5-S1.  \n• **Radiografia da articulação sacroilíaca:** Normal.",
+      "imagem": "img_printeds/2012-e15p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação e Acolhimento:**  \n(1) identifica-se;  \n(2) cumprimenta a paciente e pergunta seu nome; e,  \n(3) demonstra escuta ativa e acolhedora à queixa da paciente.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza apenas uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese da dor, investigando:**  \n(1) Início, duração e frequência;  \n(2) Fatores de melhora e piora;  \n(3) Irradiação ou sintomas neurológicos (parestesia, fraqueza).  \n\n**Adequado:** investiga os três grupos de itens.  \n**Parcialmente adequado:** investiga dois grupos de itens.  \n**Inadequado:** investiga um grupo de itens ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga ativamente a presença de sinais de alarme (\"red flags\") e fatores psicossociais (\"yellow flags\").**  \n(1) Sinais de alarme (febre, perda de peso, trauma, câncer);  \n(2) Fatores psicossociais (humor, satisfação com o trabalho, crenças sobre a dor).  \n\n**Adequado:** investiga ao menos 4 itens no total (somando \"red\" e \"yellow flags\").  \n**Parcialmente adequado:** investiga 3 itens no total.  \n**Inadequado:** investiga 2 itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Afasta diagnósticos diferenciais com base nos exames.**  \n(1) Lombociatalgia: exame neurológico normal, Manobra de elevação do MI (Lasègue) em extensão negativa.  \n(2) Espondilite anquilosante: HLA B27 negativo, Raios-X de sacroilíaca normal.  \n(3) Hérnia de disco: ausência de sinais radiculares.  \n\n**Adequado:** informa ao menos 2 diagnósticos diferenciais e sua justificativa para afastá-los.  \n**Parcialmente adequado:** informa 1 diagnóstico diferencial e sua justificativa.  \n**Inadequado:** não informa ou o faz de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula a hipótese diagnóstica principal.**  \n\n**Adequado:** verbaliza o diagnóstico de Lombalgia mecânica crônica, OU Lombalgia crônica, OU Lombalgia mecânica.  \n**Parcialmente adequado:** verbaliza apenas \"Lombalgia\".  \n**Inadequado:** fornece outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Identifica a conduta farmacológica inadequada e orienta sua suspensão.**  \n(1) identifica o Ibuprofeno como fármaco a ser suspenso;  \n(2) justifica a suspensão pelo risco de piora da dispepsia OU pelo risco de lesão renal.  \n\n**Adequado:** realiza ao menos 2 itens (identifica o fármaco e apresenta uma justificativa).  \n**Parcialmente adequado:** realiza apenas 1 item.  \n**Inadequado:** não realiza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Propõe condutas não farmacológicas para reabilitação.**  \n(1) fisioterapia;  \n(2) programa de exercícios físicos regulares (fortalecimento/alongamento);  \n(3) educação em dor e orientações posturais (RPG);  \n(4) encaminhamento para nutricionista visando perda de peso.  \n\n**Adequado:** cita ao menos 2 condutas.  \n**Parcialmente adequado:** cita 1 conduta.  \n**Inadequado:** não cita nenhuma conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Propõe abordagem para os fatores psicossociais identificados.**  \n\n**Adequado:** indica acompanhamento com psicoterapia OU terapia cognitivo-comportamental OU práticas de mente-corpo (meditação/mindfulness).  \n**Inadequado:** não indica uma abordagem adequada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta a paciente sobre o diagnóstico e o plano de cuidados.**  \n(1) explica, em linguagem acessível, o que é a Lombalgia mecânica crônica, tranquilizando-a;  \n(2) reforça que o movimento é benéfico;  \n(3) agenda retorno para acompanhamento longitudinal na UBS.  \n\n**Adequado:** realiza duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

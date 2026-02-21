@@ -1,0 +1,253 @@
+{
+  "uid": 2025,
+  "hash": "pepe_2025",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Sangramento Uterino Anormal (SUA) - Spotting/Escape | 2020",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico padrão.\n\nDescrição do caso:\nPaciente de 24 anos procura atendimento no ambulatório com queixa de sangramento vaginal \"fora de hora\".",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao quadro da paciente.  \n- Solicitar exame físico, caso necessário.  \n- Responder as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Camila, 24 anos, estudante.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim aqui porque estou tendo um sangramento vaginal que antes eu não tinha. Está me incomodando.  \n\n\n**SOBRE O SANGRAMENTO:**  \n• **Início:** Começou faz uns 2 meses, logo depois que eu iniciei o anticoncepcional novo.  \n• **Quantidade:** É pouco, tipo uma \"borra de café\" ou um sangue vivo bem pouquinho. Só suja a calcinha ou o protetor.  \n• **Dor:** Não sinto cólica nem dor na barriga.  \n\n\n**USO DO ANTICONCEPCIONAL:**  \n• Eu comecei a tomar pílula faz 3 meses. É uma dessas mais fracas que o médico do posto indicou.  \n• **Adesão:** Eu tomo direitinho.  \n\n\n**HISTÓRICO MENSTRUAL:**  \n• **Ciclo:** Minha menstruação sempre foi um relógio.  \n• **Duração:** Vinha a cada 28 ou 30 dias, durava uns 5 dias.  \n• **Fluxo:** O fluxo era normal, nunca tive esses escapes antes de tomar o remédio.  \n\n• **Menarca:** Menstruei a primeira vez com 12 anos.  \n• **Atraso menstrual:** Nunca tive atraso.  \n\n\n**OUTROS SINTOMAS E FATORES:**  \n• **Relação Sexual:** Tenho parceiro fixo. Não sinto dor na relação.  \n• **Sangramento:** nega.  \n• **Preservativo:** A gente tem usado camisinha sim.  \n• **Outras medicações:** Não tomo nenhum outro remédio.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Doutor(a), isso pode ser alguma doença no útero?*  \n• *Será que o remédio não está funcionando e eu estou grávida?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO E GINECOLÓGICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 72 bpm  \n• **FR:** 16 irpm  \n• **Temp:** 36,5ºC  \n\n\n**Exame Físico Geral:**  \n• Bom estado geral, corada, hidratada, anictérica, acianótica.  \n\n• **Abdome:** plano, flácido, indolor à palpação superficial e profunda, sem massas palpáveis.  \n\n\n**EXAME GINECOLÓGICO:**  \n• **Inspeção Vulvar:** Genitália externa de aspecto fisiológico, trofismo preservado, sem lesões, sem hiperemia ou secreções patológicas visíveis externamente.  \n\n\n• **Exame Especular:** Paredes vaginais íntegras e normocoradas. Colo uterino epitelizado, orifício externo fechado, sem lesões ou pólipos. Presença de pequena quantidade de conteúdo hemático escuro (borra) em fundo de saco posterior, sem sangramento ativo profuso no momento.  \n\n\n• **Toque Vaginal:** Vagina com temperatura e elasticidade normais. Colo uterino de consistência fibroelástica, indolor à mobilização. Útero intrapélvico, de tamanho habitual, móvel e indolor. Anexos não palpáveis e indolores.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**01 Identificou-se para o paciente? (nome ou profissão)**  \n\n**Adequado:** Identificou-se.  \n**Inadequado:** Não se identificou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**02 Cumprimentou a paciente?**  \n\n**Adequado:** Cumprimentou.  \n**Inadequado:** Não cumprimentou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**03 Perguntou pelo menos 3 itens da identificação do paciente? (nome, idade, naturalidade, procedência, profissão, escolaridade, raça ou religião)**  \n\n**Adequado:** Perguntou 3 itens ou mais.  \n**Inadequado:** Perguntou 2 itens ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**04 Não interrompeu o paciente nos primeiros segundos da queixa principal e HDA?**  \n\n**Adequado:** Não interrompeu.  \n**Inadequado:** Interrompeu.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**05 Perguntou sobre a intensidade do sangramento atual?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**06 Perguntou sobre o uso regular ou se houve interrupção do uso do anticoncepcional?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**07 Perguntou sobre o uso de outros medicamentos?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**08 Perguntou sobre atraso menstrual anterior ao sangramento?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**09 Perguntou sobre outros episódios de sangramento transvaginal irregular?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10 Perguntou sobre ciclos menstruais anteriores ao uso do anticoncepcional, caracterizando número de dias de sangramento, intervalo menstrual e volume?**  \n\n**Adequado:** Perguntou caracterizando o ciclo.  \n**Inadequado:** Não perguntou ou perguntou de forma incompleta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11 Perguntou sobre presença de dor associada ao sangramento?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12 Perguntou se tem dor na relação sexual?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13 Perguntou se tem sangramento durante ou após a relação sexual?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14 Perguntou sobre a menarca da paciente?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15 Questionou sobre uso de preservativo?**  \n\n**Adequado:** Questionou.  \n**Inadequado:** Não questionou.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16 Perguntou se a paciente queria acrescentar algo que não houvesse sido questionado?**  \n\n**Adequado:** Perguntou.  \n**Inadequado:** Não perguntou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17 Quando questionado pela paciente sobre o diagnóstico, falou da necessidade de realizar um exame ginecológico/especular?**  \n\n\n**Adequado:** Falou da necessidade.  \n**Inadequado:** Não falou.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18 Quando a paciente questionou sobre a gravidade do caso, tentou tranquilizar a paciente?**  \n\n**Adequado:** Tentou tranquilizar.  \n**Inadequado:** Não tentou tranquilizar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19 Tranquilizou a paciente, falando da possibilidade de ser o sangramento um efeito do uso recente de anticoncepcional de baixa dosagem?**  \n\n**Adequado:** Tranquilizou e explicou a relação com o anticoncepcional.  \n**Inadequado:** Não explicou ou não relacionou.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20 Manteve o contato visual com a paciente durante a anamnese?**  \n\n**Adequado:** Manteve contato visual.  \n**Inadequado:** Não manteve contato visual.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

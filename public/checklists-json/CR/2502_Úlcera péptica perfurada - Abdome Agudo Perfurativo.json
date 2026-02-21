@@ -1,0 +1,172 @@
+{
+  "uid": 2502,
+  "hash": "pepe_2502",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Úlcera péptica perfurada - Abdome Agudo Perfurativo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária.  \nTipo de atendimento: urgência e emergência.  \nA unidade possui:  \n• setor de radiologia com aparelho de radiografia;  \n• laboratório de análises clínicas;  \n• centro cirúrgico.\n\nDescrição do caso:\nVocê é um médico de plantão na emergência de uma unidade de pronto atendimento (UPA) e atenderá um paciente de 31 anos com queixa de dor abdominal.",
+  "tarefas": "TAREFAS:  \n- realizar anamnese;  \n- solicitar exame físico do paciente;  \n- realizar o exame físico específico no manequim;  \n- solicitar e interpretar exames laboratoriais;  \n- solicitar e interpretar exames complementares pertinentes ao caso;  \n- formular e verbalizar a hipótese diagnóstica definitiva;  \n- orientar tratamento inicial e tratamento definitivo.  \n\n\\\nATENÇÃO: O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Rafael, 31 anos, profissional de educação física.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor horrível na boca do estômago. Começou do nada, faz umas 6 horas.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou de repente, foi um estalo. Faz 6 horas.  \n• **Localização:** É bem na boca do estômago, mas agora parece que está espalhando pela barriga toda.  \n• **Característica:** É uma dor tipo uma facada, que não para.  \n• **Intensidade:** É a pior dor da minha vida. Nota 10.  \n• **Atenuantes/agravantes:** Eu tomei um anti-inflamatório, mas não adiantou nada. Ficar parado dói, me mexer dói... tudo dói.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Vômitos e náuses:** Estou muito enjoado desde que a dor começou, mas não cheguei a vomitar.  \n• **Febre:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Não, não tenho nenhuma doença, sou bem saudável.  \n• **Medicações:** Eu tomo nimesulida todo dia à noite, faz uns 3 meses. É por causa do treino que estou fazendo pra competir no CrossFit.  \n• **Atividade física:** Eu faço CrossFit, estou treinando pesado para uma competição.  \n• **Alimentação:** Minha alimentação é bem regrada, tomo whey protein também.  \n• **Álcool, tabaco e drogas:** Não fumo, não bebo e não uso nenhum tipo de hormônio.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "Paciente em regular estado geral, hidratado, normocorado, acianótico.  \n\n\n**SINAIS VITAIS**  \n• **Frequência cardíaca:** 100 batimentos por minuto.  \n• **Pressão arterial:** 100 mmHg x 70 mmHg.  \n• **Frequência respiratória:** 24 incursões respiratórias por minuto.  \n• **Temperatura axilar:** 37,8°C.  \n• **IMC:** 22,5 kg/m²  \n\n\n**Aparelhos respiratório e cardiovascular:** sem anormalidades.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO ABDOMINAL",
+      "conteudo": "• **Inspeção:** levemente distendido.  \n• **Ausculta:** ruídos hidroaéreos diminuídos.  \n• **Percussão:** timpânico difusamente, sem macicez; sinal de Jobert presente.  \n• **Palpação:** tenso, resistente e doloroso à palpação superficial e profunda em todo o abdome.  \n• **Descompressão brusca dolorosa em todo o abdome.**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina (Hb):** 14,8 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Hematócrito (Hct):** 44,2% (VR: 40 – 50%)  \n• **Leucócitos:** 16.500/mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 240.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n• **Proteína C reativa:** 50 mg/dL (VR: ≤ 8 mg/dL)  \n\n\n• **Creatinina:** 1,1 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 36 mg/dL (VR: 10 – 40 mg/dL)  \n• **Sódio:** 140 mEq/L (VR: 135 – 145 mEq/L)  \n• **Potássio:** 4,5 mEq/L (VR: 3,5 – 5,0 mEq/L)  \n\n\n• **Amilase:** 140 U/L (VR: 60 – 180 U/L)  \n• **Lipase:** 34 U/L (VR: 0 – 160 U/L)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME DE IMAGEM",
+      "conteudo": "**OLHE PARA A CÂMERA E DESCREVA O ACHADO DESTE EXAME DE IMAGEM.**",
+      "imagem": "img_printeds/2025-1-e2p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) pergunta o nome e cumprimenta o paciente simulado.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor:**  \n(1) tempo de início OU duração;  \n(2) irradiação OU migração da dor;  \n(3) tipo;  \n(4) intensidade;  \n(5) fatores agravantes OU fatores de piora;  \n(6) fatores atenuantes OU fatores de melhora.  \n\n**Adequado:** pergunta sobre cinco ou mais características.  \n**Parcialmente adequado:** pergunta sobre quatro características.  \n**Inadequado:** não pergunta ou pergunta sobre três ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre fatores relevantes para o estabelecimento do diagnóstico:**  \n(1) náuseas e(ou) vômitos;  \n(2) febre;  \n(3) antecedente de dispepsia;  \n(4) uso crônico de anti-inflamatório;  \n(5) etilismo e tabagismo;  \n(6) episódios prévios semelhantes.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** não investiga ou investiga apenas um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza o exame físico abdominal, no manequim, utilizando a técnica adequada e verbalizando cada ação:**  \n(1) sequência: inspeção, ausculta, percussão e palpação;  \n(2) palpação superficial e profunda (bimanual);  \n(3) pesquisa de dor à descompressão brusca.  \n\n**Adequado:** realiza os três itens.  \n**Parcialmente adequado:** realiza dois itens.  \n**Inadequado:** realiza um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames laboratoriais:**  \n(1) PCR e(ou) VHS;  \n(2) hemograma;  \n(3) amilase e(ou) lipase;  \n(4) ureia e creatinina;  \n(5) sódio e potássio.  \n\n**Adequado:** solicita quatro ou cinco itens (e obrigatoriamente PCR e hemograma).  \n**Parcialmente adequado:** solicita três itens (e obrigatoriamente PCR e hemograma).  \n**Inadequado:** não solicita ou solicita apenas um ou dois ou três itens (sem PCR e hemograma).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita radiografia de tórax em incidência póstero-anterior (PA) e em posição ortostática OU rotina radiológica de abdome agudo.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta corretamente os achados do exame de imagem, descrevendo o pneumoperitônio.**  \n\n**Adequado:** interpreta.  \n**Inadequado:** não interpreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define hipótese diagnóstica: úlcera péptica perfurada e(ou) abdome agudo perfurativo.**  \n\n**Adequado:** define.  \n**Inadequado:** não define.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Correlaciona o uso de anti-inflamatório OU nimesulida ao quadro atual.**  \n\n**Adequado:** correlaciona.  \n**Inadequado:** não correlaciona.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica analgesia endovenosa ou intravenosa (IV ou EV).**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica a necessidade de avaliação cirúrgica imediata/urgente OU indica a necessidade de laparotomia/laparoscopia \nexploradora imediata/urgente.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

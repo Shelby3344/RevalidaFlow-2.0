@@ -1,0 +1,166 @@
+{
+  "uid": 206,
+  "hash": "pepe_206",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Diverticulite Aguda não complicada - Hinchey Ia",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária - unidade de pronto atendimento (UPA).  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• setor de radiologia com aparelho de radiografia e tomografia computadorizada;  \n• leitos de observação.\n\nDescrição do caso:\nVocê atenderá um homem de 58 anos que procura o serviço com queixa de dor abdominal e febre há dois dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso;  \n- Solicitar o exame físico específico;  \n- Solicitar e interpretar os exames complementares pertinentes;  \n- Verbalizar a hipótese diagnóstica e sua classificação;  \n- Estabelecer a conduta terapêutica e as orientações ao paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Sérgio, 58 anos, contador.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor na barriga que não passa.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou faz uns 2 dias, mas hoje piorou.  \n• **Localização:** É mais aqui no pé da barriga, do lado esquerdo.  \n• **Irradiação:** Não, fica só ali.  \n• **Característica:** É uma dor que fica latejando, constante.  \n• **Intensidade:** Hoje está um 7 de 10.  \n• **Atenuantes/agravantes:** Piora quando eu aperto. Não tomei remédio, vim direto pra cá.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Eu me senti quente, mas não cheguei a medir a temperatura.  \n• **Náuseas/vômitos:** Estou meio enjoado, mas não vomitei.  \n• **Hábito intestinal:** Meu intestino está preso, faz 3 dias que não vou ao banheiro.  \n• **Sintomas urinários:** Nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** Nega.  \n• **Doenças:** Tenho pressão alta, tomo Losartana.  \n• **Medicações:** Só a Losartana mesmo.  \n• **Cirurgias e internações:** Nunca operei.  \n• **Álcool, tabaco e drogas:** Bebo cerveja nos finais de semana, não fumo.  \n• **Alimentação:** Como de tudo, não faço muita dieta.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *É grave? Vou precisar operar?*  \n• *Vou precisar ficar internado?*  \n• *Isso não é câncer? Vou precisar fazer algum exame?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 135x85 mmHg  \n• **FC:** 96 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 97% em ar ambiente  \n• **Temp. axilar:** 37,9°C  \n\n\n**Ectoscopia:** Paciente em bom estado geral, orientado, corado, hidratado.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdominal:** Abdome plano, ruídos hidroaéreos presentes e diminuídos. Flácido, doloroso à palpação profunda em FIE, sem sinais de irritação peritoneal.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 14,8 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Hematócrito:** 44% (VR: 38 – 50%)  \n• **Leucócitos totais:** 14.200/mm³ (VR: 4.000 – 11.000/mm³)  \n• **Bastões:** 8% (VR: 0 – 5%)  \n• **Segmentados:** 75% (VR: 40 - 70%)  \n• **Linfócitos:** 12% (VR: 20 - 50%)  \n• **Plaquetas:** 210.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**BIOQUÍMICA**  \n• **Proteína C Reativa (PCR):** 125 mg/L (VR: < 5 mg/L)  \n• **Creatinina:** 1,0 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 38 mg/dL (VR: 10 – 50 mg/dL)  \n\n\n**URINA TIPO I (EAS):** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "USG DE ABDOME E PELVE",
+      "conteudo": "• Espessamento parietal concêntrico, simétrico e hipoecogênico em segmento de cólon sigmoide (espessura parietal  ~4 mm).  \n\n• Ecogenicidade da gordura pericólica adjacente, limitando-se à região pericólica.  \n\n• Ausência de coleções líquidas ou ar na cavidade peritoneal.  \n\n• Ausência de coleções organizadas ou abcessos pélvicos visíveis.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor:**  \n(1) início;  \n(2) localização;  \n(3) irradiação;  \n(4) característica;  \n(5) intensidade;  \n(6) fatores de melhora ou piora.  \n\n**Adequado:** pergunta cinco ou mais características.  \n**Parcialmente adequado:** pergunta três ou quatro características.  \n**Inadequado:** pergunta duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas associados relevantes para o diagnóstico diferencial:**  \n(1) febre;  \n(2) náuseas ou vômitos;  \n(3) alteração do hábito intestinal (diarreia ou constipação);  \n(4) sintomas urinários (disúria, polaciúria).  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico do abdome.**  \n\n**Adequado:** solicita o exame físico abdominal.  \n**Inadequado:** não solicita o exame físico abdominal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita Ultrassonografia (USG) de abdome OU pelve.**  \n\n**Adequado:** solicita a USG de abdome OU pelve (ou USG de abdome total).  \n**Inadequado:** não solicita a USG.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a hipótese diagnóstica de Diverticulite Aguda.**  \n\n**Adequado:** verbaliza o diagnóstico de Diverticulite Aguda.  \n**Inadequado:** não verbaliza o diagnóstico ou cita apenas \"abdome agudo inflamatório\".",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Classifica o quadro conforme a classificação de Hinchey.**  \n\n**Adequado:** classifica corretamente como Hinchey Ia (ou Grau 1a, ou fleimão, ou inflamação pericólica).  \n**Inadequado:** classifica incorretamente (ex: Ib, II, III, IV) ou não classifica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica o tratamento clínico (antibioticoterapia).**  \n\n**Adequado:** prescreve antibioticoterapia oral com cobertura para Gram-negativos e anaeróbios (ex: Ciprofloxacino + Metronidazol OU Amoxicilina + Clavulanato).  \n**Inadequado:** não prescreve antibióticos ou prescreve um esquema inadequado (sem cobertura para anaeróbios) OU prescreve apenas via endovenosa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o tratamento clínico (dieta e analgesia).**  \n(1) orienta dieta líquida clara (ou dieta leve), com progressão conforme aceitação;  \n(2) prescreve analgesia (ex: Dipirona).  \n\n**Adequado:** indica os dois itens (dieta e analgesia correta).  \n**Parcialmente adequado:** indica apenas um dos itens OU orienta jejum.  \n**Inadequado:** não indica nenhuma das condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define o local do tratamento (internação vs. ambulatorial).**  \n\n**Adequado:** indica tratamento ambulatorial, com reavaliação em 24/48/72h (paciente estável, Hinchey Ia).  \n**Inadequado:** indica cirurgia ou internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre a investigação futura.**  \n\n**Adequado:** orienta a necessidade de realizar colonoscopia após a resolução do quadro agudo (4-6 semanas) para excluir neoplasia.  \n**Inadequado:** não orienta sobre a colonoscopia de seguimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

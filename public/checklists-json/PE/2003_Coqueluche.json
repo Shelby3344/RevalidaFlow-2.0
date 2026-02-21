@@ -1,0 +1,166 @@
+{
+  "uid": 2003,
+  "hash": "pepe_2003",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Coqueluche",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está em um pronto-socorro.\n\nDescrição do caso:\nVocê está em um pronto-socorro e realiza o atendimento de uma  \ncriança com 8 meses de idade. A mãe refere que, há 20 dias, seu filho  \niniciou quadro de febre e tosse. A febre melhorou depois de 2 dias,  \nmas a tosse piorou. Ontem, ela levou o filho à Unidade de Saúde da  \nFamília perto de sua casa. A médica solicitou exame de sangue e  \nradiografia de tórax e pediu que retornassem hoje para reavaliar a  \ncriança, junto com os exames. Mas a mãe decidiu levar a criança ao  \npronto-socorro, pois seu filho apresenta dificuldade para respirar por  \ncausa da tosse.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as tarefas a seguir:  \n- realizar anamnese dirigida para a queixa relatada pela mãe;  \n- interpretar e verbalizar para o(a) chefe de estação os resultados dos exames  \ncomplementares;  \n- explicar para a mãe o diagnóstico;  \n- orientar a mãe sobre o plano de cuidados.",
+  "script_ator": "**DADOS DA MÃE**:  \n• Maria, 29 anos.  \n\n**DADOS DA CRIANÇA**:  \n• Pedro 8 meses  \n\n**MOTIVO DE CONSULTA**:  \n• Dr.(a), há 20 dias, meu filho iniciou quadro de febre e tosse. Levei-o ao posto, onde a médica solicitou alguns exames e um RX do pulmão, e pediu para que eu retornasse, mas achei melhor trazer ao pronto socorro para ver se algum médico pode passar um xarope para essa tosse dele, pois está horrível e há vezes em que ele fica roxo.  \n\n**SINTOMAS ASSOCIADOS**:  \n• **Febre**: Sim, teve um episódio há uns 20 dias, mas melhorou sem uso de medicação.  \n• **Tosse**: Iniciou há 20 dias. Apareceu de forma repentina e dura bastante tempo. Notei também que ele faz um barulho ao respirar e já ficou meio roxo algumas vezes durante as crises de tosse. Estou muito preocupada, nunca vi isso na minha vida.  \n• **Frequência da tosse**: Mais de cinco acessos de tosse rápida.  \n• **Falta de ar**: Sim, Dr.(a), quando está tossindo muito, fica com falta de ar.  \n\n**SINAIS E SINTOMAS ACOMPANHANTES**: Não consta.  \n\n**ANTECEDENTES PESSOAIS**:  \n**CARTÃO DE VACINAS**: Dr.(a), eu sempre levo ele para tomar as vacinas; porém, da última vez, a vacina dos seis meses estava em falta na UBS, e acabei esquecendo de voltar.  \n**CRESCIMENTO E DESENVOLVIMENTO**: Tudo normal. Ele é bem saudável, nunca teve nada.  \n**MEDICAÇÕES EM USO, ALERGIAS E INTERNAÇÕES**: Nega.  \n**HÁBITOS**: Sem alterações.  \n\n**Após o término da ANAMNESE, quando o médico solicitar para ver os exames trazidos pela mãe, entregar Impressos 2, 3 onde consta RADIOGRAFIA E EXAMES, e questionar o médico**: O que você está vendo, Dr.(a)?  \n\n**OUTRAS PERGUNTAS**: Não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "AVALIAÇÃO INICIAL",
+      "conteudo": "**Exame físico geral:** lactente em bom estado geral, corado, hidratado e acianótico  \n**Sinais vitais:**  \n- **FC:** 110 bpm  \n- **FR:** 35 irpm  \n- **SatO2:** 98% (ar ambiente)  \n- **Peso:** 8,5 kg  \n\n\n**Exame físico segmentar:**  \n- **Aparelho cardiovascular:** RCR 2T, com bulhas normofonéticas, sem sopro.  \n- **Aparelho respiratório:** sem esforço respiratório. Murmúrio vesicular fisiológico, sem ruídos adventícios.  \n- **Abdome:** plano, normotenso, sem visceromegalias, não doloroso à palpação, sem sinais de irritação peritoneal, ruídos hidroaéreos presentes e normais.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "HEMOGRAMA",
+      "conteudo": "**Hemoglobina:** 12 g/dL (VR = 11 a 13 g/dL)  \n**Hematócrito:** 38% (VR = 37% a 41%)  \n**Leucócitos:** 40.000/mm³ (VR = 7.000 a 9.000/mm³)  \n**Linfócitos:** 80% (VR = 10% a 20%)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "",
+      "imagem": "img_printeds/2020-e3p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1 Identifica-se (1) e cumprimenta a mãe de maneira adequada (2).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2 Pergunta sobre as características da tosse Paroxística:**  \na) Duração - acima de 20 dias;  \nb) Relação com o ciclo respiratório - tosses rápidas e curtas (de cinco a dez) em  \numa única expiração;  \nc) Frequência - 30 a 40 episódios/dia.  \n\n**Adequado:** investiga três características da tosse.  \n**Parcialmente adequado:** investiga até duas características da tosse.  \n**Inadequado:** não caracteriza a tosse.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**1.3 Pergunta sobre a presença do guincho inspiratório, que ocorre logo após o**  \nacesso de tosse, durante uma inspiração profunda através da glote  \nestreitada, podendo originar um som.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**2.1 Verbaliza o resultado do hemograma:** leucocitose com linfocitose.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**2.2 Verbaliza a interpretação da radiografia de tórax:** imagem de \"coração  \nborrado\", \"felpudo\" ou \"franjado\", porque as bordas da imagem cardíaca não  \nsão nítidas, em decorrência dos infiltrados pulmonares.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**3.1 Explica, com linguagem simples, o diagnóstico de coqueluche.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**3.2 Explica sobre a necessidade de internação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**3.3 Orienta a mãe sobre a necessidade de uso de antibiótico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**3.4 Indica a notificação do caso de coqueluche.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**3.5 Investiga os comunicantes ou contatos íntimos**  \n(membros da família ou pessoas que vivem na mesma casa ou que frequentam  \nhabitualmente o local de moradia do caso) e indica quimioprofilaxia com  \nazitromicina ou claritromicina.  \n\n**Adequado:** investiga e indica corretamente os 2 itens.  \n**Parcialmente adequado:** investiga ou indica corretamente somente um item.  \n**Inadequado:** não investiga e não indica corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**3.6 Pergunta se a mãe possui alguma dúvida.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

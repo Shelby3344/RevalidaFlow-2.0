@@ -1,0 +1,182 @@
+{
+  "uid": 1705,
+  "hash": "pepe_1705",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Lesão por Esforço Repetitivo • LER/DORT + Transtorno de Ansiedade",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está em uma Unidade Básica de Saúde (UBS).\n\nDescrição do caso:\nVocê está em uma Unidade Básica de Saúde (UBS) e atende uma paciente de  \n30 anos de idade que chega para uma consulta agendada.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar a anamnese;  \n- interpretar e verbalizar achados no exame físico e em laudos de exames  \ncomplementares;  \n- formular e comunicar a(s) hipótese(s) diagnóstica(s);  \n- indicar verbalmente conduta(s) e dar orientações à paciente.  \n\n\nNão será necessário realizar o exame físico.  \nCaso necessite, no momento adequado, solicite dados do exame físico ao(à) examinador(a).",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Ana Carla, 30 anos, operadora de máquina.  \n\n**QUEIXA PRINCIPAL:** Faz tempo que estou sentindo uma dor horrível no meu ombro. No começo era só um incômodo, mas agora está insuportável.  \n\n\n**SOBRE A DOR:**  \n• **Início:** uns 4 meses.  \n• **Localização:** no ombro direito.  \n• **Irradiação:** não irradia.  \n• **Característica:** ela vai e volta  \n• **Intensidade:** 6/10.  \n• **Atenuantes/Agravantes:** Melhora com descanso, e piora quando faço força demais. Não tomei nenhum remédio.  \n\n\n• **Frequência:** está quase todo dia assim.  \n• **Funcionalidade:** perdi muito a força no braço, e o braço está mais duro.  \n• **Movimento:** quando eu levanto ou giro, aí o ombro dói.  \n\n\n**SOBRE ANSIEDADE:** mudaram algumas coisas no meu emprego e estou pensativa sobre isso.  \n• **Início:** há uns 6 meses.  \n• **Preocupação:** estou preocupada em perder o emprego.  \n• **Irritação:** tenho ficado irritada mais fácil.  \n• **Sono:** estou dormindo pouco e acordando durante a noite.  \n• **Concentração:** parece que estou mais lenta ultimamente.  \n\n\n• **Tristeza, perda de interesse ou prazer, ideação suicida, pensamentos de culpa:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças, medicações, cirurgias e internações:** nega.  \n• **Vacinação:** está tudo em dia.  \n\n\n• **Trabalho:** Fico 6 horas por dia na indústria operando robôs, e uso muito os braços para movimentar as máquinas.  \n\n\n• **Álcool, tabaco e drogas:** nega.  \n• **Atividade física:** nega.  \n• **Alimentação:** como de tudo e não faço dieta.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n• Minha mãe tem diabetes e hipertensão.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• O que eu tenho Dr(a)?  \n• *Caso o candidato verbalize sobre a contratura muscular cervical:* O que poderia ser essa contratura cervical?  \n• Como pode ser o tratamento?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RAIO-X DE OMBRO",
+      "conteudo": "Radiografia de ombro direito e de coluna cervical: normais.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Peso:** 55 kg  \n• **Altura:** 160 cm  \n• **Temperatura axilar:** 36,8 ºC  \n• **Frequência respiratória:** 20 irpm  \n• **Frequência cardíaca:** 90 bpm  \n• **Pressão arterial:** 110 x 80 mmHg  \n\n\n**Músculo esquelético:**  \n– Contratura muscular cervical  \n– Sem limitação de amplitude do movimento de coluna cervical e ombro direito  \n– Sem alteração da cor da pele no local da dor  \n– Sem edema de articulações de membros superiores  \n\n\n**Demais aspectos:** sem alterações",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Relação médico-paciente: (a) cumprimenta a paciente, pergunta seu nome e**  \nidentifica-se; (b) pergunta o motivo da vinda da paciente; (c) ouve com atenção a  \nqueixa sem interromper a sua fala, demonstrando interesse por sua história; (d)  \nolha para a paciente durante a maior parte da consulta.  \n\n**Inadequado:** se realizar 0 ou 1 item;  \n**Parcialmente adequado:** se realizar 2 ou 3 itens;  \n**Adequado:** se realizar os 4 itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre características da dor: (1) início; (2) frequência; (3)duração; (4)**  \ntipo; (5) intensidade; (6) localização; (7) fatores de piora; (8) fatores de melhora; (9)  \nimpacto na funcionalidade; (10) limitaçãode movimento.  \n\n**Inadequado:** se perguntar de 0 a 3 itens;  \n**Parcialmente adequado:** se perguntar de 4 a 7 itens;  \n**Adequado:** se perguntar 8 ou mais itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga: (1) história familiar; (2) histórico ocupacional (atividades laborais,**  \ncondições de trabalho); (3) trabalho na atualidade, incluindo ambiente e processo.  \n\n**Inadequado:** se investigar 0 ou 1 item;  \n**Parcialmente adequado:** se investigar 2 itens;  \n**Adequado:** se investigar os 3 itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga sintomas de transtorno de ansiedade generalizada: (1) preocupações;**  \n(2) tensão muscular; (3) irritabilidade; (4) alteração no sono; (5) alteração do apetite;  \n(6) alteração da atenção ou concentração.  \n\n**Inadequado:** se investigar 0 ou 1 item;  \n**Parcialmente adequado:** se investigar 2 ou 3 itens;  \n**Adequado:** se investigar 4 ou mais itens",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga sintomas específicos de depressão não compartilhados com**  \ntranstorno de ansiedade generalizada: (1) tristeza; (2) perda de interesse ou prazer;  \n(3) ideação ou plano suicida; (4) pensamentosde ruína ou culpa.  \n\n**Inadequado:** se investigar 0 ou 1 item;  \n**Parcialmente adequado:** se investigar somente 2 itens;  \n**Adequado:** se investigar 3 ou 4 itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita e interpreta o exame físico (sem alterações, exceto contratura**  \nmuscular cervical) e comunica o resultado à paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta o laudo do exame de RX da coluna cervical e do ombro**  \ndireito (sem alterações) e comunica o resultado à paciente",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Comunica o diagnóstico de dor crônica devido a lesão por esforçõ repetido**  \n(LER), relacionada ao trabalho (DORT).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Comunica o diagnóstico de transtorno de ansiedade generalizada(TAG).**  \n\n**Inadequado:** se não comunicar transtorno de ansiedade generalizada ou se  \ncomunicar outro diagnóstico;  \n**Parcialmente adequado:** se comunicar transtorno de ansiedade;  \n**Adequado:** se comunicar transtorno de ansiedade generalizada (TAG).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Comunica a importância da longitudinalidade do cuidado da condição crônica**  \npela equipe de saúde da família, com possibilidade de matriciamento (NASF e/ou  \nCAPS).  \n\n**Inadequado:** se não verbalizar retorno ou necessidade de atendimento longitudinal  \ne não orientar sobre NASF ou CAPS;  \n**Parcialmente adequado:** se verbalizar somente retorno ou necessidade de  \natendimento longitudinal ou se orientar somente sobre atendimento no NASF ou  \nCAPS;  \n**Adequado:** se verbalizar retorno ou necessidade de atendimento longitudinal e  \norientar sobre atendimento no NASF e ou CAPS.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve terapêutica para dor crônica: (1) ginástica laboral; (2) interrupções**  \nsistemáticas na atividade de trabalho; (3) anti- inflamatórios não esteroides.  \n\n**Inadequado:** se prescrever 0 ou 1 item;  \n**Parcialmente adequado:** se prescrever 2 itens;  \n**Adequado:** se prescrever os 3 itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza a terapêutica para transtorno de ansiedade generalizada: (1) tratamento**  \nmedicamentoso: ISRS (fluoxetina, sertralina, paroxetina, fluvoxamina, citalopram,  \nescitalopram) OU IRSN (venlafaxina, desvenlafaxina ou duloxetina). (2) psicoterapia  \ncognitivo-comportamental OU intervenções psicossociais em atenção primária à  \nsaúde (atuação de NASF e/ou CAPS, terapia comunitária, grupos de autocuidado,  \nterapias complementares).  \n\n**Inadequado:** se não verbalizar tratamento;  \n**Parcialmente adequado:** se verbalizar somente um dos dois tratamentos;  \n**Adequado:** se verbalizar tratamento medicamentoso e psicoterápico/psicossocial.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta a paciente a praticar exercício físico regular após controle da dor.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "uid": 1714,
+  "hash": "pepe_1714",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Morte Encefálica e Doação de Órgãos (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: hospitalar - terciária.  \nA unidade possui a seguinte infraestrutura:  \n• Leitos de UTI;  \n• Equipe multiprofissional;\n\nDescrição do caso:\nVocê é o médico(a) da UTI e conversará com a mãe de uma paciente de 23 anos, com quadro neurológico grave, sobre a suspeita de morte encefálica e o processo de doação de órgãos.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Comunicar à mãe a suspeita de morte encefálica;  \n- Solicitar e interpretar exames, caso julgue necessário;  \n- Descrever os critérios e etapas para a confirmação da ME, conforme a legislação brasileira;  \n- Esclarecer qual o papel da família na decisão sobre a doação de órgãos, conforme a legislação brasileira;  \n- Descrever as etapas do processo de doação de órgãos, caso a família consinta;  \n- Responder as dúvidas da mãe da paciente.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar o impresso **PRONTUÁRIO DA PACIENTE** no início da estação.  \n\n**DADOS PESSOAIS:**  \n• Sônia, 50 anos, mãe da paciente Carla.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), a equipe veio falar comigo sobre a minha filha... Disseram que o quadro dela é muito grave e falaram sobre essa tal de morte encefálica. Eu não entendo direito o que isso significa, é a mesma coisa que o coma?.  \n\n**APÓS A COMUNICAÇÃO DA SUSPEITA DE MORTE ENCEFÁLICA:**  \n• Eu sei que a minha filha sempre disse que queria doar os órgãos. Ela sempre foi muito generosa.  \n• E a nossa religião... alguns parentes não aceitam... É uma decisão tão difícil...  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *Quais são os exames que vocês precisam fazer para ter essa certeza absoluta?*  \n• *Se a nossa família decidir não doar os orgãos, mesmo ela querendo em vida... A vontade dela é a que vale?*  \n• *Se a gente decidir pela doação, como tudo funciona a partir daí?*  \n• *Como que são os processos e as etapas pra escolha de quem recebe os orgãos e tudo mais?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "PRONTUÁRIO DA PACIENTE",
+      "conteudo": "**RESUMO CLÍNICO**  \n• **Nome:** Carla, 23 anos.  \n• **Diagnóstico:** Traumatismo Cranioencefálico (TCE) Grave.  \n\n• **História clínica:** Internada na UTI há 8 dias, em ventilação mecânica, com sedação e analgesia suspensa há mais de 24 horas.  \n\n\n**SINAIS VITAIS:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 85 bpm  \n• **FR:** 12 ipm (controlada pelo ventilador mecânico)  \n• **SatO2:** 99% (com FiO2 de 40%)  \n• **Temp. axilar:** 36.8°C",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME NEUROLÓGICO",
+      "conteudo": "• **Pupilas fixas e midriáticas.**  \n\n• **Ausência de reflexos de tronco (corneano, oculocefálico, oculovestibular, tosse).**  \n\n• **Escala de Coma de Glasgow = 3.**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES COMPLEMENTARES",
+      "conteudo": "**Teste de Apneia:**  \n• **Resultado:** Positivo para ausência de drive respiratório.  \n\n• **Detalhes:** Paciente pré-oxigenado com FiO₂ 100%. Desconectado da ventilação mecânica. Após 10 minutos, não foram observados movimentos respiratórios espontâneos, com gasometria arterial final demonstrando PaCO₂ > 60 mmHg e pH < 7,3.  \n\n\n**Cintilografia Cerebral** (Estudo de Fluxo Sanguíneo Cerebral):  \n\n• **Laudo:** Ausência de perfusão do radiofármaco no parênquima cerebral supra e infratentorial. Atividade vascular mantida apenas em região de escalpo. Achado compatível com ausência de fluxo sanguíneo cerebral (sinal do \"crânio oco\").",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação e Acolhimento:**  \n(1) Apresenta-se à mãe, criando um ambiente privativo e acolhedor;  \n(2) Demonstra empatia pela situação, validando os sentimentos e receios da mãe.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Explica os critérios clínicos para o diagnóstico de morte encefálica.**  \n(1) Coma aperceptivo (ausência de resposta a estímulos);  \n(2) Ausência de reflexos de tronco encefálico (corneopalpebral, oculocefálico, oculovestibular e de tosse - cita ou explica ao menos dois);  \n(3) Informa a necessidade da realização de dois exames clínicos por médicos diferentes.  \n\n**Adequado:** cita os três critérios.  \n**Parcialmente adequado:** cita dois critérios.  \n**Inadequado:** cita apenas um ou não cita nenhum critério.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Menciona o teste da apneia como parte da avaliação clínica.**  \n\n**Adequado:** explica que o teste da apneia confirma a ausência de movimentos respiratórios espontâneos.  \n**Inadequado:** não menciona o teste da apneia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Cita a necessidade de exames complementares para confirmação diagnóstica.**  \n\n**Adequado:** cita ao menos um exame complementar (Doppler transcraniano, angiografia cerebral, ou eletroencefalograma) que demonstre ausência de atividade cerebral ou de fluxo sanguíneo.  \n**Inadequado:** não cita nenhum exame complementar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explica o conceito de Morte Encefálica, diferenciando-o de coma.**  \n\n**Adequado:** explica que, na morte encefálica, há a perda definitiva de todas as funções do cérebro e do tronco cerebral, o que é irreversível, enquanto no coma ainda existe atividade cerebral e possibilidade de recuperação.  \n**Inadequado:** não explica a diferença ou o faz de forma confusa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Esclarece a legislação sobre a decisão de doação de órgãos.**  \n(1) Informa que, legalmente, a decisão final sobre a doação de órgãos cabe à família;  \n(2) Explica que, mesmo com a vontade expressa da paciente em vida, a autorização familiar é indispensável.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta a família sobre o processo de doação de órgãos, caso consintam.**  \n(1) explica que a Central de Transplantes será acionada;  \n(2) informa que serão realizados exames para verificar a compatibilidade e a viabilidade dos órgãos;  \n(3) assegura que o corpo será entregue à família com dignidade e sem deformidades para as cerimônias fúnebres.  \n\n**Adequado:** orienta sobre os três itens.  \n**Parcialmente adequado:** orienta sobre dois itens.  \n**Inadequado:** não orienta sobre o processo de doação ou orienta sobre apenas um item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica a conduta caso a família opte por não doar.**  \n\n**Adequado:** informa que, se a família não consentir, o processo de doação é imediatamente interrompido e os aparelhos de suporte são desligados após a confirmação da morte encefálica.  \n**Inadequado:** não explica a conduta ou fornece informação incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Descreve as etapas iniciais do processo de doação.**  \n(1) Identificação e manutenção do potencial doador (cuidados intensivos para preservar os órgãos);  \n(2) Confirmação da Morte Encefálica (ME) seguindo o protocolo.  \n\n**Adequado:** descreve as duas etapas.  \n**Parcialmente adequado:** descreve uma etapa.  \n**Inadequado:** não descreve nenhuma etapa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Descreve as etapas seguintes do processo de doação.**  \n(1) Notificação do potencial doador à Central de Notificação, Capacitação e Distribuição de Órgãos (CNCDO);  \n(2) Realização da entrevista familiar para consentimento da doação.  \n\n**Adequado:** descreve as duas etapas.  \n**Parcialmente adequado:** descreve uma etapa.  \n**Inadequado:** não descreve nenhuma etapa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Descreve a etapa final do processo de doação.**  \n\n**Adequado:** explica que, após o consentimento, a Central de Transplantes distribui os órgãos e tecidos conforme a lista de espera e critérios de compatibilidade.  \n**Inadequado:** não explica a etapa final do processo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Valida os sentimentos e as dúvidas da mãe, oferecendo apoio multiprofissional.**  \n\n**Adequado:** valida a dificuldade da decisão, respeita as crenças religiosas da família e oferece o suporte da equipe de psicologia e serviço social do hospital.  \n**Inadequado:** não demonstra acolhimento às angústias da mãe ou não oferece o suporte da equipe multiprofissional.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

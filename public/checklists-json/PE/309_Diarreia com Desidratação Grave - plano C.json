@@ -1,0 +1,193 @@
+{
+  "uid": 309,
+  "hash": "pepe_309",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Diarreia com Desidratação Grave - plano C",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - pronto-socorro.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência/reanimação;  \n• Laboratório de análises clínicas;  \n• Leitos de internação pediátrica.\n\nDescrição do caso:\nVocê está de plantão no pronto-socorro e atenderá um lactente de 1 ano e 2 meses, trazido pela mãe com queixa de diarreia e vômitos.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar exames complementares pertinentes, caso necessário.  \n- Formular a hipótese diagnóstica e a classificação de gravidade.  \n- Estabelecer a conduta terapêutica imediata e de manutenção.  \n- Responder as dúvidas e orientar a mãe do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Vanessa, 25 anos.  \n• **Criança:** Marcos, 1 ano e 2 meses.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), meu filho tá muito mal. Ele tá com diarreia e vômito, mas agora ele tá todo molinho, nem reage direito.  \n\n**SOBRE DIARREIA:**  \n• **Início:** Faz 2 dias.  \n• **Aspecto:** É só água, bem amarela.  \n• **Frequência:** Hoje já foi mais de 6 vezes.  \n\n**SOBRE VÔMITOS:**  \n• **Frequência:** Vomitou umas 5 vezes hoje.  \n• **Conteúdo:** Tudo que ele mama, ele vomita logo depois.  \n\n**SINAIS DE ALARME:**  \n• **Astenia/Reatividade:** Ele tá muito quieto, só quer dormir. Chamei ele e ele mal abriu o olho.  \n• **Diurese:** Não fez quase nada de xixi hoje. A fralda está seca.  \n• **Sede/Alimentação:** não está conseguindo comer nem beber nada.  \n• **Olhos:** Os olhos dele estão fundos.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Nascimento:** Nasceu bem, de parto normal.  \n• **Alimentação:** Mama no peito e já come papinha.  \n• **Vacinação:** As vacinas estão em dia.  \n• **Alergias, doenças e medicações:** Nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ele tem, doutor(a)?*  \n• *Ele pode piorar? Posso continuar amamentando?*  \n• *O que vocês vão fazer agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Frequência Cardíaca (FC):** 165 bpm  \n• **Frequência Respiratória (FR):** 42 irpm  \n• **Pressão Arterial (PA):** 75 x 45 mmHg  \n• **Temperatura Axilar:** 37.8°C  \n• **Saturação de O2:** 94% em ar ambiente  \n\n\n**Peso atual:** 9 kg.  \n\n\n**ESTADO GERAL:**  \n• Lactente em mau estado geral, letárgico, pálido (+/4+), mucosas secas (+++/4+).  \n\n\n**AVALIAÇÃO SEGMENTAR:**  \n• **Olhos:** Encovados.  \n\n• **Fontanela:** Deprimida.  \n\n• **Pele:** Tempo de enchimento capilar (TEC) de 4 segundos. Prega cutânea desaparece lentamente.  \n\n• **Respiratório:** Taquidispneico, sem ruídos adventícios.  \n\n• **Cardiovascular:** Taquicárdico, bulhas hipofonéticas, pulsos periféricos finos e rápidos.  \n\n• **Abdome:** Flácido, ruídos hidroaéreos diminuídos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**GASOMETRIA VENOSA:**  \n• **pH:** 7.20 (VR: 7.32 - 7.42)  \n• **pCO2:** 30 mmHg (VR: 41 - 51 mmHg)  \n• **HCO3:** 12 mEq/L (VR: 22 - 26 mEq/L)  \n• **Base Excess (BE):** -10 mEq/L (VR: -2 a +2)  \n\n\n**ELETRÓLITOS:**  \n• **Sódio:** 130 mEq/L (VR: 135 - 145 mEq/L)  \n• **Potássio:** 3.0 mEq/L (VR: 3.5 - 5.0 mEq/L)  \n• **Cloro:** 105 mEq/L (VR: 98 - 106 mEq/L)  \n\n\n**FUNÇÃO RENAL:**  \n• **Ureia:** 65 mg/dL (VR: 15 - 40 mg/dL)  \n• **Creatinina:** 1.0 mg/dL (VR: 0.3 - 0.7 mg/dL)  \n\n\n**GLICEMIA CAPILAR (HGT):** 70 mg/dL (VR: 70 - 110 mg/dL)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e pergunta o nome da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da diarreia e vômitos:**  \n(1) início e frequência da diarreia;  \n(2) aspecto das fezes (aquosa, sangue, muco);  \n(3) frequência e característica dos vômitos.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga ativamente os sinais de desidratação na anamnese:**  \n(1) estado geral (astenia, reatividade, prostração, irritabilidade, letargia);  \n(2) diurese (frequência, volume, fralda seca);  \n(3) sede, choro (presença de lágrimas) ou mucosas (boca seca);  \n(4) aceite de alimentos (alimentação, amamentação);  \n(4) olhos (se estão fundos).  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico do lactente.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta os achados do exame físico que indicam gravidade:**  \n(1) letargia;  \n(2) tempo de enchimento capilar (TEC) > 2 segundos (OU 4 segundos);  \n(3) prega cutânea desaparecendo lentamente;  \n(4) olhos fundos (encovados) OU fontanela deprimida;  \n(5) pulsos finos OU hipotensão.  \n\n**Adequado:** verbaliza três ou mais achados.  \n**Parcialmente adequado:** verbaliza dois achados.  \n**Inadequado:** verbaliza um achado ou não verbaliza nenhum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico e a classificação da gravidade.**  \n\n**Adequado:** verbaliza Diarreia Aguda com Desidratação Grave (OU Plano C).  \n**Parcialmente adequado:** verbaliza Diarreia Aguda com Desidratação, sem classificar a gravidade.  \n**Inadequado:** não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita Glicemia Capilar (HGT) na sala de emergência.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames laboratoriais complementares:**  \n(1) gasometria (venosa ou arterial);  \n(2) eletrólitos (sódio, potássio);  \n(3) função renal (ureia, creatinina).  \n\n**Adequado:** solicita os três grupos de exames.  \n**Parcialmente adequado:** solicita dois grupos de exames.  \n**Inadequado:** solicita um grupo ou não solicita nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a obtenção de acesso vascular.**  \n\n**Adequado:** indica acesso venoso periférico calibroso (OU indica acesso intraósseo).  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a Fase de Expansão Rápida (Plano C) para criança > 1 ano:**  \n(1) Soro Fisiológico 0,9% (OU Ringer Lactato);  \n(2) Volume de 30 mL/kg;  \n(3) Tempo de infusão de 30 minutos.  \n\n**Adequado:** indica os três itens corretamente.  \n**Parcialmente adequado:** indica dois itens corretamente.  \n**Inadequado:** indica um item ou não indica a conduta (OU indica volumes/tempos incorretos para a faixa etária).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica a Fase de Manutenção/Reposição (Plano C) para criança > 1 ano:**  \n(1) Soro Fisiológico 0,9% (OU Ringer Lactato);  \n(2) Volume de 70 mL/kg;  \n(3) Tempo de infusão de 2:30 horas.  \n\n**Adequado:** indica os três itens corretamente.  \n**Parcialmente adequado:** indica dois itens corretamente.  \n**Inadequado:** indica um item ou não indica a conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a mãe sobre a necessidade de internação hospitalar.**  \n\n**Adequado:** informa a gravidade e a necessidade de internação imediata para hidratação venosa.  \n**Inadequado:** não orienta a internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Prescreve sulfato de zinco (20 mg/dia).**  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta sobre a realimentação e sinais de alerta:**  \n(1) orienta manter o aleitamento materno (ou dieta habitual) assim que a criança estiver hidratada e aceitando via oral;  \n(2) orienta sobre os sinais de alerta para retorno (piora da diarreia, vômitos persistentes, recusa alimentar, alteração da consciência).  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

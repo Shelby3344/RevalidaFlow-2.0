@@ -1,0 +1,194 @@
+{
+  "uid": 408,
+  "hash": "pepe_408",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Rotura Prematura de Membranas - RPMO 33 semanas",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - maternidade.  \nTipo de atendimento: urgência e emergência obstétrica.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• setor de ultrassonografia e cardiotocografia;  \n• centro obstétrico;  \n• unidade de internação hospitalar.\n\nDescrição do caso:\nVocê atenderá uma paciente de 28 anos, gestante com 33 semanas, que chega à emergência obstétrica com queixa de perda de líquido.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar o exame físico e ginecológico.  \n- Formular a hipótese diagnóstica principal.  \n- Solicitar os exames complementares pertinentes.  \n- Estabelecer a conduta terapêutica e as orientações para o caso.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Raíssa, 28 anos, casada.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou grávida e acho que minha bolsa estourou.  \n\n**SOBRE A PERDA DE LÍQUIDO:**  \n• **Início:** Faz umas 6 horas. Acordei de madrugada com a calça toda molhada.  \n• **Características:** Era um líquido claro, sem cheiro forte, parecia água mesmo. E não para de sair, fico me molhando.  \n• **Volume:** Foi em quantidade moderada, molhou bem a roupa.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre ou calafrios:** Não, não tive.  \n• **Dor abdominal:** Não estou sentindo dor na barriga.  \n• **Contrações:** Também não sinto a barriga ficar dura.  \n• **Movimentos fetais:** O bebê está mexendo normal, como sempre.  \n• **Sangramento:** Não saiu sangue, só o líquido claro.  \n• **Odor:** Não tem cheiro ruim.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **IG:** Estou com 33 semanas.  \n• **GPA:** É minha segunda gravidez. Tenho um filho de 3 anos, foi parto normal.  \n• **Pré-natal:** Estou fazendo o pré-natal certinho, estava tudo bem até agora.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença e não tomo remédio, só as vitaminas da gravidez.  \n• **Tabagismo:** Eu fumo, doutor(a)... uns 5 cigarros por dia.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho? É grave?*  \n• *O meu bebê vai ter que nascer agora?*  \n• *Ele está bem?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO E OBSTÉTRICO",
+      "conteudo": "**Sinais vitais:**  \n• **Pressão arterial:** 120 x 75 mmHg  \n• **Frequência cardíaca:** 88 bpm  \n• **Frequência respiratória:** 16 irpm  \n• **Temperatura axilar:** 36,8°C  \n\n\n**Estado geral:** Bom estado geral, orientada, corada, hidratada, afebril.  \n\n\n**Exame obstétrico:**  \n• **Altura Uterina (AU):** 32 cm  \n• **Batimentos Cardíacos Fetais (BCF):** 140 bpm  \n• **Dinâmica Uterina (DU):** Ausente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME GINECOLÓGICO",
+      "conteudo": "• **Inspeção:** Visualização de saída de líquido claro, em moderada quantidade, pelo orifício cervical externo, de forma espontânea.  \n\n• **Achados:** Líquido com aspecto claro, sem grumos ou odor fétido. Acúmulo de líquido em fundo de saco vaginal.  \n\n• **Toque vaginal:** Não realizado.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 12,5 g/dL (VR: 12,0 – 16,0 g/dL)  \n• **Hematócrito:** 37% (VR: 36 – 46%)  \n• **Leucócitos:** 8.500/mm³ (VR: 4.500 – 11.000/mm³)  \n• **Plaquetas:** 220.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**BIOQUÍMICA**  \n• **Proteína C Reativa (PCR):** 2,5 mg/L (VR: < 5,0 mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "CARDIOTOCOGRAFIA",
+      "conteudo": "• **Linha de base:** 140 bpm.  \n\n• **Variabilidade:** Moderada.  \n\n• **Acelerações transitórias:** Presentes.  \n\n• **Desacelerações:** Ausentes.  \n\n• **Dinâmica Uterina:** Ausente.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida à queixa principal:**  \n(1) investiga as características da perda de líquido (início, cor, cheiro, volume);  \n(2) investiga a presença de contrações ou dor abdominal;  \n(3) investiga a movimentação fetal.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sinais de infecção (corioamnionite):**  \n(1) pergunta sobre febre ou calafrios;  \n(2) pergunta sobre odor fétido do líquido.  \n\n**Adequado:** pergunta os dois itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico geral e obstétrico.**  \n\n**Adequado:** solicita o exame físico completo (sinais vitais, BCF, AU, DU).  \n**Inadequado:** não solicita o exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame especular para confirmação diagnóstica.**  \n\n**Adequado:** solicita o exame especular (para visualização da saída de líquido pelo colo).  \n**Inadequado:** não solicita o exame especular.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Contraindica a realização do toque vaginal.**  \n\n**Adequado:** verbaliza que o toque vaginal está contraindicado ou não o solicita.  \n**Inadequado:** solicita o toque vaginal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica de Rotura Prematura de Membranas Ovulares (RPMO).**  \n\n**Adequado:** verbaliza a hipótese diagnóstica.  \n**Inadequado:** não verbaliza a hipótese ou formula outra.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames complementares para avaliação infecciosa e de bem-estar fetal:**  \n(1) Hemograma;  \n(2) Proteína C Reativa (PCR);  \n(3) Cardiotocografia (ou avaliação de BCF).  \n\n**Adequado:** solicita os três itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um item ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a internação hospitalar para conduta conservadora (expectante).**  \n\n**Adequado:** indica a internação.  \n**Inadequado:** não indica a internação ou indica a indução do parto imediata.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Prescreve corticoide para maturação pulmonar fetal.**  \n\n**Adequado:** indica o uso de Betametasona OU Dexametasona.  \n**Inadequado:** não indica o uso de corticoide.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica antibioticoprofilaxia.**  \n\n**Adequado:** indica o uso de antibióticos (ex: Ampicilina E/OU Azitromicina).  \n**Inadequado:** não indica antibioticoprofilaxia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Não indica neuroproteção fetal com Sulfato de Magnésio.**  \n\n**Adequado:** não indica o Sulfato de Magnésio (justificado pela idade gestacional > 32 semanas).  \n**Inadequado:** indica o uso de Sulfato de Magnésio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta a paciente sobre a conduta e os riscos.**  \n(1) explica que o bebê permanecerá sendo monitorado (vigilância de bem-estar fetal);  \n(2) informa sobre o risco de infecção (corioamnionite);  \n(3) informa sobre o risco de parto prematuro.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

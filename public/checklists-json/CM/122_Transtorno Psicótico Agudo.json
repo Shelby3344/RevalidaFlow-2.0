@@ -1,0 +1,154 @@
+{
+  "uid": 122,
+  "hash": "pepe_122",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Transtorno Psicótico Agudo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultórios;  \n• Sala de observação e medicação;  \n• Equipe de enfermagem.  \n• Ambulância branca para transporte.  \n• Solicitação de exames laboratoriais pela rede Municipal.\n\nDescrição do caso:\nVocê atenderá uma paciente de 20 anos, trazida pela mãe à UBS, que relata agitação e um comportamento estranho há uma semana.",
+  "tarefas": "TAREFAS:  \n- Realizar a abordagem e anamnese com a acompanhante.  \n- Solicitar e interpretar o exame físico pertinente.  \n- Formular a hipótese diagnóstica.  \n- Estabelecer a conduta adequada ao caso.  \n- Definir o plano de seguimento.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Sônia, 45 anos.  \n• **Paciente:** Juliana, 20 anos.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), minha filha está fora de si. Não sei o que aconteceu. Ela viu a vizinha no portão e foi pra cima dela e ficou gritando que ela era uma 'espiã'.    \n\n**HISTÓRIA DA DOENÇA ATUAL:**  \n• **Início/Contexto:** Começou há mais ou menos uma semana. Ela foi demitida do estágio e mudou de comportamento.  \n• **Sintomas Psicóticos (Alucinações):** Ela fica dizendo que tem gente chamando o nome dela do lado de fora da janela. Mas não tem ninguém lá.  \n• **Sintomas Psicóticos (Delírios):** Ela cismou que os vizinhos estão vigiando ela, que instalaram câmeras na nossa casa.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Estado Prévio:** Ela nunca foi assim, doutor(a). Sempre foi calma, estudiosa.  \n• **Uso de Substâncias:** Nunca usou drogas, não bebe, nada.  \n• **Doenças e Medicações:** Não tem nenhuma doença, não toma remédio.  \n• **Tentativa de suicídio:** nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ela tem? Foi o estresse do trabalho?*  \n• *Ela vai precisar ficar internada?*  \n• *O que vamos fazer agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 135x85 mmHg  \n• **FC:** 105 bpm  \n• **FR:** 20 irpm  \n• **Temp. axilar:** 36.8°C  \n\n\n**Ectoscopia e Estado Mental:**  \n• Paciente em agitação psicomotora, desconfiada, contato verbal difícil, discurso desorganizado e hostil. Apresenta alucinações auditivas (solilóquios) e delírios persecutórios.  \n\n\n**Exame Neurológico:**  \n• Vigil, pupilas isocóricas e fotorreagentes.  \n• Ausência de sinais de irritação meníngea (Kernig e Brudzinski negativos).  \n• Sem déficits motores ou sensitivos focais.  \n\n\n**Demais sistemas:**  \n• **Cardiovascular:** Ritmo cardíaco regular, taquicárdico, sem sopros.  \n• **Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n• **Abdominal:** Flácido, indolor, sem visceromegalias.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e a acompanhante.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese com a acompanhante (mãe):**  \n(1) investiga o início e a evolução dos sintomas;  \n(2) pergunta sobre o fator estressor (perda do estágio);  \n(3) caracteriza os sintomas psicóticos (delírios e alucinações).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Avalia o risco imediato da paciente:**  \n(1) investiga risco de heteroagressividade (agressão à vizinha);  \n(2) investiga risco de autoagressividade;  \n(3) investiga ideação suicida.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga diagnósticos diferenciais:**  \n(1) pergunta sobre uso de substâncias psicoativas (drogas, álcool);  \n(2) pergunta sobre uso de medicamentos (ex: corticoides);  \n(3) pergunta sobre histórico de doenças prévias (psiquiátricas ou clínicas).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico com foco neurológico:**  \n(1) solicita avaliação de sinais vitais;  \n(2) solicita avaliação do estado mental;  \n(3) solicita pesquisa de sinais meníngeos e déficits focais.  \n\n**Adequado:** solicita os três itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um item ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames complementares para excluir causas secundárias de psicose:**  \n(1) hemograma;  \n(2) função renal e hepática;  \n(3) TSH;  \n(4) sorologias (HIV, VDRL);  \n(5) exame toxicológico;  \n(6) Beta-HCG.  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita dois ou três exames.  \n**Inadequado:** solicita um exame ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica principal:**  \n\n**Adequado:** verbaliza Surto/Transtorno Psicótico Agudo (ou Breve ou Transitório).  \n**Inadequado:** não verbaliza a hipótese ou verbaliza outra (ex: Esquizofrenia).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza manejo não farmacológico da agitação (desescalada verbal):**  \n(1) mantém-se calmo e fala em tom de voz baixo;  \n(2) valida o sofrimento da paciente (\"Percebo que você está assustada\");  \n(3) oferece ajuda e garante a segurança em ambiente calmo.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza nenhuma (ex: discute com o delírio).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o manejo farmacológico da agitação psicomotora (contenção química):**  \n(1) indica o uso de Haloperidol;  \n(2) indica a associação com um benzodiazepínico (ex: Diazepam) ou anti-histamínico (ex: Prometazina);  \n(3) indica a via intramuscular (IM) devido à não colaboração da paciente.  \n\n**Adequado:** indica os três itens (Ex: Haloperidol 5mg + Prometazina 25mg IM).  \n**Parcialmente adequado:** indica dois itens.  \n**Inadequado:** indica um item, não indica, ou tenta medicação via oral.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a conduta e o encaminhamento adequados:**  \n\n**Adequado:** verbaliza a necessidade de remoção (SAMU) para avaliação em emergência psiquiátrica (hospitalar) para definição de internação.  \n**Inadequado:** tenta manejar o caso ambulatorialmente (dar alta com receita).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a mãe (acompanhante) sobre o quadro e a conduta:**  \n(1) explica que se trata de um surto psicótico, possivelmente reativo ao estresse;  \n(2) explica a necessidade da medicação para acalmá-la e protegê-la;  \n(3) informa a necessidade de avaliação especializada no hospital.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta a familiar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "uid": 1309,
+  "hash": "pepe_1309",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Infertilidade conjugal",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – ginecologia.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.  \n\n.\n\nDescrição do caso:\nVocê está em atendimento em um ambulatório de Ginecologia e Obstetrícia e consultará um casal que está tentando engravidar sem sucesso. O casal deseja orientaçãos e esclarecimentos.",
+  "tarefas": "TAREFAS:  \n\n- Realizar a anamnese sobre o caso;  \n- Comunicar e explicar a hipótese diagnóstica ao casal;  \n- Indicar e justificar a solicitação dos exames iniciais necessários;  \n- Esclarecer as dúvidas e dar orientações ao casal.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Esposa:** Fabiana, 31 anos.  \n• **Marido:** Ricardo, 35 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), nós viemos conversar porque estamos tentando engravidar há mais de um ano e não estamos conseguindo.  \n\n\n**HISTÓRIA DO CASAL:**  \n• **Tempo de tentativas:** já faz 14 meses que estamos tentando.  \n• **Uso de contraceptivos:** parei de tomar a pílula faz 15 meses. Antes a gente usava camisinha também.  \n• **Frequência das relações:** regularmente, umas 2 ou 3 vezes por semana.  \n\n\n**QUEIXAS SEXUAIS:**  \n• **dispareunia, sangramento, anorgasmia:** negam.  \n• **ejaculação precoce ou disfunção erétil:** negam.  \n\n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **Ciclo menstrual:** Meu ciclo é bem regular. O fluxo dura uns 4-5 dias, sem cólicas fortes.  \n• **IST/DST:** negam.  \n• **ITU:** a última vez que tive faz uns 2 anos.  \n\n• **Antecedentes e Fatores de Risco:**  \n• **Alergias, doenças e medicações:** negam.  \n• **Filhos anteriores:** eu nunca quis engravidar até agora, mas o Ricardo tem 2 filhos do primeiro casamento.  \n• **Fatores de Risco:** O Ricardo tive caxumba quando era criança.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Mas se ele já tem filhos, o problema com certeza é comigo, né?*  \n• *Ele precisa fazer o exame do esperma?*  \n• *E depois que a gente fizer os exames, qual é o próximo passo?*",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1 - O(a) candidato(a) apresentou-se ao casal, falando seu próprio nome e perguntando os nomes dos dois (considerar adequado apenas se perguntar os nomes dos dois).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2 - O(a) candidato(a) comunicou-se adequadamente, envolvendo o casal na consulta, utilizando linguagem acessível e dirigindo-se ao casal, evitando direcionar a consulta exclusivamente para um dos cônjuges.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3 - O(a) candidato(a) perguntou a idade da mulher e do esposo (considerar adequado apenas se perguntar as idades dos dois).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4 - O(a) candidato(a) perguntou sobre a regularidade da atividade sexual do casal.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5 - O(a) candidato(a) perguntou sobre queixas ou problemas relacionados à vida sexual do casal:**  \n(1) dispareunia,  \n(2) sangramento,  \n(3) ejaculação precoce,  \n(4) disfunção erétil,  \n(5) anorgasmia,  \n(6) alteração de desejo.  \n\n**Adequado:** pergunta ao menos 2 itens.  \n**Inadequado:** pergunta somente 1 ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6 - O(a) candidato(a) perguntou sobre as características do ciclo menstrual da paciente: intervalo e duração/intensidade do fluxo menstrual.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7 - O(a) candidato(a) investigou, pelo menos, DOIS dos seguintes fatores de risco para infertilidade feminina:**  \n(1) infecções genitais,  \n(2) DSTS,  \n(3) cirurgias pélvicas ou abdominais,  \n(4) endometriose,  \n(5) dismenorreia,  \n(6) síndrome dos ovários policísticos,  \n(7) galactorreia.  \n\n**Adequado:** investiga ao menos 2 itens.  \n**Inadequado:** investiga somente 1 ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8 - O(a) candidato(a) interrogou sobre o uso de métodos contraceptivos, caracterizando que o casal não utiliza métodos contraceptivos há mais de 12 meses.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9 - O(a) candidato(a) investigou pelo menos, DOIS dos seguintes fatores de risco para infertilidade masculina:**  \n(1) trauma genital,  \n(2) varicocele,  \n(3) infecções,  \n(4) caxumba,  \n(5) DSTS,  \n(6) Uretrite.  \n\n**Adequado:** investiga ao menos 2 itens.  \n**Inadequado:** investiga somente 1 ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10 - O(a) candidato(a) questionou se algum deles já tinha filho de outro relacionamento.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11 - O(a) candidato(a) informou corretamente ao casal que realmente se tratava de um caso de infertilidade e que necessitava investigação (mais de um ano mantendo atividade sexual regular, sem uso de métodos anticonceptivos).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12 - O(a) candidato(a) solicitou e explicou ao casal a necessidade de avaliar a ocorrência de ovulação:**  \n(1) ultrassonografia transvaginal seriada,  \n(2) dosagem de progesterona na segunda fase do ciclo ou no 21º dia,  \n(3) biópsia endometrial na segunda fase do ciclo \n\n**Adequado:** solicitar corretamente um dos métodos acima para investigação de ovulação e se explicar ao casal a necessidade do exame.  \n**Parcialmente adequado:** solicitar corretamente um dos métodos acima para investigação de ovulação, mas não explicar ao casal a necessidade do exame.  \n**Inadequado:** não solicitar um dos métodos acima para investigação de ovulação E não explicar ao casal a necessidade do exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13 - O(a) candidato(a) solicitou e explicou ao casal a necessidade de realização de espermograma, mesmo com o antecedente do esposo ter 2 filhos de outro relacionamento.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14 - O(a) candidato(a) solicitou e explicou ao casal a necessidade de histerossalpingografia (para avaliar permeabilidade das tubas uterinas).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15 - O(a) candidato(a) indagou se o casal tinha alguma dúvida adicional e planejou retorno para apresentação dos exames.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

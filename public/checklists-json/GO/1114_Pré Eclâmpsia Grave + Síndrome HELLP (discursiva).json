@@ -1,0 +1,161 @@
+{
+  "uid": 1114,
+  "hash": "pepe_1114",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Pré Eclâmpsia Grave + Síndrome HELLP (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• Laboratório de análises clínicas;  \n• Exames de imagem (ecografia);  \n• Cardiotocografia;  \n• Centro obstétrico e leitos de internação.\n\nDescrição do caso:\nVocê está de plantão no Pronto-Atendimento Obstétrico e atenderá uma gestante de 18 anos, G1P0A0, com 36 semanas e 1 dia de gestação. Ela queixa-se de cefaleia intensa de início súbito. A paciente informa estar em seguimento no Ambulatório de Gestação de Alto Risco.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese da paciente;  \n- Solicitar e interpretar exame(s), caso necessário;  \n- Formular e verbalizar as hipóteses diagnósticas;  \n- Descrever as medidas imediatas a serem tomadas;  \n- Interpretar o traçado cardiotocográfico;  \n- Definir e justificar a conduta definitiva para o caso.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Valquíria, 18 anos, estudante.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com uma dor de cabeça muito forte que começou de repente, faz umas duas horas. E agora começou uma dor aqui na boca do estômago.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Cefaleia:** É uma dor que nunca senti antes, muito intensa. Dói a cabeça inteira.  \n• **Epigastralgia:** Sim, começou faz mais ou menos meia hora, uma dor que queima.  \n• **Edema:** Meus pés e mãos estão muito inchados.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** É minha primeira gravidez.  \n• **IG:** Estou com 36 semanas e 1 dia.  \n• **Pré-natal:** Estou fazendo acompanhamento de alto risco por causa da pressão. Minha última consulta foi há uma semana.  \n• **Medicações:** Eu tomo Metildopa e Nifedipina para a pressão.  \n\n• **CADERNETA DA GESTANTE:** vim correndo e não trouxe.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e cirurgias:** Não tenho nenhuma outra doença.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)*  \n• *Meu bebê está bem?*  \n• *O que vai acontecer agora? Vou precisar ficar internada?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 160x120 mmHg  \n• **FC:** 85 bpm  \n• **FR:** 17 irpm  \n• **SatO2:** 98%  \n• **Temp. axilar:** 36.7° C  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** sem alterações.  \n\n\n**MMII** Edema em membros inferiores ++++/4+.  \n\n\n**EXAME FÍSICO OBSTÉTRICO**  \n\n• **Altura uterina:** 30 cm  \n• **Batimentos cardíacos fetais:** 170 bpm  \n• **Dinâmica uterina:** ausente  \n• **Toque vaginal:** colo fechado, grosso, posterior.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemoglobina:** 12,2 g/dL (VR: 14 a 18 g/dl)  \n• **Hematócrito:** 32% (VR: 39 - 52%)  \n• **Leucócitos:** 12.200/mm³ (VR: 4.000 - 10.000/mm³)  \n• **Plaquetas:** 98.000/mm³ (VR: 150.000 - 400.000 mm/3)  \n\n\n• **Proteinúria de 24h:** 1,2 g  \n\n• **Creatinina:** 1,5 mg/dL (VR: 0,5 - 1,2 mg/dl)  \n\n• **Ácido úrico sérico:** 7,0 mg/dl (VR: 2,7 - 7,5 mg/dL)  \n\n\n• **TGO (AST):** 200 U/L (VR: 15 – 40 U/l)  \n• **TGP (ALT):** 350 U/L (VR: 10 – 40 U/l)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ULTRASSOM OBSTÉTRICO",
+      "conteudo": "• **Biometria fetal:** compatível com 33 semanas.  \n• **Líquido amniótico:** Oligoâmnio acentuado.  \n• **Dopplervelocimetria:** artéria umbilical e cerebral média do feto sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "CARDIOTOCOGRAFIA",
+      "conteudo": "Descreva a cardiotocografia apresentada",
+      "imagem": "img_printeds/2011-e14p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando os sintomas de gravidade.**  \n(1) Cefaleia;  \n(2) Epigastralgia;  \n(3) Alterações visuais (escotomas, fotopsia).  \n\n**Adequado:** investiga os três sintomas.  \n**Parcialmente adequado:** investiga dois sintomas.  \n**Inadequado:** investiga um ou nenhum sintoma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exames laboratoriais pertinentes ao quadro:**  \n(1) Hemograma;  \n(2) Proteinúria em fita;  \n(3) Creatinina;  \n(4) Ácido úrico sérico;  \n(5) TGO;  \n(6) TGP.  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Formula as duas principais suspeitas diagnósticas para o quadro.**  \n(1) Pré-eclâmpsia grave OU iminência de eclâmpsia;  \n(2) Síndrome HELLP;  \n(3) Restrição de crescimento intrauterino (RCIU).  \n\n**Adequado:** cita ao menos duas suspeitas.  \n**Parcialmente adequado:** cita apenas uma suspeita.  \n**Inadequado:** não cita nenhuma das suspeitas.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Justifica a principal suspeita diagnóstica com base em pelo menos três achados clínicos ou laboratoriais.**  \n(1) Hipertensão arterial (PA > 160x110 mmHg);  \n(2) Proteinúria (> 1g/dia);  \n(3) Trombocitopenia (Plaquetas < 100.000/mm³);  \n(4) Elevação de enzimas hepáticas (AST/ALT);  \n(5) Sintomas neurológicos (cefaleia) e gastrointestinais (epigastralgia).  \n\n**Adequado:** cita três achados pertinentes.  \n**Parcialmente adequado:** cita dois achados pertinentes.  \n**Inadequado:** cita um ou nenhum achado pertinente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica as duas medidas farmacológicas imediatas para a estabilização da paciente.**  \n(1) Administrar anti-hipertensivo endovenoso (Hidralazina) para controle pressórico;  \n(2) Administrar Sulfato de Magnésio endovenoso para prevenção de convulsões.  \n\n**Adequado:** indica as duas medidas.  \n**Parcialmente adequado:** indica apenas uma medida.  \n**Inadequado:** não indica nenhuma das medidas ou indica conduta incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita a avaliação da vitalidade fetal como medida imediata.**  \n\n**Adequado:** solicita avaliação da vitalidade fetal através da cardiotocografia.  \n**Inadequado:** não solicita a avaliação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta o traçado da cardiotocografia.**  \n\n**Adequado:** descreve o padrão como feto Inativo, OU Hiporreativo, OU não tranquilizador, OU categoria 2, OU sofrimento fetal agudo.  \n**Inadequado:** não interpreta ou interpreta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Justifica a necessidade de internação imediata da gestante.**  \n(1) Iminência de eclâmpsia ou Síndrome HELLP;  \n(2) Risco de vida materno e fetal;  \n(3) Risco de convulsão materno;  \n(4) Restrição do crescimento intrauterino (RCIU);  \n(5) Oligoâminio;  \n(6) Óbito fetal;  \n(7) Falência hepática materna.  \n\n**Adequado:** justifica com base em 3 ou mais itens.  \n**Inadequado:** não justifica ou a justificativa com apenas 2 ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a conduta definitiva para a resolução da gestação por cesárea.**  \n\n**Adequado:** indica a interrupção imediata da gestação por cesárea.  \n**Inadequado:** indica conduta que não seja interrupção imediata da gestação, OU indica parto vaginal, OU não indica cesárea.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

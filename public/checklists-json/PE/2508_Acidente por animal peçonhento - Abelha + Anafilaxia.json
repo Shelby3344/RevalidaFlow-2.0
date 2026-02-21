@@ -1,0 +1,144 @@
+{
+  "uid": 2508,
+  "hash": "pepe_2508",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Acidente por animal peçonhento - Abelha + Anafilaxia",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios médicos;  \n• sala de reanimação;  \n• sala de observação;  \n• unidade de internação pediátrica;  \n• unidade de terapia intensiva pediátrica;  \n• laboratório de patologia clínica;  \n• imagenologia.\n\nDescrição do caso:\nVocê é um médico de plantão atuando na sala de emergência de uma unidade de pronto atendimento (UPA) e dialogará com uma enfermeira. Ela pedirá a você que avalie Artur, uma criança de 3 anos e 11 meses que foi trazida ao hospital por seu avô, Sr. Álvaro, porque seus pais estão viajando. Ainda na recepção, o avô relatou à enfermeira que a criança brincava no jardim quando foi atacada por uma abelha, há cerca de 15 minutos.",
+  "tarefas": "TAREFAS:  \n- escutar o relato da enfermeira;  \n- solicitar exame físico relacionado à queixa principal;  \n- formular e verbalizar o diagnóstico do paciente, com base no relato clínico e no exame físico;  \n- definir e verbalizar a conduta medicamentosa inicial, com base no diagnóstico, indicando: (1) medicação de primeira escolha / primeira linha; (2) dose (mg ou mL/kg); e (3) via de administração para o tratamento emergencial.  \n- definir a conduta após a estabilização ou não do paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "LIBERAR OS IMPRESSOS **MONITOR DA SALA DE ADMISSÃO** E **BANDEJA DE MEDICAÇÕES DISPONÍVEIS**  AO INICIAR A ESTAÇÃO.  \n\n**DADOS DA ATRIZ:**  \n• Carla, enfermeira do plantão.  \n\n**RELATO PARA O(A) MÉDICO(A):** • Doutor(a), temos uma criança de 3 anos e 11 meses, o Artur. Ele foi picado por uma abelha faz uns 15 minutos.  \n• Ele chegou aqui com urticária no rosto, no tronco e nos braços e pernas. Também está com os lábios, olhos e orelhas bem inchados.  \n• Ele está chorando muito, vomitou várias vezes aqui no hospital e agora está com tosse seca, dificuldade para respirar e está pálido.  \n\n**SE O(A) CANDIDATO(A) PERGUNTAR:** • Quem trouxe ele foi o avô, ele está aguardando lá fora.  \n\n**DEMAIS QUEIXAS:**  \n• **Desmaio, síncope, convulsão:** nega.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o(a) candidato(a) solicite qualquer uma das seguintes intervenções, responda: *Considere feito.*  \n• Posição de Trendelenburg ou elevar as pernas.  \n• Oxigênioterapia.  \n• Acesso venoso.  \n• Soro fisiológico, RL, cristalóide ou qualquer expansão de volume.  \n• Salbutamol ou broncodilatador.  \n• anti-histamínico ou difenidramina ou prometazina.  \n• Qualquer outra medicação do impresso **BANDEJA DE MEDICAÇÕES DISPONÍVEIS**.  \n• APÓS O CANDIDATO ADMINISTRAR ADRENALINA: *O paciente está estabilizado*.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS DA ENFERMEIRA:**  \n• *Qual o diagnóstico do paciente, doutor(a)?*  \n• *Qual a sua conduta, doutor(a)?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "AVALIAÇÃO INICIAL/EXAME FÍSICO",
+      "conteudo": "**EXAME FÍSICO GERAL**  \nPaciente em mau estado geral, descorado, hidratado, acianótico, anictérico, afebril, taquidispneico, choroso, com gemência e sudorese fria.  \n\n\n• **Peso:** 15 kg.  \n\n• **Escala de coma de Glasgow:**  \nresposta ocular: 4  \nresposta verbal: 5  \nresposta motora: 6  \n**total: 15**  \n\n\n**EXAME FÍSICO POR SISTEMAS**  \n\n• **Respiratório:** murmúrios vesiculares bilateralmente, com roncos e sibilos disseminados, com tiragem subdiafragmática e intercostal presentes.  \n\t• **Frequência respiratória:** 44 irpm.  \n\n• **Cardiovascular:** bulhas rítmicas, normofonéticas em 2 tempos e sem sopro. Pulsos cheios e simétricos.  \n\t• **Frequência cardíaca:** 120 bpm.  \n\t• **Pressão arterial:** 100 x 60 mmHg.  \n\n• **Abdome:** semigloboso; ruídos hidroaéreos presentes; sem dor à palpação superficial e profunda; sem visceromegalia; meteorismo leve.  \n\n• **Membros:** sem edemas; boa perfusão periférica; tempo de enchimento capilar: 2 segundos.  \n\n• **Pele:** placas urticariformes disseminadas em tronco e membros. Face com edema importante em lábios, pálpebras e orelhas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "MONITOR DA SALA DE ADMISSÃO",
+      "conteudo": "",
+      "imagem": "img_printeds/2025-1-e8p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "BANDEJA DE MEDICAÇÕES DISPONÍVEIS",
+      "conteudo": "Medicações injetáveis disponíveis - **AMPOLAS:**  \n\n• adrenalina;  \n• noradrenalina;  \n• dobutamina;  \n• metilprednisolona;  \n• midazolam;  \n• difenidramina;  \n• adenosina;  \n• atropina.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Escuta atentamente o relato da enfermeira.**  \n\n**Adequado:** sim.  \n**Inadequado:** não.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pede para realizar exame físico ou solicita a realização de \navaliação primária sistematizada ABCDE (ATENÇÃO: pontuar \nsomente se o participante solicitar antes da pergunta ativa da \nenfermeira).**  \n\n**Adequado:** pede.  \n**Inadequado:** não pede.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Formula o diagnóstico de anafilaxia (reação alérgica OU reação alérgica tipo 1 OU hipersensibilidade tipo 1 OU alergia grave OU alergia mediada por liberação de histamina OU \nanafilaxia com reação grave OU reação anafilática OU reação \nalérgica grave).**  \n\n**Adequado:** formula.  \n**Inadequado:** não formula OU formula o diagnóstico de choque anafilático ou outro tipo de choque.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita administração de adrenalina OU epinefrina como primeira opção medicamentosa.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Indica a via de administração da adrenalina OU epinefrina (intramuscular/no músculo vasto lateral da coxa OU subcutânea).**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica a via correta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a dose de adrenalina OU epinefrina:**  \n0,01 mg/kg/dose - 0,15 mg ou 0,01 mL/kg/dose - 0,15 mL  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.  \n\n*Obs.: Aceitar 0,2 mL.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica corticoide (metilprednisolona; prednisona, \nprednisolona, hidrocortisona).**  \n\n**Adequado:** não indica OU indica após adrenalina.  \n**Inadequado:** indica isoladamente ou indica antes da adrenalina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica anti-histamínico ou prometazina ou difenidramina ou \nloratadina.**  \n\n**Adequado:** não indica OU indica após adrenalina.  \n**Inadequado:** indica isoladamente ou indica antes da adrenalina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica observação e/ou internação do paciente neste serviço.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica OU dá alta imediatamente após estabilização.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

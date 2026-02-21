@@ -1,0 +1,143 @@
+{
+  "uid": 1710,
+  "hash": "pepe_1710",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Atenção domiciliar e cuidados Pós IAM",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você é o(a) médico(a) de uma Unidade Básica de Saúde (UBS.\n\nDescrição do caso:\nVocê é o(a) médico(a) de uma Unidade Básica de Saúde (UBS) e está realizando  \numa ação assistencial em atenção domiciliar a um paciente de 73 anos de idade,  \nviúvo, sem filhos, aposentado, sob seus cuidados há 1 ano, que teve alta hospitalar  \nhá 1 dia, após infarto agudo do miocárdio.  \n\n\nVocê atendeu esse paciente na UBS há 10 dias, com queixa de epigastralgia e o medicou com omeprazol.",
+  "tarefas": "Nos próximos 10 minutos, deverá ser realizada a seguinte tarefa:  \n- realizar ação assistencial em atenção domiciliar.  \n\n\nNão será necessário realizar o exame físico.  \nCaso necessite de alguma informação sobre a internação, solicite-a ao paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Arlindo, 73 anos, aposentado.  \n\n\n**QUEIXA PRINCIPAL:** Poxa doutor(a), agora estou aqui nessa situação. O senhor(a) me atendeu há 10 dias e disse que era só uma gastrite, e depois que fui pro hospital era muito mais sério.  \n\n\n• Eu não tinha pensado que era um problema no meu coração, mas o(a) senhor(a) não podia ter pensado nisso?  \n\n\n• O que será da minha vida com esse coração fraco? Eu tive um infarto.  \n\n\n**SINAIS E SINTOMAS:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** nega.  \n• **Medicações:** as vezes eu usava o Tadalafila. E agora estou usando esses dois remédios que o hospital me deu.  \n\n\n• **Álcool, tabaco e drogas:** nega.  \n• **Alimentação:** Antes eu comia de tudo, mas no hospital só me davam sopa e frutas.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS E ORIENTAÇÕES:**  \nVai precisar mudar minha alimentação, posso comer normal?  \n• Esses remédios do hospital, já posso parar de tomar?  \n• Tá bem Dr(a), mas agora um dúvida... será que eu já posso ter uma relação amorosa?  \n\n\nCaso o candidato solicite qualquer tipo de exame: \"Considere solicitado\".",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SÚMULA DE ALTA",
+      "conteudo": "Paciente de 73 anos de idade, atendido no Serviço de Emergência desta instituição há 9 dias, hemodinamicamente estável, com estabelecimento do diagnóstico de infarto agudo do miocárdio de parede inferior, com boa evolução clínica após angioplastia com colocação de stent.  \n\n\nRecebe alta hoje para seguimento na Unidade Básica de Saúde de referência, com consulta agendada de retorno em nosso hospital em 15 dias.  \n\n\nPrescrição de alta: betabloqueador e antiagregante plaquetário.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Reconstrói relacionamento de confiançã com o paciente do seguinte modo:**  \n(1) cumprimenta o paciente;  \n(2) explica o motivo da visita domiciliar;  \n(3) escuta atentamente, sem interromper a sua fala, demonstrando Interesse por sua  \nhistória;  \n(4) sintoniza-se com sentimentos vividos pelo paciente no momento (empatia);  \n(5) reconhece o ressentimento do paciente com o(a) médico(a).  \n\n**Inadequado:** se praticar 0, 1 ou 2 atitudes citadas;  \n**Parcialmente adequado:** se praticar 3 ou 4 das atitudes citadas:  \n**Adequado:** se praticar as 5 atitudes citadas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Desenvolve comunicação não verbal:** posiciona a cadeira de forma a se aproximar  \nfisicamente do paciente; e direciona e sustenta o olhar para o paciente em grande  \nparte do tempo da visita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. A partir da pergunta:** \"eu não tinha pensado que era um problema no meu coração,  \nmas o(a) senhor(a) não podia ter pensado nisso? Reconhece que a dor do paciente  \npoderia ter sido melhor investigada.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. A partir da pergunta:** \"o que será da minha vida com esse coração fraco? Eu tive  \num infarto\". Pondera o modo de vida do paciente no passado, presente e futuro,  \nlevando em consideração necessariamente os seus desejos e interesses na vida e  \nconstrói com o paciente um plano de cuidado individual e de autocuidado, valorizando  \na sua participação ativa.  \n\n**Observação:** Considerar inadequado se houver imposição da mudançã, baseando-se  \napenas em informações biomédicas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Orienta o paciente a respeito de nutrição:**  \n(1) encoraja redução da ingesta diária de sal, gorduras saturadas / trans e colesterol;  \n(2) estimula o aumento de ingesta diária de frutas, vegetais e peixes;  \n(3) pactua com o paciente a meta a ser avaliada em toda consulta (IMC entre 18,5-  \n24,9 kg/m2 e circunferência abdominal <102 cm).  \n\n**Inadequado:** se fornecer 0 ou 1 orientação;  \n**Parcialmente adequado:** se fornecer 2 orientações;  \n**Adequado:** se fornecer as 3 orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Orienta o paciente acerca da atividade sexual, que pode ser reiniciada em 2 a 4 semanas após a alta hospitalar.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Contraindica o uso de citrato de sildenafila.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta o paciente a respeito da manutenção da prescrição medicamentosa pós-alta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta o paciente da necessidade de acompanhamento na UBS e de plano integrado de cuidado pela equipe de saúde da família.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta o paciente acerca da importância de retorno às consultas com o especialista da unidade hospitalar de referencia para o caso.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

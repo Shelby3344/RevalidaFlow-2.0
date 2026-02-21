@@ -1,0 +1,233 @@
+{
+  "uid": 219,
+  "hash": "pepe_219",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Isquemia Mesentérica Aguda - Abdome Agudo Vascular",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• setor de radiologia convencional e ultrassonografia;  \n• tomografia computadorizada, angiotomografia e arteriografia;  \n• laboratório de análises clínicas e banco de sangue;  \n• leitos de internação e centro cirúrgico.\n\nDescrição do caso:\nVocê é médico de plantão na emergência de um hospital terciário e atenderá uma mulher de 60 anos com queixa de dor abdominal súbita.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Solicitar e interpretar os exames complementares necessários.  \n- Formular e comunicar a hipótese diagnóstica.  \n- Estabelecer a conduta terapêutica adequada.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Lívia, 60 anos, casada, aposentada.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu estava em casa e comecei a sentir uma dor muito forte na barriga, do nada.  \n\n**SOBRE A DOR:**  \n• **Início:** faz umas 2 horas.  \n• **Localização:** dói a barriga toda, mas começou mais embaixo.  \n• **Irradiação:** não vai pra outro lugar.  \n• **Característica:** é uma dor que aperta, muito forte.  \n• **Intensidade:** 9/10, é insuportável.  \n• **Atenuantes/agravantes:** tomei remédio pra dor, mas não melhorou nada.  \n• **Episódio anterior:** nunca senti uma dor assim antes.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Náuseas:** estou com muita vontade de vomitar.  \n• **Vômitos:** ainda não vomitei.  \n• **Sudorese:** estou suando frio.  \n• **Distensão abdominal:** a barriga está um pouco inchada.  \n• **Febre, calafrios:** nega.  \n• **Tontura ou desmaio:** nega.  \n• **Alteração do hábito intestinal:** não mudou nada.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** tenho fibrilação atrial há 7 anos, faço tratamento certinho.  \n• **Medicações:** tomo um anticoagulante, não lembro nome.  \n• **Alergias e cirurgias:** nega.  \n\n• **Álcool e drogas:** não bebo e não uso drogas.  \n• **Tabaco:** fumo desde os 14 anos.  \n• **Alimentação:** como de tudo, variado.  \n• **Atividade física:** faço pilates duas vezes por semana.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **GPA:** tive 2 filhos, parto normal.  \n• **DUM:** entrei na menopausa há 12 anos.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *É grave? Vou precisar de cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 120 x 80 mmHg.  \n• **Frequência Cardíaca:** 132 batimentos por minuto.  \n• **Frequência Respiratória:** 18 incursões respiratórias por minuto.  \n• **Saturação de O₂:** 97% em ar ambiente.  \n• **Temperatura Axilar:** 38°C.  \n\n\n**ECTOSCOPIA:**  \nMau estado geral, fácies de sofrimento, corada, hidratada, acianótica, anictérica, alerta e orientada.  \n\n\n**APARELHO CARDIOVASCULAR:**  \nRitmo cardíaco irregular, bulhas normofonéticas, sem sopros.  \n\n\n**APARELHO RESPIRATÓRIO:**  \nMurmúrio vesicular preservado bilateralmente, sem ruídos adventícios.  \n\n\n**EXAME ABDOMINAL:**  \n• **Inspeção:** abdome plano, simétrico, sem abaulamentos, sem cicatrizes ou circulação colateral.  \n• **Ausculta:** ruídos hidroaéreos diminuídos.  \n• **Palpação:** dor intensa e difusa à palpação superficial e profunda, com defesa involuntária generalizada; dor desproporcional ao exame físico.  \n• **Percussão:** timpanismo preservado.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "TOQUE RETAL",
+      "conteudo": "Tônus esfincteriano preservado, presença de fezes com aspecto de geleia de framboesa.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemácias:** 4,3 milhões/mm³ (VR: 4,0 - 5,2 milhões/mm³)  \n• **Hemoglobina:** 14,1 g/dL (VR: 12 - 16 g/dL)  \n• **Hematócrito:** 40% (VR: 36 - 46%)  \n\n\n• **Plaquetas:** 141.000/mm³ (VR: 150.000 - 400.000/mm³)  \n\n\n• **Leucócitos:** 18.210/mm³ (VR: 4.000 - 10.000/mm³)  \n• **Neutrófilos:** 75% (VR: 40 - 70%)  \n• **Bastões:** 8% (VR: 0 - 5%)  \n• **Linfócitos:** 25% (VR: 20 - 50%)  \n• **Basófilos:** 1% (VR: 0 - 2%)  \n• **Eosinófilos:** 2% (VR: 0 - 6%)  \n\n\n• **Glicemia:** 70 mg/dL (VR: 70 - 110 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7,27 (VR: 7,35 - 7,45)  \n• **pCO₂:** 30 mmHg (VR: 35 - 45 mmHg)  \n• **HCO₃:** 15 mEq/L (VR: 22 - 26 mEq/L)  \n• **Lactato:** 4,2 mmol/L (VR: 0,5 - 2,0 mmol/L)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "ANGIOTOMOGRAFIA DE ABDOME",
+      "conteudo": "Interrupção abrupta do fluxo de contraste em vaso sanguineo superior.  \n\nEspessamento parietal de alças de intestino delgado no quadrante inferior esquerdo do abdome.",
+      "imagem": "img_printeds/e219p5.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor:**  \n(1) início ou tempo de evolução;  \n(2) localização;  \n(3) irradiação;  \n(4) característica ou tipo;  \n(5) intensidade;  \n(6) fatores de melhora ou piora;  \n(7) episódios anteriores.  \n\n**Adequado:** pergunta cinco ou mais características.  \n**Parcialmente adequado:** pergunta três ou quatro características.  \n**Inadequado:** pergunta duas ou menos, ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas associados:**  \n(1) náuseas;  \n(2) vômitos;  \n(3) febre;  \n(4) eliminação de fezes e flatos;  \n(5) sudorese.  \n\n**Adequado:** pergunta quatro ou cinco itens.  \n**Parcialmente adequado:** pergunta dois ou três itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga antecedentes pessoais:**  \n(1) comorbidades ou doenças prévias;  \n(2) medicações em uso;  \n(3) alergias;  \n(4) cirurgias anteriores.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga hábitos de vida:**  \n(1) tabagismo;  \n(2) etilismo;  \n(3) atividade física;  \n(4) dieta ou alimentação.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga antecedentes familiares (doenças cardiovasculares, hipertensão, diabetes).**  \n\n**Adequado:** investiga.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame físico abdominal e identifica os achados:**  \n(1) dor intensa e difusa à palpação;  \n(2) defesa abdominal involuntária;  \n(3) ruídos hidroaéreos diminuídos;  \n(4) dor desproporcional aos achados do exame físico.  \n\n\n[Image of anatomy of the superior mesenteric artery]\n\n\n**Adequado:** solicita e identifica três ou quatro achados.  \n**Parcialmente adequado:** solicita e identifica dois achados.  \n**Inadequado:** não solicita ou identifica apenas um achado ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita toque retal e verbaliza a alteração encontrada (fezes com sangue ou aspecto de geleia de framboesa).**  \n\n**Adequado:** solicita e verbaliza a alteração.  \n**Parcialmente adequado:** solicita, mas não verbaliza a alteração.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exames laboratoriais:**  \n(1) hemograma completo;  \n(2) gasometria arterial ou lactato;  \n(3) função renal (ureia e creatinina);  \n(4) eletrólitos.  \n\n**Adequado:** solicita três ou quatro itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um item ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Interpreta os achados laboratoriais:**  \n(1) leucocitose com desvio à esquerda;  \n(2) acidose metabólica;  \n(3) hiperlactatemia.  \n\n**Adequado:** interpreta os três achados.  \n**Parcialmente adequado:** interpreta dois achados.  \n**Inadequado:** interpreta um achado ou não interpreta achado algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita angiotomografia de abdome (ou angioTC mesentérica).**  \n\n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza a hipótese diagnóstica de abdome agudo vascular por isquemia mesentérica aguda (ou oclusão da artéria mesentérica superior).**  \n\n**Adequado:** verbaliza o diagnóstico completo (abdome agudo vascular + isquemia mesentérica).  \n**Parcialmente adequado:** verbaliza apenas abdome agudo vascular, sem especificar isquemia mesentérica.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Correlaciona a etiologia da isquemia mesentérica com a fibrilação atrial (embolia arterial de origem cardíaca).**  \n\n**Adequado:** correlaciona.  \n**Inadequado:** não correlaciona.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Indica medidas de suporte clínico:**  \n(1) internação hospitalar;  \n(2) dieta zero;  \n(3) hidratação venosa vigorosa;  \n(4) analgesia;  \n(5) antiemético;  \n(6) sondagem nasogástrica;  \n(7) antibioticoterapia de amplo espectro.  \n\n**Adequado:** indica cinco ou mais medidas.  \n**Parcialmente adequado:** indica três ou quatro medidas.  \n**Inadequado:** indica duas ou menos medidas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indica anticoagulação sistêmica (heparina).**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Indica encaminhamento urgente para cirurgia (laparotomia exploradora) ou para serviço de cirurgia vascular.**  \n\n**Adequado:** indica com ênfase na urgência.  \n**Inadequado:** não indica ou indica sem especificar a urgência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

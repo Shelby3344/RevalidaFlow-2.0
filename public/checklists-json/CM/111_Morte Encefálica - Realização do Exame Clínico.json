@@ -1,0 +1,138 @@
+{
+  "uid": 111,
+  "hash": "pepe_111",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Morte Encefálica - Realização do Exame Clínico",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Terciária - Hospitalar.  \nTipo de atendimento: Unidade de Terapia Intensiva (UTI) Adulto.  \nA unidade apresenta a seguinte infraestrutura:  \n• Laboratório de análises clínicas;  \n• Equipamentos para monitorização contínua e suporte ventilatório.  \n• Serviço de Neurologia.\n\nDescrição do caso:\nVocê é o médico plantonista da UTI e deve realizar o exame clínico para diagnóstico de Morte Encefálica em um paciente de 45 anos, com lesão cerebral grave, que está em coma profundo e apneia.",
+  "tarefas": "TAREFAS:  \n- Verbalizar os pré-requisitos para a realização do exame de morte encefálica.  \n- Descrever e verbalizar a técnica de avaliação dos reflexos do tronco cerebral.  \n- Indicar a resposta positiva esperada para os testes dos reflexos do tronco cerebral.   \n- Descrever e verbalizar a técnica do teste da apneia.  \n- Concluir o exame clínico e responder as dúvidas da enfermaria.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Fernando, enfermeiro de plantão na UTI.  \n\n**SOBRE O PACIENTE:**  \n• É um Paciente de 45 anos, internado há 3 dias após traumatismo cranioencefálico grave.  \n\n• Agora ele encontra-se em coma arreativo, em ventilação mecânica com parâmetros estáveis, com sedação suspensa há 12 horas.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Liberar o impresso **PRONTUÁRIO DO PACIENTE** no INÍCIO da estação.  \n• Liberar o impresso **RESPOSTA DO EXAME CLÍNICO** somente APÓS o candidato concluir os testes clínicos (reflexos + apneia).  \n\n**DÚVIDAS:**  \n• *Você poderia falar os requisitos para abrir o protocolo de exames de Morte Encefálica*  \n\n• *Como é feita a avaliação do reflexo fotomotor?*  \n\n• *Como é feita a avaliação do reflexo córneo-palpebral?*  \n\n• *Como é feita a avaliação do reflexo oculocefálico?*  \n\n• *Como é feita a avaliação do reflexo oculovestibular?*  \n\n• *Como é feita a avaliação do reflexo da tosse?*  \n\n• *Como é feita a avaliação do teste da apneia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "PRONTUÁRIO DO PACIENTE",
+      "conteudo": "**Identificação:** Paciente Masculino, 45 anos.  \n\n**Diagnóstico:** Traumatismo Cranioencefálico Grave.  \n\n**Ventilação Mecânica:** Sim, acoplado ao ventilador.  \n\n**Sedação:** Suspendida há 12 horas. Sem sinais de recuperação neurológica.  \n\n**Temperatura:** 36,8°C (normotérmico).  \n\n**Pressão Arterial Média (PAM):** 85 mmHg (mantida com vasopressores em dose mínima).  \n\n**Glicemia:** 120 mg/dL.  \n\n**Eletrólitos:** Na+ 138 mEq/L, K+ 4.0 mEq/L.  \n\n**Gasometria Arterial (antes do teste de apneia):**  \n• pH: 7.38  \n• PaCO2: 40 mmHg  \n• PaO2: 120 mmHg  \n• HCO3: 24 mEq/L  \n\n\n**Escala de Glasgow atual:** 3.  \n\n\n**Importante:** Ausência de hipotensão significativa ou distúrbios metabólicos graves que possam confundir o diagnóstico de morte encefálica.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RESPOSTA DO EXAME CLÍNICO",
+      "conteudo": "**Reflexo Fotomotor:** Midríase fixa bilateral.  \n\n**Reflexo Córneo-palpebral:** Não pisca.  \n\n**Reflexo Oculocefálico:** Olhos giram juntos, não se movem em sentido contrário ao giro da cabeça.  \n\n**Reflexo Oculovestibular (prova calórica):** Não faz nistagmo ou qualquer desvio ocular.  \n\n**Reflexo da Tosse (estímulo traqueal):** Não tosse.  \n\n**Teste da Apneia:** Não há movimentos respiratórios espontâneos.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a equipe presente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Verbaliza os pré-requisitos para o exame de morte encefálica.**  \n(1) Coma não perceptivo (ECG= 3);  \n(2) Ausência de sedação (confirmada a suspensão há tempo suficiente);  \n(3) Estabilidade hemodinâmica (PAM > 65 mmHg ou PAS > 100 mmHg);  \n(4) Normotermia (temperatura > 35ºC);  \n(5) Ausência de distúrbios metabólicos e hidroeletrolíticos graves.  \n\n**Adequado:** verbaliza quatro ou mais pré-requisitos.  \n**Parcialmente adequado:** verbaliza dois ou três pré-requisitos.  \n**Inadequado:** verbaliza um ou nenhum pré-requisito.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verbaliza e executa a avaliação do reflexo fotomotor.**  \n(1) Incide luz forte nas pupilas;  \n(2) Observa ausência de constrição (midríase fixa bilateral).  \n\n**Adequado:** verbaliza e executa as duas ações corretamente.  \n**Parcialmente adequado:** verbaliza ou executa apenas uma ação corretamente.  \n**Inadequado:** não verbaliza ou não executa as ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza e executa a avaliação do reflexo córneo-palpebral.**  \n(1) Toca delicadamente a esclera (ou córnea) com algodão/gaze;  \n(2) Observa ausência de piscar.  \n\n**Adequado:** verbaliza e executa as duas ações corretamente.  \n**Parcialmente adequado:** verbaliza ou executa apenas uma ação corretamente.  \n**Inadequado:** não verbaliza ou não executa as ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza e executa a avaliação do reflexo oculocefálico.**  \n(1) Realiza rotação rápida da cabeça para os lados e flexão/extensão do pescoço (manobra dos \"olhos de boneca\");  \n(2) Observa ausência de desvio dos olhos no sentido contrário ao movimento da cabeça.  \n\n**Adequado:** verbaliza e executa as duas ações corretamente.  \n**Parcialmente adequado:** verbaliza ou executa apenas uma ação corretamente.  \n**Inadequado:** não verbaliza ou não executa as ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza e executa a avaliação do reflexo oculovestibular (prova calórica).**  \n(1) Posiciona a cabeça do paciente em 30 graus de elevação;  \n(2) Injeta 50 mL de água gelada (0-4ºC) no conduto auditivo externo (após otoscopia);  \n(3) Observa ausência de nistagmo ou desvio ocular por 1 minuto.  \n\n**Adequado:** verbaliza e executa os três itens corretamente.  \n**Parcialmente adequado:** verbaliza e executa dois itens corretamente.  \n**Inadequado:** verbaliza e executa um item ou nenhum item corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza e executa a avaliação do reflexo da tosse.**  \n(1) Estimula a traqueia com cânula de aspiração;  \n(2) Observa ausência de tosse.  \n\n**Adequado:** verbaliza e executa as duas ações corretamente.  \n**Parcialmente adequado:** verbaliza ou executa apenas uma ação corretamente.  \n**Inadequado:** não verbaliza ou não executa as ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza os critérios para realização e interpretação do teste da apneia.**  \n(1) Pré-oxigenação do paciente antes do teste;  \n(2) Desconexão do ventilador e observação por 10 minutos;  \n(3) Monitorização contínua durante o teste (SPO2, PA, ECG);  \n(4) Critério de interrupção (instabilidade hemodinâmica, saturação < 85%);  \n(5) Critério de positividade (ausência de movimentos respiratórios e PaCO2 > 55 mmHg).  \n\n**Adequado:** verbaliza quatro ou mais critérios.  \n**Parcialmente adequado:** verbaliza dois ou três critérios.  \n**Inadequado:** verbaliza um ou nenhum critério.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.8",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Conclui o exame clínico de morte encefálica, afirmando a ausência de todos os reflexos de tronco e a positividade do teste da apneia.**  \n\n**Adequado:** realiza a conclusão correta.  \n**Inadequado:** não realiza a conclusão ou a realiza de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.9",
+        "adequado": "1.8"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

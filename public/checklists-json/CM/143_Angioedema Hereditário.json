@@ -1,0 +1,149 @@
+{
+  "uid": 143,
+  "hash": "pepe_143",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Angioedema Hereditário",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas;  \n• leito de observação.\n\nDescrição do caso:\nPaciente com 28 anos procura a Unidade Básica de Saúde com queixa de inchaço recorrente no rosto e crises de dor abdominal forte sem causa aparente.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar e interpretar o exame físico necessário.  \n- Solicitar e interpretar exames complementares pertinentes.  \n- Estabelecer a hipótese diagnóstica e a conduta terapêutica inicial.  \n- Fornecer as orientações e o plano de seguimento ao paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mariana, 28 anos, balconista.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), meu rosto inchou de novo e estou com umas dores na barriga.  \n\n**SOBRE O INCHAÇO:**  \n• **Início:** começou ontem à noite.  \n• **Localização:** perto dos olhos e na bochecha esquerda.  \n• **Características:** não coça e não dói, só sinto uma pressão.  \n• **Frequência:** já aconteceu umas cinco vezes esse ano.  \n\n**SOBRE A DOR ABDOMINAL:**  \n• **Início:** começou hoje de manhã.  \n• **Tipo:** uma cólica forte que vai e volta.  \n• **Nega:** diarreia ou vômitos.  \n\n**NEGAR OUTROS SINTOMAS:**  \n• Placas vermelhas no corpo ou urticária.  \n• Febre.  \n• Falta de ar ou rouquidão.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** sou saudável.  \n• **Medicações:** comecei a usar um remédio para pressão, o enalapril, faz dois meses. Também uso pílula anticoncepcional.  \n• **Cirurgias:** operei o apêndice há dois anos porque acharam que a dor era isso, mas não era.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Minha mãe tinha umas crises de inchaço assim também.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Isso é alergia a alguma coisa?*  \n• *O que eu preciso fazer para parar de ter isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência Cardíaca:** 76 batimentos por minuto.  \n**Frequência Respiratória:** 16 incursões respiratórias por minuto.  \n**Pressão Arterial:** 132 x 84 mmHg.  \n**Saturação de Oxigênio:** 98%.  \n**Temperatura Axilar:** 36,6°C.  \n\n\n**EXAME CLÍNICO:**  \n\n**Ectoscopia:** Bom estado geral, corada, hidratada. Edema em hemiface esquerda, sem calor, rubor ou prurido. Ausência de placas urticariformes.  \n\n**Oroscopia:** Ausência de edema de úvula ou língua. Vias aéreas pérvias.  \n\n**Abdominal:** Abdome plano, ruídos hidroaéreos presentes, dor leve à palpação difusa, sem sinais de irritação peritoneal.  \n\n**Restante do exame físico:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**SISTEMA COMPLEMENTO:**  \n\n• **Fração C4:** 4 mg/dL (VR: 10 – 40 mg/dL)  \n\n• **Inibidor de C1 (C1-INH) - Nível:** 5 mg/dL (VR: 21 – 39 mg/dL)  \n\n• **Inibidor de C1 (C1-INH) - Função:** 25% (VR: > 67%)  \n\n• **Fração C3:** 120 mg/dL (VR: 90 – 180 mg/dL)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga características da queixa e histórico relevante:**  \n(1) ausência de prurido (coceira) ou urticária;  \n(2) história familiar de sintomas semelhantes;  \n(3) uso de medicações (especificamente Enalapril ou Anticoncepcional);  \n(4) crises anteriores de edema ou dor abdominal recorrente.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita e interpreta o exame físico:**  \n(1) avaliação de sinais vitais;  \n(2) inspeção da face e orofaringe (vias aéreas);  \n(3) exame abdominal;  \n(4) pesquisa de sinais inflamatórios no local do edema.  \n\n**Adequado:** solicita a avaliação completa dos quatro itens.  \n**Parcialmente adequado:** solicita dois ou três itens.  \n**Inadequado:** solicita um item ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames laboratoriais específicos para a suspeita:**  \n(1) Dosagem de C4;  \n(2) Nível sérico de C1-INH (Inibidor de C1);  \n(3) Atividade funcional de C1-INH.  \n\n**Adequado:** solicita ao menos um exame.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza o diagnóstico de Angioedema Hereditário.**  \n\n**Adequado:** verbaliza o diagnóstico completo.  \n**Parcialmente adequado:** verbaliza apenas Angioedema.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica o tratamento profilático medicamentoso com andrógenos atenuados (Danazol).**  \n\n**Adequado:** indica o Danazol.  \n**Inadequado:** não indica ou indica medicação incorreta (ex: corticoides ou anti-histamínicos como única medida).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta a suspensão de fatores desencadeantes:**  \n(1) suspender inibidores da ECA (Enalapril);  \n(2) evitar uso de estrogênios (anticoncepcional).  \n\n**Adequado:** orienta a suspensão dos dois itens.  \n**Parcialmente adequado:** orienta a suspensão de apenas um item.  \n**Inadequado:** não orienta a suspensão de nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre a monitorização de efeitos adversos do tratamento (Danazol):**  \n(1) realização de ultrassonografia abdominal anual (risco de adenoma hepático);  \n(2) controle de exames laboratoriais (função hepática, perfil lipídico e hemograma).  \n\n**Adequado:** orienta as duas formas de monitorização.  \n**Parcialmente adequado:** orienta apenas uma forma.  \n**Inadequado:** não orienta monitorização.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Fornece aconselhamento genético e orienta avaliação de familiares próximos.**  \n\n**Adequado:** fornece a orientação.  \n**Inadequado:** não fornece a orientação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Encaminha a paciente para seguimento em serviço especializado (Alergia e Imunologia).**  \n\n**Adequado:** realiza o encaminhamento.  \n**Inadequado:** não realiza o encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

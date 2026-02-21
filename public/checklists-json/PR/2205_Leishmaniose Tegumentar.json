@@ -1,0 +1,193 @@
+{
+  "uid": 2205,
+  "hash": "pepe_2205",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Leishmaniose Tegumentar",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Atençao Primária.  \nA unidade possui a seguinte infraestrutura:  \n• consultórios para atendimento; e  \n• sala de coleta de exames laboratoriais.\n\nDescrição do caso:\n• Você realizará o atendimento de um paciente de 30 anos, com consulta agendada,  \npreviamente hígido, com vacinação atualizada e rastreamento negativo para  \nInfecções sexualmente transmissíveis e para hipertensão arterial.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- ler a ficha do paciente, apresentada a seguir;  \n- realizar o atendimento do paciente;  \n- definir o diagnóstico clínico-epidemiológico;  \n- orientar o plano terapêutico; e  \n- cumprir as medidas de prevenção e controle.  \n\n\\\nFICHA DO PACIENTE  \nOs dados do acolhimento foram coletados pela técnica de enfermagem.  \n- Motivo da consulta: ferida na perna esquerda.  \n- Paciente nega febre, mal estar e dor.  \n- Temperatura axilar: 36 ℃  \n- Peso: 75 kg  \n- Índice de massa corporal: 23 kg/m2  \n- Pressão arterial: 120 x 75 mmHg  \n- Frequência cardíaca: 75 bpm  \n\n\nO PACIENTE SIMULADO NÃO DEVE SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "Caso o candidato solicite a ficha do paciente: *A ficha do paciente está informada após sua lista de tarefas.*  \n\n**DADOS PESSOAIS**:  \nJoão, 30 anos, pedreiro, procedente do interior de Minas Gerais  \nMoro com a minha esposa e filha  \n\n**Motivo de consulta**:  \nVim porque apareceu essa ferida aqui na minha perna  \n\n**Evolução da ferida**:  \nA ferida começou pequena a dois meses atrás e depois veio aumentando de tamanho, será que é câncer Dr(a) ?  \n**Características da ferida**:  \nLesão que não sangra, não dói, não coça e não sai pus  \n**Uso de medicação**:  \nEu mesmo fui na farmácia e comprei uma pomada e estou passando na ferida e também estou passando um chá que a minha mãe indicou, até já fizeram benzedeira aqui, mas nada resolveu  \n\n**Lesões em pessoas que vivem na mesma residência**:  \nNão que eu saiba Dr(a)  \n\n**ANTECEDENTES PESSOAIS E FAMILIARES**:  \n**Doenças crônicas**:  \nDr(a) eu sempre venho aqui no posto de saúde para controlar a pressão e esta tudo certo, até já me fizeram teste pro AIDS, Hepatites, Sífilis e disseram que está tudo certo  \n**Situação vacinal**:  \nCalendário de vacinas em dia  \n**Doenças em familiares**:  \nMinha família é bem saudável Dr(a), minha esposa também  \n**Condições da moradia**:  \nMoro em uma casa grande, com um quintalzão, inclusive esta até na hora que carpir  \n\n**NEGAR**:  \ntabagismo,  \netilismo  \n\n**Caso receba o diagnóstico sem que o candidato solicite exames, questione se somente com essa consulta seria suficiente para dar o diagnóstico ou se seriam necessários exames**  \n\n**Após o candidato solicitar sorologia para Leishmaniose, perguntar se esse exame demora muito para ficar pronto**  \n\n**Após receber a conduta terapêutica, perguntar se essa medicação é muito forte**  \n\n**Dúvidas**:  \n*Dr(a) eu posso fazer alguma coisa com esse ferida?, tenho medo de sujar e contaminar ela.*  \n\n*Dr(a), antes da pandemia, ia sempre um agente de saúde lá em casa, será que ele pode ir lá em casa dar uma olhada?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "Bom estado geral, acianótico, anictérico e afebril.  \n\n\n**Aparelho cardiovascular:**  \nRitmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros ou turgência jugular.  \n\n\n**Aparelho respiratório:**  \nMurmúrio vesicular bem distribuído. Sem ruídos adventícios.  \n\n\n**Abdome:**  \nNormotenso, normotimpânico, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes. Sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "IMAGEM DA FERIDA",
+      "conteudo": "**TENÇÃO: DIRIJA-SE À CÂMERA!**  \n**VERBALIZE, DE FORMA CLARA, A DESCRIÇÃO DAS CARACTERÍSTICAS DA FERIDA.**",
+      "imagem": "img_printeds/2022-1-e5p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. (1) Cumprimenta o paciente simulado;**  \n(2) identifica-se;  \n(3) dirige-se ao paciente simulado pelo nome, pelo menos uma vez;  \n(4) pergunta e  \n(5) ouve com atenção o motivo da consulta.  \n\n**Adequado:** realiza as cinco ações.  \n**Parcialmente adequado:** realiza de duas a quatro ações.  \n**Inadequado:** realiza apenas uma ação ou não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Estabelece contato visual e mantém postura empática ao longo da consulta.**  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma das ações.  \n**Inadequado:** não realiza nenhuma das ações",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Escuta a fala do paciente simulado, sem interrompê-lo.**  \n\n**Adequado:** realiza integralmente a ação.  \n**Inadequado:** não realiza a ação ou não a realiza integralmente",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Usa linguagem acessível para com o paciente simulado, evitando termos**  \ntécnicos de difícil compreensão.  \n\n**Adequado:** usa linguagem acessível.  \n**Inadequado:** não utiliza linguagem acessível",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Responde às perguntas do paciente simulado.**  \n\n**Adequado:** responde as perguntas.  \n**Inadequado:** não responde as perguntas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta sobre o contexto socioepidemiológico do paciente simulado:**  \n(1) residência em área de provável transmissão da doença;  \n(2) existência de coabitantes, colegas de trabalho e vizinhos com lesão  \nsemelhante;  \n(3) presença de animais no domicílio, local de trabalho e no peridomicílio;  \n(4) viagem recente a áreas endêmicas.  \n\n**Adequado:** pergunta sobre os quatro itens especificados.  \n**Parcialmente adequado:** pergunta sobre apenas dois dos itens especificados.  \n**Inadequado:** pergunta sobre apenas um dos itens especificados ou não  \npergunta nenhum dos itens especificados",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Descreve as características da lesão:**  \n(1) úlcera única,  \n(2) bordas definidas ou elevadas ou delimitadas ou infiltradas; e  \n(3) indolor.  \n\n**Adequado:** descreve as três características especificadas.  \n**Parcialmente adequado:** descreve apenas duas das características  \nespecificadas.  \n**Inadequado:** não descreve nenhuma das características especificadas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Pergunta sobre a existência de lesão em mucosas (boca ou nariz).**  \n\n**Adequado:** pergunta se há lesão em mucosas (boca ou nariz).  \n**Inadequado:** não pergunta sobre lesões em mucosas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza o diagnóstico clínico-epidemiológico**  \n\n**Adequado:** estabelece o diagnóstico clínico-epidemiológico de Leishmaniose  \ntegumentar.  \n**Parcialmente adequado:** Suspeita de Leishmaniose tegumentar, mas diz que só  \npode estabelecer o diagnóstico diante dos exames complementares para  \npesquisa de Leishmania: parasitológico, molecular, imunológico ou  \nhistopatológico.  \n**Inadequado:** não estabelece diagnóstico de leishmaniose",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita:**  \n(1) prova da função renal  \n(2) prova da função hepática; e  \n(3) eletrocardiograma antes de iniciar a farmacoterapia.  \n\n**Adequado:** solicita os três exames.  \n**Inadequado:** não solicita os três exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica o tratamento com antimonial pentavalente (Glucantime) (não é**  \nnecessário dizer a dose).  \n\n**Adequado:** indica o tratamento correto.  \n**Inadequado:** não indica o tratamento correto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Notifica o caso de leishmaniose tegumentar.**  \n\n**Adequado:** notifica o caso.  \n**Inadequado:** não notifica o caso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica a necessidade de abordagem comunitária:**  \n(1) avaliação de novos casos pelo agente comunitário de saúde (ACS);  \n(2) atuação do agente de combate de endemias (ACE)/zoonose.  \n\n**Adequado:** indica a atuação dos dois agentes.  \n**Parcialmente adequado:** indica a atuação de apenas um dos agentes.  \n**Inadequado:** não indica a atuação de nenhum dos agentes",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Explica as medidas de prevenção e controle:**  \n(1) usar repelentes;  \n(2) evitar a exposição ao mosquito no anoitecer e à noite;  \n(3) usar mosquiteiros ou telas;  \n(4) limpar quintais e terrenos;  \n(5) fazer a destinação correta do lixo;  \n(6) limpar os abrigos de animais domésticos;  \n(7) manter os animais domésticos distantes do intradomicílio à noite.  \n\n**Adequado:** explica três ou mais das medidas especificadas.  \n**Parcialmente adequado:** explica apenas duas das medidas especificadas.  \n**Inadequado:** explica apenas uma medida ou não explica nenhuma das medidas especificadas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

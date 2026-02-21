@@ -1,0 +1,171 @@
+{
+  "uid": 218,
+  "hash": "pepe_218",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Hérnia Inguinal Encarcerada",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• setor de radiologia convencional e ultrassonografia;  \n• leitos de observação;  \n• serviço de cirurgia geral.\n\nDescrição do caso:\nVocê é médico de plantão em uma unidade de pronto atendimento e atenderá um homem de 48 anos com queixa de dor na região inguinal.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Formular e comunicar a hipótese diagnóstica.  \n- Citar diagnósticos diferenciais e possíveis complicações.  \n- Estabelecer a conduta terapêutica adequada.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Leonardo, 48 anos, solteiro, trabalha em loja de materiais de construção.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor muito forte aqui na virilha.  \n\n**SOBRE A DOR:**  \n• **Início:** começou há mais ou menos uma hora.  \n• **Localização:** aqui na virilha do lado direito.  \n• **Irradiação:** não vai pra outro lugar.  \n• **Intensidade:** 8/10, está muito forte.  \n• **Atenuantes/agravantes:** nada melhora. Piora quando faço força.  \n• **Episódios anteriores:** é a primeira vez que dói assim, mas já sentia uma dor mais leve quando carregava peso no trabalho, depois passava.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Abaulamento:** tem um caroço na virilha que aparecia e sumia, mas agora não volta mais.  \n• **Náuseas:** estou enjoado.  \n• **Vômitos:** vomitei 2 vezes hoje, saiu comida.  \n• **Febre:** não medi, mas estou me sentindo quente.  \n• **Eliminação de fezes e gases:** estou sem evacuar há 2 dias, gases ainda solto.  \n• **Anorexia:** estou sem vontade de comer.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** não tenho doença e não uso remédio.  \n• **Alergias:** nega.  \n• **Cirurgias:** nunca operei.  \n\n• **Tabaco:** fumo um maço por dia desde os 20 anos.  \n• **Álcool:** bebo nos finais de semana.  \n• **Atividade física:** não faço nada.  \n• **Trabalho:** carrego muito peso na loja, material de construção é pesado.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Não sei de nada importante.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Não vou fazer nenhum exame da barriga?*  \n• *Vou precisar de cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 110 x 80 mmHg.  \n• **Frequência Cardíaca:** 106 batimentos por minuto.  \n• **Frequência Respiratória:** 17 incursões respiratórias por minuto.  \n• **Saturação de O₂:** 98% em ar ambiente.  \n• **Temperatura Axilar:** 37,4°C.  \n\n\n**DADOS ANTROPOMÉTRICOS:**  \n• **IMC:** 31 kg/m².  \n• **Circunferência Abdominal:** 96 cm.  \n\n\n**ECTOSCOPIA:**  \nBom estado geral, fácies álgica, normocorado, normohidratado, acianótico, anictérico, alerta e orientado.  \n\n\n**APARELHO CARDIOVASCULAR:**  \nRitmo cardíaco regular, taquicárdico, bulhas normofonéticas, sem sopros.  \n\n\n**APARELHO RESPIRATÓRIO:**  \nMurmúrio vesicular preservado bilateralmente, sem ruídos adventícios.  \n\n\n**EXAME ABDOMINAL:**  \nAbdome globoso, flácido, ruídos hidroaéreos presentes, doloroso à palpação em fossa ilíaca direita, descompressão brusca positiva em região inguinal direita.  \nPresença de abaulamento em região inguinal direita.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME DA REGIÃO INGUINAL",
+      "conteudo": "**REGIÃO INGUINAL DIREITA:**  \n• **Inspeção:** presença de abaulamento em topografia do canal inguinal direito, com edema, hiperemia e calor local.  \n\n• **Palpação:** massa de consistência firme, extremamente dolorosa à palpação, irredutível à manobra de redução manual.  \n\n• **Manobra de Valsalva:** aumento do abaulamento, que permanece irredutível.  \n\n• **Anel inguinal externo:** não avaliável devido à dor intensa.  \n\n\n**REGIÃO INGUINAL ESQUERDA:**  \nSem alterações à inspeção e palpação.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor e história do abaulamento:**  \n(1) início ou tempo de evolução;  \n(2) localização;  \n(3) intensidade;  \n(4) irradiação;  \n(5) fatores de melhora ou piora;  \n(6) presença de abaulamento ou \"caroço\" na região;  \n(7) se o abaulamento reduzia espontaneamente ou com manobras;  \n(8) episódios anteriores semelhantes.  \n\n**Adequado:** pergunta cinco ou mais itens.  \n**Parcialmente adequado:** pergunta três ou quatro itens.  \n**Inadequado:** pergunta dois ou menos, ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas associados sugestivos de complicação:**  \n(1) náuseas;  \n(2) vômitos;  \n(3) parada de eliminação de fezes;  \n(4) parada de eliminação de gases;  \n(5) distensão abdominal;  \n(6) febre.  \n\n**Adequado:** pergunta quatro ou mais itens.  \n**Parcialmente adequado:** pergunta dois ou três itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga fatores de risco para hérnia inguinal:**  \n(1) esforço físico ou carregamento de peso;  \n(2) tosse crônica ou tabagismo;  \n(3) constipação intestinal;  \n(4) obesidade;  \n(5) cirurgias prévias na região.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico abdominal e identifica os achados:**  \n(1) dor à palpação em fossa ilíaca direita ou região inguinal;  \n(2) sinal de irritação peritoneal (descompressão brusca positiva);  \n(3) presença de abaulamento inguinal.  \n\n**Adequado:** solicita e identifica os três achados.  \n**Parcialmente adequado:** solicita e identifica dois achados.  \n**Inadequado:** não solicita ou identifica apenas um achado ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame específico da região inguinal com manobra de Valsalva ou tosse e identifica os achados:**  \n\n\n**Adequado:** solicita e identifica três ou quatro achados (abaulamento, sinais flogísticos, massa irredutível, dor intensa).  \n**Parcialmente adequado:** solicita e identifica dois achados.  \n**Inadequado:** não solicita ou identifica apenas um achado ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula a hipótese diagnóstica de hérnia inguinal encarcerada (ou hérnia inguinal complicada ou hérnia inguinal irredutível).**  \n\n**Adequado:** formula o diagnóstico completo (hérnia inguinal + encarcerada/complicada).  \n**Parcialmente adequado:** formula apenas hérnia inguinal, sem especificar a complicação.  \n**Inadequado:** não formula ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Menciona diagnósticos diferenciais:**  \n(1) hérnia femoral encarcerada;  \n(2) linfadenopatia inguinal;  \n(3) abscesso inguinal;  \n(4) torção testicular;  \n(5) epididimite ou orquite;  \n(6) lipoma de cordão espermático;  \n(7) hidrocele.  \n\n**Adequado:** menciona dois ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** menciona um diagnóstico diferencial.  \n**Inadequado:** não menciona diagnóstico diferencial algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica ao paciente que o diagnóstico é clínico e que exames de imagem não são necessários para a conduta inicial.**  \n\n**Adequado:** explica corretamente.  \n**Inadequado:** não explica ou indica exame de imagem como obrigatório.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica medidas de suporte inicial:**  \n(1) jejum;  \n(2) acesso venoso e hidratação;  \n(3) analgesia;  \n(4) antiemético.  \n\n**Adequado:** indica três ou quatro medidas.  \n**Parcialmente adequado:** indica duas medidas.  \n**Inadequado:** indica uma medida ou não indica medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica tratamento cirúrgico de urgência (herniorrafia de urgência).**  \n\n**Adequado:** indica com ênfase na urgência.  \n**Inadequado:** não indica ou indica cirurgia eletiva.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre riscos de complicação (estrangulamento, necrose intestinal, obstrução intestinal) caso não seja operado.**  \n\n**Adequado:** orienta sobre pelo menos dois riscos.  \n**Parcialmente adequado:** orienta sobre um risco.  \n**Inadequado:** não orienta sobre riscos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

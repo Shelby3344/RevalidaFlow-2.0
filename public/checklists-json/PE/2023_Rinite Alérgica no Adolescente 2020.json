@@ -1,0 +1,253 @@
+{
+  "uid": 2023,
+  "hash": "pepe_2023",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Rinite Alérgica no Adolescente | 2020",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê está em seu consultório na UBS e atenderá Lucas, um adolescente de 14 anos, que comparece à consulta queixando-se de \"nariz escorrendo e espirros\" frequentes.",
+  "tarefas": "TAREFAS:  \n- Realizar a abordagem integral do adolescente;  \n- Realizar a anamnese sobre o quadro;  \n- Solicitar e Realizar o(s) exame(s) físico(s) específico(s);  \n- Verbalizar o diagnóstico e o plano terapêutico medicamentoso e não medicamentoso.  \n- Responder as dúvidas do paciente.  \n\n\\\nATENÇÃO!  \nCONSIDERE QUE HÁ ESTETOSCÓPIO DISPONÍVEL",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** caso o candidato solicite o Exame Físico, questionar: *Concluiu seu pedido de Exame Físico?* (após o candidato confirmar, liberar o impresso **EXAME FÍSICO**).  \n\n\n**DADOS PESSOAIS:**  \n• Lucas, 14 anos, estudante.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim porque meu nariz vive escorrendo, entupido e eu espirro demais.  \n\n\n**SOBRE OS SINTOMAS (RINITE):**  \n• **Frequência:** É quase todo dia, principalmente de manhã.  \n• **Prurido:** Coça muito o nariz e os olhos.  \n• **Rinorreia/Coriza:** O nariz sai uma aguinha clara.  \n• **Duração:** Tenho isso há uns 2 anos, mas parece que agora piorou.  \n\n• **Fatores de Piora:** Piora quando vou limpar o quarto ou quando o tempo muda.  \n\n• **Intercrise:** Entre uma crise e outra eu fico bem, normal.  \n\n• **Animais:** um gato da vizinha vive lá em casa.  \n\n\n**ABORDAGEM INTEGRAL:**  \n• **Escola:** Estou no 9º ano. Minhas notas são boas.  \n\n• **Alimentação:** Como a comida de casa mesmo, mas não gosto muito de verduras. Também Como lanche na escola.  \n\n• **Atividade Física:** Jogo bola na educação física, mas fora isso fico mais no videogame.  \n\n• **Sexualidade:** Não tenho namorada e nunca tive relações.  \n\n• **Drogas/Álcool:** Não uso nada disso.  \n\n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**  \n• **Histórico Pessoal:** Nunca fiquei internado. Tenho as vacinas em dia.  \n\n• **Histórico Familiar:** Minha mãe tem asma.  \n\n• **Ambiente:** Meu pai fuma, mas ele diz que só fuma na varanda.  \n\n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que eu tenho? Isso tem cura?*  \n• *Vou ter que usar algum remédio? Como usar?*  \n• *Tem alguma coisa que eu posso fazer pra evitar essas crises?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **FC:** 78 bpm  \n• **FR:** 18 irpm  \n• **Temp:** 36,5°C  \n\n\n**Antropometria:**  \n• **Peso:** 52 kg  \n• **Altura:** 1,65 m  \n• **IMC:** 19,1 kg/m²  \n\n\n**Ectoscopia:** Bom estado geral, corado, hidratado, eupneico.  \n\n\n**Oroscopia:** Sem hiperemia, amígdalas tróficas, presença de gotejamento pós-nasal hialino.  \n\n\n**Rinoscopia:** Mucosa pálida e edemaciada, cornetos hipertróficos, presença de secreção hialina fluida. Sem desvio de septo obstrutivo.  \n\n\n**Ausculta Cardiopulmonar:**  \n• **ACV:** Ritmo regular 2 tempos, bulhas normofonéticas, sem sopros.  \n\n• **AR:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**ATENÇÃO:**  \n**Realize e verbalize as etapas da AUSCULTA CARDÍACA e PULMONAR no paciente.**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentou-se ao paciente ou cumprimentou-o?**  \n(1) diz seu nome;  \n(2) diz sua profissão.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.05",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Identificou o paciente?**  \n(1) nome;  \n(2) idade;  \n(3) naturalidade ou procedência ou escolaridade ou raça ou religião.  \n\n**Adequado:** pergunta nome e idade e pelo menos mais um item.  \n**Parcialmente adequado:** pergunta apenas nome e idade.  \n**Inadequado:** não pergunta nome e idade.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.05",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Determinou o motivo da consulta, encorajando o paciente para contar sua história?**  \n\n**Adequado:** pergunta o motivo da consulta de forma aberta.  \n**Inadequado:** não pergunta ou induz a resposta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realizou “escuta atenta”, utilizando linguagem verbal e não-verbal?**  \n(1) manteve contato visual ou postura corporal voltada ao paciente;  \n(2) utilizou gestos encorajadores ou encorajamentos mínimos (“Hum, hum”; “sim”; “e então”; “fale mais sobre isso”);  \n(3) não interrompeu o paciente;  \n(4) evitou fazer anotações excessivas ou olhar o relógio repetidamente.  \n\n**Adequado:** cumpre pelo menos dois desses itens.  \n**Inadequado:** cumpre menos de dois itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Perguntou sobre as características clínicas da rinite alérgica:**  \n(1) número de episódios de coriza, prurido ou espirro;  \n(2) primeira crise ou tempo de evolução;  \n(3) última crise;  \n(4) horários do dia mais frequentes;  \n(5) crises recorrentes ou intercrise assintomático.  \n\n**Adequado:** pergunta pelo menos dois itens.  \n**Inadequado:** pergunta menos de dois itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Perguntou sobre fatores desencadeantes da rinite?**  \n(1) poeira;  \n(2) fungo/mofo;  \n(3) fumaça de cigarro;  \n(4) mudança de clima;  \n(5) pelo de animais;  \n(6) pólen ou outros alérgenos.  \n\n**Adequado:** pergunta pelo menos dois itens.  \n**Inadequado:** pergunta menos de dois itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Realizou abordagem integral do adolescente?**  \n(1) alimentação;  \n(2) vacinas;  \n(3) escolaridade;  \n(4) atividade física;  \n(5) sexualidade.  \n\n**Adequado:** aborda pelo menos dois itens.  \n**Inadequado:** aborda menos de dois itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Perguntou sobre história patológica pregressa?**  \n(1) internamentos;  \n(2) outras patologias;  \n(3) alergias.  \n\n**Adequado:** pergunta pelo menos um item.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Perguntou se tem história familiar de alergia?**  \n(1) pais ou irmãos com asma;  \n(2) pais ou irmãos com rinite;  \n(3) pais ou irmãos com dermatite atópica.  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Perguntou sobre a história ambiental?**  \n(1) fumantes em casa;  \n(2) presença de animais;  \n(3) mofo ou umidade;  \n(4) tipo de piso ou cortinas (outros).  \n\n**Adequado:** pergunta pelo menos um item.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Lavou ou higienizou mãos com álcool antes de examiná-lo?**  \n\n**Adequado:** realiza ou verbaliza a ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realizou a ausculta cardiopulmonar?**  \n(1) ausculta cardíaca;  \n(2) ausculta pulmonar.  \n\n**Adequado:** realiza ao menos uma ausculta.  \n**Inadequado:** não realiza nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": "Etapas para realização da ausculta cardíaca e pulmonar:\n\n**Ausculta cardíaca:**\n1. higieniza as mãos e/ou o estetoscópio;\n2. mantém o paciente em decúbito dorsal ou sentado;\n3. posiciona-se ao lado direito do paciente;\n4. posiciona o diafragma do estetoscópio diretamente sobre a pele (abaixo da roupa ou com tórax exposto);\n5. ausculta os focos cardíacos: pulmonar, aórtico, mitral e tricúspide.\n\n\n**Ausculta Pulmonar:**\n1. higieniza as mãos e/ou o estetoscópio;\n2. mantém o paciente sentado, e posiciona-se atrás do paciente (ou aborda o dorso adequadamente);\n3. solicita que o paciente retire ou eleve a camisa para expor o dorso;\n4. solicita que o paciente respire pausada e profundamente (ou com a boca aberta) durante a ausculta;\n5. realiza a ausculta dorsal com o diafragma em pelo menos 6 campos, iniciando pelos ápices em direção às bases, comparando os hemitóraxes (simetria, ausculta em \"Z\")."
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Realizou/Solicitou o exame de orofaringe?**  \n\n**Adequado:** realiza.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Realizou/Solicitou o exame de rinoscopia?**  \n\n**Adequado:** realiza.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Pesou e mediu o adolescente?**  \n(1) peso;  \n(2) altura/estatura.  \n\n**Adequado:** afere pelo menos o peso.  \n**Inadequado:** não afere o peso, ou solicita apenas a altura/estatura, ou apenas IMC.  \n\n*OBS.: Adequado caso apenas Solicite Peso e Altura/Estatura.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Realizou um resumo das informações colhidas e informou o paciente sobre o diagnóstico de rinite alérgica, usando uma linguagem acessível?**  \n\n**Adequado:** faz o resumo e informa o diagnóstico.  \n**Parcialmente adequado:** informa apenas o diagnóstico sem o resumo.  \n**Inadequado:** não informa o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Checou a compreensão do paciente?**  \n\n**Adequado:** pergunta se o paciente entendeu ou se tem dúvidas.  \n**Inadequado:** não checa a compreensão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Explicou o plano de tratamento – medicamentos para crise e intercrise?**  \n(1) Para crise: anti-histamínico oral ou corticoide oral;  \n(2) Para manutenção/intercrise: corticoide nasal ou antileucotrieno.  \n\n**Adequado:** explica os dois tipos de tratamento (crise e manutenção).  \n**Parcialmente adequado:** explica apenas um tipo.  \n**Inadequado:** não explica o tratamento medicamentoso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Explicou o plano de tratamento – educação e controle ambiental?**  \n(1) evitar poeira/ácaros (retirar tapetes, cortinas, bichos de pelúcia);  \n(2) evitar fumaça de cigarro;  \n(3) controle de animais no ambiente de dormir;  \n(4) limpeza do ambiente com pano úmido.  \n\n**Adequado:** cita pelo menos duas medidas de controle ambiental.  \n**Inadequado:** cita menos de duas medidas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Explicou o que fazer se o tratamento não funcionar, negociando os próximos passos (retorno)?**  \n\n**Adequado:** orienta sobre o retorno ou reavaliação em caso de falha terapêutica.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

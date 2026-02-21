@@ -1,0 +1,166 @@
+{
+  "uid": 125,
+  "hash": "pepe_125",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Erisipela e Sepse",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atenção Secundária à Saúde - Pronto Atendimento.  \nTipo de atendimento: Urgência e Emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de emergência com monitorização;  \n• laboratório de análises clínicas;  \n• centro cirúrgico e leitos de internação.\n\nDescrição do caso:\nMilitar de 28 anos é trazido ao pronto-socorro por colegas de farda por febre e prostração. Apresenta uma lesão dolorosa na perna direita que piorou nos últimos dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar e interpretar o exame físico;  \n- Formular as hipóteses diagnósticas;  \n- Solicitar os exames complementares pertinentes;  \n- Estabelecer a conduta terapêutica inicial.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marcos, 28 anos, militar.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou me sentindo muito mal. Febre alta, fraqueza e essa mancha na minha perna está doendo demais.  \n\n**SOBRE A LESÃO:**  \n• **Início:** Começou há uns 10 dias, era só uma manchinha vermelha.  \n• **Localização:** É aqui na frente da perna direita.  \n• **Evolução:** Piorou muito nos últimos 2 dias, ficou inchado e doendo mais.  \n• **Trauma:** Não bati a perna.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre e Calafrios:** Sim, tive febre alta e calafrios várias vezes.  \n• **Astenia:** Estou me sentindo fraco, meio tonto, sem força.  \n• **Outros:** Nega tosse, dor de barriga ou dor para urinar.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho alergia, não tenho nenhuma doença e não tomo nenhum remédio.  \n• **Cirurgias e internações:** Nunca operei.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso na minha perna é grave?*  \n• *O que vamos fazer agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 92 x 52 mmHg  \n• **Frequência Cardíaca:** 128 bpm  \n• **Frequência Respiratória:** 26 irpm  \n• **Saturação de Oxigênio:** 97% em ar ambiente  \n• **Temperatura Axilar:** 39,2°C  \n• **Glicemia capilar:** 105 mg/dL  \n\n\nMau estado geral, sonolento, mas desperta ao chamado. Desidratado (++/4+), febril, taquicárdico e taquipneico.  \n\nAparelho cardiovascular: Bulhas rítmicas, taquicárdicas, 2 tempos, sem sopros.  \n\nAparelho respiratório: Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\nAbdome: Flácido, indolor, ruídos hidroaéreos presentes.  \n\n\n**EXAME DOS MEMBROS:**  \n\n• **Membro inferior direito:** Presença de lesão eritematosa, edemaciada, quente e dolorosa em região pré-tibial. A lesão possui bordas bem delimitadas e elevadas.  \n\n• **Membro inferior esquerdo:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "LESÃO EM MID",
+      "conteudo": "",
+      "imagem": "img_printeds/e125p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 14,0 g/dL (VR: 13,0 – 17,0 g/dL)  \n• **Leucócitos:** 18.500 mm³ (VR: 4.000 – 11.000/mm³)  \n• **Bastões:** 12%  \n• **Plaquetas:** 210.000 mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**MARCADORES**  \n• **Proteína C Reativa (PCR):** 210 mg/L (VR: < 5 mg/L)  \n• **Lactato Arterial:** 3,5 mmol/L (VR: < 2,0 mmol/L)  \n\n\n**FUNÇÃO RENAL E HEPÁTICA**  \n• **Creatinina:** 1,6 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 68 mg/dL (VR: 10 – 50 mg/dL)  \n• **TGO (AST):** 55 U/L (VR: < 40 U/L)  \n• **TGP (ALT):** 48 U/L (VR: < 40 U/L)  \n\n\n**COAGULOGRAMA**  \n• **INR:** 1.1 (VR: 0,8 – 1,2)  \n• **TTPA:** 30 segundos (VR: 25 – 35 segundos)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, investigando a queixa atual:**  \n(1) características da lesão de pele (início, progressão, dor);  \n(2) sintomas sistêmicos (febre, calafrios, mal-estar, prostração).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga antecedentes e fatores de risco:**  \n(1) comorbidades (ex: Diabetes Mellitus, insuficiência venosa);  \n(2) alergias;  \n(3) uso de medicamentos;  \n(4) contexto da viagem/missão e possível porta de entrada (picada, trauma).  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica os sinais de gravidade (sepse) ao exame físico.**  \n\n**Adequado:** identifica a presença de febre, taquicardia, taquipneia, hipotensão e alteração do nível de consciência (sonolência).  \n**Inadequado:** não identifica os sinais de gravidade sistêmica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula as hipóteses diagnósticas.**  \n\n**Adequado:** verbaliza o diagnóstico de Sepse (ou Choque Séptico) E Erisipela.  \n**Parcialmente adequado:** verbaliza apenas Sepse (ou Choque Séptico) OU apenas Erisipela (ou Celulite).  \n**Inadequado:** não verbaliza nenhuma das hipóteses.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais para avaliação de sepse.**  \n(1) Hemograma;  \n(2) Proteína C Reativa (PCR) ou VHS;  \n(3) Lactato.  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames laboratoriais para avaliação de disfunção orgânica.**  \n(1) Ureia e Creatinina;  \n(2) TGO e TGP (ou Hepatograma);  \n(3) Coagulograma.  \n\n**Adequado:** solicita os três exames.  \n**Parcialcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita coleta de hemoculturas.**  \n\n**Adequado:** solicita a coleta de dois pares de hemoculturas (aeróbio e anaeróbio) de sítios distintos.  \n**Inadequado:** não solicita hemoculturas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a conduta de ressuscitação volêmica (Pacote da 1ª hora).**  \n\n**Adequado:** indica a infusão de cristaloide (Soro Fisiológico 0,9% ou Ringer Lactato) na dose de 30 mL/kg.  \n**Inadequado:** não indica a ressuscitação volêmica ou indica volume incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a conduta de antibioticoterapia.**  \n\n**Adequado:** prescreve antibioticoterapia endovenosa com cobertura para Gram-positivos (ex: Cefazolina OU Oxacilina OU Penicilina Cristalina).  \n**Inadequado:** não prescreve antibiótico ou prescreve via/espectro incorretos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica medidas de suporte e monitorização.**  \n(1) monitorização cardíaca, oximetria e PA contínua;  \n(2) analgesia e antitérmico.  \n\n**Adequado:** indica os dois itens.  \n**Parcialmente adequado:** indica um item.  \n**Inadequado:** não indica nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "uid": 528,
+  "hash": "pepe_528",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Hanseníase Multibacilar",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• acesso a laboratório de análises clínicas;  \n• sala de curativos e procedimentos.\n\nDescrição do caso:\nPaciente de 52 anos procura a UBS devido ao surgimento de diversas manchas avermelhadas e caroços pelo corpo há cerca de 1 ano. Relata dormência nas mãos e nos pés.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar o(s) exame(s) físico(s) necessário(s) para a avaliação do quadro.  \n- Solicitar e interpretar exames complementares, caso necessário.  \n- Estabelecer o diagnóstico e a classificação operacional do paciente.  \n- Definir a conduta terapêutica e as medidas de vigilância.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Roberto, 52 anos, marceneiro.  \n\n**MOTIVO DE CONSULTA:** Doutor, estou com o corpo cheio dessas manchas e uns caroços que não somem.  \n\n**SOBRE AS MANCHAS E NÓDULOS:**  \n• **Início:** faz mais ou menos 1 ano que começou.  \n• **Localização:** tem no peito, nas costas e nos braços. Os caroços são mais no rosto e na orelha.  \n• **Evolução:** no começo eram poucas, mas agora se espalharam bastante.  \n• **Sintomas:** não coça, mas sinto que a pele nessas partes está estranha, sem sentir direito.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Sensibilidade:** minhas mãos e meus pés ficam formigando, parece que estão sempre dormentes.  \n• **Força:** ando meio atrapalhado e parece que perdi a força para segurar minhas ferramentas.  \n• **Nariz:** sinto o nariz entupido com frequência e às vezes sai um pouco de sangue.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** não tenho outras doenças conhecidas.  \n• **Contatos:** moro com minha esposa, minha filha e meu genro.  \n• **Histórico Familiar:** não conheço ninguém com esse problema.  \n\n**DÚVIDAS:**  \n• *Isso é grave, doutor?*  \n• *Minha família pode pegar de mim?*  \n• *Como é o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO NEUROLÓGICO",
+      "conteudo": "• **Sensibilidade superficial:** alteração da sensibilidade térmica, dolorosa e tátil em diversas lesões e em extremidades (padrão em bota e luva).  \n\n• **Palpação de troncos nervosos:** espessamento bilateral e simétrico dos nervos ulnares e fibulares comuns. Dor à palpação do nervo ulnar direito.  \n\n• **Avaliação motora:** redução de força grau 3 na extensão do punho e dedos bilateralmente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DE PELE",
+      "conteudo": "Presença de múltiplas placas eritematosas, infiltradas, com bordas imprecisas, distribuídas em tronco e membros superiores.",
+      "imagem": "img_printeds/e528p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "ECTOSCOPIA DE FACE",
+      "conteudo": "Presença de pápulas e nódulos em face e pavilhões auriculares.",
+      "imagem": "img_printeds/e528p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "BACILOSCOPIA",
+      "conteudo": "• **Baciloscopia de raspado intradérmico (lóbulos auriculares, cotovelos e lesão):** Positiva para BAAR (Índice Baciloscópico = +3).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida:**  \n(1) questiona o tempo de evolução das lesões;  \n(2) investiga a presença de dormência ou perda de força em extremidades;  \n(3) pesquisa sintomas sistêmicos ou queixas nasais; e,  \n(4) investiga o histórico de contatos domiciliares.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita o exame físico dermatológico:**  \nsolicita avaliação da pele E face (procura por manchas, pápulas, caroços ou nódulos).  \n\n**Adequado:** solicita a avaliação completa das lesões e nódulos.  \n**Inadequado:** não solicita o exame dermatológico ou solicita apenas a avaliação de pele ou nódulos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame neurológico periférico:**  \n(1) de troncos nervosos (ulnar, fibular ou radial); e,  \n(2) de avaliação da força motora de mãos ou pés.  \n(3) solicita teste de sensibilidade superficial (térmica, dolorosa ou tátil) nas lesões.  \n\n\n**Adequado:** solicita as três avaliações.  \n**Parcialmente adequado:** solicita duas avaliações.  \n**Inadequado:** não solicita o exame neurológico ou solicita apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita e interpreta o exame complementar:**  \n(1) solicita baciloscopia de raspado intradérmico; e,  \n(2) interpreta o resultado como positivo.  \n\n**Adequado:** solicita e interpreta corretamente.  \n**Parcialmente adequado:** solicita o exame, mas não interpreta o resultado.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Estabelece o diagnóstico e classificação:**  \n(1) diagnóstico de Hanseníase; e,  \n(2) classificação operacional como Multibacilar (MB).  \n\n**Adequado:** estabelece diagnóstico e classificação corretos.  \n**Parcialmente adequado:** estabelece apenas o diagnóstico.  \n**Inadequado:** não estabelece o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Prescreve o esquema terapêutico correto:**  \n(1) indica Poliquimioterapia Única (PQT-U) com Rifampicina, Dapsona e Clofazimina; e,  \n(2) define a duração de 12 doses mensais (em até 18 meses).  \n\n**Adequado:** indica o esquema e a duração correta.  \n**Parcialmente adequado:** indica apenas as medicações ou apenas a duração.  \n**Inadequado:** indica conduta incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define as medidas de vigilância epidemiológica:**  \n(1) realiza a notificação compulsória do caso; e,  \n(2) solicita o comparecimento de todos os contatos domiciliares para exame dermatoneurológico.  \n\n**Adequado:** indica notificação e manejo de contatos.  \n**Parcialmente adequado:** indica apenas a notificação ou apenas o manejo de contatos.  \n**Inadequado:** não indica medidas de vigilância.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza orientações sobre o tratamento e prevenção de incapacidades:**  \n(1) orienta sobre a regularidade e que é recomendável um Tratamento Diretamente Observado (TDO);  \n(2) explica que a transmissão é interrompida logo após o início do tratamento; e,  \n(3) orienta medidas de autocuidado para proteção de áreas anestesiadas (uso de calçados fechados, inspeção diária).  \n\n**Adequado:** realiza as três orientações.  \n**Parcialmente adequado:** realiza uma ou duas orientações.  \n**Inadequado:** não orienta o paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

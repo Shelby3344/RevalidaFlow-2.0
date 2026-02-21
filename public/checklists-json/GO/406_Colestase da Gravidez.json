@@ -1,0 +1,166 @@
+{
+  "uid": 406,
+  "hash": "pepe_406",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Colestase da Gravidez",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: unidade de emergência de ginecologia e obstetrícia.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• setor de diagnóstico de imagem;  \n• centro obstétrico.\n\nDescrição do caso:\nGestante com 34 semanas procura atendimento por queixa de prurido intenso há uma semana.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar os exames complementares pertinentes.  \n- Formular a hipótese diagnóstica.  \n- Estabelecer a conduta e orientar a paciente sobre os riscos maternos e fetais.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Julia, 30 anos, primigesta.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu não aguento mais essa coceira. Faz uma semana e está piorando.  \n\n**SOBRE O PRURIDO (COCEIRA):**  \n• **Início:** Faz uma semana, mas nos últimos dois dias não consigo nem dormir.  \n• **Localização:** Começou nas palmas das mãos e nas solas dos pés. Agora parece que está no corpo todo.  \n• **Lesão de pele:** Não tem mancha, não tem bolha, é só a coceira mesmo. Minha pele está machucada de tanto que eu coço.  \n• **Atenuantes/agravantes:** Piora muito à noite. Já passei hidratante, mas não adianta.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Nega:** Febre, dor de cabeça, dor na barriga, enjoo, vômito.  \n• **Cor da urina/fezes:** Notei meu xixi um pouco mais escuro. As fezes estão normais.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **IG:** 34 semanas.  \n• **GPA:** G1P0A0. É minha primeira gravidez.  \n• **Pré-natal:** Estou fazendo tudo certo, todos os exames normais até agora.  \n• **Movimentos fetais:** Sinto o bebê mexer normal.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças, medicações:** Nega. Só o sulfato ferroso do pré-natal.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Minha mãe teve isso na gravidez do meu irmão.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho? Isso é normal da gravidez?*  \n• *Isso faz mal para o meu bebê?*  \n• *Qual o tratamento? Vai ter que adiantar o parto?*  ]",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Pressão Arterial:** 120 x 75 mmHg.  \n**Frequência Cardíaca:** 88 batimentos por minuto.  \n**Frequência Respiratória:** 16 incursões respiratórias por minuto.  \n**Temperatura Axilar:** 36,8°C.  \n\n\n**EXAME CLÍNICO:**  \nBom estado geral, ansiosa devido ao prurido, **anictérica**.  \n\n**Pele:** Presença de múltiplas escoriações lineares em antebraços, abdome e pernas, por coçadura. Ausência de lesões primárias (pápulas, vesículas ou placas). Palmas e solas sem lesões.  \n\n\n**EXAME OBSTÉTRICO:**  \n\n• **Altura Uterina:** 33 cm.  \n\n• **Batimentos Cardíacos Fetais (BCF):** 145 batimentos por minuto.  \n\n• **Dinâmica Uterina:** Ausente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:** Sem alterações.  \n**COAGULOGRAMA (TAP/INR, TTPA):** Normais.  \n\n\n**PERFIL HEPÁTICO:**  \n• **TGO (AST):** 92 U/L (VR: < 40 U/L)  \n• **TGP (ALT):** 110 U/L (VR: < 40 U/L)  \n• **Fosfatase Alcalina:** 460 U/L (VR gestacional: até 250 U/L)  \n• **Bilirrubina Total:** 2.1 mg/dL (VR: < 1.2 mg/dL)  \n• **Bilirrubina Direta:** 1.6 mg/dL (VR: < 0.4 mg/dL)  \n\n\n**SOROLOGIAS (HIV, Sífilis, Hepatites B e C):** Não reagentes.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME ESPECÍFICO - -ACIDOS BILIARES",
+      "conteudo": "• **Ácidos Biliares Séricos Totais:** 45 µmol/L (VR: < 10 µmol/L)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida:**  \n(1) investiga as características do prurido (local: palmas/solas, início, piora noturna);  \n(2) investiga a presença de lesões de pele primárias (para diagnóstico diferencial);  \n(3) investiga sintomas associados (icterícia, colúria, acolia, náuseas).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga antecedentes e fatores de risco:**  \n(1) história familiar de colestase;  \n(2) gestação múltipla;  \n(3) história de doença hepática prévia.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames laboratoriais para avaliação hepática:**  \n(1) TGO/TGP;  \n(2) Bilirrubinas;  \n(3) Fosfatase Alcalina.  \n\n**Adequado:** solicita os três itens.  \n**Parcialmente adequado:** solicita dois itens.  \n**Inadequado:** solicita um item ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame confirmatório:**  \n(1) Ácidos biliares séricos (ou sais biliares).  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico de Colestase Intra-hepática da Gravidez (CIHG).**  \n\n**Adequado:** verbaliza o diagnóstico.  \n**Inadequado:** não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Classifica a gravidade da doença com base nos exames:**  \n(1) Verbaliza que é um quadro moderado (ou grave) baseado nos ácidos biliares > 40 µmol/L.  \n\n**Adequado:** classifica como moderado ou grave.  \n**Inadequado:** não classifica ou classifica como leve.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica à paciente os riscos fetais associados à CIHG:**  \n(1) Risco de parto prematuro;  \n(2) Risco de mecônio no líquido amniótico;  \n(3) Risco de sofrimento fetal ou óbito fetal.  \n\n**Adequado:** cita os três riscos.  \n**Parcialmente adequado:** cita dois riscos.  \n**Inadequado:** cita um risco ou não cita nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o tratamento medicamentoso de primeira linha:**  \n(1) Ácido ursodesoxicólico (UDCA).  \n\n**Adequado:** indica a medicação.  \n**Inadequado:** não indica a medicação ou indica outra (ex: apenas anti-histamínico).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a conduta obstétrica (resolução da gestação):**  \n(1) Indica a necessidade de indução do parto (ou resolução) entre 36-37 semanas, devido à gravidade.  \n\n**Adequado:** indica a resolução da gestação na idade gestacional correta para o risco.  \n**Inadequado:** não indica a resolução ou indica aguardar o termo (40 semanas).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta o seguimento:**  \n(1) Reavaliação semanal com exames (ácidos biliares e perfil hepático);  \n(2) Monitoramento do bem-estar fetal (cardiotocografia ou perfil biofísico fetal).  \n\n**Adequado:** orienta as duas condutas.  \n**Parcialmente adequado:** orienta apenas uma conduta.  \n**Inadequado:** não orienta o seguimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

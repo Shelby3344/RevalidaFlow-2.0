@@ -1,0 +1,149 @@
+{
+  "uid": 325,
+  "hash": "pepe_325",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Herpangina / Doença Mão-Pé-Boca",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de observação;  \n• acesso a laboratório de análises clínicas.\n\nDescrição do caso:\nVocê é médico de uma UBS e vai atender uma criança de 3 anos, trazida pela mãe, com queixa de febre e recusa alimentar há 2 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico da criança.  \n- Solicitar e interpretar o exame físico.  \n- Formular e verbalizar a hipótese diagnóstica.  \n- Estabelecer a conduta terapêutica adequada ao caso.  \n- Orientar a mãe sobre os cuidados domiciliares e sinais de alarme.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Fernanda, 28 anos.  \n• **Criança:** Pedro, 3 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), o Pedro está com febre alta e não quer comer nada há 2 dias.  \n\n**SOBRE FEBRE:**  \n• **Início:** começou há 2 dias.  \n• **Aferição:** medi em casa e chegou a 39°C.  \n• **Medicação:** dei dipirona e a febre baixou, mas volta depois de umas horas.  \n\n**SOBRE A RECUSA ALIMENTAR:**  \n• **Início:** começou junto com a febre.  \n• **Líquidos:** ele aceita água gelada, mas pouca.  \n• **Motivo:** ele chora quando tenta comer, parece que dói a boca.  \n\n**SOBRE LESÕES:**  \n• **Boca:** eu olhei a boquinha dele e vi umas feridinhas no fundo da garganta.  \n• **Mãos e pés:** ontem apareceram umas bolinhas vermelhas nas mãos e pés também.  \n• **Prurido:** ele não coça, mas reclama que dói.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Irritabilidade:** ele está bem irritado, chorando muito.  \n• **Sialorreia:** está babando mais que o normal.  \n\n**NEGAR SINTOMAS:**  \n• Tosse, coriza, dificuldade para respirar.  \n• Vômitos, diarreia.  \n• Convulsão, sonolência excessiva.  \n• Manchas ou lesões em outras partes do corpo.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** não tem problema de saúde nenhum.  \n• **VACINAÇÃO:** está tudo em dia.  \n\n**FATORES AMBIENTAIS:**  \n• **Pessoa próxima com sintoma parecido:** a professora da creche falou que tem algumas crianças assim também.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que ele tem, doutor(a)?*  \n• *Não seria bom fazer um exame de sangue?*  \n• *Ele precisa ficar afastado da creche?*  \n• *Isso pode pegar em mim?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Frequência Cardíaca:** 118 batimentos por minuto.  \n• **Frequência Respiratória:** 24 incursões respiratórias por minuto.  \n• **Temperatura Axilar:** 38,7°C.  \n• **Saturação de Oxigênio:** 98% em ar ambiente.  \n\n\n**ECTOSCOPIA:** Regular estado geral, irritado, choroso, corado, hidratado, febril.  \n\n\n**Ausculta cardíaca e pulmonar:** sem alterações.  \n\n\n**Abdome:** flácido, indolor, sem visceromegalias.  \n\n\n**Neurológico:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "LESÕES DE PELE/MUCOSA",
+      "conteudo": "**LESÕES EM OROFARINGE** Pequenas úlceras com halo eritematoso em faringe posterior e pilares amigdalianos.  \n\n\n**PELE:** Lesões maculopapulares em palmas das mãos e plantas dos pés com halo eritematoso. Ausência de lesões em tronco.",
+      "imagem": "img_printeds/e325p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe de maneira cordial;  \n(3) pergunta o nome da mãe e o nome da criança.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da febre e sintomas orais:**  \n(1) tempo de início da febre;  \n(2) intensidade ou valor aferido;  \n(3) atenuantes ou agravantes;  \n(4) dor ao engolir ou ao se alimentar, ou recusa alimentar;  \n(5) presença de lesões na boca.  \n\n**Adequado:** pergunta quatro ou mais itens.  \n**Parcialmente adequado:** pergunta dois ou três itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre lesões cutâneas e sintomas associados:**  \n(1) presença de lesões em mãos;  \n(2) presença de lesões em pés;  \n(3) presença de lesões em nádegas ou outras regiões;  \n(4) irritabilidade ou choro;  \n(5) sialorreia.  \n\n**Adequado:** pergunta dois ou mais itens.  \n**Parcialmente adequado:** pergunta um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga sinais de alarme e história epidemiológica:**  \n(1) vômitos ou diarreia;  \n(2) sinais de desidratação (redução da diurese, choro sem lágrima);  \n(3) sonolência excessiva ou convulsão;  \n(4) contato com outras crianças doentes em creche ou escola.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico, oroscopia e ectoscopia das lesões:**  \n(1) Solicita exame físico geral;  \n(2) solicita oroscopia;  \n(3) solicita ectoscopia das lesões.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico de Doença Mão-Pé-Boca (OU Síndrome Mão-Pé-Boca, OU Herpangina).**  \n\n**Adequado:** verbaliza o diagnóstico corretamente.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta que o diagnóstico é clínico e que exames complementares não são necessários rotineiramente.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta ou solicita exames desnecessariamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta tratamento sintomático adequado:**  \n(1) antitérmico e analgésico (paracetamol OU dipirona OU ibuprofeno);  \n(2) hidratação adequada;  \n(3) preferência por alimentos frios e líquidos gelados.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta medidas de prevenção da transmissão:**  \n(1) lavagem frequente das mãos;  \n(2) afastamento da creche até melhora clínica;  \n(3) cuidados na troca de fraldas;  \n(4) não compartilhar utensílios.  \n\n**Adequado:** orienta três ou mais medidas.  \n**Parcialmente adequado:** orienta duas medidas.  \n**Inadequado:** orienta uma medida ou não orienta medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre sinais de alarme para retorno e prognóstico:**  \n(1) recusa total de líquidos ou sinais de desidratação;  \n(2) febre persistente;  \n(3) alteração do nível de consciência;  \n(4) orienta que a doença é benigna e autolimitada, com resolução em 7 a 10 dias.  \n\n**Adequado:** orienta os quatro itens.  \n**Parcialmente adequado:** orienta dois ou três itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "uid": 1315,
+  "hash": "pepe_1315",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Mordedura Animal/profilaxia de raiva e tétano - cão (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Unidade de Pronto Atendimento (UPA).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de pequenos procedimentos e sutura;  \n• Sala de Vacinas  \n• Farmácia com medicação e imunobiológicos.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e atenderá um adolescente de 15 anos, que foi trazido ao serviço por apresentar múltiplos ferimentos no rosto e nos braços após um incidente ocorrido em casa há poucas horas.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese sobre o caso;  \n- Solicitar exame físico, caso necessário;  \n- Propor o manejo inicial adequado para as lesões;  \n- Definir e justificar as condutas necessárias;  \n- Orientar o paciente sobre os cuidados e o seguimento.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Dener, 15 anos, estudante.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), o cachorro do meu pai me atacou. Meu rosto está doendo muito e sangrando.  \n\n**SOBRE O ACIDENTE:**  \n• **Como Aconteceu:** Eu estava brincando com o Rex no quintal, e Ele do nada avançou em mim.  \n• **Início:** Foi há duas horas.  \n• **Localização:** Foi aqui no rosto e tem uns arranhos nos braços também.  \n• **Episódios Anteriores:** É a primeira vez, ele nunca tinha feito isso antes.  \n\n\n**SOBRE O ANIMAL:**  \n• **Espécie:** É um cachorro grande, um Rottweiler.  \n• **Propriedade:** É da minha família, mora com a gente.  \n• **Vacinação do animal:** Meu pai disse que ele está com as vacinas em dia.  \n• **Comportamento do animal:** Depois do ataque ele ficou normal, está quieto lá em casa.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças, ou cirurgias:** Não tenho nada. Nunca operei.  \n• **Medicações:** Não tomo nenhum remédio.  \n• **VACINAÇÃO:** Não lembro. Acho que tomei as vacinas na escola. Minha carteirinha de vacinação ficou em casa.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *Vai ter que dar pontos?*  \n• *Vou ficar com uma cicatriz feia no rosto?*  \n• *Vou precisar tomar muita injeção por causa disso?*  \n• *O cachorro tem raiva? Vamos ter que sacrificar o Rex?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 125x80 mmHg  \n• **FC:** 95 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 99% em ar ambiente  \n• **Temp. axilar:** 36.8°C  \n\n\n• **Ectoscopia geral:** Paciente alerta, orientado, ansioso, com dor em face.  \n\n\n**Avaliação das Lesões:**  \n• **Face:** Múltiplas e extensas lacerações em região frontal, glabelar, nasal e periorbitária esquerda, com bordas irregulares e sangramento ativo de pequena monta. Descolamento parcial do pavilhão auricular esquerdo.  \n• **Membros Superiores:** Lesões perfurantes superficialmente e escoriações em ambos os antebraços.  \n\n• **Avaliação Neurológica e Vascular:** Sem déficits neurológicos focais. Pulsos distais presentes e simétricos nos membros superiores.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação e Acolhimento:**  \n(1) identifica-se de forma cordial;  \n(2) cumprimenta o paciente e pergunta seu nome;  \n(3) demonstra empatia pela dor e ansiedade do paciente.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** não realiza ação alguma ou realiza apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese sobre as circunstâncias do acidente e o animal agressor:**  \n(1) pergunta sobre a espécie do animal (cão);  \n(2) questiona se o animal é conhecido/domiciliado;  \n(3) investiga sobre a vacinação antirrábica do animal;  \n(4) verifica a possibilidade de observação do animal por 10 dias.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga o histórico de vacinação do paciente.**  \n\n**Adequado:** pergunta especificamente sobre a vacina antitetânica (dT/dTpa) e quando foi a última dose.  \n**Inadequado:** não questiona sobre o histórico vacinal do paciente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita a realização do exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Propõe o manejo inicial da ferida.**  \n\n**Adequado:** indica a lavagem das lesões com água e sabão ou soro fisiológico, E antisséptico (povidine, clorexidina ou álcool-iodado).  \n**Parcialmente adequado:** indica apenas a lavagem inicial sem uso de antisséptico.  \n**Inadequado:** não indica a lavagem como medida inicial ou indica apenas o uso de antisséptico sem a lavagem prévia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Define a conduta em relação à sutura das lesões.**  \n\n**Adequado:** indica pontos isolados aproximando as bordas das lesões da face devido a grandes lacerações.  \n**Parcialmente adequado:** indica sutura de todas as lesões, sem diferenciar face e membros.  \n**Inadequado:** contraindica a sutura de qualquer lesão ou não define a conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica a profilaxia antimicrobiana (antibioticoterapia).**  \n\n**Adequado:** prescreve antibioticoterapia profilática (Amoxicilina-clavulanato, OU ampicilina/sulbactam).  \n**Inadequado:** não prescreve antibiótico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define a conduta para a profilaxia da raiva humana, considerando um acidente grave e o animal sendo observável.**  \n\n**Adequado:** verbaliza que NÃO É INDICADO o início imediato do esquema vacinal OU soro, ORIENTANDO apenas a observação do cão por 10 dias.  \n**Inadequado:** indica o uso de soro/imunoglobulina/vacinação profilática neste primeiro momento, ou NÃO INDICA a observação do animal por 10 dias.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": "No protocolo do MS em 2013, a conduta para acidentes graves (independente do animal ser observável) era a indicação\ne início imediato do esquema vacinal de 4 doses em 0, 3, 7 e 14 dias. E caso o animal permanecesse saudável, o esquema\nvacinal seria interrompido.\n\nAtualmente, a NOTA TÉCNICA Nº 8/2022-CGZV/DEIDT/SVS/MS cita:\n2.5. Quanto à profilaxia antirrábica humana em casos de agressões graves por cães ou gatos\nCaso o cão ou gato agressor tenha SINAIS SUGESTIVOS DE RAIVA no momento da agressão, INDICAR a profilaxia.\n\nSe o cão ou gato agressor NÃO APRESENTA SINAIS SUGESTIVOS DE RAIVA, indicar a OBSERVAÇÃO do animal por 10\ndias e NÃO INDICAR a profilaxia pósexposição. Não sendo possível a observação do animal, administrar o esquema indicado.  "
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define a conduta para a profilaxia do tétano.**  \n\n**Adequado:** prescreve o esquema profilático completo para paciente com histórico vacinal incerto e ferimento grave: uma dose de vacina antitetânica (dT/dTpa) E a Imunoglobulina Humana Antitetânica (IGHAT).  \n**Parcialmente adequado:** prescreve apenas a vacina OU apenas a imunoglobulina.  \n**Inadequado:** não prescreve nenhuma profilaxia para o tétano.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta o paciente sobre o animal agressor.**  \n\n**Adequado:** explica que o cão deve ser mantido em observação por 10 dias e que o sacrifício não é necessário, tranquilizando o paciente sobre a possibilidade de raiva.  \n**Inadequado:** não orienta sobre a observação do animal ou sugere o sacrifício.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta o paciente sobre os cuidados com a ferida e o seguimento.**  \n(1) explica como realizar o curativo;  \n(2) orienta sobre os sinais de alerta para infecção (vermelhidão, pus, febre, piora da dor);  \n(3) informa a necessidade de retorno para reavaliação.  \n\n**Adequado:** orienta sobre os três itens.  \n**Parcialmente adequado:** orienta sobre dois itens.  \n**Inadequado:** não orienta ou orienta apenas um item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

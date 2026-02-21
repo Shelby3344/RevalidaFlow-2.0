@@ -1,0 +1,177 @@
+{
+  "uid": 1303,
+  "hash": "pepe_1303",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Meningite bacteriana meningocócica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:    \n• Consultório médico;    \n• Sala de estabilização e pequenos procedimentos;  \n• raio-X, ultrassonografia, eletrocardiograma;  \n• laboratório de análises clínicas;  \n• banco de sangue;\n\nDescrição do caso:\nVocê está de plantão na pediatria de uma UPA e atende uma mãe com seu filho de 3 anos de idade. A mãe informa que o filho está com febre, vômitos e dor de cabeça.",
+  "tarefas": "TAREFAS:  \n\n- Realizar a anamnese sobre o caso;  \n- Identificar alterações no exame físico e complementares, caso necessário;  \n- Informar a hipótese diagnóstica;  \n- Responder as dúvidas da mãe;  \n- Propor as condutas adequadas;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Marcia, 32 anos.  \n• **Criança:** Emanuel, 3 anos.\n\n\n**MOTIVO DE CONSULTA:** oi Doutor(a), trouxe o Emanuel aqui porque ele está reclamando muito de dor de cabeça e está com febre.  \n\n\n**SOBRE CEFALEIA:**  \n• **Início:** começou faz 2 dias.  \n• **Localização:** ele fala que é atrás da nuca.  \n• **Atenuantes/agravantes:** quando mexe a cabeça piora.  \n\n• **Duração:** ele tem reclamado mais sobre essa dor de cabeça.  \n• **Trauma:** nega.  \n\n\n**SOBRE FEBRE:**  \n• **Início:** a febre começou faz 4 dias.  \n• **Aferição:** passa de 38°C.  \n• **Sudorese e calafrios:** nega.  \n• **Medicação:** dei dipirona, mas a febre volta.  \n\n\n**SOBRE VÔMITOS:**  \n• **Quantidade:** desde ontem começou a vomitar. É vômito em jato.  \n• **Conteúdo:** restos de comida.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Infeções prévias:** há uns 15 dias atrás ele tava com dor de garganta. Dei amoxicilina por 3 dias.  \n• **VACINAÇÃO:** trouxe o cartão dele. (*liberar o impresso **CARTÃO DE VACINAS***)  \n\n• **Alimentação:** ele está comendo menos e está brincando menos.  \n• **Creche ou escola:** ainda não coloquei ele na creche.  \n• **Pessoa próxima com sintoma parecido:** nega.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Preciso deixar o Emanuel isolado?*  \n• *Eu e meus outros filhos vamos precisar tomar algum remédio também?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTÃO DE VACINAS",
+      "conteudo": "",
+      "imagem": "img_printeds/2013-e3p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:** dentro da normalidade.  \n**DNPM:** adequado para idade.  \n\n\n**Ectoscopia:** paciente em regular estado geral, choroso e irritado, desidratado +/4+ e febril (38.4°C).  \n\n\n**Cardiorespiratório:** sem alterações.  \n\n**Abdominal, Pele e Mucosas:** sem alterações.  \n\n\n**EXAME FÍSICO NEUROLÓGICO:**  \n\nContração do músculo posterior da coxa à extensão da perna direita; flexão involuntária das coxas ao fletir a cabeça em direção ao peito.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,5 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 14,2 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 34% (VR: 39 - 52%)  \n\n• **Plaquetas:** 229.000 mm/3 (150.000 - 400.000 mm/3)  \n\n• **Leucócitos:** 17.290/mm3 (VR: 4.000 - 10.000/mm3)  \n• **Neutrófilos:** 82% (VR: 40 - 70%)  \n• **Linfócitos:** 15% (VR: 10 - 40%)  \n\n\n• **Proteína C reativa (PCR):** 12 mg/L (VR: < 3 mg/L)  \n\n\n**HEMOCULTURA:** em andamento.  \n\n\n**ANÁLISE DO LCR:**  Pleocitose neutrofílica, Hiperproteinorraquia e Hipoglicorraquia.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. O(a) candidato(a) cumprimentou a mãe e identificou-se de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. O(a) candidato(a) estabeleceu clima harmônico na consulta, interagindo efetivamente com a mãe do paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. O(a) candidato(a) ouviu com atenção as queixas da mãe do paciente, sem interrupção desnecessária.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. O(a) candidato(a) usou efetivamente linguagem não verbal (postura, gestual, atitude).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. O(a) candidato(a) identificou nos dados apresentados o quadro de meningite meningocócica.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. O(a) candidato(a) indicou tratamento com esquema antibiótico com ampicilina + clorafenicol ou ceftriaxona (considerar ambos como certo).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. O(a) candidato(a) manteve o isolamento da criança até 24 horas de antibioticoterapia efetiva.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. O(a) candidato(a) indicou quimioprofilaxia para a mãe e os irmãos com Rifampicina por 48 horas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. O(a) candidato(a) prestou atenção às inquietações da mãe, demostrando empatia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. O(a) candidato(a) expressou-se com clareza e segurança ao orientar a mãe.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. O(a) candidato(a) conferiu o entendimento, perguntando se há ainda dúvidas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. O(a) candidato(a) demonstrou interesse em auxiliar a mãe do paciente em sua situação de saúde.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

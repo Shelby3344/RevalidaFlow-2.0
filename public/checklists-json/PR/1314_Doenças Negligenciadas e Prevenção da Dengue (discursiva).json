@@ -1,0 +1,154 @@
+{
+  "uid": 1314,
+  "hash": "pepe_1314",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Doenças Negligenciadas e Prevenção da Dengue (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nLocal de atuação: Associação de Moradores da comunidade.\n\nDescrição do caso:\nVocê foi convidado(a) a uma roda de conversa na associação de moradores para falar sobre o atual surto de dengue na comunidade.  \nSeu objetivo é orientar sobre as formas de prevenção e também esclarecer o conceito de \"doenças negligenciadas\", que gerou dúvidas após este termo ser mencionado na mídia local.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Conduzir a reunião com a comunidade;  \n- Solicitar os Dados Epidemiológicos da Unidade de Saúde da Família - UFS;  \n- Explicar o que são doenças negligenciadas, citando exemplos e o perfil da população mais afetada;  \n- Orientar os moradores sobre a situação da dengue no bairro e sobre as medidas de prevenção e controle que devem ser adotadas por todos.  \n\n\\\nATENÇÃO! O ATOR REPRESENTA O LÍDER DA ASSOCIAÇÃO DE MORADORES, QUE FARÁ AS PERGUNTAS EM NOME DA COMUNIDADE.  \nNÃO HÁ EXAME FÍSICO NESTA ESTAÇÃO.",
+  "script_ator": "*Obs.: Após o candidato solicitar os Dados Epidemiológicos da Unidade de Saúde da Família, liberar o impresso ***DADOS EPIDEMIOLÓGICOS DA USF.***  \n\n**DADOS PESSOAIS:**  \n• Roberto, 65 anos, líder da associação de moradores.  \n\n**MOTIVO DA REUNIÃO:**  \n• Doutor(a). Obrigado por ter aceitado o nosso convite. O pessoal aqui da comunidade está muito preocupado com essa quantidade de gente pegando dengue. A gente nunca viu isso por aqui.  \n• E pra piorar, saiu no jornal que a dengue é uma tal de \"doença negligenciada\". A gente não entendeu nada. O que é isso, doutor(a)? Estão negligenciando a gente?  \n\n**DÚVIDAS:**  \n• *1 - Então quer dizer que existem outras doenças nesse mesmo barco além da dengue? Quais seriam?*  \n• *2 - E por que essas doenças acontecem mais em lugares como o nosso? O que esses lugares têm em comum?*  \n• *3 - No caso específico da dengue, o que faz ela aparecer assim com tanta força e o que dificulta acabar com ela de vez?*  \n• *4 - Poderia nos Orientar sobre os sinais de alarme da dengue que indicam a necessidade de procurar o médico urgente?.*  \n• *5 - Então, o que nós moradores, podemos fazer pra ajudar a combater a dengue aqui no bairro?*  \n• *6 - E qual seria o papel do poder público no controle da dengue?*  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "DADOS EPIDEMIOLÓGICOS DA USF",
+      "conteudo": "• **Região de abrangência:** Bairro Boa Esperança.  \n• **População adscrita:** 4.500 pessoas.  \n\n\n• **Histórico de Dengue:**  \n• **Últimos 3 anos:** 0 casos notificados no SINAN.  \n• **Últimos 3 meses (após período de chuvas):** 125 casos notificados no SINAN.  \n\n\n• **Condições de Saneamento:** Cobertura de esgoto de 40%, coleta de lixo irregular em algumas áreas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se à comunidade de forma clara e acolhedora.**  \n(1) cumprimenta o líder comunitário e os presentes;  \n(2) identifica-se como médico(a) da Unidade de Saúde da Família local;  \n(3) explica o objetivo da reunião.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** não realiza ação alguma ou realiza apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Utiliza linguagem acessível e empática ao longo da reunião.**  \n\n**Adequado:** evita jargões técnicos e demonstra sensibilidade às preocupações da comunidade.  \n**Inadequado:** utiliza termos técnicos de difícil compreensão ou não demonstra acolhimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Explica o conceito de \"Doenças Negligenciadas\".**  \n\n**Adequado:** explica que são doenças que afetam principalmente populações vulneráveis e recebem pouco investimento em pesquisa e tratamento, sem culpar a comunidade.  \n**Parcialmente adequado:** explica o conceito, mas de forma confusa ou incompleta.  \n**Inadequado:** não explica o conceito ou o faz de maneira incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Cita exemplos de outras doenças negligenciadas prevalentes no Brasil.**  \n(1) Doença de Chagas;  \n(2) Hanseníase;  \n(3) Tuberculose;  \n(4) Esquistossomose;  \n(5) Leishmaniose.  \n\n**Adequado:** cita três ou mais exemplos.  \n**Parcialmente adequado:** cita dois exemplos.  \n**Inadequado:** não cita exemplos ou cita apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Relaciona as doenças negligenciadas aos determinantes sociais da saúde.**  \n\n**Adequado:** explica que essas doenças são mais comuns em locais com saneamento básico precário, moradias inadequadas e dificuldade de acesso aos serviços de saúde.  \n**Parcialmente adequado:** menciona apenas um dos determinantes (ex: apenas saneamento).  \n**Inadequado:** não explica a relação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Contextualiza a situação epidemiológica da dengue na comunidade.**  \n\n**Adequado:** informa sobre o aumento significativo do número de casos no bairro, utilizando os dados fornecidos.  \n**Inadequado:** não utiliza os dados epidemiológicos para explicar a situação local.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre o ciclo de transmissão da dengue.**  \n(1) menciona o mosquito Aedes aegypti como vetor;  \n(2) explica que ele se reproduz em água parada.  \n\n**Adequado:** orienta sobre os dois itens.  \n**Parcialmente adequado:** orienta sobre apenas um item.  \n**Inadequado:** não realiza as orientações ou as faz de forma incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre as medidas de prevenção individuais e domiciliares para eliminar criadouros.**  \n(1) tampar caixas d'água e tonéis;  \n(2) colocar areia nos pratos de plantas;  \n(3) guardar garrafas e pneus em locais cobertos;  \n(4) limpar calhas.  \n\n**Adequado:** orienta sobre três ou mais medidas.  \n**Parcialmente adequado:** orienta sobre duas medidas.  \n**Inadequado:** não orienta ou orienta apenas uma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica o papel do poder público e da comunidade no controle da dengue.**  \n\n**Adequado:** menciona as ações do poder público (agentes de endemias, coleta de lixo) e reforça a importância da colaboração e mobilização dos moradores.  \n**Inadequado:** foca apenas na responsabilidade individual dos moradores.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre os sinais de alarme da dengue que indicam a necessidade de procurar o serviço de saúde imediatamente.**  \n(1) dor abdominal intensa e contínua;  \n(2) vômitos persistentes;  \n(3) sangramentos (gengiva, nariz);  \n(4) sonolência ou irritabilidade.  \n\n**Adequado:** orienta sobre três ou mais sinais.  \n**Parcialmente adequado:** orienta sobre dois sinais.  \n**Inadequado:** não orienta ou orienta apenas um sinal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Encerra a reunião de forma resolutiva.**  \n\n**Adequado:** pergunta se restaram dúvidas e se coloca à disposição na Unidade de Saúde para mais esclarecimentos, reforçando a parceria com a comunidade.  \n**Inadequado:** encerra a reunião abruptamente, sem abrir espaço para perguntas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.35"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

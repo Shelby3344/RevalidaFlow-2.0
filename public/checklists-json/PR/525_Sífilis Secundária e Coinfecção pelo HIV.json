@@ -1,0 +1,249 @@
+{
+  "uid": 525,
+  "hash": "pepe_525",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Sífilis Secundária e Coinfecção pelo HIV",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• sala de observação e medicação;  \n• testes rápidos para Infecções Sexualmente Transmissíveis;  \n• não dispõe de infraestrutura laboratorial.\n\nDescrição do caso:\nVocê é médico de uma UBS em um distrito de um pequeno município do interior. Você atenderá um homem de 34 anos com queixa de feridas no corpo.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar os exames complementares pertinentes ao caso.  \n- Formular e verbalizar a hipótese diagnóstica ao paciente.  \n- Orientar o tratamento e as medidas preventivas adequadas.  \n- Responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 34 anos, comerciante.  \n\n**MOTIVO DE CONSULTA:** Dr(a), estou com umas feridas no corpo que apareceram esses dias.  \n\n**SOBRE AS LESÕES:**  \n• **Início:** faz uns 7 dias.  \n• **Localização:** nas palmas das mãos e também nos pés.  \n• **Quantidade:** são várias manchas.  \n• **Dor:** não doem.  \n• **Prurido ou ardência:** não coça nem arde.  \n• **Secreção:** não tem secreção.  \n• **Lesões em boca ou genitália:** nega.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Cefaleia:** tenho tido dor de cabeça leve.  \n• **Cansaço:** estou mais cansado que o normal.  \n• **Febre:** não tive febre.  \n\n**ANTECEDENTES SEXUAIS:**  \n• **Sexarca:** com 16 anos.  \n• **Parceria atual:** estou namorando há 6 meses, parceira fixa. Antes, saía com mulheres diferentes.  \n• **Preservativo:** uso de vez em quando, não sempre.  \n• **IST prévia:** nunca tratei nada.  \n• **Lesão genital anterior:** tive uma ferida no pênis há uns 4 meses, mas cicatrizou sozinha, então não me preocupei.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Álcool, tabaco e drogas:** não fumo, não bebo e não uso droga.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \nCaso o candidato NÃO explique a causa da doença: *Isso é uma doença sexual?*  \n• *Essas feridas podem ser algo grave?*  \n• *Preciso me preocupar com mais alguma doença?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 120 x 80 mmHg.  \n• **Frequência Cardíaca:** 88 batimentos por minuto.  \n• **Frequência Respiratória:** 16 incursões respiratórias por minuto.  \n• **Saturação de Oxigênio em ar ambiente:** 99%.  \n• **Temperatura Axilar:** 36,8°C.  \n\n\n• **Peso:** 70 kg / **Altura:** 1,72 m / **IMC:** 23,7 kg/m².  \n\n\n**EXAME CLÍNICO:**  \n• Bom estado geral, orientado, corado, hidratado, acianótico, anictérico, afebril.  \n\n• **Linfonodos:** linfonodomegalia generalizada (cervical, axilar e inguinal), indolor, móvel, fibroelástica.  \n\n• **Ausculta cardíaca:** ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n• **Ausculta pulmonar:** murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Abdome:** plano, flácido, indolor à palpação, sem visceromegalias.  \n\n• **Orofaringe:** sem lesões em mucosa oral.  \n\n• **Genitália externa:** sem lesões ativas no momento do exame.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DAS LESÕES",
+      "conteudo": "",
+      "imagem": "img_printeds/e525p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "TESTES RÁPIDOS",
+      "conteudo": "• **Teste Rápido para HIV:** REAGENTE (VR: não reagente).  \n• **Teste Rápido para Sífilis (treponêmico):** REAGENTE (VR: não reagente).  \n• **Teste Rápido para Hepatite B (HBsAg):** não reagente (VR: não reagente).  \n• **Teste Rápido para Hepatite C (Anti-HCV):** não reagente (VR: não reagente).  \n\n\n*Obs.: Testes laboratoriais (VDRL, FTA-Abs) não disponíveis na unidade.*",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "SEGUNDO TESTE RÁPIDO PARA HIV",
+      "conteudo": "• **Resultado:** REAGENTE (VR: não reagente).  \n\n\n*Teste realizado com kit de fabricante diferente do primeiro, conforme protocolo do Ministério da Saúde.*",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e mantém postura adequada durante a consulta:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente e dirige-se a ele pelo nome;  \n(3) mantém postura empática e escuta ativa; e,  \n(4) utiliza linguagem clara e acessível.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características das lesões cutâneas:**  \n(1) tempo de início;  \n(2) localização;  \n(3) quantidade;  \n(4) presença de dor;  \n(5) presença de prurido ou ardência;  \n(6) presença de secreção; e,  \n(7) fatores de melhora ou piora.  \n\n**Adequado:** investiga cinco ou mais itens.  \n**Parcialmente adequado:** investiga três ou quatro itens.  \n**Inadequado:** investiga dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre a presença de lesões em mucosas (oral, genital ou anal).**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre lesão genital prévia compatível com cancro duro:**  \n\n**Adequado:** pergunta sobre lesão genital anterior que cicatrizou espontaneamente.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre sintomas constitucionais associados:**  \n(1) febre;  \n(2) mal-estar;  \n(3) cefaleia;  \n(4) astenia; e,  \n(5) mialgia ou artralgia.  \n\n**Adequado:** pergunta três ou mais sintomas.  \n**Parcialmente adequado:** pergunta dois sintomas.  \n**Inadequado:** pergunta um sintoma ou não pergunta sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga história sexual e fatores de risco para IST:**  \n(1) idade de início da atividade sexual;  \n(2) uso de preservativo;  \n(3) número de parceiros ou parcerias recentes; e,  \n(4) histórico de Infecções Sexualmente Transmissíveis.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga três itens.  \n**Inadequado:** investiga dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame físico e identifica as alterações:**  \n(1) lesões maculopapulares palmoplantares; e,  \n(2) linfonodomegalia generalizada.  \n\n**Adequado:** solicita e identifica as duas alterações.  \n**Parcialmente adequado:** solicita e identifica uma alteração.  \n**Inadequado:** não solicita ou não identifica alteração alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Descreve corretamente as características das lesões cutâneas:**  \n(1) múltiplas máculas e/ou pápulas;  \n(2) eritematosas ou acobreadas; e,  \n(3) localizadas em palmas das mãos e plantas dos pés.  \n\n**Adequado:** descreve as três características.  \n**Parcialmente adequado:** descreve duas características.  \n**Inadequado:** descreve uma característica ou não descreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita testes rápidos para Infecções Sexualmente Transmissíveis:**  \n(1) HIV;  \n(2) Sífilis;  \n(3) Hepatite B; e,  \n(4) Hepatite C.  \n\n**Adequado:** solicita os quatro testes.  \n**Parcialmente adequado:** solicita três testes, obrigatoriamente incluindo HIV e Sífilis.  \n**Inadequado:** solicita dois testes ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita segundo teste rápido para HIV com kit de fabricante diferente, conforme protocolo do Ministério da Saúde.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita teste não treponêmico (VDRL ou RPR) para estadiamento e monitoramento, encaminhando a solicitação à Secretaria de Saúde.**  \n\n**Adequado:** solicita e encaminha.  \n**Inadequado:** não solicita ou não encaminha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza o diagnóstico de sífilis secundária e infecção pelo HIV.**  \n\n**Adequado:** verbaliza os dois diagnósticos.  \n**Parcialmente adequado:** verbaliza apenas um diagnóstico.  \n**Inadequado:** não verbaliza diagnóstico algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Explica ao paciente sobre a natureza da doença e o contágio:**  \n(1) explica que a sífilis é uma Infecção Sexualmente Transmissível;  \n(2) explica que o momento exato da contaminação não pode ser precisado; e,  \n(3) acolhe as dúvidas do paciente sem julgamentos e estimula o diálogo com a parceira.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Prescreve o tratamento adequado para sífilis secundária:**  \n(1) Penicilina G Benzatina;  \n(2) 2,4 milhões de unidades internacionais;  \n(3) via intramuscular; e,  \n(4) dose única (1,2 milhão UI em cada glúteo).  \n\n**Adequado:** indica os quatro itens.  \n**Parcialmente adequado:** indica três itens, obrigatoriamente incluindo Penicilina Benzatina.  \n**Inadequado:** indica dois itens ou menos, ou prescreve medicação inadequada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta o tratamento da parceria sexual.**  \n\n**Adequado:** orienta tratamento da parceira, independentemente de sintomas ou resultados de exames.  \n**Inadequado:** não orienta o tratamento da parceira.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Orienta medidas preventivas e seguimento:**  \n(1) uso de preservativos em todas as relações sexuais;  \n(2) abstinência sexual até conclusão do tratamento; e,  \n(3) controle com VDRL trimestral por 12 meses.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta dois itens.  \n**Inadequado:** orienta um item ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Encaminha o paciente para serviço de referência em HIV/AIDS para início da terapia antirretroviral.**  \n\n**Adequado:** encaminha.  \n**Inadequado:** não encaminha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Verbaliza a necessidade de notificação compulsória dos casos de sífilis adquirida e infecção pelo HIV.**  \n\n**Adequado:** verbaliza a notificação das duas condições.  \n**Parcialmente adequado:** verbaliza a notificação de apenas uma condição.  \n**Inadequado:** não verbaliza a necessidade de notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

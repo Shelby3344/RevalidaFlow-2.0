@@ -1,0 +1,149 @@
+{
+  "uid": 405,
+  "hash": "pepe_405",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Gestação Gemelar",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• acesso a laboratório de análises clínicas e exames de imagem (rede municipal).\n\nDescrição do caso:\nVocê atenderá uma paciente de 28 anos, primigesta, que retorna à consulta de pré-natal trazendo seu primeiro exame de ultrassonografia.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Interpretar o exame de ultrassonografia.  \n- Verbalizar o diagnóstico e classificar o risco da gestação.  \n- Orientar a paciente sobre o seguimento do pré-natal.  \n- Explicar as principais complicações maternas e fetais.  \n- Responder às dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Beatriz, 28 anos, casada, professora.  \n\n**MOTIVO DE CONSULTA:** Eu vim trazer o resultado daquele primeiro ultrassom que o(a) senhor(a) pediu. A moça do exame me adiantou que são dois bebês... Eu estou um pouco assustada.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** É minha primeira gravidez.  \n• **DUM:** Foi há 9 semanas.  \n• **Sintomas:** Estou com muito enjoo, bem mais do que eu imaginava.  \n• **Medicações:** Estou tomando o ácido fólico que o(a) senhor(a) passou.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Alergias:** Nega.  \n• **Cirurgias:** Nega.  \n• **História familiar:** Minha avó materna teve gêmeos.  \n• **Reprodução assistida:** Não, engravidei naturalmente.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *São gêmeos mesmo doutor(a)?*  \n• *O que significa essa Gestação Monocoriônica e Diamniótica do ultrassom?*  \n• *É mais arriscado para mim ter gêmeos?*  \n• *E para os bebês, tem algum risco?*  \n• *Eu vou continuar fazendo o pré-natal aqui no postinho?*  \n• *Eu vou fazer cesárea ou posso ter parto normal?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTÃO DA GESTANTE/PRÉ-NATAL",
+      "conteudo": "**Nome:** Beatriz S. A.  \n\n**Idade:** 28 anos  \n\n**Gesta:** 1 **Para:** 0 **Aborto:** 0  \n\n**DUM:** 09/09/2025 **DPP:** 16/06/2026  \n\n**IG Atual (pela DUM):** 9 semanas e 0 dias  \n\n\n**Exames Iniciais (Coletados na UBS):**  \n• **Tipagem Sanguínea:** A+  \n\n• **Hemograma:** Hb 12,5 g/dL, Ht 37%, Leucócitos 8.000, Plaquetas 250.000  \n\n• **Glicemia de Jejum:** 88 mg/dL  \n\n• **Sorologias (HIV, VDRL, Hep B/C):** Não Reagentes  \n\n• **Toxoplasmose:** IgG Reagente, IgM Não Reagente  \n\n• **Urina I e Urocultura:** Normais  \n\n\n**Exame Físico:**  \n\n• **PA:** 110/70 mmHg  \n\n• **Peso:** 60 kg **Altura:** 1,65 m **IMC:** 22,0 kg/m²  \n\n• **Segmentos:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "USG OBSTÉTRICA",
+      "conteudo": "**Paciente:** Beatriz S. A.  \n**Data do Exame:** há 4 dias  \n\n\n**Relatório:**  \nÚtero gravídico, contendo dois sacos gestacionais íntegros.  \n\n• **Feto 1:** Embrião com BCF de 170 bpm. Comprimento cabeça-nádega (CCN) de 23 mm, compatível com 9 semanas e 0 dias.  \n\n• **Feto 2:** Embrião com BCF de 172 bpm. Comprimento cabeça-nádega (CCN) de 22 mm, compatível com 8 semanas e 6 dias.  \n\n\nPresença de **uma única massa placentária** (placenta posterior).  \nMembrana amniótica na placenta formando o **\"Sinal do T\"**. Sinal do \"Lambda\" não visualizado.  \n\n\n**Impressão Diagnóstica:**  \n• Gestação gemelar tópica, com 9 semanas.  \n\n• **Gestação Monocoriônica e Diamniótica (MC/DA).**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta a paciente e a parabeniza pela gestação.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese complementar:**  \n(1) investiga sintomas atuais (náuseas, vômitos, sangramentos);  \n(2) pergunta sobre o uso correto do ácido fólico;  \n(3) pergunta sobre história familiar de gemelaridade ou trombose.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Interpreta e comunica os achados da ultrassonografia:**  \n(1) confirma a gestação gemelar;  \n(2) explica o significado de Monocoriônica (uma placenta) e Diamniótica (duas bolsas).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação (confirma os gêmeos, mas não explica a corionicidade).  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza o diagnóstico de gestação gemelar E classifica a gestação como de ALTO RISCO.**  \n\n**Adequado:** verbaliza o diagnóstico e a classificação de alto risco.  \n**Parcialmente adequado:** verbaliza o diagnóstico, mas não classifica como alto risco.  \n**Inadequado:** não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Orienta sobre o local de seguimento do pré-natal.**  \n\n**Adequado:** explica que, por ser uma gestação de alto risco (especialmente monocoriônica), o pré-natal deverá ser realizado em um serviço especializado (Pré-Natal de Alto Risco - PNAR).  \n**Inadequado:** informa que o pré-natal pode continuar na UBS.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explica os principais riscos MATERNOS aumentados na gestação gemelar:**  \n(1) pré-eclâmpsia (ou pressão alta na gravidez);  \n(2) diabetes gestacional;  \n(3) hiperêmese gravídica (vômitos excessivos);  \n(4) anemia.  \n\n**Adequado:** cita três ou mais riscos.  \n**Parcialmente adequado:** cita dois riscos.  \n**Inadequado:** cita um risco ou não cita risco algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica os principais riscos FETAIS específicos da gestação Monocoriônica:**  \n(1) parto prematuro;  \n(2) crescimento restrito de um ou ambos os fetos;  \n(3) síndrome da transfusão feto-fetal (STT-G).  \n\n**Adequado:** cita dois ou três riscos.  \n**Parcialmente adequado:** cita ao menos um risco.  \n**Inadequado:** não cita risco algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre a necessidade de suplementação nutricional ajustada.**  \n\n**Adequado:** orienta sobre a necessidade de maior suplementação de ferro (profilaxia de anemia) e possível ajuste calórico.  \n**Inadequado:** não menciona a necessidade de ajuste na suplementação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica sobre a via de parto:**  \n(1) explica que a via de parto (vaginal ou cesárea) depende de fatores como a posição dos bebês no final da gestação e o bem-estar fetal;  \n(2) informa que, em gestações monocoriônicas, a cesárea é frequentemente indicada para reduzir riscos durante o parto.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma ou afirma que será obrigatoriamente cesárea sem explicação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Acolhe as preocupações da paciente e estabelece um plano de seguimento.**  \n\n**Adequado:** demonstra empatia pelo susto/ansiedade da paciente, valida seus sentimentos e organiza o encaminhamento para o serviço de alto risco.  \n**Inadequado:** não demonstra empatia ou não organiza o encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

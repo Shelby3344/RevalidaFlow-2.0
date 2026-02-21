@@ -1,0 +1,158 @@
+{
+  "uid": 2116,
+  "hash": "pepe_2116",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "xABCDE - Conceitos da avaliação primária - Foco em A e B (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: sala de trauma hospitalar.  \nContexto:  \n• Esta é uma estação teórico-prática sobre a avaliação primária do trauma (xABCDE).\n\nDescrição do caso:\nTodos os pacientes vítimas de trauma demandam avaliação sistematizada. O atendimento ao trauma é algo protocolar, com a premissa de tratar a maior ameaça à vida em primeiro lugar, ou seja, tratar aquilo que pode matar mais rapidamente.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Citar as letras da mnemônica do xABCDE do trauma, explicando o que cada uma significa;  \n- Descrever o significado e as ações a serem tomadas nas etapas A e B da avaliação;  \n- Responder as perguntas do chefe de estação.  \n\n\\\nATENÇÃO! ESTA ESTAÇÃO NÃO ENVOLVE ATENDIMENTO A PACIENTE SIMULADO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• *(Diga seu nome)*, Chefe de estação do INEP Revalida.  \n\n**INÍCIO DA AVALIAÇÃO:**  \n• Olá Dr(a), hoje vamos revisar os princípios básicos do atendimento ao trauma, principalmente das letras A e B da avaliação primária.\n• Considerando um paciente politraumatizado numa cena segura, que se encontra no ambiente pré-hospitalar, como devemos iniciar a nossa avaliação?  \n\n**PERGUNTAS DO CHEFE DE ESTAÇÃO:**  \n• 1 *Qual o significado da avaliação do A e do B? O que se avalia nestas letras?*  \n• 2 *Quais são as causas mais comuns de obstrução de via aérea que você deve suspeitar em um paciente traumatizado?*  \n• 3 *E como deve ser avaliada a via aérea e coluna cervical?*  \n• 4 *Agora, vamos continuar. Quais são as possíveis lesões torácicas com risco iminente de morte?*  \n• 5 *Excelente. E como deve ser avaliado no B a Respiração e Ventilação?*  \n• 6 *Qual a principal causa de choque nos acidentes do trauma?*  \n• 7 *Certo. E no C, qual é objetivo da avaliação?*  \n• 8 *Passando para o D, quais são os dois principais componentes da avaliação neurológica na sala de trauma?*  \n• 9 *Finalmente, no E, qual é o objetivo principal e qual cuidado crucial devemos ter durante esta etapa?*  \n• 10 *E para finalizar, poderia me falar o conceito de avaliação secundária?*",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se ao examinador e demonstra estar pronto para a avaliação.**  \n\n**Adequado:** Realiza as duas ações.  \n**Parcialmente adequado:** Realiza uma ação.  \n**Inadequado:** Não realiza nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Inicia a avaliação primária do trauma, seguindo a sequência do mnemônico XABCDE.**  \n\n**Adequado:** inicia a avaliação pela letra X (Exansguinação externa grave).  \n**Inadequado:** não inicia a avaliação primária, OU inicia a avaliação pelo A, OU inicia por outra letra que não seja a \"X\".",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Descreve o significado das letras A e B da avaliação primária do trauma.**  \n(1) A = Vias aéreas com proteção da coluna cervical.  \n(2) B = Respiração e ventilação.  \n\n**Adequado:** descreve corretamente as duas letras.  \n**Parcialmente adequado:** descreve corretamente apenas uma das letras.  \n**Inadequado:** não descreve corretamente nenhuma das letras.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Cita possíveis causas de obstrução de via aérea (identificadas no A).**  \n(1) Queda da língua (pelo rebaixamento do nível de consciência);  \n(2) Sangue/secreções;  \n(3) Trauma facial/fraturas de face;  \n(4) Hematoma cervical em expansão;  \n(5) Trauma direto de laringe/traqueia;  \n(6) Edema de glote.  \n\n**Adequado:** cita três ou mais causas.  \n**Parcialmente adequado:** cita duas causas.  \n**Inadequado:** cita uma ou nenhuma causa.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Avalia a via aérea e a coluna cervical (Etapa A).**  \n(1) inspeciona a cavidade oral em busca de corpos estranhos, sangue ou secreções;  \n(2) verbaliza a necessidade de aspiração da via aérea;  \n(3) realiza manobras de abertura de via aérea (ex: tração de mandíbula - *jaw thrust*); e,  \n(4) verbaliza a necessidade de estabilização da coluna cervical com colar e/imobilizadores laterais.  \n\n**Adequado:** realiza as três ou quatro ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Cita possíveis lesões torácicas com risco iminente de morte (identificadas no B).**  \n(1) Pneumotórax hipertensivo;  \n(2) Pneumotórax aberto;  \n(3) Hemotórax maciço;  \n(4) Tórax instável.  \n\n**Adequado:** cita três ou quatro lesões.  \n**Parcialmente adequado:** cita duas lesões.  \n**Inadequado:** não cita as lesões ou cita apenas uma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Avalia a respiração e ventilação do paciente (Etapa B).**  \n(1) expõe o tórax do paciente;  \n(2) realiza inspeção (procura por lesões, assimetrias, uso de musculatura acessória);  \n(3) realiza ausculta pulmonar; e,  \n(4) realiza palpação do tórax (procurando por crepitações, enfisema subcutâneo).  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Identifica a principal causa de choque no trauma.**  \n\n**Adequado:** afirma que a principal causa de choque no paciente traumatizado é a hipovolemia por hemorragia.  \n**Inadequado:** não identifica a causa ou cita outra (ex: choque cardiogênico).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Descreve o objetivo da avaliação no C (Circulação com controle da hemorragia).**  \n\n**Adequado:** explica que a avaliação da circulação consiste na monitorização da FC, PA, Pulso e do controle volêmico.  \n**Parcialmente adequado:** explica apenas a monitorização ou o controle da volemia.  \n**Inadequado:** não explica os componentes de avaliaão do \"C\".",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Descreve os componentes da avaliação do D (Déficit neurológico).**  \n\n**Adequado:** explica que a avaliação neurológica rápida consiste na aplicação da Escala de Coma de Glasgow e na avaliação do tamanho e reatividade das pupilas.  \n**Parcialmente adequado:** descreve apenas um dos componentes.  \n**Inadequado:** não descreve os componentes da avaliação do \"D\".",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Descreve o objetivo e os cuidados no E (Exposição e controle do ambiente).**  \n\n**Adequado:** explica que o objetivo é despir completamente o paciente para procurar lesões não vistas, e que o cuidado crucial nesta etapa é prevenir a hipotermia, cobrindo o paciente com mantas aquecidas.  \n**Parcialmente adequado:** descreve o objetivo, mas não o cuidado com a hipotermia (ou vice-versa).  \n**Inadequado:** não descreve corretamente a etapa do \"E\".",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica o conceito de \"avaliação secundária\".**  \n\n**Adequado:** explica que a avaliação secundária é um exame \"da cabeça aos pés\" mais detalhado, que só é realizado após a conclusão da avaliação primária (ABCDE) e a estabilização do paciente.  \n**Inadequado:** não sabe definir o conceito ou o confunde com a avaliação primária.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

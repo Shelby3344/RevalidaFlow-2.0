@@ -1,0 +1,156 @@
+{
+  "uid": 1706,
+  "hash": "pepe_1706",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Hipertensão com lesão de órgão alvo e Retinopatia Hipertensiva",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Local de atuação: atenção secundária • UPA.\n\nDescrição do caso:\n*NÃO HÁ INSTRUÇÕES NESTA ESTAÇÃO",
+  "tarefas": "REALIZE OS QUESTIONAMENTOS DIRETAMENTE AO PACIENTE",
+  "script_ator": "**DADOS PESSOAIS:**  \n• João, 45 anos, casado, pedreiro.  \n\n\n**QUEIXA PRINCIPAL:** Dr(a), o médico da UBS me encaminhou pra cá. Eu consultei há um mês por causa de dor de cabeça, e o doutor lá viu que eu estava com pressão alta apesar do remédio que eu usava.  \n\nTenho esse relatório que o médico fez e os resultados dos exames que ele pediu (neste momento, liberar os impressos **RELATÓRIO MÉDICO**, **ELETROCARDIOGRAMA**, **EXAMES LABORATORIAIS** e **RAIO-X DE TÓRAX**).  \n\n\n**SOBRE A CEFALEIA:** Melhorou muito desde que comecei o novo tratamento para pressão alta.  \n• **Náuseas e vômitos:** nega.  \n• **Alterações visuais:** Sim, sentia a vista meio turva no momento da dor.  \n• **Dor torácica, dispneia/falta de ar, tosse:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, cirurgias e internações:** nega.  \n• **Doenças:** só pressão alta.  \n• **Medicações:** Losartana e furosemida. Tomo bem certinho.  \n• **Peso:** sempre fui gordinho.  \n\n\n• **Álcool, tabaco e drogas:** nega.  \n\n\n• **Atividade física:** não pratico.  \n• **Alimentação:** não faço dieta. como sal igual as outras pessoas da minha casa. Como de tudo.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n• Meu avô e meu pai morreram de derrame e tinham pressão alta.  \n• Meus dois irmãos também tem pressão alta.  \n• Todo mundo na família é gordinho.  \n\n\n**DEMAIS PERGUNTAS:**  não consta no Script.  \n\n\n**DÚVIDAS:**  \n• O que deu no exame do olho?  \n• E os outros exames? Como está minha situação?  \n• Eu preciso voltar no postinho?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "RELATÓRIO MÉDICO",
+      "conteudo": "Paciente do sexo masculino, 45 anos de idade, com hipertensão arterial severa, mal controlada e sintomático.  \n\n\nHá 1 mês, na consulta da UBS, foi modificado esquema de tratamento anti-hipertensivo combinando um bloqueador de receptor de angiotensina e um diurético de alça em doses adequadas.  \nSolicitados exames complementares (anexos).  \n\n\nEncaminhado para Atenção Secundária.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ELETROCARDIOGRAMA",
+      "conteudo": "**Caso identificado, verbalize as alterações**",
+      "imagem": "img_printeds/2017-e6p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Hemácias:** 3.400.000/dL  \n• **Hemoglobina:** 11,2 g/dL  \n• **Hematócrito:** 34%  \n• **Leucócitos:** 5.200/mm³  \n• **Plaquetas:** 250.000/mm³  \n\n\n• **Glicose:** 92 mg/dL  \n\n\n• **Creatinina:** 1,6 mg/dL  \n• **K+ sérico:** 3,6 mEq/L  \n\n\n• **Exame Qualitativo de Urina (EQU):** proteína na urina = ++/4",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RAIO-X DE TÓRAX EM PA",
+      "conteudo": "**Caso identificado, verbalize as alterações**",
+      "imagem": "img_printeds/2017-e6p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Peso:** 95 kg  \n• **Altura:** 175 cm  \n• **IMC:** 31 kg/m²  \n• **Frequência cardíaca:** 84 bpm  \n• **Pressão arterial:** 120 mmHg x 80 mmHg  \n• **Demais sistemas:** sem alterações  \n\n\n**FUNDOSCOPIA:**  \n• Cruzamentos patológicos  \n• Arteríolas em \"fio de cobre\" ou \"fio de prata\"  \n• Pontos de hemorragia",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o paciente e identifica-se adequadamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Avalia se a cefaleia e a visão turva diminuíram com o controle da pressão arterial.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Interpreta o exame físico quanto à alteração de fundo de olho: retinopatia**  \nhipertensiva (cruzamentos patológicos, arteriolas em \"fio de cobre\" ou \"fio de prata\":  \npontos de hemorragia).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica nos resultados de exames:**  \n(1) hemograma: identifica anemia;  \n(2) bioquímica sanguínea: identifica aumento da creatinina;  \n(3) EQU: identifica proteinúria.  \n\n**Inadequado:** se não identificar nenhuma das alterações;  \n**Parcialmente adequado:** se identificar 1 ou 2 alterações;  \n**Adequado:** se identificar as 3 alterações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Analisa/interpreta radiografia de tórax: identifica aumento da área cardíaca ou**  \nhipertrofia ventricular esquerda.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Analisa/interpreta alteração estrutural no eletrocardiograma: identifica hipertrofia**  \nventricular.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica o comprometimento dos órgãos-alvo:**  \n- Renal: perda de função renal;  \n- Cardíaco: cardiomegalia hipertensiva.  \n\n**Inadequado:** se não explicar nenhum comprometimento;  \n**Parcialmente adequado:** se explicar 1 comprometimento;  \n**Adequado:** se explicar os 2 comprometimentos",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre a importância do retorno ao ambulatório para verificação do controle**  \npressórico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre a importância do retorno ao ambulatório para avaliação do**  \ncomprometimento dos órgãos-alvo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "uid": 1112,
+  "hash": "pepe_1112",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Apendicite aguda (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Laboratório de análises clínicas;  \n• Exames de imagem (ultrassonografia e radiografia).\n\nDescrição do caso:\nVocê está de plantão no serviço de urgência e atenderá uma mulher de 17 anos com queixa de \"dor de barriga forte\". Ela atribui o episódio ao fato de ter comido manga com leite há cerca de 12 horas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese da paciente;  \n- Solicitar as manobras semiológicas de abdome agudo;  \n- Formular e justificar a principal hipótese diagnóstica;  \n- Citar e justificar dois diagnósticos diferenciais;  \n- Indicar os exames de imagem adequados para a investigação e os achados esperados.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Mariana, 17 anos, estudante.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com uma dor de barriga muito forte. Acho que foi porque comi manga com leite ontem.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou faz umas nove horas.  \n• **Localização:** Começou na boca do estômago, mas agora está mais do lado direito, perto da virilha.  \n• **Irradiação:** não.  \n• **Característica:** é uma cólica bem forte.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Náuseas e Vômitos:** Tive náuseas e vomitei uma vez, logo que a dor começou.  \n• **Febre:** Não medi, mas me sinto um pouco quente.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **Vida sexual:** Tenho vida sexual ativa.  \n• **Contracepção:** Não uso nada.  \n• **DUM:** Não anotei na tabelinha e não me lembro.  \n• **Corrimento vaginal/sangramento:** nega até o momento.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e cirurgias:** Não tenho nenhuma doença e nunca fiz cirurgia.  \n• **Tabaco/álcool/drogas:** nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Pode ser outra coisa?*  \n• *Qual exame tenho que fazer?*  \n• *O que pode ter de alterado nos exames de imagem dessas outras doenças?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS**  \n• **Pressão arterial:** 110 x 70 mmHg  \n• **Frequência cardíaca:** 96 bpm  \n• **Frequência respiratória:** 20 irpm  \n• **Temperatura axilar:** 37,8°C  \n\n\n**ECTOSCOPIA**  \n• corada, hidratada, lúcida, anictérica e acianótica.  \n\n\n**EXAME CARDIOVASCULAR E RESPIRATÓRIO**  \n• Sem alterações.  \n\n\n**EXAME ABDOMINAL**  \n• Abdome plano com dor à percussão e à palpação do abdome inferior, principalmente na fossa ilíaca direita e região hipogástrica.  \n• Dor à descompressão brusca em FID;",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "BETA-HCG",
+      "conteudo": "• **Beta-HCG:** Negativo",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ULTRASSOM DE ABDOME",
+      "conteudo": "**QUAIS OS POSSÍVEIS ACHADOS DA IMAGEM?**",
+      "imagem": "img_printeds/2011-e12p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, perguntando sobre:**  \n(1) Semiologia da dor;  \n(2) Sintomas digestivos;  \n(3) sintomas urinários; \n(4) DUM, sangramento vaginal ou corrimento;  \n\n**Adequado:** investiga 3 ou mais elementos.  \n**Parcialmente adequado:** investiga de 2 elementos.  \n**Inadequado:** investiga 1 ou nenhum elemento.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Complementa o exame físico do abdome, solicitando as manobras a serem realizadas.**  \n(1) Descompressão brusca em fossa ilíaca direita (sinal de Blumberg);  \n(2) Manobra de Rovsing;  \n(3) Manobra do psoas;  \n(4) Manobra do obturador.  \n\n**Adequado:** solicita três ou mais manobras.  \n**Parcialmente adequado:** solicita duas manobras.  \n**Inadequado:** solicita uma ou nenhuma manobra.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita a realização de exame pélvico (toque vaginal e/ou retal).**  \n\n**Adequado:** solicita o exame pélvico.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula a principal hipótese diagnóstica.**  \n\n**Adequado:** formula a hipótese de Apendicite Aguda.  \n**Inadequado:** não formula a hipótese ou formula outra.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Justifica a principal hipótese diagnóstica.**  \n\n**Adequado:** justifica com base na cronologia da dor (migração de epigástrio para fossa ilíaca direita) e na presença de sinais de irritação peritoneal.  \n**Parcialmente adequado:** justifica com base em apenas um dos achados.  \n**Inadequado:** não justifica ou a justificativa é inadequada.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita dois diagnósticos diferenciais pertinentes ao caso.**  \n(1) Gravidez ectópica;  \n(2) Doença inflamatória pélvica;  \n(3) Cisto ovariano complicado (torção ou sangramento);  \n(4) Litíase ureteral.  \n\n**Adequado:** cita dois dos diagnósticos listados.  \n**Parcialmente adequado:** cita apenas um dos diagnósticos listados.  \n**Inadequado:** não cita nenhum dos diagnósticos listados ou cita diagnósticos não pertinentes.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Justifica os diagnósticos diferenciais citados.**  \n\n**Adequado:** justifica ambos os diagnósticos diferenciais de forma plausível com o quadro clínico apresentado.  \n**Inadequado:** não justifica ou a justificativa é inadequada.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o exame de imagem de primeira escolha para a investigação da principal hipótese diagnóstica.**  \n\n**Adequado:** indica a ultrassonografia de abdome ou pelve.  \n**Inadequado:** indica outro exame como primeira escolha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Descreve os achados esperados na ultrassonografia para a apendicite aguda.**  \n\n**Adequado:** descreve ao menos um: aumento do diâmetro do apêndice, espessamento da parede, presença de líquido livre ou apendicólito.  \n**Inadequado:** não descreve os achados ou os descreve incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica os exames de imagem para investigação dos diagnósticos diferenciais.**  \n(1) Ultrassonografia pélvica/transvaginal, para gravidez ectópica e doença tubo ovariana;  \n(2) Ultrassonografia de vias urinárias ou Tomografia de abdome, para litíase renal/ureteral.  \n\n**Adequado:** indica os exames corretos para os diferenciais citados.  \n**Inadequado:** não indica os exames ou os indica incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Descreve os achados de imagem esperados para os diagnósticos diferenciais.**  \n(1) Gravidez ectópica: sangue na cavidade, OU implante do embrião na tuba, OU prenhez tópica.  \n(2) Doença tubo ovariana: liquido livre na pelve, OU abscesso pélvico, OU edema tubário, OU abscesso tubo-ovariano.  \n(3) Litíase renal/ureteral: Hidronefrose à direita, OU imagem de calculo na via urinária.  \n\n**Adequado:** descreve ao menos dois achados esperados para os diagnósticos diferenciais citados.  \n**Parcialmente adequado:** descreve ao menos um dos achados esperados.  \n**Inadequado:** não descreve ou descreve incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita teste de gravidez (Beta-HCG).**  \n\n**Adequado:** solicita Beta-HCG.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

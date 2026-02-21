@@ -1,0 +1,222 @@
+{
+  "uid": 2102,
+  "hash": "pepe_2102",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Obstrução Intestinal Alta",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está de plantão em uma Unidade de Pronto Atendimento (UPA).\nOBSERVAÇÃO  \nA UPA possui a seguinte infraestrutura:  \n• setor de radiologia convencional e ultrassonografia;  \n• laboratório de análises clínicas;  \n• leitos de internação. \nA UPA não dispõe dos seguintes exames e infraestrutura:  \n• tomografia computadorizada;  \n• ressonância nuclear magnética;  \n• centro cirúrgico;  \n• banco de sangue.\n\nDescrição do caso:\nVocê está de plantão em uma Unidade de Pronto Atendimento (UPA) e vai atender uma paciente  \nde 45 anos de idade, com queixa de dor abdominal e vômitos, com piora progressiva, iniciados há 2 dias.  \nA paciente relata distensão abdominal, anorexia e parada de eliminação de flatus.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar o atendimento da paciente, explicando a ela cada um dos achados;  \n- definir o diagnóstico;  \n- adotar a conduta terapêutica necessária;  \n- demonstrar a realização de procedimentos médicos,caso necessário.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Joana, 45 anos, casada, pintora.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr (a), estou com muita dor na barriga.  \n\n**SOBRE A DOR ABDOMINAL**:  \n• **Tempo de evolução**: há 6 horas.  \n• **Localização**: na barriga toda (difusa).  \n• **Irradiação**: só na barriga mesmo.  \n• **Características**: tipo uma cólica.  \n• **Escala/Intensidade/Progressão**: começou um 3/10, mas agora está um 7/10, por isso vim.  \n• **Fatores agravantes e atenuantes**: nada que eu faço melhora ou piora.  \n\n**SINAIS E/OU SINTOMAS ACOMPANHANTES**:  \n• **Náuseas**: sim.  \n• **Vômitos**: sim, bastante, umas 4 vezes ontem, 5 vezes hoje, bem verdes.  \n• **Febre**: nega.  \n• **Ritmo intestinal**: eu sou constipada sempre Dr (a), mas agora parece que piorou, faz uns 3 dias que não vou ao banheiro, nao consigo soltar nem gases.  \n• **Anormalidade nas fezes (sangue/muco/pus)**: nega.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Comorbidades**: hipertensao arterial em uso de Enalapril.  \n• **Alergias**: nega.  \n• **Cirurgias**: sim, tirei o apêndice há uns 10 anos.  \n\n**Se pergunta sobre dúvidas**:  \n1) Dr (a), o que eu tenho?  \n2) Como isso aconteceu?  \n3) Não pode ser outra coisa?  \n\n**Qualquer outro questionamento**: NÃO CONSTA NO SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS",
+      "conteudo": "**PA:** 100 × 60 mmHg  \n**FC:** 100 BPM  \n**FR:** 20 IRPM  \n**Temperatura:** 37,1º C",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**REGULAR ESTADO GERAL, DESIDRATADA ++/4+, HIPOCORADA +/4+, ACIANÓTICA**  \n\n\n**AFEBRIL**  \n\n\n**ABD:** GLOBOSO, DISTENDIDO, HIPERTIMPANICO DIFUSAMENTE À PERCUSSÃO. DOR À PALPAÇÃO SUPERFICIAL E PROFUNDA EM TODO O ABDOME, SEM DOR À DESCOMPRESSÃO BRUSCA. RUÍDOS HIDROÁEREOS HIPOATIVOS.  \n\n\n**APARELHO RESPIRATÓRIO E CARDIOVASCULAR:** SEM ANORMALIDADES.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "HEMOGRAMA",
+      "conteudo": "**EXAMES LABORATORIAIS – HEMOGRAMA**  \n\n\n**Hemograma:**  \n• **Hb:** 11,2 mg/dL (VR: 12 – 16)  \n• **Ht:** 34,5% (VR: 35 – 45)  \n• **Leucócitos:** 12.110 (VR: 4.500 – 11.000), SEM DESVIO À ESQUERDA  \n• **Plaquetas:** 251.000 (VR: 150.000 – 450.000)  \n\n\n**PCR:** 10 mg/L (VR: 5 mg/L)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "BIOQUÍMICOS",
+      "conteudo": "**EXAMES BIOQUÍMICOS**  \n\n\n**Ureia:** 21 (VR: 15 – 45)  \n**Creatinina:** 1,45 (VR: 0,6 a 1,2)  \n**Na:** 125 mEq/mL (VR: 135 – 145)  \n**K:** 3,0 mEq/mL (VR: 3,5 a 4,5)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "RADIOGRAFIA",
+      "conteudo": "**EXAME RADIOLÓGICO**",
+      "imagem": "img_printeds/2021-e2p5.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e identifica adequadamente a paciente perguntando idade e**  \nprofissão.  \n\n**Adequado:** Realiza todos os comandos.  \n**Parcialmente adequado:** Realiza somente um comando.  \n**Inadequado:** Não realiza nenhum dos comandos",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor (tempo de início, localização, escala,**  \nprogressão, fatores de melhora ou piora).  \n\n**Adequado:** Pergunta sobre todas as características da dor.  \n**Parcialmente adequado:** Pergunta sobre três das características da dor.  \n**Inadequado:** Pergunta sobre duas características ou menos da dor.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza anamnese perguntando por sintomas associados (náuseas, vômitos,**  \nritmo intestinal, febre).  \n\n**Adequado:** Pergunta sobre todos os sintomas.  \n**Parcialmente adequado:** Pergunta sobre dois sintomas.  \n**Inadequado:** Pergunta por apenas um sintoma ou nao pergunta sobre os  \nsintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre antecedentes cirúrgicos e anormalidades nas fezes**  \n(alterações nas  \ncaracterísticas das fezes e sangramentos).  \n\n**Adequado:** Pergunta sobre os dois assuntos.  \n**Inadequado:** Pergunta por um ou não pergunta sobre os assuntos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza exame físico/tomou iniciativa de realizar o exame físico.**  \n\n**Adequado:** Solicita os sinais vitais e/ou toma iniciativa de realizar o exame do abdome.  \n**Inadequado:** Não verifica e/ou não realiza os exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita os exames complementares laboratoriais como plano diagnóstico.**  \n\n**Adequado:** Solicita hemograma, PCR, eletrólitos e função renal.  \n**Parcialmente adequado:** Solicita pelo menos hemograma e eletrólitos.  \n**Inadequado:** Solicita um exame ou não solicita nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita os exames complementares de imagem como plano diagnóstico.**  \n\n**Adequado:** Solicita rotina radiológica de abdome agudo / raio X de abdome.  \n**Parcialmente adequado:** Solicita tomografia computadorizada de abdome.  \n**Inadequado:** Não solicita nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta de maneira adequada exames bioquímicos.**  \n\n**Adequado:** Identifica e verbaliza HMG com leucocitose leve, PCR aumentado,  \ncreatinina  \naumentada e eletrólitos baixos.  \n**Parcialmente adequado:** Identifica e verbaliza as alterações do hemograma e  \neletrólitos.  \n**Inadequado:** Não interpreta os exames como alterados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Interpreta de maneira adequada o raio X fazendo hipótese diagnóstica de**  \nobstrução intestinal alta.  \n\n**Adequado:** interpreta corretamente e verbaliza a hipótese diagnóstica.  \n**Inadequado:** não interpreta e não verbaliza a hipótese diagnóstica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Inicia medidas de suporte adequadamente (jejum, hidratação endovenosa,**  \nreposição de eletrólitos e analgesia).  \n\n**Adequado:** Orienta 4 medidas.  \n**Parcialmente adequado:** Orienta pelo menos duas medidas.  \n**Inadequado:** Orienta uma ou nenhuma medida",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Inicia medidas de tratamento clínico com passagem de sonda nasogástrica.**  \n\n**Adequado:** Orienta a passagem de sonda.  \n**Inadequado:** Não orienta a passagem de sonda.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica adequadamente hipóteses diagnósticas para a paciente simulada**  \n(obstrução intestinal alta e baixa, neoplasia).  \n\n**Adequado:** Explica duas possibilidades.  \n**Parcialmente adequado:** Explica uma possibilidade.  \n**Inadequado:** Não explica nenhuma das possibilidades.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Responde adequadamente sobre o motivo da obstrução intestinal.**  \n\n**Adequado:** Explica de forma acessível o que são bridas.  \n**Inadequado:** Não responde corretamente a pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Explica sobre a tentativa de tratamento clínico e possibilidade de tratamento**  \ncirúrgico.  \n\n**Adequado:** Explica adequadamente e de forma compreensível as duas  \npossibilidades de tratamento.  \n**Parcialmente adequado:** Explica apenas o tratamento clínico ou o tratamento  \ncirúrgico.  \n**Inadequado:** Não explica nenhum tratamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Explica que a via de acesso pode ser laparoscópica e/ou aberta.**  \n\n**Adequado:** Explica que pode ser pelas duas vias, com preferência pelo vídeo, se  \nfor possível.  \n**Parcialmente adequado:** Explica definindo somente uma via: aberta ou por  \nvídeo.  \n**Inadequado:** Não responde a pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

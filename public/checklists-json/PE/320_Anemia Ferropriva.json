@@ -1,0 +1,222 @@
+{
+  "uid": 320,
+  "hash": "pepe_320",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Anemia Ferropriva",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• sala de procedimentos;  \n• laboratório de análises clínicas;  \n• sala de observação clínica.\n\nDescrição do caso:\nVocê é médico de uma UBS e atenderá um menino de 5 anos, morador da zona rural, acompanhado pela mãe, com queixa de fraqueza.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso.  \n- Solicitar a caderneta de saúde da criança.  \n- Solicitar o exame físico e os dados antropométricos.  \n- Solicitar os exames complementares pertinentes ao caso.  \n- Formular e verbalizar a hipótese diagnóstica.  \n- Orientar a conduta terapêutica e responder às dúvidas da mãe.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Mariana, 33 anos, trabalhadora rural.  \n• **Criança:** Henrique, 5 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), trouxe meu filho porque ele está muito fraquinho. Não está comendo direito e às vezes come terra, telha e lambe as paredes.  \n\n**SOBRE A QUEIXA PRINCIPAL:**  \n• **Início:** percebi que ele está assim há uns 2 ou 3 meses.  \n• **Fraqueza:** ele não tem vontade de fazer nada, fica desanimado.  \n• **Apetite:** está comendo bem menos, quase não quer comer.  \n• **Cefaleia:** às vezes ele reclama de dor de cabeça.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** não teve febre.  \n• **Dor abdominal:** não reclamou de dor na barriga.  \n• **Diarreia ou constipação:** as fezes estão normais.  \n• **Sangramentos:** não percebi nenhum sangramento.  \n• **Manchas no corpo:** não apareceu nada.  \n• **Náuseas ou vômitos:** não teve.  \n• **Palpitações:** não reclamou.  \n\n**ALIMENTAÇÃO:**  \n• Quando era bem pequeno comia bem, tomava leite e comia carne.  \n• Nos últimos 2 meses está comendo muito pouco.  \n• Não come carne, não come feijão e não toma leite.  \n• Come mais arroz, farinha e às vezes ovo.  \n\n**ALEITAMENTO MATERNO:**  \n• Mamou no peito até uns 6 meses, depois passei pro leite de vaca.  \n\n**SUPLEMENTAÇÃO:**  \n• Nunca tomou vitamina nem sulfato ferroso.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** nunca teve problema de saúde, sempre foi saudável.  \n• **Alergias:** não tem alergia.  \n• **Medicações:** não usa nenhum remédio.  \n• **Internações e cirurgias:** nunca ficou internado nem operou.  \n• **VACINAÇÃO:** está tudo em dia. (*liberar os impressos se solicitado*)  \n\n**DESENVOLVIMENTO:**  \n• O crescimento e desenvolvimento sempre foram normais.  \n\n**CONDIÇÕES DE MORADIA:**  \n• Nossa casa tem 3 quartos, temos água de poço e banheiro.  \n• Moramos na zona rural.  \n\n**CONDIÇÕES SOCIOECONÔMICAS:**  \n• Eu e meu marido trabalhamos no campo, vendemos legumes na feira.  \n• Não temos renda fixa, às vezes o dinheiro é curto.  \n• Somos em 6 pessoas na casa, eu, meu marido e 4 filhos.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Ninguém na família tem problema de sangue.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Por que isso acontece com ele?*  \n• *Pode ser alguma coisa mais grave?*  \n• *Ele vai precisar tomar remédio por muito tempo?*  \n• *O que eu posso dar pra ele comer?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE SAÚDE DA CRIANÇA",
+      "conteudo": "• **Nome:** Henrique.  \n• **Sexo:** Masculino.  \n• **Idade:** 05 anos.  \n\n\n• **Via de parto:** vaginal.  \n• **Peso ao nascer:** 3.100 gramas.  \n• **Comprimento ao nascer:** 49 cm.  \n• **Vacinação:** em dia conforme calendário nacional.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência Cardíaca:** 128 batimentos por minuto.  \n**Frequência Respiratória:** 28 incursões respiratórias por minuto.  \n**Temperatura Axilar:** 36,2°C.  \n**Saturação de O2:** 99% em ar ambiente.  \n**Pressão Arterial:** adequada para a idade.  \n\n\n**ANTROPOMETRIA:**  \n**Peso:** 14,5 kg (escore-z entre -2 e -3).  \n**Estatura:** 108 cm (escore-z -1).  \n**IMC:** 12,4 kg/m² (escore-z entre -2 e -3).  \n\n\n**ECTOSCOPIA:**  \nRegular estado geral, hipoativo, hipocorado (+++/4+), hidratado, acianótico, anictérico, afebril. Cabelos quebradiços e opacos.  \n\n\n**OROFARINGE:**  \nQueilite angular bilateral. Língua com papilas atróficas (glossite). Mucosa oral hipocorada.  \n\n\n**CARDIOVASCULAR:**  \nBulhas cardíacas rítmicas, normofonéticas, com sopro sistólico em foco pulmonar (++/6+), sem frêmito. Pulsos periféricos amplos e simétricos. Tempo de enchimento capilar de 2 segundos. Extremidades aquecidas.  \n\n\n**RESPIRATÓRIO:**  \nMurmúrio vesicular presente e simétrico, sem ruídos adventícios.  \n\n\n**ABDOME:**  \nPlano, flácido, indolor à palpação, sem massas ou visceromegalias. Ruídos hidroaéreos presentes.  \n\n\n**MEMBROS:**  \nSem edemas. Unhas côncavas em forma de colher (coiloníquia) em quirodáctilos. Ausência de adenomegalias.  \n\n\n**NEUROLÓGICO:**  \nConsciente, orientado, pupilas isocóricas e fotorreagentes. Sem déficits focais.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemácias:** 3,8 milhões/mm³ (VR: 4,0 – 5,2 milhões/mm³)  \n• **Hemoglobina:** 8,7 g/dL (VR: 11,5 – 14,5 g/dL)  \n• **Hematócrito:** 26% (VR: 35 – 45%)  \n• **VCM:** 68 fL (VR: 80 – 100 fL)  \n• **HCM:** 23 pg (VR: 27 – 33 pg)  \n• **CHCM:** 30 g/dL (VR: 32 – 36 g/dL)  \n• **RDW:** 19% (VR: 11 – 14%)  \n\n\n• **Leucócitos:** 7.800/mm³ (VR: 5.000 – 13.000/mm³)  \n• **Plaquetas:** 385.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n• **Reticulócitos:** 0,3% (VR: 0,5 – 1,8%)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "PERFIL DE FERRO",
+      "conteudo": "• **Ferro sérico:** 28 mcg/dL (VR: 50 – 120 mcg/dL)  \n• **Ferritina sérica:** 8 ng/mL (VR: 20 – 200 ng/mL)  \n• **Transferrina:** 480 mg/dL (VR: 200 – 360 mg/dL)  \n• **Saturação de transferrina:** 6% (VR: 20 – 50%)  \n• **TIBC (Capacidade Total de Ligação do Ferro):** 450 mcg/dL (VR: 250 – 370 mcg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "PARASITOLÓGICO DE FEZES",
+      "conteudo": "**Método:** Sedimentação espontânea (Hoffman) - 3 amostras.  \n\n\n**Resultado:** Negativo para ovos, cistos de protozoários e larvas de helmintos.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe de maneira cordial;  \n(3) pergunta o nome da mãe e da criança.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga a queixa principal e os sintomas associados:**  \n(1) características e duração da fraqueza;  \n(2) alteração do apetite ou perversão alimentar (pica);  \n(3) cefaleia;  \n(4) dor abdominal;  \n(5) alterações intestinais (diarreia ou constipação);  \n(6) febre;  \n(7) sangramentos.  \n\n**Adequado:** investiga cinco ou mais itens.  \n**Parcialmente adequado:** investiga três ou quatro itens.  \n**Inadequado:** investiga dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.37",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre alimentação e suplementação:**  \n(1) padrão alimentar atual e consumo de alimentos fontes de ferro;  \n(2) aleitamento materno prévio;  \n(3) uso de suplementação com ferro ou vitaminas na infância.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga antecedentes pessoais e condições socioeconômicas:**  \n(1) antecedentes patológicos e alergias;  \n(2) uso de medicações;  \n(3) condições socioeconômicas da família;  \n(4) condições de moradia e saneamento.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.37",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita a caderneta de saúde da criança.**  \n\n**Adequado:** solicita a caderneta de saúde.  \n**Inadequado:** não solicita a caderneta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame físico completo e dados antropométricos.**  \n\n**Adequado:** solicita exame físico e dados antropométricos.  \n**Parcialmente adequado:** solicita apenas exame físico ou apenas antropometria.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Identifica as alterações do exame físico:**  \n(1) palidez cutaneomucosa;  \n(2) taquicardia;  \n(3) sopro sistólico funcional;  \n(4) coiloníquia (unhas em colher);  \n(5) queilite angular;  \n(6) glossite;  \n(7) baixo peso para idade.  \n\n\n[Image of clinical signs of iron deficiency anemia]\n\n\n**Adequado:** identifica cinco ou mais alterações.  \n**Parcialmente adequado:** identifica três ou quatro alterações.  \n**Inadequado:** identifica duas alterações ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita hemograma e interpreta corretamente:**  \n(1) anemia (hemoglobina reduzida);  \n(2) microcitose (VCM reduzido);  \n(3) hipocromia (HCM reduzido);  \n(4) anisocitose (RDW elevado).  \n\n\n[Image of iron deficiency anemia blood smear]\n\n\n**Adequado:** solicita hemograma e interpreta três ou mais alterações.  \n**Parcialmente adequado:** solicita hemograma e interpreta uma ou duas alterações.  \n**Inadequado:** não solicita hemograma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita perfil de ferro e interpreta corretamente:**  \n(1) ferro sérico reduzido;  \n(2) ferritina reduzida;  \n(3) saturação de transferrina reduzida;  \n(4) transferrina elevada.  \n\n**Adequado:** solicita perfil de ferro e interpreta três ou mais alterações.  \n**Parcialmente adequado:** solicita perfil de ferro e interpreta uma ou duas alterações.  \n**Inadequado:** não solicita perfil de ferro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita exame parasitológico de fezes para exclusão de parasitose intestinal.**  \n\n**Adequado:** solicita parasitológico de fezes.  \n**Inadequado:** não solicita parasitológico de fezes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Não solicita exame de imagem.**  \n\n**Adequado:** não solicita exame de imagem.  \n**Inadequado:** solicita exame de imagem.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza o diagnóstico de anemia ferropriva por deficiência na ingestão de ferro e explica à mãe.**  \n\n**Adequado:** verbaliza o diagnóstico corretamente e explica à mãe de forma compreensível.  \n**Parcialmente adequado:** verbaliza o diagnóstico, mas não explica à mãe.  \n**Inadequado:** não verbaliza o diagnóstico ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Prescreve tratamento com sulfato ferroso ou ferro elementar por via oral.**  \n\n**Adequado:** prescreve reposição de ferro por via oral.  \n**Inadequado:** não prescreve reposição de ferro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta mudanças no padrão alimentar:**  \n(1) aumentar consumo de alimentos ricos em ferro (carnes, vísceras, feijão);  \n(2) associar alimentos ricos em vitamina C para melhorar absorção;  \n(3) evitar consumo de leite junto às refeições principais.  \n\n**Adequado:** orienta dois ou mais itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta mudanças alimentares.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta retorno para reavaliação clínica e laboratorial após 30 a 45 dias do início do tratamento.**  \n\n**Adequado:** orienta retorno para acompanhamento.  \n**Inadequado:** não orienta retorno.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "uid": 2524,
+  "hash": "pepe_2524",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Anticoncepção em Paciente de Alto Risco (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a exames laboratoriais pela rede municipal.\n\nDescrição do caso:\nVocê atenderá uma mulher de 38 anos que comparece à consulta na UBS para solicitar orientação sobre métodos anticoncepcionais.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida da paciente;  \n- Solicitar o exame físico, se necessário;  \n- Identificar as contraindicações e indicar os métodos contraceptivos seguros para o caso;  \n- Orientar a paciente sobre outras questões de saúde pertinentes;  \n- Responder às dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Tatiane, 36 anos, casada, auxiliar administrativa.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu vim aqui porque preciso de um método para não engravidar. Já tenho um filho e tive um aborto há 6 meses, não quero mais ter filhos por enquanto.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **GPA:** Eu já engravidei duas vezes. Tive um filho de parto normal e um aborto há 6 meses.  \n• **Ciclos:** Minha menstruação é regular, vem a cada 28 dias.  \n• **Contracepção:** Não estou usando nada no momento, só camisinha, mas a gente esquece às vezes.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho um problema no coração, mas não sei o nome direito. O mais sério foi que eu tive uma trombose na perna depois que perdi o bebê. Por causa disso, eu tomo um remédio para \"afinar o sangue\".  \n• **Medicações:** Uso a varfarina todo dia.  \n• **Cirurgias e internações:** Fiquei internada por causa dessa trombose.  \n• **Alergias:** Nega.  \n\n**HÁBITOS DE VIDA:**  \n• **Atividade física:** Não faço nenhum exercício, meu trabalho é o dia todo sentada.  \n• **Tabagismo:** Fumo quase um maço por dia, desde os 19 anos.  \n• **Etilismo:** Bebo socialmente, nos fins de semana.  \n• **Alimentação:** Como de tudo, não faço dieta. Sei que estou acima do peso também  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Eu posso tomar a pílula? Minha amiga toma uma que é ótima e não engorda.*  \n• *A laqueadura eu poderia fazer?*  \n• *E o DIU de cobre? tem algum problema de interferir no meu remédio ou da minha trombose voltar?*  \n• *Tem mais alguma coisa que eu precise fazer para cuidar da saúde?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 125x80 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 97% em ar ambiente  \n\n\n**Antropometria:**  \n• **Peso:** 90 kg  \n• **Altura:** 1,60 m  \n• **IMC:** 35,1 kg/m²  \n\n\n**Ectoscopia:** Bom estado geral, corada, hidratada, acianótica, anictérica.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Membros Inferiores:** Ausência de edemas, empastamento ou dor à palpação de panturrilhas. Sinal de Homans negativo.  \n\n\n**Exame Ginecológico:** Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida, investigando os fatores de risco para contracepção:**  \n(1) histórico de trombose venosa profunda (TVP);  \n(2) tabagismo (carga tabágica);  \n(3) obesidade (IMC);  \n(4) cardiopatia e uso de anticoagulantes.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica as contraindicações absolutas para o uso de métodos com estrogênio.**  \n\n**Adequado:** identifica pelo menos três contraindicações absolutas (Critério 4 da OMS) presentes no caso: história de TVP, Fibrilação Atrial e tabagismo em mulher > 35 anos.  \n**Parcialmente adequado:** identifica duas contraindicações.  \n**Inadequado:** não identifica as contraindicações ou identifica apenas uma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Orienta sobre os métodos contraceptivos seguros para a paciente (progestogênio isolado).**  \n(1) pílulas de progestogênio isolado (minipílula);  \n(2) progestogênio injetável (trimestral);  \n(3) implante subdérmico de etonogestrel.  \n\n**Adequado:** orienta sobre dois ou três métodos.  \n**Parcialmente adequado:** orienta sobre um método.  \n**Inadequado:** não orienta sobre nenhum método seguro à base de progestogênio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Orienta sobre métodos contraceptivos não hormonais ou de longa duração.**  \n(1) DIU de Cobre;  \n(2) Sistema Intrauterino (SIU) de Levonorgestrel (DIU Hormonal);  \n(3) Métodos de barreira (preservativo).  \n\n**Adequado:** orienta sobre dois ou três métodos.  \n**Parcialmente adequado:** orienta sobre um método.  \n**Inadequado:** não orienta sobre nenhum desses métodos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Discute a opção de esterilização cirúrgica (laqueadura tubária) como método permanente.**  \n\n**Adequado:** menciona a laqueadura como uma opção definitiva, considerando a idade e prole definida da paciente.  \n**Inadequado:** não menciona a laqueadura como opção.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Recomenda o DIU de Cobre como uma opção de alta eficácia e sem interação.**  \n\n**Adequado:** recomenda o DIU de cobre como uma excelente opção, por ser um método de longa duração, altamente eficaz e não hormonal, o que evita interações medicamentosas e riscos trombóticos adicionais.  \n**Inadequado:** não apresenta o DIU de Cobre como uma opção vantajosa para o caso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre a necessidade de cessação do tabagismo.**  \n\n**Adequado:** orienta firmemente a paciente a parar de fumar, explicando os riscos associados (cardiovasculares, trombóticos, oncológicos).  \n**Inadequado:** não aborda o tabagismo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre a necessidade de mudanças no estilo de vida para controle da obesidade.**  \n(1) orienta sobre a importância de uma dieta balanceada;  \n(2) incentiva a prática regular de atividade física.  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Propõe um plano de seguimento.**  \n\n**Adequado:** estabelece um plano de retorno para auxiliar na escolha do método contraceptivo e para acompanhar as mudanças de estilo de vida.  \n**Inadequado:** não propõe um plano de seguimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

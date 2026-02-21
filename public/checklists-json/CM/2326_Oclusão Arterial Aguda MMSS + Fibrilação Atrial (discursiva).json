@@ -1,0 +1,166 @@
+{
+  "uid": 2326,
+  "hash": "pepe_2326",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Oclusão Arterial Aguda MMSS + Fibrilação Atrial (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: Unidade Básica de Saúde (UBS).\nA unidade apresenta a seguinte infraestrutura:  \n• Consultórios;  \n• Eletrocardiograma;  \n• Aparelho de Raio-X;  \n• Sala de procedimentos/observação;  \n• Ambulância para transporte.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma mulher de 77 anos, recém-chegada ao bairro, que procura o serviço com queixa de dor e formigamento na mão direita.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal.  \n- Solicitar exame físico específico, caso necessário.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Formular a hipótese diagnóstica para o quadro agudo e sua etiologia.  \n- Definir a conduta e o plano terapêutico.  \n- Responder às dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Elza, 77 anos, viúva, professora aposentada.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu vim aqui porque de ontem pra hoje minha mão ficou muito estranha. Está doendo, formigando, e eu não consigo segurar as coisas direito. Ela também está mais gelada que a outra.  \n\n**SOBRE A DOR E QUEIXA NA MÃO:**  \n• **Início:** Começou de repente, ontem à tarde, por volta das 3 horas.  \n• **Localização:** Na mão direita toda  \n• **Irradiação:** eu sinto subir um pouco para o braço.  \n• **Característica:** É uma dor forte misturada com um formigamento que não passa.  \n• **Intensidade:** Uma dor forte, nota 8 de 10.  \n\n• **Fatores de melhora/piora:** Ficar com a mão parada parece que dói um pouco menos, mas a dor não passa. Nada que eu fiz melhorou.  \n\n• **Palidez:** Minha mão está bem mais branca que a outra e muito gelada.  \n• **Perda de força:**  Sinto que perdi a força nela, está difícil até de segurar um copo.  \n\n• **Edema, hiperemia:** nega.  \n• **Febre, vômitos, cefaleia:** nega.  \n• **Astenia, hipotensão, perda de consciência:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho pressão alta e diabetes há mais de 10 anos.  \n• **Medicações:** Tomo Enalapril de manhã e Metformina três vezes ao dia. Tomo tudo certinho.  \n• **Palpitações:** Às vezes sinto que dá umas batedeiras no peito, dura uns minutos e passa, deve ser coisa da idade.  \n\n• **Funcionalidade:** Eu moro sozinha, mas sou independente, faço tudo em casa.  \n\n• **Histórico familiar:** Meu pai teve um infarto quando tinha 70 anos.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Porque isso aconteceu?*  \n• *Tem algum outro exame que faz pra ter certeza?*  \n• *Eu posso perder a minha mão? Como que trata isso?*  \n• Caso o candidato solicite o ECG: *O que deu no meu exame de coração?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 140x90 mmHg  \n• **FC:** 60~78 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.6° C  \n\n\n**Ectoscopia:** Paciente em bom estado geral, lúcida e orientada, mucosas coradas, afebril.  \n\n\n**Cardiovascular:** Ritmo cardíaco irregular, com variação na intensidade da primeira bulha. Ausência de sopros. • **Pulsos:** Pulso venoso jugular sem onda \"a\" visível.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Abdominal:** Sem alterações.  \n\n\n**MMII:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO MMSS",
+      "conteudo": "**Exame da Mão Esquerda:**\n• Sem alterações.  \n\n\n**Exame da Mão Direita (comparativo com a esquerda):**  \n• **Inspeção:** Mão pálida e fria.  \n• **Pulsos:** Pulso radial direito filiforme, mais fraco que o esquerdo.  \n• **Perfusão:** Enchimento capilar lentificado (> 3 segundos).  \n• **Neurológico:** Diminuição da força e sensibilidade tátil.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ELETROCARDIOGRAMA (ECG)",
+      "conteudo": "**OLHE PARA A CÂMERA E VERBALIZE O(S) ACHADO(S) NO ECG!**",
+      "imagem": "img_printeds/2023-2-e26p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da queixa aguda:**  \n(1) início (súbito);  \n(2) dor;  \n(3) palidez (alteração da cor);  \n(4) parestesia (formigamento/alteração de sensibilidade);  \n(5) poiquilotermia (alteração de temperatura/mão fria);  \n(6) paralisia (perda de força/dificuldade de mover).  \n\n**Adequado:** pergunta sobre cinco ou mais itens.  \n**Parcialmente adequado:** pergunta sobre três ou quatro itens.  \n**Inadequado:** pergunta sobre dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre antecedentes e fatores de risco:**  \n(1) hipertensão;  \n(2) diabetes;  \n(3) doenças cardíacas (arritmias, palpitações, infarto); e,  \n(4) medicações em uso.  \n\n**Adequado:** pergunta sobre três ou quatro itens.  \n**Parcialmente adequado:** pergunta sobre dois itens.  \n**Inadequado:** pergunta sobre um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita ou verbaliza a necessidade de realizar exame físico específico dos membros superiores, avaliando:**  \n(1) pulsos (radiais e ulnares);  \n(2) perfusão (enchimento capilar);  \n(3) cor;  \n(4) temperatura;  \n(5) sensibilidade e motricidade.  \n\n**Adequado:** solicita ou verbaliza a avaliação de quatro ou mais itens.  \n**Parcialmente adequado:** solicita ou verbaliza a avaliação de dois ou três itens.  \n**Inadequado:** solicita ou verbaliza a avaliação de um item ou não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita Eletrocardiograma (ECG).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta o eletrocardiograma (ECG).**  \n\n**Adequado:** interpreta corretamente como Fibrilação Atrial, OU ausência de onda \"P\".  \n**Inadequado:** interpreta de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta exame de imagem para avaliação vascular do membro.**  \n\n**Adequado:** solicita USG Doppler OU Angiotomografia OU Arteriografia.  \n**Inadequado:** não solicita nenhum dos exames citados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a hipótese diagnóstica de Oclusão Arterial Aguda.**  \n\n**Adequado:** verbaliza o diagnóstico de Oclusão Arterial Aguda.  \n**Parcialmente adequado:** verbaliza um diagnóstico vascular genérico como \"isquemia\" ou \"trombose\".  \n**Inadequado:** não verbaliza a hipótese ou verbaliza uma hipótese incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Identifica a Fibrilação Atrial como a causa provável da oclusão (fonte embólica).**  \n\n**Adequado:** identifica a Fibrilação Atrial como causa, correlacionando com o exame físico (ritmo irregular e achados da mão direita) e/ou com o laudo do ECG.  \n**Parcialmente adequado:** identifica a causa como \"embolia cardíaca\" ou \"arritmia\", sem especificar a Fibrilação Atrial.  \n**Inadequado:** não identifica a causa ou aponta uma causa incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a conduta inicial para o manejo da oclusão.**  \n(1) anticoagulação com heparina (EV); e,  \n(2) analgesia;  \n(3) Manter o membro em posição neutra ou declive;  \n(4) Monitorização dos Sinais Vitais.  \n\n**Adequado:** indica três ou quatro condutas.  \n**Parcialmente adequado:** indica apenas duas condutas.  \n**Inadequado:** não indica nenhuma das condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica a conduta definitiva e o encaminhamento.**  \n(1) internação hospitalar; e,  \n(2) avaliação urgente pela equipe de cirurgia vascular (ou angiologia).  \n(3) opções do tratamento definitivo (trombólise, trombectomia, embolectomia ou by-pass).  \n\n**Adequado:** indica as três condutas.  \n**Parcialmente adequado:** indica duas condutas.  \n**Inadequado:** indica uma não indica nenhuma das condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "uid": 1208,
+  "hash": "pepe_1208",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Criptorquia unilateral",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento:  ambulatorial - unidade básica de saúde.  \nA unidade possui consultórios.  \n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.\n\nDescrição do caso:\nVocê está no consultório de unidade básica de saúde e vai atender um menino com 4 meses de idade, levado pela mãe à consulta de rotina.",
+  "tarefas": "TAREFAS:  \n\n- Realizar a anamnese direcionada ao relato da mãe do paciente.  \n- Interpretar o exame físico e explicar à mãe os achados relativos ao relato materno.  \n- Interpretar o exame físico e explicar à mãe o diagnóstico.  \n- Elencar as possíveis complicações para a(s) condição(ões) encontrada(s) no paciente.  \n- Estabelecer a conduta adequada para o caso e justificar.  \n- Responder sobre as possíveis dúvidas da mãe do paciente.  \n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Vera, 28 anos, casada.  \n• **Criança:** Eduardo, 4 meses.  \n\n\n**QUEIXA PRINCIPAL:** Trouxe ele pra consulta de rotina.  \n• Na consulta de 2 meses o outro médico disse que tinha alguma coisa alterada nele, mas não era preocupante. Eu não lembro o que foi.  \n\n\n• **DEMAIS QUEIXAS:** nega.  \n\n\n**ANTECEDENTES PESSOAIS E PERINATAIS:**  \n• **Suplementação, medicações ou vitaminas:** está tomando umas vitaminas.  \n\n• **Semanas de gestação e via parto:** foi 38 semanas, parto normal.  \n• **Pré-natal e intercorrências:** ocorreu tudo bem.  \n• **VACINAÇÃO:** está tudo em dia até agora.  \n• **Testes de triagem:** fez sim, deu tudo certo.  \n• **Amamentação:** está mamando bem e desenvolvendo bem.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Meu filho vai precisar de tratamento ou cirurgia?*  \n• *Pode ter risco de algum problema no futuro?*  \n• *Como está faltando um testículo, será que ele é menino mesmo?*  \n• *E se caso ele precisar de cirurgia e não operar, pode complicar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA CRIANÇA",
+      "conteudo": "• **Nome:** Eduardo.  \n• **Sexo:** Masculino.  \n• **Via de Parto:** vaginal / **Idade Gestacional:** 38 semanas e 5 dias.  \n• **Peso de nascimento:** 3.120 gramas.  \n• **Comprimento ao nascer:** 50 centímetros.  \n• **Perímetro cefálico ao nascer:** 35,5 centímetros.  \n• **Apgar:** 9/10.  \n• **Tipo Sanguíneo mãe:** A+ / **Tipo Sanguíneo recém-nascido:** A+  \n• **Vacinação:** atualizada até os 4 meses segundo Programa Nacional de Vacinação.  \n• **Suplementação:** uso regular de vitamina D e Sulfato Ferroso.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** adequada para idade.    \n• **FC:** 115 bpm  \n• **FR:** 41 irpm  \n• **SatO2:** 98% em a.a.    \n• **Temp. axilar:** 36.9° C  \n• **Peso:** 6.250g\n• **Comprimento:** 65.5cm  \n\n\n**Bom estado geral, eupneico, hidratado e afebril.**  \n**DNPM e dados antropométricos adequados para idade.**  \n\n\n**Cardiovascular, respiratório e abdominal:** sem alterações.  \n\n\n**Genitais:** prepúcio retraído com facilidade; ausência de testículo esquerdo em bolsa escrotal com massa palpável em região inguinal esquerda.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta a mãe e identifica-se de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Estabelece clima harmônico na consulta, interagindo efetivamente com a mãe do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Ouve com atenção a queixa da mãe do paciente, sem interrupção desnecessária.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica nos dados apresentados a distopia testicular esquerda.**  \n\n**Adequado:** identifica distopia testicular/criptorquidia à esquerda.  \n**Parcialmente adequado:** identifica distopia testicular/criptorquidia, sem informar à esquerda, OU informar à direita OU bilateral.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Orienta sobre a possibilidade de descida espontânea até os 6 meses ou 1 ano de idade.**  \n\nOBS.: A criptorquidia unilateral pode ser expectante até os 12 meses de idade, ao contrário da criptorquidia bilateral em que a conduta é cirúrgia após os 6-12 meses.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Orienta sobre a indicação de cirurgia no segundo ano de vida se não ocorrer a descida espontânea.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre o risco de infertilidade progressivo com a demora na correção.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre o risco de neoplasia associado à condição.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre a não intercorrência da condição sobre a sexualidade da criança.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre o risco de torção da gônada não operada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Presta atenção às inquietações do paciente, demonstrando empatia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Confere entendimento da mãe, perguntando se há ainda dúvidas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Demonstra interesse em auxiliar a mãe do paciente na situação vivenciada.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.15"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

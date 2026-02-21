@@ -1,0 +1,169 @@
+{
+  "uid": 2409,
+  "hash": "pepe_2409",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Climatério",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Local de atuação: atenção primária à saúde.  \nA unidade básica de saúde (UBS) possui a seguinte infraestrutura:  \n• Consultório ginecológico.\n\nDescrição do caso:\nVocê é médico de uma UBS e deverá atender, no ambulatório, a uma paciente chamada Maria, de 50 anos, G3 P3 AO.  \n• A data da última menstruação (DUM) dessa paciente foi há cerca de 1 ano.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar o atendimento da paciente com anamnese completa;  \n- Verbalizar o diagnóstico do quadro;  \n- Informar a paciente sobre os possíveis planos diagnósticos;  \n- Informar a paciente sobre os possíveis planos terapêuticos respondendo-a e orientando-a de forma completa.    \n\n\nCONSIDERE O EXAME FÍSICO REALIZADO DE FORMA COMPLETA E QUE ESTÁ SEM ALTERAÇÕES.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Maria, de 50 anos, casada, contadora.  \n\n**MOTIVO DE CONSULTA**: Dr(a), venho sentindo muitas ondas de calor por todo o corpo e estou suando demais. Acordo no meio da noite molhada de suor.  \n\n**SINTOMAS ASSOCIADOS**:  \n• **Fogachos**: sim, são tantos que atrapalham meu sono.  \n• **Queda de cabelo**: sim.  \n• **Ressecamento da pele**: sim.  \n• **Dispareunia**: sim.  \n• **Ressecamento vaginal**: sim.  \n\n**ANTECEDENTES GINECOOBSTÉTRICOS**:  \n• **DUM**: há um ano, desde meus 49 anos, antes disso minha menstruação estava desregulada, com atrasos.  \n• **Gestações**: 3.  \n• **Partos Vaginais**: 3.  \n• **Papanicolau**: realizei exames ginecológicos de rotina há 3 anos e estavam normais.  \n\n**HÁBITOS**:  \n• **Atividade física**: sou sedentária.  \n• **Alimentação**: tenho uma dieta regular, percebi pequeno ganho de peso nos últimos anos.  \n• **Tabagismo**: nega.  \n• **Alcoolismo**: bebo pouco e socialmente.  \n• **Sono**: tenho tido noites de insônia.  \n\n**ANTECEDENTES PATOLÓGICOS**:  \n• Nega doenças pré-existentes, eventos tromboembólicos, alergias, cirurgias prévias ou uso de medicamentos.  \n\n**ANTECEDENTES FAMILIARES**:  \n• Nega.  \n\n**DÚVIDAS**:  \n1. *O que é que eu tenho Dr.(a)?*  \n2. *Você não vai pedir exames para me diagnosticar?*  \n3. *Terei que alterar meus hábitos de vida?*  \n4. *Quais são as opções de tratamento disponíveis?*  \n5. *Posso realizar tratamento de reposição hormonal?*  \n6. *Quais são os benefícios do tratamento de reposição hormonal e quanto tempo demora para surtir efeito?*  \n7. *Quais são os efeitos adversos do tratamento de reposição hormonal?*  \n8. *Como será feito o meu acompanhamento ginecológico?*  \n9. *Quais opções de tratamento não hormonais estão disponíveis?*",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) cumprimenta a paciente e/ou fala o seu nome;  \n(2) pergunta o motivo da consulta ou a queixa principal da paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre outros sinais ou sintomas:**  \n(1) ressecamento vaginal;  \n(2) dispareunia (dor ou desconforto na relação sexual) OU mudança no desejo sexual;  \n(3) ressecamento de pele;  \n(4) queda de cabelo;  \n(5) sintomas emocionais, alterações cognitivas e depressão.  \n\n**Adequado:** pergunta três ou mais itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Indica exames ginecológicos e/ou questiona se a paciente os fez recentemente:**  \n(1) mamografia;  \n(2) citologia oncótica cervical (ou papanicolaou ou preventivo);  \n(3) ecografia endovaginal (USG sinônimos).  \n\n**Adequado:** indica ou questiona os três itens.  \n**Inadequado:** indica ou questiona um ou dois itens OU não indica ou questiona item algum.  \n\n*(Obs.: a referência a exames de forma genérica não será considerada para fins de pontuação.)*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre os hábitos de vida:**  \n(1) atividade física;  \n(2) alimentação;  \n(3) tabagismo;  \n(4) etilismo;  \n(5) estresse.  \n\n**Adequado:** pergunta três ou mais itens.  \n**Parcialmente adequado:** pergunta um ou dois itens.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre possíveis comorbidades e doenças pré-existentes que podem influenciar o tipo de prescrição médica:**  \n(1) fenômenos tromboembólicos (ou fenômenos cardiovasculares ou enxaqueca com aura);  \n(2) câncer de mama (ou câncer de endométrio);  \n(3) hipertensão arterial sistêmica;  \n(4) diabetes;  \n(5) doenças hepáticas (qualquer doença hepática);  \n(6) câncer de ovário.  \n\n**Adequado:** pergunta três ou mais itens.  \n**Parcialmente adequado:** pergunta um ou dois itens.  \n**Inadequado:** não pergunta sobre item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Define a condição clínica de climatério (OU menopausa OU síndrome climatérica OU sintomas vasomotores do estado menopausal).**  \n\n**Adequado:** define.  \n**Inadequado:** não define.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames hormonais para a confirmação de síndrome climatérica.**  \n\n**Adequado:** não solicita.  \n**Inadequado:** solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta a paciente sobre:**  \n(1) alimentação equilibrada;  \n(2) prática de atividade física.  \n\n**Adequado:** orienta os dois itens.  \n**Inadequado:** orienta um item OU não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Informa sobre os possíveis benefícios da TH, que pode ajudar a melhorar os seguintes pontos:**  \n(1) fogachos;  \n(2) síndrome urogenital;  \n(3) labilidade emocional;  \n(4) padrão de sono;  \n(5) perfil lipídico;  \n(6) prevenção da osteoporose.  \n\n**Adequado:** informa quatro ou mais itens.  \n**Parcialmente adequado:** informa três itens.  \n**Inadequado:** informa dois ou menos itens OU não informa item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Informa a paciente sobre os principais efeitos adversos da TH:**  \n(1) mastalgia;  \n(2) sangramento uterino irregular;  \n(3) cefaleia.  \n\n**Adequado:** informa dois ou mais itens.  \n**Inadequado:** informa um item OU não informa item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Informa a paciente sobre a necessidade de realização de controle ginecológico anual com realização de mamografia e de ultrassonografia endovaginal.**  \n\n**Adequado:** informa.  \n**Inadequado:** não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica terapêutica da seguinte maneira:**  \nEstrogênio e progesterona (progestágeno contínuo ou cíclico), sendo aceita prescrição que oriente administração por via oral ou por via transdérmica para estrogênio e por via oral para progesterona.  \n\n**Adequado:** indica o uso de (1) estrogênio + progesterona OU (2) Tibolona.  \n**Inadequado:** não indica progesterona associada ao estrogênio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta que, caso ela não deseje usar TH, existe a possibilidade de uso de neuromoduladores ou de fitoterápicos para alívio dos sintomas.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

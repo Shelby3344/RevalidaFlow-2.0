@@ -1,0 +1,160 @@
+{
+  "uid": 2323,
+  "hash": "pepe_2323",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Candidíase Mamária + Trauma Mamilar + Técnica de Amamentação (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de amamentação.\n\nDescrição do caso:\nVocê está em uma consulta de puericultura de uma criança com 30 dias de vida. A mãe procura atendimento com queixa de dor e prurido intenso nas mamas durante a amamentação.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Formular a(s) hipótese(s) diagnóstica(s) para o caso.  \n- Solicitar exame físíco, caso necessário.  \n- Explicar os diagnósticos e os fatores predisponentes à paciente.  \n- Orientar o manejo e a conduta adequados para cada uma das hipóteses.  \n- Realizar orientações gerais para a saúde durante a amamentação.  \n\n\\\nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Luísa, 28 anos, casada.  \n• **Criança:** Davi, 30 dias de vida.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com muita dificuldade para amamentar. Sinto uma coceira e uma ardência fortes no bico do peito, e umas dores dentro da mama que continuam mesmo depois que o bebê para de mamar.  \n\n**SOBRE A DOR E QUEIXAS:**  \n• **Início:** Os sintomas começaram na última semana.  \n• **Evolução:** vem piorando sim.  \n• **Edema e hiperemia:** A ponta do peito está bem vermelha.  \n• **Característica da dor:** É uma dor em \"agulhada\", queimação e coceira (prurido) intensa na região dos mamilos.  \n• **Produção de leite:** Tenho muito leite, preciso usar protetores de seio porque vaza o tempo todo. Também to usando aqueles extratores de leite as vezes.  \n\n**HISTÓRICO DA AMAMENTAÇÃO:**  \n• **Modo:** Estou amamentando exclusivamente no peito desde que ele nasceu.  \n• **Pega:** Ele pega e suga bem forte, as vezes puxa o bico do peito.  \n• **Quantidade:** Está mamando umas 4 ou 5 vezes por dia.  \n• **Ganho de peso do RN:** Acho que ele está bem e ganhando peso, ele não reclama de nada.  \n\n**ANTECEDENTES PESSOAIS DA LACTANTE:**  \n• **Alergias, doenças:** Nega.  \n• **Suplementação:** estou tomando só as vitaminas da gravidez.  \n• **Uso de antibióticos ou corticoides:** Nega.  \n• **Contraceptivos:** Não estou tomando nada e também não menstruei ainda.  \n\n**ANTECEDENTES PESSOAIS DO RN:** está tudo bem com ele, não tenho nenhuma queixa.  \n• **Vacinação:** Ele tomou as do parto.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso é grave? Pode me impedir de continuar amamentando?*  \n• *Vou precisar tomar algum remédio? O tratamento pode fazer mal para o meu bebê?*  \n• *O que eu posso fazer para melhorar essa dor e conseguir amamentar direito?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO DA LACTANTE (MÃE)",
+      "conteudo": "• **Sinais Vitais:**   \n• **PA:** 110x70 mmHg.   \n• **FC:** 75 bpm.   \n• **FR:** 16 irpm.   \n• **SatO2:** 99% em ar ambiente.   \n• **Temp. axilar:** 36.5°C.  \n\n\n• **Exame das Mamas:**  \n• **Inspeção:** Mamilos e aréolas com hiperemia, aspecto brilhante e edemaciado. Presença de finas descamações. Ausência de fissuras evidentes.  \n• **Palpação:** Mamas túrgidas, com hipersecreção láctea. Ausência de nódulos, massas ou pontos de flutuação.  \n\n\n• **Demais segmentos:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO DO RN",
+      "conteudo": "• **Sinais Vitais:** \n• **FC:** 130 bpm.   \n• **FR:** 40 irpm.   \n• **SatO2:** 99% em ar ambiente.   \n• **Temp. axilar:** 36.8°C.  \n\n\n• **Idade:** 30 dias de vida.  \n• **Peso ao nascer:** 3.200g.  \n• **Peso atual:** 4.400g.  \n\n• **Estado geral:** Bom estado geral, corado, hidratado, ativo e reativo.  \n\n• **Exame físico geral e segmentar:** Sem alterações.  \n\n• **Ganho ponderal médio:** 40 gramas/dia.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor e dos sintomas mamários:**  \n(1) início;  \n(2) tipo (agulhada, queimação, prurido);  \n(3) persistência da dor após as mamadas;  \n(4) fatores de melhora ou piora.  \n\n**Adequado:** pergunta três ou mais características.  \n**Parcialmente adequado:** pergunta duas características.  \n**Inadequado:** pergunta uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a técnica de amamentação:**  \n(1) posicionamento do bebê;  \n(2) pega (abocanhamento da aréola);  \n(3) frequência e duração das mamadas.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre fatores de risco para candidíase mamária:**  \n(1) uso recente de antibióticos ou corticoides pela mãe;  \n(2) uso de contraceptivos orais;  \n(3) excesso de umidade na região mamilar (uso constante de protetores de seio úmidos).  \n\n**Adequado:** pergunta sobre dois ou mais fatores.  \n**Parcialmente adequado:** pergunta sobre um fator.  \n**Inadequado:** não pergunta sobre nenhum fator.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre fatores de risco para trauma mamilar:**  \n(1) uso de bombas de extração de leite;  \n(2) uso de protetores (intermediários) de mamilo;  \n(3) disfunções orais do bebê (ex: freio lingual curto);  \n(4) modo como interrompe a mamada.  \n\n**Adequado:** pergunta sobre dois ou mais fatores.  \n**Parcialmente adequado:** pergunta sobre um fator.  \n**Inadequado:** não pergunta sobre nenhum fator.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza as duas principais hipóteses diagnósticas:**  \n(1) candidíase (ou monilíase) mamária; e,  \n(2) trauma mamilar (ou fissura mamilar) por erro de técnica, OU uso de extratores, OU protetores.  \n\n**Adequado:** verbaliza as duas hipóteses.  \n**Parcialmente adequado:** verbaliza apenas uma hipótese.  \n**Inadequado:** não verbaliza nenhuma das hipóteses.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica a conduta para Candidíase Mamária:**  \n(1) explica que o tratamento pode ser feito simultaneamente na mãe e no bebê (mesmo que assintomático);  \n(2) menciona o uso de antifúngico tópico (nistatina, miconazol ou outro) para a mãe e para o bebê (nistatina suspensão oral ou miconazol gel oral).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta a mãe sobre o posicionamento adequado do bebê para a amamentação:**  \n(1) Rosto do bebê de frente para a mama, com nariz na altura do mamilo;  \n(2) Corpo do bebê próximo ao da mãe;  \n(3) Bebê com cabeça e tronco alinhados (pescoço não torcido); e,  \n(4) Bebê bem apoiado.  \n\n**Adequado:** orienta os quatro itens.  \n**Parcialmente adequado:** orienta dois ou três itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta a mãe sobre a pega adequada do bebê na mama:**  \n(1) Mais aréola visível acima da boca do bebê;  \n(2) Boca bem aberta;  \n(3) Lábio inferior virado para fora; e,  \n(4) Queixo tocando a mama.  \n\n**Adequado:** orienta os quatro itens.  \n**Parcialmente adequado:** orienta dois ou três itens.  \n**Inadequado:** orienta um item ou não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Fornece orientações gerais de cuidados com as mamas:**  \n(1) manter os mamilos secos, expondo ao ar livre/luz solar;  \n(2) realizar trocas frequentes dos protetores de seio;  \n(3) não usar produtos como sabões ou álcool nos mamilos.  \n(4) lavar as mãos antes e depois das mamadas e da troca de fraldas;  \n(5) ferver bicos, chupetas e mamadeiras (se houver) diariamente;  \n\n**Adequado:** fornece duas ou mais orientações.  \n**Parcialmente adequado:** fornece uma orientação.  \n**Inadequado:** não fornece nenhuma orientação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre o manejo do excesso de produção de leite:**  \n(1) realizar ordenha manual de alívio se a mama estiver muito cheia (ingurgitada);  \n(2) orienta sobre a possibilidade de doação do leite excedente a um banco de leite.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

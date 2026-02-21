@@ -1,0 +1,176 @@
+{
+  "uid": 1606,
+  "hash": "pepe_1606",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Enxaqueca/migrânea",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você é o médico de plantão em uma UPA.\n\nDescrição do caso:\nVocê é o médico de plantão em uma UPA e recebe paciente do sexo feminino, 27 anos, com quadro de dor de cabeça intensa.",
+  "tarefas": "TAREFAS:  \n\nNos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- Realizar a anamnese direcionada ao caso  \n- Solicitar exame físico, caso necessário  \n- Responder as dúvidas da paciente  \n- Propor condutas e orientações ao caso",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Ana.  \n• **Idade:** 28 anos.  \n• **Profissão:** esteticista.  \n\n\n**QUEIXA PRINCIPAL:** Doutor(a), estou com uma dor de cabeça infernal.  \n\n**SOBRE CEFALEIA:**  \n- **Início:** faz umas 5 horas.  \n- **Localização:** Mais do lado direito.  \n- **Intensidade:** 9/10.  \n- **Característica:** fica pulsando.  \n- **Irradiação:** não irradia.  \n\n**SINTOMAS ASSOCIADOS:**  \n- **Náuseas/vômitos:** vomitei 2 vezes, uma logo que acordei e outra faz duas horas. Só alimento.  \n- **Vertigem/tontura:** Não Dr(a).  \n- **Alteração visual:** a luz e o brilho me incomoda sim.   \n- **Incapacidade:** Não consigo trabalhar, não consigo fazer nada.  \n- **Quadro anterior:** às vezes tenho essa dor igual, mas passava mais rápido.   \n\n\n**NEGAR SINAIS E SINTOMAS DE AURA:** escurecimento da visão, escotomas, parestesias, formigamentos, zumbidos e vertigem.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n- **Alergias, doenças e medicações:** nega.  \n- **Trabalho, estresse, sono, ansiedade, preocupação:** acho que está tudo bem.  \n- **Álcool, tabaco e drogas:** bebo vinho às vezes. Não fumo.    \n- **Atividade física:** no momento não estou fazendo nada.  \n- **Alimentação:** eu faço dieta, mas pelo menos umas 3 vezes na semana eu como um pedacinho de chocolate depois do almoço.  \n- **Anticoncepção:** Uso a pílula combinada.  \n\n\n**ANTECEDENTES GINECOLÓGICOS:**  \n- DUM: falta 3 dias para começar.  \n- Anticoncepção: uso pilula combinada.  \n\n\n**DÚVIDAS:**  \n- Preciso fazer algum exame?  \n- Porque estou tendo essa dor?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "Exame físico geral sem alterações;  \nExame físico neurológico dentro da normalidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se, cumprimenta e acolhe a paciente de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Mantém postura receptiva (expressão facial, direção do olhar, tronco voltado para a paciente sem cruzamento de membros superiores).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga hora de início da crise atual, duração da cefaleia e febre**  \n\n**Adequado:** todos os itens;  \n**Parcialmente adequado:** dois itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga uso de medicação para crise atual.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga características da migrânea: dor hemicraniana pulsátil, náuseas/vômitos, vertigem, fotofobia, intensidade da dor, interferência da dor com atividades habituais.**  \n\n**Adequado:** pelo menos, três características;  \n**Parcialmente adequado:** duas características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga história familiar de cefaleia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga uso de anticoncepcional.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Menciona a realização do exame físico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica antiemético (metoclopramida, domperidona, bromoprida ou ondansetrona).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica analgésico não opioide e/ou AINE (qualquer um) e/ou triptano e/ou derivado de ergotamina.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Esclarece a paciente, em linguagem simples, sobre a natureza de sua cefaleia.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica que, com base na história e no exame clínico, não é necessário realizar exame de imagem.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Reforça a importância de acompanhamento com especialista.**  \n\n**Adequado:** se fizer menção a possíveis tratamentos com beta bloqueador, anticonvulsivante, antidepressivo tricíclico;  \n**Parcialmente adequado:** se somente indicar acompanhamento por especialista.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

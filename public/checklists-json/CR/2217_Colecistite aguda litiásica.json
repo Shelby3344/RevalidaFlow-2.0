@@ -1,0 +1,183 @@
+{
+  "uid": 2217,
+  "hash": "pepe_2217",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Colecistite aguda litiásica",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Unidade de Atenção Secundária: Ambulatorial e Hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• setor de radiologia convencional e ultrassonografia;  \n• laboratório de análises clínicas e banco de sangue;  \n• leitos de internação e centro cirúrgico.\n\nDescrição do caso:\n• Mulher de 32 anos, previamente hígida, com dor abdominal há 1 dia.",
+  "tarefas": "Nos proximos 10 minutos, voce devera executar as tarefas a seguir:  \n1. realizar anamnese da paciente.  \n2. solicitar e interpretar exames necessários ao caso.  \n3. estabelecer e comunicar a hipótese diagnóstica e diagnóstico(s) diferencial(is).  \n4. definir e verbalizar a conduta terapêutica necessária.  \n\nATENÇÃO:  \nVOCÊ DEVERÁ, OBRIGATORIAMENTE,  \nREALIZAR AS TAREFAS NA SEQUENCIA DESCRITA ACIMA.\nA PACIENTE SIMULADA  \nNÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Me chamo Camila, tenho 32 anos, sou advogada e casada.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr.(a), eu vim porque estou com muita dor na barriga.  \n\n**SOBRE O MOTIVO DE CONSULTA**:  \n**Tempo de evolução**: iniciou há 8 horas.  \n**Localização e evolução**: dói do lado direito, na parte de cima (hipocôndrio direito).  \n**Características**: dor tipo cólica.  \n**Intensidade**: 7/10.  \n**Irradiação**: fica só aqui do lado direito.  \n**Frequência/episódios anteriores**: já tive algumas dores, mas eu sempre tomava buscopan e melhorava.  \n**Uso de medicamentos ou tratamentos prévios**: tomei buscopan para dimunuir a dor, mas não passou.  \n**Catarse e/ou eliminação de flatos/fezes**: sem alterações.  \n\n**SINAIS E SINTOMAS ACOMPANHANTES**:  \n**Náuseas**: nega  \n**Vômitos**: sim. 3 episódios de vômitos de cor verde.  \n**Febre**: aumentou a temperatura sim Dr (a), da última vez que medi estava 37,8 °C.  \n**Colúria**: nega.  \n**Icterícia**: nega.  \n**Inapetência/anorexia**: estou sem fome, não como nada desde que começou a doer.  \n\n**ANTECEDENTES PESSOAIS/PATOLÓGICOS**:  \n**Comorbidades/doença atual**: nega.  \n**Alergias**: nega.  \n**Medicamentos**: nega.  \n**Cirurgias**: nega.  \n\n**ANTECEDENTES GINECOLÓGICOS/OBSTÉTRICOS**:  \n• **DUM há 3 dias, G3P3A0, em uso de ACO, Papanicolau em dia e sem alterações**.  \n\n**HÁBITOS**:  \n**Tabaquismo**: nega.  \n**Consumo de bebidas alcoólicas**: nega.  \n**Atividade física**: não faço atividade física.  \n**Dieta**: como bastante fritura e massas.  \n\n**CASO O(A) CANDIDATO(A) INDIQUE CIRURGIA, INDAGAR**:  \nDr.(a), já que vou precisar operar, quais são as abordagens cirúrgicas disponíveis no meu caso?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Pressão arterial:** 110 x 70 mmHg.  \n**Frequência cardíaca:** 84 batimentos por minuto.  \n**Frequência respiratória:** 20 incursões respiratórias por minuto.  \n**Temperatura axilar:** 37,1 ºC.  \n**Saturação de oxigênio:** 97% em ar ambiente.  \n\n\nRegular estado geral, desidratada +/4+, corada, anictérica, acianótica, afebril, eupneica.  \n\n\n**Aparelho respiratório:** sem anormalidades.  \n\n\n**Aparelho cardiovascular:** sem anormalidades.  \n\n\n**Abdome:** plano, normotenso, ruídos hidroaéreos normoativos, pouco distendido. Dor à palpação superficial e profunda em hipocôndrio direito, com interrupção da inspiração por conta da dor. Sem dor à descompressão brusca. Sem massas palpáveis.  \n\n\n**Punho percussão de dorso:** indolor bilateralmente.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "HEMOGRAMA E PCR",
+      "conteudo": "**ATENÇÃO: DIRIJA-SE À CÂMERA**  \n**E VERBALIZE AS ALTERAÇÕES ENCONTRADAS, SE HOUVER**",
+      "imagem": "img_printeds/2022-2-e7p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "LABORATORIAIS BIOQUÍMICOS",
+      "conteudo": "**EXAMES LABORATORIAIS BIOQUÍMICOS**  \n\n\n**ATENÇÃO: DIRIJA-SE À CÂMERA**  \n**E VERBALIZE AS ALTERAÇÕES ENCONTRADAS, SE HOUVER**",
+      "imagem": "img_printeds/2022-2-e7p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "ULTRASSOM DE ABDOME",
+      "conteudo": "**Fígado:** de textura e dimensões normais.  \n\n\n**Vesícula biliar:** de paredes espessadas com múltiplos cálculos em seu interior, os maiores de 8 mm, promovendo sombra acústica posterior. Presença de líquido perivesicular.  \n\n\n**Vias biliares:** intra e extra-hepáticas de calibre normal.  \n\n\n**Pâncreas:** a cabeça não foi bem visualizada devido à interposição de gases.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se;  \n(2) Cumprimenta a paciente simulada.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza uma ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor:**  \n(1) Início;  \n(2) Localização;  \n(3) Irradiação;  \n(4) Característica;  \n(5) Fatores agravantes/atenuantes;  \n(6) Intensidade.  \n\n**Adequado:** pergunta quatro ou mais itens.  \n**Parcialmente adequado:** pergunta dois ou três itens.  \n**Inadequado:** pergurta apenas um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas associados:**  \n(1) Vômito/náusea;  \n(2) Alteração de hábito intestinal;  \n(3) Anorexia;  \n(4) Febre;  \n(5) Icterícia;  \n(6) Colúria e Acolia.  \n\n**Adequado:** pergunta cinco ou seis itens.  \n**Parcialmente adequado:** pergunta três ou quatro itens.  \n**Inadequado:** pergunta dois itens ou menos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames complementares laboratoriais:**  \n(1) Hemograma;  \n(2) PCR;  \n(3) Bilirrubinas;  \n(4) Enzimas hepáticas;  \n(5) Amilase;  \n(6) Lipase;  \n(7) Fosfatase alcalina; e  \n(8) GGT.  \n\n**Adequado:** solicita sete ou oito itens.  \n**Parcialmente adequado:** solicita de quatro a seis itens.  \n**Inadequado:** solicita três ou menos itens.  \n\nAtenção:  \nO(A) participante so ira pontuar caso cite os exames listados ANTES de receber  \nos IMPRESSOS 2 e/ou 3.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.7",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza as alterações dos exames laboratoriais:**  \n(1) Hemograma com leucocitose; e  \n(2) PCR aumentado.  \n\n**Adequado:** verbaliza os dois itens.  \n**Inadequado:** verbaliza um item ou não verbaliza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita ultrassom de abdome.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita a hipótese diagnóstica de colecistite aguda litiásica/calculosa.**  \n\n**Adequado:** cita o diagnóstico completo.  \n**Parcialmente adequado:** cita apenas o diagnóstico de colecistite aguda.  \n**Inadequado:** não cita.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.9",
+        "adequado": "1.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Cita os principais diagnósticos diferenciais:**  \n(1) Pancreatite aguda;  \n(2) Cólica biliar/colecistolitíase;  \n(3) Cólica nefrética/litíase ou cálculo renal  \n(4) Coledocolitiase/colangite.  \n\n**Adequado:** cita três ou quatro itens.  \n**Parcialmente adequado:** cita dois itens.  \n**Inadequado:** não cita item algum ou somente um.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a antibioticoterapia e encaminha a paciente para a realização de**  \ncolecistectomia em até 72 horas, idealmente.  \n\n**Adequado:** indica o tratamento.  \n**Inadequado:** não indica o tratamento.  \n\nAtenção: deverá ser verbalizado que o procedimento deverá ser realizado  \nidealmente em até 72h.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Cita as opções de abordagens cirúrgicas:**  \n(1) Videolaparoscopia;  \n(2) Cirurgia aberta.  \n\n**Adequado:** cita os dois itens.  \n**Parcialmente adequado:** cita um item.  \n**Inadequado:** não cita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realiza a sequência das tarefas indicadas nas orientações ao (à) participante.**  \n\n**Adequado:** realiza.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

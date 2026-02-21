@@ -1,0 +1,133 @@
+{
+  "uid": 2206,
+  "hash": "pepe_2206",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Artrite Gotosa",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Local de atuação: Atenção Secundária: ambulatorial e hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• laboratório de análise clínica; e  \n• laboratório de imagem (radiologia e ecografia).\n\nDescrição do caso:\n• Paciente de 56 anos com queixa de dor no tornozelo esquerdo há 1 dia.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar anamnese;  \n- solicitar e interpretar o exame físico;  \n- solicitar e interpretar exames complementares;  \n- indicar hipóteses diagnósticas;  \n- indicar terapêutica inicial; e  \n- orientar mudanças de hábitos de vida.  \n\n\nO PACIENTE SIMULADO NAO DEVE SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Ricardo, 56 anos.  \n\n**MOTIVO DE CONSULTA**:  \n• Estou com muita dor no tornozelo esquerdo.  \n\n**CARACTERÍSTICAS DA DOR**:  \n• **Início**: começou ontem.  \n• **Intensidade**: é uma dor muito forte (8/10).  \n• **Irradiação**: nega.  \n• **Fatores de melhora**: não consta no script.  \n• **Fatores de piora**: quando tento caminhar dói mais.  \n• **Outras articulações afetadas**: não.  \n\n**SE PERGUNTADO POR TRAUMATISMO LOCAL**:  \n• Responder que não.  \n\n**SINTOMAS ASSOCIADOS**:  \n• **Calor local**: sim.  \n• **Edema**: sim.  \n• **Vermelhidão**: sim.  \n• **Febre**: estou me sentindo um pouco quente.  \n• Negar outros sinais e sintomas perguntados.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: tenho diabetes.  \n• **Medicamentos**: metformina.  \n• **Alergias**: nega.  \n\n**HÁBITOS**:  \n• **Álcool**: tomo 3 latas de cerveja por dia.  \n• **Consumo excessivo de proteínas/ carnes vermelhas**: como muita carne vermelha e embutidos.  \n\n**SE PERGUNTADO POR PROBLEMAS SIMILARES NA FAMÍLIA**:  \n• Que eu saiba não.  \n\n**Se o candidato solicitar radiografia de tornozelo e/ou pé OU ecografia do tornozelo esquerdo, liberar o impresso EXAMES DE IMAGEM**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**• Pressão arterial:** 140 × 90 mmHg.  \n**• Frequência cardíaca:** 95 bpm.  \n**• Frequência respiratória:** 12 irpm.  \n**• Saturação de oxigênio (SatO2):** 97% em ar ambiente.  \n**• Temperatura axilar:** 37,8 °C.  \n\n\nClaudica durante deambulação.  \nSobe na maca com dificuldade, protegendo tornozelo esquerdo.  \n\n\nBom estado geral: corado, hidratado, anictérico, acianótico, febril.  \n\n\n**• Aparelho respiratório e cardiovascular:** Sem alterações.  \n\n\n**• Abdome:**  Globoso, indolor, sem visceromegalias.  \n\n\nSem linfonodos palpáveis.  \n\n\n**• Tornozelo esquerdo:** Quente ao toque, hiperemia e edema intensos até dorso do pé esquerdo, pele íntegra, sem porta de entrada, regiões interdigitais normais.  \n\n\n**• Tornozelo direito:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma**  \n• **Hemoglobina:** 14 g/dL *(VR: 13,3 a 16,7 g/dL)*  \n• **Leucócitos:** 7.500 mm³ *(VR: 3.700 a 9.500 mm³)*  \n• **Segmentados:** 4.500 mm³ *(VR: 1.700 a 6.100 mm³)*  \n• **Plaquetas:** 220.000 mm³ *(VR: 150.000 a 450.000 mm³)*  \n• **PCR:** 20 mg/dL *(VR < 5 mg/dL)*  \n• **TGO:** 40 U/L *(VR < 34 U/L)*  \n• **TGP:** 40 U/L *(VR: 10 a 49 U/L)*  \n• **Ureia:** 40 mg/dL *(VR: 19 a 49 mg/dL)*  \n• **Creatinina:** 1,0 mg/dL *(VR: 0,70 a 1,20 mg/dL)*  \n• **Ácido úrico:** 10 mg/dL *(VR < 7 mg/dL)*  \n• **Glicemia de jejum:** 115 mg/dL *(VR: 70 a 99 mg/dL)*  \n• **Hemoglobina glicada:** 5,7% *(VR: 4,5 a 5,6%)*  \n• **Colesterol total:** 220 mg/dL *(VR < 190 mg/dL)*  \n• **HDL:** 30 mg/dL *(VR > 40 mg/dL)*  \n• **LDL:** 150 mg/dL *(VR < 110 mg/dL)*  \n• **Triglicérides:** 200 mg/dL *(VR < 150 mg/dL)*  \n\n\n**Exame de urina**  \n• **pH:** 5,5  \n• **Proteínas:** ausentes  \n• **Cilindros:** ausentes  \n• **Glicose:** ausente  \n• **Leucócitos:** 2 por campo  \n• **Nitrito:** negativo  \n• **Bactérias:** raras  \n• **Oxalato de cálcio:** 3+",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES DE IMAGEM",
+      "conteudo": "**LAUDO DE RADIOGRAFIA DE PÉ E TORNOZELO ESQUERDOS:**  \nPresença de erosões tipo saca-bocado na 1.ª metatarsofalangeana. Demais estruturas normais.  \n\n\n**LAUDO DE ECOGRAFIA DE TORNOZELO ESQUERDO:**  \nEdema de partes moles com sinal de duplo contorno na articulação; erosões na 1.ª metatarsofalangeana.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o paciente, (1) apresentando-se e (2) perguntando os dados do paciente.**  \n\n**Adequado:** realiza os dois itens.  \n**Parcialmente adequado:** realiza apenas um item.  \n**Inadequado:** não realiza nenhum item",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese.**  \nQuestiona sobre:  \n(1) Características da dor;  \n(2) Febre ou calafrios.  \n\n**Adequado:** questiona os dois itens.  \n**Parcialmente adequado:** questiona apenas um item.  \n**Inadequado:** não questiona nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre antecedentes pessoais e familiares:**  \n(1) Ingesta de bebida alcoólica;  \n(2) Medicamentos;  \n(3) Dieta hiperproteica (ou dieta rica em proteínas);  \n(4) Trauma;  \n(5) Episódio prévio semelhante de artrite em articulação ou articulações MMII;  \n(6) Síndrome metabólica ou comorbidades associadas (diabetes, hipertensão,  \ndislipidemia);  \n(7) História familiar de doença ou comorbidade semelhante.  \n\n**Adequado:** pergunta 5 ou mais itens.  \n**Parcialmente adequado:** pergunta apenas 3 ou 4 itens.  \n**Inadequado:** pergunta apenas 2 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta exames laboratoriais.**  \n\n**Adequado:** identifica hiperuricemia (ou ácido úrico elevado ou aumento do ácido úrico).  \n**Inadequado:** não identifica hiperuricemia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames de imagem: radiografia de tornozelo e/ou pé, ou ecografia do**  \ntornozelo esquerdo.  \n\n**Adequado:** solicita um dos exames.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Hipótese diagnóstica.**  \n\n**Adequado:** cita o diagnóstico de artrite por gota (gota, artrite gotosa,  \nmonoartrite gotosa ou crise gotosa).  \n**Parcialmente adequado:** cita um dos diagnósticos diferenciais (artrite séptica,  \ncelulite ou erisipela), sem citar gota.  \n**Inadequado:** não cita nenhum dos diagnósticos mencionados.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Proposta medicamentosa para tratamento inicial: uso de anti-inflamatórios**  \nnão esteroidais e/ou corticoide e/ou colchicina.  \n\n**Adequado:** cita pelo menos uma das opções.  \n**Inadequado:** não cita nenhuma das opções.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Proposta terapêutica para estilo de vida após a crise aguda:**  \n(1) Orientação dietética (restringir sódio, carne vermelha, embutidos, frutos do  \nmar e bebida alcoólica);  \n(2) Recomendação de atividade física regular.  \n\n**Adequado:** propõe as duas orientações.  \n**Parcialmente adequado:** propõe uma das orientações apenas.  \n**Inadequado:** não propõe orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

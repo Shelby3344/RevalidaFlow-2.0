@@ -1,0 +1,183 @@
+{
+  "uid": 1407,
+  "hash": "pepe_1407",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "ABCDE - Fratura de tíbia não complicada",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• Equipamentos de monitorização e materiais para procedimentos;  \n• aparelhos Raio-X;  \n• Laboratório de análises clínicas;  \n• Centro cirúrgico e leitos de internação;  \n• Equipe de ortopedia de sobreaviso.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e irá atender um paciente de 28 anos, vítima de queda da própria altura há cerca de 40 minutos que chega trazido por amigos. Ele se queixa de dor intensa e incapacidade de deambular, apoiando-se na perna direita.  \n\nA triagem informa que o paciente está estável hemodinamicamente.",
+  "tarefas": "TAREFAS:  \n- Realizar o atendimento primário (ABCDE) ao paciente traumatizado;  \n- Solicitar e interpretar exame(s) pertinente(s) ao caso;  \n- Realizar a conduta inicial sobre a queixa do paciente;  \n- Esclarecer as dúvidas do paciente.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• SOMENTE APÓS O CANDIDATO CONCLUIR TODA A AVALIAÇÃO DO ABCDE, LIBERAR O IMPRESSO **AVALIAÇÃO PÓS ABCDE**.  \n\n**DADOS PESSOAIS:**  \n• Paulo, 28 anos, estudante.  \n\n**MOTIVO DE CONSULTA:** eu estava fazendo uma trilha com a galera e pisei num buraco, acho que torci a perna porque está doendo muito. Não consigo nem pisar no chão.  \n\n**SOBRE DOR:**  \n• **Início:** Aconteceu faz uns 40 minutos.  \n• **Localização:** é na perna esquerda, mais perto do pé.  \n• **Característica:** É uma dor que fica latejando, não para.  \n• **Intensidade:** está doendo muito, nota 9.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não, não tenho nada.  \n• **Última refeição:** Foi há umas 5 horas.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que aconteceu com a minha perna?*  \n• *Precisa engessar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130x80 mmHg  \n• **FC:** 85 bpm  \n• **FR:** 17 irpm  \n• **SatO2:** 98%  \n• **Temp. axilar:** 36.9° C  \n\n\n**Ectoscopia:** paciente em bom estado geral, com fáscie álgica, dificuldade de marcha, orientado, corado, hidratado, acianótico e anictérico.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "IMAGEM DA LESÃO",
+      "conteudo": "• **Membro inferior esquerdo:** edemaciado em sua porção inferior (+/4+), com crepitação e dor intensa à palpação da região distal da tíbia. Incapacidade de apoiar o membro no solo. Pulsos distais (pedioso e tibial posterior) palpáveis e perfusão capilar < 2 segundos.  \n\n• **Membro inferior direito:** sem alterações.",
+      "imagem": "img_printeds/2014-e7p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "RAIO-X MIE",
+      "conteudo": "**ATENÇÃO**  \n• **Interprete a imagem e classifique: Complicada ou Não Complicada?**",
+      "imagem": "img_printeds/2014-e7p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "AVALIAÇÃO PÓS ABCDE",
+      "conteudo": "• **A:** Via aérea pérvea.  \n\n• **B:** Padrão respiratório normal.  \n\n• **C:** Ausculta cardiorespiratória sem alterações, ausência de hemorragias e pelve estável.  \n\n• **D:** Glasgow 15, pupilas isocóricas e fotorreagentes.  \n\n• **E:** Membro inferior esquerdo edemaciado em sua porção inferior.  \nCrepitação ao movimento da região inferior (tibial e fibular) da perna esquerda.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se de maneira adequada ao paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Segue a sequência abaixo, de atendimento de maneira organizada (ABCDE), segundo ATLS.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verifica permeabilidade de vias aéreas e estabilidade da coluna cervical adequadamente (A).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verifica padrão respiratório adequadamente (B).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verifica sinais de choque (pulsos, FC, coloração da pele, enchimento capilar) adequadamente e solicita dois acessos venosos calibrosos e infusão de cristaloide (C).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verifica adequadamente o estado neurológico (A-acordado; V-estímulo verbal; D-estímulo doloroso; I- Irresponsivo) (D).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Examina adequadamente o paciente, identifica crepitação e suspeita de fratura simples na tíbia (E).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita radiografia da perna em duas incidências.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Interpreta a radiografia e reconhece a fratura não complicada da tíbia.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Imobiliza a fratura de maneira correta, com colocação da tala sem compressão excessiva.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve analgesia (padrão mínimo, inibidores de prostaglandina, tipo dipirona; Ideal, mais potente (tramadol ou nubain)).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Redige encaminhamento a serviço de referência de ortopedia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

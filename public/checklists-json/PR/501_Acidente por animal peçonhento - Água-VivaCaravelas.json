@@ -1,0 +1,177 @@
+{
+  "uid": 501,
+  "hash": "pepe_501",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Acidente por animal peçonhento - Água-Viva/Caravelas",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de atenção primária - UBS.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de curativos e vacinação;\n\nDescrição do caso:\nNeste verão, você é médico(a) em uma UBS no litoral norte do Rio Grande do Sul e atenderá uma paciente de 24 anos. A paciente relata que sofreu um acidente na praia logo pela manhã.",
+  "tarefas": "TAREFAS:  \n\n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico, caso necessário;  \n- Informar a hipótese diagnóstica;  \n- Responder as dúvidas da paciente;  \n- Propor condutas e orientações ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Juliete, 24 anos, turista.  \n\n**QUEIXA PRINCIPAL:** Doutor(a), hoje fui logo cedo para a praia dar um mergulho, e uns 10 minutos depois que estava na água eu comecei a sentir uma dor muito forte.\n\n**SOBRE A DOR:**  \n• **Início:** agora faz quase uma hora.  \n• **Localização:** é na minha perna esquerda, mais pra batata da perna.  \n• **Característica:** é ardente, como se queimasse.  \n• **Intensidade:** muito forte, queimando.  \n• **Atenuantes/agravantes:** uma amiga que estava comigo falou pra eu passar urina. Eu passei mas não adiantou nada.  \n\n**LESÕES DE PELE:** Tem como se fosse um risco na perna. E está um pouco vermelho.\n\n**DEMAIS SINTOMAS:** nega.\n\n**CONTATO COM ANIMAIS:** eu não sei, dentro do mar eu não vi nada. Mas na areia eu vi uns bichos meio transparentes, até tirei uma foto.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** acetilcisteina.  \n• **Doenças e medicações:** nega.  \n• **Álcool, tabaco e drogas:** bebo aos finais de semana.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• SOMENTE caso o candidato indique a remoção dos tentáculos: *Como você vai tirar os tentáculos?*  \n• *Pode ter complicações?*  \n• *Posso passar água, alguma pomada ou limpar com álcool?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 79 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 97%  \n• **Temp. axilar:** 36.7° C  \n\n\n**Ectoscopia geral:** paciente orientada, apresentando fácie álgica, corada, hidratada, acianótica e anictérica.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** Murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DA LESÃO",
+      "conteudo": "Presença de placas lineares urticariformes em membro inferior esquerdo.  \nNão há presença de bolhas ou sinais de necrose local.  \n\n\nIdentifica-se pequenos tentáculos aderidos à pele.",
+      "imagem": "img_printeds/e501p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "IMAGEM DO ANIMAL",
+      "conteudo": "",
+      "imagem": "img_printeds/e501p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se como médico e solicita o nome da paciente**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga sobre o quadro agudo de dor:**  \n(1) Tempo de início;  \n(2) Localização;  \n(3) Intensidade;  \n(4) Característica;  \n(5) Irradiação;  \n(6) Atenuantes e agravantes.  \n\n**Adequado:** Investiga pelo menos 5 itens.  \n**Parcialmente adequado:** Investiga 4 itens.  \n**Inadequado:** Investiga apenas três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sobre a lesão de pele:**  \n(1) Calor;  \n(2) Edema;  \n(3) Eritema ou rubor ou vermelhidão;  \n(4) claudicação ou dificuldade em caminhar;  \n(5) prurido;\n(6) bolhas.  \n\n**Adequado:** Investiga ao menos quatro itens.  \n**Parcialmente adequado:** Investiga três itens.  \n**Inadequado:** Investiga apenas dois ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Questiona sobre sinais e sintomas de gravidade.**  \n(1) Dispneia;  \n(2) Palpitação;  \n(3) Necrose local;  \n\n**Adequado:** questiona pelo menos um item.  \n**Inadequado:** não questiona sobre quadro de gravidade.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico e ectoscopia da lesão:**  \n\n**Adequado:** solicita os dois itens.  \n**Parcialmente adequado:** solicita apenas um item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Identifica o quadro como acidente por cnidário ou por água-viva:**  \n\n**Adequado:** identifica como acidente por cnidário ou água-viva.  \n**Parcialmente adequado:** identifica como acidente por animal peçonhento, sem especificar cnidário ou água-viva.  \n**Inadequado:** não identifica.  \n\nOBS: será Parcialmente adequado caso identifique como *acidente por animal peçonhento*, sem especificar *cnidário* ou *água-viva*.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica as condutas iniciais:**  \n(1) Lavar com água do mar;  \n(2) Aplicação de ácido acético (vinagre), OU água quente (42-45°) por 20 minutos;  \n(3) Retirar os tentáculos da pele; \n(4) Prescrever analgesia (paracetamol, ibuprofeno, dipirona);  \n\n**Adequado:** indica os quatro itens.  \n**Parcialmente adequado:** indica três itens.  \n**Inadequado:** solicita apenas dois ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": "A aplicação de ácido acético, água do mar ou água quente no local da lesão inativa o veneno e toxinas."
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta cuidados com a lesão:**  \n(1) Utilizar corticoide tópico;  \n(2) Não utilizar água fria ou água doce;  \n(3) Não utilizar urina ou álcool;  \n(4) Não esfregar ou friccionar a lesão;  \n\n**Adequado:** orienta o item um E mais algum outro item.  \n**Parcialmente adequado:** orienta apenas o item um.  \n**Inadequado:** não orienta o item um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza a remoção dos tentáculos utilizando a técnica recomendada:**\n\n**Adequado:** remove utilizando pinça ou lâmina E luvas.  \n**Parcialmente adequado:** remove utilizando pinça ou lâmina, sem utilizar luvas.  \n**Inadequado:** não realiza a remoção dos tentáculos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "A remoção dos tentáculos aderidos à pele, deve ser realizada preferencialmente com uso de pinça, lâmina E mão enluvada.\n\nO local deve ser lavado abundantemente com ácido acético a 5% (vinagre, por exemplo), sem esfregar a região acometida. Essa medida inativa cnidócitos, impedindo envenenamento posterior, uma vez que as células continuam despejando seu conteúdo na pele.\n\nOs pacientes devem procurar assistência médica para avaliação clínica do envenenamento e, se necessário, realização de tratamento complementar."
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Informa sobre complicações:**  \n(1) bolhas;  \n(2) necrose local;  \n(3) arritmias (raro);  \n(4) anafilaxia (raro);  \n(5) insuficiência respiratória (raro).  \n\n**Adequado:** informa dois ou mais itens.  \n**Parcialmente adequado:** informa apenas um item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Cita orientações sobre prevenção de acidente por cnidários:**  \n(1) Evitar áreas onde há presença de águas-vivas e caravelas;  \n(2) Identificar a bandeira lilás no posto do guarda-vidas como indicativo da presença de águas-vivas e caravelas;  \n(3) Não tocar nestes animais, mesmo mortos;  \n(4) Utilizar roupas que cubram a maior parte do corpo ou manga-longa ao mergulhar no mar;  \n\n**Adequado:** cita dois ou mais itens.  \n**Parcialmente adequado:** cita apenas um item.  \n**Inadequado:** não cita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realiza notificação ao SINAN.**  \n\n**Adequado:** notifica.  \n**Inadequado:** não notifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

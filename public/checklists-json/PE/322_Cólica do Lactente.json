@@ -1,0 +1,193 @@
+{
+  "uid": 322,
+  "hash": "pepe_322",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Cólica do Lactente",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• sala de procedimentos;  \n• laboratório de análises clínicas;  \n• sala de observação clínica.\n\nDescrição do caso:\nVocê é médico de uma UBS e atenderá um lactente de 2 meses, acompanhado pela mãe, em consulta de puericultura.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao caso.  \n- Solicitar o exame físico pertinente ao caso.  \n- Interpretar os dados antropométricos e o exame físico.  \n- Formular e verbalizar a principal hipótese diagnóstica.  \n- Orientar a conduta adequada e responder às dúvidas da mãe.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Mayra, 27 anos, recepcionista.  \n• **Criança:** Théo, 2 meses.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), trouxe meu filho para a consulta que a enfermeira agendou.  \n\n**DEMAIS QUEIXAS:**  \n• Ele está chorando demais, acorda chorando muito. Está irritado e nada acalma.  \n\n**SOBRE O CHORO:**  \n• **Início:** começou há umas 3 semanas.  \n• **Característica:** é um choro muito intenso, depois de algumas horas ele para.  \n• **Duração:** chora por umas 3 horas seguidas.  \n• **Horário:** geralmente no final da tarde e à noite.  \n• **Atenuantes:** quando faço massagem na barriga, melhora um pouco.  \n• **Postura durante o choro:** ele encolhe as perninhas e fica vermelho.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** não teve febre.  \n• **Vômitos:** não vomitou.  \n• **Diarreia:** as fezes estão normais.  \n• **Tosse ou coriza:** não tem.  \n• **Lesões de pele:** não apareceu nada.  \n• **Alteração urinária:** está fazendo xixi normal.  \n\n**ALIMENTAÇÃO:**  \n• **Aleitamento:** ele só mama no peito.  \n• **Pega e sucção:** está mamando bem, não tenho problema com a amamentação.  \n\n**ANTECEDENTES PERINATAIS:**  \n• **Pré-natal:** fiz 6 consultas, estava tudo normal.  \n• **Intercorrências na gestação:** não tive nenhuma.  \n• **Idade gestacional:** nasceu com 39 semanas.  \n• **Via de parto:** parto normal.  \n• **Condições ao nascer:** chorou na hora, estava bem.  \n• **Peso ao nascer:** 3.200 gramas.  \n• **Intercorrências no parto:** não teve nada, tivemos alta em 2 dias.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Triagens neonatais:** fez todos os testes, deram normais.  \n• **Alergias:** não tem alergia.  \n• **Medicações:** não usa nenhuma medicação.  \n• **Suplementação:** está tomando vitamina D que o outro médico passou.  \n• **Internações e cirurgias:** nunca ficou internado nem operou.  \n• **VACINAÇÃO:** tomou as vacinas do nascimento. (*liberar o impresso **CARTÃO DE VACINAS** se solicitado*)  \n\n**DESENVOLVIMENTO:**  \n• Nas últimas consultas disseram que estava tudo normal.  \n• Ele já segue objetos com os olhos e sorri.  \n\n**CONDIÇÕES DE MORADIA:**  \n• Moramos em casa própria, eu, meu marido e o Théo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Tem algo que eu possa fazer para melhorar o choro dele?*  \n• *Que remédio a gente pode dar pra ele?*  \n• *Quando devo levar ele na emergência?*  \n• *Ele está precisando de alguma vacina?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE SAÚDE DA CRIANÇA",
+      "conteudo": "**DADOS AO NASCIMENTO:**  \n• **Via de parto:** vaginal.  \n• **Idade gestacional:** 39 semanas e 1 dia.  \n• **Peso ao nascer:** 3.200 gramas.  \n• **Comprimento ao nascer:** 49 cm.  \n• **Perímetro cefálico ao nascer:** 34 cm.  \n\n• **Apgar:** 9/10.  \n• **Triagem neonatal:** Teste do pezinho, orelhinha, olhinho e coraçãozinho sem alterações.  \n\n\n**DADOS ATUAIS:**  \n• **Peso:** 5.800 gramas.  \n• **Comprimento:** 60 cm.  \n• **Perímetro cefálico:** 39 cm.  \n• **Temperatura:** 36,5°C.  \n\n\n**CARTÃO DE VACINAS**  \n\n**Vacinas realizadas:**  \n• BCG: dose única ao nascimento.  \n• Hepatite B: 1ª dose ao nascimento.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência Cardíaca:** 128 batimentos por minuto.  \n**Frequência Respiratória:** 32 incursões respiratórias por minuto.  \n**Temperatura Axilar:** 36,5°C.  \n**Saturação de O2:** 98% em ar ambiente.  \n\n\n**ANTROPOMETRIA:**  \n**Peso atual:** 5.800 g (z-escore entre 0 e +1).  \n**Comprimento:** 60 cm (z-escore entre 0 e +2).  \n**Perímetro cefálico:** 39 cm (z-escore entre 0 e +1).  \n\n\n**ECTOSCOPIA:**  \nBom estado geral, ativo, reativo, corado, hidratado, acianótico, anictérico, afebril. Fontanela anterior normotensa.  \n\n\n**CARDIOVASCULAR:**  \nBulhas cardíacas rítmicas, normofonéticas, sem sopros. Pulsos periféricos amplos e simétricos. Tempo de enchimento capilar menor que 2 segundos.  \n\n\n**RESPIRATÓRIO:**  \nMurmúrio vesicular presente e simétrico, sem ruídos adventícios. Sem sinais de desconforto respiratório.  \n\n\n**ABDOME:**  \nGloboso, flácido, indolor à palpação, sem massas ou visceromegalias. Ruídos hidroaéreos presentes. Sem distensão. Coto umbilical cicatrizado.  \n\n\n**NEUROLÓGICO:**  \nAtivo, reflexos primitivos presentes e adequados para a idade. Tônus e postura adequados.  \n\n\n**PELE:**  \nSem lesões ou erupções cutâneas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe de maneira cordial;  \n(3) pergunta o nome da mãe e da criança.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Solicita a caderneta de saúde da criança ou cartão de vacinas.**  \n\n**Adequado:** solicita um dos documentos.  \n**Inadequado:** não solicita documento algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre as características do choro:**  \n(1) início ou duração do quadro;  \n(2) intensidade ou característica do choro;  \n(3) duração dos episódios;  \n(4) horário de predomínio;  \n(5) fatores de melhora ou piora;  \n(6) postura da criança durante o choro.  \n\n**Adequado:** pergunta quatro ou mais características.  \n**Parcialmente adequado:** pergunta duas ou três características.  \n**Inadequado:** pergunta uma característica ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.37",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga sinais e sintomas de alarme:**  \n(1) febre;  \n(2) vômitos;  \n(3) diarreia ou alteração das fezes;  \n(4) recusa alimentar;  \n(5) alterações urinárias;  \n(6) lesões de pele;  \n(7) sintomas respiratórios.  \n\n**Adequado:** investiga quatro ou mais sintomas.  \n**Parcialmente adequado:** investiga dois ou três sintomas.  \n**Inadequado:** investiga um sintoma ou não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.37",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre alimentação e puericultura:**  \n(1) tipo de aleitamento;  \n(2) padrão de sono;  \n(3) desenvolvimento neuropsicomotor;  \n(4) evacuações e diurese;  \n(5) uso de medicações ou suplementos.  \n\n**Adequado:** pergunta quatro ou mais itens.  \n**Parcialmente adequado:** pergunta dois ou três itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga antecedentes perinatais e pessoais:**  \n(1) pré-natal e intercorrências gestacionais;  \n(2) idade gestacional e tipo de parto;  \n(3) condições ao nascimento;  \n(4) triagens neonatais;  \n(5) antecedentes familiares.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame físico da criança.**  \n\n**Adequado:** solicita exame físico.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta corretamente os dados antropométricos como adequados para a idade:**  \n(1) peso;  \n(2) comprimento;  \n(3) perímetro cefálico.  \n\n**Adequado:** interpreta os três parâmetros como adequados.  \n**Parcialmente adequado:** interpreta um ou dois parâmetros como adequados.  \n**Inadequado:** não interpreta ou interpreta incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Não solicita exames complementares (laboratoriais ou de imagem).**  \n\n**Adequado:** não solicita exames complementares.  \n**Inadequado:** solicita exames complementares.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza o diagnóstico de cólica do lactente e explica a benignidade do quadro.**  \n\n**Adequado:** verbaliza o diagnóstico e explica que é uma condição benigna e autolimitada.  \n**Parcialmente adequado:** verbaliza o diagnóstico, mas não explica a benignidade.  \n**Inadequado:** não verbaliza o diagnóstico ou formula diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta medidas não farmacológicas para alívio da cólica:**  \n(1) manter o bebê no colo com contato pele a pele;  \n(2) realizar massagem abdominal suave;  \n(3) flexionar as coxas sobre o abdome;  \n(4) oferecer banho morno ou compressas mornas;  \n(5) reduzir estímulos ambientais excessivos;  \n(6) manter ambiente tranquilo;  \n(7) estabelecer rotina para o bebê;  \n(8) manter aleitamento materno exclusivo.  \n\n**Adequado:** orienta quatro ou mais medidas.  \n**Parcialmente adequado:** orienta duas ou três medidas.  \n**Inadequado:** orienta uma medida ou não orienta medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta que não há necessidade de tratamento medicamentoso e não prescreve medicações.**  \n\n**Adequado:** orienta que não há necessidade de medicação.  \n**Inadequado:** prescreve medicação ou não orienta sobre a desnecessidade de tratamento farmacológico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sinais de alarme para procurar emergência:**  \n(1) febre;  \n(2) recusa alimentar;  \n(3) vômitos persistentes;  \n(4) distensão abdominal;  \n(5) sangue nas fezes;  \n(6) mudança no padrão do choro ou prostração.  \n\n**Adequado:** orienta três ou mais sinais de alarme.  \n**Parcialmente adequado:** orienta um ou dois sinais de alarme.  \n**Inadequado:** não orienta sinais de alarme.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta sobre as vacinas pendentes do calendário vacinal aos 2 meses.**  \n\n**Adequado:** orienta sobre a necessidade de aplicar as vacinas do segundo mês.  \n**Inadequado:** não orienta sobre as vacinas pendentes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

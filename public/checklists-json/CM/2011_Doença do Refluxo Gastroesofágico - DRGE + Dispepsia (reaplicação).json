@@ -1,0 +1,155 @@
+{
+  "uid": 2011,
+  "hash": "pepe_2011",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Doença do Refluxo Gastroesofágico - DRGE + Dispepsia (reaplicação)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Atendimento ambulatorial, em hospital de Atencao Secundária.\n\nDescrição do caso:\nAtendimento ambulatorial, em hospital de Atencao Secundária, de uma mulher de 45  \nanos de idade com queixa de queimação retroesternal e pirose intermitente há anos, em  \ncrise de epigastralgia, com náuseas e piora de queimação retroesternal há 10 dias após  \nexagero alimentar e consumo de bebida alcoolica.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- dirigir-se à mesa do consultório;  \n- ler as orientações gerais do cenário e as tarefas a cumprir;  \n- responder aos questionamentos da paciente simulada;  \n- definir hipóteses diagnósticas;  \n- definir plano diagnóstico e terapêutico.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Fernanda, 45 anos, casada, dona de casa.  \n\n**MOTIVO DE CONSULTA**:  \n• Estou com muita queimação no peito e dor no estômago.  \n\n**CARACTERÍSTICAS DO QUADRO**:  \n• **Tempo de evolução**: começou faz duas horas.  \n• **Intensidade**: muito forte.  \n• **Irradiação**: nega.  \n• **Fatores de piora**: depois que eu acabo de jantar e deito é pior.  \n• **Fatores de melhora**: quando tomo omeprazol melhora.  \n• **Progressão**: sempre tenho essa queimação, mas já faz 10 dias que piorou depois que fui numa festa e comi e bebi muito. Mas hoje a dor está insuportável.  \n• **Plenitude pós-prandial**: sim, sempre tenho isso.  \n• **Enjôo**: sim.  \n• **Vômitos**: vomitei duas vezes.  \n\n**SINTOMAS ACOMPANHANTES**:  \n• **Náuseas**: sim.  \n• **Febre**: nega.  \n• **Perda de peso**: nega.  \n• **Alteração do hábito intestinal**: nega.  \n• **Refluxo**: às vezes sinto um líquido quente subindo pela garganta.  \n• **Outros sintomas**: nega.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: sou diabética.  \n• **Medicamentos**: tomo metformina e de vez em quando omeprazol.  \n• **Cirurgias**: nega.  \n• **Alergias**: nega.  \n\n**HÁBITOS**:  \n• **Álcool**: gosto de tomar cerveja.  \n• **Cigarro**: 1 maço por dia desde os 17 anos anos.  \n• **Drogas**: nega.  \n• **Alimentação**: minha alimentação não é muito boa. Como muita coisa frita, gordurosa, doces e suco de caixinha.  \n• **Atividade física**: nega.  \n\n**SE QUESTIONADO SOBRE DÚVIDAS, PERGUNTAR**:  \n• Depois do tratamento, posso continuar usando omeprazol sempre que precisar? Quais problemas posso ter com ele?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Estado geral:** Bom estado geral, corada, hidratada, eupneica, afebril, acianótica, anictérica  \n• **PA:** 120 × 80 mmHg  \n• **FC:** 80 bpm  \n• **SatO₂:** 98% em ar ambiente  \n\n**Aparelho respiratório:**  \n• Murmúrio vesicular regular sem ruídos adventícios  \n\n**Aparelho cardiovascular:**  \n• Batimentos cardíacos presentes em 2 tempos, sem arritmias e sem sopros em todos os focos  \n\n**Abdome:**  \n• Plano, normotenso  \n• Sem visceromegalias, massas ou dor à palpação  \n\n**Extremidades:**  \n• Sem edemas",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ELETROCARDIOGRAMA",
+      "conteudo": "Eletrocardiograma normal",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ENZIMAS CARDÍACAS",
+      "conteudo": "Enzimas cardíacas (CPK,CKMB,troponina): níveis séricos normais.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta a paciente simulada, questiona sua idade e sua profissão.**  \n\n**Adequado:** realiza as ações.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Faz anamnese com perguntas direcionadas:**  \nquestiona sobre plenitude pós-prandial, enjoo, vômitos, tipo de dor, intensidade  \nda dor, evolução da dor, fatores de melhora e piora, irradiação.  \n\n**Adequado:** faz de 3 ou mais perguntas direcionadas.  \n**Parcialmente adequado:** faz até 2 perguntas direcionadas.  \n**Inadequado:** não faz perguntas direcionadas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona sintomas associados:** náuseas, febre, perda de peso, hábito  \nintestinal.  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Questiona antecedentes:**  \ntabagismo, etilismo, cirurgias prévias, medicações em uso.  \n\n**Adequado:** questiona.  \n**Inadequado:** não questiona.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Hipótese diagnóstica:** dispepsia (DRGE); gastrite, úlcera péptica.  \n\n**Adequado:** levanta a hipótese de dispepsia (DRGE).  \n**Parcialmente adequado:** levanta a hipótese de gastrite, úlcera péptica.  \n**Inadequado:** não levanta hipótese diagnóstica relacionada ao caso.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Descarta insuficiência coronariana aguda com ECG e enzimas cardíacas**  \n(impressos 2 e 3).  \n\n**Adequado:** descarta.  \n**Inadequado:** não descarta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita procedimento:** endoscopia digestiva alta; ultrassonografia e exames  \nlaboratoriais.  \n\n**Adequado:** solicita endoscopia digestiva alta.  \n**Parcialmente adequado:** solicita apenas ultrassonografia, exames laboratoriais  \nECG ou enzimas cardíacas.  \n**Inadequado:** não solicita nenhum procedimento adequado ao caso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Manejo da paciente:** tratamento clínico com inibidores de bomba de prótons e  \nprocinéticos por 12 semanas; medidas comportamentais para DRGE.  \n\n**Adequado:** apresenta medidas medicamentosas e comportamentais.  \n**Parcialmente adequado:** apresenta apenas medidas medicamentosas ou  \nmedidas comportamentais.  \n**Inadequado:** não apresenta nenhum tratamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre os riscos e benefícios do uso contínuo de IBP (omeprazol).**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

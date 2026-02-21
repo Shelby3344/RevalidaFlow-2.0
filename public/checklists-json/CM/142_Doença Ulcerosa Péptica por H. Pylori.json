@@ -1,0 +1,194 @@
+{
+  "uid": 142,
+  "hash": "pepe_142",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Doença Ulcerosa Péptica por H. Pylori",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde (UBS).  \nTipo de atendimento: ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico padrão;  \n• acesso a exames laboratoriais e de imagem (referenciados).\n\nDescrição do caso:\nVocê atenderá um paciente de 45 anos que procura a UBS com queixa de \"dor na boca do estômago\" há cerca de 3 meses. O paciente encontra-se em bom estado geral.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa do paciente.  \n- Solicitar o exame físico direcionado.  \n- Solicitar os exames complementares pertinentes para o diagnóstico.  \n- Verbalizar a hipótese diagnóstica principal baseada nos achados.  \n- Prescrever o tratamento farmacológico completo e orientar o seguimento.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** caso o candidato solicite *Teste da Urease/Ureia*, ou *Antígeno Fecal* ou *Biópsia*, liberar o impresso **PESQUISA H. PYLORI**.  \n\n\n**DADOS PESSOAIS:**  \n• **Nome:** Leandro, 45 anos, motorista de caminhão.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma queimação forte na boca do estômago.  \n\n**SOBRE A DOR:**  \n• **Início:** Faz 3 meses.  \n• **Localização:** Bem aqui no alto da barriga (aponta para o epigástrio).  \n• **Irradiação:** Não, fica só ali mesmo.  \n• **Característica:** É uma queimação, as vezes parece uma fome dolorida.  \n• **Fatores de Melhora:** Melhora quando eu como alguma coisa. Parece que o alimento \"forra\" o estômago.  \n• **Fatores de Piora:** Dói muito quando fico muito tempo sem comer.  \n\n• **Evolução:** Começou devagar, mas tem piorado nas últimas semanas.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Náuseas:** Às vezes fico enjoado, mas nunca vomitei.  \n• **Empachamento:** Sinto que fico cheio rápido às vezes.  \n\n• **Sinais de Alarme (NEGAR TODOS):**  \n• Não tive perda de peso.  \n• Não tenho dificuldade para engolir.  \n• Nunca vomitei sangue.\n• Minhas fezes estão normais.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Medicações:** Não tomo remédio nenhum. Nem anti-inflamatório porque sei que faz mal pro estômago.  \n• **Comorbidades:** Nega.  \n• **Tabagismo:** Fumo meio maço de cigarro por dia há 20 anos.  \n• **Álcool:** Bebo cerveja nos fins de semana.  \n• **História Familiar:** Minha mãe tem diabetes.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho doutor? É gastrite nervosa?*  \n• *Vou precisar tomar remédio?*  \n• *Por quanto tempo tomo os remédios?*  \n• *Preciso fazer algum exame para ver se curou?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 130x80 mmHg.  \n• **FC:** 78 bpm.  \n• **FR:** 16 irpm.  \n• **Temp:** 36,5ºC.  \n\n\n**Ectoscopia:** Bom estado geral, corado, hidratado, anictérico, acianótico.  \n\n**Cardiopulmonar:** Sem alterações. Ritmo regular, murmúrio vesicular presente.  \n\n**Abdome:** Plano, flácido, ruídos hidroaéreos presentes. Dor leve à palpação profunda em região epigástrica. Ausência de visceromegalias ou massas palpáveis. Descompressão brusca negativa.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ENDOSCOPIA DIGESTIVA ALTA",
+      "conteudo": "**Esôfago:** Calibre e distensibilidade preservados. Mucosa íntegra. Linha Z na transição esofagogástrica.  \n\n**Estômago:** Lago mucoso claro. Mucosa gástrica de antro com enantema moderado. Ausência de lesões ulceradas nesta topografia. Retrovisão sem alterações.  \n\n**Duodeno:** Bulbo duodenal apresentando úlcera de aproximadamente 10mm, fundo recoberto por fibrina, bordas regulares, elevadas e edemaciadas. Segunda porção sem alterações.  \n\n\n**ATENÇÃO**  \n**VERBALIZE A CLASSIFICAÇÃO DO EXAME**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,8 milhões/mm³ (VR: 4,3 a 5,8 milhões/mm³)  \n• **Hemoglobina:** 14 g/dl (VR: 14 a 18 g/dl)  \n• **Hematócrito:** 42% (VR: 39 - 52%)  \n\n\n• **Leucócitos:** 6.500/mm³ (VR: 4.000 - 10.000/mm³)  \n• **Plaquetas:** 250.000/mm³ (VR: 150.000 - 400.000/mm³)\n\n\n• **Sódio (Na):** 140 mEq/l (VR: 135 - 145 mEq/l)  \n• **Potássio (K):** 3,8 mEq/l (VR: 3,5 - 5 mEq/l)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "PESQUISA H. PYLORI",
+      "conteudo": "**Teste Respiratório da Ureia (13C-UBT)**\n• POSITIVO *(VR: Negativo < 4,0 ‰)*\n\n\n**Pesquisa de Antígeno Fecal**\n• REAGENTE *(VR: Não reagente)*",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese detalhada da dor/queixa:**  \n(1) características (queimação/fome dolorosa);  \n(2) relação com alimentação (melhora ao comer/piora jejum);  \n(3) periodicidade (dor noturna).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga um ou dois itens.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga fatores de risco e antecedentes:**  \n(1) uso de AINES (anti-inflamatórios);  \n(2) tabagismo;  \n(3) etilismo;  \n(4) história familiar de doença péptica.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga um ou dois itens.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga sinais de alarme (red flags):**  \n(1) perda de peso;  \n(2) disfagia (dificuldade para engolir);  \n(3) sangramento digestivo (hematêmese ou melena);  \n(4) vômitos persistentes.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga um ou dois itens.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita e interpreta o exame físico abdominal:**  \n(1) palpação superficial e profunda (identificando dor epigástrica);  \n(2) pesquisa de massas ou visceromegalias.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita Hemograma para descartar anemia.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita Endoscopia Digestiva Alta (EDA).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta a EDA, diagnosticando úlcera em fase ativa (Classificação de Sakita A1).**  \n\n**Adequado:** interpreta o laudo corretamente mencionando Sakita A1.  \n**Parcialmente adequado:** interpreta que há úlcera ativa, mas não cita a classificação de Sakita ou classifica incorretamente.  \n**Inadequado:** não interpreta ou interpreta incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita método diagnóstico para *H. pylori*:**  \n(1) biópsia gástrica (teste da urease ou histopatológico); OU  \n(2) teste respiratório da ureia; OU  \n(3) antígeno fecal.  \n\n**Adequado:** solicita pelo menos um dos métodos citados.  \n**Inadequado:** não solicita método diagnóstico para *H. pylori*.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza o diagnóstico de Doença Ulcerosa Péptica (Úlcera Duodenal) associada ao *H. pylori*.**  \n\n**Adequado:** verbaliza o diagnóstico completo (úlcera + *H. pylori*).  \n**Parcialmente adequado:** verbaliza apenas úlcera ou apenas infecção por *H. pylori*.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto (ex: apenas gastrite).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve o tratamento de erradicação de primeira linha (Tríplice Terapia) por 14 dias:**  \n(1) Inibidor de Bomba de Prótons (Omeprazol, Esomeprazol, Pantoprazol);  \n(2) Amoxicilina;  \n(3) Claritromicina.  \n\n**Adequado:** prescreve os três medicamentos com posologia correta e duração de 14 dias.  \n**Parcialmente adequado:** prescreve apenas 2 drogas.  \n**Inadequado:** prescreve esquema incorreto ou não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre o controle de cura (confirmação da erradicação):**  \n(1) indica realização de teste respiratório da ureia OU antígeno fecal;  \n(2) orienta realizar o exame pelo menos 4 semanas após o término do tratamento.  \n\n**Adequado:** indica o exame correto e o tempo correto.  \n**Parcialmente adequado:** indica o exame sem citar o tempo de espera OU cita o tempo mas indica nova EDA sem necessidade.  \n**Inadequado:** não orienta controle de cura.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Realiza orientações não farmacológicas:**  \n(1) cessar tabagismo;  \n(2) evitar etilismo;  \n(3) evitar uso de anti-inflamatórios (AINES);  \n(4) fracionar a dieta.  \n\n**Adequado:** realiza três ou mais orientações.  \n**Parcialmente adequado:** realiza uma ou duas orientações.  \n**Inadequado:** não realiza orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

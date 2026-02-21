@@ -1,0 +1,194 @@
+{
+  "uid": 2313,
+  "hash": "pepe_2313",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Acidente por animal peçonhento - Escorpião Amarelo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: pronto-socorro de um hospital secundário - urgência e emergência.  \nA unidade possui a seguinte infraestrutura:  \n• Setor de radiologia;  \n• Laboratório de análises clínicas;  \n• Setor de internação de especialidades; e  \n• Farmácia clínica com qualquer medicamento e/ou terapia necessários.\n\nDescrição do caso:\nVocê está de plantão no pronto-socorro de um hospital secundário de uma grande cidade  \ne atenderá um menino de 4 anos e 6 meses de idade, trazido pela mãe devido a dores em  \nperna e choro inconsolável.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese dirigida à mãe;  \n- Verbalizar o exame físico;  \n- Solicitar todos os exames complementares que julgar necessário (obs.: serão  \nconsiderados apenas os 8 primeiros exames solicitados);  \n- Explicar à mãe a condição da criança;  \n- Definir o manejo inicial; e  \n- Dar orientações quanto à prevenção do quadro.  \n\nATENÇÃO!  \nCONSIDERE QUE O PACIENTE ESTA DEITADO  \nNA MACA DURANTE TODA A CONSULTA!  \nA ANAMNESE SERA DIRIGIDA A ACOMPANHANTE DO PACIENTE.  \nCASO JULGUE NECESSARIO REALIZAR EXAME FISICO, VERBALIZE!",
+  "script_ator": "**DADOS DA MÃE**:  \n• Maria, 32 anos, professora;  \n\n**DADOS DA CRIANÇA**:  \n• Davi, 4 anos e 6 meses.  \n\n**MOTIVO DE CONSULTA**:  \n• Doutor(a), eu trouxe meu filho aqui hoje, porque ele está apresentando um quadro de dor na perna.  \n• **Início**: Começou há 2 horas, Doutor(a).  \n• **Situação**: Ele estava brincando com o irmão mais velho no quintal, perto de alguns tijolos.  \n\n**DETALHES DA QUEIXA PRINCIPAL**:  \n**Queda/Trauma**: Nega;  \n\n**PRESENÇA DE SINTOMAS ASSOCIADOS**:  \n• **Náusea e vômitos**: Ele vomitou;  \n• **Sialorreia**: Sim, ele está babando muito, Doutor(a);  \n• **Sudorese, palpitação (taquicardia)**: Não;  \n• **Parestesia, prostração**: Não;  \n• **Dispneia**: Não;  \n• **Sonolência, coma**: Não;  \n• **Convulsão**: Não;  \n\n**ANTECEDENTES PESSOAIS E FAMILIARES/ COMORBIDADES**:  \n• Não consta;  \n\n**ALERGIAS**:  \n• Não consta;  \n\n**MEDICAÇÕES DE USO CONTÍNUO OU RECENTE**:  \n• Não consta;  \n\n**CADERNETA DE VACINA/CRIANÇA**:  \n• Está em dia;  \n\n**CONTEXTO EPIDEMIOLÓGICO**:  \n**Sintomas em vizinhos / outras pessoas da casa**:  \n• Desconheço problemas de saúde em moradores da região, Doutor(a);  \n**Estrutura da casa**:  \n• Moramos em uma casa de alvenaria em uma região de chácaras, perto de um aterro sanitário, e é abastecida por água de poço;  \n**Presença de animais e/ou insetos**: sim, Doutor(a), meu marido viu um escorpião no local, até tirou uma foto. Você quer ver? Nesse momento **LIBERAR IMPRESSO 2**;  \n**Acesso a medicamentos, produtos de limpeza ou venenos em geral**: nega;  \n\n**DÚVIDAS**:  \n• Pergunta 1: O escorpião que o meu marido viu pode representar algum risco?  \n• Pergunta 2: Quais são os achados do exame físico?  \n• Pergunta 3: Há mesmo necessidade de exame complementar?  \n• Pergunta 4: Qual é o diagnóstico e a gravidade do caso?  \n• Pergunta 5: Qual é a propedêutica adequada?  \n• Pergunta 6: O que se pode fazer para prevenir acidentes desse tipo?  \n\n**OUTRAS PERGUNTAS**:  \n• Não consta no SCRIPT.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FOTO ENVIADA PELO MARIDO",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-2-e3p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Paciente:** Marcus.  \n**Idade:** 4 anos e 6 meses de idade.  \n**Peso:** 18 Kg.  \n**Temperatura axilar:** 36,5 °C.  \n**Saturação de oxigênio:** 98% em ar ambiente.    \n\n\nRegular estado geral, fácies de dor, choroso, corado, hidratado, acianótico, anictérico, afebril, sem desconforto respiratório, sem linfonodomegalias.    \n\n\n**Aparelho cardiovascular:** 150 batimentos por minuto. Sem alterações de ausculta.    \n\n\n**Aparelho respiratório:** 21 incursões respiratórias por minuto. Sem alterações de ausculta.    \n\n\n**Membros inferiores:** Sem edemas, boa perfusão periféricas, tempo de enchimento capilar menor que 3 segundos. Presença de hiperemia com pequeno óstio único, não sangrante, em região de calcanhar direito.    \n\n\n**Pele:** sem manchas, petéquias ou outras alterações além da descrita no membro inferior direito.    \n\n\n**Oroscopia:** sialorreia, sem outras alterações. Sem outras alterações em demais sistemas.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-2-e3p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "ECG – ELETROCARDIOGRAMA",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-2-e3p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se.**  \n(1) Identifica-se;  \n(2) Cumprimenta a mãe de maneira adequada/cordial;  \n(3) Mantém contato visual; e  \n(4) Pergunta o nome da mãe e o nome da criança.  \n\n**Adequado:** Realiza as quatro ações.  \n**Parcialmente adequado:** Realiza duas ou três ações.  \n**Inadequado:** Realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza questionamentos acerca do quadro agudo. Investiga os seguintes pontos:**  \n(1) Queixa principal: dor local em membro inferior direito;  \n(2) Início / duração dos sintomas; e  \n(3) Presença de sintomas associados (náusea, vômitos, sialorreia, sudorese,  \npalpitação (taquicardia), agitação, parestesia,  \nprostração, dispneia, sonolência, coma, convulsão).  \n\n**Adequado:** Investiga os três itens.  \n**Parcialmente adequado:** Investiga o item (2) e mais um item.  \n**Inadequado:** Investiga apenas um item, OU não investiga o item (2), OU não investiga item algum",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Questiona quanto a antecedentes / contexto epidemiológico:**  \n(1) Comorbidades;  \n(2) Histórico vacinal;  \n(3) Uso de medicamentos;  \n(4) Sintomas em vizinhos / outras pessoas da casa;  \n(5) Estrutura da casa; e  \n(6) Trauma; e  \n(7) Presença de insetos no domicílio.  \n\n**Adequado:** Questiona quatro ou mais itens.  \n**Parcialmente adequado:** Questiona dois ou três itens.  \n**Inadequado:** Questiona um item, OU não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica que o acidente foi causado por escorpião: \"escorpião amarelo\" ou Tytius serrulatius.**  \n\n**Adequado:** identifica como escorpião amarelo.  \n**Parcialmente adequado:** identifica como escorpião, sem  \nespecificar espécie.  \n**Inadequado:** não identifica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza alterações do exame físico compatíveis com acidente escorpiônico:**  \n(1) Alteração cutânea em membro inferior direito;  \n(2) Taquicardia; e  \n(3) Sialorreia.  \n\n**Adequado:** descreve as três alterações.  \n**Parcialmente adequado:** descreve o item (1) e mais um item OU descreve apenas o item (1).  \n**Inadequado:** não descreve o item (1).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais.**  \n(1) Hemograma;  \n(2) Função renal OU creatinina (Caso o participante cite apenas Ureia não ganhará o ponto);  \n(3) CPK OU CKMB OU CK OU creatinoquinase;  \n(4) Eletrólitos OU potássio sérico OU ionograma OU potássio;  \n(5) Glicemia;  \n(6) Amilase; e  \n(7) Sódio sérico.  \n\n**Adequado:** solicita quatro ou mais itens.  \n**Parcialmente adequado:** solicita dois ou três itens.  \n**Inadequado:** solicita apenas um item, OU não solicita item algum.  \n\n*Observação: considere apenas os 8 primeiros exames citados.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita eletrocardiograma ou ECG.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Classifica a gravidade do acidente escorpiônico e justifica:**  \n(1) Classifica como de gravidade moderada; e  \n(2) Justifica pela presença de dor local intensa associada a uma ou mais manifestações (náuseas, vômitos, sudorese, sialorreia, agitação, taquipneia e taquicardia).  \n\n**Adequado:** classifica o acidente como de gravidade moderada e justifica.  \n**Parcialmente adequado:** classifica o acidente como de gravidade moderada e não justifica.  \n**Inadequado:** não classifica a gravidade, OU classifica o acidente como grave ou leve.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a necessidade de internação.**  \n\n**Adequado:** indica internação.  \n**Inadequado:** não indica internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica analgesia venosa ou bloqueio anestésico local.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica analgesia OU indica analgesia via oral.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica o uso de soro antiescorpiônico.**  \n\n**Adequado:** indica uso do soro antiescorpiônico;  \n**Inadequado:** nao indica uso do soro OU indica uso de soro antiaracnídico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a mãe quanto aos fatores de risco e às medidas preventivas:**  \n(1) Evitar acúmulo de lixo;  \n(2) Evitar deixar a criança andar descalça ou com sapato aberto;  \n(3) Sempre verificar toalhas, roupas de cama e sapatos antes do uso;  \n(4) Evitar deixar crianças sozinhas em locais de risco;  \n(5) Fazer a limpeza do terreno ao redor da casa;  \n(6) Incentivar a presença de predadores naturais, como: galinha, sapo etc .;  \n(7) Dedetizar o local com o intuito de eliminar baratas ou insetos (presas do escorpião); e  \n(8) Evitar que lençóis, cortinas ou toalhas arrastem no chão.  \n(9) Evitar colocar as mãos sem luvas em buracos, sob pedras, troncos podres e em dormentes da linha férrea.  \n(10) Vedar frestas e buracos em paredes, assoalhos e vãos entre o forro e a parede.  \n(11) Manter quintais e jardins limpos.  \n(12) Afastar as camas e berços das paredes.  \n(13) Evitar folhagens densas e manter a grama aparada.  \n(14) Não pendurar roupas nas paredes.  \n\n**Adequado:** cita quatro ou mais itens.  \n**Parcialmente adequado:** cita dois ou três itens.  \n**Inadequado:** cita apenas um item, OU não cita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Notifica o caso.**  \n**Adequado:** notifica.  \n**Inadequado:** não notifica",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

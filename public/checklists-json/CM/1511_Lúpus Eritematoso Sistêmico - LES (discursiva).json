@@ -1,0 +1,161 @@
+{
+  "uid": 1511,
+  "hash": "pepe_1511",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Lúpus Eritematoso Sistêmico - LES (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - Sala de Emergência Hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• Leitos de emergência com monitorização contínua;  \n• Laboratório de análises clínicas 24 horas;  \n• Setor de radiologia com tomografia computadorizada;  \n• Leitos de enfermaria e UTI.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e atenderá uma paciente de 25 anos, trazida ao serviço por familiares após apresentar um episódio de convulsão em casa. A crise foi controlada com a administração de benzodiazepínico pela equipe do SAMU.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico, caso necessário;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a principal hipótese diagnóstica;  \n- Responder as dúvidas da paciente;  \n- Propor condutas e orientações ao caso;  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Acompanhante:** Mãe, Célia.  \n• **Paciente:** Laís, 25 anos, solteira, universitária.  \n\n**QUEIXA PRINCIPAL:** • Doutor(a), minha filha teve um ataque em casa, Ela se debateu toda e espumou pela boca. O SAMU deu um remédio e ela acalmou, mas ainda está meio sonolenta.  \n\n**DEMAIS QUEIXAS:** Dor de cabeça e cansaço, começou logo depois de acordar. Ela vive com essa dor de cabeça e cansaço.  \n• **Artralgias:** Ela tem umas dores nas juntas, principalmente nas mãos e nos joelhos, que aparecem e somem.  \n• **Lesões de Pele:** Qualquer solzinho deixa o rosto dela todo vermelho, uma mancha que cobre as bochechas passando pelo nariz.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças, cirurgias, alergias:** nega.  \n• **Medicações:** Ela só toma analgésico para dor de cabeça e para as dores nas juntas, quando atacam.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS (DA MÃE):**  \n• *O quê minha filha tem Dr(a)?*  \n• *Como você sabe que é isso mesmo?*  \n• *Qual o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130x85 mmHg  \n• **FC:** 98 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 97% em ar ambiente  \n• **Temp. axilar:** 37.1°C  \n\n\n**Ectoscopia:** Regular estado geral, sonolenta, mas desperta a estímulos verbais. Palidez cutâneo-mucosa (+/4+). Rash malar eritematoso em face.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\n**Neurológico:** Período pós-ictal, Glasgow 14, orientada no tempo e espaço. Sem sinais de irritação meníngea ou déficits focais.  \n\n\n**Articular:** Sem sinais flogísticos ou deformidades ativas nas articulações no momento do exame.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 10,5 g/dL (VR: 12,0-16,0 g/dL)  \n• **Leucócitos totais:** 2.300/mm³ (VR: 4.000-11.000/mm³)  \n• **Linfócitos:** 1.100/mm³ (VR: > 1.500/mm³)  \n• **Plaquetas:** 250.000/mm³ (VR: 150.000-450.000/mm³)  \n\n• **Ureia:** 65 mg/dL (VR: 10-50 mg/dL)  \n• **Creatinina:** 2,4 mg/dL (VR: 0,6-1,2 mg/dL)  \n\n\n**URINA TIPO I (EAS)**  \n• **Proteínas:** +++/4+  \n• **Hemácias:** >100 por campo  \n• **Leucócitos:** 10-15 por campo  \n\n\n**CULTURAS**  \n• **Hemocultura:** Negativa.  \n• **Urocultura:** Negativa.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "MARCADORES IMUNOLÓGICOS",
+      "conteudo": "• **FAN (Fator Antinuclear):** *Reagente*, títulação 1:1280 (VR: Não Reagente).  \n\n• **Anti-SM:** *Reagente*, 87 U/ml (VR: Não Reagente).  \n\n• **Anti-DNA (dupla hélice):** *Reagente*, > 10 UI/ml (VR: Não Reagente).",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "TC DE CRÂNIO SC",
+      "conteudo": "**TC DE CRÂNIO SEM CONTRASTE**  \n\n\n• **Laudo:** Ausência de coleções sanguíneas agudas intra ou extra-axiais. Sistema ventricular centrado e de dimensões normais. Não se observam desvios de estruturas da linha média. Parênquima cerebral sem alterações agudas evidentes ao método.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o paciente, identifica-se de maneira cordial e faz a identificação do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando os sintomas crônicos.**  \n(1) Dores articulares (artralgia);  \n(2) Lesões de pele e fotossensibilidade (rash malar);  \n(3) Sintomas constitucionais (cansaço/fadiga).  \n\n**Adequado:** investiga os três grupos de sintomas.  \n**Parcialmente adequado:** investiga dois grupos de sintomas.  \n**Inadequado:** foca apenas na convulsão, sem investigar o histórico crônico, ou investiga apenas um grupo de sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita o exame físico e identifica os achados relevantes.**  \n(1) Verbaliza a necessidade de realizar o exame físico;  \n(2) Identifica o rash malar;  \n(3) Reconhece o estado pós-ictal da paciente.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Formula a principal hipótese diagnóstica com base nos achados clínicos.**  \n\n**Adequado:** formula a hipótese de Lúpus Eritematoso Sistêmico (LES).  \n**Parcialmente adequado:** formula a hipótese de uma doença reumatológica/autoimune não especificada ou epilepsia primária.  \n**Inadequado:** não formula uma hipótese diagnóstica coerente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta os exames laboratoriais gerais, identificando os sinais de atividade da doença.**  \n\n(1) Identifica as citopenias (anemia e leucopenia/linfopenia);  \n(2) Identifica a lesão renal aguda (ureia e creatinina elevadas);  \n(3) Identifica os achados do exame de urina (proteinúria e hematúria) como sinais de nefrite.  \n\n**Adequado:** identifica os três achados.  \n**Parcialmente adequado:** identifica dois achados.  \n**Inadequado:** identifica um ou nenhum achado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita os marcadores imunológicos:**  \n(1) FAN - Fator Antinuclear  \n(2) Anti-SM  \n(3) Anti-DNA  \n\n**Adequado:** solicita ao menos o item (1).  \n**Inadequado:** não solicita o item (1), ou solicita apenas outro item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Identifica os critérios que justificam a hipótese diagnóstica.**  \n(1) Mulher jovem;  \n(2) Artralgias;  \n(3) Fotosensibilidade;  \n(4) Acometimento renal;  \n(5) Leucopenia, Linfopenia ou Anemia;  \n(6) Distúrbio neurológico (convulsão);  \n(7) FAN, Anti-SM ou Anti-DNA reagentes.  \n\n**Adequado:** identifica quatro ou mais critérios.  \n**Parcialmente adequado:** identifica apenas três critérios.  \n**Inadequado:** identifica dois ou menos critérios diagnósticos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exames de imagem para investigação da crise convulsiva.**  \n\n**Adequado:** solicita TC de Crânio para excluir outras causas agudas (ex: sangramento, infecção).  \n**Inadequado:** não solicita exames de imagem cerebral.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a conduta terapêutica inicial para a doença de base (LES em atividade grave).**  \n(1) Corticoide em dose alta;  \n(2) Ciclofosfamida;  \n(3) Micofenolato.  \n\n\n**Adequado:** indica ao menos o item (1).  \n**Inadequado:** não indica o item (1), ou indica apenas outro item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza encaminhamento ao reumatologista.**  \n\n**Adequado:** realiza o encaminhamento.  \n**Inadequado:** não realiza encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

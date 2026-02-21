@@ -1,0 +1,204 @@
+{
+  "uid": 2419,
+  "hash": "pepe_2419",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Violência Sexual",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária.  \nTipo de atendimento: unidade de emergência de Ginecologia e Obstetrícia.  \nA unidade apresenta a seguinte infraestrutura:  \n* laboratório de análises clínicas;  \n* farmácia para fornecimento de medicações;  \n* equipe de enfermagem e equipe médica;  \n* equipe de psicologia;  \n* equipe de segurança.  \n\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.\n\nDescrição do caso:\nUma mulher procura o serviço de emergência ginecológica após sofrer violência sexual.  \nEstá com medo e muito aflita com o acontecido.",
+  "tarefas": "TAREFAS: \n\n* Realizar anamnese da paciente.  \n* Solicitar, se necessário, exames complementares pertinentes à situação clínica (serão pontuados apenas os 10 primeiros exames complementares mencionados).  \n* Indicar, se necessário, medicações a serem prescritas.  \n* Responder às perguntas da paciente de forma completa, justificando os motivos das orientações.  \n* Encaminhar a paciente, se necessário, para avaliação de outros profissionais.  \n* Orientar e indicar condutas relativas ao caso clínico de violência sexual.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Meu nome é Vanessa, tenho 28 anos, sou camareira em um hotel.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu... eu fui atacada no hotel onde eu trabalho...\n\n**SOBRE A VIOLÊNCIA:**  \n• **Quando e onde:** Aconteceu ontem de noite, faz umas 30 horas, lá no hotel mesmo.  \n• **Agressor:** Era um hóspede, eu não sei quem é.  \n• **Como foi:** Ele me forçou... teve penetração vaginal... e ele não usou camisinha. Ele ejaculou.  \n• **Agressão física:** não chegou a me bater. Não sinto dor.  \n• **Estado emocional:** Eu não sinto nada no corpo, mas tenho medo de voltar a trabalhar.  \n\n**CASO O CANDIDATO SOLICITE EXAME FÍSICO:**  \n• **Exame físico:** Doutor(a), por favor, eu não quero que me examinem, não quero ser tocada.  \n\n**ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS:**  \n• **Gestações:** Nunca engravidei.  \n• **Menstruação:** A última vez que menstruei foi há 10 dias.  \n• **Contracepção:** Eu não uso nada.  \n• **Relação sexual:** Eu sou solteira, e fazia uns 3 meses que eu não tinha relação com ninguém.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** nega.  \n• **Cirurgias e Alergias:** nega.  \n• **Álcool, tabaco e drogas:** nega.  \n• **Boletim de Ocorrência:** Não fui na delegacia. Eu não sei se quero fazer o boletim.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Vou precisar tomar alguma vacina?*  \n• *Eu sou obrigada a ir na delegacia pra ser atendida aqui?*  \n• *Eu vou ter que tomar algum remédio por causa disso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTÃO DE VACINAS",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e9p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e9p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) cumprimenta a paciente com empatia e/ou fala o seu nome;  \n(2) pergunta mais algum elemento de identificação como idade ou profissão.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre a violência sexual:**  \n(1) tempo transcorrido desde a violência sofrida;  \n(2) local onde ocorreu;  \n(3) se conhecia o agressor;  \n(4) de que maneira foi o abuso (penetração vaginal, oral ou anal ou outra OU uso de preservativo); e,  \n(5) se houve algum ferimento ou agressão física.  \n\n**Adequado:** pergunta os cinco itens.  \n**Parcialmente adequado:** pergunta três ou quatro itens.  \n**Inadequado:** pergunta um ou dois itens ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre história clínica/ginecológica/obstétrica:**  \n(1) quantidade de gestações prévias;  \n(2) data da última menstruação;  \n(3) uso de método contraceptivo;  \n(4) alergia a medicações;  \n(5) medicação de uso contínuo OU comorbidades; e,  \n(6) tempo desde a última relação sexual.  \n\n**Adequado:** pergunta cinco ou mais itens.  \n**Parcialmente adequado:** pergunta três ou quatro itens.  \n**Inadequado:** pergunta um ou dois itens ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Orienta que o Boletim de Ocorrência (BO):**  \n(1) não é necessário para o atendimento médico.  \n(2) é um direito da paciente realizar BO.  \n\n**Adequado:** orienta os dois itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Orienta sobre a importância de coleta de material vaginal para fins legais.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita o cartão OU caderneta de vacinas.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames laboratoriais para acompanhamento do caso:**  \n(1) Hemograma;  \n(2) Transaminases (TGO/TGP); e,  \n(3) Teste de Gravidez ou Beta HCG.  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um exame ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta vacinação de HPV, pois paciente é vítima de violência sexual com menos de 45 anos.**  \n\n**Adequado:** orienta vacinação de HPV.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0.5",
+        "parcial": "0.5",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "Conforme item 14.6 do Edital, a pontuação correspondente ao item será atribuída a todos os participantes, inclusive aos que não tenham interposto recurso.  "
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exames séricos:**  \n(1) HIV (Teste rápido ou Sorologia);  \n(2) Sífilis (VDRL ou Teste rápido);  \n(3) Anti-HCV; e,  \n(4) HBS Ag / Anti-Hbs.  \n\n**Adequado:** solicita os quatro exames.  \n**Parcialmente adequado:** solicita dois ou três exames.  \n**Inadequado:** solicita um exame ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a contracepção de emergência:**  \n(1) Levonorgestrel 1,5mg ou 2 comprimidos de 0,75mg – via oral.  \n(2) Método Yuzpe (anticoncepcional oral com Etinilestradiol 30μg/150μg de levonorgestrel: 4 comprimidos de 12/12h ou 8 comprimidos em dose única).  \n(3) inserção de DIU de cobre.  \n\n**Adequado:** orienta um dos itens.  \n**Parcialmente adequado:** orienta a contracepção de emergência de forma incompleta.  \n**Inadequado:** não orienta contracepção de emergência.  \n\nObs.: caso o(a) participante mencione apenas contracepção de forma geral, considerar inadequado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indica a profilaxia contra ISTs Não Virais:**  \n(1) Ceftriaxona;  \n(2) Azitromicina; e,  \n(3) Penicilina Benzatina ou Benzetacil.  \n\n**Adequado:** indica as três medicações.  \n**Parcialmente adequado:** indica duas medicações.  \n**Inadequado:** indica uma medicação ou não indica medicação alguma.  \n\nObs.: considerar inadequado se o(a) participante mencionar Metronidazol para início imediato.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica profilaxia contra HIV:**  \n(1) Tenofovir [TDF];  \n(2) Lamivudina [3TC]; e,  \n(3) Dolutegravir [DTG].  \n\n**Adequado:** indica os três medicamentos.  \n**Parcialmente adequado:** indica um ou dois medicamentos ou indica de forma incompleta.  \n**Inadequado:** não indica medicamento algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Oferece atendimento psicológico.**  \n\n**Adequado:** oferece.  \n**Inadequado:** não oferece.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta o seguimento médico.**  \n\n**Adequado:** oferece.  \n**Inadequado:** não oferece.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Verbaliza a necessidade de notificação do caso ao SINAN.**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

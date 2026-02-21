@@ -1,0 +1,227 @@
+{
+  "uid": 2414,
+  "hash": "pepe_2414",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Placenta prévia total",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: unidade de emergência de ginecologia e obstetrícia.  \nA unidade apresenta a seguinte infraestrutura:  \n* laboratório de análises clínicas;  \n* setor de diagnóstico de imagem: aparelhos de ecografia e exames radiológicos convencionais (Raio X);  \n* unidade de internação hospitalar.  \n\n\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.\n\nDescrição do caso:\nMulher grávida comparece à Emergência de uma maternidade com queixa de sangramento vaginal.",
+  "tarefas": "TAREFAS: \n\n* Realizar anamnese da paciente.  \n* Solicitar o exame físico e ginecológico da paciente verbalizando, de forma completa, os parâmetros, pertinentes à queixa da paciente, que deverão ser verificados.  \n* Solicitar os exames complementares, de forma completa, pertinentes à queixa da paciente.  \n* Verbalizar a hipótese diagnóstica principal e QUATRO diagnósticos diferenciais para o quadro clínico.  \n* Orientar a conduta relativa ao caso clínico.  \n* Responder às perguntas da paciente de forma completa, justificando os motivos das orientações.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Amanda, 36 anos, secretária de escola.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu estou grávida e estou com um sangramento que não para.\n\n**SOBRE O SANGRAMENTO:**  \n• **Início:** Parou faz umas 7 horas, aí eu vim correndo pra cá.  \n• **Quantidade e cor:** Hoje sangrou direto por umas 3 horas, era um sangue bem vivo.  \n• **Coágulos:** saíram uns pedaços um pouco escuros.  \n• **Frequência e episódio anterior:** Começou a acontecer faz umas 3 semanas.  \n• **Evolução:** No começo era pouco, uma vez por semana. Mas foi aumentando.  \n• **Manipulação da região:** nega.  \n\n• **Fatores associados:** Não sinto dor nenhuma, nem cólica, nem contração. A barriga não fica dura.  \n• **Fatores desencadeantes:** Não fiz esforço nem nada.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **Gestações:** Essa é minha terceira gravidez.  \n• **GPA:** Eu tive uma filha de cesárea há 7 anos, e tive um aborto 3 anos atrás.  \n• **IG atual:** está anotado no cartão.  \n• **Pré-natal:** já fui em cinco consultas.  \n• **Movimentos fetais:** Sim, o bebê está mexendo.  \n\n**RELAÇÃO SEXUAL:**  \n• **Última relação:** a da gravidez foi a última.  \n• **Parceiro(a):** não estou com parceiro fixo.  \n• **Proteção:** usava camisinha, mas esquecia as vezes.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** Só estou usando o ferro que o médico passou.  \n• **Alergias e cirurgias:** Não tenho alergia.  \n• **cirurgias:** só fiz a cesárea.  \n• **Tipo sanguíneo:** Meu sangue é B negativo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Preciso ficar internada?*  \n• *Vou precisar tomar algum remédio?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CARTÃO PRÉ-NATAL",
+      "conteudo": "**CARTÃO DE PRÉ NATAL**",
+      "imagem": "img_printeds/2024-2-e4p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**EXAME FÍSICO / GINECOLÓGICO**  \n\n\n**Altura:** 1,66 m.  \n**Peso:** 58 Kg.  \n**Pressão arterial:** 112 x 78 mmHg.  \n**Frequência cardíaca:** 92 batimentos por minuto.  \n**Frequência respiratória:** 16 incursões respiratórias por minuto.  \n**Temperatura axilar:** 36,6 °C.  \n**Índice de saturação de oxigênio:** 98% em ar ambiente.  \n**Mucosas:** descoradas 2+/4+.  \n\n\n**Frequência cardíaca fetal (BCF):** 150 batimentos por minuto.  \n**Estática fetal:** feto em apresentação cefálica, dorso à direita.  \n**Palpação uterina:** Tônus normal.  \n**Dinâmica uterina:** Ausência de contrações.  \n\n\n**Exame especular:** ausência de sangramento se exteriorizando pelo orifício externo do colo, porém com presença de pequena quantidade de coágulos escurecidos em fundo de saco vaginal Orifício cervical aparentemente fechado.  \n**Toque vaginal:** não realizado.  \n\n\n**Demais parâmetros do exame físico-ginecológico sem alterações.**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ECOGRAFIA OBSTÉTRICA",
+      "conteudo": "**IG: 28 SEMANAS E 4 DIAS** Gestação tópica única, feto cefálico, com dorso anterior.  \nLíquido amniótico em quantidade normal.  \nPeso fetal no percentil 50 para a idade gestacional.  \n**Batimento cardíaco fetal (BCF):** 145 batimentos por minuto.  \nPresença de placenta de implantação centro-total, recobrindo totalmente o orifício interno do colo uterino.  \nAusência de sinais de acretismo placentário.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "LABORATORIAIS",
+      "conteudo": "**EXAMES LABORATORIAIS**  \n\n\n• **Hemácias (contagem):** 3,7 x 10¹²/L (VR: 3,8-4,8 x 10¹²/L)  \n• **Hemoglobina (Hb):** 10,0 g/dL (VR: 12,0-16,0 g/dL)  \n• **Hematócrito (Hct):** 32 % (VR: 36,0-46,0 %)  \n• **Plaquetas:** 180.000 mm³ (VR: 150.000-450.000 /mm³)  \n\n• **Coagulograma:** sem alterações (VR: 11-14,5 segundos)  \n\n• **Creatinina:** 0,9 mg/dL (VR: 0,5-1,0 mg/dL)  \n• **Ureia:** 20 mg/dL (VR: 17-42 mg/dL)  \n\n• **Tipagem Sanguínea:** B Negativo  \n• **Coombs Indireto:** Negativo",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) Cumprimenta a paciente e/ou fala o seu nome; e,  \n(2) Pergunta mais algum elemento de identificação da anamnese como idade, ou profissão.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre sinais e sintomas:**  \n(1) Tempo (início);  \n(2) Evolução (ou frequência ao longo do tempo);  \n(3) Quantidade;  \n(4) Duração deste sangramento de hoje;  \n(5) Associação a dor;  \n(6) Associação a contrações;  \n(7) Fatores desencadeantes;  \n(8) Fatores amenizadores; e,  \n(9) Presença de movimentos fetais.  \n\n**Adequado:** pergunta cinco ou mais sinais e sintomas.  \n**Parcialmente adequado:** pergunta três ou quatro sinais e sintomas.  \n**Inadequado:** pergunta um ou dois, ou não pergunta sinal ou sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita o cartão de pré-natal da paciente.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre histórico gestacional:**  \n(1) quantidade de gestações prévias;  \n(2) quais foram os tipos de partos (cesarianos ou normais); e,  \n(3) histórico de abortamentos.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico / ginecológico da paciente informando os seguintes parâmetros:**  \n(1) Frequência cardíaca materna;  \n(2) Pressão arterial.  \n\n**Adequado:** solicita os dois parâmetros.  \n**Parcialmente Adequado:** solicita um parâmetro.  \n**Inadequado:** não solicita parâmetro algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita o exame físico / ginecológico da paciente informando os seguintes parâmetros:**  \n(1) Coloração OU Ectoscopia de mucosas;  \n(2) Estática fetal/ posição/ Leopold.  \n\n**Adequado:** solicita os dois parâmetros.  \n**Parcialmente Adequado:** solicita um parâmetro.  \n**Inadequado:** não solicita parâmetro algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita o exame físico / ginecológico da paciente informando os seguintes parâmetros:**  \n(1) Frequência cardíaca fetal (BCF);  \n(2) Exame especular - características do sangramento.  \n\n**Adequado:** solicita os dois parâmetros.  \n**Parcialmente Adequado:** solicita um parâmetro.  \n**Inadequado:** não solicita parâmetro algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita o exame físico / ginecológico da paciente informando os seguintes parâmetros:**  \n(1) Tônus uterino;  \n(2) Contrações uterinas (dinâmica uterina).  \n\n**Adequado:** solicita os dois parâmetros.  \n**Parcialmente Adequado:** solicita um parâmetro.  \n**Inadequado:** não solicita parâmetro algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita a realização de exame de toque vaginal:**  \n\n**Adequado:** não solicita OU contraindica.  \n**Inadequado:** solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a hipótese diagnóstica como placenta prévia centro-total ou placenta prévia total.**  \n\n**Adequado:** define o diagnóstico completo.  \n**Parcialmente adequado:** menciona apenas o termo placenta prévia.  \n**Inadequado:** não define o diagnóstico de placenta prévia, ou específica incorretamente o diagnóstico de placenta prévia (como parcial, lateral ou outra forma diferente da correta) que é total ou centro-total.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita exames complementares essenciais para decidir a conduta para o quadro:**  \n(1) Hemograma;  \n(2) Função renal (Ureia e/ou Creatinina);  \n(3) Coagulograma;  \n(4) Tipagem sanguínea;  \n\n**Adequado:** solicita os quatro exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita um ou dois exames ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Formula diagnósticos diferenciais:**  \n(1) Vasa prévia;  \n(2) Ruptura de seio marginal;  \n(3) Pólipo cervical;  \n(4) Cervicite;  \n(5) Tumores de colo;  \n(6) Ectropia cervical;  \n(7) Descolamento prematuro da placenta.  \n\n**Adequado:** formula quatro ou mais diagnósticos diferenciais.  \n**Parcialmente adequado:** formula dois ou três diagnósticos diferenciais.  \n**Inadequado:** formula um diagnóstico ou não formula diagnóstico algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indica a internação da paciente.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Indica o uso de corticoide para a maturidade fetal.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indica o uso de imunoglobulina anti-D.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Indica que a via de Parto (se mantendo a placenta centro total) deverá ser cesariana.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

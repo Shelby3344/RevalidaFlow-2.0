@@ -1,0 +1,183 @@
+{
+  "uid": 116,
+  "hash": "pepe_116",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Doença de Chagas Aguda",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - unidade de pronto atendimento (UPA).  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização;  \n• Acesso a laboratório de análises clínicas, eletrocardiograma e radiografia.\n\nDescrição do caso:\nVocê está de plantão em uma UPA na região sudeste e atenderá um homem de 26 anos, vindo da região Amazônica que procura o serviço de atendimento com queixa de febre e inchaço no rosto há uma semana.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese do paciente.  \n- Solicitar o exame físico, caso necessário.  \n- Formular e verbalizar a principal hipótese diagnóstica e seus diferenciais.  \n- Solicitar e interpretar os exames complementares para a investigação.  \n- Estabelecer a conduta terapêutica inicial e as orientações necessárias.  \n- Responder às dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Kauã, 26 anos, solteiro, artesão.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou me sentindo muito mal. Começou com uma febre que não passa, dor no corpo e meu rosto está inchado.  \n\n**SOBRE OS SINTOMAS:**  \n• **Início:** omeçaram há uma semana.  \n• **Febre:** Tenho febre alta, por volta de 39°C, todos os dias, principalmente no final da tarde.  \n• **Edema Facial:** Meu rosto inchou, principalmente ao redor do meu olho direito.  \n\n• **Sintomas Associados:** Sinto uma dor de cabeça forte, um cansaço que não me deixa fazer nada e dores nos músculos.  \n\n**HISTÓRIA EPIDEMIOLÓGICA:**  \n• **Origem:** Eu moro numa comunidade ribeirinha no Pará.  \n• **Viagem:** Vim para São Paulo num evento dos povos originários.  \n• **Alimentação:** a gente consome muito açaí natural, batido na hora.  \n• **Contato com inseto ou animais:** Não reparei.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** Sou saudável, não tomo nenhum remédio.  \n• **Alergias e cirurgias:** Nega.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Minha família não tem problemas de saúde.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)? É grave?*  \n• *Preciso ficar internado?*  \n• *Tem a ver com o açaí que eu tomo lá na minha terra?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 115x75 mmHg  \n• **FC:** 110 bpm  \n• **FR:** 20 irpm  \n• **Temp. axilar:** 38,9°C  \n\n\n**Ectoscopia:** Regular estado geral, lúcido, orientado, hipocorado (+/4+), anictérico.  \nPresença de edema bipalpebral unilateral à direita, indolor, de consistência elástica e sem hiperemia (Sinal de Romaña +).  \n\n\n**Aparelho Cardiovascular:** Ritmo cardíaco regular, taquicárdico, em dois tempos, sem sopros.  \n\n\n**Aparelho Respiratório:** Murmúrio vesicular presente e simétrico, sem ruídos adventícios.  \n\n\n**Abdome:** Flácido, ruídos hidroaéreos presentes. Fígado palpável a 2 cm do rebordo costal direito, liso e indolor. Baço não palpável.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 11,5 g/dL (VR: 13,5 – 17,5 g/dL)  \n• **Leucócitos:** 3.800/mm³ (VR: 4.000 – 11.000/mm³) com 55% de linfócitos.  \n• **Plaquetas:** 160.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**BIOQUÍMICA**  \n• **TGO (AST):** 65 U/L (VR: < 40 U/L)  \n• **TGP (ALT):** 58 U/L (VR: < 40 U/L)  \n• **Creatinina:** 0,9 mg/dL (VR: 0,7 – 1,3 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "ELETROCARDIOGRAMA (ECG)",
+      "conteudo": "**Laudo:**  \n• Ritmo sinusal, frequência cardíaca de 110 bpm.  \n• Bloqueio de ramo direito de 1º grau.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME PARASITOLÓGICO",
+      "conteudo": "**Laudo:**  \n• **Exame:** Pesquisa de *Trypanosoma cruzi* em sangue periférico (método de Strout).  \n• **Resultado:** POSITIVA. Observadas formas tripomastigotas.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da queixa principal.**  \n(1) características da febre;  \n(2) características do edema facial (localização, dor);  \n(3) sintomas constitucionais (cefaleia, mialgia, astenia).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a anamnese epidemiológica focada.**  \n\n**Adequado:** pergunta sobre a procedência do paciente (região amazônica) e/ou sobre hábitos alimentares de risco (consumo de açaí não industrializado).  \n**Inadequado:** não investiga a origem do paciente ou seus hábitos alimentares.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico direcionado ao quadro.**  \n\n**Adequado:** solicita a avaliação da face (edema periorbital), do sistema cardiovascular e do abdome (hepatomegalia).  \n**Inadequado:** não solicita o exame físico ou o faz de forma genérica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula a hipótese diagnóstica principal e seus diferenciais.**  \n\n**Adequado:** verbaliza a hipótese de Doença de Chagas Aguda (DCA) e cita pelo menos um diagnóstico diferencial relevante (ex: mononucleose, toxoplasmose, dengue, leptospirose).  \n**Parcialmente adequado:** verbaliza apenas a hipótese de Doença de Chagas Aguda (DCA), sem diferenciais.  \n**Inadequado:** não formula a hipótese de DCA.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais gerais e cardiológico.**  \n(1) hemograma;  \n(2) enzimas hepáticas (TGO/TGP);  \n(3) eletrocardiograma (ECG).  \n\n**Adequado:** solicita os três exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um exame ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita o exame confirmatório para a hipótese principal.**  \n\n**Adequado:** solicita exame parasitológico direto para pesquisa de *Trypanosoma cruzi* no sangue periférico (ex: gota espessa, método de Strout).  \n**Inadequado:** não solicita o exame parasitológico direto, solicitando apenas sorologia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta os exames e confirma o diagnóstico.**  \n\n**Adequado:** confirma o diagnóstico de Doença de Chagas Aguda com base no exame parasitológico positivo e correlaciona com os achados clínicos (Sinal de Romaña +) e de outros exames (alteração no ECG).  \n**Parcialmente adequado:** confirma o diagnóstico, mas não correlaciona com os achados clínicos ou de outros exames.  \n**Inadequado:** não confirma o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Estabelece a conduta terapêutica antiparasitária.**  \n\n**Adequado:** prescreve o tratamento com Benzonidazol.  \n**Inadequado:** não prescreve o tratamento antiparasitário ou prescreve medicamento incorreto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica a necessidade de internação hospitalar.**  \n\n**Adequado:** indica a internação para início do tratamento e monitorização cardíaca, devido à fase aguda e alteração no ECG.  \n**Inadequado:** propõe tratamento ambulatorial ou não define o local do tratamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza a necessidade de notificação compulsória ao SINAN.**  \n\n**Adequado:** informa que a Doença de Chagas Aguda é um agravo de notificação compulsória imediata.  \n**Inadequado:** não menciona a necessidade de notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta o paciente sobre a doença e a provável forma de transmissão.**  \n\n**Adequado:** explica o que é a Doença de Chagas, informa sobre a provável transmissão oral pelo consumo de açaí contaminado e reforça a importância de iniciar o tratamento.  \n**Inadequado:** não fornece as orientações ou o faz de forma incompleta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

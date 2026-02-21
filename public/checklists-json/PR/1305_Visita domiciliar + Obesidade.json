@@ -1,0 +1,169 @@
+{
+  "uid": 1305,
+  "hash": "pepe_1305",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Visita domiciliar + Obesidade",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: ambulatorial - visita domiciliar.\n\nDescrição do caso:\nVocê é médico(a) de uma UBS e um Agente Comunitário de Saúde informou que existe uma paciente em sua área de atuação que é obesa e se recusa a ir ao posto de saúde para se consultar e acompanhar seu estado de saúde. Você deverá realizar uma visita domiciliar a esta paciente.",
+  "tarefas": "TAREFAS:  \n\n- Explicar sobre o motivo de visita domiciliar;  \n- Investigar o histórico e hábitos da paciente;  \n- Orientar sobre acompanhamento médico e dieta;  \n- Orientar as condutas gerais e informar sobre as complicações da obesidade.  \n\n\nATENÇÃO:\nNÃO SERÁ NECESSÁRIO SOLICITAR EXAMES FÍSICO E/OU COMPLEMENTARES",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Clarice, 50 anos, professora.  \n\n\n**MOTIVO DE NÃO SE CONSULTAR:** Acho que não estou precisando de nada, não estou sentindo nada.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e comorbidades:** estou com pressão alta e diabetes. Um outro médico disse também que estou obesa, com IMC 33.  \n• **MEDICAÇÕES:** estava tomando metformina e sinvastatina mas parei.  \n  *Parei do tomar porque estava dando dor de cabeça e náuseas, estava ficando enjoada.*  \n\n\n• **ALIMENTAÇÃO:** *que tipo de alimento o senhor(a) quer saber?*  \n  *Gosto mesmo de carne de sol, aquele arroz na banha de porco é muito bom!*  \n  *De sobremesa eu como um pão com geléia, adoro chocolate!*  \n  *também tenho costume de comer na lanchonete da esquina*  \n• **Álcool, tabaco e drogas:** nega.  \n\n\n• **Atividade física:** não faço nada. Até tentei, mas logo depois parei.  \n  *O senhor poderia recomendar algo pra atividade física?*  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. O(a) candidato(a) pediu licença para entrar na casa da paciente e apresentou-se como médico da equipe de saúde da família da unidade.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. O(a) candidato(a) explicou sobre o motivo de sua visita domiciliar e sobre a preocupação com a saúde da paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**2.1. O(a) candidato(a) perguntou à paciente como se sente e se tem apresentado algum problema de saúde.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**2.2. O(a) candidato(a) perguntou sobre sua dieta atual:**  \n(1) ingestão de sal;  \n(2) gordura animal e vegetal;  \n(3) quantidade de açúcar;  \n(4) pães;  \n(5) doces;  \n(6) legumes;  \n(7) frutas;  \n(8) quantidade de arroz e feijão.  \n\n**Adequado:** pergunta ao menos seis itens.  \n**Parcialmente adequado:** pergunta quatro itens.  \n**Inadequado:** pergunta apenas três ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**2.3. O(a) candidato(a) investigou por que não comparece as consultas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**2.4. O(a) candidato(a) investigou por que se recusa a tomar medicações.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**3.1. O(a) candidato(a) explicou sobre o porquê e como pode melhorar sua dieta:**  \n(1) necessidade de diminuir o sal;  \n(2) comer frutas;  \n(3) verduras;  \n(4) legumes;  \n(5) diminuir pães; e  \n(6) doce\n\n**Adequado:** recomenda todos os itens.  \n**Parcialmente adequado:** recomenda quatro itens.  \n**Inadequado:** recomenda apenas três ou menos itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**3.2. O(a) candidato(a) explicou sobre a necessidade de ser acompanhada na unidade de saúde para poder cuidar da saúde.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**3.3. O(a) candidato(a) explicou sobre a possibilidade de trocar a medicação e buscar medicamentos para ajudar a não ter náuseas ou dor de cabeça.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**3.4. O(a) candidato(a) apresentou os riscos que está correndo ao se negar a seguir orientações como complicações da obesidade e problemas cardiovasculares.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**3.5. O(a) candidato(a) sugere participação em grupo, alguma atividade física, atividade na comunidade em grupo e/ou participação em grupo de caminhada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**4.1. O(a) candidato(a) agradeceu ter sido recebido e convidou a paciente a comparecer à unidade para poder melhor atendê-la marcando um dia e hora certa.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**5.1. O(a) candidato(a) apresentou capacidade argumentativa no diálogo e na comunicação com a paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

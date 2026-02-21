@@ -1,0 +1,199 @@
+{
+  "uid": 1103,
+  "hash": "pepe_1103",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Recepção e Atenção ao Recém Nascido - RN",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde  \nTipo de atendimento: Centro Obstétrico.  \nA unidade apresenta a seguinte infraestrutura:  \n* Sala de parto e de reanimação neonatal;  \n* laboratório de análises clínicas;  \n* banco de sangue;  \n* leitos de internação.\n\nDescrição do caso:\n- Você é médico(a) e está em uma sala de parto para fazer a recepção de um rescém nascido. A gestante é uma mulher de 25 anos, com pré-natal habitual, idade gestacional de 38 semanas e o parto é por via vaginal.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:   \n- Realizar os procedimentos de recepção do recém-nascido;   \n- Avaliar parâmetros de vitalidade fetal;   \n- Calcular o APGAR;   \n\n\nREALIZE TODAS AS SIMULAÇÕES E DESCREVA PARA A CÂMERA",
+  "script_ator": "**DADOS PESSOAIS:**   \nSou Vanessa, a enfermeira obstétrica e estou auxiliando na recepção do RN.  \n\n- MÃE: Marta, 25 anos  \n- RN: João  \n\n\nGestação: Parto Normal, 38 semanas.  \n\n\n\"DOUTOR(A), Acho melhor iniciar a recepção, pois o bebê está nascendo!. Podemos clampear o cordão?\"  \n\n\n**Após o candidato solicitar o clampeamento do cordão:** Cordão clampeado Dr(a).  \n\n\n**Após o candidado questionar:** - Gestação >34 semanas?  - Está respirando ou chorando?  - Tem tônus ou flexão de membros?  \n- Liberar impresso SINAIS VITAIS AO NASCER  \n\n\n**Após o candidato ofertar O² (VPP):**  \n- Liberar impresso REAVALIAÇAO APÓS O²/VPP  \n\n\n**Após o candidato suspender O²/VPP ou informar que deseja calcular o APGAR:**  \n- Liberar impresso BOLETIM APGAR  \n\n\nOUTRAS PERGUNTAS: não consta no script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS AO NASCER",
+      "conteudo": "* FC: > 100 bpm  \n* Respiração: regular  \n* Cor: cianose de extremidades  \n* tonus: extremidades flexionadas e resistentes a extensão  \n* sem choro",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "REAVALIAÇAO APÓS O²/VPP",
+      "conteudo": "* FC: > 100 bpm  \n* Respiração: regular  \n* Cor: CORADO  \n* tonus: extremidades flexionadas e resistentes a extensão  \n* CHOROSO",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "BOLETIM APGAR",
+      "conteudo": "**CALCULAR O APGAR EM 1 MIN. E 5 MIN. APÓS SUSPENDER O²/VPP**",
+      "imagem": "img_printeds/2011-e3p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. Lava as mãos.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. Calça as luvas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**2.1. Coloca o recém-nascido sob fonte de calor.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**2.2. Posiciona-se atrás do recém-nascido e coloca a cabeça do recém-nascido voltada para si.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**2.3. Posiciona a cabeça do recém-nascido em discreta extensão ao pescoço.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**2.4. Aspira a boca do recém-nascido.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**2.5. Aspira as narinas do recém-nascido.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**2.6. Mantém o recém-nascido seco e protegido pelos campos.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**3.1. Avalia a respiração do recém-nascido.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**3.2. Avalia a frequência cardíaca do recém-nascido.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**3.3. Avalia a cor do recém-nascido.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**3.4. Oferece oxigênio inalatório a 100% sob máscara facial (EXAMINADOR ENTREGA O IMPRESSO 1).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "A oferta de O² a 100% é recomendada apenas quando não há blender ou oxímetro, e somente após 90 segundos de VPP sem melhora do quadro clínico.  "
+    },
+    {
+      "idx": 13,
+      "descricao": "**4.1. Suspende, gradativamente a oferta de oxigênio inalatório (EXAMINADOR ENTREGA O IMPRESSO 2).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**4.2. Calcula o boletim de APGAR.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

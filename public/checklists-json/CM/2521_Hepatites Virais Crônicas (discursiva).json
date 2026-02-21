@@ -1,0 +1,177 @@
+{
+  "uid": 2521,
+  "hash": "pepe_2521",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Hepatites Virais Crônicas (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas.\n\nDescrição do caso:\nVocê é médico(a) de uma UBS e atenderá um homem de 58 anos, procedente de zona rural, procura atendimento com queixa de cansaço há 6 meses e desconforto abdominal esporádico.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Solicitar e interpretar os exames pertinentes ao caso.  \n- Formular e verbalizar a principal hipótese diagnóstica.  \n- Elaborar e orientar o plano de cuidado inicial para o paciente e seus contatos.  \n- Responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• João, 58 anos, agricultor aposentado.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu vim aqui porque ando muito cansado nos últimos 6 meses, uma fadiga que não melhora. E de vez em quando sinto um desconforto aqui na barriga.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Fadiga:** É um cansaço o dia todo, mesmo sem fazer muito esforço.  \n• **Desconforto abdominal:** É mais um incômodo, não chega a ser uma dor forte. Aparece de vez em quando.  \n• **Outros sintomas:** Não tive febre, nem enjoo, nem diarreia.   \n• **Catarse:** A cor do xixi e do cocô está normal.  \n• **Peso:** Não emagreci.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença que eu saiba e não tomo nenhum remédio.  \n• **Cirurgias e internações:** Olha... quando eu era criança eu tive um acidente, e minha mãe falava que eu tive que receber sangue. Mas isso faz muito tempo, eu tinha uns 10 ou 11 anos.  \n• **Álcool, tabaco e drogas:** Eu tomo uma cachacinha antes do almoço, umas duas doses pra abrir o apetite.  \n• **Vacinação:** faz muito tempo que não tomo vacinas, nem lembro mais.  \n\n**HISTÓRICO FAMILIAR:**  \n• Meus pais já faleceram.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu posso ter, doutor(a)?*  \n• Caso o candidato solicite Testes Rápidos para Hb e Hc: *Esses testes já confirmam alguma coisa?*  \n• *É grave? Tem tratamento?*  \n• *Porque preciso fazer esses exames todos?*  \n• *Minha esposa precisa se preocupar ou fazer algum exame?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130x80 mmHg  \n• **FC:** 76 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 98%  \n• **Temp. axilar:** 36.5° C  \n• **IMC:** 26 kg/m²  \n\n\n**Ectoscopia:** paciente em bom estado geral, orientado, corado, hidratado, acianótico e anictérico.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n\n**Abdominal:** abdome plano e flácido, indolor a palpação superficial e profunda, sem massa ou visceromegalias palpável.  \n\n\n**MMII:** sem edemas ou outras alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "TESTES RÁPIDOS",
+      "conteudo": "• **TR - Hepatite B (HBsAg):** Reagente  \n• **TR - Hepatite C (Anti-HCV):** Reagente  \n• **TR - HIV:** Não Reagente  \n• **TR - Sífilis:** Não Reagente",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 14,5 g/dL (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 43% (VR: 39 - 52%)  \n• **Leucócitos:** 6.500/mm³ (VR: 4.000 - 10.000/mm³)  \n• **Plaquetas:** 142.000/mm³ (VR: 150.000 - 400.000 mm/³)  \n\n\n**PERFIL HEPÁTICO**  \n• **TGO/AST:** 84 U/l (VR: 15 – 40 U/l)  \n• **TGP/ALT:** 92 U/l (VR: 10 – 40 U/l)  \n• **FA:** 78 U/l (VR: 30 – 100 U/l)  \n• **GGT:** 49 U/l (VR: 8 – 78 U/l)  \n\n• **Bilirrubinas totais:** 1,0 mg/dl (VR: 0,2 - 1,1 mg/dl)  \n• **Albumina sérica:** 4,1 g/dL (VR: 3,5 – 5,5 g/dL)  \n• **Tempo de Protrombina (INR):** 1,1 (VR: 0,8 - 1,2)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga fatores de risco e histórico do paciente:**  \n(1) pergunta sobre doenças, OU cirurgias, OU internações;  \n(2) pergunta sobre uso de álcool;  \n(3) pergunta sobre histórico vacinal;  \n(4) pergunta sobre uso de medicamentos.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita testes rápidos para Hepatite B e C.**  \n\n**Adequado:** solicita os dois testes.  \n**Parcialmente adequado:** solicita apenas um teste.  \n**Inadequado:** não solicita nenhum dos testes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Explica os resultados dos testes rápidos iniciais.**  \n(1) informa que o teste para Hepatite B (HBsAg) reagente já confirma a infecção;  \n(2) informa que o teste para Hepatite C (anti-HCV) reagente necessita de um exame de confirmação.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma ou explica incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame confirmatório para Hepatite C.**  \n\n**Adequado:** solicita Anti-HCV, (HCV-RNA, ou PCR para Hepatite C, ou Carga Viral para Hepatite C).  \n**Inadequado:** não solicita o exame ou solicita outro exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames complementares para avaliação da função e lesão hepática.**  \n(1) Transaminases (TGO/AST e TGP/ALT);  \n(2) Bilirrubinas (total e frações);  \n(3) Hemograma completo;  \n(4) Albumina;  \n(5) Tempo de Protrombina (TP/TAP/INR);  \n(6) Fosfatase alcalina;  \n(7) Gama-GT.  \n\n**Adequado:** solicita cinco ou mais exames.  \n**Parcialmente adequado:** solicita quatro exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames para estadiamento e investigação de comorbidades.**  \n(1) Ultrassonografia de abdome;  \n(2) Elastografia hepática;  \n(3) Sorologia para HIV;  \n(4) Sorologia para Hepatite A.  \n\n**Adequado:** solicita três ou quatro exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Justifica a solicitação de exames de avaliação de fibrose hepática.**  \n\n**Adequado:** justifica que esses exames são fundamentais para avaliar o grau de cicatrização (fibrose/cirrose) do fígado, o que define a gravidade da doença e a urgência do tratamento.  \n**Inadequado:** não consegue justificar a necessidade da avaliação de fibrose.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Formula e verbaliza a hipótese diagnóstica principal.**  \n\n**Adequado:** verbaliza o diagnóstico de infecção crônica pelos vírus da Hepatite B e Hepatite C.  \n**Parcialmente adequado:** verbaliza o diagnóstico de Hepatite Crônica, sem especificar os agentes.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza um diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta o paciente sobre medidas de prevenção de transmissão.**  \n(1) não compartilhar objetos de uso pessoal cortantes (lâminas, alicates) ou escova de dentes;  \n(2) usar preservativo nas relações sexuais.  \n(3) orienta a cessação completa do consumo de álcool;  \n\n**Adequado:** orienta duas ou três medidas.  \n**Parcialmente adequado:** orienta uma medida.  \n**Inadequado:** não orienta nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre a conduta em relação aos contatos domiciliares.**  \n(1) indica o rastreamento dos contatos (esposa/parceira);  \n(2) orienta a profilaxia com vacina contra hepatite B para os contatos suscetíveis.  \n\n**Adequado:** orienta as duas condutas.  \n**Parcialmente adequado:** orienta uma conduta.  \n**Inadequado:** não orienta nenhuma conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Define o plano de seguimento.**  \n\n**Adequado:** encaminha o paciente para serviço especializado (infectologista ou gastroenterologista/hepatologista) para estadiamento e tratamento.  \n**Inadequado:** não realiza o encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "uid": 2227,
+  "hash": "pepe_2227",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Rastreamento de Câncer Colorretal (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.  \n• Acesso ao sistema de regulação para exames especializados.\n\nDescrição do caso:\nVocê atenderá uma mulher de 25 anos, que procura a unidade de saúde apreensiva. A mãe dela, de 50 anos, foi diagnosticada com câncer de cólon na semana passada, e o cirurgião recomendou que ela e a irmã buscassem orientação sobre rastreamento.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese da paciente.  \n- Explicar à paciente quais são os principais fatores de risco.  \n- Orientar a paciente sobre o plano de rastreamento mais adequado.  \n- Propor medidas de prevenção e promoção da saúde.  \n- Responder às dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Júlia, 25 anos, designer gráfica.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), Minha mãe que tem 50 anos, acabou de ser diagnosticada com câncer de intestino. O médico dela disse que eu e minha irmã precisamos fazer exames para ver se a gente não tem também.  \n\n**SOBRE RITMO INTESTINAL:**  \n• **Frequência:** Vou ao banheiro todos os dias, uma vez por dia.  \n• **Diarreia e constipação:** nega.  \n• **Sangue e muco nas fezes:** nega.  \n• **Consistência das fezes:** Normal, nem muito duras nem muito moles.  \n• **Cor:** Cor normal, marrom.  \n\n**SINTOMAS E QUEIXAS:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** Não tenho nenhuma doença e não tomo nenhum remédio contínuo.  \n• **Cirurgias:** Nunca operei.  \n• **História familiar:** Minha mãe é a primeira pessoa da família com esse tipo de câncer.  \n\n**HÁBITOS DE VIDA:**  \n• **Alimentação:** Admito que não é das melhores. Como muita carne vermelha e fast-food durante a semana por causa da correria do trabalho. Não gosto muito de salada e legumes.  \n• **Peso:** Engordei um pouco nos últimos anos.  \n• **Atividade física:** Sou bem sedentária, passo o dia todo sentada trabalhando.  \n• **Álcool e tabaco:** Bebo umas duas taças de vinho nos finais de semana. Não fumo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que causa esse tipo de câncer?*  \n• *Eu já preciso fazer o exame de colonoscopia agora?*  \n• *Esse exame dói? É perigoso?*  \n• *O que eu posso fazer para diminuir a minha chance de ter essa doença?*",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e demonstra empatia pela situação familiar.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga os fatores de risco para câncer colorretal na paciente:**  \n(1) hábitos alimentares (consumo de carne vermelha/processada, baixa ingestão de fibras);  \n(2) sobrepeso/obesidade;  \n(3) sedentarismo;  \n(4) consumo de álcool;  \n(5) tabagismo.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre o hábito/ritmo intestinal:**  \n(1) frequência das evacuações;  \n(2) consistência das fezes;  \n(3) presença de diarreia ou constipação;  \n(4) presença de sangue nas fezes;  \n(5) presença de muco ou pus nas fezes; e,  \n(6) cor das fezes.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga ou investiga apenas um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Explica à paciente os fatores de risco para o desenvolvimento de câncer colorretal.**  \n(1) idade acima de 50 anos;  \n(2) histórico familiar da doença;  \n(3) sobrepeso e obesidade;  \n(4) fatores dietéticos (alto consumo de carne vermelha/processada);  \n(5) tabagismo e etilismo.  \n\n**Adequado:** cita quatro ou mais fatores de risco.  \n**Parcialmente adequado:** cita dois ou três fatores de risco.  \n**Inadequado:** cita um fator de risco ou não cita nenhum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Orienta corretamente sobre o plano de rastreamento para a paciente:**  \n(1) informa que o exame indicado é a colonoscopia;  \n(2) informa a idade correta para início do rastreamento (40 anos, OU 10 anos antes da idade do diagnóstico do familiar mais jovem);  \n(3) informa a periodicidade correta (a cada 5 anos, se normal).  \n\n**Adequado:** orienta os três itens corretamente.  \n**Parcialmente adequado:** orienta dois itens corretamente.  \n**Inadequado:** orienta um item ou nenhum, ou erra a idade/periodicidade.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Orienta sobre medidas de prevenção primária (mudanças no estilo de vida):**  \n(1) aumentar a ingestão de frutas, legumes e verduras;  \n(2) reduzir o consumo de carnes vermelhas e processadas;  \n(3) praticar atividade física regularmente;  \n(4) manter o peso corporal adequado (ou perder peso);  \n(5) evitar bebida alcoólica e tabaco.  \n\n**Adequado:** orienta quatro ou cinco medidas.  \n**Parcialmente adequado:** orienta três medidas.  \n**Inadequado:** orienta uma medida ou nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica de forma acessível o que é a colonoscopia.**  \n\n**Adequado:** explica que é um exame que visualiza o interior do intestino por meio de um tubo com uma câmera, que é feito com sedação e que permite a retirada de pólipos (lesões pré-cancerosas).  \n**Inadequado:** não explica o procedimento ou usa termos excessivamente técnicos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Aborda as preocupações da paciente sobre sua saúde e o exame.**  \n\n**Adequado:** tranquiliza a paciente, explicando que o rastreamento é preventivo, que o risco atual dela não é considerado alto e que o procedimento é seguro e realizado sob sedação para conforto.  \n**Parcialmente adequado:** aborda as preocupações de forma superficial, sem detalhar ou tranquilizar a paciente adequadamente.  \n**Inadequado:** não aborda as preocupações da paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Estabelece um plano de seguimento.**  \n\n**Adequado:** reforça a importância de manter hábitos saudáveis desde já e se coloca à disposição para acompanhamento regular na UBS, agendando retorno ou orientando a procurar a unidade para acompanhamento de saúde.  \n**Inadequado:** não estabelece um plano de seguimento ou de vínculo com a unidade.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Pergunta se a paciente tem mais alguma dúvida.**  \n\n**Adequado:** pergunta e se mostra disponível para esclarecimentos adicionais.  \n**Inadequado:** não abre espaço para mais perguntas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

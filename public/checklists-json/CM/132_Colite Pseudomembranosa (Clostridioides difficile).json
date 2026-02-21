@@ -1,0 +1,189 @@
+{
+  "uid": 132,
+  "hash": "pepe_132",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Colite Pseudomembranosa (Clostridioides difficile)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária - pronto-socorro hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• laboratório de análises clínicas;  \n• exames de imagem (Raio-X, TC, Endoscopia/Colonoscopia);  \n• leitos de observação e internação.\n\nDescrição do caso:\nVocê está de plantão na emergência e atenderá uma paciente de 68 anos, com queixa de diarreia intensa há 5 dias e dor abdominal. A paciente relata tratamento recente para uma infecção dentária.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida à queixa da paciente;  \n- Solicitar e interpretar o exame físico;  \n- Solicitar e interpretar exames complementares pertinentes;  \n- Estabelecer o diagnóstico definitivo;  \n- Definir o plano terapêutico e fornecer as orientações sobre a evolução do quadro.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** caso o candidato indique algum antibiótico para tratamento, liberar o impresso **POSOLOGIA**.  \n\n**DADOS PESSOAIS:**  \n• **Nome:** Turmalina, 68 anos, aposentada.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), Estou com uma diarreia que não para tem 5 dias. É água pura e tem uma dor na barriga que vai e volta.  \n\n**SOBRE A DIARREIA:**  \n• **Frequência:** Vou ao banheiro umas 8 a 10 vezes por dia.  \n• **Aspecto:** É líquida, amarela. Tem um cheiro muito forte, horrível, diferente do normal.  \n• **Sangue/Muco:** Às vezes vejo um pouco de muco, tipo uma \"catarro\", mas sangue eu não vi.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Dor abdominal:** Sinto umas cólicas fortes na parte de baixo da barriga.  \n• **Febre:** Tive febre baixa ontem e hoje, uns 38 graus.  \n• **Náuseas:** Estou enjoada, sem vontade de comer.  \n\n**HISTÓRIA PREGRESSA:**  \n• **Uso de antibióticos:** tratei um canal no dente que inflamou. O dentista passou Clindamicina. Terminei de tomar faz uma semana.  \n• **Hospitalização recente:** Não fiquei internada.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Tenho pressão alta e tomo Omeprazol para o estômago todo dia.  \n• **Alergias:** Nega.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Vou precisar de cirurgia?*  \n• *Porque eu tive isso?*  \n• *Eu posso pegar isso de novo depois de sarar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 102 bpm  \n• **FR:** 18 irpm  \n• **Temp. Axilar:** 38,2ºC  \n• **SatO2:** 96% em ar ambiente  \n\n\n**Geral:** Regular estado geral, desidratada (+/4+), corada, lúcida e orientada. Fácies de dor.  \n\n\n**Abdominal:**  \n• **Inspeção:** Leve distensão abdominal.  \n\n• **Ausculta:** Ruídos hidroaéreos aumentados.  \n\n• **Palpação:** Dor difusa à palpação profunda, pior em abdome inferior. Sem sinais de peritonite (Blumberg negativo).  \n\n• **Percussão:** Timpanismo difuso.  \n\n\n**Toque retal:** ampola vaiza, pequena presença de muco em dedo de luva.  \n\n\n**Demais sistemas:** Sem alterações dignas de nota.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Hemograma:**  \n• **Leucócitos:** 16.500/mm³ (VR: 4.000-11.000)  \n• **Hb:** 13,5 g/dL.  \n• **Plaquetas:** 250.000/mm³.  \n\n**Bioquímica:**  \n• **Creatinina:** 1,3 mg/dL.  \n• **Ureia:** 55 mg/dL.  \n• **Potássio:** 3,4 mEq/L (VR: 3,5-5,0).  \n• **Sódio:** 136 mEq/L.  \n• **Albumina:** 3,1 g/dL.  \n• **PCR:** 120 mg/L.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME DE FEZES",
+      "conteudo": "**Pesquisa de antígeno GDH ((Glutamato Desidrogenase):** POSITIVO.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "COLONOSCOPIA",
+      "conteudo": "Mucosa colônica hiperemiada e edemaciada, com focos de pus e recoberta por múltiplas placas elevadas, amareladas e aderentes, intercaladas por mucosa inflamada.",
+      "imagem": "img_printeds/e132p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "POSOLOGIA",
+      "conteudo": "**ATENÇÃO:**  \n**Indique a dose, a via e o tempo de uso do medicamento prescrito**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Identifica-se;  \n(2) Cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese investigando o fator de risco principal:**  \n(1) Pergunta sobre uso recente de antibióticos;  \n(2) Pergunta sobre o tempo de término do tratamento antibiótico ou qual antibiótico foi utilizado.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga o uso de antibióticos.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita o exame físico e identifica os sinais vitais alterados:**  \n(1) Solicita exame físico (geral e abdominal);  \n(2) Identifica a febre e/ou a taquicardia nos impressos fornecidos.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não solicita exame físico ou não identifica alterações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exames complementares para diagnóstico e estratificação de gravidade:**  \n(1) Hemograma e Função Renal (Creatinina/Ureia);  \n(2) Exame de fezes.  \n\n**Adequado:** solicita os dois grupos de exames.  \n**Parcialmente adequado:** solicita apenas exames gerais ou apenas a pesquisa nas fezes.  \n**Inadequado:** não solicita exames pertinentes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame endoscópico ou de imagem para avaliação da mucosa:**  \n(1) Colonoscopia ou Retossigmoidoscopia.  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta o achado da colonoscopia:**  \n(1) Identifica a presença de Pseudomembranas (ou placas amareladas aderentes).  \n\n\n**Adequado:** verbaliza a presença de pseudomembranas.  \n**Inadequado:** não interpreta ou interpreta incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula o diagnóstico definitivo:**  \n(1) Colite Pseudomembranosa OU Infecção por Clostridioides difficile (CDI).  \n\n**Adequado:** verbaliza o diagnóstico correto.  \n**Inadequado:** não verbaliza ou erra o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define a conduta inicial em relação ao antibiótico prévio:**  \n(1) Suspender o uso do antibiótico causador (se ainda estiver em uso) ou orienta evitar o uso da classe (Clindamicina) futuramente.  \n\n**Adequado:** verbaliza a suspensão ou a correlação com o antibiótico prévio.  \n**Inadequado:** não aborda o antibiótico prévio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve o tratamento farmacológico específico para o caso moderado:**  \n(1) Vancomicina 125 mg;  \n(2) Via ORAL;  \n(3) De 6 em 6 horas (4 vezes ao dia) por 10 a 14 dias.  \n\n**Adequado:** indica o fármaco, a via oral e a posologia correta.  \n**Parcialmente adequado:** indica o fármaco correto (Vancomicina ou Fidaxomicina), mas erra a via (ex: pede endovenosa) ou a dose.  \n**Inadequado:** prescreve antibiótico ineficaz ou não prescreve.  \n\n*Obs: Aceitar Metronidazol 500mg VO 8/8h apenas se o candidato justificar indisponibilidade de Vancomicina, embora Vancomicina seja a primeira escolha atual.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica medidas de suporte e precaução:**  \n(1) Hidratação venosa ou oral vigorosa e correção de distúrbios eletrolíticos (hipocalemia);  \n(2) Isolamento de contato OU precaução de contato (lavagem de mãos com água e sabão, uso de luvas e avental).  \n\n**Adequado:** indica as duas medidas.  \n**Parcialmente adequado:** indica apenas uma medida.  \n**Inadequado:** não indica medidas de suporte ou biossegurança.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre a contraindicação de antidiarreicos:**  \n(1) Não utilizar Loperamida ou medicamentos que reduzam a motilidade intestinal.  \n\n**Adequado:** orienta a não usar antidiarreicos.  \n**Inadequado:** prescreve antidiarreicos ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre o risco de recidiva:**  \n(1) Explica à paciente que existe risco de a diarreia voltar (recidiva) após o término do tratamento (cerca de 20-30% dos casos);  \n(2) Orienta a retornar imediatamente ao serviço médico caso os sintomas reapareçam.  \n\n**Adequado:** realiza a orientação de alerta de recidiva de forma clara.  \n**Inadequado:** não alerta sobre a possibilidade de recidiva.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

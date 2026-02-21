@@ -1,0 +1,304 @@
+{
+  "uid": 201,
+  "hash": "pepe_201",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "xABCDE - Amputação Traumática Transtibial",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida\n\nReferências:\nhttps://revistaft.com.br/o-uso-do-torniquete-em-aph-de-combate/\nhttps://portal.afya.com.br/medicina-de-emergencia/torniquete-uma-ferramenta-salvadora-de-vidas/",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Atendimento pré-hospital, avenida Urbana de uma grande cidade.\n\nDescrição do caso:\nVocê é médico(a) do SAMU e atenderá um paciente de 26 anos envolvido em acidente automobilístico *Moto x Poste* há 20 minutos. Após isolamento e segurança do local, é constatado que o paciente apresenta amputação traumática transtibial direita, com o segmento do membro amputado próximo ao corpo do paciente.  \n\nNo momento o paciente encontra-se consciente, agitado, sudoreico e reclama de muita dor, visivelmente ansioso com sua lesão do membro.",
+  "tarefas": "TAREFAS:  \n\n- realizar a anamnese sucinta sobre o caso;  \n- realizar avaliação primária (xABCDE) no APH do paciente traumatizado;  \n- verbalizar os achados e as necessidades em cada etapa do atendimento;  \n- adotar a conduta terapêutica necessária;  \n- identificar as alterações no exame físico;  \n- adotar a(s) conduta(s) terapêutica(s) necessária(s).",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Enzo Henrique, 26 anos, Youtuber.  \n\n\n**QUEIXA PRINCIPAL:** Doutor(a), POR FAVOR ME AJUDE!  \nEstava empinando minha moto pra fazer um vídeo e perdi o controle de repente e bati nesse poste! MINHA PERNA FOI ARRANCADA E ESTÁ DOENDO MUITO!  \n\n\n• **Tempo do ocorrido:** faz uns 20 minutos.  \n• **Uso de capacete:** sim, eu estava de capacete.  \n• **Localização:** na perna direita.  \n• **Irradiação:** não irradia.  \n• **Intensidade:** 10/10.  \n\n\n**NEGAR:** perda de consciência, tontura, desmaio ou vômitos.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Cirurgias e internações:** tirei o apendice aos 12 anos.  \n• **VACINAÇÃO:** Acho que só tomei quando era criança.  \n\n• **Álcool, tabaco e drogas:** bebo cerveja aos finais de semana. Fumo cigarro eletrônico/POD.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato indique que deseja **armazenar, guardar ou transportar** o segmento amputado, pergunte: *Como o segmento amputado deve ser armazenado e transportado?*  \n• Caso o candidato solicite o uso de torniquete, liberar o impresso **TORNIQUETE**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 100x60 mmHg  \n• **FC:** 90 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98%  \n• **Glasgow:** 14  \n\n\n\n**Ectoscopia:** paciente em regular estado geral, orientado, agitado, ansioso, acianótico e anictérico.  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** sem alterações.  \n\n\n**Abdominal:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME DE MMII",
+      "conteudo": "**Membro Inferior Esquerdo:**   \nApresenta escoriações superficiais, pulsos tibial posterior e pedioso presentes.  \n\n\n**Membro Inferior Direito:**  \nPresença de sangramento ativo moderado no local de amputação da perna direita.  \nO segmento do membro amputado direito se encontra presente no local do trauma.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TORNIQUETE",
+      "conteudo": "OLHE PARA A CAMERA E VERBALIZE:  \nQuando utilizar o Torniquete APH?",
+      "imagem": "img_printeds/e201p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "PÓS USO DO TORNIQUETE",
+      "conteudo": "**MEMBRO INFERIOR DIREITO:**  \nApós aplicação do torniquete APH, obteve-se controle hemorrágico no coto de amputação do membro inferior direito.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se adequadamente ao paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Reconheceu a situação de gravidade e realiza anamnese simplificada.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Fez menção a paramentação com luvas (de procedimento ou estéril).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Iniciou a avaliação primária do ATLS pelo (X) - Exsanguinação grave.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identificou e verbalizou o controle imediato da hemorragia externa com risco iminente de morte, antes da avaliação das vias aéreas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicitou o Torniquete APH e fez sua utilização no membro com a amputação traumática.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explicou quando e em quais situações deve-se utilizar o Torniquete de APH:**  \n\n1) Hemorragia maciça e incontrolável: Se o sangramento for arterial e jorrar, ou for venoso abundante que não para com pressão direta.  \n2) Amputações traumáticas: Nesses casos, o controle rápido do sangramento é vital.  \n3) Múltiplas vítimas: Em cenários com muitos feridos, onde o socorrista precisa atender rapidamente a várias pessoas.  \n\n**Adequado:** explica os três itens.  \n**Parcialmente adequado:** explica dois itens.  \n**Inadequado:** explica um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Respondeu que o segmento amputado deve ser transportado junto com o paciente na ambulância para uma possível reimplantação, envolvido em um pano limpo e úmido, armazenado em um saco plástico selado.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "Se o segmento amputado estiver presente, envolva-o em um pano limpo e úmido (com soro fisiológico ou água limpa), \r\ncoloque-o em um saco plástico selado e este em outro recipiente com gelo (sem contato direto com o gelo para evitar congelamento).  \r\nO objetivo é preservar o tecido para uma possível reimplantação. O tempo entre a amputação e o reimplante ideal é de até 6 horas para tecidos sem refrigeração.  "
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Reconheceu que o paciente está com a via aérea pérvia (A).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indicou o uso de oxigênio em máscara não reinalante como manutenção.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Indicou a colocação de Colar cervical, Prancha rígida e Coxins laterais.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbalizou que vai verificar a Respiração/Ventilação (B), focando na FR e o exame físico do aparelho respiratório.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indicou a Monitorização multiparamétrica (C): PA, FC, FR, SpO2 e Temperatura corporal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Avaliou o estado hemodinâmico do paciente e notou a sua estabilidade.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indicou o acesso venoso periférico de grosso calibre com jelco/abocath 14, 16 ou 18.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Indicou a necessidade de Reposição volêmica com solução cristaloide.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Indicou analgesia EV.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Indicou Ácido Tranexâmico 1G EV devido ao sangramento aparente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Realizou avaliação neurológica (D), mencionando cálculo da Escala de Coma de Glasgow e reação pupilar.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Solicitou a exposição abrangente do paciente para permitir a inspeção das lesões corporais (E).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**21. Identificou o atraso na vacina antitetânica.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 22,
+      "descricao": "**22. Fez contato com o Hospital de Referência para Trauma Ortopédico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 23,
+      "descricao": "**23. Informou ao paciente que ele irá passar por cirurgia ortopédica de emergência.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

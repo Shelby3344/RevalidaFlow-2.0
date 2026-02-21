@@ -1,0 +1,253 @@
+{
+  "uid": 1903,
+  "hash": "pepe_1903",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Anticoncepção na Adolescência | 2019",
+  "definicao": "Estação original adaptada  \nPSU-CE 2019 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê é médico da equipe de Saúde da Família e atenderá Júlia, de 15 anos. Ela veio à unidade sozinha e solicitou uma consulta. A paciente aguarda na sala de atendimento.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese completa da paciente;  \n- Garantir os aspectos éticos e legais do atendimento ao adolescente;  \n- Fornecer as orientações pertinentes sobre saúde sexual e reprodutiva;  \n- Pactuar a conduta contraceptiva e orientar sobre prevenção;  \n- Estimular a promoção da saúde e hábitos saudáveis.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Júlia, 15 anos, estudante do 1º ano do Ensino Médio.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim porque comecei a namorar firme e queria tomar alguma coisa para não engravidar.  \n\n\n**DEMAIS QUEIXAS:**  \n• Não sinto nada, minha saúde é boa.  \n\n\n**HISTÓRIA GINECOLÓGICA E SEXUAL:**  \n• **Menarca:** Foi aos 12 anos.  \n• **Ciclo:** É regular, desce todo mês, dura uns 5 dias.  \n• **Cólicas:** Sinto um pouco de cólica no primeiro dia.  \n\n• **Queixas urinárias/vaginais:** Não tenho corrimento, nem cheiro ruim, nem dor pra fazer xixi.  \n\n• **Início da vida sexual:** Comecei faz 3 meses, com meu namorado atual.  \n• **Parceiros:** Só ele.  \n\n• **Proteção:** A gente usa camisinha às vezes. Mas eu tenho medo de confiar só nela.  \n• **Abuso:** Nunca sofri abuso, é tudo consentido.  \n\n\n**CONTEXTO PSICOSSOCIAL (HEBAD):**  \n• **Casa:** Moro com meus pais. A gente se dá bem, mas eles não sabem que eu vim aqui. Tenho medo que descubram.  \n• **Escola:** Gosto da escola, minhas notas são boas.  \n• **Atividades:** Jogo vôlei na escola duas vezes por semana.  \n\n• **Drogas/Álcool:** Eu bebo um pouco nas festinhas dos amigos, nada demais. Já experimentei maconha uma vez, mas não gostei.  \n• **Alimentação:** Como normal, comida de casa mesmo (arroz, feijão, carne, salada). Mas também como umas frituras e refrigerante quando saio.  \n\n\n**HISTÓRIA PATOLÓGICA PREGRESSA:**  \n• **Alergias/Doenças:** Não tenho alergia e nunca fiquei internada.  \n• **Vacinas:** Minha mãe cuida disso, acho que tomei a de HPV na escola ano passado.  \n\n\n**DÚVIDAS:**  \n• 1 *Doutor(a), meus pais vão ficar sabendo dessa consulta? O(a) senhor(a) vai contar pra eles?*  \n\n• 2 *Quais as opções de contracepção eu posso usar?*  \n\n• 3 *Tenho medo de tomar pílula e engordar ou ficar cheia de espinhas. Vou ter algum efeito colateral?*  \n\n• 4 APÓS o candidato informar sobre efeitos colaterais: *Eu vou escolher a pilula combinada mesmo, acho mais fácil.*  \n\n• 5 *Vou ter que voltar aqui?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 72 bpm  \n• **Peso:** 54 kg  \n• **Altura:** 1,62 m  \n• **IMC:** 20,5 kg/m²  \n\n\n**Ectoscopia:** Bom estado geral, corada, hidratada, acianótica, anictérica. Pele sem acne ou hirsutismo.  \n\n\n**Mamas:** Desenvolvimento adequado para a idade (Tanner M5), sem nódulos.  \n**Abdome:** Plano, flácido, indolor.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentou-se ao paciente ou cumprimentou-o?**  \n(1) diz seu nome;  \n(2) diz sua profissão.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Identificou o paciente?**  \n(1) nome;  \n(2) idade;  \n(3) naturalidade;  \n(4) procedência;  \n(5) escolaridade;  \n(6) raça;  \n(7) religião.  \n\n**Adequado:** pergunta pelo menos nome e idade (e mais algum item).  \n**Parcialmente adequado:** pergunta apenas o nome OU apenas a idade.  \n**Inadequado:** não pergunta nome e nem idade.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Determinou o motivo da consulta, encorajando a adolescente para contar sua história?**  \n\n**Adequado:** determina o motivo e encoraja.  \n**Inadequado:** não determina o motivo.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realizou “escuta atenta”, utilizando linguagem verbal e não-verbal?**  \n(1) manteve contato visual;  \n(2) postura corporal adequada;  \n(3) gestos encorajadores;  \n(4) encorajamentos mínimos (“Hum, hum”; “sim”; “e então”; “fale mais sobre isso”);  \n(5) não interrompeu o paciente;  \n(6) evitou fazer anotações ou olhar o relógio repetidamente.  \n\n**Adequado:** realiza dois ou mais itens.  \n**Inadequado:** realiza um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Orientou sobre o direito à privacidade, confidencialidade no atendimento, além do direito ao sigilo profissional.**  \n(1) Garantiu que as informações discutidas durante e depois da consulta ou entrevista não podem ser repassadas aos pais e/ou responsáveis sem a permissão expressa do adolescente.  \n\n**Adequado:** orienta corretamente sobre o sigilo.  \n**Inadequado:** não orienta ou condiciona o atendimento à presença dos pais.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Perguntou sobre as atividades sexuais da adolescente**  \n(1) iniciação sexual;  \n(2) uso de contraceptivo;  \n(3) múltiplos parceiros ou monogamia seriada;  \n(4) passado de abuso sexual.  \n\n**Adequado:** pergunta dois ou mais itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Perguntou sobre o ciclo menstrual**  \n(1) menarca;  \n(2) regularidade;  \n(3) fluxo;  \n(4) cólicas.  \n\n**Adequado:** pergunta dois ou mais itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Perguntou sobre problemas geniturinários**  \n(1) corrimento;  \n(2) odor fétido;  \n(3) sangramentos;  \n(4) dor pélvica;  \n(5) disúria.  \n\n**Adequado:** pergunta dois ou mais itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Apresentou todos os métodos, contraceptivos hormonais e não hormonais.**  \n(1) Apresenta ao menos 3 opções: hormonais (pílula, injetável, implante, etc) e não hormonais (DIU de cobre, preservativo).  \n\n**Adequado:** apresenta os métodos.  \n**Inadequado:** não apresenta ou apresenta apenas um.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Avaliou a existência ou não de contraindicações ao uso de algum deles pela adolescente**  \n(1) Pergunta sobre enxaqueca com aura, trombose prévia, tabagismo ou outras contraindicações pertinentes.  \n\n**Adequado:** avalia.  \n**Inadequado:** não avalia.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orientou acerca dos receios frequentes de adolescentes sobre uso de contraceptivos**  \n(1) alteração de peso corporal;  \n(2) problemas de pele;  \n(3) associação com infertilidade futura;  \n(4) dismenorreia;  \n(5) mudanças de humor e outros.  \n\n**Adequado:** orienta sobre dois ou mais itens.  \n**Parcialmente adequado:** orienta sobre apenas um item.  \n**Inadequado:** não orienta sobre item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Ajudou na escolha do método - lembrando sempre que tal escolha é da adolescente ou do casal;**  \n(1) Realiza a decisão compartilhada, respeitando a preferência da paciente.  \n\n**Adequado:** ajuda na escolha.  \n**Inadequado:** impõe um método ou não ajuda na escolha.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Confirmou a escolha e prescreveu o contraceptivo**  \n(1) Prescreve o método escolhido (ACO combinado).  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Enfatizou a importância da dupla proteção**  \n(1) uso concomitante de contraceptivo de barreira/ preservativo como o método contraceptivo.  \n\n**Adequado:** enfatiza.  \n**Inadequado:** não enfatiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Realizou abordagem integral do adolescente?**  \n(1) alimentação;  \n(2) vacinas;  \n(3) escolaridade;  \n(4) atividade física;  \n(5) uso de álcool;  \n(6) uso de drogas.  \n\n**Adequado:** aborda dois ou mais itens.  \n**Parcialmente adequado:** aborda apenas um item.  \n**Inadequado:** não aborda item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Perguntou sobre história patológica pregressa?**  \n(1) alergias;  \n(2) internamentos;  \n(3) outras patologias.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta um ou dois itens.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Orientou sobre o autocuidado, saúde e a sexualidade na adolescência.**  \n(1) orientação sobre sexualidade;  \n(2) vacinas;  \n(3) alimentação;  \n(4) atividade física;  \n(5) higiene.  \n\n**Adequado:** orienta sobre dois ou mais itens.  \n**Parcialmente adequado:** orienta sobre apenas um item.  \n**Inadequado:** não orienta sobre item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Checou a compreensão do paciente?**  \n(1) Pergunta se a paciente entendeu as orientações ou se tem dúvidas.  \n\n**Adequado:** checa a compreensão.  \n**Inadequado:** não checa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Enfatizou a importância da avaliação clínica periódica, agendando retorno.**  \n(1) Agenda ou orienta o retorno para seguimento.  \n\n**Adequado:** enfatiza e agenda.  \n**Inadequado:** não enfatiza ou não agenda.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Anunciou o fechamento da consulta e despediu-se da adolescente**  \n(1) Encerra a consulta de forma cordial.  \n\n**Adequado:** anuncia e despede-se.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

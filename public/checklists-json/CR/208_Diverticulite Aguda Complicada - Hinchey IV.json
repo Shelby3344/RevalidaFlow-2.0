@@ -1,0 +1,161 @@
+{
+  "uid": 208,
+  "hash": "pepe_208",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Diverticulite Aguda Complicada - Hinchey IV",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização;  \n• Laboratório de análises clínicas;  \n• Setor de imagem com Tomografia Computadorizada;  \n• Centro cirúrgico e UTI.\n\nDescrição do caso:\nVocê está de plantão em um hospital terciário e atenderá um paciente de 62 anos com queixa de dor abdominal intensa de início súbito e febre.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao quadro.  \n- Solicitar e realizar todas as etapas do exame físico abdominal.  \n- Solicitar exames complementares pertinentes, caso necessário.  \n- Verbalizar a hipótese diagnóstica e a classificação da gravidade.  \n- Descrever o manejo inicial.  \n- Indicar a conduta terapêutica definitiva.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar o impresso **EXAME FÍSICO ABDOMINAL** somente APÓS o candidato verbalizar todo o exame abdominal.  \n\n**DADOS PESSOAIS:**  \n• Cláudio, 62 anos, aposentado.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor terrível na barriga.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou ontem à noite, mais fraca, mas de umas 4 horas pra cá ficou insuportável.  \n• **Localização:** Começou aqui do lado esquerdo, mas agora dói tudo.  \n• **Característica:** É uma pontada que não para, parece que rasga.  \n• **Intensidade:** 10/10. É a pior dor da minha vida.  \n• **Atenuantes/agravantes:** Nada melhora. Piora só de respirar ou tentar me mexer.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Tive febre alta em casa, medi e deu 39°C.  \n• **Calafrios:** Tive um calafrio muito forte agora há pouco.  \n• **Trânsito intestinal:** Não consigo soltar pum nem ir ao banheiro desde hoje cedo.  \n• **Náuseas/vômitos:** Estou muito enjoado, mas não cheguei a vomitar.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho pressão alta, tomo Losartana. E fiz aquele exame da colonoscopia ano passado e o médico falou que tenho divertículo.  \n• **Cirurgias e alergias:** Nega.  \n• **Hábitos:** Fumo 1 maço por dia há 40 anos. E só bebo aos finais de semana  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Vou precisar operar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 95x55 mmHg  \n• **FC:** 125 bpm  \n• **FR:** 28 irpm  \n• **SatO2:** 94% em ar ambiente  \n• **Temp. axilar:** 39.2°C  \n\n\n**Ectoscopia:** Paciente em Mau Estado Geral (MEG), pálido (+/4+), sudoreico, desidratado (++/4+), taquipneico. Apresenta-se quieto no leito, evitando qualquer movimento (posição antálgica).  \n\n\n**Cardiovascular:** Ritmo cardíaco regular, taquicárdico, bulhas hipofonéticas. Pulsos periféricos finos e rápidos.  \n\n\n**Respiratório:** Murmúrio vesicular diminuído globalmente, mas presente e simétrico. Expansibilidade torácica diminuída devido à dor abdominal.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO ABDOMINAL",
+      "conteudo": "• **Inspeção:** Abdome distendido, imóvel, sem cicatrizes cirúrgicas.  \n\n• **Ausculta:** Ruídos hidroaéreos ausentes.  \n\n• **Percussão:** Timpanismo difuso.  \n\n• **Palpação:** Abdome em tábua. Dor intensa e difusa à palpação superficial e profunda. Descompressão Brusca positiva em todo o abdome.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Leucócitos:** 22.500/mm³ (VR: 4.000 - 11.000/mm³)  \n• **Bastões:** 15% (VR: 0 - 5%)  \n• **Hemoglobina:** 13,8 g/dL (VR: 13,5 - 17,5 g/dL)  \n• **Plaquetas:** 310.000/mm³ (VR: 150.000 - 450.000/mm³)  \n\n\n**PERFIL RENAL E ELETROLÍTOS**  \n• **Ureia:** 72 mg/dL (VR: 13 - 43 mg/dL)  \n• **Creatinina:** 1.8 mg/dL (VR: 0,7 - 1,3 mg/dL)  \n• **Sódio (Na):** 131 mEq/L (VR: 135 - 145 mEq/L)  \n• **Potássio (K):** 5.4 mEq/L (VR: 3,5 - 5,0 mEq/L)  \n\n\n**COAGULOGRAMA**  \n• **INR:** 1.3 (VR: 0,8 - 1,2)  \n• **TTPA:** 35 segundos (VR: 25 - 35 segundos)  \n\n\n**GASOMETRIA ARTERIAL (em ar ambiente)**  \n• **pH:** 7.26 (VR: 7.35 - 7.45)  \n• **PaCO2:** 30 mmHg (VR: 35 - 45 mmHg)  \n• **HCO3:** 14 mEq/L (VR: 22 - 26 mEq/L)  \n• **Lactato:** 4.2 mmol/L (VR: < 2.0 mmol/L)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "TC DE ABDOME E PELVE",
+      "conteudo": "**Achados:**  \n• Múltiplos divertículos no cólon sigmoide, com espessamento parietal significativo.  \n\n• Sinais de perfuração de divertículo sigmoideano.  \n\n• líquido livre na cavidade peritoneal, material com densidade semelhante a fezes e bolhas gasosas de permeio.  \n\n• Gordura mesenterial adjacente densa e heterogênea.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre características da dor e sintomas associados:**  \n(1) início;  \n(2) localização e irradiação;  \n(3) intensidade;  \n(4) fatores de piora/melhora;  \n(5) febre ou calafrios;  \n(6) parada de eliminação de flatos/fezes.  \n\n**Adequado:** pergunta sobre quatro ou mais características.  \n**Parcialmente adequado:** pergunta sobre três características.  \n**Inadequado:** pergunta sobre duas ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga antecedentes relevantes:**  \n(1) histórico de diverticulose ou dor abdominal prévia;  \n(2) cirurgias abdominais anteriores;  \n(3) comorbidades (HAS, DM);  \n(4) hábitos (tabagismo).  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza o exame físico abdominal, identificando os achados de peritonite:**  \n(1) verbaliza a realização da inspeção, ausculta, percussão e palpação;  \n(2) identifica a rigidez abdominal (abdome em tábua);  \n(3) identifica a Descompressão Brusca (Blumberg) positiva.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza as medidas de suporte inicial (manejo do choque séptico):**  \n(1) Monitorização cardíaca, oximetria e PA contínua;  \n(2) Obtenção de dois acessos venosos calibrosos e resposição volêmica;  \n(3) Início de antibioticoterapia endovenosa de amplo espectro (cobertura para gram-negativos e anaeróbios);  \n(4) Jejum OU Sondagem nasogástrica (SNG);  \n(5) Sondagem vesical de demora (SVD) para controle de diurese;  \n(6) Analgesia EV;  \n(7) Antitérmico (paciente febril).  \n\n**Adequado:** indica quatro ou mais medidas.  \n**Parcialmente adequado:** indica três medidas.  \n**Inadequado:** indica duas ou menos medidas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais para avaliação da sepse e pré-operatório:**  \n(1) Hemograma;  \n(2) Ureia e Creatinina;  \n(3) Eletrólitos (Sódio, Potássio);  \n(4) Coagulograma (INR, TTPA);  \n(5) Gasometria Arterial com Lactato.  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita o exame de imagem padrão-ouro para o diagnóstico e estadiamento.**  \n\n**Adequado:** solicita Tomografia Computadorizada (TC) de abdome e pelve (com ou sem contraste).  \n**Inadequado:** não solicita TC.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza a hipótese diagnóstica principal:**  \n\n**Adequado:** verbaliza Diverticulite Aguda Perfurada (ou Complicada) com Peritonite Fecaloide.  \n**Parcialmente adequado:** verbaliza apenas Peritonite ou Abdome Agudo Perfurativo.  \n**Inadequado:** não verbaliza a hipótese ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza a classificação de Hinchey correspondente ao quadro.**  \n\n**Adequado:** classifica como Hinchey IV.  \n**Inadequado:** não classifica ou classifica incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica e descreve o procedimento cirúrgico de urgência.**  \n\n**Adequado:** indica Laparotomia Exploradora de urgência/emergência e avaliação do cirurgião.  \n**Parcialmente adequado:** indica apenas cirurgia, OU laparotomia, OU avaliação do cirurgião, sem citar URGÊNCIA ou EMERGÊNCIA.  \n**Inadequado:** não indica cirurgia ou indica procedimento incorreto/colonoscopia/enema.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

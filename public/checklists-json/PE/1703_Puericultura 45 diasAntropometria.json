@@ -1,0 +1,216 @@
+{
+  "uid": 1703,
+  "hash": "pepe_1703",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Puericultura 45 dias/Antropometria",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está em uma Unidade Básica de Saúde.\n\nDescrição do caso:\nVocê está em uma Unidade Básica de Saúde e atende um bebê com 45 dias de vida,  \ndo sexo feminino, que nasceu a termo, com 2.600 gramas de peso, 48 cm de  \ncomprimento e 36,5 cm de perímetro cefálico. A mãe trouxe o bebê para consulta de  \npuericultura e não apresenta queixa.",
+  "tarefas": "Nos próximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- pesar o bebê e medir seu comprimento e perímetro cefálico;  \n- registrar as medidas nos gráficos de crescimento no caderno de respostas;  \n- interpretar os achados e explicar para a mãe o diagnóstico relacionado ao crescimento.  \n\n\nNão é necessário realizar anamnese.  \nNão é necessário orientar conduta.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Joana, 29 anos, enfermeira.  \n• **Criança:** Beatriz, 1 mês e 15 dias.  \n\n\n**QUEIXA PRINCIPAL:** viemos para a consulta de rotina, para ver se está tudo certo com o crescimento dela.  \n\n\n**DEMAIS QUEIXAS:** nega.  \n\n\n**CADERNETA DA CRIANÇA:** Liberar todos os impressos de **GRÁFICOS**  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças, medicações, cirurgias e internações:** nega.  \n• **Vacinação:** está tudo em dia.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**ORIENTAÇÕES:**  \n• Após o candidato concluir todo exame físico das medidas antropométricas, liberar o impresso **DADOS ANTROPOMÉTRICOS ATUAIS**",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "DADOS ANTROPOMÉTRICOS ATUAIS",
+      "conteudo": "**PERÍMETRO CEFÁLICO:** 38,5 cm  \n**PESO:** 3.000g  \n**COMPRIMENTO:** 51cm",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "GRÁFICO DE PERÍMETRO CEFÁLICO",
+      "conteudo": "",
+      "imagem": "img_printeds/2017-e3p1.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "GRÁFICO DE PESO",
+      "conteudo": "",
+      "imagem": "img_printeds/2017-e3p2.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "GRÁFICO DE COMPRIMENTO",
+      "conteudo": "",
+      "imagem": "img_printeds/2017-e3p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Coloca papel-toalha na balança.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Calibra a balança corretamente antes de realizar a medida do peso.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Retira ou solicita para a mãe a retirada completa da roupa, do calçado e da fralda do bebê.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Posiciona o bebê ou solicita que a mãe o posicione no centro da balança para realização da pesagem.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Retira o bebê da balança ou solicita que a mãe o faça.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Coloca o bebê descalço e sem adereços na cabeça no centro da régua antropometrica para medida do comprimento.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Mantém a cabeça do bebê encostada na parte fixa do equipamento.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Pressiona, cuidadosamente, os joelhos do bebê para baixo, com uma das mãos, de modo que eles fiquem estendidos.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Junta os pés do bebê e leva a parte móvel do equipamento até a planta dos pés.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a leitura da régua antropométrica quando a parte móvel estiver em ângulo reto com os pés.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza a medida do perímetro cefálico do bebê com a fita métrica estendida, passando sobre o arco das sobrancelhas (glabela) e a proeminência occipital (garantindo que a fita não passe sobre o pavilhão auricular ou adereço).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Plota a medida do peso (3kg) no local adequado.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Plota a medida do comprimento (51cm) no local adequado.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Plota a medida do perímetro cefálico (38,5cm) no local adequado.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Interpreta corretamente (ganho ponderal e estatural inadequados) e explica os resultados para a mãe, com linguagem clara:**    \n(1) Déficit no ganho ponderal - ganho de apenas 400g ou 9g/dia; z-escore igual a -3;  \n(2) Déficit no crescimento estatural - ganho de apenas 3cm; z-escore entre -3 e -2;  \n(3) Crescimento normal de perímetro cefálico.  \n\n**Inadequado:** se explicar um único quesito ou não explicar nenhum;  \n**Parcialmente adequado:** se explicar 2 quesitos;  \n**Adequado:** se explicar todos os 3 quesitos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.5",
+        "adequado": "3"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

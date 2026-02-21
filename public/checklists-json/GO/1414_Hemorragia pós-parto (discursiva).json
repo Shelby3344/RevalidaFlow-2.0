@@ -1,0 +1,160 @@
+{
+  "uid": 1414,
+  "hash": "pepe_1414",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Hemorragia pós-parto (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Centro Obstétrico.  \nA unidade possui a seguinte infraestrutura:  \n• Sala de parto;  \n• Acesso a Farmácia Hospitalar;  \n• Laboratório de análises clínicas e banco de sangue;  \n• Centro cirúrgico.\n\nDescrição do caso:\nVocê está de plantão no centro obstétrico e é chamado(a) com urgência para a sala de parto. A equipe de enfermagem relata que uma puérpera, 30 minutos após o parto, \"está sangrando\" e parece sonolenta.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico, caso necessário;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a hipótese diagnóstica e seu(s) diagnóstico(s) diferencial(is), caso exista;  \n- Responder as dúvidas da paciente;  \n- Propor condutas e orientações ao caso;  \n\n\\\nATENÇÃO!  \nCASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Eu sou Laina, enfermeira da obstetrícia  \n• **Paciente:** é Queila, 38 anos.  \n\n\n**MOTIVO DE CONSULTA:** a paciente está com 30 minutos de pós-parto e começou com um sangramento e não para!  \n• Ela já está ficando pálida, sonolenta e falando que está tonta.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** É a oitava gestação dela, com 7 filhos e 1 aborto.  \n• **IG:** 39 semanas.  \n• **Parto atual:** Foi um parto normal, rápido. O bebê nasceu grande, com 4.120 kg.  \n• **Doenças:** Ela tem pressão alta e disse que controlou bem durante o pré-natal.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Após o candidato indicar **OCITOCINA** ou **MASSAGEM UTERINA:** *Ela contina sangrando Dr(a)*  \n\n**DÚVIDAS:**  \n• *O que está acontecendo? Por que ela não para de sangrar?*  \n• *Isso é muito grave?*  \n• *Ela vai precisar de cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 90x50 mmHg  \n• **FC:** 120 bpm  \n• **FR:** 24 irpm  \n• **SatO2:** 95% em ar ambiente  \n• **Temp. axilar:** 36.5°C  \n\n\n**Ectoscopia:** Paciente pálida (++/+4), sudoreica, ansiosa, taquipneica, referindo tontura.  \n\n\n**Cardiovascular:** Ritmo cardíaco regular, taquicárdico, bulhas hipofonéticas. Pulsos periféricos finos e rápidos.  \n\n\n**Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME GINECO-OBSTÉTRICO",
+      "conteudo": "**Palpação Abdominal:**  \n• Útero amolecido, globoso, com fundo uterino localizado aproximadamente 2 cm acima da cicatriz umbilical.  \n\n\n**Exame Especular:**  \n• Presença de sangramento vaginal ativo, em moderada quantidade de coloração vermelho vivo, contínuo. Ausência de coágulos de grande porte no canal vaginal.  \n\n\n**Toque Vaginal (Bimanual):**  \n• Confirma-se útero amolecido e aumentado de volume. Palpa-se solução de continuidade em parede vaginal lateral direita, compatível com laceração de trajeto grau 3.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se à paciente e à equipe.**  \n\n**Adequado:** Apresenta-se como o(a) médico(a) responsável.  \n**Inadequado:** Inicia o atendimento sem se apresentar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese obstétrica dirigida.**  \n(1) Idade Gestacional;  \n(2) Via de parto;  \n(3) Gestações, partos e abortos;  \n(4) Comorbidades (HAS e coagulopatias);  \n(5) Uso de medicações.  \n\n\n\n**Adequado:** Investiga quatro ou cinco itens.  \n**Parcialmente adequado:** Investiga 2 ou 3 dos itens.  \n**Inadequado:** Investiga 1 ou nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verbaliza os fatores de risco para Hemorragia Pós-Parto (HPP).**  \n(1) Idade materna avançada;  \n(2) Sobre distensão uterina OU útero sobredistendido OU altura uterina de 40 cm;  \n(3) Multiparidade;  \n(4) Hipertensão arterial sistêmica;  \n(5) Parto taquitócico OU parto acelerado;  \n(6) Feto macrossômico.  \n\n**Adequado:** Verbaliza ao menos 3 fatores.  \n**Parcialmente adequado:** Verbaliza 2 fatores.  \n**Inadequado:** Verbaliza 1 ou nenhum fator.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico geral e gineco-obstétrico.**  \n\n**Adequado:** Solicita os dois exames.  \n**Inadequado:** Não solicita o exame físico completo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Avalia o tônus uterino.**  \n\n**Adequado:** Identifica a atonia inicial (útero hipotônico acima da cicatriz umbilical).  \n**Inadequado:** Não avalia o tônus uterino.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a conduta inicial para atonia uterina.**  \n\n**Adequado:** Indica a administração de ocitocina endovenosa E a realização de massagem uterina bimanual.  \n**Parcialmente adequado:** Indica apenas uma das condutas.  \n**Inadequado:** Não indica nenhuma das condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica a reavaliação e a investigação sistemática das outras causas de HPP:**  \nTrauma, Tecido e Trombina.  \n\n**Adequado:** Verbaliza a necessidade de revisar o canal de parto em busca de lacerações, restos placentários e considerar coagulopatias.  \n**Inadequado:** Não indica a investigação sistemática das outras causas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Identifica a causa do sangramento.**  \n\n**Adequado:** Identifica a laceração de trajeto de parto em parede vaginal como a causa da hemorragia, associando-a à macrossomia fetal.  \n**Inadequado:** Não identifica a causa correta do sangramento.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o tratamento específico para a laceração.**  \n\n**Adequado:** Indica a realização de rafia ou sutura da laceração no canal de parto.  \n**Inadequado:** Não indica o tratamento cirúrgico para a laceração.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Inicia a estabilização hemodinâmica.**  \n\n**Adequado:** Indica a infusão de cristaloides em acesso venoso calibroso para reposição volêmica.  \n**Inadequado:** Não indica a estabilização hemodinâmica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita exames laboratoriais de urgência.**  \n(1) Hemograma;  \n(2) Coagulograma;  \n(3) Tipagem sanguínea;  \n(4) Sódio e Potássio.  \n\n**Adequado:** Solicita 3 ou 4 exames.  \n**Parcialmente adequado:** Solicita 2 exames.  \n**Inadequado:** Solicita 1 ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

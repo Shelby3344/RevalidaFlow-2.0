@@ -1,0 +1,171 @@
+{
+  "uid": 524,
+  "hash": "pepe_524",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Lavagem Auricular para Remoção de Cerume",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• sala de procedimentos;  \n• materiais para lavagem auricular.\n\nDescrição do caso:\nVocê atenderá uma mulher de 72 anos com queixa de diminuição da audição no ouvido direito.",
+  "tarefas": "TAREFAS:  \n- Realizar anamnese sucinta sobre o quadro.  \n- Solicitar o exame físico específico.  \n- Explicar à paciente o procedimento de remoção do cerume por irrigação.  \n- Citar contraindicações para a realização do procedimento.  \n- Citar outras causas de hipoacusia.  \n- Realizar todo o procedimento de lavagem auricular.  \n- Citar possíveis complicações do procedimento e orientar sobre cuidados.  \n\n\\\nCONSIDERE QUE A PACIENTE NÃO POSSUI CONTRAINDICAÇÕES PARA A REALIZAÇÃO DO PROCEDIMENTO.  \nCONSIDERE A PRESENÇA DE UM PROFISSIONAL DE ENFERMAGEM QUE AUXILIARÁ DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marlene, 72 anos, aposentada.  \n\n**MOTIVO DE CONSULTA:** Dr(a), estou escutando muito mal do ouvido. Parece que está tampado.  \n\n**SOBRE A QUEIXA:**  \n• **Início:** faz umas 2 semanas que piorou.  \n• **Lado acometido:** ouvido direito.  \n• **Zumbido:** às vezes escuto um chiado.  \n• **Dor:** não tenho dor de ouvido.  \n• **Secreção:** não saiu nada do ouvido.  \n• **Tontura:** não tenho tontura.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Cirurgias de ouvido:** nunca fiz cirurgia no ouvido.  \n• **Perfuração de tímpano:** nunca tive problema no tímpano.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• Quando o candidato explique o procedimento: *Vai doer, doutor(a)?*  \n• *Essa lavagem pode dar alguma complicação?*  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Quando o candidato solicitar os materiais: *O material está disponível.*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "OTOSCOPIA INICIAL",
+      "conteudo": "**Ouvido direito:** presença de tampão de cerume ocluindo o conduto auditivo externo, impossibilitando a visualização da membrana timpânica.  \n\n\n**Ouvido esquerdo:** conduto auditivo externo pérvio, pequena quantidade de cerume nas paredes.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "OTOSCOPIA APÓS O PROCEDIMENTO",
+      "conteudo": "**Ouvido direito:** conduto auditivo externo pérvio após remoção do tampão de cerume e Membrana timpânica íntegra. Ausência de perfuração ou sinais inflamatórios.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente de maneira cordial.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza apenas uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese direcionada ao quadro antes do procedimento:**  \n(1) tempo de evolução da queixa;  \n(2) presença de dor no ouvido;  \n(3) presença de secreção ou sangramento;  \n(4) história de cirurgia otológica prévia;  \n(5) história de perfuração timpânica; e,  \n(6) presença de tontura ou vertigem.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga apenas um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza otoscopia antes de iniciar o procedimento.**  \n\n**Adequado:** realiza.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Cita contraindicações para a remoção do cerume pelo método de irrigação:**  \n(1) história de perfuração timpânica;  \n(2) otite aguda ou otite externa;  \n(3) história de cirurgia otológica prévia;  \n(4) paciente não cooperativo; e,  \n(5) presença de corpo estranho no conduto auditivo.  \n\n**Adequado:** cita três ou mais contraindicações.  \n**Parcialmente adequado:** cita duas contraindicações.  \n**Inadequado:** cita uma contraindicação ou não cita.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Cita outras causas de hipoacusia além do acúmulo de cerume:**  \n(1) presbiacusia (envelhecimento);  \n(2) infecções (otite média ou externa);  \n(3) obstrução por corpo estranho;  \n(4) uso de medicamentos ototóxicos;  \n(5) exposição prolongada a ruídos;  \n(6) causas congênitas;  \n(7) doenças autoimunes;  \n(8) tumores (neurinoma do acústico); e,  \n(9) traumatismo cranioencefálico.  \n\n**Adequado:** cita cinco ou mais causas.  \n**Parcialmente adequado:** cita três ou quatro causas.  \n**Inadequado:** cita duas causas ou menos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explica à paciente sobre o procedimento com linguagem acessível:**  \n(1) explica como será realizado o procedimento;  \n(2) informa que o procedimento não deve causar dor, apenas desconforto leve; e,  \n(3) informa sobre a possibilidade de complicações, embora raras.  \n\n**Adequado:** explica os três aspectos.  \n**Parcialmente adequado:** explica dois aspectos.  \n**Inadequado:** explica um aspecto ou não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita os materiais necessários para a realização do procedimento:**  \n(1) luvas de procedimento;  \n(2) otoscópio;  \n(3) seringa de 20 mL ou maior;  \n(4) scalp (cateter) e/ou tesoura;  \n(5) cuba redonda;  \n(6) cuba rim;  \n(7) soro fisiológico 0,9% aquecido;  \n(8) campo, toalha ou compressas;  \n(9) óculos de proteção.  \n\n**Adequado:** solicita seis ou mais itens.  \n**Parcialmente adequado:** solicita cinco itens.  \n**Inadequado:** solicita quatro itens ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza a higienização das mãos e calça as luvas de procedimento antes de iniciar.**  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza apenas uma ação ou não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza e/ou executa os passos do procedimento de lavagem auricular:**  \n(1) posiciona a paciente sentada com a cabeça reta;  \n(2) corta o scalp deixando o tubo com aproximadamente 4 cm e descarta a agulha;  \n(3) aquece o soro fisiológico até temperatura morna;  \n(4) aspira o soro aquecido com a seringa e acopla ao scalp;  \n(5) posiciona o campo ou toalha no ombro da paciente;  \n(6) posiciona a cuba rim junto ao pescoço, abaixo da orelha;  \n(7) traciona o pavilhão auricular para trás e para cima;  \n(8) introduz a extremidade do scalp no conduto auditivo com a concavidade voltada para frente; e,  \n(9) instila o soro fisiológico sob leve pressão, deixando escoar na cuba rim.  \n\n**Adequado:** verbaliza ou executa seis ou mais passos.  \n**Parcialmente adequado:** verbaliza ou executa quatro ou cinco passos.  \n**Inadequado:** verbaliza ou executa três passos ou menos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza otoscopia após o procedimento para verificar a remoção do cerume e a integridade da membrana timpânica.**  \n\n**Adequado:** realiza.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Cita possíveis complicações do procedimento:**  \n(1) otalgia (dor no ouvido);  \n(2) lesão de pele do conduto auditivo externo;  \n(3) otite externa;  \n(4) perfuração timpânica; e,  \n(5) vertigem ou tontura.  \n\n**Adequado:** cita três ou mais complicações.  \n**Parcialmente adequado:** cita duas complicações.  \n**Inadequado:** cita uma complicação ou não cita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a paciente sobre cuidados após o procedimento e prevenção:**  \n(1) evitar introduzir objetos no conduto auditivo (hastes flexíveis de algodão);  \n(2) retornar em caso de dor, secreção ou piora da audição; e,  \n(3) possibilidade de uso de cerumenolíticos se necessário no futuro.  \n\n**Adequado:** orienta dois ou mais itens.  \n**Parcialmente adequado:** orienta um item.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "uid": 2018,
+  "hash": "pepe_2018",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Protocolo SPIKES - Malformação fetal (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária - Unidade Básica de Saúde (UBS).  \nA unidade possui a seguinte infraestrutura:  \n• Consultório para atendimento pré-natal.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma primigesta de 40 anos, com 22 semanas de gestação, que retorna à consulta para mostrar o resultado de uma ecografia morfológica. A paciente está visivelmente assustada e ansiosa, e o marido não pôde acompanhá-la.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Comunicar o resultado do exame à paciente, utilizando técnicas de comunicação de más notícias;  \n- Abordar a questão da interrupção da gestação, explicando a legislação brasileira;  \n- Orientar sobre o seguimento do pré-natal e o planejamento do parto, justificando sua decisão;  \n- Acolher as angústias e esclarecer as dúvidas da paciente.  \n\n\\\nNÃO SERÁ NECESSÁRIO REALIZAR EXAME FÍSICO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Cláudia, 40 anos, casada.  \n\n**QUEIXA PRINCIPAL:**  \n• Bom dia, doutor(a). Eu vim trazer o resultado do ultrassom morfológico que o(a) senhor(a) pediu.  \n• O moço que fez o exame não me explicou nada, ficou muito quieto, e eu estou muito assustada com o que está escrito aqui.  \n\n**HISTÓRIA DA GESTAÇÃO:**  \n• **GPA:** é minha primeira gestação.  \n• **Idade gestacional:** 22 semanas.  \n• **Pré-natal:** até agora está tudo bem.  \n• **Queixas:** Só quero saber o que realmente diz esse exame.  \n\n**ANTECEDENTES PESSOAIS E FAMILIARES:**  \n• Nega comorbidades ou antecedentes familiares relevantes.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que esse resultado significa? Meu bebê tem algum problema?*  \n• *Se o problema for muito grave, se ele não tiver chances de sobreviver... eu devo tirar o bebê?*  \n• *Onde eu vou fazer meu pré-natal, continuo vindo aqui?*  \n• *E o parto, como vai ser? Onde?*  \n• *E agora, o que a gente faz?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "ECOGRAFIA MORFOLÓGICA",
+      "conteudo": "• **Feto:** Único, vivo, com biometria compatível com 22 semanas.  \n• **Batimentos Cardíacos Fetais:** 150 bpm.  \n\n\n• **Morfologia Fetal:**  \n• Identificada cardiopatia congênita complexa (hipoplasia de câmaras esquerdas).  \n• Identificado encurtamento de ossos longos dos membros (displasia esquelética) e alterações na coluna vertebral.  \n\n• **Conclusão:** Malformações consideradas graves e com prognóstico reservado.  \n• **Recomendação:** Sugere-se avaliação em serviço de medicina fetal e aconselhamento genético.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Demonstra empatia e cria um ambiente seguro para a comunicação.**  \n\n**Adequado:** Acolhe a paciente, oferece um assento, demonstra sensibilidade (ex: \"Imagino que esteja assustada\") e garante privacidade para a conversa.  \n**Inadequado:** Não realiza nenhuma das ações mencionadas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a percepção da paciente sobre o resultado do exame antes de dar a notícia.**  \n\n**Adequado:** Pergunta o que ela já compreendeu do laudo do exame ou o que outros profissionais já lhe disseram.  \n**Inadequado:** Não investiga a percepção da paciente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Comunica a má notícia de forma clara, evitando jargões técnicos.**  \n\n**Adequado:** Explica que o ultrassom mostrou problemas graves no coração e nos ossos do bebê, que precisarão de investigação e cuidados especializados.  \n**Inadequado:** Usa termos técnicos sem explicação, minimiza a gravidade ou não explica os achados.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Acolhe a reação emocional da paciente (Etapa E do Protocolo SPIKES).**  \n\n**Adequado:** nomeia e valida os sentimentos da paciente (tristeza, medo, angústia), oferecendo suporte emocional e demonstrando empatia (ex: \"Entendo que esta é uma notícia muito difícil de receber\").  \n**Inadequado:** ignora a reação emocional da paciente ou tenta mudar de assunto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Responde à pergunta sobre a interrupção da gestação, explicando o aspecto legal.**  \n\n**Adequado:** Informa que, pela legislação brasileira, as malformações fetais, mesmo que graves, não são uma indicação legal para a interrupção da gravidez.  \n**Parcialmente adequado:** Informa que não é possível interromper a gestação, mas não menciona o aspecto legal.  \n**Inadequado:** Não responde à pergunta ou fornece informação incorreta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica o prognóstico de forma realista, sem tirar as esperanças, mas sem dar falsas garantias.**  \n\n**Adequado:** Explica que o quadro é grave, mas que o prognóstico exato e as possibilidades de tratamento só serão mais claros com uma avaliação especializada, e que cada caso evolui de uma forma.  \n**Inadequado:** Afirma que o feto não tem chances ou que o tratamento garantirá a cura.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre a necessidade de referenciar o pré-natal para um serviço de alto risco e justifica a necessidade.**  \n(1) Informa que o acompanhamento do pré-natal deverá ser feito em um serviço especializado (atenção secundária/terciária) devido à complexidade do caso; e,  \n(2) Explica que o pré-natal de alto risco é necessário para realizar exames mais específicos, ter acompanhamento de uma equipe com vários especialistas e planejar o parto.  \n\n**Adequado:** realiza os dois itens.  \n**Parcialmente adequado:** realiza apenas um item.  \n**Inadequado:** não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre o local adequado para a realização do parto e justifica a necessidade.**  \n(1) Informa que o parto deverá ocorrer em um hospital de nível terciário; e,  \n(2) Explica que o local é necessário por dispor de UTI neonatal e equipe especializada (cardiologista pediátrico, neonatologista, etc.) para atender o bebê imediatamente após o nascimento.  \n\n**Adequado:** realiza os dois itens.  \n**Parcialmente adequado:** realiza apenas um item.  \n**Inadequado:** não realiza item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Oferece suporte multiprofissional.**  \n\n**Adequado:** oferece o suporte da equipe multiprofissional da UBS (psicólogo, assistente social) para auxiliar a paciente e a família a lidar com o diagnóstico.  \n**Inadequado:** não oferece o suporte da equipe multiprofissional.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Traça um plano de seguimento imediato.**  \n\n**Adequado:** Agenda um retorno com a presença do parceiro e/ou familiar e já inicia o processo de encaminhamento para o serviço de referência.  \n**Parcialmente adequado:** Realiza uma das ações.  \n**Inadequado:** Não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "uid": 2429,
+  "hash": "pepe_2429",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Partograma - Parto Eutócico (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - centro obstétrico.  \nTipo de atendimento: sala de parto.  \nA unidade apresenta a seguinte infraestrutura:  \n• leitos de pré-parto, parto e puerpério;  \n• equipamentos de monitorização materna e fetal;  \n• acesso a métodos não farmacológicos para alívio da dor.\n\nDescrição do caso:\nGestante de 30 anos, com 40 semanas de gestação, internada em trabalho de parto, queixa-se de cansaço e apresenta discreto sangramento.",
+  "tarefas": "TAREFAS:  \n- Realizar anamnese direcionada à evolução do trabalho de parto.  \n- Solicitar e interpretar o exame físico obstétrico.  \n- Interpretar o partograma, avaliando a dinâmica uterina, dilatação do colo, descida do feto e sua apresentação.  \n- Verbalizar o diagnóstico da evolução do trabalho de parto.  \n- Definir a conduta para o caso.  \n- Responder às dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Patricia, 30 anos, casada.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou muito cansada... as dores estão bem mais fortes agora. É normal?  \n\n**SOBRE O TRABALHO DE PARTO:**  \n• **Início:** Internei hoje às 5 da manhã com contrações.  \n• **Movimentos fetais:** Sim, sinto o bebê mexer bem.  \n• **Perda de líquido:** Não, acho que a bolsa não estourou.  \n• **Sangramento:** saiu só um pouquinho no protetor.  \n\n• **Cansaço e Dor:** Estou um pouco sem forças. A dor está num nível 7 de 10, está ficando mais forte.  \n• **Posição e Deambulação:** Eu tentei mudar de posição, mas agora estou mais deitada.  \n• **Jejum e Hidratação:** Não como nada desde que cheguei, só bebi um pouco de água.  \n\n**ANTECEDENTES GESTACIONAIS:**  \n• **IG:** 40 semanas.  \n• **GPA:** é minha primeira gravidez.  \n• **Pré-natal:** Tudo normal.  \n• **Rede de Apoio:** Meu marido está aí fora. Ele pode entrar e me ajudar com massagem?  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Falta muito para o bebê nascer, está evoluindo?*  \n• *Esse sangramento é perigoso?*  \n• *Está tudo bem com o meu bebê?*  \n• *O que fazer para melhorar essa dor?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "PARTOGRAMA",
+      "conteudo": "**VERBALIZE E INTERPRETE A DINÂMICA UTERINA, A DILATAÇÃO DO COLO, A EVOLUÇÃO DE DESCIDA DO FETO E SUA APRESENTAÇÃO COMPLETA.**",
+      "imagem": "img_printeds/2024-2-e29p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO OBSTÉTRICO (9:00H)",
+      "conteudo": "**Sinais Vitais maternos:**  \n• **PA:** 120x75 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 99% em ar ambiente  \n• **Temp. axilar:** 36.7°C  \n\n\n**Exame Obstétrico-fetal:**  \n• **Batimentos Cardíacos Fetais (BCF):** 142 bpm.  \n\n• **Toque Vaginal:** Colo uterino 100% apagado, apresentação cefálica, bolsa das águas íntegra. Presença de pequena quantidade de sangramento em dedo de luva.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente simulada e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga a evolução do trabalho de parto:**  \n(1) frequência, duração e intensidade das contrações;  \n(2) presença de movimentos fetais;  \n(3) perda de líquido ou sangue.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.38",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre o bem-estar materno:**  \n(1) nível de dor e cansaço;  \n(2) utilização de métodos não farmacológicos de alívio da dor;  \n(3) questiona sobre a presença e o papel do acompanhante.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita e interpreta o exame físico obstétrico.**  \n\n**Adequado:** solicita e interpreta corretamente os dados do exame físico, considerando que está normal, sem alterações ou sem sinais de alarme.  \n**Inadequado:** não solicita ou não interpreta os dados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica a variedade de apresentação fetal cefálica registrada no partograma.**  \n\n**Adequado:** identifica a apresentação fetal como Occípito-Púbica (ou Occópito-Anterior).  \n**Inadequado:** não identifica ou identifica incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta a dinâmica uterina registrada no partograma.**  \n\n**Adequado:** verbaliza que a dinâmica uterina atual é de 4 contrações fortes (OU > 40 segundos) em 10 minutos.  \n**Inadequado:** não interpreta ou interpreta de forma incorreta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Descreve a evolução da dilatação cervical, conforme registrado no partograma.**  \n\n**Adequado:** verbaliza que a dilatação evoluiu de 4 cm para 6 cm em 4 horas.  \n**Inadequado:** não descreve ou descreve incorretamente a evolução.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Descreve a evolução da descida da apresentação fetal, conforme registrado no partograma.**  \n\n**Adequado:** verbaliza que a apresentação/descida fetal progrediu de -3 (ou -4) para 0 no plano de De Lee em 4 horas.  \n**Inadequado:** não descreve ou descreve incorretamente a evolução da descida.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza o diagnóstico da evolução do trabalho de parto.**  \n\n**Adequado:** verbaliza o diagnóstico de trabalho de parto eutócico OU evolução normal do trabalho de parto.  \n**Parcialmente adequado:** verbaliza que o trabalho de parto está progredindo, sem usar o termo técnico.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza diagnóstico de distócia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a conduta imediata para o caso.**  \n\n**Adequado:** verbaliza que a conduta é prosseguir com o acompanhamento regular do trabalho de parto.  \n**Inadequado:** indica intervenções como amniotomia, uso de ocitocina ou indicação de cesariana.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Descreve as medidas de suporte e alívio não farmacológico da dor.**  \n(1) Estímulo à deambulação e à liberdade de posição;  \n(2) Oferta de banho de aspersão ou imersão;  \n(3) Massagens de conforto;  \n(4) Apoio contínuo do acompanhante e da equipe.  \n(5) uso de bola suíça/de parto/de nascimento.  \n\n**Adequado:** descreve três ou mais medidas.  \n**Parcialmente adequado:** descreve duas medidas.  \n**Inadequado:** não descreve as medidas ou descreve apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a paciente sobre a evolução e os próximos passos.**  \n(1) tranquiliza a paciente, informando que o trabalho de parto está evoluindo bem;  \n(2) explica que o sangramento discreto é normal nesta fase;  \n(3) incentiva a continuar com os métodos de alívio da dor e a livre movimentação;  \n(4) libera ingesta de líquidos claros e alimentos leves durante o trabalho de parto.  \n\n**Adequado:** realiza três ou quatro ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

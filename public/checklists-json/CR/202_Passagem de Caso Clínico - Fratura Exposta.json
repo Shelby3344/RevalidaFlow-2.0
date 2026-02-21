@@ -1,0 +1,161 @@
+{
+  "uid": 202,
+  "hash": "pepe_202",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Passagem de Caso Clínico - Fratura Exposta",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária - Sala de Emergência.  \nA unidade possui a seguinte infraestrutura:  \n• Leitos de emergência com monitorização contínua.  \n• Acesso a exames laboratoriais, radiografia e tomografia.  \n• Centro cirúrgico e equipe especializada de sobreaviso.\n\nDescrição do caso:\nVocê é o(a) médico(a) plantonista da sala de emergência e realizou o atendimento inicial a um paciente de 25 anos, vítima de colisão entre carro e moto. Após a avaliação primária e secundária, foi constatada uma fratura exposta na perna direita. O paciente encontra-se hemodinamicamente estável.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar a seguinte tarefa:  \n- Solicitar e Interpretar a Ficha de Atendimento do Paciente da Emergência.  \n- Realizar a passagem do caso para o(a) médico(a) especialista de sobreaviso por telefone.  \n\n\\\nATENÇÃO! A INTERAÇÃO OCORRERÁ COM O ATOR QUE INTERPRETA O(A) ORTOPEDISTA.  \nAPÓS ANALISAR O CASO CLÍNICO, VOCÊ DEVERÁ INICIAR A LIGAÇÃO TELEFÔNICA.",
+  "script_ator": "**LIBERAR TODOS OS IMPRESSOS NO INÍCIO DA ESTAÇÃO**  \n\n**FALA INICIAL (AO ATENDER O TELEFONE):**  \n• Alô, Dr(a). Silva, Ortopedista de sobreaviso, em que posso ajudar?.  \n\n**QUESTIONAMENTOS (CASO O PARTICIPANTE OMITA INFORMAÇÕES CRUCIAIS):**  \n• *1 - Qual o mecanismo do trauma e há outras lesões associadas?*  \n\n• *2 - Qual o status neurovascular do membro?*  \n\n• *3 - Qual é a classificação de Gustilo-Anderson da fratura?*  \n\n• *4 - Já foi iniciada antibioticoterapia e/ou profilaxia para tétano? Quais doses?*  \n\n• *5 - O raio-x já foi feito? O que mostra?*  \n\n• *6 - Certo. E qual é a sua solicitação? O que você precisa de mim?*  \n\n**FALA FINAL:**  \n• Ok, entendi. Paciente grave. Estou a caminho para avaliar e programar o centro cirúrgico.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FICHA DE ATENDIMENTO DE EMERGÊNCIA",
+      "conteudo": "**Identificação:**  \n• **Paciente:** M.F.A., 25 anos, masculino, A Rh +.  \n• **História:** Vítima de colisão carro x moto há 1 hora, projetado da motocicleta. Usava capacete.  \n• **Alergias e Comorbidades:** Nega.  \n\n\n**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 95 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.7°C  \n\n\n**Avaliação Primária (XABCDE):**  \n• **X:** Sem hemorragias exsanguinantes ativas.  \n• **A:** Vias aéreas pérvias, colar cervical instalado.  \n• **B:** Murmúrio vesicular presente e simétrico, sem desconforto respiratório.  \n• **C:** Hemodinamicamente estável após 1000ml de Ringer Lactato. Pulsos centrais cheios e simétricos.  \n• **D:** Glasgow 15, pupilas isocóricas e fotorreagentes.  \n• **E:** Exposto, aquecido com manta térmica.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "AVALIAÇÃO SECUNDÁRIA",
+      "conteudo": "**Membro Inferior Direito:**  \n• **Inspeção:** Ferimento de aproximadamente 5 cm em terço médio da perna, com exposição óssea e contaminação moderada (terra/asfalto). Deformidade angular presente.  \n• **Avaliação Neurovascular:**  \n• **Pulsos Distais:** Pedioso e tibial posterior palpáveis e simétricos.  \n• **Perfusão:** Enchimento capilar < 2s.  \n• **Sensibilidade e Motricidade:** Preservadas nos artelhos.  \n\n\n**Demais Segmentos:**  \n• Escoriações em membros superiores. Sem outras lesões.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES E CONDUTAS INICIAIS",
+      "conteudo": "**Laudo da Radiografia de Perna Direita:**  \n• Fratura cominutiva dos terços médio e distal da tíbia e fíbula direitas.  \n\n\n**Condutas Já Realizadas:**  \n• Analgesia.  \n• Limpeza do ferimento com soro fisiológico e curativo estéril.  \n• Imobilização provisória da fratura.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "TELEFONE DISPONÍVEL",
+      "conteudo": "**VERBALIZE QUE VOCÊ ESTÁ LIGANDO AO ORTOPEDISTA RESPONSÁVEL**",
+      "imagem": "img_printeds/e202p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Inicia a comunicação telefônica de forma profissional.**  \n\n**Adequado:** inicia a ligação se apresentando (nome, função, local), perguntando se o interlocutor pode falar e confirmando a identidade do ortopedista.  \n**Inadequado:** inicia a passagem do caso sem se apresentar ou sem confirmar com quem está falando.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Apresenta a \"Situação\" (S do SBAR).**  \n\n**Adequado:** apresenta o paciente de forma concisa (idade, sexo) e o motivo da ligação (fratura exposta de tíbia e fíbula), comunicando imediatamente a principal informação.  \n**Inadequado:** não apresenta a situação de forma clara e objetiva.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Apresenta o \"Breve Histórico\" (B do SBAR).**  \n\n**Adequado:** resume o histórico da doença atual (mecanismo do trauma, tempo decorrido) e os antecedentes relevantes (paciente hígido).  \n**Inadequado:** não apresenta o breve histórico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.9"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Apresenta a \"Avaliação\" (A do SBAR) - Estabilidade Clínica.**  \n\n**Adequado:** informa que o paciente está hemodinamicamente estável, com vias aéreas pérvias e sem outras lesões graves identificadas na avaliação primária.  \n**Inadequado:** não informa sobre a estabilidade clínica do paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Apresenta a \"Avaliação\" (A do SBAR) - Lesão Específica.**  \n(1) descreve as características da ferida (tamanho, contaminação);  \n(2) informa o status neurovascular do membro (pulsos, sensibilidade, motricidade);  \n(3) informa os achados da radiografia (fratura cominutiva de tíbia e fíbula).  \n\n**Adequado:** apresenta os três itens.  \n**Parcialmente adequado:** apresenta dois itens.  \n**Inadequado:** não apresenta a avaliação da lesão ou o faz com apenas um item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Classifica a fratura exposta segundo Gustilo-Anderson.**  \n\n**Adequado:** classifica a fratura como Gustilo-Anderson tipo II (ferida > 1 cm com contaminação moderada e lesão de partes moles moderada).  \n**Inadequado:** não classifica a fratura ou a classifica incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Informa as condutas iniciais já realizadas.**  \n(1) limpeza da ferida, curativo e imobilização;  \n(2) profilaxia para tétano (vacina e/ou soro/imunoglobulina);  \n(3) antibioticoterapia endovenosa.  \n\n**Adequado:** informa as três condutas.  \n**Parcialmente adequado:** informa duas condutas.  \n**Inadequado:** não informa as condutas ou informa apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve a antibioticoterapia de primeira escolha para fratura exposta.**  \n\n**Adequado:** verbaliza que iniciou ou iniciaria Cefalosporina de 1ª geração (ex: Cefazolina) para cobertura de germes Gram-positivos.  \n**Inadequado:** não prescreve antibiótico ou prescreve uma classe inadequada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Apresenta a \"Recomendação\" (R do SBAR).**  \n\n**Adequado:** solicita explicitamente a avaliação do ortopedista para tratamento cirúrgico (limpeza e desbridamento em centro cirúrgico).  \n**Inadequado:** encerra a ligação sem deixar clara a sua solicitação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Utiliza a ferramenta de comunicação estruturada (SBAR).**  \n\n**Adequado:** organiza a passagem de caso seguindo a lógica da ferramenta SBAR (Situação, Breve Histórico, Avaliação, Recomendação), transmitindo as informações de forma clara, segura e completa.  \n**Inadequado:** passa o caso de forma desorganizada, misturando as informações e omitindo dados cruciais.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.4"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

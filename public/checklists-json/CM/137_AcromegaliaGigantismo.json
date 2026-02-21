@@ -1,0 +1,161 @@
+{
+  "uid": 137,
+  "hash": "pepe_137",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Acromegalia/Gigantismo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária.  \nTipo de atendimento: ambulatório de Clínica Médica.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a laboratório de análises clínicas e exames de imagem.\n\nDescrição do caso:\nVocê está no ambulatório de referência e atenderá um paciente de 42 anos, encaminhado da Atenção Primária por queixas de \"inchaço\" nas mãos e pés e cefaleia progressiva.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida à queixa do paciente;  \n- Solicitar o exame físico, se necessário;  \n- Formular e verbalizar a principal hipótese diagnóstica;  \n- Solicitar exames complementares;  \n- Citar os principais diagnósticos diferenciais para o caso;  \n- Definir a conduta terapêutica inicial e definitiva.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Rogério, 42 anos, motorista de caminhão.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), acho que estou ficando maior, meus sapatos não estão cabendo mais e estou com muita dor de cabeça.  \n\n**SOBRE O CRESCIMENTO:**  \n• **Início:** faz uns 2 ou 3 anos, mas achei que era inchaço de trabalhar sentado.  \n• **Sapatos:** Eu calçava 40, agora estou tendo que comprar 42 ou 43.  \n• **Mãos:** Minha aliança ficou presa, tive que cortar no bombeiro.  \n• **Rosto:** Minha esposa fala que meu queixo está maior e meus dentes estão ficando separados. Eu sinto que minha língua está grande.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Cefaleia:** Tenho dor de cabeça quase todo dia, na testa e no fundo do olho.  \n• **Articulações:** Sinto dores nos joelhos e nas costas.  \n• **Pele e Suor:** Minha pele está muito oleosa e eu suo demais.  \n• **Formigamento:** Sinto formigamento nas mãos sim.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Descobri pressão alta e diabetes ano passado.  \n• **Medicações:** Tomo losartana e metformina.  \n• **Cirurgias:** Nega.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Nega casos parecidos na família.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Doutor(a), por que estou crescendo depois de velho?*  \n• *Isso é um tumor?*  \n• *Tem cura? Vou precisar operar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 150x95 mmHg  \n• **FC:** 82 bpm  \n• **FR:** 18 irpm  \n• **Temp:** 36,5ºC  \n• **IMC:** 29 kg/m²  \n\n\n**Ectoscopia:**  \n• Paciente lúcido e orientado.  \n• Fácies típica com proeminência de arcos superciliares, nariz alargado e lábios espessados.  \n• Prognatismo mandibular evidente e aumento do espaçamento dentário (diastema).  \n• Macroglossia.  \n\n\n**Membros:**  \n• Mãos e pés com aumento de volume (partes moles) e aspecto grosseiro.  \n• Dedos com aumento de volume circunferencial.  \n• Pele espessa, oleosa e úmida.  \n\n\n**Cardiovascular e Respiratório:** Sem alterações significativas à ausculta.  \n**Abdominal:** Sem visceromegalias palpáveis.  \n**Tireoide:** Palpável, com aumento difuso, sem nódulos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**Dosagem Hormonal Basal:**  \n• **IGF-1 (Somatomedina C):** 850 ng/mL (Valor de Referência para idade: 100 - 300 ng/mL).  \n• **GH Basal:** 15 ng/mL.  \n\n\n• **Glicemia de Jejum:** 145 mg/dL.  \n• **Hemoglobina Glicada:** 7,5%.  \n• **Prolactina:** 18 ng/mL (VR: < 20 ng/mL).  \n• **TSH:** 1,5 mUI/L.  \n• **T4 Livre:** 1,1 ng/dL.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TOTG-GH",
+      "conteudo": "**TESTE DE SUPRESSÃO COM GLICOSE**  \n\n\n**Resultado após sobrecarga oral com 75g de glicose:**  \n\n| Tempo | GH (ng/mL) |\n| :---: | :---: |\n| 0 min | 14,5 |\n| 30 min | 13,8 |\n| 60 min | 12,5 |\n| 90 min | 13,0 |\n| 120 min | 12,2 |\n\n\n**Interpretação:** Ausência de supressão do GH (Nadir > 1 ng/mL).",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RM DE SELA TÚRCICA",
+      "conteudo": "**Laudo:**  \nPresença de lesão expansiva sólida na adeno-hipófise, hipointensa em T1 e hiperintensa em T2, medindo cerca de 1,8 x 1,5 x 1,6 cm (macroadenoma), abaulando o diafragma selar e comprimindo a haste hipofisária. Seio cavernoso livre.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga sinais e sintomas clínicos musculoesqueléticos e de extremidades sugestivos da doença:**  \n(1) aumento do número do sapato ou tamanho dos pés;  \n(2) aumento das mãos ou anéis apertados;  \n(3) dores articulares (artralgia);  \n(4) síndrome do túnel do carpo (formigamentos).  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga alterações craniofaciais e sistêmicas:**  \n(1) prognatismo (queixo para frente) ou aumento da mandíbula;  \n(2) macroglossia (língua grande) ou afastamento dos dentes;  \n(3) alterações na pele (oleosidade, acne ou suor excessivo/hiperidrose);  \n(4) roncos ou apneia do sono.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza a hipótese diagnóstica de Acromegalia ou Gigantismo.**  \n\n**Adequado:** verbaliza o diagnóstico correto.  \n**Inadequado:** não verbaliza ou verbaliza outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames laboratoriais para rastreio e confirmação diagnóstica:**  \n(1) Dosagem de IGF-1 (Fator de crescimento semelhante à insulina tipo 1);  \n(2) Dosagem de GH basal;  \n(3) Teste oral de tolerância à glicose (TOTG) com dosagem de GH (teste de supressão do GH).  \n\n**Adequado:** solicita ao menos um dos testes.  \n**Inadequado:** não solicita os exames hormonais específicos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame de imagem para definição etiológica:**  \n(1) Ressonância Magnética (RM) de sela túrcica (ou hipófise);  \n(2) Tomografia de sela túrcica.  \n\n**Adequado:** solicita ao menos um dos exames.  \n**Inadequado:** não solicita exame de imagem ou solicita de outra região não pertinente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita diagnósticos diferenciais para o caso (quadros que cursam com características acromegaloides ou gigantismo):**  \n(1) Pseudoacromegalia (resistência insulínica grave);  \n(2) Síndrome de Marfan;  \n(3) Obesidade;  \n(4) Prognatismo familiar;  \n(5) Hipotireoidismo (mixedema).  \n\n**Adequado:** cita dois ou mais diferenciais.  \n**Parcialmente adequado:** cita um diferencial.  \n**Inadequado:** não cita diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define a conduta terapêutica de primeira linha (definitiva):**  \nIndica tratamento cirúrgico (cirurgia transesfenoidal) para ressecção do adenoma hipofisário.  \n\n**Adequado:** indica a cirurgia.  \n**Inadequado:** não indica a cirurgia ou indica tratamento medicamentoso exclusivo como primeira opção para macroadenoma ressecável.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define a conduta terapêutica medicamentosa (adjuvante):**  \nIndica o uso de análogos da somatostatina (Octreotida ou Lanreotida).  \n\n**Adequado:** indica a classe medicamentosa correta.  \n**Inadequado:** não indica ou indica medicação incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta o seguimento e encaminhamento:**  \n(1) Encaminha para o Neurocirurgião e/ou seguimento com Endocrinologista;  \n(2) Orienta sobre a necessidade de monitoramento de comorbidades (cardiovasculares, metabólicas e neoplásicas/colonoscopia).  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza uma orientação.  \n**Inadequado:** não realiza orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

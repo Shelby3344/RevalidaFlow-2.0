@@ -1,0 +1,194 @@
+{
+  "uid": 2009,
+  "hash": "pepe_2009",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Lipotimia",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está de plantão nas enfermarias de alojamento conjunto.\n\nDescrição do caso:\nVocê está de plantão nas enfermarias de alojamento conjunto e irá atender uma puérpera  \nque teve parto normal há cerca de 20 horas. A paciente foi avaliada no puerpério imediato  \ne encontrava-se, então, em boas condições.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar o atendimento da puérpera;  \n- demonstrar a realização de procedimentos médicos, caso necessário;  \n- solicitar exames complementares, caso necessário;  \n- orientar a puérpera sobre como proceder.",
+  "script_ator": "**Ao ser perguntado o nome da paciente, responder**:  \nDr(a) estou me sentindo tonta, preciso me deitar (Simular perda de consciência)  \n\n**Após o candidato tentar contato mais uma vez, responder**: Sou a Paula, o que aconteceu comigo?  \n\n**Perguntar em algum momento**: Posso me levantar Dr(a) ?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FREQUÊNCIA DE PULSO",
+      "conteudo": "Pulso = 100 bpm",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "MUCOSAS",
+      "conteudo": "Mucosas coradas",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "PRESSÃO ARTERIAL",
+      "conteudo": "Pressão arterial = 90 × 60 mmHg",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "GLICEMIA",
+      "conteudo": "Glicemia capilar = 80 mg/dL (valor de referência <100 mg/dL)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \nApresenta-se e cumprimenta a paciente  \n\n**Adequado:** Realiza a tarefa  \n**Inadequado:** Não realiza",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Avalia o nível de consciência da paciente**  \n\n**Adequado:** Avalia  \n**Inadequado:** Não avalia",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Acomoda a paciente no leito e a coloca com as pernas elevadas**  \n\n**Adequado:** Faz os dois procedimentos mencionados  \n**Parcialmente adequado:** Somente acomoda a paciente no leito  \n**Inadequado:** Não faz nenhum desses procedimentos",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Checa pulsos: carotídeos e periféricos**  \n\n**Adequado:** Checa os pulsos carotídeos e periféricos  \n**Parcialmente adequado:** Checa somente os pulsos carotídeos OU periféricos  \n**Inadequado:** Não checa os pulsos da paciente",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Checa a perfusão periférica**  \n\n**Adequado:** Checa  \n**Inadequado:** Não checa",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Avalia a coloração das mucosas**  \n\n**Adequado:** Avalia  \n**Inadequado:** Não avalia",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Avalia a involução uterina**  \n\n**Adequado:** Palpa o útero  \n**Inadequado:** Não palpa o útero",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Avalia os lóquios**  \n\n**Adequado:** Verifica os lóquios  \n**Parcialmente adequado:** Somente pergunta, sem verificar  \n**Inadequado:** Não pergunta e nem verifica",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Refere que deve aferir a pressão arterial**  \n\n**Adequado:** Refere  \n**Inadequado:** Não refere",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica exame de glicemia imediato**  \n\n**Adequado:** Indica  \n**Inadequado:** Não indica",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Nao solicita outros exames**  \n\n**Adequado:** Não solicita outros exames  \n**Inadequado:** Solicita outros exames",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Explica para a puérpera o quadro clinico e as causas do episódio de**  \nlipotimia  \n\n**Adequado:** Explica que houve uma queda temporária da pressão e que não há  \nsinais de hemorragia ou qualquer complicação  \n**Inadequado:** Não explica ou dá outro diagnóstico",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta como deve ser a mobilização da paciente para sair do leito**  \n\n**Adequado:** Diz que a paciente PODE se levantar mas deve primeiro sentar-se e  \nnão se levantar de forma abrupta  \n**Inadequado:** Diz que a paciente NÃO PODE se levantar ou não orienta como  \ndeve proceder",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

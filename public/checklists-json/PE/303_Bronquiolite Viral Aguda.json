@@ -1,0 +1,171 @@
+{
+  "uid": 303,
+  "hash": "pepe_303",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Bronquiolite Viral Aguda",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária - Unidade de Pronto Atendimento (UPA).  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultórios;  \n• Sala de emergência com monitorização e oxigenoterapia;  \n• Leitos de observação pediátrica.\n\nDescrição do caso:\nVocê atenderá um lactente de 4 meses de idade, trazido pela mãe com queixa de tosse e dificuldade para respirar.",
+  "tarefas": "TAREFAS:\n- Realizar a anamnese dirigida à queixa da mãe.  \n- Realizar o exame físico direcionado, verbalizando as manobras realizadas.  \n- Formular e comunicar à mãe a hipótese diagnóstica, justificando-a com os achados clínicos.  \n- Definir a conduta terapêutica imediata (ambulatorial ou hospitalar).",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Karina, 28 anos.  \n• **Criança:** Leonardo, 4 meses.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu trouxe o Leonardo porque ele está com uma tosse muito feia e hoje começou a ficar com dificuldade para respirar.  \n\n**SOBRE OS SINTOMAS:**  \n• **Início:** Começou há 5 dias, com o nariz escorrendo, tosse e uns espirros, parecia um resfriado.  \n• **Piora:** Mas de ontem pra hoje a tosse piorou muito, ficou mais cheia, e ele está respirando rápido, com a barriguinha afundando.  \n• **Febre:** Ontem ele teve febre, chegou a 38°C.  \n• **Alimentação:** Ele está mamando menos desde ontem, parece cansado para mamar.  \n• **Estado geral:** Hoje ele está mais caidinho, mais prostrado.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Gestação e parto:** Nasceu de 39 semanas, parto normal, tudo tranquilo.  \n• **Alergias, doenças e medicações:** Nunca teve nada, não toma nenhum remédio.  \n• **Vacinação:** As vacinas estão em dia.  \n• **Frequenta creche:** Não.  \n\n**ANTECEDENTES FAMILIARES:**  \n• O irmão mais velho dele, de 5 anos, está resfriado.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que meu filho tem, doutor(a)? É grave?*  \n• *Ele vai precisar ficar internado?*  \n• *Qual o tratamento que ele vai precisar fazer?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Frequência Cardíaca:** 134 bpm.  \n• **Frequência Respiratória:** 57 irpm.  \n• **Pressão Arterial:** 83 x 40 mmHg.  \n• **Temperatura Axilar:** 36,7 °C.  \n• **Saturação de Oxigênio em ar ambiente:** 88.5%.  \n\n\n**ECTOSCOPIA:**  \nLactente prostrado, hipocorado (+/4+), hidratado, acianótico, anictérico.  \n\n\n**AVALIAÇÃO RESPIRATÓRIA:**  \n• **Inspeção:** Expansibilidade torácica preservada bilateralmente. Presença de tiragem subcostal e intercostal.  \n• **Ausculta:** Murmúrio vesicular universalmente audível, com roncos e sibilos expiratórios difusos em ambos os hemitórax.  \n\n\n**DEMAIS SISTEMAS:**  \n• **Aparelho cardiovascular:** Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros. Perfusão periférica < 2 segundos.  \n\n• **Abdome:** Flácido, indolor à palpação, sem massas ou visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**VERBALIZE O(S) ACHADO(S) DA IMAGEM**",
+      "imagem": "img_printeds/e303p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se à mãe de forma cordial e pergunta os nomes (mãe e criança).**  \n\n**Adequado:** realiza as duas ações (apresenta-se e pergunta os nomes).  \n**Inadequado:** não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga na anamnese os principais sintomas e a evolução do quadro:**  \n(1) tempo de início dos sintomas respiratórios (coriza, tosse);  \n(2) presença de febre;  \n(3) piora do padrão respiratório;  \n(4) aceitação alimentar (recusa ou diminuição das mamadas).  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza o exame físico direcionado ao sistema respiratório, verbalizando a avaliação de:**  \n(1) frequência respiratória;  \n(2) ausculta pulmonar;  \n(3) presença de sinais de esforço respiratório (tiragens, batimento de asa de nariz).  \n\n**Adequado:** verbaliza a avaliação dos três itens.  \n**Parcialmente adequado:** verbaliza a avaliação de dois itens.  \n**Inadequado:** verbaliza a avaliação de um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Comunica à mãe o diagnóstico de Bronquiolite Viral Aguda.**  \n\n**Adequado:** verbaliza o diagnóstico de bronquiolite.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza outro.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Justifica o diagnóstico para a mãe com base nos achados clínicos.**  \n\n**Adequado:** explica que o diagnóstico é clínico, baseado na história de sintomas gripais que evoluíram com chiado no peito (sibilância) e dificuldade para respirar.  \n**Parcialmente adequado:** verbaliza o diagnóstico, mas não o justifica com os achados clínicos ou cita a necessidade de exames de imagem para confirmar.  \n**Inadequado:** não justifica o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita o Raio-X de tórax e identifica a hiperinsuflação (retificação dos arcos costais).**  \n\n**Adequado:** Solicita o Raio-X e identifica a hiperinsuflação.  \n**Parcialmente adequado:** Apenas solicita o Raio-X e não identifica a hiperinsuflação.  \n**Inadequado:** não solicita o Raio-X e não identifica a hiperinsuflação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Identifica os sinais de gravidade do quadro.**  \n(1) saturação de oxigênio < 90%;  \n(2) recusa alimentar;  \n(3) esforço respiratório (tiragens).  \n\n**Adequado:** identifica os três sinais.  \n**Parcialmente adequado:** identifica dois sinais.  \n**Inadequado:** identifica um ou nenhum sinal.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica a internação hospitalar com base nos sinais de gravidade.**  \n\n**Adequado:** indica a internação.  \n**Inadequado:** não indica a internação ou dá alta para casa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Inicia a oxigenoterapia imediatamente após constatar a hipoxemia (SatO2 < 90%).**  \n\n**Adequado:** indica o uso de oxigênio (por cateter nasal ou máscara).  \n**Inadequado:** não indica o uso de oxigênio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica as medidas de suporte para o paciente internado:**  \n(1) elevação da cabeceira;  \n(2) aspiração de vias aéreas superiores, se necessário;  \n(3) hidratação venosa ou por sonda nasogástrica (devido ao desconforto respiratório e risco de broncoaspiração).  \n\n**Adequado:** indica as três medidas.  \n**Parcialmente adequado:** indica duas medidas.  \n**Inadequado:** indica uma ou nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a mãe sobre a ausência de indicação de outras medicações de rotina (broncodilatadores, corticoides, antibióticos).**  \n\n**Adequado:** explica que o tratamento principal é o suporte (oxigênio, hidratação) e que outras medicações não são indicadas de rotina.  \n**Inadequado:** prescreve ou indica o uso rotineiro de broncodilatadores, corticoides ou antibióticos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre a necessidade de monitorização contínua dos sinais vitais e reavaliação clínica.**  \n\n**Adequado:** indica a monitorização.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

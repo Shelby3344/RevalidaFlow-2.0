@@ -1,0 +1,205 @@
+{
+  "uid": 416,
+  "hash": "pepe_416",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Nódulo Mamário Suspeito - BI-RADS 4",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• acesso a exames de imagem por regulação.\n\nDescrição do caso:\nVocê é médico(a) em uma UBS e atenderá uma paciente de 57 anos que está preocupada com um caroço que percebeu em mama direita.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar especificamente e interpretar o exame físico das mamas.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Formular e verbalizar a hipótese diagnóstica.  \n- Orientar a conduta e responder as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Elisa, 57 anos, costureira, casada.  \n\n**MOTIVO DE CONSULTA:** Dr(a), estou preocupada porque tenho percebido um caroço na mama já faz alguns dias.  \n\n**SOBRE O NÓDULO:**  \n• **Tempo de evolução:** percebi há uns 2 meses.  \n• **Localização:** é na parte de cima da mama direita, mais pro lado de fora.  \n• **Número de nódulos:** é só um.  \n• **Tamanho:** é pequeno, mas dá pra sentir bem.  \n• **Progressão:** acho que não mudou de tamanho.  \n• **Dor:** não dói.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **Menarca:** não me lembro direito.  \n• **Menopausa:** já faz uns 10 anos que parei de menstruar.  \n• **Sexarca:** com 20 anos.  \n• **Mamografia prévia:** nunca fiz mamografia.  \n• **Anticoncepcional:** nunca usei.  \n• **Reposição hormonal:** não uso hormônio.  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **GPA:** tive 2 filhos, parto normal, não tive aborto.  \n• **Amamentação:** amamentei os dois.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** tenho diabetes.  \n• **Medicações:** tomo metformina.  \n• **Alergias:** não tenho alergia.  \n\n**ANTECEDENTES FAMILIARES:**  \n• **Mãe:** teve câncer de mama com 60 anos e faleceu de Infarto.  \n\n**HÁBITOS:**  \n• **Tabagismo:** fumo 1 maço por dia há 20 anos.  \n• **Álcool:** não bebo.  \n• **Atividade física:** faço caminhada 2 vezes por semana.  \n• **Alimentação:** como de tudo, variado.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho é câncer, doutor(a)?*  \n• *O que fazer agora?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO GERAL",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 132 x 82 mmHg.  \n• **Frequência Cardíaca:** 84 batimentos por minuto.  \n• **Frequência Respiratória:** 14 incursões respiratórias por minuto.  \n• **Temperatura Axilar:** 36,2°C.  \n• **Saturação de Oxigênio em ar ambiente:** 97%.  \n\n\n**DADOS ANTROPOMÉTRICOS:**  \n• **Peso:** 72 kg / **Altura:** 1,62 m / **IMC:** 27,4 kg/m².  \n• **Circunferência abdominal:** 94 cm.  \n\n\n**EXAME CLÍNICO:**  \n• Bom estado geral, orientada, corada, hidratada, acianótica, anictérica, afebril.  \n\n• **Ausculta cardíaca:** ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n• **Ausculta pulmonar:** murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Abdome:** plano, flácido, indolor à palpação, sem visceromegalias.  \n\n• **Linfonodos:** ausência de linfonodomegalias cervicais, axilares e supraclaviculares.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME DAS MAMAS",
+      "conteudo": "**INSPEÇÃO ESTÁTICA:**  \nMamas simétricas, pendulares, pele íntegra, sem abaulamentos ou retrações. Mamilos normoposicionados, sem alterações.  \n\n\n**INSPEÇÃO DINÂMICA:**  \nAusência de retrações ou assimetrias aos movimentos de elevação dos braços e contração do peitoral.  \n\n\n**PALPAÇÃO:**  \n• **Mama direita:** presença de nódulo único em quadrante súpero-lateral, medindo aproximadamente 2,0 cm, de consistência endurecida, bordas irregulares, imóvel, indolor à palpação.  \n• **Mama esquerda:** sem nódulos palpáveis.  \n• **Axilas:** ausência de linfonodos palpáveis bilateralmente.  \n\n\n**EXPRESSÃO PAPILAR:**  \nAusência de descarga papilar em ambas as mamas.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "MAMOGRAFIA BILATERAL",
+      "conteudo": "**LAUDO:**  \nMamas de padrão heterogeneamente denso.  \n\nMama direita: nódulo de contornos irregulares e calcificações finas, localizado no quadrante súpero-lateral, medindo 1.6 x 1.3 cm, com distorção arquitetural adjacente.  \n\nMama esquerda: sem alterações significativas.  \n\nAxilas: ausência de linfonodos suspeitos.  \n\n\n**Classificação:** BI-RADS 4B - Achado com moderada suspeita de malignidade.",
+      "imagem": "img_printeds/e416p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemoglobina:** 12,6 g/dL (VR: 12,0 – 16,0 g/dL)  \n• **Hematócrito:** 38% (VR: 36 – 46%)  \n• **VCM:** 86 fL (VR: 80 – 100 fL)  \n• **Leucócitos:** 7.400/mm³ (VR: 4.000 – 10.000/mm³)  \n• **Plaquetas:** 268.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**BIOQUÍMICA:**  \n• **Glicemia em jejum:** 118 mg/dL (VR: 70 – 99 mg/dL)  \n• **Hemoglobina glicada:** 7,2% (VR: < 5,7%)  \n• **Creatinina:** 0,8 mg/dL (VR: 0,5 – 1,2 mg/dL)  \n• **TGO:** 22 U/L (VR: 15 – 40 U/L)  \n• **TGP:** 18 U/L (VR: 10 – 40 U/L)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e mantém postura adequada durante a consulta:**  \n(1) identifica-se e cumprimenta a paciente;  \n(2) dirige-se a ela pelo nome ao menos uma vez;  \n(3) mantém contato visual e postura empática; e,  \n(4) utiliza linguagem acessível.  \n\n**Adequado:** realiza as quatro ações.  \n**Parcialmente adequado:** realiza duas ou três ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características do nódulo mamário:**  \n(1) tempo de evolução;  \n(2) localização;  \n(3) número de nódulos;  \n(4) progressão do tamanho; e,  \n(5) presença de dor.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre alterações cutâneas e outros sintomas mamários:**  \n(1) alterações na pele (hiperemia, retração, abaulamento, edema);  \n(2) descarga papilar; e,  \n(3) sintomas sistêmicos (febre, perda de peso).  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga antecedentes ginecológicos e obstétricos:**  \n(1) idade da menarca;  \n(2) idade da menopausa;  \n(3) paridade e amamentação;  \n(4) uso de anticoncepcional oral; e,  \n(5) uso de terapia de reposição hormonal.  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta sobre mamografia prévia e rastreamento.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga antecedentes familiares de câncer de mama e ovário:**  \n(1) pergunta sobre história familiar de câncer de mama; e,  \n(2) pergunta sobre grau de parentesco e idade do diagnóstico.  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga apenas um item.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Investiga fatores de risco modificáveis:**  \n(1) tabagismo;  \n(2) etilismo;  \n(3) sedentarismo; e,  \n(4) obesidade.  \n\n**Adequado:** investiga três ou mais fatores.  \n**Parcialmente adequado:** investiga dois fatores.  \n**Inadequado:** investiga um fator ou não investiga fator algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exame físico das mamas e identifica as alterações:**  \n(1) nódulo único em quadrante súpero-lateral da mama direita;  \n(2) consistência endurecida;  \n(3) bordas irregulares ou fixo aos planos; e,  \n(4) ausência de linfonodomegalia axilar.  \n\n**Adequado:** solicita e identifica três ou mais achados.  \n**Parcialmente adequado:** solicita e identifica dois achados.  \n**Inadequado:** não solicita ou identifica um achado ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita mamografia.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Interpreta corretamente a classificação BI-RADS 4:**  \n(1) explica que representa achado suspeito de malignidade; e,  \n(2) explica que necessita de investigação histopatológica (biópsia).  \n\n**Adequado:** interpreta os dois itens.  \n**Parcialmente adequado:** interpreta apenas um item.  \n**Inadequado:** não interpreta ou interpreta incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza a hipótese diagnóstica de nódulo mamário suspeito para malignidade.**  \n\n**Adequado:** verbaliza a hipótese de suspeita de câncer de mama, informando que a confirmação depende de biópsia.  \n**Parcialmente adequado:** verbaliza suspeita de malignidade sem mencionar a necessidade de confirmação histopatológica.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico inadequado.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Encaminha para unidade de referência para investigação histopatológica (biópsia).**  \n\n**Adequado:** encaminha para serviço especializado ou mastologista para realização de biópsia.  \n**Inadequado:** não encaminha ou conduta inadequada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre hábitos de vida saudáveis e fatores de risco:**  \n(1) cessação do tabagismo;  \n(2) manutenção de peso adequado;  \n(3) prática regular de atividade física; e,  \n(4) alimentação saudável.  \n\n**Adequado:** orienta três ou mais hábitos.  \n**Parcialmente adequado:** orienta dois hábitos.  \n**Inadequado:** orienta um hábito ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Acolhe as dúvidas da paciente e explica os próximos passos de forma empática:**  \n(1) explica que o exame é suspeito, mas que não é possível confirmar o diagnóstico sem biópsia;  \n(2) oferece suporte emocional e se coloca à disposição para esclarecimentos.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

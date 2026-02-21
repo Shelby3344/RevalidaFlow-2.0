@@ -1,0 +1,244 @@
+{
+  "uid": 220,
+  "hash": "pepe_220",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Volvo de Sigmoide - Abdome Agudo Obstrutivo Baixo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• setor de diagnósticos por imagem;  \n• tomografia computadorizada;  \n• laboratório de análises clínicas;  \n• banco de sangue;  \n• leitos de internação e centro cirúrgico.\n\nDescrição do caso:\nVocê é médico de plantão em uma unidade de pronto atendimento e atenderá um homem de 50 anos com queixa de dor abdominal.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro clínico.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Solicitar e interpretar os exames complementares necessários.  \n- Formular e comunicar a hipótese diagnóstica.  \n- Estabelecer a conduta terapêutica adequada.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Francisco, 50 anos, casado, aposentado.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor de barriga muito forte.  \n\n**SOBRE A DOR:**  \n• **Início:** começou há umas 12 horas.  \n• **Localização:** dói a barriga toda.  \n• **Irradiação:** não vai pra outro lugar.  \n• **Característica:** é tipo cólica, vai e volta.  \n• **Intensidade:** agora está uns 6/10.  \n\n• **Evolução:** no começo era mais fraca, uns 3/10, mas está piorando.  \n• **Atenuantes/agravantes:** tomei buscopan e aliviou um pouco, mas depois voltou a piorar.  \n• **Episódio anterior:** é a primeira vez que sinto isso.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Anorexia:** estou sem fome.  \n• **Vômitos:** já vomitei 4 vezes. No começo saía comida, depois começou a sair um negócio escuro com cheiro ruim.  \n\n• **Distensão abdominal:** minha barriga está bem inchada.  \n• **Eliminação de gases e fezes:** não consigo soltar gases nem fazer cocô há 2 dias.  \n\n• **Febre, calafrios, sudorese:** nega.  \n• **Tontura ou desmaio:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** não tenho doença nenhuma e não tomo remédio.  \n• **Cirurgias:** tirei o apêndice há 12 anos e a vesícula há 5 anos.  \n\n• **Alimentação:** gosto muito de carne vermelha, linguiça, arroz e feijão com farinha.  \n• **Atividade física:** não faço nada, sou parado.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Como é o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **Pressão Arterial:** 125 x 85 mmHg.  \n• **Frequência Cardíaca:** 93 batimentos por minuto.  \n• **Frequência Respiratória:** 16 incursões respiratórias por minuto.  \n• **Saturação de O₂:** 98% em ar ambiente.  \n• **Temperatura Axilar:** 36,6°C.  \n\n\n**ECTOSCOPIA:**  \nRegular estado geral, fácies álgica, afebril, hipocorado 1+/4+, desidratado 2+/4+, acianótico, anictérico, alerta e orientado.  \n\n\n**APARELHO CARDIOVASCULAR:**  \nRitmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**APARELHO RESPIRATÓRIO:**  \nMurmúrio vesicular preservado bilateralmente, sem ruídos adventícios.  \n\n\n**EXAME ABDOMINAL:**  \n• **Inspeção:** abdome francamente distendido, cicatriz cirúrgica em fossa ilíaca direita, sem circulação colateral ou hematomas.  \n\n• **Ausculta:** ruídos hidroaéreos abolidos.  \n\n• **Palpação:** abdome tenso, doloroso à palpação superficial e profunda de forma difusa; visceromegalias não palpáveis.  \n\n• **Percussão:** hipertimpanismo difuso.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "TOQUE RETAL",
+      "conteudo": "Tônus esfincteriano preservado, ampola retal vazia.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemácias:** 4,5 milhões/mm³ (VR: 4,3 - 5,8 milhões/mm³)  \n• **Hemoglobina:** 15,9 g/dL (VR: 14 - 18 g/dL)  \n• **Hematócrito:** 48% (VR: 39 - 52%)  \n• **VCM:** 93 fL (VR: 80 - 100 fL)  \n• **HCM:** 31 pg (VR: 26 - 33 pg)  \n• **CHCM:** 32 g/dL (VR: 30 - 34 g/dL)  \n• **RDW:** 12% (VR: 11 - 14%)  \n\n\n• **Plaquetas:** 193.000/mm³ (VR: 150.000 - 400.000/mm³)  \n\n\n• **Leucócitos:** 12.660/mm³ (VR: 4.000 - 10.000/mm³)  \n• **Neutrófilos:** 68% (VR: 40 - 70%)  \n• **Bastões:** 3% (VR: 0 - 5%)  \n• **Linfócitos:** 25% (VR: 20 - 50%)  \n• **Basófilos:** 1% (VR: 0 - 2%)  \n• **Eosinófilos:** 2% (VR: 0 - 6%)  \n• **Monócitos:** 4% (VR: 4 - 8%)  \n\n\n**BIOQUÍMICA:**  \n• **Glicemia:** 93 mg/dL (VR: 70 - 110 mg/dL)  \n• **Creatinina:** 0,9 mg/dL (VR: 0,7 - 1,1 mg/dL)  \n• **Ureia:** 32 mg/dL (VR: < 40 mg/dL)  \n\n• **Sódio:** 135 mEq/L (VR: 135 - 145 mEq/L)  \n• **Potássio:** 3,6 mEq/L (VR: 3,5 - 5,0 mEq/L)  \n• **Cloro:** 108 mEq/L (VR: 102 - 110 mEq/L)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7,49 (VR: 7,35 - 7,45)  \n• **pCO₂:** 45 mmHg (VR: 35 - 45 mmHg)  \n• **pO₂:** 85 mmHg (VR: 80 - 100 mmHg)  \n• **HCO₃:** 28 mEq/L (VR: 22 - 26 mEq/L)  \n• **BE:** 2 (VR: -2 a +2)",
+      "imagem": "img_printeds/e220p5.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "RADIOGRAFIA DE ABDOME",
+      "conteudo": "**Olhe para a câmera e verbalize o(s) achado(s).**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor:**  \n(1) início ou tempo de evolução;  \n(2) localização;  \n(3) tipo ou característica;  \n(4) intensidade;  \n(5) irradiação;  \n(6) fatores de melhora;  \n(7) fatores de piora.  \n\n**Adequado:** pergunta cinco ou mais características.  \n**Parcialmente adequado:** pergunta três ou quatro características.  \n**Inadequado:** pergunta duas ou menos, ou não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre sintomas associados:**  \n(1) náuseas ou vômitos;  \n(2) anorexia ou perda de apetite;  \n(3) febre;  \n(4) distensão abdominal.  \n\n**Adequado:** pergunta três ou quatro itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item ou não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre parada de eliminação de gases e fezes (obstipação).**  \n\n**Adequado:** pergunta sobre os dois itens (gases e fezes).  \n**Parcialmente adequado:** pergunta sobre apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga antecedentes pessoais:**  \n(1) comorbidades ou doenças prévias;  \n(2) alergias;  \n(3) cirurgias anteriores.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga hábitos de vida:**  \n(1) tabagismo;  \n(2) etilismo;  \n(3) atividade física;  \n(4) dieta ou alimentação.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame físico abdominal e identifica os achados:**  \n(1) abdome distendido;  \n(2) dor difusa à palpação;  \n(3) ruídos hidroaéreos abolidos;  \n(4) hipertimpanismo à percussão.  \n\n\n**Adequado:** solicita e identifica os quatro achados.  \n**Parcialmente adequado:** solicita e identifica dois ou três achados.  \n**Inadequado:** não solicita ou identifica apenas um achado ou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita toque retal.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exames laboratoriais:**  \n(1) hemograma;  \n(2) glicemia;  \n(3) função renal (ureia e creatinina);  \n(4) eletrólitos (sódio, potássio e cloro).  \n\n**Adequado:** solicita os quatro itens.  \n**Parcialmente adequado:** solicita dois ou três itens.  \n**Inadequado:** solicita um item ou não solicita item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita gasometria arterial e interpreta o resultado como alcalose metabólica.**  \n\n**Adequado:** solicita e interpreta corretamente.  \n**Parcialmente adequado:** solicita, mas não interpreta ou interpreta incorretamente.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita exames de imagem:**  \n(1) radiografia de tórax;  \n(2) radiografia de abdome em ortostase e decúbito dorsal.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas radiografia de abdome.  \n**Inadequado:** não solicita radiografia de abdome.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Identifica o sinal do grão de café (ou U invertido, ou duplo cano) compatível com volvo de sigmoide na radiografia de abdome.**  \n\n\n**Adequado:** identifica o achado.  \n**Inadequado:** não identifica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Verbaliza a hipótese diagnóstica de abdome agudo obstrutivo baixo por volvo de sigmoide (ou obstrução intestinal baixa por volvo).**  \n\n**Adequado:** verbaliza o diagnóstico completo (obstrução baixa + volvo).  \n**Parcialmente adequado:** verbaliza apenas obstrução intestinal, sem especificar volvo.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Indica a internação hospitalar.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Prescreve medidas de suporte clínico:**  \n(1) dieta zero;  \n(2) hidratação venosa;  \n(3) correção hidroeletrolítica;  \n(4) analgesia;  \n(5) antiemético;  \n(6) sondagem nasogástrica para descompressão.  \n\n**Adequado:** prescreve quatro ou mais medidas.  \n**Parcialmente adequado:** prescreve duas ou três medidas.  \n**Inadequado:** prescreve uma medida ou não prescreve medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Indica descompressão endoscópica (colonoscopia descompressiva ou retossigmoidoscopia) como opção inicial de tratamento.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Indica avaliação ou encaminhamento para cirurgia.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

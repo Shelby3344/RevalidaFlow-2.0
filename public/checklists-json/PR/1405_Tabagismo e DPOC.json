@@ -1,0 +1,276 @@
+{
+  "uid": 1405,
+  "hash": "pepe_1405",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Tabagismo e DPOC",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Acesso a exames laboratoriais em unidade de referência;  \n• Acesso a exames de imagem em unidade de referência.\n\nDescrição do caso:\nVocê é o(a) médico(a) de uma UBS e atenderá um paciente de 62 anos, que procurou o Pronto Atendimento com queixa de piora da falta de ar e tosse nos últimos dias. Ele foi orientado a realizar exames e agora retorna ao seu consultório com os resultados para avaliação.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Avaliar o grau de dependência à nicotina;  \n- Solicitar e interpretar dados do exame físico específico;  \n- Interpretar os exames complementares fornecidos pelo paciente;  \n- Comunicar a hipótese diagnóstica ao paciente e esclarecer suas dúvidas;  \n- Aconselhar e propor conduta sobre a cessação do tabagismo.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• José, 62 anos, aposentado.  \n\n**MOTIVO DE CONSULTA:** • Bom dia, doutor(a). Eu vim aqui porque me mandaram do pronto-socorro. Fui lá ontem com muita falta de ar e uma tosse que piorou muito.  \nMe deram uns remédios, pediram esses exames e falaram para eu trazer aqui no posto.  \n\n**SOBRE DISPNEIA:**  \n• **Início:** Essa falta de ar eu já tenho faz uns 3 anos.  \n• **Em repouso ou atividade:** Piora quando faço esforço.  \n• **Episódio anterior:** Começou bem levinha, mas está piorando. Já tive outras crises, mas essa última foi a pior.  \n• **Sibilos:** Às vezes sinto um chiado no peito quando respiro.  \n\n**SOBRE TOSSE:**  \n• **Expectoração:** Sim, a tosse vem com catarro.  \n• **Coloração:** O catarro é meio esbranquiçado.  \n• **Predileção de horário:** A tosse é mais forte de manhã, logo depois que eu acordo.  \n\n**SINTOMAS GERAIS:**  \n• **Perda de peso:** nega.  \n• **Febre:** Não, febre eu não tive.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** eu tenho pressão alta, tomo losartana 1x por dia.  \n\n• **TABAGISMO:** Sim, eu fumo.  \n• **Tempo de tabagismo:** Desde os 16 anos de idade.  \n• **Quantidade:** Fumo quase duas carteiras por dia.  \n• **Fumo pela manhã:** É a primeira coisa que faço quando acordo. é o cigarro mais gostoso pra mim. 5 minutos depois de acordar já fumo.  \n• **Tentativa de cessação:** Já tentei parar umas duas vezes, mas não consegui. A vontade é muito forte.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que deram os exames, doutor(a)?*  \n• *Isso tem cura?*  \n• *Eu sei que preciso parar de fumar... mas vai ter algum efeito ou sintoma ruim?*  \n• *Se eu parar de fumar agora, depois de tanto tempo, ainda adianta alguma coisa?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130x85 mmHg  \n• **FC:** 92 bpm  \n• **FR:** 21 irpm  \n• **SatO2:** 91% (em ar ambiente)  \n• **Temp. axilar:** 36.5° C  \n• **IMC:** 22 kg/m²  \n\n\n**Ectoscopia:** paciente em regular estado geral, emagrecido, acianótico e anictérico.  \n\n\n**Aparelho Respiratório:**  \n• **Inspeção:** Tórax em barril.  \n• **Palpação:** Frêmito tóraco-vocal diminuído difusamente.  \n• **Percussão:** Hipertimpaniso à percussão em ambos os hemitórax.  \n• **Ausculta:** Murmúrio vesicular diminuído globalmente, com sibilos expiratórios esparsos.  \n\n\n**Aparelho Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas.  \n\n\n**MMII:** sem edemas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7,36 (VR: 7,35 - 7,45)  \n• **PaCO2:** 55 mm Hg (VR: 35 - 45 mm Hg)  \n• **PaO2:** 60 mm Hg (VR: 80 - 100 mm Hg)  \n• **HCO3:** 30 mEq/l (VR: 22 - 26 mEq/l)  \n• **SatO2:** 91% (VR: 95 - 100%)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**IDENTIFIQUE OS ACHADOS NA IMAGEM**",
+      "imagem": "img_printeds/2014-e5p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se adequadamente ao paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese dirigida: o que aconteceu na véspera, se isso aconteceu anteriormente, ouvindo atentamente o paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga queixas pulmonares: intensidade e duração dos sintomas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interroga queixas gerais: se tem febre, se perdeu peso.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Pergunta se é fumante.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta há quanto tempo o paciente fuma.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta quantos cigarros fuma por dia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Pergunta quanto tempo, após acordar, o paciente fuma o primeiro cigarro.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Pergunta se já tentou parar de fumar.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita os dados gerais do exame físico: estado geral, peso, altura, sinais vitais (pelo menos três).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita os dados do exame físico do aparelho respiratório (inspeção, palpação, percussão e ausculta).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Analisa o RX de tórax e gasometria e descreve os achados para o examinador.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Explica ao paciente os resultados dos exames e o provável diagnóstico de enfisema, comunicando adequadamente ao paciente.**  \n\n**OBS.:** Também considerar adequado caso o candidato informe o diagnóstico de DPOC.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Esclarece as dúvidas do paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Avalia o grau de dependência à nicotina e explica ao paciente: Dependência à nicotina alta, acima de 6 pontos.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": "O Teste de Fagerström é composto por 6 critérios. As três categorias avaliadas são: \n(I) quantidade de cigarros, \n(II) urgência de uso e \n(III) dependência de uso. \n\nA seguir serão descritas cada uma das questões que devem ser abordadas com o \npaciente, bem como a pontuação atribuída durante a avaliação.\n\n1 - Após acordar, em quanto tempo você fuma o primeiro cigarro?\nDentro de 5 minutos: 3 pontos\n6-30 minutos: 2 pontos\n31-60 minutos: 1 ponto\nDepois de 60 minutos: 0 pontos\n\n2 - Você acha difícil ficar sem fumar em lugares onde é proibido, como igreja ou cinema?\nSim: 1 ponto\nNão: 0 pontos\n\n3 - Qual o cigarro do dia é mais satisfatório:\nO primeiro da manhã: 1 ponto\nQualquer outro: 0 pontos\n\n4 - Quantos cigarros são consumidos ao dia?\nMais de 31: 3 pontos\n21-30: 2 pontos\n11-20: 1 ponto\nMenos de 10: 0 pontos\n\n5 - O hábito de fumar é mais frequente pela manhã:\nSim: 1 ponto\nNão: 0 pontos\n\n6 - O hábito de fumar persiste mesmo doente? Mesmo quando é necessário ficar de cama a maior parte do tempo?\nSim: 1 ponto\nNão: 0 pontos"
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Aconselha-o a deixar de fumar o mais rápido possível, de maneira convincente, porém sem agressividade.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Informa ao paciente sobre a provável síndrome de abstinência e a \"fissura\".**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Cria uma atmosfera de respeito e confiança.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Consegue negociar interrupção do hábito de fumar.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Confirma que o paciente vai pensar sobre o assunto, encaminha-o para especialista.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**21. Coloca-se à disposição do paciente e pede que retorne.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "uid": 131,
+  "hash": "pepe_131",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Cefaleia em Salvas (Cluster Headache)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - Unidade de Pronto Atendimento (UPA).  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de observação e medicação;  \n• Monitor multiparamétrico e rede de gases;  \n• Acesso a exames de imagem.\n\nDescrição do caso:\nVocê está de plantão na UPA e atenderá um paciente de 38 anos, trazido pela esposa, com queixa de cefaleia de forte intensidade iniciada há 40 minutos.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa do paciente;  \n- Solicitar o exame físico direcionado;  \n- Solicitar exames complementares, se julgar necessário;  \n- Formular a hipótese diagnóstica principal e citar dois diagnósticos diferenciais;  \n- Prescrever o tratamento agudo completo e a conduta de seguimento ao caso;  \n- Responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Roberto, 38 anos, engenheiro.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou com uma dor de cabeça insuportável. É insuportável!  \n\n**SOBRE A DOR:**  \n• **Início:** Começou há uns 40 minutos, eu estava dormindo e acordei com essa dor.  \n\n• **Localização:** É só do lado direito, bem em volta do meu olho e na testa.  \n\n• **Característica:** É uma pontada, parece que estão enfianos uma faca quente no meu olho.  \n\n• **Intensidade:** É a pior dor que já senti na vida, nota 1000.  \n\n• **Fatores de piora:** Eu tomei uma cerveja no jantar, acho que foi isso.  \n\n• **Episódio anterior:** Tive isso há uns 2 anos. Tinha crise direto, depois sumiu. Agora voltou essa semana, é a terceira vez que acontece.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Oculares:** Meu olho direito está lacrimejando muito. A pálpebra parece inchada e caída.  \n\n• **Rinorreia:** meu nariz está entupido e escorrendo.  \n\n• **Agitação:** Eu não consigo ficar parado, tenho vontade de bater a cabeça na parede pra ver se passa.  \n\n• **Fotofobia:** A luz incomoda um pouco.  \n\n• **Náuseas/vômitos ou febre:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Vícios:** Fumo um maço de cigarro por dia. Bebo socialmente.  \n• **Doenças:** Não tenho pressão alta nem diabetes.  \n• **Medicações:** Não uso nada contínuo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho doutor? É um tumor?*  \n• *Precisa fazer algum exame?*  \n• *Tem algum remédio pra passar isso mais rápido?*  \n• *Isso vai passar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **PA:** 150x90 mmHg (devido à dor).  \n• **FC:** 110 bpm.  \n• **FR:** 22 irpm.  \n• **SatO2:** 98% em ar ambiente.  \n• **Temp:** 36,5°C.  \n\n\n**ECTOSCOPIA:**  \nPaciente visivelmente agitado, deambulando pela sala, com fácies de dor intensa. Mão comprimindo a região periorbitária direita.  \n\n\n**SEGMENTO CEFÁLICO/NEUROLÓGICO:**  \n• **Olho Direito:** Hiperemia conjuntival intensa, lacrimejamento profuso, miose (pupila contraída) e ptose palpebral leve a moderada.  \n\n• **Nariz:** Rinorreia hialina em narina direita.  \n\n• **Face:** Sudorese frontal à direita.  \n\n• **Restante do exame neurológico:** Sem déficits focais, sem rigidez de nuca, força e sensibilidade preservadas globalmente.  \n\n\n**Cardiopulmonar:** Sem alterações, exceto taquicardia.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "TC DE CRÂNIO",
+      "conteudo": "Exame realizado sem a administração de meio de contraste iodado endovenoso.  \n• Ausência de coleções hemorrágicas intra ou extra-axiais.  \n• Parênquima encefálico com coeficientes de atenuação usuais.  \n• Sistema ventricular supra e infratentorial de morfologia e dimensões normais.  \n• Linha média centrada.  \n\n\n**CONCLUSÃO:** Estudo tomográfico do encéfalo dentro dos limites da normalidade.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Caracteriza a dor na anamnese:**  \n(1) Início e Localização;  \n(2) Intensidade;  \n(3) Característica;  \n(4) Duração.  \n\n**Adequado:** investiga três ou quatro características.  \n**Parcialmente adequado:** investiga duas características.  \n**Inadequado:** investiga uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas autonômicos associados ipsilaterais:**  \n(1) lacrimejamento ou hiperemia conjuntival;  \n(2) congestão nasal ou rinorreia;  \n(3) ptose palpebral ou miose ou edema palpebral;  \n(4) sudorese.  \n\n\n[Image of cluster headache autonomic symptoms]\n\n\n**Adequado:** investiga três ou quatro sintomas.  \n**Parcialmente adequado:** investiga dois sintomas.  \n**Inadequado:** investiga um ou nenhum sintoma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga o padrão temporal e gatilhos:**  \n(1) periodicidade (salvas, períodos de remissão);  \n(2) ocorrência noturna / desperta o paciente;  \n(3) gatilhos: consumo de álcool, tabagismo, odores fortes, cochilos diurnos.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico neurológico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico principal de Cefaleia em Salvas (ou Cluster Headache).**  \n\n**Adequado:** verbaliza o diagnóstico correto.  \n**Inadequado:** não verbaliza ou verbaliza diagnóstico incorreto (ex: Enxaqueca, AVC).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Cita diagnósticos diferenciais:**  \n(1) Enxaqueca (Migrânea);  \n(2) Hemicrania Paroxística;  \n(3) Neuralgia do Trigêmeo;  \n(4) Glaucoma Agudo;  \n(5) Dissecção de Carótida (considerando Horner doloroso).  \n\n**Adequado:** cita dois ou mais diferenciais.  \n**Parcialmente adequado:** cita um diferencial.  \n**Inadequado:** não cita diferenciais.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita Tomografia Computadorizada de Crânio (ou Ressonância) para afastar causas secundárias.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve o tratamento abortivo de primeira linha:**  \n(1) Oxigênio a 100%;  \n(2) Máscara de alto fluxo (ou não reinalante);  \n(3) Fluxo de 10 a 15 L/min;  \n(4) Por 15 a 20 minutos (ou até cessar a dor).  \n\n**Adequado:** prescreve indicando os 4 itens (O2, concentração, máscara e fluxo).  \n**Parcialmente adequado:** prescreve O2 mas erra o fluxo ou o dispositivo (ex: cateter nasal).  \n**Inadequado:** não prescreve oxigenoterapia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica tratamento medicamentoso abortivo alternativo ou adjuvante:**  \n(1) Triptanos (Sumatriptana);  \n(2) Via Subcutânea.  \n\n**Adequado:** indica medicação e via corretas.  \n**Parcialmente adequado:** indica triptano oral (incorreto para a crise devido à demora) ou outro analgésico comum.  \n**Inadequado:** não indica ou prescreve opióides (ineficazes).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta o paciente:**  \n(1) Evitar consumo de álcool durante o período de salvas;  \n(2) Evitar tabagismo;  \n(3) Encaminhamento para neurologista para tratamento profilático (ex: Verapamil).  \n\n**Adequado:** realiza duas ou três orientações.  \n**Parcialmente adequado:** realiza uma orientação.  \n**Inadequado:** não realiza orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

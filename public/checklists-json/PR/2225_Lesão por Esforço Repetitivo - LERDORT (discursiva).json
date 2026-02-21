@@ -1,0 +1,132 @@
+{
+  "uid": 2225,
+  "hash": "pepe_2225",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Lesão por Esforço Repetitivo - LER/DORT (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê é medico de uma UBS e atenderá uma mulher de 38 anos com queixa de dor no braço, antebraço e punho direitos há alguns meses.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa da paciente.  \n- Solicitar o exame físico direcionado ao caso.  \n- Formular a principal hipótese diagnóstica e justificá-la.  \n- Descrever o plano de cuidado (propedêutico, terapêutico, educativo e de seguimento) adequado ao caso.  \n- Abordar os problemas biopsicossociais relacionados ao trabalho da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marina, 38 anos, digitadora.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), vim consultar por causa de uma dor no meu braço direito que não melhora.  \n\n**SOBRE A DOR:**  \n• **Início:** Começou faz uns 6 meses já.  \n• **Localização:** Pega o braço, o antebraço e o punho, tudo do lado direito.  \n• **Característica:** É uma dor cansada, que queima às vezes. Sinto também um formigamento na mão.  \n• **Intensidade:** É uma dor nota 6 ou 7. Não me impede de trabalhar, mas incomoda o dia todo.  \n• **Atenuantes/agravantes:** Piora muito no final do dia de trabalho. No fim de semana, como eu descanso, alivia um pouco.  \n• **Evolução:** começou de leve e vem piorando com o tempo.  \n\n**SOBRE O TRABALHO:**  \n• **Rotina:** Eu trabalho com digitação. Desde a pandemia, a situação na empresa ficou muito difícil. Demitiram muita gente e quem ficou, como eu, está sobrecarregado.  \n• **Pausas e Horas Extras:** A gente não tem mais pausa pra descanso. Trabalho direto, e ainda faço hora extra quase todo dia, mas a empresa não paga a mais por isso.  \n• **Estresse/Preocupação:** Estou preocupada, tenho muito medo de ser demitida.  \n• **Contactantes c/ sintomas parecidos:** Várias colegas minhas também estão reclamando da mesma dor.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Não tenho nenhuma doença, graças a Deus. Não tomo remédio contínuo.  \n• **Cirurgias e internações:** Nunca precisei.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Essa dor é por causa do meu trabalho?*  \n• *O que eu posso fazer para melhorar? Vou precisar parar de trabalhar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 115x75 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.5°C  \n\n\n• Bom estado geral, corada, hidratada, afebril.  \n\n\n**EXAME FÍSICO DO MEMBRO SUPERIOR DIREITO:**  \n• **Inspeção:** Ausência de edema, hiperemia ou deformidades.  \n• **Palpação:** Dor à palpação de musculatura extensora do antebraço e em região de epicôndilo lateral.  \n• **Amplitude de Movimento:** Ativa e passiva de punho, cotovelo e ombro preservada.  \n\n• Testes de Phalen, Tinel e Finkelstein negativos.  \n\n\n• Demais sistemas sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor:**  \n(1) início;  \n(2) localização e irradiação;  \n(3) característica/tipo;  \n(4) intensidade;  \n(5) fatores de melhora e piora.  \n\n**Adequado:** pergunta quatro ou mais características.  \n**Parcialmente adequado:** pergunta duas ou três características.  \n**Inadequado:** pergunta uma ou nenhuma característica.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a história ocupacional da paciente:**  \n(1) profissão e tipo de atividade exercida;  \n(2) jornada de trabalho e horas extras;  \n(3) existência de pausas para descanso;  \n(4) se outros colegas apresentam sintomas semelhantes.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga os aspectos biopsicossociais relacionados ao trabalho:**  \n(1) pergunta sobre o ambiente de trabalho (pressão, sobrecarga); e,  \n(2) pergunta sobre o estado emocional da paciente em relação ao trabalho (medo, estresse).  \n\n**Adequado:** investiga os dois itens.  \n**Inadequado:** não investiga nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico do membro afetado.**  \n\n**Adequado:** solicita o exame físico verbalizando a necessidade de avaliar o braço, antebraço e punho direitos.  \n**Inadequado:** não solicita o exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza a principal hipótese diagnóstica e sua justificativa:**  \n(1) verbaliza a hipótese de Lesão por Esforço Repetitivo (LER) ou Doença Osteomuscular Relacionada ao Trabalho (DORT); e,  \n(2) justifica a hipótese com base na história ocupacional (movimentos repetitivos, ausência de pausas, sobrecarga).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas a ação (1).  \n**Inadequado:** não realiza nenhuma das ações.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Descreve o plano terapêutico:**  \n(1) indica tratamento sintomático (analgésicos ou anti-inflamatórios);  \n(2) orienta medidas não farmacológicas (prevenção, pausas, ergonomia); e,  \n(3) refere a paciente para fisioterapia (ou NASF).  \n\n**Adequado:** descreve os três itens.  \n**Parcialmente adequado:** descreve dois itens.  \n**Inadequado:** descreve um item ou não descreve item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define as condutas relativas à saúde do trabalhador:**  \n(1) orienta sobre a necessidade de emitir a Comunicação de Acidente de Trabalho (CAT);  \n(2) avalia a necessidade de afastamento do trabalho;  \n(3) verbaliza a notificação da doença no SINAN; e,  \n(4) refere a paciente para um serviço de referência ao trabalhador (CEREST).  \n\n**Adequado:** define três ou quatro condutas.  \n**Parcialmente adequado:** define duas condutas.  \n**Inadequado:** define uma ou nenhuma conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Elabora um plano de seguimento e orientações finais:**  \n(1) estabelece a necessidade de reavaliação e marca retorno (cuidado longitudinal); e,  \n(2) explica à paciente a relação entre sua doença e as condições de trabalho de forma clara.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza nenhuma das ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

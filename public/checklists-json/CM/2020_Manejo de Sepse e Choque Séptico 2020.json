@@ -1,0 +1,249 @@
+{
+  "uid": 2020,
+  "hash": "pepe_2020",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Manejo de Sepse e Choque Séptico | 2020",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária - enfermaria hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• Laboratório de análises clínicas;  \n• Farmácia hospitalar;  \n• Unidade de Terapia Intensiva (UTI).\n\nDescrição do caso:\nVocê está de plantão em um hospital quando é chamado pela enfermeira para avaliar um paciente internado. A enfermeira lhe chamou a pedido do colega do Time de Resposta Rápida (TRR) que estava atendendo o paciente, mas teve que sair para outro chamado mais urgente.  \n• Você assumirá o atendimento a partir de agora.  \n• Trata-se de um paciente internado há 14 dias, já em fim de tratamento de pneumonia com ceftriaxona e em programação de alta.  \n• O mesmo evolui com quadro sugestivo de choque séptico.",
+  "tarefas": "TAREFAS:  \n- Realizar a avaliação da intercorrência;  \n- Proceder com ajustes de prescrição ou realizar uma nova prescrição;  \n- Solicitar exames complementares adicionais que julgar pertinentes.  \n\n\\\nINFORMAÇÕES ADICIONAIS:  \n- Na sala você terá disponível a prescrição atual do paciente, os exames laboratoriais colhidos na rotina do dia e os sinais vitais mensurados pela equipe de enfermagem, além da evolução do colega do TRR.  \n- O paciente está expansão volêmica com 500mL de Soro Fisiológico 0,9%.  \n\n\\\nATENÇÃO: Considere que você já realizou o exame físico do paciente e este foi NORMAL.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** liberar TODOS os impressos no início da estação.  \n\n\n**DADOS PESSOAIS:**  \n• **Nome:** Carlos, 58 anos.  \n\n\n**MOTIVO DA INTERCORRÊNCIA:**  \n• Doutor(a), eu estava me sentindo bem para ir embora, mas de repente comecei a sentir muito frio e tremedeira.  \n• Sinto que estou \"mole\", sem forças e meio tonto.  \n\n\n**SOBRE SINTOMAS:**  \n• **Tosse:** \"A tosse tinha parado, doutor(a).\"  \n• **Pele:** \"Não vi nenhuma mancha ou machucado na pele.\"  \n• **Urina/Disúria:** \"O xixi está normal, não arde.\"  \n• **Falta de ar/Dispneia:** \"Estou sentindo um pouco de falta de ar sim, parece que o ar não entra direito.\"  \n\n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que está acontecendo comigo? Eu piorei?*  \n• *Vou ter que continuar internado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "MONITOR MULTIPARÂMETRO",
+      "conteudo": "**Sinais Vitais Atuais:**  \n• **PA:** 74 x 42 mmHg  \n• **FC:** 118 bpm  \n• **FR:** 24 irpm  \n• **Temperatura:** 38,3ºC  \n• **SaO2:** 89% em ar ambiente  \n\n\nPaciente em regular estado geral, febril, taquicárdico e taquipneico.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "PRESCRIÇÃO MÉDICA ATUAL",
+      "conteudo": "1. Dieta branda.  \n2. Ceftriaxona 1g IV de 12/12h (D14/14).  \n3. Captopril 25mg VO 8/8h.  \n4. Hidroclorotiazida 25mg VO 1x ao dia.  \n5. Dipirona 1g IV se dor ou febre.  \n6. Metoclopramida 10mg IV se vômitos.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS DE ROTINA (COLETADOS ÀS 06:00)",
+      "conteudo": "• **Hemoglobina:** 11,5 g/dL  \n• **Leucócitos:** 10.500/mm³ (Sem desvio)  \n• **Plaquetas:** 180.000/mm³  \n• **Creatinina:** 0,9 mg/dL  \n• **Ureia:** 35 mg/dL  \n• **Sódio:** 138 mEq/L  \n• **Potássio:** 4,2 mEq/L",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "RECEITUÁRIO",
+      "conteudo": "",
+      "imagem": "img_printeds/e2020p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o paciente?**  \n\n**Adequado:** cumprimenta o paciente.  \n**Inadequado:** não cumprimenta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Questiona novos sintomas em busca de algum foco infecioso?**  \n(1) pele;  \n(2) tosse;  \n(3) disúria;  \n(4) dispneia.  \n\n**Adequado:** questiona pelo menos 2 desses sintomas.  \n**Inadequado:** questiona menos de 2 sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Prescreve OU solicita/indica oxigênio suplementar?**  \n\n**Adequado:** prescreve ou solicita/indica.  \n**Inadequado:** não prescreve ou solicita/indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Prescreve antibiótico de largo espectro?**  \n(1) Piperacilina / Tazobactam;  \n(2) Cefepime; OU  \n(3) Carbapenêmicos.  \n\n**Adequado:** prescreve um dos antibióticos citados (aceita nome comercial).  \n**Inadequado:** não prescreve ou prescreve antibiótico inadequado.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Prescreve hidratação venosa / expansão volêmica adicional?**  \n(1) completa com pelo menos mais 500ml de cristaloide em fase rápida.  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve ou volume insuficiente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Prescreve droga vasoativa?**  \n(1) noradrenalina diluída em soro para correr em BIC; OU  \n(2) dopamina diluída em soro para correr em BIC.  \n\n**Adequado:** prescreve uma das drogas vasoativas em BIC.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Prescreve protetor gástrico?**  \n(1) omeprazol 20 a 40 mg/dia ou outro IBP equivalente; OU  \n(2) ranitidina 150 mg 12/12h.  \n\n**Adequado:** prescreve uma das opções.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve profilaxia para trombose venosa?**  \n(1) heparina sódica SC 5000UI (8/8h ou 12/12h); OU  \n(2) enoxaparina 40mg SC 1x/dia; OU  \n(3) foundaparinux 2,5mg SC 1x/dia.  \n\n**Adequado:** prescreve uma das opções.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Suspende anti-hipertensivos da prescrição (captopril E hidroclorotiazida)? OU não prescreve os anti-hipertensivos na nova prescrição?**  \n\n**Adequado:** suspende ou não prescreve.  \n**Inadequado:** mantém os anti-hipertensivos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita ou prescreve balanço hídrico?**  \n\n**Adequado:** solicita ou prescreve.  \n**Inadequado:** não solicita ou prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita hemocultura – 2 ou 3 amostras?**  \n\n**Adequado:** solicita 2 ou 3 amostras.  \n**Inadequado:** não solicita ou solicita apenas 1 amostra.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Solicita exames restantes necessários ao protocolo sepse?**  \n(1) ureia;  \n(2) creatinina;  \n(3) gasometria arterial;  \n(4) lactato (CONSIDERA lactato solicitado se solicitar gasometria);  \n(5) bilirrubinas;  \n(6) TAP;  \n(7) Sumário de urina;  \n(8) raio-X de tórax.  \n\n**Adequado:** solicita pelo menos 4 exames, incluindo obrigatoriamente lactato.  \n**Inadequado:** solicita menos de 4 exames ou não inclui lactato.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.95"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Solicita punção de acesso central? (pede avaliação vascular ou pede material de punção)**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Prescreve ou solicita/indica monitorização do paciente ou transferência para UTI?**  \n\n**Adequado:** prescreve ou solicita/indica.  \n**Inadequado:** não prescreve ou solicita/indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Explica ao paciente que há suspeita de infecção ou sepse?**  \n\n**Adequado:** explica.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Explica ao paciente que será necessário transferi-lo para leito monitorizado/UTI?**  \n\n**Adequado:** explica.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Registra o atendimento na evolução do paciente?**  \n\n**Adequado:** registra.  \n**Inadequado:** não registra.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Preenche a prescrição corretamente (nome do paciente e data)?**  \n\n**Adequado:** preenche corretamente.  \n**Inadequado:** não preenche corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

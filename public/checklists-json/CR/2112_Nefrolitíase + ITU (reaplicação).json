@@ -1,0 +1,188 @@
+{
+  "uid": 2112,
+  "hash": "pepe_2112",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Nefrolitíase + ITU (reaplicação)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você está de plantão no Pronto-Socorro (PS) de um hospital universitário. \n\nOBSERVAÇÃO  \nO hospital possui a seguinte estrutura:  \n• setor de radiologia convencional, ultrassonografia e tomografia computadorizada;  \n• laboratório de análises clínicas;  \n• leitos de internação;  \n• centro cirúrgico; e  \n• banco de sangue.\n\nDescrição do caso:\nVocê está de plantão no Pronto-Socorro (PS) de um hospital universitário. Foi solicitada uma  \ninterconsulta referente a um paciente com 30 anos de idade, que chegou ao PS com dor lombar  \nintensa, do tipo cólica, há 24 horas, associada a febre de 38,3 C, náuseas e hematúria  \nmacroscópica. No momento de seu atendimento, o paciente já havia sido medicado com  \nanalgésicos endovenosos pela equipe da clínica médica e realizado alguns exames laboratoriais  \ne de imagem.",
+  "tarefas": "Nos proximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar o atendimento do paciente;  \n- interpretar os exames do paciente e ampliar propedêutica, se necessário;  \n- orientar o paciente sobre a conduta terapêutica.",
+  "script_ator": "**DADOS PESSOAIS**  \n• Jorge, 50 anos, casado, aposentado.  \n\n**MOTIVO DE CONSULTA**  \nDr. (a), estou com uma dor aqui na barriga.  \n\n**SOBRE O MOTIVO DE CONSULTA**  \n• **Tempo de evolução**: 24 horas.  \n• **Localização**: do lado direito, meio indefinido.  \n• **Progressão**: eu estou com dor faz 1 dia já, uma dor de tipo cólica muito forte.  \n• **Irradiação**: irradia até as costas, mais do lado direito.  \n• **Características**: agora a dor é continua.  \n• **Intensidade**: 8/10.  \n• **Agravantes e/ou Atenuantes**: nega.  \n\n**SINAIS E/OU SINTOMAS ACOMPANHANTES**  \n• **Febre**: não medi, mas acho que sim, e muitos calafrios.  \n• **Náuseas/Vômitos**: sim, vomitei 2 vezes hoje.  \n• **Ritmo intestinal**: normal.  \n• **Disuria**: sim, doi pra fazer xixi.  \n• **Hematúria**: sim, está meio vermelho.  \n• **Polaciúria**: sim, parece que estou fazendo mais xixi que o habitual.  \n• **Tenesmo vesical**: nega.  \n• **Saída de secreção uretral**: nega.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Cirurgias**: nega.  \n• **Alergias**: nega.  \n• **Comorbidades**: hipertensão controlada.  \n• **Uso de medicamentos**: enalapril 2 vezes por dia.  \n\n**Depois do exame físico perguntar**:  \n1) Dr o que eu tenho?  \n**Após o diagnóstico perguntar**:  \n2) Precisa internar?  \n**Se o candidato verbaliza que irá internar o paciente**:  \n3) Mas isso é grave assim Dr (a)? Quais são os riscos se eu não internar?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• Regular estado geral, Desidratado +/4+, Normocorado, Acianótico, Febril  \n• **Temperatura:** 37,9 °C  \n• **Pressão arterial:** 110 × 70 mmHg  \n• **Frequência cardíaca:** 96 batimentos por minuto  \n• **Frequência respiratória:** 20 incursões respiratórias por minuto  \n\n\n• **Abdome:**  \n  - Plano, normotenso  \n  - Dor à palpação profunda em flanco direito  \n  - Sem dor à descompressão brusca  \n  - **Punho-percussão dolorosa à direita**  \n  - Ruídos hidroaéreos normoativos  \n\n\n• **Aparelhos respiratório e cardiovascular:** sem anormalidades",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS E ULTRASSOM",
+      "conteudo": "**EXAMES LABORATORIAIS**  \n**Ureia:** 58 mg/dL (VR: 15 - 45 mg/dL)  \n**Creatinina:** 1,65 mg/dL (VR: 0,6 - 1,2 mg/dL)  \n**K:** 4,9 mEq/mL (VR: 3,5 - 4,5 mEq/mL)  \n\n\n**HEMOGRAMA:**  \n**Leucócitos:** 16.000 cels/mm³  \n**Bastões:** 2%  \n\n\n**ULTRASSOM DE VIAS URINÁRIAS**  \nHidronefrose à direita, sem evidência de fator obstrutivo identificável pelo método de imagem.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TC DE ABDOME SEM CONTRASTE",
+      "conteudo": "**TOMOGRAFIA COMPUTADORIZADA DE ABDOME SEM CONTRASTE**  \nHidronefrose moderada à direita, visualizando-se cálculo de 0,5 cm em junção ureteropélvica.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se (1) e identifica adequadamente o paciente (2).**  \n\n**Adequado:** realiza 2 comandos.  \n**Parcialmente adequado:** realiza somente 2 comando.  \n**Inadequado:** não realiza nenhum dos comandos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da dor:** tempo de início (1), localização (2),  \nprogressão (3), fatores de melhora ou piora (4).  \n\n**Adequado:** se pergunta todos os 4 itens.  \n**Parcialmente adequado:** se pergunta 2 ou 3 itens.  \n**Inadequado:** se pergunta apenas 1 item ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza anamnese perguntando por sintomas associados:** náuseas ou vômitos  \n(1), ritmo intestinal (2), febre (3), sintomas urinários(4).  \n\n**Adequado:** pergunta todos os 4 itens.  \n**Parcialmente adequado:** pergunta 2 ou 3 itens.  \n**Inadequado:** pergunta apenas 1 ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre antecedentes cirúrgicos (1) comorbidades (2).**  \n\n**Adequado:** pergunta sobre os dois itens.  \n**Parcialmente adequado:** pergunta sobre um item.  \n**Inadequado:** não pergunta nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita o exame físico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita os exames complementares de imagem como plano diagnóstico.**  \n\n**Adequado:** solicita tomografia de abdome sem contraste.  \n**Inadequado:** não solicita exame ou solicita incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta de maneira adequada exames laboratoriais:** Hemograma com  \nleucocitose (1) e função renal alterada (2).  \n\n**Adequado:** verbaliza os 2 itens.  \n**Parcialmente adequado:** verbaliza 1 item.  \n**Inadequado:** verbaliza nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Interpreta de maneira adequada a tomografia de abdome, fazendo hipótese**  \ndiagnóstica de uropatía obstrutiva/litíase urinária (1) com infecção urinária (2).  \n\n**Adequado:** fornece a hipótese diagnóstica de uropatía obstrutiva/litíase urinária  \ncom infecção urinária.  \n**Parcialmente adequado:** fornece apenas a hipótese diagnóstica de infecção  \nurinária OU a de uropatía obstrutiva/litíase urinária.  \n**Inadequado:** não informa diagnóstico correto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica antibioticoterapia endovenosa.**  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica tratamento cirúrgico para desobstrução renal direita (cateter duplo**  \nJ/nefrostomia).  \n\n**Adequado:** indica.  \n**Inadequado:** não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explica, com linguagem clara, as hipóteses diagnósticas para o paciente**  \nsimulado.  \n\n**Adequado:** explica sobre a uropatía e sobre a infecção urinária.  \n**Parcialmente adequado:** explica um dos diagnósticos.  \n**Inadequado:** não fornece explicações.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta o paciente sobre a necessidade de internação hospitalar imediata.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta o paciente sobre a gravidade do quadro, com risco de sepse de**  \norigem urinária e óbito.  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

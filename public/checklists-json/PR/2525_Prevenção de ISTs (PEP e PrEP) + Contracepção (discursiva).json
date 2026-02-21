@@ -1,0 +1,149 @@
+{
+  "uid": 2525,
+  "hash": "pepe_2525",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Prevenção de ISTs (PEP e PrEP) + Contracepção (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• aplicação de vacinas e medicações;  \n• sala de coleta para exames laboratoriais.\n\nDescrição do caso:\nVocê é médico(a) em uma UBS e atenderá uma mulher de 28 anos que procura orientações sobre prevenção de infecções sexualmente transmissíveis (IST) e gestação, manifestando interesse no uso de dispositivo intrauterino (DIU).",
+  "tarefas": "TAREFAS:  \n- Realizar anamnese direcionada à saúde sexual e reprodutiva da paciente.  \n- Orientar a paciente sobre as diferentes estratégias de prevenção (IST e gestação).  \n- Explicar a conduta necessária antes da inserção de um DIU.  \n- Solicitar os exames pertinentes ao caso.  \n- Responder as dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Camila, 28 anos, solteira, publicitária.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim para uma consulta de rotina. Queria conversar sobre como me prevenir melhor de doenças e também de uma gravidez. Pensei em colocar o DIU. Mas também queria saber o que mais eu posso fazer, porque nos últimos meses eu me expus a algumas situações de risco.    \n\n**DEMAIS QUEIXAS:** Não sinto dor, não tenho corrimento nem sangramento ou nada diferente.  \n\n**HISTÓRIA SEXUAL:**  \n• **Parceiros:** Nos últimos 6 meses, eu saí com vários parceiros e não sei se eles tinham alguma doença.  \n• **Preservativo:** Para ser sincera, o uso de camisinha não foi sempre, falhou algumas vezes.  \n• **PEP:** Fiquei tão preocupada que precisei tomar a PEP (profilaxia pós-exposição) duas vezes nesse período.  \n• **Atividade recente:** Estou sem ter relações há uns 30 dias.  \n\n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **Anticoncepção:** não tomo nenhum anticoncepcional.  \n• **GPA:** Nunca engravidei.  \n• **DUM:** Minha última menstruação desceu há 7 dias.  \n• **Sexarca:** foi com 16 anos.  \n• **Papanicolau:** Fiz o Papanicolau há 6 meses e o resultado veio normal.  \n• **Vacinação:** Está tudo em dia, até da Hepatite B e HPV.  \n\n**HÁBITOS DE VIDA:**  \n• **Álcool e drogas:** Eu bebo socialmente, principalmente em festas. Não uso outras drogas.  \n• **Alergias e doenças:** Não tenho nenhuma doença nem alergia.  \n• **Medicações:** Não tomo nenhum remédio contínuo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Eu ouvi falar de um remédio que toma antes para não pegar HIV. É a mesma coisa que a PEP?*  \n• *O que eu preciso fazer se quiser começar a tomar a PrEP?*  \n• *Eu posso colocar o DIU hoje mesmo?*  \n• *Quais exames eu preciso fazer antes de colocar o DIU ou tomar algum remédio?*  \n• *O DIU também protege contra as doenças?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 71 bpm  \n• **FR:** 16 irpm  \n• **SatO2:** 99% em ar ambiente  \n• **Temp. axilar:** 36.5°C  \n• **IMC:** 23 kg/m².  \n\n\n**ECTOSCOPIA:** Bom estado geral, corada, hidratada, acianótica, anictérica.  \n\n\n**EXAME GINECOLÓGICO:**  \n• **Inspeção vulvar:** sem alterações.  \n• **Exame especular:** ausência de lesões, conteúdo vaginal fisiológico, colo uterino epitelizado, sem sinais de cervicite mucopurulenta.  \n• **Toque vaginal:** útero em anteversoflexão, tamanho normal, móvel, indolor. Anexos livres e indolores.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Beta-HCG qualitativo:** Negativo.  \n\n\n• **Testes Rápidos:**  \n• **HIV:** Não Reagente.  \n• **Sífilis:** Não Reagente.  \n• **Hepatite B (HBsAg):** Não Reagente.  \n• **Hepatite C (Anti-HCV):** Não Reagente.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação e Acolhimento:**  \n(1) apresenta-se à paciente de forma cordial;  \n(2) estabelece um ambiente seguro e sem julgamentos para a conversa.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese focada na saúde sexual e reprodutiva:**  \n(1) investiga o histórico de parcerias sexuais e o status sorológico conhecido;  \n(2) pergunta sobre o uso de métodos de barreira (preservativo);  \n(3) questiona sobre o uso prévio de PEP e o contexto das exposições;  \n(4) verifica a data da última menstruação (DUM) e o histórico de contracepção;  \n(5) questiona sobre a situação vacinal.  \n\n**Adequado:** investiga quatro ou cinco itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico geral e ginecológico**  \n\n**Adequado:** solicita os dois exames.  \n**Inadequado:** solicita somente um ou não solicita exame físico algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Orienta sobre a Prevenção Combinada de ISTs:**  \n(1) reforça o uso do preservativo como método principal contra a maioria das ISTs;  \n(4) orienta sobre a importância da testagem regular para ISTs (HIV, sífilis, hepatites).  \n\n**Adequado:** orienta sobre os dois itens.  \n**Parcialmente adequado:** orienta sobre um item.  \n**Inadequado:** não orienta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Diferencia a Profilaxia Pós-Exposição (PEP) da Profilaxia Pré-Exposição (PrEP).**  \n\n**Adequado:** explica que a PEP é uma medida de urgência, tomada após uma situação de risco, enquanto a PrEP é o uso contínuo de um medicamento para prevenir a infecção pelo HIV antes da exposição.  \n**Inadequado:** não consegue diferenciar as duas estratégias ou as confunde.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explica a conduta e os pré-requisitos para iniciar a PrEP:**  \n(1) explica que é necessário realizar um teste de HIV para descartar infecção prévia antes de iniciar;  \n(2) menciona a necessidade de avaliar a função renal (creatinina);  \n(3) reforça que a PrEP protege apenas contra o HIV e deve ser combinada com o preservativo.  \n\n**Adequado:** explica os três itens.  \n**Parcialmente adequado:** explica dois itens.  \n**Inadequado:** explica um item ou não explica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica a conduta e os pré-requisitos para a inserção do DIU:**  \n(1) informa que o DIU é um método contraceptivo e não protege contra ISTs;  \n(2) explica a necessidade de descartar gestação (Beta-HCG), ou solicita teste de gravidez;  \n(3) explica a necessidade de investigar e descartar ISTs ativas, como clamídia, gonorreia ou Doença Inflamatória Pélvica (DIP), antes da inserção.  \n\n**Adequado:** explica os três itens.  \n**Parcialmente adequado:** explica dois itens.  \n**Inadequado:** explica um item ou não explica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita os exames iniciais pertinentes:**  \n(1) teste rápido ou sorologia para HIV;  \n(2) testes para sífilis e hepatites B e C;  \n(3) Beta-HCG;  \n(4) creatinina;  \n(5) pesquisa de clamídia e gonococo (PCR de urina ou swab cervical).  \n\n**Adequado:** solicita quatro ou mais exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza aconselhamento focado na redução de danos.**  \n\n**Adequado:** aborda o uso de álcool como um fator que aumenta a vulnerabilidade, e discute com a paciente, sem julgamentos, estratégias para garantir o uso do preservativo mesmo em situações de festa e consumo de bebidas.  \n**Inadequado:** não aborda a relação entre o uso de álcool e a exposição a riscos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define um plano de seguimento com a paciente:**  \n(1) explica que a inserção do DIU e o início da PrEP dependem dos resultados dos exames;  \n(2) agenda um retorno para reavaliação com os resultados.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não estabelece um plano claro de seguimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "uid": 138,
+  "hash": "pepe_138",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Amiloidose Hereditária por Transtirretina (ATTR)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - ambulatório de clínica médica.  \nTipo de atendimento: consulta ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Laboratório de análises clínicas;  \n• Serviço de imagem.\n\nDescrição do caso:\nVocê atenderá um paciente de 48 anos, com queixa de \"queimação nas pernas\" e \"tonturas\" progressivas há cerca de 2 anos. O paciente refere perda de peso não intencional.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada;  \n- Solicitar e interpretar o exame físico específico;  \n- Formular a principal hipótese diagnóstica;  \n- Citar os diagnósticos diferenciais para o quadro;  \n- Solicitar os exames confirmatórios para a etiologia suspeitada;  \n- Estabelecer o plano terapêutico e as orientações de seguimento.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Romeu, 48 anos, motorista.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), meus pés e pernas queimam muito, sinto formigamento. Começou nos pés e agora já está subindo para as coxas. E sinto muita fraqueza.  \n\n**HISTÓRIA DA DOENÇA ATUAL:**  \n• **Início:** há uns 2 anos, bem leve e foi piorando.  \n• **Tontura/Hipotensão:** Quando levanto da cama ou da cadeira rápido, minha vista escurece e quase desmaio.  \n• **Constipação/Diarreia:** Tem dia que é diarreia, tem dia que fico preso. E sinto o estômago cheio muito rápido.  \n• **Urinários:** Às vezes sinto que não esvazio a bexiga toda.  \n• **Ereção/Disfunção:** Tenho tido dificuldade de ereção há um ano.  \n• **Perda de peso:** Emagreci uns 10kg.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Comorbidades:** Nega  \n• **Tabaco e álcool:** nega  \n• **Medicações:** Uso polivitaminas de farmácia.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai tinha problema de coração e também \"problema nos nervos\". E um irmão mais velho que começou a reclamar das mesmas coisas.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Doutor(a), será que eu tenho a mesma coisa que matou meu pai?*  \n• *Tem cura isso? Vou precisar de algum exame ou cirurgia?*  \n• *Meus filhos podem ter isso também?*  \n• *E essa pressão que abaixa, tem alguma coisa pra melhorar isso? Ou algum remédio?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA Deitado:** 130x80 mmHg  \n• **PA em Pé (após 3 min):** 100x60 mmHg (Hipotensão Postural Positiva)  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **Temp:** 36,5°C  \n\n\n**Neurológico:**  \n• **Força:** Grau IV/V em membros inferiores (distal).  \n• **Sensibilidade:** Hipoestesia tátil, dolorosa e térmica em \"bota\" (pés e pernas) e \"luva\" (mãos).  \n• **Reflexos:** Arreflexia patelar e aquileu bilateralmente.  \n• **Coordenação:** Romberg presente (desequilíbrio de olhos fechados).  \n\n\n**Geral:**  \n• Atrofia muscular interóssea em mãos e panturrilhas.  \n• Pele seca e fina em extremidades.  \n• Ausência de macroglossia ou \"olhos de guaxinim\".",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ELETRONEUROMIOGRAFIA (ENMG)",
+      "conteudo": "• Polineuropatia sensitivo-motora axonal, de caráter progressivo, predominando em membros inferiores, dependente de comprimento.  \n• Sinais de denervação ativa em músculos distais dos membros inferiores.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese detalhada dos sintomas neurológicos e autonômicos:**  \n(1) investiga características da parestesia/dor (queimação, distribuição em bota/luva);  \n(2) investiga sintomas disautonômicos (hipotensão postural, disfunção erétil, alterações gastrointestinais como diarreia/constipação, retenção urinária).  \n\n**Adequado:** investiga os dois grupos de sintomas.  \n**Parcialmente adequado:** investiga apenas um grupo.  \n**Inadequado:** não investiga adequadamente.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga histórico familiar (hereditariedade):**  \n(1) pergunta sobre familiares com sintomas semelhantes;  \n(2) pergunta sobre óbitos precoces ou doenças neurológicas/cardíacas na família.  \n\n**Adequado:** investiga o histórico familiar detalhadamente.  \n**Inadequado:** não investiga histórico familiar.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita e interpreta o exame físico:**  \n(1) solicita avaliação de hipotensão postural (PA deitado e em pé);  \n(2) solicita exame neurológico (sensibilidade, força e reflexos);  \n(3) interpreta os achados como neuropatia periférica e disautonomia.  \n\n**Adequado:** realiza/solicita os três itens.  \n**Parcialmente adequado:** realiza/solicita dois itens.  \n**Inadequado:** realiza/solicita um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula a hipótese diagnóstica principal:**  \n\n**Adequado:** Amiloidose Hereditária por Transtirretina (ATTR) OU Polineuropatia Amiloidótica Familiar (PAF).  \n**Parcialmente adequado:** Amiloidose (sem especificar o tipo).  \n**Inadequado:** Neuropatia diabética ou outras causas não relacionadas à amiloidose.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Cita diagnósticos diferenciais para o quadro de polineuropatia (deve citar ao menos 2):**  \n(1) Neuropatia Diabética;  \n(2) Deficiência de Vitamina B12;  \n(3) Hanseníase;  \n(4) Polineuropatia Inflamatória Desmielinizante Crônica (CIDP);  \n(5) Neuropatia Alcoólica.  \n\n**Adequado:** cita dois ou mais diferenciais.  \n**Parcialmente adequado:** cita um diferencial.  \n**Inadequado:** não cita diferenciais pertinentes.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames confirmatórios para o diagnóstico etiológico:**  \n(1) Biópsia de tecido (gordura abdominal, glândula salivar ou nervo sural);  \n(2) Teste Genético (pesquisa de mutação no gene da Transtirretina - TTR).  \n\n**Adequado:** solicita um dos exames (Biópsia ou Genético).  \n**Inadequado:** não solicita exames específicos para amiloidose.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Estabelece a conduta terapêutica (medicamentosa ou cirúrgica):**  \n(1) Indica medicamentos estabilizadores da TTR (ex: Tafamidis, Diflunisal) ou inibidores de síntese (Patisiran, Inotersen);  \n(2) Menciona o Transplante Hepático como opção terapêutica (historicamente padrão-ouro ou para parar a produção da proteína defeituosa).  \n\n**Adequado:** cita ao menos uma das opções terapêuticas específicas.  \n**Inadequado:** cita apenas tratamento sintomático (analgesia).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta medidas não medicamentosas e manejo sintomático:**  \n(1) Manejo da hipotensão postural (meias elásticas, aumento da ingesta hídrica/sal, levantar-se devagar);  \n(2) Suporte nutricional (devido à perda de peso e gastroparesia).  \n\n**Adequado:** orienta duas medidas.  \n**Parcialmente adequado:** orienta uma medida.  \n**Inadequado:** não orienta medidas de suporte.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre o Aconselhamento Genético:**  \n(1) Explica o caráter hereditário (autossômico dominante);  \n(2) Indica a necessidade de rastreamento dos familiares (irmãos, filhos).  \n\n**Adequado:** orienta o aconselhamento genético e o rastreio familiar.  \n**Inadequado:** não menciona a necessidade de avaliar a família.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

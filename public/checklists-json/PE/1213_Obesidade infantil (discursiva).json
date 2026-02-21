@@ -1,0 +1,189 @@
+{
+  "uid": 1213,
+  "hash": "pepe_1213",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Obesidade infantil (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de vacinação;  \n• Balança e estadiômetro.\n\nDescrição do caso:\nVocê está em uma Unidade Básica de Saúde e atenderá uma criança de 8 anos, do sexo masculino, que veio para uma consulta de rotina de puericultura, acompanhada pela mãe.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico, caso necessário;  \n- Analisar e interpretar os dados antropométricos;  \n- Formular a(s) hipótese(s) diagnóstica(s) para o caso;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Propor condutas e orientações para o caso.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Joana, 38 anos, Casada.  \n• **Criança:** Lucas, 8 anos.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), trouxe o Lucas para a consulta de rotina, mas estou preocupada porque ele tem ganhado muito peso ultimamente. Ele também está com uma mancha esquisita na nuca.  \n\n**SOBRE HÁBITOS:**  \n• **Alimentação:** Ele come de tudo, doutor(a). Antigamente eu tinha que forçar pra ele comer, mas agora ele come bem. Gosta muito de lanches, salgadinhos e refrigerante. Frutas e verduras ele não gosta muito.  \n• **Atividade física:** Ele passa a maior parte do tempo em casa, jogando videogame ou vendo desenhos na TV. Na escola ele faz educação física, mas fora isso, não faz mais nada.  \n• **Sono:** Dorme bem, umas 9 horas por noite.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças, alergias, cirurgias:** Ele sempre foi saudável, nunca teve nada grave.  \n• **Caderneta de Vacinação:** Eu não trouxe, mas as vacinas estão todas em dia.  \n• **Perinatais:** Nasceu de parto normal, no tempo certo.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Eu e o pai dele estamos um pouco acima do peso também.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Como está o crescimento dele? Ele está muito gordinho?*  \n• *Esse peso todo pode dar alguma doença nele?*  \n• *O que são essas manchas escuras no pescoço dele? É sujeira né?*  \n• *O que a gente pode fazer pra ajudar ele a emagrecer?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais**  \n• **PA:** 100x60 mmHg  \n• **FC:** 88 bpm  \n• **FR:** 20 irpm  \n• **Temp. axilar:** 36.5° C  \n• **SatO2:** 98%  \n\n\n**ANTROPOMETRIA**  \n• **Peso atual:** 36 kg  \n• **Estatura atual:** 130 cm  \n\n\n• **Ectocospia:** Bom estado geral, corado, hidratado, acianótico, anictérico.  \n\n• **Cardiovascular:** Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros.  \n\n• **Respiratório:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n• **Abdominal:** Abdome globoso, flácido, indolor à palpação, sem visceromegalias.  \n\n• **MMII:** Sem edemas.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO DA PELE",
+      "conteudo": "**EXAME FÍSICO DA PELE:**  \n\n\n**Presença de máculas hipercrômicas, aveludadas, na região cervical e em dobras cutâneas**",
+      "imagem": "img_printeds/2012-e13p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "CURVA ESTATURA/IDADE",
+      "conteudo": "**PLOTE NAS CURVAS OS DADOS ANTROPOMÉTRICOS E INTERPRETE-OS**",
+      "imagem": "img_printeds/2012-e13p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "CURVA PESO/IDADE",
+      "conteudo": "**PLOTE NAS CURVAS OS DADOS ANTROPOMÉTRICOS E INTERPRETE-OS**",
+      "imagem": "img_printeds/2012-e13p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "CURVA IMC/IDADE",
+      "conteudo": "**PLOTE NAS CURVAS OS DADOS ANTROPOMÉTRICOS E INTERPRETE-OS**  \n**CONSIDERE QUE HÁ CALCULADORA DISPONÍVEL**",
+      "imagem": "img_printeds/2012-e13p5.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta a mãe e a criança e pergunta o motivo da consulta.**  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga os hábitos alimentares da criança.**  \n(1) Frequência das refeições;  \n(2) Consumo de alimentos ultraprocessados (salgadinhos, refrigerantes, biscoitos);  \n(3) Consumo de frutas, legumes e verduras.  \n\n**Adequado:** Investiga os três itens.  \n**Parcialmente adequado:** Investiga dois itens.  \n**Inadequado:** Investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a rotina de atividades da criança.**  \n(1) Prática de atividade física regular (além da escola);  \n(2) Tempo de tela (TV, videogame, celular).  \n\n**Adequado:** Investiga os dois itens.  \n**Parcialmente adequado:** Investiga um item.  \n**Inadequado:** Não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Plota e interpreta o gráfico de Estatura para Idade.**  \n\n**Adequado:** Plota corretamente no escore Z 0 E interpreta como 'Estatura adequada para a idade'.  \n**Parcialmente adequado:** Plota corretamente no escore Z 0 OU interpreta como 'Estatura adequada para a idade'.  \n**Inadequado:** Não plota corretamente NEM interpreta corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Plota e interpreta o gráfico de Peso para Idade.**  \n\n**Adequado:** Plota corretamente acima do escore Z +2 E interpreta como 'Peso elevado para a idade'.  \n**Parcialmente adequado:** Plota corretamente acima do escore Z +2 OU interpreta como 'Peso elevado para a idade'.  \n**Inadequado:** Não plota corretamente NEM interpreta corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Calcula o IMC (21,3 kg/m²), plota e interpreta o gráfico de IMC para Idade.**  \n\n**Adequado:** Plota corretamente acima do escore Z +2 E interpreta como 'Obesidade'.  \n**Parcialmente adequado:** Plota corretamente acima do escore Z +2 OU interpreta como 'Obesidade'.  \n**Inadequado:** Não calcula o IMC, não plota corretamente NEM interpreta corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita e Identifica a Acantose Nigricans no exame físico de Pele, e a explica para a mãe como um sinal de alerta para resistência à insulina.**  \n\n**Adequado:** Solicita e Identifica o achado clínico e explica sua associação com resistência à insulina.  \n**Parcialmente adequado:** Apenas Solicita o exame físico de pele, sem explicar a associação do achado clínico.  \n**Inadequado:** Não Solicita, e não identifica o achado clínico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza o diagnóstico de Obesidade e cita comorbidades que devem ser investigadas.**  \n(1) Síndrome Metabólica;  \n(2) Diabetes Mellitus tipo 2 ou Resistência Insulínica;  \n(3) Hipertensão Arterial Sistêmica;  \n(4) Dislipidemia.  \n\n**Adequado:** Verbaliza o diagnóstico e cita pelo menos duas comorbidades.  \n**Parcialmente adequado:** Verbaliza o diagnóstico e cita uma comorbidade.  \n**Inadequado:** Não verbaliza o diagnóstico de obesidade.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exames laboratoriais para investigação das comorbidades para a próxima consulta de acompanhamento.**  \n(1) Glicemia de jejum;  \n(2) Perfil lipídico (colesterol total e frações, triglicerídeos);  \n(3) Enzimas hepáticas (TGO/AST, TGP/ALT).  \n\n**Adequado:** Solicita os três exames/grupos de exames.  \n**Parcialmente adequado:** Solicita dois exames/grupos de exames.  \n**Inadequado:** Solicita um ou nenhum exame/grupo de exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Encaminha a criança para acompanhamento com equipe multiprofissional.**  \n(1) Nutricionista;  \n(2) Educador Físico.  \n\n**Adequado:** Encaminha para os dois profissionais, OU equipe multiprofissional.  \n**Parcialmente adequado:** Encaminha para apenas um profissional.  \n**Inadequado:** Não realiza encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a família sobre mudanças na alimentação.**  \n(1) Reduzir o consumo de alimentos ultraprocessados, ricos em açúcar e gordura;  \n(2) Aumentar o consumo de frutas, verduras e legumes;  \n(3) Evitar líquidos açucarados (refrigerantes, sucos de caixa);  \n(4) Aumentar o consumo de alimentos ricos em fibras, como cereais integrais;  \n(5) Não prescrever alimentos light, orientando uma alimentação saudável e balanceada.  \n\n**Adequado:** Realiza três ou mais orientações.  \n**Parcialmente adequado:** Realiza duas orientações.  \n**Inadequado:** Realiza uma ou nenhuma orientação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a família sobre mudanças comportamentais e de estilo de vida.**  \n(1) Incentivar a prática de atividades físicas regulares e brincadeiras ao ar livre;  \n(2) Limitar o tempo de tela (TV, videogame, computador) para no máximo 2 horas por dia;  \n(3) Envolver a família nas mudanças de hábitos;  \n(4) Organizar o horário das refeições junto com toda a família;  \n(5) Não comer assistindo à televisão ou utilizando telas.  \n\n**Adequado:** Realiza três ou mais orientações.  \n**Parcialmente adequado:** Realiza duas orientações.  \n**Inadequado:** Realiza uma ou nenhuma orientação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

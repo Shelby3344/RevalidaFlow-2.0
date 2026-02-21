@@ -1,0 +1,166 @@
+{
+  "uid": 2228,
+  "hash": "pepe_2228",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Anemia Ferropriva (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• Acesso a laboratório de análises clínicas.\n\nDescrição do caso:\nVocê está em atendimento no ambulatório de pediatria e receberá uma criança de 3 anos de idade trazida pela mãe com queixas de cansaço e perda de peso.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar exames complementares pertinentes ao caso.  \n- Verbalizar a hipótese diagnóstica.  \n- Elaborar a conduta terapêutica, incluindo orientações à mãe.  \n- Explicar as possíveis causas para o quadro clínico da criança.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Lúcia, 35 anos.  \n• **Criança:** Sofia, 3 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu trouxe a Sofia porque ela está muito cansada, não quer mais nem brincar. Também perdeu peso.  \n\n**SOBRE OS SINTOMAS:**  \n• **Início:** olha isso já começou faz uns 8 meses.  \n• **Cansaço e sono:** Ela só quer ficar deitada, dorme muito mais do que o normal.  \n• **Astenia:** Vejo que ela está bem fraquinha nesses últimos meses.  \n• **Atenção/concentração:** Ela também anda mais irritada, chorona, e parece que não presta atenção direito nas coisas.  \n• **Alimentação:** Ela está comendo menos. A gente é uma família grande, então a comida em casa não é muito variada.  \n• **Pagofagia/pica:** Agora ela começou com uma mania estranha de querer ficar comendo gelo.  \n\n**ANTECEDENTES PESSOAIS E PERINATAIS:**  \n• **Parto:** Ela nasceu antes do tempo, com 34 semanas.  \n• **Amamentação:** Eu só consegui amamentar no peito até os 3 meses de idade dela.  \n• **Doenças e medicações:** Nunca teve nenhuma doença grave, não toma remédios.  \n• **Vacinação:** Está tudo em dia com as vacinas.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que a minha filha tem, doutor(a)?*  \n• *É grave? Tem tratamento?*  \n• *Por que ela ficou doente assim?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 90x60 mmHg  \n• **FC:** 160 bpm  \n• **FR:** 50 irpm  \n• **Temp. axilar:** 36.1°C  \n• **SatO2:** 98% em ar ambiente  \n\n\n**Antropometria:**  \n• **Peso:** 11.800 g (Escore-Z entre -2 e -3)  \n• **Estatura:** 85 cm (Escore-Z entre -2 e -3)  \n\n\n**EXAME CLÍNICO:**  \nRegular estado geral, acianótica, anictérica, com mucosas hipocoradas (3+/4+).  \nPele com turgor e elasticidade preservados.  \n\n\n**Ausculta cardíaca e respiratória:** normais.  \n**Abdome:** globoso, discretamente distendido, indolor à palpação, sem visceromegalias.  \n**Cadeias ganglionares:** sem adenomegalias palpáveis.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "HEMOGRAMA",
+      "conteudo": "• **Hemoglobina:** 8,2 g/dL (VR: 11,0 – 13,0 g/dL)  \n• **Hematócrito:** 25% (VR: 32 – 40%)  \n• **VCM:** 65 fL (VR: 75 – 87 fL)  \n• **HCM:** 20 pg (VR: 25 – 29 pg)  \n• **RDW:** 18,5% (VR: 11,5 – 14,5%)  \n• **Leucócitos:** 7.500/mm³ (VR: 5.000 – 15.500/mm³)  \n• **Plaquetas:** 350.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n• **Reticulócitos:** 0,5% (VR: 0,5 - 2,5%)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "PERFIL DE FERRO",
+      "conteudo": "• **Ferro Sérico:** 25 mcg/dL (VR: 50 – 120 mcg/dL)  \n• **Ferritina:** 5 ng/mL (VR: 10 – 120 ng/mL)  \n• **Capacidade Total de Ligação do Ferro (TIBC):** 480 mcg/dL (VR: 250 – 450 mcg/dL)  \n• **Saturação de Transferrina:** 5% (VR: 20 – 50%)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e pergunta o nome da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga os sintomas atuais da criança:**  \n(1) cansaço (astenia);  \n(2) sono excessivo;  \n(3) perda de peso.  \n(4) Concentração e atenção.  \n\n**Adequado:** investiga três ou quatro sintomas.  \n**Parcialmente adequado:** investiga dois sintomas.  \n**Inadequado:** investiga um sintoma ou não investiga sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga os hábitos alimentares:**  \n(1) pergunta sobre a diversidade da alimentação;  \n(2) investiga a presença de pica ou pagofagia (desejo de comer gelo, terra, etc.).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga os antecedentes perinatais e de lactância:**  \n(1) prematuridade;  \n(2) tempo de aleitamento materno exclusivo.  \n\n**Adequado:** investiga os dois antecedentes.  \n**Parcialmente adequado:** investiga um antecedente.  \n**Inadequado:** não investiga antecedente algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exame físico e avalia sinais de anemia.**  \n\n**Adequado:** solicita o exame físico e verbaliza a alteração da coloração das mucosas (palidez).  \n**Inadequado:** não solicita o exame físico ou não identifica sinais de anemia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames laboratoriais para investigação:**  \n(1) hemograma completo;  \n(2) perfil de ferro (ferro sérico, ferritina, saturação de transferrina).  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um dos exames.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a hipótese diagnóstica de Anemia Ferropriva.**  \n\n**Adequado:** verbaliza o diagnóstico de anemia ferropriva (ou anemia por deficiência de ferro).  \n**Parcialmente adequado:** verbaliza apenas \"anemia\", sem especificar a causa.  \n**Inadequado:** não verbaliza a hipótese ou verbaliza um diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Elabora a conduta terapêutica medicamentosa.**  \n\n**Adequado:** prescreve sulfato ferroso (ou outra formulação de ferro oral), especificando a necessidade de tratamento por um período prolongado para reposição dos estoques.  \n**Parcialmente adequado:** prescreve ferro oral, mas não menciona a importância da duração do tratamento para reposição dos estoques.  \n**Inadequado:** não prescreve ferro oral ou indica outra conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.85",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Fornece orientações alimentares para a mãe.**  \n(1) orienta aumentar a ingestão de alimentos ricos em ferro (carnes vermelhas, feijão, vegetais verde-escuros);  \n(2) orienta a ingestão de alimentos ricos em vitamina C junto com as fontes de ferro para melhorar a absorção.  \n\n**Adequado:** fornece as duas orientações.  \n**Parcialmente adequado:** fornece uma orientação.  \n**Inadequado:** não fornece orientação alimentar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explica à mãe as possíveis causas do quadro clínico.**  \n(1) prematuridade;  \n(2) desmame precoce;  \n(3) dieta pobre em ferro.  \n\n**Adequado:** cita as três causas.  \n**Parcialmente adequado:** cita duas causas.  \n**Inadequado:** cita uma ou nenhuma causa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre a necessidade de acompanhamento e reavaliação.**  \n\n**Adequado:** agenda uma consulta de retorno para reavaliar a resposta ao tratamento e monitorar o hemograma.  \n**Inadequado:** não orienta sobre o seguimento do caso.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "uid": 1610,
+  "hash": "pepe_1610",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Tuberculose pulmonar",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2016",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de observação e medicação;   \n\n\n\n\n;\n\nDescrição do caso:\nPaciente do sexo feminino de 39 anos, comparece a UBS apresentando tosse há mais de 3 semanas, com febre baixa e falta de apetite.",
+  "tarefas": "- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico, caso necessário;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a hipótese diagnóstica, caso exista;  \n- Responder as dúvidas da paciente;  \n- Propor condutas e orientações ao caso;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Rosane, 39 anos, dona de casa.\n\n\n**QUEIXA PRINCIPAL:** Doutor(a), estou com muita tosse nesses últimos dias. E também estou tendo febre.\n\n\n**SOBRE TOSSE:**  \n• **Início:** umas 3 semanas.  \n• **Expectoração:** é seca, não tem catarro, mas 2 vezes saiu tosse com um pouco de sangue.  \n• **Predileção de horário:** piora de noite.  \n\n\n**SOBRE FEBRE:**  \n• **Aferição:** quase sempre mais de 38°C.\n• **Predileção de horário:** mais do final da tarde pra noite.  \n• **Sudorese e calafrios:** sim, acordo com a roupa molhada.  \n\n\n**SINTOMAS ASSOCIADOS:** acho que perdi um pouco de peso também neste mês e também estou me sentindo mais cansada.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Cirurgias e internações:** nega.  \n• **VACINAÇÃO:** sempre tomei todas as vacinas.  \n\n• **Álcool, tabaco e drogas:** nega.  \n\n\n**FATORES AMBIENTAIS E FAMILIARES:**  \n• **Condições de moradia:** casa de madeira, é pequena. Moro com meu esposo e meu filho.\n• **Pessoa próxima com sintoma parecido:**  meu pai está quase sempre lá em casa. E ele também está assim já faz mais de mês.\n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *Como eu peguei isso?*  \n• *Precisa fazer algum exame?*  \n• *Minha família pode pegar isso de mim? Tem como evitar?*  \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**\n• Caso o candidato solicite qualquer exame complementar, responder: *CONSIDERE SOLICITADO*.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x80 mmHg  \n• **FC:** 75 bpm  \n• **FR:** 15 irpm  \n• **SatO2:** 95%  \n• **Temp. axilar:** 37.4° C  \n• **IMC:** 18.7 kg/m²  \n\n\n**Ectoscopia:** paciente em regular estado geral, emagrecido, corado, hidratado, acianótico e anictérico.  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** murmúrio vesicular diminuído e presença de estertores em ápice direito, sem ruídos adventícios.  \n\n\n**Abdominal:** sem alterações.  \n\n\n**Rinoscopia, Oroscopia e Otoscopia:** sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se, cumprimenta e acolhe a paciente de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga adequadamente a queixa de tosse:**  \nduração; se produtiva ou seca; características da secreção incluindo sangue.  \n\n**Adequado:** dois ou mais aspectos;  \n**Parcialmente adequado:** um aspecto.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas gerais:**  \nperda de apetite; perda de peso; ocorrência de febre e/ou sudorese noturna.  \n\n**Adequado:** dois ou mais sintomas;  \n**Parcialmente adequado:** um sintoma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga tabagismo, uso de preservativo, uso de drogas injetáveis, transfusão sanguínea.**  \n\n**Adequado:** todos os itens;  \n**Parcialmente adequado:** até três itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga doenças pregressas, bem como vacinação da família.**  \n\n**Adequado:** dois itens;  \n**Parcialmente adequado:** um item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Questiona quem mora na casa, aglomeração e ventilação no domicílio.**  \n\n**Adequado:** três itens;  \n**Parcialmente adequado:** um ou dois itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame físico ao avaliador.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Elabora e comunica a hipótese diagnóstica de tuberculose.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Esclarece à paciente sobre mecanismos de transmissão, explicitando possível contágio paterno.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Esclarece à paciente sobre a evolução da doença no indivíduo/família, explicando que há tratamento e cura.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza a solicitação de RX de tórax.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza a solicitação de duas amostras de baciloscopia de escarro.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Verbaliza a necessidade de investigar o pai da paciente.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Explica que, nesse momento, não há necessidade de realizar a investigação dos filhos e do companheiro assintomáticos porque ainda é uma suspeita de tuberculose.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orienta cuidados no domicílio:**  \nventilação adequada da moradia, evitar aglomeração de pessoas. Orienta a levar o braço ou lenço à boca e ao nariz quando tossir ou espirrar.  \n\n**Adequado:** três itens;  \n**Parcialmente adequado:** um ou dois itens.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Capacidade de comunicação:** argumentação, vocabulário adequado e claro, não prolixo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Linguagem não verbal:** expressão facial empática e contato visual.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Demonstra atitude respeitosa e empática durante a consulta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

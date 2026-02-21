@@ -1,0 +1,187 @@
+{
+  "uid": 145,
+  "hash": "pepe_145",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Cefaleia Tensional",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• sala de observação;  \n• farmácia básica.\n\nDescrição do caso:\nVocê é médico(a) de uma UBS e atenderá uma paciente de 38 anos procura atendimento com queixa de dor de cabeça recorrente há 3 meses.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada.  \n- Solicitar e interpretar o exame físico pertinente ao caso.  \n- Formular e verbalizar a hipótese diagnóstica.  \n- Classificar o quadro quanto à frequência dos episódios.  \n- Estabelecer a conduta terapêutica adequada.  \n- Orientar o paciente sobre medidas não farmacológicas e acompanhamento.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Fernanda, 38 anos, casada, analista de sistemas.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estou tendo muita dor de cabeça, quase todo dia agora.  \n\n**SOBRE A CEFALEIA:**  \n• **Início:** começou há uns 3 meses, mas piorou no último mês.  \n• **Localização:** pega a cabeça toda, mais na testa.  \n• **Irradiação:** as vezes desce até a nuca.  \n• **Característica:** parece que tem uma faixa apertando minha cabeça.  \n• **Intensidade:** uns 5 de 10.  \n• **Atenuantes:** quando tomo analgésico ou quando descanso.  \n• **Agravantes:** quando trabalho muito no computador.  \n\n• **Duração:** dura o dia inteiro às vezes, ou umas 3-4 horas.  \n• **Frequência:** no último mês está quase todo dia.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Náuseas ou vômitos:** não, nunca tive.  \n• **Fotofobia/fonofobia:** nega.  \n\n• **Atividade física:** consigo fazer minhas coisas normalmente, a dor não me impede.  \n\n**NEGAR SINAIS DE ALARME:**  \n• Febre, perda de peso, convulsões.  \n• Dor súbita e intensa.  \n• Fraqueza ou dormência em membros.  \n• Alteração visual.  \n• Rigidez de nuca.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** não tenho alergia a nada.  \n• **Doenças:** não tenho nenhuma doença.  \n• **Medicações de uso contínuo:** só dipirona ou ibuprofeno quando dói a cabeça.  \n• **Cirurgias e internações:** nunca internei nem operei.  \n\n**HÁBITOS E ESTILO DE VIDA:**  \n• **Trabalho:** trabalho 10-12 horas por dia no computador.  \n• **Sono:** durmo mal, umas 5 horas por noite.  \n• **Atividade física:** não faço nada, não tenho tempo.  \n\n• **Alimentação:** como qualquer coisa, pulo refeições às vezes.  \n• **Álcool e tabaco:** não fumo, bebo vinho às vezes no fim de semana.  \n• **Cafeína:** tomo muito café, uns 5-6 xícaras por dia.  \n\n**FATORES EMOCIONAIS:**  \n• **Estresse:** muito estressada com o trabalho, prazo apertado.  \n• **Ansiedade:** estou ansiosa sim, preocupada com várias coisas.  \n• **Tristeza:** às vezes me sinto desanimada, mas não acho que é depressão.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que está causando essa dor de cabeça?*  \n• *Preciso fazer algum exame?*  \n• *Posso continuar tomando analgésico todo dia?*  \n• *Tem algum remédio para prevenir?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Pressão Arterial:** 120 x 78 mmHg.  \n**Frequência Cardíaca:** 76 batimentos por minuto.  \n**Frequência Respiratória:** 16 incursões respiratórias por minuto.  \n**Temperatura Axilar:** 36,8°C.  \n\n\n**EXAME CLÍNICO:**  \nBom estado geral, corada, hidratada, afebril, acianótica, anictérica, orientada e colaborativa.  \n\n\n**EXAME NEUROLÓGICO:**  \nGlasgow 15. Pupilas isocóricas e fotorreagentes. Nervos cranianos sem alterações. Força muscular grau 5 em todos os segmentos. Sensibilidade preservada. Coordenação e marcha sem alterações.  \n\n\n**DEMAIS SISTEMAS:** Sem alterações.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da cefaleia:**  \n(1) localização;  \n(2) tipo ou característica da dor (aperto, pressão, pulsátil);  \n(3) intensidade;  \n(4) duração dos episódios;  \n(5) frequência (quantos dias por mês);  \n(6) horário de predomínio;  \n(7) fatores de melhora;  \n(8) fatores de piora.  \n\n\n**Adequado:** investiga seis ou mais características.  \n**Parcialmente adequado:** investiga quatro ou cinco características.  \n**Inadequado:** investiga três ou menos características.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga sintomas associados relevantes para diagnóstico diferencial:**  \n(1) náuseas ou vômitos;  \n(2) fotofobia;  \n(3) fonofobia;  \n(4) aura visual (escotomas, fosfenos);  \n(5) incapacidade para atividades habituais;  \n(6) piora com atividade física rotineira.  \n\n**Adequado:** investiga cinco ou mais sintomas.  \n**Parcialmente adequado:** investiga três ou quatro sintomas.  \n**Inadequado:** investiga dois ou menos sintomas.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga sinais de alarme para cefaleia secundária:**  \n(1) início súbito e intenso (cefaleia em trovoada);  \n(2) febre ou sinais de infecção;  \n(3) alterações neurológicas focais (fraqueza, dormência, alteração visual persistente);  \n(4) rigidez de nuca;  \n(5) convulsões;  \n(6) perda de peso inexplicada;  \n(7) piora progressiva sem resposta ao tratamento.  \n\n**Adequado:** investiga quatro ou mais sinais de alarme.  \n**Parcialmente adequado:** investiga dois ou três sinais de alarme.  \n**Inadequado:** investiga um sinal ou não investiga sinal de alarme algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga fatores desencadeantes e hábitos de vida:**  \n(1) estresse ou tensão emocional;  \n(2) qualidade e quantidade de sono;  \n(3) uso excessivo de analgésicos;  \n(4) consumo de cafeína;  \n(5) prática de atividade física;  \n(6) postura ou ergonomia no trabalho.  \n\n**Adequado:** investiga quatro ou mais fatores.  \n**Parcialmente adequado:** investiga dois ou três fatores.  \n**Inadequado:** investiga um fator ou não investiga fator algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exame físico e interpreta os achados:**  \n(1) solicita exame neurológico;  \n(3) interpreta corretamente a ausência de déficits neurológicos.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Verbaliza a hipótese diagnóstica de cefaleia tensional:**  \n\n**Adequado:** verbaliza o diagnóstico de cefaleia tensional ou cefaleia do tipo tensional.  \n**Parcialmente adequado:** verbaliza cefaleia primária sem especificar o tipo.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza diagnóstico incorreto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Classifica a cefaleia tensional quanto à frequência:**  \n\n**Adequado:** classifica como cefaleia tensional crônica (mais de 15 dias por mês por mais de 3 meses).  \n**Parcialmente adequado:** menciona que é frequente ou recorrente, sem classificar corretamente.  \n**Inadequado:** não classifica ou classifica incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre a necessidade ou não de exames complementares:**  \n\n**Adequado:** orienta que não há necessidade de exames complementares na ausência de sinais de alarme, pois o diagnóstico é clínico.  \n**Parcialmente adequado:** solicita exames de forma desnecessária, mas justifica como exclusão de diagnósticos diferenciais.  \n**Inadequado:** solicita exames sem justificativa ou não aborda a questão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre o uso abusivo de analgésicos:**  \n\n**Adequado:** orienta que o uso frequente de analgésicos (mais de 10-15 dias por mês) pode causar cefaleia por uso excessivo de medicamentos e deve ser evitado.  \n**Inadequado:** não orienta sobre o risco do uso abusivo de analgésicos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve tratamento para a crise aguda:**  \n(1) analgésicos simples (dipirona ou paracetamol); OU  \n(2) anti-inflamatórios não esteroidais (ibuprofeno, cetoprofeno).  \n\n**Adequado:** prescreve medicamento adequado para a crise.  \n**Inadequado:** não prescreve ou prescreve medicamento inadequado (opioides, barbitúricos).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica tratamento profilático:**  \n(1) indica profilaxia por se tratar de cefaleia tensional crônica; E  \n(2) prescreve antidepressivo tricíclico (amitriptilina ou nortriptilina) como primeira escolha.  \n\n**Adequado:** indica profilaxia com medicamento adequado.  \n**Parcialmente adequado:** indica necessidade de profilaxia, mas não especifica o medicamento ou indica classe inadequada.  \n**Inadequado:** não indica tratamento profilático.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta medidas não farmacológicas:**  \n(1) higiene do sono (melhorar qualidade e quantidade);  \n(2) prática regular de atividade física;  \n(3) técnicas de relaxamento ou manejo do estresse;  \n(4) redução do consumo de cafeína;  \n(5) correção de postura e ergonomia no trabalho.  \n\n**Adequado:** orienta três ou mais medidas.  \n**Parcialmente adequado:** orienta duas medidas.  \n**Inadequado:** orienta uma medida ou não orienta medida alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta sobre o acompanhamento:**  \n\n**Adequado:** orienta retorno para reavaliação da resposta ao tratamento profilático e ajuste se necessário.  \n**Inadequado:** não orienta sobre retorno ou acompanhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

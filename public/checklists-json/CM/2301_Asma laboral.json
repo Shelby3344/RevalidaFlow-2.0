@@ -1,0 +1,172 @@
+{
+  "uid": 2301,
+  "hash": "pepe_2301",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Asma laboral",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Local de atuação: Atenção Secundária: Ambulatório.  \nA unidade possui a seguinte infraestrutura:  \n• aparelhos para exames radiológicos convencionais (Raio-x);  \n• laboratório de análises clínicas.\n\nDescrição do caso:\n• Homem de 34 anos de idade, operário da indústria têxtil, procura atendimento na  \nunidade com queixa de episódios frequentes de falta de ar.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n1. realizar anamnese do paciente;  \n2. solicitar e interpretar exame físico;  \n3. solicitar e interpretar os exames pertinentes;  \n4. estabelecer e comunicar hipótese diagnóstica;  \n5. propor conduta para o paciente e fornecer orientações.\n\n\n*ATENÇAO\n VOCE DEVERA REALIZAR AS TAREFAS  \nNA SEQUÊNCIA DESCRITA ACIMA.   \nCASO JULGUE NECESSÁRIO REALIZAR  \nEXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERA SER TOCADO  \nDURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Pedro, 34 anos, casado, trabalhador da indústria têxtil.  \n\n**MOTIVO DE CONSULTA**:  \n• Estou sentindo muita tosse e falta de ar há cerca de 5 meses.  \n\n**CARACTERÍSTICAS DA TOSSE**:  \n• **Secreção**: não, é uma tosse seca.  \n\n**CARACTERÍSTICAS DA DISPNEIA**:  \n• **Frequência**: duas a três vezes por semana.  \n• **Fatores desencadeantes**: quando vou para o trabalho e quando jogo bola.  \n• **Fatores de melhora**: quando volto do trabalho me sinto melhor e nos finais de semana que estou de folga não sinto nada.  \n• **Fatores de piora**: sempre que estou no trabalho é pior.  \n• **Despertar noturno por falta de ar**: nega.  \n\n**PRESENÇA DE SIBILOS**:  \n• Sim, mas nunca havia tido esse tipo de sintoma antes desses 5 meses.  \n\n**USO DE MEDICAMENTOS PARA ALIVIAR OS SINTOMAS**:  \n• Não.  \n\n**SE PERGUNTADO PELA FUNÇÃO NO TRABALHO**:  \n• Eu trabalho no preparo de tintas e tingimento de tecidos há 1 ano, antes trabalhava na segurança da empresa.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Doenças**: nega.  \n• **Medicamentos**: nega.  \n• **Alergias**: que eu saiba não, mas quando fui trabalhar no setor de tingimento, meus olhos e nariz passaram a coçar muito. Quando eu era criança espirrava muito quando brincava com meu gato, mas hoje já não tenho animais em casa.  \n• **Cigarro**: não fumo e nem tenho contato com pessoas que fumam.  \n• **Exposição a outros poluentes**: nega.  \n• **Cartão de vacina**: atualizado, incluindo gripe e COVID.  \n\n**ANTECEDENTES FAMILIARES**:  \n• Meu pai tinha muita alergia e um chiado constante no peito.  \n\n**O PACIENTE/ATOR DEVERÁ FALAR**:  \n• Doutor (a), fui no médico do trabalho e ele me pediu um exame mas não voltei pra mostrar. Você pode olhar se tá normal?  \nQuando o candidato solicitar o exame trazido pelo paciente, liberar o impresso **ESPIROMETRIA**.  \n\n**O PACIENTE/ATOR TAMBÉM DEVERÁ PERGUNTAR**:  \n• Se o resultado do exame que ele trouxe está normal;  \n• O que ele tem;  \n• Qual é o tratamento;  \n• Quanto tempo ele ficará afastado do trabalho;  \n• Se existe algo mais que possa ser feito.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência cardíaca:** 72 batimentos por minuto.  \n**Pressão arterial:** 125 × 65 mmHg.  \n**Frequência respiratória:** 15 incursões respiratórias por minuto.  \n**Temperatura axilar:** 36,4 °C.  \n**Saturação de oxigênio:** 98% em ar ambiente.  \n**IMC:** 20 kg/m2.  \n\n\nPaciente em bom estado geral, afebril, acianótico, anictérico e hidratado; alerta, orientado no tempo e espaço. Sem edemas.  \nAusência de estase jugular (tronco entre 30° e 45°).  \n\n\nAusculta respiratória com leve sibilância em ambos os hemotóraces, sem outros ruídos adventícios. Sem uso de musculatura acessória.  \n\n\nRitmo cardíaco regular em dois tempos, com bulhas normofonéticas; ausência de sopros.  \n\n\nAbdome flácido, normotenso, ruídos hidroaéreos normoativos; indolor à palpação e sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**GASOMETRIA ARTERIAL:** Normal.  \n\n\n**PPD (derivado de proteína purificado) – Tuberculina:** 4 mm - não reator.  \n\n\n**Valor de Referência:**  \n• 0 a 4 mm: não reator – indivíduo não infectado pelo M. tuberculosis ou anérgico.  \n• 5 a 9 mm: reator fraco – indivíduo infectado pelo M. tuberculosis ou por outras micobactérias ou vacinado com BCG.  \n• ≥ 10 mm: reator forte – indivíduos infectado pelo M. tuberculosis, doente ou não, ou vacinado com BCG.",
+      "imagem": "img_printeds/2023-1-e1p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**Laudo:** radiografia de tórax dentro dos padrões de normalidade.",
+      "imagem": "img_printeds/2023-1-e1p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "ESPIROMETRIA",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-1-e1p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente simulado.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.125",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre os sintomas e suas características nas crises:**  \n(1) Pergunta sobre a presença de sibilância;  \n(2) Caracteriza a tosse (produtiva OU não produtiva);  \n(3) Caracteriza a dispneia.  \n\n**Adequado:** investiga dois ou mais achados clínicos listados.  \n**Parcialmente adequado:** investiga um achado clínico.  \n**Inadequado:** não investiga achado clínico algum entre os listados.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre desencadeantes, agravantes e atenuantes:**  \n(1) Uso de medicamentos que causam tosse ou se relacionam à piora de  \nbroncoespasmo;  \n(2) Uso de medicamentos para alívio dos sintomas;  \n(3) Relação dos sintomas com o trabalho ou agentes ambientais;  \n(4) Relação com a atividade física;  \n(5) Cronologia das crises (início, duração, períodos intercríticos).  \n\n**Adequado:** investiga três ou mais achados, incluindo obrigatoriamente o item 3.  \n**Parcialmente adequado:** investiga o item 3 e mais um achado.  \n**Inadequado:** não investiga o item 3 OU investiga apenas o item 3 OU não investiga item  \nalgum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico.**  \n\n**Adequado:** solicita exame físico.  \n**Inadequado:** não solicita exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita exames complementares:**  \n(1)\themograma;  \n(2)\tradiografia (ou Raio x) de tórax.  \n\n**Adequado:** olicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um dos exames.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Relaciona os achados da Espirometria ao diagnóstico de asma (verbalizar que  \ndistúrbio obstrutivo leve é relacionado com a asma).**  \n\n**Adequado:** relaciona.  \n**Inadequado:** não relaciona.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula hipótese diagnóstica de asma brônquica (OU asma; OU bronquite  \nasmática; OU hiper-reatividade brônquica).**  \n\n**Adequado:** formula o diagnóstico.  \n**Inadequado:** não formula o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre alguma das seguintes medidas de redução de exposição ambiental  \ndomiciliar e no ambiente de trabalho: ambientes arejados e secos, evitar contato com  \nanimais, nao usar tapetes, usar panos umidos na casa, nao ter cortinas, evitar bichinhos  \nde pelúcia, não varrer, passar pano úmido, mudança de setor na empresa ou  \nafastamento do trabalho.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Conduta terapêutica:**  \nPrescreve corticoide inalatório associado ou não a beta-agonista (corticoides  \ninalatórios: dipropionato de beclometasona, budesonida, propionato de fluticasona,  \nfuroato de fluticasona, furoato de mometasona, ciclesonida; beta-agonistas:  \nsalbutamol, formoterol, salmeterol, indacaterol, olodaterol).  \n\n**Adequado:** prescreve.  \n**Inadequado:** não prescreve.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta que o paciente mantenha o acompanhamento ambulatorial, ou ressalta a  \nimportância de manter o acompanhamento ambulatorial.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Executa as tarefas na ordem determinada.**  \n\n**Adequado:** executa as etapas na ordem determinada.  \n**Inadequado:** não executa as etapas na ordem determinada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

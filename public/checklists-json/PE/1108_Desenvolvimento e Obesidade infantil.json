@@ -1,0 +1,199 @@
+{
+  "uid": 1108,
+  "hash": "pepe_1108",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Desenvolvimento e Obesidade infantil",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico.\n\nDescrição do caso:\nVocê atenderá uma mãe com seu filho de 10 anos de idade. A mãe está se queixando que seu filho é o menor da sua turma na escola e também está ficando com peso elevado.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- Realizar a anamnese sobre o motivo de consulta;  \n- Solicitar e interpretar exame físico;  \n- Identificar e orientar sobre o crescimento e peso da criança;  \n- Responder as dúvidas da mãe;  \n- Identificar e orientar sobre consultas de rotina.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Carla, 34 anos, casada.  \n• **Criança:** João, 10 anos.  \n\n\n**MOTIVO DA CONSULTA:**  \n• Trouxe o João para a consulta porque estou preocupada. Acho que ele está muito pequeno porque os amigos dele são todos mais altos. E ele está ganhando muito peso também.  \n\n\n• **Início do ganho de peso:** Comecei a perceber faz uns 4 meses.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• Sempre foi saudável;  \n• **Alergias, medicações, internações:** nega.  \n**VACINAÇÃO:** As vacinas estão todas em dia. *NESTE MOMENTO*, liberar os impressos das curvas de ESTATURA E IMC.  \n\n\n**ANTECEDENTES PERINATAIS:** Nasceu de 39 semanas, sem intercorrências.  \n• **Amamentação:** não tive leite, ele tomou fórmula desde o nascimento.  \n\n\n**HÁBITOS:** (*INFORMAR SOMENTE O QUE FOR PERGUNTADO PELO CANDIDATO*)  \n• **Escolares:** vai na escola pela tarde;  \n• **Atividade física:** não realiza, só gosta de assistir YouTube e jogar video-game;  \n• **Sono:** como estuda de tarde, fica até de noite vendo TV. E depois acorda tarde também, quase 10h da manhã.  \n\n\n**ALIMENTAÇÃO:** (*INFORMAR SOMENTE O QUE FOR PERGUNTADO PELO CANDIDATO*)  \n• **Horário:** como acorda tarde, não toma café da manhã. Ele almoça e depois vai pra escola.  \n• **Gosto alimentar:** o João é muito difícil para comer. Só gosta de hambúrguer, pizza, batata frita...  \n• **Líquidos:** toma muito suco de caixinha e chocoleite.  \n• **Frutas e verduras:** não pode nem ver, não come nada disso!  \n\n\n**ANTECEDENTES FAMILIARES:** Somos saudáveis.  \n• **Estatura da mãe:** 1.52mt  \n• **Estatura do pai:** 1.70mt  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *Meu filho vai ficar com qual altura?*  \n• *O crescimento dele está normal? É assim mesmo?*  \n• *Meu filho está obeso? Porque ele está engordando?*  \n\n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato solicite a *caderneta da criança* ou *cartão de vacinação*, informe que as \"vacinas estão em dia\" e libere os impressos **CURVA DE ESTATURA** e **CURVA DE IMC**;",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "• **Sinais vitais:**  \n• **PA:** adequada para idade;  \n• **FC:** 90bpm;  \n• **FR:** 20irpm;  \n• **SatO2:** 97% em a.a.;  \n• **Temperatura:** 36.9°C.  \n\n\n**Dados antropométricos:**  \n• **Peso:** 38kg.  \n• **Estatura:** 126cm.  \n• **Estadiamento Tanner:** G1P1  \n\n\n**CONSIDERE QUE HÁ CALCULADORA DISPONÍVEL**  \n\n\n• **CALCULE O IMC E REALIZE A PLOTAGEM DOS GRÁFICOS**  \n• **EXPLIQUE À MÃE SOBRE O QUADRO DE CRESCIMENTO E PESO DO SEU FILHO**",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "CURVA DE ESTATURA",
+      "conteudo": "",
+      "imagem": "img_printeds/2011-e8p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "CURVA DE IMC",
+      "conteudo": "",
+      "imagem": "img_printeds/2011-e8p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se e cumprimenta adequadamente a mãe.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Escuta com atenção e respeito a queixa da mãe sobre o crescimento do filho.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita o cartão da criança a verifica imunizações e registros de peso e estatura.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga a rotina alimentar da criança (horários, tipos de alimentos, ingestão de líquidos, frutas e verduras)**  \n\n**Adequado:** investiga 4 ou 5 itens.  \n**Parcialmente adequado:** investiga 3 itens.  \n**Inadequado:** investiga 2 ou menos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga atividades realizadas pela criança (horário de ida a escola, pratica de atividade física; horário de dormir e de acordar).**  \n\n**Adequado:** investiga os 3 itens.  \n**Parcialmente adequado:** investiga 2 itens.  \n**Inadequado:** investiga somente 1 ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Questiona sobre a altura dos pais da criança.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Reconhece e explica adequadamente o crescimento normal.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Reconhece e explica adequadamente os fatores relacionados ao crescimento (ausência de antecedentes mórbidos, velocidade de crescimento mantida no gráfico e estatura dos pais).**  \n\n**Adequado:** explica os 3 fatores.  \n**Parcialmente adequado:** explica 2 fatores.  \n**Inadequado:** explica 1 ou nenhum fator.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Reconhece e explica adequadamente o quadro de obesidade.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Reconhece e explica adequadamente os fatores associados ao desenvolvimento da obesidade (desmame precoce, dieta desequilibrada, sedentarismo e antecedentes familiares).**  \n\n**Adequado:** explica os 4 fatores.  \n**Parcialmente adequado:** explica 2 ou 3 fatores.  \n**Inadequado:** explica 1 ou nenhum fator.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre a necessidade de realização de reeducação alimentar ou dieta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta sobre a prática de atividade física.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre a necessidade de a criança realizar consultas periodicamente para dar prosseguimento a medição de peso e estatura.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Expressa-se com clareza e segurança.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

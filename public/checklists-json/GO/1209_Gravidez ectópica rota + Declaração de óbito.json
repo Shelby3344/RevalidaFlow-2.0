@@ -1,0 +1,193 @@
+{
+  "uid": 1209,
+  "hash": "pepe_1209",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Gravidez ectópica rota + Declaração de óbito",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: terciária - hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• centro obstétrico e cirúrgico;  \n• leitos de internação e UTI.\n\nDescrição do caso:\nVocê é um dos médicos que participou do atendimento de uma paciente de 27 anos, que deu entrada na urgência há 6 horas. O esposo da paciente veio ao hospital à procura informações sobre a situação.",
+  "tarefas": "- Ler o prontuário da paciente;  \n- Explicar toda a evolução do quadro da paciente ao esposo;  \n- Informar as condutas tomadas pela equipe durante todo o atendimento da paciente;  \n- Explicar a gênese e as causas da gravidez ectópica;  \n- Preencher a declaração de óbito da paciente;  \n- Responder e orientar sobre as dúvidas do esposo.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Esposo:** Alisson, 28 anos.  \n• **Paciente:** Karina, 27 anos.  \n• **Tempo de relacionamento:** casados há 3 anos.  \n\n\n**QUEIXA PRINCIPAL:** Gostaria de saber o que aconteceu com a minha esposa. Ela estava bem até hoje de manhã.  \n\n\n**HISTÓRICO DA PACIENTE:** ela não tinha nenhum problema de saúde, não que eu saiba.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que causou isso?*  \n• Após o candidato informar que irá preencher a Declaração de Óbito: *Eu fico com alguma via? Qual? As outras vias ficam para quem?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "PRONTUÁRIO DA PACIENTE",
+      "conteudo": "Mulher jovem de 27 anos, previamente hígida, procura atendimento médico de urgência há 1 hora com queixa de dor e  \ndistensão abdominal, principalmente em hipogástrio e irradiando para as fossas ilíacas.  \n\n\nEm conjunto, apresentava quadro de instabilidade hemodinâmica: PA 60x40mmHg e FC 125bpm.  \nNão apresentou resposta à restituição volêmica com cristalóides.  \n\n\nO obstetra de plantão diagnosticou Prenhez Tubária Rota.  \nEm seguida, o quadro desencadeou-se para anemia, choque hipovolêmico e Coagulação Intravascular Disseminada - CIVD.  \n\n\nFoi indicada a cirurgia de urgência, mas após 3 horas da admissão a paciente apresentava sinais de coma e evoluiu para parada cardiorespiratória, foram\nrealizadas manobras de RCP.  \n\n\nSem êxito nas manobras de RCP, a paciente veio a óbito 5 horas após entrada no serviço.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "DECLARAÇÃO DE ÓBITO",
+      "conteudo": "Registre na declaração as condições e causas do óbito.  \nInforme ao esposo o destino de cada via da declaração.",
+      "imagem": "img_printeds/2012-e9p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. Cumprimenta o cliente e apresenta-se como médico, informando ao marido da paciente que foi responsável ou que participou do atendimento dela.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. Indagou o nome do marido e tratou-o pelo nome.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**1.3. Comunicou de modo adequado o óbito da esposa, demonstrando empatia e respeito.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**1.4. Usou linguagem acessível ao marido da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**2.1. Explicou adequadamente a evolução da prenhez tubária rota.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**2.2. Explicou adequadamente a instalação da anemia e do choque hipovolêmico.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**2.3. Explicou adequadamente a dificuldade de controle da hemorragia pelo distúrbio de coagulação (CIVD).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**2.4. Demonstrou segurança explicando as medidas terapêuticas tomadas – rapidez do encaminhamento para cirurgia, transfusão, tentativas de reanimação (RCP).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**3.1. Informou em linguagem acessível a instalação da gravidez ectópica (trompa).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**3.2. Citou possíveis fatores predisponentes que possam ter contribuído para a prenhez tubária rota:**  \n(1) histórico de cirurgia tubária anterior (laqueadura, ré-anostomose, salpingoplastias);  \n(2) doença inflamatória pélvica;  \n(3) contracepção com pílula de progestagênio ou D.I.U;  \n(4) história de gravidez ectópica prévia;  \n(5) fertilização assistida.  \n\n**Adequado:** informa pelo menos dois fatores predisponentes.  \n**Inadequado:** informa um ou não informa nenhum fator predisponente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**3.3. Informou que esse defeito de nidação pode ocorrer sem essas causas predisponentes.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**4.1. Informou que é responsável ou que faria o preenchimento do atestado de óbito.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**4.2. Registrou no atestado como causas de óbito:**  \na) Choque hipovolêmico (hemorrágico).  \nb) Hemorragia pós-parto/tubária.  \nc) Prenhez tubária rota.  \nd) Coagulação intravascular disseminada (como outra patologia tendo contribuído para o óbito).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**5.1. Indagou se o marido da paciente encontrava-se suficientemente esclarecido ou se tinha alguma dúvida.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

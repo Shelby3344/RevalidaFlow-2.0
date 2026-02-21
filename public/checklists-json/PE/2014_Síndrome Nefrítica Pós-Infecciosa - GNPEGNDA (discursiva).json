@@ -1,0 +1,155 @@
+{
+  "uid": 2014,
+  "hash": "pepe_2014",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Síndrome Nefrítica Pós-Infecciosa - GNPE/GNDA (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2020",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - Pronto Atendimento Pediátrico.  \nA unidade possui a seguinte infraestrutura:  \n• Consultório de emergência pediátrica;  \n• Leitos de observação e sala de medicação;  \n• Laboratório de análises clínicas e radiografia.\n\nDescrição do caso:\nVocê está de plantão no pronto atendimento e receberá uma criança de 8 anos, trazida pela mãe com queixa de inchaço e urina de coloração escura há uma semana. A mãe refere também desânimo e falta de apetite.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese.  \n- Solicitar e interpretar exame físico.  \n- Verbalizar a principal hipótese diagnóstica.  \n- Solicitar e interpretar os exames complementares para confirmação diagnóstica.  \n- Descrever as condutas médicas iniciais.  \n- Responder as dúvidas da mãe.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Andreia, casada, do lar.  \n• **Criança:** Sofia, 8 anos.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu trouxe a Sofia porque ela está muito inchada. E está fazendo pouco xixi. Quando ela faz, sai bem escuro.  \n\n**SOBRE OS EDEMAS:**  \n• **Início:** Começou há uma semana, mais ou menos.  \n• **Localização:** Primeiro foi nos olhos, ela acordava com o rosto inchado. Agora a barriga e as pernas dela também estão inchadas.  \n• **Progressão:** Vem piorando, hoje de manhã ela mal conseguia calçar o tênis pra vir pra cá.  \n• **Dor:** Não, ela não se queixa de dor no inchaço.  \n\n**SOBRE A URINA:**  \n• **Início:** percebi a urina escura faz uns 3 dias.  \n• **Dor ou ardência:** Não, ela não reclama de dor pra fazer xixi.  \n• **Polaciuria, oliguria ou nocturia:** Ela está fazendo bem pouquinho xixi, vai poucas vezes no banheiro.  \n• **Coloração ou sangue:** A cor está bem escura, parece meio marrom.  \n\n**DEMAIS QUEIXAS**  \n• **Astenia/inapetência:** Ela também está muito desanimada, parece bem cansada sempre.  \n• **Apetite:** está comendo muito pouco nos últimos dias.  \n• **Febre, náuseas, vômitos, diarreia:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n**Doença recente:** Ah, agora que o(a) senhor(a) perguntou... umas 3 semanas atrás, apareceram umas feridinhas na perna dela. Começou com uma coceira, depois virou umas casquinhas, mas sarou sozinho, nem passei nada.  \n• **Alergias, doenças e internações:** Nunca teve nenhuma doença grave, só resfriado de vez em quando.  \n• **Uso de medicamentos:** não toma nenhum remédio.  \n• **Vacinas:** Estão todas em dia.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que a minha filha tem?*  \n• *Essas feridas na perna têm haver com isso?*  \n• *Ela vai precisar ficar internada?*  \n• *Não era bom fazer um exame do rim? Como a gente sabe se isso já está complicado?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 125x80 mmHg  \n• **FC:** 110 bpm  \n• **FR:** 35 irpm  \n• **Temp. axilar:** 36.8°C  \n• **SatO2:** 94% em ar ambiente  \n\n\n**Antropometria:**  \n• **Peso:** 30 kg   \n• **Estatura:** 1,26 m  \n\n\n**Ectoscopia:** Regular estado geral, dispneica, hipocorada (+/4+), acianótica, anictérica. Presença de edema periorbital e em membros inferiores (++/4+).  \n\n\n**Cardiovascular:** Ritmo cardíaco regular, dois tempos, bulhas normofonéticas, sem sopros.  \n\n\n**Respiratório:** Murmúrio vesicular presente, com estertores crepitantes em bases pulmonares.  \n\n\n**Abdome:** Globoso, com edema de parede, fígado palpável a 4 cm do rebordo costal direito, indolor.  \n\n\n**Pele:** Lesões cicatriciais em membros inferiores.  \n\n\n**Neurológico:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Urina tipo 1 (EAS):**  \n    • **Cor:** Castanho-avermelhada  \n    • **Aspecto:** Ligeiramente turvo  \n    • **Densidade:** 1.025  \n    • **pH:** 5,5  \n    • **Proteínas:** ++/4  \n    • **Hemoglobina:** +++/4  \n    • **Leucócitos:** 10 por campo  \n    • **Hemácias:** >100 por campo  \n    • **Cilindros:** Presentes (hemáticos e hialinos)  \n\n\n• **Ureia:** 65 mg/dL (VR: 15-40 mg/dL)  \n• **Creatinina:** 1,1 mg/dL (VR: 0,3-0,7 mg/dL)  \n\n\n• **Sódio (Na+):** 132 mEq/L (VR: 135-145 mEq/L)  \n• **Potássio (K+):** 5,2 mEq/L (VR: 3,5-5,0 mEq/L)  \n\n\n• **Complemento C3:** 45 mg/dL (VR: 90-180 mg/dL)  \n• **Complemento C4:** 25 mg/dL (VR: 10-40 mg/dL)  \n• **ASLO:** 650 UI/mL (VR: < 200 UI/mL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME DE IMAGEM",
+      "conteudo": "• **Raio-X de Tórax (PA e Perfil):**  \n    • Leve cardiomegalia.  \n    • Sinais de congestão pulmonar bilateral.  \n    • Velamento de seios costofrênicos.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e a acompanhante, perguntando seus nomes.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese da doença atual, investigando sobre:**  \n(1) início e características do edema;  \n(2) características da urina;  \n(3) sintomas associados (febre, vômitos, diarreia, disúria);  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga apenas um item ou nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a anamnese, investigando a infecção prévia.**  \n\n**Adequado:** investiga a ocorrência de infecções recentes de pele (piodermite) ou de garganta (faringoamigdalite) nas últimas semanas.  \n**Inadequado:** não investiga a ocorrência de infecções prévias.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica no exame físico as seguintes alterações:**  \n(1) hipertensão arterial;  \n(2) edema;  \n(3) hepatomegalia;  \n(4) estertores pulmonares.  \n\n**Adequado:** identifica três ou mais alterações.  \n**Parcialmente adequado:** identifica duas alterações.  \n**Inadequado:** identifica uma ou nenhuma alteração.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a principal hipótese diagnóstica.**  \n\n**Adequado:** verbaliza o diagnóstico de Síndrome Nefrítica, Glomerulonefrite Aguda Pós-Estreptocócica (GNPE) ou Glomerulonefrite Difusa Aguda (GNDA).  \n**Inadequado:** não verbaliza ou verbaliza outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita exames complementares e os resultados esperados para confirmar a hipótese diagnóstica, dentre os listados abaixo:**  \n(1) Urina tipo 1 ou EAS (hematúria, OU cilindros hemáticos, OU proteinúria);  \n(2) Dosagem de Complemento C3 (baixo);  \n(3) Função renal (ureia e creatinina normais ou elevadas);  \n(4) Título de ASLO (elevado);  \n(5) Dosagem Sérica de Eletrólitos (hiponatremia ou hipercalemia);  \n(6) Raio-X de tórax (cardiomegalia ou congestão pulmonar).  \n\n**Adequado:** cita três exames com seus respectivos resultados.  \n**Parcialmente adequado:** cita dois exames com seus respectivos resultados.  \n**Inadequado:** cita apenas um exame ou nenhum, ou cita os exames sem os resultados esperados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Define as cinco condutas médicas iniciais para o manejo do caso.**  \n(1) internação hospitalar para monitorização e tratamento;  \n(2) restrição hídrica e de sódio;  \n(3) uso de diurético de alça (Furosemida, nifedipina, hidralazina ou anlodipina) para manejo da congestão e edemas;  \n(4) uso de anti-hipertensivo (vasodilatador, como a hidralazina);  \n(5) antibioticoterapia (Penicilina Benzatina) para erradicação do estreptococo.  \n\n**Adequado:** define quatro ou mais condutas.  \n**Parcialmente adequado:** define três condutas.  \n**Inadequado:** define duas ou menos condutas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Indica e Justifica a necessidade de internação hospitalar.**  \n\n**Adequado:** justifica a internação pela presença de complicações como a insuficiência respiratória, a hipertensão arterial e a sobrecarga de volume, que necessitam de monitoramento e tratamento em ambiente hospitalar.  \n**Inadequado:** não justifica a internação ou indica tratamento ambulatorial.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Correlaciona a infecção de pele prévia com o quadro renal atual.**  \n\n**Adequado:** explica à mãe que as feridas na perna foram provavelmente causadas por uma bactéria (estreptococo) e que, semanas depois, o corpo desenvolveu uma reação inflamatória que atacou os rins, causando o inchaço e a alteração na urina.  \n**Inadequado:** não consegue explicar a relação entre os eventos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Cita as indicações para a realização de biópsia renal na evolução do caso:**  \n(1) Hematúria macroscópica com duração superior a 4 semanas;  \n(2) Hipertensão arterial prolongada por mais de 4 semanas;  \n(3) Complemento sérico persistentemente baixo por mais de 8 semanas;  \n(4) Associação com síndrome nefrótica (ou proteinúria > 50 mg/Kg/dia) > 4 semanas.  \n\n**Adequado:** cita três indicações.  \n**Parcialmente adequado:** cita duas indicações.  \n**Inadequado:** cita uma indicação ou nenhuma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.65",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

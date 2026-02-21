@@ -1,0 +1,199 @@
+{
+  "uid": 2509,
+  "hash": "pepe_2509",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Miomatose uterina",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2025/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: primária.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório.\n\nDescrição do caso:\nVocê é um médico atuando em uma unidade básica de saúde (UBS) e atenderá uma paciente de 35 anos com queixa de menstruações com sangramento aumentado.",
+  "tarefas": "TAREFAS:  \n- realizar anamnese direcionada à queixa principal da paciente;  \n- solicitar os exames necessários para a investigação inicial;  \n- verbalizar o(s) provável(eis) diagnóstico(s);  \n- estabelecer a conduta, justificando-a e orientando a paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marina, 35 anos, casada.  \n• Sou advogada, mas não estou trabalhando agora.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), vim aqui porque estou preocupada com o aumento da minha menstruação.  \n\n**SOBRE A MENSTRUAÇÃO:**  \n• **Frequência:** Eu menstruo todo mês.  \n• **Volume:** Aumentou muito nos últimos 6 meses. Preciso usar absorvente noturno e tenho visto umas bolas de sangue.  \n• **Duração:** Antes durava 5 dias, agora passou pra 9 dias.  \n• **Cólicas:** Sinto cólicas nos dois primeiros dias. Tomo um anti-inflamatório e a dor alivia.  \n• **DUM:** A última terminou faz 1 semana.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS:**  \n• **GPA:** Tenho 3 filhos, todos nasceram de cesárea. Não tive nenhum problema nas gestações.  \n• **Relação sexual:** Tenho vida sexual ativa.  \n• **Contracepção:** Tomo a pílula Ciclo 21 pra não engravidar.  \n• **Preventivo:** Fiz uma consulta há um mês e coletei o preventivo, o resultado veio normal.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Cirurgias:** Não tenho nenhum problema de saúde. As únicas cirurgias que fiz foram as cesáreas.  \n• **Família:** Meus pais são saudáveis.\n\n**DEMAIS PERGUNTAS:** não consta no Script.\n\n**DÚVIDAS:**  \n• *O que eu tenho, doutor(a)?*  \n• *Isso é grave? Pode ser câncer?*  \n• *Qual o tratamento? Vou precisar operar?*  \n• *Se eu operar, vou sentir um vazio dentro de mim?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO E GINECOLÓGICO",
+      "conteudo": "Paciente normocorada, hidratada, afebril.  \n\n• **Pressão arterial:** 120 mmHg x 70 mmHg.  \n• **Frequência cardíaca:** 88 batimentos por minuto.  \n• **IMC:** 23 kg/m².  \n\n\n**Exame físico:** sem anormalidades, com exceção da palpação de massa de consistência fibroelástica em região suprapúbica, indolor.  \n\n\n• Mamas sem alterações, órgãos genitais externos normais, secreção vaginal com muco normal, colo epitelizado, sem lesões aparentes.  \n\n\n• **Toque vaginal:** útero em médio versão, consistência fibroelástica, superfície irregular com nodulações, palpável na altura da cicatriz umbilical, ovários não palpáveis, anexos livres.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ULTRASSONOGRAFIA TRANSVAGINAL",
+      "conteudo": "Útero com volume total de 560 cm³ (normal: de 80 a 100 cm³), com os seguintes achados:  \n• nódulo intramural com componente submucoso de 6,0 cm x 6,0 cm em parede anterior/fúndica;  \n• nódulo intramural de 7,5cm x 5,0 cm em parede lateral esquerda; e  \n• nódulo subseroso em parede posterior lateral direita de 4 cm x 4 cm.  \n\n\nEndométrio de espessura normal e aspecto homogêneo.  \nOvários de aspecto e volume normais.  \nDopplervelocimetria normal.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES COMPLEMENTARES",
+      "conteudo": "• **Hemograma:** normal.  \n• **Beta-HCG:** negativo.  \n\n\n**Demais exames:** resultados em andamento.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) pergunta o nome da paciente.  \n\n**Adequado:** realiza as duas ações.  \n**Inadequado:** realiza apenas uma ação ou nenhuma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre as características da menstruação:**  \n(1) frequência OU regularidade OU intervalo;  \n(2) volume de sangramento OU quantidade OU uso de absorvente;  \n(3) duração do fluxo;  \n(4) presença de cólicas.  \n\n**Adequado:** pergunta sobre os quatro itens.  \n**Parcialmente adequado:** pergunta apenas sobre dois ou três itens.  \n**Inadequado:** pergunta apenas sobre um item ou não pergunta sobre nenhum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta se a paciente tem atividade sexual.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta se a paciente usa método contraceptivo.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga a história obstétrica, perguntando sobre:**  \n(1) gestações anteriores;  \n(2) paridade;  \n(3) vias de parto.  \n\n**Adequado:** pergunta sobre os três itens.  \n**Parcialmente adequado:** pergunta apenas sobre dois itens.  \n**Inadequado:** pergunta apenas sobre um item ou não pergunta sobre nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Pergunta se a paciente usa medicação para tratar das cólicas.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Pergunta sobre consultas ginecológicas OU preventivo OU citologia OU Papanicolau.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita exame físico e(ou) ginecológico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exames complementares:**  \n(1) hemograma;  \n(2) beta-HCG.  \n\n**Adequado:** solicita os dois itens.  \n**Parcialmente adequado:** solicita apenas um item.  \n**Inadequado:** não solicita nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita ultrassonografia transvaginal (OU US/USG/ecografia transvaginal OU vaginal OU pélvica OU ginecológica OU endovaginal).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita ou solicita apenas \"tomografia computadorizada\" ou solicita apenas \"ultrassom e tomografia computadorizada\".",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Verbaliza o diagnóstico: miomatose uterina ou útero miomatoso ou miomas uterinos.**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta quanto ao fato de a patologia ser benigna.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta a necessidade de tratamento cirúrgico (histerectomia OU histerectomia total OU histerectomia subtotal OU miomectomia).**  \n\n**Adequado:** orienta apenas histerectomia.  \n**Parcialmente adequado:** orienta apenas cirurgia, de forma geral, ou orienta miomectomia.  \n**Inadequado:** não orienta cirurgia ou orienta apenas tratamento clínico ou orienta histerectomia + ooforectomia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Orienta que, após a intervenção cirúrgica, não deve haver alteração em relação a:**  \n(1) percepção física (sensação de vazio);  \n(2) hormônios (menopausa);  \n(3) vida sexual.  \n\n**Adequado:** abordou os três itens.  \n**Parcialmente adequado:** abordou apenas dois itens.  \n**Inadequado:** abordou apenas um item ou não abordou nenhum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

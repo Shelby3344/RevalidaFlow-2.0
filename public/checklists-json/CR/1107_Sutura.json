@@ -1,0 +1,176 @@
+{
+  "uid": 1107,
+  "hash": "pepe_1107",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Sutura",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2011",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:  \n* Consultório médico;  \n* Sala de pequenos procedimentos;\n* raio-X, ultrassonografia, eletrocardiograma;\n\nDescrição do caso:\n- Jovem de 22 anos chega na UPA com um ferimento de faca em antebraço direito.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:    \n- Realizar o atendimento da paciente; \n- Utilizar o material adequado para sutura;  \n- Descrever e realizar a sutura da lesão - 2 pontos;  \n- Orientar cuidados com o ferimento;",
+  "script_ator": "**DADOS PESSOAIS:**  \n- Rafaela, 22 anos, auxiliar de cozinha.  \n\n\n**MOTIVO DA CONSULTA:**  \n- Estava cortando uma cebola e a faca escorregou e acabou cortando aqui no braço.  \n- Tempo de evolução: há meia hora.  \n\n\n**SINAIS E SINTOMAS:** Só estou com um pouco de dor, coloquei uma compressa e parou de sangrar um pouco.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n- **Alergias, medicações, comorbidades, internações:** nega.  \n- **Vacinação:** Não trouxe o cartão, mas última vez foi na adolescência, não lembro qual.  \n\n\n**HÁBITOS:**  \n- **Álcool, tabaco e drogas:** nega.  \n\n\n**Outras perguntas:** Não consta no Script.  \n\n**DÚVIDAS:**  \n- **Caso candidato verbalize necessidade de sutura:** Vai precisar de anestesia?  \n- **Após o candidato concluir a sutura:** E como eu cuido da ferida?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "ECTOSCOPIA DA LESÃO",
+      "conteudo": "**DESCREVA AS CARACTERÍSTICAS DA LESÃO**",
+      "imagem": "img_printeds/2011-e7p1.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. Calçar as luvas sem risco de contaminação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. Segura a gaze com as pinças.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**1.3. Solicita o antisséptico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**1.4. Indica a região onde a antissepsia deve ser realizada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**2.1. Aponta locais de Infiltração (bordas da fenda, e não na área cruenta)**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**3.1. Escolhe e utiliza porta-agulha (e não, a pinça Kelly).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**3.2. Escolhe e utiliza a pinça dente de rato (e não, a pinça anatômica).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**3.3. Escolhe e utiliza fio mononylon 4.0 (e não, fio catgut 4.0).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**3.4. Realiza sutura sem contaminação (não deve permitir que o instrumental ou suas mãos toquem fora do campo estéril).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**3.5. Realiza a sutura com a adequada aproximação das bordas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**4.1. Prescreve vacinação contra tétano.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**4.2. Prescreve cuidados com a ferida (deixar descoberta depois de 24 h e evitar passar soluções sobre aferida).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**4.3. Prescreve que a retirada de pontos deve ser realizada nos próximos 7 e 10 dias.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

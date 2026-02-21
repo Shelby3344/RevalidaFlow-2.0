@@ -1,0 +1,172 @@
+{
+  "uid": 117,
+  "hash": "pepe_117",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "DPOC - Doença Pulmonar Obstrutiva Crônica, Exacerbação",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - unidade de pronto atendimento (UPA).  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência com monitorização;  \n• Acesso a laboratório de análises clínicas e radiografia;  \n• Farmácia com medicações de emergência.\n\nDescrição do caso:\nVocê atenderá um homem de 50 anos, que procura o serviço de saúde com queixa de piora progressiva da falta de ar nos últimos três dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal do paciente.  \n- Solicitar o exame físico, caso necessário.  \n- Formular e verbalizar a hipótese diagnóstica principal.  \n- Solicitar e interpretar os exames complementares para a investigação.  \n- Estabelecer a conduta terapêutica inicial e as orientações necessárias.  \n- Responder às dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 50 anos, casado, motorista de caminhão.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), não estou aguentando de falta de ar. Piorou muito de três dias para cá.  \n\n**SOBRE OS SINTOMAS:**  \n• **Dispneia:** Eu já canso fácil há muito tempo, mas agora não consigo nem andar da sala para a cozinha. A falta de ar vem até parado.  \n• **Tosse e Expectoração:** Eu sempre tive aquela tosse de fumante de manhã, com catarro claro. Mas agora a tosse piorou, e o catarro está saindo amarelado e em maior quantidade.  \n• **Sibilância:** Estou com um chiado no peito que não para.  \n• **Febre:** Não tive febre.  \n\n**HISTÓRIA PREGRESSA:**  \n• **Tabagismo:** Fumo desde os 15 anos de idade, quase dois maços por dia.  \n• **Outras doenças:** Tenho pressão alta, mas não controlo direito. Já me falaram que eu tinha esse tal de enfisema. Fiz um exame de assoprar um aparelho dias atrás, trouxe o resultado, você que ohar?  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai morreu com enfisema, também fumava muito.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que eu tenho é grave, doutor(a)?*  \n• *É por causa do cigarro, não é?*  \n• *Vou precisar ficar internado? Qual o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 150x95 mmHg  \n• **FC:** 112 bpm  \n• **FR:** 28 irpm  \n• **SatO₂:** 88% em ar ambiente  \n• **Temp. axilar:** 37,1°C  \n\n\n**Ectoscopia:** Regular estado geral, lúcido, ansioso, taquidispneico com uso de musculatura acessória. Cianose labial discreta. Tórax em barril.  \n\n\n**Aparelho Respiratório:**  \n• **Inspeção:** Expansibilidade torácica diminuída globalmente.  \n• **Ausculta:** Murmúrio vesicular diminuído difusamente, com sibilos expiratórios em ambos os hemitórax.  \n• **Percussão:** Hipersonoridade bilateral.  \n\n\n**Aparelho Cardiovascular:** Bulhas rítmicas taquicárdicas, hiperfonese de B2 em foco pulmonar.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 17,5 g/dL (VR: 13,5 – 17,5 g/dL)  \n• **Hematócrito:** 53% (VR: 40 – 52%)  \n• **Leucócitos:** 13.200/mm³ (VR: 4.000 – 11.000/mm³), com neutrofilia.  \n• **Plaquetas:** 280.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**GASOMETRIA ARTERIAL (EM AR AMBIENTE)**  \n• **pH:** 7,32 (VR: 7,35 – 7,45)  \n• **PaCO₂:** 58 mmHg (VR: 35 – 45 mmHg)  \n• **PaO₂:** 55 mmHg (VR: 80 – 100 mmHg)  \n• **HCO₃⁻:** 28 mEq/L (VR: 22 – 26 mEq/L)  \n• **SatO₂:** 88%",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**Laudo:**  \n• Sinais de hiperinsuflação pulmonar, com retificação das cúpulas diafragmáticas e aumento do espaço aéreo retroesternal.  \n• Coração em gota.  \n• Ausência de consolidações ou derrames pleurais evidentes.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ESPIROMETRIA",
+      "conteudo": "**Índices Pré-Broncodilatador:**  \n• **CVF:** 3,10 L (75% do previsto)  \n• **VEF₁:** 1,30 L (42% do previsto)  \n• **VEF₁/CVF:** 0,42  \n\n\n**Índices Pós-Broncodilatador:**  \n• **CVF:** 3,15 L (76% do previsto)  \n• **VEF₁:** 1,35 L (44% do previsto)  \n• **VEF₁/CVF:** 0,43  \n\n\n**realizado há 30 dias**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as características da exacerbação atual.**  \n(1) piora da dispneia basal;  \n(2) aumento do volume do escarro;  \n(3) alteração da coloração do escarro (purulência).  \n\n**Adequado:** investiga os três itens (critérios de Anthonisen).  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Quantifica a história de tabagismo.**  \n\n**Adequado:** pergunta sobre o início do tabagismo e a quantidade de cigarros por dia para estimar a carga tabágica (maços-ano).  \n**Inadequado:** pergunta apenas se o paciente fuma, sem quantificar.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame físico com foco no aparelho respiratório.**  \n\n**Adequado:** solicita a avaliação do padrão respiratório, uso de musculatura acessória, ausculta pulmonar e inspeção do tórax.  \n**Inadequado:** não solicita o exame físico ou o faz de forma genérica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames complementares essenciais para a avaliação da exacerbação.**  \n(1) radiografia de tórax;  \n(2) gasometria arterial.  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um dos exames.  \n**Inadequado:** não solicita nenhum dos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta os exames e verbaliza a principal hipótese diagnóstica.**  \n\n**Adequado:** correlaciona a história clínica, o exame físico e os exames complementares (hipoxemia com hipercapnia) para formular o diagnóstico de Exacerbação Aguda de Doença Pulmonar Obstrutiva Crônica (DPOC).  \n**Parcialmente adequado:** verbaliza o diagnóstico de DPOC, mas não especifica a exacerbação.  \n**Inadequado:** não formula a hipótese diagnóstica correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Interpreta o exame de espirometria e classifica a gravidade da DPOC de base.**  \n\n**Adequado:** verbaliza o diagnóstico de distúrbio obstrutivo grave e classifica a doença de base como GOLD 3, com base no VEF₁ pós-broncodilatador.  \n**Parcialmente adequado:** verbaliza apenas o distúrbio obstrutivo, sem classificar a gravidade.  \n**Inadequado:** não interpreta ou interpreta incorretamente o exame.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Inicia a terapia de suporte imediato.**  \n\n**Adequado:** indica a administração de oxigênio suplementar (via cateter nasal ou máscara de Venturi) com o objetivo de manter a SatO₂ entre 88-92%.  \n**Inadequado:** não indica oxigenoterapia ou indica com alvo de saturação inadequado para um retentor crônico de CO₂.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve o tratamento farmacológico para a exacerbação.**  \n(1) broncodilatadores de curta ação (beta-2 agonista e/ou anticolinérgico) via nebulização ou inalador;  \n(2) corticoide sistêmico (oral ou endovenoso);  \n(3) antibiótico (baseado na presença de escarro purulento).  \n\n**Adequado:** prescreve os três componentes do tratamento.  \n**Parcialmente adequado:** prescreve dois dos três componentes.  \n**Inadequado:** prescreve um ou nenhum componente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define a conduta quanto à internação.**  \n\n**Adequado:** indica a necessidade de internação hospitalar devido à gravidade da exacerbação (insuficiência respiratória, uso de musculatura acessória, comorbidades).  \n**Inadequado:** sugere tratamento ambulatorial ou alta após medicação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Fornece orientações essenciais ao paciente.**  \n\n**Adequado:** aconselha de forma enfática sobre a necessidade urgente de cessar o tabagismo, explicando a relação direta com a doença e sua progressão.  \n**Inadequado:** não aborda a cessação do tabagismo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

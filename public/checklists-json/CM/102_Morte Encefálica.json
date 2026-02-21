@@ -1,0 +1,177 @@
+{
+  "uid": 102,
+  "hash": "pepe_102",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Morte Encefálica",
+  "definicao": "Estação elaborada por:\r\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Hospital Terciário de Grande Porte.  \nA unidade apresenta a seguinte infraestrutura:  \n• Tomografia Computadorizada, Ressonância Magnética e Raio-x;  \n• laboratório de análises clínicas;  \n• banco de sangue;  \n• leitos de internação e UTI.\n\nDescrição do caso:\nPaciente masculino de 33 anos, internado na UTI há mais de 24 horas após traumatismo cranioencefálico (TCE) grave decorrente de acidente de moto sem uso de capacete.  \n\nAtualmente encontra-se entubado e em ventilação mecânica, apresentando coma profundo (Glasgow 3).  \nA esposa do paciente busca informações sobre a situação atual de seu marido.",
+  "tarefas": "TAREFAS:  \n\n- Solicitar e interpretar o Prontuário eletrônico do Paciente;  \n- Solicitar os dados pertinentes e interpretar os parâmetros do exame físico neurológico;  \n- Solicitar e interpretar os exames complementares obrigatórios;  \n- Descrever as etapas do protocolo de Morte encefálica;  \n- Utilizar habilidades profissionais para comunicação do diagnóstico;  \n- Responder aos questionamentos, justificando e explicando as condutas.  \n\nAS TAREFAS DEVERÃO SER REALIZADAS NA SEQUÊNCIA DESCRITA ACIMA.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**  \nAntes de iniciar o diálogo com o candidato você deverá liberar o impresso **PRONTUÁRIO ELETRÔNICO DO PACIENTE - UTI.**   \n\nAssim que o participante terminar de ler o *PRONTUÁRIO ELETRÔNICO DO PACIENTE - UTI* e estiver atualizado sobre o caso clínico, e iniciar a conversa, conduza o seu diálogo assim:  \n\n\nDemonstrar as seguintes reações: tristeza, choro e buscando respostas.  \n\n\n**DADOS PESSOAIS:**  \n• **Esposa:** Romina Luz, 30 anos.  \n• **Paciente:** Alberto Luz, 33 anos.  \n\n\n**MOTIVO DE ESTAR AQUI:**  \nDoutor(a), O Hospital me ligou para eu vir aqui na UTI porquê o médico(a) plantonista gostaria de falar comigo.  \n\n\n• **caso o candidato pergunte por outros acompanhantes:**  \n*Vim sozinha e não me importo em receber qualquer notícia.*  \n• **caso o candidato pergunte sobre o estado atual do paciente:**  \n*No dia do acidente os médicos do pronto socorro me disseram que o acidente foi muito grave e que o cérebro dele está muito inchado.*  \n\n\n**PERGUNTAS QUE VOCÊ DEVERÁ FAZER AO PARTICIPANTE:**  \n• *Doutor, ele vai acordar, o que é morte encefálica?*  \n• *Como vamos ter certeza da morte encefálica?*  \n• *Quais são as próximas etapas agora que já sabemos que é Morte Encefálica?*  \n\n\n• **caso o candidato pergunte pelo o Entendimento frente ao explicado:**  \n*Sim eu entendi TUDO.*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "PRONTUÁRIO ELETRÔNICO DO PACIENTE - UTI",
+      "conteudo": "Primeira evolução clínica do dia:\n\nPaciente Alberto Luz, 33 anos, está no primeiro dia de internação na UTI devido a um Traumatismo Cranioencefálico (TCE) grave, resultado de um acidente de moto sem capacete. Ele permanece entubado em ventilação mecânica e em coma profundo (Escala de Glasgow 3).  \n\nHemodinamicamente, o paciente está estável, sem precisar de medicação para pressão. A sedação foi suspensa há mais de 12 horas, permitindo uma avaliação neurológica basal, mas não há sinais de melhora até o momento.  \n\nEle continua sob monitoramento intensivo e aguarda exames de imagem para determinar o prognóstico.  \n\nComunicação com a Família: A assistente social entrou em contato com a esposa para uma atualização presencial, reforçando a gravidade do quadro e a necessidade de aguardar mais exames.  \n\n\n**EXAMES LABORATORIAIS**  \n\n\nEXAME\t      RESULTADO  \n• Glicemia    92 mg/dL  \n• Sódio       140 mEq/L  \n• Potássio    4,2 mEq/L  \n• Creatinina  1,0 mg/dL  \n• Temperatura 36,5°C  \n\n\n**Gasometria Arterial (pré-teste de apneia):**  \n• pH = 7,37  \n• PaCO₂ = 38 mmHg  \n• HCO₃ = 24.  \n\n\n**EXAMES DE IMAGEM**\n\n\n**Tomografia Computadorizada de Crânio sem contraste:**\t \n\n• Edema cerebral difuso + apagamento de sulcos corticais",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO NEUROLÓGICO",
+      "conteudo": "**PROTOCOLO MORTE ENCEFÁLICA**  \n\n\n**Nível de consciência:**  \n• Sem abertura ocular, resposta verbal ou motora - Glasgow 3.\n\n\n**Reﬂexos de tronco encefálico:**  \n• Pupilas midriáticas - Não reativas à luz, ausência de reflexo fotomotor.  \n• Reflexo córneo-palpebral - Ausente.  \n• Reflexo oculocefálico - Ausente.  \n• Reflexo oculovestibular - Ausente.  \n• Reflexo de tosse - Ausente ao aspirar traqueia.  \n\n\n**Teste de apneia com PCO2:**  \n• Positivo - Após 10 minutos desconectado do ventilador o paciente não apresenta nenhuma incursão respiratória voluntária e a PCO2 >55 mmHg.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES COMPLEMENTARES OBRIGATÓRIOS",
+      "conteudo": "**Eletroencefalograma:**   \nAusência de Atividade elétrica cerebral.  \n\n\n**Cintilografia Cerebral:**   \nAusência de captação no parênquima cerebral.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Pergunta sobre evolução clínica/prontuário do Paciente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a Avaliação do nível de consciência e descreve corretamente ausência de resposta ocular, verbal e motora (Glasgow 3).**  \n\n**Adequado:** solicita a avaliação e verbaliza a ECG atual.    \n**Parcialmente adequado:** apenas solicita a avaliação do nível de consciência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza os Testes de reflexos de tronco encefálico e cita corretamente os reflexos testados:**  \n1) fotomotor;  \n2) córneo-palpebral;  \n3) oculocefálico;  \n4) oculovestibular;  \n5) tosse.  \n\n**Adequado:** solicita os testes e verbaliza pelo menos 4 reflexos testados.  \n**Parcialmente adequado:** apenas solicita os testes de reflexos de tronco encefálico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza o Teste de Apneia com PCO2 e verbaliza a técnica.**  \n\n**Adequado:** realiza o teste e verbaliza a técnica.  \n**Parcialmente adequado:** Apenas solicita o Teste de Apneia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita os exames complementares obrigatórios e verbaliza:**  Eletroencefalograma e/ou Cintilografia Cerebral.  \n\n**Adequado:** solicita os exames e verbaliza quais são.  \n**Parcialmente adequado:** apenas solicita exames complementares obrigatórios e não verbaliza quais exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Descrever as etapas do protocolo de Morte encefálica:**   \n1) Inclui critérios clínicos e o diagnóstico de morte encefálica é complexo e deve ser realizado por profissionais médicos qualificados;  \n2) A confirmação da morte encefálica permite a doação de órgãos, Conforme a legislação brasileira;  \n3) É necessário a realização de um intervalo entre exames e testes complementares;  \n4) Menciona a necessidade de constatar a data e hora do diagnóstico de morte encefálica.  \n\n**Adequado:** explica três itens OU mais.  \n**Parcialmente adequado:** explica dois itens.  \n**Inadequado:** explica um item OU nenhum item.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica à esposa o conceito de morte encefálica:**  \n\"A morte encefálica é caracterizada pela perda irreversível de todas as funções do encéfalo, é definida pela cessação das atividades corticais e do tronco encefálico.\"",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica à esposa sobre a certeza da morte encefálica:**  \nEnfatiza que o diagnóstico envolve a avaliação de sinais clínicos e exames complementares, seguindo critérios estabelecidos por órgãos como o Conselho Federal de Medicina - CFM, Lei Nº 9.434/97 e Resolução CFM Nº 2.173/2017.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explica à esposa quais são as próximas etapas e condutas após o diagnóstico definitivo de morte encefálica:**  \n1) Notificação à Central Estadual de Transplantes (CET).  \n2) Abordagem da Esposa sobre a possibilidade de Doação de Órgãos e Tecidos, enfatizando que a decisão final da doação pertence à família no Brasil.  \n3) Manutenção do Potencial Doador (se houver consentimento para doação).  \n4) Avaliação de Órgãos e Busca por Receptores.  \n5) Captação dos Órgãos e Tecidos.  \n6) Recomposição do Corpo e Liberação para a Família.  \n7) Encerramento do Suporte (se não houver doação): Caso a esposa/família não autorize a doação de órgãos, o suporte de vida (como a ventilação mecânica) é interrompido, e o corpo do paciente é liberado para os familiares, já que a morte encefálica caracteriza o óbito legal do indivíduo.  \n\n**Adequado:** explica quatro itens OU mais.  \n**Parcialmente adequado:** explica dois OU três itens.  \n**Inadequado:** Explica um item OU nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Faz a escuta ativa e acolhimento da esposa.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Utilizou linguagem acessível e respeitosa - SPIKES.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Responde às perguntas da esposa de forma completa.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

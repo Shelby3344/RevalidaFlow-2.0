@@ -1,0 +1,166 @@
+{
+  "uid": 527,
+  "hash": "pepe_527",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Hanseníase Paucibacilar",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• consultório médico;  \n• laboratório de análises clínicas;  \n• sala de curativos e procedimentos.\n\nDescrição do caso:\nPaciente de 45 anos procura a Unidade Básica de Saúde devido ao surgimento de uma mancha clara no antebraço esquerdo há cerca de 8 meses.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar o(s) exame(s) físico(s) necessário(s) para a avaliação do quadro.  \n- Solicitar e interpretar exames complementares pertinentes.  \n- Estabelecer o diagnóstico e a classificação operacional patológica.  \n- Definir a conduta terapêutica e as orientações necessárias.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Carlos, 45 anos, pedreiro.  \n\n**MOTIVO DE CONSULTA:** Doutor, essa mancha aqui no meu braço está me preocupando.  \n\n**SOBRE A MANCHA:**  \n• **Início:** faz uns 8 meses que apareceu.  \n• **Localização:** aqui no antebraço esquerdo.  \n• **Sensibilidade:** parece que ficou meio amortecido o lugar. Não sinto bem as coisas ali.  \n• **Dor/Prurido:** não dói, não coça e não sai com pomada de micose que usei por conta própria.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Parestesia/Formigamento:** sinto umas fisgadas no braço às vezes.  \n• **Força:** sinto que a mão esquerda está um pouco mais fraca para segurar a colher de pedreiro.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e medicações:** sou hipertenso, uso enalapril.  \n• **Contatos:** moro com minha esposa e dois filhos pequenos.  \n• **Casos na família:** meu tio teve um problema de pele sério anos atrás, mas não sei o nome.  \n\n**DÚVIDAS:**  \n• *Isso é contagioso?*  \n• *Como que é o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO DERMATONEUROLÓGICO",
+      "conteudo": "• **Inspeção:** Ausência de pelos na área da lesão.  \n\n• **Sensibilidade superficial:** abolição da sensibilidade térmica e dolorosa na área da mancha. Sensibilidade tátil diminuída.  \n\n• **Palpação de troncos nervosos:** espessamento e dor à palpação do nervo ulnar esquerdo. Nervo ulnar direito e demais troncos (radial, mediano, fibular) sem alterações.  \n\n• **Avaliação motora:** leve redução de força na pinça da mão esquerda (grau 4).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ECTOSCOPIA DA LESÃO",
+      "conteudo": "**DESCREVA AS CARACTERÍSTICAS DA LESÃO**",
+      "imagem": "img_printeds/e527p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "BACILOSCOPIA",
+      "conteudo": "• **Baciloscopia de raspado intradérmico (lóbulos auriculares, cotovelos e lesão):** Negativa para BAAR (Índice Baciloscópico = 0).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida:**  \n(1) questiona o tempo de evolução da lesão;  \n(2) pergunta sobre sintomas locais (dor, prurido);  \n(3) investiga alteração de sensibilidade ou força; e,  \n(4) pesquisa história de contatos com pessoas com sintomas semelhantes ou diagnóstico de hanseníase.  \n\n**Adequado:** investiga os quatro itens.  \n**Parcialmente adequado:** investiga dois ou três itens.  \n**Inadequado:** investiga um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verbaliza as características da lesão de pele:**  \n(1) mácula, mancha ou placa de coloração hipocrômica;  \n(2) plana ou não ulcerada;  \n(3) seca, ou não secretiva;  \n(4) bordas bem delimitadas e/ou irregulares;  \n(5) bordas não elevadas e/ou eritematosa (ou acobreada); e,  \n(6) medindo aproximadamente 5 cm.  \n\n**Adequado:** identifica três ou mais itens.  \n**Parcialmente adequado:** identifica dois itens.  \n**Inadequado:** identifica um ou não identifica item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita o exame da sensibilidade na lesão:**  \n(1) teste de sensibilidade térmica (ex: algodão embebido em álcool/água gelada);  \n(2) teste de sensibilidade dolorosa (ex: ponta de agulha/estesiômetro); e,  \n(3) teste de sensibilidade tátil.  \n\n\n**Adequado:** solicita os três testes.  \n**Parcialmente adequado:** solicita dois testes.  \n**Inadequado:** solicita um ou nenhum teste.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita a avaliação de troncos nervosos:**  \n(1) do nervo ulnar; e,  \n(2) mais um tronco nervoso (ex: auricular, radial, fibular ou tibial).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** palpa apenas um nervo.  \n**Inadequado:** não solicita a palpação nervosa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Estabelece o diagnóstico principal:**  \n\n**Adequado:** verbaliza o diagnóstico de Hanseníase.  \n**Inadequado:** não verbaliza ou indica outro diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita e interpreta o exame complementar de rotina:**  \n(1) solicita baciloscopia de raspado intradérmico; e,  \n(2) interpreta que o resultado negativo não exclui o diagnóstico clínico.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas a solicitação.  \n**Inadequado:** não solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Classifica o caso para fins operacionais:**  \n\n**Adequado:** classifica como Hanseníase Paucibacilar (PB) por apresentar uma lesão e apenas um tronco nervoso acometido.  \n**Inadequado:** classifica como Multibacilar (MB) ou não classifica.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Prescreve o esquema terapêutico correto:**  \n(1) indica Poliquimioterapia Única (PQT-U) com Rifampicina, Dapsona e Clofazimina; e,  \n(2) define a duração de 6 doses (em até 9 meses).  \n\n\n**Adequado:** indica o esquema e a duração correta.  \n**Parcialmente adequado:** indica apenas as medicações ou apenas a duração.  \n**Inadequado:** indica esquema ou duração incorretos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.85",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Define as medidas de vigilância epidemiológica e controle:**  \n(1) indica notificação compulsória do caso; e,  \n(2) orienta o exame obrigatório dos contatos domiciliares (esposa e filhos).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza as ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Fornece orientações ao paciente e monitoramento:**  \n(1) explica que a doença tem cura e o tratamento é gratuito (ou através do TDO);  \n(2) orienta sobre a importância de não interromper o tratamento; e,  \n(3) instrui sobre autocuidado e proteção de áreas com perda de sensibilidade para evitar ferimentos.  \n\n**Adequado:** realiza as três orientações.  \n**Parcialmente adequado:** realiza uma ou duas orientações.  \n**Inadequado:** não orienta o paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

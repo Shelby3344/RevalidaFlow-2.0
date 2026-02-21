@@ -1,0 +1,309 @@
+{
+  "uid": 1902,
+  "hash": "pepe_1902",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Diverticulite Aguda Complicada (Fístula Colovesical) | 2019",
+  "definicao": "Estação original adaptada  \nPSU-CE 2019 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• setor de radiologia (incluindo tomografia computadorizada);  \n• laboratório de análises clínicas;  \n• centro cirúrgico e leitos de internação.\n\nDescrição do caso:\nVocê é o médico de plantão e atenderá um paciente de 63 anos, diabético e hipertenso, com queixa de dor abdominal e febre há 3 dias, além de sintomas urinários persistentes.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao quadro.  \n- Interpretar os exames complementares essenciais para o diagnóstico.  \n- Estabelecer a hipótese diagnóstica principal.  \n- Definir a conduta clínica e o manejo terapêutico inicial e definitivo.  \n- Orientar o paciente sobre os riscos de recorrência e o seguimento a longo prazo.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Glauber, 63 anos, casado, contador.  \n\n\n**MOTIVO DE CONSULTA:** Doutor(a), estou com uma dor muito forte na barriga e também estou tendo febre.  \n\n\n**SOBRE A DOR:**  \n• **Início:** Faz uns 3 dias, começou fraca e piorou muito.  \n• **Localização:** É mais aqui embaixo, do lado esquerdo da barriga.  \n• **Característica:** Dói direto, parece uma pontada.  \n• **Intensidade:** É uma dor 8/10.  \n• **Atenuantes/agravantes:** Não melhora com nada, só piora quando eu me mexo ou quando faço força.  \n\n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Tive febre baixa, uns 38°C, desde ontem.  \n• **Náuseas/vômitos:** Sinto um pouco de enjoo sim.  \n• **Hábito intestinal:** Estou com o intestino bem preso, não vou ao banheiro há 4 dias.  \n• **Sintomas urinários:** Estou sentindo ardência e dor ao urinar há dois dias. E o pior é que às vezes parece que sai ar na urina  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** Nego.  \n• **Doenças:** Tenho diabetes e pressão alta.  \n• **Medicações:** Uso metformina e glicazida para o diabetes, e losartana para a pressão.  \n• **Cirurgias e internações:** Nunca fiz cirurgia.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *É grave? Vou precisar de cirurgia agora?*  \n• *Vou precisar de algum exame?*  \n• *E aquela cirurgia que coloca uma bolsa? vou precisar disso?*  \n• *E os remédios que eu tomo hoje, vão mudar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 140x95 mmHg  \n• **FC:** 105 bpm  \n• **FR:** 22 irpm  \n• **Temp. axilar:** 38,3° C  \n\n\n**Ectoscopia:** Paciente em regular estado geral, desidratado (+/4+), hipocorado (+/4+), febril e taquicárdico.  \n\n\n**Abdominal:**  \n• **Inspeção:** Abdome plano.  \n• **Palpação:** Dor intensa à palpação profunda em Quadrante Inferior Esquerdo (QIE). Palpação de massa discreta e dolorosa na mesma região. Sem sinais de irritação peritoneal (Blumberg negativo).  \n• **Ausculta:** Ruídos hidroaéreos diminuídos.  \n\n\n**Toque retal:** Sem massas palpáveis. Fezes endurecidas na ampola.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 13,0 g/dL (VR: 13,5 – 17,5 g/dL)  \n• **Leucócitos:** 15.200/mm³ (VR: 4.000 – 11.000/mm³)  \n• **Bastões:** 5% (VR: 0 - 5%)  \n• **Plaquetas:** 290.000/mm³ (VR: 150.000 – 400.000/mm³)  \n\n\n**PERFIL BIOQUÍMICO**  \n• **Glicemia de jejum:** 138 mg/dL (VR: 70 – 99 mg/dL)  \n• **PCR (Proteína C Reativa):** 35 mg/L (VR: < 8 mg/L)  \n\n• **Creatinina:** 1,3 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Ureia:** 48 mg/dL (VR: 10 – 50 mg/dL)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "TC DE ABDOME E PELVE",
+      "conteudo": "**Achados:**  \n• Espessamento parietal segmentar no sigmoide e presença de divertículos.  \n• Presença de comunicação entre a alça do cólon sigmoide e a parede vesical.  \n• Ausência de coleções líquidas ou abscessos pericólicos.  \n• Não há líquido livre na cavidade peritoneal.",
+      "imagem": "img_printeds/e1902p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identificou-se?**  \n\n**Adequado:** Identifica-se formalmente (nome e função).  \n**Inadequado:** Não se identifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Passa a tratá-lo pelo nome ou se refere ao paciente pelo nome?**  \n\n**Adequado:** Dirige-se ao paciente pelo nome.  \n**Inadequado:** Não utiliza o nome do paciente durante a consulta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Explicou o quadro clínico falando da gravidade atual?**  \n\n**Adequado:** Explica que o quadro é uma diverticulite (inflamação do intestino) e que, embora grave o suficiente para internar, não é uma emergência cirúrgica imediata.  \n**Inadequado:** Não explica o diagnóstico ou a gravidade (não complicado).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Explicou a possibilidade de cirurgia nesse internamento?**  \n\n**Adequado:** Explica que a cirurgia **NÃO** é de urgência imediata e que o tratamento inicial é clínico (antibióticos e suporte), com cirurgia definitiva postergada.  \n**Inadequado:** Informa que a cirurgia será realizada de urgência ou diz que não sabe.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explicou que, caso não seja necessário cirurgia nesse internamento, o paciente tem indicação de cirurgia eletiva definitiva posterior?**  \n\n**Adequado:** Explica que, devido à complicação (fístula), o paciente tem indicação de cirurgia eletiva (Retossigmoidectomia + fechamento da fístula) a ser realizada após a resolução do quadro agudo (cerca de 6-8 semanas).  \n**Inadequado:** Não menciona a indicação de cirurgia eletiva posterior ou a contraindica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Explicou a progressão da dieta na fase atual (dieta zero, liquida restrita…)?**  \n\n**Adequado:** Orienta jejum ou dieta zero com reposição venosa, ou dieta líquida restrita/clara.  \n**Inadequado:** Não orienta dieta ou orienta dieta não apropriada (sólida ou sem restrição).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indicou internamento?**  \n\n**Adequado:** Indica a internação hospitalar imediata, justificando a gravidade e as comorbidades (diabetes/febre).  \n**Inadequado:** Não indica a internação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explicou o risco de colostomia?**  \n\n**Adequado:** Explica que o risco de colostomia (bolsa) é baixo, pois a cirurgia será eletiva e a reconstrução primária do trânsito é a meta, mas que existe o risco em caso de complicação cirúrgica.  \n**Inadequado:** Não aborda o tema, ou afirma que a cirurgia eletiva sempre requer colostomia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indicou tratamento conservador até reavaliação dos exames/ou mudança no quadro clínico?**  \n\n**Adequado:** Informa que o tratamento será clínico/conservador (não cirúrgico imediato) com antibióticos e suporte, e que será reavaliado diariamente.  \n**Inadequado:** Não indica tratamento clínico ou sugere que a cirurgia é inevitável de imediato.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Questionou sobre alergias medicamentosas?**  \n\n**Adequado:** Questiona ativamente sobre alergias antes de iniciar o plano terapêutico.  \n**Inadequado:** Não questiona sobre alergias.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Perguntou se a acompanhante tinha alguma dúvida ou se tinha entendido as explicações?**  \n\n**Adequado:** Abre espaço para dúvidas, validando a compreensão do paciente.  \n**Inadequado:** Não pergunta se o paciente tem dúvidas ou se ele entendeu.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Solicitou tomografia de abdômen e pelve (ou abdome)?**  \n\n\n[Image of colovesical fistula CT scan]\n\n\n**Adequado:** Solicita tomografia de abdome e pelve (ou abdome).  \n**Inadequado:** Não solicita ou solicita outro exame de imagem primariamente (ex: ultrassom).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Informou sobre provável necessidade de colonoscopia ou enema, após resolução do quadro agudo?**  \n\n**Adequado:** Informa sobre a necessidade de realizar colonoscopia ou enema opaco 4 a 6 semanas após a melhora para excluir câncer colorretal.  \n**Inadequado:** Não informa sobre a necessidade da colonoscopia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Solicitou Hemograma?**  \n\n**Adequado:** Solicita hemograma.  \n**Inadequado:** Não solicita hemograma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Solicitou PCR?**  \n\n**Adequado:** Solicita Proteína C Reativa (PCR).  \n**Inadequado:** Não solicita PCR.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Solicitou função renal?**  \n\n**Adequado:** Solicita exames de função renal (creatinina e ureia).  \n**Inadequado:** Não solicita função renal.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Colocou diverticulite como hipótese diagnostica na solicitação dos exames?**  \n\n**Adequado:** Verbaliza o diagnóstico de diverticulite como a principal hipótese ao solicitar os exames.  \n**Inadequado:** Não verbaliza a hipótese diagnóstica ou sugere outra.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Prescreveu dieta zero?**  \n\n**Adequado:** Prescreve jejum ou dieta zero (com hidratação endovenosa).  \n**Inadequado:** Não prescreve jejum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Prescreveu ATB (cipro + metro ou ceftriaxona + metro ou tazocin+ unasyn)?**  \n\n**Adequado:** Prescreve antibiótico de amplo espectro (cobertura para Gram-negativos e anaeróbios), sendo intravenoso (ex: Ciprofloxacino + Metronidazol, ou Ceftriaxona + Metronidazol, ou Tazocin + Unasyn).  \n**Inadequado:** Não prescreve antibióticos ou prescreve esquema inadequado/via oral.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Prescreveu analgésicos?**  \n\n**Adequado:** Prescreve analgésicos intravenosos.  \n**Inadequado:** Não prescreve analgésicos ou prescreve AINE/Corticoides.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 21,
+      "descricao": "**21. Prescreveu antiemeticos?**  \n\n**Adequado:** Prescreve antieméticos (ex: Metoclopramida ou Ondansetrona) se houver náuseas ou vômitos.  \n**Inadequado:** Não prescreve antieméticos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 22,
+      "descricao": "**22. Suspendeu hipoglicemiantes orais?**  \n\n**Adequado:** Suspende o uso de hipoglicemiantes orais (metformina e glicazida) devido ao jejum e risco de acidose láctica/hipoglicemia.  \n**Inadequado:** Mantém os hipoglicemiantes orais.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 23,
+      "descricao": "**23. Prescreveu esquema de insulina?**  \n\n**Adequado:** Prescreve esquema de insulina (basal e/ou de correção) para controle glicêmico durante o jejum.  \n**Inadequado:** Não prescreve esquema de insulina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 24,
+      "descricao": "**24. Manteve anti-hipertensivos?**  \n\n**Adequado:** Mantém o anti-hipertensivo (Losartana) para o controle da pressão arterial.  \n**Inadequado:** Suspende o anti-hipertensivo sem justificativa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

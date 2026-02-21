@@ -1,0 +1,177 @@
+{
+  "uid": 317,
+  "hash": "pepe_317",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Testemunha de Jeová - Choque Hemorrágico e Aspectos Éticos",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Urgência e Emergência.  \nTipo de atendimento: Sala Vermelha / Emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência equipada;  \n• Exames laboratoriais de urgência e hemocomponentes.\n\nDescrição do caso:\nVocê está de plantão na sala vermelha da UPA e recebe uma criança vítima de atropelamento por carro há 40 minutos.  \nA Mãe está na sala de espera. Ela entrega imediatamente um documento informando que a família é Testemunha de Jeová e que não autoriza transfusão sanguínea sob nenhuma hipótese.",
+  "tarefas": "TAREFAS:  \n- Realizar a avaliação primária (ABCDE).  \n- Interpretar a evolução clínica e os exames complementares.  \n- Gerenciar o conflito ético com a família diante da gravidade do caso.  \n- Definir a conduta terapêutica em relação à necessidade de hemotransfusão.  \n- Orientar o destino do paciente.  \n\n\\\nATENÇÃO!  \nO PACIENTE SIMULADO ESTÁ NA MACA.  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** caso o candidato indique *TRANSFUSÃO SANGUINEA/CHAD:*  \n\n• **Argumento:** Dêem aquele remédio, eritropoietina, ferro... façam qualquer coisa, menos sangue.  \n\n• **Ameaça legal:** Eu tenho o documento registrado em cartório. Se o senhor colocar sangue nele, eu vou processar o hospital e o senhor(a)!  \n\n**DADOS PESSOAIS:**  \n• **Paciente:** Lucas, 8 anos.  \n• **Mãe:** Ana, 38 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), atropelaram meu filho! Ele está muito pálido. Nós somos Testemunhas de Jeová, a nossa religião não permite sangue. Salve meu filho sem sangue, por favor!  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS/OBJEÇÕES:**  \n• *O senhor vai passar por cima da minha autoridade como Mãe?*  \n\n• *Ele vai precisar de Cirurgia?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "AVALIAÇÃO PRIMÁRIA",
+      "conteudo": "**SINAIS VITAIS:**  \n• **FC:** 150 bpm  \n• **PA:** 70x40 mmHg  \n• **FR:** 35 irpm  \n• **SatO2:** 92% (ar ambiente)  \n• **Glasgow:** 9  \n• **Peso estimado:** 25-28 kg  \n\n\n**EXAME FÍSICO (ABCDE):**  \n• **A:** Vias aéreas pérvias com colar cervical.  \n\n• **B:** Murmúrio vesicular presente, taquipneia. Sem pneumotórax hipertensivo evidente.  \n\n• **C:** Palidez cutânea intensa (3+/4+). Pulsos centrais finos, periféricos ausentes. Tempo de enchimento capilar > 4 segundos. Abdome distendido e tenso. Pelve instável.  \n\n• **D:** Pupilas isocóricas. Localiza dor.  \n\n• **E:** Escoriações em flanco esquerdo e coxa esquerda.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "REAVALIAÇÃO APÓS CRISTALÓIDES",
+      "conteudo": "**REPOSIÇÃO VOLÊMICA (CRISTALOIDE 20ML/KG)**  \n\n\n**SINAIS VITAIS:**  \n• **FC:** 145 bpm  \n• **PA:** 72x42 mmHg  \n• **Perfusão:** Mantém TEC > 4s.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Hb:** 5,5 g/dL  \n• **Ht:** 16%  \n• **Lactato:** 6,0 mmol/L  \n• **(Gasometria) pH:** 7,20",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Avaliação Inicial e Segurança (PALS/ATLS):**  \n(1) Paramentação;  \n(2) Avaliação do 'A' com ênfase na estabilização da coluna cervical e oferta de oxigênio a 100% (máscara não reinalante).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Identificação do Estado de Choque:**  \n(1) Identifica os sinais de choque descompensado (hipotensão, taquicardia grave, alteração do sensório/perfusão);  \n(2) Verbaliza a hipótese de Choque Hipovolêmico Hemorrágico Grau III/IV.  \n\n**Adequado:** identifica o choque e classifica/verbaliza a gravidade.  \n**Parcialmente adequado:** identifica o choque mas não menciona a gravidade/tipo.  \n**Inadequado:** não identifica o choque.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Acesso Vascular e Ressuscitação Volêmica Inicial:**  \n(1) Obtém dois acessos venosos periféricos calibrosos (ou intraósseo);  \n(2) Administra bolus inicial de cristaloide isotônico aquecido (Soro Fisiológico ou Ringer) na dose de 20 ml/kg.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação (ex: erra a dose ou o fluido).  \n**Inadequado:** não realiza expansão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Reavaliação e Indicação de Hemoderivados:**  \n(1) Reavalia o paciente após o cristaloide (verbaliza que o paciente não respondeu/mantém instabilidade);  \n(2) Indica a transfusão imediata de Concentrado de Hemácias (10-15 ml/kg) ou protocolo de transfusão maciça, dado a falha do cristaloide e sinais de sangramento ativo/anemia grave.  \n\n**Adequado:** reavalia e indica sangue.  \n**Parcialmente adequado:** reavalia mas insiste apenas em cristaloide.  \n**Inadequado:** não reavalia ou não indica sangue.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Manejo do Conflito Ético - Comunicação:**  \n(1) Explica a Mãe a gravidade extrema (risco iminente de morte);  \n(2) Explica que as alternativas (ferro, eritropoietina) não têm efeito imediato para salvar a vida no choque agudo.  \n\n**Adequado:** comunica a gravidade e a ineficácia das alternativas agudas.  \n**Inadequado:** é agressivo ou não explica a situação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Decisão Ética e Legal (Ponto Crucial):**  \nVerbaliza que, diante do **risco de morte** e tratando-se de um **menor de idade**, o médico tem o dever legal e ético de realizar a transfusão sanguínea para salvar a vida, sobrepondo-se à vontade da Mãe (Pátrio Poder não é absoluto sobre o direito à vida).  \n\n**Adequado:** verbaliza a decisão de transfundir baseada no risco de morte/menoridade.  \n**Inadequado:** acata a recusa dos pais e não transfunde OU transfunde sem justificar o motivo ético.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Fundamentação Legal (CFM/Código Penal):**  \nCita ou faz referência ao Código de Ética Médica (vedado ao médico deixar de usar todos os meios para salvar a vida em risco iminente) ou ao Art. 146 do Código Penal (iminente perigo de vida).  \n\n**Adequado:** fundamenta a decisão.  \n**Inadequado:** não fundamenta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Medidas Adjuvantes de Controle de Danos:**  \n(1) Solicita Ácido Tranexâmico;  \n(2) Solicita aquecimento do paciente (prevenção da hipotermia).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Busca de Foco Hemorrágico:**  \nSolicita exames de imagem focados no trauma para identificar a origem do sangramento (FAST, Raio-X de Bacia/Tórax ou Tomografia se estável).  \n\n**Adequado:** investiga o foco.  \n**Inadequado:** não investiga.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Registro em Prontuário:**  \nVerbaliza que registrará em prontuário toda a situação, a gravidade, a recusa da Mãe e a justificativa médica para a intervenção forçada (estado de necessidade).  \n\n**Adequado:** verbaliza o registro detalhado.  \n**Inadequado:** não menciona o registro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Regulação/Transferência (Cuidado Longitudinal):**  \nSolicita \"Vaga Zero\" ou transferência imediata via central de regulação para hospital terciário com UTI Pediátrica e Centro Cirúrgico, pois a UPA não é o local definitivo para tratamento de trauma grave.  \n\n**Adequado:** solicita transferência/vaga zero.  \n**Inadequado:** mantém na UPA.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Manutenção do Vínculo:**  \nMesmo após a decisão contrária da Mãe, mantém postura respeitosa, informando que a equipe continuará cuidando da criança integralmente e que a decisão foi tomada exclusivamente para evitar o óbito naquele momento.  \n\n**Adequado:** mantém o vínculo e respeito.  \n**Inadequado:** expulsa a Mãe e/ou hostiliza a família.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

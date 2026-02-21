@@ -1,0 +1,177 @@
+{
+  "uid": 109,
+  "hash": "pepe_109",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Acidente por animal peçonhento - Ofídico/Crotálico (cobra Cascavel)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - Unidade de Pronto Atendimento (UPA).  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de medicação e observação;  \n• Laboratório de análises clínicas;  \n• Leitos para internação de curta duração.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e atenderá um homem de 32 anos, trabalhador rural, que chega ao serviço referindo ter sido picado por uma cobra há cerca de 4 horas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal.  \n- Solicitar e interpretar o exame físico.  \n- Identificar o animal peçonhento.  \n- Solicitar e interpretar os exames complementares que julgar necessários.  \n- Definir o diagnóstico, classificar a gravidade e estabelecer a conduta terapêutica inicial.  \n- Orientar o paciente sobre as medidas de prevenção.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Valdemar, 42 anos, trabalhador rural.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), uma cobra me picou agora a pouco. Estou me sentindo meio sonolento e tonto, por isso meu filho me trouxe.  \n\n**SOBRE A PICADA:**  \n• **Início:** Aconteceu faz umas 4 horas, enquanto eu limpava um terreno.  \n• **Localização:** Foi no meu pé esquerdo. Doeu bastante na hora, mas agora nem dói tanto. O problema são as outras coisas.  \n• **O animal:** Eu consegui matar a cobra e trouxe ela aqui. O(a) senhor(a) quer ver?  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Visão:** Minha vista está meio embaçada, tá difícil de enxergar direito.  \n• **Gerais:** Estou me sentindo tonto e com o corpo pesado, meio mole.  \n• **Urina:** Meu xixi saiu bem escuro, cor de Coca-Cola. E olha que eu bebo bastante água.  \n• **Nega:** sangramentos, náuseas ou vômitos.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças e Medicações:** Tenho pressão alta, mas tomo meu remédio certinho.  \n• **Alergias:** Nenhuma que eu saiba.  \n• **Vacinação:** A última vez que tomei a vacina já faz mais de 10 anos.  \n\n**HÁBITOS:**  \n• **Álcool, tabaco e drogas:** Bebo umas doses de cachaça no fim de semana. Não fumo.  \n\n**DÚVIDAS:**  \n• *Essa cobra é muito venenosa?*  \n• *Isso que eu estou sentindo é grave? Vou precisar ficar internado?*  \n• *O que eu posso fazer pra não ser picado de novo?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FOTO DO ANIMAL",
+      "conteudo": "**OLHE PARA A CÂMERA E VERBALIZE O GÊNERO DA SERPENTE.**",
+      "imagem": "img_printeds/e109p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **Pressão Arterial:** 125x85 mmHg  \n• **Frequência Cardíaca:** 92 bpm  \n• **Frequência Respiratória:** 18 irpm  \n• **SatO2:** 97% em ar ambiente  \n• **Temperatura Axilar:** 36.9° C  \n\n\n**Ectoscopia:** Paciente sonolento, hipocorado (+/4+), hidratado. Apresenta ptose palpebral bilateral e dificuldade em manter os olhos abertos.  \n\n\n**Local da picada (pé esquerdo):** Marcas de presas pouco evidentes, edema discreto (+/4+), sem equimose ou sangramento ativo. Parestesia local.  \n\n\n**Aparelho Cardiovascular:** Ritmo cardíaco regular, bulhas normofonéticas, sem sopros.  \n**Aparelho Respiratório:** Murmúrio vesicular presente e bem distribuído, sem ruídos adventícios.  \n**Abdome:** Flácido, indolor à palpação.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemoglobina:** 14,5 g/dL (VR: 13,5 – 17,5 g/dL)  \n• **Hematócrito:** 43% (VR: 41 – 53%)  \n• **Leucócitos:** 9.800/mm³ (VR: 4.000 – 11.000/mm³)  \n• **Plaquetas:** 280.000/mm³ (VR: 150.000 – 450.000/mm³)  \n\n\n**COAGULOGRAMA**  \n• **Tempo de Coagulação (TC):** 8 minutos (VR: 5 – 10 minutos)  \n\n\n**BIOQUÍMICA**  \n• **Ureia:** 55 mg/dL (VR: 10 – 50 mg/dL)  \n• **Creatinina:** 1.5 mg/dL (VR: 0,7 – 1,3 mg/dL)  \n• **Creatina Quinase (CK):** 8.500 U/L (VR: 30 – 200 U/L)  \n\n\n**URINA TIPO I**  \n• **Cor:** Castanho-avermelhada  \n• **Proteínas:** ++/4+  \n• **Hemoglobina:** +++/4+  \n• **Sedimento:** Numerosos cilindros granulosos pigmentados.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga as circunstâncias do acidente:**  \n(1) tempo decorrido desde a picada;  \n(2) local da picada no corpo.  \n\n**Adequado:** questiona sobre os dois itens.  \n**Parcialmente adequado:** questiona sobre um item.  \n**Inadequado:** não questiona item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga a presença de sintomas associados característicos:**  \n(1) alterações visuais (visão turva ou dupla);  \n(2) mialgia (dor muscular);  \n(3) urina escura;  \n(4) sonolência ou tontura.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Questiona sobre antecedentes relevantes:**  \n(1) comorbidades (hipertensão);  \n(2) histórico vacinal (antitetânica).  \n\n**Adequado:** questiona os dois itens.  \n**Parcialmente adequado:** questiona um item.  \n**Inadequado:** não questiona nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica o animal como uma cascavel (gênero Crotálico).**  \n\n**Adequado:** identifica corretamente.  \n**Inadequado:** não identifica ou identifica incorretamente.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita o exame físico e reconhece os sinais neurotóxicos.**  \n\n**Adequado:** solicita o exame físico e identifica a ptose palpebral e/ou a fácies miastênica.  \n**Parcialmente adequado:** apenas solicita o exame físico, mas não verbaliza os achados neurotóxicos.  \n**Inadequado:** não solicita o exame físico.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames complementares para avaliação sistêmica:**  \n(1) hemograma;  \n(2) coagulograma (ou Tempo de Coagulação);  \n(3) função renal (ureia e creatinina);  \n(4) creatina quinase (CK);  \n(5) urina tipo I.  \n\n**Adequado:** solicita quatro ou cinco exames.  \n**Parcialmente adequado:** solicita três exames.  \n**Inadequado:** solicita dois ou menos exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Classifica a gravidade do acidente crotálico e justifica.**  \n\n**Adequado:** classifica o acidente como moderado e justifica pela presença de manifestações neurotóxicas (ptose/fácies miastênica) e mionecróticas (mialgia, urina escura, CK elevada).  \n**Parcialmente adequado:** classifica o acidente como moderado, mas não justifica.  \n**Inadequado:** não classifica a gravidade ou classifica como leve ou grave.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a soroterapia específica e a dosagem correta.**  \n\n**Adequado:** indica o uso de 10 ampolas de soro anticrotálico.  \n**Parcialmente adequado:** indica o soro anticrotálico, mas em dosagem incorreta (diferente de 10 ampolas).  \n**Inadequado:** não indica o soro anticrotálico ou indica apenas \"soro antiofídico\" de forma genérica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica as medidas de suporte e monitoramento.**  \n(1) hidratação venosa vigorosa;  \n(2) monitoramento da função renal e do débito urinário;  \n(3) analgesia.  \n\n**Adequado:** indica as três medidas.  \n**Parcialmente adequado:** indica duas medidas.  \n**Inadequado:** indica uma ou nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza a notificação compulsória do caso no SINAN.**  \n\n**Adequado:** verbaliza a necessidade de notificação.  \n**Inadequado:** não verbaliza a notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta o paciente sobre as medidas de prevenção de acidentes ofídicos:**  \n(1) usar equipamentos de proteção individual (botas de cano alto, perneiras, luvas de couro);  \n(2) não colocar as mãos em buracos, fendas ou montes de lenha/folhas;  \n(3) manter a área ao redor da casa limpa, sem acúmulo de lixo, entulho ou mato alto;  \n(4) controlar a presença de roedores.  \n\n**Adequado:** cita três ou quatro medidas.  \n**Parcialmente adequado:** cita duas medidas.  \n**Inadequado:** cita uma ou nenhuma medida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

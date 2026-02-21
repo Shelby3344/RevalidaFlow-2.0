@@ -1,0 +1,154 @@
+{
+  "uid": 1207,
+  "hash": "pepe_1207",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Protocolo SPIKES - CA próstata",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2012",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Local de atuação: atenção primária à saúde - ambulatorial.  \nAtendimento ambulatorial de Cirurgia Geral:  \n• Consultório médico.\n\nDescrição do caso:\n• Você irá atender Romeu, de 64 anos, que veio ao consultório ambulatorial de Cirurgia Geral trazendo o resultado da BIÓPSIA POR ULTRASSOM TRANSRETAL.  \n• O paciente está apreensivo, desejando saber do médico qual é o resultado do exame.",
+  "tarefas": "TAREFAS:  \n\nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Utilizar habilidades profissionais para comunicação do diagnóstico ao paciente;  \n- Orientar o paciente sobre o prognóstico e o seguimento.  \n- Responder as dúvidas do paciente.  \n\n\nNÃO SERÁ NECESSÁRIO REALIZAR ANAMNESE E NEM EXAME FÍSICO NESTA ESTAÇÃO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Romeu, 64 anos, aposentado e casado.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Eu fiz alguns exames no mês passado e deu um exame alterado, um tal de PSA. Aí o médico pediu para eu fazer este outro exame que trouxe hoje.  \n• Queria saber o que deu neste exame.  \n\n\nPERGUNTAS DO CANDIDATO ACERCA DOS EXAMES:  \n• **ACOMPANHANTE:** *A minha filha mais nova está lá fora, mas prefiro saber sozinho mesmo.*  \n• **ESTADO DE SAÚDE:** *Pareço estar bem, mas as vezes tenho alguma dificuldade para urinar.*  \n• **CONHECIMENTO SOBRE CÂNCER DE PRÓSTATA:** *Só vi em reportagens alguma coisa. Sei que é uma doença comum nos homens.*  \n• **QUER SABER SOBRE SUA SAÚDE/RESULTADO:** *Sim, pode contar por favor.*  \n• **COMPREENSÃO:** *Sim Dr(a), entendi que é um câncer.*  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \nAPÓS O CANDIDATO PERGUNTAR SE HÁ DUVIDAS:  \n• *O câncer está muito avançado?*  \n• *Tem cura? Quais opções de tratamento?*  \n• *Preciso fazer algum acompanhamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "BIÓPSIA USG TRANSRETAL",
+      "conteudo": "**Biópsia transretal da próstata guiada por ultrassonografia**  \n\n**RESULTADO:**  \nCarcinoma prostático bem diferenciado não infiltrado.  \n\n\nGleason 4 (2+2)  \nEstádio 1a",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se de maneira adequada.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Estabelece clima harmônico na consulta, interagindo efetivamente com o paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Ouve com atenção a queixa do paciente, sem interromper sua fala.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Demostra segurança e convicção ao explicar o problema ao paciente.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Usa efetivamente linguagem não verbal (postura, gestual, atitude).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Demostra conhecimento sobre as implicações dos resultados dos exames do paciente reconhecendo o caso como neoplasia em estádio inicial.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explica com clareza as possibilidades terapêuticas ao paciente.**  \n(1) Prostatectomia radical;  \n(2) Radioterapia;  \n(3) Braquiterapia;  \n(4) Expectante, com dosagem de PSA a cada 6 meses.  \n\n**Adequado:** informa pelo menos uma terapia.  \n**Inadequado:** não informa nenhuma das possibilidades de terapida.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "BAIXO RISCO: são 3 opções, apresentando resultados semelhantes:  \n\n- Prostatectomia Radical: Cirurgia para retirada completa da prostata e vesículas seminais.  \nPode ser por via aberta, laparoscopica ou assistida por robô. Pode levar à impotência e incontinência urinária.  \n\n- Radioterapia. tipos básicos:  \nBraquiterapia: implanta-se sementes radioativas no interstício prostático.  \nRadioterapia Externa: com imagens 3D, é direcionada sobre o tumor.  \n\n- Vigilância ativa: geralmente para pacientes que apresentem uma expectativa de vida menor que 10 anos (idosos ou com comorbidades graves).  \nIndica-se para pacientes com PSA não tão elevados, um Gleason com baixo grau (2-4) e próstata de pequeno volume.  \nO acompanhamento é a dosagem de PSA a cada 6 meses, repetindo a biopsia caso haja indício de progressão.  "
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Presta atenção às inquietações do paciente, demonstrando empatia.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": "BAIXO RISCO: são 3 opções, apresentando resultados semelhantes:  \n\n- Prostatectomia Radical: Cirurgia para retirada completa da prostata e vesículas seminais.  \nPode ser por via aberta, laparoscopica ou assistida por robô. Pode levar à impotência e incontinência urinária.  \n\n- Radioterapia. tipos básicos:  \nBraquiterapia: implanta-se sementes radioativas no interstício prostático.  \nRadioterapia Externa: com imagens 3D, é direcionada sobre o tumor.  \n\n- Vigilância ativa: geralmente para pacientes que apresentem uma expectativa de vida menor que 10 anos (idosos ou com comorbidades graves).  \nIndica-se para pacientes com PSA não tão elevados, um Gleason com baixo grau (2-4) e próstata de pequeno volume.  \nO acompanhamento é a dosagem de PSA a cada 6 meses, repetindo a biopsia caso haja indício de progressão.  "
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta o paciente corretamente quanto às suas inquietações e confere o seu estado emocional, perguntando se ele está mais calmo, ou menos apreensivo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Confere o atendimento, perguntando se há ainda dúvidas.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": "BAIXO RISCO: são 3 opções, apresentando resultados semelhantes:  \n\n- Prostatectomia Radical: Cirurgia para retirada completa da prostata e vesículas seminais.  \nPode ser por via aberta, laparoscopica ou assistida por robô. Pode levar à impotência e incontinência urinária.  \n\n- Radioterapia. tipos básicos:  \nBraquiterapia: implanta-se sementes radioativas no interstício prostático.  \nRadioterapia Externa: com imagens 3D, é direcionada sobre o tumor.  \n\n- Vigilância ativa: geralmente para pacientes que apresentem uma expectativa de vida menor que 10 anos (idosos ou com comorbidades graves).  \nIndica-se para pacientes com PSA não tão elevados, um Gleason com baixo grau (2-4) e próstata de pequeno volume.  \nO acompanhamento é a dosagem de PSA a cada 6 meses, repetindo a biopsia caso haja indício de progressão.  "
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Demostra interesse em auxiliar o paciente em sua situação de saúde, encaminhando-o para atendimento especializado (urologia ou oncologia).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": "BAIXO RISCO: são 3 opções, apresentando resultados semelhantes:  \n\n- Prostatectomia Radical: Cirurgia para retirada completa da prostata e vesículas seminais.  \nPode ser por via aberta, laparoscopica ou assistida por robô. Pode levar à impotência e incontinência urinária.  \n\n- Radioterapia. tipos básicos:  \nBraquiterapia: implanta-se sementes radioativas no interstício prostático.  \nRadioterapia Externa: com imagens 3D, é direcionada sobre o tumor.  \n\n- Vigilância ativa: geralmente para pacientes que apresentem uma expectativa de vida menor que 10 anos (idosos ou com comorbidades graves).  \nIndica-se para pacientes com PSA não tão elevados, um Gleason com baixo grau (2-4) e próstata de pequeno volume.  \nO acompanhamento é a dosagem de PSA a cada 6 meses, repetindo a biopsia caso haja indício de progressão.  "
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "uid": 411,
+  "hash": "pepe_411",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Síndrome do Anticorpo Antifosfolipídeo (SAF)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde (UBS).  \nTipo de atendimento: consulta ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê atenderá Beatriz, 30 anos, atualmente com 9 semanas de gestação. Ela comparece à consulta trazendo resultados de exames investigativos solicitados por outro médico após sua última perda gestacional, mas que ainda não haviam sido avaliados.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Interpretar os exames complementares trazidos pela paciente;  \n- Solicitar exame físico, se julgar necessário;  \n- Formular e verbalizar a hipótese diagnóstica;  \n- Estabelecer o plano terapêutico e as condutas de seguimento para a gestação atual.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Beatriz, 30 anos, professora.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), estou grávida novamente. Eu perdi meus dois últimos bebês e tenho medo de acontecer de novo.  \n• Eu trouxe esses exames que um médico particular pediu na época do último aborto.  \n\n**(NESTE MOMENTO, ENTREGAR O IMPRESSO \"EXAMES TRAZIDOS PELA PACIENTE\")**  \n\n**ANTECEDENTES OBSTÉTRICOS:**  \n• **IG:** estou com 9 semanas.  \n• **Gestações:** Essa é a terceira.  \n• **Perdas:** Tive dois abortos. O primeiro foi com 13 semanas e o segundo com 14 semanas.  \n• **Características das perdas:** O médico disse que o coração parou de repente. Os bebês eram formadinhos, normais.  \n• **Pré-eclâmpsia:** Nunca tive pressão alta nem nada.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Trombose:** Nunca tive trombose nem embolia.  \n• **Lúpus ou doenças autoimunes:** Que eu saiba, não tenho nada disso. Só tenho rinite.  \n• **Medicações:** Só estou tomando o ácido fólico.  \n\n**HÁBITOS:**  \n• **Tabagismo e Álcool:** Não fumo e não bebo.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *o que tem nesses exames? Eu tenho algum problema?*  \n• *Vou perder esse bebê também?*  \n• *Tem algum remédio que eu possa tomar para segurar a gravidez?*  \n• *Preciso de um médico especialista?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAMES TRAZIDOS PELA PACIENTE",
+      "conteudo": "**Data do exame:** 4 meses atrás.  \n\n\n• **Anticoagulante Lúpico:**  \n**Resultado:** PRESENTE (Confirmado após teste de mistura e teste confirmatório).  \n\n\n• **Anticardiolipina (ELISA):**  \n**IgG:** 65 GPL (Moderado a Alto: > 40 GPL)  \n**IgM:** 12 MPL (Negativo: < 20 MPL)  \n\n\n• **Anti-Beta-2-Glicoproteína I:**  \n**IgG:** 15 U/ml (Negativo)  \n**IgM:** 5 U/ml (Negativo)  \n\n\n**ULTRASSONOGRAFIA TRANSVAGINAL (ATUAL):**  \n• Útero gravídico contendo saco gestacional tópico.  \n• Embrião único, CCN compatível com 9 semanas.  \n• Batimentos cardiofetais presentes e rítmicos (158 bpm).  \n• Ausência de descolamentos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 78 bpm  \n• **Peso:** 68 kg  \n• **Altura:** 1,65 m  \n\n\n**Exame Geral:**  \n• Bom estado geral, corada, hidratada, anictérica, acianótica.  \n• Ausência de livedo reticular ou lesões cutâneas.  \n\n\n**Membros Inferiores:**  \n• Sem edemas, empastamentos ou sinais de trombose venosa profunda. Pulsos pediosos presentes e simétricos.  \n\n\n**Exame Obstétrico:**  \n• Abdome plano, indolor à palpação.  \n• Altura uterina não mensurável (intrapélvico).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga antecedentes obstétricos detalhados:**  \n(1) idade gestacional das perdas anteriores;  \n(2) confirmação de que os fetos eram morfologicamente normais (ou ausência de malformações visíveis).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga histórico pessoal de eventos tromboembólicos:**  \n(1) trombose venosa profunda (TVP) ou inchaço assimétrico de membros;  \n(2) tromboembolismo pulmonar (TEP) ou falta de ar súbita;  \n(3) acidente vascular encefálico (AVC/AVE) ou isquemia arterial.  \n\n**Adequado:** investiga dois ou mais itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico E obstétrico.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta os exames laboratoriais trazidos:**  \n(1) Identifica a presença do Anticoagulante Lúpico;  \n(2) Identifica a elevação dos títulos de Anticardiolipina IgG (moderados/altos).  \n\n**Adequado:** identifica as duas alterações.  \n**Parcialmente adequado:** identifica apenas uma alteração.  \n**Inadequado:** não identifica as alterações ou diz que os exames são normais.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Formula a hipótese diagnóstica de Síndrome do Anticorpo Antifosfolipídeo (SAF) Obstétrica.**  \n\n**Adequado:** verbaliza o diagnóstico de SAF (ou Síndrome Antifosfolipídeo).  \n**Inadequado:** não verbaliza o diagnóstico ou cita apenas \"trombofilia\" sem especificar.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Prescreve Ácido Acetilsalicílico (AAS).**  \n\n**Adequado:** prescreve AAS.  \n**Inadequado:** não prescreve AAS.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve Heparina profilática (Heparina de Baixo Peso Molecular - HBPM ou Heparina Não Fracionada - HNF ou Enoxaparina).**  \n\n**Adequado:** prescreve heparina.  \n**Inadequado:** não prescreve heparina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Encaminha para Pré-Natal de Alto Risco.**  \n\n**Adequado:** realiza o encaminhamento.  \n**Inadequado:** não realiza o encaminhamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta e tranquiliza a paciente sobre o prognóstico:**  \n(1) Explica que o tratamento reduz significativamente o risco de novas perdas;  \n(2) Alerta sobre sinais de alarme (sangramento, dor abdominal, inchaço em pernas).  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza uma orientação.  \n**Inadequado:** não realiza orientação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

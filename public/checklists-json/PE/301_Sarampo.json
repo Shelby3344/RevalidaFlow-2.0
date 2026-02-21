@@ -1,0 +1,172 @@
+{
+  "uid": 301,
+  "hash": "pepe_301",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Sarampo",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária - Pronto Atendimento Pediátrico.  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico;  \n• Laboratório clínico;  \n• Sala de observação.\n\nDescrição do caso:\nVocê está de plantão no pronto atendimento e receberá uma criança de 1 ano e meio, acompanhada pela mãe. A criança iniciou um quadro febril há 3 dias e, no dia de hoje, evoluiu com o aparecimento de manchas pelo corpo.",
+  "tarefas": "TAREFAS:  \nNos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n- Realizar a anamnese com a mãe;  \n- Verbalizar o exame físico da criança;  \n- Formular a hipótese diagnóstica com base nos achados;  \n- Definir a conduta e as orientações pertinentes ao caso.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Ana Marcela, 21 anos, casada, Tiktoker.  \n• **Criança:** Enzo Henrique, 1 ano e 6 meses.  \n\n**QUEIXA PRINCIPAL:**  \n• Doutor(a), eu trouxe o Enzo de novo porque, além da febre que começou há 3 dias, hoje ele acordou todo manchado.  \n\n**DEMAIS QUEIXAS:**  \n• **Febre:** Sim, febre alta, chegou a 39°C em casa. É uma febre que não cede direito com o antitérmico.  \n• **Sintomas Catarrais (Pródromos):** Ele está com uma tosse seca que incomoda, nariz escorrendo muito e os olhos bem vermelhos, desde que a febre começou.  \n• **Exantema (Manchas):** Tem manchas vermelhas e um pouco altas. Começou atrás da orelha e no rosto, e agora já está espalhada no corpo inteiro.  \n• **Lesões Orais (Sinal de Koplik):** Agora que o(a) senhor(a) falou, eu notei umas pintinhas brancas dentro da bochecha dele.  \n\n• **Prostração/astenia/cansaço:** Ele está bem caidinho, não quer comer nem beber direito. Fica só querendo colo.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Contactantes:** Ele mora comigo, com o pai e com uma irmã de 1 ano.  \n• **Creche:** Ele também começou ir na creche esse mês.  \n• **Viagem recente:** Faz tempo que não viajamos.  \n• **Vacinação:** Eu trouxe a carteirinha dele.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que meu filho tem, doutor(a)?*  \n• *É grave? Por que ele ficou assim?*  \n• *Precisa dar algum remédio para ele? Tem antibiótico?*  \n• *Preciso tomar algum cuidado extra em casa? Minha outra filha pode pegar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DE VACINAÇÃO",
+      "conteudo": "",
+      "imagem": "img_printeds/e301p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n• **PA:** 90x60 mmHg  \n• **FC:** 110 bpm  \n• **FR:** 35 irpm  \n• **Temp. axilar:** 38.3°C  \n• **SatO2:** 98% em ar ambiente  \n\n\n**Ectoscopia e Estado Geral:**  \n• Regular estado geral, reativo, hipoativo, febril.  \n\n• **Ausculta Pulmonar:** Murmúrio vesicular presente, com roncos de transmissão em ambos hemitórax.  \n\n• **Ocular:** Hiperemia conjuntival bilateral.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO DE PELE",
+      "conteudo": "**OLHE PARA A CÂMERA E DESCREVA A IMAGEM DO PACIENTE SIMULADO**",
+      "imagem": "img_printeds/e301p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAME FÍSICO DE OROSCOPIA",
+      "conteudo": "**OLHE PARA A CÂMERA E VERBALIZE O(S) ACHADO(S) NA IMAGEM**",
+      "imagem": "img_printeds/e301p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se, cumprimenta o paciente simulado e sua mãe, e pergunta o motivo da consulta.  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza uma ou nenhuma ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese, investigando os sintomas clássicos da doença.**  \n(1) investiga o pródromo viral (febre, tosse, coriza, conjuntivite);  \n(2) caracteriza o exantema (início e progressão craniocaudal).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga nenhum dos itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita e analisa a carteira de vacinação.**  \n\n**Adequado:** solicita a carteira de vacinação e identifica a ausência da dose da vacina Tríplice Viral (SCR) aos 12 meses.  \n**Inadequado:** não solicita a carteira de vacinação ou não identifica a falha vacinal.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Verbaliza a necessidade do exame físico e interpreta os achados.**  \n\n**Adequado:** verbaliza a necessidade de realizar o exame físico completo e identifica os achados patognomônicos: as Manchas de Koplik na oroscopia e o exantema morbiliforme e a descamação furfurácea.  \n**Parcialmente adequado:** identifica apenas um dos achados.  \n**Inadequado:** não identifica os achados patognomônicos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Formula a principal hipótese diagnóstica.**  \n\n**Adequado:** formula a hipótese de Sarampo.  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Justifica a hipótese diagnóstica.**  \n\n**Adequado:** justifica o diagnóstico com base na tríade: quadro clínico característico (pródromo e exantema), achado patognomônico (Manchas de Koplik) e falha vacinal (ausência de vacina SCR).  \n**Inadequado:** não consegue justificar a hipótese ou o faz de forma incompleta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Define a conduta de notificação compulsória.**  \n\n**Adequado:** verbaliza a necessidade de realizar a notificação compulsória imediata do caso suspeito de sarampo à vigilância epidemiológica e SINAN.  \n**Inadequado:** não realiza a notificação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Prescreve o tratamento específico para Sarampo (Vitamina A).**  \n\n**Adequado:** prescreve a suplementação de Vitamina A em duas doses, conforme a idade da criança (200.000 UI/dose para > 1 ano), explicando que a medida reduz a morbimortalidade.  \n**Inadequado:** não prescreve a Vitamina A.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Descreve as medidas de suporte e sintomáticas.**  \n(1) Manter hidratação e alimentação;  \n(2) Uso de antitérmicos e analgésicos;  \n(3) Higiene dos olhos e nariz com soro fisiológico.  \n\n**Adequado:** descreve as três medidas.  \n**Parcialmente adequado:** descreve duas medidas.  \n**Inadequado:** não descreve as medidas ou descreve apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.3",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre o isolamento do paciente.**  \n\n**Adequado:** orienta o isolamento respiratório do paciente por 4 dias após o início do exantema para evitar a transmissão do vírus.  \n**Inadequado:** não orienta sobre o isolamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Define a conduta para os contatos domiciliares (irmã de 1 ano).**  \n\n**Adequado:** orienta a vacinação de bloqueio (vacina SCR) para a irmã de 1 ano, por ser uma contato suscetível, a ser realizada em até 72 horas após a exposição.  \n**Inadequado:** não orienta a conduta para os contatos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

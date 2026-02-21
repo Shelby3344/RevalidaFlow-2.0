@@ -1,0 +1,189 @@
+{
+  "uid": 1301,
+  "hash": "pepe_1301",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "TEP - Tromboembolistmo pulmonar",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2013",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nA unidade apresenta a seguinte infraestrutura:  \n• raio-X, ultrassonografia e eletrocardiograma;  \n• laboratório de análises clínicas;  \n• centro cirúrgico, leitos de internação e UTI.\n\nDescrição do caso:\nUma paciente de 30 anos, tabagista, chega na emergência apresentando dispneia e dor torácica de forte intensidade há 3 horas.",
+  "tarefas": "- Realizar a anamnese;  \n- Solicitar exame físico, caso necessário;  \n- Solicitar e interpretar exame(s) complementar(es);  \n- Solicitar dois exames de imagem específicos para o diagnóstico;  \n- Informar a principal hipótese diagnóstica;  \n- Propor condutas e orientações ao caso;  \n- Responder as dúvidas da paciente;",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Vanessa, 30 anos, jornalista.  \n\n\n**MOTIVO DE CONSULTA:** comecei a ter uma falta de ar de repente. E também estou com uma dor no peito.  \n\n\n**SOBRE DISPNEIA:**  \n• **Início:** faz umas 3 horas.  \n• **Em repouso ou atividade:** eu estava caminhando pro trabalho.  \n• **Episódio anterior:** nega.  \n• **Tosse:** sim, estou com tosse seca também.  \n• **Sudorese:** comecei a suar mais.  \n\n\n**SOBRE DOR TORÁCICA:**  \n• **Início:** começou junto com a falta de ar.  \n• **Localização:** dói mais do lado direito.  \n• **Irradiação:** não irradia.  \n• **Característica:** é tipo uma pontada.  \n• **Atenuantes/agravantes:** piora quando eu tento puxar o ar.  \n\n• **Episódio anterior:** nega.  \n• **Trauma:** nega.  \n\n\n**DEMAIS QUEIXAS:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Cirurgias e internações:** há 2 anos atrás eu fiz duas cirurgias plásticas, mas acabei ganhando muito peso de lá pra cá.  \n\n• **Álcool, tabaco e drogas:** fumo desde os 17 anos.  \n• **Alimentação:** só como na rua, fast food.  \n• **Atividade física:** não pratico.  \n• **Anticoncepção:** uso pílula combinada.  \n\n\n**ANTECEDENTES FAMILIARES:** minha mãe é hipertensa.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• *O que eu tenho?*  \n• *Porque aconteceu isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 130x85 mmHg  \n• **FC:** 100 bpm  \n• **FR:** 24 irpm  \n• **SatO2:** 90%  \n• **Temp. axilar:** 36.7° C  \n• **IMC:** 35 kg/m²  \n\n\n**Ectoscopia:** paciente em ruim estado geral, agitada, pálida, sudoreira, afebril.  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** estertores creptantes discreto em base direita, sem ruídos adventícios.  \n\n\n**Abdominal:** sem alterações.  \n\n\n**MMII:** edema bilateral +/4+.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA**  \n• **Hemácias:** 4,8 milhões/mm3 (VR: 4,3 a 5,8 milhões/mm3)  \n• **Hemoglobina:** 15,2 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 39% (VR: 39 - 52%)  \n\n• **Plaquetas:** 185.000 mm/3 (150.000 - 400.000 mm/3)  \n\n• **Leucócitos:** 10.040/mm3 (VR: 4.000 - 11.000/mm3)  \n\n\n• **Sódio (Na):** 136 mEq/l (VR: 135 - 145 mEq/l)  \n• **Potássio: (K):** 3,6 mEq/l (VR: 3,5 - 5 mEq/l)  \n• **Ureia (Ur):** 40 mg/dl (VR: 13 - 43 mg/dl)  \n• **Creatinina (Cr):** 1,0 mg/dL (VR: 0,5 - 1,2 mg/dl)  \n\n\n• **Troponina I:** 0,04 ng/ml (VR: < 0,04 ng/ml)  \n• **D-dímero:** 780 ng/ml (VR: < 500 ng/ml)",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7,30 (VR: 7,35 - 7,45)  \n• **PaCO2:** 55 mm Hg (VR: 35 - 45 mm Hg)  \n• **HCO3:** 25 mEq/l (VR: 22 - 26 mEq/l)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "ELETROCARDIOGRAMA",
+      "conteudo": "Taquicardia sinusal, onda R alta em v1 e inversão da onda T em v1 a v4.  \n\n\n**ATENÇÃO:**  \nIDENTIFIQUE A ALTERAÇÃO DO ELETROCARDIOGRAMA.",
+      "imagem": null
+    },
+    {
+      "idx": 5,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "**ATENÇÃO:**  \nIDENTIFIQUE A ALTERAÇÃO DO RAIO-X.",
+      "imagem": "img_printeds/2013-e1p5.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1.1. O(a) candidato(a) cumprimentou o paciente e apresentou-se como médico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**1.2. O(a) candidato(a) investigou o tempo e o modo de início do quadro clinico (há três horas, desconforto no peito).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**1.3. O(a) candidato(a) investigou a ocorrência de dor do tipo pleurítica e escarros hemoptoicos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**1.4. O(a) candidato(a) investigou a ocorrência de sincope, sudorese e náuseas (pelo menos dois).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**1.5. O(a) candidato(a) identificou os fatores predisponentes (pelo menos três dos seguintes: IMC > 35, cirurgias plásticas múltiplas, anestesia geral, tempo cirúrgico prolongado, tabagismo, uso de estrogênios).**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**1.6. O(a) candidato(a) formulou o diagnóstico adequado de embolia pulmonar.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**1.7. O(a) candidato(a) interpretou corretamente a sobrecarga ventricular direita presente no ECG.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**1.8. O(a) candidato(a) identificou a hipovascularização presente no RX de tórax.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**1.9. O(a) candidato(a) identificou acidose respiratória evidenciada através da gasometria.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**2.1. O(a) candidato(a) solicitou pelo menos dois dos seguintes: angiotomografia, tomografia helicoidal, ressonância magnética, arteriografia pulmonar.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**3.1. O(a) candidato(a) indicou o emprego de heparina não fracionada 24 a 30.000 U/dia.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**3.2. O(a) candidato(a) indicou o emprego de estreptoquinase ou do fator ativador do plasminogênio tecidual.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

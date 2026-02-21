@@ -1,0 +1,253 @@
+{
+  "uid": 1905,
+  "hash": "pepe_1905",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Protocolo SPIKES - Câncer de Colo de Útero | 2019",
+  "definicao": "Estação original adaptada  \nPSU-CE 2019 - Processo Seletivo Unificado  \nUFC - Universidade Federal do Ceará  ",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico.\n\nDescrição do caso:\nVocê está atendendo uma paciente de 45 anos, que comparece à UBS para receber o resultado de uma biópsia de colo uterino, coletada após alteração em exame citopatológico (Papanicolau) prévio.",
+  "tarefas": "TAREFAS:  \n- Realizar a comunicação do resultado do exame à paciente, utilizando técnicas de comunicação de más notícias;  \n- Acolher a paciente e esclarecer suas dúvidas;  \n- Explicar a conduta e os próximos passos do tratamento.  \n\n\\\nNÃO É NECESSÁRIO REALIZAR EXAME FÍSICO NESTA ESTAÇÃO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Vanessa, 45 anos, casada, do lar.  \n\n\n**MOTIVO DE CONSULTA:**  \n• \"Doutor(a), eu vim trazer o resultado daquele exame que fiz do útero. E eu queria saber o que é também. É alguma coisa ruim?\"  \n\n\n**DÚVIDAS E INTERAÇÕES:**  \n• *Se o médico der a notícia:* \"É câncer mesmo, doutor(a)? Eu vou morrer?\"  \n• *Sobre o tratamento:* \"Mas tem cura? O que eu vou ter que fazer agora? Vou ter que operar?\"  \n• *Se o médico for empático:* \"Obrigada, doutor(a). Eu estou sem chão, mas fico mais calma de saber que o senhor vai me ajudar.\"",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME ANATOMOPATOLÓGICO",
+      "conteudo": "**PACIENTE:** Vanessa de Oliveira  \n**IDADE:** 45 anos  \n**MATERIAL:** Biópsia de colo uterino  \n\n\n**MACROSCOPIA:**  \nFragmento de tecido irregular, de coloração pardo-clara, medindo 1,8 x 0,5 x 0,3 cm.  \n\n\n**MICROSCOPIA:**  \nOs cortes histológicos mostram fragmentos de colo uterino exibindo neoplasia maligna epitelial invasora, constituída por células escamosas atípicas, com pleomorfismo nuclear, hipercromasia e figuras de mitose, dispostas em ninhos e cordões que infiltram o estroma subjacente. Observa-se reação desmoplásica do estroma.  \n\n\n**CONCLUSÃO:**  \n**CARCINOMA DE CÉLULAS ESCAMOSAS INVASOR (CARCINOMA EPIDERMOIDE).**  \n\n\n**Médico Patologista:** Dr. José Almeida - CRM 00000",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Fez anúncio breve (introdução curta)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Fez escuta ativa (contato visual, gestos demonstrando interesse e respeito)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Informou o resultado com linguagem clara e acessível, pausada e compreensível (Diagnóstico de câncer de colo uterino)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Demonstrou tranquilidade ao informar o resultado**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Fez o silêncio necessário para a reação da paciente**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Deu explicação curta com as informações necessárias sobre o tratamento. (encaminhou para oncologista e/ou falou da necessidade de estadiamento para definir conduta; cirurgia, radioterapia, quimioterapia)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Deu explicação curta com as informações necessárias sobre a possibilidade de cura. (Falou sobre a necessidade de iniciar logo o tratamento)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Refletiu sentimentos/ parafraseou (demonstrou empatia)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Ofereceu conforto a paciente (se aproximou e/ou tocou a paciente)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Mostrou o lado bom, o tratamento e a expectativa do mesmo. Diminuiu o problema**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Não evitou ou adiou a comunicação do resultado**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Comunicou-se de forma que ela entendesse/concluísse que tem o câncer (e chances de tratamento)**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Foi claro quanto a gravidade da doença e a necessidade de tratamento imediato**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Não interrompeu a fala e a reação da paciente**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Manteve as esperanças da paciente**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Perguntou se a paciente tem dúvidas**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Colocou-se a disposição para posteriores dúvidas ou marcou um retorno**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 18,
+      "descricao": "**18. Anunciou o fechamento da consulta**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 19,
+      "descricao": "**19. Concluiu de forma adequada encaminhando a paciente para o tratamento**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 20,
+      "descricao": "**20. Despediu-se de forma adequada**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

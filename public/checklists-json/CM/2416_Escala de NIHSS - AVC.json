@@ -1,0 +1,251 @@
+{
+  "uid": 2416,
+  "hash": "pepe_2416",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Escala de NIHSS - AVC",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde.  \nTipo de atendimento: urgência e emergência.  \n\nA unidade possui a seguinte infraestrutura:  \n* consultórios;  \n* sala de estabilização;  \n* laboratório de análises clínicas;  \n* serviço de radiologia com aparelho de radiografia e tomografia computadorizada;  \n* leitos de internação – enfermaria e terapia intensiva.\n\nDescrição do caso:\nVocê atenderá um paciente com 58 anos de idade, histórico de arritmia cardíaca, diabetes melito e dislipidemia, com suspeita de acidente vascular cerebral por apresentar déficit neurológico (hemiplegia) e cefaleia, iniciados há cerca de 1 hora. Paciente encontra-se com respiração espontânea, via aérea pérvia, boa saturação de O₂ em ar ambiente e parâmetros hemodinâmicos adequados.",
+  "tarefas": "* Aplicar a escala NIHSS ao paciente.  \n* Totalizar a pontuação da escala NIHSS e VERBALIZAR.  \n* Solicitar exames complementares necessários à avaliação inicial do caso.  \n\n\n\nCASO JULGUE NECESSÁRIO TOCAR O PACIENTE SIMULADO, O TOQUE É PERMITIDO  \nAPENAS NA PERNA, ABAIXO DOS JOELHOS, E NO BRAÇO, ABAIXO DOS COTOVELOS.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Anderson, 58 anos, motorista de ônibus.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), meu lado esquerdo do corpo parou de funcionar... não consigo mexer.\n**Início:** começou faz mais ou menos uma hora.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho arritmia, diabetes e colesterol alto.  \n\n***APÓS O CANDIDATO SOLICITAR A APLICAÇÃO DA ESCALA DE NIHSS, LIBERAR TODOS OS IMPRESSOS***  \n**RESPOSTAS E AÇÕES - ESCALA NIHSS**  \n\n**1a. Nível de Consciência:**  \n• Responde prontamente ao ser chamado, está alerta.  \n\n**1b. Nível de Consciência - Perguntas:**  \n• **Se perguntar o mês atual:** *Dezembro.*  \n• **Se perguntar a idade:** *58 anos.*  \n\n**1c. Nível de Consciência - Comandos:**  \n• **Ao solicitar para abrir e fechar os olhos:** *Executa o movimento.*  \n• **Ao solicitar para abrir e fechar a mão:** *Abre e fecha a mão DIREITA, mas não consegue mover a ESQUERDA.*  \n\n**2. Olhar Conjugado Horizontal:**  \n• Movimenta os olhos para os dois lados normalmente, acompanha o dedo do(a) médico(a).  \n\n**3. Campos Visuais:**  \n• Consegue enxergar os dedos em todos os quadrantes NORMALMENTE.  \n\n**4. Paralisia Facial:**  \n• Mostra os dentes/sorri e fecha os olhos com força, sem desvio da boca.  \n\n**5. Membros Superiores:**  \n• Consegue sustentar o braço DIREITO estendido a 90 graus.  \n• Braço ESQUERDO cai imediatamente, não consegue segurar.  \n\n**6. Membros Inferiores:**  \n• Consegue sustentar a perna DIREITA estendida a 30 graus.  \n• Perna ESQUERDA cai imediatamente, não consegue segurar.  \n\n**7. Ataxia de Membros - INDEX-NARIZ OU CALCANHAR-JOELHO:**  \n• Realiza o movimento com o lado DIREITO.  \n• Não consegue realizar com o lado ESQUERDO.  \n\n**8. Sensibilidade ao toque ou dor (beliscar):**  \n• Sente o toque ou o estímulo no rosto e membros do lado DIREITO.  \n• Não sente nada no rosto ou membros do lado ESQUERDO.  \n\n**9. Melhor Linguagem (Afasia) - quadro de figuras:**  \n• Descreve a cena da figura, nomeia os objetos e lê as frases corretamente.  \n\n**10. Disartria - lista de palavras e frases:**  \n• Lê ou repete as palavras da lista sem dificuldade para articular.  \n\n**11. Extinção e Desatenção (Inatenção):**  \n• Se tocado em ambos os lados ao mesmo tempo, refere sentir apenas no lado DIREITO.  \n\n**ORIENTAÇÕES AO CHEFE DE ESTAÇÃO:**  \n**Caso o candidato não seja específico em exames, perguntar:** *Seja mais específico, doutor(a).*  \n**Caso o candidato solicite os exames corretamente:** *Considere solicitado.*  \n**Caso o candidato não verbalize a pontuação da escala:** *Qual foi a pontuação da escala, doutor(a)?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "NIHSS - PREENCHIMENTO 1",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e6p1.jpg"
+    },
+    {
+      "idx": 2,
+      "titulo": "NIHSS - PREENCHIMENTO 2",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e6p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "NIHSS - PREENCHIMENTO 3",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e6p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "NIHSS - PREENCHIMENTO 4",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e6p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "NIHSS - SENTENÇA 5",
+      "conteudo": "## **Você sabe como fazer.**  \n\n## **De volta pra casa.**  \n\n## **Eu cheguei em casa do trabalho.**  \n\n## **Próximo da mesa, na sala de jantar.**  \n\n## **Eles ouviram o Pelé falar no rádio.**  \n\n**Sentenças para leitura no item 9. Melhor linguagem**",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "NIHSS - FIGURA 6",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e6p6.jpg"
+    },
+    {
+      "idx": 7,
+      "titulo": "NIHSS - FIGURA 7",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e6p7.jpg"
+    },
+    {
+      "idx": 8,
+      "titulo": "NIHSS - LISTA",
+      "conteudo": "**NIHSS - LISTA 8**  \n\n\n## **Mãmae**  \n\n## **Tic-Tac**  \n\n## **Paralelo**  \n\n## **Obrigado**  \n\n## **Estrada de ferro**  \n\n## **Jogador de futebol**  \n\n**Lista para item 10. Disartria**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a avaliação 1 a do NIHSS:**  \n\n**Adequado:** avalia se o paciente está alerta, falando com ele(a).  \n**Inadequado:** não avalia se o paciente está alerta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Realiza a avaliação 1 b do NIHSS. Pergunta:**  \n(1) idade do paciente; e  \n(2) em que mês estamos.  \n\n**Adequado:** pergunta os dois itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza a avaliação 1 c do NIHSS. Solicita que o paciente:**  \n(1) abra e feche os olhos e  \n(2) abra e feche a mão.  \n\n**Adequado:** realiza as duas solicitações.  \n**Parcialmente adequado:** realiza apenas uma solicitação.  \n**Inadequado:** não solicita nenhuma das duas ações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Realiza a avaliação 2 do NIHSS. Pede que o paciente movimente os olhos horizontalmente para os dois lados (olhar para a direita e para a esquerda).**  \n\n**Adequado:** avalia a movimentação para os dois lados.  \n**Parcialmente adequado:** avalia a movimentação para um lado.  \n**Inadequado:** não avalia a movimentação ocular.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Realiza a avaliação 3 do NIHSS. Avalia os campos visuais (superiores e inferiores).**  \n\n**Adequado:** avalia os quatro quadrantes.  \n**Inadequado:** não avalia os quatro quadrantes.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Realiza a avaliação 4 do NIHSS. Pede que o paciente sorria (ou mostre os dentes) e feche os olhos com força.**  \n\n**Adequado:** faz as duas solicitações.  \n**Parcialmente adequado:** faz apenas uma solicitação.  \n**Inadequado:** não faz nenhuma dessas solicitações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza a avaliação 5 do NIHSS. Solicita que o paciente sustente os braços a 90°, com as palmas das mãos para baixo.**  \n\n**Adequado:** realiza com ângulo E posicionamento das mãos adequados.  \n**Parcialmente adequado:** realiza com ângulo OU posicionamento das mãos inadequados.  \n**Inadequado:** não realiza a pesquisa OU a faz com ângulo E posicionamento das mãos inadequados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Realiza a avaliação 6 do NIHSS. Solicita que o paciente sustente as pernas a 30°, em extensão.**  \n\n**Adequado:** realiza com ângulo E extensão adequados.  \n**Parcialmente adequado:** realiza com ângulo OU extensão inadequados.  \n**Inadequado:** não realiza a pesquisa OU a faz com ângulo E extensão inadequados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a avaliação 7 do NIHSS. Solicita que o paciente faça o teste index-nariz OU calcanhar-joelho.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza a avaliação 8 do NIHSS. Testa a sensibilidade do paciente.**  \n\n**Adequado:** testa.  \n**Inadequado:** não testa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Realiza a avaliação 9 do NIHSS. Solicita que o paciente descreva a imagem.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Realiza a avaliação 10 do NIHSS. Solicita que o paciente leia (ou repita) a lista de palavras.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Totaliza corretamente a escala NIHSS. Verbaliza total de 10 pontos.**  \n\n**Adequado:** totaliza corretamente.  \n**Inadequado:** não totaliza ou totaliza com outro valor.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Solicita TC, ou tomografia, ou tomografia computadorizada, ou ressonância, ou ressonância magnética de crânio SEM CONTRASTE.**  \n\n**Adequado:** solicita.  \n**Parcialmente adequado:** solicita COM CONTRASTE.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Solicita outros exames complementares:**  \n(1) Eletrocardiograma;  \n(2) Glicemia capilar;  \n(3) Hemograma;  \n(4) Coagulograma (TAP / INR e TTPA);  \n(5) Potássio e sódio;  \n(6) Ureia e creatinina;  \n(7) Troponina.  \n\n**Adequado:** solicita ao menos cinco exames.  \n**Inadequado:** solicita menos que cinco exames.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

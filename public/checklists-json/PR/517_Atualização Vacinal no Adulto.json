@@ -1,0 +1,144 @@
+{
+  "uid": 517,
+  "hash": "pepe_517",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Atualização Vacinal no Adulto",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;  \n• Sala de vacinas.\n\nDescrição do caso:\nVocê está na UBS e atenderá um homem de 38 anos, médico recém-aprovado no Revalida, que necessita de avaliação para atualização do calendário vacinal antes de iniciar suas atividades profissionais no pronto-socorro.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese suscinta sobre o caso;  \n- Avaliar a situação vacinal atual do paciente;  \n- Indicar as vacinas adequadas para o caso, especificando o esquema de doses;  \n- Responder às dúvidas do paciente;  \n- Orientar sobre eventos adversos.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Edvaldo, 38 anos, médico.  \n\n**MOTIVO DE CONSULTA:** Olá, colega! Finalmente passei no Revalida! Vim porque daqui uns dias vou começar a dar plantão no PS e atender na UBS, e exigiram que meu cartão de vacina estivesse em dia.  \n\n**QUEIXAS OU SINTOMAS:** não sinto nada, fiz exames recentes e estava tudo bem. Vim só pelas vacinas mesmo.  \n\n**Ultima vacinação:** a última que tomei foi do Covid-19 em 2021.  \n\n**CADERNETA DE VACINAÇÃO:** Está aqui. Acho que só tem as vacinas de criança e da Covid.  \n*(liberar os impressos **CADERNETA DE VACINAÇÃO** e **CALENDÁRIO VACINAL ADULTO** no mesmo momento)*  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** Não tenho alergia a nada, nem medicamentos e nem alimentos.  \n• **Doenças e Medicações:** não tomo nenhum remédio. Nunca fiquei internado.  \n• **Hábitos:** Bebo socialmente, não fumo.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai é hipertenso e diabético.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Quais vacinas eu preciso tomar, doutor(a)?*  \n• *Como vai ser esse esquema? Quantas doses e qual o intervalo entre elas?*  \n• *A vacina da Influenza também preciso tomar?*  \n• *Eu tive catapora quando era criança. Preciso tomar a vacina da varicela também?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 120x80 mmHg  \n• **FC:** 72 bpm  \n• **FR:** 14 irpm  \n• **SatO2:** 98% em ar ambiente  \n• **Temp. axilar:** 36.2°C  \n\n\n**Ectoscopia:** Paciente em bom estado geral, corado, hidratado, acianótico, anictérico, afebril. Orientado e colaborativo.  \n\n\n**Exame Segmentar:**  \n• Oroscopia sem alterações.  \n\n• Ausculta cardíaca e pulmonar normais.  \n\n• Ausência de linfonodomegalias ou lesões cutâneas.  \n\n• Sítios de aplicação de vacinas (deltoides) íntegros, sem sinais flogísticos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "CADERNETA DE VACINAÇÃO DO PACIENTE",
+      "conteudo": "",
+      "imagem": "img_printeds/e517p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "CALENDÁRIO VACINAL ADULTO",
+      "conteudo": "",
+      "imagem": "img_printeds/e517p3.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente de forma cordial.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida à vacinação:**  \n(1) pergunta sobre alergias (medicamentosas, alimentares ou a componentes vacinais);  \n(2) pergunta sobre imunodeficiências ou uso de imunossupressores, OU doenças, OU Internações;  \n(3) pergunta sobre reações adversas a vacinas anteriores, OU Medicações.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita a caderneta de vacinação para avaliação.**  \n\n**Adequado:** solicita a caderneta.  \n**Inadequado:** não solicita a caderneta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Indica a vacina contra Hepatite B:**  \n(1) Prescreve o esquema de 3 doses;  \n(2) Verbaliza os intervalos de 0, 30 e 180 dias (0, 1 e 6 meses).  \n\n**Adequado:** indica a vacina E o esquema correto.  \n**Parcialmente adequado:** indica a vacina mas erra o esquema/intervalo.  \n**Inadequado:** não indica a vacina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Indica a vacina Dupla Adulto (dT - Difteria e Tétano):**  \n(1) Prescreve o esquema básico de 3 doses;  \n(2) Verbaliza os intervalos de 0, 30 e 60 dias (ou 0, 60 e 120 dias / 0-2-4 meses);  \n(3) Menciona a necessidade de reforço a cada 10 anos.  \n\n**Adequado:** indica a vacina E o esquema de 3 doses E o reforço.  \n**Parcialmente adequado:** indica a vacina mas erra o esquema ou omite o reforço.  \n**Inadequado:** não indica a vacina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica a vacina Tríplice Viral (SCR - Sarampo, Caxumba e Rubéola):**  \n(1) Prescreve o esquema de 2 doses (por ser profissional de saúde);  \n(2) Verbaliza o intervalo de 30 dias entre as doses.  \n\n**Adequado:** indica a vacina E o esquema de 2 doses.  \n**Parcialmente adequado:** indica a vacina mas prescreve apenas 1 dose ou erra o intervalo.  \n**Inadequado:** não indica a vacina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Indica a vacina contra Influenza (Gripe):**  \n(1) Prescreve dose única (por ser profissional de saúde);  \n(2) Orienta sobre a periodicidade anual (campanha).  \n\n**Adequado:** indica a vacina e a periodicidade anual.  \n**Parcialmente adequado:** indica a vacina sem mencionar a periodicidade.  \n**Inadequado:** não indica a vacina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.62",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Responde à dúvida sobre a vacina contra Varicela:**  \nVerbaliza que, como o paciente relata história prévia de doença (catapora), ele é considerado imune e não há necessidade da vacina neste momento.  \n\n**Adequado:** explica que não é necessária devido ao histórico de doença.  \n**Parcialmente Adequado:** explica que pode tomar a vacina mesmo tendo adquirido a doença na infância, pois ela não fará mal ao paciente.  \n**Inadequado:** indica obrigatoriamente a vacina ou não sabe responder.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Fornece orientações gerais e de seguimento:**  \n(1) Orienta sobre possíveis eventos adversos locais (dor, vermelhidão) ou gerais (febre baixa, vômitos, tontura);  \n(2) Agenda o retorno para as próximas doses.  \n\n**Adequado:** realiza as duas orientações.  \n**Parcialmente adequado:** realiza uma orientação.  \n**Inadequado:** não realiza orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.62",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

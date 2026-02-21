@@ -1,0 +1,220 @@
+{
+  "uid": 2021,
+  "hash": "pepe_2021",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Polipose Adenomatosa Familiar (PAF) - Rastreio | 2020",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "PSU-CE/UFC",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária - hospital de triagem.  \nTipo de atendimento: ambulatório de cirurgia.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• encaminhamento para centro de exames e diagnósticos.\n\nDescrição do caso:\nVocê está em atendimento no ambulatório de cirurgia em um hospital de triagem para preparo de pacientes e encaminhamento aos especialistas.  \nUm jovem lhe procura trazendo um exame do irmão em busca de orientação quanto ao risco de ter ou não a mesma doença. Esse irmão foi operado recentemente.",
+  "tarefas": "TAREFAS:  \n- EXPLICAR O RISCO DA DOENÇA AO PACIENTE.  \n- JUSTIFICAR A IMPORTÂNCIA DO DIAGNÓSTICO.  \n- EXPLICAR LINHAS GERAIS DO TRATAMENTO.  \n- SOLICITAR EXAME(S) PERTINENTE(S) PARA O DIAGNÓSTICO.  \n- ORIENTAR CUIDADOS PARA O EXAME.  \n- PRESCREVER PREPARO PARA O EXAME.  \n\n\\\nATENÇÃO: NÃO É NECESSÁRIO REALIZAR EXAME FÍSICO",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Lucas, 26 anos, estudante.  \n\n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), vim aqui porque meu irmão operou faz pouco tempo. Ele tirou o intestino todo por causa de um câncer e de uns pólipos.  \n• O médico dele disse que era uma doença de família e mandou eu vir procurar um cirurgião.  \n\n\n**HISTÓRIA FAMILIAR:**  \n• Meu irmão tem 28 anos. A cirurgia dele foi bem grande.  \n• Meu pai faleceu de câncer no intestino quando tinha 35 anos.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias:** tenho alergia a dipirona.  \n• **Doenças:** não tenho nada, sou saudável.  \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS E INTERAÇÕES:**  \n• 1 *Eu corro risco de ter isso também? É genético?*  \n• 2 *Eu preciso fazer cirurgia igual a ele? Tirar tudo?*  \n• 3 *Vou ter que usar aquela bolsinha na barriga (colostomia)?*  \n• 4 *Que exame eu preciso fazer pra saber se eu tenho?*  \n• 5 *Como é o preparo desse exame?*  \n• 6 *É você mesmo que vai fazer esse exame?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME ANATOMOPATOLÓGICO",
+      "conteudo": "**PACIENTE:** M.S. (IRMÃO)  \n**MATERIAL:** PRODUTO DE COLECTOMIA TOTAL.  \n\n\n**MACROSCOPIA:**  \nSegmento de intestino grosso medindo 90 cm de comprimento. A mucosa apresenta inúmeras formações polipoides (> 100), sésseis e pediculadas, distribuídas difusamente por todo o cólon.  \nPresença de lesão ulcerada e vegetante em cólon descendente medindo 4,0 cm.  \n\n\n**MICROSCOPIA:**  \n1. Adenocarcinoma moderadamente diferenciado invasivo em cólon descendente.  \n2. Adenomas tubulares e tubulovilosos com displasia de alto e baixo grau (múltiplos).  \n\n\n**DIAGNÓSTICO:**  \nADENOCARCINOMA DE CÓLON EM CENÁRIO DE POLIPOSE ADENOMATOSA FAMILIAR (PAF).",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identificou-se para o paciente?/Cumprimenta o paciente?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta o nome do paciente?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Perguntou a razão da consulta?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta a idade do paciente?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Explicou que se trata de uma doença genética? Familiar?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Perguntou quanto aos outros familiares? Irmãos? Pais?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Explicou o risco de câncer?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explicou a possibilidade de cirurgia?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Explicou a magnitude da cirurgia? Colectomia total?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Explicou risco de colostomia?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicitou a colonoscopia?**  \n\n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Prescreveu preparo de colón? Manitol?/ Laxativos + dieta sem resíduos?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orientou jejum para exame?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Prescreveu anti-espasmódico? /Anti-hemético?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Orientou que o tratamento seria realizado por outro especialista?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Perguntou se o paciente tem alguma alergia?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.6"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 17,
+      "descricao": "**17. Perguntou se o paciente ainda tem dúvidas?**  \n\n**Adequado:** realiza a ação.  \n**Inadequado:** não realiza a ação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

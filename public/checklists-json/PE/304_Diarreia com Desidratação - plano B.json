@@ -1,0 +1,171 @@
+{
+  "uid": 304,
+  "hash": "pepe_304",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Diarreia com Desidratação - plano B",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção secundária à saúde - UPA.  \nTipo de atendimento: urgência e emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• leito de observação;  \n• laboratório de análises clínicas.\n\nDescrição do caso:\nVocê é médico(a) e está de plantão na emergência de uma UPA e atenderá um lactente de 8 meses, trazido pela mãe com queixa de diarreia, vômitos e febre.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar exame físico específico, caso necessário;  \n- Informar a hipótese diagnóstica e seus critérios, caso exista;  \n- Propor as condutas adequadas e orientações ao caso;  \n- Responder as dúvidas da mãe;  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Paula, 28 anos, casada.  \n• **Criança:** Lucas, 8 meses.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu trouxe o Lucas porque ele está com diarreia há 3 dias e desde ontem começou uma febre alta, de 39 graus.  \n\n**SOBRE A DIARREIA:**  \n• **Início:** Faz 3 dias.  \n• **Volume e Frequência:** Ele está evacuando bastante, umas 5 ou 6 vezes por dia. É bem líquido.  \n• **Aspecto:** As fezes estão bem moles, amareladas. Não vi sangue.  \n• **Outros sintomas:** Ele está muito chorão, irritado.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Alimentação:** Ele está mamando bem no peito, até mais do que o normal, parece que está sempre com sede. Mas as papinhas que ele já comia, agora não quer mais.  \n• **Febre:** Começou ontem, chegou a 39°C em casa.  \n• **Vômitos:** Sim, ele vomitou 2 vezes, só o leite.  \n\n**ESTADO GERAL:**  \n• Ele está muito irritado, chorando bastante e não quer brincar. Quando chora, parece que não sai lágrima.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Nega.  \n• **Vacinação:** Todas em dia.  \n• **Peso:** A última vez que pesei faz um mês, estava com 7,200 kg.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que meu filho tem, doutor(a)?*  \n• *Por que ele está assim tão irritado e com os olhos fundos?*  \n• *Ele vai precisar ficar internado para tomar soro na veia?*  \n• *O que eu faço para ele melhorar? Precisa de algum remédio para a diarreia ou vômito?*  \n• *E em casa, como eu cuido dele? O que eu posso dar pra ele comer?*  \n• *Quando devo me preocupar e voltar para o hospital?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **FC:** 151 bpm  \n• **PA:** 90x50 mmHg  \n• **FR:** 39 irpm  \n• **SatO2:** 97% em ar ambiente  \n• **Peso:** 7.300g  \n• **Comprimento:** 71 cm  \n\n\n**Cardiovascular:** sem alterações.  \n\n\n**Respiratório:** sem alterações.  \n\n\n**Abdominal:** abdome globoso, RHA aumentados, sem sinais de visceromegalias.  \n\n\n**Pele e anexos:** região do períneo com leve hiperemia.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "AVALIAÇÃO DE DESIDRATAÇÃO",
+      "conteudo": "• Lactente irritado, com choro sem lágrimas.  \n\n• Olhos fundos.  \n\n• Fontanela anterior plana.  \n\n• Sinal da prega com retorno em 2 segundos.  \n\n• Perfusão capilar periférica de 2 segundos.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se:**  \n(1) identifica-se;  \n(2) cumprimenta a mãe e pergunta o nome da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre a presença de sangue nas fezes.**  \n\n**Adequado:** investiga.  \n**Inadequado:** não investiga.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga as características da diarreia:**  \n(1) frequência (OU número de evacuações);  \n(2) aspecto (OU consistência OU volume).  \n\n**Adequado:** investiga os dois itens.  \n**Parcialmente adequado:** investiga um item.  \n**Inadequado:** não investiga nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Investiga a aceitação da dieta e da hidratação, incluindo o aleitamento materno.**  \n\n**Adequado:** pergunta.  \n**Inadequado:** não pergunta.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita a realização do exame físico para avaliar o estado de hidratação.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza o diagnóstico de desidratação (OU gastroenterite aguda com desidratação) e explica os achados para a mãe:**  \n(1) irritabilidade;  \n(2) olhos fundos;  \n(3) ausência de lágrimas;  \n(4) sinal da prega com retorno lento.  \n\n**Adequado:** cita dois ou mais achados.  \n**Parcialmente adequado:** cita apenas um achado.  \n**Inadequado:** não verbaliza o diagnóstico ou verbaliza desidratação grave.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Prescreve o plano de reidratação oral (Plano B), especificando volume e tempo (75 ml/kg em 4 horas).**  \n\n**Adequado:** cita volume e tempo.  \n**Parcialmente adequado:** cita apenas volume OU tempo.  \n**Inadequado:** não cita volume nem tempo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Contraindica ou não prescreve antibióticos e antieméticos.**  \n\n**Adequado:** orienta que não há necessidade de ambos.  \n**Parcialmente adequado:** orienta que não há necessidade de apenas um.  \n**Inadequado:** indica o uso de antibiótico e/ou antiemético.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Esclarece à mãe que o tratamento será ambulatorial, com reavaliação após a fase de reidratação.**  \n\n**Adequado:** informa.  \n**Inadequado:** não informa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a reposição de perdas após cada evacuação diarreica (50 a 100 ml).**  \n\n**Adequado:** orienta corretamente o volume.  \n**Parcialmente adequado:** orienta a reposição, mas com volume incorreto.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta sobre os cuidados em domicílio:**  \n(1) manter aleitamento materno (OU dieta habitual);  \n(2) suplementação com zinco;  \n(3) medidas de higiene.  \n\n**Adequado:** orienta os três itens.  \n**Parcialmente adequado:** orienta apenas dois itens.  \n**Inadequado:** orienta apenas um item ou não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a mãe sobre os sinais de alarme para retorno imediato.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

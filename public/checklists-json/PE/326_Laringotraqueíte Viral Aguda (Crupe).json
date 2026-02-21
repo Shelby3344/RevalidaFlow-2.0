@@ -1,0 +1,149 @@
+{
+  "uid": 326,
+  "hash": "pepe_326",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Laringotraqueíte Viral Aguda (Crupe)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: Urgência e Emergência.  \nTipo de atendimento: Pronto Atendimento Infantil.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios equipados;  \n• sala de inalação;  \n• sala de observação;  \n• serviço de radiologia.\n\nDescrição do caso:\nVocê está em uma Unidade de Pronto Atendimento. Uma mãe traz o filho de 2 anos relatando que ele acordou no meio da noite com uma tosse muito estranha e está preocupada com a respiração do filho.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso.  \n- Solicitar exames físicos necessários à avaliação do quadro.  \n- Solicitar exames complementares pertinentes ao caso.  \n- Verbalizar a hipótese diagnóstica e a classificação de gravidade.  \n- Estabelecer o plano terapêutico e fornecer as orientações necessárias.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Maria, mãe do Enzo, 2 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor, meu filho acordou tossindo igual a um cachorro e fazendo um barulho estranho quando respira.  \n\n**SOBRE A TOSSE:**  \n• **Início:** Começou forte hoje de madrugada, do nada.  \n• **Característica:** É uma tosse seca e rouca, parece um latido.  \n• **Piora:** Parece que piora quando ele chora ou fica agitado.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Febre:** Teve uma febrinha de 37,8 ontem à tarde.  \n• **Coriza/Rinorreia:** Ele estava com o nariz escorrendo e um pouco de coriza nos últimos dois dias.  \n• **Respiração:** Ele está fazendo um barulho alto quando puxa o ar.  \n\n• **Vômitos, diarreia, sangramentos ou hipoatividade:** Nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Vacinação:** Está toda em dia.  \n• **Problemas prévios:** Nunca teve nada sério, é uma criança saudável.  \n\n**DÚVIDAS:**  \n• *O que ele tem é perigoso?*  \n• *Ele vai precisar ficar internado?*  \n• *Qual o tratamento pra isso?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **FC:** 118 bpm  \n• **FR:** 38 irpm  \n• **SatO2:** 95% em ar ambiente  \n• **Temp. axilar:** 37.6° C  \n• **Peso:** 12 kg  \n\n\n**Ectoscopia:** Criança ativa, reativa, corada e hidratada. Presença de estridor inspiratório audível ao repouso, que se acentua com a agitação.  \n\n\n**Aparelho Respiratório:** Tiragem subcostal leve. Murmúrio vesicular preservado, sem ruídos adventícios (sibilos ou estertores).  \n\n\n**Aparelho Cardiovascular:** Bulhas normofonéticas, ritmo regular em 2 tempos, sem sopros. Pulsos cheios e simétricos.  \n\n\n**Oroscopia:** Hiperemia leve de orofaringe, sem exsudatos.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME DE IMAGEM",
+      "conteudo": "**VERBALIZE O ACHADO DA IMAGEM**",
+      "imagem": "img_printeds/e326p2.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o acompanhante e pergunta o nome da criança.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida aos sintomas atuais:**  \n(1) investiga o tempo de evolução e o modo de início (agudo);  \n(2) questiona sobre a característica da tosse (ladrante/rouca); e,  \n(3) pergunta sobre sintomas prodrômicos (coriza, obstrução nasal ou febre prévia).  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga apenas um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.37",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita exame físico e identifica alterações:**  \n(1) presença de estridor inspiratório;  \n(2) presença de tiragens ou esforço respiratório; e,  \n(3) hiperemia de orofaringe.  \n\n**Adequado:** identifica os três itens.  \n**Parcialmente adequado:** identifica dois itens.  \n**Inadequado:** identifica apenas um ou nenhum item.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita ou interpreta exame de imagem:**  \n(1) solicita Radiografia de tecidos moles do pescoço (ou cervical, OU Tórax); e,  \n(2) identifica o sinal da torre (ou sinal do campanário, ou ponta de lápis, ou estreitamento subglótico).  \n\n**Adequado:** solicita e identifica corretamente.  \n**Parcialmente adequado:** apenas solicita ou apenas identifica o achado no impresso.  \n**Inadequado:** não solicita nem identifica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Verbaliza a hipótese diagnóstica e a gravidade:**  \n(1) Laringotraqueíte viral aguda (ou Crupe viral); e,  \n(2) classifica como quadro moderado (estridor em repouso e tiragem leve).  \n\n**Adequado:** verbaliza o diagnóstico e a classificação correta.  \n**Parcialmente adequado:** verbaliza apenas o diagnóstico.  \n**Inadequado:** não verbaliza o diagnóstico correto.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Prescreve o tratamento farmacológico imediato (Nebulização):**  \n(1) prescreve nebulização com Adrenalina (L-adrenalina ou racêmica).  \n\n**Adequado:** indica o uso da Adrenalina nebulizada.  \n**Inadequado:** não indica a nebulização com Adrenalina.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Prescreve o tratamento farmacológico sistêmico (Corticoide):**  \n(1) prescreve Dexametasona (oral ou intramuscular/intravenosa).  \n\n**Adequado:** indica o uso da Dexametasona.  \n**Inadequado:** não indica o uso de corticoide.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Estabelece a conduta de observação:**  \n(1) indica observação clínica por 3 a 4 horas após a nebulização para avaliar efeito rebote ou recorrência.  \n\n**Adequado:** indica o período de observação correto.  \n**Inadequado:** dá alta imediata ou não cita a observação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Fornece orientações de alta e sinais de alerta:**  \n(1) orienta manter hidratação; e,  \n(2) explica sinais de alerta (piora do esforço, cianose, prostração) para retorno imediato.  \n\n**Adequado:** fornece as duas orientações.  \n**Parcialmente adequado:** fornece apenas uma orientação.  \n**Inadequado:** não fornece orientações.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica seguimento clínico:**  \n(1) recomenda retorno ou reavaliação ambulatorial em 24 a 48 horas.  \n\n**Adequado:** indica o tempo de retorno para seguimento.  \n**Inadequado:** não cita o seguimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

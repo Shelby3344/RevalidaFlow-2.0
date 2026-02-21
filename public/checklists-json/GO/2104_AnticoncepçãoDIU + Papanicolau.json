@@ -1,0 +1,149 @@
+{
+  "uid": 2104,
+  "hash": "pepe_2104",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Anticoncepção/DIU + Papanicolau",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2021",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO  \n\nVocê esta em uma Unidade Básica de Saúde.\n\n\n.\n\nDescrição do caso:\nVocê esta em uma Unidade Básica de Saúde e recebe para uma consulta uma mulher de 27 anos  \nde idade que deseja trocar seu método contraceptivo por um método mais eficaz; recentemente ela  \nfez alguns exames, os quais leva para a consulta, e deseja informações para decidir qual método  \nutilizar. Na sala de atendimento, considere estar disponível tudo o que é necessário para realizar o  \natendimento, bem como a presença de uma técnica de enfermagem.",
+  "tarefas": "Nos proximos 10 minutos, deverao ser realizadas as seguintes tarefas:  \n- realizar a anamnese ginecológica;  \n- analisar e explicar os exames trazidos pela paciente, orientando, se necessário, a conduta  \na ser tomada;  \n- explicar a melhor opção de contraceptivo direcionado às evidências clínicas, resultados dos  \nexames e ao desejo da paciente;  \n- esclarecer todas as dúvidas da paciente em relação ao resultado dos exames e ao método  \nde anticoncepção;  \n- informar se há contraindicações ao método perguntado pela paciente. CASO HAJA, informar  \no maximo de contraindicaçoes que lembrar.  \n\n\nObservação: você não precisará fazer o exame físico/ginecológico na paciente simulada.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Alice, 27 anos, relacionamento estável.  \n\n**MOTIVO DE CONSULTA**:  \n• Então Dr.(a) vim pois quero usar um método contraceptivo que seja eficaz, pois não quero engravidar agora. Já até fiz alguns exames e trouxe pra você dar uma olhadinha.  \n\n**DADOS GINECOLÓGICOS**:  \n• **Método contraceptivo**: Faço uso de preservativo quase todas as vezes, mas me sinto insegura.  \n• **Parceiro sexual**: Fixo desde o inicio da vida sexual.  \n• **Papanicolau prévio**: Fiz um há 2 anos e deu tudo certo.  \n• **Ciclo menstrual**: Regular, pouco, tem pouca cólica.  \n• **Paridade**: Engravidei há três anos atrás, tive parto normal.  \n\n**Quando o participante receber o resultado dos exames, questionar**:  \n• Como está esse exame? está normal?  \n\n**DÚVIDAS**:  \n1. Dra, minha irma usa DIU de cobre, queria saber se eu posso usar!  \n2. Dr. com o diu eu to segura de certeza que não vou engravidar?  \n3. Quais serão os próximos passos?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Ectoscopia:** BEG, normocorada, hidratada, lúcida e orientada  \n**Aparelho cardiovascular e respiratório:** sem alterações  \n**Abdome:** normotenso, sem alterações.  \n\n\n**Exame ginecológico:**  \n\n\n**Mamas:** sem alterações  \n\n\n**Exame especular:** sem alterações, secreção fisiológica, colo uterino normotrófico em fenda transversa, sem lesões.  \n\n\n**Toque vaginal:** sem alterações, útero anteversofletido, com boa mobilidade. Anexos livres.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RESULTADO DE EXAMES",
+      "conteudo": "**Ecografia Transvaginal (Data do exame: 02/12/2024):**  \n**Útero:** em anteversoflexão, com volume de 92 cm³  \n**Endométrio:** 10 mm  \n**Ovário Direito:** 5 cm³  \n**Ovário Esquerdo:** 7 cm³  \n**Conclusão:** Exame normal.  \n\n\n**Citologia Oncótica do Colo Uterino (Data do exame: 02/12/2024):**  \n\n\n**Adequabilidade da amostra:** Satisfatória, com presença de componente endocervical / Zona de transformação  \n\n\n**Epitélios representados na amostra:** Escamoso, Glandular, Metaplásico  \n\n\n**Microbiologia:** Lactobacilos  \n\n\n**Resultado:** Células escamosas atípicas de significado indeterminado, quando não se pode excluir lesão intraepitelial de alto grau. (ASC-H)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Apresenta-se;  \n(2) Pergunta o nome da paciente.  \n\n**Adequado:** Realiza os dois procedimentos.  \n**Inadequado:** Realiza apenas um ou não realiza nenhum dos procedimentos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre a data da última menstruação da paciente (1)**  \nou sobre o seu ciclo menstrual (2)  \n\n**Adequado:** Realiza as 2 ações.  \n**Parcialmente adequado:** Faz uma das ações.  \n**Inadequado:** Não faz nenhuma das ações.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre uso de métodos contraceptivos atuais (1)**  \ne se pretende engravidar em breve (2).  \n\n**Adequado:** Realiza as 2 ações.  \n**Parcialmente adequado:** Faz uma das ações.  \n**Inadequado:** Não faz nenhuma das ações.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta corretamente o resultado dos exames.**  \n\n**Adequado:** Considera a ecografia transvaginal normal e a citologia alterada.  \n**Parcialmente adequado:** Considera a ecografia transvaginal e a citologia  \nalteradas.  \n**Inadequado:** Considera a citologia normal (independente do que considerou  \npara a ecografia transvaginal).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Indica que, pela alteração da citologia oncótica, é necessário que a**  \npaciente faça uma colposcopia.  \n\n**Adequado:** Indica.  \n**Inadequado:** Não indica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Indica que o DIU de cobre é um método adequado para esta paciente, mas**  \nque antes de indicar a inserção do DIU, a paciente deverá fazer o exame  \ncomplementar do colo uterino.  \n\n**Adequado:** Diz que o DIU pode ser bem indicado para a paciente de acordo com  \nsua história clínica, mas que antes ela deve fazer o exame de colposcopia e  \nlevar na consulta.  \n**Inadequado:** Diz que o DIU está contraindicado independente de outras  \ninvestigações OU diz que o DIU pode ser inserido mesmo antes da investigação  \ncom colposcopia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orienta sobre a eficacia do DIU:**  \nEsclarecendo que ele é um método contraceptivo de alta eficácia, mas que não  \nexiste nenhum método contraceptivo 100% eficaz.  \n\n**Adequado:** Deixa claro que o DIU é um método muito eficaz, mas que não tem  \níndice de 100% de eficácia.  \n**Inadequado:** Diz que não ha perigo de engravidar com o DIU, mesmo se bem  \nacompanhada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Cita as contraindicações para inserção do DIU de cobre:**  \n1. Câncer de colo uterino aguardando diagnóstico/tratamento;  \n2. Gravidez;  \n3. Aborto séptico recém-tratado;  \n4. Sangramento uterino anormal inexplicado ainda sem diagnóstico;  \n5. Câncer de endométrio;  \n6. Anormalidades da anatomia uterina;  \n7. Doença inflamatória pélvica atual;  \n8. Cervicite purulenta atual;  \n9. Tuberculose pélvica conhecida.  \n\n**Adequado:** Informa, além do câncer de colo uterino, pelo menos mais duas  \ncontraindicações à inserção do DIU.  \n**Parcialmente adequado:** Informa, além do câncer de colo uterino, mais uma  \ncontraindicação à inserção do DIU ou informa apenas câncer de colo uterino  \ncomo contraindicação à inserçao do DIU  \n**Inadequado:** Não informa câncer de colo uterino como contraindicação à  \ninserção do DIU.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Pergunta se há mais alguma dúvida.**  \n\n**Adequado:** Pergunta.  \n**Inadequando:** Não pergunta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta que o próximo passo será a paciente fazer a colposcopia (1) e levar o**  \nresultado para ele(a) na UBS (2) e que, caso esteja tudo bem com o exame,  \neles(as) irão conversar sobre o DIU como método contraceptivo e sobre a  \ninserção (3).  \n\n**Adequado:** Informa os três pontos.  \n**Inadequado:** Informa até dois pontos ou não informa nenhum ponto.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

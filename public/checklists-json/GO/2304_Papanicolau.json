@@ -1,0 +1,165 @@
+{
+  "uid": 2304,
+  "hash": "pepe_2304",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Papanicolau",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuaçao: Atenção Primária: Ambulatório.  \nA unidade possui a seguinte infraestrutura:  \n• aparelhos para exames radiológicos convencionais (Raio-x);  \n• laboratório de análises clínicas.\n\nDescrição do caso:\n• Paciente de 27 anos de idade, sem queixas específicas, veio para avaliação ginecológica.",
+  "tarefas": "Nos 10 minutos de duração da estação, você devera executar as tarefas a seguir:  \n1. realizar propedêutica ginecológica completa;  \n2. responder as indagações da paciente;  \n3. orientar sobre exames preventivos de câncer;  \n4. proceder à coleta do exame citológico do colo do útero de forma completa.  \n\n\\\nA coleta da citologia será realizada no manequim de pelve.  \nAPÓS A COLETA, O(A) CHEFE DE ESTAÇÃO FORNECERÁ UM NOVO MATERIAL PARA REALIZAR O ESFREGAÇO NA LÂMINA  \n\nVocê DEVE VERBALIZAR cada parte do exame que está realizando e DEMONSTRAR as partes desse exame que lhe forem solicitadas.  \n\n\\\nATENÇÃO!  \nCASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERA SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Diane, 27 anos de idade, casada, trabalha como padeira.  \n\n**MOTIVO DE CONSULTA**:  \n• Dr(a). Eu vim aqui hoje porque, após ter realizado consulta com clínico geral, ele me indicou realizar uma consulta ginecológica de rotina.  \n\n**ANTECEDENTES GINECO-OBSTÉTRICOS**:  \n• **Gravidez prévia**: Teve apenas uma gestação, parto normal, e tem um filho de 3 anos.  \n\n• **Vida sexual**: Faz uso de pílulas anticoncepcionais e tem relações apenas com o seu marido.  \n\n• **Data da última menstruação**: Terminou há uma semana.  \n\n• **Amamentação**: Amamentou seu filho por seis meses.  \n\n• **Papanicolau**: Nunca realizou.  \n\n• **Leucorreia**: Nega.  \n\n• **Corrimento**: Nega.  \n\n• **Muco vaginal**: Nega.  \n\n• **Secreção vaginal**: Nega.  \n\nSe o participante solicitar permissão para a coleta:  \n• Tem necessidade de fazer o exame preventivo do câncer de colo do útero? Tenho medo de sentir dor.  \n\nQuando a coleta for concluída, questionar:  \n• Qual foi o resultado do exame?  \n\n**DÚVIDAS**:  \n• Minha irmã, de 22 anos de idade, já possui vida sexual ativa há 4 anos. Ela precisará fazer esse exame?  \n\nCaso o(a) participante refira a necessidade de realizar **TOQUE VAGINAL**, DIGA:  \n• **CONSIDERE REALIZADO**.  \n\nCaso o(a) participante solicitar um **ULTRASSOM ou ECOGRAFIA TRANSVAGINAL**, DIGA:  \n• **CONSIDERE SOLICITADO**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "ESQUEMA DO COLO DO UTERO",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-1-e4p1.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) Apresenta-se adequadamente;  \n(2) Cumprimenta e identifica a paciente simulada, falando seu  \nnome.  \n\n**Adequado:** Realiza as duas ações.  \n**Parcialmente adequado:** Realiza apenas uma ação.  \n**Inadequado:** Não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese ginecológica, perguntando:**  \n(1) Data da última menstruação;  \n(2) Antecedentes obstétricos;  \n(3) Antecedentes mamários;  \n(4) Métodos contraceptivos;  \n(5) Vida sexual;  \n(6) Presença de leucorreia.  \n\n**Adequado:** Pergunta quatro ou mais itens.  \n**Parcialmente adequado:** Pergunta três ou dois itens.  \n**Inadequado:** Pergunta apenas um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.625",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Indica os exames corretos, de acordo com a idade da paciente:**  \n(1) Exame de coleta de citologia;  \n(2) Exame físico da mama.  \n\n**Adequado:** Indica os dois exames.  \n**Parcialmente adequado:** Indica apenas um dos exames.  \n**Inadequado:** Não indica exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Preparativos para o exame, TRATO COM A PACIENTE:**  \n(1) Verbaliza para a paciente que começará o exame ginecológico;  \n(2) Orienta sobre possíveis desconfortos durante o exame;  \n(3) Senta-se para realizar o exame.  \n\n**Adequado:** Realiza os três preparativos.  \n**Parcialmente adequado:** Realiza dois preparativos.  \n**Inadequado:** Realiza apenas um preparativo OU não realiza preparativo algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Preparativos para o exame, MATERIAIS:**  \n(1) Coloque, na lâmina de vidro, as iniciais da paciente com lápis preto no local  \nadequado;  \n(2) Acenda o foco e posicione para visualizar o colo uterino;  \n(3) Coloque luvas.  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza apenas uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.375",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Introdução adequada do espéculo no manequim:**  \n(1) Realiza inclinação para a introdução do espéculo;  \n(2) Introduz completamente o espéculo;  \n(3) Abre o espéculo.  \n\n**Adequado:** Realiza as três ações e verbaliza.  \n**Parcialmente adequado:** Realiza duas ações e verbaliza.  \n**Inadequado:** Realiza uma ação e verbaliza OU não realiza ação alguma OU não verbaliza  \nas ações.  \n\n*OBSERVAÇÃO: ESTES MOVIMENTOS DEVEM SER VERBALIZADOS.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Realiza a coleta de material ECTOCERVICAL:**  \n(1) Pega a espátula de Ayre do lado que não está chanfrado;  \n(2) Faz o movimento de rotação girando 360 graus;  \n(3) Deposita o material de forma linear no sentido vertical ou horizontal ao eixo da  \nlâmina (não pontuará se fizer movimento rotatório ou percutório).  \n\nA avaliação do item (2) é complementada pela demonstração no impresso.  \nA avaliação do item (3) é realizada pela deposição do material viscoso na lâmina.  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza duas ações.  \n**Inadequado:** Realiza apenas uma ação OU não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza a coleta de material da ENDOCÉRVICE:**  \n(1) Pega a escova endocervical e a coloca na endocérvice;  \n(2) Faz o movimento rotatório, girando pelo menos duas vezes;  \n(3) Deposita o material da escova ao lado do material depositado; anteriormente, porém  \nem sentido diverso do realizado para o material da ectocérvice, \"NÃO SOBREPONDO  \nCÉLULAS.\"  \n\nA avaliação dos itens (1) e (2) é complementada pela demonstração no IMPRESSO.  \nA avaliação do item (3) é realizada pela deposição do material viscoso na lâmina.  \n\n**Adequado:** Realiza as três ações.  \n**Parcialmente adequado:** Realiza apenas duas ações.  \n**Inadequado:** Realiza uma ação OU não realiza ação alguma.  \n\n*OBSERVAÇÃO: caso o(a) participante colete primeiro a endocérvice - antes da ectocérvice, CONSIDERAR O ITEM COMO INADEQUADO.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Retirada adequada do espéculo no manequim:**  \n(1) Comunica a retirada do espéculo;  \n(2) Fecha o espéculo antes de retirar;  \n(3) Realiza inclinação para a retirada.  \n\n**Adequado:** Realiza as três ações e verbaliza.  \n**Parcialmente adequado:** Realiza duas ações e verbaliza.  \n**Inadequado:** Realiza uma ação e verbaliza ou não realiza ação alguma ou não verbaliza.  \n\n*OBSERVAÇÃO: ESTES MOVIMENTOS DEVEM SER VERBALIZADOS.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Refere à necessidade de realizar toque vaginal.**  \n\n**Adequado:** Refere.  \n**Inadequado:** Nao refere.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Explica que o resultado do exame deverá ser resgatado pela paciente após análise  \npelo patologista na consulta de retorno.**  \n\n**Adequado:** Explica.  \n**Inadequado:** Não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Fornece orientações, conforme o INCA-MS, sobre a coleta de citologia:**  \n(1) Idade, a partir dos 25 anos;  \n(2) Periodicidade, após dois exames normais, deve ser coletado a cada 3 anos.  \n\n**Adequado:** Realiza as duas orientações.  \n**Parcialmente adequado:** Realiza uma orientação.  \n**Inadequado:** Não realiza orientação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

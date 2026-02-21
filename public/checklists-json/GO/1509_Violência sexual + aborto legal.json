@@ -1,0 +1,202 @@
+{
+  "uid": 1509,
+  "hash": "pepe_1509",
+  "area": 2,
+  "area_a": "Ginecologia",
+  "area_b": "GO",
+  "area_s": "Ginecologia e Obstetrícia",
+  "color": "#ec4899",
+  "checklist": "Violência sexual + aborto legal",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária.  \nTipo de atendimento: unidade de emergência de Ginecologia e Obstetrícia.  \nA unidade apresenta a seguinte infraestrutura:  \n* laboratório de análises clínicas;  \n* farmácia para fornecimento de medicações;  \n* equipe de enfermagem e equipe médica;  \n* equipe de psicologia.\n\nDescrição do caso:\nUma mulher de 21 anos procura o serviço de emergência ginecológica após sofrer violência sexual.",
+  "tarefas": "TAREFAS:  \n* Realizar anamnese da paciente.  \n* Solicitar, se necessário, exames complementares pertinentes à situação clínica.  \n* Orientar sobre a possibilidade de gestação e abortamento.  \n* Responder às perguntas da paciente de forma completa.  \n* Encaminhar a paciente, se necessário, para avaliação de outros profissionais.  \n\n\\\nATENÇÃO!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.  \nNÃO SERÁ NECESSÁRIO REALIZAR EXAME FÍSICO",
+  "script_ator": "**DADOS PESSOAIS:** \nFabiana, 21 anos, auxiliar de vendas.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), eu fui atacada... sofri uma violência...  \n\n**SOBRE O OCORRIDO:**  \n• **Dia do ocorrido:** Foi na noite passada.  \n• **Tipo de agressão:** Foi um estupro. Houve penetração.  \n• **Ejaculação:** sim, ele ejaculou dentro de mim.  \n• **Identificação do agressor:** Eu não conhecia ele. Foi no ponto de ônibus, quando eu estava voltando do trabalho.  \n\n• **DEMAIS QUEIXAS:** nega.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Relacionamento:** Sou solteira, não tenho parceiro fixo.  \n• **VACINAÇÃO:** estão em dia.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** Minha última menstruação foi há 2 semanas.  \n• **Menarca e sexarca:** Tive a primeira relação com 16 anos.  \n• **GPA:** Nunca engravidei.  \n• **Anticoncepção:** não uso nada.  \n\n**DÚVIDAS:**  \n• *Tem risco de eu engravidar?*  \n• *Se eu engravidar, posso abortar? Tenho que ter autorização?*  \n• *E se eu continuar a gestação mas não quiser a criança, o que eu posso fazer? Quais são minhas opções?*",
+  "impressos": [],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se à paciente e pergunta o nome e idade da paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Ouve com atenção a queixa da paciente e não interrompe a sua fala.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Utiliza adequadamente a linguagem não verbal evitando expressões faciais de censura e/ou impaciência durante a consulta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Perguntou sobre estado civil (ou parceiro fixo) e antecedentes reprodutivos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Perguntou sobre início da vida sexual.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Perguntou se o agressor era conhecido.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orientou sobre a opção de manter a gestação até o seu término, podendo ser escolhido depois sobre a inserção da criança na família ou encaminhamento para adoção.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orientou sobre a opção de interrupção legal da gestação, confirmando que a paciente tem direito garantido (caso deseje, aborto nesta situação é permitido por lei).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orientou que não é necessária autorização judicial ou boletim de ocorrência policial para a realização do aborto legal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orientou que o período ideal para interrupção é até 20 semanas de gestação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta a paciente a tomar as providências policiais e judiciais cabíveis, mas que caso ela não o faça, não lhe pode ser negado o direito de interromper a gestação.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orientou que ela terá de ser encaminhada para serviço de referência, caso deseje realizar o aborto legal.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Indicou a necessidade ou solicitou anti-HIV.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Indicou a necessidade ou solicitou VDRL ou outro exame sorológico para sífilis.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Indicou a necessidade ou solicitou sorologia para hepatite B.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 16,
+      "descricao": "**16. Indicou a necessidade ou solicitou sorologia para hepatite C.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

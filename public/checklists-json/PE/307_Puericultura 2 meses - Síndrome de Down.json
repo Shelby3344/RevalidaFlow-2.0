@@ -1,0 +1,195 @@
+{
+  "uid": 307,
+  "hash": "pepe_307",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Puericultura 2 meses - Síndrome de Down",
+  "definicao": "Estação elaborada por:\nMaykon Fabiano Almeida",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico com balança, régua antropométrica e fita métrica.  \n• Acesso a agendamento de consultas especializadas.\n\nDescrição do caso:\nVocê atenderá em uma consulta de puericultura de rotina um lactente de 2 meses de idade, com diagnóstico de Síndrome de Down, acompanhado pela mãe.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida.  \n- Plotar os dados antropométricos nas curvas de crescimento.  \n- Interpretar os gráficos de crescimento e comunicar os achados à mãe.  \n- Fornecer orientações de puericultura e de seguimento especializado para a condição da criança.  \n- Responder às dúvidas da mãe.  \n\n\\\nATENÇÃO!  \nCONSIDERE QUE OS INSTRUMENTOS DE MEDIDA ESTÃO DISPONÍVEIS NA MESA.  \nCONSIDERE QUE HÁ PAPEL, CANETA E CALCULADORA DISPONÍVEL.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Mãe:** Carmem, 38 anos, casada, Pedagoga.  \n• **Criança:** Pedro, 2 meses de vida.  \n\n**MOTIVO DE CONSULTA:**  \n• Oi doutor(a), vim para a consulta de rotina do Pedro, a de 2 meses. Trouxe a caderneta dele.  \n\n**SOBRE O BEBÊ:**  \n• **Alimentação:** Ele está mamando só no peito, mas eu acho ele meio molinho, cansado pra mamar. Ele mama um pouco e já dorme. Demora muito em cada mamada.  \n• **Desenvolvimento:** Eu acho ele mais quietinho que outros bebês. Ele ainda não firma bem a cabeça.  \n• **Sono:** Dorme bastante, é bem calminho.  \n• **Evacuações e Diurese:** Faz cocô e xixi normalmente.  \n\n**HISTÓRIA PREGRESSA:**  \n• **Diagnóstico:** A gente soube que ele tinha Síndrome de Down logo que ele nasceu, no hospital.  \n• **Exames do coração:** Ele fez um ecocardiograma na maternidade e deu normal.  \n• **Teste do pezinho e da orelhinha:** Todos normais.  \n• **Vacinas:** Tomou as vacinas da maternidade, a BCG e a de Hepatite B.  \n\n**ANTECEDENTES FAMILIARES:**  \n• Sem histórico de doenças genéticas na família.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS:**  \n• *Como ele está crescendo, doutor(a)? Ele está muito abaixo do peso?*  \n• *Essa \"moleza\" dele para mamar e para segurar a cabeça é normal por causa da síndrome?*  \n• *Tem alguma coisa que eu possa fazer para ajudar ele a ficar mais firme?*  \n• *Além do pediatra, ele precisa passar em mais algum médico?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "CADERNETA DA CRIANÇA",
+      "conteudo": "**Dados do Nascimento:**  \n• **Nome:** Pedro  \n• **Data de Nascimento:** (2 meses atrás)  \n• **Idade Gestacional:** 39 semanas  \n• **Via de Parto:** Cesárea  \n• **Peso ao nascer:** 2.900 g  \n• **Comprimento ao nascer:** 47 cm  \n• **Perímetro cefálico ao nascer:** 32 cm  \n• **Diagnóstico ao nascer:** Trissomia do cromossomo 21 (Síndrome de Down).  \n• **Vacinas:** Realizado as vacinas ainda na maternidade de; BCG e Hepatite B.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "DADOS ANTROPOMÉTRICOS",
+      "conteudo": "• **Peso atual:** 4.100 g  \n• **Comprimento atual:** 52 cm  \n• **Perímetro cefálico atual:** 36 cm",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:** Estáveis, afebril.  \n\n**Ectoscopia:** Bom estado geral, corado, hidratado. Presença de fendas palpebrais oblíquas, prega epicântica, ponte nasal achatada e macroglossia relativa.  \n\n**Tônus muscular:** Hipotonia global evidente.  \n\n**Mãos:** Prega palmar única bilateralmente (prega simiesca).  \n\n**Ausculta Cardíaca:** Ritmo regular em dois tempos, sem sopros.  \n\n**Ausculta Pulmonar:** Murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n**Abdome:** Flácido, sem visceromegalias.",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "CURVA DE PESO PARA IDADE",
+      "conteudo": "**POR FAVOR, PLOTE O PESO ATUAL DA CRIANÇA NESTA CURVA E INTERPRETE O RESULTADO.**",
+      "imagem": "img_printeds/e307p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "CURVA DE COMPRIMENTO PARA IDADE",
+      "conteudo": "**POR FAVOR, PLOTE O COMPRIMENTO ATUAL DA CRIANÇA NESTA CURVA E INTERPRETE O RESULTADO.**",
+      "imagem": "img_printeds/e307p5.jpg"
+    },
+    {
+      "idx": 6,
+      "titulo": "CURVA DE PERÍMETRO CEFÁLICO PARA IDADE",
+      "conteudo": "**POR FAVOR, PLOTE O PERÍMETRO CEFÁLICO ATUAL DA CRIANÇA NESTA CURVA E INTERPRETE O RESULTADO.**",
+      "imagem": "img_printeds/e307p6.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação e acolhimento:**  \n(1) identifica-se; e,  \n(2) cumprimenta a mãe e a criança de forma acolhedora, perguntando seus nomes.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a anamnese da consulta de 2 meses.**  \n(1) investiga a alimentação (aleitamento materno, dificuldades);  \n(2) pergunta sobre o desenvolvimento neuropsicomotor (sustentação da cabeça, sorriso social);  \n(3) verifica o calendário vacinal.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Solicita os Gráficos específicos para a Síndrome de Down e Plota corretamente os dados antropométricos nas curvas específicas.**  \n(1) plota o peso (4.100 g) no gráfico de peso;  \n(2) plota o comprimento (52 cm) no gráfico de comprimento;  \n(3) plota o perímetro cefálico (36 cm) no gráfico de perímetro cefálico.  \n\n**Adequado:** plota corretamente os três dados nos respectivos gráficos.  \n**Parcialmente adequado:** plota corretamente dois dados.  \n**Inadequado:** não solicita ou não plota um ou nenhum dado corretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Interpreta corretamente as curvas de crescimento específicas para a Síndrome de Down.**  \n\n**Adequado:** verbaliza que o crescimento da criança (peso, comprimento e PC) está ocorrendo dentro dos canais esperados para uma criança com Síndrome de Down (entre os percentis 10 e 50), indicando um ganho de peso e crescimento adequados.  \n**Parcialmente adequado:** informa que o crescimento está adequado, mas não menciona a referência das curvas específicas para a Síndrome de Down.  \n**Inadequado:** não interpreta ou interpreta incorretamente os gráficos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Comunica os achados do crescimento à mãe de forma clara.**  \n\n**Adequado:** explica à mãe que, embora o bebê possa parecer menor que outras crianças sem a síndrome, o crescimento dele está seguindo o padrão esperado e saudável para uma criança com Síndrome de Down.  \n**Inadequado:** não comunica os achados ou o faz de forma técnica e sem tranquilizar a mãe.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Relaciona a queixa da mãe (dificuldade para mamar) com o exame físico.**  \n\n**Adequado:** explica que a \"moleza\" e o cansaço para mamar são decorrentes da hipotonia muscular, uma característica comum da Síndrome de Down.  \n**Inadequado:** não correlaciona a queixa com a hipotonia.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Fornece orientações para a dificuldade de amamentação.**  \n\n**Adequado:** orienta sobre a importância de apoiar bem a cabeça e o corpo do bebê durante a mamada e sugere oferecer o peito mais vezes (livre demanda), mesmo que por períodos mais curtos.  \n**Inadequado:** não fornece orientações específicas para a amamentação na hipotonia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.7"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta sobre a estimulação precoce.**  \n\n**Adequado:** explica a importância de iniciar um programa de estimulação precoce com fisioterapia, fonoaudiologia e terapia ocupacional para auxiliar no desenvolvimento motor e oral.  \n**Parcialmente adequado:** menciona apenas um ou dois tipos de terapia.  \n**Inadequado:** não orienta sobre a estimulação precoce.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta sobre os rastreamentos de saúde específicos para Síndrome de Down.**  \n(1) reforça a necessidade de acompanhamento cardiológico, mesmo com eco normal ao nascer;  \n(2) menciona a importância do rastreamento oftalmológico e auditivo no primeiro ano de vida;  \n(3) orienta sobre a necessidade de dosagem de hormônios tireoidianos (TSH/T4 livre).  \n\n**Adequado:** orienta sobre os três rastreamentos.  \n**Parcialmente adequado:** orienta sobre dois rastreamentos.  \n**Inadequado:** orienta sobre um ou nenhum rastreamento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta sobre a vacinação de 2 meses.**  \n\n**Adequado:** informa sobre as vacinas do 2º mês (Penta, Pólio, Pneumo, Rota) e orienta sobre a indicação da vacina Palivizumabe (para o VSR) disponível nos CRIE (Centros de Referência para Imunobiológicos Especiais) e reforça que o calendário vacinal deve ser seguido normalmente.  \n**Inadequado:** não orienta sobre a vacinação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.55"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Acolhe as preocupações da mãe e oferece suporte.**  \n\n**Adequado:** valida os sentimentos da mãe, elogia seu cuidado com o bebê e reforça a importância da rede de apoio e do acompanhamento regular na UBS.  \n**Inadequado:** não demonstra empatia ou não oferece suporte.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Estabelece um plano de retorno.**  \n\n**Adequado:** agenda o retorno para a consulta de puericultura do 3º ou 4º mês e se coloca à disposição para intercorrências.  \n**Inadequado:** não estabelece um plano de retorno claro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

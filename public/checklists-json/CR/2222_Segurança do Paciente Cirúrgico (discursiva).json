@@ -1,0 +1,155 @@
+{
+  "uid": 2222,
+  "hash": "pepe_2222",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Segurança do Paciente Cirúrgico (discursiva)",
+  "definicao": "Referências:\n\nCirurgias Seguras Salvam Vidas:\nhttps://bvsms.saude.gov.br/bvs/publicacoes/seguranca_paciente_cirurgias_seguras_guia.pdf\n\nDocumento de referência para o Programa Nacional de Segurança do Paciente:\nhttps://bvsms.saude.gov.br/bvs/publicacoes/documento_referencia_programa_nacional_seguranca.pdf",
+  "origem": 0,
+  "ano_da_prova": "INEP 2022/1",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção terciária à saúde - hospitalar.  \nTipo de atendimento: centro cirúrgico.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de recepção pré-operatória;  \n• Sala de cirurgia equipada;  \n• Sala de recuperação pós-anestésica.\n\nDescrição do caso:\nUma paciente de 33 anos, admitida para ressecção de tumor em mama direita, aguarda na antecâmara do centro cirúrgico. Você é o responsável por aplicar o checklist de cirurgia segura.",
+  "tarefas": "TAREFAS:  \n- Conduzir as três etapas do checklist de cirurgia segura (Sign In, Time Out, Sign Out) com a equipe.  \n- Identificar as ações preventivas já realizadas e as que foram omitidas.  \n- Verbalizar as falhas no processo de segurança.  \n- Apontar as condutas corretas para sanar as falhas identificadas.  \n- Responder aos questionamentos da equipe.  \n\n\\\nO TOQUE NO PACIENTE SIMULADO NÃO É PERMITIDO.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Liberar o impresso **FICHA DE IDENTIFICAÇÃO DO PACIENTE** ao iniciar a estação;  \n• Liberar o impresso **REGISTRO DE SALA** após o candidato concluir a etapa *\"TIME OUT\" (ANTES DA INCISÃO);*  \n• Liberar o impresso **CHECKLIST DE CIRURGIA SEGURA (OMS)** ao finalizar a estação -> para conferência e correção do PEP.  \n\n**DADOS PESSOAIS:**  \n• Enfermeira Carla, 35 anos, chefe do centro cirúrgico.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), estamos com a paciente do Dr. Almeida. Ela vai fazer uma ressecção segmentar da mama direita. Já checamos a identificação e a alergia a dipirona na pulseira. O termo de consentimento também já foi assinado. Podemos prosseguir?  \n\n**SE QUESTIONADA SOBRE A ETAPA \"SIGN IN\":**  \n• **Confirmação do sítio cirúrgico com a paciente:** Não, ela já está sedada.  \n• **Verificação da segurança anestésica:** O anestesista disse que está tudo certo.  \n• **Oxímetro de pulso:** Sim, está instalado e funcionando.  \n• **Risco de via aérea difícil:** O anestesista não mencionou nada sobre isso.  \n• **Risco de perda sanguínea (>500ml):** A cirurgia é de pequeno porte, o risco é baixo.  \n\n**SE QUESTIONADA SOBRE A ETAPA \"TIME OUT\" (ANTES DA INCISÃO):**  \n• **Apresentação da equipe:** Todos já se conhecem, Doutor(a).  \n• **Confirmação do sítio e procedimento:** Sim, já confirmamos, é mama direita.  \n• **Revisão de eventos críticos (Cirurgião e Anestesista):** Eles conversaram rapidamente antes de começar.  \n• **Esterilização e materiais:** A instrumentadora confirmou que está tudo estéril. Sobre os materiais, parece que está tudo aqui.  \n• **Profilaxia antimicrobiana:** Foi feita há 30 minutos.  \n• **Exames de imagem:** A mamografia está no sistema.  \n\n**SE QUESTIONADA SOBRE A ETAPA \"SIGN OUT\" (AO FINAL DA CIRURGIA):**  \n• **Confirmação do procedimento realizado:** Sim, ressecção segmentar da mama direita.  \n• **Contagem de instrumentais e compressas:** A contagem bateu, está tudo certo.  \n• **Identificação da amostra patológica:** A peça já foi identificada e enviada para o laboratório.  \n• **Problemas com equipamentos:** Durante o fechamento, o Dr. Almeida reclamou que o fio de sutura que ele gosta não tinha. Usamos outro disponível, mas ele não ficou satisfeito com o resultado estético.  \n• **Revisão do plano de recuperação:** A prescrição pós-operatória padrão já foi feita.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Essa falta de material era previsível?*  \n• *O que poderíamos ter feito para evitar o problema com a sutura?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "FICHA DE IDENTIFICAÇÃO DO PACIENTE",
+      "conteudo": "**Nome:** Juliana Pereira Santos  \n**Idade:** 33 anos  \n**Procedimento:** Ressecção Segmentar de Mama Direita  \n**Alergias:** DIPIRONA  \n**Cirurgião:** Dr. Almeida  \n**Termo de Consentimento:** Assinado.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "REGISTRO DE SALA",
+      "conteudo": "**Paciente:** Juliana Pereira Santos  \n**Procedimento:** Ressecção Segmentar de Mama Direita  \n\n\n**Ocorrências:**  \nAo final do procedimento, no momento da sutura da pele, o fio solicitado pelo cirurgião (Monocryl 4-0) não foi encontrado no arsenal. A circulante de sala informou que o material estava em falta no hospital. Foi utilizado Nylon 4-0 como alternativa. Cirurgião manifestou insatisfação com o resultado estético final.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "CHECKLIST DE CIRURGIA SEGURA (OMS)",
+      "conteudo": "**1. Antes da indução anestésica (SIGN IN)**  \n[ ] O paciente confirmou sua identidade, o local da cirurgia, o procedimento e o consentimento?  \n[ ] O local da cirurgia foi demarcado?  \n[ ] A segurança do aparelho de anestesia e a medicação foram checadas?  \n[ ] O oxímetro de pulso está no paciente e funcionando?  \n[ ] O paciente tem alergia conhecida?  \n[ ] Há risco de via aérea difícil ou de aspiração?  \n[ ] Há risco de perda sanguínea > 500 ml?  \n\n\n**2. Antes da incisão cirúrgica (TIME OUT)**  \n[ ] Todos os membros da equipe se apresentaram pelo nome e função?  \n[ ] O cirurgião, o anestesiologista e a enfermagem confirmaram verbalmente a identidade do paciente, o local e o procedimento cirúrgico?  \n[ ] Eventos críticos foram revisados?  \n[ ] A profilaxia antimicrobiana foi administrada nos últimos 60 minutos?  \n[ ] Os exames de imagem essenciais estão disponíveis?  \n\n\n**3. Antes do paciente sair da sala (SIGN OUT)**  \n[ ] A enfermagem confirma verbalmente o nome do procedimento?  \n[ ] A contagem de instrumentos, compressas e agulhas está correta?  \n[ ] A amostra cirúrgica está corretamente identificada?  \n[ ] Há algum problema com equipamentos a ser resolvido?  \n[ ] O cirurgião, o anestesiologista e a enfermagem revisam os principais pontos para a recuperação e o tratamento do paciente?",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se perante a equipe;  \n(2) e cumprimenta a todos de forma cordial.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.15",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Na etapa \"Sign In\" (Antes da Indução Anestésica), checa ativamente os itens que não foram realizados:**  \n(1) confirmação do sítio cirúrgico e procedimento com a paciente (se consciente);  \n(2) verificação da segurança anestésica com o anestesista;  \n(3) avaliação do risco de via aérea difícil;  \n(4) avaliação do risco de perda sanguínea superior a 500 ml.  \n\n**Adequado:** checa três ou mais itens.  \n**Parcialmente adequado:** checa dois itens.  \n**Inadequado:** checa um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Verbaliza a falha na etapa \"Sign In\" por não ter confirmado o sítio cirúrgico com a paciente antes da sedação.**  \n\n**Adequado:** verbaliza a falha.  \n**Inadequado:** não verbaliza a falha.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Na etapa \"Time Out\" (Antes da Incisão), conduz a pausa cirúrgica e checa os itens não realizados:**  \n(1) solicita a apresentação de todos os membros da equipe;  \n(2) solicita que cada membro da equipe confirme a identidade do paciente, o sítio e o procedimento;  \n(3) questiona o cirurgião e o anestesista sobre a revisão dos eventos críticos;  \n(4) confirma com a equipe de enfermagem se todos os materiais e equipamentos necessários estão disponíveis e funcionantes.  \n\n**Adequado:** checa os quatro itens.  \n**Parcialmente adequado:** checa dois ou três itens.  \n**Inadequado:** checa um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica e verbaliza a falha crítica na etapa \"Time Out\": a não confirmação da disponibilidade de TODOS os materiais necessários antes do início da cirurgia.**  \n\n**Adequado:** verbaliza a falha específica.  \n**Inadequado:** não verbaliza a falha.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Na etapa \"Sign Out\" (Antes da saída da sala), revisa os pontos-chave do pós-operatório.**  \n(1) confirma verbalmente o tipo de procedimento realizado;  \n(2) questiona sobre problemas com equipamentos ou materiais a serem resolvidos;  \n(3) revisa com a equipe as preocupações essenciais para a recuperação e manejo da paciente.  \n\n**Adequado:** revisa os três itens.  \n**Parcialmente adequado:** revisa dois itens.  \n**Inadequado:** revisa um ou nenhum item.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Aponta que a falta do fio de sutura adequado é um evento adverso que deveria ter sido prevenido na etapa de \"Time Out\".**  \n\n**Adequado:** aponta a correlação entre a falha no \"Time Out\" e o evento adverso.  \n**Inadequado:** não faz a correlação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta a equipe sobre a importância da checagem rigorosa de materiais antes do início de qualquer procedimento para evitar improvisações e desfechos insatisfatórios.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Recomenda o registro do evento adverso (falta de material e resultado estético insatisfatório) no prontuário da paciente e no sistema de notificação do hospital.**  \n\n**Adequado:** recomenda o registro em ambos os locais.  \n**Parcialmente adequado:** recomenda o registro em apenas um dos locais.  \n**Inadequado:** não recomenda o registro.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Responde à equipe que a falta de material era previsível e evitável com a aplicação correta do checklist na etapa \"Time Out\".**  \n\n**Adequado:** responde corretamente.  \n**Inadequado:** não responde ou dá uma resposta incorreta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

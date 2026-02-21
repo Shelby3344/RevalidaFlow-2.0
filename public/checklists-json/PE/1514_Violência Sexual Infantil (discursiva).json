@@ -1,0 +1,143 @@
+{
+  "uid": 1514,
+  "hash": "pepe_1514",
+  "area": 3,
+  "area_a": "Pediatria",
+  "area_b": "PE",
+  "area_s": "Pediatria",
+  "color": "#22c55e",
+  "checklist": "Violência Sexual Infantil (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2015",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: secundária - pronto-socorro hospitalar.  \nA unidade possui a seguinte infraestrutura:  \n• Consultório médico;  \n• Exames laboratoriais e sala de medicações.\n\nDescrição do caso:\nVocê está de plantão no pronto-socorro pediátrico quando uma mulher chega com a filha da vizinha, uma menina de 5 anos. A vizinha informa que suspeita que a criança esteja sofrendo violência em casa e precisa de ajuda.",
+  "tarefas": "TAREFAS:  \n- Realizar o acolhimento e a anamnese;  \n- Definir as condutas médicas imediatas;  \n- Articular um plano de alta e acompanhamento seguro;  \n- Responder as dúvidas da acompanhante.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Acompanhante:** Helena, 45 anos, vizinha da família.  \n• **Criança:** Raiana, 5 anos.  \n\n**MOTIVO DA CONSULTA:**  \n• Doutor(a), eu trouxe a filha da minha vizinha.  \n• Eu ouço muita briga, muito choro na casa dela. A mãe, infelizmente, usa drogas, e o padrasto... eu acho que ele faz alguma maldade com ela.  \n• Hoje ela apareceu na minha porta, chorando muito, e a única coisa que disse foi que \"doía lá embaixo\" para fazer xixi.  \n• Eu não podia deixar ela lá, tive que trazer aqui.  \n\n**SOBRE A CRIANÇA:**  \n• Ela é muito quietinha, sempre com medo. Hoje ela não quis falar mais nada, só chorou.  \n\n**CONTEXTO FAMILIAR:**  \n• A mãe vive fora de si por causa do crack. O padrasto que fica com ela, mas ele é muito agressivo.  \n• Eu nunca vi nada, doutor(a), mas a gente que é vizinho escuta as coisas. Tenho muito medo do que pode estar acontecendo lá dentro.  \n\n**DEMAIS PERGUNTAS:** Não consta no Script.  \n\n**DÚVIDAS (DA VIZINHA):**  \n• *Você pode me dar algum exemplo do que é considerado violência sexual?*  \n• *O que vai acontecer com ela agora? Ela vai ficar bem?*  \n• *Ela vai ter que voltar pra aquela casa?*  \n• *Você vai encaminhar ela pra algum outro atendimento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 95x60 mmHg  \n• **FC:** 120 bpm  \n• **FR:** 24 irpm  \n• **SatO2:** 97% em ar ambiente  \n• **Temp. axilar:** 36.7°C  \n\n\n**Ectoscopia e Avaliação Geral:**  \n\n• **Estado Geral e Comportamento:** Criança em regular estado geral, hipoativa, pouco reativa ao examinador.  \n\n• **Higiene e Cuidados:** Higiene corporal e vestes precárias.  \n\n• **Pele e Fâneros:** Presença de múltiplas equimoses em diferentes estágios de evolução (violáceas, esverdeadas e amareladas), de formas e tamanhos variados, localizadas em regiões de membros superiores e inferiores.  \n\n\n**Exame Genital (realizado com técnica e ambiente adequados):**  \n• **Inspeção da Genitália Externa:** hiperemia difusa de vulva. Presença de solução de continuidade linear, com aproximadamente 0,3 cm de extensão em fúrcula posterior, compatível com laceração recente, sem sinais de sangramento ativo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Realiza o acolhimento da criança e da acompanhante em ambiente seguro.**  \n(1) apresenta-se de forma calma e acolhedora;  \n(2) garante um ambiente privativo e seguro para a consulta;  \n(3) valida a atitude da acompanhante, tranquilizando-a que fez o certo em buscar ajuda.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** não realiza ação alguma ou realiza apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Conduz a anamnese com a acompanhante de forma sensível e objetiva.**  \n(1) investiga a natureza da suspeita de violência;  \n(2) questiona sobre o contexto familiar e os agressores em potencial;  \n(3) pergunta sobre o tempo decorrido desde a última agressão suspeita.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** não investiga item algum ou investiga apenas um.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Cita os tipos de violência sexual.**  \n(1) carícias ou manipulação da genitália, mama ou ânus;  \n(2) voyeurismo, pornografia ou exibicionismo;  \n(3) ato sexual com ou sem penetração.  \n\n**Adequado:** cita dois ou três exemplos.  \n**Parcialmente adequado:** cita um exemplo.  \n**Inadequado:** não cita nenhum exemplo.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Define a conduta de notificação compulsória e acionamento da rede de proteção.**  \n(1) verbaliza o preenchimento da Ficha de Notificação Compulsória (SINAN);  \n(2) verbaliza o acionamento imediato do Conselho Tutelar;  \n(3) comunica a necessidade de registro da ocorrência (B.O.) - junto à autoridade policial (delegacia).  \n\n**Adequado:** define as três condutas.  \n**Parcialmente adequado:** define duas condutas.  \n**Inadequado:** não define as condutas ou define apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Prescreve as profilaxias para Infecções Sexualmente Transmissíveis (ISTs).**  \n(1) Profilaxia Pós-Exposição (PEP) para HIV;  \n(2) Profilaxia para sífilis, gonorreia e clamídia (ex: Penicilina Benzatina, Ceftriaxona, Azitromicina);  \n(3) Imunoglobulina e vacina para Hepatite B.  \n\n**Adequado:** prescreve as três profilaxias.  \n**Parcialmente adequado:** prescreve duas profilaxias.  \n**Inadequado:** não prescreve as profilaxias ou prescreve apenas uma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "1.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Solicita os exames sorológicos basais.**  \n(1) Anti-HIV;  \n(2) VDRL (ou teste treponêmico);  \n(3) Sorologia para Hepatite B (Anti-HBs, HBsAg) e Hepatite C.  \n\n**Adequado:** solicita os três grupos de sorologias.  \n**Parcialmente adequado:** solicita dois grupos.  \n**Inadequado:** não solicita as sorologias ou solicita apenas um grupo.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Avalia a necessidade de contracepção de emergência.**  \n\n**Adequado:** não aborda o tema ou contra indica a contracepção de emergência para a paciente.  \n**Inadequado:** indica a contracepção de emergência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Articula com a equipe multiprofissional do hospital ou encaminha ao serviço de referência.**  \n\n**Adequado:** solicita a avaliação do serviço social para o acolhimento familiar e as providências de proteção, e da psicologia para o suporte emocional imediato à criança.  \n**Parcialmente adequado:** solicita a avaliação de apenas um dos serviços (serviço social ou psicologia).  \n**Inadequado:** não articula com a equipe multiprofissional.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Define um plano de alta seguro para a criança.**  \n\n**Adequado:** condiciona a alta hospitalar à chegada do Conselho Tutelar e à definição de uma medida protetiva (encaminhamento para abrigo ou familiar seguro).  \n**Inadequado:** sugere a possibilidade de alta para casa com a vizinha sem a intervenção do Conselho Tutelar.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta a acompanhante (vizinha) sobre os procedimentos legais e seu papel.**  \n\n**Adequado:** esclarece que a comunicação ao Conselho Tutelar e à polícia é uma obrigação do serviço de saúde.  \n**Inadequado:** não oferece suporte ou orientação à acompanhante sobre as implicações de sua denúncia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

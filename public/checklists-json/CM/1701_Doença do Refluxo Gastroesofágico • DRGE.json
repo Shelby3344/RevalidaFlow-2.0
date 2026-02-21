@@ -1,0 +1,149 @@
+{
+  "uid": 1701,
+  "hash": "pepe_1701",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Doença do Refluxo Gastroesofágico • DRGE",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2017",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Você se encontra em um consultório de Unidade Básica de Saúde.\n\nDescrição do caso:\nVocê se encontra em um consultório de Unidade Básica de Saúde e vai realizar  \no atendimento de um homem com 50 anos de idade.",
+  "tarefas": "Nos próximos 10 minutos, deverão ser realizadas as seguintes tarefas:  \n- realizar a anamnese;  \n- apresentar o diagnóstico;  \n- adotar a conduta médica necessária.  \n\n\nNão será necessaria a realização de exame fisico.  \nCaso necessite, no momento adequado, solicite dados do exame fisico ao(à) examinador(a).",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Jairo, 50 anos, comerciante.  \n\n\n**QUEIXA PRINCIPAL:** Faz um tempinho que estou com uma queimação no peito. Principalmente depois que eu como. E às vezes, sinto como se a comida voltasse.  \n\n\n**SOBRE QUEIMAÇÃO:**  \n• **Início:** umas 3 semanas.  \n• **Localização:** bem no meio do peito.  \n• **Irradiação:** não irradia.  \n• **Característica:** não é dor. É uma queimação, como se a comida voltasse.  \n• **Atenuantes/agravantes:** começa queimar depois que eu como, aí fica o dia todo assim.  \n\n\n**SINTOMAS ASSOCIADOS:**  \n• **Dor:** as vezes sinto uma dor na barriga, mas é bem leve e logo passa.  \n• **Náuseas, vômitos, febre, cefaleia:** nega.  \n• **Astenia, cansaço, perda peso:** nega.  \n\n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças, cirurgias e internações:** nega  \n• **Medicação:** as vezes tomo um diclofenaco pra dor nas costas.  \n\n• **Álcool, tabaco e drogas:** bebo final de semana.  \n\n• **Atv. física:** não tenho tempo Dr(a).  \n• **Alimentação:** Gosto de comida temperada, coxinha e essas outras comidas de rua.   \n• **Pós alimentação:** geralmente depois do almoço eu deito um pouco pra descansar.  \n• **Ganho de peso:** já faz uns anos que estou mais fortinho.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n• Meu pai tem diabetes.   \n\n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n\n**DÚVIDAS:**  \n• o que está causando isso?  \n• E como que a gente trata?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**EXAME FÍSICO DO PACIENTE**  \n\n• **Paciente em bom estado geral.**  \n• **Peso:** 84 kg, **Altura:** 1,70 m, **IMC:** 29 kg/m². Corado, hidratado e anictérico.  \n• **Pulso:** 76 bpm, **PA:** 128 x 80 mmHg, **Temperatura axilar:** 36,8 °C.  \n• **Auscultas cardíaca e pulmonar:** normais.  \n• **Exame abdominal:** normal, exceto por desconforto à palpação do epigastro.  \n• **Demais aspectos:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ESOFAGOGASTRODUODENOSCOPIA",
+      "conteudo": "**Diagnóstico Endoscópico:**  \n• **Esofagite erosiva severa** – grau C na classificação de Los Angeles.  \n• **Úlcera péptica duodenal em parede anterior.**  \n\n\n**Teste da Urease:** positivo.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Cumprimenta o paciente e identifica-se adequadamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta sobre: dieta, tabagismo e alcoolismo.**  \n\n**Inadequado:** se não perguntar sobre nenhum dos itens;  \n**Parcialmente adequado:** se perguntar 1 ou 2 itens;  \n**Adequado:** se perguntar 3 itens.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Perguntar sobre uso de medicamentos.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica o ganho ponderal como fator de risco da doença do refluxo gastroesofágico (DRGE)**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita endoscopia digestiva alta.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Esclarece que a presença de esofagite severa faz o diagnóstico de DRGE.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Esclarece o papel, na gênese da úlcera duodenal: do uso de fármacos anti-inflamatórios (diclofenaco); do Helicobacter pylori.**  \n\n**Inadequado:** se não esclarece nenhum dos fatores;  \n**Parcialmente adequado:** se esclarece somente um dos dois fatores;  \n**Adequado:** se esclarece ambos os fatores.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Orienta mudançã de hábitos: diminuir a ingesta de gorduras, evitar refeições volumosas, evitar refeição antes de deitar (cerca de 2h), evitar uso de anti-inflamatório não esteroidal.**  \n\n**Inadequado:** se não orientar nenhum dos habitos;  \n**Parcialmente adequado:** se orientar de 1 a 3 hábitos;  \n**Adequado:** se orientar 4 ou 5 habitos.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Orienta redução de peso**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Verbaliza prescrição de: Inibidor de bomba de prótons (IBP) para tratamento:**  \nomeprazol, pantoprazol, rabeprazol ou lansoprazol; Antibióticos de primeira linha para  \ntratamento da infecção por Helicobacter pylori: sais de bismuto, amoxicilina,  \nclaritromicina, metronidazol e tetraciclina.  \n\n**Inadequado:** se indicar antiácidos e bloqueador H2 (cimetidina, ranitidina e etc);  \n**Parcialmente adequado:** se indicar apenas uso de IBP ou se indicar uso de IBP e  \napenas um ou nenhum dos antibioticos indicados;  \n**Adequado:** se indicar uso de IBP em conjunto com pelo menos dois dos antibióticos  \nmencionados.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

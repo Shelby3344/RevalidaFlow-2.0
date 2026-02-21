@@ -1,0 +1,218 @@
+{
+  "uid": 2302,
+  "hash": "pepe_2302",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Infecção do sítio cirúrgico + Endocardite infecciosa",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2023/1",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "CENÁRIO DE ATENDIMENTO   \n\nLocal de atuação: Atenção Terciária: Emergência Geral.  \nA unidade possui a seguinte infraestrutura:  \n• aparelho para radiografias;  \n• ultrassonografia e tomografia;  \n• ecocardiografia;  \n• laboratório de análises clínicas;  \n• leitos de enfermaria;  \n• bloco cirúrgico;  \n• unidade de terapia intensiva.\n\nDescrição do caso:\n• Homem de 30 anos de idade, servente, procura atendimento devido a febre no  \nsétimo dia de pós-operatório de apendicectomia realizada em hospital de cidade no  \ninterior de Minas Gerais.",
+  "tarefas": "Nos 10 minutos de duração da estação, você deverá executar as tarefas a seguir:  \n1. realizar anamnese do paciente;  \n2. solicitar e interpretar exame físico;  \n3. estabelecer e comunicar as principais hipóteses diagnósticas (NO MÍNIMO QUATRO), antes da solicitação de exames complementares. Só serão  \npontuados os diagnósticos diferenciais verbalizados antes da solicitação dos exames complementares;  \n4. solicitar exames laboratoriais (NO MÁXIMO DEZ), se necessário, descrevendo os  \nachados. Só serão pontuados os DEZ primeiros exames laboratoriais citados;  \n5. solicitar OUTROS exames complementares (NO MÁXIMO QUATRO), se  \nnecessário, descrevendo os achados. Só serão pontuados os QUATRO primeiros  \nexames complementares citados;  \n6. estabelecer e comunicar as hipóteses diagnósticas definitivas.  \n\n\nATENÇÃO! VOCÊ DEVERÁ REALIZAR AS TAREFAS  \nNA SEQUÊNCIA DESCRITA ACIMA.*\n\nATENÇÃO!  \nCASO JULGUE NECESSARIO REALIZAR  \nEXAME FÍSICO, VERBALIZE!  \nO PACIENTE SIMULADO NAO DEVERA SER TOCADO DURANTE O ATENDIMENTO",
+  "script_ator": "**DADOS PESSOAIS**:  \n• Paulo, tem 30 anos, é casado e trabalha como servente de pedreiro.  \n\n**MOTIVO DE CONSULTA (FEBRE)**:  \n• **Início**: há dois dias, ela melhora com o uso de medicação, mas logo volta.  \n• **Temperatura**: ele não aferiu a temperatura, mas acha que a febre era alta.  \n• **Calafrios**: nega, mas tem acordado, desde o início da febre, molhado de suor.  \n• **Anorexia**: nega.  \n\n**SOBRE O SITIO CIRÚRGICO**:  \n• **Eritema e Edema**: sim, a ferida do umbigo está quente e vermelha.  \n• **Presença de dor**: sim, dói na ferida no local do umbigo e na barriga do lado direito.  \n• **Presença de secreção**: sim, sai um pouco de secreção amarelada.  \n\n**SINAIS E SINTOMAS ACOMPANHANTES**:  \n• **Sintomas Respiratórios**: nega.  \n• **Sintomas Urinários**: nega.  \n• **Dor lombar**: nega.  \n• **Palpitações**: já tive uma vez, mas não estou tendo agora.  \n• **Náuseas e Vômitos**: nega.  \n• **Evacuação de fezes e eliminação de gases**: sem alterações.  \n\n**SOBRE A CIRURGIA**:  \n• **Via cirúrgica**: via laparoscópica.  \n• **Uso de sonda vesical/urinária**: usei sonda vesical/urinária até o dia posterior a cirurgia;  \n• **Uso de antibióticos**: sim, estava tomando desde a cirurgia até hoje de manhã, mas esqueci de tomar alguns dias.  \n\n**ANTECEDENTES PESSOAIS**:  \n• **Comorbidades**: tenho um estreitamento em uma válvula do coração há vários anos e também sou diabético;  \n• **Uso de medicamentos**: o único medicamento que eu tomo atualmente é a metformina;  \n• **Uso de bebidas alcoólicas ou drogas ilícitas**: nega.  \n• **Tabagismo**: fumo 10 cigarros por dia há 10 anos.  \n• **Alergias**: nega.  \n• **Cirurgias prévias**: essa foi a minha primeira cirurgia.  \n\n**ANTECEDENTES FAMILIARES**:  \n• Minha mãe é diabética.  \n\n**O paciente simulado, caso o(a) participante faça a anamnese adequada, perguntará ao(à) participante**:  \n1) Tem algo de errado com a minha cirurgia?  \n2) O que eu tenho? Existe outro diagnóstico possível?  \n3) Eu preciso fazer outros exames?",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**  \n**Frequência cardíaca:** 100 batimentos por minuto.  \n**Pressão arterial:** 130 × 70 mmHg.  \n**Frequência respiratória:** 16 incursões respiratórias por minuto.  \n**Temperatura axilar:** 38,2 °C.  \n**Saturação de oxigênio:** 97% em ar ambiente.  \n**Índice de massa corpórea (IMC):** 35 Kg/m2.  \n\n\nPaciente em estado geral regular, febril, acianótico, anictérico e desidratado; alerta e orientado no tempo e espaço.  \n\n\nAusculta respiratória com murmúrio vesicular presente bilateralmente, sem ruídos adventícios.  \n\n\nRitmo cardíaco regular em dois tempos, estalido de abertura da valva mitral e sopro diastólico em ruflar mitral, com formato em decrescendo, com início logo após o estalido.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "EXAME ABDOMINAL DA REGIÃO UMBILICAL",
+      "conteudo": "DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS DO EXAME FÍSICO REGIÃO UMBILICAL  \n\n\nDemais feridas operatórias sem alterações.  \n\n\nAbdome flácido, doloroso à palpação profunda em fossa ilíaca direita, sem dor à descompressão brusca, ruídos hidroaéreos hipoativos; sem visceromegalias.",
+      "imagem": "img_printeds/2023-1-e2p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-1-e2p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "SUMÁRIO DE URINA",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-1-e2p4.jpg"
+    },
+    {
+      "idx": 5,
+      "titulo": "HEMOCULTURA",
+      "conteudo": "**HEMOCULTURA:** exame em andamento.",
+      "imagem": null
+    },
+    {
+      "idx": 6,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "",
+      "imagem": "img_printeds/2023-1-e2p6.jpg"
+    },
+    {
+      "idx": 7,
+      "titulo": "IMAGENS – ABDOME TOTAL",
+      "conteudo": "**ULTRASSONOGRAFIA DE ABDOME TOTAL**  \nFígado de tamanho levemente aumentado, com sinais de esteatose moderada. Em fossa ilíaca direita, nota-se discreto borramento de gordura em região cecal compatível com manipulação cirúrgica recente. Ausência de coleções líquidas evidenciadas ao método. Demais aspectos normais.  \n\n\n**TOMOGRAFIA DE ABDOME TOTAL**  \nFígado com sinais de esteatose moderada. Pequena quantidade de líquido livre, sem septação, localizado em fossa ilíaca direita, sugerindo manipulação cirúrgica recente. Ausência de coleções em pelve, nos espaços subfrênicos e sub-hepático. Demais aspectos normais.",
+      "imagem": null
+    },
+    {
+      "idx": 8,
+      "titulo": "ECOCARDIOGRAMA TRANSTORÁCICO",
+      "conteudo": "• Valva mitral com folhetos espessados, abertura reduzida em cúpula. Presença de imagem algodonosa, móvel, aderida a face atrial do folheto anterior, medindo cerca de 8×4 mm com aspecto sugestivo de vegetação.  \n• Ao Doppler colorido, evidencia-se estenose da valva mitral leve.  \n• Não há evidências de outras lesões valvares.  \n• Função ventricular esquerda preservada. Não foram observadas outras anormalidades estruturais cardíacas ou vasculares.  \n\n\nConclusão: Estenose mitral e presença de vegetação em valva mitral.",
+      "imagem": "img_printeds/2023-1-e2p8.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) apresenta-se;  \n(2) cumprimenta e identifica o paciente simulado.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza apenas uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese, perguntando sobre as características da febre e sintomas  \nassociados:**  \n(1) tempo de início de febre;  \n(2) temperatura;  \n(3) persistência ou intermitência.  \n\n**Adequado:** pergunta três características.  \n**Parcialmente adequado:** pergunta duas características.  \n**Inadequado:** pergunta uma característica OU não pergunta característica alguma.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.2",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre as PRINCIPAIS manifestações clínicas associadas ao quadro:**  \n(1) dor abdominal ou dor no local da cirurgia;  \n(2) sudorese noturna;  \n(3) naúseas E/OU vômitos;  \n(4) parada de eliminação de gases E/OU evacuações.  \n\n**Adequado:** pergunta três OU quatro itens.  \n**Parcialmente adequado:** pergunta dois itens.  \n**Inadequado:** pergunta um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre OUTRAS manifestações clínicas associadas ao quadro:**  \n(1) calafrios;  \n(2) sintomas urinários: disúria OU polaciúria OU hematúria OU urina fétida;  \n(3) dor lombar;  \n(4) sintomas cardíacos: palpitações OU dispneia OU desmaio;  \n(5) sintomas respiratórios: tosse OU secreção OU falta de ar.  \n\n**Adequado:** pergunta quatro OU cinco itens.  \n**Parcialmente adequado:** pergunta dois OU três itens.  \n**Inadequado:** pergunta apenas um item OU não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.8"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Exame Físico: interpreta os achados da infecção de sítio cirúrgico da região  \numbilical:**  \n(1) hiperemia;  \n(2) saída de secreção seropurulenta.  \n\n**Adequado:** interpreta dois achados.  \n**Inadequado:** interpreta um achado OU não interpreta achado algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.6",
+        "adequado": "1.2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Verbaliza os diagnósticos diferenciais para esse caso.**  \n(1) infecção de sítio cirúrgico superficial (infecção de ferida cirúrgica);  \n(2) abscesso intra-abdominal (infecção de sítio cirúrgico profundo);  \n(3) pulmonar e/ou infecção respiratória;  \n(4) endocardite infecciosa;  \n(5) infecção do trato urinário.  \n\n**Adequado:** verbaliza o diagnóstico diferencial para quatro OU cinco itens.  \n**Parcialmente adequado:** verbaliza o diagnóstico diferencial para três itens.  \n**Inadequado:** verbaliza o diagnóstico diferencial para dois OU um item OU não verbaliza  \ndiagnóstico diferencial para item algum.  \n\n*OBSERVAÇÃO: Só serão pontuados os diagnósticos diferenciais verbalizados antes da solicitação dos exames complementares.*",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita os PRINCIPAIS exames laboratoriais.**  \n(1) Hemograma com ou sem VHS;  \n(2) Proteína C Reativa (PCR);  \n(3) Sumário de Urina/EAS;  \n(4) Glicemia.  \n\n**Adequado:** solicita os quatro exames.  \n**Parcialmente adequado:** solicita dois OU três exames.  \n**Inadequado:** não solicita exame algum OU solicita apenas um exame.  \n\n*OBSERVAÇÃO: Só serão pontuados os DEZ primeiros exames laboratoriais citados.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita OUTROS exames laboratoriais.**  \n(1) Hemocultura;  \n(2) Urocultura;  \n(3) Sódio E potássio;  \n(4) Creatinina somente OU ureia e creatinina.  \n\n**Adequado:** solicita três OU quatro exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um exame OU não solicita exame algum.  \n\n*OBSERVAÇÃO: Só serão pontuados os DEZ primeiros exames laboratoriais citados.*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita uma Radiografia (Rx) de Tórax PA.**  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** nao solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Solicita uma Ultrassom / Ultrassonografia / USG /Ecografia de abdome total OU  \nTomografia/Tomografia computadorizada de abdome total.**  \n\n**Adequado:** solicita um dos exames.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita Ecocardiograma.**  \n\n**Adequado:** solicita o exame.  \n**Inadequado:** nao solicita o exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.4"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Verbaliza o diagnóstico definitivo:**  \n(1) infecção de sítio cirúrgico superficial;  \n(2) endocardite infecciosa.  \n\n**Adequado:** cita os dois diagnósticos.  \n**Parcialmente adequado:** cita apenas um dos diagnósticos.  \n**Inadequado:** não cita diagnóstico algum.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Execução das tarefas na ordem determinada.**  \n\n**Adequado:** executa as etapas na ordem determinada.  \n**Inadequado:** não executa as etapas na ordem determinada.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.2"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "uid": 1402,
+  "hash": "pepe_1402",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "Celulite",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: unidade de pronto atendimento - UPA.  \nA unidade apresenta a seguinte infraestrutura:    \n• Consultório médico;    \n• Sala de pequenos procedimentos;  \n• Laboratório de análises clínicas;\n\nDescrição do caso:\nVocê está de plantão em uma UPA e atenderá um paciente de 52 anos com queixa de dor, vermelhidão e inchaço na perna. O paciente refere ter sofrido um pequeno arranhão no local há 10 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese e o exame físico direcionados ao caso;  \n- Verbalizar e realizar o tratamento imediato da lesão;  \n- Indicar conduta terapêutica e orientações pertinentes ao caso;  \n- Responder as dúvidas do paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Roberto, 52 anos, jardineiro.  \n\n**MOTIVO DE CONSULTA:** • Doutor(a), estou com a minha perna doendo muito, começou a ficar vermelha e inchada.  \n\n**SOBRE A DOR E LESÃO DE PELE:**  \n• **Início:** Começou faz 4 dias.  \n• **Localização:** É aqui na perna esquerda.  \n• **Característica:** é tipo um aperto, fica pulsando.  \n• **Progressão:** Foi piorando a cada dia.  \n\n• **Trauma, choque, batida:** Eu estava limpando um quintal e tive um arranhão pequeno aqui há uns 10 dias.  \n• **Calor:** sim, está quente.  \n• **Edema:** Está bem inchado.  \n• **Vermelhidão:** está bem vermelha.  \n\n**SOBRE FEBRE:**  \n• **Início:** Faz dois dias que começou dar febre também.  \n• **Aferição:** Em casa chegou a 38.2°C.  \n• **Atenuantes/agravantes:** Tomei paracetamol, a febre baixa um pouco, mas depois volta.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** Tenho pressão alta, uso losartana uma vez por dia. Não tenho alergias.  \n• **VACINAÇÃO:** Não lembro a última vez.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Como eu cuido dessa ferida em casa?*  \n• *Isso pode piorar? Quais são os sinais de que está piorando?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 135x85 mmHg  \n• **FC:** 90 bpm  \n• **FR:** 18 irpm  \n• **SatO2:** 97%  \n• **Temp. axilar:** 38.2° C  \n\n**Ectoscopia:** Paciente em bom estado geral, orientado, corado, hidratado, acianótico, anictérico e febril.  \n\n\n**EXAME SEGMENTAR:**  \n• **Cardiovascular, respiratório e abdominal:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "IMAGEM DA LESÃO",
+      "conteudo": "**ATENÇÃO**  \n• **DESCREVA OS ACHADOS DA LESÃO**  \n• **VERBALIZE QUAIS MEDIDAS E O TRATAMENTO INICIAL DA LESÃO**",
+      "imagem": "img_printeds/2014-e2p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "**HEMOGRAMA:**  \n• **Hemácias:** 4,9 milhões/mm³ (VR: 4,3 a 5,8 milhões/mm³)  \n• **Hemoglobina:** 15,5 g/dl (VR: 14 a 18 mg/dl)  \n• **Hematócrito:** 43% (VR: 39 - 52%)  \n\n• **Plaquetas:** 262.000 mm/³ (150.000 - 400.000 mm/³)  \n\n• **Leucócitos:** 11.200/mm³ (VR: 4.000 - 10.000/mm³)  \n• **Neutrófilos:** 70% (VR: 40 - 70%)  \n• **Bastões:** 4% (VR: 0 - 5%)  \n• **Linfócitos:** 20% (VR: 20 - 50%)  \n• **Monócitos:** 6% (VR: 4 - 8%)  \n\n\n• **Proteína C reativa (PCR):** 12 mg/L (VR: \\< 5 mg/L)  \n• **Volume de hemossedimentação (VHS):** 28 mm/hr (VR: \\< 15 mm/hr)",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Identifica-se de maneira adequada e pergunta o nome do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Comunica-se com clareza, sem interromper o paciente, evitando o uso de termos técnicos.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Colhe os dados positivos da história adequadamente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Realiza o exame do local e descreve o tumor como celulite com porta de entrada, sem sinal de flutuação.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Solicita higienização de mãos e EPI adequadamente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Informa a realização de limpeza com soro fisiológico.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Informa a realização de lavagem com antisséptico e sabão (clorexidina ou PVPI).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Informa a remoção de fibrina e sujidades no momento da limpeza.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Informa a realização da retirada do sabão com SF.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Informa a realização de oclusão com gaze seca e esparadrapo.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve antibiótico adequado (cefalexina oral ou outra cefalosporina de 1ª geração, segunda opção - eritromicina oral).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a realização de curativo diário.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta a aplicação de compressas mornas.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Prescreve vacina antitetânica.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 15,
+      "descricao": "**15. Informa sobre a evolução do quadro: flutuação, drenagem purulenta, piora do quadro febril, linfadenite (pelo menos dois dos citados).**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

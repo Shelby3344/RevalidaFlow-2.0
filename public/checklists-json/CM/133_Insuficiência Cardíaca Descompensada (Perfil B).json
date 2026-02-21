@@ -1,0 +1,205 @@
+{
+  "uid": 133,
+  "hash": "pepe_133",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Insuficiência Cardíaca Descompensada (Perfil B)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "🗲 PEPList",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: terciária.  \nTipo de atendimento: sala de emergência / pronto-socorro.  \nA unidade apresenta a seguinte infraestrutura:  \n• Monitorização multiparamétrica;  \n• Laboratório de análises clínicas e exames de imagem (Raio-X, ECG, USG);  \n• Farmácia hospitalar completa.\n\nDescrição do caso:\nVocê está de plantão na sala de emergência e atenderá um paciente de 68 anos, trazido por familiares com queixa de falta de ar intensa e inchaço nas pernas, com piora progressiva há 3 dias.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada ao quadro atual;  \n- Solicitar e interpretar o exame físico;  \n- Solicitar exames complementares pertinentes;  \n- Definir o diagnóstico e o perfil clínico-hemodinâmico do paciente;  \n- Prescrever o tratamento medicamentoso imediato para o quadro.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• **Nome:** Raimundo, 68 anos, aposentado.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu não estou conseguindo respirar direito... parece que tem um peso no meu peito. E minhas pernas estão muito inchadas.  \n\n**SOBRE A DISPNEIA:**  \n• **Início:** Começou a piorar faz uns 3 dias.  \n• **Ao deitar:** Não consigo ficar deitado reto na cama. Tenho que dormir sentado, senão sinto que vou afogar.  \n• **À noite:** Acordo no meio da noite com falta de ar, tenho que ir para a janela respirar.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Dor no peito:** Não sinto dor, é mais um aperto por causa da falta de ar.  \n• **Edema:** Meus pés e pernas incharam muito nesses dias.  \n• **Tosse:** Tenho uma tosse seca, às vezes sai uma \"espuminha\" branca meio rosada.  \n• **Urina:** Estou fazendo pouco xixi.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Tenho pressão alta e problema de coração grande faz uns 10 anos.  \n• **Medicações:** Tomo pro coração e pra pressão... Enalapril, Carvedilol e Furosemida.  \n• **Adesão ao medicamento:** Para falar a verdade, doutor(a), o Furosemida eu parei de tomar faz uns 5 dias porque estava me fazendo ir muito ao banheiro e eu ia viajar.  \n• **Alimentação/Dieta:** No fim de semana teve churrasco e eu comi bastante coisa salgada.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Isso é grave?*  \n• *Vou precisar ficar internado?*  \n• *Por que eu piorei tanto assim tão rápido?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 160x100 mmHg  \n• **FC:** 105 bpm  \n• **FR:** 28 irpm  \n• **SatO2:** 89% em ar ambiente  \n• **Temp:** 36,5°C  \n\n\n**Ectoscopia:** Paciente lúcido, orientado, taquipneico, com uso de musculatura acessória. Extremidades quentes e bem perfundidas (TEC < 2s).  \n\n\n**Pescoço:** Turgência jugular patológica a 45º presente.  \n\n\n**Cardiovascular:** Ritmo regular, taquicárdico, B3 presente. Ictus desviado para a esquerda.  \n\n\n**Respiratório:** Murmúrio vesicular presente, com estertores crepitantes em 2/3 inferiores de ambos os hemitórax.  \n\n\n**Abdome:** Hepatomegalia dolorosa à palpação. Refluxo hepatojugular positivo.  \n\n\n**Membros Inferiores:** Edema de membros inferiores 3+/4+, depressível (Godet positivo), simétrico, frio e indolor, até a raiz da coxa.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "ELETROCARDIOGRAMA",
+      "conteudo": "**Laudo:**  \n• Taquicardia Sinusal.  \n• Sinais de Sobrecarga de Ventrículo Esquerdo.  \n• Alterações difusas da repolarização ventricular.",
+      "imagem": "img_printeds/e133p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "RAIO-X DE TÓRAX",
+      "conteudo": "• Área cardíaca aumentada.  \n• Velamento dos seios costofrênicos.",
+      "imagem": "img_printeds/e133p3.jpg"
+    },
+    {
+      "idx": 4,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **Hemoglobina:** 13,5 g/dL (VR: 13-17 g/dL)  \n• **Leucócitos:** 8.500/mm³ (VR: 4.000-10.000/mm³)  \n• **Plaquetas:** 250.000/mm³ (VR: 150.000-450.000/mm³)  \n\n\n• **Creatinina:** 1,4 mg/dL (VR: 0,7-1,3 mg/dL)  \n• **Ureia:** 65 mg/dL (VR: 10-50 mg/dL)  \n• **Sódio:** 137 mEq/L (VR: 135-145 mEq/L)  \n• **Potássio:** 4,5 mEq/L (VR: 3,5-5,0 mEq/L)  \n\n\n• **Troponina I:** Negativa  \n• **BNP:** 1.200 pg/mL",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se;  \n(2) cumprimenta o paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Investiga sintomas de congestão e baixo débito na anamnese:**  \n(1) dispneia paroxística noturna ou ortopneia;  \n(2) edema de membros inferiores ou ganho de peso recente;  \n(3) tosse ou expectoração;  \n(4) oligúria.  \n\n**Adequado:** investiga três ou quatro itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga fatores de descompensação:**  \n(1) má adesão medicamentosa (interrupção do diurético);  \n(2) transgressão alimentar (excesso de sal/líquidos);  \n(3) isquemia miocárdica (dor precordial típica).  \n\n**Adequado:** investiga os três fatores.  \n**Parcialmente adequado:** investiga um ou dois fatores.  \n**Inadequado:** não investiga fatores de descompensação.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita exame físico geral e segmentar, verbalizando a necessidade de avaliar:**  \n(1) sinais vitais (PA, FC, SatO2);  \n(2) ausculta pulmonar;  \n(3) estase jugular ou turgência jugular;  \n(4) perfusão periférica (se está frio ou quente).  \n\n**Adequado:** solicita o exame verbalizando três ou quatro itens.  \n**Parcialmente adequado:** solicita verbalizando dois itens.  \n**Inadequado:** solicita verbalizando um item ou não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica e verbaliza o perfil clínico-hemodinâmico:**  \n(1) Perfil B; OU  \n(2) Quente e Úmido.  \n\n**Adequado:** classifica corretamente como Perfil B ou Quente e Úmido.  \n**Inadequado:** não classifica ou classifica incorretamente (A, C, L ou frio/seco).",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Diagnostica a condição clínica:**  \n(1) Insuficiência Cardíaca Descompensada (ou Aguda);  \n(2) Edema Agudo de Pulmão (ou congestão pulmonar).  \n\n**Adequado:** verbaliza o diagnóstico completo.  \n**Parcialmente adequado:** verbaliza apenas \"Insuficiência Cardíaca\" sem citar a descompensação ou agudização.  \n**Inadequado:** não verbaliza o diagnóstico.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita Eletrocardiograma (ECG).**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Solicita Radiografia de tórax.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Solicita exames laboratoriais:**  \n(1) Marcadores de necrose miocárdica (Troponina);  \n(2) BNP ou NT-proBNP;  \n(3) Hemograma;  \n(4) Função renal (Ureia e Creatinina);  \n(5) Eletrólitos (Sódio e Potássio).  \n\n**Adequado:** solicita quatro ou cinco itens.  \n**Parcialmente adequado:** solicita dois ou três itens.  \n**Inadequado:** solicita um item ou não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Prescreve oxigenoterapia e suporte ventilatório:**  \n(1) Oxigênio suplementar (cateter ou máscara) para manter SatO2 > 90%, ou VNI, ou CPAP, ou BiPAP;  \n\n**Adequado:** indica O² suplementar.  \n**Inadequado:** não indica suporte de oxigênio.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Prescreve diurético de alça endovenoso:**  \n(1) Furosemida;  \n(2) Via endovenosa (EV/IV).  \n\n**Adequado:** prescreve Furosemida EV.  \n**Inadequado:** prescreve Furosemida VO, ou não prescreve, ou prescreve outro diurético.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Prescreve vasodilatador endovenoso:**  \n(1) Nitroglicerina ou Nitroprussiato de Sódio;  \n(2) Via endovenosa em bomba de infusão contínua.  \n\n**Adequado:** prescreve vasodilatador EV.  \n**Parcialmente adequado:** prescreve vasodilatador oral (ex: captopril/hidralazina) na fase aguda.  \n**Inadequado:** não prescreve vasodilatador ou prescreve inotrópico (dobutamina) indevidamente.  \n\n*(Nota: O paciente está hipertenso - PAS 160 - e \"quente\", portanto o vasodilatador é terapia de escolha junto ao diurético).*",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta medidas posturais e de monitorização:**  \n(1) Manter cabeceira elevada ou posição sentada;  \n(2) Monitorização cardíaca contínua e oximetria de pulso.  \n\n**Adequado:** orienta as duas medidas.  \n**Parcialmente adequado:** orienta uma medida.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Explica ao paciente o motivo da descompensação (má adesão e dieta) e a necessidade de internação.**  \n\n**Adequado:** explica.  \n**Inadequado:** não explica.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

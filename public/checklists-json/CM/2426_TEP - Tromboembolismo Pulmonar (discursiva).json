@@ -1,0 +1,183 @@
+{
+  "uid": 2426,
+  "hash": "pepe_2426",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "TEP - Tromboembolismo Pulmonar (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nTipo de atendimento: sala de emergência.  \nA unidade apresenta a seguinte infraestrutura:  \n• Sala de emergência equipada;  \n• Laboratório de análises clínicas;  \n• Setor de radiologia com raio-X e tomografia computadorizada;  \n• Leitos de internação e UTI.\n\nDescrição do caso:\nVocê está de plantão no pronto-socorro do hospital e atenderá uma mulher de 38 anos, trazida à emergência pela irmã com queixa de falta de ar súbita e dor no peito. Ela se apresenta ansiosa e com dificuldade para falar frases completas.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese direcionada à queixa principal da paciente.  \n- Solicitar e interpretar o exame físico.  \n- Solicitar e interpretar os exames complementares pertinentes ao caso.  \n- Formular e verbalizar a principal hipótese diagnóstica.  \n- Orientar a conduta terapêutica inicial e o plano diagnóstico.  \n- Responder às dúvidas da paciente.  \n\n\\\nATENÇÃO! A ANAMNESE DEVERÁ SER DIRIGIA À ACOMPANHANTE DA PACIENTE",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:** Antes de liberar o impresso **EXAME FÍSICO**, questione: *Quais sinais você procura investigar no exame físico?*  \n\n**DADOS PESSOAIS:**  \n• **Paciente:** Fernanda, 38 anos, casada, professora.  \n• **Acompanhante:** Irmã, Bianca, 36 anos.  \n\n**MOTIVO DE CONSULTA:** Doutor(a), minha irmã já não estava bem, faz 3 dias que começou com falta de ar, tosse com um pouco de sangue e uma dor no lado esquerdo do peito. Fomos na UPA e disseram que era pneumonia, mas o remédio não adiantou nada. E agora ela está com essa falta de ar sufocante, corremos pra cá!  \n\n**SOBRE A DISPNEIA:**  \n• **Início:** faz 2 horas. Foi do nada, eu estava sentada.  \n• **Característica:** Uma falta de ar desesperadora, ela disse que o ar não entra.  \n• **Atenuantes/agravantes:** Ficar bem quieta, parece que alivia um pouco, mas não passa. \n• **Dor:** Tentar respirar fundo dói muito no peito.  \n• **Sibilos:** Não sente chiado no peito.  \n• **Episódio anterior:** Nunca sentiu isso antes na vida.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Tosse:** Ela teve uma tosse seca, e uma vez saiu um pouquinho de sangue.  \n• **Palpitações:** Disse que o coração parece que vai sair pela boca, está muito acelerado.  \n• **Tontura:** Ela está tonta e fraca sim.  \n• **Sudorese:** Começou a suar frio.  \n• **Membros inferiores:** A perna esquerda dela está inchada e doendo há alguns dias.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Doenças:** Ela tem LUPUS e Síndrome Antifosfolípide.  \n• **Medicações:** Usa Hidroxicloroquina, Prednisona e Varfarina. Mas ela não toma da maneira certa não. E também agora estava tomando o antibiótico que passaram na UPA.  \n• **Alergias, cirurgias, internações:** Nega.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *O que minha irmão tem? Não é pneumonia?*  \n• *Precisa fazer algum exame?*  \n• *Como que é o tratamento?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 100x60 mmHg  \n• **FC:** 132 bpm  \n• **FR:** 34 irpm  \n• **SatO₂:** 88% (em ar ambiente)  \n• **Temp. axilar:** 36.8°C  \n\n\n**Ectoscopia:** Paciente em regular estado geral, pálida (+/4+), dispneica em repouso, com cianose labial. Ansiosa e taquipneica.  \n\n\n**Cardiovascular:** Ritmo cardíaco taquicárdico, em dois tempos. Hiperfonese de segunda bulha em foco pulmonar. Turgência jugular a 45° presente.  \n\n\n**Respiratório:** Murmúrio vesicular presente e simétrico bilateralmente, sem ruídos adventícios.  \n\n\n**Membros Inferiores (MMII):** Edema assimétrico em membro inferior esquerdo (++/4+), com circunferência 3 cm maior que o membro contralateral. Dor à palpação da panturrilha esquerda (sinal de Bancroft positivo).",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "RADIOGRAFIA DE TÓRAX",
+      "conteudo": "**DESCREVA O(S) ACHADO(S) DA IMAGEM**",
+      "imagem": "img_printeds/2024-2-e26p2.jpg"
+    },
+    {
+      "idx": 3,
+      "titulo": "EXAMES LABORATORIAIS",
+      "conteudo": "• **D-Dímero:** 2.500 ng/mL (VR: < 500 ng/mL)  \n• **Troponina I:** 0,08 ng/mL (VR: < 0,04 ng/mL)",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "GASOMETRIA ARTERIAL",
+      "conteudo": "• **pH:** 7,49 (VR: 7,35 - 7,45)  \n• **PaCO₂:** 29 mmHg (VR: 35 - 45 mmHg)  \n• **PaO₂:** 58 mmHg (VR: 80 - 100 mmHg)  \n• **HCO₃:** 23 mEq/l (VR: 22 - 26 mEq/l)  \n• **BE:** +1 (VR: -2 a +2)  \n\n\n**ATENÇÃO**  \n**VERBALIZE A ALTERAÇÃO DA GASOMETRIA**",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta a paciente e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.12",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza anamnese dirigida, investigando a queixa atual e o episódio prévio:**  \n(1) caracteriza a dispneia atual (início súbito, intensidade);  \n(2) questiona sobre a dor torácica (tipo ventilatório-dependente);  \n(3) pergunta sobre hemoptise.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.38",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Investiga os antecedentes patológicos e fatores de risco para TEP:**  \n(1) pergunta sobre doenças prévias (Lúpus, SAF, Doenças Cardiovasculares, TVP);  \n(2) investiga uso de medicações (anticoncepcionais, terapia de reposição hormonal);  \n(3) questiona sobre imobilização recente, cirurgias ou viagens longas.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.38",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita sinais específicos do exame físico:**  \n(1) sinal de Bancroft (edema na coxa e/ou em uma das pernas com dor à palpação da respectiva panturrilha);  \n(2) sinal de Homans (dor na panturrilha com a dorsiflexão passiva do tornozelo OU do pé);  \n(3) sinal de Prats (veias varicosas superficiais visíveis na perna afetada mesmo na posição supina);  \n(4) sinal da Bandeira (empastamento da panturrilha);  \n(5) dor à palpação do trajeto venoso OU diferença de circunferência da perna > 3 cm;  \n(6) turgência jugular; e,  \n(7) hiperfonese de segunda bulha cardíaca.  \n\n**Adequado:** investiga três ou mais sinais.  \n**Parcialmente adequado:** investiga dois sinais.  \n**Inadequado:** investiga um sinal ou não investiga sinal algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.38",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Interpreta corretamente o achado na radiografia de tórax.**  \n\n**Adequado:** verbaliza a presença do Sinal da Corcova de Hampton (opacidade triangular periférica/cunha com base pleural), OU Sinal de Westermark (oligoemia/hipertransparência focal).  \n**Inadequado:** não identifica nenhum achado ou os descreve incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Interpreta corretamente a gasometria arterial.**  \n\n**Adequado:** verbaliza a presença de alcalose respiratória (ou Hiperventilação), E hipoxemia.  \n**Parcialmente adequado:** identifica apenas a alcasole respiratória, sem hipoxemia.  \n**Inadequado:** não identifica nenhum achado ou os descreve incorretamente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.38",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Formula e verbaliza a principal hipótese diagnóstica.**  \n\n**Adequado:** verbaliza o diagnóstico de Tromboembolismo Pulmonar (TEP) ou Embolia Pulmonar.  \n**Inadequado:** não formula a hipótese correta.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Inicia a conduta de suporte e estabilização imediata.**  \n(1) oferta oxigênio suplementar em alto fluxo (máscara não reinalante);  \n(2) solicita monitorização dos sinais vitais (FC, oximetria, PA).  \n\n**Adequado:** indica as duas condutas.  \n**Parcialmente adequado:** indica uma conduta.  \n**Inadequado:** não indica nenhuma conduta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica a conduta terapêutica específica e imediata.**  \n\n**Adequado:** indica o início de anticoagulação plena com enoxaparina ou heparina (não fracionada ou de baixo peso molecular).  \n**Inadequado:** não indica anticoagulação ou indica de forma incorreta (ex: apenas antiagregação).",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Indica o exame de primeira escolha para confirmação diagnóstica.**  \n\n**Adequado:** solicita Angiotomografia computadorizada de tórax (ou de artérias pulmonares).  \n**Inadequado:** não solicita a Angio-TC ou solicita outro exame como primeira opção para confirmação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Solicita exames laboratoriais iniciais para avaliação do quadro.**  \n(1) gasometria arterial;  \n(2) D-Dímero;  \n(3) troponina.  \n(4) BNP (marcadores de sobrecarga ventricular direita);  \n\n**Adequado:** solicita três ou quatro exames.  \n**Parcialmente adequado:** solicita dois exames.  \n**Inadequado:** solicita um ou nenhum exame.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Considera a terapia de reperfusão (trombólise).**  \n\n**Adequado:** considera o uso de trombolíticos sistêmicos (Alteplase, estreptoquinase, embolectomia), justificando pela presença de instabilidade hemodinâmia e ausência de contraindicações absolutas.  \n**Inadequado:** não considera a terapia de reperfusão.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

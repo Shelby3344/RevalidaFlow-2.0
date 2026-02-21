@@ -1,0 +1,205 @@
+{
+  "uid": 2411,
+  "hash": "pepe_2411",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Dengue grupo A",
+  "definicao": "RESUMO DE TESTES",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial.  \nA unidade apresenta a seguinte infraestrutura:  \n* consultórios;  \n* laboratório de análises clínicas;  \n* leito de observação;  \n* ambulância para transporte do paciente.\n\nDescrição do caso:\nPaciente com 21 anos procura atendimento com queixa de febre e cefaleia há 4 dias.",
+  "tarefas": "TAREFAS:  \n\n* Realizar a anamnese direcionada à queixa principal do paciente.  \n* Solicitar / realizar exames físicos necessários à avaliação do caso.  \n* Solicitar exames complementares pertinentes ao caso.  \n* Relacionar os resultados dos exames às hipóteses diagnósticas.  \n* Verbalizar o diagnóstico, sua classificação de gravidade e elaborar a conduta terapêutica.  \n\n\nO TOQUE NO PACIENTE SIMULADO É PERMITIDO APENAS PARA A UTILIZAÇÃO DO ESFIGMOMANÔMETRO, SEM INSUFLÁ-LO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Marcos, 21 anos, solteiro, estudante universitário.  \n\n**QUEIXA PRINCIPAL:** Doutor(a), estou com febre e dor de cabeça já faz 4 dias.  \n\n**SOBRE FEBRE:**  \n• **Início:** começou há 4 dias.  \n• **Aferição:** em casa chegou a 39,5ºC.  \n\n**SINTOMAS ASSOCIADOS:**  \n• **Cefaleia:** Sinto uma dor forte, no fundo do olho.  \n• **Artralgia/mialgia:** Também estou com dor no corpo, dói o corpo inteiro.  \n• **Astenia/fraqueza:** estou me sentindo mais cansado.  \n• **Anorexia:** estou comendo menos sim.  \n\n**FATORES DE MELHORA E PIORA:**  \n• Tomei paracetamol pra dor e pra febre, mas melhorou só por um tempo.  \n\n**NEGAR OUTROS SINTOMAS:**  \n• Tosse, expectoração, coriza, nariz entupido.  \n• Diarreia.  \n• Náuseas.  \n• Olho vermelho ou amarelo, pele amarela.  \n• Dor abdominal, vômitos, desmaio, tontura, irritabilidade, sangramentos ou manchas na pele.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Cirurgias e internações:** nunca operei.  \n\n• **Álcool, tabaco e drogas:** não fumo e nem uso drogas. Só bebo umas duas latinhas de cerveja no domingo.  \n\n**FATORES AMBIENTAIS:**  \n• **Viagens recentes:** nega.  \n• **Contato com água de enchente ou animais:** nega.  \n• **Mosquitos:** onde eu estudo tem muito pernilongo.  \n• **Pessoa próxima com sintoma parecido:** que eu saiba, não.  \n\n\n**ANTECEDENTES FAMILIARES:**  \n• Minha mãe tem pressão alta.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• *Isso é grave?*  \n• *Devo tomar alguma coisa pra tratar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**SINAIS VITAIS:**\n\n**Frequência Cardíaca:** 101 batimentos por minuto.  \n**Frequência Respiratória:** 19 incursões respiratórias por minuto.  \n**Pressão Arterial:** 120 x 80 mmHg.  \n**Saturação de Oxigênio em ar ambiente:** 97%.  \n**Temperatura Axilar:** 38°C.  \n**EXAME CLÍNICO:**\n\nRegular estado geral, corado, hidratado, febril, sem alterações cutâneas.  \n\n**Exames físicos cardiovascular, respiratório, abdominal, neurológico e exame físico de extremidades:** Sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "SOROLOGIAS",
+      "conteudo": "**DENGUE:**\n\n**NS1:** positivo.  \n**IgM:** positivo.  \n**IgG:** negativo.",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "LABORATORIAIS",
+      "conteudo": "**EXAMES LABORATORIAIS**\n\n| **Exame** | **Resultado** | **Valores de referência** |\n|-----------------|-----------------|------------------------|\n| Hemoglobina (Hb) | 13,5 g/dL       | 13,0 – 17,0 g/dL       |\n| Hematócrito (Hct) | 40,5 %          | 38 – 50%              |\n| Leucócitos       | 8.500 mm³       | 5.000 – 10.000/mm³    |\n| Plaquetas        | 320.000 mm³     | 150.000 – 400.000/mm³ |\n| Creatinina       | 1,1 mg/dL       | 0,7 – 1,3 mg/dL       |\n| Ureia            | 40 mg/dL        | 10 – 50 mg/dL         |",
+      "imagem": null
+    },
+    {
+      "idx": 4,
+      "titulo": "PROVA DO LAÇO",
+      "conteudo": "",
+      "imagem": "img_printeds/2024-2-e1p4.jpg"
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresentação:**  \n(1) identifica-se; e,  \n(2) cumprimenta o paciente simulado e pergunta seu nome.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Pergunta a existência de outros sinais, ou sintomas associados, que sejam relevantes para o estabelecimento de diagnósticos diferenciais:**  \n(1) sintomas gripais (tosse, expectoração, coriza, obstrução nasal);  \n(2) mialgia (OU dor muscular OU dor nos músculos);  \n(3) artralgia (OU dor articular);  \n(4) diarreia (OU alteração no aspecto das fezes);  \n(5) náuseas;  \n(6) queixas oftalmológicas (hiperemia OU conjuntivite OU olho vermelho); e,  \n(7) icterícia (OU olho amarelo OU pele amarela).  \n\n**Adequado:** investiga quatro ou mais itens.  \n**Parcialmente adequado:** investiga de um a três itens.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Pergunta sobre:**  \n(1) fatores de melhora; e,  \n(2) fatores de piora.  \n\n**Adequado:** pergunta os dois itens.  \n**Parcialmente adequado:** pergunta apenas um item.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Pergunta sobre a história patológica pregressa:**  \n(1) comorbidades;  \n(2) medicações; e,  \n(3) alergias.  \n\n**Adequado:** pergunta os três itens.  \n**Parcialmente adequado:** pergunta um ou dois itens.  \n**Inadequado:** não pergunta item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Investiga sinais de alarme ou choque:**  \n(1) dor abdominal;  \n(2) vômitos;  \n(3) rebaixamento de sensório;  \n(4) lipotimia;  \n(5) irritabilidade;  \n(6) acúmulo de líquido em cavidades;  \n(7) sangramentos ou manchas na pele; e,  \n(8) hipotensão.  \n\n**Adequado:** pergunta quatro ou mais sintomas.  \n**Parcialmente adequado:** pergunta dois ou três sintomas.  \n**Inadequado:** pergunta um sintoma ou não pergunta sintoma algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Investiga história epidemiológica:**  \n(1) viagens recentes;  \n(2) contato com água de enchente (OU água parada OU foco de água parada);  \n(3) contato com rato OU capivara OU carrapato;  \n(4) mosquitos nos ambientes que frequenta;  \n(5) familiares e ou vizinhos com os mesmos sintomas.  \n\n**Adequado:** investiga três ou mais itens.  \n**Parcialmente adequado:** investiga um ou dois itens.  \n**Inadequado:** não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.4",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita hemograma.**  \n\n**Adequado:** solicita.  \n**Inadequado:** não solicita.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Realiza a prova do laço, obedecendo as etapas a seguir:**  \n(1) coloca o manguito do tensiômetro no braço do ator;  \n(2) descreve a insuflação do manguito até o valor médio da PA (PAS+PAD)/2;  \n(3) descreve que deixará o manguito insuflado por 5 minutos; e,  \n(4) descreve que desenha um quadrado de 2,5 cm de lado no antebraço e conta o número de petéquias na área.  \n\n**Adequado:** realiza a prova, seguindo todas as etapas.  \n**Inadequado:** não realiza ou não segue todas as etapas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Verbaliza o diagnóstico de dengue sem sinais de alarme (OU Grupo A).**  \n\n**Adequado:** verbaliza o diagnóstico e a gravidade.  \n**Parcialmente adequado:** verbaliza o diagnóstico de dengue, sem especificar gravidade.  \n**Inadequado:** não verbaliza o diagnóstico de dengue ou verbaliza, mas com gravidade diferente do grupo A.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Orienta repouso e hidratação oral (com ou sem menção ao volume e composição adequados dos líquidos para reposição).**  \n\n**Adequado:** orienta as duas condutas.  \n**Parcialmente adequado:** orienta apenas uma conduta.  \n**Inadequado:** não orienta conduta alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Orienta uso de paracetamol e/ou dipirona para dor e febre.**  \n\n**Adequado:** orienta.  \n**Inadequado:** não orienta.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Orienta a não utilizar anti-inflamatórios não esteroidais (AINES) ou AAS.**  \n\n**Adequado:** orienta ao menos uma medicação.  \n**Inadequado:** não orienta nenhuma medicação.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 13,
+      "descricao": "**13. Orienta sobre sinais de alarme:**  \n(1) dor abdominal;  \n(2) vômitos;  \n(3) alteração de consciência; e,  \n(4) sangramentos  \n\n**Adequado:** orienta os quatro sinais.  \n**Parcialmente adequado:** orienta dois ou três sinais.  \n**Inadequado:** orienta um sinal ou não orienta sinal algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 14,
+      "descricao": "**14. Verbaliza a necessidade de notificação do caso no SINAN.**  \n\n**Adequado:** verbaliza.  \n**Inadequado:** não verbaliza.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

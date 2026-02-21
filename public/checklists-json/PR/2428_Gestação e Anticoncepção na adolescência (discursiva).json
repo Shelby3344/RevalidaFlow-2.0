@@ -1,0 +1,127 @@
+{
+  "uid": 2428,
+  "hash": "pepe_2428",
+  "area": 4,
+  "area_a": "Família",
+  "area_b": "PR",
+  "area_s": "M. da Família e Comunidade",
+  "color": "#a855f7",
+  "checklist": "Gestação e Anticoncepção na adolescência (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: atenção primária à saúde.  \nTipo de atendimento: ambulatorial - unidade básica de saúde.  \nA unidade apresenta a seguinte infraestrutura:  \n• consultórios;  \n• laboratório de análises clínicas para exames básicos.\n\nDescrição do caso:\nVocê está em atendimento na UBS e receberá uma adolescente de 16 anos, que vai à consulta desacompanhada. Ela revela ter iniciado vida sexual recentemente com o namorado e, por ter tido relações desprotegidas, gostaria de fazer um teste de gravidez e, receber uma prescrição de contraceptivo oral.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese da paciente, focando nos aspectos ginecológicos e psicossociais.  \n- Abordar a questão do sigilo profissional no atendimento a adolescentes.  \n- Formular as hipóteses diagnósticas pertinentes.  \n- Solicitar os exames iniciais necessários.  \n- Orientar a paciente sobre contracepção e prevenção de ISTs.  \n- Explicar a conduta a ser tomada em caso de confirmação de gestação, no que tange ao sigilo.  \n- Responder às dúvidas da paciente.  \n\n\\\nATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE!  \nA PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO.",
+  "script_ator": "**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato solicite qualquer **exame de gravidez**, questionar: *E se o exame der positivo, o que acontece? Aí vai ter que contar para os meus pais?*  \n• Após o candidato responder a pergunta acima, liberar o impresso **TESTE RÁPIDO DE GRAVIDEZ**.  \n\n**DADOS PESSOAIS:**  \n• Amanda, 16 anos, estudante.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim aqui porque... bom... eu comecei a ter relações com meu namorado e a gente não usou camisinha. Eu estou com medo de estar grávida e queria fazer um teste. E se não estiver, queria começar a tomar pílula.  \n\n**HISTÓRIA DA QUEIXA ATUAL:**  \n• **Início da vida sexual:** Faz umas três semanas que a gente começou.  \n• **Frequência e proteção:** A gente já teve relação umas 3 vezes, sem usar nada.  \n• **Parceiro fixo:** Meu namorado, ele tem 16 anos também.  \n\n**HISTÓRIA GINECOLÓGICA:**  \n• **DUM:** Minha última menstruação foi há umas 2 semanas.  \n• **Ciclo:** é um pouco desregulado, mas não tenho muitas cólicas.  \n• **Menarca:** foi com 13 anos.  \n• **Sexarca:** há 3 semanas.  \n• **Sangramentos:** Só saiu um pouquinho na primeira vez.  \n• **Sintomas de gravidez:** Não estou sentindo nada de diferente, nem enjoo, nem dor no peito.  \n\n**CONTEXTO PSICOSSOCIAL:**  \n• **Relação com os pais:** Meus pais não estão confortáveis com esse assunto, eles não podem saber disso de jeito nenhum ainda.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS:**  \n• 1 - *Eu posso ser atendida sozinha? O(a) senhor(a) não vai contar para os meus pais?*  \n• 2 - *A enfermeira falou que tem uns grupos de conversa aqui no postinho sobre gestação. Eu posso participar? Precisa de autorização?*  \n• 3 - *Qual o melhor método para não engravidar?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 110x70 mmHg  \n• **FC:** 78 bpm  \n• **FR:** 16 irpm  \n• **Temp. axilar:** 36.5° C  \n• **IMC:** 21 kg/m²  \n\n\n**Ectoscopia:** Bom estado geral, corada, hidratada, eupneica. Ansiosa, porém colaborativa.  \n\n\n**Exame físico geral e segmentar:** sem alterações.",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "TESTE RÁPIDO DE GRAVIDEZ",
+      "conteudo": "**Teste Rápido de Gravidez (Urinário):** Não reagente.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Acolhimento e Estabelecimento de Vínculo:**  \n(1) apresenta-se à paciente de forma cordial e empática;  \n(2) garante um ambiente privativo e seguro para a consulta; e,  \n(3) valida os sentimentos da paciente (preocupação, medo).  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Anamnese Dirigida:**  \n(1) investiga a data da última menstruação (DUM) e o padrão do ciclo menstrual;  \n(2) caracteriza a vida sexual (início, parceiro, frequência, uso prévio de métodos); e,  \n(3) pergunta ativamente sobre sintomas de gravidez.  \n\n**Adequado:** investiga os três itens.  \n**Parcialmente adequado:** investiga dois itens.  \n**Inadequado:** investiga um item ou não investiga item algum.",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Orientação sobre Sigilo Médico e Autonomia da Paciente:**  \n(1) explica que ela pode ser atendida desacompanhada, pois demonstra capacidade de discernimento sobre sua situação;  \n(2) garante a confidencialidade das informações, explicando que o sigilo só seria quebrado em caso de risco de vida para ela ou para terceiros.  \n\n**Adequado:** explica os dois pontos de forma clara e acessível.  \n**Parcialmente adequado:** explica apenas um dos pontos.  \n**Inadequado:** não orienta sobre o sigilo ou dá informações incorretas.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Solicita Exame para Confirmação Diagnóstica:**  \n\n**Adequado:** solicita o teste de gravidez (Beta-HCG sanguíneo ou teste rápido urinário) como primeira medida para responder à dúvida principal da paciente.  \n**Inadequado:** não solicita o teste de gravidez.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Conduta Pós-Resultado Negativo:**  \n(1) comunica o resultado negativo de forma clara e empática;  \n(2) inicia a orientação sobre métodos contraceptivos, explorando as opções além do contraceptivo oral (ex: injetável, adesivo, DIU); e,  \n(3) reforça a importância do uso de preservativo (camisinha) para a prevenção de Infecções Sexualmente Transmissíveis (ISTs), independentemente do outro método escolhido.  \n\n**Adequado:** realiza as três ações.  \n**Parcialmente adequado:** realiza duas ações.  \n**Inadequado:** realiza uma ação ou não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Orientação sobre Cenário Hipotético de Gravidez:**  \n\n**Adequado:** explica que, em caso de confirmação de gestação, haveria a necessidade de comunicação a um responsável legal, e que o ideal seria que ela mesma fizesse essa comunicação, mas que, se não o fizesse, a quebra do sigilo pelo médico seria necessária para garantir o cuidado adequado.  \n**Inadequado:** afirma que manteria o sigilo mesmo em caso de gravidez OU não responde à pergunta da paciente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.75",
+        "adequado": "1.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Orientação sobre Grupos Educativos:**  \n\n**Adequado:** informa que ela pode frequentar as reuniões de grupos de discussão em saúde e que não é necessária autorização do responsável, pois se trata de atividades de orientação e educação em saúde.  \n**Inadequado:** não responde à pergunta ou informa que a autorização seria necessária.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Define um Plano de Seguimento:**  \n(1) propõe um retorno para iniciar o método contraceptivo escolhido e para acompanhamento;  \n(2) oferece testagem para ISTs.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não define um plano de seguimento.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

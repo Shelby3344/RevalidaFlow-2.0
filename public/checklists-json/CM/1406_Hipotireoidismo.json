@@ -1,0 +1,121 @@
+{
+  "uid": 1406,
+  "hash": "pepe_1406",
+  "area": 0,
+  "area_a": "Clínica",
+  "area_b": "CM",
+  "area_s": "Clínica Médica",
+  "color": "#038ffb",
+  "checklist": "Hipotireoidismo",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2014",
+  "tipo_de_checklist": 2,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: ambulatorial – unidade básica de saúde (UBS).  \nA unidade apresenta a seguinte infraestrutura:  \n• Consultório médico;\n• Sala de vacinação.\n\nDescrição do caso:\nVocê está atendendo em uma Unidade Básica de Saúde e recebe uma paciente de 45 anos que se queixa de cansaço e ganho de peso nos últimos meses.",
+  "tarefas": "TAREFAS:  \n- Realizar a anamnese dirigida ao caso;  \n- Solicitar e interpretar exame físico, caso necessário;  \n- Solicitar exame(s) complementar(es), caso necessário;  \n- Informar a principal hipótese diagnóstica;  \n- Esclarecer as dúvidas da paciente.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Sílvia, 45 anos, secretária.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a), eu vim aqui porque estou me sentindo muito cansada, sem energia pra nada.  \n\n**Início dos sintomas:** há 3 meses.  \n\n**DEMAIS QUEIXAS:**  \n• **Astenia, fadiga ou fraqueza:** É um cansaço que não melhora, mesmo quando eu durmo bem.  \n• **Ganho de peso:** eu engordei uns 5 quilos nesses últimos meses, mesmo comendo a mesma coisa de sempre.  \n• **Sudorese:** percebi que quase não estou suando.  \n• **Sensibilidade ao frio:** Tenho sentido muito frio, mais do que o normal.  \n• **Queda de cabelo:** Meu cabelo também está caindo muito, fica um monte no ralo do banheiro e na escova. Ele ta meio estranho.  \n• **Constipação:** Sim, meu intestino ficou bem mais preso, vou no banheiro só umas três vezes na semana.  \n\n**ANTECEDENTES GINECOLÓGICOS:**  \n• **DUM:** foi há 2 semanas.  \n• **Fluxo menstrual:** Meu ciclo é regular, dura uns 4 dias, sem cólicas fortes.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** nega.  \n• **Alimentação:** Minha alimentação é normal, como de tudo um pouco.  \n• **Atividade física:** nega.  \n• **Álcool, tabaco e drogas:** bebo um pouco final de semana, bem esporádico.  \n\n**ANTECEDENTES FAMILIARES:** minha mãe tem diabetes.  \n\n**DEMAIS PERGUNTAS:** não consta no Script.  \n\n**DÚVIDAS -** Após o candidato informar o diagnóstico:  \n• *Como você sabe que é isso?*  \n• *Deu alguma coisa alterada no exame que você fez em mim?*",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "EXAME FÍSICO",
+      "conteudo": "**Sinais vitais:**  \n• **PA:** 120x95 mmHg  \n• **FC:** 60 bpm  \n• **FR:** 14 irpm  \n• **SatO2:** 98%  \n• **Temp. axilar:** 36.4° C  \n• **IMC:** 29 kg/m²  \n\n\n**Ectoscopia:** paciente em bom estado geral, orientada, descorada (+/4+), anictérica, acianótica e afebril.\n\n\n**Pele e fêneros:** Pele seca e fria. Cabelos finos e de textura áspera.  \n\n\n**Pescoço:** nodulações não identificadas; sem desvio de traqueia; linfonodos cervicais e tireóide não palpáveis.  \n\n\n**Cardiovascular:** ritmo cardíaco regular em dois tempos, com bulhas normofonéticas e ausência de sopros.  \n\n\n**Respiratório:** murmúrio vesicular preservado em ambos campos pulmonares, sem ruídos adventícios.  \n\n\n**Abdominal:** abdome plano e flácido, indolor a palpação, RHA diminuídos, timpânico a percussão, sem massa palpável.  \n\n\n**MMII:** membros inferiores com edema depressível +/4+, cacifo negativo e ausência de sinais flogísticos.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Acolhe o paciente adequadamente, cumprimenta o outro e se identifica de maneira cordial.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Ouve com atenção a queixa do paciente.**",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Não interrompe a fala do outro desnecessariamente.**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Estabelece clima harmônico na consulta (rapport).**",
+      "categoria": "an",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Reconhece na história queixas relacionadas com hipotireoidismo.**  \n(1) cansaço, OU fadiga, OU vertigem;  \n(2) ganho de peso recente;  \n(3) constipação;  \n(4) sudorese diminuída;  \n(5) sensibilidade ao frio;  \n(6) queda de cabelo excessiva.  \n\n**Adequado:** reconhece 4 ou mais sinais.  \n**Parcialmente adequado:** reconhece 3 sinais.  \n**Inadequado:** reconhece 2 sinais ou menos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.5",
+        "adequado": "3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Reconhece nos achados físicos sinais de hipotireoidismo.**  \n(1) hipertensão diastólica;  \n(2) pele seca ou fria;  \n(3) cabelos quebradiços ou de textura áspera;  \n(4) RHA diminuídos;  \n(5) edema com cacifo negativo em MMII;  \n\n**Adequado:** reconhece 4 ou 5 sinais.  \n**Parcialmente adequado:** reconhece 3 sinais.  \n**Inadequado:** reconhece 2 sinais ou menos.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1.5",
+        "adequado": "3"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exames (T4 e TSH).**  \n\n**Adequado:** solicita os dois exames.  \n**Parcialmente adequado:** solicita apenas um exame.  \n**Inadequado:** não solicita exame algum.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Explica para a paciente a natureza de seus sintomas.**",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    }
+  ]
+}

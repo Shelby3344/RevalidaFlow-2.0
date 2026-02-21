@@ -1,0 +1,177 @@
+{
+  "uid": 2427,
+  "hash": "pepe_2427",
+  "area": 1,
+  "area_a": "Cirurgia",
+  "area_b": "CR",
+  "area_s": "Cirurgia",
+  "color": "#f97316",
+  "checklist": "ABCDE - Tamponamento Cardíaco (discursiva)",
+  "definicao": "",
+  "origem": 0,
+  "ano_da_prova": "INEP 2024/2",
+  "tipo_de_checklist": 3,
+  "resumo": {
+    "pct": "0",
+    "star": 0,
+    "time": 0,
+    "count": 0
+  },
+  "cenario": "Nível de atenção: urgência e emergência - hospitalar.  \nA unidade hospitalar possui a seguinte infraestrutura:  \n• Sala de emergência equipada;  \n• Laboratório de análises clínicas;  \n• Aparelho de ultrassonografia portátil (e-FAST).\n\nDescrição do caso:\nVocê está de plantão num hospital de pequeno porte do interior e receberá um paciente de 20 anos, vítima de colisão automobilística, trazido à emergência. Ele se queixa de dificuldade para respirar e tontura.",
+  "tarefas": "TAREFAS:  \n- Realizar a avaliação primária (ABCDE) do paciente politraumatizado.  \n- Identificar as lesões e o estado hemodinâmico do paciente.  \n- Verbalizar a principal hipótese diagnóstica e dois diagnósticos diferenciais.  \n- Indicar as condutas imediatas para estabilização do paciente.  \n\n\\\nATENÇÃO! VERBALIZE TODAS AS SUAS AÇÕES E SOLICITAÇÕES PARA A EQUIPE.  \nO PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+  "script_ator": "**DADOS PESSOAIS:**  \n• Ricardo, 20 anos, estudante.  \n\n**MOTIVO DE CONSULTA:**  \n• Doutor(a)... está difícil de respirar... estou me sentindo tonto.  \n\n**SOBRE O ACIDENTE:**  \n• Eu estava dirigindo... bati o carro. Não lembro direito. Não estava de cinto.  \n\n**SINAIS E SINTOMAS:**  \n• Meu peito parece pesado. Não sinto dor no pescoço.  \n\n**ANTECEDENTES PESSOAIS:**  \n• **Alergias, doenças e medicações:** não tenho nada.  \n\n**ORIENTAÇÕES AO ATOR/ATRIZ:**  \n• Caso o candidato solicite a avaliação primária (ABCDE), libere o impresso **AVALIAÇÃO PRIMÁRIA (ABCDE)** somente APÓS ele verbalizar conclusão de todo o ABCDE.  \n• Caso o candidato indique oxigenoterapia: *Considere realizado.*  \n• Caso o candidato indique acesso venoso: *Qual calibre e qual solução, doutor(a)?*  \n• Caso o candidato solicite e-FAST, libere o impresso **RESULTADO DO E-FAST**.",
+  "impressos": [
+    {
+      "idx": 1,
+      "titulo": "SINAIS VITAIS NA ADMISSÃO",
+      "conteudo": "**Sinais Vitais:**  \n• **PA:** 80x60 mmHg  \n• **FC:** 136 bpm  \n• **FR:** 38 irpm  \n• **SatO2:** 92% em ar ambiente  \n• **Temp. axilar:** 36.4°C",
+      "imagem": null
+    },
+    {
+      "idx": 2,
+      "titulo": "AVALIAÇÃO PRIMÁRIA (ABCDE)",
+      "conteudo": "**A - Vias Aéreas:** Vias aéreas pérvias, paciente verbalizando. Colar cervical em uso.  \n\n\n**B - Respiração:** Murmúrio vesicular fisiológico e presente bilateralmente. Escoriações em hemitórax esquerdo.  \n\n\n**C - Circulação:** Turgência de jugulares a 45º. Bulhas cardíacas hipofonéticas.  \n\n\n**D - Neurológico:** Glasgow 13 (AO:4, RV:4, RM:5), pupilas isocóricas e fotorreagentes.  \n\n\n**E - Exposição:** Coberto com manta térmica. Escoriações superficiais em região toracoabdominal anterior esquerda.  \n\n\n**ATENÇÃO**  \n**IDENTIFIQUE E VERBALIZE AS ALTERAÇÕES DA AVALIAÇÃO PRIMÁRIA**",
+      "imagem": null
+    },
+    {
+      "idx": 3,
+      "titulo": "RESULTADO DO E-FAST",
+      "conteudo": "**Janela Pericárdica/Subxifoidea:** Presença de lâmina anecoica significativa circundando o coração, com sinais de restrição diastólica do ventrículo direito.  \n\n\n**Outras Janelas (Hepatorrenal, Esplenorrenal, Pélvica):** Ausência de líquido livre.",
+      "imagem": null
+    }
+  ],
+  "pep_items": [
+    {
+      "idx": 1,
+      "descricao": "**1. Apresenta-se e avalia a segurança da cena.**  \n(1) identifica-se para o paciente;  \n(2) verbaliza que a cena está segura para o atendimento.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 2,
+      "descricao": "**2. Realiza a avaliação primária seguindo a sequência correta do ABCDE.**  \n\n**Adequado:** verbaliza a avaliação sequencial de Vias Aéreas, Respiração, Circulação, Neurológico e Exposição.  \n**Inadequado:** não segue a sequência do ABCDE.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 3,
+      "descricao": "**3. Identifica na avaliação das Vias aéreas (A) e institui a conduta inicial.**  \n(1) identifica vias aéreas pérveas (paciente contactante);  \n(2) indica manutenção do colar cervical.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 4,
+      "descricao": "**4. Identifica as alterações na avaliação da respiração (B) e institui a conduta inicial.**  \n(1) identifica a taquipneia e a hipóxia (SatO₂ 92%);  \n(2) indica a administração de oxigênio em alto fluxo com máscara não reinalante.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 5,
+      "descricao": "**5. Identifica os sinais clássicos de tamponamento cardíaco (Tríade de Beck) na avaliação da circulação (C).**  \n(1) hipotensão arterial;  \n(2) turgência jugular;  \n(3) abafamento de bulhas cardíacas (hipofonese).  \n\n**Adequado:** identifica os três componentes da tríade.  \n**Parcialmente adequado:** identifica dois componentes.  \n**Inadequado:** identifica um ou nenhum componente.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.35",
+        "adequado": "0.75"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 6,
+      "descricao": "**6. Inicia o manejo da circulação (C).**  \n(1) solicita dois acessos venosos periféricos de grosso calibre (14G ou 16G);  \n(2) inicia reposição volêmica com cristaloide aquecido.  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 7,
+      "descricao": "**7. Solicita exame complementar para confirmação diagnóstica no trauma fechado.**  \n\n**Adequado:** solicita a realização do ultrassom FAST ou eFAST à beira leito.  \n**Inadequado:** não solicita o exame ou solicita radiografia como primeira opção.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "-",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 8,
+      "descricao": "**8. Verbaliza o diagnóstico principal e os diagnósticos diferenciais.**  \n(1) verbaliza o diagnóstico principal de Tamponamento Cardíaco;  \n(2) cita dois diagnósticos diferenciais para choque obstrutivo no trauma (ex: pneumotórax, hemotórax, tórax instável, lesão de aorta, ou atelectasia traumática).  \n\n**Adequado:** realiza as duas ações.  \n**Parcialmente adequado:** realiza uma ação.  \n**Inadequado:** não realiza ação alguma.",
+      "categoria": "dx",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "1",
+        "adequado": "2"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 9,
+      "descricao": "**9. Indica o procedimento terapêutico de emergência para o diagnóstico principal.**  \n\n**Adequado:** indica a realização de pericardiocentese, OU punção de Marfan, OU toracotomia de urgência.  \n**Inadequado:** não indica os procedimentos acima.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.5",
+        "adequado": "1"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 10,
+      "descricao": "**10. Realiza a avaliação neurológica (D).**  \n\n**Adequado:** avalia e verbaliza corretamente a pontuação na Escala de Coma de Glasgow (13) e o exame das pupilas.  \n**Inadequado:** não realiza a avaliação neurológica completa.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 11,
+      "descricao": "**11. Realiza a exposição do paciente e controle do ambiente (E).**  \n\n**Adequado:** verbaliza a necessidade de despir completamente o paciente para procurar outras lesões, mantendo-o aquecido para prevenir hipotermia, OU manter a temperatura em 24-26º, OU desligar ar condicionado da sala.  \n**Inadequado:** não menciona a exposição completa ou a prevenção de hipotermia.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.25",
+        "adequado": "0.5"
+      },
+      "dica_teorica": null
+    },
+    {
+      "idx": 12,
+      "descricao": "**12. Indica a necessidade de transferência para um centro de trauma.**  \n\n**Adequado:** verbaliza a necessidade de transferência urgente para um hospital de maior capacidade e avaliação de um especialista.  \n**Inadequado:** não indica a necessidade de transferência.",
+      "categoria": "ac",
+      "pontuacao": {
+        "inadequado": "0",
+        "parcial": "0.1",
+        "adequado": "0.25"
+      },
+      "dica_teorica": null
+    }
+  ]
+}
