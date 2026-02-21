@@ -15,6 +15,7 @@ import { JoinSessionModal } from "@/components/avaliacao/JoinSessionModal";
 import { useAvaliacaoSession } from "@/hooks/useAvaliacaoSession";
 import { useAvaliacaoSync } from "@/hooks/useAvaliacaoSync";
 import { useUserData } from "@/hooks/useUserData";
+import { useAuth } from "@/hooks/useAuth";
 import { ResultData } from "@/types/avaliacao";
 import { formatTime, decodeSessionData } from "@/lib/avaliacao-utils";
 import { toast } from "sonner";
@@ -41,6 +42,7 @@ export default function AvaliacaoAvaliado() {
 
   const { session, loadSession, updateSession, createSessionFromData } = useAvaliacaoSession();
   const { saveAttempt } = useUserData();
+  const { user } = useAuth();
 
   // Função para salvar estatísticas do avaliado
   const saveAvaliadoStats = useCallback(async (resultData: ResultData) => {
@@ -187,17 +189,16 @@ export default function AvaliacaoAvaliado() {
     if (!sessionCode) return;
     
     // Setar avaliado_id e avaliado_name para que a RLS permita acesso após mudança de status
-    const { user } = await import('@/lib/supabase').then(m => m.supabase.auth.getUser());
     const updates: any = { avaliadoName: name };
-    if (user?.data?.user?.id) {
-      updates.avaliadoId = user.data.user.id;
+    if (user?.id) {
+      updates.avaliadoId = user.id;
     }
     await updateSession(updates);
     broadcastAvaliadoConnected(sessionCode, name);
     setShowJoinModal(false);
     setHasJoined(true);
     toast.success("Conectado à sessão!");
-  }, [sessionCode, updateSession, broadcastAvaliadoConnected]);
+  }, [sessionCode, updateSession, broadcastAvaliadoConnected, user]);
 
   const toggleImpresso = (impressoId: number) => {
     setExpandedImpressos((prev) => {
