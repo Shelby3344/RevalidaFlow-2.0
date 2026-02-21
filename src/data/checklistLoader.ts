@@ -158,6 +158,17 @@ function parseEvaluationItem(item: { idx: number; descricao: string; categoria: 
 export function convertJsonToChecklistContent(json: JsonChecklist): ChecklistContent {
   const scenario = parseScenario(json.cenario);
   
+  // Separar cenário e descrição do campo 'cenario' original
+  // O campo cenario já contém scene + description concatenados no formato:
+  // "Nível de atenção: ...\n...\nDescrição do caso:\n..."
+  const cenarioText = json.cenario || '';
+  const descIdx = cenarioText.indexOf('Descrição do caso:');
+  const descIdx2 = cenarioText.indexOf('Descrição:');
+  const splitIdx = descIdx >= 0 ? descIdx : (descIdx2 >= 0 ? descIdx2 : -1);
+  
+  const rawCenario = splitIdx >= 0 ? cenarioText.substring(0, splitIdx).trim() : cenarioText;
+  const rawDescricao = splitIdx >= 0 ? cenarioText.substring(splitIdx).trim() : '';
+
   return {
     scenario: {
       nivel: scenario.nivel || 'A definir',
@@ -178,7 +189,12 @@ export function convertJsonToChecklistContent(json: JsonChecklist): ChecklistCon
     evaluationItems: json.pep_items.map(parseEvaluationItem),
     references: [],
     definicao: json.definicao,
-    resumo: json.resumo
+    resumo: json.resumo,
+    // Campos raw markdown - preservam formatação original
+    rawCenario: rawCenario || undefined,
+    rawDescricao: rawDescricao || undefined,
+    rawTarefas: json.tarefas || undefined,
+    rawScriptAtor: json.script_ator || undefined,
   };
 }
 

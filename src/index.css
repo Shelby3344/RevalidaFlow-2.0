@@ -336,6 +336,23 @@
 }
 
 @layer utilities {
+  /* Markdown content styling */
+  .markdown-content p {
+    @apply leading-relaxed;
+  }
+
+  .markdown-content p + p {
+    @apply mt-2;
+  }
+
+  .markdown-content strong {
+    @apply text-foreground font-semibold;
+  }
+
+  .markdown-content em {
+    @apply italic;
+  }
+
   /* Animations */
   .animate-in {
     animation: animateIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;

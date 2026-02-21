@@ -14,7 +14,10 @@ import {
   ListChecks,
   Settings,
   Trophy,
+  ClipboardList,
+  Stethoscope,
 } from "lucide-react";
+import { MarkdownRenderer } from "@/components/ui/MarkdownRenderer";
 import { AreaBadge } from "@/components/AreaBadge";
 import { AreaCode, checklistsData } from "@/data/checklists";
 import {
@@ -348,24 +351,36 @@ export default function TreinoIA() {
                 {phase === "setup" && (
                   <div className="bg-card border border-border rounded-lg p-4 mb-4">
                     <div className="flex items-center gap-2 text-primary mb-3">
-                      <MessageSquare className="w-4 h-4" />
-                      <span className="text-sm font-medium">Cenário de Atuação</span>
+                      <Stethoscope className="w-4 h-4" />
+                      <span className="text-sm font-medium">Cenário de Atendimento</span>
                     </div>
                     <div className="text-sm text-muted-foreground space-y-2">
-                      <p>
-                        <span className="text-foreground font-medium">Nível:</span>{" "}
-                        {content.scenario.nivel}
-                      </p>
-                      <p>
-                        <span className="text-foreground font-medium">Tipo:</span>{" "}
-                        {content.scenario.tipo}
-                      </p>
-                      <div className="mt-3">
-                        <p className="text-foreground font-medium mb-1">Descrição:</p>
-                        {content.scenario.descricao.map((desc, idx) => (
-                          <p key={idx} className="mt-1">{desc}</p>
-                        ))}
-                      </div>
+                      {content.rawCenario ? (
+                        <MarkdownRenderer content={content.rawCenario} />
+                      ) : (
+                        <>
+                          <p>
+                            <span className="text-foreground font-medium">Nível:</span>{" "}
+                            {content.scenario.nivel}
+                          </p>
+                          <p>
+                            <span className="text-foreground font-medium">Tipo:</span>{" "}
+                            {content.scenario.tipo}
+                          </p>
+                        </>
+                      )}
+                      {content.rawDescricao ? (
+                        <div className="mt-3">
+                          <MarkdownRenderer content={content.rawDescricao} />
+                        </div>
+                      ) : (
+                        <div className="mt-3">
+                          <p className="text-foreground font-medium mb-1">Descrição:</p>
+                          {content.scenario.descricao.map((desc, idx) => (
+                            <p key={idx} className="mt-1">{desc}</p>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   </div>
                 )}
@@ -388,10 +403,16 @@ export default function TreinoIA() {
                       <ListChecks className="w-4 h-4" />
                       <span className="text-sm font-medium">Tarefas a Executar</span>
                     </div>
-                    <div className="text-sm text-muted-foreground space-y-1">
-                      {content.orientacoes.map((item, idx) => (
-                        <p key={idx}>• {item}</p>
-                      ))}
+                    <div className="text-sm text-muted-foreground">
+                      {content.rawTarefas ? (
+                        <MarkdownRenderer content={content.rawTarefas} />
+                      ) : (
+                        <div className="space-y-1">
+                          {content.orientacoes.map((item, idx) => (
+                            <p key={idx}>• {item}</p>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   </div>
                 )}

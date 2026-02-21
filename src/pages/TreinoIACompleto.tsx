@@ -12,6 +12,9 @@ import {
   MessageSquare,
   ListChecks,
   User,
+  FileText,
+  ClipboardList,
+  Stethoscope,
 } from "lucide-react";
 import { AreaBadge } from "@/components/AreaBadge";
 import { AreaCode, checklistsData } from "@/data/checklists";
@@ -23,8 +26,8 @@ import { ChecklistContent } from "@/types/checklists";
 import { ChatPacienteIA } from "@/components/treino-ia/ChatPacienteIA";
 import { ChecklistCompletoIA } from "@/components/treino-ia/ChecklistCompletoIA";
 import { ChecklistBloqueado } from "@/components/treino-ia/ChecklistBloqueado";
-import { ImpressosComCadeado } from "@/components/treino-ia/ImpressosComCadeado";
 import { FeedbackItem } from "@/components/treino-ia/FeedbackItem";
+import { MarkdownRenderer } from "@/components/ui/MarkdownRenderer";
 import { AnaliseResultados } from "@/components/treino-ia/AnaliseResultados";
 import { ResultSummary } from "@/components/avaliacao/ResultSummary";
 import { useAIPacienteAvaliador } from "@/hooks/useAIPacienteAvaliador";
@@ -463,110 +466,169 @@ export default function TreinoIACompleto() {
                 </div>
               </div>
 
-              {/* Coluna direita - Cenário + Orientações + Ator + Impressos + Checklist (3/5 = 60%) */}
+              {/* Coluna direita - Instruções + Script + Impressos + Checklist (3/5 = 60%) */}
               <div className="lg:col-span-3 flex flex-col min-h-0 gap-3 overflow-y-auto">
-                {/* Cenário de atuação */}
-                <div className="bg-card border border-border rounded-lg overflow-hidden flex-shrink-0">
-                  <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-2">
-                    <div className="flex items-center gap-2 text-primary">
-                      <MessageSquare className="w-3 h-3" />
-                      <span className="text-xs font-medium">Cenário de atuação</span>
-                    </div>
-                  </div>
-                  <div className="p-3 space-y-2 text-xs text-muted-foreground">
-                    <div>
-                      <p><span className="text-foreground italic">Nível:</span> {content.scenario.nivel}</p>
-                      <p><span className="text-foreground italic">Tipo:</span> {content.scenario.tipo}</p>
-                    </div>
-                    <div className="pt-1">
-                      <p className="text-foreground font-medium mb-1">DESCRIÇÃO DO CASO:</p>
-                      {content.scenario.descricao.map((item, idx) => (
-                        <p key={idx} className={idx > 0 ? 'mt-1' : ''}>{item}</p>
-                      ))}
-                    </div>
-                  </div>
-                </div>
 
-                {/* Orientações dos 10 min */}
-                <div className="bg-card border border-border rounded-lg overflow-hidden flex-shrink-0">
-                  <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-2">
+                {/* === INSTRUÇÕES AO PARTICIPANTE === */}
+                <div className="flex-shrink-0">
+                  <div className="bg-[#1a2040] border border-primary/30 rounded-lg px-3 py-2 mb-2">
                     <div className="flex items-center gap-2 text-primary">
-                      <ListChecks className="w-3 h-3" />
-                      <span className="text-xs font-medium">
-                        Nos 10 Min. de duração da estação, você deverá executar as seguintes tarefas:
-                      </span>
+                      <ClipboardList className="w-4 h-4" />
+                      <span className="text-sm font-bold tracking-wide">INSTRUÇÕES AO PARTICIPANTE</span>
                     </div>
                   </div>
-                  <div className="p-3">
-                    <ul className="space-y-1.5 text-xs text-muted-foreground">
-                      {content.orientacoes.map((item, idx) => (
-                        <li key={idx} className="flex items-start gap-2">
-                          <span className="text-primary mt-0.5">•</span>
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
 
-                {/* Orientações do Ator/Atriz */}
-                {content.instrucoes.itens.length > 0 && (
-                  <div className="bg-card border border-border rounded-lg overflow-hidden flex-shrink-0">
-                    <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-2">
-                      <div className="flex items-center gap-2 text-primary">
-                        <User className="w-3 h-3" />
-                        <span className="text-xs font-medium">{content.instrucoes.titulo || "Orientações do Ator/Atriz"}</span>
+                  {/* Cenário de Atendimento */}
+                  {content.rawCenario && (
+                    <div className="bg-card border border-border rounded-lg overflow-hidden mb-2">
+                      <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-1.5">
+                        <div className="flex items-center gap-2 text-primary">
+                          <Stethoscope className="w-3 h-3" />
+                          <span className="text-xs font-medium">Cenário de Atendimento</span>
+                        </div>
+                      </div>
+                      <div className="p-3 text-xs text-muted-foreground">
+                        <MarkdownRenderer content={content.rawCenario} />
                       </div>
                     </div>
-                    <div className="p-3 max-h-[300px] overflow-y-auto">
-                      <div className="space-y-3 text-xs">
-                        {content.instrucoes.itens.map((item, idx) => {
-                          // Detectar se é um título de categoria (começa com letra maiúscula e termina com :)
-                          const isCategory = /^[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ][A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ\s]+:/.test(item);
-                          // Detectar se é um item com label (ex: "DADOS PESSOAIS: valor")
-                          const hasLabel = item.includes(':') && !isCategory;
-                          
-                          if (isCategory) {
-                            return (
-                              <div key={idx} className="pt-2 first:pt-0">
-                                <p className="text-primary font-semibold text-[11px] uppercase tracking-wide border-b border-primary/20 pb-1 mb-2">
-                                  {item}
-                                </p>
-                              </div>
-                            );
-                          }
-                          
-                          if (hasLabel) {
-                            const [label, ...rest] = item.split(':');
-                            const value = rest.join(':').trim();
-                            return (
-                              <div key={idx} className="flex flex-col gap-0.5 pl-2 border-l-2 border-primary/20">
-                                <span className="text-foreground font-medium text-[11px]">{label}:</span>
-                                <span className="text-muted-foreground leading-relaxed">{value}</span>
-                              </div>
-                            );
-                          }
-                          
-                          return (
-                            <p key={idx} className="text-muted-foreground pl-2 border-l-2 border-primary/20 leading-relaxed">
-                              {item}
-                            </p>
-                          );
-                        })}
+                  )}
+
+                  {/* Descrição do Caso */}
+                  {content.rawDescricao && (
+                    <div className="bg-card border border-border rounded-lg overflow-hidden mb-2">
+                      <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-1.5">
+                        <div className="flex items-center gap-2 text-primary">
+                          <MessageSquare className="w-3 h-3" />
+                          <span className="text-xs font-medium">Descrição do Caso</span>
+                        </div>
+                      </div>
+                      <div className="p-3 text-xs text-muted-foreground">
+                        <MarkdownRenderer content={content.rawDescricao} />
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Fallback se não tem raw (checklists antigos) */}
+                  {!content.rawCenario && !content.rawDescricao && (
+                    <div className="bg-card border border-border rounded-lg overflow-hidden mb-2">
+                      <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-1.5">
+                        <div className="flex items-center gap-2 text-primary">
+                          <MessageSquare className="w-3 h-3" />
+                          <span className="text-xs font-medium">Cenário de atuação</span>
+                        </div>
+                      </div>
+                      <div className="p-3 space-y-2 text-xs text-muted-foreground">
+                        <div>
+                          <p><span className="text-foreground italic">Nível:</span> {content.scenario.nivel}</p>
+                          <p><span className="text-foreground italic">Tipo:</span> {content.scenario.tipo}</p>
+                        </div>
+                        <div className="pt-1">
+                          <p className="text-foreground font-medium mb-1">DESCRIÇÃO DO CASO:</p>
+                          {content.scenario.descricao.map((item, idx) => (
+                            <p key={idx} className={idx > 0 ? 'mt-1' : ''}>{item}</p>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Tarefas */}
+                  <div className="bg-card border border-border rounded-lg overflow-hidden mb-2">
+                    <div className="bg-[#2a2f4a] border-b border-primary/30 px-3 py-1.5">
+                      <div className="flex items-center gap-2 text-primary">
+                        <ListChecks className="w-3 h-3" />
+                        <span className="text-xs font-medium">Tarefas</span>
+                      </div>
+                    </div>
+                    <div className="p-3 text-xs text-muted-foreground">
+                      {content.rawTarefas ? (
+                        <MarkdownRenderer content={content.rawTarefas} />
+                      ) : (
+                        <ul className="space-y-1.5">
+                          {content.orientacoes.map((item, idx) => (
+                            <li key={idx} className="flex items-start gap-2">
+                              <span className="text-primary mt-0.5">•</span>
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  </div>
+                </div>
+
+                {/* === SCRIPT DO ATOR === */}
+                {(content.rawScriptAtor || content.instrucoes.itens.length > 0) && (
+                  <div className="flex-shrink-0">
+                    <div className="bg-card border border-border rounded-lg overflow-hidden">
+                      <div className="bg-[#1a2040] border-b border-primary/30 px-3 py-2">
+                        <div className="flex items-center gap-2 text-primary">
+                          <User className="w-4 h-4" />
+                          <span className="text-sm font-bold tracking-wide">SCRIPT DO ATOR</span>
+                        </div>
+                      </div>
+                      <div className="p-3 max-h-[400px] overflow-y-auto text-xs text-muted-foreground">
+                        {content.rawScriptAtor ? (
+                          <MarkdownRenderer content={content.rawScriptAtor} />
+                        ) : (
+                          <div className="space-y-3">
+                            {content.instrucoes.itens.map((item, idx) => {
+                              const isCategory = /^[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ][A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇ\s]+:/.test(item);
+                              const hasLabel = item.includes(':') && !isCategory;
+                              if (isCategory) {
+                                return (
+                                  <div key={idx} className="pt-2 first:pt-0">
+                                    <p className="text-primary font-semibold text-[11px] uppercase tracking-wide border-b border-primary/20 pb-1 mb-2">{item}</p>
+                                  </div>
+                                );
+                              }
+                              if (hasLabel) {
+                                const [label, ...rest] = item.split(':');
+                                return (
+                                  <div key={idx} className="flex flex-col gap-0.5 pl-2 border-l-2 border-primary/20">
+                                    <span className="text-foreground font-medium text-[11px]">{label}:</span>
+                                    <span className="text-muted-foreground leading-relaxed">{rest.join(':').trim()}</span>
+                                  </div>
+                                );
+                              }
+                              return <p key={idx} className="text-muted-foreground pl-2 border-l-2 border-primary/20 leading-relaxed">{item}</p>;
+                            })}
+                          </div>
+                        )}
                       </div>
                     </div>
                   </div>
                 )}
 
-                {/* Impressos com cadeado */}
-                <div className="flex-shrink-0">
-                  <ImpressosComCadeado
-                    impressos={content.impressos || []}
-                    liberatedExames={liberatedExames}
-                  />
-                </div>
+                {/* === IMPRESSOS === */}
+                {content.impressos && content.impressos.length > 0 && (
+                  <div className="flex-shrink-0 space-y-2">
+                    {content.impressos.map((imp) => (
+                      <div key={imp.id} className="bg-card border border-border rounded-lg overflow-hidden">
+                        <div className="bg-[#1a2040] border-b border-primary/30 px-3 py-2">
+                          <div className="flex items-center gap-2 text-primary">
+                            <FileText className="w-4 h-4" />
+                            <span className="text-sm font-bold tracking-wide">IMPRESSO - {imp.title.replace(/^Impresso \d+ – /, '')}</span>
+                          </div>
+                        </div>
+                        <div className="p-3 text-xs text-muted-foreground">
+                          {imp.content && <MarkdownRenderer content={imp.content} />}
+                          {imp.image && (
+                            <img
+                              src={imp.image.startsWith('http') ? imp.image : `https://storage.googleapis.com/flutterflow-prod-hosting/builds/W0O9Hpo7q2K52cAGr0p5/${imp.image}`}
+                              alt={imp.title}
+                              className="mt-3 max-w-full rounded-lg border border-border"
+                              loading="lazy"
+                              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                            />
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
 
-                {/* Checklist - Bloqueado ou Desbloqueado */}
+                {/* === ITENS DE DESEMPENHO AVALIADOS (Checklist) === */}
                 <div className="flex-1 min-h-0">
                   {checklistUnlocked ? (
                     <ChecklistCompletoIA

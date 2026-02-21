@@ -67,6 +67,11 @@ export interface ChecklistContent {
     time: number;
     count: number;
   };
+  // Campos raw markdown - preservam formatação original do PEPE
+  rawCenario?: string;      // cenário original com markdown (scene)
+  rawDescricao?: string;    // descrição do caso com markdown
+  rawTarefas?: string;      // tarefas com markdown
+  rawScriptAtor?: string;   // script do ator com markdown completo
 }
 
 // ===== COLLABORATIVE TRAINING ROOMS TYPES =====

@@ -2,7 +2,8 @@ import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { AppLayout } from '@/components/layout/AppLayout';
 import { Button } from '@/components/ui/button';
-import { MessageSquare, ListChecks, AlignLeft } from 'lucide-react';
+import { MessageSquare, ListChecks, AlignLeft, ClipboardList, Stethoscope, FileText, User } from 'lucide-react';
+import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import { AreaBadge } from '@/components/AreaBadge';
 import { AreaCode } from '@/data/checklists';
 import { getChecklistContentByIdAsync, defaultChecklistContent } from '@/data/checklistContents';
@@ -10,7 +11,6 @@ import { ChecklistContent } from '@/types/checklists';
 import { SessionLinkPanel } from '@/components/avaliacao/SessionLinkPanel';
 import { TimerDisplay } from '@/components/avaliacao/TimerDisplay';
 import { ChecklistEvaluator } from '@/components/avaliacao/ChecklistEvaluator';
-import { ImpressoItem } from '@/components/avaliacao/ImpressoItem';
 import { ResultSummary } from '@/components/avaliacao/ResultSummary';
 import { AnaliseResultadosLocal } from '@/components/avaliacao/AnaliseResultadosLocal';
 import { useAvaliacaoSession } from '@/hooks/useAvaliacaoSession';
@@ -247,49 +247,86 @@ export default function AvaliacaoAvaliador() {
               </div>
             </div>
 
-            {/* Cenário de atuação */}
-            <div className="bg-card border border-border rounded-lg mb-6 overflow-hidden">
-              <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-3">
-                <div className="flex items-center gap-2 text-primary">
-                  <MessageSquare className="w-4 h-4" />
-                  <span className="text-sm font-medium">Cenário de atuação</span>
+            {/* === INSTRUÇÕES AO PARTICIPANTE === */}
+            <div className="bg-[#1a2040] border border-primary/30 rounded-lg px-4 py-2 mb-3">
+              <div className="flex items-center gap-2 text-primary">
+                <ClipboardList className="w-4 h-4" />
+                <span className="text-sm font-bold tracking-wide">INSTRUÇÕES AO PARTICIPANTE</span>
+              </div>
+            </div>
+
+            {/* Cenário de Atendimento */}
+            {content.rawCenario ? (
+              <div className="bg-card border border-border rounded-lg mb-3 overflow-hidden">
+                <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-2">
+                  <div className="flex items-center gap-2 text-primary">
+                    <Stethoscope className="w-4 h-4" />
+                    <span className="text-sm font-medium">Cenário de Atendimento</span>
+                  </div>
+                </div>
+                <div className="p-4 text-sm text-muted-foreground">
+                  <MarkdownRenderer content={content.rawCenario} />
                 </div>
               </div>
-              <div className="p-5 space-y-4">
-                {/* Info cards em grid */}
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="bg-secondary/30 rounded-lg p-3">
-                    <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">Nível de atenção</p>
-                    <p className="text-sm text-foreground font-medium">{content.scenario.nivel}</p>
-                  </div>
-                  <div className="bg-secondary/30 rounded-lg p-3">
-                    <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">Tipo de atendimento</p>
-                    <p className="text-sm text-foreground font-medium">{content.scenario.tipo}</p>
+            ) : (
+              <div className="bg-card border border-border rounded-lg mb-3 overflow-hidden">
+                <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-2">
+                  <div className="flex items-center gap-2 text-primary">
+                    <Stethoscope className="w-4 h-4" />
+                    <span className="text-sm font-medium">Cenário de atuação</span>
                   </div>
                 </div>
-                
-                {/* Infraestrutura */}
-                <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-lg p-4">
-                  <p className="text-xs text-cyan-400 uppercase tracking-wide font-medium mb-3 flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full"></span>
-                    Infraestrutura disponível
-                  </p>
-                  <div className="grid gap-1.5">
-                    {content.scenario.situacao.map((item, idx) => (
-                      <p key={idx} className="text-sm text-foreground/80 pl-3.5 flex items-start gap-2">
-                        <span className="text-cyan-400 mt-1">•</span>
-                        {item.replace(/^-+/, '').trim()}
-                      </p>
-                    ))}
+                <div className="p-5 space-y-4">
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="bg-secondary/30 rounded-lg p-3">
+                      <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">Nível de atenção</p>
+                      <p className="text-sm text-foreground font-medium">{content.scenario.nivel}</p>
+                    </div>
+                    <div className="bg-secondary/30 rounded-lg p-3">
+                      <p className="text-xs text-muted-foreground uppercase tracking-wide mb-1">Tipo de atendimento</p>
+                      <p className="text-sm text-foreground font-medium">{content.scenario.tipo}</p>
+                    </div>
+                  </div>
+                  <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-lg p-4">
+                    <p className="text-xs text-cyan-400 uppercase tracking-wide font-medium mb-3 flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full"></span>
+                      Infraestrutura disponível
+                    </p>
+                    <div className="grid gap-1.5">
+                      {content.scenario.situacao.map((item, idx) => (
+                        <p key={idx} className="text-sm text-foreground/80 pl-3.5 flex items-start gap-2">
+                          <span className="text-cyan-400 mt-1">•</span>
+                          {item.replace(/^-+/, '').trim()}
+                        </p>
+                      ))}
+                    </div>
                   </div>
                 </div>
+              </div>
+            )}
 
-                {/* Descrição do caso */}
-                <div className="bg-primary/5 border border-primary/20 rounded-lg p-4">
-                  <p className="text-xs text-primary uppercase tracking-wide font-medium mb-3 flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
-                    Descrição do caso
-                  </p>
+            {/* Descrição do Caso */}
+            {content.rawDescricao ? (
+              <div className="bg-card border border-border rounded-lg mb-3 overflow-hidden">
+                <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-2">
+                  <div className="flex items-center gap-2 text-primary">
+                    <MessageSquare className="w-4 h-4" />
+                    <span className="text-sm font-medium">Descrição do Caso</span>
+                  </div>
+                </div>
+                <div className="p-4 text-sm text-muted-foreground">
+                  <MarkdownRenderer content={content.rawDescricao} />
+                </div>
+              </div>
+            ) : (
+              <div className="bg-card border border-border rounded-lg mb-3 overflow-hidden">
+                <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-2">
+                  <div className="flex items-center gap-2 text-primary">
+                    <MessageSquare className="w-4 h-4" />
+                    <span className="text-sm font-medium">Descrição do caso</span>
+                  </div>
+                </div>
+                <div className="p-4">
                   <div className="space-y-2">
                     {content.scenario.descricao.map((item, idx) => (
                       <p key={idx} className="text-sm text-foreground/90 leading-relaxed">{item}</p>
@@ -297,44 +334,60 @@ export default function AvaliacaoAvaliador() {
                   </div>
                 </div>
               </div>
-            </div>
+            )}
 
-            {/* Tarefas da Estação */}
+            {/* Tarefas */}
             <div className="bg-card border border-border rounded-lg mb-6 overflow-hidden">
-              <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-3">
+              <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-2">
                 <div className="flex items-center gap-2 text-primary">
                   <ListChecks className="w-4 h-4" />
-                  <span className="text-sm font-medium">Tarefas da Estação (10 minutos)</span>
+                  <span className="text-sm font-medium">Tarefas</span>
                 </div>
               </div>
-              <div className="p-5">
-                <div className="grid gap-2">
-                  {content.orientacoes
-                    .filter(item => !item.toLowerCase().includes('nos 10 min') && !item.toLowerCase().includes('duração da estação'))
-                    .map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-3 bg-secondary/20 rounded-lg p-3">
-                      <span className="flex-shrink-0 w-6 h-6 bg-primary/20 text-primary rounded-full flex items-center justify-center text-xs font-bold">
-                        {idx + 1}
-                      </span>
-                      <p className="text-sm text-foreground/90 pt-0.5">{item.replace(/^-+/, '').trim()}</p>
-                    </div>
-                  ))}
-                </div>
+              <div className="p-4 text-sm text-muted-foreground">
+                {content.rawTarefas ? (
+                  <MarkdownRenderer content={content.rawTarefas} />
+                ) : (
+                  <div className="grid gap-2">
+                    {content.orientacoes
+                      .filter(item => !item.toLowerCase().includes('nos 10 min') && !item.toLowerCase().includes('duração da estação'))
+                      .map((item, idx) => (
+                      <div key={idx} className="flex items-start gap-3 bg-secondary/20 rounded-lg p-3">
+                        <span className="flex-shrink-0 w-6 h-6 bg-primary/20 text-primary rounded-full flex items-center justify-center text-xs font-bold">
+                          {idx + 1}
+                        </span>
+                        <p className="text-sm text-foreground/90 pt-0.5">{item.replace(/^-+/, '').trim()}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
 
-            {/* Impressos */}
+            {/* === IMPRESSOS === */}
             {content.impressos.length > 0 && (
-              <div className="space-y-2 mb-6">
-                <h3 className="text-sm font-medium text-foreground mb-3">Impressos</h3>
+              <div className="space-y-3 mb-6">
                 {content.impressos.map((impresso) => (
-                  <ImpressoItem
-                    key={impresso.id}
-                    impresso={impresso}
-                    mode="avaliador"
-                    isUnlocked={session.unlockedImpressos.includes(impresso.id)}
-                    onToggleLock={handleToggleImpresso}
-                  />
+                  <div key={impresso.id} className="bg-card border border-border rounded-lg overflow-hidden">
+                    <div className="bg-[#1a2040] border-b border-primary/30 px-4 py-2">
+                      <div className="flex items-center gap-2 text-primary">
+                        <FileText className="w-4 h-4" />
+                        <span className="text-sm font-bold tracking-wide">IMPRESSO - {impresso.title.replace(/^Impresso \d+ – /, '')}</span>
+                      </div>
+                    </div>
+                    <div className="p-4 text-sm text-muted-foreground">
+                      {impresso.content && <MarkdownRenderer content={impresso.content} />}
+                      {impresso.image && (
+                        <img
+                          src={impresso.image.startsWith('http') ? impresso.image : `https://storage.googleapis.com/flutterflow-prod-hosting/builds/W0O9Hpo7q2K52cAGr0p5/${impresso.image}`}
+                          alt={impresso.title}
+                          className="mt-3 max-w-full rounded-lg border border-border"
+                          loading="lazy"
+                          onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+                        />
+                      )}
+                    </div>
+                  </div>
                 ))}
               </div>
             )}
