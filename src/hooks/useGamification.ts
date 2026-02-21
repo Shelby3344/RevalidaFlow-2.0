@@ -129,7 +129,7 @@ export function useGamification(): UseGamificationReturn {
         .from('user_stats')
         .select('current_streak, total_study_time_minutes, total_checklists')
         .eq('user_id', user.id)
-        .single();
+        .maybeSingle();
       
       const totalHours = (stats?.total_study_time_minutes || 0) / 60;
       const streak = stats?.current_streak || 0;
