@@ -364,6 +364,21 @@ export default function AvaliacaoAvaliador() {
               </div>
             </div>
 
+            {/* === SCRIPT DO ATOR === */}
+            {content.rawScriptAtor && (
+              <div className="bg-card border border-border rounded-lg mb-6 overflow-hidden">
+                <div className="bg-[#1a2040] border-b border-primary/30 px-4 py-2">
+                  <div className="flex items-center gap-2 text-primary">
+                    <User className="w-4 h-4" />
+                    <span className="text-sm font-bold tracking-wide">SCRIPT DO ATOR</span>
+                  </div>
+                </div>
+                <div className="p-4 text-sm text-muted-foreground">
+                  <MarkdownRenderer content={content.rawScriptAtor} />
+                </div>
+              </div>
+            )}
+
             {/* === IMPRESSOS === */}
             {content.impressos.length > 0 && (
               <div className="space-y-3 mb-6">
@@ -419,10 +434,19 @@ export default function AvaliacaoAvaliador() {
               </div>
             ) : (
               <div className="bg-card border border-border rounded-lg mb-6 overflow-hidden">
-                <div className="bg-[#2a2f4a] border-b border-primary/30 px-4 py-3">
-                  <div className="flex items-center gap-2 text-primary">
-                    <AlignLeft className="w-4 h-4" />
-                    <span className="text-sm font-medium">CHECKLIST (PEP)</span>
+                <div className="bg-[#1a2040] border-b border-primary/30 px-4 py-3">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2 text-primary">
+                      <AlignLeft className="w-4 h-4" />
+                      <span className="text-sm font-bold tracking-wide">ITENS DE DESEMPENHO AVALIADOS</span>
+                    </div>
+                    <div className="flex items-center gap-4 text-xs text-muted-foreground">
+                      <span>Inadequado</span>
+                      <span>|</span>
+                      <span>Parc. Adeq.</span>
+                      <span>|</span>
+                      <span>Adequado</span>
+                    </div>
                   </div>
                 </div>
                 <div className="p-5">
