@@ -44,6 +44,26 @@ export default function AvaliacaoAvaliado() {
   const { saveAttempt } = useUserData();
   const { user } = useAuth();
 
+  // Sincronizar status da sessão a partir de mudanças no DB (fallback se broadcast falhar)
+  useEffect(() => {
+    if (!session) return;
+    const dbStatus = session.status;
+    if (dbStatus && dbStatus !== sessionStatus) {
+      setSessionStatus(dbStatus);
+      if (dbStatus === 'em_andamento' && sessionStatus === 'aguardando') {
+        toast.success('Avaliação iniciada!', { description: 'Boa sorte!' });
+      } else if (dbStatus === 'finalizado' && sessionStatus !== 'finalizado') {
+        toast.success('Avaliação finalizada!');
+      }
+    }
+    if (session.resultShared && !resultShared) {
+      setResultShared(true);
+    }
+    if (session.avaliadoName && !hasJoined) {
+      setHasJoined(true);
+    }
+  }, [session?.status, session?.resultShared, session?.avaliadoName]);
+
   // Função para salvar estatísticas do avaliado
   const saveAvaliadoStats = useCallback(async (resultData: ResultData) => {
     if (resultSaved) return; // Evitar salvar duplicado

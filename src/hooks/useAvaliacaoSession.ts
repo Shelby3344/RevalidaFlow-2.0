@@ -308,12 +308,12 @@ export function useAvaliacaoSession(): UseAvaliacaoSessionReturn {
     }
   }, []);
 
-  // Subscrever a mudanças em tempo real
+  // Subscrever a mudanças em tempo real (canal separado do broadcast para evitar conflito)
   useEffect(() => {
     if (!session) return;
 
     const channel = supabase
-      .channel(`avaliacao-${session.code}`)
+      .channel(`avaliacao-db-${session.code}`)
       .on(
         'postgres_changes',
         { 

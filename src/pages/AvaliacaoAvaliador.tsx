@@ -25,9 +25,13 @@ export default function AvaliacaoAvaliador() {
   
   const [content, setContent] = useState<ChecklistContent>(defaultChecklistContent);
   const [isLoading, setIsLoading] = useState(true);
-  const [avaliadoConnected, setAvaliadoConnected] = useState(false);
-  const [avaliadoName, setAvaliadoName] = useState<string>();
+  const [avaliadoConnectedBroadcast, setAvaliadoConnectedBroadcast] = useState(false);
+  const [avaliadoNameBroadcast, setAvaliadoNameBroadcast] = useState<string>();
   const [sessionStartTime, setSessionStartTime] = useState<number | null>(null);
+
+  // Derivar estado de conexão do avaliado tanto do broadcast quanto do DB
+  const avaliadoConnected = avaliadoConnectedBroadcast || !!session?.avaliadoName;
+  const avaliadoName = avaliadoNameBroadcast || session?.avaliadoName;
 
   const {
     session,
@@ -75,10 +79,10 @@ export default function AvaliacaoAvaliador() {
     broadcastResultShared,
     broadcastResultData,
   } = useAvaliacaoSync({
-    sessionCode: sessionCode, // Usar sessionCode da URL diretamente
+    sessionCode: sessionCode,
     onAvaliadoConnected: (name) => {
-      setAvaliadoConnected(true);
-      setAvaliadoName(name);
+      setAvaliadoConnectedBroadcast(true);
+      setAvaliadoNameBroadcast(name);
       toast.success('Avaliado conectado!', { description: name });
     },
   });
