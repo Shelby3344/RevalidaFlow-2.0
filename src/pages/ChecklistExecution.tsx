@@ -8,7 +8,8 @@ import {
   XCircle, AlertCircle, TrendingUp, BarChart3, FileText, Stethoscope, ClipboardList
 } from "lucide-react";
 import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
-import { checklistsData } from "@/data/checklists";
+import { checklistsData, AreaCode } from "@/data/checklists";
+import { pepeStationsData, areaSiglas } from "@/data/pepe-stations";
 import { getChecklistContentById, getChecklistContentByIdAsync, defaultChecklistContent } from "@/data/checklistContents";
 import { AreaBadge } from "@/components/AreaBadge";
 import { ChecklistContent, ChecklistEvaluationItem } from "@/types/checklists";
@@ -58,7 +59,25 @@ export default function ChecklistExecution() {
   const [showResultModal, setShowResultModal] = useState(false);
   const [resultSaved, setResultSaved] = useState(false);
 
-  const checklist = checklistsData.find(c => c.id === id);
+  const checklist = useMemo(() => {
+    // Primeiro, verificar se é uma estação PEPE (station_id)
+    const numId = Number(id);
+    const pepeStation = pepeStationsData.find(s => s.station_id === numId);
+    if (pepeStation) {
+      const areaCode = (areaSiglas[pepeStation.station_area] || 'CM') as AreaCode;
+      return {
+        id: String(pepeStation.station_id),
+        areaCode,
+        areaName: pepeStation.station_area,
+        title: pepeStation.station_name,
+        inepEdition: pepeStation.station_edition || null,
+        average: 0,
+        grade: null,
+      };
+    }
+    // Fallback para checklists INEP
+    return checklistsData.find(c => c.id === id) || null;
+  }, [id]);
   const checklistTitle = checklist ? checklist.title : "Checklist não encontrado";
   
   // Estado para modal de criar sessão de avaliação
