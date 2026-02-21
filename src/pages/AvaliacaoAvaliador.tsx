@@ -29,10 +29,6 @@ export default function AvaliacaoAvaliador() {
   const [avaliadoNameBroadcast, setAvaliadoNameBroadcast] = useState<string>();
   const [sessionStartTime, setSessionStartTime] = useState<number | null>(null);
 
-  // Derivar estado de conexão do avaliado tanto do broadcast quanto do DB
-  const avaliadoConnected = avaliadoConnectedBroadcast || !!session?.avaliadoName;
-  const avaliadoName = avaliadoNameBroadcast || session?.avaliadoName;
-
   const {
     session,
     loadSession,
@@ -42,6 +38,10 @@ export default function AvaliacaoAvaliador() {
     lockImpresso,
     getSessionLink,
   } = useAvaliacaoSession();
+
+  // Derivar estado de conexão do avaliado tanto do broadcast quanto do DB
+  const avaliadoConnected = avaliadoConnectedBroadcast || !!session?.avaliadoName;
+  const avaliadoName = avaliadoNameBroadcast || session?.avaliadoName;
 
   const {
     timeRemaining,
