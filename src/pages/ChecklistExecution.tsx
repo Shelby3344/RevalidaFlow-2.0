@@ -695,7 +695,7 @@ export default function ChecklistExecution() {
                   <tbody className="text-sm">
                     {content.evaluationItems.map((item) => {
                       const response = responses[item.id];
-                      const hasPartial = item.scoring.partial && item.scoring.partial !== "—";
+                      const hasPartial = item.scores.partial > 0;
                       
                       return (
                         <tr key={item.id} className={cn(

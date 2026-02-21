@@ -119,7 +119,7 @@ function parseEvaluationItem(item: { idx: number; descricao: string; categoria: 
   for (const line of lines) {
     const cleanLine = line.replace(/\*\*/g, '').trim();
     
-    if (cleanLine.match(/^\d+\.\s/)) {
+    if (cleanLine.match(/^\d+[\d.]*\.\s/)) {
       title = cleanLine;
     } else if (cleanLine.startsWith('(') && cleanLine.match(/^\(\d+\)/)) {
       subItems.push(cleanLine);
@@ -134,7 +134,11 @@ function parseEvaluationItem(item: { idx: number; descricao: string; categoria: 
   
   // Parse scores from pontuacao
   const maxScore = parseFloat(item.pontuacao.adequado) || 1;
-  const partialScore = item.pontuacao.parcial === '-' ? 0 : (parseFloat(item.pontuacao.parcial) || maxScore / 2);
+  const partialScore = item.pontuacao.parcial === '-' ? 0 : (parseFloat(item.pontuacao.parcial) || 0);
+  
+  // Se há pontuação parcial mas nenhum texto descritivo, gerar texto padrão
+  const hasPartialScore = partialScore > 0;
+  const defaultPartialText = hasPartialScore ? 'Realiza parcialmente.' : '—';
   
   return {
     id: item.idx,
@@ -142,7 +146,7 @@ function parseEvaluationItem(item: { idx: number; descricao: string; categoria: 
     subItems,
     scoring: {
       adequate: adequate || 'Realiza corretamente.',
-      partial: partial || '—',
+      partial: partial || defaultPartialText,
       inadequate: inadequate || 'Não realiza.'
     },
     scores: {

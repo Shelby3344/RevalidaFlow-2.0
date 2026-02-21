@@ -43,7 +43,7 @@ export function ChecklistEvaluator({
     <div className="space-y-4">
       {items.map((item) => {
         const selectedType = getSelectedType(item.id);
-        const hasPartial = item.scoring.partial && item.scoring.partial !== '—';
+        const hasPartial = item.scores.partial > 0;
 
         return (
           <div

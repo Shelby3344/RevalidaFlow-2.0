@@ -174,7 +174,7 @@ export function ChecklistCompletoIA({
                     <span className="text-green-400 font-semibold">Adequado ({item.scores.max.toFixed(1)}):</span>{" "}
                     <span className="text-muted-foreground">{item.scoring.adequate}</span>
                   </p>
-                  {item.scoring.partial && item.scoring.partial !== "—" && (
+                  {item.scores.partial > 0 && (
                     <p>
                       <span className="text-amber-400 font-semibold">Parcial ({item.scores.partial.toFixed(1)}):</span>{" "}
                       <span className="text-muted-foreground">{item.scoring.partial}</span>
@@ -202,7 +202,7 @@ export function ChecklistCompletoIA({
                   </div>
 
                   {/* Parcial */}
-                  {item.scoring.partial && item.scoring.partial !== "—" && (
+                  {item.scores.partial > 0 && (
                     <div
                       className={cn(
                         "flex-1 flex items-center justify-center gap-1 py-1.5 rounded border text-xs",
